@@ -16,8 +16,8 @@
 mission "Remnant: Bounty"
 	job
 	repeat
-	name "Crippled <npc model> Bounty"
-	description "A crippled Korath ship is lurking in Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "<NM-848>"
+	description "<DS-3197>"
 	source
 		government "Remnant"
 	to offer
@@ -37,20 +37,20 @@ mission "Remnant: Bounty"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Palavret (Crippled)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "<DL-695>"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 300000
-		dialog "A Remnant military leader thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "<DL-696>"
 
 
 
 mission "Remnant: Bounty 2"
 	job
 	repeat
-	name "Troublesome <npc model> Bounty"
-	description "A Korath ship is proving troublesome in Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "<NM-849>"
+	description "<DS-3198>"
 	source
 		government "Remnant"
 	to offer
@@ -70,18 +70,18 @@ mission "Remnant: Bounty 2"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Palavret (Hyperdrive)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "<DL-695>"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 400000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "<DL-697>"
 
 
 
 mission "Remnant: Broken Jump Drive job"
-	name "Broken Jump Drive Delivery"
-	description "The researchers on <planet> need another broken jump drive to continue their project."
+	name "<NM-797>"
+	description "<DS-3199>"
 	job
 	repeat 4
 	to offer
@@ -105,15 +105,15 @@ mission "Remnant: Broken Jump Drive job"
 		payment 300000
 		"reputation: Remnant" ++
 		"Remnant: Broken Jump Drive job: offered" --
-		dialog "The research team quickly offloads the broken jump drive and pays you <payment> before hurrying back to their lab."
+		dialog "<DL-698>"
 
 
 
 mission "Remnant: Expanded Horizons Astral job"
 	job
 	repeat
-	name "Research Expedition to <waypoints>"
-	description "Travel to <waypoints> with a Research Laboratory to collect data, then return to <destination>."
+	name "<NM-850>"
+	description "<DS-3200>"
 	source
 		government "Remnant"
 	waypoint
@@ -129,19 +129,19 @@ mission "Remnant: Expanded Horizons Astral job"
 	on offer
 		require "Research Laboratory"
 	on waypoint
-		dialog "Your scientist unpacks the laboratory and takes the requested observations. A short while later, they have the data compiled on a set of data crystals and inform you that everything is ready for departure."
+		dialog "<DL-699>"
 	on complete
 		payment 500000
 		"reputation: Remnant" ++
-		dialog "When you land, a researcher quickly retrieves the data crystals with the information about the surveyed system and hands you the logistics allotment of <payment>."
+		dialog "<DL-700>"
 
 
 
 mission "Remnant: Bounty 3"
 	job
 	repeat
-	name "Damaged Rano'erek Bounty"
-	description "A damaged Korath ship is lurking in Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "<NM-851>"
+	description "<DS-3201>"
 	source
 		government "Remnant"
 	to offer
@@ -162,20 +162,20 @@ mission "Remnant: Bounty 3"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Rano'erek (Crippled)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "<DL-695>"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 400000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "<DL-697>"
 
 
 
 mission "Remnant: Bounty 4"
 	job
 	repeat
-	name "Marauding Rano'erek Bounty"
-	description "A Korath ship is marauding through Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "<NM-852>"
+	description "<DS-3202>"
 	source
 		government "Remnant"
 	to offer
@@ -192,20 +192,20 @@ mission "Remnant: Bounty 4"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Rano'erek (Crippled)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "<DL-695>"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 500000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "<DL-697>"
 
 
 
 mission "Remnant: Bounty 5"
 	job
 	repeat
-	name "Destroy Ground Assault Bounty"
-	description "A Korath ship is hunting for our outposts in the Ember Wastes. Track it down, eliminate it and any fighters it is carrying, and then return to <planet> to receive your payment of <payment>."
+	name "<NM-853>"
+	description "<DS-3203>"
 	source
 		government "Remnant"
 	to offer
@@ -229,18 +229,18 @@ mission "Remnant: Bounty 5"
 			variant
 				"Rano'erek (Ground Assault)"
 				"'olofez" 4
-		dialog "You have destroyed the Korath ship and its fighters. You can now return to <planet> to collect your payment."
+		dialog "<DL-701>"
 	on visit
-		dialog "You've landed on <planet>, but the Korath ship and its fighters have not all been eliminated. Hunt them down and destroy them before returning."
+		dialog "<DL-702>"
 	on complete
 		payment 400000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc> and its fighters, and gives you the agreed-upon payment of <payment>."
+		dialog "<DL-703>"
 
 
 
 mission "Remnant: Logistics Civil Engineering"
-	name "Civil delivery to <planet>"
-	description `Engineers on <planet> need <cargo> delivered. Logistics adjustment is <payment>.`
+	name "<NM-854>"
+	description `<DS-3204>`
 	cargo "remnant civil" 20 4 .1
 	job
 	repeat
@@ -259,15 +259,15 @@ mission "Remnant: Logistics Civil Engineering"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `A project engineer inspects the <cargo> and signs off on your payment of <payment>.`
+		dialog `<DL-704>`
 		payment
 		payment 10000
 
 
 
 mission "Remnant: Logistics Industrial Delivery"
-	name "Industrial delivery to <planet>"
-	description `Project teams on <planet> need <cargo> delivered. Logistics adjustment is <payment>.`
+	name "<NM-855>"
+	description `<DS-3205>`
 	cargo "remnant industrial" 20 4 .03
 	job
 	repeat
@@ -286,15 +286,15 @@ mission "Remnant: Logistics Industrial Delivery"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `A project technician inspects the <cargo> and approves your payment of <payment>.`
+		dialog `<DL-705>`
 		payment
 		payment 15000
 
 
 
 mission "Remnant: Logistics Outfitter Delivery"
-	name "Component delivery to <planet>"
-	description `Outfitter repair crews on <planet> need <cargo> parts delivered. Logistics adjustment is <payment>.`
+	name "<NM-856>"
+	description `<DS-3206>`
 	cargo "remnant outfitter repair" 20 3 .04
 	job
 	repeat
@@ -314,15 +314,15 @@ mission "Remnant: Logistics Outfitter Delivery"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `A repair technician inspects the <cargo> parts and authorizes your payment of <payment>.`
+		dialog `<DL-706>`
 		payment
 		payment 30000
 
 
 
 mission "Remnant: Logistics Salvage Delivery"
-	name "Salvage delivery to <planet>"
-	description `Deliver <cargo> components from recent salvage operations to the outfitters on <planet> for research, refurbishment, or recycling. Logistics adjustment is <payment>.`
+	name "<NM-857>"
+	description `<DS-3207>`
 	cargo "remnant salvage" 5 4 .06
 	job
 	repeat
@@ -342,7 +342,7 @@ mission "Remnant: Logistics Salvage Delivery"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `Two armed repair technicians inspects the <cargo> and authorize your payment of <payment>.`
+		dialog `<DL-707>`
 		payment 25000 300
 
 
@@ -350,8 +350,8 @@ mission "Remnant: Logistics Salvage Delivery"
 mission "Remnant: Rescue"
 	job
 	repeat
-	name "Search and Rescue: Scout"
-	description "The <npc> has gone missing during a scouting mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "<NM-858>"
+	description "<DS-3208>"
 	source
 		government "Remnant"
 	to offer
@@ -379,10 +379,10 @@ mission "Remnant: Rescue"
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>.`
+			`<CN-17204>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -420,8 +420,8 @@ outfit "Suicide Gun"
 mission "Remnant: Rescue 1B"
 	job
 	repeat
-	name "Search and Rescue: Scout"
-	description "The <npc> has gone missing during a scouting mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "<NM-858>"
+	description "<DS-3208>"
 	source
 		government "Remnant"
 	to offer
@@ -444,23 +444,23 @@ mission "Remnant: Rescue 1B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`<CN-17206>`
 	on complete
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`<CN-17207>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
 mission "Remnant: Rescue 2"
 	job
 	repeat
-	name "Search and Rescue: Retrieval"
-	description "The <npc> has gone missing during a tech retrieval mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "<NM-859>"
+	description "<DS-3209>"
 	source
 		government "Remnant"
 	to offer
@@ -490,18 +490,18 @@ mission "Remnant: Rescue 2"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, along with a brief note of thanks.`
+			`<CN-17208>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
 mission "Remnant: Rescue 2B"
 	job
 	repeat
-	name "Search and Rescue: Retrieval"
-	description "The <npc> has gone missing during a tech retrieval mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "<NM-859>"
+	description "<DS-3209>"
 	source
 		government "Remnant"
 	to offer
@@ -524,23 +524,23 @@ mission "Remnant: Rescue 2B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`<CN-17206>`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`<CN-17207>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
 mission "Remnant: Rescue 3"
 	job
 	repeat
-	name "Search and Rescue: Supply Ship"
-	description "The <npc> has gone missing during a supply run in the Ember Wastes. Find them and help them return to <destination>."
+	name "<NM-860>"
+	description "<DS-3210>"
 	source
 		government "Remnant"
 	to offer
@@ -568,18 +568,18 @@ mission "Remnant: Rescue 3"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, and also a thank you from the captain of the <npc>.`
+			`<CN-17209>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
 mission "Remnant: Rescue 3B"
 	job
 	repeat
-	name "Search and Rescue: Supply Ship"
-	description "The <npc> has gone missing during a supply run in the Ember Wastes. Find them and help them return to <destination>."
+	name "<NM-860>"
+	description "<DS-3210>"
 	source
 		government "Remnant"
 	to offer
@@ -602,23 +602,23 @@ mission "Remnant: Rescue 3B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`<CN-17206>`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`<CN-17207>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
 mission "Remnant: Rescue 4"
 	job
 	repeat
-	name "Distress Signal: Graveyard"
-	description "A distress signal has been received from the <npc> in the Graveyard. Follow the telemetry data to find them, and help return them safely to <destination>."
+	name "<NM-861>"
+	description "<DS-3211>"
 	source
 		government "Remnant"
 	to offer
@@ -643,19 +643,19 @@ mission "Remnant: Rescue 4"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Upon landing, the captain of the <npc> meets you at your ship to thank you personally for rescuing them from the Graveyard, leaving you with a heartfelt sentence: "May the Embers burn bright for you."`
-			`	Soon after, your communicator notifies you of a resource allocation of <payment>.`
+			`<CN-17210>`
+			`<CN-17211>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> has not.`
+			`<CN-17212>`
 
 
 
 mission "Remnant: Rescue 5"
 	job
 	repeat
-	name "Search and Rescue: Terminus"
-	description "While scouting around Terminus, the <npc> has stopped reporting in. Find out what happened and return to <destination>."
+	name "<NM-862>"
+	description "<DS-3212>"
 	source
 		government "Remnant"
 	to offer
@@ -676,17 +676,17 @@ mission "Remnant: Rescue 5"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Worried that they would never see the Embers again, the captain of the <npc> personally thanks you for bringing them home, even before your communicator notifies you of a resource allocation of <payment>.`
+			`<CN-17213>`
 	on visit
 		dialog
-			`You have returned, but there is still no word from the missing ship.`
+			`<CN-17214>`
 
 
 mission "Remnant: Disable 1"
 	job
 	repeat
-	name "Disable Damaged Dathnak A'awoj"
-	description "A damaged Dathnak A'awoj is stuck in a newly accessible system, near Postverta. It has a large civilian population so we ask you to only disable it to avoid an atrocity. Once you return to <planet> you will receive a logistics adjustment of <payment>."
+	name "<NM-863>"
+	description "<DS-3213>"
 	source
 		government "Remnant"
 	to offer
@@ -703,15 +703,15 @@ mission "Remnant: Disable 1"
 			names "korath"
 			variant
 				"Kas'lor Ik 582 (Stranded)"
-		dialog `You have disabled the Dathnak A'awoj. Time to report back to <planet>.`
+		dialog `<DL-691>`
 	on visit
-		dialog `You've landed on <planet>, but the stuck Dathnak A'awoj has not been disabled yet. Hunt it down and disable it before returning.`
+		dialog `<DL-708>`
 	on abort
-		dialog `The Remnant are puzzled at your aborting of this mission, but they tell you they will send someone else to do this work. They advise you they will prioritize other teams for these missions in the future.`
+		dialog `<DL-709>`
 	on fail
 		"reputation: Remnant" -= 250
-		dialog `You were unable to disable the Dathnak A'awoj without destroying it... The Remnant will not be pleased...`
+		dialog `<DL-694>`
 	on complete
 		"remnant: disable and save count" ++
 		payment 2000000
-		dialog "A Remnant military prefect thanks you for disabling the Dathnak A'awoj <npc>, and gives you the agreed-upon logistics adjustment of <payment>."
+		dialog "<DL-710>"

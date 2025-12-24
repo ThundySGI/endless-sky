@@ -22,7 +22,7 @@ outfit "Korath Tek'far Reactor"
 	"outfit space" -25
 	"energy generation" 3.9
 	"heat generation" 7.3
-	description "This is a miniature nuclear reactor, used by the Korath to power their fighters."
+	description "<DS-3642>"
 
 outfit "Korath Tek'nel Reactor"
 	category "Power"
@@ -32,7 +32,7 @@ outfit "Korath Tek'nel Reactor"
 	"outfit space" -140
 	"energy generation" 27.1
 	"heat generation" 80
-	description "This massive reactor was designed by the Korath to meet the power needs of their largest ships."
+	description "<DS-3643>"
 
 
 outfit "Korath Shield Generator"
@@ -43,7 +43,7 @@ outfit "Korath Shield Generator"
 	"outfit space" -52
 	"shield generation" 2.4
 	"shield energy" 2.4
-	description "Korath fighters are not able to recharge their shields, but their larger ships are equipped with one of these."
+	description "<DS-3644>"
 
 outfit "Korath Heat Shunt"
 	category "Systems"
@@ -52,7 +52,7 @@ outfit "Korath Heat Shunt"
 	"mass" 34
 	"outfit space" -34
 	"cooling" 78
-	description "Korath weapons generate extreme amounts of heat, and the cooling systems they require are massive."
+	description "<DS-3645>"
 
 outfit "Korath Ark'torbal Thruster"
 	category "Engines"
@@ -67,7 +67,7 @@ outfit "Korath Ark'torbal Thruster"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description "This engine is used by Korath fighters."
+	description "<DS-3646>"
 
 outfit "Korath Ark'parat Steering"
 	category "Engines"
@@ -79,7 +79,7 @@ outfit "Korath Ark'parat Steering"
 	"turn" 360
 	"turning energy" .6
 	"turning heat" .7
-	description "This engine is used by Korath fighters."
+	description "<DS-3646>"
 
 outfit "Korath Jak'torbal Thruster"
 	category "Engines"
@@ -94,7 +94,7 @@ outfit "Korath Jak'torbal Thruster"
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"flare sound" "plasma large"
-	description "This engine is used in the Korath capital ships."
+	description "<DS-3647>"
 
 outfit "Korath Jak'parat Steering"
 	category "Engines"
@@ -106,7 +106,7 @@ outfit "Korath Jak'parat Steering"
 	"turn" 2520
 	"turning energy" 3.1
 	"turning heat" 7.9
-	description "This engine is used in the Korath capital ships."
+	description "<DS-3647>"
 
 
 # Deprecated in favor of the Outfits Expansion, which has a cooling penalty that
@@ -119,7 +119,7 @@ outfit "Mass Expansion"
 	"outfit space" 15
 	"cargo space" -20
 	unplunderable 1
-	description "A mass expansion allows you to sacrifice some cargo space in order to make room for more outfits, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space unfortunately."
+	description "<DS-3648>"
 
 # Deprecated to give it a less generic name.
 outfit "Reverse Thruster"
@@ -151,7 +151,7 @@ outfit "Bullfrog Anti-Missile Turret"
 		"firing energy" 12
 		"firing heat" 5
 		"stream"
-	description ""
+	description "<DS-3649>"
 
 outfit "Chameleon Anti-Missile Turret"
 	category "Turrets"
@@ -170,7 +170,7 @@ outfit "Chameleon Anti-Missile Turret"
 		"firing energy" 23
 		"firing heat" 6
 		"stream"
-	description ""
+	description "<DS-3649>"
 
 # Because of "big explosion" being renamed to "large explosion":
 effect "big explosion"
@@ -189,13 +189,13 @@ effect "big explosion"
 outfit "Cruiser License"
 	category "Special"
 	thumbnail "outfit/navy cruiser license"
-	description "It is a very rare privilege to be permitted to purchase a Navy capital ship for private use - not just because of a Cruiser's firepower, but because it is a potent symbol of the Republic's strength."
+	description "<DS-696>"
 
 # Deprecated to clarify their name as being part of the Navy, and not a general purpose license for carrier type ships.
 outfit "Carrier License"
 	category "Special"
 	thumbnail "outfit/navy carrier license"
-	description "Only a handful of people in the past century have been given permission to purchase a Navy Carrier, even a decommissioned one, for private use."
+	description "<DS-697>"
 
 # Compatibility patch for those who use plug-ins that give all the licenses.
 # Each one checks for the presence of one of the two licenses, then replaces it.
@@ -230,7 +230,7 @@ outfit "Afterburner"
 	"afterburner fuel" .1
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	description "An afterburner works by dumping hyperspace fuel into your engines and igniting it, producing a large amount of thrust. This can be very useful for dodging missiles or briefly escaping from faster opponents, but you must be careful to avoid using up so much fuel that you do not have enough left for hyperspace travel."
+	description "<DS-128>"
 
 
 
@@ -270,7 +270,7 @@ outfit "Korath Grab-Strike"
 		"shield damage" 108
 		"hull damage" 32
 		"hit force" -240
-	description "Korath Grab-Strike projectiles are designed to pull a target closer to the Korath ship, to keep it from escaping."
+	description "<DS-3012>"
 
 outfit "Korath Banisher"
 	category "Turrets"
@@ -298,7 +298,7 @@ outfit "Korath Banisher"
 		"shield damage" 2.8
 		"hull damage" .9
 		"hit force" 60
-	description "The Korath like to keep their enemies close... but not too close."
+	description "<DS-3015>"
 
 outfit "Korath Warder"
 	category "Turrets"
@@ -319,7 +319,7 @@ outfit "Korath Warder"
 		"reload" 5
 		"firing energy" 24
 		"firing heat" 10
-	description "This anti-missile system helps defend Korath warships from long-range attacks."
+	description "<DS-3017>"
 
 outfit "Korath Fire-Lance"
 	category "Guns"
@@ -344,7 +344,7 @@ outfit "Korath Fire-Lance"
 		"shield damage" 3.5
 		"hull damage" 1.5
 		"heat damage" 12
-	description "The Korath Fire-Lance is a medium-range beam weapon designed to be used by their fighters."
+	description "<DS-3018>"
 
 outfit "Korath Repeater"
 	category "Guns"
@@ -372,7 +372,7 @@ outfit "Korath Repeater"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "This is the smallest and simplest Korath projectile weapon, designed mostly for use on fighters and drones. As with most Korath technology, it generates a large amount of heat, enough that the gun must pause briefly after every few shots to cool down."
+	description "<DS-3021>"
 
 outfit "Korath Repeater Turret"
 	category "Turrets"
@@ -404,7 +404,7 @@ outfit "Korath Repeater Turret"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "Korath repeaters fire compact bolts of superheated plasma at their targets. For every one of these turrets installed on a ship, an auxiliary cooling system is typically required to cope with its heat output."
+	description "<DS-3650>"
 
 outfit "Korath Piercer"
 	category "Ammunition"
@@ -412,7 +412,7 @@ outfit "Korath Piercer"
 	thumbnail "outfit/piercer"
 	"mass" .3
 	"piercer capacity" -1
-	description "This missile is fired from a Korath Piercer Launcher."
+	description "<DS-3651>"
 
 outfit "Korath Piercer Rack"
 	category "Ammunition"
@@ -422,7 +422,7 @@ outfit "Korath Piercer Rack"
 	"outfit space" -7
 	"piercer capacity" 16
 	ammo "Korath Piercer"
-	description "The Korath Piercer Rack is used to store extra ammunition for Korath Piercer Launchers."
+	description "<DS-3652>"
 
 outfit "Korath Piercer Launcher"
 	category "Secondary Weapons"
@@ -464,7 +464,7 @@ outfit "Korath Piercer Launcher"
 		"hit force" 450
 		"missile strength" 73
 		"stream"
-	description "Korath Piercer Missiles carry a pair of warheads. The first, a smaller one in the very tip of the missile, explodes on impact to blast a hole in the ship's shields to allow some of the subsequent, larger explosion to pierce through."
+	description "<DS-3025>"
 
 outfit "Korath Mine"
 	category "Ammunition"
@@ -472,7 +472,7 @@ outfit "Korath Mine"
 	thumbnail "outfit/korath mine"
 	"mass" .7
 	"minelayer capacity" -1
-	description "This is ammunition for a Korath Minelayer. Each mine splits into eleven submunitions after it is deployed."
+	description "<DS-3653>"
 
 outfit "Korath Mine Rack"
 	category "Ammunition"
@@ -482,7 +482,7 @@ outfit "Korath Mine Rack"
 	"outfit space" -9
 	"minelayer capacity" 9
 	ammo "Korath Mine"
-	description "The Korath Mine Rack is used to store extra ammunition for Korath Minelayers."
+	description "<DS-3654>"
 
 outfit "Korath Minelayer"
 	category "Secondary Weapons"
@@ -523,7 +523,7 @@ outfit "Korath Minelayer"
 		"hull damage" -2400
 		"hit force" -225
 		"stream"
-	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+	description "<DS-3029>"
 
 outfit "Korath Disruptor"
 	category "Turrets"
@@ -551,7 +551,7 @@ outfit "Korath Disruptor"
 		"shield damage" 3.8
 		"hull damage" .5
 		"disruption damage" .24
-	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description "<DS-3655>"
 
 outfit "Korath Slicer"
 	category "Guns"
@@ -576,7 +576,7 @@ outfit "Korath Slicer"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
+	description "<DS-3031>"
 
 outfit "Korath Slicer Turret"
 	category "Turrets"
@@ -605,7 +605,7 @@ outfit "Korath Slicer Turret"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+	description "<DS-3032>"
 
 outfit "Korath Repeater Rifle"
 	category "Hand to Hand"
@@ -614,7 +614,7 @@ outfit "Korath Repeater Rifle"
 	"capture attack" 1.6
 	"capture defense" 2.4
 	"unplunderable" 1
-	description "This rifle is commonplace among the Korath, predating the creation of the Repeater by at least two centuries. As it uses superheated plasma instead of lasers, the rifle is slow to fire and can sometimes burn its user's hands if they aren't careful. It makes up for these setbacks by guaranteeing that those hit won't live long enough to fire back."
+	description "<DS-3656>"
 
 outfit "Nanotech Battery"
 	plural "Nanotech Batteries"
@@ -624,7 +624,7 @@ outfit "Nanotech Battery"
 	"mass" 50
 	"outfit space" -50
 	"energy capacity" 60000
-	description "Human engineers who first came into contact with the Quarg were astonished by the sheer efficiency of their technology. The energy density of Quarg batteries is unparalleled, storing nearly a third more energy than the best human batteries while being over a third smaller."
+	description "<DS-3657>"
 
 outfit "Quantum Shield Generator"
 	category "Systems"
@@ -634,7 +634,7 @@ outfit "Quantum Shield Generator"
 	"outfit space" -120
 	"shield generation" 10
 	"shield energy" 10
-	description "The first humans who met the Quarg thought that their technology worked on magic, and many even think so to this day. The mechanism by which this Quarg shield generator works is completely unknown to humanity, and the Quarg aren't interested in giving up their secrets."
+	description "<DS-3658>"
 
 outfit "Intrusion Countermeasures"
 	plural "Intrusion Countermeasures"
@@ -642,7 +642,7 @@ outfit "Intrusion Countermeasures"
 	thumbnail "outfit/quarg countermeasures"
 	"capture defense" 24
 	"unplunderable" 1
-	description "Quarg ships are outfitted with special systems for repelling boarders. Because no one wants to be caught by the Quarg with stolen technology, these systems are pretty much worthless on the open market."
+	description "<DS-3659>"
 
 outfit "Quarg Skylance"
 	category "Turrets"
@@ -671,7 +671,7 @@ outfit "Quarg Skylance"
 		"hull damage" 40
 		"ion damage" .1
 		"scrambling damage" .1
-	description "These immensely powerful beam weapons are used by Quarg warships to strike fear into the hearts of all who dare oppose them."
+	description "<DS-3660>"
 
 outfit "Quarg Anti-Missile"
 	category "Turrets"
@@ -690,7 +690,7 @@ outfit "Quarg Anti-Missile"
 		"lifetime" 1
 		"reload" 10
 		"firing energy" 50
-	description "Quarg anti-missile defenses can target projectiles from considerable range compared to human technology, ensuring that only the most powerful missiles are capable of even getting near a Quarg ship."
+	description "<DS-3661>"
 
 outfit "Multimodal Armor: Resilient"
 	category "Systems"
@@ -703,8 +703,8 @@ outfit "Multimodal Armor: Resilient"
 	"corrosion protection" 0.5
 	"multimodal armor" -1
 	"unplunderable" 1
-	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "	This configuration is designed for exploring hazardous areas, substantially increasing the armor's ability to resist engine-dampening effects and long-term degradation."
+	description "<DS-3402>"
+	description "<DS-3662>"
 
 outfit "Nettle Magazine"
 	category "Ammunition"
@@ -718,7 +718,7 @@ outfit "Nettle Magazine"
 	"outfit space" -12
 	"nettle capacity" 72
 	ammo `"Nettle" KKV`
-	description "To improve the combat endurance of ships that rely on flooding the battlespace with small missiles, this magazine extends the capacity of Nettle launch cells by loading new Nettle KKVs through the bottoms of the cells."
+	description "<DS-3663>"
 
 outfit "Orchid Magazine"
 	category "Ammunition"
@@ -732,7 +732,7 @@ outfit "Orchid Magazine"
 	"outfit space" -12
 	"orchid capacity" 3
 	ammo `"Orchid" Nuclear Missile`
-	description "This large ammunition storage loads new Orchid Missiles into the launch tubes with little more than a few cables, actuators, and solenoids. Designed to be as minimalistic as possible, the sheer size of each Orchid nonetheless makes this magazine rather bulky for the number of missiles it stores."
+	description "<DS-3664>"
 
 outfit `Z-3600 "Beam" Amat Torch`
 	category "Engines"
@@ -759,4 +759,4 @@ outfit `Z-3600 "Beam" Amat Torch`
 		"scale" 0.5
 	"steering flare sound" "remnant afterburner"
 	"magnetic nozzle" 18
-	description "The fastest Avgi starships were propelled not just by their engines, but also by immense banks of lasers and particle beams stationed in the Anax system, pushing ships to velocities in excess of 0.2c before braking with a magsail or plasma magnet. Just before the invention of the hyperdrive, however, the Avgi perfected this beam-core antimatter drive, capable of pushing a starship with sufficient antimatter fuel to 0.4c and perhaps beyond. Requiring immense quantities of antimatter, the amat farms around Anax such as Antivli Station would have been strained to their limits had this design entered mass production, but the surprise invention of the hyperdrive rendered it laughably obsolete overnight."
+	description "<DS-2037>"

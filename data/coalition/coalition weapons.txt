@@ -38,7 +38,7 @@ outfit "Bombardment Cannon"
 		"firing heat" 14
 		"shield damage" 22
 		"hull damage" 25
-	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+	description `<DS-2349>`
 
 outfit "Bombardment Turret"
 	category "Turrets"
@@ -71,7 +71,7 @@ outfit "Bombardment Turret"
 		"firing heat" 14
 		"shield damage" 22
 		"hull damage" 25
-	description `A Bombardment Turret is not one of the most dangerous Heliarch weapons, but it has the advantage that it can hit targets a considerable distance away.`
+	description `<DS-2350>`
 
 effect "bombardment impact"
 	sprite "effect/bombardment impact"
@@ -121,8 +121,8 @@ outfit "Finisher Pod"
 		"radar tracking" .8
 		"missile strength" 50
 		"submunition" "Active Finisher" 1
-	description `Finisher Torpedoes are one of the Heliarchs' most dreaded weapons. In fact, in one way or another most of their other weapons merely exist to hold a ship in place for long enough for a barrage of Finishers to destroy it.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `<DS-2351>`
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -165,8 +165,8 @@ outfit "Finisher Maegrolain"
 		"radar tracking" .8
 		"missile strength" 50
 		"submunition" "Active Finisher" 1
-	description `Baptized with the Saryd word for "furious thunderstorm," this enormous launcher is not meant for prolonged fights nor for use by lighter craft, but for delivering a few quick, devastating bursts of Finisher Torpedoes. It has much greater damage potential than its smaller counterpart.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `<DS-2352>`
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -203,7 +203,7 @@ outfit "Finisher Storage Tube"
 	"energy capacity" 120
 	"finisher capacity" 20
 	ammo "Finisher Torpedo"
-	description "In order to allow Heliarch ships to install more Finisher Storage Tubes, Heliarch engineers have incorporated a tiny battery pack into each module. This allows for Heliarch ships to have a respectable energy capacity while also carrying a fearsome number of Finishers."
+	description "<DS-2353>"
 
 outfit "Finisher Torpedo"
 	plural "Finisher Torpedoes"
@@ -214,8 +214,8 @@ outfit "Finisher Torpedo"
 	thumbnail "outfit/finisher"
 	"mass" .5
 	"finisher capacity" -1
-	description `A substantial fraction of the Heliarch military complex is devoted to supervising the refining, enrichment, and breeding of nuclear fuels. Having ensured a steady supply of feedstock, they are able to produce a selective set of highly exotic fissile materials. With minuscule critical masses and favorable neutronics properties, these carefully controlled isotopes are the key to giving the miniaturized nuclear warhead in the Finisher Torpedo enough power to deter any would-be threats to the Coalition.`
-	description `	This extremely powerful but also expensive missile is ammunition for the Heliarch Finisher Pod.`
+	description `<DS-2354>`
+	description `<DS-2355>`
 
 effect "finisher sparks"
 	sprite "effect/finisher sparks"
@@ -301,7 +301,7 @@ outfit "Heliarch Attractor"
 		"hull damage" 4.2
 		"firing force" -45
 		"hit force" -45
-	description "When battling the Quarg, the Heliarchs learned that the Quarg would not engage in a battle that their ships might be unable to escape. In response, they focused on building weapons that would keep a ship from being able to come to a stop and activate its jump drive."
+	description "<DS-2356>"
 
 effect "attractor impact"
 	sprite "effect/attractor impact"
@@ -347,7 +347,7 @@ outfit "Heliarch Repulsor"
 		"firing force" 90
 		"hit force" 90
 		"slowing damage" .1
-	description "This beam turret allows a Heliarch ship to hold its enemies far enough away that they cannot make use of their short-range weapons."
+	description "<DS-2357>"
 
 effect "repulsor impact"
 	sprite "effect/repulsor impact"
@@ -386,7 +386,7 @@ outfit "Ion Hail Turret"
 		"firing energy" 48
 		"firing heat" 24
 		"submunition" "ion hail" 4
-	description "Instead of just placing an Ion Rain Gun on a turret mount, the Heliarch tweaked the cycles of shots, having each shot be significantly more effective and seeing an overall increase to the weapon's range, but at the cost of a reload period."
+	description "<DS-2358>"
 
 outfit "ion hail"
 	weapon
@@ -435,7 +435,7 @@ outfit "Ion Rain Gun"
 		"hull damage" 5
 		"ion damage" .2
 		"scrambling damage" .2
-	description "Heliarch ships primarily serve as a police force. This weapon is designed to neutralize a target's offensive capabilities until more Heliarch ships can join the fray."
+	description "<DS-2359>"
 
 effect "ion rain impact"
 	sprite "effect/ion rain impact"
@@ -474,8 +474,8 @@ outfit "MCS Extractor"
 		"hull damage" 1.4
 		"minable damage" 8.2
 		"prospecting" 9
-	description `Not legally a weapon under Heliarch definitions, the "Mineral Collection and Sorting" extraction unit consists of a set of sharp, durable blades designed to quickly break down minable asteroids. It also comes with an integrated scanning system that looks for asteroids rich in minerals to facilitate the mining efforts.`
-	description `	Especially popular with novice pilots looking to pay off their ships, the extractor has been a reliable tool of mining businesses in the Coalition for millennia.`
+	description `<DS-2360>`
+	description `<DS-2361>`
 
 effect "drilling"
 	sprite effect/smoke

@@ -135,8 +135,8 @@ ship "Emerald Sword"
 	explode "nuke explosion" 2
 	"final explode" "nuke explosion" 2
 	"final explode" "nuke residue fast" 50
-	description "An ancient Sheragi warship that was crewed by mutineers that fled from their civil war and escaped into interstellar space. Found orbiting a disconnected star, this is an impressively large ship, fit for the equally large Sheragi. The ship's main weapon is a fusion-pumped gamma-ray laser called the 'Dragonflame Cannon.' Despite the relatively primitive outfits, it's still a very capable war machine due to its size."
-	description "For its original Sheragi masters, this warship was home to around 100 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
+	description "<DS-3342>"
+	description "<DS-3343>"
 
 ship "Emerald Sword" "Emerald Sword (Fixed)"
 	sprite ship/emeraldsword
@@ -225,6 +225,6 @@ ship "Black Diamond"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description "The Sheragi, being too large to effectively pilot ships this small, invested heavily in the development of autonomous fighters. The hardware that controls this isn't much more complex than the combat drones in human space, but it is bigger, and the lack of life support systems and amenities for a pilot allows it to carry extra outfitting space."
-	description "	The fighter also comes equipped with a powerful hull repair system to aid in its survival. This system doesn't work while the fighter is under fire, though, requiring the fighter to have not taken damage for a short while before activating."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "<DS-3344>"
+	description "<DS-3345>"
+	description "<DS-819>"

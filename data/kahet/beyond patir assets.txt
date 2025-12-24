@@ -13,7 +13,7 @@
 
 phrase "magic asteroid"
 	word
-		"???"
+		"<WR-11773>"
 
 fleet "Magic Asteroid"
 	government "Magic Asteroid"
@@ -587,7 +587,7 @@ outfit "Asteroid Anti-Missile"
 		"lifetime" 1
 		"reload" 1
 		"firing heat" 18
-	description "Though its specifics are essentially the same as its smaller variant, its bubble shield is far bigger and just as indestructible. It has clearly become more unstable in the process, but this does not seem to have affected its capabilities."
+	description "<DS-2841>"
 
 effect "asteroid am fire"
 	sprite "effect/asteroid am fire"
@@ -615,7 +615,7 @@ outfit "Asteroid Anti-Missile 2"
 		"lifetime" 1
 		"reload" 1
 		"firing heat" 18
-	description "A nearly impenetrable anti-missile field, instantly eliminating even the strongest missile that tries to pass through. However, the size of this protective bubble greatly limits its capabilities."
+	description "<DS-2842>"
 
 effect "asteroid am circle defense"
 	sprite "effect/asteroid am circle defense"
@@ -651,7 +651,7 @@ outfit "Asteroid Weapon Small"
 		"hull damage" 600
 		"slowing damage" -28
 		"blast radius" 20
-	description "Similar in appearance to the anti-missile used by some of these ships, this weapon was created with two functions in mind: slowing down an opponent until it gets close enough, and then eliminating it with heavy, direct damage to the hull."
+	description "<DS-2843>"
 
 outfit "Asteroid Circle Submunition"
 	weapon
@@ -693,7 +693,7 @@ outfit "Asteroid Weapon Large"
 		"lifetime" 20
 		"submunition" "creeper1 print"
 		"reload" 100
-	description "By creating a circle of energy-based mines and then converting them into missiles at the same time, this weapon is capable of breaking through anti-missile defenses better than most."
+	description "<DS-2844>"
 	
 outfit "creeper1 print"
 	weapon
@@ -1125,7 +1125,7 @@ outfit "Asteroid Weapon Large 2"
 		"split range" 400
 		"reload" 150
 		"firing heat" 5
-	description "This very peculiar weapon overwhelms its target by creating an array of short-living, laser-armed entities. However, the precision it requires, as well as its low raw damage output, limits its potential."
+	description "<DS-2845>"
 	
 effect "asteroid glow"
 	sprite "effect/asteroid glow"
@@ -1484,7 +1484,7 @@ outfit "Asteroid Weapon Large 3"
 		"split range" 180
 		"reload" 100
 		"firing heat" 5
-	description "While it may be technically described as a missile, its specifics differ from the average rocket launcher. The heap of energy created by this weapon's fire continuously releases projectiles which home in onto enemies, until finally exploding and breaking up into an enormous barrage of similar projectiles. These attributes make it very good at overwhelming anti-missiles enough to render them useless, then impacting a fair share of damage while they are down."
+	description "<DS-2846>"
 
 outfit "asteroid missile"
 	weapon
@@ -1621,7 +1621,7 @@ outfit "Asteroid Weapon Large 4"
 		"burst count" 7
 		"burst reload" 1
 		"firing heat" 5
-	description "An impressive defensive weapon, fending off even the mightiest attackers by projecting enormous bubble-shaped minefields all around itself. Though not a rapid-fire weapon by any means, it is able to maintain one of those fields continuously without issue."
+	description "<DS-2847>"
 	
 outfit "wep1 print"
 	weapon
@@ -2442,7 +2442,7 @@ outfit "Asteroid Jump Drive"
 	"jump effect" "jump drive 13"
 	"jump effect" "jump drive 14"
 	"jump effect" "jump drive 15"
-	description "Whatever the mechanism that hides beneath the translucent orb may be, it functions similarly to a jump drive, bridging different parts of the universe together for the cost of merely 200 units of fuel."
+	description "<DS-2848>"
 
 # The "ajump drive" effect doesn't exist, but serve to reduce the number of effects spawned: as it always shows the same overall number, by showing empty ones it effectively reduces the visual bloat during the jump
 

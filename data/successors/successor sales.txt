@@ -52,12 +52,12 @@ shipyard "People's Houses"
 	"Kvelqde-Khora"
 
 outfitter "Successor Basics"
-	`"Aqra" Inductive Reverser`
-	`"Aqra" Inductive Steering`
-	`"Aqra" Inductive Thruster`
-	`1-"Uurau" Betavoltaic Cell`
+	`<CN-18095>`
+	`<CN-18096>`
+	`<CN-18097>`
+	`<CN-18098>`
 	"Auxiliary Power Reserve"
-	`"Byiaa" Shield Cortex`
+	`<CN-18099>`
 	"Hyperdrive"
 	"Local Map"
 
@@ -69,22 +69,22 @@ outfitter "Successor Weapons Heavy"
 	"Pulse Laser Turret"
 
 outfitter "Successor Civilian"
-	`"Aqra" Inductive Reverser`
-	`"Aqra" Inductive Steering`
-	`"Aqra" Inductive Thruster`
-	`1-"Uurau" Betavoltaic Cell`
+	`<CN-18095>`
+	`<CN-18096>`
+	`<CN-18097>`
+	`<CN-18098>`
 	"Auxiliary Power Reserve"
-	`"Byiaa" Shield Cortex`
+	`<CN-18099>`
 	"Shield Cortex Interface"
 	"Hyperdrive"
 	"Local Map"
 
-	`"Chyyra" Inductive Reverser`
-	`"Chyyra" Inductive Steering`
-	`"Chyyra" Inductive Thruster`
+	`<CN-18100>`
+	`<CN-18101>`
+	`<CN-18102>`
 
-	`3-"Kaska" Betavoltaic Cell`
-	`"Ej" Shield Cortex`
+	`<CN-18103>`
+	`<CN-18104>`
 	"Primary Power Reserve"
 	"Bunk Room"
 	"Small Bunk Room"
@@ -95,44 +95,44 @@ outfitter "Successor Civilian"
 	"Successor Cooling"
 
 outfitter "Successor Heavy"
-	`6-"Ruuv" Betavoltaic Cell`
-	`"Tuur" Scanning Suite`
-	`"Veusa" Inductive Reverser`
-	`"Veusa" Inductive Steering`
-	`"Veusa" Inductive Thruster`
+	`<CN-18105>`
+	`<CN-18106>`
+	`<CN-18107>`
+	`<CN-18108>`
+	`<CN-18109>`
 
 outfitter "Successor High Tech"
-	`OC-"Mavra" Betavoltaic Cell`
-	`"Tuur" Scanning Suite`
-	`"Niis" Inductive Engines`
+	`<CN-18110>`
+	`<CN-18106>`
+	`<CN-18111>`
 
 outfitter "High Houses Light"
 	"Auxiliary Power Reserve"
-	`"Nnesa" Fusion Core`
-	`"Ojet" Bimodal Coilgun`
+	`<CN-18112>`
+	`<CN-18113>`
 	"Drag Cannon"
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
-	`"Jaase" Shield Cortex`
+	`<CN-18114>`
 	"Shield Cortex Interface"
 	"Kinetic Rail Rifle"
-	`"Veldt" Combat Scanner`
+	`<CN-18115>`
 
 outfitter "High Houses Heavy"
 	"Primary Power Reserve"
-	`"Ryuit" Fusion Core`
-	`"Uoret" Fusion Core`
+	`<CN-18116>`
+	`<CN-18117>`
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
-	`"Sjeja" Kinetic Lance`
+	`<CN-18118>`
 	"Bimodal Coilgun Turret"
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Light"
 	"Multimodal Armor: Keystone"
 	"Multimodal Armor: Regen"
-	`"Jorv" Shield Cortex`
+	`<CN-18119>`
 
 outfitter "People's Houses"
 	"Overcharged Pulse Laser"
 	"Overcharged Laser Turret"
-	`OC-"Mavra" Betavoltaic Cell`
+	`<CN-18110>`

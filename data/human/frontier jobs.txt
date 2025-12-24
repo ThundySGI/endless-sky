@@ -13,10 +13,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Frontier delivery [0]"
-	name "Frontier delivery to <planet>"
+	name "<NM-206>"
 	job
 	repeat
-	description `Deliver <cargo> to the frontier world of <destination>. Frontier systems have a high rate of piracy, so prepare to defend yourself. Payment is <payment>.`
+	description `<DS-377>`
 	cargo random 5 2 .1
 	to offer
 		random < 30
@@ -45,10 +45,10 @@ mission "Frontier delivery [0]"
 
 
 mission "Frontier delivery [1]"
-	name "Frontier delivery to <planet>"
+	name "<NM-206>"
 	job
 	repeat
-	description `Deliver <cargo> to the frontier world of <destination>. Frontier systems have a high rate of piracy, so prepare to defend yourself. Payment is <payment>.`
+	description `<DS-377>`
 	cargo random 25 2 .05
 	to offer
 		random < 25
@@ -77,10 +77,10 @@ mission "Frontier delivery [1]"
 
 
 mission "Frontier delivery [2]"
-	name "Frontier delivery to <planet>"
+	name "<NM-206>"
 	job
 	repeat
-	description `Deliver <cargo> to the frontier world of <destination>. Frontier systems have a high rate of piracy, so prepare to defend yourself. Payment is <payment>.`
+	description `<DS-377>`
 	cargo random 40 2 .02
 	to offer
 		random < 20
@@ -108,10 +108,10 @@ mission "Frontier delivery [2]"
 
 
 mission "Frontier Emigration [0]"
-	name "Emigration to <planet>"
+	name "<NM-207>"
 	job
 	repeat
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
+	description "<DS-378>"
 	passengers 2 10 .9
 	to offer
 		random < 30
@@ -129,10 +129,10 @@ mission "Frontier Emigration [0]"
 
 
 mission "Frontier Emigration [1]"
-	name "Emigration to <planet>"
+	name "<NM-207>"
 	job
 	repeat
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
+	description "<DS-378>"
 	passengers 4 10 .8
 	to offer
 		random < 25
@@ -150,10 +150,10 @@ mission "Frontier Emigration [1]"
 
 
 mission "Frontier Emigration [2]"
-	name "Emigration to <planet>"
+	name "<NM-207>"
 	job
 	repeat
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
+	description "<DS-378>"
 	passengers 6 10 .7
 	to offer
 		random < 20
@@ -171,10 +171,10 @@ mission "Frontier Emigration [2]"
 
 
 mission "Disaster Relief"
-	name "Disaster relief to <planet>"
+	name "<NM-208>"
 	job
 	repeat
-	description "A disaster has occurred in a colony on the frontier world of <destination>. Deliver <cargo> to the planet by <date> for <payment>."
+	description "<DS-379>"
 	cargo "disaster relief supplies" 25 2 .05
 	deadline
 	to offer
@@ -189,13 +189,13 @@ mission "Disaster Relief"
 		not planet "Shangri-La"
 	on complete
 		payment 10000 160
-		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you and bid you farewell."
+		dialog "<DL-54>"
 
 
 mission "Instruct Novice Pilot"
 	job
 	repeat
-	description "A novice pilot seeks instruction from an experienced captain, and requests an escort to <stopovers>. After that, return to <origin> and you will receive payment of <payment>."
+	description "<DS-380>"
 	to offer
 		random < 5
 		"combat rating" > 100
@@ -209,12 +209,12 @@ mission "Instruct Novice Pilot"
 		attributes "spaceport"
 		distance 3 7
 	on stopover
-		dialog "After a smooth landing, you guide your student through an especially rough part of the spaceport, full of trash, homeless drifters, and poorly-lit alleyways. You explain the ins and outs of avoiding pickpockets, keeping out of bar fights, and how to spot a lousy deal at an outfitter's shop. After a few hours in one of the seedier parts of the galaxy, both of you are eager to return to <origin>."
+		dialog "<DL-166>"
 	on visit
-		dialog "You've returned to <planet>, but forgot to escort the <npc> to <stopovers> first! Better head there first."
+		dialog "<DL-167>"
 	on complete
 		payment 75000
-		dialog "Your student thanks you for the instruction and for providing a guided view of some of the galaxy's rougher areas. You receive your payment of <payment>."
+		dialog "<DL-168>"
 	npc
 		government "Pirate"
 		personality nemesis waiting
@@ -249,47 +249,47 @@ mission "Small Pirate gambling"
 	deadline 1
 	on offer
 		conversation
-			`You're having a drink in a dimly lit spaceport bar when you notice a group of young men in crimson leather outfits gambling in a dark corner. The barman eyes them warily. One of them raises his drink and waves you over, beckoning to join their game.`
+			`<CN-4090>`
 			choice
-				`	(Join their game.)`
+				`<CN-4091>`
 					goto gamble
-				`	(Ignore them and leave quickly.)`
+				`<CN-4092>`
 					defer
 
 			label gamble
-			`	You walk over to the table. A closer examination indicates a strong likelihood that they are pirates; not one of them looks older than 19, and they all sport fearsome tattoos and dangerous-looking sidearms. After a few rounds of cards it becomes abundantly obvious that they're cheating, and making little effort to hide this from you.`
+			`<CN-4093>`
 			branch "good luck" "bad luck"
 				random < 30
 
 			label "good luck"
 			action
 				payment 23974
-			`	Fortunately, you're able to outsmart them anyway and win the game, winding up with a sizable pile of credit chips. They don't look too happy about it, but do not bother you as you quickly leave. You thank your lucky stars: you're nearly 25,000 credits richer and still in one piece after a face-to-face encounter with pirates.`
+			`<CN-4094>`
 				accept
 
 			label "bad luck"
-			`	You're starting to bleed money, with more than 10,000 credits in losses already.`
+			`<CN-4095>`
 			choice
-				`	(Call them out on their cheating.)`
+				`<CN-4096>`
 					goto call
-				`	(Say nothing and continue playing.)`
+				`<CN-4097>`
 					goto lose
 
 			label lose
 			action
 				payment -14357
-			`	You grit your teeth and lose hand after hand before the game finally ends. The pirates gloat over their "winnings" of almost 15,000 credits as you leave.`
+			`<CN-4098>`
 				decline
 
 			label call
-			`	You confront them on their blatant cheating when the meanest-looking one growls at you, "We're just playin' a game here, see? You'd better shut your big mouth if you know what's good for you! We can make this ugly real fast."`
-			`	The thugs stare at you menacingly and start to reach for their guns.`
+			`<CN-4099>`
+			`<CN-4100>`
 			choice
-				`	(Shoot first!)`
+				`<CN-4101>`
 					goto shoot
-				`	(Grab the pot and run!)`
+				`<CN-4102>`
 					goto run
-				`	(Let them fleece me.)`
+				`<CN-4103>`
 					goto lose
 
 			label shoot
@@ -297,14 +297,14 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "shoot and die"
-			`	Unfortunately, they're faster than you. Your mutilated corpse hits the floor with a wet thump.`
+			`<CN-4104>`
 				die
 
 			label "shoot and run"
 			action
 				payment 23974
-			`	Grateful that you never leave your ship unarmed, your hand flies toward the pistol at your thigh. You draw the weapon and fire at the pirate who just threatened you. The slug punches a hole in the center of his chest, and he collapses to the ground. His shocked comrades fumble in horror for their weapons, but you've taken them by surprise and quickly gun down another before deciding it's time to escape. You grab some of the credits on the table on the way out!`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, the remaining two pirates hurl obscenities over the comms from their own ships, which are in hot pursuit.`
+			`<CN-4105>`
+			`<CN-4106>`
 				launch
 
 			label run
@@ -312,14 +312,14 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "grab and die"
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. Dodging gunfire, you run towards the door and get halfway there before one of the slugs finds its mark. You fall to the floor in pain, watching a pool of your own blood expand around you. You try to struggle to your feet, but the toughest-looking pirate kicks you to the ground and finishes you off with another shot.`
+			`<CN-4107>`
 				die
 
 			label "grab and run"
 			action
 				payment 23974
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. You run towards the door in a zigzag motion as bullets fly past you and tear chips out of the walls. You glance backwards just in time to see the barkeep reduce one of the ruffians to hamburger meat with an enormous shotgun. The remaining three chase after you.`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, you receive a message from the port authorities warning you that while they apprehended two of the pirates, the remaining two made it to their ships and are in hot pursuit.`
+			`<CN-4108>`
+			`<CN-4109>`
 				launch
 
 	to complete

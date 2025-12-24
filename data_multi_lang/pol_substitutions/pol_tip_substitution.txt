@@ -1,0 +1,538 @@
+substitutions
+	"TP-0" `(zaparkowany)`
+	"TP-1" `Jak szybko ten statek nabiera prędkości. Im większa masa statku (wliczając masę ładunku lub myśliwców, które przewozi), tym wolniej przyspiesza.`
+	"TP-2" `Modyfikuje przyspieszenie statku o podany współczynnik.`
+	"TP-3" `Chłodzenie na sekundę przy pełnej mocy. Aktywne chłodzenie wymaga energii, ale jeśli poziom ciepła jest niski, chłodzenie działa z mniejszą szybkością i mniejszym poborem energii. Ilość chłodzenia jest proporcjonalna do temperatury statku, a pełny poziom chłodzenia osiąga się tylko wtedy, gdy statek jest bliski przegrzania.`
+	"TP-4" `Energia zużywana na sekundę podczas odpalania dopalacza.`
+	"TP-5" `Uszkodzenia tarczy zadawane statkowi na sekundę podczas odpalania tego dopalacza.`
+	"TP-6" `Uszkodzenia kadłuba zadawane statkowi na sekundę podczas odpalania tego dopalacza.`
+	"TP-7" `Paliwo zużywane na sekundę podczas odpalania dopalacza.`
+	"TP-8" `Skumulowana liczba rozładowań osłony na sekundę podczas odpalania tego dopalacza.`
+	"TP-9" `Skumulowana korozja kadłuba na sekundę podczas odpalania dopalacza.`
+	"TP-10" `Skumulowana jonizacja na sekundę podczas odpalania tego dopalacza.`
+	"TP-11" `Skumulowana liczba zakłóceń na sekundę podczas odpalania tego dopalacza.`
+	"TP-12" `Skumulowana ilość wyciekającego paliwa na sekundę podczas odpalania tego dopalacza.`
+	"TP-13" `Skumulowane oddziaływania egzotermiczne na sekundę podczas odpalania tego dopalacza.`
+	"TP-14" `Skumulowane zakłócenia silnika na sekundę podczas odpalania tego dopalacza.`
+	"TP-15" `Skumulowane zakłócenia osłony na sekundę podczas odpalania tego dopalacza.`
+	"TP-16" `Ciepło wytwarzane na sekundę podczas odpalania tego dopalacza.`
+	"TP-17" `Siła ciągu wytwarzana przez ten dopalacz.`
+	"TP-18" `Umożliwia skanowanie asteroid. Zasięg tego skanera asteroid jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-19" `Twój statek nie może wykonać tego typu skanowania, ale ten sprzęt może okazać się przydatny w niektórych misjach.`
+	"TP-20" `Statek z tym atrybutem nie potrzebuje załogi do działania, nawet jeśli ma wyposażenie, które normalnie wymaga dodatkowej załogi. Nie możesz jednak używać go jako okrętu flagowego w tym stanie.`
+	"TP-21" `Liczba osób (pasażerów lub załogi), jaką może pomieścić Twój statek.`
+	"TP-22" `Ochrona przed oparzeniami. Zwiększa o podany współczynnik, ile uszkodzeń od oparzeń statek może wytrzymać, zanim jego temperatura wzrośnie tak samo, jak w przypadku statku niechronionego.`
+	"TP-23" `Oporność na obrażenia od poparzenia na sekundę.`
+	"TP-24" `Energia zużywana na sekundę podczas opierania się obrażeniom od poparzenia.`
+	"TP-25" `Zużycie paliwa na sekundę przy opieraniu się obrażeniom od poparzenia.`
+	"TP-26" `Ciepło wytwarzane na sekundę podczas opierania się obrażeniom spowodowanym oparzeniem.`
+	"TP-27" `Zwiększa "siłę" jednego członka załogi podczas ataku na inny statek w celu jego przejęcia. Każdy członek załogi może posługiwać się tylko jedną bronią na raz, ale użyje broni o największej mocy.`
+	"TP-28" `Zwiększa "siłę" jednego członka załogi podczas obrony przed próbą przejęcia tego statku. Każdy członek załogi może posługiwać się tylko jedną bronią na raz, ale użyje broni o największej mocy.`
+	"TP-29" `W tej chwili ten statek przewozi mnóstwo ładunku, przekraczając tym samym swój limit.`
+	"TP-30" `Umożliwia skanowanie ładunku statku docelowego z odległości do tej.`
+	"TP-31" `Umożliwia skanowanie ładunku statku docelowego. Zasięg tego skanera ładunku jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-32" `Określa czas skanowania ładunku. Wyższa wartość oznacza szybsze skanowanie.`
+	"TP-33" `Maksymalna prędkość tego skanera ładunków jest proporcjonalna do pierwiastka kwadratowego z tej wartości. Obserwowana prędkość skanowania będzie zależeć od wielu czynników. Cele znajdujące się dalej lub o większej ładowności będą skanowane dłużej.`
+	"TP-34" `Wydłuża czas potrzebny innym statkom na przeskanowanie ładunku tego statku. Wartość jeden ma taki sam wpływ na czas skanowania, jak dodanie jednej tony ładunku do skanowania.`
+	"TP-35" `Ten statek może przewieźć mnóstwo ładunku (towarów, ładunków misji i zrabowanych sprzętów).`
+	"TP-36" `Ten strój wykorzystuje mnóstwo miejsca na ładunek.`
+	"TP-37" `Ten strój pozwala Twojemu statkowi na maskowanie. Wartość ta reprezentuje czas potrzebny do pełnej aktywacji lub dezaktywacji maskowania. Statki nie mogą strzelać w trybie maskowania, chyba że mają powiązany atrybut "cloaked firing".`
+	"TP-38" `Ten zestaw pozwala Twojemu statkowi na maskowanie. Wartość ta reprezentuje czas potrzebny do pełnej aktywacji lub dezaktywacji maskowania dla statku o masie 1000. Im większa masa statku, tym wolniej działa maskowanie, im mniejsza masa, tym szybciej działa maskowanie. Statki nie mogą strzelać w trybie maskowania, chyba że mają powiązany atrybut "cloaked firing".`
+	"TP-39" `Energia zużywana na sekundę podczas maskowania.`
+	"TP-40" `Zużycie paliwa na sekundę w stanie niewidzialności.`
+	"TP-41" `Ciepło generowane na sekundę podczas maskowania.`
+	"TP-42" `Ilość zużytych osłon na sekundę podczas maskowania.`
+	"TP-43" `Ten statek nie jest w stanie regenerować tarcz, gdy jest w trybie maskowania. Zamiast tego regeneracja tarcz będzie opóźniona, co będzie się zwiększać wraz z czasem maskowania.`
+	"TP-44" `Zużycie kadłuba na sekundę podczas maskowania.`
+	"TP-45" `Ten statek nie jest w stanie regenerować kadłuba, gdy jest w trybie maskowania. Zamiast tego regeneracja kadłuba będzie opóźniona, co będzie się zwiększać wraz z czasem maskowania.`
+	"TP-46" `Ochrona przed bronią uszkadzającą kadłub, gdy maskowanie jest aktywne. Zwiększa o podany współczynnik, ile uszkodzeń kadłuba statek może wytrzymać, zanim straci tyle samo energii, co statek niechroniony.`
+	"TP-47" `Ochrona przed bronią, która zadaje obrażenia tarczy, gdy maskowanie jest aktywne. Zwiększa o podany współczynnik, ile obrażeń tarczy statek może wytrzymać, zanim straci tyle samo energii, co statek bez ochrony.`
+	"TP-48" `Kiedy statek jest zamaskowany, broń nie ma wpływu na niego i przechodzi przez niego.`
+	"TP-49" `To urządzenie jest tak skuteczne w ukrywaniu, że możesz strzelać w trybie maskowania, tracąc w ten sposób tę wartość, zanim ponownie się zamaskujesz. Wartość ujemna oznacza, że strzał nie zakłóca nawet działania funkcji maskowania.`
+	"TP-50" `Jeśli masz kadłub o wartości niższej niż ta wartość (widziana jako % pomiędzy 0 a 1), urządzenie maskujące nie będzie mogło dłużej działać.`
+	"TP-51" `Ciepło rozpraszane na sekundę. Dotyczy sytuacji, gdy wbudowane odprowadzanie ciepła statku nie jest wystarczające, aby zapobiec przegrzaniu.`
+	"TP-52" `Energia zużywana na sekundę, gdy aktywne chłodzenie działa z pełną mocą (ponieważ temperatura twojego statku zbliża się do progu przegrzania).`
+	"TP-53" `Zakłócenie chłodzenia statku. Jego systemy chłodzenia będą skuteczne tylko w około 75% przy nieefektywności chłodzenia 5 i 30% przy nieefektywności 10.`
+	"TP-54" `Ochrona przed korozją. Zwiększa o podany współczynnik, ile uszkodzeń korozyjnych statek może wytrzymać, zanim straci tyle samo kadłuba, co statek niezabezpieczony.`
+	"TP-55" `Liczba uszkodzeń korozyjnych odpornych na sekundę.`
+	"TP-56" `Energia zużywana na sekundę podczas stawiania oporu korozji.`
+	"TP-57" `Zużycie paliwa na sekundę przy odporności na korozję.`
+	"TP-58" `Ciepło wytwarzane na sekundę podczas stawiania oporu korozji.`
+	"TP-59" `Koszt w kredytach. Jeśli sprzedałeś dziś jakieś używane (zamortyzowane) przedmioty, możesz je odkupić za tę samą cenę, za którą je sprzedałeś.`
+	"TP-60" `Ochrona przed uszkodzeniami od wyładowania osłony. Zwiększa o podany współczynnik, ile uszkodzeń od wyładowania może wytrzymać statek, zanim straci tyle samo osłony, co statek niechroniony.`
+	"TP-61" `Ile obrażeń od wyładowania tarczy może wytrzymać ten statek na sekundę.`
+	"TP-62" `Energia zużywana na sekundę podczas opierania się uszkodzeniom spowodowanym rozładowaniem.`
+	"TP-63" `Paliwo zużywane na sekundę przy opieraniu się uszkodzeniom od rozładowania.`
+	"TP-64" `Ciepło wytwarzane na sekundę podczas opierania się uszkodzeniom spowodowanym rozładowaniem.`
+	"TP-65" `Ochrona przed uszkodzeniami spowodowanymi zakłóceniami tarcz. Zwiększa o podany współczynnik, ile uszkodzeń spowodowanych zakłóceniami może wytrzymać statek, zanim jego tarcze zostaną zakłócone tak samo, jak tarcze statku niechronionego.`
+	"TP-66" `Ilość odpartych obrażeń od zakłóceń tarczy na sekundę.`
+	"TP-67" `Energia zużywana na sekundę podczas stawiania oporu uszkodzeniom zakłócającym.`
+	"TP-68" `Paliwo zużywane na sekundę przy opieraniu się obrażeniom zakłócającym.`
+	"TP-69" `Ciepło generowane na sekundę podczas stawiania oporu uszkodzeniom zakłócającym.`
+	"TP-70" `Ogranicza maksymalną prędkość statku.`
+	"TP-71" `Zmniejsza opór. Zwiększa prędkość maksymalną statku o podany współczynnik.`
+	"TP-72" `Liczba statków z kategorii "Drone", które może przenosić ten statek.`
+	"TP-73" `Ilość energii, jaką ten sprzęt dodaje do pojemności energetycznej twojego statku. Pozwala to tymczasowo wykorzystać więcej energii niż wytwarzają twoje generatory.`
+	"TP-74" `Energia zużywana na sekundę podczas lotu.`
+	"TP-75" `Energia generowana na sekundę. Jeśli twój statek ma broń inną niż broń wiązkowa, prawdopodobnie będziesz potrzebować również baterii do magazynowania energii.`
+	"TP-76" `Ten zestaw zajmuje mnóstwo miejsca w silniku.`
+	"TP-77" `Ten statek może pomieścić mnóstwo silników. (Aby zainstalować silnik, musisz mieć również wystarczająco dużo miejsca na wyposażenie.)`
+	"TP-78" `Ochrona przed uszkodzeniami energetycznymi. Zwiększa o podany współczynnik, ile uszkodzeń energetycznych statek może wytrzymać, zanim straci tyle samo energii, co statek niechroniony.`
+	"TP-79" `Liczba statków z kategorii "Fighter", które może przenosić ten statek.`
+	"TP-80" `Szansa, że ten sprzęt pozostanie jako szczątki statku, na którym został zainstalowany, po jego zniszczeniu.`
+	"TP-81" `Ochrona przed siłą uderzenia broni. Zwiększa o podany współczynnik siłę zewnętrzną, jaką statek może wytrzymać, zanim zostanie poruszony, tak samo jak statek niechroniony.`
+	"TP-82" `Aktualna ilość paliwa tego statku. Zwykły skok z hipernapędem zużywa 100 jednostek paliwa.`
+	"TP-83" `Ilość paliwa, jaką może pomieścić ten statek. Zwykły skok z hipernapędem zużywa 100 jednostek paliwa. Paliwo jest uzupełniane za darmo po wylądowaniu na zamieszkanej planecie.`
+	"TP-84" `Paliwo zużyte na sekundę podczas lotu.`
+	"TP-85" `Energia produkowana na sekundę podczas zużycia paliwa.`
+	"TP-86" `Paliwo wytwarzane na sekundę.`
+	"TP-87" `Ciepło wytwarzane na sekundę podczas spalania paliwa.`
+	"TP-88" `Ochrona przed uszkodzeniami paliwowymi. Zwiększa o podany współczynnik, ile uszkodzeń paliwowych statek może wytrzymać, zanim straci tyle samo paliwa, co statek niechroniony.`
+	"TP-89" `Ta broń zajmuje otwór na działo. Działa zawsze strzelają na wprost; wieżyczki strzelają w kierunku aktualnie wybranego celu.`
+	"TP-90" `Ile dział może pomieścić ten statek. Dotyczy to większości pocisków rakietowych i broni dodatkowej strzelającej na wprost.`
+	"TP-91" `Jak skutecznie ten statek odprowadza nadmiar ciepła.`
+	"TP-92" `Ciepło generowane na sekundę. Generowanie ciepła można skompensować za pomocą "cooling" wyposażenia. Jeśli Twój statek przekroczy maksymalną temperaturę, musi się tymczasowo wyłączyć, aby się ochłodzić.`
+	"TP-93" `Ochrona przed uszkodzeniami cieplnymi. Zwiększa o podany współczynnik, ile uszkodzeń cieplnych statek może wytrzymać, zanim jego temperatura wzrośnie tak wysoko, jak w przypadku statku niechronionego.`
+	"TP-94" `Zwiększa maksymalne ciepło, jakie statek jest w stanie wytrzymać, zanim ulegnie przegrzaniu. Wartość jeden ma taki sam wpływ na maksymalne ciepło statku, jak jedna tona masy, bez wpływu masy na ruch.`
+	"TP-95" `Całkowita wytrzymałość kadłuba i szybkość naprawy na sekundę. Najmniejsze statki ulegają uszkodzeniu, gdy wytrzymałość kadłuba spadnie poniżej około 45%, podczas gdy bardzo duże statki ulegają uszkodzeniu przy poziomie bliskim 10%.`
+	"TP-96" `Całkowita wytrzymałość kadłuba. Statki o wyższej wytrzymałości kadłuba są w stanie przyjąć więcej uszkodzeń w stosunku do swojej całkowitej wytrzymałości, zanim zostaną unieruchomione; najmniejsze statki ulegają uszkodzeniu, gdy ich wytrzymałość kadłuba spadnie poniżej około 45%, podczas gdy bardzo duże statki ulegają uszkodzeniu przy wartości bliskiej 10%.`
+	"TP-97" `Energia zużywana na sekundę podczas naprawy kadłuba.`
+	"TP-98" `Dodatkowa energia zużywana na sekundę podczas naprawy kadłuba po okresie opóźnienia naprawy.`
+	"TP-99" `Modyfikuje energię zużywaną podczas naprawy kadłuba o podany współczynnik.`
+	"TP-100" `Paliwo zużywane na sekundę podczas naprawy kadłuba.`
+	"TP-101" `Dodatkowe paliwo zużywane na sekundę podczas naprawy kadłuba po okresie opóźnienia naprawy.`
+	"TP-102" `Modyfikuje paliwo zużywane podczas naprawy kadłuba o podany współczynnik.`
+	"TP-103" `Ciepło wytwarzane na sekundę podczas naprawy kadłuba.`
+	"TP-104" `Dodatkowe ciepło wytwarzane na sekundę podczas naprawy kadłuba po okresie opóźnienia naprawy.`
+	"TP-105" `Modyfikuje ciepło wytwarzane podczas naprawy kadłuba o podany współczynnik.`
+	"TP-106" `Modyfikuje całkowitą wytrzymałość kadłuba statku o podany współczynnik.`
+	"TP-107" `Ilość wytrzymałości kadłuba, którą można naprawić na sekundę. Naprawy zazwyczaj zużywają energię i mogą również generować ciepło.`
+	"TP-108" `Dodatkowa wytrzymałość kadłuba, którą można naprawić na sekundę po okresie opóźnienia naprawy.`
+	"TP-109" `Liczba sekund potrzebnych na rozpoczęcie dodatkowych napraw kadłuba po jego uszkodzeniu.`
+	"TP-110" `Liczba sekund potrzebnych na rozpoczęcie naprawy kadłuba po jego unieruchomieniu.`
+	"TP-111" `Liczba sekund potrzebnych uszkodzonemu statkowi na samodzielną naprawę.`
+	"TP-112" `Koszt energii potrzebny do naprawy uszkodzonego statku.`
+	"TP-113" `Koszt paliwa potrzebny do naprawy uszkodzonego statku.`
+	"TP-114" `Ciepło wytwarzane podczas naprawy uszkodzonego statku.`
+	"TP-115" `Uszkodzenia jonowe zadawane, gdy uszkodzony statek naprawia się sam.`
+	"TP-116" `Uszkodzenia powstałe w wyniku samonaprawy uszkodzonego statku.`
+	"TP-117" `Uszkodzenia powstałe w wyniku zakłóceń, które powstają, gdy uszkodzony statek naprawia się sam.`
+	"TP-118" `Uszkodzenia spowalniające zadawane, gdy uszkodzony statek naprawia się sam.`
+	"TP-119" `Uszkodzenia od wyładowania zadawane, gdy uszkodzony statek naprawia się sam.`
+	"TP-120" `Uszkodzenia korozyjne powstające podczas samonaprawy uszkodzonego statku.`
+	"TP-121" `Uszkodzenia powstałe w wyniku przecieku, gdy uszkodzony statek naprawia się sam.`
+	"TP-122" `Obrażenia od ognia zadawane, gdy uszkodzony statek naprawia się sam.`
+	"TP-123" `Pozostała wytrzymałość kadłuba, przy której statek zostaje unieruchomiony. Ten atrybut ma pierwszeństwo przed innymi atrybutami zmieniającymi próg unieruchomienia.`
+	"TP-124" `Modyfikuje wartość wytrzymałości kadłuba, przy której statek zostanie unieruchomiony.`
+	"TP-125" `Zmienia procent pozostałej wytrzymałości kadłuba, przy którym statek zostanie unieruchomiony.`
+	"TP-126" `Ochrona przed bezpośrednim uszkodzeniem kadłuba. Zwiększa o podany współczynnik, ile uszkodzeń kadłuba statek może wytrzymać, zanim straci tyle samo kadłuba, co statek niechroniony.`
+	"TP-127" `Modyfikuje ilość naprawianej wytrzymałości kadłuba na sekundę o podany współczynnik.`
+	"TP-128" `Zmienia ilość naprawianej wytrzymałości kadłuba na sekundę o podany współczynnik, gdy aktywne jest urządzenie maskujące.`
+	"TP-129" `Ilość kredytów, które możesz otrzymać za noszenie tego stroju.`
+	"TP-130" `Liczba kredytów otrzymywanych dziennie, gdy posiadasz ten strój, nawet jeśli nie jest on aktywnie używany.`
+	"TP-131" `Zmniejsza efektywną masę statku. Zwiększa szybkość przyspieszania statku o podany współczynnik.`
+	"TP-132" `Ochrona przed uszkodzeniami jonowymi. Modyfikuje o podany współczynnik, ile uszkodzeń jonowych statek może wytrzymać, zanim straci tyle samo energii, co statek niechroniony.`
+	"TP-133" `Ochrona przed uszkodzeniami od podsłuchu. Zwiększa o podany współczynnik, ile uszkodzeń od podsłuchu statek może wytrzymać, zanim jego uzbrojenie zostanie podsłuchem tak samo, jak uzbrojenie statku niechronionego.`
+	"TP-134" `Oporność na uszkodzenia jonowe na sekundę.`
+	"TP-135" `Energia zużywana na sekundę podczas opierania się uszkodzeniom jonowym.`
+	"TP-136" `Zużycie paliwa na sekundę przy opieraniu się uszkodzeniom jonowym.`
+	"TP-137" `Ciepło wytwarzane na sekundę podczas stawiania oporu uszkodzeniom jonowym.`
+	"TP-138" `Prędkość, z jaką ten statek wydaje się lądować lub przemieszczać przez tunel czasoprzestrzenny.`
+	"TP-139" `Oporność na obrażenia od splątania na sekundę.`
+	"TP-140" `Energia zużywana na sekundę podczas opierania się obrażeniom od ataku.`
+	"TP-141" `Paliwo zużywane na sekundę podczas opierania się obrażeniom od ataku.`
+	"TP-142" `Ciepło wytwarzane na sekundę podczas stawiania oporu obrażeniom od szarpania.`
+	"TP-143" `Maksymalna prędkość, z jaką statek może skoczyć.`
+	"TP-144" `Zużycie paliwa podczas przeskakiwania między systemami za pomocą tego hipernapędu.`
+	"TP-145" `Zużycie paliwa podczas przeskakiwania między systemami za pomocą tego napędu skokowego.`
+	"TP-146" `Maksymalna odległość, jaką może pokonać ten napęd.`
+	"TP-147" `Paliwo zużyte na 100 ton masy podczas skoku. Dodatek do paliwa do skoków.`
+	"TP-148" `Modyfikuje wpływ masy statku na koszt skoku. Statki o masie poniżej tej będą miały niższy koszt skoku niż podstawowy koszt paliwa, a statki o masie powyżej tej będą miały droższe skoki.`
+	"TP-149" `Ochrona przed uszkodzeniami spowodowanymi wyciekiem. Zwiększa o podany współczynnik, ile uszkodzeń spowodowanych wyciekiem statek może wytrzymać, zanim straci tyle samo paliwa, co statek niezabezpieczony.`
+	"TP-150" `Liczba uszkodzeń spowodowanych wyciekiem, którym można się oprzeć na sekundę.`
+	"TP-151" `Energia zużywana na sekundę podczas stawiania oporu uszkodzeniom spowodowanym wyciekiem.`
+	"TP-152" `Paliwo zużywane na sekundę przy odporności na uszkodzenia spowodowane wyciekiem.`
+	"TP-153" `Ciepło wytwarzane na sekundę podczas stawiania oporu uszkodzeniom spowodowanym wyciekiem.`
+	"TP-154" `Kredyty wydawane dziennie na utrzymanie tego sprzętu. Nawet jeśli statek jest zaparkowany lub sprzęt znajduje się w ładunku, nadal musisz płacić za jego utrzymanie.`
+	"TP-155" `Liczba układów gwiezdnych uwzględnionych na tej mapie.`
+	"TP-156" `Masa tego statku bez ładunku ani myśliwców. Ładunek zwiększa masę, co zmniejsza przyspieszenie i prędkość skrętu oraz zwiększa maksymalną temperaturę przed przegrzaniem.`
+	"TP-157" `Masa w tonach. Masa statku określa jego prędkość obrotową i przyspieszenie oraz maksymalną temperaturę przed przegrzaniem.`
+	"TP-158" `Maksymalna prędkość tego statku przy użyciu silników odrzutowych. Nie uwzględnia efektu dopalaczy, chyba że nie ma zainstalowanych standardowych silników odrzutowych.`
+	"TP-159" `Jak szybko ten statek może przyspieszać i skręcać.`
+	"TP-160" `Jak szybko ten statek może przyspieszyć i skręcić, gdy jego ładownia jest pełna w porównaniu do sytuacji, gdy jest pusta.`
+	"TP-161" `Kredyty wydawane dziennie na utrzymanie tego stroju, gdy jest on aktywnie używany.`
+	"TP-162" `Liczba punktów otrzymywanych dziennie, gdy ten strój jest aktywnie używany.`
+	"TP-163" `Umożliwia skanowanie wyposażenia docelowego statku z odległości do podanej poniżej.`
+	"TP-164" `Umożliwia skanowanie wyposażenia docelowego statku. Zasięg tego skanera wyposażenia jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-165" `Określa czas skanowania stroju. Wyższa wartość oznacza szybsze skanowanie.`
+	"TP-166" `Maksymalna prędkość tego skanera ekwipunku jest proporcjonalna do pierwiastka kwadratowego z tej wartości. Obserwowana prędkość skanowania będzie zależeć od wielu czynników. Cele znajdujące się dalej lub o większej pojemności ekwipunku będą skanowane dłużej.`
+	"TP-167" `Wydłuża czas potrzebny innym statkom na wykonanie skanowania wyposażenia tego statku. Wartość jeden ma taki sam wpływ na czas skanowania, jak dodanie jednej tony dodatkowego miejsca na wyposażenie.`
+	"TP-168" `To ubranie zapewnia mnóstwo uniwersalnej przestrzeni.`
+	"TP-169" `Ten ekwipunek zajmuje mnóstwo miejsca na broń i silniki. Niektóre ekwipunki zajmują również miejsce na broń lub silniki.`
+	"TP-170" `Ten statek ma mnóstwo miejsca na wyposażenie (wliczając broń i silniki).`
+	"TP-171" `Obrażenia kadłuba na sekundę przy przegrzaniu. Obrażenia od przegrzania skalują się w zależności od tego, jak daleko statek przekroczył próg przegrzania.`
+	"TP-172" `Zwiększa procent przegrzania, w którym rozpoczynają się uszkodzenia od przegrzania.`
+	"TP-173" `Zmniejsza zdolność pocisków kierowanych optycznie do śledzenia statku, co jest szczególnie przydatne w przypadku większych jednostek. Im więcej zainstalowanych zakłóceń optycznych, tym większa odległość, z której można zakłócić pociski, i tym większe prawdopodobieństwo, że zakłócony pocisk poleci w losowym kierunku.`
+	"TP-174" `Procent obrażeń tej broni, które przedostają się do kadłuba, gdy osłony celu są nadal aktywne.`
+	"TP-175" `Ochrona przed bronią przebijającą. Zwiększa o podany współczynnik wartość przebicia potrzebną do tego, aby ta sama część obrażeń od broni ominęła tarcze statku.`
+	"TP-176" `Odporność na uszkodzenia przebijające przy wszystkich nadlatujących pociskach, zapobiegająca przedostawaniu się uszkodzeń przez osłony do kadłuba.`
+	"TP-177" `Zmniejsza zdolność pocisków naprowadzanych radarowo do śledzenia twojego statku. Im więcej radarów zakłócających jest zainstalowanych, tym większa jest odległość, z której pociski mogą zostać zakłócone i tym większe prawdopodobieństwo, że zakłócony pocisk poleci w losowym kierunku.`
+	"TP-178" `Uzupełnia paliwo poprzez zbieranie wiatru gwiezdnego. Ramscoopy są bardziej efektywne w pobliżu gwiazdy. Jeśli dodasz więcej niż jeden Ramscoop, każdy kolejny będzie mniej efektywny: potrzebujesz czterech Ramscoopów, aby osiągnąć dwukrotnie większą szybkość ładowania niż jeden Ramscoop.`
+	"TP-179" `Liczba członków załogi wymaganych do obsługi tego statku oraz całkowita liczba dostępnych koi. Dodatkowe koje mogą być przeznaczone dla pasażerów lub dodatkowej załogi.`
+	"TP-180" `Zmienia liczbę członków załogi wymaganych przez ten statek o tę wartość.`
+	"TP-181" `Ciąg wsteczny generowany przez silniki. Ciąg wsteczny pozwala statkowi zwolnić bez konieczności zawracania.`
+	"TP-182" `Energia zużywana na sekundę podczas uruchamiania silników odwrotnych.`
+	"TP-183" `Ciepło wytwarzane na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-184" `Uszkodzenia osłony zadawane statkowi na sekundę podczas odpalania silników odwrotnych.`
+	"TP-185" `Uszkodzenia kadłuba zadawane statkowi na sekundę podczas odpalania silników odwrotnych.`
+	"TP-186" `Zużycie paliwa na sekundę podczas używania silników odrzutowych.`
+	"TP-187" `Skumulowana liczba rozładowań osłony na sekundę podczas odpalania silników odrzutowych.`
+	"TP-188" `Skumulowana korozja kadłuba na sekundę podczas używania silników odrzutowych.`
+	"TP-189" `Skumulowana jonizacja na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-190" `Skumulowana liczba zakłóceń na sekundę podczas odpalania silników odwrotnych.`
+	"TP-191" `Skumulowana ilość wyciekającego paliwa na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-192" `Skumulowane oddziaływania egzotermiczne na sekundę podczas uruchamiania silników odwrotnych.`
+	"TP-193" `Skumulowane zakłócenia silnika na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-194" `Skumulowane zakłócenia osłony na sekundę podczas odpalania silników odwrotnych.`
+	"TP-195" `Możliwość uniknięcia wykrycia, gdy statek przewozi nielegalne wyposażenie lub ładunek. Zakłócenie na poziomie 1 blokuje 50% prób skanowania; 3 blokuje 75%, a 9 blokuje 90%.`
+	"TP-196" `Pozwala skakać bez zatrzymywania się, pod warunkiem, że twoja prędkość mieści się w zakresie zgodnym z kierunkiem skoku.`
+	"TP-197" `Szansa na samozniszczenie statku w przypadku próby wejścia na pokład lub przejęcia go.`
+	"TP-198" `Za ile sprzedam ten strój, w kredytach. Stroje i statki z czasem stracą na wartości (stracą na wartości odsprzedaży), a łupy zawsze zaczynają się od pełnej amortyzacji.`
+	"TP-199" `Energia zużywana na sekundę podczas ładowania osłon.`
+	"TP-200" `Dodatkowa energia zużywana na sekundę podczas ładowania osłon po okresie opóźnienia osłony.`
+	"TP-201" `Modyfikuje energię zużywaną podczas ładowania tarcz o podany współczynnik.`
+	"TP-202" `Zużycie paliwa na sekundę podczas ładowania osłon.`
+	"TP-203" `Dodatkowe paliwo zużywane na sekundę podczas ładowania osłon po okresie opóźnienia osłon.`
+	"TP-204" `Modyfikuje zużycie paliwa podczas ładowania osłon o podany współczynnik.`
+	"TP-205" `Ciepło wytwarzane na sekundę podczas ładowania osłon.`
+	"TP-206" `Dodatkowe ciepło wytwarzane na sekundę podczas ładowania osłon po okresie opóźnienia osłony.`
+	"TP-207" `Modyfikuje ciepło wytwarzane podczas ładowania osłon o podany współczynnik.`
+	"TP-208" `Punkty tarczy odnawiają się na sekundę. Ładowanie tarcz zazwyczaj zużywa energię i może również generować ciepło.`
+	"TP-209" `Dodatkowe punkty osłony odnawiane co sekundę po upływie okresu opóźnienia osłony.`
+	"TP-210" `Modyfikuje liczbę punktów osłony odnawianych na sekundę o podany współczynnik.`
+	"TP-211" `Modyfikuje liczbę punktów osłony odnawianych na sekundę o podany współczynnik, gdy aktywne jest urządzenie maskujące.`
+	"TP-212" `Ten procent wszystkich nadchodzących obrażeń omija osłony i działa bezpośrednio na kadłub przy pełnych osłonach.`
+	"TP-213" `Ten procent wszystkich nadchodzących obrażeń ominie osłony i zostanie przyłożony bezpośrednio do kadłuba, gdy osłony zbliżą się do zera.`
+	"TP-214" `Ten procent wszystkich otrzymywanych obrażeń ominie tarcze i zostanie przyłożony bezpośrednio do kadłuba, gdy jesteś w ukryciu.`
+	"TP-215" `Całkowita siła osłony i szybkość regeneracji na sekundę.`
+	"TP-216" `Całkowita siła osłon. Większość broni nie może uszkodzić kadłuba, dopóki osłony nie zostaną wyczerpane. Niektóre efekty broni, takie jak obrażenia od ciepła, stają się poważniejsze, gdy osłony są osłabione.`
+	"TP-217" `Modyfikuje całkowitą siłę osłony statku o podany współczynnik.`
+	"TP-218" `Liczba sekund, po których rozpoczyna się generowanie dodatkowej tarczy po otrzymaniu obrażeń tarczy.`
+	"TP-219" `Liczba sekund, po upływie których rozpoczyna się generowanie dodatkowej osłony po wyczerpaniu osłon.`
+	"TP-220" `Ochrona przed uszkodzeniami tarczy. Zwiększa o podany współczynnik, ile uszkodzeń tarczy statek może wytrzymać, zanim straci tyle samo tarcz, co statek niechroniony.`
+	"TP-221" `Zapobiega wydawaniu przez statek dźwięków hipernapędu lub napędu skokowego podczas wchodzenia do układu lub jego opuszczania.`
+	"TP-222" `Zapobiega emitowaniu dźwięków skanowania przez statek.`
+	"TP-223" `Ochrona przed uszkodzeniami spowalniającymi. Zwiększa o podany współczynnik, ile uszkodzeń spowalniających statek może wytrzymać, zanim będzie tak samo spowolniony jak statek niechroniony.`
+	"TP-224" `Spowolnienie obrażeń odpartych na sekundę.`
+	"TP-225" `Energia zużywana na sekundę podczas opierania się obrażeniom spowalniającym.`
+	"TP-226" `Paliwo zużywane na sekundę podczas opierania się obrażeniom spowalniającym.`
+	"TP-227" `Ciepło generowane na sekundę podczas stawiania oporu obrażeniom spowalniającym.`
+	"TP-228" `Energia wytwarzana w zależności od odległości statku od gwiazdy w centrum układu.`
+	"TP-229" `Ciepło wytwarzane w zależności od odległości statku od gwiazdy w centrum układu.`
+	"TP-230" `Skanery strategiczne pozwalają sprawdzić odległość od celu, maksymalny zasięg działa, maksymalny zasięg wieżyczki, aktualną prędkość, maksymalne przyspieszenie i prędkość skrętu, gdy cel znajduje się w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-231" `Skanery taktyczne pozwalają sprawdzić stan załogi, paliwa, ciepła i energii aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-232" `Skanery mobilności pozwalają na podgląd maksymalnego przyspieszenia aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-233" `Skanery załogi pozwalają sprawdzić skład załogi aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-234" `Skanery energii pozwalają sprawdzić poziom energii aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-235" `Skanery paliwa pozwalają sprawdzić poziom paliwa w aktualnym celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-236" `Skanery manewrów pozwalają sprawdzić maksymalną prędkość skrętu aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-237" `Skanery mobilności pozwalają sprawdzić aktualną prędkość i maksymalne przyspieszenie celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-238" `Dalmierze pozwalają sprawdzić odległość od środka statku do środka aktualnego celu. Nie ma limitu zasięgu.`
+	"TP-239" `Skanery termiczne pozwalają na podgląd poziomu termicznego aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-240" `Skanery mobilności pozwalają sprawdzić aktualną prędkość celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+	"TP-241" `Skanery broni pozwalają zobaczyć maksymalny zasięg broni aktualnego celu, gdy znajduje się on w zasięgu skanera. Dokładniej, pokazują najdłuższy zasięg wszystkich broni w punkcie mocowania działa; oraz najdłuższy zasięg wszystkich broni w punkcie mocowania wieży. Zasięgi te uwzględniają przesunięcie broni, a tym samym pokazują maksymalny zasięg od środka statku, jaki mogą osiągnąć jej strzały. Zasięg skanera jest proporcjonalny do pierwiastka kwadratowego z tej wartości.`
+	"TP-242" `Ciąg wytwarzany przez silniki. Większy ciąg zwiększa przyspieszenie i prędkość maksymalną statku. Im większa masa statku, tym większy ciąg jest potrzebny do osiągnięcia tego samego przyspieszenia.`
+	"TP-243" `Energia zużywana na sekundę podczas odpalania silników odrzutowych.`
+	"TP-244" `Ciepło wytwarzane na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-245" `Uszkodzenia osłony zadawane statkowi na sekundę podczas odpalania silników odrzutowych.`
+	"TP-246" `Uszkodzenia kadłuba zadawane statkowi na sekundę podczas odpalania silników odrzutowych.`
+	"TP-247" `Zużycie paliwa na sekundę podczas odpalania silników odrzutowych.`
+	"TP-248" `Skumulowana liczba rozładowań osłony na sekundę podczas odpalania silników.`
+	"TP-249" `Skumulowana korozja kadłuba na sekundę podczas odpalania silników odrzutowych.`
+	"TP-250" `Skumulowana jonizacja na sekundę podczas odpalania silników.`
+	"TP-251" `Skumulowana liczba zakłóceń na sekundę podczas odpalania silników.`
+	"TP-252" `Skumulowana ilość wyciekającego paliwa na sekundę podczas odpalania silników odrzutowych.`
+	"TP-253" `Skumulowane oddziaływania egzotermiczne na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-254" `Skumulowane zakłócenia silnika na sekundę podczas uruchamiania silników odrzutowych.`
+	"TP-255" `Skumulowane zakłócenia osłony na sekundę podczas odpalania silników odrzutowych.`
+	"TP-256" `Siła skrętu wytwarzana przez silniki. Im większa masa statku, tym większa siła skrętu jest potrzebna do osiągnięcia tej samej prędkości skrętu.`
+	"TP-257" `Prędkość skrętu w stopniach na sekundę. Im większa masa statku (wliczając masę ładunku lub myśliwców, które przewozi), tym wolniej skręca.`
+	"TP-258" `Zmienia szybkość zwrotu statku o podany współczynnik.`
+	"TP-259" `Energia zużywana na sekundę podczas skręcania.`
+	"TP-260" `Ciepło wytwarzane na sekundę podczas skręcania.`
+	"TP-261" `Uszkodzenia tarczy zadawane statkowi na sekundę podczas obrotu.`
+	"TP-262" `Uszkodzenia kadłuba zadawane statkowi na sekundę podczas obrotu.`
+	"TP-263" `Paliwo zużyte na sekundę podczas skrętu.`
+	"TP-264" `Skumulowana liczba rozładowań osłony na sekundę podczas obrotu.`
+	"TP-265" `Skumulowana korozja kadłuba na sekundę podczas skrętu.`
+	"TP-266" `Skumulowana jonizacja na sekundę podczas obrotu.`
+	"TP-267" `Skumulowana liczba zawirowań na sekundę podczas skręcania.`
+	"TP-268" `Liczba nagromadzonego wyciekającego paliwa na sekundę podczas skręcania.`
+	"TP-269" `Skumulowane oddziaływania egzotermiczne na sekundę podczas obrotu.`
+	"TP-270" `Skumulowane zakłócenia silnika na sekundę podczas skręcania.`
+	"TP-271" `Skumulowane zakłócenia tarczy na sekundę podczas skręcania.`
+	"TP-272" `Ta broń może strzelać w dowolnym kierunku, śledząc aktualnie wybrany cel. Zajmuje jedno z mocowań wieżyczek na statku.`
+	"TP-273" `Ile wieżyczek można zamontować na tym statku. Wieżyczki strzelają w kierunku aktualnie wybranego celu, zamiast strzelać prosto przed siebie, jak działa.`
+	"TP-274" `Ten strój zajmuje mnóstwo miejsca na broń.`
+	"TP-275" `Ten statek może pomieścić mnóstwo broni. (Aby zainstalować broń, musisz mieć również wystarczająco dużo miejsca na wyposażenie.)`
+	"TP-276" `Zmienia prawdopodobieństwo pojawienia się nielegalnego sprzętu podczas skanowania ładunku. Im wyższa jasność, tym większe prawdopodobieństwo jego wykrycia. Jasność skanowania równa 5 ma taką samą szansę na wykrycie, jak sprzęt o wadze 5 ton.`
+	"TP-277" `Ukrywa równoważną masę nielegalnego ładunku przed skanowaniem ładunku, zapobiegając karze za jego posiadanie. Ukrycie skanowania na poziomie 10 sprawi, że do 10 ton nielegalnego ładunku nie pojawi się podczas skanowania ładunku.`
+	"TP-278" `Cena, za którą można by sprzedać sam statek bez żadnego wyposażenia.`
+	"TP-279" `Cena, za którą można by sprzedać cały ekwipunek tego statku.`
+	"TP-280" `Energia i ciepło wytwarzane, gdy statek jest bezczynny, tzn. nie strzela, nie obraca się ani nie wykonuje pchnięć.`
+	"TP-281" `Energia zużyta i ciepło wytwarzane podczas skręcania i ruchu tego statku. Jest to wartość dodatkowa do wartości "jałowej".`
+	"TP-282" `Energia zużyta i ciepło wytworzone, gdy ten statek strzela ze wszystkich swoich broni. Jest to wartość dodatkowa do "bezczynności".`
+	"TP-283" `Energia zużyta i ciepło wytworzone, gdy ten statek jednocześnie ładuje osłony i naprawia kadłub. Jest to wartość dodatkowa do wartości "idle".`
+	"TP-284" `Energia zużyta i ciepło wytworzone podczas naprawy kadłuba tego statku. Jest to wartość dodatkowa do wartości "idle".`
+	"TP-285" `Energia zużyta i ciepło wytworzone podczas ładowania osłon tego statku. Jest to wartość dodatkowa do wartości "idle".`
+	"TP-286" `Suma energii zużytej i ciepła wytworzonego na podstawie powyższych wartości energii i ciepła. Reprezentuje najgorszy scenariusz, gdy wszystkie systemy są aktywne jednocześnie.`
+	"TP-287" `Pojemność magazynowania energii i maksymalny bezpieczny poziom wytwarzania ciepła. Pojemność energetyczna pozwala statkowi tymczasowo pobierać więcej energii niż wytwarza. Maksymalne ciepło to najwyższa generacja ciepła, jaka może wystąpić bez ryzyka przegrzania statku.`
+	"TP-288" `Broń zamocowana na stałe (strzelająca w kierunku, w którym skierowany jest statek) i niewymagająca amunicji.`
+	"TP-289" `Broń, która może strzelać w dowolnym kierunku i śledzi aktualnie wybrany cel.`
+	"TP-290" `Broń wymagająca amunicji (którą należy zakupić osobno).`
+	"TP-291" `Ekwipunek służący jako amunicja do innej broni. Do strzelania tą amunicją potrzebna jest wyrzutnia odpowiedniego typu.`
+	"TP-292" `Urządzenia zajmujące ogólną przestrzeń, a nie przestrzeń zarezerwowaną na silniki lub broń.`
+	"TP-293" `Urządzenia, które albo dostarczają energię, albo magazynują energię, która jest generowana.`
+	"TP-294" `Systemy sterowania i sterowania, które wpływają na szybkość poruszania się statku.`
+	"TP-295" `Broń, której używa twoja załoga, próbując przejąć statek.`
+	"TP-296" `Przedmioty, które możesz kupić lub sprzedać, ale które nie są strojami, które można zainstalować na statku.`
+	"TP-297" `Rodzaj wyposażenia, jakie ta broń zużywa podczas strzału.`
+	"TP-298" `Jednostki amunicji, które ta broń zużywa podczas strzału.`
+	"TP-299" `Całkowity zasięg tej broni.`
+	"TP-300" `Prędkość początkowa pocisków wystrzeliwanych przez tę broń. Niektóre rodzaje broni mają pociski, które przyspieszają lub zwalniają od tej wartości początkowej w trakcie lotu.`
+	"TP-301" `Mnożnik stosowany do obrażeń tej broni, gdy jej pocisk osiągnie maksymalny zasięg zrzutu.`
+	"TP-302" `Zakres początkowy i końcowy, w którym obrażenia tej broni rosną od 100% do wyświetlanego modyfikatora spadku.`
+	"TP-303" `Obrażenia tarczy zadawane na sekundę.`
+	"TP-304" `Obrażenia kadłuba zadawane na sekundę.`
+	"TP-305" `Obrażenia, które można wydobyć na sekundę.`
+	"TP-306" `Paliwo tracone przez cel na sekundę po trafieniu tą bronią. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Wartość ujemna oznacza, że paliwo jest dodawane.`
+	"TP-307" `Zwiększa ciepło celu o tę wartość na sekundę. Skuteczność jest tylko o połowę mniejsza, gdy tarcze celu są aktywne.`
+	"TP-308" `Zmniejsza energię celu o tę wartość na sekundę. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
+	"TP-309" `Zmniejsza energię celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Jonizacja powoli zanika z czasem.`
+	"TP-310" `Zwiększa szansę celu na awarię broni. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Efekt „Scrambling” powoli zanika z czasem.`
+	"TP-311" `Zmniejsza szybkość skrętu, przyspieszenie i prędkość maksymalną celu. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Spowolnienie z czasem zanika.`
+	"TP-312" `Pozwala na "przenikanie obrażeń od broni" do kadłuba, nawet gdy tarcze są aktywne. Zakłócenie tarcz zanika z czasem, a dodanie kolejnego zakłócenia tarcz staje się trudniejsze, ponieważ obrażenia przechodzą przez tarcze zamiast je zakłócać.`
+	"TP-313" `Obrażenia tarczy zadawane przez tę broń w czasie na sekundę.`
+	"TP-314" `Obrażenia kadłuba zadawane przez tę broń w czasie na sekundę.`
+	"TP-315" `Obrażenia od paliwa zadawane przez tę broń w czasie na sekundę.`
+	"TP-316" `Obrażenia od ciepła zadawane przez tę broń w czasie na sekundę.`
+	"TP-317" `Obrażenia tarczy zadawane na sekundę, jako procent całkowitej wytrzymałości tarczy celu.`
+	"TP-318" `Obrażenia kadłuba zadawane na sekundę, jako procent całkowitej wytrzymałości kadłuba celu.`
+	"TP-319" `Obrażenia, które można wydobyć na sekundę, jako procent całkowitego zdrowia celu.`
+	"TP-320" `Utrata paliwa na sekundę jako procent całkowitej pojemności paliwa celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
+	"TP-321" `Zwiększa ciepło celu o tę wartość procentową jego maksymalnej pojemności cieplnej na sekundę. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+	"TP-322" `Zmniejsza energię celu o określoną wartość procentową jego pojemności energetycznej na sekundę. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+	"TP-323" `Energia zużywana na sekundę.`
+	"TP-324" `Ciepło generowane na sekundę.`
+	"TP-325" `Paliwo zużyte na sekundę.`
+	"TP-326" `Uszkodzenia kadłuba zadawane Twojemu statkowi na sekundę.`
+	"TP-327" `Uszkodzenia tarczy zadawane Twojemu statkowi na sekundę.`
+	"TP-328" `Zmniejsza poziom energii na pewien czas po wystrzale z tej broni.`
+	"TP-329" `Zwiększa szansę na awarię broni na pewien czas po wystrzale.`
+	"TP-330" `Zmniejsza prędkość skrętu, przyspieszenie i prędkość maksymalną statku podczas strzelania tą bronią. Efekt spowolnienia z czasem zanika.`
+	"TP-331" `Zaburza osłony statku po wystrzale z tej broni, umożliwiając "przenikanie obrażeń od wrogiej broni" do kadłuba, nawet gdy osłony są aktywne. Zakłócenie osłon z czasem zanika, ale zadawanie sobie obrażeń nie traci skuteczności, gdy osłony stają się bardziej nieszczelne.`
+	"TP-332" `Zmniejsza osłony na pewien czas po wystrzale z tej broni.`
+	"TP-333" `Zmniejsza kadłub na jakiś czas po wystrzale z tej broni.`
+	"TP-334" `Zmniejsza zużycie paliwa na pewien czas po wystrzale z tej broni.`
+	"TP-335" `Zwiększa temperaturę na pewien czas po wystrzale z tej broni.`
+	"TP-336" `Energia zużywana na sekundę, jako procent całkowitej pojemności energetycznej.`
+	"TP-337" `Zwiększa ciepło o określoną wartość procentową maksymalnej pojemności cieplnej na sekundę.`
+	"TP-338" `Paliwo zużyte lub utracone na sekundę jako procent całkowitego paliwa statku.`
+	"TP-339" `Uszkodzenia kadłuba zadawane Twojemu statkowi na sekundę, jako procent całkowitej wytrzymałości kadłuba.`
+	"TP-340" `Uszkodzenia tarczy zadawane Twojemu statkowi na sekundę, jako procent całkowitej wytrzymałości tarczy.`
+	"TP-341" `Liczba pocisków wystrzeliwanych na sekundę przez tę broń. Broń strzelająca w sposób ciągły nie wymaga baterii, jeśli generowana przez statek energia na sekundę jest wyższa niż energia strzału broni na sekundę. Niektóre bronie strzelające w sposób ciągły strzelają tylko przez ułamek czasu, w takim przypadku produkcja energii przez statek musi być wyższa niż energia strzału broni podzielona przez czas strzału, aby nie wymagać baterii.`
+	"TP-342" `O ile stopni ta wieżyczka może się obrócić na sekundę.`
+	"TP-343" `Zmienia szybkość obrotu wieżyczki na tym statku o podany współczynnik.`
+	"TP-344" `Zasięg kątowy ochrony zapewniany przez tę broń, w stopniach.`
+	"TP-345" `Jak ten pocisk śledzi swój cel. Pociski z "direct" będą lecieć prosto na cel, a pociski z "leading" będą wyprzedzać swoją trajektorię.`
+	"TP-346" `Zdolność tego pocisku do utrzymywania namierzania celu.`
+	"TP-347" `Zdolność tego pocisku do utrzymywania optycznego namierzania celu, która zależy od rozmiaru celu; negatywnie wpływa na nią jakikolwiek potencjalny sprzęt zakłócający sygnał optyczny.`
+	"TP-348" `Zdolność tego pocisku do utrzymywania namierzania celu za pomocą podczerwieni, co zależy od poziomu ciepła statku docelowego i odległości od pocisku; pociski naprowadzane za pomocą podczerwieni stają się celniejsze w miarę zbliżania się do celu.`
+	"TP-349" `Zdolność tego pocisku do utrzymywania namiaru na cel za pomocą radaru; negatywnie wpływa na nią sprzęt zakłócający radar statku docelowego.`
+	"TP-350" `Obrażenia tarczy zadawane na strzał.`
+	"TP-351" `Obrażenia kadłuba zadawane strzałem.`
+	"TP-352" `Obrażenia zadawane obiektom możliwym do wydobycia na strzał, zamiast uszkodzeń kadłuba.`
+	"TP-353" `Paliwo tracone przez cel na strzał po trafieniu tą bronią. Skuteczność tylko w połowie, gdy tarcze celu są aktywne. Wartość ujemna oznacza, że paliwo jest dodawane.`
+	"TP-354" `Zwiększa temperaturę statku docelowego o tę wartość z każdym strzałem. Skuteczność jest tylko o połowę niższa, gdy tarcze celu są aktywne.`
+	"TP-355" `Zmniejsza energię statku docelowego o tę wartość na strzał. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+	"TP-356" `Zwiększa jonizację celu o tę wartość z każdym strzałem. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Jonizacja zmniejsza energię celu i powoli zanika z czasem.`
+	"TP-357" `Obrażenia tarczy zadawane przez tę broń w czasie na każdy strzał.`
+	"TP-358" `Obrażenia kadłuba zadawane tą bronią w czasie na każdy strzał.`
+	"TP-359" `Obrażenia od paliwa zadawane w czasie przez tę broń na każdy strzał.`
+	"TP-360" `Obrażenia od ciepła zadawane przez tę broń w czasie na każdy strzał.`
+	"TP-361" `Obrażenia tarczy zadawane na strzał, jako procent całkowitej wytrzymałości tarczy celu.`
+	"TP-362" `Obrażenia kadłuba zadawane strzałem, jako procent całkowitej wytrzymałości kadłuba celu.`
+	"TP-363" `Obrażenia, które można wydobyć, zadawane jako procent całkowitego zdrowia celu, zamiast względnych obrażeń kadłuba.`
+	"TP-364" `Utrata paliwa spowodowana każdym strzałem jako procent całkowitej pojemności paliwa celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
+	"TP-365" `Zwiększa ciepło docelowego statku o tę wartość procentową jego maksymalnej pojemności cieplnej na strzał. Skuteczność jest tylko o połowę niższa, gdy tarcze celu są aktywne.`
+	"TP-366" `Zmniejsza energię statku docelowego o tę wartość procentową jego pojemności energetycznej na strzał. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+	"TP-367" `Energia zużywana na strzał. Broń nie wystrzeli, jeśli baterie statku nie zgromadzą co najmniej takiej ilości energii.`
+	"TP-368" `Ciepło generowane na każdy strzał.`
+	"TP-369" `Paliwo zużyte na każdy strzał.`
+	"TP-370" `Uszkodzenia kadłuba zadawane Twojemu statkowi na strzał.`
+	"TP-371" `Uszkodzenia tarczy zadawane Twojemu statkowi każdym strzałem.`
+	"TP-372" `Zmniejsza energię statku. Jonizacja powoli zanika z czasem.`
+	"TP-373" `Zmniejsza prędkość skrętu, przyspieszenie i prędkość maksymalną statku. Efekt spowolnienia z czasem zanika.`
+	"TP-374" `Pozwala na "przenikanie obrażeń od broni" przez kadłub statku, nawet gdy tarcze są aktywne. Zakłócenie tarcz zanika z czasem, ale zadawanie sobie zakłóceń nie traci skuteczności, gdy tarcze stają się bardziej nieszczelne.`
+	"TP-375" `Obrażenia tarczy zadawane Twojemu statkowi przez tę broń na przestrzeni czasu przy każdym strzale.`
+	"TP-376" `Obrażenia kadłuba zadawane Twojemu statkowi przez tę broń na przestrzeni czasu przy każdym strzale.`
+	"TP-377" `Obrażenia od paliwa zadawane Twojemu statkowi w czasie przy każdym strzale.`
+	"TP-378" `Obrażenia od ciepła zadawane Twojemu statkowi w czasie przy każdym strzale.`
+	"TP-379" `Energia zużywana na każdy strzał, jako procent całkowitej pojemności energetycznej statku.`
+	"TP-380" `Ciepło wytworzone na każdy strzał, jako procent maksymalnej pojemności cieplnej statku.`
+	"TP-381" `Paliwo zużyte lub utracone na każdy strzał, jako procent całkowitego paliwa statku.`
+	"TP-382" `Uszkodzenia kadłuba zadawane Twojemu statkowi każdym strzałem, jako procent całkowitej wytrzymałości kadłuba.`
+	"TP-383" `Uszkodzenia tarczy zadawane Twojemu statkowi na strzał, jako procent całkowitej wytrzymałości tarczy.`
+	"TP-384" `Maksymalna niedokładność tej broni w stopniach. Wartość jeden oznacza, że celowanie bronią będzie maksymalnie o jeden stopień odchylone od celu.`
+	"TP-385" `Wszystko w tej odległości (wliczając przyjazne statki) zostanie uszkodzone, gdy broń trafi w coś.`
+	"TP-386" `Odporność tego pocisku na ostrzał przeciwrakietowy.`
+	"TP-387" `Siła pocisków przeciwrakietowych. Wyższe wartości ułatwiają niszczenie silniejszych pocisków.`
+	"TP-388" `Podstawowa prędkość, z jaką ta broń przyciąga do siebie unoszące się szczątki. Cięższe unoszące się szczątki są trudniejsze do przyciągnięcia.`
+	"TP-389" `Miara skuteczności tej broni w zapobieganiu uszkodzeniom cennych materiałów podczas wydobycia. Broń o dodatniej precyzji zapewnia wyższą wydajność, a ujemna - niższą. Niektóre obiekty nadające się do wydobycia są twardsze niż inne i dlatego są mniej podatne na zmiany w wydajności.`
+	"TP-390" `Do działania tego statku potrzebna jest załoga, ale nie ma w nim koi.`
+	"TP-391" `Wyposażenie tego statku wytwarza tyle ciepła, że nastąpi przegrzanie w momencie startu. Musisz albo dodać więcej chłodzenia, albo zdjąć część wyposażenia, które wytwarza ciepło.`
+	"TP-392" `Ten statek nie ma żadnego źródła energii do zasilania swoich systemów. Musisz zainstalować jakiś generator.`
+	"TP-393" `Ten statek nie ma wystarczającej ilości paliwa, aby zapewnić energię do zasilania swoich systemów. Musisz zwiększyć pojemność zbiornika paliwa.`
+	"TP-394" `Ten statek nie może się poruszać. Musisz zainstalować silniki.`
+	"TP-395" `Ten statek nie może się obracać. Musisz zainstalować systemy sterowania.`
+	"TP-396" `Ten statek nie ma wystarczającej liczby koi dla załogi. Może w losowych momentach przestać reagować.`
+	"TP-397" `Ten statek jest zbyt zimny, aby używać niektórych silników na biegu jałowym. Jego ruch może być utrudniony, jeśli nie ma innego sposobu na generowanie ciepła.`
+	"TP-398" `Jedynym pędnikiem tego statku jest dopalacz. Może on nie móc się poruszać, jeśli dopalaczowi skończy się paliwo.`
+	"TP-399" `Ten statek ma ster strumieniowy wsteczny, ale nie ma steru strumieniowego do przodu. Manewrowanie nim może być bardzo trudne.`
+	"TP-400" `Ten statek nie ma możliwości generowania energii. Może utknąć na mieliźnie i nie móc się poruszać, jeśli wyczerpią się jego baterie.`
+	"TP-401" `Zapas energii tego statku nie wystarcza do uruchomienia silników sterujących z pełną mocą. Jego prędkość maksymalna i przyspieszenie ulegną zmniejszeniu.`
+	"TP-402" `Zasilanie tego statku energią jest niewystarczające do uruchomienia układu sterowania z pełną mocą. Jego prędkość skrętu ulegnie zmniejszeniu.`
+	"TP-403" `Ten statek jest zasilany wyłącznie energią słoneczną. Manewrowanie nim może być trudne, jeśli oddalisz się zbyt daleko od centrum układu gwiezdnego, ponieważ twoje silniki będą miały tylko ułamek wymaganej mocy.`
+	"TP-404" `Ten statek zużywa paliwo, ale ma za mało miejsca w magazynie. Gdyby wystartował, natychmiast zabrakłoby mu paliwa.`
+	"TP-405" `Ten statek nie ma hipernapędu. Gdyby wystartował, nie mógłby opuścić tego układu gwiezdnego.`
+	"TP-406" `Ten statek ma niewystarczającą ilość paliwa, aby wykonać skok nadprzestrzenny. Gdyby wystartował, nie mógłby opuścić tego układu gwiezdnego.`
+	"TP-407" `Nie ma wystarczającej liczby luków, aby pomieścić ten statek. Gdyby wystartował, nie mógłby opuścić tego układu gwiezdnego.`
+	"TP-408" `Ten statek nie ma wystarczającej ilości energii zmagazynowanej w celu wystrzelenia zainstalowanej broni.`
+	"TP-409" `Rządy, które skanują nielegalne towary, zaatakują cię, jeśli odkryjesz ten przedmiot przy sobie w kosmosie, lub aresztują, jeśli zostaniesz znaleziony po wylądowaniu.`
+	"TP-410" `Przyspiesz swój okręt flagowy.`
+	"TP-411" `Skręć swój okręt flagowy w lewo.`
+	"TP-412" `Obróć swój okręt flagowy w prawo.`
+	"TP-413" `Obróć swój okręt flagowy w kierunku przeciwnym do aktualnego kierunku lotu. Jeśli są zainstalowane silniki odrzutowe, przyspiesz do tyłu.`
+	"TP-414" `Za pomocą <shift> zatrzymaj swój statek.`
+	"TP-415" `Uruchom dopalacz swojego okrętu flagowego, jeśli jest zainstalowany.`
+	"TP-416" `Jeśli ustawienie "Automatyczne celowanie" jest wyłączone, włącz automatyczne celowanie po przytrzymaniu tego klawisza.`
+	"TP-417" `Wyląduj na wybranej planecie. Jeśli żadna planeta nie jest wybrana, automatycznie wybiera planetę do lądowania lub podejmuje próbę lądowania na planecie, na której znajdujesz się bezpośrednio, jeśli podróżujesz z niską prędkością. Jeśli planeta jest już wybrana, dwukrotne stuknięcie spowoduje przejście do następnej planety.`
+	"TP-418" `Zainicjuj skok w nadprzestrzeń, aby podążać za aktualnym planem podróży. Jeśli nie masz planu podróży, inicjuje skok najbliższy kątowi, pod którym patrzysz. Po przytrzymaniu wydaje eskorcie polecenie przygotowania się do skoku i inicjuje skok dopiero po zwolnieniu.`
+	"TP-419" `Dzięki <shift> twoja flota nie przeskoczy, dopóki każdy statek we flocie nie będzie gotowy do wejścia do każdego systemu w planie podróży, zamiast konieczności trzymania klucza w każdym systemie.`
+	"TP-420" `Otwórz panel mapy gwiazd.`
+	"TP-421" `Otwórz panel informacji o graczu.`
+	"TP-422" `Wybierz najbliższy wrogi statek.`
+	"TP-423" `Za pomocą <shift> wybierz najbliższy statek bez względu na wrogość.`
+	"TP-424" `Wybierz następny statek w systemie, który nie jest eskortą, i przejrzyj wszystkie statki.`
+	"TP-425" `Za pomocą <shift> przechodź między eskortami.`
+	"TP-426" `Przywołaj wybrany statek lub planetę. Jeśli wybrano zarówno statek, jak i planetę, przywołaj statek.`
+	"TP-427" `Z <shift>, wita planetę.`
+	"TP-428" `Wejście na wybrany statek. Jeśli nie wybrano żadnego statku do wejścia na pokład, wybiera statek do wejścia na pokład na podstawie ustawienia "Boarding target priority".`
+	"TP-429" `Za pomocą <shift> wybiera eskortę do wejścia na pokład.`
+	"TP-430" `Wybierz najbliższą asteroidę na podstawie ustawienia "Asteroida docelowa na podstawie".`
+	"TP-431" `Przeskanuj wybrany statek, jeśli masz zainstalowane skanery wyposażenia lub ładunku.`
+	"TP-432" `Wystrzel ze wszystkich głównych broni swojego okrętu flagowego. Ustawienie "automatycznego ognia" spowoduje wystrzelenie tylko z broni znajdującej się w zasięgu celu.`
+	"TP-433" `Przełączaj ustawienie "Turret tracking" między "focused" a "opportunistic". Więcej szczegółów znajdziesz w podpowiedzi ustawienia "Turret tracking" na karcie Ustawienia.`
+	"TP-434" `Przejdź do następnej broni dodatkowej swojego okrętu flagowego. Po przejrzeniu wszystkich broni dodatkowych z osobna, wybierz wszystkie bronie dodatkowe naraz, a następnie nie wybieraj żadnej broni.`
+	"TP-435" `Wystrzel z wybranej broni dodatkowej swojego okrętu flagowego.`
+	"TP-436" `Aktywuj lub dezaktywuj urządzenia maskujące swojej floty, jeśli takowe są zainstalowane.`
+	"TP-437" `Wieżyczki celują w stronę kursora po przytrzymaniu tego klawisza. Jeśli opcja "Celuj wieżyczki myszą" jest włączona, efekt będzie odwrotny.`
+	"TP-438" `Spraw, aby Twój okręt flagowy obracał się w kierunku myszy, jeśli przytrzymasz ten klawisz. Aby obracanie myszą było zawsze aktywne, aktywuj ustawienie "Sterowanie okrętem za pomocą myszy". Jeśli to ustawienie jest aktywne, przytrzymanie tego klawisza dezaktywuje obracanie myszą.`
+	"TP-439" `Otwórz menu główne.`
+	"TP-440" `Przełącz, czy gra ma być w trybie pełnoekranowym.`
+	"TP-441" `Przełącza przewijanie do przodu z prędkością 3x. Przewijanie do przodu może zostać automatycznie wyłączone przez ustawienie "Interrupt fast-forward". Jeśli klawisz jest ustawiony w trybie Caps Lock, stan Caps Lock zostanie użyty do określenia stanu przewijania do przodu.`
+	"TP-442" `Zatrzymaj czas w grze. Nadal możesz wybierać statki, wydawać polecenia i korzystać z menu.`
+	"TP-443" `Wyświetla okna dialogowe pomocy, które są istotne dla bieżącego panelu interfejsu użytkownika i sytuacji. Używa tych samych okien dialogowych pomocy, co ustawienie "Reactivate first-time help", wymuszając ich wyświetlanie, nawet jeśli pojawiły się już wcześniej.`
+	"TP-444" `Otwórz panel dziennika zawierający wiadomości o statusie i zaproszenia z innych statków otrzymane od momentu załadowania bieżącego pilota.`
+	"TP-445" `Wysyłaj lub przywołuj statki przewożone (np. myśliwce, drony) do swojej floty. Wymaga lotniskowców z miejscem na przewożone statki.`
+	"TP-446" `Wydaj rozkaz całej flocie, aby skoncentrowała ogień na wybranym celu. Jeśli wybrano tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort. To polecenie można również wysłać, klikając prawym przyciskiem myszy na wrogi statek.`
+	"TP-447" `Wydaj rozkaz swojej flocie, aby wstrzymała ostrzał, chyba że później zostanie wyznaczony konkretny cel do ostrzału. Jeśli wybrano tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort.`
+	"TP-448" `Wydaj rozkaz swojej flocie, aby zebrała się wokół okrętu flagowego. Jeśli wybrano tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort. Możesz również wydać rozkaz eskortom, aby zebrały się wokół innego statku, klikając prawym przyciskiem myszy na sojuszniczym statku.`
+	"TP-449" `Za pomocą <shift> zmień wzór formacji swojej floty.`
+	"TP-450" `Wydaj swojej flocie rozkaz utrzymania aktualnej pozycji. Jeśli zaznaczono tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort. To polecenie można również wysłać, klikając prawym przyciskiem myszy na puste miejsce.`
+	"TP-451" `Przełącz ustawienie "Eskorty zużywającej amunicję".`
+	"TP-452" `Wydaj rozkaz swojej flocie, aby zebrała pobliskie szczątki (np. zrzucony ładunek). Ustawienie "Zbiórka szczątków" musi umożliwiać eskorcie zbieranie szczątków, aby można było je zebrać.`
+	"TP-453" `Zwiększa główny współczynnik powiększenia (rozmiar interfejsu użytkownika i rozgrywki). Wraca do 100, jeśli powiększenie przekracza limity ekranu. Jeśli współczynnik powiększenia przekracza 100, aktywuje obrazy o wysokiej rozdzielczości, jeśli są dostępne.`
+	"TP-454" `Zwiększ współczynnik powiększenia widoku rozgrywki podczas lotu. Można go również zmienić za pomocą klawiszy + i - oraz kółka przewijania.`
+	"TP-455" `Przełącza między trybem gry w oknie a trybem pełnoekranowym. Można to również przełączać za pomocą kontrolki "Toggle fullscreen".`
+	"TP-456" `Przełączanie synchronizacji pionowej między trybem wyłączonym, włączonym i adaptacyjnym (o ile komputer ją obsługuje).`
+	"TP-457" `Określa, czy środek ekranu jest nieruchomy, pozostaje w tyle lub wyprzedza okręt flagowy podczas przyspieszania.`
+	"TP-458" `Wyświetla obciążenie procesora i karty graficznej u góry ekranu podczas gry. Obciążenie jest prezentowane jako procent klatki (1/60 sekundy) potrzebny do obliczenia lub narysowania każdej klatki. Obciążenie >100% (lub >33% przy aktywnym przewijaniu do przodu) oznacza, że gra będzie działać wolniej.`
+	"TP-459" `Przełącz, czy rozmycie ruchu ma być renderowane dla wszystkich ruchomych obiektów.`
+	"TP-460" `Zmniejsz rozmiar bardzo dużych (obrazów > 1 miliona pikseli) lub wszystkich grafik do połowy ich wymiarów. Wykluczone są sprite'y interfejsu użytkownika. (Niezalecane dla wyświetlaczy o wysokiej rozdzielczości, ale można użyć do zwolnienia pamięci. Wymaga ponownego uruchomienia gry.)`
+	"TP-461" `Narysuj mgłę w tle podczas lotu.`
+	"TP-462" `Narysuj tło pola gwiazd podczas lotu.`
+	"TP-463" `Rysuj tło pola gwiazd przy stałym poziomie powiększenia zamiast zmieniać go w zależności od poziomu powiększenia widoku.`
+	"TP-464" `Dodaj paralaksę do obiektów w tle (mgły i pola gwiezdnego). Jeśli ustawisz na efektowny, utwórz trzy warstwy paralaksy. Jeśli ustawisz na szybki, utwórz jedną warstwę paralaksy.`
+	"TP-465" `Ożywia tło gwiazd i mgłę w menu głównym.`
+	"TP-466" `Tworzy biały błysk podczas hiperprzestrzeni między systemami.`
+	"TP-467" `Dodaj dodatkowe rozmycie ruchu do tła podczas przeskakiwania między systemami. Opcje „średnie” i „duże” kontrolują intensywność efektu.`
+	"TP-468" `Steruje wyświetlaniem ikon statków floty w stoczni lub u dostawcy sprzętu. W trybie „fantastic” stosuje filtr Sobela do wszystkich statków. (Może to powodować wysokie obciążenie GPU w przypadku dużych flot). W trybie „fast” używa tylko sprite'a statku.`
+	"TP-469" `Steruje wyświetlaniem ikon okrętu flagowego i okrętu docelowego w interfejsie HUD. W trybie zaawansowanym nakłada filtr Sobel na sprite'y. (Może to powodować wysokie obciążenie GPU niektórych okrętów na bardzo starych lub mało wydajnych komputerach). W trybie szybkim używa tylko sprite'a okrętu.`
+	"TP-470" `Steruje wyświetlaniem zamaskowanych eskort. W trybie „fantastic” statek staje się przezroczysty i ma czerwony kontur. W trybie „fast” po prostu zmienia kolor statku na czerwony.`
+	"TP-471" `Wyświetlaj nakładki statusu na wszystkich statkach w locie. Nakładki statusu pokazują tarcze i kadłub statku. Jeśli wybierzesz opcję uszkodzenia, nakładki pojawiają się tylko na statkach, które zostały uszkodzone.`
+	"TP-472" `Wyświetlaj nakładkę statusu na górze swojego okrętu flagowego podczas lotu.`
+	"TP-473" `Wyświetlaj nakładki statusu nad eskortą w trakcie lotu.`
+	"TP-474" `Wyświetlaj nakładki statusu na wrogich statkach w trakcie lotu.`
+	"TP-475" `Wyświetlaj nakładki statusu nad przyjaznymi i neutralnymi statkami podczas lotu.`
+	"TP-476" `Wyświetl nakładkę na wrogie pociski. Nakładka wskazuje zagrożenie ze strony pocisków, przy czym pociski o większej sile w stosunku do PW okrętu flagowego są wskazywane bardziej intensywnie.`
+	"TP-477" `Wyświetlaj nakładki na wieżyczki okrętu flagowego z martwymi polami. Ustawienie tej opcji na "blindspots only" wyświetla nakładki tylko wtedy, gdy martwe pola blokują ostrzał wieżyczek.`
+	"TP-478" `Jeśli na Twoim okręcie flagowym zainstalowano skaner asteroid, wyświetl nakładkę dla pobliskich asteroid.`
+	"TP-479" `Zastosuj zielone podświetlenie do swojego okrętu flagowego.`
+	"TP-480" `Obróć ikonę swojego okrętu flagowego w HUD tak, aby odpowiadała faktycznemu obrotowi okrętu flagowego.`
+	"TP-481" `Wyświetl nakładkę na pobliskie planety i stacje nadające się do lądowania.`
+	"TP-482" `Steruje wyświetlaniem minimapy pobliskich systemów. Jeśli ustawione na "when jumping", minimapa pojawia się tylko podczas inicjowania skoku w nadprzestrzeń. Jeśli ustawione na "always on", jest zawsze obecna podczas lotu.`
+	"TP-483" `Aktywuj możliwość wysyłania poleceń do eskorty za pomocą minimapy radarowej wewnątrz systemu.`
+	"TP-484" `Wskazuje wejście wrogich statków do twojego systemu. Dźwięk odtwarza syrenę. Wizualizacja wyświetla ikonę alarmu na radarze wewnątrz systemu.`
+	"TP-485" `Wyświetlaj dodatkowe komunikaty o stanie eskort w Twojej flocie, np. gdy brakuje załogi lub gdy zbierają szczątki statku.`
+	"TP-486" `Jeśli ta opcja jest aktywna, Twój okręt flagowy zawsze będzie się obracał w kierunku myszy. Aby aktywować obracanie myszy po naciśnięciu klawisza, zapoznaj się z sekcją "Obrót myszy (przytrzymanie)".`
+	"TP-487" `Jeśli aktywne, wieżyczki będą celować w pozycję myszy. Zobacz skrót klawiszowy "Turret aim override (hold)", aby przełączać na podstawie przytrzymanego klawisza.`
+	"TP-488" `Automatycznie obróć swój statek w stronę celu, aby móc celować bronią stałą.`
+	"TP-489" `Automatycznie wystrzel z broni głównej, jeśli wróg znajduje się w zasięgu broni.`
+	"TP-490" `Strategia stosowana przez wieżyczki twojej floty podczas namierzania wrogów. Skoncentrowane śledzenie będzie namierzać wszystkie wieżyczki na statku na tym samym wrogu. Śledzenie oportunistyczne sprawi, że wieżyczki będą celować w statki, które są najbliżej celu, umożliwiając jednoczesne zaatakowanie wielu wrogów.`
+	"TP-491" `Strategia używana przez kontrolkę "Select near asteroid" do wybierania asteroid. Opcja „bliskość” wybiera najbliższą asteroidę. Opcja „wartość” wybiera asteroidę o najwyższej wartości.`
+	"TP-492" `Strategia używana przez "Board selected ship" do wybierania statków, gdy nie masz żadnego namierzonego. Bliskość wybiera najbliższy statek. Wartość wybiera statek o najwyższej wartości (wartość jest szacowana, jeśli nie zeskanowano wyposażenia statku). Mieszane oblicza wartość podzieloną przez odległość do statku.`
+	"TP-493" `Strategia, której używają twoje eskorty, aby określić, kiedy użyć broni dodatkowej. Można ją przełączać za pomocą "Fleet: Przełącz zużycie amunicji". Ustawienie „oszczędny” powoduje użycie broni dodatkowej tylko wtedy, gdy PW twojej eskorty są niskie lub gdy wrogowie w systemie są silniejsi niż twoja flota i jednostki sojusznicze.`
+	"TP-494" `Kontroluj, które z twoich statków mogą podnosić ładunki dryfujące w kosmosie.`
+	"TP-495" `Strategia używana do naprawy statków transportowych (np. myśliwców, dronów) we flocie, gdy są one zadokowane na swoim lotniskowcu. Seria naprawia statek o największej wytrzymałości, aż do jego pełnej naprawy, a następnie przechodzi do następnego. Równoległe naprawianie statku o najniższej wytrzymałości zawsze powoduje, że wszystkie statki jednocześnie zwiększają swoją wytrzymałość.`
+	"TP-496" `Myśliwce przekazują cały ładunek, jaki posiadają, na statek, na którym są umieszczone, gdy dokują.`
+	"TP-497" `Ponownie zatrudnia dodatkową załogę po każdym lądowaniu, jeśli straciłeś dodatkową (niepotrzebną) załogę w trakcie lotu.`
+	"TP-498" `Automatycznie odparkuj statek przeciągnięty na pierwszą pozycję na liście statków i uczyń go swoim okrętem flagowym.`
+	"TP-499" `Rozdzielając ładunek i pasażerów między statkami podczas startu, priorytetowo potraktuj okręt flagowy nad eskortą. (Jeśli na okręcie flagowym brakuje miejsca, część ładunku lub pasażerów misji może zostać przeniesiona na inne statki.)`
+	"TP-500" `W przypadku misji ekspresowych odejmij odległość do celu od terminu, aby ustalić, jak szybko znacznik na mapie ma migać.`
+	"TP-501" `Tworzy ciemną zasłonę nad regionami galaktyki, których jeszcze nie zbadałeś. Osłona unosi się, gdy eksplorujesz systemy.`
+	"TP-502" `Jeśli masz eskortę, zaznacz na mapie gwiazd systemy, w których znajdują się eskorty.`
+	"TP-503" `Jeśli posiadasz stroje przechowywane na planecie, zaznacz na mapie gwiazd systemy ze przechowywanymi strojami.`
+	"TP-504" `Kliknij prawym przyciskiem myszy na miejscu na minimapie układu na mapie galaktyki, aby wysłać eskortę do tego miejsca w wybranym układzie.`
+	"TP-505" `Zawsze podkreślaj klawisz skrótu dla dowolnych przycisków. Przytrzymanie klawisza Alt w dowolnym panelu spowoduje również podkreślenie klawiszy skrótu dla przycisków, jeśli to ustawienie jest wyłączone.`
+	"TP-506" `Ponownie aktywuj okna dialogowe pomocy przy pierwszym użyciu.`
+	"TP-507" `Wyłącz szybkie przewijanie do przodu po lądowaniu lub gdy w trakcie lotu pojawi się rozmowa, okno dialogowe lub inny panel.`
+	"TP-508" `Zastosuj kinowe przybliżanie i oddalanie podczas lądowania i startu.`
+	"TP-509" `Prędkość przewijania w panelach, które można przewijać.`
+	"TP-510" `Określa, jak długo należy najechać kursorem na element, aby wyświetlić jego podpowiedź.`
+	"TP-511" `Format, w jakim wyświetlane są daty w grze.`
+	"TP-512" `Przełącz nawiasy wokół cen handlowych w trybie mapy portów.`
+	"TP-513" `Jeśli wejdziesz do układu, na którym znajduje się planeta, na której musisz wylądować w ramach misji, odtworzy się dźwięk powiadomienia.`
+	"TP-514" `Dołącz dzienniki komunikatów do plików pilota, aby nie zostały utracone po zamknięciu gry lub ponownym wczytaniu pliku zapisu. Spowoduje to zwiększenie rozmiaru plików zapisu i może wydłużyć czas ładowania. Zapisaną historię dziennika można wyczyścić z panelu dziennika komunikatów.`
+	"TP-515" `Wybierz motyw paska tytułu lub pozostaw "system default", aby użyć ustawień systemowych. (Dostępne w systemie Windows 10 i nowszych; w systemie Windows 10 należy zmienić rozmiar okna gry lub uruchomić je ponownie, aby zmiana została wprowadzona.)`
+	"TP-516" `Kontrola wyglądu narożników okien. (Dostępne w systemie Windows 11.)`
+	"TP-517" `Zapewnia ochronę przed oparzeniami. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń od oparzeń o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-518" `Ochrona przed bronią, która zadaje obrażenia kadłubowi, gdy maskowanie jest aktywne. Jeśli dodasz więcej niż jeden zestaw wyposażenia z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń kadłuba o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-519" `Ochrona przed bronią, która zadaje obrażenia tarczy, gdy płaszcz jest aktywny. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń tarczy o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-520" `Zapewnia ochronę przed korozją. Jeśli dodasz więcej niż jeden zestaw z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 oznacza redukcję uszkodzeń korozyjnych o 1%, a łączna wartość 11 oznacza redukcję tylko o 10%.`
+	"TP-521" `Ochrona przed uszkodzeniami od wyładowania tarczy. Jeśli dodasz więcej niż jeden zestaw z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń od wyładowania o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-522" `Ochrona przed uszkodzeniami od zakłóceń tarczy. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń od zakłóceń o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-523" `Zmniejsza opór powietrza. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje zmniejszenie oporu powietrza o 1%, a łączna wartość 11 powoduje zmniejszenie oporu powietrza tylko o 10%.`
+	"TP-524" `Zapewnia ochronę przed obrażeniami od energii. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń od energii o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-525" `Zapewnia ochronę przed siłą uderzenia. Jeśli dodasz więcej niż jeden zestaw z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję siły uderzenia o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-526" `Zapewnia ochronę przed uszkodzeniami spowodowanymi paliwem. Jeśli dodasz więcej niż jeden zestaw wyposażenia z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję uszkodzeń spowodowanych paliwem o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-527" `Zapewnia ochronę przed uszkodzeniami cieplnymi. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń cieplnych o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-528" `Zapewnia ochronę przed uszkodzeniami kadłuba. Jeśli dodasz więcej niż jeden zestaw wyposażenia z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję uszkodzeń kadłuba o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-529" `Zmniejsza efektywną masę statku. Jeśli dodasz więcej niż jeden element wyposażenia z tym atrybutem, każdy kolejny będzie mniej efektywny: łączna wartość 1 powoduje zmniejszenie bezwładności o 1%, a łączna wartość 11 powoduje zmniejszenie bezwładności tylko o 10%.`
+	"TP-530" `Zapewnia ochronę przed uszkodzeniami jonowymi. Jeśli dodasz więcej niż jeden zestaw ubrań z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję uszkodzeń jonowych o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-531" `Zapewnia ochronę przed obrażeniami od skradania. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń od skradania o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-532" `Zapewnia ochronę przed uszkodzeniami spowodowanymi wyciekiem. Jeśli dodasz więcej niż jeden zestaw ubrań z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 oznacza 1% redukcji uszkodzeń spowodowanych wyciekiem, a łączna wartość 11 oznacza tylko 10% redukcji.`
+	"TP-533" `Ochrona przed bronią kłującą. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje zmniejszenie skuteczności przebijania o 1%, a łączna wartość 11 powoduje zmniejszenie skuteczności tylko o 10%.`
+	"TP-534" `Ochrona przed uszkodzeniami tarczy. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń tarczy o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-535" `Ochrona przed obrażeniami spowalniającymi. Jeśli dodasz więcej niż jeden strój z tym atrybutem, każdy kolejny będzie mniej skuteczny: łączna wartość 1 powoduje redukcję obrażeń spowalniających o 1%, a łączna wartość 11 powoduje redukcję tylko o 10%.`
+	"TP-536" `Zmniejsza rozmiar bardzo dużych grafik (obrazów o rozmiarze > 1 miliona pikseli) do połowy. Można użyć tej opcji, aby zwolnić pamięć.`

@@ -1,0 +1,981 @@
+substitutions
+	"NM-0" `Passengers to <planet>`
+	"NM-1" `Delivery to <planet>`
+	"NM-2" `Defend <planet>`
+	"NM-3" `Mystery delivery to <planet>`
+	"NM-4" `Mystery retrieval from <planet stopovers>`
+	"NM-5" `Secure delivery to <planet>`
+	"NM-6" `Deep Security delivery to <planet>`
+	"NM-7" `Transport consultants to <planet>`
+	"NM-8" `Transport Deep Security consultants`
+	"NM-9" `Rush Deep Security Delivery`
+	"NM-10" `Rush Deep Security Consultants`
+	"NM-11" `Shipment to <planet>`
+	"NM-12" `Transport racer to <planet>`
+	"NM-13" `Transport team to <planet>`
+	"NM-14" `Pickup from Hephaestus`
+	"NM-15" `Pickup from Tarazed`
+	"NM-16" `Pickup from Kraz`
+	"NM-17" `Gaining an Edge`
+	"NM-18" `Travel to <planet>`
+	"NM-19" `Blockading the Devil`
+	"NM-20" `Rendezvous on <planet>`
+	"NM-21" `Find "There Might Be Riots"`
+	"NM-22" `Reunite with the band`
+	"NM-23" `Transport band to <planet>`
+	"NM-24" `Mysterious Message`
+	"NM-25" `Research Supplies`
+	"NM-26" `Fetching keystones`
+	"NM-27" `Exploring the Unknown`
+	"NM-28" `Analyze Wormholes`
+	"NM-29" `Analyze Alien Creatures`
+	"NM-30" `Analyze Remnant Ships`
+	"NM-31" `Fetching Engines`
+	"NM-32" `Fetching a Generator`
+	"NM-33" `Fetching a Cannon`
+	"NM-34" `Remnant Surveillance`
+	"NM-35" `Locate Missing Scientists`
+	"NM-36" `Secure the Scientists`
+	"NM-37" `Deep Security escorts on <planet>`
+	"NM-38" `Republic Navy escorts on <planet>`
+	"NM-39" `Return to <planet>`
+	"NM-40" `Take down the Devil`
+	"NM-41" `Stone of our Fathers`
+	"NM-42" `Home for Skadenga`
+	"NM-43" `Transport for Skadenga`
+	"NM-44" `Mani Refitted`
+	"NM-45" `Transport the Skadenga`
+	"NM-46" `Check on Hjlod`
+	"NM-47" `Return the Skadenga`
+	"NM-48" `<planet> Mystery Man`
+	"NM-49" `Head Back to <planet>`
+	"NM-50" `Evacuate Nifel`
+	"NM-51" `Evacuate <origin>`
+	"NM-52" `Stones of Skadenga`
+	"NM-53" `Hjlod Remembers`
+	"NM-54" `Drought relief to <planet>`
+	"NM-55" `Remembrance Day celebration`
+	"NM-56" `Return from Remembrance Day`
+	"NM-57" `Food convoy to <planet>`
+	"NM-58" `Resupply Navy base on <planet>`
+	"NM-59" `Pirate Reconnaissance`
+	"NM-60" `Transport Militia Officer`
+	"NM-61" `Free Worlds Reconnaissance`
+	"NM-62" `Free Worlds Escort`
+	"NM-63" `Stranded Freighter`
+	"NM-64" `Second Chance`
+	"NM-65" `Free Worlds Bounty Hunting`
+	"NM-66" `Assist the Free Worlds`
+	"NM-67" `Transport Mr. Eyes`
+	"NM-68" `Drone Hunting`
+	"NM-69" `Katya and Mr. Eyes`
+	"NM-70" `Information Gathering`
+	"NM-71" `The Hunt Continues`
+	"NM-72" `Bring Eyes to <planet>`
+	"NM-73" `Join the Free Worlds`
+	"NM-74" `Rescue Katya`
+	"NM-75" `Defend Sabik`
+	"NM-76" `Prisoner Parole`
+	"NM-77" `Syndicate Diplomacy`
+	"NM-78" `Tarazed Diplomacy`
+	"NM-79" `Poisonwood Diplomacy`
+	"NM-80" `Early Warning Systems`
+	"NM-81" `Destroy Sensors`
+	"NM-82" `Weapons Testing`
+	"NM-83" `Escort Supply Convoy`
+	"NM-84" `Senator Huygens`
+	"NM-85" `Southern Patrol`
+	"NM-86" `Attack Greenrock`
+	"NM-87" `Early Warning`
+	"NM-88" `Pirate Diplomacy`
+	"NM-89" `Defend Thule`
+	"NM-90" `Return to Longjump`
+	"NM-91" `Seeking Harmony`
+	"NM-92" `Harmony Lost`
+	"NM-93" `Preemptive Strike`
+	"NM-94" `Senate Hearing`
+	"NM-95" `Smuggler's Den Repairs`
+	"NM-96" `<planet> Repairs`
+	"NM-97" `Free Worlds Diplomacy`
+	"NM-98" `Reconnaissance`
+	"NM-99" `Electron Beam`
+	"NM-100" `Escort Battle Fleet`
+	"NM-101" `Attack Rastaban`
+	"NM-102" `Sweep for Navy Ships`
+	"NM-103" `Return Navy Prisoners`
+	"NM-104" `Keep Navy Prisoners`
+	"NM-105" `Report to Dancer`
+	"NM-106" `Northern Expansion`
+	"NM-107" `Meet With Freya`
+	"NM-108" `Sweep Hope`
+	"NM-109" `Sweep Clark`
+	"NM-110" `Sweep New Holland`
+	"NM-111" `Sweep New Tibet`
+	"NM-112" `Freya to Zug`
+	"NM-113" `Dreadnoughts to <planet>`
+	"NM-114" `Meet Convoy`
+	"NM-115" `Medical Convoy`
+	"NM-116" `Liberate Poisonwood`
+	"NM-117" `Danforth to <planet>`
+	"NM-118" `Return to the Front`
+	"NM-119" `Alondo to <planet>`
+	"NM-120" `Ships from <planet>`
+	"NM-121" `Supplies from <planet>`
+	"NM-122" `Supplies to <planet>`
+	"NM-123" `Invasion Fleet`
+	"NM-124" `Capture Bloodsea`
+	"NM-125" `Meet Freya on <planet>`
+	"NM-126" `Freya to <planet>`
+	"NM-127" `Visit Albatross`
+	"NM-128" `Hunt Ryk Bartlett`
+	"NM-129" `Return to Dancer`
+	"NM-130" `Occupy Zeta Aquilae`
+	"NM-131" `Regroup at Wayfarer`
+	"NM-132" `The Defector`
+	"NM-133" `Liberate Delta Sagittarii`
+	"NM-134" `Scout Kaus Borealis`
+	"NM-135" `Attack Kaus Borealis`
+	"NM-136" `Scout out Cebalrai`
+	"NM-137" `Capture Cebalrai`
+	"NM-138" `Uranium Convoy`
+	"NM-139" `Warhead Convoy`
+	"NM-140" `Let's Try Diplomacy`
+	"NM-141" `Defend Cebalrai`
+	"NM-142" `Upgrade Your Ship`
+	"NM-143" `Attack Menkent`
+	"NM-144" `Capture <planet>`
+	"NM-145" `Investigate <system>`
+	"NM-146" `Report to Katya`
+	"NM-147" `Visit the Pug`
+	"NM-148" `Visit <planet>`
+	"NM-149" `Escape Pug Space`
+	"NM-150" `Talk to the Navy`
+	"NM-151" `Bring Freya to <planet>`
+	"NM-152" `Liberate <system>`
+	"NM-153" `Defend <system>`
+	"NM-154" `Equipment from <planet>`
+	"NM-155" `Equipment to <planet>`
+	"NM-156" `Visit the Quarg`
+	"NM-157" `Liberate <planet>`
+	"NM-158" `Defeat the Pug`
+	"NM-159" `Talk to Parliament`
+	"NM-160" `Pick up Ijs from <planet>`
+	"NM-161" `Bring evidence to <planet>`
+	"NM-162" `Visit to the Deep`
+	"NM-163" `Oathkeepers on Farpoint`
+	"NM-164" `Travel to Stormhold`
+	"NM-165" `Return to Farpoint`
+	"NM-166" `Defend Farpoint`
+	"NM-167" `Ambassadors from Earth`
+	"NM-168" `Ambassadors to Bourne`
+	"NM-169" `Katya and Ijs to <planet>`
+	"NM-170" `Ambassadors to Earth`
+	"NM-171" `Raid on Nimbus`
+	"NM-172" `Escape to <planet>`
+	"NM-173" `What happened to Rand?`
+	"NM-174" `Meet with Parliament`
+	"NM-175" `Reason with the Syndicate`
+	"NM-176" `Install a Jump Drive`
+	"NM-177" `Investigate the Pug`
+	"NM-178" `Bring news to Earth`
+	"NM-179" `Visit the Deep (optional)`
+	"NM-180" `Visit the Quarg (optional)`
+	"NM-181" `Gather the fleet`
+	"NM-182" `Escort to <planet>`
+	"NM-183" `Escort to Hephaestus`
+	"NM-184" `Defend Maker`
+	"NM-185" `Reflector to Hephaestus`
+	"NM-186" `Return to <system>`
+	"NM-187" `Reflector to <planet>`
+	"NM-188" `Defend Altair`
+	"NM-189" `Deal with the Syndicate`
+	"NM-190" `Cloaking Device`
+	"NM-191" `Final Battle`
+	"NM-192" `Report to Parliament`
+	"NM-193" `Weapon Testing`
+	"NM-194" `Convoy to Zug`
+	"NM-195" `Take Ijs to <planet>`
+	"NM-196" `Ramscoop Technology`
+	"NM-197" `"Wolf Pack" Recruiting`
+	"NM-198" `Attack Food Convoy`
+	"NM-199" `Escort convoy from Rand`
+	"NM-200" `Scouting Run`
+	"NM-201" `Convoy to <planet>`
+	"NM-202" `Reinforcements to <planet>`
+	"NM-203" `Resupply <planet>`
+	"NM-204" `Care package to <planet>`
+	"NM-205" `Refugees to <planet>`
+	"NM-206" `Frontier delivery to <planet>`
+	"NM-207" `Emigration to <planet>`
+	"NM-208" `Disaster relief to <planet>`
+	"NM-209" `Pookie`
+	"NM-210" `Stray Dog`
+	"NM-211" `Expedition to Hope`
+	"NM-212" `Transport Family`
+	"NM-213" `Transport Worker`
+	"NM-214" `Farming Family`
+	"NM-215" `Star Research`
+	"NM-216" `Drug Running`
+	"NM-217" `Shady passenger transport`
+	"NM-218" `Shady passenger transport big payment`
+	"NM-219" `Rescue Miners`
+	"NM-220" `Rush delivery to <planet>`
+	"NM-221" `Package to <planet>`
+	"NM-222" `Papers to <planet>`
+	"NM-223" `Lizard to <planet>`
+	"NM-224" `Migrant Workers`
+	"NM-225" `Vaccine to <planet>`
+	"NM-226" `Food to <planet>`
+	"NM-227" `Terraforming Rand`
+	"NM-228" `Unlawful Use of an Asteroid`
+	"NM-229" `Terraforming Research`
+	"NM-230" `Terraforming Tundra`
+	"NM-231" `Missing drone`
+	"NM-232" `Rescue Tod`
+	"NM-233" `Bring Tod to <planet>`
+	"NM-234" `Flee to <planet>`
+	"NM-235" `Escaping Paradise`
+	"NM-236" `Last Hope`
+	"NM-237" `Exchange of Goods`
+	"NM-238" `Mebsuta Disaster`
+	"NM-239" `Spaceport Defenses`
+	"NM-240" `Bad Harvest`
+	"NM-241" `Escape to Freedom`
+	"NM-242" `Capture rogue smuggler`
+	"NM-243" `Escort Hauler prototype to formal dinner`
+	"NM-244" `Escort Hauler prototype to <planet>`
+	"NM-245" `Escort Hauler prototype to waste plant`
+	"NM-246" `Antibiotics shipment to <planet>`
+	"NM-247" `Fight at Umbral`
+	"NM-248" `Retired Family to Earth`
+	"NM-249" `Spacediving at <planet>`
+	"NM-250" `<origin> Emigration`
+	"NM-251" `Transport to <planet>`
+	"NM-252" `Out of Work`
+	"NM-253" `Saving Artifacts`
+	"NM-254" `Duel Lokust`
+	"NM-255" `Dragonriders`
+	"NM-256" `Karengo's Galactic Adventures`
+	"NM-257" `Visiting Home`
+	"NM-258" `Pickup at <planet>`
+	"NM-259" `Wool to <planet>`
+	"NM-260" `Inheritance to <planet>`
+	"NM-261" `Cargo to <planet>`
+	"NM-262" `Package to Silver`
+	"NM-263" `Redirect Package to <planet>`
+	"NM-264" `Misposted Mail Delivery`
+	"NM-265" `Stop Ship Hijacking`
+	"NM-266" `Transport a blind passenger to <planet>`
+	"NM-267" `Search for Artemis Renard`
+	"NM-268" `Take August to <planet>`
+	"NM-269" `Return Artemis Renard`
+	"NM-270" `Visit Artemis Renard`
+	"NM-271" `Moving House`
+	"NM-272" `Moving House, Again`
+	"NM-273" `Transport Burnbecks to <planet>`
+	"NM-274" `Fiance to <planet>`
+	"NM-275" `Refugee family to <planet>`
+	"NM-276" `Derelict Treasure Map`
+	"NM-277" `Lost Family Investment`
+	"NM-278" `Transport family home to <planet>`
+	"NM-279" `Lost dog to <planet>`
+	"NM-280" `Exhibition installations to <planet>`
+	"NM-281" `Film Syndicate sweatshop on <planet>`
+	"NM-282" `Film slave transaction`
+	"NM-283" `Take the film to <planet>`
+	"NM-284" `Return Adelita to <planet>`
+	"NM-285" `Rescue kidnapped man in <waypoints>`
+	"NM-286" `Purchase bond on <planet>`
+	"NM-287" `Visit Howard on <planet>`
+	"NM-288" `Escort Howard to <planet>`
+	"NM-289" `Disable a Marauder ship in <waypoints>`
+	"NM-290" `Kicking a Hornet's Nest`
+	"NM-291" `Meet Howard on <planet>`
+	"NM-292" `Stowaway to <planet>`
+	"NM-293" `Visit the Governor of <planet>`
+	"NM-294" `Rescue <origin> convoy`
+	"NM-295" `Defeat the pirate fleet`
+	"NM-296" `Escort the Convoy`
+	"NM-297" `Return to Rand`
+	"NM-298" `Meet Tim's contact on <planet>`
+	"NM-299" `Supplies on New Britain`
+	"NM-300" `Supplies on Dancer`
+	"NM-301" `Supplies on <planet>`
+	"NM-302" `Bring Tosti's stone to <planet>`
+	"NM-303" `Bring Ildico to <planet>`
+	"NM-304" `Find Ildico's Father`
+	"NM-305" `Visit Ildico`
+	"NM-306" `Take Ildico to <planet>`
+	"NM-307" `Meet Ildy on <planet>`
+	"NM-308" `Defeat Ildico's rivals`
+	"NM-309" `Siblings to New China`
+	"NM-310" `Following Footprints`
+	"NM-311" `Passenger to <planet>`
+	"NM-312" `Transport family to <planet>`
+	"NM-313" `Tourists to <planet>`
+	"NM-314" `Bring James to <planet>`
+	"NM-315" `Escort convoy to <planet>`
+	"NM-316" `Mine asteroids in <system>`
+	"NM-317" `Bulk delivery to <planet>`
+	"NM-318" `Passenger transport to <planet>`
+	"NM-319" `Bring a tourist to <planet>`
+	"NM-320" `Bring tourists to <planet>`
+	"NM-321" `Bring wealthy tourists to <planet>`
+	"NM-322" `Wealthy tourist group to <planet>`
+	"NM-323" `Bring a tourist home to <planet>`
+	"NM-324" `Bring tourists home to <planet>`
+	"NM-325" `Wealthy tourists home to <planet>`
+	"NM-326" `Strike breakers to <planet>`
+	"NM-327" `Colonists to <planet>`
+	"NM-328" `Stranded field trip to <planet>`
+	"NM-329" `Prisoner transport to <planet>`
+	"NM-330" `Parolee transport to <planet>`
+	"NM-331" `Large bulk delivery to <planet>`
+	"NM-332" `Large rush delivery to <planet>`
+	"NM-333" `Recycle garbage`
+	"NM-334" `Wildfire aid to <planet>`
+	"NM-335" `Firefighters to <planet>`
+	"NM-336" `Cold relief to <planet>`
+	"NM-337" `Wanted corsair near <system>`
+	"NM-338" `Wanted corsair entering <system>`
+	"NM-339" `Wanted outlaw near <system>`
+	"NM-340" `Wanted outlaw entering <system>`
+	"NM-341" `Wanted criminal near <system>`
+	"NM-342" `Wanted criminal entering <system>`
+	"NM-343" `Wanted bandit near <system>`
+	"NM-344" `Wanted bandit entering <system>`
+	"NM-345" `Wanted pirate near <system>`
+	"NM-346" `Wanted pirate entering <system>`
+	"NM-347" `Wanted warlord near <system>`
+	"NM-348" `Wanted warlord entering <system>`
+	"NM-349" `Disguised bandit near <system>`
+	"NM-350" `Disguised pirate near <system>`
+	"NM-351" `Disguised warlord near <system>`
+	"NM-352" `Stolen ship near <system>`
+	"NM-353" `Stolen warship near <system>`
+	"NM-354" `Marauder interceptor near <system>`
+	"NM-355" `Small Marauder near <system>`
+	"NM-356" `Marauder near <system>`
+	"NM-357" `Large Marauder near <system>`
+	"NM-358" `Small Marauders near <system>`
+	"NM-359" `Marauders near <system>`
+	"NM-360" `Large Marauders near <system>`
+	"NM-361" `Volcanic relief to <planet>`
+	"NM-362" `Wildfire relief to <planet>`
+	"NM-363" `Transport Firefighters`
+	"NM-364" `Harvested silicon to <planet>`
+	"NM-365" `Harvested lead to <planet>`
+	"NM-366" `Harvested iron to <planet>`
+	"NM-367" `Harvested aluminum to <planet>`
+	"NM-368" `Harvested titanium to <planet>`
+	"NM-369" `Harvested copper to <planet>`
+	"NM-370" `Harvested neodymium to <planet>`
+	"NM-371" `Harvested tungsten to <planet>`
+	"NM-372" `Harvested uranium to <planet>`
+	"NM-373" `Harvested silver to <planet>`
+	"NM-374" `Harvested gold to <planet>`
+	"NM-375" `Harvested platinum to <planet>`
+	"NM-376" `Transport student to <planet>`
+	"NM-377" `Transport wealthy student to <planet>`
+	"NM-378" `Warship Testing`
+	"NM-379" `Earth Day celebration`
+	"NM-380" `Return from Earth Day`
+	"NM-381" `Birthday supplies to <planet>`
+	"NM-382" `Art delivery to <planet>`
+	"NM-383" `Newlyweds to <planet>`
+	"NM-384" `Theater props to <planet>`
+	"NM-385" `Fine food to <planet>`
+	"NM-386" `Party-goers to <planet>`
+	"NM-387" `Food donations to <planet>`
+	"NM-388" `Clothing donations to <planet>`
+	"NM-389" `Medical aid to <planet>`
+	"NM-390" `Charity goods to <planet>`
+	"NM-391" `Party goods from <planet stopovers>`
+	"NM-392" `Estate assets to <planet>`
+	"NM-393" `Contract laborers from <planet stopovers>`
+	"NM-394" `Waste disposal on <planet>`
+	"NM-395" `Parolees to <planet>`
+	"NM-396" `Debtors to <planet>`
+	"NM-397" `Wealthy retirees to <planet>`
+	"NM-398" `Wilderness Retreat to <planet>`
+	"NM-399" `Evacuate Martini family to <planet>`
+	"NM-400" `Evacuate Martini residents to <planet>`
+	"NM-401" `Evacuate Martini resident to <planet>`
+	"NM-402" `Evacuate tourist to <planet>`
+	"NM-403" `Evacuate tourist couple to <planet>`
+	"NM-404" `Evacuate tourist family to <planet>`
+	"NM-405" `Evacuate tourist group to <planet>`
+	"NM-406" `Evacuate group of businessmen from Martini to <planet>`
+	"NM-407" `Evacuate businessman to <planet>`
+	"NM-408" `Transport discharged doctors to <planet>`
+	"NM-409" `Transport discharged search and rescue team to <planet>`
+	"NM-410" `Disaster relief to Martini`
+	"NM-411" `Construction supplies to Martini`
+	"NM-412" `Food packages to Martini`
+	"NM-413" `Water purification tablets to Martini`
+	"NM-414" `Fire retardant to Martini`
+	"NM-415" `Relief workers to Martini`
+	"NM-416" `Smuggling to <planet>`
+	"NM-417" `Drug run to <planet>`
+	"NM-418" `Bulk smuggling to <planet>`
+	"NM-419" `Bulk drug run to <planet>`
+	"NM-420" `Highly illegal cargo to <planet>`
+	"NM-421" `Highly illegal drugs to <planet>`
+	"NM-422" `Wanted individual to <planet>`
+	"NM-423" `Wanted individuals to <planet>`
+	"NM-424" `Galactic criminal to <planet>`
+	"NM-425" `Transfer slaves to <planet>`
+	"NM-426" `Protection to <planet>`
+	"NM-427" `Protect cargo to <planet>`
+	"NM-428" `Protect ship to <planet>`
+	"NM-429" `Navy near <system>`
+	"NM-430" `Syndicate near <system>`
+	"NM-431" `Militia near <system>`
+	"NM-432" `Competition near <system>`
+	"NM-433" `Marauder Elimination`
+	"NM-434" `Merchants near <system>`
+	"NM-435" `Convoy near <system>`
+	"NM-436" `Assassinate a political target`
+	"NM-437" `Han Sizer celebration`
+	"NM-438" `Pirates occupying <system>`
+	"NM-439" `Corporate retreat to <planet stopovers>`
+	"NM-440" `Rush fuel delivery to <planet>`
+	"NM-441" `Rush equipment delivery to <planet>`
+	"NM-442" `Syndicate target practice`
+	"NM-443" `Transport executive to house arrest`
+	"NM-444" `Transport convicted saboteur`
+	"NM-445" `Transport convicted corporate spies`
+	"NM-446" `Transport detained protesters`
+	"NM-447" `Transport detained labor organizers`
+	"NM-448" `Return executive back from house arrest`
+	"NM-449" `Return detained protesters home`
+	"NM-450" `Return detained labor organizers home`
+	"NM-451" `Endless Sky`
+	"NM-452" `Hai Origins`
+	"NM-453" `An Alien Encounter`
+	"NM-454" `Humans Among the Avgi`
+	"NM-455" `Avgi Strike Force`
+	"NM-456" `Ensemble Defense`
+	"NM-457" `Search and Rescue`
+	"NM-458" `Hunt the Aberrant`
+	"NM-459" `Return to Peripheria`
+	"NM-460" `Dissonance Outreach`
+	"NM-461" `Escape the Twilight`
+	"NM-462" `Sora's Return`
+	"NM-463" `Darius' Return`
+	"NM-464" `Bulk cargo to <planet>`
+	"NM-465" `Specialists to <planet>`
+	"NM-466" `Researchers to <planet>`
+	"NM-467" `Diplomats to <planet>`
+	"NM-468" `Doctors to <planet>`
+	"NM-469" `Construction materials to the <planet>`
+	"NM-470" `Bulk materials to the <planet>`
+	"NM-471" `Special nuclear materials to <planet>`
+	"NM-472" `Information courier to <planet>`
+	"NM-473" `Twilight Guardsmen to <planet>`
+	"NM-474" `Twilight Guard Officers to <planet>`
+	"NM-475" `Twilight Guard Flag Officers to <planet>`
+	"NM-476" `Shore leave on <planet>`
+	"NM-477" `Atomic Testing`
+	"NM-478" `An Intriguing Invitation`
+	"NM-479" `Workers to the <planet>`
+	"NM-480" `Volunteers to the <planet>`
+	"NM-481" `Materials to the <planet>`
+	"NM-482" `Supplies to the <planet>`
+	"NM-483" `Candidate to the <planet>`
+	"NM-484" `Interpreters to <planet>`
+	"NM-485" `Peacekeepers to <planet>`
+	"NM-486" `Saryds to <planet>`
+	"NM-487" `Kimek to <planet>`
+	"NM-488" `Arachi to <planet>`
+	"NM-489" `Transfer to <planet>`
+	"NM-490" `Vacationers to <planet>`
+	"NM-491" `Fast courier to <planet>`
+	"NM-492" `Rush Delivery to <planet>`
+	"NM-493" `Cadets to <planet>`
+	"NM-494" `Spectators to <planet>`
+	"NM-495" `Sell Jump Drive`
+	"NM-496" `Contain Criminals`
+	"NM-497" `Transport Prisoners`
+	"NM-498" `Investigate signs of criminal activity`
+	"NM-499" `Rescue Lunarium Members`
+	"NM-500" `Armageddon Core Delivery`
+	"NM-501" `Fusion Reactor Delivery`
+	"NM-502" `Breeder Reactor Delivery`
+	"NM-503" `Torpedo Delivery`
+	"NM-504" `Typhoon Delivery`
+	"NM-505" `Plasma Turret Delivery`
+	"NM-506" `Flamethrower Delivery`
+	"NM-507" `Grenade Delivery`
+	"NM-508" `Anti-Missile Delivery`
+	"NM-509" `Register with the Heliarchs`
+	"NM-510" `Return to the <planet>`
+	"NM-511" `Foreign Aid`
+	"NM-512" `Jump Drive Loan`
+	"NM-513" `More Yottrite`
+	"NM-514" `Even More Yottrite`
+	"NM-515" `Neighbor's Mailbox`
+	"NM-516" `Yottrite Research`
+	"NM-517" `Saryd Specialists`
+	"NM-518" `Master Shipwright`
+	"NM-519" `One Last Sample`
+	"NM-520" `Yottrite Presentation`
+	"NM-521" `Transport Chikee`
+	"NM-522" `Transport Doctors`
+	"NM-523" `Collect Vaccines`
+	"NM-524" `Distribute Vaccines`
+	"NM-525" `Not One Minute Late`
+	"NM-526" `Acquire Arach Rum`
+	"NM-527" `Deliver Arach Rum`
+	"NM-528" `Saryd Census`
+	"NM-529" `Acquiring Funds`
+	"NM-530" `Home Sweet Plot Of Land`
+	"NM-531" `Reversed House Spider`
+	"NM-532" `Test Drive, Final Drive`
+	"NM-533" `Longcow Antibiotics`
+	"NM-534" `Arach Orphans`
+	"NM-535" `A New Design`
+	"NM-536" `Transport Saryd Scientist`
+	"NM-537" `Shrine of the World Shaper`
+	"NM-538" `Caretaker's Blessing`
+	"NM-539" `Visit the Witch of Dusk`
+	"NM-540" `Master Hunter's Path`
+	"NM-541" `Woodland Thing`
+	"NM-542" `Pilgrimage's End`
+	"NM-543" `Council of Ahr`
+	"NM-544" `Underwater Delivery`
+	"NM-545" `Pressurized Stress Test`
+	"NM-546" `Tectonic Stress Test`
+	"NM-547" `Deliver the Submarines`
+	"NM-548" `Scouting Permit`
+	"NM-549" `Relay Pylon`
+	"NM-550" `Dusted Dead Drop`
+	"NM-551" `Report: Distant Home`
+	"NM-552" `Report: Ancient Light`
+	"NM-553" `Report: Summit`
+	"NM-554" `Curious Red Cloud`
+	"NM-555" `Lost Checkpoint`
+	"NM-556" `Escape Route`
+	"NM-557" `Expeditions Past`
+	"NM-558" `Long Lost Property`
+	"NM-559" `Lost and Found`
+	"NM-560" `Reclaim the Probe`
+	"NM-561" `Comparing Binaries`
+	"NM-562" `Get Kachachee Cultural Information`
+	"NM-563" `Look for Anna Fangvin`
+	"NM-564" `Take Anna to Coalition Space`
+	"NM-565" `Beyond the Hyperdrive for Kachachee`
+	"NM-566" `Help Anna register with the Heliarchy`
+	"NM-567" `Back to <planet>`
+	"NM-568" `Kimek Publishing Company`
+	"NM-569" `Visit Anna`
+	"NM-570" `Transport Heliarch Agents`
+	"NM-571" `Heliarch Investigation`
+	"NM-572" `Investigate <planet>`
+	"NM-573" `Heliarch Reconnaissance`
+	"NM-574" `Scanning Preparations`
+	"NM-575" `Silent Scan`
+	"NM-576" `Preparations for Scanning`
+	"NM-577" `Not So Silent Scan`
+	"NM-578" `Extraterritorial Reconnaissance`
+	"NM-579" `Contacted`
+	"NM-580" `Extraterritorial Venture`
+	"NM-581" `Meet With Aulori`
+	"NM-582" `Transport Heliarch Soldiers`
+	"NM-583" `Pick Up Injured Soldiers`
+	"NM-584" `Informational Medicine`
+	"NM-585" `Undercover Transports`
+	"NM-586" `Meet with Plortub`
+	"NM-587" `Stop The Fleeing Ships`
+	"NM-588" `Refueling Drill`
+	"NM-589" `Pursuit Drill`
+	"NM-590" `Combat Drill`
+	"NM-591" `Meet With The Consuls`
+	"NM-592" `Charity Delivery`
+	"NM-593" `Grenade Smuggling`
+	"NM-594" `Anti-Missile Smuggling`
+	"NM-595" `Torpedo Smuggling`
+	"NM-596" `Heated Smuggling`
+	"NM-597" `Reactor Smuggling`
+	"NM-598" `Meet with House Bebliss`
+	"NM-599" `Find Freya`
+	"NM-600" `Tell the Free Worlds about the Coalition`
+	"NM-601" `An Answer to House Bebliss`
+	"NM-602" `Jumping Spiders`
+	"NM-603" `Escort House Bebliss`
+	"NM-604" `The House Always Wins`
+	"NM-605" `Pick Up Students`
+	"NM-606" `Transport The Students`
+	"NM-607" `Pick Up Desert Ranchers`
+	"NM-608" `Transport The Ranchers`
+	"NM-609" `Pick Up Immigrants`
+	"NM-610" `Transport The Immigrants`
+	"NM-611" `Promoting Culture`
+	"NM-612" `Bootcamp`
+	"NM-613" `Combat Test`
+	"NM-614" `Pick Up Pyakri`
+	"NM-615" `Homecoming`
+	"NM-616" `Lunarium Meeting`
+	"NM-617" `The Interview`
+	"NM-618" `Report Back`
+	"NM-619" `Summons from the Gegno`
+	"NM-620" `Transport the Vi Warrior to <destination>.`
+	"NM-621" `Mine 5 tons of iron`
+	"NM-622" `<Alien> Transport`
+	"NM-623" `Travel to <designated system>`
+	"NM-624" `Visit Quarg Ringworld`
+	"NM-625" `Gather 10 tons of aluminum`
+	"NM-626" `Gather 10 tons of copper`
+	"NM-627" `Gather 10 tons of iron`
+	"NM-628" `Gather 10 tons of lead`
+	"NM-629" `Gather 10 tons of silicon`
+	"NM-630" `Gather 10 tons of titanium`
+	"NM-631" `Human vacationer to <planet>`
+	"NM-632" `Human vacationers to <planet>`
+	"NM-633" `Hai vacationer to <planet>`
+	"NM-634" `Hai vacationers to <planet>`
+	"NM-635" `Wealthy Hai to <planet>`
+	"NM-636" `Festival at <planet>`
+	"NM-637" `Aid shipment to Unfettered`
+	"NM-638" `Special Delivery to <planet>`
+	"NM-639" `Special order from <planet stopovers>`
+	"NM-640" `Special Escort to <planet>`
+	"NM-641" `Hai "prison" cruise to <planet>`
+	"NM-642" `<planet> business convention`
+	"NM-643" `<planet> film festival`
+	"NM-644" `<planet> music festival`
+	"NM-645" `<planet> computer security conference`
+	"NM-646" `<planet> science fiction convention`
+	"NM-647" `Superstitious Hai to <planet>`
+	"NM-648" `An Interesting Proposition`
+	"NM-649" `A New Proposition`
+	"NM-650" `Escort Nanachi to <planet>`
+	"NM-651" `Deliver spices with Nanachi`
+	"NM-652" `Protect Nanachi`
+	"NM-653" `New Unfettered ships`
+	"NM-654" `Hull Repair Technology`
+	"NM-655" `Contact the Remnant`
+	"NM-656" `Meet with the Remnant`
+	"NM-657" `Technology Obtained`
+	"NM-658" `Contact the Coalition`
+	"NM-659" `Hai film crew to <planet>`
+	"NM-660" `Pick up Hai film crew on <planet>`
+	"NM-661" `Bring students to <planet>`
+	"NM-662" `Bring students home to <planet>`
+	"NM-663" `Hai spiritual leader to <planet>`
+	"NM-664" `Acorns for Anoo`
+	"NM-665" `Acorn Delights`
+	"NM-666" `Eeeya to Anoo`
+	"NM-667" `Unlikely Encounter`
+	"NM-668" `Duty Calls`
+	"NM-669" `New Arrivals`
+	"NM-670" `High Tension`
+	"NM-671" `Scout the North`
+	"NM-672" `Important Message`
+	"NM-673" `Meet with Security Forces on Allhome`
+	"NM-674" `Defeat the Black Lich`
+	"NM-675" `Recover the Geocoris`
+	"NM-676" `Talk to Hai authorities on <planet>`
+	"NM-677" `Go the spaceport on <planet> when ready`
+	"NM-678" `Investigate rumors of kidnapped Hai`
+	"NM-679" `Investigate a Were-Squirrel`
+	"NM-680" `Return the Yeertle family`
+	"NM-681" `A (Short) Angel of Death`
+	"NM-682" `Return Ooonem`
+	"NM-683" `Phantom Distress Calls`
+	"NM-684" `Return the Prison Role-Players`
+	"NM-685" `Deep Crevasses`
+	"NM-686" `Return Meroot and Lucy`
+	"NM-687" `Lucrative Transport`
+	"NM-688" `Return Gipeep`
+	"NM-689" `Escort construction fleet to Ultima Thule`
+	"NM-690" `Encourage recruits for Mountaintop`
+	"NM-691" `Retrieve Human Furnishings`
+	"NM-692" `Pirates with Hai Weapons`
+	"NM-693" `Meet Teeneep`
+	"NM-694" `Symbol Identification`
+	"NM-695" `Lead from Alondo`
+	"NM-696" `Unfettered Humans`
+	"NM-697" `Scar's Legion`
+	"NM-698" `Pirate Tribute`
+	"NM-699" `Report to Teeneep`
+	"NM-700" `Return to Hai-home`
+	"NM-701" `Preparation & Investigation`
+	"NM-702" `Demanding Satisfaction`
+	"NM-703" `Sound the Alarm`
+	"NM-704" `Into the Lion's Den`
+	"NM-705" `A New Elder`
+	"NM-706" `A Time of Trouble`
+	"NM-707" `Information Blackout`
+	"NM-708" `Join the Fleet and Invade Stormhold`
+	"NM-709" `Contact Giti`
+	"NM-710" `Follow a Lead on <planet>`
+	"NM-711" `Seek Elenchus`
+	"NM-712" `Hunting Smugglers`
+	"NM-713" `0.184 steradians`
+	"NM-714" `Syndicate Internal Affairs`
+	"NM-715" `Searching Beyond the Wormhole`
+	"NM-716" `Report the Discovery to Teeneep`
+	"NM-717" `Rendezvous with the Assault Team`
+	"NM-718" `Storm Elenchus`
+	"NM-719" `Take them Home`
+	"NM-720" `Hai Diplomacy`
+	"NM-721" `Loose Ends`
+	"NM-722" `Treaty at <planet>`
+	"NM-723" `<planet> Construction`
+	"NM-724" `<origin> Construction`
+	"NM-725" `Mooncreek Construction`
+	"NM-726" `Hai-Human Treaty Signing`
+	"NM-727" `Hai Treaty`
+	"NM-728" `More Jump Drives`
+	"NM-729" `Hai Tribute from <planet stopovers>`
+	"NM-730" `Gather Silicon from asteroids`
+	"NM-731" `Gather Silver from asteroids`
+	"NM-732" `Gather Lead from asteroids`
+	"NM-733" `Express medical stock from <planet stopovers>`
+	"NM-734" `Medical supplies from <planet stopovers>`
+	"NM-735" `Heritage Reclaimed`
+	"NM-736" `Ancient Claim`
+	"NM-737" `Seek help from the Incipias`
+	"NM-738" `Bring Incipias back to <planet>`
+	"NM-739" `Visit <waypoints>`
+	"NM-740" `Scanners in <system>`
+	"NM-741" `Visit the asteroid`
+	"NM-742" `First contact`
+	"NM-743" `Second contact`
+	"NM-744" `Take the lab`
+	"NM-745" `Lab deployment`
+	"NM-746" `Explore the neighborhood`
+	"NM-747" `Gather data`
+	"NM-748" `Gather more data`
+	"NM-749" `The <system> station`
+	"NM-750" `Satellite deployment`
+	"NM-751" `Ka'sei hacking`
+	"NM-752" `Builder signal`
+	"NM-753" `Outpost on Kumkapi`
+	"NM-754" `Builder satellite`
+	"NM-755" `Return Gavriil`
+	"NM-756" `Explore <stopovers>`
+	"NM-757" `Korath passengers to <planet>`
+	"NM-758" `Korath settlers to <planet>`
+	"NM-759" `Teaching Wanderer farming methods`
+	"NM-760" `Korath to <planet>`
+	"NM-761" `Livestock to <planet>`
+	"NM-762" `Distress call from the <EDC-ship>`
+	"NM-763" `Return the <EDC-ship> survivors`
+	"NM-764" `Recover the fallen crew of the <EDC-ship>`
+	"NM-765" `Recover the fallen of <EDC-ship>`
+	"NM-766" `<EDC-ship> salvage team`
+	"NM-767" `Salvage the <EDC-ship>`
+	"NM-768" `Deploy Quarg Scanners`
+	"NM-769" `Human Construction Materials`
+	"NM-770" `Remnant bounty`
+	"NM-771" `Remnant surveillance`
+	"NM-772" `Key Stones`
+	"NM-773" `Keystones`
+	"NM-774" `Space creatures`
+	"NM-775" `Scan the void sprites`
+	"NM-776" `Visit void sprite planets`
+	"NM-777" `License Training`
+	"NM-778" `Learn Remnant Sign`
+	"NM-779" `Investigate Ivan`
+	"NM-780" `Remnant Human Tech Retrieval`
+	"NM-781" `Retrieve Heavy Lasers`
+	"NM-782" `Retrieve Plasma Cannons`
+	"NM-783" `Retrieve Catalytic Ramscoops`
+	"NM-784" `Retrieve Electron Beams for the Remnant`
+	"NM-785" `Retrieve D94-YV Shield Generators`
+	"NM-786" `Retrieve S-970 Regenerators`
+	"NM-787" `Return the Samples`
+	"NM-788" `Remnant History Updates`
+	"NM-789" `Transport injured Remnant`
+	"NM-790" `Track down the <npc>`
+	"NM-791" `Salvage Delivery`
+	"NM-792" `Transport outfits to Taely`
+	"NM-793" `Deliver Data to <planet>`
+	"NM-794" `Visiting the Quarg`
+	"NM-795" `Quarg Scanning`
+	"NM-796" `Expanded Horizons Return`
+	"NM-797" `Broken Jump Drive Delivery`
+	"NM-798" `Talk to Plume about the void sprites`
+	"NM-799" `Bring slime to <planet>`
+	"NM-800" `Bring tentacle to <planet>`
+	"NM-801" `Retrieve more keystones`
+	"NM-802" `Scan the <npc>`
+	"NM-803" `Preparation for expedition`
+	"NM-804" `Research expedition to Sagittarius A*`
+	"NM-805" `Ember Waste Storm Scanning`
+	"NM-806" `Follow-up Observations`
+	"NM-807" `Eliminate Korath Ship`
+	"NM-808" `Go to <planet>`
+	"NM-809" `Search for the Korath`
+	"NM-810" `Destroy Korath`
+	"NM-811" `Transport Plume`
+	"NM-812" `Take Plume to <planet>`
+	"NM-813" `Return Plume to <planet>`
+	"NM-814" `Transport engineer to <planet>`
+	"NM-815" `Technician and supplies to <planet>`
+	"NM-816" `Remnant Data Delivery`
+	"NM-817" `Meet with escorts`
+	"NM-818" `Investigate strange sensor readings`
+	"NM-819" `Follow the Creature`
+	"NM-820" `Report back to <planet>`
+	"NM-821" `Collect void sprites`
+	"NM-822" `Deliver navigation data`
+	"NM-823" `Expedition to Ssil Vida`
+	"NM-824" `Deliver Data Backups for Taely`
+	"NM-825" `First Flight`
+	"NM-826" `Equipment to Ssil Vida`
+	"NM-827" `Patrol systems near Postverta.`
+	"NM-828" `Bring an Aeon Cell to Ssil Vida`
+	"NM-829" `Check in with Torza on <planet>`
+	"NM-830" `Recover equipment from Baianus`
+	"NM-831" `Deliver data crystal to <planet>`
+	"NM-832" `Pick Up Refined Fuel`
+	"NM-833" `Drop off refined fuel`
+	"NM-834" `Observe changes in Postverta`
+	"NM-835" `Postverta system sweep`
+	"NM-836" `De-activate Ssil Vida Power`
+	"NM-837" `Activate Ssil Vida Power`
+	"NM-838" `Take data to <planet>`
+	"NM-839" `Hoverboarding with Taely`
+	"NM-840" `Deliver Celebration records to <destination>`
+	"NM-841" `New EMP deployment`
+	"NM-842" `Searching for Ghosts`
+	"NM-843" `Ghost Touch`
+	"NM-844" `Shattered Light`
+	"NM-845" `Brilliant Energy`
+	"NM-846" `Search for the unknown Korath ship`
+	"NM-847" `Sympathy For The Korath`
+	"NM-848" `Crippled <npc model> Bounty`
+	"NM-849" `Troublesome <npc model> Bounty`
+	"NM-850" `Research Expedition to <waypoints>`
+	"NM-851" `Damaged Rano'erek Bounty`
+	"NM-852" `Marauding Rano'erek Bounty`
+	"NM-853" `Destroy Ground Assault Bounty`
+	"NM-854" `Civil delivery to <planet>`
+	"NM-855" `Industrial delivery to <planet>`
+	"NM-856" `Component delivery to <planet>`
+	"NM-857" `Salvage delivery to <planet>`
+	"NM-858" `Search and Rescue: Scout`
+	"NM-859" `Search and Rescue: Retrieval`
+	"NM-860" `Search and Rescue: Supply Ship`
+	"NM-861" `Distress Signal: Graveyard`
+	"NM-862" `Search and Rescue: Terminus`
+	"NM-863" `Disable Damaged Dathnak A'awoj`
+	"NM-864" `Deep Archaeology`
+	"NM-865" `Foster's Assistance?`
+	"NM-866" `Archaeology on <planet>`
+	"NM-867" `Archaeological Equipment`
+	"NM-868" `Transport a Xenobiologist`
+	"NM-869" `Defend Zug`
+	"NM-870" `The Sheragi Bunker`
+	"NM-871" `The Mysterious Box`
+	"NM-872" `The Information Dealer`
+	"NM-873" `The Search for the Artifact`
+	"NM-874" `The Fight for the Artifact`
+	"NM-875" `The Box Recovered`
+	"NM-876" `Hai Knowledge`
+	"NM-877" `The Museum of Galactic History`
+	"NM-878" `The Hai Ministry of Culture`
+	"NM-879" `Assembling the Team`
+	"NM-880" `Black Box Decoded`
+	"NM-881" `The Emerald Sword`
+	"NM-882" `First Contact with Octopods`
+	"NM-883" `Capture an animal for House Sioeora`
+	"NM-884" `Summons to <destination>`
+	"NM-885" `Meet the High Houses`
+	"NM-886" `Extreme sightseeing on <planet stopovers>`
+	"NM-887" `Sightseeing expedition`
+	"NM-888" `Students on break to <planet>`
+	"NM-889" `Students returning to <planet>`
+	"NM-890" `Successor workers to <planet>`
+	"NM-891" `Valuables to <planet>`
+	"NM-892" `Aid shipment to <planet>`
+	"NM-893" `Bulk shipment to <planet>`
+	"NM-894" `Rush shipment to <planet>`
+	"NM-895" `Large rush shipment to <planet>`
+	"NM-896" `Seismic stabilizers to <planet>`
+	"NM-897" `Data courier to <planet>`
+	"NM-898" `Researchers to <planet stopovers>`
+	"NM-899" `Symposium on <planet>`
+	"NM-900" `Old Houses courier to <planet>`
+	"NM-901" `New Houses courier to <planet>`
+	"NM-902" `Assist Predecessor Research`
+	"NM-903" `Assist Predecessor Biologist`
+	"NM-904" `Transport Successor stargazers`
+	"NM-905" `Wanderer workers to <planet>`
+	"NM-906" `Wanderer farmers to <planet>`
+	"NM-907" `Wanderer younglings to <planet>`
+	"NM-908" `Spike in pollution on <planet>`
+	"NM-909" `Natural phenomenon on <planet>`
+	"NM-910" `New animal found on <planet>`
+	"NM-911" `New plant found on <planet>`
+	"NM-912" `Food harvest on <planet>`
+	"NM-913" `Quarantine an invasive species`
+	"NM-914" `Captured Unfettered to <planet>`
+	"NM-915" `Governor to <planet>`
+	"NM-916" `Investigating Kor Efreti worlds`
+	"NM-917" `Plant to <planet>`
+	"NM-918" `A Home for the Plant`
+	"NM-919" `Wanderer Surveying`
+	"NM-920" `Nova Remnants`
+	"NM-921" `Kor Mereti Controller`
+	"NM-922" `Kor Sestor Controller`
+	"NM-923" `Bring Rek to <planet>`
+	"NM-924" `Quarg Assistance`
+	"NM-925" `Pug Assistance`
+	"NM-926" `Mereti Observation`
+	"NM-927" `Korath Engineers`
+	"NM-928" `Kor Mereti Hacking`
+	"NM-929" `Fetch Escorts`
+	"NM-930" `Install the Mind`
+	"NM-931" `Defend the Mind`
+	"NM-932" `Investigate <origin>`
+	"NM-933" `Wanderers to <planet>`
+	"NM-934" `Kor Efret Diplomacy`
+	"NM-935" `Kor Efret Tour`
+	"NM-936" `Scan Sestor Planets`
+	"NM-937" `Find the Sestor fleet`
+	"NM-938" `Warn Admiral Danforth`
+	"NM-939" `Ask the Quarg for help`
+	"NM-940" `Deliver device to Zenith`
+	"NM-941" `Destroy Kor Sestor drones`
+	"NM-942" `Drones in Alnilam`
+	"NM-943" `Destroy remaining drones`
+	"NM-944" `Attack Alpha base`
+	"NM-945" `Scan remaining drones`
+	"NM-946" `Pick up Rek`
+	"NM-947" `Contact the exiles`
+	"NM-948" `Diplomacy with the exiles`
+	"NM-949" `Shut down the factory`
+	"NM-950" `Investigate the exiles`
+	"NM-951" `Hai Interpreter?`
+	"NM-952" `Hai Diplomat`
+	"NM-953" `Wanderer Diplomacy`
+	"NM-954" `Translation Machine`
+	"NM-955" `Wanderer supplies to <planet>`
+	"NM-956" `Report to <planet>`
+	"NM-957" `Unfettered Diplomacy`
+	"NM-958" `Check with Iktat Rek?`
+	"NM-959" `Jump drive source?`
+	"NM-960" `Alpha Surveillance`
+	"NM-961" `Find the Alphas`
+	"NM-962" `Visit Danforth`
+	"NM-963" `Invade Avalon`
+	"NM-964" `Meet up with Danforth`
+	"NM-965" `Return Elias to <planet>`
+	"NM-966" `Return to Iktat Rek on <planet>`
+	"NM-967" `Unfettered Invasion`
+	"NM-968" `Evacuate <planet>`
+	"NM-969" `Wanderer Meeting`
+	"NM-970" `Waiting for the Eye`
+	"NM-971" `Hai Assistance`
+	"NM-972" `Unfettered Negotiations`
+	"NM-973" `Wanderer Rescue`
+	"NM-974" `Visit Iktat Rek`
+	"NM-975" `Visit Sko'karak`
+	"NM-976" `Visit Sko'karak again`
+	"NM-977" `Help defend <planet>`
+	"NM-978" `Strange Device`
+	"NM-979" `Find ways to interact with the Gegno`

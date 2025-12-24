@@ -56,47 +56,47 @@ mission "Conversation on Sayaiban"
 		never
 	on enter Sayaiban
 		fail
-		log "Factions" "Archons" `Archons consider it to be their job to enforce peace and to prevent extinction. If they are unable to prevent a species from driving itself extinct, they will still try to preserve some of what that species created as a memorial to them.`
-			`They are capable of communicating telepathically.`
+		log "Factions" "Archons" `<LG-352>`
+			`<LG-353>`
 		conversation
-			`A voice says, "This system is off limits. You should leave."`
-			`	After a second, you realize that the voice did not come from your communications equipment. In fact, now that you think about it, you're not sure if it was an audible voice, or just something in your head.`
+			`<CN-11465>`
+			`<CN-11466>`
 			choice
-				`	(Ignore it.)`
-				`	"Why should I leave?"`
+				`<CN-193>`
+				`<CN-11467>`
 					goto why
-				`	"You can't tell me what to do."`
+				`<CN-11468>`
 					goto why
-			`	"You should leave." The thought repeats itself, insistently. Either you're going crazy, or a creature is communicating with you telepathically.`
+			`<CN-11469>`
 			choice
-				`	"Why should I leave?"`
-				`	"You can't tell me what to do."`
+				`<CN-11467>`
+				`<CN-11468>`
 			label why
-			`	You feel as if a vast and patient creature has just heaved an immense sigh. "Human, you would do well not to ignore the warning of an Archon. I am here to warn off those who might be harmed by the swarm intelligence that infests this system. If you remain here long your ship will be digested by the swarm."`
-			`	You recall that "Archon" is what Drak ships are called.`
+			`<CN-11470>`
+			`<CN-11471>`
 			choice
-				`	"What do you mean, 'digested'?"`
-				`	"What is a 'swarm intelligence'?"`
+				`<CN-11472>`
+				`<CN-11473>`
 					goto swarm
-			`	"I mean that your ship will be broken down into its component parts." You notice, as the voice says this, that your shields are registering small energy bursts, as if they are being struck by invisible weapons.`
-			`	"What is this swarm?" you ask.`
+			`<CN-11474>`
+			`<CN-11475>`
 			label swarm
-			`	"Self-replicating miniature robots," the voice replies. "A weapon created by the Korath, the last of their great abominations. If you wish to feed your ship to the swarm, I will not stop you, but they already possess enough raw material here without your assistance." The voice's tone, inasmuch as a disembodied imaginary voice can be said to have a tone, is sardonic.`
+			`<CN-11476>`
 			choice
-				`	"Okay, okay, I'll get out of here."`
+				`<CN-11477>`
 					goto end
-				`	"Wait, I have more questions."`
-			`	"Yes?"`
-			`	You ask, "Why don't you just destroy the swarm, if it is so dangerous?"`
-			`	The voice says, "Because if the Korath manage to drive themselves extinct, this intelligence will be their last and greatest surviving creation, and we will preserve it as a living memorial to them. Please do not interfere here." When the voice speaks the phrase, "drive themselves extinct," the words are accompanied by an emotion that you cannot put a name to.`
-			`	Also, the empty space around your ship is beginning to light up with small sparks, like an angry swarm of fireflies.`
+				`<CN-11478>`
+			`<CN-211>`
+			`<CN-11479>`
+			`<CN-11480>`
+			`<CN-11481>`
 			choice
-				`	"Well, it's an honor to meet you. I'll be leaving now."`
+				`<CN-11482>`
 					goto end
-				`	"Why do you care if they go extinct?"`
-			`	"Our directive is to enforce peace and prevent extinction," says the voice. As before, the words "prevent extinction" echo loud in your mind as if underlined by a nameless emotion. "Now, enough questions," says the voice.`
+				`<CN-11483>`
+			`<CN-11484>`
 			label end
-			`	The presence inside your head seems to fall away, and you are left talking to thin air.`
+			`<CN-11485>`
 				decline
 
 mission "Drak guarding Void Sprites"

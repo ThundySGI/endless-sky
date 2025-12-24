@@ -32,7 +32,7 @@ mission "Hai Reveal: Media Retraction"
 		# Make sure the new governments start with appropriate rep:
 		"reputation: Elenctic Commune" = 1000
 		conversation
-			`News report that says that the guy who showed the video of the Hai ships five months prior was just a viral marketing stunt for an upcoming movie.`
+			`<CN-12823>`
 				decline
 
 
@@ -58,8 +58,8 @@ event "pirates respond to leaks"
 # This gets picked up silently on Hai-home when landing for response 2 - leads to go kill pirates mission with chat on Allhome.
 # No longer gets picked up silently due to write-read order style preferences - but may need to be moved back to Response 2 or have multiple versions of this mission when other campaigns exist.
 mission "Hai Leaks Response 3"
-	name "Meet with Security Forces on Allhome"
-	description "Meet with the Security Forces on <destination> to fight pirates."
+	name "<NM-673>"
+	description "<DS-2667>"
 	landing
 	source "Hai-home"
 	destination "Allhome"
@@ -67,34 +67,34 @@ mission "Hai Leaks Response 3"
 		has "Hai Leaks Response 2: done"
 	on offer
 		conversation
-			`You are directed to an official landing pad on your return to Hai-home, and it is not long before you are introducing your entourage to Sayari. Alondo in particular seems excited to be here and seems to have a knack for charming Sayari with polite and insightful, if rather simple, questions throughout the diplomatic niceties.`
-			`	A functionary leads you to what appears to be a situation room, filled with monitors, holoprojectors, and other equipment. Everyone takes their seats at a semicircle-shaped table, and the functionary motions you to the middle seat. A massive holoprojector in front of the table turns on.`
+			`<CN-12824>`
+			`<CN-12825>`
 			choice
-				`	"I don't recall there being nearly so many pirates before."`
-			`	Sayari frowns and exhales a long breath through her nose, "Yes. Well, it seems that the rumors making their way through your media have attracted every opportunist this side of the Deep."`
-			`	"Of course," she says, "some of the pirates were aware of us, and we were aware of them being aware of us. We had a quiet arrangement with a select few where we rewarded them for keeping the secret well contained within their own circles."`
-			`	Alondo looks surprised, and seems sufficiently taken aback to spare a questioning glance at Remington despite the deliberate lack of interaction between them so far. Remington's expression is unreadable though, and Mr. Yang and Ms. Adrianopolous both merely nod.`
-			`	Sayari does not appear to notice the exchange. "Extra security forces are being called in, but we've been busier than usual in Wah Ki with our northern brethren."`
+				`<CN-12826>`
+			`<CN-12827>`
+			`<CN-12828>`
+			`<CN-12829>`
+			`<CN-12830>`
 			choice
-				`	"Are the other Hai likely to be a problem here?"`
-				`	"How much longer can the Republic keep up the ruse?"`
+				`<CN-12831>`
+				`<CN-12832>`
 					goto "bad news"
-			`	Sayari shakes her head. "No problem remotely so severe as the one at hand. Now, I expect you have something for us, Mr. Yang?"`
-			`	"Well, I'm afraid I may have some bad news from our side." He taps on his screen as he says, 'bad news,' and the holoprojector begins showing a series of charts.`
+			`<CN-12833>`
+			`<CN-12834>`
 				goto charts
 			label "bad news"
-			`	Mr. Yang responds, "On that, I'm afraid I may have some bad news." He taps on his screen as he says, 'bad news,' and the holoprojector begins showing a series of charts.`
+			`<CN-12835>`
 			label charts
-			`	"One of the things I brought with me was Republic Intelligence's estimate of the effectiveness of various information containment measures."`
-			`	You're not an expert at data analysis, but the highlighted percentages ranging from 4% to 39% do not look promising. The final graphic is a map of stages of what is labeled as "artifact penetration." "Artifact penetration is the point at which a government cannot reasonably attempt to pretend something is anything but the truth, at least not while still holding to the claim of being a representative government," explains Mr. Yang.`
-			`	He checks the date. "Our most optimistic estimates suggest the Republic will be forced to acknowledge the existence of the Hai within three months, or we would lose so much credibility as to compromise electoral stability. The actual time limit is probably sooner."`
+			`<CN-12836>`
+			`<CN-12837>`
+			`<CN-12838>`
 			choice
-				`	"Would that be so bad?"`
-			`	"It is always bad to be forced into acknowledging a secret. If we act sooner, we may control the manner of that secret's release," says Xilin. "Plus, while the Hai have let the trickle of humans that find the wormhole settle here peacefully, a massive influx is a problem nobody really wants to have to deal with."`
-			`	Sayari looks at you. "We will have to come up with a plan, and quickly, but for the moment may I ask a favor of the war hero in the room? Please meet up with the security forces converging on Allhome and help them rout the pirates back to the other side of the wormhole. It will buy us some breathing room and options."`
-			`	It is so hard to say "no" to a Hai and their cute squirrelly features.`
+				`<CN-12706>`
+			`<CN-12839>`
+			`<CN-12840>`
+			`<CN-12841>`
 			choice
-				`	"I'll do what I can."`
+				`<CN-12842>`
 					accept
 # If a republic/syndicate campaign gets added this text will need variants.
 
@@ -104,8 +104,8 @@ mission "Hai Leaks Response 3"
 mission "Hai Leaks Response 4"
 	autosave
 	landing
-	name "Defeat the Black Lich"
-	description "Defeat Black Lich's Marauder Leviathan at <waypoints>, then return to <origin>."
+	name "<NM-674>"
+	description "<DS-2668>"
 	source "Allhome"
 	waypoint "Waypoint"
 	destination "Allhome"
@@ -113,25 +113,25 @@ mission "Hai Leaks Response 4"
 		has "Hai Leaks Response 3: done"
 	on offer
 		conversation
-			`When you land on Allhome, you are greeted by the quartermaster of the local Hai security forces. You're not an expert at judging Hai ages, but he appears to be a little younger than expected.`
-			`	"Captain <last>! I heard you were coming to assist."`
+			`<CN-12843>`
+			`<CN-12844>`
 			choice
-				`	"Time to rout some pirates, baby!"`
-				`	"I'm here to reinforce you. What can I do?"`
-			`	"Uh well, yes. I presume you saw the pirates on your way in? They've been appearing en masse and overwhelming security forces to raid technology and goods from the Hai traders and their security. Some of them have even been sneaking down onto the planet, capturing Hai, and taking them away."`
+				`<CN-12845>`
+				`<CN-12846>`
+			`<CN-12847>`
 			choice
-				`	"I have heard about the kidnapping."`
-			`	He nods. "Unfortunately, it's taking a while for them to redistribute an appropriately resourced defense force, thanks to the Unfettered. It's bad enough that we've had to bring the old Ladybug models out of mothballs to bolster our forces here."`
-			`	"Even more unfortunately," he continues, "it seems that the overabundance of these pirates is the result of one particular individual's success. His ship, called the Black Lich, is in Waypoint with a stolen Geocoris that has been converted into some kind of semi-stable weapons platform and is now being used as a temporary base."`
-			`	"This does give us an opportunity, however. If the kidnapped Hai are still on board, we might be able to rescue them, and if we can defeat the Black Lich, we may stem the tide of opportunists that are swarming through the wormhole.`
-			`	"We have ships we can send in support, but they dare not go it alone. What do you say?"`
-			`	The poor quartermaster seems desperate.`
+				`<CN-12848>`
+			`<CN-12849>`
+			`<CN-12850>`
+			`<CN-12851>`
+			`<CN-12852>`
+			`<CN-12853>`
 			choice
-				`	"I'll make sure the Lich is properly dealt with."`
+				`<CN-12854>`
 					accept
-				`	"We'll give those pirates a lesson they won't soon forget."`
+				`<CN-12855>`
 					accept
-				`	"I'll beat the Lich, and do my best to capture the Geocoris and bring them safely home."`
+				`<CN-12856>`
 					accept
 	# Escorts manually defined to have weapons comparatively suitable for disabling, as would be appropriate in a mission where the *hopeful* outcome is a rescue.
 	npc
@@ -157,7 +157,7 @@ mission "Hai Leaks Response 4"
 		system "Waypoint"
 		ship "Marauder Leviathan (Weapons)" "Black Lich"
 	on visit
-		dialog `You have returned, but the fate of the pirates and the captured Hai is still in doubt. Ensure that the Black Lich is defeated and that the fate of the captured Hai, whether deceased or safely with you, is certainly known.`
+		dialog `<DL-559>`
 	to complete
 		not "Hai Leaks Response 4A: active"
 	on complete
@@ -165,30 +165,30 @@ mission "Hai Leaks Response 4"
 		event "waypoint pirates vanquished"
 		event "hai ladybug available"
 		event "humans adopt ladybugs" 20 30
-		log `Defeated the "Black Lich." They had managed to kidnap a number of Hai straight off the planet with a combination of trickery and speed. Rewarded well.`
+		log `<LG-375>`
 		conversation
 			branch "saved geocoris"
 				has "ship model (all): Geodesic Geocoris"
-			`Shortly after you return, the Hai quartermaster thanks you profusely. "The Allhome government has authorized a reward of <payment> for helping to route the pirate problem," he explains while handing you the credits.`
-			`	He sighs deeply. "It is a shame though that the kidnapped Hai could not be saved, but the other Hai captains tell me it was a mess out there."`
-			`	In an oddly human gesture that feels very deliberate, he places one of his furry hands comfortingly on your shoulder, "I'm sure you did all you could."`
+			`<CN-12857>`
+			`<CN-12858>`
+			`<CN-12859>`
 				goto end
 			label "saved geocoris"
-			`You have defeated the Black Lich and also successfully reclaimed the Geocoris and, in doing so, rescued the kidnapped Hai! On your way back to <planet> the crew you sent across to fly it home reported that something is different about it... It appears that it has been modified with systems of some kind, which are not of Hai design. It also appears that perhaps not everything about those systems is working wholly as intended.`
-			`	As you disembark you spot the Hai quartermaster checking on the Hai disembarking from the Geocoris, and after a short while he approaches you. "Captain <last>, I cannot thank you enough for your rescue of our kidnapped people. You're a hero to them. The Allhome government has also authorized a reward of <payment> for helping to relieve the pirate problem," he explains while handing you the credits.`
-			`	"Lucky for you, the merchant who owned the Geocoris has already filed the insurance claim, so you get to keep the ship as a trophy.`
-			`	"I do need to do a full security scan of it to complete all the incident paperwork before I let it go, though, so if you have any business on-world here, please take your time.`
+			`<CN-12860>`
+			`<CN-12861>`
+			`<CN-12862>`
+			`<CN-12863>`
 			label end
-			`	"In any event, let's hope a more permanent solution can be devised soon. In the meantime, the local dealers have decided to start selling the Ladybugs again. I hear it's something about a spike in interest among the humans here, so feel free to have a look at them. I shouldn't get too distracted though, I'm sure they'll be waiting for you back on Hai-home."`
+			`<CN-12864>`
 			branch "saved geocoris2"
 				has "ship model (all): Geodesic Geocoris"
-			`	With a final nod of thanks he departs to attend to his business, leaving you free to go about your own.`
+			`<CN-12865>`
 				decline
 			label "saved geocoris2"
-			`	With a final nod of thanks he departs to attend to his business, leaving you free to wander the spaceport for a couple of hours until they release your new ship.`
+			`<CN-12866>`
 				decline
 	on fail
-		dialog `You have declined an essential narrative mission. If you would like to continue, revert to the autosave or another earlier snapshot of the game.`
+		dialog `<DL-560>`
 	
 event "waypoint pirates vanquished"
 	# Update pirate and anti-pirate spawns in Waypoint and Heia Due
@@ -213,8 +213,8 @@ event "hai ladybug available"
 # Once the ship is captured, the mission is completed.
 # The NPC is a special ship model used to determine if you managed to get it back safely.
 mission "Hai Leaks Response 4A"
-	name "Recover the Geocoris"
-	description "If possible, recover the stolen Geocoris supporting the pirates in Waypoint and return it to Allhome."
+	name "<NM-675>"
+	description "<DS-2669>"
 	landing
 	source "Allhome"
 	waypoint "Waypoint"
@@ -226,7 +226,7 @@ mission "Hai Leaks Response 4A"
 		personality staying marked mute
 		system "Waypoint"
 		ship "Geodesic Geocoris (Phylactery)" "Phylactery"
-		dialog `After successfully boarding the Geocoris and defeating its pirate crews, you are greeted by the relieved captive Hai. You send crew aboard to fly the ship and promise to return them safely to Allhome.`
+		dialog `<DL-561>`
 #	on fail
 #		dialog `You have failed to recover the Geocoris. This is not critical, but does have long-term consequences. If you want the most complete ending, revert to the autosave or another earlier snapshot of the game.`
 # Too hand-holdy for present implementation and content.
@@ -240,7 +240,7 @@ mission "Hai Leaks Response 4B"
 	to offer
 		has "ship model (all): Geodesic Geocoris"
 	on offer
-		log `Successfully rescued the kidnapped Hai and reclaimed the Geocoris. This ship has been modified in ways that aren't of Hai origin, and which don't appear to be fully functional.`
+		log `<LG-376>`
 		event "returned geocoris" 730
 		fail
 
@@ -290,7 +290,7 @@ ship "Geodesic Geocoris"
 		"Pulse Rifle" 30
 
 		"A525 Atomic Steering"
-		`"Biroo" Atomic Thruster`
+		`<CN-7916>`
 		"AR120 Reverse Thruster" 2
 		Hyperdrive
 
@@ -312,7 +312,7 @@ ship "Geodesic Geocoris"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This modified Geocoris has identical cargo capacity, but is modeled off one that was the result of an alien technology being merged with a hybrid Human-Hai operating system. It has additional shield emitters in a geodesic pattern over its main cargo wings, and a crucial element of the ship's system core is not manufactured, but grown from initial samples taken from the first occurrence. This means that some systems are built-in and unable to be removed, and also that it is substantially more expensive than its regular version. It is, however, significantly more survivable."
+	description "<DS-2670>"
 	
 ship "Geodesic Geocoris" "Geodesic Geocoris (Phylactery)"
 	outfits
@@ -325,8 +325,8 @@ ship "Geodesic Geocoris" "Geodesic Geocoris (Phylactery)"
 		"Large Heat Shunt"
 		"Quantum Keystone"
 		"Pulse Rifle" 14
-		`"Benga" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`<CN-7911>`
+		`<CN-1079>`
 		"Jump Drive"
 		Hyperdrive
 		"Failed Control System"
@@ -335,7 +335,7 @@ ship "Geodesic Geocoris" "Geodesic Geocoris (Phylactery)"
 	turret "Chameleon Anti-Missile"
 	turret "Chameleon Anti-Missile"
 	turret "Electron Turret"
-	description "This modified Geocoris has identical cargo capacity, but is the result of an alien technology being merged with a hybrid Human-Hai operating system. It has additional shield emitters in a geodesic pattern over its main cargo wings, and some kind of integrated system core which seems to have something of a life of its own. As such, some systems are built-in and unable to be removed. Nevertheless, it is significantly more survivable than a traditional Geocoris and at least as useful."
+	description "<DS-2671>"
 
 
 # The spike in interest leads to ladybugs appearing in the Hai Merchant (Human) fleets.
@@ -395,8 +395,8 @@ event "humans adopt ladybugs"
 
 mission "Hai Leaks Response 5"
 	landing
-	name "Talk to Hai authorities on <planet>"
-	description "Meet Hai authorities on <destination>."
+	name "<NM-676>"
+	description "<DS-2672>"
 	source "Allhome"
 	clearance
 	destination "Hai-home"
@@ -405,8 +405,8 @@ mission "Hai Leaks Response 5"
 	on complete
 		event "allhome reinforced" 1
 		conversation
-			`When you return to Hai-home, you are greeted with a call from Sayari, who looks relieved to see you. "Captain <last>, thank you for your assistance to our security forces. They appreciated it greatly, and we should have them properly reinforced in a day or two. A few things have happened while you were away, but you haven't missed anything important yet."`
-			`	She smiles and says, "Your diplomatic colleagues are still working on their solutions, so I don't think there's anything for you to do right at this moment. Take a day or two, and then whenever you're ready, come to the spaceport and we'll redirect you through to the secure port. By that point we should have a plan and be able to get you up to speed with our next steps. I have no doubt that there'll be things for you to do by then, so you should be ready when you return."`
+			`<CN-12867>`
+			`<CN-12868>`
 
 event "allhome reinforced"
 	system "Heia Due"
@@ -415,8 +415,8 @@ event "allhome reinforced"
 
 mission "Hai Leaks Response 5B"
 	landing
-	name "Go the spaceport on <planet> when ready"
-	description "Get an update from Sayari at the secure spaceport on <planet> when you are ready to proceed."
+	name "<NM-677>"
+	description "<DS-2673>"
 	source "Hai-home"
 	clearance
 	to offer
@@ -429,8 +429,8 @@ mission "Hai Leaks Response 5B"
 
 # This non-landing mission allows you to take the game-play pause and go do other stuff if you need before getting too deeply involved in the story.
 mission "Hai Leaks Response 6"
-	name "Investigate rumors of kidnapped Hai"
-	description "Sayari's friend thinks someone with legal protection is kidnapping Hai. Check spaceports in nearby parts of human space for evidence of a Hai trafficking operation."
+	name "<NM-678>"
+	description "<DS-2674>"
 	autosave
 	source "Hai-home"
 	destination "Hai-home"
@@ -444,78 +444,78 @@ mission "Hai Leaks Response 6"
 		# Hai like you a lot now, and as a result, you have permanent access to Hai-home:
 		"reputation: Hai" >?= 100
 		fail "Hai Leaks Response 5B"
-		log `The working solution to the secrecy crisis for now is to have the Hai post a number of ships on the other side of the wormhole to play-act for the cover story that they're making a big budget movie to target fans of the popular franchise "Our Fuzzy Paradise." The presence of Hai who won't take off their costumes has been attributed to a "fan community" that have been hired on as a focus group to be there as part of the production. Despite all this, it is only a short-term solution. Asked by Sayari to look into a rumor about more kidnapped Hai. She does not consider it to be a particularly likely scenario, but her contacts insist.`
+		log `<LG-377>`
 		conversation
-			`Arriving at the secure landing area on Hai-home, you are met by a group of relieved diplomats. Of all of them, Alondo seems to be the least tired and takes the time to let you know what's been going on. "Captain <last>! You've missed quite the palaver. Still, I doubt you lost much. We've spent four hours trying to explain to Sayari what a 'furry' is."`
+			`<CN-12869>`
 			choice
-				`	"What? That could've been entertaining."`
-				`	"Hmm. No, I probably didn't miss much."`
-				`	"Oh, I could have told her all about it..."`
-			`	He chuckles. "Anyway, I have a hunch that we'll need you again before too long, but for now they're putting some Hai patrols out on the other side of the wormhole with a couple of Navy observers on board to 'play the part,' as it were. We've got a plan now but there's some work to pull it off. There's some older counter-propaganda that we're leveraging to pass things off as a big budget movie production."`
+				`<CN-12870>`
+				`<CN-12871>`
+				`<CN-12872>`
+			`<CN-12873>`
 			choice
-				`	"Sounds good. What's next?"`
+				`<CN-12874>`
 					goto next
-				`	"Oh, what's it about?"`
+				`<CN-12875>`
 					goto about
-				`	"Am I allowed to know more?"`
-			`	Alondo gives you a quizzical look. "Of course you are, <last>."`
+				`<CN-12876>`
+			`<CN-12877>`
 			label about
-			`	He pulls out a hand tablet and shows you a title screen which doesn't automatically look familiar. As he talks he flicks through a series of reference images. "There's an older TV show franchise with a cult following called 'Our Fuzzy Paradise,' which has had a few different reboots and iterations over the decades. In case you haven't guessed, it features a whole cast of anthropomorphic squirrels. Most recently we had a seven season series run subtitled 'Fellowship is Glamorous' which was one of the more successful ones."`
+			`<CN-12878>`
 			choice
-				`	"That sounds... interesting. Tell me more."`
-				`	"Never mind. It sounds like you have that under control. What's next?"`
+				`<CN-12879>`
+				`<CN-12880>`
 					goto next
-			`	"The production of the very first series was entirely funded through a government grants program though, as a cover for any accidental leaks about the Hai. Xilin tells me that since then it's pretty much run itself. The idea here is that since the last one was so successful, someone has decided that it's worth the risk to make a big budget movie production out of it and to potentially use that to kick off a sort of tourist trap type theme park destination. We've found a Seerwood producer who's willing to be all wounded on TV about the spoiling of his 'big surprise' release, and we're passing off the footage as leaked promotional material. For the sake of the cover, we've also decided that this project has a 'fan community' that have been hired on as a focus group to support the production for consistency and accuracy."`
-			`	He chuckles tiredly. "That's where the uh, furry, explanation came into things. It also probably can't hold up as a cover indefinitely. Still, things have been going very well while you've been away!`
+			`<CN-12881>`
+			`<CN-12882>`
 			label next
-			`	"I hear you were instrumental in driving off some opportunistic pirates and helping stem the information leak. Come on, I'll buy you a drink on the others' behalf."`
-			`	Some hours later, you leave the fancy cocktail bar Alondo took you to and begin making your way back to your ship to sleep. Your cabin by far seems to be the best place to not be bothered.`
-			`	Partway there, a hooded figure suddenly falls in step beside you.`
+			`<CN-12883>`
+			`<CN-12884>`
+			`<CN-12885>`
 			choice
-				`	(Keep walking.)`
-				`	(Ask them who they are.)`
-			`	"Sssshhhh!" says the voice at your elbow. "Do not react, and do not be alarmed, it is merely I."`
-			`	You look at the figure out of the corner of your eye and connect the whispered voice to the squirrelly muzzle poking out. To your surprise, it is Sayari.`
-			`	"I should not be coming to you with this, so you must promise to say nothing of it to anyone just yet," she says.`
+				`<CN-648>`
+				`<CN-12886>`
+			`<CN-12887>`
+			`<CN-12888>`
+			`<CN-12889>`
 			choice
-				`	"Of course."`
-			`	"A very sweet friend of mine, who is much too enthusiastic and perhaps led by the vagaries of youth but nonetheless quite astute, keeps harping on to me about this theory of hers that some kind of smuggling ring is kidnapping Hai and transporting them into human space with the quiet support of one of your legal entities.`
-			`	"Of course, a thorough investigation has occurred on our side, and no admissible evidence of such things has turned up, but...`
-			`	"Well, you see we cannot investigate your space openly or easily. I have paid it little mind, written it off as one of her eccentricities, but things are very tense right now. The Council of Elders wants to maintain our secrecy and the human diplomats are willing to accommodate us, but we sense their governments grow tired of maintaining the fiction. We are well aware that human intelligence services are highly competent, and motivated by many different factors. It worries me that one of your factions may not be wholly honest, and may have knowledge they intend to use as ammunition if things don't work out well for them."`
-			`	You have not had much exposure to this elected "Council of Elders," but it seems they must hold some kind of final authority over decisions.`
+				`<CN-133>`
+			`<CN-12890>`
+			`<CN-12891>`
+			`<CN-12892>`
+			`<CN-12893>`
 			choice
-				`	"But what should I do about it?"`
+				`<CN-12894>`
 					goto "do things"
-				`	"Are Hai kidnappings common?"`
-			`	"They're not. Well, it can be hard to tell sometimes, but no, I wouldn't say they're common. There have been instances in the past though where occasional pirate groups have been caught either trying or succeeding. My understanding is that those were dealt with effectively." She gives an odd shrug that is distorted by the cloak.`
-			`	"Still, my friend is very bright, and she is insistent that there is something beneath the noise that cannot be accounted for by normal circumstances. There has been a spike in disappearances since the leak, and not necessarily on worlds where they could be expected to have got themselves into trouble. With recent events her words have begun to trouble me, especially after that raid on Allhome. Nothing like that has ever happened before," she says.`
+				`<CN-12895>`
+			`<CN-12896>`
+			`<CN-12897>`
 			label "do things"
-			`	"You are well-known, and must be canny to have got where you are. A Hai in trouble might recognize you, or you might perceive them when others would not. It would be in the interests of both our people to be sure that there is no such issue. Would you look for me? For both our sakes?"`
+			`<CN-12898>`
 			branch "about that"
 				"hai slave prereq" >= 1
 			choice
-				`	"Sure, I can have a look around."`
-			`	She gives you a little smile and nods. "If you come across someone and have difficulty getting them to trust you, try telling them 'Luf e ow, vai, luf e eh.'"`
+				`<CN-12899>`
+			`<CN-12900>`
 				goto mean
 			label "about that"
-			`	"Well, about that," you say, "I think I might have already come across some potential evidence of this before."`
-			`	Sayari's hood nearly slips off as she looks up at you with a horrified expression. "Surely not?!"`
-			`	You rush to reassure her. "Nothing concrete, of course. I can go and look to be sure."`
-			`	She gives you a very serious look and nods. "If you come across any others and have difficulty getting them to trust you, try telling them 'Luf e ow, vai, luf e eh.'"`
+			`<CN-12901>`
+			`<CN-12902>`
+			`<CN-12903>`
+			`<CN-12904>`
 			label mean
 			choice
-				`	"Thank you, I will."`
+				`<CN-12905>`
 					accept
-				`	"What does it mean?"`
-			`	She winks at you. "It would be much less effective if I told you."`
+				`<CN-12906>`
+			`<CN-12907>`
 				accept
 	on visit
-		dialog "You have returned to Hai-home but haven't found anything actionable you can tell Sayari. There's still time to look for evidence."
+		dialog "<DL-562>"
 	to complete
 		"hai slave prereq" >= 3
 		has "Hai Rescue: Gipeep: offered"
 	on complete
-		log `You found proof of more kidnapped Hai and something that seems out of place. Sayari's fears appear to have been justified...`
+		log `<LG-378>`
 
 event "secret mountaintop"
 	# Ensure Mountaintop exists so the next mission can trigger
@@ -560,7 +560,7 @@ event "secret mountaintop"
 		government "Unknown"
 		attributes "requires: neverallowed"
 		# Placeholder description; you can't actually land.
-		description `This tiny asteroid has a space hazard warning transmitter, of a type typically used to mark construction sites. Perhaps someone intends to build a space station here? [If you can see this text, report it as a bug.]`
+		description `<DS-2675>`
 		"required reputation" 1000
 		bribe 0
 
@@ -578,7 +578,7 @@ mission "Hai Leaks Response 7"
 		has "Hai Rescue: Gipeep: offered"
 	on offer
 		conversation
-			`You think you have enough evidence of kidnapped Hai to be sure of the bad news you bring. There may be other Hai you could still save, but you should go tell Sayari soon to see how to proceed.`
+			`<CN-12908>`
 				decline
 
 event "slightly lost"

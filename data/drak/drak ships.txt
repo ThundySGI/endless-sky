@@ -93,7 +93,7 @@ ship "Archon"
 	turret -55 16 "Drak Distancer"
 	turret 55 16 "Drak Distancer"
 	"final explode" "archon a teleport"
-	description `The Archon's presence is chilling. The "ship" has an almost organic appearance, but your ship's scanners give you no discernible information on its construction. What exactly it is you do not know, but you can feel that it is powerful.`
+	description `<DS-2428>`
 
 ship "Archon" "Archon B"
 	"never disabled"

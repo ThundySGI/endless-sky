@@ -30,7 +30,7 @@ outfit "Aluminum"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Lightweight and rust resistant, aluminum is often used for the hulls of civilian spacecraft that do not need to be able to stand up to prolonged weapons fire."
+	description "<DS-990>"
 
 
 minable "copper"
@@ -38,7 +38,7 @@ minable "copper"
 	hull 1080
 	"random hull" 240
 	payload "Copper" 20
-		"toughness" 7200
+		"toughness" 9000
 	explode "smoke" 20
 	explode "bolide" 20
 	explode "asteroid crunch small"
@@ -52,7 +52,7 @@ outfit "Copper"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "In its pure form, copper is valued mostly for its high thermal and electrical conductivity. But, it is also used in small quantities in a wide variety of alloys."
+	description "<DS-991>"
 
 
 minable "gold"
@@ -60,7 +60,7 @@ minable "gold"
 	hull 2520
 	"random hull" 560
 	payload "Gold" 16
-		"toughness" 43200
+		"toughness" 13650
 	explode "smoke" 20
 	explode "bolide" 20
 	explode "asteroid crunch small"
@@ -74,7 +74,7 @@ outfit "Gold"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Useful for its high electrical conductivity and prized for its beauty and luxury status, gold can always find a well-paying market."
+	description "<DS-992>"
 
 
 minable "iron"
@@ -82,7 +82,7 @@ minable "iron"
 	hull 1440
 	"random hull" 320
 	payload "Iron" 50
-		"toughness" 9600
+		"toughness" 12000
 	explode "smoke" 40
 	explode "bolide" 40
 	explode "asteroid crunch large"
@@ -96,7 +96,7 @@ outfit "Iron"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Although it is one of the most common metals, iron is also one of the most useful."
+	description "<DS-993>"
 
 
 minable "lead"
@@ -104,7 +104,7 @@ minable "lead"
 	hull 720
 	"random hull" 160
 	payload "Lead" 32
-		"toughness" 4400
+		"toughness" 7000
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"
@@ -118,7 +118,7 @@ outfit "Lead"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "As one of the densest non-radioactive elements, lead has been the material of choice for bullets ever since the invention of firearms. Its other uses are limited by regulations for preventing lead poisoning."
+	description "<DS-994>"
 
 
 minable "neodymium"
@@ -126,7 +126,7 @@ minable "neodymium"
 	hull 3240
 	"random hull" 720
 	payload "Neodymium" 40
-		"toughness" 77000
+		"toughness" 14750
 	explode "smoke" 40
 	explode "bolide" 40
 	explode "asteroid crunch large"
@@ -140,7 +140,7 @@ outfit "Neodymium"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "One of the most abundant of the rare earth elements, neodymium is used to make strongly magnetic alloys for use in engines and generators."
+	description "<DS-995>"
 
 
 minable "platinum"
@@ -148,7 +148,7 @@ minable "platinum"
 	hull 3600
 	"random hull" 800
 	payload "Platinum" 16
-		"toughness" 133000
+		"toughness" 13000
 	explode "smoke" 20
 	explode "bolide" 20
 	explode "asteroid crunch small"
@@ -162,7 +162,7 @@ outfit "Platinum"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "As rare as gold and even more valuable, platinum has many industrial uses because it resists oxidation even when heated to high temperatures."
+	description "<DS-996>"
 
 
 minable "silicon"
@@ -170,7 +170,7 @@ minable "silicon"
 	hull 360
 	"random hull" 80
 	payload "Silicon" 50
-		"toughness" 1900
+		"toughness" 5000
 	explode "smoke" 40
 	explode "bolide" 40
 	explode "asteroid crunch large"
@@ -184,7 +184,7 @@ outfit "Silicon"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Silicon in its pure form is used for electronics and semiconductors. It is a very common element and easy to harvest."
+	description "<DS-997>"
 
 
 minable "silver"
@@ -192,7 +192,7 @@ minable "silver"
 	hull 1800
 	"random hull" 400
 	payload "Silver" 20
-		"toughness" 30850
+		"toughness" 9750
 	explode "smoke" 20
 	explode "bolide" 20
 	explode "asteroid crunch small"
@@ -206,7 +206,7 @@ outfit "Silver"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Although not as pricey as gold, silver is used not just in jewelry but in electronics, disinfectants, and high-quality mirrors, and as a chemical catalyst."
+	description "<DS-998>"
 
 
 minable "titanium"
@@ -214,7 +214,7 @@ minable "titanium"
 	hull 2160
 	"random hull" 480
 	payload "Titanium" 32
-		"toughness" 22800
+		"toughness" 14400
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"
@@ -228,7 +228,7 @@ outfit "Titanium"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Strong, lightweight, and resistant to corrosion, titanium is one of the chief metals used for starship hulls and structural members."
+	description "<DS-999>"
 
 
 minable "tungsten"
@@ -236,7 +236,7 @@ minable "tungsten"
 	hull 4320
 	"random hull" 960
 	payload "Tungsten" 24
-		"toughness" 57000
+		"toughness" 26250
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"
@@ -250,7 +250,7 @@ outfit "Tungsten"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Tungsten has many industrial uses due to its high melting point and its strength."
+	description "<DS-1000>"
 
 
 minable "uranium"
@@ -258,7 +258,7 @@ minable "uranium"
 	hull 2880
 	"random hull" 640
 	payload "Uranium" 24
-		"toughness" 49400
+		"toughness" 15600
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"
@@ -272,7 +272,7 @@ outfit "Uranium"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Uranium is best known for its use in the nuclear reactors that power large starships. Its most stable isotope U-238 is also used for ultra-strong hull plating and for armor-piercing projectiles."
+	description "<DS-1001>"
 
 
 minable "yottrite"
@@ -280,7 +280,7 @@ minable "yottrite"
 	hull 18000
 	"random hull" 4000
 	payload "Yottrite" 7
-		"toughness" 1377500
+		"toughness" 50000
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"
@@ -294,7 +294,7 @@ outfit "Yottrite"
 	"mass" 3.14
 	"installable" -1
 	"minable" 1
-	description "An extraordinarily rare crystalline formation, forged over tens of thousands of years in the molecular clouds around supernova remnants. Although less advanced species can potentially harvest it, very few civilizations other than the Quarg have developed the technology needed to incorporate yottrite in an alloy."
+	description "<DS-1002>"
 
 
 
@@ -306,7 +306,7 @@ minable "plant"
 	hull 2520
 	"random hull" 560
 	payload "Void Orchid" 21
-		"toughness" 59920
+		"toughness" 11480
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "final explosion medium"
@@ -317,7 +317,7 @@ minable "plant2"
 	hull 2340
 	"random hull" 520
 	payload "Void Orchid" 20
-		"toughness" 55640
+		"toughness" 10660
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "final explosion medium"
@@ -327,7 +327,7 @@ minable "plant cluster"
 	hull 1080
 	"random hull" 240
 	payload "Void Orchid" 11
-		"toughness" 25680
+		"toughness" 4920
 	explode "smoke" 20
 	explode "bolide" 20
 	explode "final explosion small"
@@ -337,7 +337,7 @@ minable "large plant"
 	hull 3420
 	"random hull" 760
 	payload "Void Orchid" 41
-		"toughness" 81320
+		"toughness" 14920
 	explode "smoke" 30
 	explode "bolide" 40
 	explode "final explosion medium"
@@ -348,7 +348,7 @@ minable "large plant2"
 	hull 3240
 	"random hull" 720
 	payload "Void Orchid" 41
-		"toughness" 77040
+		"toughness" 14760
 	explode "smoke" 30
 	explode "bolide" 40
 	explode "final explosion medium"
@@ -358,7 +358,7 @@ minable "large plant cluster"
 	hull 1980
 	"random hull" 440
 	payload "Void Orchid" 22
-		"toughness" 47080
+		"toughness" 9020
 	explode "smoke" 30
 	explode "bolide" 40
 	explode "final explosion medium"
@@ -368,7 +368,7 @@ minable "live crystal"
 	hull 900
 	"random hull" 200
 	payload "Void Orchid" 8
-		"toughness" 21400
+		"toughness" 4100
 	explode "smoke" 15
 	explode "bolide" 10
 	explode "final explosion small"
@@ -378,7 +378,7 @@ minable "space flora"
 	hull 900
 	"random hull" 200
 	payload "Void Orchid" 8
-		"toughness" 21400
+		"toughness" 4100
 	explode "smoke" 15
 	explode "bolide" 10
 	explode "final explosion small"
@@ -388,7 +388,7 @@ minable "large space flora"
 	hull 1800
 	"random hull" 400
 	payload "Void Orchid" 16
-		"toughness" 42800
+		"toughness" 8200
 	explode "smoke" 25
 	explode "bolide" 20
 	explode "final explosion medium"
@@ -403,7 +403,7 @@ outfit "Void Orchid"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "'Void Orchid' is the generic term for a variety of strange, plant-like organisms that live primarily on asteroids. Due to the way they concentrate minerals from their host asteroid, they are valued both as scientific curiosities as well as for their mineral content."
+	description "<DS-1003>"
 
 
 
@@ -445,7 +445,7 @@ minable "small water droplet"
 	hull 180
 	"random hull" 180
 	payload "Voidfish" 3
-		"toughness" 540
+		"toughness" 1260
 	explode "droplet burst" 3
 
 minable "medium water droplet"
@@ -459,7 +459,7 @@ minable "medium water droplet"
 	hull 600
 	"random hull" 600
 	payload "Voidfish" 15
-		"toughness" 1800
+		"toughness" 4200
 	explode "droplet burst" 6
 
 minable "large water droplet"
@@ -473,7 +473,7 @@ minable "large water droplet"
 	hull 1800
 	"random hull" 1800
 	payload "Voidfish" 45
-		"toughness" 4500
+		"toughness" 12600
 	explode "droplet burst" 12
 
 minable "huge water droplet"
@@ -487,7 +487,7 @@ minable "huge water droplet"
 	hull 3600
 	"random hull" 3600
 	payload "Voidfish" 120
-		"toughness" 10800
+		"toughness" 25200
 	explode "droplet burst" 36
 
 outfit "Voidfish"
@@ -499,7 +499,7 @@ outfit "Voidfish"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "These are a collection of numerous species of voidborne fish harvested in a perhaps unconventional manner. Despite being both flash-boiled and freeze-dried, they are surprisingly appetizing, and equally nourishing."
+	description "<DS-1004>"
 
 
 effect "droplet burst"
@@ -610,5 +610,5 @@ outfit "Integral Wood"
 	"mass" 0.3
 	"installable" -1
 	"minable" 1
-	description "Wood harvested from an integral tree is exquisitely lightweight, strong, and radiation resistant - it also fetches extraordinary prices on the market for exotic goods."
-	description "	Some claim it would even be the material of choice for a wooden starship, as ridiculous as the idea would be."
+	description "<DS-1005>"
+	description "<DS-1006>"

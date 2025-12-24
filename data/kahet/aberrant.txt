@@ -16,11 +16,11 @@ phrase "aberrant names"
 	phrase
 		"builder beginning"
 	word
-		"'si" 6
-		"'se" 6
-		"'sy" 5
-		"'sie" 2
-		"'sei"
+		"<WR-11768>" 6
+		"<WR-11769>" 6
+		"<WR-11770>" 5
+		"<WR-11771>" 2
+		"<WR-11772>"
 
 fleet "Small Aberrant"
 	government "Aberrant"

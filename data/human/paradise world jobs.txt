@@ -13,11 +13,11 @@
 
 
 mission "Paradise Job: Care Package"
-	name "Care package to <planet>"
+	name "<NM-204>"
 	job
 	repeat
 	deadline
-	description "An anxious mother will pay you <payment> to deliver a care package of <cargo> to her child studying on <destination> by <date>."
+	description "<DS-700>"
 	cargo "Food" 1
 	to offer
 		random < 10
@@ -32,15 +32,15 @@ mission "Paradise Job: Care Package"
 	on complete
 		payment
 		payment 5000
-		dialog "Still wondering why one university student would possibly need such a large quantity of <commodity>, you deliver the interstellar care package and collect your payment of <payment>."
+		dialog "<DL-320>"
 
 
 mission "Paradise Job: Birthday Supplies"
-	name "Birthday supplies to <planet>"
+	name "<NM-381>"
 	job
 	repeat
 	deadline
-	description "An elderly couple wishes to contribute <cargo> for their grandchild's birthday bash on <destination> by <date>. Payment is <payment>."
+	description "<DS-701>"
 	cargo "Luxury Goods" 1 3
 	to offer
 		random < 10
@@ -55,15 +55,15 @@ mission "Paradise Job: Birthday Supplies"
 	on complete
 		payment
 		payment 5000
-		dialog "You deliver the cargo to the garden of an imposing mansion in the countryside, wherein some pouty young sprout is throwing a very conspicuous fit at the center of a swarm of guests. The parents sheepishly hand you your payment of <payment>."
+		dialog "<DL-321>"
 
 
 mission "Paradise Job: Art Delivery"
-	name "Art delivery to <planet>"
+	name "<NM-382>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> for an upcoming art exhibition on <destination> by <date>. Payment is <payment>."
+	description "<DS-702>"
 	cargo "Luxury Goods" 1 2 .4
 	to offer
 		random < 10
@@ -78,15 +78,15 @@ mission "Paradise Job: Art Delivery"
 	on complete
 		payment
 		payment 5000
-		dialog "Your ship is directed to the rear loading dock of a palatial complex where your cargo of <commodity> is unloaded. You collect your payment of <payment>."
+		dialog "<DL-322>"
 
 
 mission "Paradise Job: Newlyweds"
-	name "Newlyweds to <planet>"
+	name "<NM-383>"
 	job
 	repeat
 	deadline
-	description "This pair of newlyweds seeks passage on a luxurious ship to reach their honeymoon on <destination> by <date>, along with <tons> of their wedding gifts. They will pay you <payment> to take them there."
+	description "<DS-703>"
 	passengers 2
 	cargo "wedding gifts" 2 4
 	to offer
@@ -103,15 +103,15 @@ mission "Paradise Job: Newlyweds"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 250
-		dialog "You bid the two lovebirds goodbye on <planet> and collect your payment of <payment>."
+		dialog "<DL-323>"
 
 
 mission "Paradise Job: Theater Props"
-	name "Theater props to <planet>"
+	name "<NM-384>"
 	job
 	repeat
 	deadline
-	description "A theater troupe on <destination> needs a delivery of <tons> of special <commodity> to use as props in an upcoming performance on <date>. Payment is <payment>."
+	description "<DS-704>"
 	cargo "Luxury Goods" 2 6 .35
 	to offer
 		random < 10
@@ -126,15 +126,15 @@ mission "Paradise Job: Theater Props"
 	on complete
 		payment
 		payment 8000
-		dialog "Your ship is directed to the rear loading dock of a sprawling entertainment complex where your cargo of <commodity> is unloaded. You collect your payment of <payment>."
+		dialog "<DL-324>"
 
 
 mission "Paradise Job: Fine Food"
-	name "Fine food to <planet>"
+	name "<NM-385>"
 	job
 	repeat
 	deadline
-	description "A highly-rated restaurant on <destination> seeks to acquire <tons> of fine <commodity> by <date>. Payment is <payment>."
+	description "<DS-705>"
 	cargo "Food" 2 5 .25
 	to offer
 		random < 10
@@ -149,14 +149,14 @@ mission "Paradise Job: Fine Food"
 	on complete
 		payment
 		payment 8000
-		dialog "Your ship is directed to the rear loading dock of a very impressive eatery. White-gloved waiters gingerly unload the cargo of <commodity> and relay your payment of <payment>."
+		dialog "<DL-325>"
 
 
 mission "Transport partiers [1]"
-	name "Party-goers to <planet>"
+	name "<NM-386>"
 	job
 	repeat
-	description "This group of <bunks> university students is willing to pay <payment> for a deluxe ride to a huge party on <destination>, along with <tons> of their completely legal pharmaceuticals."
+	description "<DS-706>"
 	passengers 7 12
 	cargo "pharmaceuticals" 2 4
 	illegal 1000 `It turns out that the "completely legal pharmaceuticals" in your hold are not so completely legal after all. The officers who confiscate the goods spend a long time talking with one of the students, whom you suspect to be politically connected. You're not surprised by the small size of the fine you receive as well as the fact that nobody was arrested.`
@@ -175,14 +175,14 @@ mission "Transport partiers [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "You're not sorry to say goodbye to the rowdy and uncouth troublemakers you've been transporting. Their parents send you your payment of <payment> with not a word of acknowledgment."
+		dialog "<DL-326>"
 
 
 mission "Transport partiers [2]"
-	name "Party-goers to <planet>"
+	name "<NM-386>"
 	job
 	repeat
-	description "This group of <bunks> university students is willing to pay <payment> for a deluxe ride to a huge party on <destination>, along with <tons> of their snacks and school supplies."
+	description "<DS-707>"
 	passengers 7 12
 	cargo "snacks and school supplies" 2 4
 	to offer
@@ -199,13 +199,13 @@ mission "Transport partiers [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 190
-		dialog "You bid goodbye to the students, who behaved surprisingly well during the journey - yielding many fascinating conversations on subjects as diverse as philosophy, microfluidics, and intergalactic economics. Their proud parents send you your payment of <payment>."
+		dialog "<DL-327>"
 
 mission "Paradise Job: Food Donations"
-	name "Food donations to <planet>"
+	name "<NM-387>"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the undernourished souls of <destination>. Payment is <payment>."
+	description "<DS-708>"
 	cargo "Food" 7 2 .1
 	to offer
 		random < 10
@@ -218,14 +218,14 @@ mission "Paradise Job: Food Donations"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 90
-		dialog "You collect your payment of <payment>, but not before noticing the general robustness and ample bellies of the dockworkers unloading the donation of <commodity>."
+		dialog "<DL-328>"
 
 
 mission "Paradise Job: Clothing Donations"
-	name "Clothing donations to <planet>"
+	name "<NM-388>"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the under-dressed and fashion-deprived souls of <destination>. Payment is <payment>."
+	description "<DS-709>"
 	cargo "Clothing" 7 2 .1
 	to offer
 		random < 10
@@ -238,14 +238,14 @@ mission "Paradise Job: Clothing Donations"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 100
-		dialog "You collect your payment of <payment>, but not before noticing the fine quality of the clothes worn by the dockworkers unloading the donation of <commodity>."
+		dialog "<DL-329>"
 
 
 mission "Paradise Job: Medical Aid"
-	name "Medical aid to <planet>"
+	name "<NM-389>"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the suffering souls of <destination>. Payment is <payment>."
+	description "<DS-710>"
 	cargo "Medical" 7 2 .1
 	to offer
 		random < 10
@@ -258,14 +258,14 @@ mission "Paradise Job: Medical Aid"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 100
-		dialog "You collect your payment of <payment>, but not before noticing the general health and vigor of the dockworkers unloading the donation of <commodity>."
+		dialog "<DL-330>"
 
 
 mission "Paradise Job: Charity"
-	name "Charity goods to <planet>"
+	name "<NM-390>"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the naive and culturally-underexposed souls of <destination>. Payment is <payment>."
+	description "<DS-711>"
 	cargo "Luxury Goods" 7 2 .1
 	to offer
 		random < 10
@@ -278,15 +278,15 @@ mission "Paradise Job: Charity"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 100
-		dialog "You collect your payment of <payment>, but not before noticing the quality of the clothes, jewelry, and personal electronics carried by the dockworkers unloading the donation of <commodity>."
+		dialog "<DL-331>"
 
 
 mission "Paradise Job: Party Goods"
-	name "Party goods from <planet stopovers>"
+	name "<NM-391>"
 	job
 	repeat
 	deadline
-	description "Planetside supplies of <commodity> are running low in the wake of an important gala. Pick up <tons> of it on <stopovers> and return to <origin> by <date>. Payment is <payment>."
+	description "<DS-712>"
 	cargo "Luxury Goods" 10 2 .1
 	to offer
 		random < 10
@@ -298,20 +298,20 @@ mission "Paradise Job: Party Goods"
 		attributes "paradise" "rich"
 		attributes "spaceport"
 	on stopover
-		dialog "You oversee the loading as dockworkers carry box after box of <commodity> onto your ship. Must be some party."
+		dialog "<DL-332>"
 	on visit
-		dialog "You've returned to <planet>, but forgot to pick up the <commodity> on <stopovers> first! Better head there before it's too late."
+		dialog "<DL-333>"
 	on complete
 		payment
 		payment 10000 135
-		dialog "Your ship is directed to land on a makeshift tarmac near a sprawling greenfield where novelty castles are being constructed. Sharply-dressed stewards unload the <commodity> and you collect your payment of <payment>."
+		dialog "<DL-334>"
 
 
 mission "Paradise Job: Estate Assets"
-	name "Estate assets to <planet>"
+	name "<NM-392>"
 	job
 	repeat
-	description "Trustees are seeking starship captains willing to deliver individual portions of a recently deceased upstanding citizen's estate - <cargo> - to the upcoming estate sale on <destination>. Payment is <payment>."
+	description "<DS-713>"
 	cargo "Luxury Goods" 18 2 .15
 	to offer
 		random < 10
@@ -325,14 +325,14 @@ mission "Paradise Job: Estate Assets"
 	on complete
 		payment
 		payment 10000
-		dialog "As you watch the dockworkers unload crate after crate, you can't help but wonder what would drive someone to collect such a huge quantity of <commodity>. You collect your payment of <payment>."
+		dialog "<DL-335>"
 
 
 mission "Paradise Jobs: Contract Laborers"
-	name "Contract laborers from <planet stopovers>"
+	name "<NM-393>"
 	job
 	repeat
-	description "Return to <destination> after picking up <bunks> contract laborers located on <stopovers> who are eager to experience the luxury of the Paradise Worlds. Payment is <payment>."
+	description "<DS-714>"
 	passengers 13 30
 	to offer
 		random < 10
@@ -344,19 +344,19 @@ mission "Paradise Jobs: Contract Laborers"
 		attributes "mining" "fishing" "textiles" "factory" "farming" "oil"
 		attributes "spaceport"
 	on stopover
-		dialog "The shabbily-dressed young men and women in the group don't look nearly as happy to be boarding your ship as you expected, given the new opportunity that awaits them. They shuffle wearily up the ramp for the return trip to <planet>."
+		dialog "<DL-336>"
 	on visit
 		dialog phrase "generic missing stopover or passengers"
 	on complete
 		payment 10000 50
-		dialog "The bedraggled contract laborers kept to themselves and didn't say a word to you throughout the entire trip. The scruffy foreman who receives you on <origin> seems pleased, however. He hands you your payment of <payment>."
+		dialog "<DL-337>"
 
 
 mission "Paradise Job: Waste Disposal"
-	name "Waste disposal on <planet>"
+	name "<NM-394>"
 	job
 	repeat
-	description "Urgent waste disposal is needed. Transport <cargo> to <destination> to keep property values from falling. Payment is <payment>."
+	description "<DS-715>"
 	cargo "Garbage" 30 2 .03
 	to offer
 		random < 10
@@ -369,11 +369,11 @@ mission "Paradise Job: Waste Disposal"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		dialog "You drop off the exceptionally foul shipment of <commodity> on <planet>, already looking forward to the chemical bath your cargo hold is going to receive. You collect your payment of <payment> and hope that somebody around here knows what to do with the unpleasant mess you dropped off."
+		dialog "<DL-338>"
 
 
 mission "Transport high-class tourists"
-	description "Bring <bunks> outrageously wealthy tourists on a fabulous journey to the wild and exotic world of <destination>. They'll only consider thinking about your ship if you have the 'appropriate facilities' for a comfortable journey. Payment is <payment>."
+	description "<DS-716>"
 	job
 	repeat
 	passengers 5 5 .37
@@ -389,12 +389,12 @@ mission "Transport high-class tourists"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog "Your passengers begin to wander off, some of them sporting puzzled looks as the memories of glossy photos in the brochures give way to reality. You collect your payment of <payment>."
+		dialog "<DL-339>"
 		payment 25000 250
 
 
 mission "Transport high-class tourist group"
-	description "Bring <bunks> outrageously wealthy tourists on a fabulous journey to the wild and exotic world of <destination>. They'll only consider thinking about your ship if you have the 'appropriate facilities' for a comfortable journey. Payment is <payment>."
+	description "<DS-716>"
 	job
 	repeat
 	passengers 15 5 .15
@@ -411,12 +411,12 @@ mission "Transport high-class tourist group"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog "Your passengers begin to wander off, some of them sporting puzzled looks as the memories of glossy photos in the brochures give way to reality. You collect your payment of <payment>."
+		dialog "<DL-339>"
 		payment 25000 170
 
 
 mission "Pleasure cruise security"
-	description "Escort the <npc> on a pleasure cruise to the wild and exotic planet of <stopovers> along with <tons> of their <commodity>, then return to <destination>, where you will be paid <payment>."
+	description "<DS-717>"
 	job
 	repeat
 	cargo "Luxury Goods" 15 3 .17
@@ -440,20 +440,20 @@ mission "Pleasure cruise security"
 			variant
 				"Star Queen"
 	on stopover
-		dialog "The passengers of the <npc> wander off, bedecked in the most conspicuous tourist attire they seem to have been able to find, and begin oohing and aahing at the exoticism of this faraway world. Hopefully none of them gets robbed. You prepare for the return journey to <destination>."
+		dialog "<DL-340>"
 	on visit
-		dialog "You have reached <planet>, but you can't complete this mission until the <npc> has visited <stopovers> with you and then joined you here."
+		dialog "<DL-7>"
 	on complete
-		dialog "You bid goodbye to the captain of the <npc> and accept your payment of <payment>."
+		dialog "<DL-8>"
 		payment
 		payment 50000
 
 
 mission "Paradise Job: Parolees"
-	name "Parolees to <planet>"
+	name "<NM-395>"
 	job
 	repeat
-	description `These <bunks> non-violent repeat offenders have accepted longer community service sentences in return for serving their time on the Paradise World of <destination>. They will need to be transported in a secure ship. Payment is <payment>.`
+	description `<DS-718>`
 	passengers 20 4 .1
 	to offer
 		random < 15
@@ -470,14 +470,14 @@ mission "Paradise Job: Parolees"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 170000 110
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of a local security force as they prepare to repay their debts to society. A clerk on <planet> checks their condition as they're led off. He seems mostly pleased and hands you your payment of <payment>."
+		dialog "<DL-341>"
 
 
 mission "Paradise Job: Debtors"
-	name "Debtors to <planet>"
+	name "<NM-396>"
 	job
 	repeat
-	description `These <bunks> poor souls have bankrupted themselves attempting to live beyond their means. In response, the local government will pay you <payment> to transport them securely to <destination> to "make themselves useful."`
+	description `<DS-719>`
 	passengers 20 4 .1
 	to offer
 		random < 15
@@ -493,14 +493,14 @@ mission "Paradise Job: Debtors"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 170000 110
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of immigration officials. A grinning job service provider is on hand to pay you the <payment> you are owed."
+		dialog "<DL-342>"
 
 
 mission "Paradise Job: Retirees"
-	name "Wealthy retirees to <planet>"
+	name "<NM-397>"
 	job
 	repeat
-	description "This coterie of <bunks> wealthy retirees is willing to pay <payment> to be transported in style to <destination>, along with <tons> of their most treasured possessions."
+	description "<DS-720>"
 	passengers 7 12 .6
 	cargo "treasured possessions" 7 12 .2
 	to offer
@@ -519,14 +519,14 @@ mission "Paradise Job: Retirees"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "You bid goodbye to the retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from their travel broker."
+		dialog "<DL-343>"
 
 
 mission "Paradise Job: Pirate Retirees (Illegal)"
-	name "Wealthy retirees to <planet>"
+	name "<NM-397>"
 	job
 	repeat
-	description `This coterie of <bunks> wealthy "retirees" is willing to pay <payment> for stylish, no-questions-asked transport to <destination>, along with <tons> of their most treasured possessions.`
+	description `<DS-721>`
 	passengers 4 10 .6
 	cargo "treasured possessions" 4 10 .2
 	illegal 15000 `After scanning your ship, law enforcement notifies you. Apparently the "retirees" you've been carting around are secretly wanted individuals. After boarding your ship, they arrest the so-called retirees and search through their "treasured possessions," which are innocent enough, besides being obtained illegally. In the end, they confiscate the possessions and take away the criminals, leaving you with a small fine.`
@@ -546,14 +546,14 @@ mission "Paradise Job: Pirate Retirees (Illegal)"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 15000 300
-		dialog "You bid goodbye to the self-proclaimed retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite, if raucous, and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from an anonymous source."
+		dialog "<DL-344>"
 
 
 mission "Paradise Job: Pirate Retirees (Legal)"
-	name "Wealthy retirees to <planet>"
+	name "<NM-397>"
 	job
 	repeat
-	description `This coterie of <bunks> wealthy "retirees" is willing to pay <payment> for stylish, no-questions-asked transport to <destination>, along with <tons> of their most treasured possessions.`
+	description `<DS-721>`
 	passengers 4 10 .6
 	cargo "treasured possessions" 4 10 .2
 	to offer
@@ -571,14 +571,14 @@ mission "Paradise Job: Pirate Retirees (Legal)"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "You bid goodbye to the self-proclaimed retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite, if raucous, and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from an anyonymous source."
+		dialog "<DL-345>"
 
 
 mission "Paradise Job: Wilderness Retreat"
-	name "Wilderness Retreat to <planet>"
+	name "<NM-398>"
 	job
 	repeat
-	description `Bring <bunks> pseudo-celebrities and wealthy tourists to the wild and untamed world of <destination> for a "Wilderness Retreat." They'll only consider your ship if you can ensure that they can have a comfortable journey. Payment is <payment>.`
+	description `<DS-722>`
 	passengers 10 4 .1
 	to offer
 		random < 10
@@ -596,12 +596,12 @@ mission "Paradise Job: Wilderness Retreat"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 25000 250
-		dialog `Your passengers are met by an overly enthusiastic greeting service of comically overdressed "wilderness guides." You can't help but think these people are either about to end up on a popular reality show, or be safely fleeced of their money, but they're not the sort of characters who engender much sympathy for such fates. One of the greeters quietly transfers to you your payment of <payment>.`
+		dialog `<DL-346>`
 
 
 mission "Gemini Shipyards Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Gemini Shipyards, a constituent of the Republic Navy Yard and one of the most advanced shipyards in human space. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-723>"
 	cargo "weapons" 5 2 .1
 	job
 	repeat
@@ -622,8 +622,8 @@ mission "Gemini Shipyards Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Gemini Shipyards Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Gemini Shipyards, a constituent of the Republic Navy Yard and one of the most advanced shipyards in human space. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-723>"
 	cargo "Ship Systems" 5 2 .1
 	job
 	repeat
@@ -644,8 +644,8 @@ mission "Gemini Shipyards Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Lovelace Labs Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Lovelace Labs, a well-respected weapons manufacturer in the region. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-724>"
 	cargo Metal 5 2 .1
 	job
 	repeat
@@ -664,8 +664,8 @@ mission "Lovelace Labs Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Polymath Nanoinstruments Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Polymath Nanoinstruments, one of the largest electronics firms in human space. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-725>"
 	cargo Electronics 5 2 .1
 	job
 	repeat
@@ -687,8 +687,8 @@ mission "Polymath Nanoinstruments Shipment [0]"
 # Martini Bombings jobs
 
 mission "Martini Evacuation (Resident Family)"
-	name "Evacuate Martini family to <planet>"
-	description "This family of <bunks> from Martini had their <martini house> destroyed in the nuclear bombing and wish to leave immediately. Transport them and their <cargo> to <planet>, where they have accommodation. They will pay you <payment>."
+	name "<NM-399>"
+	description "<DS-726>"
 	job
 	repeat
 	passengers 3 20 .96
@@ -716,8 +716,8 @@ mission "Martini Evacuation (Resident Family)"
 
 
 mission "Martini Evacuation (Resident Group)"
-	name "Evacuate Martini residents to <planet>"
-	description "These <bunks> residents from Martini had their <martini house> destroyed in the nuclear bombing and wish to leave immediately. Transport them and their <cargo> to <planet>, where they have accommodation. They will pay you <payment>."
+	name "<NM-400>"
+	description "<DS-727>"
 	job
 	repeat
 	passengers 3 2 .68
@@ -745,8 +745,8 @@ mission "Martini Evacuation (Resident Group)"
 
 
 mission "Martini Evacuation (Resident)"
-	name "Evacuate Martini resident to <planet>"
-	description "This resident from Martini had their <martini house> destroyed in the nuclear bombing and wishes to leave immediately. Transport them and their <cargo> to <planet>, where they have accommodation. They will pay you <payment>."
+	name "<NM-401>"
+	description "<DS-728>"
 	job
 	repeat
 	passengers 1
@@ -774,8 +774,8 @@ mission "Martini Evacuation (Resident)"
 
 
 mission "Martini Evacuation (Family, Luxury)"
-	name "Evacuate Martini residents to <planet>"
-	description "This family of <bunks> from Martini had their <martini house> destroyed in the nuclear bombing, and wish to leave immediately on a luxury ship. Transport them and their <cargo> to <planet>, where they have accommodation. They will pay you <payment>."
+	name "<NM-400>"
+	description "<DS-729>"
 	job
 	repeat
 	passengers 3 20 .96
@@ -805,8 +805,8 @@ mission "Martini Evacuation (Family, Luxury)"
 
 
 mission "Martini Evacuation (Singular, Luxury)"
-	name "Evacuate Martini resident to <planet>"
-	description "This resident from Martini had their <martini house> destroyed in the nuclear bombing, and wishes to leave immediately on a luxury ship. Transport them and their <cargo> to <planet>, where they have accommodation. They will pay you <payment>."
+	name "<NM-401>"
+	description "<DS-730>"
 	job
 	repeat
 	passengers 1
@@ -836,8 +836,8 @@ mission "Martini Evacuation (Singular, Luxury)"
 
 
 mission "Martini Evacuation (Tourist)"
-	name "Evacuate tourist to <planet>"
-	description "This tourist from <planet>, who was on Martini to see its sights when the nuclear bombings occurred, wishes to leave immediately. Transport them back to their home on <planet>, where they will pay you <payment>."
+	name "<NM-402>"
+	description "<DS-731>"
 	job
 	repeat
 	passengers 1
@@ -857,8 +857,8 @@ mission "Martini Evacuation (Tourist)"
 
 
 mission "Martini Evacuation (Tourist Couple)"
-	name "Evacuate tourist couple to <planet>"
-	description "This tourist couple from <planet>, who was on Martini to see its sights when the nuclear bombings occurred, wishes to leave immediately. Transport them back to their home on <planet>, where they will pay you <payment>."
+	name "<NM-403>"
+	description "<DS-732>"
 	job
 	repeat
 	passengers 2
@@ -878,8 +878,8 @@ mission "Martini Evacuation (Tourist Couple)"
 
 
 mission "Martini Evacuation (Tourist Family)"
-	name "Evacuate tourist family to <planet>"
-	description "This family of <bunks> tourists from <planet>, who were on Martini to see its sights when the nuclear bombings occurred, wish to leave immediately. Transport them back to their home on <planet>, where they will pay you <payment>."
+	name "<NM-404>"
+	description "<DS-733>"
 	job
 	repeat
 	passengers 3 20 .96
@@ -898,8 +898,8 @@ mission "Martini Evacuation (Tourist Family)"
 		payment 5000 170
 
 mission "Martini Evacuation (Tourist Group)"
-	name "Evacuate tourist group to <planet>"
-	description "This group of <bunks> tourists from <planet>, who were on Martini to see its sights when the nuclear bombings occurred, wish to leave immediately. Transport them back to their homes on <planet>, where they will pay you <payment>."
+	name "<NM-405>"
+	description "<DS-734>"
 	job
 	repeat
 	passengers 3 20 .68
@@ -919,8 +919,8 @@ mission "Martini Evacuation (Tourist Group)"
 
 
 mission "Martini Evacuation (Businessman Group)"
-	name "Evacuate group of businessmen from Martini to <planet>"
-	description "This group of <bunks> businessmen, who were on Martini conducting a business trip when the nuclear bombings occurred, wish to leave immediately. Transport them back to their homes on <planet>, where they will pay you <payment>."
+	name "<NM-406>"
+	description "<DS-735>"
 	job
 	repeat
 	passengers 3 6
@@ -941,8 +941,8 @@ mission "Martini Evacuation (Businessman Group)"
 
 
 mission "Martini Evacuation (Businessman)"
-	name "Evacuate businessman to <planet>"
-	description "This businessman, who was on Martini conducting a business trip when the nuclear bombings occurred, wishes to leave immediately. Transport them back to their home on <planet>, where they will pay you <payment>."
+	name "<NM-407>"
+	description "<DS-736>"
 	job
 	repeat
 	passengers 1
@@ -962,8 +962,8 @@ mission "Martini Evacuation (Businessman)"
 
 
 mission "Martini Evacuation (Exhausted Doctors)"
-	name "Transport discharged doctors to <planet>"
-	description "These <bunks> doctors have been constantly treating patients on Martini after the bombings, and now have been discharged. Transport them back to their home on <planet>, where they will pay you <payment>."
+	name "<NM-408>"
+	description "<DS-737>"
 	job
 	repeat
 	passengers 2 10 .9
@@ -983,8 +983,8 @@ mission "Martini Evacuation (Exhausted Doctors)"
 
 
 mission "Martini Evacuation (Exhausted Search and Rescue Team)"
-	name "Transport discharged search and rescue team to <planet>"
-	description "These <bunks> search and rescue operatives have been searching for victims of the nuclear bombings in Martini's capital city, and now have been discharged. Transport them back to their home on <planet>, where they will pay you <payment>."
+	name "<NM-409>"
+	description "<DS-738>"
 	job
 	repeat
 	passengers 2 10 .9
@@ -1007,228 +1007,228 @@ mission "Martini Evacuation (Exhausted Search and Rescue Team)"
 # Martini evac on complete dialog
 phrase "martini evac dialog singular"
 	word
-		"Throughout the trip"
-		"While on board"
-		"During their time on board"
-		"Between hyperjumps"
+		"<WR-8993>"
+		"<WR-8994>"
+		"<WR-8995>"
+		"<WR-8996>"
 	word
-		", your passenger from Martini has been "
+		"<WR-8997>"
 	phrase
-		"martini evac 1"
+		"<WR-8998>"
 
 phrase "martini evac 1"
 	word
-		"accusing"
-		"repeatedly accusing"
-		"denouncing"
+		"<WR-8999>"
+		"<WR-9000>"
+		"<WR-9001>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the Free Worlds"
-		"the Southern Defense Pact"
-		"the Southern Pact"
-		"'those ${insults for southerners}'"
-		"'them ${insults for southerners}'"
-		"the '${insults for southerners}'"
+		"<WR-2943>"
+		"<WR-9002>"
+		"<WR-9003>"
+		"<WR-9004>"
+		"<WR-9005>"
+		"<WR-9006>"
 	word
-		" for the "
+		"<WR-9007>"
 	word
-		"nuclear bombings"
-		"destruction"
-		"devastation"
-		"disaster"
+		"<WR-9008>"
+		"<WR-2436>"
+		"<WR-2437>"
+		"<WR-9009>"
 	word
-		" on Martini. They hand you <payment> and head off for their"
+		"<WR-9010>"
 	word
-		" " 10
-		" well-kept "
-		" expensive "
-		" opulent "
-		" exorbitant "
-		" summer "
-		" vacation "
-		" extra "
-		" other "
-		" friend's "
-		" relative's "
+		"<WR-117>" 10
+		"<WR-9011>"
+		"<WR-9012>"
+		"<WR-9013>"
+		"<WR-9014>"
+		"<WR-9015>"
+		"<WR-9016>"
+		"<WR-9017>"
+		"<WR-9018>"
+		"<WR-9019>"
+		"<WR-9020>"
 	word
-		"penthouse"
-		"condo"
-		"apartment"
-		"mansion"
-		"house"
+		"<WR-9021>"
+		"<WR-9022>"
+		"<WR-9023>"
+		"<WR-9024>"
+		"<WR-9025>"
 	word
-		" on <planet>."
+		"<WR-9026>"
 
 phrase "martini evac 1"
 	word
-		"telling you"
-		"letting you know"
-		"talking"
-		"informing you"
+		"<WR-9027>"
+		"<WR-9028>"
+		"<WR-9029>"
+		"<WR-9030>"
 	word
-		" of the "
-		" about the "
+		"<WR-9031>"
+		"<WR-9032>"
 	word
-		"desperation of the people on Martini"
-		"people they knew who died in the blasts"
-		"dire conditions that the people are facing on Martini"
-		"deteriorating state on the ground on Martini"
-		"destruction on Martini"
-		"devastation they personally witnessed"
-		"breakdowns and losses they endured on Martini"
-		"people they haven't heard back from on Martini"
+		"<WR-9033>"
+		"<WR-9034>"
+		"<WR-9035>"
+		"<WR-9036>"
+		"<WR-9037>"
+		"<WR-9038>"
+		"<WR-9039>"
+		"<WR-9040>"
 	word
-		", and implore you to help out further in the relief efforts"
-		", and thank you for bringing them off-planet"
-		""
+		"<WR-9041>"
+		"<WR-9042>"
+		"<WR-34>"
 	word
-		". They hand you <payment> and head off for "
+		"<WR-9043>"
 	word
-		"an apartment"
-		"a house"
+		"<WR-9044>"
+		"<WR-9045>"
 	word
-		" on <planet>."
+		"<WR-9026>"
 
 
 phrase "martini evac dialog plural"
 	word
-		"Throughout the trip"
-		"While on board"
-		"During their time on board"
-		"Between hyperjumps"
+		"<WR-8993>"
+		"<WR-8994>"
+		"<WR-8995>"
+		"<WR-8996>"
 	word
-		", your passengers from Martini have been "
+		"<WR-9046>"
 	phrase
-		"martini evac 2"
+		"<WR-9047>"
 
 phrase "martini evac 2"
 	word
-		"accusing"
-		"repeatedly accusing"
-		"denouncing"
+		"<WR-8999>"
+		"<WR-9000>"
+		"<WR-9001>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the Free Worlds"
-		"the Southern Defense Pact"
-		"the Southern Pact"
-		"'those ${insults for southerners}'"
-		"'them ${insults for southerners}'"
-		"the '${insults for southerners}'"
+		"<WR-2943>"
+		"<WR-9002>"
+		"<WR-9003>"
+		"<WR-9004>"
+		"<WR-9005>"
+		"<WR-9006>"
 	word
-		" for the "
+		"<WR-9007>"
 	word
-		"nuclear bombings"
-		"destruction"
-		"devastation"
+		"<WR-9008>"
+		"<WR-2436>"
+		"<WR-2437>"
 	word
-		" on Martini. The group hands you <payment> and head off for their"
+		"<WR-9048>"
 	word
-		" " 4
-		" well-kept "
-		" expensive "
-		" opulent "
-		" exorbitant "
+		"<WR-117>" 4
+		"<WR-9011>"
+		"<WR-9012>"
+		"<WR-9013>"
+		"<WR-9014>"
 	word
-		"penthouses"
-		"apartments"
-		"houses"
-		"villas"
+		"<WR-9049>"
+		"<WR-9050>"
+		"<WR-9051>"
+		"<WR-9052>"
 	word
-		" and "
+		"<WR-25>"
 	word
-		"estates"
-		"condos"
-		"mansions"
-		"manors"
+		"<WR-9053>"
+		"<WR-9054>"
+		"<WR-9055>"
+		"<WR-9056>"
 	word
-		" on <planet>."
+		"<WR-9026>"
 
 phrase "martini evac 2"
 	word
-		"telling you"
-		"letting you know"
-		"talking"
-		"informing you"
+		"<WR-9027>"
+		"<WR-9028>"
+		"<WR-9029>"
+		"<WR-9030>"
 	word
-		" of the "
-		" about the "
+		"<WR-9031>"
+		"<WR-9032>"
 	word
-		"desperation of the people on Martini"
-		"people they knew who died in the blasts"
-		"dire conditions that the people are facing on Martini"
-		"deteriorating state on the ground on Martini"
-		"destruction on Martini"
-		"devastation they personally witnessed"
-		"breakdowns and losses they endured on Martini"
-		"people they haven't heard back from on Martini"
+		"<WR-9033>"
+		"<WR-9034>"
+		"<WR-9035>"
+		"<WR-9036>"
+		"<WR-9037>"
+		"<WR-9038>"
+		"<WR-9039>"
+		"<WR-9040>"
 	word
-		". They "
+		"<WR-9057>"
 	word
-		"implore you to help out further in the relief efforts,"
-		"thank you for bringing them off-planet,"
+		"<WR-9058>"
+		"<WR-9059>"
 	word
-		" hand you <payment> and head off for their "
+		"<WR-9060>"
 	word
-		"apartments"
-		"houses"
-		"apartments and houses"
+		"<WR-9050>"
+		"<WR-9051>"
+		"<WR-9061>"
 	word
-		" on <planet>."
+		"<WR-9026>"
 
 phrase "insults for southerners"
 	word
-		"bloody"
-		"damn"
-		"jumpy"
-		"upstart"
-		"whining"
-		"whingeing"
-		"stupid"
-		"seditious"
-		"treasonous"
-		"betraying"
-		"treacherous"
-		"deceptive"
-		"terrorizing"
-		"greedy"
-		"cowardly"
-		"base"
+		"<WR-4053>"
+		"<WR-9062>"
+		"<WR-9063>"
+		"<WR-9064>"
+		"<WR-9065>"
+		"<WR-9066>"
+		"<WR-9067>"
+		"<WR-9068>"
+		"<WR-9069>"
+		"<WR-9070>"
+		"<WR-9071>"
+		"<WR-9072>"
+		"<WR-9073>"
+		"<WR-2916>"
+		"<WR-9074>"
+		"<WR-9075>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"southrons"
-		"southerners"
-		"collectivists"
-		"subversives"
-		"insurrectionists"
-		"charity-cases"
-		"rocketeers"
-		"pirates"
-		"unlawfuls"
-		"gunrunners"
-		"sunnavaguns'"
-		"privateers"
+		"<WR-9076>"
+		"<WR-9077>"
+		"<WR-9078>"
+		"<WR-9079>"
+		"<WR-2367>"
+		"<WR-9080>"
+		"<WR-9081>"
+		"<WR-1213>"
+		"<WR-9082>"
+		"<WR-9083>"
+		"<WR-9084>"
+		"<WR-1216>"
 	word
-		" from "
+		"<WR-2422>"
 	word
-		"Bourne"
-		"Rust"
-		"Solace"
-		"Greenrock"
-		"Thule"
-		"Zug"
-		"Longjump"
-		"the South"
-		"the Rim"
-		"the Southern Rim"
+		"<WR-1132>"
+		"<WR-4598>"
+		"<WR-4606>"
+		"<WR-8927>"
+		"<WR-8931>"
+		"<WR-4601>"
+		"<WR-4603>"
+		"<WR-2312>"
+		"<WR-2311>"
+		"<WR-1247>"
 
 
 
 mission "Martini Relief (Medical) [0]"
-	name "Disaster relief to Martini"
-	description "Due to the recent nuclear bombings, bring <cargo> to <planet> to help treat the wounded. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-410>"
+	description "<DS-739>"
 	job
 	repeat
 	cargo Medical 1 2 .2
@@ -1248,8 +1248,8 @@ mission "Martini Relief (Medical) [0]"
 
 
 mission "Martini Relief (Medical) [1]"
-	name "Disaster relief to Martini"
-	description "Due to the recent nuclear bombings, bring <cargo> to <planet> to help treat the wounded. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-410>"
+	description "<DS-739>"
 	job
 	repeat
 	cargo Medical 1 2 .2
@@ -1269,8 +1269,8 @@ mission "Martini Relief (Medical) [1]"
 
 
 mission "Martini Relief (Reconstruction)"
-	name "Construction supplies to Martini"
-	description "Due to the recent nuclear bombings, bring <cargo> to <planet> to help the reconstruction efforts. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-411>"
+	description "<DS-740>"
 	job
 	repeat
 	cargo Construction 1 2 .2
@@ -1290,8 +1290,8 @@ mission "Martini Relief (Reconstruction)"
 
 
 mission "Martini Relief (Food)"
-	name "Food packages to Martini"
-	description "Due to the recent nuclear bombings, bring <cargo> to <planet> to help keep up supply. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-412>"
+	description "<DS-741>"
 	job
 	repeat
 	cargo "food packages" 1 2 .2
@@ -1311,8 +1311,8 @@ mission "Martini Relief (Food)"
 
 
 mission "Martini Relief (Water Tablets)"
-	name "Water purification tablets to Martini"
-	description "Due to the recent nuclear bombings, bring <cargo> to <planet> to help keep up supply. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-413>"
+	description "<DS-741>"
 	job
 	repeat
 	cargo "water purification tablets" 1 2 .2
@@ -1332,8 +1332,8 @@ mission "Martini Relief (Water Tablets)"
 
 
 mission "Martini Relief (Fire Retardant)"
-	name "Fire retardant to Martini"
-	description "Due to the recent nuclear bombings, bring <cargo> to <planet> to help keep up supply. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-414>"
+	description "<DS-741>"
 	job
 	repeat
 	cargo "fire retardant" 1 2 .2
@@ -1353,8 +1353,8 @@ mission "Martini Relief (Fire Retardant)"
 
 
 mission "Martini Relief (People) [0]"
-	name "Relief workers to Martini"
-	description "Due to the recent nuclear bombings on Martini, bring <bunks> <martini relief occupations> to <planet> to release demand from overloaded hospitals. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-415>"
+	description "<DS-742>"
 	job
 	repeat
 	passengers 2 2 .3
@@ -1381,8 +1381,8 @@ mission "Martini Relief (People) [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Martini Relief (People) [1]"
-	name "Relief workers to Martini"
-	description "Due to the recent nuclear bombings on Martini, bring <bunks> <martini relief occupations> to <planet> to assist in Martini's relief efforts. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-415>"
+	description "<DS-743>"
 	job
 	repeat
 	passengers 2 2 .3
@@ -1409,8 +1409,8 @@ mission "Martini Relief (People) [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Martini Relief (People) [2]"
-	name "Relief workers to Martini"
-	description "Due to the recent nuclear bombings on Martini, bring <bunks> <martini relief occupations> to <planet> to assist in the accommodation and reconstruction efforts. You will need to hail the spaceport controller to gain clearance to the planet. Payment is <payment>."
+	name "<NM-415>"
+	description "<DS-744>"
 	job
 	repeat
 	passengers 2 2 .3

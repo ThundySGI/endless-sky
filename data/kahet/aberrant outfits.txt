@@ -55,7 +55,7 @@ outfit "Aberrant Spiker"
 		"shield damage" 1270
 		"corrosion damage" 3
 		"missile strength" 31
-	description "Spikes grow on the backs of many Aberrant variants, made of a seemingly random assortment of materials both metallic and mineral in nature. This device appears to allow an Aberrant to launch these spikes as an offensive weapon, but just how they are able to guide and propel themselves through space is a mystery that a cursory examination of this outfit does not reveal."
+	description "<DS-2819>"
 
 effect "spiker trail"
 	sprite "effect/blood"
@@ -110,8 +110,8 @@ outfit "Nucleolysis Beam"
 		"heat damage" -9.1
 		"fuel damage" 1.66
 		"corrosion damage" 0.015
-	description "This beam weapon creates a field inside which otherwise stable atomic nuclei rapidly decay. This effect seems to be inversely proportional to the mass of the nucleus, causing isotopes like deuterium to break down at a higher rate than heavier elements. As the resultant products have a higher energy state than the original nucleus, the beam cools its target, defying conventional thermodynamics."
-	description "In practice, this beam can deplete a ship's deuterium fuel while causing the very matter of its hull to decay."
+	description "<DS-2820>"
+	description "<DS-2821>"
 
 outfit "Telescopic Antimissile"
 	category "Turrets"
@@ -134,8 +134,8 @@ outfit "Telescopic Antimissile"
 		"lifetime" 1
 		"reload" 15
 		"firing energy" 90
-	description "Oddly enough, this antimissile system resembles an array of scanners and telescopes. Such an assortment of sensing devices was certainly not intended to be used as a weapon, but somehow enough power has been pumped through this scanner's optics to make it a potent antimissile defense."
-	description "The various lenses and mirrors that make up a large telescope seem to be used to focus the emitted beam, giving this antimissile system a very long range."
+	description "<DS-2822>"
+	description "<DS-2823>"
 
 
 # Systems:
@@ -153,7 +153,7 @@ outfit "Anomalous Shield Restorer"
 	"shield energy" 6
 	"flotsam chance" 0.05
 	"unplunderable" 1
-	description "This emitter produces no detectable fields of any kind, but a shield springs into existence whenever any danger comes near."
+	description "<DS-2824>"
 
 
 # Power:
@@ -171,7 +171,7 @@ outfit "Antimatter Power Cell"
 	"heat generation" 4.9
 	"flotsam chance" 0.05
 	"unplunderable" 1
-	description "This strange device seems to be partially organic in nature, slowly leaking antiprotons through a constantly-regrowing spongelike structure to release energy. The amount of power produced is inconsistent with the amount of matter and antimatter annihilated, generating more energy than should be possible."
+	description "<DS-2825>"
 
 
 # Special
@@ -189,4 +189,4 @@ outfit "Anomalous Mass"
 	"drag" 0.04
 	"inertia reduction" 0.01
 	"unplunderable" 1
-	description "Found with widely varying properties in different mechanisms of an Aberration, this mass of glassy, fleshy material is characterized by the very difficulty of classifying its composition. Webs of anomalous material embedded in the mass seem not to be composed of atomic matter as the Avgi know it, but by something entirely different, which resists any attempts to probe its makeup. This is thought to enable many of the Aberrants' more baffling abilities, for lack of any other explanation."
+	description "<DS-2826>"

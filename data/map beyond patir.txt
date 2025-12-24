@@ -245,5 +245,5 @@ wormhole "Beyond Patir North Exit"
 
 planet "Chanai Structure"
 	landscape "land/station60"
-	description `This alien station is as vast as it is mysterious, concealing more secrets than you could ever hope to find. Its only discernible feature is a giant barrel, but what it was built for - or what it could still do - is impossible to say.`
+	description `<DS-1007>`
 	government "Magic Asteroid"
