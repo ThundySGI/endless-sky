@@ -19,38 +19,38 @@ mission "FW Epilogue: Ijs and Katya"
 	
 	on offer
 		conversation
-			`You are on <origin>, home to the Free Worlds Conservatory where Ijs is on faculty as a professor. Would you like to visit him and see how he is doing?`
+			`<CN-3847>`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`<CN-2236>`
+				`<CN-3848>`
 					defer
-			`	While looking Ijs up in the campus directory, you notice something else: Katya is listed in the directory too, as "Visiting Professor of Civics and Economics." You give Ijs a call and ask if he and Katya would like to meet up with you for dinner, and they readily agree.`
-			`	When you join them at the restaurant, Katya says, "It's really great to see you again, <first>."`
-			`	"Not to mention," says Ijs, "it's great to have an excuse to eat somewhere other than the student center for once. How has life been treating you, <first>?"`
+			`<CN-3849>`
+			`<CN-3850>`
+			`<CN-3851>`
 			choice
-				`	"I miss the excitement of the work we did together, but other than that life is great."`
+				`<CN-3852>`
 					goto excitement
-				`	"It's kind of hard to adjust to civilian life."`
+				`<CN-3853>`
 					goto adjust
-				`	"I want to explore the rest of the galaxy, but apparently that part of the game hasn't been fully implemented yet."`
+				`<CN-3854>`
 					goto game
 			
 			label excitement
-			`	"I understand that feeling," says Katya. "But, just remind yourself, this is what we fought for. For peace. For a world where no one has to fear for their lives."`
+			`<CN-3855>`
 				goto end
 			
 			label adjust
-			`	"Tell me about it," laughs Katya. "I can hardly believe I'm now a professor. Or at least, acting as one. But after so much fighting, and so much time alone and imprisoned, for me it feels good to finally be able to relax, to let go of the idea that the galaxy will fall apart without me."`
+			`<CN-3856>`
 				goto end
 			
 			label game
-			`	"Whoops," says Ijs, "now you've done it, there goes the fourth wall."`
-			`	Katya laughs. "Well, there's already lots beyond human space to see, and I'm sure you can find more things to do out there as well as closer to home. If you're so eager to explore more of the galaxy, <first>, or to discover what new adventures it has to offer, maybe you should volunteer to help out with creating the stories to populate it. This is an open source game after all, and it relies on people like you to bring it to life."`
+			`<CN-3857>`
+			`<CN-3858>`
 				goto end
 			
 			label end
-			`	Your dinner arrives, and you spend a pleasant evening eating together and reminiscing about old times. Back in the days of the civil war, neither Katya nor Ijs were people who smiled or laughed easily. Now, however, they have an entirely different air about them, peaceful and contented. It's heartening to see that they, at least, have found a happy ending together after all the chaos you lived through.`
-			`	Suddenly you realize that around you, the restaurant workers are sweeping the floors and putting chairs up on tables: it's closing time, and you are the last ones there. "Well <first>," says Ijs, "it was good of you to stop by, and I wish you the best in your journeys among the stars. Give our regards to the others if you see them." You wish them well, and return to your ship.`
+			`<CN-3859>`
+			`<CN-3860>`
 				decline
 
 
@@ -69,31 +69,31 @@ mission "FW Epilogue: Alondo"
 	
 	on offer
 		conversation
-			`As you're coming in for a landing on Bourne, you receive a message from Alondo. "<first>!" he says. "I just heard that you were in system. Want to meet up for a drink and talk about old times?"`
+			`<CN-3861>`
 			choice
-				`	"Sure, I'd be glad to."`
-				`	"Sorry, I'm busy right now."`
+				`<CN-2152>`
+				`<CN-3862>`
 					defer
-			`	You meet up with Alondo at a local pub. He tells you that his life has continued to be quite full since the war ended and the Council was dissolved: he's been placed in charge of the Free Worlds diplomatic corps, whose main job appears to be to make sure all the individual planets feel like their concerns are being listened to. "It means lots of travel," he says, "and lots of fine meals with important people. And they're always interested to hear my stories from the war times."`
-			`	You tell Alondo a bit about what you've been doing since the war ended. "Of course," he says, "you're traveling the galaxy. I knew from the start you weren't the kind who would quickly put down roots on a single planet."`
-			`	Alondo goes on to describe some of the inner workings of the Free Worlds Senate, and the mutual defense arrangement that forms the backbone of the government. "For a while there," he says, "it felt like there was so much bureaucracy that we couldn't get anything done, but now it's finally starting to function in the way all of us imagined. Quite an honor to have had a hand in the birth of a new government."`
+			`<CN-3863>`
+			`<CN-3864>`
+			`<CN-3865>`
 			choice
-				`	"Spoken like a true bureaucrat."`
+				`<CN-3866>`
 					goto bureaucrat
-				`	"I really do hope the Free Worlds can live up to our original vision of justice and equality."`
+				`<CN-3867>`
 					goto vision
 			
 			label bureaucrat
-			`	"Fair enough," he says, "but I really do believe we've created a government here that is less prone to the inequalities that they're still struggling with in the Republic."`
+			`<CN-3868>`
 				goto end
 			
 			label vision
-			`	"Me too," he says. "We've got a good start, but then again, so did the Republic, back in the day."`
+			`<CN-3869>`
 				goto end
 			
 			label end
-			`	He is quiet for a moment, and then says, "I guess that's why I'm still here in the thick of things, instead of just settling down somewhere and leaving public life behind. I don't believe society or government just naturally becomes good or stays good without effort. So I'm here to speak up when we start to stray from our original vision."`
-			`	You sit and talk with each other for quite a while longer, reminiscing about old times. Then, you wish him well in his work, and he tells you to stop by and say hello any time you're in the area. You head back to your ship.`
+			`<CN-3870>`
+			`<CN-3871>`
 				decline
 
 
@@ -106,90 +106,90 @@ mission "FW Epilogue: Freya"
 	
 	on offer
 		conversation
-			`When you land on <origin>, you head into the city to explore a bit and to find out if the Navy and the others who have come here after them have had any luck in unlocking the secrets of this place. Already, it appears that some of the empty apartments have become actual living quarters for people, and there are even a handful of shops opening up on the main street.`
-			`	In one of those shops, you run into Freya. "<first>!" she says. "It's good to see you again. I hear that Parliament named you an official war hero or something. Much better than being a wanted fugitive, huh?"`
+			`<CN-3872>`
+			`<CN-3873>`
 			choice
-				`	"Yes, it's quite an honor."`
+				`<CN-3874>`
 					goto honor
-				`	"Yes, it's hard to know what to do with myself now that no one wants to kill me."`
+				`<CN-3875>`
 					goto kill
 			
 			label honor
-			`	"Right. Just remember, none of it would have happened without me, okay? Not that I have any desire to be a hero; that sort of public attention would be pretty much my worst nightmare."`
+			`<CN-3876>`
 				goto next
 			
 			label kill
-			`	"Well, I'm sure you can find something interesting to do," she says. "Go fight some pirates. Or become a business mogul and get filthy rich. Whatever floats your boat."`
+			`<CN-3877>`
 				goto next
 			
 			label next
-			`	"What have you found out about the Pug?" you ask.`
-			`	"Not much," she says. "The wormhole doesn't seem to lead to their real home; it's just another red herring. The real breakthrough, of course, would be if we could find some hints in the stuff they left behind about how to build more jump drives of our own. But so far, we can't even figure out how to create new hyperspace links where there wasn't one originally. I'm starting to think that those graviton transmitters we used were just one more game - a toy, not the real thing. Not what created the links in the first place, I mean, unless they were created by someone with the patience to wait a million years for them to work."`
+			`<CN-3878>`
+			`<CN-3879>`
 			choice
-				`	"Have you found any other interesting technology?"`
+				`<CN-3880>`
 					goto technology
-				`	"Any more hints about who the Pug were and what they wanted?"`
+				`<CN-3881>`
 					goto pug
 			
 			label technology
-			`	"Some," she says. "Everything they left behind is like, well... an educational toy. Like some absent parent left behind a super-advanced chemistry set for their kids to play with. That's how all the artifacts we find here feel - not like the real thing that the Pug would have used, but like a simplified model that they gave us to help us figure it out. Everything they left behind, I'm convinced they left intentionally, because it could teach us something they wanted us to know, while keeping all their true secrets secret. The rest of you moved on, and I'm still here playing their game."`
+			`<CN-3882>`
 				goto end
 			
 			label pug
-			`	"Not much," she says. "This world - it feels like when you're visiting a friend's house, and they spent the whole day cleaning up for you. It's not like a person's home is when you drop by unannounced. Nothing's out of place. Everything that's lying out somewhere, is something they wanted you to see. There's some weird technology they left behind, but all of it is like toys, puzzles... I don't know, like an educational game they designed for us to play. The rest of you moved on, and I'm still here playing their game."`
+			`<CN-3883>`
 				goto end
 			
 			label end
 			choice
-				`	"You sound frustrated."`
-				`	"You know, the war is over, you can relax if you want to."`
-			`	"I know, I know," she says. "I complain, but really there's nowhere else I would rather be. Even if everything we're discovering here is nothing more than what they intended for us to discover, it's still the most interesting work I could possibly be doing right now. So, don't feel sorry for me. Really."`
+				`<CN-3884>`
+				`<CN-3885>`
+			`<CN-3886>`
 			branch surname
 				has "last name: Winters"
-			`	You talk for a while longer, and she tells you she'll be sure to be in touch if they ever get to the root of the Pug's motivation. "Until then," she says, "good luck in your travels. I hope the galaxy never runs out of ways to surprise you."`
+			`<CN-3887>`
 				decline
 
 			label surname
-			`	"By the way, can I ask you something, <first>? About you? Sorry if this is rather abrupt. I've been too busy to talk during the war."`
+			`<CN-3888>`
 			choice
-				`	"Sure. What is it?"`
+				`<CN-3889>`
 					goto permitted
-				`	"Sorry, I'd prefer if you didn't."`
+				`<CN-3890>`
 					goto conclusion
 			
 			label permitted
-			`	"Do you happen to know anyone named Lavinia? Married to someone named Marcus?"`
-			`	Both names sound oddly familiar, but you can't remember where you heard them.`
+			`<CN-3891>`
+			`<CN-3892>`
 			choice
-				`	"I think so, but I need a minute to remember exactly who."`
+				`<CN-3893>`
 					goto heritage
-				`	"No, I don't."`
+				`<CN-3894>`
 				
 			label denial
-			`	"Oh, okay. I think I've been mistaken, then. Never mind."`
+			`<CN-3895>`
 				goto conclusion
 			label heritage
-			`	You try to recall exactly where you've heard those names before, racking your brain for any information on these vaguely familiar names, then all of a sudden, it hits you. Marcus and Lavinia were two of your great-grandparents. You wonder why someone you've never met until around the time you joined the Free Worlds is suddenly asking about your ancestors. Maybe she was thinking of a different Marcus and Lavinia.`
-			`	"Yeah, I do know a Marcus and Lavinia, but they're my great-grandparents. Are you sure you're asking the right person?" you ask.`
-			`	"Oh my God," Freya says. "I can't believe it."`
-			`	"What?"`
-			`	"I think we're related. Second cousins. Marcus and Lavinia Winters are also my great-grandparents."`
+			`<CN-3896>`
+			`<CN-3897>`
+			`<CN-3898>`
+			`<CN-423>`
+			`<CN-3899>`
 			choice
-				`	"Really?"`
+				`<CN-3900>`
 					goto disbelief
-				`	"Well, then, hello, cousin. Nice to meet you."`
+				`<CN-3901>`
 					goto joke
 			label disbelief
-			`	"Yeah, I can hardly believe it myself. I think it's nice, though. A pleasant surprise." You agree.`
+			`<CN-3902>`
 				goto conclusion
 
 			label joke
-			`	"Heh. Nice to meet you, too. Looks like we brought some prestige to the Winters family name, haven't we, cousin?"`
-			`	You both laugh at her reply.`
-			`	"Never thought I'd go about saving the galaxy with a second cousin I'd never met," she continues, "but in a war where some previously-unknown hyperlane-manipulating aliens intervene to try and make both sides unite, I guess anything's possible."`
+			`<CN-3903>`
+			`<CN-3904>`
+			`<CN-3905>`
 
 			label conclusion
-			`	You talk for a while longer, and she tells you she'll be sure to be in touch if they ever get to the root of the Pug's motivation. "Until then," she says, "good luck in your travels. I hope the galaxy never runs out of ways to surprise you."`
+			`<CN-3887>`
 				decline
 
 
@@ -203,57 +203,57 @@ mission "FW Epilogue: Danforth"
 	
 	on offer
 		conversation
-			`Would you like to stop by and see how Admiral Danforth is doing?`
+			`<CN-3906>`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`<CN-2236>`
+				`<CN-3848>`
 					defer
 			
 			branch checkmate1
 				has "free worlds checkmate"
-			`	Danforth is quite excited to see you. "Captain <last>!" he says. "So good to see you back up here in my neck of the woods again. It's funny, you'd think that with the war over they'd just dissolve the Oathkeepers, since the whole Republic is at peace with the Free Worlds and there's no longer any oath left for us to keep. But, the Oathkeepers became so well known for our role against the Pug and the Syndicate that now everyone wants to join our division."`
+			`<CN-3907>`
 				goto choice
 			
 			label checkmate1
-			`	Danforth is quite excited to see you. "Captain <last>!" he says. "So good to see you back up here in my neck of the woods again. It's funny, you'd think that with the war over they'd just dissolve the Oathkeepers, since the whole Republic is at peace with the Free Worlds and there's no longer any oath left for us to keep. But, the Oathkeepers became so well known for our role against the Pug that now everyone wants to join our division."`
+			`<CN-3908>`
 			
 			label choice
 			choice
-				`	"Glad to see you're still in the thick of things, sir!"`
+				`<CN-3909>`
 					goto thick
-				`	"What sort of work is the Navy doing now that we're at peace?"`
+				`<CN-3910>`
 					goto work
 			
 			label thick
-			`	"Oh, you bet I am," he says. "I'll never retire from the Navy, you know. I plan to still be serving on the day I die."`
+			`<CN-3911>`
 				goto next
 			
 			label work
-			`	"Just the sort of work we all signed up for in the first place," he says. "Defending the defenseless, keeping the peace, helping silly novice pilots who run out of fuel."`
+			`<CN-3912>`
 				goto next
 			
 			label next
-			`	"Are the pirates giving you any trouble?" you ask.`
-			`	"A bit," he says. "We still have far too many pirates in this sector, in part due to the Free Worlds mostly driving them out of the South. The pirates grew stronger and more bold as the war dragged on, when all our fleets were busy elsewhere, but now we're beginning to get them under control again."`
+			`<CN-3913>`
+			`<CN-3914>`
 			
 			branch checkmate2
 				has "free worlds checkmate"
-			`	Then he leans forward and says, more quietly, "Of course, you and I both know the pirates aren't the main threat. Raven is off infiltrating Syndicate worlds even as we speak, and several of my other best intelligence officers, too. The Syndicate wants us to believe that they've weeded out all the rotten apples from their ranks, but we're keeping an eye on them, all the same."`
+			`<CN-3915>`
 				goto end
 			
 			label checkmate2
-			`	Then he leans forward and says, more quietly, "Just a heads-up that the Navy has their eye on the Free Worlds still. Just because a peace treaty was made doesn't mean you can keep your nukes forever."`
+			`<CN-3916>`
 			
 			label end
-			`	After you talk for a while longer, Danforth wishes you luck and sends you on your way. "I'll be in touch if we ever need your assistance in the future," he says.`
+			`<CN-3917>`
 				decline
 
 
 
 mission "FW Epilogue: Edward"
 	landing
-	name `Weapon Testing`
-	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
+	name `<NM-193>`
+	description `<DS-353>`
 	source "Rust"
 	to offer
 		has "free worlds plot completed"
@@ -266,7 +266,7 @@ mission "FW Epilogue: Edward"
 	on decline
 		event "plasma repeater advanced" 95
 	on complete
-		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the Plasma Cannon. Increased fire rate, even at lower damage per hit, comes out with better overall results.`
+		log `<LG-173>`
 		event "plasma repeater advanced" 45
 		conversation "edward epilogue"
 
@@ -275,70 +275,70 @@ mission "FW Epilogue: Edward"
 conversation "edward epilogue"
 	branch completed
 		has "FW Epilogue: Edward: done"
-	`As you complete your landing procedure, you recall having come here to assist in some testing for new weapons, back in the thick of the war. Do you want to check in on Barmy Edward, the lead engineer?`
+	`<CN-3918>`
 	choice
-		`	(Yes.)`
-		`	(No.)`
+		`<CN-2236>`
+		`<CN-3919>`
 			defer
 	scene "scene/loc0"
-	`	You give your name to the receptionist, and she directs you to a hangar where you find Barmy Edward, who is working on a weapon that looks like a modified Plasma Cannon. When he notices you, he gets up from his work and shakes your hand warmly. "Ah, <last>. It's been too long! How fortunate for me! I'm actually just putting the finishing touches on a new prototype. You wouldn't be too busy to assist me in some practical testing, would you?"`
+	`<CN-3920>`
 	choice
-		`	"I'm not sure about this. What would you have me do?"`
-		`	"Being a target for experimental weapons? Just tell me what you need!"`
-	`	"Not much out of the ordinary from our tests in the past," he replies. "You'll find a ship of ours in orbit that goes by <npc>. It's been fitted with a few of these new weapons. Your job will be to fight and disable it, tell us what you think of its combat capabilities, and transfer your ship's logs so we can analyze the fight."`
+		`<CN-3921>`
+		`<CN-3922>`
+	`<CN-3923>`
 	choice
-		`	"Alright, I suppose for old times' sake I can help out."`
-		`	"Sorry, I just wanted to check in and see how you were doing."`
+		`<CN-3924>`
+		`<CN-3925>`
 			goto catchup
-	`	He turns to you and smirks. "We've recommissioned the ship from retirement, so it's not top of the line, but try to keep it in one piece for future use. Understand?"`
+	`<CN-3926>`
 	choice
-		`	"Of course! I'll take care of it."`
-	`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
+		`<CN-3927>`
+	`<CN-3928>`
 		accept
 	label catchup
-	`	"I see. Well, I'm sure we can find someone else up to the task. Regardless, Captain <last>, I assure you this new weapon vastly improves on the outdated Plasma Cannon. This'll put Kraz Cybernetics in the big leagues!"`
-	`	"How about we get out of here, <first>? My work is done for today, and I know a homely little bar that's only a short walk."`
+	`<CN-3929>`
+	`<CN-3930>`
 	choice
-		`	"Of course. It's not like there's a war to worry about anymore."`
-	`	"Ha! Well, of course, the war kept all of us plenty busy." He leads you out of the facility while telling an anecdote that must be humor for an engineer.`
+		`<CN-3931>`
+	`<CN-3932>`
 		goto combined
 	
 	label completed
 	scene "scene/plasma scene"
-	`You head to the hangar to meet up with Barmy Edward, and find him tinkering with the modified Plasma Cannon you saw when you first entered. "It runs much hotter, you see," he explains. "But the results are impressive."`
+	`<CN-3933>`
 	choice
-		`	"Was that a plasma cannon? Or something else?"`
+		`<CN-3934>`
 			goto what
-		`	"It's not winning any damage records, that's for sure."`
+		`<CN-3935>`
 			goto damage
 	label what
-	`	"Heh, it's been a while since we've seen a good upgrade to the cannon," he says. "That was the Plasma Repeater. Of course, it wasn't easy to make a better iteration of something that countless fools have failed to improve on."`
-	`	"When will it be available for sale?" you ask.`
+	`<CN-3936>`
+	`<CN-3937>`
 		goto available
 	label damage
-	`	"Well, you are one of the revered captains that drove off the Pug," he says. "The idea is that by shrinking the bolts of superheated plasma, we can offload many more bursts onto a target. The effects on said target result in faster buildup of heat and, of course, damage. Big ships will usually ward off these effects much longer than a smaller ship would, but that's always been a notable issue with the original design. Besides, the repeater is a hell of a lot more impressive."`
-	`	"That's a unique direction," you reply. "Are they available for sale yet?"`
+	`<CN-3938>`
+	`<CN-3939>`
 	label available
-	`	"Thanks to you, it should be in stock in a few months," he answers. "I'm sure you're past the point where our weapons are useful, but then again, not everybody has a jump drive." He grins. "How about we celebrate with some drinks? I know a quaint little bar not far from here."`
+	`<CN-3940>`
 	choice
-		`	"I have time; let's celebrate!"`
-		`	"I'll pass on that, but it was good checking in on you."`
+		`<CN-3941>`
+		`<CN-3942>`
 			decline
 	
 	label combined
-	`	You follow Barmy into the bar. Even with the smear of grease still on his face, he fits in with the crowd. You both stand at the bar and order your drinks. Barmy's order catches you off guard, and he notices your expression. "What? A man who works with his hands can't enjoy a drink with some age?" You chuckle, and you both tell stories of your early lives. He tells how he had some exciting adventures in his youth among the stars, but found his passion tinkering and finding ways to improve on outdated equipment.`
+	`<CN-3943>`
 	branch end
 		not "human space start"
-	`	He's shocked to discover your origins on New Boston. "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there. I was lucky to get out myself!"`
+	`<CN-3944>`
 	choice
-		`	"Wait, you're from New Boston too?"`
-		`	"It wasn't perfect there, but at least it wasn't quite so noisy down on the ground."`
+		`<CN-3945>`
+		`<CN-3946>`
 			goto end
-		`	"Nothing like it is now. I've got the whole universe ahead of me!"`
+		`<CN-3947>`
 			goto end
-	`	"You wouldn't think to have met someone from your very own birth planet, eh?" He chuckles. "Small galaxy, I suppose."`
+	`<CN-3948>`
 	label end
-	`	You both have a great time hearing of each other's early lives, but you eventually wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and head back to your ship.`
+	`<CN-3949>`
 		decline
 
 event "plasma repeater advanced"

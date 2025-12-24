@@ -25,13 +25,13 @@ mission "remembrance day"
 	to offer
 		has "event: remembrance day"
 	on offer
-		log "Factions" "Alphas" `The Alphas were designed hundreds of years ago as genetically engineered super-soldiers, with no compassion or empathy. They escaped from their masters, enslaved entire planets, and commanded massive fleets of ships. Eventually they were defeated, and were either killed or went into hiding. They can be recognized by their green, photosynthetic skin.`
-			`Alphas can live for centuries, and it is likely that many of them have survived, hiding out on anarchist worlds or somewhere beyond human space. Fortunately, they reproduce much more slowly than ordinary humans do.`
+		log "Factions" "Alphas" `<LG-0>`
+			`<LG-1>`
 		conversation
-			`Today, throughout human space, is Remembrance Day, the anniversary of the beginning of the Alpha Wars more than five centuries ago. The Alphas were genetically engineered soldiers, with superhuman agility and intelligence, and a complete lack of compassion or empathy. At the height of the War, dozens of planets had been enslaved by the Alphas.`
-			`	Remembrance Day commemorates the beginning of the war, rather than its end, as a perpetual reminder that the war is not over: although the Alphas were defeated, some of them escaped and remained in hiding, and they and their offspring are presumed to still be present in the galaxy today.`
-			`	Since the Alpha War, genetic resequencing technology has been very tightly controlled. Because the Alphas were the product of experimental genetic manipulation rather than natural evolution, it is believed that their genes are less robust than true human beings, and they are almost unable to have viable offspring without access to special technology. Therefore, most Alpha enclaves that have been discovered since the War have had very small populations, no more than a few dozen.`
-			`	In these days when the Navy ensures peace throughout much of the galaxy, on many worlds the Alphas are treated as nothing more than a bogeyman story to frighten children. Because the most striking physical feature of the Alphas was their photosynthetic skin, on some worlds kids even run around wearing green face paint on Remembrance Day, trying to frighten people. But on other worlds, especially on the fringes of space where the Navy seldom patrols, the Alphas are still spoken of with fear.`
+			`<CN-123>`
+			`<CN-124>`
+			`<CN-125>`
+			`<CN-126>`
 				decline
 
 
@@ -129,22 +129,22 @@ event "war begins"
 		fleet "Large Republic" 1300
 		fleet "Republic Logistics" 3000
 	planet "Geminus"
-		description `Until recently, Geminus was home to the Republic Navy Yard, the largest shipyard in human space. Now, there is nothing left of the shipyard but a gaping crater in the ground, from the recent terrorist bombing.`
-		spaceport `Fortunately, the spaceport and residential areas survived the bombing, which was focused only on the Navy Yard and happened early in the morning, when very few people were at work.`
-		spaceport `The Navy officers who are in charge here have no time for anyone who is not enlisted in the Navy and participating in the ongoing investigation.`
+		description `<DS-5>`
+		spaceport `<SP-0>`
+		spaceport `<SP-1>`
 		shipyard clear
 		outfitter clear
 		"required reputation" 100
 	planet "Martini"
-		description `Martini is a world of exotic beaches and perfect weather. The Republic's central bank and the Galactic Stock Exchange were previously headquartered here, before a terrorist attack destroyed them and a large portion of the capital city as well.`
-		description `	Currently, a massive rescue and evacuation operation is underway in and around the capital to find and treat survivors and contain the radiation. As to be expected, the planet's supplies are running dangerously low, and what remains of Martini's government has called for civilian ships to help deliver goods and provisions for the operation.`
-		spaceport `Instead of the immaculate spaceport that Martini once sported, this temporary spaceport consists of randomly-scattered makeshift landing areas, in order to support the large number of Navy and civilian ships assisting with the rescue and evacuation operation.`
+		description `<DS-6>`
+		description `<DS-7>`
+		spaceport `<SP-2>`
 		"required reputation" 100
 		security .9
 	planet "Bourne"
-		description `Bourne is a well-developed industrial world that was first settled four centuries ago. Its cities are home to some of the richest individuals in this section of the galaxy, but also home to tens of thousands of homeless people, and many others whose factory jobs are barely providing enough to make ends meet.`
-		description `	Outside the cities, the climate is somewhat dry, but the deep valleys and some coastal regions are suitable for farming. Very little of the planet remains that is untouched by human hands.`
-		description `	Bourne is also the seat of government for the newly-formed Free Worlds.`
+		description `<DS-8>`
+		description `<DS-9>`
+		description `<DS-10>`
 
 mission "event: war begins"
 	landing
@@ -155,7 +155,7 @@ mission "event: war begins"
 	to offer
 		has "event: war begins"
 	on offer
-		log "Factions" "Free Worlds" `The Free Worlds are a collection of local governments in the southern galactic arm who have declared independence from the Republic after Parliament refused to address issues they raised about trade tariffs, taxation, and representation. They may be linked to the recent terrorist attacks on the Navy Yard and the galactic stock exchange, although they deny responsibility.`
+		log "Factions" "Free Worlds" `<LG-2>`
 		conversation
 			branch geminus
 				has "flagship planet: Geminus"
@@ -163,82 +163,82 @@ mission "event: war begins"
 			branch martini
 				has "flagship planet: Martini"
 
-			`The moment you step off your ship you realize something is very wrong. The spaceport is eerily quiet, and a large crowd of people is gathered around a video screen in the local bar.`
-			`	You ask what is happening, and someone explains. Recently, a collection of planetary governments in the southern galactic arm have sent the Republic what amounted to an ultimatum: a refusal to pay taxes until reforms are made in the election of planetary representatives. This group, calling itself the "Free Worlds," has also asked for immediate reevaluation of all existing trade tariffs and regulations concerning pilot registration. Parliament outright refused to consider any of these demands.`
-			`	Then, in the early morning, nuclear explosions on Geminus and Martini destroyed the Republic Navy Yard and the Galactic Stock Exchange, crippling the military and economic center of the Republic. The "Free Worlds" disclaim any responsibility for the attacks, despite the timing and the fact that the attacks serve their purposes very well.`
-			`	Unless the terrorists can be found or turn themselves in, civil war is imminent. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`<CN-127>`
+			`<CN-128>`
+			`<CN-129>`
+			`<CN-130>`
 				decline
 			
 			label geminus
 			action
 				set "bombing witness"
-			`	The moment you step off your ship you realize something is very wrong. Heavily armed Navy personnel flank either side of the spaceport building's exit, and more soldiers are patrolling the port. A liaison officer is herding a group of civilians toward a low bunker beside a nearby landing pad. On the landing pad itself, soldiers are struggling to set up a heavy plasma cannon mounted on an anti-aircraft turret.`
-			`	With the civilians safely in the bunker, the liaison officer turns to face you. "I'm sorry, Captain, but I'm going to have to ask you to leave the planet. We've got a Carrier squadron coming in, and we need all the pads free."`
+			`<CN-131>`
+			`<CN-132>`
 			choice
-				`	"Of course."`
+				`<CN-133>`
 					goto summary
-				`	"What's happening?"`
-				`	"Is this some sort of training exercise?"`
-				`	"What makes you think you can just order me to leave?"`
+				`<CN-134>`
+				`<CN-135>`
+				`<CN-136>`
 					goto noncompliance
 
-			`	The liaison officer sighs. "Captain, I'm afraid the planet is in a state of emergency. Yesterday, some rogue planets down south decided they wanted to secede from the Republic. Sent Parliament an ultimatum, wanted electoral and tax reform, free trade, all the same things they've been complaining about for years. No big deal. Three hours ago, though, the Navy Yard here on Geminus was bombed along with the Galactic Stock Exchange on Martini. We don't know if it's the work of the 'Free Worlds' rebels or not, and I can't promise you there aren't going to be more attacks. All I know is that whoever did this used nuclear weapons, so we've got three thousand injured people we need to get to off-planet medical care immediately."`
+			`<CN-137>`
 			choice
-				`	"I'll get out of the way, then."`
+				`<CN-138>`
 					goto end
-				`	"Sorry, I didn't know. I'll be out of your hair as soon as I can lift off."`
+				`<CN-139>`
 					goto end
-				`	"Is there any way I can help?"`
+				`<CN-140>`
 					goto help
 
 			label martini
 			action
 				set "bombing witness"
 
-			`	As you descend towards the surface of Martini, you are met by an uncharacteristic layer of thick cloud, almost smoky in appearance. The clouds completely obscure Martini's main spaceport, as well as the rest of the capital city. Perhaps because of this, the landing controller instructs you to make your way to an auxiliary spaceport about ten kilometers from the city limits.`
-			`	The moment you step off your ship you realize something is very wrong. Heavily armed Navy personnel flank either side of the spaceport building's exit, and more soldiers are patrolling the port. The main road to the city echoes with sirens, and a liaison officer is herding a group of civilians toward a military transport parked precariously in a nearby field. Still more people are stretched out on cots in a makeshift field hospital in the center of the spaceport.`
-			`	As soon as the last mobile civilian is safely aboard the transport, the liaison officer turns to face you. "I'm sorry, Captain, but I'm going to have to ask you to leave the planet. We've got another transport fleet coming in, and we need all the pads free."`
+			`<CN-141>`
+			`<CN-142>`
+			`<CN-143>`
 			choice
-				`	"Of course."`
+				`<CN-133>`
 					goto summary
-				`	"What's happening?"`
-				`	"What makes you think you can just order me to leave?"`
+				`<CN-134>`
+				`<CN-136>`
 					goto noncompliance
 
-			`	The liaison officer sighs. "Captain, I'm afraid the planet is in a state of emergency. Yesterday, some rogue planets down south decided they wanted to secede from the Republic. Sent Parliament an ultimatum, wanted electoral and tax reform, free trade, all the same things they've been complaining about for years. No big deal. Three hours ago, though, someone - quite possibly this same 'Free Worlds' group - dropped a nuclear bomb on the Galactic Stock Exchange right here on Martini. At least, we presume that the Stock Exchange was their target, since the bomb took about a quarter of the city with it, as well as the main spaceport and half of the planet's medical resources. We've got more than a million injured people here and another five million we need to evacuate. To top it off, the terrorists also bombed the Navy Yard on Geminus, which means we don't have enough personnel available to both run the evacuation and deal with other civilians."`
+			`<CN-144>`
 			choice
-				`	"I'll get out of the way, then."`
+				`<CN-138>`
 					goto end
-				`	"Sorry, I didn't know. I'll be out of your hair as soon as I can lift off."`
+				`<CN-139>`
 					goto end
-				`	"Is there any way I can help?"`
+				`<CN-140>`
 					goto help
 
 			label noncompliance
-			`	"Look, Captain. The government here on <planet> has declared a state of emergency, and that means that the spaceport is under martial law. I'm not sure how you managed to get landing clearance, but you shouldn't be here. We've got thousands of injured people to get off-planet, even if we ignore the potential for a major follow-up attack. If you refuse to comply, I will have you arrested by the military police, and your ship will be impounded. If your crew refuses to accept the change in captainship, they will be replaced by troops from the Naval Reserve Command. Think what you will, but we've got human lives to save here and we aren't going to stop just because some hotshot captain is feeling full of themself. Is that clear?"`
+			`<CN-145>`
 			choice
-				`	"Yes, that's clear."`
+				`<CN-146>`
 					goto summary
-				`	"Sorry, I didn't know. You won't have any trouble from me."`
+				`<CN-147>`
 					goto summary
-				`	"Yeah, right. No way are you going to seize my ship."`
+				`<CN-148>`
 			
-			`	The liaison officer glowers at you, then turns and signals to another soldier. Military police officers in full combat gear materialize behind you, grabbing you by the arms and handcuffing you tightly. As you're frogmarched toward a waiting bunker, you watch as the <ship> lifts off without you, leaving you stranded here. In the bunker, one of the soldiers who arrested you frisks you, seizing your pilot's license and handing it to a sergeant who stamps the words "Permanently Revoked" across it. With those two words, you are barred from space forever. It has been less than a year since you bought your ship, and already you have lost the right to use it as the galaxy falls apart on you.`
+			`<CN-149>`
 				die
 
 			label summary
-			`	"Glad to hear it," they reply, turning to calm a group of hysterical Paradisians.`
-			`	Re-entering the <ship>, you take off and head for orbit, narrowly missing the Carrier squadron mentioned by the liaison officer. Only then do you see that you've left the video screen in your ship on, playing footage almost identical to what you saw on the ground not long ago. According to the newscaster, this debacle was all started yesterday, when a group of planets in the south of the galaxy sent the Republic Parliament an ultimatum: a refusal to pay taxes until reforms are made in the election of planetary representatives. This group, calling itself the "Free Worlds," has also asked for immediate reevaluation of all existing trade tariffs and regulations concerning pilot registration. Parliament outright refused to consider any of these demands.`
-			`	Then, only hours before you landed, nuclear explosions on Geminus and Martini destroyed the Republic Navy Yard and the Galactic Stock Exchange, crippling the military and economic center of the Republic. The "Free Worlds" disclaim any responsibility for the attacks, despite the timing and the fact that the attacks serve their purposes very well.`
-			`	Unless the terrorists can be found or turn themselves in, civil war is imminent. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`<CN-150>`
+			`<CN-151>`
+			`<CN-152>`
+			`<CN-130>`
 				flee
 
 			label end
-			`	The liaison officer responds with a curt thank-you and turns around to calm a hysterical Paradisian. You re-enter the <ship>, and prepare to take off. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`<CN-153>`
 				flee
 			
 			label help
-			`	"Yes. You can take off like I asked you to." The officer pauses. "Sorry, Captain, I'm sure you have the best of intentions, but that's the truth. The Navy has personnel trained for responding to nuclear disasters, and all you'd be doing here is taking up extra space." The officer turns around, interrupted by the shrieks of a panicked Paradisian. You re-enter the <ship>, and prepare to take off.`
+			`<CN-154>`
 				flee
 
 event "initial deployment 1"
@@ -278,9 +278,9 @@ event "initial deployment 1"
 		fleet "Navy Surveillance" 2000
 		fleet "Republic Logistics" 4000
 	planet "Ingot"
-		description `Ingot is a volcanic moon, totally unsuitable for life but rich in metal. The miners who work here must spend all their time inside pressurized buildings.`
-		description `Because Ingot has almost no atmosphere to slow them down, meteorites are a constant danger to the colonists. The shells of the buildings have multiple layers, designed to be self-sealing in any but the largest of impacts. Most of the mining is done remotely by robotic vehicles, but someone still needs to be present to control them and to make repairs when something goes wrong.`
-		description `Ingot is also now home to a burgeoning Navy base, although since the planet is so unlivable most of the troops are just living in ships in orbit.`
+		description `<DS-11>`
+		description `<DS-12>`
+		description `<DS-13>`
 	system "Fala"
 		fleet "Small Northern Merchants" 1900
 		fleet "Large Northern Merchants" 3500
@@ -307,9 +307,9 @@ event "initial deployment 1"
 		fleet "Navy Surveillance" 2000
 		fleet "Republic Logistics" 4000
 	planet "New Wales"
-		description `New Wales is home to a few mining outposts which extract and refine rare earth minerals and heavy metals. It is dangerous work: the mines are deep underground and prone to noxious gases and cave-ins, and the refineries work with molten radioactive materials and caustic chemicals.`
-		description `Due to the somewhat dim light of the star Algorel, and the cloudiness of the atmosphere, this is not a good world for farming, and the population remains quite small.`
-		description `The Republic Navy has planted a base on New Wales. So far, it's just a densely packed cluster of prefabricated barracks and infirmary buildings on the outskirts of one of the mining colonies.`
+		description `<DS-14>`
+		description `<DS-15>`
+		description `<DS-16>`
 	system "Porrima"
 		fleet "Small Southern Merchants" 1400
 		fleet "Large Southern Merchants" 4000
@@ -350,10 +350,10 @@ event "initial deployment 1"
 		fleet "Republic Logistics" 10000
 		fleet "Human Miners" 2000
 	planet "New Austria"
-		description `New Austria is a rugged mountain world, full of snow-capped peaks and valleys so deep and so steep that they rarely see sunlight.`
-		description `	The few settlements that have been built here were developed for mining sapphires and rubies. The sapphires range from blue to yellow to black to clear in color and are used for industrial abrasives and jewelry.`
-		description `	For centuries the locals have tried to find a deposit of diamonds, and local folklore revolves around the prosperity that would come to this world if diamonds were ever discovered.`
-		description `	The Navy has recently requisitioned one of the abandoned mining towns and begun refurbishing it for a secure military base, with the mining tunnels used as deep underground bunkers.`
+		description `<DS-17>`
+		description `<DS-18>`
+		description `<DS-19>`
+		description `<DS-20>`
 
 event "initial deployment 2"
 	date 14 8 3014
@@ -658,32 +658,32 @@ mission "Central Outfitters Expansion"
 		not "event: start of hostilities"
 	on offer
 		conversation
-			`When you walk into <origin>'s outfitter, you notice it has a raft of new outfits for sale; cooling equipment, afterburners, even new generators. Strangely, almost all the new stock appears to be from Kraz Cybernetics and Delta V - companies you'd usually see selling along the Southern Rim, not far up here so close to the center of the Republic. It is especially strange as those companies have been vocal supporters of the Free Worlds secessionists.`
+			`<CN-155>`
 			choice
-				`	(Ask the proprietor about the new outfits.)`
-				`	(Move on.)`
+				`<CN-156>`
+				`<CN-157>`
 					decline
 
-			`	The proprietor's busy at his desk inside the outfitter's small office, but as you approach he gets up and acknowledges you. "Hi, how can I help you today?"`
+			`<CN-158>`
 			choice
-				`	"How come you're selling Kraz and Delta V outfits up here?"`
-				`	"It looks like you've got new stock."`
+				`<CN-159>`
+				`<CN-160>`
 					goto "new stock"
-				`	(Move on.)`
+				`<CN-157>`
 					decline
 
-			`	"You're not the first to ask!" the proprietor responds overly brightly. "With piracy on the rise, the increased tensions, and - what everybody's assuming but not saying - impending conflict with the nuke-happy secessionists down in the Southern Rim, we've had a lot of requests to stock some more... specialized equipment."`
-			`	He walks you over to a crate of Javelins. "A load of this stuff comes from the Syndicate, you know. Apparently they already had a load of these missiles in production, but now that Kraz and Delta V are no longer companies operating in the Republic, they've snapped up all the rights to manufacture their products!" He chuckles. "It's great for captains who rely on Delta V equipment but can't go down to the Southern Rim to restock their gear."`
+			`<CN-161>`
+			`<CN-162>`
 				goto end
 
 			label "new stock"
-			`	"Yes, yes we do!" He walks up to you. "Nitrogen coolers, Heavy Rockets, radar jammers to ward off those pesky Lovelace Sidewinders, high-power afterburners, you name it. We've had a lot of requests to stock equipment from the Southern Rim, now with all the tension down there making it hard to do business."`
-			`	The proprietor leans in towards you a little and says in a softer tone, "But you know, it's wrong to get supplies from the people who did those bombings and killed tens of thousands of people. It's simply wrong. Morally and commercially.`
-			`	"Courtesy of Syndicated Systems, however, you can get southern gear here without supporting those secessionists! They saw an opportunity to get the rights for Delta V and Kraz equipment, and they took it. And you get to benefit," he chuckles.`
+			`<CN-163>`
+			`<CN-164>`
+			`<CN-165>`
 
 			label end
-			`	He produces a brochure from his vest jacket and hands it to you. "Now, if you're interested in any of our new stock, just flag down one of our workers and we'll have it prepared and installed on your ship promptly.`
-			`	"I wish you safe travels," he says, and returns to his office.`
+			`<CN-166>`
+			`<CN-167>`
 				decline
 
 
@@ -968,16 +968,16 @@ event "initial deployment 4"
 
 event "fw zug expansion underway"
 	planet Zug
-		spaceport `The spaceport of Zug has been growing by amalgamation for centuries. At its core is the "Old Port," a set of quaint and rudimentary shops and warehouses. The landing pads for the Old Port were torn up to make room for what the locals call "The Port," a set of buildings that were constructed a century ago, with bolder architecture and more modern design.`
-		spaceport `	Some distance away is the "New Port," a towering structure with robotic cargo lifts and large hangars for more expensive ships. Meanwhile, an expansion to the New Port is currently ongoing. You can't help but wonder what the new expansion will be named.`
+		spaceport `<SP-3>`
+		spaceport `<SP-4>`
 
 
 
 event "fw zug expansion complete"
 	planet Zug
 		add shipyard "Tarazed Advanced"
-		spaceport `The spaceport of Zug has been growing by amalgamation for centuries. At its core is the "Old Port," a set of quaint and rudimentary shops and warehouses. The landing pads for the Old Port were torn up to make room for what the locals call "The Port," a set of buildings that were constructed a century ago, with bolder architecture and more modern design.`
-		spaceport `	Some distance away is the "New Port," a towering structure with robotic cargo lifts and large hangars for more expensive ships. It was recently expanded to handle the increased activity demanded by the Free Worlds, making Zug the chief ship foundry of the galactic south. It's not surprising to learn that the addition to the New Port has quickly been dubbed "The Expansion."`
+		spaceport `<SP-3>`
+		spaceport `<SP-5>`
 
 
 
@@ -995,11 +995,11 @@ event "capture of Kornephoros"
 		fleet "Small Free Worlds" 400
 		fleet "Large Free Worlds" 600
 	planet "Clink"
-		description `The mining outpost is swarming with Navy guards; they seem to have turned this moon into a temporary base of operations. The mine has been shut down, and no one is being allowed in or out of the mining outpost. It is not clear whether the miners are prisoners, or merely under a very tight watch.`
+		description `<DS-21>`
 		security 1
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	There are hundreds of Navy officers patrolling this small spaceport, looking for any signs of local resistance.`
+		spaceport `<SP-6>`
+		spaceport `<SP-7>`
 		security 1
 	system "Altair"
 		remove fleet "Republic Logistics"
@@ -1058,11 +1058,11 @@ event "recapture of Kornephoros"
 		fleet "Large Free Worlds" 1700
 		fleet "Human Miners" 3000
 	planet "Clink"
-		description `About a decade ago, a mining corporation from Zug planted a colony on Clink for harvesting some rare earth minerals that are present in this moon's crust due to its unusually high rate of asteroid impacts. The atmosphere here is too thin to breathe without a respirator, and because of the low gravity, the dust raised by the mining operations hangs perpetually in the air.`
-		description `The miners who work here are a tight-knit group, since most of them were part of the original colonization team. They are not particularly open to outsiders, and the facilities here are so rudimentary that they do not even stock fuel for visiting ships.`
+		description `<DS-22>`
+		description `<DS-23>`
 		security .5
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
+		spaceport `<SP-6>`
 		security .5
 
 	fleet "Small Republic"
@@ -1149,8 +1149,8 @@ event "oathkeepers founded"
 		fleet "Small Northern Merchants" 6000
 		fleet "Derelict Pirate" 10000
 	planet "Farpoint"
-		description `Farpoint, on the northernmost end of human space, is a rocky desert planet home to a Republic Navy base and not much else. Farming is possible only within greenhouses, and this system is too far from the galactic center to be desirable for trade or industry.`
-		description `	Lately, the Navy base on Farpoint has been growing. It has become the new home of the Navy Oathkeepers, a small branch of the Navy that has sworn to stay uninvolved in the conflict with the Free Worlds.`
+		description `<DS-24>`
+		description `<DS-25>`
 
 
 
@@ -1236,8 +1236,8 @@ event "fw conservatory founded"
 		fleet "Human Miners" 1600
 	planet "Winter"
 		add attributes "education"
-		description `The dense clouds in Winter's atmosphere block out much of the sunlight, creating a frigid landscape below. The planet was not settled until about a century ago, when a group of investors from Pherkad decided to build a manufacturing center here, rather than trying to find more land on the already overcrowded planet of Solace. Claiming that the industrial emissions of carbon dioxide and other greenhouse gases would eventually warm the planet and turn it into a tropical paradise, they were able to draw enough settlers to keep the factories going.`
-		description `	Winter is home to the Free Worlds Conservatory, a new university focused on making terraforming technology and expertise available at a reasonable price, as well as on ecological protection and renewal.`
+		description `<DS-26>`
+		description `<DS-27>`
 		security .4
 
 
@@ -1254,12 +1254,12 @@ event "Thule becomes independent"
 		fleet "Large Free Worlds" 1500
 	planet "Thule"
 		add attributes "ex-pirate"
-		description `Thule is a mountainous world with a population of nearly a billion, settled in the early days of space exploration. When the colony was first established, the government on Earth did not yet have the strength to control any system but its own. As such, Thule refused to join the Republic when it was formed, and has since repulsed all efforts to force it to do so.`
-		description `	Until recently, Thule was a well-known den of pirate activity, but the major tribal authorities have now forsworn piracy in the interest of keeping the Free Worlds from further meddling in their affairs. However, it is likely that all manner of illegal activity is still going on in secret here.`
+		description `<DS-28>`
+		description `<DS-29>`
 	planet "Smuggler's Den"
-		description `Smuggler's Den was formerly known as Grendel Station, back when it was an operating refinery. After that, it was taken over by pirates, and became a haven for all manner of smugglers and privateers. Now, at least in theory, it is an independent station no longer allied with the pirates. In practice, you suspect a fair amount of piracy still goes on here.`
-		description `The repair shops here can make a variety of legal and illegal modifications to your ship, and in the shipyard you can buy refurbished starships... if it does not trouble your conscience to think about the likely fates of their previous owners.`
-		spaceport `It is a strange but indisputable fact that anarchists smell worse than ordinary human beings. In this day and age, where even the cheapest shuttlecraft at least has a sonic shower, there is no logical explanation for it, except that anarchist tendencies must somehow go hand in hand with a tendency to reject society's norms around hygiene. Here in a space station, with nothing but recycled air to breathe, the effect is overpowering.`
+		description `<DS-30>`
+		description `<DS-31>`
+		spaceport `<SP-8>`
 
 
 
@@ -1293,10 +1293,10 @@ event "fw suppressed Greenrock"
 		fleet "Large Southern Pirates" 5000
 		fleet "Old Southern Pirates" 10000
 	planet "Greenrock"
-		description `Greenrock was the closest thing that the pirates in southern human space had to a center of government, at least until the Free Worlds occupied it. When rival pirate bands sought to negotiate on neutral territory, this is where they met. Nearly everything was for sale here: illegal weapons, ships customized for pirating, and even slaves.`
-		description `	Now that the Free Worlds are occupying the system, Greenrock has become a marginally more respectable world. Pirates still run wild in the wilderness of the planet, but the Free Worlds are actively arresting criminals and freeing slaves in the population centers.`
-		spaceport `You have heard enough about this port's reputation that you are not surprised to see the remnants of slave markets, now empty as a result of the Free Worlds occupation. The normally shady establishments are now filled with militia and the occasional merchant captain looking to explore the planet while it's still in Free Worlds hands.`
-		spaceport `	Despite the Free Worlds presence, dark alleyways are still to be avoided. Down one alley you see an abandoned shop called "Mike's Mustelids," now overrun by weasels, ferrets, and wolverines that were once caged there.`
+		description `<DS-32>`
+		description `<DS-33>`
+		spaceport `<SP-9>`
+		spaceport `<SP-10>`
 
 
 
@@ -1313,26 +1313,26 @@ event "fw abandoned Greenrock"
 		fleet "Old Southern Pirates" 7000
 		fleet "Large Free Worlds" 9000
 	planet "Greenrock"
-		description `Greenrock was the closest thing that the pirates in southern human space had to a center of government, at least until the Free Worlds occupied it. When rival pirate bands sought to negotiate on neutral territory, this is where they met. Nearly everything was for sale here: illegal weapons, ships customized for pirating, and even slaves.`
-		description `	That was until the Free Worlds occupied the system and cleaned up many of the major population centers. With the Free Worlds gone, the planet has begun to return to its natural state of crime and villainy.`
-		spaceport `You have heard enough about this port's reputation that you are not surprised to see the remnants of slave markets, now empty as a result of the Free Worlds occupation. The spaceport's shady establishments are beginning to return to their normal clientele and services.`
-		spaceport `	With the Free Worlds now gone, dark alleyways are absolutely to be avoided. Down one alley you see a shop called "Mike's Mustelids," the inside like a jungle. You hear the howls and yells of various exotic animals coming from inside, and the alleyway is home to a number of presumably-escaped weasels, ferrets, and wolverines running about.`
+		description `<DS-32>`
+		description `<DS-34>`
+		spaceport `<SP-11>`
+		spaceport `<SP-12>`
 
 
 
 event "Greenrock recovered"
 	planet "Greenrock"
-		description `Greenrock is the closest thing that the pirates in southern human space have to a center of government, but taking the form of large, powerful corporations rather than elected officials. When rival pirate bands seek to negotiate on neutral territory, this is where they meet. Nearly everything is for sale here: illegal weapons, ships customized for pirating, and even slaves.`
-		description `	The Free Worlds occupied this planet for a short while long ago, attempting to clean up the criminal hub, but almost all traces of the Free Worlds' influence on the planet is now long gone.`
-		spaceport `You have heard enough about this port's reputation that you are not surprised to see the slave markets, heavily guarded in case any visitors happen to find themselves in possession of a conscience. Nor are you shocked by the shady establishments catering to all manner of prurient interests. This is, after all, a pirate port, and everything is for sale here.`
-		spaceport `	Everything, in fact, including the very bizarre. You find one dark alley that has been completely fenced off from the rest of the spaceport, the howls of animals coming from behind the barrier. Beside the alley you see a sign for a shop called "Mike's Mustelids," promising the sale of "exotic animals from within Greenrock's urban spaceport jungle."`
+		description `<DS-35>`
+		description `<DS-36>`
+		spaceport `<SP-13>`
+		spaceport `<SP-14>`
 
 
 
 event "memorial on Deep"
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	Positioned north of the spaceport is the Free Worlds War Memorial, a series of granite walls engraved with the names of the fallen. The nine completed walls are already filled on both sides; it seems unlikely the other fourteen walls will last the war.`
+		spaceport `<SP-6>`
+		spaceport `<SP-15>`
 
 
 
@@ -1684,16 +1684,16 @@ event "fw southern expansion"
 		fleet "Large Republic" 500
 		fleet "Republic Logistics" 4000
 	planet "New Iceland"
-		description `New Iceland is a perpetually hazy volcanic world, with a slightly caustic atmosphere but enough reserves of metal and petrochemicals to draw a large number of settlers. Some of those settlers also make a living as farmers, and a few well-developed factory towns produce goods for export to other worlds.`
-		description `	Many of the inhabitants wear dust masks to avoid letting the particulate matter from the volcanoes accumulate in their lungs.`
-		description `	In the wake of their defeat in the south, the Navy has begun to set up a massive new base here on New Iceland, in order to allow them to continue to have a strong presence in this sector.`
+		description `<DS-37>`
+		description `<DS-38>`
+		description `<DS-39>`
 
 
 
 event "Deep memorial expansion 1"
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	Positioned north of the spaceport is the Free Worlds War Memorial, a series of granite walls engraved with the names of the fallen. The site has progressed from its original scale, with an outer ring being erected to hold fifty additional walls of names.`
+		spaceport `<SP-6>`
+		spaceport `<SP-16>`
 
 
 
@@ -1762,7 +1762,7 @@ event "fw prison on Clink"
 
 event "fw prison on Clink closes"
 	planet "Clink"
-		description `About a decade ago, a mining corporation from Zug planted a colony on Clink for harvesting some rare earth minerals that are present in this moon's crust due to its unusually high rate of asteroid impacts. The atmosphere here is too thin to breathe without a respirator, and because of the low gravity, the dust raised by the mining operations hangs perpetually in the air.`
+		description `<DS-22>`
 
 mission "FW Clink Prison Closes"
 	landing
@@ -1793,8 +1793,8 @@ event "liberation of Poisonwood"
 		fleet "Small Free Worlds" 1200
 		fleet "Human Miners" 2000
 	planet "Poisonwood"
-		spaceport `The starport is a hodgepodge of small metal structures, built from the remains of Navy and pirate ships that fought for control of this world. The locals here welcome you to their planet heartily.`
-		spaceport `	The tavern in the center of the port is named The Parting Glass. Its walls are covered in photographs from after the war, all taken here on Poisonwood: freed slaves boarding Navy ships to leave the planet that brought them so much pain; Navy officers disembarking to retire on the world that they liberated; friends gone away; friends left behind. There are newer pictures, too: a Cruiser and two Falcons, side by side; armored troops walking away from a factory; a familiar captain talking to a man you know as Commander Nguyen. It is a strange feeling to be shown among heroes of a history that you've had only the smallest effect on.`
+		spaceport `<SP-17>`
+		spaceport `<SP-18>`
 
 event "Poisonwood reverts to Republic"
 	system "Graffias"
@@ -1806,8 +1806,8 @@ event "Poisonwood reverts to Republic"
 		fleet "Small Free Worlds" 2600
 		fleet "Human Miners" 2000
 	planet "Poisonwood"
-		spaceport `The starport is a hodgepodge of small metal structures, built from the remains of Navy and pirate ships that fought for control of this world. The locals are unusually courteous and friendly to most of the captains landing here, but not to you.`
-		spaceport `	The tavern in the center of the port is named The Parting Glass. As you enter the building, you notice the tavern gradually become quieter and quieter, until all that you can hear is the rattling of the air conditioner and the clinking of glasses. At the same time, you feel the heat of several dozen eyes looking directly at you. You decide it best to leave before things escalate further.`
+		spaceport `<SP-19>`
+		spaceport `<SP-20>`
 
 event "death of nguyen"
 
@@ -1841,8 +1841,8 @@ event "dreadnought deployment"
 event "bloodsea joins free worlds"
 	planet "Bloodsea"
 		add attributes "ex-pirate"
-		description `Bloodsea is nearly uninhabited, except for a few small outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
-		description `	Until recently, this was a pirate world, but as the Free Worlds continued to expand they saw the writing on the wall and decided to become a civilized world. The Free Worlds are building a new spaceport here, but that will take months, and in the meantime the old spaceport is still in use.`
+		description `<DS-40>`
+		description `<DS-41>`
 	system "Antares"
 		government "Free Worlds"
 		fleet "Small Southern Merchants" 700
@@ -1856,10 +1856,10 @@ event "bloodsea joins free worlds"
 
 event "bloodsea spaceport completed"
 	planet "Bloodsea"
-		description `Bloodsea is nearly uninhabited, except for a few small outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
-		description `	Recently, with the help of the Free Worlds, a new spaceport was completed here. Bloodsea was formerly a pirate world, but the new spaceport has given it an air of respectability, and already a small number of settlers and curious tourists have begun flowing in.`
-		spaceport `The new spaceport is impressively well designed, with seawalls and landing pads of crisp, newly-set concrete, still unmarked by weather or mildew. It is also several times larger than necessary for the number of people and ships that are here, and aside from a lively market, it feels strangely empty.`
-		spaceport `	Some things remain unchanged from back in the pirate days. The local slang incorporates threats of extreme violence as a seemingly meaningless verbal tic. "Hey, I'm gonna cut off your fingers one by one until you buy a meat patty!" a vendor calls out cheerfully as you pass. "First one's free, and I'll tie a knot in your spine if you don't like it."`
+		description `<DS-40>`
+		description `<DS-42>`
+		spaceport `<SP-21>`
+		spaceport `<SP-22>`
 
 
 
@@ -1881,16 +1881,16 @@ event "bloodsea independent"
 		fleet "Small Free Worlds" 800
 		fleet "Large Free Worlds" 1500
 	planet "Bloodsea"
-		description `Bloodsea is nearly uninhabited, except for a few small outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
-		description `	Until recently, this was a pirate world, but they are now officially "independent," forswearing support for piracy and other criminal activity as a result of being dominated by the Free Worlds militia. You get the feeling that most of the locals are not too fond of the Free Worlds, however.`
+		description `<DS-40>`
+		description `<DS-43>`
 
 
 
 event "albatross joins free worlds"
 	planet "Albatross"
 		add attributes "ex-pirate"
-		description `Albatross is a cold ocean world orbiting a small, cold sun. The first settlers on Albatross were anarchists who believed that in a society free from unnatural laws and constraints, everyone would happily and freely work for the common good. The next settlers were pirates who believed that a planet free from laws and constraints would be a great base of operations.`
-		description `	Recently, the Free Worlds have liberated Albatross from their pirate oppressors, but many of the locals remain skeptical, seeing the Free Worlds as little different from the other protection rackets that have held sway over them.`
+		description `<DS-44>`
+		description `<DS-45>`
 	system "Nunki"
 		government "Free Worlds"
 		fleet "Small Southern Merchants" 700
@@ -2690,7 +2690,7 @@ event "navy occupies algenib"
 		fleet "Large Republic" 1200
 		fleet "Large Syndicate" 1000
 	planet "Covert"
-		description `Covert is home to a powerful mining cartel, only nominally under the control of Republic law. It is rumored to be one of the few planets in human space where weapons-grade uranium and plutonium is mined and enriched. Any goods for sale here were most likely produced by slave labor, often by survivors of ships that have been captured by pirates. A pirate fleet lurks on the outskirts of the spaceport, a warning to any private pilot who might think of cheating or opposing the cartel.`
+		description `<DS-46>`
 
 
 
@@ -2707,7 +2707,7 @@ event "navy done with algenib"
 		fleet "Large Core Pirates" 800
 		fleet "Large Syndicate" 5000
 	planet "Covert"
-		description `Covert is home to a powerful mining cartel, operating outside the control of Republic law or any other external authority. It is rumored to be one of the few planets in human space where weapons-grade uranium and plutonium is mined and enriched. Any goods for sale here were most likely produced by slave labor, often by survivors of ships that have been captured by pirates. A massive pirate fleet is docked on the outskirts of the spaceport, a warning to any private pilot who might think of cheating or opposing the cartel.`
+		description `<DS-47>`
 
 
 
@@ -2786,9 +2786,9 @@ event "fwc capture kaus borealis"
 		fleet "Large Free Worlds" 400
 		fleet "Large Republic" 2000
 	planet "New Iceland"
-		description `New Iceland is a perpetually hazy volcanic world, with a slightly caustic atmosphere but enough reserves of metal and petrochemicals to draw a large number of settlers. Some of those settlers also make a living as farmers, and a few well-developed factory towns produce goods for export to other worlds.`
-		description `	Many of the inhabitants wear dust masks to avoid letting the particulate matter from the volcanoes accumulate in their lungs.`
-		description `	The Navy had begun building a massive military base on New Iceland after they had been pushed out of the Southern Rim, but their defeat in this system by the Free Worlds has led to the base being abandoned prematurely.`
+		description `<DS-37>`
+		description `<DS-38>`
+		description `<DS-48>`
 
 
 
@@ -2914,10 +2914,10 @@ event "fwc capture menkent"
 		fleet "Large Republic" 2000
 		fleet "Human Miners" 2000
 	planet "New Austria"
-		description `New Austria is a rugged mountain world, full of snow-capped peaks and valleys so deep and so steep that they rarely see sunlight.`
-		description `	The few settlements that have been built here were developed for mining sapphires and rubies. The sapphires found in New Austria range from blue to yellow to black to clear in color, and are used both for industrial abrasives and for jewelry.`
-		description `	For centuries the locals have been trying to find a deposit of diamonds, which would sell for much higher prices than sapphires, and local folklore revolves around the prosperity that would come to this world if diamonds were ever discovered.`
-		description `	The Navy once had a military base here, but they vacated it when the Free Worlds captured this system as part of the "Checkmate" plan.`
+		description `<DS-17>`
+		description `<DS-49>`
+		description `<DS-50>`
+		description `<DS-51>`
 
 
 
@@ -3308,8 +3308,8 @@ event "syndicate tech available"
 
 event "Deep memorial completed"
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	Positioned north of the spaceport is the Free Worlds War Memorial, a series of granite walls engraved with the names of the fallen. Two additional rings of walls have been constructed around both the first twenty-three walls and the fifty walls of the old outer ring.`
+		spaceport `<SP-6>`
+		spaceport `<SP-23>`
 
 mission "Deep Memorial Finished"
 	landing
@@ -3324,10 +3324,10 @@ mission "Deep Memorial Finished"
 
 event "geminus rebuilt"
 	planet "Geminus"
-		description `Geminus, although not the most hospitable of worlds, is a young enough planet that large stores of iron, titanium, and other metals are easily accessible near the surface. The constant volcanic activity leaves the planet perpetually shrouded in a twilight haze of ash and fog.`
-		description `	The shattered remnants of the old Navy Yard are still left abandoned and slowly rusting away in the planet's caustic atmosphere, but the Republic has now built a new shipyard to replace the one destroyed in the bombing, and once again Geminus has become a central hub of technology and industry.`
-		spaceport `Like everything else on Geminus, the spaceport is not terribly pretty, but is functional and efficient. Each of the wide hallways is marked out like a road, with space in the center for electric carts carrying cargo, while pedestrians are relegated to the edges. Video cameras and sensors have been placed at every intersection, and access to the shipbuilding facilities is tightly controlled.`
-		spaceport `	The hub of the spaceport is a food court with a ring of shops in the center and seating on the outside, where you can look out of plate glass windows at the lava fields and caldera outside. By night, you can see the volcanic glow all around the horizon.`
+		description `<DS-52>`
+		description `<DS-53>`
+		spaceport `<SP-24>`
+		spaceport `<SP-25>`
 		shipyard "Basic Ships"
 		shipyard "Navy Basics"
 		shipyard "Navy Advanced"
@@ -3349,10 +3349,10 @@ mission "Geminus Rebuilt"
 
 event "martini recovers"
 	planet "Martini"
-		description `Martini is a world of exotic beaches and perfect weather. The Republic's central bank and the galactic stock exchange were previously headquartered here, before a terrorist attack destroyed them and a large portion of the old capital city as well.`
-		description `	The new capital city is on the other side of the main continent, where lingering radiation will not affect the rest of the population. It is not so grand as the old capital, but its population has swelled from resettlement from the irradiated areas and it is quickly gaining the air of a major metropolis. The inhabitants, many of whom are survivors of the blast, have rallied behind a sort of 'will-do' attitude that only occurs after such a devastating and destructive event.`
-		spaceport `Currently, the newly-designated planetary spaceport does not possess the infrastructure to act as Martini's main spaceport. The expansive temporary spaceport from the relief operation is still being used, and since then, permanent landing pads have been built, but there are now plans to demolish it and give the new planetary spaceport a desperately needed expansion.`
-		spaceport `	Martini's old spaceport still remains, as it was located just outside the blast zone and its deflector shields bore the brunt of the shockwave, but its towers partially collapsed in the days following the devastation. It now appears from a distance to be a few unevenly-levelled black spires rising before a backdrop of the smoke and remnants of a ruined city, no longer gleaming as it once did.`
+		description `<DS-54>`
+		description `<DS-55>`
+		spaceport `<SP-26>`
+		spaceport `<SP-27>`
 
 mission "Martini Recovers"
 	landing

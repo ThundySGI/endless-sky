@@ -22,7 +22,7 @@ outfit "Shield Relay Booster"
 	"shield generation" 0.4
 	"shield energy" 1.2
 	"relay upgrades" -1
-	description "The Shield Relay Booster is a component that can be installed into a Bunrodean shield relay in order to modify its effectiveness. Boosters increase the shield generation strength of a relay, but at the cost of reduced energy efficiency."
+	description "<DS-2134>"
 
 outfit "Shield Relay Limiter"
 	category "Systems"
@@ -35,7 +35,7 @@ outfit "Shield Relay Limiter"
 	"shield generation" -0.02
 	"shield energy" -0.1
 	"relay upgrades" -1
-	description "The Shield Relay Limiter is a component that can be installed into a Bunrodean shield relay in order to modify its effectiveness. Limiters increase the energy efficiency of a relay, but at the cost of reducing the strength of its shield generation."
+	description "<DS-2135>"
 
 outfit "Small Shield Relay"
 	category "Systems"
@@ -51,8 +51,8 @@ outfit "Small Shield Relay"
 # Giving an outfit "ammo" like this means that selling this outfit sells the "ammo," which is better UX for selling these outfits without having to sell the upgrades first, but this also makes it so that if you have space for upgrades, entering the outfitter asks you if you want to "buy ammo," which is not good UX. We either need a way to decouple those two mechanics (only ask to buy ammo if the "ammo" is actually in the ammo category?), or come up with a new keyword that only provides the "selling this sells that" behavior.
 #	ammo "Shield Relay Booster"
 #	ammo "Shield Relay Limiter"
-	description "Bunrodean shield relays are impressively efficient; while a similarly sized shield generator from another faction might be capable of providing more shield generation, Bunrodean shield relays provide a modest amount of shield generation for only a small amount of energy."
-	description "	Shield relays are able to be upgraded by installing shield boosters or limiters, which alter the performance of the shield relay. Each relay only has a limited number of slots for these upgrades, though."
+	description "<DS-2136>"
+	description "<DS-2137>"
 
 outfit "Large Shield Relay"
 	category "Systems"
@@ -67,8 +67,8 @@ outfit "Large Shield Relay"
 	"relay upgrades" 16
 #	ammo "Shield Relay Booster"
 #	ammo "Shield Relay Limiter"
-	description "Some Bunrodean military captains argued that trading shield generation for energy efficiency is a foolish trade, while merchant captains looking to get the most out of their reactors argued that they could be more energy efficient. As such, shield relays are able to be customized to the owner's liking using external components."
-	description "	Shield relays are able to be upgraded by installing shield boosters or limiters, which alter the performance of the shield relay. Each relay only has a limited number of slots for these upgrades, though."
+	description "<DS-2138>"
+	description "<DS-2137>"
 
 
 
@@ -83,7 +83,7 @@ outfit "Nanite Enhancer"
 	"hull repair rate" 0.25
 	"hull energy" 0.75
 	"nanite upgrades" -2
-	description "The Nanite Enhancer is a component that can be installed into a Bunrodean nanite fabricator in order to modify its effectiveness. Enhancers increase the strength of the hull repair of a fabricator, but at the cost of reduced energy efficiency."
+	description "<DS-2139>"
 
 outfit "Nanite Limiter"
 	category "Systems"
@@ -96,7 +96,7 @@ outfit "Nanite Limiter"
 	"hull repair rate" -0.025
 	"hull energy" -0.2
 	"nanite upgrades" -1
-	description "The Nanite Limiter is a component that can be installed into a Bunrodean nanite fabricator in order to modify its effectiveness. Limiters increase the energy and heat efficiency of a fabricator, but at the cost of reducing the strength of its hull repair."
+	description "<DS-2140>"
 
 outfit "Small Nanite Fabricator"
 	category "Systems"
@@ -111,8 +111,8 @@ outfit "Small Nanite Fabricator"
 	"nanite upgrades" 4
 #	ammo "Nanite Enhancer"
 #	ammo "Nanite Limiter"
-	description "Although Bunrodea ships tend to rely on their shields for defense, some pilots will opt to install a nanite fabricator. These fabricators produce a steady stream of nanites that travel across the hull of the ship and repair any damage that they find."
-	description "	Nanite fabricators are able to be upgraded by installing nanite enhancers or limiters, which alter the performance of the fabricator. Each fabricator only has a limited number of slots for these upgrades, though."
+	description "<DS-2141>"
+	description "<DS-2142>"
 
 outfit "Large Nanite Fabricator"
 	category "Systems"
@@ -127,8 +127,8 @@ outfit "Large Nanite Fabricator"
 	"nanite upgrades" 10
 #	ammo "Nanite Enhancer"
 #	ammo "Nanite Limiter"
-	description "The creation of nanite fabricators was spurred on by early contact between the Bunrodea and Korath. The hull-walking microbots of Korath System Cores allowed Korath ships to make repairs without the need of a spaceport, a trait that the Bunrodea favored for use in their scout vessels."
-	description "	Nanite fabricators are able to be upgraded by installing nanite enhancers or limiters, which alter the performance of the fabricator. Each fabricator only has a limited number of slots for these upgrades, however."
+	description "<DS-2143>"
+	description "<DS-2144>"
 
 
 
@@ -144,7 +144,7 @@ outfit "Solar Battery"
 	"energy capacity" 6000
 	"solar cell" 36
 #	ammo "Solar Cell"
-	description "Bunrodean solar batteries are required for the installation of solar cells, but solar batteries are perfectly capable of going without solar cells. Many captains will install batteries to store energy gained from normal reactors without ever installing solar cells."
+	description "<DS-2145>"
 
 outfit "Solar Cell"
 	category "Power"
@@ -157,8 +157,8 @@ outfit "Solar Cell"
 	"solar collection" 0.145
 	"solar heat" 0.07
 	"solar cell" -1
-	description "Bunrodean solar panels are extremely efficient, and are even capable of powering smaller or less powerful warships. But be warned: while these solar cells can provide significant energy, that is not without the drawback of also generating waste heat that scales with the energy generated, which can be especially hazardous when near bright stars."
-	description "	These cells must be installed on the mounting platform that comes with a solar battery to be used."
+	description "<DS-2146>"
+	description "<DS-2147>"
 
 
 
@@ -173,7 +173,7 @@ outfit "Reactor Overclocker"
 	"energy generation" 0.9
 	"heat generation" 3.15
 	"reactor upgrades" -3
-	description "The Reactor Overclocker is a component that can be installed into a Bunrodea reactor in order to modify its effectiveness. Overclockers increase the strength of the energy generation of a reactor, but at the cost of reduced heat efficiency."
+	description "<DS-2148>"
 
 outfit "Reactor Limiter"
 	category "Power"
@@ -186,7 +186,7 @@ outfit "Reactor Limiter"
 	"energy generation" -0.55
 	"heat generation" -6.6
 	"reactor upgrades" -2
-	description "The Reactor Limiter is a component that can be installed into a Bunrodea reactor in order to modify its effectiveness. Limiters increase the heat efficiency of a reactor, but at the cost of reducing the strength of its energy generation."
+	description "<DS-2149>"
 
 outfit "Quark Reactor"
 	category "Power"
@@ -201,8 +201,8 @@ outfit "Quark Reactor"
 	"reactor upgrades" 6
 #	ammo "Reactor Overclocker"
 #	ammo "Reactor Limiter"
-	description "Bunrodean reactors appear to be named after types of exotic stars that either once were or still are considered theoretical to humanity. A quark star was first discovered by humanity near the Shangri-La system during the 28th century, a star with core temperatures and pressures so extreme that quark matter is produced."
-	description "	Bunrodean reactors are able to be upgraded by installing Reactor Overclockers or Limiters, which alter the performance of the reactor. Each reactor only has a limited number of slots for these upgrades, though."
+	description "<DS-2150>"
+	description "<DS-2151>"
 
 outfit "Electroweak Reactor"
 	category "Power"
@@ -217,8 +217,8 @@ outfit "Electroweak Reactor"
 	"reactor upgrades" 18
 #	ammo "Reactor Overclocker"
 #	ammo "Reactor Limiter"
-	description "The existence of the exotic stars that this Bunrodean reactor bears the name of is still unknown to humanity. An electroweak star is an exotic star that would be prevented from collapsing by the electroweak force as quarks are converted to leptons in the star's core."
-	description "	Bunrodean reactors are able to be upgraded by installing Reactor Overclockers or Limiters, which alter the performance of the reactor. Each reactor only has a limited number of slots for these upgrades, though."
+	description "<DS-2152>"
+	description "<DS-2151>"
 
 outfit "Dark Reactor"
 	category "Power"
@@ -233,8 +233,8 @@ outfit "Dark Reactor"
 	"reactor upgrades" 30
 #	ammo "Reactor Overclocker"
 #	ammo "Reactor Limiter"
-	description `The term "dark star" can have different meanings, but one definition of it is a star whose core is formed around a large amount of dark matter. Such exotic stars are theorized by humanity to have possibly existed among the first generations of stars in the universe, with concentrations of dark matter acting as nucleation sites.`
-	description "	Bunrodean reactors are able to be upgraded by installing Reactor Overclockers or Limiters, which alter the performance of the reactor. Each reactor only has a limited number of slots for these upgrades, though."
+	description `<DS-2153>`
+	description "<DS-2151>"
 
 
 
@@ -247,7 +247,7 @@ outfit "Lasher Pistol"
 	"capture attack" 1.1
 	"capture defense" 2.8
 	"unplunderable" 1
-	description "During their wars with the Korath, it was not uncommon for Bunrodean vessels to be boarded by Korath raiders looking for technology and supplies to steal. As such, effective small arms weapons became an essential part of every Bunrodean crew that may need to fight off any boarding parties."
+	description "<DS-2154>"
 
 
 
@@ -268,7 +268,7 @@ outfit "Chiisana Rift Thruster"
 		"rewind"
 		"scale" 0.3
 	"flare sound" "ion tiny"
-	description "While the Korath favor raw power in their engines, the Bunrodea favor efficiency, opting to make use of engines that produce less thrust for significantly less heat produced."
+	description "<DS-2155>"
 
 outfit "Nami Rift Thruster"
 	category "Engines"
@@ -287,7 +287,7 @@ outfit "Nami Rift Thruster"
 		"rewind"
 		"scale" 0.6
 	"flare sound" "ion small"
-	description "Although rift engines are extremely heat efficient, their energy requirement is rather high compared to the thrust they produce, even next to terribly inefficient Korath engines."
+	description "<DS-2156>"
 
 outfit "Ookii Rift Thruster"
 	category "Engines"
@@ -306,7 +306,7 @@ outfit "Ookii Rift Thruster"
 		"rewind"
 		"scale" 0.8
 	"flare sound" "ion medium"
-	description "Even though the energy drawn per unit thrust of rift engines is poorer than that of Korath engines, the overall energy requirement of rift engines is still far lesser by comparison."
+	description "<DS-2157>"
 
 outfit "Subarashii Rift Thruster"
 	category "Engines"
@@ -324,7 +324,7 @@ outfit "Subarashii Rift Thruster"
 		"frame rate" 1
 		"rewind"
 	"flare sound" "ion large"
-	description "Given the lower size and thrust of rift engines, Bunrodean ships aren't well known for their pursuit capabilities. But there are rumors among some Bunrodea of an ancient cache of engines, more powerful than even those of the Korath, that would allow any ship to zip across the stars like a comet and chase down any potential target."
+	description "<DS-2158>"
 
 outfit "Chiisana Rift Steering"
 	category "Engines"
@@ -343,7 +343,7 @@ outfit "Chiisana Rift Steering"
 		"rewind"
 		"scale" 0.3
 	"steering flare sound" "ion tiny"
-	description "Given that Bunrodean ships are typically focused on making heavy use of their forward facing guns, the Bunrodea favor high turn rates much more than high speeds. As such, rift steering systems are larger than the respective thruster systems of the same size category."
+	description "<DS-2159>"
 
 outfit "Nami Rift Steering"
 	category "Engines"
@@ -362,7 +362,7 @@ outfit "Nami Rift Steering"
 		"rewind"
 		"scale" 0.6
 	"steering flare sound" "ion small"
-	description "As with many Bunrodean systems, rift engines produce very little heat. This allows their ships to forgo the use of any significant cooling systems, leaving more room for other systems, be they defensive or offensive."
+	description "<DS-2160>"
 
 outfit "Ookii Rift Steering"
 	category "Engines"
@@ -381,7 +381,7 @@ outfit "Ookii Rift Steering"
 		"rewind"
 		"scale" 0.8
 	"steering flare sound" "ion medium"
-	description "Although the focus on steering over thrust makes Bunrodean ships easy targets to track, the power of their weapons systems would leave anyone foolish to believe that they are sitting ducks."
+	description "<DS-2161>"
 
 outfit "Subarashii Rift Steering"
 	category "Engines"
@@ -399,4 +399,4 @@ outfit "Subarashii Rift Steering"
 		"frame rate" 1
 		"rewind"
 	"steering flare sound" "ion large"
-	description "The largest of the rift steering systems, these engines are what allow the Bunrodea's heavy gunships to bear their many guns toward their unfortunate target."
+	description "<DS-2162>"

@@ -13,149 +13,149 @@
 
 phrase "successor tourists out"
 	word
-		`The tourists thank you for bringing them to <planet> and pay you <payment>.`
+		`<WR-10540>`
 
 phrase "successor tourists in"
 	word
-		`The tourists thank you for returning them to <planet> and pay you <payment>.`
+		`<WR-13767>`
 
 phrase "successor tourists stopover"
 	word
-		`Having completed their travel itinerary, the tourists are ready to return home.`
+		`<WR-13768>`
 
 phrase "successor bold tourists stopover"
 	word
-		`Having completed their somewhat unusual travel itinerary, the tourists are ready to return home.`
+		`<WR-13769>`
 
 phrase "successor students out"
 	word
-		`The students thank you for bringing them to <planet> and pay you <payment>.`
+		`<WR-13770>`
 
 phrase "successor workers out"
 	word
-		`The workers thank you for bringing them to <planet> and pay you <payment>.`
+		`<WR-13771>`
 
 phrase "successor delivery"
 	word
-		`You drop off the shipment of <commodity> and receive <payment> in payment.`
+		`<WR-13772>`
 
 phrase "successor data"
 	word
-		`You `
+		`<WR-11538>`
 	word
-		`deliver `
-		`hand over `
-		`transfer `
+		`<WR-13773>`
+		`<WR-13774>`
+		`<WR-13775>`
 	word
-		`the encrypted databanks `
-		`the secured databanks `
-		`the databanks `
-		`the data `
+		`<WR-13776>`
+		`<WR-13777>`
+		`<WR-13778>`
+		`<WR-13779>`
 	word
-		`and `
+		`<WR-11482>`
 	word
-		`receive `
-		`are given `
+		`<WR-13780>`
+		`<WR-13781>`
 	word
-		`<payment> in payment.`
-		`a payment of <payment>.`
+		`<WR-13782>`
+		`<WR-13783>`
 
 phrase "high houses delivery"
 	word
-		`You `
+		`<WR-11538>`
 	word
-		`offload `
-		`deliver `
-		`hand off `
-		`drop off `
+		`<WR-13784>`
+		`<WR-13773>`
+		`<WR-13785>`
+		`<WR-13786>`
 	word
-		`the `
-		`your `
+		`<WR-31>`
+		`<WR-13787>`
 	word
-		`shipment `
-		`cargo `
+		`<WR-13788>`
+		`<WR-13789>`
 	word
-		`of <commodity> to several well-dressed Successor officers. `
+		`<WR-13790>`
 	word
-		`They give you your `
-		`They provide you with the agreed-upon `
-		`They hand over your `
+		`<WR-13791>`
+		`<WR-13792>`
+		`<WR-13793>`
 	word
-		`payment of <payment>.`
+		`<WR-13794>`
 
 phrase "predecessor researchers out"
 	word
-		`You deliver the `
+		`<WR-13795>`
 	word
-		`researchers `
-		`scientists `
-		`scholars `
+		`<WR-13796>`
+		`<WR-13797>`
+		`<WR-13798>`
 	word
-		`to <planet stopovers>, where they `
+		`<WR-13799>`
 	word
-		`promptly `
-		`immediately `
-		`quickly `
-		``
+		`<WR-13800>`
+		`<WR-13801>`
+		`<WR-13802>`
+		`<WR-34>`
 	word
-		`begin `
-		`start `
+		`<WR-13803>`
+		`<WR-13804>`
 	word
-		` cataloging some nearby rock formations. `
-		` examining nearby ruins. `
-		` scanning for artifacts. `
-		` taking radiation measurements. `
-		` taking soil measurements. `
-		` taking atmospheric measurements. `
-		` examining the local flora. `
-		` examining the local fauna. `
-		` cross-checking the data from a previous expedition. `
+		`<WR-13805>`
+		`<WR-13806>`
+		`<WR-13807>`
+		`<WR-13808>`
+		`<WR-13809>`
+		`<WR-13810>`
+		`<WR-13811>`
+		`<WR-13812>`
+		`<WR-13813>`
 	word
-		`After a few hours, they are ready to return home.`
-		`After several hours, they are ready to return home.`
-		`Eventually, they are ready to return home.`
+		`<WR-13814>`
+		`<WR-13815>`
+		`<WR-13816>`
 
 phrase "successor researchers out"
 	word
-		`You deliver the `
+		`<WR-13795>`
 	word
-		`researchers `
-		`scientists `
-		`experimenters `
+		`<WR-13796>`
+		`<WR-13797>`
+		`<WR-13817>`
 	word
-		`to <planet stopovers>, where they `
+		`<WR-13799>`
 	word
-		`promptly `
-		`immediately `
-		`quickly `
-		``
+		`<WR-13800>`
+		`<WR-13801>`
+		`<WR-13802>`
+		`<WR-34>`
 	word
-		`begin `
-		`start `
+		`<WR-13803>`
+		`<WR-13804>`
 	word
-		` cataloging some nearby rock formations. `
-		` taking radiation measurements. `
-		` taking soil measurements. `
-		` taking atmospheric measurements. `
-		` cross-checking the data from a previous expedition. `
+		`<WR-13805>`
+		`<WR-13808>`
+		`<WR-13809>`
+		`<WR-13810>`
+		`<WR-13813>`
 	word
-		`After a few hours, they are ready to return home.`
-		`After several hours, they are ready to return home.`
-		`Eventually, they are ready to return home.`
+		`<WR-13814>`
+		`<WR-13815>`
+		`<WR-13816>`
 
 phrase "successor researchers in"
 	word
-		`The researchers thank you for taking them to <stopovers> and give you <payment> in payment.`
+		`<WR-13818>`
 
 phrase "successor researchers transfer"
 	word
-		`The researchers readily embark for the symposium, but not before giving you <payment> in payment.`
+		`<WR-13819>`
 
 mission "Successors: Tourists Out 1"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> travelers will pay you <payment> to bring them to <destination> by <date>."
+	name "<NM-490>"
+	description "<DS-3351>"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -181,8 +181,8 @@ mission "Successors: Tourists Out 1"
 mission "Successors: Tourists Out 2"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> travelers will pay you <payment> to bring them to <destination> by <date>."
+	name "<NM-490>"
+	description "<DS-3351>"
 	deadline
 	passengers 3 6 .5
 	to offer
@@ -208,8 +208,8 @@ mission "Successors: Tourists Out 2"
 mission "Successors: Bold Tourists Round Trip"
 	job
 	repeat
-	name "Extreme sightseeing on <planet stopovers>"
-	description "These <bunks> sightseers will pay you <payment> to bring them and their safety equipment to <stopovers> and back home to <destination> by <date>."
+	name "<NM-886>"
+	description "<DS-3352>"
 	deadline
 	cargo "Isolation Suits" 1
 	passengers 2 4 .5
@@ -236,8 +236,8 @@ mission "Successors: Bold Tourists Round Trip"
 mission "Successors: Tourist Expedition"
 	job
 	repeat
-	name "Sightseeing expedition"
-	description "These <bunks> sightseers will pay you <payment> to take them to <stopovers> before returning them home to <destination> by <date>."
+	name "<NM-887>"
+	description "<DS-3353>"
 	deadline
 	deadline 4
 	passengers 2 5 .5
@@ -276,8 +276,8 @@ mission "Successors: Tourist Expedition"
 mission "Successors: Students Out"
 	job
 	repeat
-	name "Students on break to <planet>"
-	description "These <bunks> students are on break and will pay you <payment> to take them to <destination> by <date>."
+	name "<NM-888>"
+	description "<DS-3354>"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -303,8 +303,8 @@ mission "Successors: Students Out"
 mission "Successors: Students In"
 	job
 	repeat
-	name "Students returning to <planet>"
-	description "These <bunks> students are returning to their university on <destination> and will pay you <payment> to take them there by <date>."
+	name "<NM-889>"
+	description "<DS-3355>"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -331,8 +331,8 @@ mission "Successors: Students In"
 mission "Successors: Workers Out 1"
 	job
 	repeat
-	name "Successor workers to <planet>"
-	description "These <bunks> workers are looking for jobs on <destination> and will pay you <payment> to take them there by <date>."
+	name "<NM-890>"
+	description "<DS-3356>"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -357,8 +357,8 @@ mission "Successors: Workers Out 1"
 mission "Successors: Workers Out 2"
 	job
 	repeat
-	name "Successor workers to <planet>"
-	description "These <bunks> workers are looking for jobs on <destination> and will pay you <payment> to take them there by <date>."
+	name "<NM-890>"
+	description "<DS-3356>"
 	deadline
 	passengers 3 6 .5
 	to offer
@@ -383,8 +383,8 @@ mission "Successors: Workers Out 2"
 mission "Successors: Delivery Out 1"
 	job
 	repeat
-	name "Shipment to <planet>"
-	description "A courier is needed for <tons> of supplies from <origin> to <planet>. You will be paid <payment> on delivery."
+	name "<NM-11>"
+	description "<DS-3357>"
 	cargo random 5 10 .2
 	to offer
 		has "known to the successors"
@@ -409,8 +409,8 @@ mission "Successors: Delivery Out 1"
 mission "Successors: Delivery Out 2"
 	job
 	repeat
-	name "Shipment to <planet>"
-	description "A courier is needed for <tons> of supplies from <origin> to <planet>. You will be paid <payment> on delivery."
+	name "<NM-11>"
+	description "<DS-3357>"
 	cargo random 6 9 .2
 	to offer
 		has "known to the successors"
@@ -435,8 +435,8 @@ mission "Successors: Delivery Out 2"
 mission "Successors: High Value Delivery Out"
 	job
 	repeat
-	name "Valuables to <planet>"
-	description "A courier is needed to transport <cargo> from <origin> to <planet>. You will be paid <payment> on delivery."
+	name "<NM-891>"
+	description "<DS-3358>"
 	cargo "Successor High Value" 6 9 .2
 	to offer
 		has "known to the successors"
@@ -463,8 +463,8 @@ mission "Successors: High Value Delivery Out"
 mission "Successors: Aid Delivery Out 1"
 	job
 	repeat
-	name "Aid shipment to <planet>"
-	description "A courier is needed to deliver <tons> of aid supplies from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	name "<NM-892>"
+	description "<DS-3359>"
 	deadline
 	deadline 2
 	cargo random 5 10 .2
@@ -492,8 +492,8 @@ mission "Successors: Aid Delivery Out 1"
 mission "Successors: Large Delivery Out 1"
 	job
 	repeat
-	name "Bulk shipment to <planet>"
-	description "A courier is needed for <tons> of supplies from <origin> to <planet>. You will be paid <payment> on delivery."
+	name "<NM-893>"
+	description "<DS-3357>"
 	cargo random 30 80 .2
 	to offer
 		has "known to the successors"
@@ -518,8 +518,8 @@ mission "Successors: Large Delivery Out 1"
 mission "Successors: Large Delivery Out 2"
 	job
 	repeat
-	name "Bulk shipment to <planet>"
-	description "A courier is needed for <tons> of supplies from <origin> to <planet>. You will be paid <payment> on delivery."
+	name "<NM-893>"
+	description "<DS-3357>"
 	cargo random 50 70 .2
 	to offer
 		has "known to the successors"
@@ -544,8 +544,8 @@ mission "Successors: Large Delivery Out 2"
 mission "Successors: Rush Delivery Out 1"
 	job
 	repeat
-	name "Rush shipment to <planet>"
-	description "A courier is needed for a rush shipment of <tons> of supplies from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	name "<NM-894>"
+	description "<DS-3360>"
 	cargo random 5 10 .2
 	deadline
 	to offer
@@ -571,8 +571,8 @@ mission "Successors: Rush Delivery Out 1"
 mission "Successors: Large Rush Delivery Out 1"
 	job
 	repeat
-	name "Large rush shipment to <planet>"
-	description "A courier is needed for a rush shipment of <tons> of supplies from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	name "<NM-895>"
+	description "<DS-3360>"
 	cargo random 30 80 .2
 	deadline
 	to offer
@@ -598,8 +598,8 @@ mission "Successors: Large Rush Delivery Out 1"
 mission "Successors: Seismic Stabilizers"
 	job
 	repeat
-	name "Seismic stabilizers to <planet>"
-	description "After a minor earthquake on <planet>, <tons> of seismic stabilizers have been requested for delivery by <date>. You will be paid <payment>."
+	name "<NM-896>"
+	description "<DS-3361>"
 	cargo "Seismic Stabilizers" 30 80 .2
 	deadline
 	deadline 2
@@ -626,8 +626,8 @@ mission "Successors: Seismic Stabilizers"
 mission "Successors: Data Courier 1"
 	job
 	repeat
-	name "Data courier to <planet>"
-	description "Confidential data stored on <tons> of databanks needs to get from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	name "<NM-897>"
+	description "<DS-3362>"
 	deadline
 	cargo "Encrypted Databanks" 1 1
 	to offer
@@ -655,8 +655,8 @@ mission "Successors: Data Courier 1"
 mission "Successors: Researchers Out 1"
 	job
 	repeat
-	name "Researchers to <planet stopovers>"
-	description "These <bunks> researchers studying the Predecessors will pay you <payment> to bring them to <stopovers> and return them here."
+	name "<NM-898>"
+	description "<DS-3363>"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
@@ -684,8 +684,8 @@ mission "Successors: Researchers Out 1"
 mission "Successors: Large Researchers Out 1"
 	job
 	repeat
-	name "Researchers to <planet stopovers>"
-	description "This large research team of <bunks> that is studying the Predecessors will pay you <payment> to bring them to <stopovers> and return them here."
+	name "<NM-898>"
+	description "<DS-3364>"
 	passengers 10 30 .5
 	to offer
 		has "known to the successors"
@@ -713,8 +713,8 @@ mission "Successors: Large Researchers Out 1"
 mission "Successors: Home Researchers Out 1"
 	job
 	repeat
-	name "Researchers to <planet stopovers>"
-	description "These <bunks> researchers studying <stopovers> will pay you <payment> to transport them there for research and return them home."
+	name "<NM-898>"
+	description "<DS-3365>"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
@@ -741,8 +741,8 @@ mission "Successors: Home Researchers Out 1"
 mission "Successors: Researchers Transfer"
 	job
 	repeat
-	name "Symposium on <planet>"
-	description "These <bunks> researchers going to a symposium on <destination> will pay you <payment> to bring them there before it starts on <date>."
+	name "<NM-899>"
+	description "<DS-3366>"
 	passengers 2 3 .5
 	deadline
 	to offer
@@ -770,8 +770,8 @@ mission "Successors: Old Houses Rush Delivery"
 	job
 	repeat
 	clearance "After a moment of checking your delivery ID against their manifests, flight control clears you for landing."
-	name "Old Houses courier to <planet>"
-	description "The Old Houses require <tons> of high-grade supplies to be transported from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	name "<NM-900>"
+	description "<DS-3367>"
 	cargo random 5 10 .2
 	deadline
 	to offer
@@ -798,8 +798,8 @@ mission "Successors: New Houses Rush Delivery"
 	job
 	repeat
 	clearance "After a moment of checking your delivery ID against their manifests, flight control clears you for landing."
-	name "New Houses courier to <planet>"
-	description "The New Houses require <tons> of high-grade supplies to be transported from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	name "<NM-901>"
+	description "<DS-3368>"
 	cargo random 5 10 .2
 	deadline
 	to offer

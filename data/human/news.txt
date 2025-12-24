@@ -14,16 +14,16 @@
 
 phrase "merchant names"
 	word
-		"Freelance"
-		"Merchant"
-		"Spacecraft"
-		"Spaceship"
-		"Starship"
+		"<WR-8889>"
+		"<WR-8890>"
+		"<WR-8891>"
+		"<WR-8892>"
+		"<WR-5009>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"captain"
-		"pilot"
+		"<WR-740>"
+		"<WR-781>"
 
 
 news "merchant anywhere"
@@ -37,7 +37,7 @@ news "merchant anywhere"
 			"merchant names"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Can you believe how little they pay for used ships and outfits these days? It's just a scandal!"
 			"You know, planets as nice as this one make me want to think about selling off my fleet and retiring."
@@ -77,7 +77,7 @@ news "merchant anywhere"
 			"We're always at risk of being killed by faulty equipment, solar storms, asteroids, pirates or angry customers. Ever wonder why you didn't just take a desk job?"
 			"You think highly of that boat of yours? My ship is ten times larger."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -92,7 +92,7 @@ news "merchant in human space"
 			"merchant names"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Pirate attacks keep getting more and more frequent, even in star systems that used to be perfectly safe. Why isn't the Navy doing something about it?"
 			"I try to stick to safe parts of space if I can. Pirate attacks are too much risk for my tastes."
@@ -159,7 +159,7 @@ news "merchant in human space"
 			"No good deed goes unpunished. I once helped some good friends of mine to become pilots as well, but they took over my most profitable trade route."
 			"Spaceships are safe in a spaceport, but that is not what spaceships are built for."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "farmer"
@@ -171,7 +171,7 @@ news "farmer"
 			"Farmer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"My neighbor is using some sort of newfangled pesticides. The wind carried their residue onto my fields and destroyed half my crops."
 			"This year, only the farms with enough money to pay for irrigation are thriving. In most of my fields, there's nothing growing but knotweed and razor grass. I hope we can make it to the next season."
@@ -190,7 +190,7 @@ news "farmer"
 			"You should check around spaceports often. You might find one of us needing a captain like you for a job."
 			"Carpe Diem!"
 		word
-			`"`
+			`<CN-7796>`
 
 news "sailor"
 	location
@@ -205,7 +205,7 @@ news "sailor"
 			"Sailor"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Storm's a-comin'. I can feel it in me bones."
 			"A gravity wave ain't got much on a regular one."
@@ -218,7 +218,7 @@ news "sailor"
 			"Seize the carp!"
 			"A smooth sea never made a skilled sailor."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "textile worker"
@@ -230,7 +230,7 @@ news "textile worker"
 			"Textile worker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Two days ago I ran over my finger with an industrial sewing machine. Put a hole straight through my thumb. But at least they paid my medical bill and gave me a week of sick leave."
 			"Working in the mill is hard, but I'm making good money. Someday I hope to buy my own spaceship like yours."
@@ -241,7 +241,7 @@ news "textile worker"
 			"You should check the spaceport often. I might not be able to afford transport right now, but I'll need to leave this dirtball when I get enough money for college."
 			"When I was young, I was poor. Now I'm no longer young."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -254,7 +254,7 @@ news "miner"
 			"Miner"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Mining's the best opportunity on this whole planet, but I worry about my health. I've started to cough up blood when I get sick. It's a good thing the company pays for our medical bills."
 			"I buried my dad last week. He was a miner, too. The company didn't give me any time off so I had to pay to attend my own father's funeral. Can you believe that?"
@@ -266,7 +266,7 @@ news "miner"
 			"The dust from mining operations takes a toll; on the machines, on the environment, on our bodies."
 			"Mining really is something magical. Shovel goes in, money comes up!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -279,7 +279,7 @@ news "factory worker"
 			"Factory worker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Everybody I know wound up working in the plant, so I guess I was gonna go, too. It was inevitable or something, right?"
 			"The plant's all right. I don't have to do much more than show up on time, and I can make a decent living. It's hard work, but I don't mind."
@@ -295,7 +295,7 @@ news "factory worker"
 			"My boss is great. If we suffer, then he makes sure he takes the heat as well."
 			"Measure once, produce two million times!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -311,7 +311,7 @@ news "street vendor"
 			"Food stall operator"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"With the right marinade, rat meat can be delicious. Of course, they don't let us sell the ones that were already dead when we collected them."
 			"This is my own famous delicacy, Yogurt on a Stick. No, it's not frozen yogurt. It's more like, well... congealed..."
@@ -324,7 +324,7 @@ news "street vendor"
 			"I have the safest stall in town; nobody ever died from the food that I serve. At least, nobody that I know."
 			"Can I offer you an egg in this trying time?"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -340,7 +340,7 @@ news "grifter"
 			"Shifty dealer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Can I interest you in a pair of super shoes? You'll lap the competition with these sneakers! They can also help when walking away from people who are promoting shady products!"
 			"I know a guy who can do plastic surgery real cheap. Not to imply that you need it, of course."
@@ -350,7 +350,7 @@ news "grifter"
 			"All that glitters is not gold, but it still is valuable as long as we can sell it to some fool."
 			"'Something old, something new, something borrowed, something blue,' we sell it all at our nice shop near you."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -363,7 +363,7 @@ news "company psychologist"
 			"Company psychologist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Studies have shown that ultimate fulfillment in life comes from doing valuable work. My calling is to help all our workers achieve that sort of self-actualization by being as productive as possible."
 			"My job is to help workers deal with stress and channel it in healthy directions. A little bit of stress is not a bad thing, if it drives someone to be more productive."
@@ -377,7 +377,7 @@ news "company psychologist"
 			"Better comforted by a lie, than hurt by the truth. Hurt people are really unproductive."
 			"Difficult times create strong people. But we are here for when it gets a little too difficult."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -391,7 +391,7 @@ news "genetic counselor"
 			"Personal geneticist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Of course the technology to manipulate genes is tightly controlled. But just reading a person's genome, and advising them based on the results, is perfectly legal."
 			"Technically speaking, social status is a much better predictor of future health outcomes than anything in your genome. But most of my clients are too rich to ever need to worry about that."
@@ -399,7 +399,7 @@ news "genetic counselor"
 			"No, science can't make anyone immortal, but for anyone with enough money it can substantially reduce their chances of dying young."
 			"I was once asked to help genetically engineer a baby for a very rich couple, but the amount of money they offered me for such a highly illegal activity was laughable."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -413,14 +413,14 @@ news "investigator"
 			"Investigator"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Better to have loved and lost, than to never have had a good reason at all to hire me to find it back."
 			"I'm tracking some shady businesses. Have you seen someone carrying containers in the last ten minutes?"
 			"They said they didn't poison the CEO, but nobody knew the CEO was poisoned."
 			"Here, let me give you my card. Notify me if you see any suspicious activity around here."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -433,7 +433,7 @@ news "parent"
 			"Parent"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"My kids make me so proud. They are doing so well; one is a doctor and one is a lawyer. I'm so happy that none of them chose a job like becoming a spaceship captain."
 			"I'm sad that I'm not a grandparent yet; my kids are too busy flying spaceships to extend the family line."
@@ -441,7 +441,7 @@ news "parent"
 			"Do you want to see a picture of our newborn baby? We are so happy!"
 			"Don't you hate it when parents only talk about their kids and nothing else? I really try to avoid that... although I do have really nice kids. Do you want to hear about them?"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -454,7 +454,7 @@ news "unemployed youth"
 			"Unemployed youth"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I may be living on the street, but at least I haven't let myself get trapped in debt slavery like the workers on Syndicate worlds."
 			"Got any change?"
@@ -474,7 +474,7 @@ news "unemployed youth"
 			"People have been complaining about the 'kids these days' since 624 BC. Wonder how humanity survived this long."
 			"OK, boomer. Nice of you to visit us, now be on your way again."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -487,7 +487,7 @@ news "union organizer"
 			"Union organizer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Capitalism is the best system ever invented for driving a productive economy. But without organized labor, the fruits of that productivity will not be shared with the workers."
 			"There's more than enough wealth to go around. All that we're asking for is our fair share."
@@ -500,19 +500,19 @@ news "union organizer"
 			"Here's a tip to know if you're being treated unfairly: 'Someone assigns you work, gives you a pizza, and then goes home.' The pizza is worth less than your time, and both your time and the pizza are valued much less than they value their time."
 			"It's absurd that the prison time for disturbing production is longer than the prison time for murdering someone. Those factory bosses value your life less than their profits."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
 phrase "small trash item"
 	word
-		"outfit scanner"
-		"cargo scanner"
-		"energy blaster"
-		"laser rifle"
-		"cooling duct"
-		"radar jammer"
-		"fuel pod"
+		"<WR-8893>"
+		"<WR-8894>"
+		"<WR-8895>"
+		"<WR-8896>"
+		"<WR-8897>"
+		"<WR-8898>"
+		"<WR-8899>"
 
 
 news "waste collector"
@@ -528,7 +528,7 @@ news "waste collector"
 			"Janitor"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"My job is cleaner than people think it is. Mostly just consists of loading these bins into a ship to be deposited in a remote area of space."
 			"All's fine and dandy until someone dumps a ton of rotten Caldan lobsters and you have to deal with the smell."
@@ -537,7 +537,7 @@ news "waste collector"
 			"My shuttle got some serious damage when a ${small trash item} exploded because it was not properly disposed of."
 			"You may look down on me, but I earn more money in a day than you do in a month."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -551,7 +551,7 @@ news "dock worker"
 			"Stevedore"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"It seems crazy to me that people on other planets would be willing to pay money for the sort of junk that we're loading into starships here."
 			"The robots do most of the heavy lifting for us, but every so often one of them malfunctions and drops a crate on someone's toe."
@@ -572,7 +572,7 @@ news "dock worker"
 			"Apparently, the spaceports in the Deep have fully automated loading systems. Imagine that!"
 			"The other day I saw a band manager scrambling to find transport. She needed something with at least eight free bunks, and most of the ships around at the time were already full."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -586,7 +586,7 @@ news "housekeeper"
 			"Domestic worker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"How is it possible that a man who manages a billion-credit corporation can still be so incompetent or so careless that he routinely misses the toilet bowl when he takes a piss?"
 			"The family I work for offered to let me live in a room in the attic for free, but I'm not sure I want to have that little separation between work and my personal life."
@@ -598,7 +598,7 @@ news "housekeeper"
 			"I wanted to order one salt shaker, but things are apparently measured in tons when shipping stuff, so I got a ton of salt shakers. You want one? Or ten?"
 			"My employer wanted to donate some out-of-fashion dresses to starving people, but now she's angry because I said that three starving people would fit in one of her dresses."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -612,7 +612,7 @@ news "groundskeeper"
 			"Gardener"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"The family I work for has an odd fascination with carnivorous plants. I have to keep rotting piles of refuse around just to produce enough flies to feed them all."
 			"They told me that they wanted the landscaping to be classic and entertaining, so I constructed a giant hedge maze."
@@ -622,7 +622,7 @@ news "groundskeeper"
 			"My boss didn't take no for an answer when I told her that this was the wrong season for seeding. So here I am, trying to grow plants that will die within days."
 			"The request to water the plants is still going to be ignored while it is raining. No matter how much they pay me."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -635,7 +635,7 @@ news "hair stylist"
 			"Hair stylist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"For too long, the creativity of trend-setting stylists like myself has been held in check by the limited height of the doorways in most houses."
 			"My work is made possible by vision, creativity, and hairspray. Lots and lots of hairspray."
@@ -643,7 +643,7 @@ news "hair stylist"
 			"It's a real shame that captains don't think to hire a good hair stylist or two for their ships. You wouldn't believe how little so many crew members take care of their hair."
 			"A real challenge for my profession in this day and age is finding styles that work in both high and low gravity environments."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -656,7 +656,7 @@ news "painter"
 			"Painter"
 	message
 		word
-			`"He who can, creates; he who cannot, transports. Sorry, no offense meant to you."`
+			`<CN-7797>`
 
 
 
@@ -669,7 +669,7 @@ news "tour guide"
 			"Tour guide"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I've delivered the same speech so many times now that the whole thing runs on continuous repeat in my head when I'm trying to sleep."
 			"Some famous people who you've probably never heard of died near here. If I weren't on break right now I would tell you all about them."
@@ -688,7 +688,7 @@ news "tour guide"
 			"Burn the candle at both ends. Sign up for our romantic zero-gravity dinner!"
 			"Friends, fellow planetmen, and travellers. Welcome to today's tour of this wonderful spaceport."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -701,7 +701,7 @@ news "tour guide - warning"
 			"Tour guide"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Be careful"
 			"Be mindful"
@@ -753,7 +753,7 @@ news "tour guide - warning"
 			"here."
 			"on this planet."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -766,7 +766,7 @@ news "human resources worker"
 			"Human resources worker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We always put our employees first. But sometimes they do things that are bad for their careers. Like, accusing a high-ranking manager of harassment."
 			"I once had to find a delicate way to explain to a worker that he smelled bad. Like, so bad that no one could bear to be in a small meeting room with him."
@@ -776,7 +776,7 @@ news "human resources worker"
 			"Presenteeism, where people are present but too unwell to do productive work, is a bigger problem these days than absenteeism."
 			"I should be dealing with employees that just hang around and don't do any useful work, but being here in the spaceport and talking to people like you is much more fun."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -790,7 +790,7 @@ news "loan officer"
 			"Mortgage broker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"You probably think the interest rates we charge are exorbitant, but with all the ships getting blown up by pirates these days, we barely break even."
 			"We charge however much interest the market will support. The only captains who can't manage to pay their debts are the ones with no business sense whatsoever."
@@ -801,7 +801,7 @@ news "loan officer"
 			"Credit is the lifeblood of any economy."
 			"Is that ship you want just out of reach? Apply now for the lowest mortgage rates in the sector!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -817,15 +817,15 @@ news "hyperspace relay engineer"
 			"Hyperspace relay engineer"
 	message
 		word
-			`"All of human space is linked into a single communications network by relay beacons. It's something that most people just take for granted."`
-			`"Hyperspace links don't just allow faster-than-light travel. They also allow near-instantaneous communication, if you have the right sort of relay on both ends."`
-			`"The hyperspace communications network is a marvel of public infrastructure, but most people just take it for granted."`
-			`"Hyperspace relays are so integral to society that even pirates don't dare to touch them. They'd easily become the number one enemy of the Republic if they did."`
-			`"I'm surprised at how many people on Earth are still using the old IPv4 protocol. None of the off-Earth websites are reachable for them."`
-			`"Have you ever set up a TCP/IP connection from Bourne to a server on Farpoint? I have. It's a little slow, but it works!"`
-			`"Do you know the DRQ of the HSBE for the hyperlanes around here? You don't understand? Sorry, a hyperlane can be thought of as a corridor through space..." The engineer gives a long-winded and confusing explanation of hyperlanes.`
-			`"It might take hours to get a message a few systems away going through the hyperspace relays, but it sure beats taking multiple days to send a ship or multiple centuries to send a message at light speed."`
-			`"Someone with more money than sense asked me to refill the hyperspace relays, because their signal was low."`
+			`<CN-7798>`
+			`<CN-7799>`
+			`<CN-7800>`
+			`<CN-7801>`
+			`<CN-7802>`
+			`<CN-7803>`
+			`<CN-7804>`
+			`<CN-7805>`
+			`<CN-7806>`
 
 
 
@@ -840,7 +840,7 @@ news "hyperspace scientist"
 			"Hyperspace specialist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"It's hard to believe that modern-day society relies on what is effectively magical space highways."
 			"Even centuries later, we still know barely more than Charles Plot, father of the hyperdrive, did about how the hyperspace lanes were formed. All we've learned since then is apparently some other race the Quarg know is involved with them."
@@ -851,7 +851,7 @@ news "hyperspace scientist"
 			"Our field is not rocket science. We deal with actually hard problems."
 			"Can you imagine that people once thought that nothing could go faster than the speed of light? And here we are now with our hyperspace lanes."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -864,7 +864,7 @@ news "geological engineer"
 			"Geological engineer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"With the right equipment, you can see inside a planet as easily as if it were... um... a tomato held up in front of an arc lamp. Sorry, I'm awful at similes."
 			"I have equipment that would let me trigger an earthquake just by pressing a button. That's why they never allow me into the office when I'm drunk."
@@ -872,7 +872,7 @@ news "geological engineer"
 			"A few times, I've traveled so deep underground that the rock felt warm to the touch. But I imagine that's nowhere near as exciting as traveling through space."
 			"I can't believe how annoying it must've been in the distant past to be a geological engineer, with you on one side, the thing you're trying to study on the other, and 15 kilometers of solid rock in between. Thankfully, technology and scanners have marched on since then, and those depressing days are long gone."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -885,7 +885,7 @@ news "electrical engineer"
 			"Power networks expert"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Earth has a weird power-distribution network, where the polarity of home outlets changes 50 or 60 times per second. Every other planet just uses a positive and negative polarity for outlets."
 			"Earth has a beautiful power-distribution network, where the polarity of home outlets changes 50 or 60 times per second. Other planets use DC current and need to add measures to ensure that polarity is matched, but on Earth the outlets are symmetrical by default."
@@ -894,7 +894,7 @@ news "electrical engineer"
 			"I'm so happy that I'm certified to work on the Paradise Planets. Both pay and climate are much better there."
 			"I caused a power outage affecting more than half of the planet. Could you transport me to some place far from here?"
 		word
-			`"`
+			`<CN-7796>`
 
 news "agricultural scientist"
 	location
@@ -905,7 +905,7 @@ news "agricultural scientist"
 			"Agricultural scientist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I hope you checked your shoes for invasive species before setting foot on my planet. The last thing we want is for our crops to get infected with the Arcturan Blight."
 			"Even though there are some alien ungulates that put on weight much quicker than Earth animals, or that have much leaner meat, most people still prefer to eat cows."
@@ -913,17 +913,17 @@ news "agricultural scientist"
 			"People have been farming for thousands of years, but finding the best way to maximize yields without wearing out the land is still a hard problem to solve."
 			"Don't ever forget that you have us to thank for humanity's ability to support our growing population."
 		word
-			`"`
+			`<CN-7796>`
 
 
 phrase "athlete competition location"
 	word
-		"Earth"
-		"Pearl in the Phurad system"
-		"Valhalla in the Epsilon Leonis system"
-		"Bourne in the Gamma Corvi system"
-		"Trinket in the Sargas system"
-		"Shangri-La in the Polaris system"
+		"<WR-1554>"
+		"<WR-8900>"
+		"<WR-8901>"
+		"<WR-8902>"
+		"<WR-8903>"
+		"<WR-8904>"
 
 
 
@@ -936,7 +936,7 @@ news "athlete"
 			"Athlete"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I'm planning to compete in a game on ${athlete competition location}!"
 			"I tried to compete in the Burthen Triathlon once, but the gravity was too much for me. Now I'm training to try again next year!"
@@ -948,7 +948,7 @@ news "athlete"
 			"I once went to a sports event on Dancer in the Rastaban system, but never again! All activities were indoors because of the horrible weather the planet has."
 			"You want to sponsor me? I've never lost a race! How many have I won? Well..."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -961,7 +961,7 @@ news "dentist"
 			"Dentist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Remember to pack a toothcleaner for your journey!"
 			"My new anti-cavity campaign is called 'Plaque Doesn't Deserve a Plaque.' Do you like it?"
@@ -971,7 +971,7 @@ news "dentist"
 			"I used to work as a back-alley doctor before getting this job."
 			"9 out of 10 dentists think the 10th dentist is an idiot."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -984,14 +984,14 @@ news "epidemiologist in human space"
 			"Epidemiologist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"People always worry about extra-terrestrial viruses and bacteria, but the deadliest diseases are very often caused by microbes we brought with us to the stars from good old Mother Earth."
 			"Would you be willing to donate a saliva sample? Frequent interstellar travelers are the primary vector for pandemics, so we're supposed to monitor any starship captains that come through here."
 			"It's been so many centuries since the Rigellian Plague that most spaceports don't even have quarantine facilities anymore. When the next big one comes, we'll be woefully unprepared."
 			"Don't listen to those conspiracy theories that say you can catch awful viruses from the Quarg. Their physiology is so alien that we're immune to all their diseases."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1004,14 +1004,14 @@ news "epidemiologist on quarg world"
 			"Epidemiologist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"People always worry about extra-terrestrial viruses and bacteria, but the deadliest diseases are very often caused by microbes we brought with us to the stars from good old Mother Earth."
 			"Would you be willing to donate a saliva sample? Frequent interstellar travelers are the primary vector for pandemics, so we're supposed to monitor any starship captains that come through here."
 			"It's been so many centuries since the Rigellian Plague that most spaceports don't even have quarantine facilities anymore. When the next big one comes, we'll be woefully unprepared."
 			"Don't listen to those conspiracy theories that say you can catch awful viruses from the Quarg. Their physiology is so alien that we're immune to all their diseases."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1024,14 +1024,14 @@ news "economist"
 			"Economist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We're actually required by local law to predict that the economy will continue to do well, because the government thinks that any dire predictions will be a self-fulfilling prophecy."
 			"It's crazy that we live in an age where technology lets us predict solar storms a month in advance, but we still can't predict what the stock market will do a week from today."
 			"The hardest part of being an economist isn't the difficulty of seeing a disaster coming; it's the difficulty of convincing those in power to do something about it."
 			"An economy is almost like a living organism, and if you're able to grasp its intricacy and scope, it's actually a very beautiful thing."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1044,7 +1044,7 @@ news "mechanic"
 			"Mechanic"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Don't worry, I keep a strict no-smoking policy when working near the fuel system."
 			"You should really have your coolant system flushed every 50,000 light-years."
@@ -1057,7 +1057,7 @@ news "mechanic"
 			"Pass me the 10 mm socket wrench?"
 			"If it ain't broken, then don't come to me."
 		word
-			`"`
+			`<CN-7796>`
 
 news "mechanic on frozen world"
 	location
@@ -1068,13 +1068,13 @@ news "mechanic on frozen world"
 			"Mechanic"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"If the generators or heaters fail, you could have a lot of very cold folks right quick."
 			"People don't appreciate the toll this climate takes on infrastructure and machinery. Expanding ice cracks concrete. Shrinking metal cracks ships."
 			"If your ship is deploying any surface vehicles, be sure to have them properly winterized with low-temperature oils and lubricants."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "ship salesperson"
@@ -1092,7 +1092,7 @@ news "ship salesperson"
 			"dealer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"When one hatch closes, another one opens. Other than that, it's a pretty good spaceship."
 			"First I tell my customers how very durable my ships are. And after they buy, I tell them about all the fragile parts to convince them to also buy an extended warranty."
@@ -1108,7 +1108,7 @@ news "ship salesperson"
 			"Why buy that fuel inefficient Flivver, when you can save 100 credits per year on fuel by spending 150k credits more on a Heavy Shuttle?"
 			"The left wing doesn't know what the right wing is doing, so you need to add a little bit of manual steering."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1121,7 +1121,7 @@ news "nuclear technician"
 			"Nuclear technician"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Last year all the hair on the left hand side of my face turned white and fell out. The company swears it was just a weird illness and had nothing to do with my work."
 			"My kids keep asking me to bring a bar of plutonium home for them to play with. Some stupid video convinced them that it would give them super powers."
@@ -1131,7 +1131,7 @@ news "nuclear technician"
 			"Ever used a fusion reactor in your ship? Feel free to thank one of us."
 			"The most terrifying word in my profession is 'Oops.'"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1144,7 +1144,7 @@ news "substance abuse counselor"
 			"Substance abuse counselor"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I know some folks try to talk captains like you into carrying drugs on the side. I wish all of you could see the real human cost of that industry."
 			"Zooming around in your fancy spaceship, I bet you don't realize the sort of desperation that some of the folks down here below you are carrying around."
@@ -1152,7 +1152,7 @@ news "substance abuse counselor"
 			"Honestly, drugs are a problem throughout human space, but the richer folks have the resources to keep their addictions well-managed and well-hidden."
 			"If someone ever offers you a drug running job, I beg you to deny it and direct them toward one of us. That person will thank you later."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1168,7 +1168,7 @@ news "reporter"
 			"Reporter"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I'm doing a human interest story about a llama that stowed away in a ship's cargo hold. Llamas are so cute, people will watch anything that involves them."
 			"My job is to bring sunlight into dark places and expose things that people are trying to keep hidden... and to avoid being killed in the process."
@@ -1183,7 +1183,7 @@ news "reporter"
 			"'11 signs that you are dealing with a corporate executive.' Read my blog to protect yourself from those psychopaths!"
 			"Do you know Betteridge's law of headlines? Any headline that ends in a question mark can be answered by the word 'no.'"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1199,7 +1199,7 @@ news "public relations worker"
 			"Crisis consultant"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"If you ever get accused of smuggling drugs, then the first person to call is not your lawyer, but me."
 			"It doesn't matter if an accusation is true or false. What does matter is if an accusation is made public or not."
@@ -1207,7 +1207,7 @@ news "public relations worker"
 			"I'm so happy for you that I'm here. You look like you could use some good marketing advice."
 			"There is no such thing as bad publicity. Just make sure you are not forgotten."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1220,7 +1220,7 @@ news "museum curator"
 			"Museum curator"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"You would not believe the sorts of things that the inhabitants of ancient Earth did for entertainment back before interstellar travel was a reality."
 			"I operate an arboretum with trees and shrubs from more than fifty worlds. Fortunately, none of them are particularly invasive species."
@@ -1232,7 +1232,7 @@ news "museum curator"
 			"Did you know Cleopatra lived closer in time to the invention of the hyperdrive than the building of the pyramids?"
 			"The museum bought an ancient shuttle called 'The Theseus,' but the engines, the hull, the power systems and every other part of it have been replaced since its construction. Is it still an ancient shuttle when every part has been replaced?"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1245,7 +1245,7 @@ news "actor"
 			"Actor"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We're doing a production of the Scottish Play where the three witches are made up to look like Quarg. I know it sounds weird, but it works in our context."
 			"I just finished a project doing voice acting for an animated children's book. It's kind of a relief to be done with it, honestly. Certain lines are still stuck in my brain."
@@ -1255,7 +1255,7 @@ news "actor"
 			"Hey, you are so beautiful, do you want to marry me? Haha, just kidding, I'm rehearsing for my new role."
 			"Don't be fooled by my jovial appearance onstage. I take my work very seriously."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1268,7 +1268,7 @@ news "musician"
 			"Musician"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Excuse me! I seem to have lost my violin. Have you seen it?"
 			"You think human critics are hard to impress? Try performing for the Quarg!"
@@ -1281,7 +1281,7 @@ news "musician"
 			"Stories about alien lifeforms became a lot more popular after humanity actually met alien lifeforms."
 			"It takes surprisingly little space to transport a band on a tour. Eight free bunks and only a little cargo space, so long as they are good at packing."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1294,7 +1294,7 @@ news "technical writer"
 			"Technical writer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Do you have a few minutes to listen to my thoughts on the importance of the serial comma?"
 			"People who over-use the passive voice should be lined up and shot. It doesn't make your writing more formal, it just makes it harder to read."
@@ -1303,7 +1303,7 @@ news "technical writer"
 			"Be careful with the word 'awesome' on other planets. Here it means something great, but somehow the meaning changed to something awful on some other planets."
 			"Can you imagine that in the time before the Republic there were dozens of different programming languages? I wonder how they ever got any programming jobs done."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1316,14 +1316,14 @@ news "dietitian"
 			"Dietitian"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I actually have several recipes that can make processed algae delicious. Or at least, visually appealing. Quite edible. I mean, it's not that hard to mask the taste."
 			"One of my rich clients wants me to figure out how she can subsist on eating nothing but flowers. She thinks eating the leaves and roots of plants is cruel."
 			"A few years ago I worked for the Syndicate, designing prepackaged liquid meals for factory workers. They were incredibly nutritious, but they tasted disgusting."
 			"There are probably thousands of edible native plants on every world human beings have colonized, but people still prefer the plants we brought with us from ancient Earth."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1337,7 +1337,7 @@ news "chef"
 			"Restauranteur"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"For a recent corporate gala, I constructed a fire pit large enough to roast an entire Antarean thunder-lizard. The fat was perfectly rendered. It was amazing."
 			"I'm employed as the chef on a luxury cruise ship. A Star Queen. The captain tells me that Star Queens are considered the safest way to travel in outer space."
@@ -1352,7 +1352,7 @@ news "chef"
 			"A customer recently ordered a cheeseburger without the meat. Funny way to order a cheese sandwich."
 			"If you ever start a restaurant near a spaceport, then don't call it 'The Space Bar.' You might think you're funny, but so did hundreds of other new restaurant owners before you."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1365,7 +1365,7 @@ news "insurance agent"
 			"Insurance agent"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"No, we don't sell insurance policies on private starships in this day and age. We also don't insure buildings in flood plains and houses inhabited by convicted serial arsonists."
 			"Among the Paradise Worlds, there's currently a fad of taking out insurance policies on pets, to pay for therapy if the animal dies unexpectedly."
@@ -1376,7 +1376,7 @@ news "insurance agent"
 			"A spaceship controller... is that someone that controls a spaceship, or a spaceship that controls something? The premiums and amounts of paperwork for those are quite different."
 			"What keeps me up at night? Correlated risk."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1390,7 +1390,7 @@ news "excavation specialist"
 			"Explosives worker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Those newfangled mining lasers are pretty cool, but there's nothing like good old-fashioned dynamite for shifting a lot of rock in a hurry."
 			"Sure, you may have been to outer space, but I bet you've never been ten kilometers underground."
@@ -1401,7 +1401,7 @@ news "excavation specialist"
 			"Last month, we had some loony pilot request a reactor upgrade after delivering some explosives to us!"
 			"I'm a former pirate. Now I've found more productive ways to blow stuff up."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1414,7 +1414,7 @@ news "chauffeur"
 			"Chauffeur"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I fly the missus to her appointments in a private shuttlecraft, because she hates being stuck in traffic."
 			"The family I work for is so rich that they pay me to ride in the back of their self-driving car just so I can open the doors for them when they arrive wherever they're going."
@@ -1426,7 +1426,7 @@ news "chauffeur"
 			"I used to have a job flying a band around, but they wanted to spend some time in the Dirt Belt, and I was hoping for work closer to the Paradise Worlds."
 			"You're not in traffic, you're part of traffic."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1439,7 +1439,7 @@ news "retiree"
 			"Pensioner"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Retiring is the best thing I ever did. They should make it mandatory!"
 			"All of my children have gone to the most prestigious academy on Hestia. They're so brilliant, it was the only place that would do."
@@ -1451,7 +1451,7 @@ news "retiree"
 			"It's amazing how much technology has progressed in my lifetime!"
 			"You wouldn't believe the kinds of ruffians they let in here. My neighbor got their fortune by winning the lottery, for goodness sake!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1464,7 +1464,7 @@ news "financial analyst"
 			"Financial analyst"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"You must be a very brave captain, if you have traveled to some of the... less civilized parts of human space."
 			"I can't believe how expensive college tuition is these days. My kid's first semester just set me back 172,000 credits!"
@@ -1477,7 +1477,7 @@ news "financial analyst"
 			"I manage 8-figure portfolios, but what gets me up in the morning is the sight of a beautiful sunrise. I know it's all geo-engineered, but is a painting any less sublime just because it was made by human hands?"
 			"Nearly lost my shirt in the commodities market last week. If my boss ever found out, it'd be curtains for me!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1491,7 +1491,7 @@ news "syndicate manager"
 			"Manager"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We've had to ask everyone to work sixty-hour weeks just to meet this month's quotas. The workers complain to me, but I tell them I'm in the same boat as they are."
 			"The Syndicate makes us take the same stupid workspace harassment training every single year. How would you like it if some bohemian outside consultant was telling you what you can and can't do in your social life?"
@@ -1529,7 +1529,7 @@ news "syndicate manager"
 			"If you are poor under capitalism, then you'd be dead under communism."
 			"I buried my late wife on the factory grounds. There are no taxes on burial grounds in this region, so she still helps the factory succeed after passing away."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1543,14 +1543,14 @@ news "work coach"
 			"Work efficiency coach"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"A startup company once hired me, and I immediately advised them to stop; hiring an expensive consultant like me is a horrible decision for a cash strapped startup."
 			"Working as the head of a company requires sound decision making abilities. Hiring an expensive consultant like me usually suggests a lack thereof, but I'm not complaining since I get paid well."
 			"My first piece of advice is always free. And let me just give it to you: I strongly recommend hiring me."
 			"Here is a piece of free advice: I strongly recommend hiring me."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1564,7 +1564,7 @@ news "scientist"
 			"Researcher"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"It's so exciting being on the cutting edge of human knowledge, but I wish it were easier to secure funding. A lot of my equipment is more than 40 years old."
 			"This neutronium alloy I'm working on will be what's armoring your next starship - no doubt about it."
@@ -1575,7 +1575,7 @@ news "scientist"
 			"I'm working on a top secret project: even I don't know what I'm doing."
 			"Working on a top secret project; would love to tell you, but then I'd need to kill you. Haha, just kidding. I'm doing research on producing staples more cheaply."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1588,7 +1588,7 @@ news "student"
 			"Student"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I'm going to be a teacher some day!"
 			"I'm going to be a doctor some day!"
@@ -1603,7 +1603,7 @@ news "student"
 			"This is the life! I'm only in like 3 classes, so my days are totally open! I know it'll end in a few years, but I'm going to enjoy it while I can. After you graduate, it's just work work work until you're dead."
 			"My parents are sending me money each month, assuming that I'm studying. But I'm actually playing a space-trading game every day, all day long. Wonder how long I can keep this up."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1613,12 +1613,12 @@ news "philosopher"
 			"Philosopher"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"If I take a grain of sand away from a heap, one at a time, then when does the heap stop being a heap?"
 			"What if we could look at ships going into hyperspace? Would they appear to be moving backwards because they are moving faster than light?"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1633,7 +1633,7 @@ news "religious"
 			"Preacher"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"May God be with you!"
 			"The path to enlightenment is fraught with sacrifice."
@@ -1647,7 +1647,7 @@ news "religious"
 			"Praise Allah! This day is a blessing."
 			"Praise God! This day is a blessing."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1663,7 +1663,7 @@ news "tourist"
 			"Traveler"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"This place is so romantic. I wish I could stay forever."
 			"I may have paid a small fortune to get here, but it was worth it! Don't you just love this place?"
@@ -1691,7 +1691,7 @@ news "tourist"
 			"We are not amused. The Star Queen Victoria is delayed by two minutes, and I need to wait here among the commoners, with no privacy whatsoever."
 			"Once more unto the beach planet, dear friends, once more."
 		word
-			`"`
+			`<CN-7796>`
 
 news "tourist on frozen world"
 	location
@@ -1704,7 +1704,7 @@ news "tourist on frozen world"
 			"Tourist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Have you ever seen so much white?"
 			"This place has such a stark beauty."
@@ -1712,7 +1712,7 @@ news "tourist on frozen world"
 			"Enjoying a hot tub while in the bitter cold really is the sort of pleasure that is frustratingly rare in the Paradise Worlds."
 			"This place is a bit colder than I expected, and I have seen snow for the first time in my life!"
 		word
-			`"`
+			`<CN-7796>`
 
 news "protester"
 	location
@@ -1723,14 +1723,14 @@ news "protester"
 			"Protester"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Stay with global companies! Don't depend on galactic companies from other worlds!"
 			"Humans were not built for traveling in space. Bad things happen when traveling at 25,000 kilometers per second!"
 			"If we were meant to be in space, then we would have been born with built-in oxygen bottles!"
 			"Give up your sinful life as spaceship captain and settle on this beautiful planet."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1744,7 +1744,7 @@ news "diplomat"
 			"Elite negotiator"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Tact is the art of making a point without making an enemy."
 			"Good counsel does no harm."
@@ -1753,7 +1753,7 @@ news "diplomat"
 			"Never trouble trouble till trouble troubles you."
 			"No raindrop likes to see itself as responsible for the flood."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1766,7 +1766,7 @@ news "mercenary"
 			"Mercenary"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I've tracked fugitives halfway across the galaxy, and they have me on... guard duty. These guys must really be desperate given the kind of money they waved in my face."
 			"Security may be expensive, but think of it this way: it's better to be poor than dead."
@@ -1777,7 +1777,7 @@ news "mercenary"
 			"Take it from me: if you want to disable ships, only use lasers. Projectile-based weapons always overkill your target."
 			"As much as I'd like to dual-wield laser rifles, I'd probably just miss every shot."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1790,7 +1790,7 @@ news "republic soldier"
 			"Republic soldier"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I bet you think that starship of yours is hot stuff, huh? Try tooling around in a cruiser with Atomic Engines sometime. You can run circles around interceptors."
 			"As soon as I leave the service, I'm buying my own ship like yours. It'll be nice to give the orders for a change!"
@@ -1801,14 +1801,14 @@ news "republic soldier"
 			"I hope I don't get posted to fighter duty next week. Those things are deathtraps. By the time you get close enough to fire your lasers, you've already lost half your shields!"
 			"Nobody thinks about the Alphas anymore, but don't forget that they just disappeared. They could return at any time. If that happens, I'm going to kill every last one of 'em."
 			"While it seems pointless to have the Bactrian locked behind a license, don't forget that it's one of the oldest designs in human space. It was the Navy Carrier of its time - and it's still comparable to one."
-			`We recently went to full alert, because somebody screamed "It's scrambled!" Turns out some rookie in the galley was enthusiastic about making scrambled eggs.`
+			`<CN-7807>`
 			"Curiosity killed the cat. Yes, the R.N.S. Curiosity landed right on top of the poor creature."
 			"We arrested a fortune teller yesterday; they didn't see it coming."
 			"Pirates were entering the ship port-side. So I took an EVA suit, flew around both ships and captured their ship."
 			"So we were fighting close quarters, when suddenly that Sparrow fired its lasers on us. We're lucky to still be alive."
 			"I once arrested one of those drunk flyers, but they walked free within two hours. Very frustrating, because the paperwork took me much longer."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "republic soldier (bragging)"
@@ -1820,7 +1820,7 @@ news "republic soldier (bragging)"
 			"Republic soldier"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"The last words of that " 2
 			"The famous last words of that "
@@ -1847,7 +1847,7 @@ news "republic soldier (bragging)"
 			"You think you can hit me over that distance?"
 			"What are you gonna do? Shoot me?"
 		word
-			`'"`
+			`<CN-7808>`
 
 
 news "lawyer"
@@ -1859,7 +1859,7 @@ news "lawyer"
 			"Attorney"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"The Dereliction and Salvage Act of 2976 states unmanned vessels gain abandoned status as soon as their owners leave the system. This makes drones a prime target for pirates and scavengers."
 			"The Capable Rescue Act of 2318 requires all manned vessels to be capable of individual spaceflight in case of an emergency. This is the oldest interstellar law still recognized today, predating the Republic by four centuries."
@@ -1871,7 +1871,7 @@ news "lawyer"
 			"Breaking the law is not always a problem. If you break a law that nobody cares about, then nobody takes you to court over it."
 			"I love 'essentially contested concepts'. Their ambiguity has helped me to win many cases."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "convicted criminal"
@@ -1884,7 +1884,7 @@ news "convicted criminal"
 			"Transported Convict"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I fought the law, and the law won."
 			"I'm innocent, I tell you! They convicted me for five murders, yet I only killed two people!"
@@ -1893,7 +1893,7 @@ news "convicted criminal"
 			"They said I took a bribe to lose the game, but that is not true! I would also have gotten the credits if we had won!"
 			"The rich just buy themselves out of legal troubles! The Mayor was in on the plan, but he got away with a fine of 1000 credits and I'm here serving five years!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "syndicate soldier"
@@ -1905,7 +1905,7 @@ news "syndicate soldier"
 			"Syndicate soldier"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"What a terrible posting. I thought I'd filed my transfer paperwork right, but it turned out my commander's seal had to be a certified original and not a copy, so now I'm stuck here for another two years."
 			"I did a stint in the Republic military a few years ago, but the Syndicate pays so much more. Now I can actually save some money for my daughter's college tuition."
@@ -1916,7 +1916,7 @@ news "syndicate soldier"
 			"My team was about to obliterate the flagship of a pirate fleet, but just before we could, we received orders to cease fire and fall back. One more second and those pirates would have been rigatoni."
 			"If you ask me, I think that the Syndicate is far too soft on the pirates - almost as if they don't want to harm them more than they need to. Don't tell my employers that I said that, though."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1935,7 +1935,7 @@ news "pirate"
 			"Bandit"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Next time we meet up, maybe I'll be plundering your ship."
 			"What are you looking at, punk?"
@@ -1984,7 +1984,7 @@ news "pirate"
 			"Join me, and together we can rule the galaxy as godfather and adjutant. Me the godfather, obviously."
 			"The competition is killing here. It really is."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -1996,7 +1996,7 @@ news "merchant in pirate space"
 			"merchant names"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Yikes! I just wanted to see what outfits were here! I'm out of here as soon as I get back to my ship!"
 			"What are you lookin' at? Don't judge me!"
@@ -2013,7 +2013,7 @@ news "merchant in pirate space"
 			"It's very silent here. Like the silence just before a huge thunderstorm hits."
 			"The average life expectancy of a pirate is fifteen years. It's actually pretty sad."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -2025,7 +2025,7 @@ news "farmer in pirate space"
 			"Farmer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Fancy folks in the big cities and the Paradise Planets think they've got life all figured out, but if you dig below the surface, you'll find that they're slaves to their lifestyles, and we're the ones who are free."
 			"I moved here from a richer world and wouldn't ever go back."
@@ -2049,7 +2049,7 @@ news "farmer in pirate space"
 			"Abandon all hope, ye who enter here."
 			"A fool and his money are soon parted, on this world."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -2061,7 +2061,7 @@ news "republic reporter in pirate space"
 			"Reporter"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I should never have taken this assignment. Yesterday I interviewed a young pirate and he tried to rob me!"
 			"It really isn't so bad here, but I have to make it sound worse than it is to keep my ratings high."
@@ -2073,7 +2073,7 @@ news "republic reporter in pirate space"
 			"Check this out! 'Telltale Signs Your Spouse is Secretly a Pirate - Number Five Says it All!'"
 			"Read my column on how to identify pirates in disguise! Or just look around this planet, that also works."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -2087,7 +2087,7 @@ news "conspiracy theorist"
 			"Truth seeker"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"The Rigellian Plague was a fake. The government used it to implant us with tracking microchips."
 			"If the Rigellian Plague really happened, how come we have so few spaceport quarantine facilities now?"
@@ -2109,7 +2109,7 @@ news "conspiracy theorist"
 			" You are being lied to!"
 			" Break the conditioning!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -2123,13 +2123,13 @@ news "player's crew member"
 			"Crew member"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I'm serving on board the '<ship>,' but I've never met the captain. Can you imagine that?"
 			"Hey Captain, good to see you here. I'm looking forward to the next trip, and, of course, my 100 credits a day."
 			"You look like a poor excuse for a captain. I'm serving onboard the '<ship>' and I'm sure that my captain is far better dressed than you."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -2201,9 +2201,9 @@ news "goods handling"
 			"Cargo unloading"
 	message
 		word
-			`You see a box with a label "Safe for transport" that seems to cover another label saying "Warning: Explosive".`
-			`A stack of large labels saying "finest quality meat" are near food-containers with smaller labels saying "not for human consumption".`
-			`A box with a label saying "this side up" is placed upside down on a cart.`
+			`<CN-7809>`
+			`<CN-7810>`
+			`<CN-7811>`
 			"A group of cargo handlers seems annoyed that a captain is unloading his ship using built-in cranes instead of using their services."
 
 
@@ -2216,31 +2216,31 @@ news "spaceport video advertisement"
 			"Spaceport video screen"
 	message
 		word
-			`You see a video of stuntmen making a jump from the edge of space. The "do not try this at home," "illegal on many planets," and "high risk/deadly" warnings at the end of the video suggest that this might become quite a popular sport.`
+			`<CN-7812>`
 			"A video of fast spaceships racing around a three dimensional course in space is shown on the screen, interwoven with clips of very luxurious ships where people appear to be watching the race."
 			"An action-packed advertisement about joining the Navy is playing on the screen. It shows impressive video-fragments of carriers, gunships, dropships and heroic marines."
-			"Some video is showing Syndicate equipment. The video ends with the slogan, 'Just what's needed to get the job done.'"
-			"Take a cruise of six days to hunt pirates, shoot real pirates for 2000 credits a day. 400 bullets included, for free."
+			`<CN-7813>`
+			"Take a cruise of six days to hunt pirates, shoot real pirates for 2,000 credits a day. 400 bullets included, for free."
 			"Buy local, buy Southbound Haulers. There is always a dealer close to you."
 
 
 
 phrase "culinary venue"
 	word
-		"pub"
-		"restaurant"
-		"cafe"
+		"<WR-8905>"
+		"<WR-8906>"
+		"<WR-8907>"
 
 
 phrase "restaurant names"
 	word
-		"The "
+		"<WR-8908>"
 	phrase
-		"civilian subphrase 2"
-		"civilian subphrase 3"
-		"civilian subphrase 4"
-		"civilian subphrase 5"
-		"civilian subphrase 10"
+		"<WR-8909>"
+		"<WR-8910>"
+		"<WR-8911>"
+		"<WR-8912>"
+		"<WR-8913>"
 
 
 
@@ -2253,7 +2253,7 @@ news "syndicate pa system"
 			"Public announcement system"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Attention: baggage should not be left unattended. Any unattended baggage will be auctioned within days."
 			"Attention factory workers: please proceed to the fast-lane immigration desk. Time spent in regular immigration lanes will not be reimbursed."
@@ -2266,7 +2266,7 @@ news "syndicate pa system"
 			"Notice: The Union gathering has moved from the spaceport ${culinary venue} to the prison facilities canteen. Please follow route 404."
 			"Attention: To the person who parked their shuttle on the baseball court: your shuttle is wrongly parked, so please move it immediately."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -2277,23 +2277,23 @@ phrase "tourist names"
 
 phrase "platform number"
 	word
-		"1" 100
-		"2" 100
-		"3" 100
-		"4" 100
-		"5" 100
-		"6" 100
-		"7" 100
-		"8" 100
-		"9" 100
-		"10" 100
-		"11" 100
-		"12" 100
-		"13" 100
-		"14" 100
-		"15" 100
-		"16" 100
-		"9 and three quarters"
+		"<WR-4695>" 100
+		"<WR-4696>" 100
+		"<WR-4697>" 100
+		"<WR-4698>" 100
+		"<WR-4699>" 100
+		"<WR-4700>" 100
+		"<WR-4701>" 100
+		"<WR-4702>" 100
+		"<WR-4703>" 100
+		"<WR-8914>" 100
+		"<WR-8915>" 100
+		"<WR-8916>" 100
+		"<WR-8917>" 100
+		"<WR-8918>" 100
+		"<WR-8919>" 100
+		"<WR-8920>" 100
+		"<WR-8921>"
 
 
 news "tourist pa system"
@@ -2305,7 +2305,7 @@ news "tourist pa system"
 			"Public announcement system"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Attention: baggage should not be left unattended. Keep an eye on your belongings at all times."
 			"Note to travelers: the planetary security level has been changed to black."
@@ -2316,63 +2316,63 @@ news "tourist pa system"
 			"This is the final boarding call for passengers ${tourist names}, ${tourist names}, and ${tourist names} ${family names}. Please proceed to platform ${platform number} for immediate boarding."
 			"Dear travelers: please take the time to adjust to normal gravity."
 		word
-			`"`
+			`<CN-7796>`
 phrase "pirate worlds"
 	word
-		"Albatross"
-		"Bloodsea"
-		"Buccaneer Bay"
-		"Covert"
-		"Deadman's Cove"
-		"Freedom"
-		"Greenrock"
-		"Haven"
-		"New Tortuga"
-		"Smuggler's Den"
-		"Stormhold"
-		"Thule"
-		"Zenith"
+		"<WR-8922>"
+		"<WR-8923>"
+		"<WR-8924>"
+		"<WR-8925>"
+		"<WR-8926>"
+		"<WR-4611>"
+		"<WR-8927>"
+		"<WR-8928>"
+		"<WR-8929>"
+		"<WR-8930>"
+		"<WR-1144>"
+		"<WR-8931>"
+		"<WR-4911>"
 
 phrase "rnas travel advisory [1]"
 	word
-		"Please be advised: a travel advisory remains in effect for"
-		"The Republic Navy strongly discourages travel to"
+		"<WR-8932>"
+		"<WR-8933>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"pirate worlds"
+		"<WR-8934>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "rnas travel advisory [2]"
 	word
-		"The Republic Navy Civilian Safety Board considers travel to"
+		"<WR-8935>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"pirate worlds"
+		"<WR-8934>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"to represent an unacceptable risk."
-		"to be extremely dangerous."
-		"to place Navy rescue personnel in unnecessary danger."
+		"<WR-8936>"
+		"<WR-8937>"
+		"<WR-8938>"
 
 phrase "rnas travel advisory [3]"
 	word
-		"Navigational hazard:"
+		"<WR-8939>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"pirate worlds"
+		"<WR-8934>"
 	word
-		" - "
+		"<WR-8940>"
 	word
-		"dangerous conditions"
-		"threat to life and property"
-		"violent non-state actors"
+		"<WR-8941>"
+		"<WR-8942>"
+		"<WR-8943>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "rnas travel advisory"
 	phrase
@@ -2382,17 +2382,17 @@ phrase "rnas travel advisory"
 
 phrase "rnas port emergency alert test"
 	word
-		"The following message is a test. The following message is a test. The following message is a test:"
+		"<WR-8944>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"Radiation hazard. Evacuate immediately. Radiation hazard. Evacuate immediately. Radiation hazard. Evacuate immediately."
-		"Hyperspace fuel leak. Evacuate immediately. Hyperspace fuel leak. Evacuate immediately. Hyperspace fuel leak. Evacuate immediately."
-		"Incoming meteor. Evacuate immediately. Incoming meteor. Evacuate immediately. Incoming meteor. Evacuate immediately."
-		"Uncontrolled spacecraft landing. Evacuate immediately. Uncontrolled spacecraft landing. Evacuate immediately. Uncontrolled spacecraft landing. Evacuate immediately."
-		"Fire. Evacuate immediately. Fire. Evacuate immediately. Fire. Evacuate immediately."
-		"Cryogenic fluid release. Evacuate immediately. Cryogenic fluid release. Evacuate immediately. Cryogenic fluid release. Evacuate immediately."
-		"Orbital bombardment. Evacuate immediately. Orbital bombardment. Evacuate immediately. Orbital bombardment. Evacuate immediately."
+		"<WR-8945>"
+		"<WR-8946>"
+		"<WR-8947>"
+		"<WR-8948>"
+		"<WR-8949>"
+		"<WR-8950>"
+		"<WR-8951>"
 
 news "republic navy advisory system"
 	location
@@ -2402,14 +2402,14 @@ news "republic navy advisory system"
 			"Republic Navy Advisory System"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"${rnas travel advisory}"
 			"Please notify Republic officials immediately if you have been detained by any ship not granted legal authority to do so by the Republic Navy."
 			"Report all sightings of pirate vessels immediately."
 			"${rnas port emergency alert test}"
 		word
-			`"`
+			`<CN-7796>`
 
 news "republic navy advisory system [wartime]"
 	location
@@ -2422,12 +2422,12 @@ news "republic navy advisory system [wartime]"
 		has "chosen sides"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Attention: Travel by civilians to rebel-held systems is to be undertaken at your own risk."
 			"Attention: Dangerous combat conditions persist in the galactic South. Avoid all travel to affected systems unless strictly necessary."
 		word
-			`"`
+			`<CN-7796>`
 
 news "explorer on frozen world"
 	location
@@ -2445,7 +2445,7 @@ news "explorer on frozen world"
 			"surveyor"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"There's only so much you can get from orbital mapping. Sometimes, you've got to gear up and go see it yourself."
 			"Cold? You don't know cold. You don't know true cold until you've been bivouacked in a scree field for a week, wondering when the storm will end."
@@ -2456,24 +2456,24 @@ news "explorer on frozen world"
 			"It's hard to have a bond with a snowcat quite like you do with a husky."
 			"It's not intuitive, but make sure you wear sunglasses here. Snowblindness is a sunburn on your corneas. Trust me, it's unpleasant."
 		word
-			`"`
+			`<CN-7796>`
 
 
 phrase "republic motto graffiti"
 	word
-		`` 2
-		`Underneath are the words "PEACE AMONG THE STARS."` 2
-		`Underneath are the words "DEATH AMONG THE STARS."`
-		`Underneath are the words "TYRANNY AMONG THE STARS."`
-		`Underneath are the words "POVERTY AMONG THE STARS."`
-		`Underneath are the words "PEACE AMONG THE PARADISE WORLDS."`
+		`<WR-34>` 2
+		`<WR-8952>` 2
+		`<WR-8953>`
+		`<WR-8954>`
+		`<WR-8955>`
+		`<WR-8956>`
 
 phrase "deep motto graffiti"
 	word
-		`` 2
-		`Underneath are the words "Peace, Prosperity, Progress."` 2
-		`Underneath are the words "Power, Poverty, Pride."`
-		`Underneath are the words "Peace, Prosperity, Progress, for those who are born lucky."`
+		`<WR-34>` 2
+		`<WR-8957>` 2
+		`<WR-8958>`
+		`<WR-8959>`
 
 news "republic navy advisory system [alphas]"
 	location
@@ -2485,12 +2485,12 @@ news "republic navy advisory system [alphas]"
 		has "alphas capture Poisonwood"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Attention: Report suspected Alpha activity to Republic authorities."
 			"For your safety, do not attempt to apprehend an Alpha. Instead, contact Republic Navy personnel at once."
 		word
-			`"`
+			`<CN-7796>`
 news "safety posters"
 	location
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2510,7 +2510,7 @@ news "safety posters"
 			"Warning"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"DAYS SINCE LAST ACCIDENT: ${digit}${digit}"
 			"HARD HATS MANDATORY"
@@ -2521,7 +2521,7 @@ news "safety posters"
 			"Sensitive electronics. Use electrostatic discharge protection in this area."
 			"Strong magnets in use. Don't enter the production hall with metal on your body."
 		word
-			`"`
+			`<CN-7796>`
 
 news "graffiti on spaceport wall"
 	location
@@ -2553,7 +2553,7 @@ news "graffiti on spaceport wall"
 			"There once was a man from New Boston / To fly's a dream he'd had often / He purchased a shuttle / Brought folks in to huddle / Why do merchants call this a coffin? - Lake"
 			"There once was a man from New Boston / He picked the ugliest of options / He purchased a star barge / Mission cargo's too large / This shipment's starting to smell rotten... - Lake"
 			"There once was a man from New Boston / His loan officer advised caution / He purchased a sparrow / Took off like an arrow- / That sparrow soon turned up at auction. - Lake"
-			`A captain with a troubled past / Passed through this system very fast / Was playing a game / Had no proper name / The captain was called "First Last."`
+			`<CN-7814>`
 			"Haikus are easy, / but sometimes they don't make sense. / Refrigerator."
 			"Haikus are easy. / I can't think of a good line. / It's snowing on Mount Fuji."
 			"A long time ago / I was respected by all, / but now I sit here."
@@ -2616,18 +2616,18 @@ news "ccor graffiti"
 
 phrase "ccor crest graffiti"
 	word
-		`"` 2
-		`Underneath are the words "`
+		`<WR-579>` 2
+		`<WR-8960>`
 	word
-		`BELENOS SHINES ACROSS THE GALAXY`
-		`THE CONFEDERATED COUNCILS WILL RETURN`
-		`RESIST THE FOREIGN OCCUPIERS`
-		`THE CCOR WILL RISE AGAIN`
-		`LIBERATE THE OUTER RIM`
-		`DISMANTLE THE SYNDICATE OLIGARCHY`
+		`<WR-8961>`
+		`<WR-8962>`
+		`<WR-8963>`
+		`<WR-8964>`
+		`<WR-8965>`
+		`<WR-8966>`
 	word
-		`!"`
-		`."`
+		`<WR-8967>`
+		`<WR-8968>`
 
 news "ccor guerrilla"
 	location
@@ -2637,7 +2637,7 @@ news "ccor guerrilla"
 			"Guerrilla"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We've suffered long enough under this government of cronies and Syndicate oligarchs!"
 			"Ever since the Republic engineered the dismantling of the Councils, our living standards have dropped considerably."
@@ -2645,7 +2645,7 @@ news "ccor guerrilla"
 			"Belenos shines across the galaxy!"
 			"Our goal is to take back the prosperity of the Outer Rim that the Syndicate has taken from us."
 		word
-			`"`
+			`<CN-7796>`
 news "ccor gendarme"
 	location
 		planet "Gagarin" "Jakobsen"
@@ -2656,17 +2656,17 @@ news "ccor gendarme"
 			"Spaceport security officer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Report any signs of guerrilla or pirate activity to us."
 			"Move along, now."
 			"If you see any defacement of local insignia, tell us and we'll have it sorted."
 			"We are here to keep the peace in this spaceport."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`You notice a spaceport guard eying you suspiciously as you pass through the corridor.`
+			`<CN-7815>`
 
 news "high tension situation"
 	location
@@ -2720,32 +2720,32 @@ news "high tension situation"
 
 phrase "pronoun"
 	word
-		"his"
-		"her"
-		"their"
+		"<WR-8969>"
+		"<WR-8970>"
+		"<WR-8971>"
 
 phrase "careless ends well"
 	word
-		"turns around to reenter the ship"
+		"<WR-8972>"
 	word
-		" as it's struck by a wave, nudging it close to the edge of the platform. The captain then moves the ship to a lowerable pad."
-		", moving it to a lowerable pad before it could be caught by a wave."
+		"<WR-8973>"
+		"<WR-8974>"
 
 phrase "careless ends poorly"
 	word
-		"ignores air traffic control and heads to the bar. The ship"
-		"argues with the controller about their landing. The ship"
-		"turns around to reenter the ship. However, it"
+		"<WR-8975>"
+		"<WR-8976>"
+		"<WR-8977>"
 	word
-		" is "
+		"<WR-2340>"
 	word
-		"struck "
-		"caught "
+		"<WR-8978>"
+		"<WR-8979>"
 	word
-		"by a wave and "
+		"<WR-8980>"
 	word
-		"swept into the sea."
-		"pushed off the pad."
+		"<WR-8981>"
+		"<WR-8982>"
 
 news "careless landing"
 	location
@@ -2773,20 +2773,20 @@ news "careless landing"
 
 phrase "ccor song description"
 	word
-		"a song about "
+		"<WR-8983>"
 	word
-		"community and everyone pitching in where they can"
-		"the tyranny of a man name Bailey, until he was overthrown"
-		"the CCOR, praising their accomplishments"
-		"resistance and opposition to the current planetary administration"
+		"<WR-8984>"
+		"<WR-8985>"
+		"<WR-8986>"
+		"<WR-8987>"
 
 phrase "worker's demands"
 	word
-		"safety regulations"
-		"increased pay"
-		"restoration of the CCOR"
-		"justice against planetary security brutality"
-		"immediate repositioning of the spaceport"
+		"<WR-8988>"
+		"<WR-8989>"
+		"<WR-8990>"
+		"<WR-8991>"
+		"<WR-8992>"
 
 news "Discontent"
 	location
@@ -2860,7 +2860,7 @@ news "betelgeuse stolen ship advisory"
 			"Televised message"
 	message
 		word
-			`"How do you know that your Betelgeuse ship`
+			`<CN-7816>`
 		word
 			" "
 		word
@@ -2899,4 +2899,4 @@ news "betelgeuse stolen ship advisory"
 			"bootleggers. "
 			"criminals. "
 		word
-			`Buy a genuine Betelgeuse ship today!"`
+			`<CN-7817>`

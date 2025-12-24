@@ -34,8 +34,8 @@ outfit "Small Graviton Thruster"
 	"flare sprite" "effect/graviton flare/graviton flare"
 		"frame rate" 5
 		"scale" .75
-	description "How exactly Quarg thrusters work is unknown, but the mechanism that powers even this small set of engines consumes more energy than some human warships. Where all this energy goes is a complete mystery."
-	description "	These engines also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships equipped with them accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+	description "<DS-3065>"
+	description "<DS-3066>"
 
 outfit "Small Graviton Steering"
 	category "Engines"
@@ -51,8 +51,8 @@ outfit "Small Graviton Steering"
 	"turning heat" .75
 	"force protection" 0.1
 	"inertia reduction" 0.1
-	description "Despite their small size, these Quarg steering engines can turn their ships on a dime. It is rumored that, unlike human steering thrusters, the Quarg do not care where on the hull these are installed, producing the same rotational moment even if directly in line with the ship's center of mass."
-	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+	description "<DS-3067>"
+	description "<DS-3068>"
 
 
 outfit "Medium Graviton Thruster"
@@ -74,8 +74,8 @@ outfit "Medium Graviton Thruster"
 	"inertia reduction" 0.15
 	"flare sprite" "effect/graviton flare/graviton flare"
 		"frame rate" 5
-	description "Quarg thrusters are quite powerful for their size and produce very little heat, but at the cost of consuming immense amounts of energy. The mechanism by which they produce thrust is unknown, but it is rumored that the passing of a Quarg ship wreaks havoc on every gravitational wave antenna in the system."
-	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+	description "<DS-3069>"
+	description "<DS-3068>"
 
 
 outfit "Medium Graviton Steering"
@@ -92,8 +92,8 @@ outfit "Medium Graviton Steering"
 	"turning heat" 1
 	"force protection" 0.15
 	"inertia reduction" 0.15
-	description "According to rumor, some Quarg ships have their steering engines installed internally, with no need for external thrusters. Much like a gyroscope, they can seemingly orient a ship from anywhere, but unlike them they never seem to saturate or become locked."
-	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+	description "<DS-3070>"
+	description "<DS-3068>"
 
 
 outfit "Large Graviton Thruster"
@@ -116,8 +116,8 @@ outfit "Large Graviton Thruster"
 	"flare sprite" "effect/graviton flare/graviton flare"
 		"frame rate" 5
 		"scale" 1.25
-	description "This large set of Quarg thrusters is both powerful and subtle, leaving behind no bright exhaust trail nor emitting any detectable radiation aside from a faint violet glow. This is juxtaposed with the extreme amount of energy these engines consume, enough to power entire stations."
-	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+	description "<DS-3071>"
+	description "<DS-3068>"
 
 
 outfit "Large Graviton Steering"
@@ -134,8 +134,8 @@ outfit "Large Graviton Steering"
 	"turning heat" 1.5
 	"force protection" 0.2
 	"inertia reduction" 0.2
-	description "Quarg ships are famed for their ability to turn quickly and precisely, as though oriented by a divine hand rather than the flickering exhaust of human steering thrusters. According to some guesses on their mode of operation, this may be closer to the truth than not."
-	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+	description "<DS-3072>"
+	description "<DS-3068>"
 
 # Power
 
@@ -150,7 +150,7 @@ outfit "Quantum Vacuum Battery"
 	"energy capacity" 60000
 	"active cooling" 25
 	"cooling energy" 1.25
-	description "Human engineers who first came into contact with the Quarg were astonished by the sheer energy density of their technology. This Quarg battery holds enough energy to level a small city, rumored to be stored in the negative quantum vacuum pressure between innumerable tiny plates. Somehow, the battery chills itself as energy is drained from it, seemingly in defiance of the human understanding of thermodynamics."
+	description "<DS-3073>"
 
 
 outfit "Antimatter Core"
@@ -163,7 +163,7 @@ outfit "Antimatter Core"
 	"outfit space" -50
 	"energy generation" 12
 	"heat generation" 10
-	description "Although humanity is now capable of producing antimatter in relatively significant quantities when compared to a thousand years ago, it is still nothing next to the output of the Quarg, who can produce enough antimatter to outfit even civilian ships with an extremely compact Antimatter Core. This device releases extreme amounts of energy in a simple, elegant package, all while producing surprisingly little waste heat."
+	description "<DS-3074>"
 
 
 outfit "Singularity Core"
@@ -177,8 +177,8 @@ outfit "Singularity Core"
 	"energy generation" 23.5
 	"heat generation" 22.5
 	"inertia reduction" 0.15
-	description "According to little more than vague allusions by the Quarg, these generators contain a minuscule black hole, spewing radiation as it is fed a trickle of mass. This black hole is small enough to output a truly staggering amount of energy via Hawking radiation, which grows in power as a black hole shrinks, something that suggests the black hole within the Singularity Core is truly microscopic."
-	description "	Further wild guesses by scientists and conspiracy theorists alike allege that the Quarg are able to somehow trick the laws of physics themselves to make this black hole weigh far less than it otherwise should, bringing its mass from that of a small moon to something a ship could have a hope of moving."
+	description "<DS-3075>"
+	description "<DS-3076>"
 
 
 outfit "Quasar Core"
@@ -192,8 +192,8 @@ outfit "Quasar Core"
 	"energy generation" 37.5
 	"heat generation" 35
 	"inertia reduction" 0.15
-	description "This larger generator appears similar to the Singularity Core, only even more powerful. Little is known about its exact function, but purely based on its name, some have speculated that the Quasar Core's increased output is the result of the black hole at its core being fed enough mass to form a small accretion disk, releasing light and heat as it falls towards the event horizon and is compressed to an unimaginable degree."
-	description "	While this process should be far less fuel-efficient than simply capturing the Hawking radiation emitted by the black hole alone, the staggering power density of this generator appears to be evidence it was worth the trade."
+	description "<DS-3077>"
+	description "<DS-3078>"
 
 
 # Systems
@@ -210,7 +210,7 @@ outfit "Aspis Shield Generator"
 	"shield energy" 2
 	"disruption protection" .2
 	"piercing protection" .4
-	description "Even the smallest example of Quarg shield generation displays defensive powers greater than what humans would normally consider to be sufficient."
+	description "<DS-3079>"
 
 
 outfit "Ancile Shield Generator"
@@ -225,7 +225,7 @@ outfit "Ancile Shield Generator"
 	"shield energy" 3.125
 	"disruption protection" .3
 	"piercing protection" .6
-	description "In addition to being able to recover their shields more quickly and efficiently than any other technology of considerable size, Quarg shield generators also provide an impressive degree of protection against weapons designed to bypass shields entirely."
+	description "<DS-3080>"
 
 
 outfit "Aegis Shield Generator"
@@ -240,7 +240,7 @@ outfit "Aegis Shield Generator"
 	"shield energy" 5
 	"disruption protection" .5
 	"piercing protection" 1
-	description "The first humans who met the Quarg thought that their technology worked on magic, and many even think so to this day. The mechanism by which this Quarg shield generator works is completely unknown to humanity, providing an astounding amount of protection, and the Quarg aren't interested in giving up the secrets behind it."
+	description "<DS-3081>"
 
 
 outfit "Peripheral Repair Hub"
@@ -254,7 +254,7 @@ outfit "Peripheral Repair Hub"
 	"fuel generation" 0.025
 	"hull repair rate" 1
 	"hull energy" .5
-	description "The repair systems employed by the Quarg operate in ways that seem to defy reality, somehow gathering matter and injecting it into a ship's hull and fuel systems. This provides essential maintenance that benefits core aspects of spaceflight - durability, longevity, and most importantly, survivability."
+	description "<DS-3082>"
 
 
 outfit "Central Repair Hub"
@@ -268,7 +268,7 @@ outfit "Central Repair Hub"
 	"fuel generation" 0.07
 	"hull repair rate" 2.5
 	"hull energy" 1.25
-	description "In a manner which is not easily discernible to humans, this system collects ambient matter in space and feeds it back to the ship from a large central hub of wires and tubes. The accumulated matter is then used to both regenerate the ship's hull and refill its fuel reserves."
+	description "<DS-3083>"
 
 
 # Weapons
@@ -302,7 +302,7 @@ outfit "Skydagger"
 		"hull damage" 6
 		"ion damage" .05
 		"scrambling damage" .05
-	description "Where overwhelming force is not necessary, these beam weapons are used in place of more powerful weapons to simply provide defense to non-combatants. However, they remain a danger not to be taken lightly."
+	description "<DS-3084>"
 
 outfit "Skylance"
 	category "Turrets"
@@ -333,7 +333,7 @@ outfit "Skylance"
 		"hull damage" 12
 		"ion damage" .1
 		"scrambling damage" .1
-	description "Despite being among the oldest and least specialized of Quarg weaponry, these immensely powerful beam weapons strike fear into the hearts of all who dare oppose them. With a design that has survived longer than humanity itself, the Skylance is an elegant weapon, one from a more civilized age."
+	description "<DS-3085>"
 
 effect "skylance impact"
 	sprite "effect/skylance impact"
@@ -363,7 +363,7 @@ outfit "Stratospear"
 		"lifetime" 1
 		"reload" 10
 		"firing energy" 40
-	description "While those who can directly match the power of Quarg energy weapons are rare, some foolish younger races have attempted to oppose the Quarg with missile-based nuclear weapons, hoping for their destructive power to even the playing field. These Quarg anti-missile defenses, firing pinpoint beams of energy, have often dashed these hopes, targeting projectiles from considerable range and ensuring that only the most powerful missiles are capable of getting near a Quarg ship."
+	description "<DS-3086>"
 
 effect "quarg anti-missile"
 	sprite "effect/quarg anti missile"
@@ -399,7 +399,7 @@ outfit "Elysian Ranseur"
 		"hull damage" 1500
 		"hit force" 600
 		"penetration count" 5
-	description "The technology behind this weapon is incomprehensibly complex, creating pulses of energy that bend spacetime itself. Powerful gravitational pulses are forced through the fold, penetrating through multiple targets with ease and delivering dangerous blows to those along the path. How the weapon is able to do any of this is only known to the Quarg."
+	description "<DS-3087>"
 
 
 effect "ranseur"
@@ -446,7 +446,7 @@ outfit "Celestial Culverin"
 		"slowing damage" 4.5
 		"fuel damage" 9
 		"missile strength" 600
-	description "This weapon tangles with spacetime in ways beyond understanding, producing gravitational forces that slow the target down. As if fulfilling their own intended destiny, the projectiles are guided to their target, disrupting their fuel systems. This utility, on top of being almost unavoidable, allows the weapon to lock down the Quarg's more distant enemies."
+	description "<DS-3088>"
 
 effect "culverin hit"
 	sprite "effect/skylance impact"
@@ -493,7 +493,7 @@ outfit "Astral Ribault"
 		"firing energy" 80
 		"firing heat" 5
 		"submunition" "ribault unguided" 2
-	description "The rapid flurries shot by this turret cover a wide area at a long range, firing a storm of negative energy particles. Attractive forces guide these particles towards their target, dealing very high damage to enemies within the immediate vicinity while keeping those that flee within the Quarg's reach."
+	description "<DS-3089>"
 
 outfit "ribault unguided"
 	weapon
@@ -563,7 +563,7 @@ outfit "Slipstream Projector"
 		"hit force" -400
 		"shield damage" 30
 		"penetration count" 100
-	description "While the exact workings of graviton tech are a mystery, it's no secret that this device manipulates gravity in such a wondrous way that it even bends the massive architecture of ringworlds to its whim. While the force is not enough to harm the delicate structure, the negative energy is powerful enough to rip off the shielding of a ship in a remarkably short period of time."
+	description "<DS-3090>"
 
 
 # Special
@@ -575,4 +575,4 @@ outfit "Phalanx System"
 	thumbnail "outfit/quarg countermeasures"
 	"capture defense" 36
 	"unplunderable" 1
-	description "With an abundance of caution regarding the potential theft and misuse of their technology, Quarg ships are outfitted with special systems for repelling boarders in a manner that could be considered overkill. Because no one wants to be caught by the Quarg with stolen technology, these systems are pretty much worthless on the open market."
+	description "<DS-3091>"

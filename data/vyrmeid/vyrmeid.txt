@@ -51,7 +51,7 @@ ship "Vyrmeid"
 	"gun" 0 -3
 	"leak" "blood" 1 2
 	"final explode" "blood"
-	description `These are tiny space creatures that feed on solar energy, storing it into two receptors found at the front of their bodies. They are extremely docile, and are found in large groups, almost never seen alone.`
+	description `<DS-3450>`
 
 outfit "Plankton Mouth"
 	category "Guns"
@@ -106,7 +106,7 @@ ship "Vyrmeid" "Vyrmeid (B)"
 		"Boomerang Organ"
 	"leak" "blood" 2 3
 	"final explode" "blood"
-	description `Oddly shaped like a boomerang, these space creatures are in a constant rotary motion caused by a small internal organ. The motion provides a natural defense against small debris and projectiles that threaten to intercept the creature, which is harmless otherwise.`
+	description `<DS-3451>`
 
 outfit "Boomerang Organ"
 	category "Turrets"
@@ -164,7 +164,7 @@ ship "Vyrmeid" "Vyrmeid (C)"
 			"piercing" 0.1
 	explode "flamethrower die" 1
 	"final explode" "fission explosion"
-	description `This species of space life is found around hotter stars and feeds on solar energy, storing it in four organs that give off the appearance of eyes. Due to all of the internal energy and pressure, these creatures explode violently upon death, which may surprise aggressors.`
+	description `<DS-3452>`
 
 effect "fission explosion"
 	sprite "effect/explosion/nuke"
@@ -236,7 +236,7 @@ ship "Astral Cetacean"
 	leak "blood" 60 60
 	explode "blood" 160
 	"final explode" "blood"
-	description `Only a few captains have had the chance to observe this illustrious creature. Its natural attenuation to the depths of space allows it to travel beyond where most ships are able, and its appearance reflects both the beauty and mystery of the void itself.`
+	description `<DS-3453>`
 
 outfit "Astral Mouth"
 	category "Guns"

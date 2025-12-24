@@ -1,0 +1,805 @@
+substitutions
+	"DL-0" `Kapitan, z którym rozmawiałeś wcześniej, ponownie dziękuje ci za uratowanie jego i jego załogi i wręcza ci <payment>.`
+	"DL-1" `Zostawiasz swój ładunek o wartości <commodity>, wyjaśniasz, w jaki sposób pierwotny sprzedawca, który podjął się zlecenia, zrezygnował i przekazał ci ładunek, i odbierasz płatność w wysokości <payment>.`
+	"DL-2" `Członkowie załogi piratów dziękują za przyprowadzenie ich do <planet>. Jeden z nich wręcza Ci niewielką zapłatę w wysokości <payment>. Życzysz im powodzenia w nowym życiu i rozstaniu.`
+	"DL-3" `Naukowcy z entuzjazmem omawiali wyniki swoich badań przez całą podróż. Cieszysz się z chwili spokoju, gdy jadą do ważnego laboratorium badawczego, by poddać wyniki analizie. Przygotowujesz się do podróży powrotnej do <planet>.`
+	"DL-4" `Żegnasz się z naukowcami i akceptujesz zapłatę w wysokości <payment>.`
+	"DL-5" `Naukowcy z entuzjazmem dzielili się wynikami prac każdego ze swoich zespołów badawczych i omawiali je przez całą podróż. Cieszysz się z chwili spokoju, gdy podążają do ważnego laboratorium badawczego, by poddać wyniki analizie. Przygotowujesz się do podróży powrotnej do <planet>.`
+	"DL-6" `<npc> ląduje obok ciebie, a zespoły naukowców w eleganckich białych fartuchach laboratoryjnych i poważnych butach oraz rękawiczkach zjeżdżają na miejsce testów z wszelkiego rodzaju egzotycznym sprzętem. Podczas gdy oni dokonują pomiarów, ty przygotowujesz się do podróży powrotnej do <planet>.`
+	"DL-7" `Osiągnąłeś <planet>, ale nie możesz ukończyć tej misji, dopóki <npc> nie odwiedzi <stopovers> razem z tobą i nie dołączy do ciebie tutaj.`
+	"DL-8" `Żegnasz się z kapitanem <npc> i przyjmujesz zapłatę w wysokości <payment>.`
+	"DL-9" `Gdy idziesz przez kosmodrom, podchodzi do ciebie mężczyzna i pokazuje identyfikator Deep Security. "Witaj Kapitanie <last>. Potrzebujemy kogoś, kto dostarczy to do <destination> do <date>, najkrótszą możliwą trasą. "`
+	"DL-10" `Gdy przechadzasz się po porcie kosmicznym, podchodzi do ciebie zapracowany mężczyzna i informuje, że <bunks> konsultanci Deep Security, w tym on sam, potrzebują pilnego transportu do <destination> do <date>, nie zostawiając czasu na międzylądowania.`
+	"DL-11" `Odwozisz pilota z poduszkowcem i pobierasz opłatę w wysokości <payment>.`
+	"DL-12" `Odwozisz drużynę wyścigową z poduszkowcem i odbierasz opłatę w wysokości <payment>.`
+	"DL-13" `Docierasz do miejsca odbioru po nocnej stronie Hefajstosa. Pracownicy Syndykatu, którzy ładują frachtowce, nie pozwalają ci zobaczyć, co znajduje się w środku ładunku i radzą ci, żebyś szybko opuścił statek po jego załadowaniu.`
+	"DL-14" `Dotarłeś do <planet>, ale czegoś Ci brakuje! Albo nie odwiedziłeś <stopovers>, albo zostawiłeś część konwoju.`
+	"DL-15" `Ty i frachtowce zostajecie skierowani do prywatnego hangaru należącego do Korporacji Tarazed. Obserwując załadunek skrzyń z ładunkiem na frachtowce, zauważasz, że na skrzyniach widnieje napis "Do otwarcia tylko przez adresata", wypisany dużymi czerwonymi literami.`
+	"DL-16" `Kiedy przybywasz, Kraz Cybernetics ma już ładunek czekający przy porcie kosmicznym. Po kilku godzinach załadunku ogromnych frachtowców, załoga portu kosmicznego daje ci sygnał „wszystko gotowe”, a kapitanowie Behemothów przygotowują się do odlotu.`
+	"DL-17" `Umieściłeś kostki na ostatniej z planet, o które poprosił Cię Paryż. Kiedy zaglądasz do torby, okazuje się, że zostały trzy. Przejdź do <destination>, aby przekazać pozostałe kostki Paryżowi.`
+	"DL-18" `Otrzymujesz wiadomość od porucznika Parisa. "Witaj, Kapitanie. Sytuacja z Belzebubem nieco się pogorszyła i teraz zaangażowana jest Marynarka Wojenna. Poproszono mnie o zebranie kupców, którzy wcześniej pomagali Głębinom w układaniu kostek. Jeśli jesteś zainteresowany, proszę przyjść na <destination>."`
+	"DL-19" `Dotarłeś do <planet>, ale część twojej eskorty jeszcze nie dotarła do systemu. Poczekaj, aż wszystkie eskorty wejdą do systemu przed lądowaniem.`
+	"DL-20" `Alnitak pogrąża się w chaosie, gdy wkraczasz do układu. Nieliczna flota obronna walczy z grupą pirackich statków, a wśród piratów twoje czujniki identyfikują trzy skradzione krążowniki.`
+	"DL-21" `Wylądowałeś na <planet>, ale piraci wciąż atakują system. Pokonaj wszystkich piratów, aby ukończyć tę misję.`
+	"DL-22" `Przybywasz o <planet>, ale zdajesz sobie sprawę, że twoja eskorta z zespołem i jego zaopatrzeniem jeszcze nie dotarła. Lepiej odejdź i poczekaj, aż eskorta wejdzie do systemu.`
+	"DL-23" `Po wylądowaniu otrzymujesz zaszyfrowaną wiadomość od nieznanego nadawcy. "Witaj, Kapitanie <last>. Twoja niedawna pomoc z Głębi jest bardzo doceniana. Chciałbym z Tobą porozmawiać na <destination>, jeśli jesteś zainteresowany." Wiadomość nie jest podpisana.`
+	"DL-24" `Przybywasz o <planet>, ale zdajesz sobie sprawę, że twoja eskorta z naukowcami i ich zaopatrzeniem jeszcze nie dotarła. Lepiej odlecieć i poczekać, aż eskorta wejdzie do układu.`
+	"DL-25" `Nie masz 10 kwantowych kamieni węgielnych, o które Ivan prosił cię w przestrzeni Hai. Powinieneś tu wrócić po ich zdobyciu.`
+	"DL-26" `Ten obszar kosmosu wydaje się być zamieszkany. Powinieneś spróbować dowiedzieć się więcej o istotach tu żyjących.`
+	"DL-27" `Wylądowałeś na <planet>, ale nie zbadałeś wystarczająco dużo przestrzeni poza tunelem czasoprzestrzennym. Wróć do tunelu czasoprzestrzennego i kontynuuj eksplorację regionu w poszukiwaniu czegoś interesującego.`
+	"DL-28" `Wróciłeś do <planet>, ale nie przebyłeś jeszcze wszystkich tuneli czasoprzestrzennych. Wróć do dziwnego regionu kosmosu i podróżuj przez pętlę tuneli czasoprzestrzennych.`
+	"DL-29" `Zakończyłeś skanowanie obcych istot w systemie. Możesz teraz wrócić do <destination> z dziennikami skanowania.`
+	"DL-30" `Pokazujesz Ivanowi logi skanera, ale on kręci głową. "To nie wystarczy. Powinno być więcej stworzeń do zeskanowania w <waypoints>. Upewnij się, że używasz też skanera strojów. "`
+	"DL-31" `Zespół jest wyraźnie podekscytowany, gdy wracasz z logi skanera. "Daj nam kilka tygodni na ich przejrzenie, " mówi Ivan. "Potem skontaktujemy się z tobą, aby omówić, co dalej. "`
+	"DL-32" `Zakończyłeś skanowanie statków Remnantów w układzie i najwyraźniej nie przyjęli tego zbyt dobrze. Możesz teraz wrócić do <destination> z logami skanera.`
+	"DL-33" `Pokazujesz Ivanowi logi skanera, ale on kręci głową. "To nie wystarczy. Powinno być więcej statków do zeskanowania w <waypoints>. Upewnij się, że używasz też skanera strojów. "`
+	"DL-34" `Zespół jest wyraźnie podekscytowany, gdy wracasz z dziennikami skanera, ale robi się jeszcze bardziej ponury, gdy wspominasz, że statki stały się wrogie po zeskanowaniu. "Daj nam kilka tygodni na ich przejrzenie, " mówi Ivan. "Potem skontaktujemy się z tobą, co mamy zrobić dalej. Mamy nadzieję, że do tego czasu, jeśli wrócimy, statki nie będą już tak zdenerwowane. "`
+	"DL-35" `Wylądowałeś na <planet>, ale nie posiadasz ani silnika napędowego klasy Forge, ani układu kierowniczego klasy Forge. Wróć na <planet> po zdobyciu obu silników.`
+	"DL-36" `Wylądowałeś na <planet>, ale nie masz Ogniwa Milenijnego. Wróć na <planet> po zdobyciu generatora.`
+	"DL-37" `Wylądowałeś na <planet>, ale nie masz działa inhibitora. Wróć na <planet>, gdy już będziesz mieć broń.`
+	"DL-38" `Wylądowałeś na <planet>, ale nie umieściłeś dwóch sześcianów na wszystkich światach Remnantów. Wróć na Pustkowie Żaru i upewnij się, że umieściłeś urządzenia szpiegujące na <stopovers>.`
+	"DL-39" `Po wejściu na Betelgezę nie dostrzegasz śladu Królowej Gwiezd. Piraci musieli ją schwytać i uciec do pobliskiego układu.`
+	"DL-40" `Gdy wjeżdżasz do Arneb, twoje skanery wykrywają lądowanie Star Queen na Haven. Niestety, w twoim kierunku zmierza również duża liczba statków pirackich. Powinieneś zameldować się w Paryżu na <destination> po dalsze instrukcje.`
+	"DL-41" `Wylądowałeś w Walhalli, ale nie znalazłeś Królowej Gwiezdnej! Znajdź ją gdzieś na Dalekiej Północy.`
+	"DL-42" `Wylądowałeś na Haven, ale zostawiłeś <npc> za sobą! Poczekaj, aż <npc> wleci do systemu, zanim wylądujesz.`
+	"DL-43" `Gdy ryczą twoje silniki, dostrzegasz wielki piracki statek górujący nad planetą. Nawet od spodu to bez wątpienia baktrian, ale to, jak pirat mógł go zdobyć, pozostaje zagadką.`
+	"DL-44" `	Otrzymujesz transmisję od porucznika Parisa. "Mam ciche podejrzenie, że za tym może stać Belzebub. Sugeruję, żebyśmy natychmiast stąd wyskoczyli i wrócili żywi do Głębin, zanim zajmiemy się tym baktrianinem."`
+	"DL-45" `Wylądowałeś na Walhalli, ale zostawiłeś <npc>! Poczekaj, aż wejdzie do systemu, zanim wylądujesz.`
+	"DL-46" `Wylądowałeś w Walhalli, ale nie zabiłeś Baktriana! Wróć do Arneba i dopilnuj, aby Baktrian został zniszczony i na zawsze wyrwał się z rąk piratów.`
+	"DL-47" `Dotarłeś do <planet>, ale twoja eskorta ze Skaldgarem jeszcze nie przybyła! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-48" `Skaldgar jest tak czysty, jak go widziałeś: wyszorowany, ogolony i ubrany w przyzwoite ubrania, choć o kilka dekad niemodne. Jego oczy błyszczą, gdy odwraca się do ciebie.`
+	"DL-49" `Dotarłeś do <planet>, ale twoja eskorta ze Skaldgarem nie przybyła! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-50" `Krzątanina Helheima grozi przytłoczeniem zmysłów, a Skaldgar, pomimo wieku i choroby, wydaje się drżeć, gdy wychodzi z twojego statku i wkracza w tłum.`
+	"DL-51" `Okazuje się, że nie ma potrzeby szukać Helma, ponieważ będzie na ciebie czekał po wylądowaniu.`
+	"DL-52" `Dotarłeś do <planet>, ale twoja eskorta z Thorleifem i Helmem jeszcze nie przybyła! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-53" `Dotarłeś do <planet>, ale twoja eskorta z miejscem zarezerwowanym dla Thorleifa i Ragnhildy jeszcze nie przybyła! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-54" `Zrzucasz ładunek <commodity> i odbierasz zapłatę w wysokości <payment>. Grupa <planet> obywateli dziękuje ci i żegna cię.`
+	"DL-55" `Życzysz swojemu <passengers> wszystkiego najlepszego na <planet>. Dzieci uciekają z twojego statku pomalowane na zielono, a rodzice płacą ci <payment>.`
+	"DL-56" `Pracownicy kosmoportu, ubrani już odświętnie na Dzień Pamięci, zabierają ładunek <commodity> z twojego statku i wręczają ci zapłatę w wysokości <payment>.`
+	"DL-57" `Pasażerowie dziękują Ci za odwiezienie ich do <planet>, a Ty odbierasz zapłatę w wysokości <payment>.`
+	"DL-58" `Kapitan <npc> dziękuje ci za bezpieczne eskortowanie ich statków i płaci ci <payment>.`
+	"DL-59" `Kiedy wylądujesz na <planet>, podejdzie do ciebie Freya Winters. Da ci <payment> w zamian za twoje logi skanera systemów południowych. "Dziękuję, Kapitanie. Modlę się, żeby piraci nie sprawili ci zbyt wielu kłopotów, " mówi. "Odezwę się, gdy będziemy mieli dla ciebie nowe zadanie, zakładając, że nadal jesteś zainteresowany. "`
+	"DL-60" `Otrzymujesz wiadomość od Freyi, oficer milicji odpowiedzialnej za śledzenie aktywności piratów. "Witaj, Kapitanie <last>. Mam nadzieję, że nadal jesteś zainteresowany udziałem w naszym programie Tysiąca Oczu. Potrzebujemy więcej informacji o pustych systemach w środku Pasa Brudu, " mówi. "Zapłata byłaby trochę lepsza niż ostatnio, ponieważ te systemy są trochę bardziej oddalone. Tak jak poprzednio, wróć do <destination>, gdy skończysz."`
+	"DL-61" `Przesyłasz logi czujników do Frei. Podziękuje ci za pracę i zapłaci <payment>. "Dam ci znać, kiedy znów będziemy potrzebować twoich usług, " mówi.`
+	"DL-62" `Otrzymujesz kolejną wiadomość od Frei: "Witaj, Kapitanie! Tym razem mam dla ciebie bardziej wymagającą i lukratywną misję. Potrzebujemy kogoś, kto przeleci nad czterema systemami pirackimi graniczącymi z Południem, aby ocenić ich siłę. Ponownie, nie ma potrzeby walki, wystarczy wlatywać i wylatywać z systemów tak szybko, jak to możliwe. Jesteśmy gotowi zapłacić znacznie więcej niż za poprzednie zlecenie, biorąc pod uwagę związane z tym ryzyko. Co ty na to?"`
+	"DL-63" `Freya Winters spotka się z tobą osobiście wkrótce po lądowaniu. "Cieszę się, że wciąż jesteś cały i zdrowy. Modlę się, żebyś nie miał większych problemów, " mówi, wręczając ci chip kredytowy na <payment>. "Byłeś dla nas bardzo pomocny. Na pewno się z tobą skontaktuję, kiedy następnym razem będziemy potrzebować zwiadowcy. "`
+	"DL-64" `Po raz kolejny otrzymujesz wiadomość od Freyi Winters. "Mamy dla ciebie kolejną misję, " mówi, "tym razem nieco bardziej niebezpieczną. Słyszeliśmy plotki o pirackiej flocie gromadzącej się w jednym z rzadko odwiedzanych układów w Pasie Ziemi i musimy wiedzieć, gdzie się znajdują. Chcesz pomóc w ich namierzeniu? Tak jak poprzednio, nie musisz walczyć, wystarczy ich obserwować. "`
+	"DL-65" `Zlokalizowałeś flotę piratów. Czas wrócić do <planet> i poinformować Freyę o swoich odkryciach.`
+	"DL-66" `Dotarłeś do <planet>, ale jeszcze nie zlokalizowałeś floty piratów! Lepiej odejdź i upewnij się, że sprawdziłeś <marks>.`
+	"DL-67" ` Meldujesz Frei, że znalazłeś sporą flotę piratów w układzie Naper, a także zauważyłeś piratów gdzie indziej. Ona ci dziękuje i płaci <payment>. "Dziękuję za pomoc, " mówi. "Jeszcze raz, dam ci znać, jeśli będziemy cię potrzebować. "`
+	"DL-68" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że oficer milicji jest w jednej z twoich eskort, która jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-69" `Oficer milicji dziękuje ci za podwózkę i płaci <payment>. Odchodząc, mówi: "Jeśli chcesz dla nas więcej pracować, idź do baru w porcie kosmicznym i znajdź mojego dowódcę. Powiem mu, żeby na ciebie uważał."`
+	"DL-70" `Lądujesz na <planet>, ale nie zeskanowałeś jeszcze krążownika marynarki wojennej patrolującego układ. Wypłyń i zeskanuj wyposażenie krążownika przed powrotem.`
+	"DL-71" `Wkrótce po lądowaniu na twoim statku pojawia się kapitan milicji i płaci ci <payment> w zamian za logi czujników dotyczące <npc>. Mówi: "Jeśli jesteś zainteresowany dalszą pracą dla nas, spotkajmy się w barze w porcie kosmicznym za godzinę."`
+	"DL-72" `Przeskanowałeś wszystkie statki, które tu znajdziesz i które najwyraźniej zostały ulepszone do walki. Czas wrócić do <planet>, aby odebrać zapłatę.`
+	"DL-73" `Lądujesz na <planet>, ale nie zeskanowałeś jeszcze krążowników marynarki wojennej patrolujących Menkent. Wypłyń i zeskanuj wyposażenie krążowników przed powrotem.`
+	"DL-74" `JJ spotka się z tobą zaraz po wylądowaniu, a ty oddasz mu dane ze skanera w zamian za <payment>. "Dziękuję jeszcze raz, " mówi. "Jeśli jesteś chętny na jeszcze jedną misję rozpoznawczą, spotkajmy się w barze. "`
+	"DL-75" `Minutę po twoim lądowaniu, tuż obok ciebie ląduje republikańska kanonierka, <npc>. JJ nie podchodzi. Z dziennika pokładowego dowiadujesz się, że kanonierka śledzi cię od momentu opuszczenia <origin>; zanim będziesz mógł przekazać jej informacje, musisz uciec przed jej pościgiem.`
+	"DL-76" `Dotarłeś do <planet>, ale zostawiłeś część konwoju! Lepiej odejdź i poczekaj, aż dotrą do tego układu gwiezdnego.`
+	"DL-77" `Wróciłeś do <planet>, ale <npc> nie ma z tobą. Jeśli jeszcze go nie naprawiłeś, udaj się do <waypoints>, aby to zrobić, albo odejdź i poczekaj, aż dotrze do tego układu, jeśli już to zrobiłeś.`
+	"DL-78" `Stado "Rat" zostało wyeliminowane. Możesz odebrać nagrodę, wracając do <destination>.`
+	"DL-79" `Oficer milicji, który poprosił cię o ściganie "Rat Pack", przybywa na twój statek wkrótce po wylądowaniu i serdecznie ci dziękuje. "Teraz nie będziemy musieli się już martwić, że będą nękać statki w tym sektorze." Płaci ci nagrodę w wysokości <payment> i mówi, że opowie innym dowódcom milicji, jak bardzo byłeś pomocny.`
+	"DL-80" `Oficer milicji, który poprosił cię o ściganie <npc>, spotyka cię w porcie kosmicznym i płaci ci <payment>. "Jeszcze raz dziękuję za pomoc, " mówi.`
+	"DL-81" `Oficer milicji, który poprosił cię o ściganie <npc>, kontaktuje się z tobą wkrótce po wylądowaniu. "Wyświadczyłeś nam wielką przysługę, "mówi. "Powiem Radzie, jak bardzo mi pomogłeś. "Wręcza ci zapłatę w wysokości <payment>.`
+	"DL-82" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Martym, Sarą i zaopatrzeniem medycznym jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-83" `Lądujesz na <planet>, ale twoja eskorta z miejscem dla Pana Oka jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-84" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Pan Oczy jest na pokładzie jednego z twoich eskort, który jeszcze nie wszedł do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-85" `Lądujesz na <planet>, ale nie masz kapsuły obserwacyjnej. Musisz unieszkodliwić drona obserwacyjnego Marynarki Wojennej i zabrać z niego wyposażenie, zanim wrócisz.`
+	"DL-86" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Katya i Pan Oczy są na pokładzie jednego z twoich eskort, który jeszcze nie wszedł do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-87" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Katya i Brat Greg są w jednej z twoich eskort, która jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-88" `Wylądowałeś na <planet>, ale nad tobą wciąż krążą okręty marynarki wojennej. Powinieneś wystartować i pomóc je wykończyć.`
+	"DL-89" `Marynarka wojenna została odparta, ale za ogromną cenę. Powinieneś odwiedzić kosmodrom i sprawdzić, czy jest tam Tomek albo ktoś inny, kto mógłby ci powiedzieć, co dalej robić.`
+	"DL-90" `Nad nami wciąż patrolują okręty marynarki wojennej. Pozostawanie na <planet>, podczas gdy twoi sojusznicy giną na orbicie, byłoby bardzo złym pomysłem.`
+	"DL-91" `Dotarłeś do <planet>, ale zostawiłeś część konwoju! Lepiej odejdź i poczekaj, aż dotrą do tego układu gwiezdnego.`
+	"DL-92" `Wysadzasz jeńców Marynarki Wojennej na <planet>. Czas wrócić na Głębinę ze swoją flotą, zanim zawieszenie broni się skończy.`
+	"DL-93" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Alondo jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-94" `<npc> został wyeliminowany. Czas wrócić do <destination> i zameldować się u Barmy'ego Edwarda.`
+	"DL-95" `Wróciłeś do <planet>, ale twoja misja nie jest ukończona - albo Czerwony Nil nie został zniszczony, albo zostawiłeś za sobą Walące się Okno-Roletę.`
+	"DL-96" `Upewniasz się, że wszystkie dziesięć barek gwiezdnych bezpiecznie wylądowało, a następnie meldujesz się u kwatermistrza. Podziękuje ci za pracę i wspomni, że Tomek prosił cię o spotkanie w barze w porcie kosmicznym.`
+	"DL-97" `Zbadałeś wszystkie cztery pirackie systemy, które Tomek ci kazał odwiedzić. Czas wrócić do baru w porcie kosmicznym i sprawdzić, czy na ciebie czeka.`
+	"DL-98" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z senatorem Huygensem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-99" `Twoja flota patrolowa wciąż szuka miejsc do lądowania, ale zadanie dobiegło końca. Czas udać się do baru w porcie kosmicznym i sprawdzić, czy Tomek tam jest.`
+	"DL-100" `Wylądowałeś na <planet>, ale piraci wciąż bronią systemu. Wszyscy piraci w systemie muszą zostać wyeliminowani, zanim <planet> zostanie zdobyte.`
+	"DL-101" `Po starcie otrzymasz wiadomość z Terebinth, transportu Alondo. "Witaj, Kapitanie <last>. Tu kapitan F.S. Terebinth. Mam Radę na holu. Wiem, że Greenrock został stłumiony, ale nie zdziwiłbym się, gdyby pojawili się piraci szukający zemsty. Zechcesz mnie osłaniać w drodze do <planet>? Dzięki."`
+	"DL-102" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z JJ jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-103" `Po wejściu do <system> dostrzegasz statki Wolnych Światów walczące z Marynarką Wojenną. Wygląda na to, że Marynarka Wojenna wysłała dotąd tylko niewielką siłę; pozostało tylko kilka statków i nie wydaje się, aby było ich wiele zniszczonych. Niezależnie od tego, kapitanowie Wolnych Światów broniący systemu prawdopodobnie doceniliby pomoc w oczyszczeniu reszty przed twoim lądowaniem.`
+	"DL-104" `Wylądowałeś na <planet>, ale nie ukończyłeś jeszcze wszystkich celów. Albo w układzie nadal znajdują się okręty marynarki wojennej, albo jeden z twoich okrętów z JJ jeszcze tam nie dotarł.`
+	"DL-105" `Nad nami wciąż krążą okręty marynarki wojennej. Pozostawanie na <planet>, podczas gdy sojusznicy giną na orbicie, byłoby bardzo złym pomysłem.`
+	"DL-106" `Chociaż bitwa jest wygrana, nastrój jest ponury, podobnie jak w pierwszych bitwach wojny. Pomagasz milicji opatrywać rannych po obu stronach, opiekując się ocalałymi z Marynarki Wojennej, nawet na tej surowej, śnieżnej planecie. W ciągu godziny przybywają transportowce wojsk Wolnych Światów, aby ich odebrać. Gdy transportowce startują, otrzymujesz wiadomość od Freyi, która wzywa cię z powrotem do Longjump.`
+	"DL-107" `Podczas lądowania Alondo kontaktuje się z tobą i prosi, abyś spotkał się z nim w porcie kosmicznym, jak tylko przygotujesz dla niego koję.`
+	"DL-108" `Wciąż nie możesz uwierzyć, że dotarłeś na Ziemię i wróciłeś cały i zdrowy. Alondo dziękuje ci za transport i mówi: "Teraz muszę tylko przekazać Senatowi złe wieści. Spotkamy się z JJ w barze w porcie kosmicznym za kilka godzin, jak już ustalimy, co dalej."`
+	"DL-109" `Wróciłeś do <planet>, ale nie masz Wiązki Elektronowej. Spróbuj znaleźć samotne okręty marynarki wojennej w Wei lub Alnasl, aby je unieszkodliwić i splądrować.`
+	"DL-110" `Przekazujesz Wiązkę Elektronów zespołowi naukowemu Frei. Mówią ci, że czeka na ciebie w kawiarni w porcie kosmicznym.`
+	"DL-111" `Przekazujesz Wieżyczkę Elektronową zespołowi naukowemu Frei. Mówią ci, że czeka na ciebie w kawiarni w porcie kosmicznym.`
+	"DL-112" `Lądujesz na <planet> z flotą bojową. Czas spotkać się z Freyą w porcie kosmicznym.`
+	"DL-113" `Zakończyłeś patrolowanie pobliskich systemów. Teraz możesz spotkać się z Freją w porcie kosmicznym. Miejmy nadzieję, że będzie miała dobre wieści o Katii.`
+	"DL-114" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-115" `Dotarłeś do <planet>, ale bez obu pancerników, które miałeś eskortować! Lepiej odlecieć i poczekać, aż dotrą do tego układu gwiezdnego.`
+	"DL-116" `Dotarłeś do <planet>, ale bitwa się nie skończyła - albo nie udało ci się zabić jednego z piratów, albo zostawiłeś jeden ze swoich statków w innym układzie.`
+	"DL-117" `Dotarłeś do <planet>, ale zostawiłeś frachtowce! Lepiej odlecieć i poczekać, aż dotrą do tego układu gwiezdnego.`
+	"DL-118" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że albo nie zniszczyłeś statku Ryka Bartletta, Dreada, albo twoja eskorta z JJ jeszcze nie wleciała do układu. Lepiej odlecieć i upewnić się, że zrobiłeś wszystko, co konieczne, aby ukończyć tę misję.`
+	"DL-119" `Zniszczyłeś statek Ryka Bartletta. Miejmy nadzieję, że teraz starsi na Albatrosie będą bardziej skłonni do targowania się z Wolnymi Światami.`
+	"DL-120" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z JJ i Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-121" `Dostrzegasz flotę Syndykatu krążącą nad Nowym Tybetem, gdy wlatujesz do układu, ale ku twojemu zaskoczeniu zaczynają namierzać twój statek. Nie wydają się być zainteresowani odpowiedziami na jakiekolwiek pytania dotyczące dezertera.`
+	"DL-122" `Wylądowałeś na <planet>, ale nad tobą wciąż krążą statki Syndykatu. Powinieneś wystartować i pomóc je wykończyć.`
+	"DL-123" `Dotarłeś do <planet>, ale Błękitny Tam jeszcze nie dotarł! Lepiej odlecieć i poczekać, aż dotrą do tego układu gwiezdnego.`
+	"DL-124" `Dotarłeś do <planet>, ale Wielki Brat jeszcze nie dotarł! Lepiej odlecieć i poczekać, aż dotrą do tego układu gwiezdnego.`
+	"DL-125" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Alondo i Katya są w jednej z twoich eskort, która jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-126" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Katya jest na pokładzie jednej z twoich eskort, która jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-127" `Wylądowałeś na <planet>, ale nad tobą wciąż krążą statki obcych. Powinieneś wystartować i pomóc je wykończyć.`
+	"DL-128" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Katią jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-129" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że eskorta z Katią jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie. (Jeśli eskorta nie ma napędów awaryjnych, spróbuj zaparkować ją tak, aby Katia znalazła się na twoim okręcie flagowym.)`
+	"DL-130" `Wylądowałeś na <planet>, ale nad tobą wciąż krążą statki Pugów. Powinieneś wystartować i pomóc im się wykończyć.`
+	"DL-131" `Otrzymujesz wiadomość od Freyi: "Kapitanie, potrzebujemy cię z powrotem tutaj. Chyba odkryłem sposób na przywrócenie połączenia, ale będziemy musieli wrócić do Nowej Austrii, aby to zrobić, i to szybko, zanim Pug zdąży wysłać więcej statków do tego układu. Mam też nadzieję, że masz miejsce w ładowni na sporo sprzętu. "`
+	"DL-132" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą i reflektorem grawitonowym jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-133" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Freya jest na pokładzie jednej z twoich eskort, która jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-134" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Freya i reflektor grawitonowy są na pokładzie jednego z twoich eskort, który jeszcze nie wleciał do układu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-135" `Po kilku minutach skanowania powierzchni <planet> Freya lokalizuje kolejną stację nadawczą, która pasuje do tej, którą znalazłeś na Oblivionie. Kontaktujesz się z admirałem Danforthem, aby podać mu jej lokalizację, a on wysyła załogę, aby przejęła nad nią kontrolę. Melduje ci również, że po raz kolejny najwyraźniej wszystkie Pugi opuściły planetę w trakcie bitwy. "Szkoda, " mówi. "Gdybyśmy wzięli jeńców, może udałoby nam się uzyskać od nich jakieś odpowiedzi. W każdym razie, spotkajmy się w porcie kosmicznym, kiedy będziesz gotowy pomóc w naszej kolejnej misji. "`
+	"DL-136" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek Raven! Lepiej odejdź i poczekaj, aż dotrą do tego układu gwiezdnego.`
+	"DL-137" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Katią i Sawyerem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-138" `Osiągnąłeś <planet>, ale albo zostawiłeś statek Raven, albo nie udało ci się zniszczyć niektórych statków Syndykatu, które cię obserwują.`
+	"DL-139" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Katią i Panem Okiem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-140" `Wylądowałeś na <planet>, ale nad tobą wciąż krążą pirackie statki. Powinieneś wystartować i pomóc je wykończyć.`
+	"DL-141" `Dotarłeś do <planet>, ale zostawiłeś ambasadorów! Lepiej odejdź i poczekaj, aż dotrą do tego układu gwiezdnego.`
+	"DL-142" `Dotarłeś do <planet>, ale zostawiłeś jedną ze swoich eskort! Lepiej odejdź i poczekaj, aż dotrą do tego układu gwiezdnego.`
+	"DL-143" `Dotarłeś do <planet>, ale pancerniki pozostają w tyle, ponieważ korzystają ze zwykłych hipernapędów. Lepiej odlecieć i poczekać, aż dotrą do tego układu gwiezdnego.`
+	"DL-144" `Dotarłeś do <planet>, ale część twojej floty jeszcze tu nie dotarła. Lepiej odlecieć i poczekać, aż dotrą do tego układu gwiezdnego.`
+	"DL-145" `Wylądowałeś na <planet>, ale albo nadal krążą nad tobą statki Pugów, albo zostawiłeś Freyę w tyle. Powinieneś wystartować i pomóc wykończyć Pugów albo poczekać na przybycie eskorty z Freyą.`
+	"DL-146" `Otrzymujesz wiadomość od Frei: "Kapitanie, chyba odkryłam nadajnik i rzeczywiście istnieje szansa, że uda nam się ponownie otworzyć połączenia nadprzestrzenne. Spotkajmy się na planecie jak najszybciej - musisz zanieść trochę sprzętu na Hefajstosa i tam go rozstawić. "`
+	"DL-147" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z reflektorem grawitonowym jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-148" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że pan Eyes i Andersonowie są na pokładzie jednej z twoich eskort, która jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-149" `Ijs dziękuje za podwózkę i daje ci chip kredytowy na <payment>. Mówi: "Następnie musimy odebrać trochę sprzętu od Korporacji Tarazed. Spotkajmy się w porcie kosmicznym, jeśli zechcesz pomóc jako eskorta."`
+	"DL-150" `Twoje trzy eskorty bezpiecznie lądują na Tarazed. Ich ładunek zostaje szybko rozładowany i wymieniony na sprzęt do terraformacji, którego potrzebuje Konserwatorium.`
+	"DL-151" `Wylądowałeś na <planet>, ale nie wyłączyłeś jeszcze <npc>. Wyłącz go przed powrotem.`
+	"DL-152" `Dostarczasz kartę danych z danymi Katalizatora Ramscoop do osoby kontaktowej, którą ci przydzielono w korporacji Delta V. "Doskonale," mówi. "Próbujemy powtórzyć ich pracę od miesięcy, ale to znacznie ułatwi sprawę." Wręcza ci chip kredytowy o wartości <payment> i mówi: "Skontaktujemy się z tobą, gdy rozpoczniemy masową produkcję nowych Ramscoopów. Mam nadzieję, że przydadzą się w nadchodzącym konflikcie."`
+	"DL-153" `Zniszczyłeś wszystkie frachtowce będące celem. Czas zameldować się na Wolf Pack na Solace.`
+	"DL-154" `Wylądowałeś na <planet>, ale frachtowce nie zostały jeszcze wyeliminowane. Wytrop je w układzie Sarin i zniszcz, zanim wrócisz.`
+	"DL-155" `Rex, jeden z ludzi z "Wolf Pack", z którymi rozmawiałeś wcześniej, spotyka się z tobą w porcie kosmicznym i wręcza ci chip kredytowy na <payment>. "Dobra robota," mówi. "Skontaktujemy się z tobą, gdy wybierzemy kolejny cel."`
+	"DL-156" `Konwój z żywnością został zniszczony. Możesz teraz wrócić do Solace.`
+	"DL-157" `Wylądowałeś na <planet>, ale frachtowce nie zostały jeszcze wyeliminowane. Wytrop je w układzie Gacrux i zniszcz, zanim wrócisz.`
+	"DL-158" `Po raz kolejny Rex z Wilczego Stada spotyka cię wkrótce po wylądowaniu twojego statku. Tym razem płaci ci <payment>. "Mam nadzieję, że nie sprawili ci żadnych kłopotów, " mówi. "Będziemy w kontakcie, gdy pojawi się kolejny cel do ataku."`
+	"DL-159" `Otrzymujesz kolejną wiadomość od Wilczego Stada: "Witaj Kapitanie. Przynajmniej udało nam się skierować część okrętów Marynarki Wojennej z frontu do eskorty! Twój kolejny cel, jeśli zechcesz nam pomóc ponownie, będzie nieco trudniejszy: pomocniczy frachtowiec, prawdopodobnie z eskortą Marynarki Wojennej. Frachtowiec przepływa przez układ <waypoints>. Zainteresowany?"`
+	"DL-160" `Zlikwidowałeś jednostkę pomocniczą, która przewoziła żywność do Republiki. Czas zameldować się u Wilczej Watahy i odebrać nagrodę.`
+	"DL-161" `Wylądowałeś na <planet>, ale frachtowiec nie został jeszcze wyeliminowany. Wytrop go w układzie Mizar i zniszcz, zanim wrócisz.`
+	"DL-162" `Eskortowałeś konwój bezpiecznie do celu. Robotnicy zaczynają rozładowywać bardzo ciężkie skrzynie, a jeden z kapitanów frachtowca wręcza ci <payment> i dziękuje za ochronę.`
+	"DL-163" `Wylądowałeś na <planet>, ale nie zdążyłeś jeszcze zbadać wszystkich oznaczonych systemów. Odwiedź wszystkie systemy zaznaczone na mapie przed powrotem.`
+	"DL-164" `Dotarłeś do <planet>, ale zostawiłeś część lub cały konwój! Lepiej odejdź i poczekaj, aż dotrą do tego układu gwiezdnego.`
+	"DL-165" `Wyładowujesz żołnierzy Wolnych Światów w ruchliwym porcie kosmicznym <planet> i pobierasz zapłatę w wysokości <payment>.`
+	"DL-166" `Po płynnym lądowaniu oprowadzasz swojego ucznia po wyjątkowo niebezpiecznej części kosmoportu, pełnej śmieci, bezdomnych włóczęgów i słabo oświetlonych zaułków. Wyjaśniasz mu, jak unikać kieszonkowców, unikać bójek w barach i jak rozpoznać kiepski interes w sklepie z odzieżą. Po kilku godzinach w jednej z bardziej obskurnych części galaktyki oboje nie możecie się doczekać powrotu do <origin>.`
+	"DL-167" `Wróciłeś do <planet>, ale zapomniałeś najpierw odprowadzić <npc> do <stopovers>! Lepiej najpierw tam pojedź.`
+	"DL-168" `Twój uczeń dziękuje za instruktaż i za pokazanie niektórych mniej znanych obszarów galaktyki. Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-169" `Młoda para z <origin> płaci ci i serdecznie dziękuje, zbierając swoje rzeczy i odchodząc. Życzysz im powodzenia w nowym życiu w dniu <planet>.`
+	"DL-170" `Dotarłeś do <planet>, ale twoja eskorta z miejscem zarezerwowanym dla Pookiego jeszcze nie dotarła! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-171" `Dotarłeś do <planet>, ale twoja eskorta z Pookiem jeszcze nie dotarła! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-172" `W ciągu ostatnich kilku dni Pookie bez przerwy szczekała i kilka razy wymiotowała, mimo że była karmiona zgodnie z planem, a pokój, w którym ją trzymasz, prawdopodobnie będzie pachniał psim moczem przez miesiące. Z radością oddajesz ją właścicielowi, który ci płaci <payment>.`
+	"DL-173" `Lądujesz na <planet> i szukasz Joego i Marii, ale zdajesz sobie sprawę, że byli w jednej z twoich eskort, która jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać na nich.`
+	"DL-174" `Wchodzisz w atmosferę <planet>, ale zdajesz sobie sprawę, że naukowcy i ich sprzęt byli na pokładzie jednego z twoich eskortowców, który jeszcze nie wszedł do układu. Lepiej odlecieć i poczekać na nich.`
+	"DL-175" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że naukowcy i ich sprzęt byli na pokładzie jednego z twoich eskortowców, który jeszcze nie wszedł do układu. Lepiej odlecieć i poczekać na nich.`
+	"DL-176" `Wysadzasz zespół naukowców na <planet>. Dziękują ci za pomoc i płacą ci <payment>.`
+	"DL-177" `W jednym z rogów kosmoportu spotykasz rodzinę z dwójką dzieci, a obok nich stertę kufrów i pudeł. Mówią ci, że próbują zarezerwować przelot na <planet>. "Praca stała się tu wyjątkowo trudna do znalezienia, " wyjaśnia ojciec. "Miałem siedem różnych prac w ciągu ostatniego roku i żadna z nich nie trwała dłużej niż miesiąc. Pomyśleliśmy więc, że spróbujemy szczęścia na planecie Syndykatu. Możemy ci zapłacić <payment> za fatygę. "`
+	"DL-178" `Odwozisz rodzinę z <origin> i życzysz im powodzenia na <planet>. Wydają się optymistycznie nastawieni, a ich dzieci wciąż nie mogą się doczekać swojej pierwszej podróży kosmicznej. Jesteś pewien, że będą wspominać tę podróż przez lata. Ich rodzice dziękują Ci i płacą <payment>.`
+	"DL-179" `Odwozisz młodego mężczyznę z <origin>, który ma nadzieję znaleźć pracę i zaoszczędzić wystarczająco dużo pieniędzy, żeby jego dziewczyna mogła do niego dołączyć. "Powodzenia," mówisz. "Bądź mądry. Nie daj się zadłużyć." On ci dziękuje i płaci <payment>.`
+	"DL-180" `Wysadzasz Pattersonów, rodzinę farmerów z <origin>, i pomagasz im wyładować wóz i bydło z twojego ładowni. Dziękują ci, a Jim ci płaci <payment>.`
+	"DL-181" `Grupa <bunks> naukowców podchodzi do ciebie i pyta, czy w najbliższym czasie wybierasz się na Krawędź. "Prowadzimy badania nad gwiazdami Wolfa-Rayeta, " wyjaśniają, "i mamy nadzieję znaleźć kapitana, który może przelecieć obok <waypoints>." Badania naukowe w Głębi są notorycznie dobrze finansowane, więc prawdopodobnie zapłacą ci całkiem sporo.`
+	"DL-182" `Zespół naukowców rozpakowuje swój sprzęt i dokonuje pomiarów gwiazdy. Wkrótce informują, że są gotowi do powrotu do domu.`
+	"DL-183" `Zespół naukowców dziękuje za dowiezienie ich do <waypoints> i z powrotem i płaci <payment>. Wygląda na to, że nie mogą się doczekać powrotu do laboratorium i rozpoczęcia analizy pomiarów.`
+	"DL-184" `Gdy idziesz przez kosmodrom, mężczyzna bierze cię na bok i pyta, czy chciałbyś pomóc w transporcie <tons> sztuk "leków rekreacyjnych" do <planet> dla <payment>. (Brzmi to jak nielegalna misja, więc musisz unikać skanowania i lądowania na planetach o wysokim poziomie bezpieczeństwa.)`
+	"DL-185" `Jacyś podejrzanie wyglądający miejscowi wyładowują nielegalne narkotyki z twojej ładowni i wręczają ci zapłatę w wysokości <payment>.`
+	"DL-186" `Kiedy wchodzisz do lokalnego baru, mężczyzna siedzący w kącie macha do ciebie i mówi cicho: "Kapitanie, mamy <tons> dobrego towaru, który musi dotrzeć do <planet>. Obiecuję, że to będzie bardzo dochodowa operacja. Co ty na to? "`
+	"DL-187" `Zaraz po twoim wylądowaniu zjawiają się pracownicy, żeby rozładować "rzeczy." Dają ci <payment>.`
+	"DL-188" `Elegancko ubrana kobieta podchodzi do ciebie, gdy spacerujesz po porcie kosmicznym i cicho pyta, czy zechciałbyś pomóc w transporcie pewnych "niegrzecznych substancji" pewnej osobie na <planet> za <payment>.`
+	"DL-189" `Przekazujesz nielegalne "substancje" swojemu kontaktowi na <planet>, który płaci ci <payment>.`
+	"DL-190" `Podczas popijania drinka w jednym z barów kosmoportu, nieco niechlujnie wyglądający mężczyzna w ciemnym płaszczu odciąga cię na bok i oferuje <payment> dyskretne, bez zadawania pytań, przejście do <destination>, które jest całkiem niedaleko. To może być szybka i lukratywna robota. (Brzmi to również nielegalnie, więc musisz unikać skanowania i lądowania na planetach o wysokim poziomie bezpieczeństwa.)`
+	"DL-191" `Twój tajemniczy pasażer nie odezwał się ani słowem przez całą podróż. Gdy tylko wylądujesz, wręcza ci zapłatę w wysokości <payment> i znika w tłumie.`
+	"DL-192" `Gdy idziesz przez kosmodrom, dwóch mężczyzn w nijakich ubraniach pojawia się znikąd i oferuje <payment> dyskretne, bezproblemowe przejście do <destination>. Choć mówią niewiele, odnosisz wyraźne wrażenie, że ich obecność na tej planecie i motywacja do przebywania gdzie indziej mogą być nie do końca legalne.`
+	"DL-193" `Zabierasz mężczyzn na statek, zanim ktokolwiek ich zobaczy. Kiedy pomagasz im rozpakować bagaże, jeden z nich mimochodem wspomina, że mogli przyciągnąć uwagę łowców nagród i wolałby nie zostać złapany. Ty też powinieneś unikać skanowania.`
+	"DL-194" `Twoi pasażerowie odjeżdżają po zapłaceniu uzgodnionej kwoty <payment>, by rozpocząć nowe życie i nie wiadomo co robić.`
+	"DL-195" `Grupa <bunks> groźnie wyglądających młodych mężczyzn i kobiet bezczelnie podchodzi do ciebie w biały dzień, tłumacząc, że mają kłopoty prawne i muszą jak najszybciej dotrzeć do <destination>. Oferują <payment> dyskretne przejście. Musisz mieć niezłą reputację w pewnych kręgach. Transportowanie ich może być bardzo niebezpieczne. Z drugiej strony, oferują małą fortunę...`
+	"DL-196" `Najemnicy (lub członkowie gangu, albo uciekający rabusie bankowi, albo kto wie, co jeszcze) czują się jak u siebie na twoim statku i zaczynają pić i kłócić się. Zastanawiasz się, w co się wpakowałeś...`
+	"DL-197" `Podczas podróży zrozumiałeś, że twoi pasażerowie to najemnicy, których ostatnie wyczyny postawiły ich po złej stronie prawa. Płacą ci umówioną sumę <payment> i znikają w tłumie, niewątpliwie po to, by siać chaos i zamęt wśród niczego niepodejrzewających ofiar. No cóż, nie twój problem...`
+	"DL-198" `Oddajesz swoich więźniów władzom planetarnym, które z wdzięcznością biorą ich w niewolę. Okazuje się, że byli poszukiwani i wyznaczono za nich pokaźną nagrodę. Stajesz się bogatszy o kwotę <payment>.`
+	"DL-199" `Właśnie usiadłeś w barze kosmoportu i zamówiłeś drinka, gdy ktoś w mundurze wbiega do pokoju i krzyczy: "Na <planet> doszło do wybuchu miny! Potrzebujemy wszystkich dostępnych statków, żeby przewieźć ratowników i zaopatrzenie oraz ewakuować rannych do świata, gdzie są lepsze placówki medyczne. "`
+	"DL-200" `Wysadzasz personel medyczny na <origin>. Prawie stu rannych górników czeka na ewakuację medyczną na <planet>. Czy zgłaszasz się na ochotnika, żeby ich przewieźć?`
+	"DL-201" `Odwozisz rannych górników do jednej z placówek medycznych na <planet>, która zgodziła się zająć ocalałymi. To dość chaotyczny proces, ale w końcu ktoś dziękuje ci za pomoc i płaci <payment>.`
+	"DL-202" `Gdy idziesz przez kosmodrom, podchodzi do ciebie mężczyzna i mówi: "Przepraszam, Kapitanie. Przyjąłem pilną dostawę <cargo> do <planet>, ale mój statek wymaga naprawy i nie ma szans, żebym zdążył tam przed <day>. Czy możesz podjąć się tego zadania? Zapłata za to zadanie wynosi <payment>."`
+	"DL-203" `Oddajesz przesyłkę i odbierasz zapłatę w wysokości <payment>.`
+	"DL-204" `Podchodzi do pana kobieta w garniturze i mówi: "Przepraszam, Kapitanie. Reprezentuję niedawno zmarłego klienta z <origin>, którego dokumenty prawne muszą zostać dostarczone jego najbliższym w dniu <destination>. Czy zechciałby pan podjąć się pracy kurierskiej? Dokumenty muszą zostać dostarczone do <day>, a wynagrodzenie zostanie panu zapłacone <payment>."`
+	"DL-205" `Składasz dokumenty prawne i pobierasz opłatę w wysokości <payment>.`
+	"DL-206" `W jakiś sposób udało ci się doprowadzić wielką jaszczurkę do <planet>, nie pozwalając jej uciec i zjeść cię. Wypakowujesz ją i czekasz na nowego właściciela. Kiedy nadejdzie, płaci ci <payment>.`
+	"DL-207" `Pracownicy migrujący dziękują za transport i wręczają <payment>. Masz nadzieję, że znajdą tu lepszą pracę niż w <origin>.`
+	"DL-208" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z menedżerami jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-209" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Erikiem, Alaricem i Amy jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-210" `Podczas całej podróży powrotnej Eric i Alaric byli zajęci pokazywaniem Amy map geologicznych Rand i proszeniem jej o pomysły. Gdy tylko wylądowaliście, wybiegli ze statku. "Oprowadzę Amy, " mówi Eric, "ale spotkajmy się później w barze kosmoportu, jeśli zechcecie pomóc nam w tym, co będziemy robić dalej. " Alaric wręcza wam <payment> jako zapłatę za wasze usługi, a potem idzie za nimi.`
+	"DL-211" `Wracasz do kosmoportu, gdzie Eric, Alaric i Amy patrzą na zdezorientowane spojrzenia. "Nie zamontowałeś silników na asteroidzie, "mówi Amy. "Po prostu wejdź na asteroidę, żeby je zamontować. "Amy zaczyna popychać cię z powrotem na statek, wyraźnie niecierpliwie czekając na rezultaty tego eksperymentu.`
+	"DL-212" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Amy jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-213" `Gdy tylko wylądujesz, Amy wyrusza na spotkanie z lokalnymi biologami, z którymi kontaktowała się podczas podróży. "Będziemy z powrotem w porcie kosmicznym za dwie godziny, "mówi. "Upewnij się, że masz dziesięć ton wolnego miejsca w ładowni. "`
+	"DL-214" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Amy i nasionami jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-215" `Otrzymujesz wiadomość od samej Republiki. "Kapitanie <last>. Nie przybyłeś na Ziemię na rozprawę w sprawie „nielegalnego użycia asteroidy” w wyznaczonym czasie i dlatego jesteś teraz przestępcą Republiki."`
+	"DL-216" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Amy i Nolanem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-217" `Podczas całej podróży do <planet> Amy i Nolan rozmawiali o wielu planetach w Pasie Ziemi, które idealnie nadawałyby się do terraformowania. "Nolan i ja spędzimy tu kilka następnych miesięcy, badając moje teorie, " mówi Amy, schodząc z twojego statku. "Na pewno się z tobą skontaktuję, gdy będziemy gotowi spróbować terraformować kolejną planetę. " Podaje ci <payment>, a następnie podąża za Nolanem z kosmoportu.`
+	"DL-218" `Otrzymujesz wiadomość od Amy: "Witaj, Kapitanie <last>. Chciałem tylko powiedzieć, że Nolan i ja niedawno opublikowaliśmy naszą pracę pt. „Zmniejszenie kosztów terraformacji poprzez mapowanie równowagi” i otrzymaliśmy na nią grant od Deep! Rozpoczniemy eksperymenty z terraformacją na innej planecie. Nie martw się, Republika tym razem zatwierdziła nasz eksperyment, więc nie damy się już wciągnąć w żadne sprawy o „nielegalne wykorzystanie asteroidy”. Jeśli chcesz pomóc, skontaktuj się z nami pod adresem <destination>."`
+	"DL-219" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z naukowcami i ich sprzętem jeszcze nie wjechała do układu. Lepiej odlecieć i poczekać.`
+	"DL-220" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z przedstawicielem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-221" `Wracasz do <planet>, ale nie wszyscy piraci zostali pokonani. Nie wygląda też na to, żeby mieli wkrótce odejść. Lepiej odlecieć i wykończyć ich raz na zawsze.`
+	"DL-222" `Wracasz do kosmoportu, gdzie Amy i reszta naukowców patrzą na ciebie ze zdziwieniem. "Nie zamontowałeś silników na asteroidzie, "mówi Amy. "Po prostu wejdź na asteroidę, żeby je zamontować. "Amy zaczyna wpychać cię z powrotem na statek, wyraźnie niecierpliwie czekając na wyniki tego eksperymentu.`
+	"DL-223" `Wsiadasz do drona naukowego i odkrywasz, że piraci ograbili go z niemal wszystkiego, co miało wartość: silników, czujników i ogniwa paliwowego, które go napędzały. Jednak system komputerowy jest albo zbyt głęboko zintegrowany z dronem, albo zbyt wyspecjalizowany, by być dla piratów czymś wartościowym. Przekazujesz wystarczającą ilość energii do akumulatorów drona, aby go reaktywować i odzyskać dane, których poszukiwał naukowiec. Jest jednak jasne, że ten dron, a raczej to, co z niego zostało, nigdzie się nie ruszy. Będziesz musiał go zostawić.`
+	"DL-224" `Wróciłeś do <planet>, ale nie masz danych z drona. Udaj się na Terminus i wejdź na pokład drona naukowego, aby odzyskać dane.`
+	"DL-225" `Wylądowałeś na <planet>, ale jeszcze nie znalazłeś Toda. Szukaj dalej <npc>, a potem wejdź na pokład; nie może być daleko od Zatoki Umarlaka.`
+	"DL-226" `Lądujesz na <planet>, ale pamiętaj, że Tod jest w jednej z twoich eskort, która jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-227" `Życzysz Todowi wszystkiego najlepszego na <planet>. "Dziękuję, Kapitanie. Mam nadzieję, że kiedyś będę mógł się odwdzięczyć. Choć brzmi to banalnie, zawdzięczam ci życie."`
+	"DL-228" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że dziewczyna jest w jednej z twoich eskort, która jeszcze nie weszła do systemu. Lepiej odejdź i poczekaj, aż dotrze.`
+	"DL-229" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Diana jest w jednej z twoich eskort, która jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-230" `Gdy ostatnia skrzynia z zaopatrzeniem jest wyładowywana z twojego statku, statki marynarki wojennej broniące systemu lądują. Władze lokalne dziękują ci za pomoc i otrzymujesz wynagrodzenie <payment>.`
+	"DL-231" `Ostatnie elementy obrony zostają szybko usunięte z twojego statku, ustawione na miejscu i aktywowane. Statek piracki atakujący system próbuje podążyć za tobą na powierzchnię, ale ogień z nowo zainstalowanych wieżyczek kosmoportu zmusza pirata do odwrócenia się i ucieczki na orbitę. Czas wrócić do <destination>.`
+	"DL-232" `Kapitan Wolnych Światów dziękuje ci za pomoc w umacnianiu światów granicznych i płaci ci <payment>.`
+	"DL-233" `W porcie kosmicznym, gdy wylądujesz, czeka na ciebie kilka band piratów, z których każda dowodzona jest przez innego wodza. Zabierają jedzenie z twojej ładowni jak zwierzęta, zostawiając po sobie niezły bałagan. Kiedy wracasz na statek, okazuje się, że Syndykat wpłacił <payment> na twoje konto.`
+	"DL-234" `Lądujesz na <planet> i zaczynasz rozglądać się za mężczyzną, z którym masz się spotkać, ale potem zdajesz sobie sprawę, że nie wszyscy zbiegli niewolnicy są tutaj. Lepiej odejdź i poczekaj na eskortę trzymającą resztę.`
+	"DL-235" `Nie udało ci się schwytać przemytnika i odzyskać skradzionego ładunku. To prawdopodobnie nie wpłynie dobrze na twoją reputację.`
+	"DL-236" `Lądujesz na <origin>, ale nie masz przemytnika ani skradzionego przez niego ładunku. Powinieneś uważać, żeby nie natknąć się na swój kontakt, dopóki go nie znajdziesz.`
+	"DL-237" `W banku nie czeka na ciebie żaden spadek dla pana Pappy, ale jest wiele innych ofiar, które spłaciły część kredytów, spodziewając się w zamian większej kwoty. Niektórzy robią wokół tego wielkie zamieszanie, dopóki zaalarmowane władze nie zaczną nakładać na nich grzywny za usiłowanie oszustwa spadkowego. Wychodzisz z banku w milczeniu.`
+	"DL-238" `Lądujesz na <planet>, ale Testament jeszcze cię nie dogonił. Lepiej odlecieć i poczekać, aż pojawi się w tym systemie.`
+	"DL-239" `Wylądowałeś na <planet>, ale Testament jeszcze cię nie dogonił.`
+	"DL-240" `Kiedy startujesz, szybko skanujesz wszystkie inne startujące statki. Nie widzisz śladu Esca. Może już czeka na ciebie w Umbralu.`
+	"DL-241" `Podczas zniżania się w górnych warstwach atmosfery, skoczkowie wyskakują z twojego statku, spektakularnie nurkując, aż otworzą spadochrony i bezpiecznie wylądują w pobliżu kosmoportu. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-242" `Podczas zniżania się w górnych warstwach atmosfery, skoczkowie wyskakują z twojego statku, spektakularnie nurkując, aż próbują otworzyć spadochrony. Niektóre spadochrony otwierają się tylko częściowo, a część zespołu doznaje niekontrolowanego, twardego lądowania. Zespoły medyczne reagują szybko, ale skoczkowie są zbyt zajęci opieką nad rannymi kolegami, by oddać ci należne honory.`
+	"DL-243" `Podczas zniżania się w górnych warstwach atmosfery, skoczkowie wyskakują z twojego statku. Kilka minut po skoku dochodzi do katastrofy; skoczkowie zaczynają poruszać się w niekontrolowany sposób. Nie wiadomo, czy winne były skafandry, czy zapasy tlenu, ale wydaje się mało prawdopodobne, aby którykolwiek ze skoczków bezpiecznie dotarł na ziemię. Władze badają incydent i chociaż nie dopatrzyły się poważnych uchybień z twojej strony, nadal nałożą na ciebie grzywnę <payment> za umożliwienie tak niebezpiecznego i śmiertelnego czynu.`
+	"DL-244" `Gdy schodzisz w górne warstwy atmosfery, dajesz znać swoim skoczkom, że czas na skok. Jednak po zobaczeniu odległości i warunków atmosferycznych, wszyscy są znacznie mniej entuzjastycznie nastawieni do tego pomysłu niż wtedy, gdy ich zabrałeś. Sprowadzasz ich na lądowisko, a oni płacą ci skromne <payment> przed skokiem.`
+	"DL-245" `Zakapturzona kobieta przygotowuje się do zejścia z twojego statku. Tuż przed zejściem odwraca się, żeby na ciebie spojrzeć. "Przepraszam, że groziłam ci na <origin>, Kapitanie. Postaram się jakoś odwdzięczyć. " Odchodzi do tętniącego życiem kosmoportu, żeby znaleźć swojego kochanka.`
+	"DL-246" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że nie zdobyłeś jeszcze posągów od Zielonej Skały. Lepiej wróć do Shauli i upewnij się, że Lokust zostanie pokonany, zanim zdobędziesz je na planecie.`
+	"DL-247" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Rileyem jeszcze nie wleciała do tego układu. Lepiej odlecieć i poczekać.`
+	"DL-248" `Po wylądowaniu, dokerzy zaczną ładować skrzynie z wełnianymi ubraniami na pokład zgodnie z umową. Czas obrać kurs na Krwawe Morze.`
+	"DL-249" `Twój ładunek wełnianych ubrań rozładowuje kilku potężnych robotników pod wodzą jednorękiej kobiety. Podaje ci <payment> za kłopot transportu, po czym mówi: "Dzięki za przesyłkę. Wiem, że wy, kapitanowie, uważacie nas za złych, ale cieszę się, że udało ci się pomóc tym bardziej przyjaznym z nas."`
+	"DL-250" `Jak można się spodziewać, w Moktar czekają na ciebie piraci. Niestety, <npc> nie próbuje ich zaatakować, zamiast tego kieruje na ciebie swoje działa.`
+	"DL-251" `Otrzymujesz wezwanie od <npc>: "Gotcha, niczego się nie spodziewałeś!"`
+	"DL-252" `<npc> wita cię: "Zła droga, kolego! Nie zdążysz na czas, jeśli pojedziesz całą drogę. Wróć na Mirfak, a potem na północ, zachód, południowy zachód i południe."`
+	"DL-253" `<npc> znów cię wita: "Domyśliłeś się, co? Trochę za późno, kolego. Nadal idziesz na dno."`
+	"DL-254" `Otrzymujesz wiadomość od <npc>, który jest teraz kilka systemów stąd: "Halo? Jesteś tam jeszcze? Nie wiem, co się stało, ale na wypadek, gdybyś jeszcze żył, pomyślałem, że dam ci znać, że umowa zerwana." Otwierasz ładunek, który chciał, żebyś przeniósł, i znajdujesz tylko bezwartościowe beczki wody.`
+	"DL-255" `<npc> wita cię: "Domyśliłeś się, co? Trochę za późno, kolego. Nadal idziesz na dno."`
+	"DL-256" `Dotarłeś do <planet>, ale twoja eskorta z ładunkiem jeszcze nie dotarła. Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-257" `Kontaktujesz się z zarządcami kosmoportu, a oni kierują cię na odpowiednie lądowisko, gdzie czeka już personel poczty. Przenoszą ładunek, a ty przygotowujesz się do powrotu do <origin>. Ponownie masz 10 dni na dostarczenie przesyłki.`
+	"DL-258" `Dotarłeś do <planet>, ale twoja eskorta z błędnie wysłaną pocztą nie dotarła. Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-259" `Ten sam kierownik co wcześniej czeka z ekipą rozładunkową i dziękuje ci za zastąpienie drugiego pilota, zanim wręczy ci chip kredytowy do zapłaty. Miło wiedzieć, że kapitanowie, którzy są zatrudniani do dostarczania takich błędnie nadanych przesyłek, tak jak ty kiedyś, nie będą musieli sami kończyć tych dostaw w przyszłości."`
+	"DL-260" `<npc> został wyłączony. Syndicated Security zajmie się teraz porywaczami, ale powinieneś wrócić i zgłosić się do kapitana statku.`
+	"DL-261" `Wsiadłeś na pokład Moonshake Express wbrew rozkazom oficera Syndicated Security. Kapitan statku nie będzie pod wrażeniem.`
+	"DL-262" `Zniszczyłeś Moonshake Express. Kapitan statku nie będzie pod wrażeniem.`
+	"DL-263" `Przeszedłeś przez wszystkie trzy systemy opisane w planie poszukiwań, przeprowadzając w każdym z nich głębokie skanowanie dalekiego zasięgu w poszukiwaniu transpondera Artemis Renard, ale jedyne, co udało ci się uzyskać, to zakłócenia. O ile ci wiadomo, nie ma jej w żadnym z nich.`
+	"DL-264" `Penny i Rosa dziękują za bezpieczne dowiezienie ich do <destination>, przekazując <payment> za wasze kłopoty. Życzycie im i Eduardo powodzenia w rozpoczęciu nowego życia z dala od potencjalnej wojny w przestrzeni kosmicznej.`
+	"DL-265" `Przybywasz o <planet>, ale zdajesz sobie sprawę, że twoja eskorta wioząca instalacje wystawowe jeszcze nie dotarła. Lepiej odjedź i poczekaj, aż eskorta wejdzie do systemu.`
+	"DL-266" `Załoga Złotego Klejnotu nie żyje. Myślisz, że dostrzegasz kapitana piratów dryfującego w kosmosie w pobliżu.`
+	"DL-267" `Oglądasz, jak wahadłowiec ratunkowy, który masz uratować, eksploduje, zamieniając się w chmurę odłamków.`
+	"DL-268" `Oglądasz, jak wahadłowiec Howarda eksploduje, zamieniając się w chmurę odłamków, a wraz z nim giną wszelkie nadzieje na inwestycję.`
+	"DL-269" `Wchodzisz na statek testowy Syndykatu, panuje tam niesamowita cisza, a pusty statek wzmacnia każdy krok. Spieszysz się, żeby przesłać plik z dowodami Howarda na statek. Plik ładuje się w kilka sekund, a ty wracasz na <ship>, żeby zostawić ten upiorny statek.`
+	"DL-270" `Po zniszczeniu Quicksilvera czas udać się do <destination>.`
+	"DL-271" `Otrzymujesz krótkie powitanie, gdy Manta eksploduje: "Potraktuj to jako otwartą kartę z przemytnikami alkoholu — następna runda jest na twój rachunek, a my zbierzemy krew!"`
+	"DL-272" `Oglądasz, jak wahadłowiec Howarda eksploduje, zamieniając się w chmurę odłamków, a wraz z nim giną wszelkie nadzieje na jego awans.`
+	"DL-273" `Oglądasz, jak Bounder Howarda eksploduje, zamieniając się w chmurę gruzu, a wraz z nim znikają wszelkie nadzieje na inwestycję.`
+	"DL-274" `Nad głowami wciąż przelatują statki maruderów. Wystartuj i pokonaj je, zanim znajdziesz flotę.`
+	"DL-275" `Po zniszczeniu ostatniego statku maruderów czujesz, że możesz bezpiecznie wrócić do bazy.`
+	"DL-276" `Rywalizująca flota piracka została zniszczona. Powinieneś teraz wrócić do Haven, żeby sprawdzić, co z Ildico.`
+	"DL-277" `Często uważa się, że w tych niezamieszkanych układach wokół Głębi nie ma nic ciekawego, ale Sophie zwraca uwagę na dziwną anomalię w tym układzie. "Kiedy go spotkaliśmy, nasz ojciec opisywał wszystkie te niezwykłe widoki, które widział podczas swoich przygód podczas przelotów przez tunele czasoprzestrzenne lub mgławice. Ta anomalia przypomina mi jedną z nich."`
+	"DL-278" `Chociaż Sophie i Liam bywają bardzo gadatliwi, uroda tej gwiazdy sprawia, że wszelkie ich konwersacje stają się niemożliwe.`
+	"DL-279" `Zbliżając się do mgławicy otaczającej Gorvi, Sophie i Liam rozmawiają ze sobą o cudach i tajemnicach gwiazdy Wolfa-Rayeta, znajdującej się w jej centrum.`
+	"DL-280" `Jeśli kiedykolwiek istniał doskonały przykład tego, ile ludzkość musi się jeszcze nauczyć, to jest to dziwny, imponujący, a jednak wciąż niedokończony pierścień planetarny w tym systemie. Liam mówi: "Nasz ojciec był bardzo dociekliwym człowiekiem i zawsze opowiadał o Quargach i ich pierścieniowych światach, i o tym, że minie jeszcze tysiąc lat, zanim ludzkość zbuduje coś podobnego. Nigdy nie widzieliśmy, jak wielki on był, aż do teraz!"`
+	"DL-281" `Dotarłeś do <destination>, ale nie masz co najmniej pięciu ton krzemu w ładowni. Zlokalizuj i wydobądź asteroidy krzemowe w tym układzie, zanim wrócisz.`
+	"DL-282" `Wylądowałeś na <planet>, ale Korath wciąż krąży nad tobą. Powinieneś wystartować i pomóc ich wykończyć.`
+	"DL-283" `Rząd <planet> płaci ci <payment> za pomoc w odparciu najeźdźców.`
+	"DL-284" `Życzysz rodzinie górniczej wszystkiego najlepszego w dniu <planet> i odbierasz zapłatę w wysokości <payment>.`
+	"DL-285" `Życzysz rodzinie rolniczej wszystkiego najlepszego w dniu <planet> i odbierasz zapłatę w wysokości <payment>.`
+	"DL-286" `Życzysz pracownikom powodzenia w dniu <planet> i odbierasz zapłatę w wysokości <payment>.`
+	"DL-287" `Rodzina, którą transportowałeś, opuszcza twój statek po zapłaceniu ci <payment>.`
+	"DL-288" `Wyładowujesz łamistrajków pośród rozwścieczonego tłumu protestujących, powstrzymywanych przez policję. Po powrocie na statek okazuje się, że kompania przelała na twoje konto uzgodnioną kwotę <payment>.`
+	"DL-289" `Koloniści wręczają ci <payment> przed opuszczeniem statku, chętni do rozpoczęcia nowego życia na <planet>.`
+	"DL-290" `Uczniowie z entuzjazmem wyskakują z twojego statku w ramiona czekających rodziców. Przygoda była fajna, ale są bardzo szczęśliwi, że po tak długim czasie wrócili bezpiecznie do domu. Szkoła wpłaca <payment> na twoje konto.`
+	"DL-291" `Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem kilku dobrze uzbrojonych strażników, przygotowując się do spłaty długów wobec społeczeństwa jako robotnicy przymusowi w kopalniach <planet>. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-292" `Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem kilku dobrze uzbrojonych strażników, przygotowując się do spłaty długów wobec społeczeństwa jako robotnicy przymusowi w fabrykach <planet>. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-293" `Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem kilku dobrze uzbrojonych strażników, przygotowując się do spłaty długów wobec społeczeństwa jako służba domowa bogatej elity <planet>. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-294" `Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem kilku dobrze uzbrojonych strażników, przygotowując się do spłaty długów wobec społeczeństwa w kolonii karnej na tym odległym świecie. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-295" `Twoi skuci pasażerowie rzucają gorzkie przekleństwa, gdy krzepcy i dobrze uzbrojeni strażnicy praktycznie wypędzają ich z twojego statku, pędząc w kierunku kolonii karnej na tym odległym świecie. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-296" `Uwolnieni więźniowie wychodzą na kosmodrom z niczym poza skromnym dobytkiem i dokumentami zwolnienia. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-297" `Uwolnieni więźniowie wchodzą do kosmoportu z samymi dokumentami zwolnienia i ubraniami na plecach. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-298" `Gdy twój statek ląduje na lądowisku, migające światło informuje cię, że drzwi ładowni zostały otwarte za pomocą awaryjnego otwierania. Dostrzegasz, jak twój pasażer ucieka do kosmoportu.`
+	"DL-299" `Po wylądowaniu idziesz do przedziałów pasażerskich, aby powiadomić ich o przylocie i poprosić o zapłatę. Drzwi otwierają się, gdy pukasz, a obok ciebie przebiega nastolatek. Zanim zdążysz się pozbierać, już ich nie ma i zmierzają w głąb kosmoportu.`
+	"DL-300" `Gdy twój statek ląduje na lądowisku, migające światło informuje cię, że drzwi ładowni zostały otwarte za pomocą awaryjnego otwierania. Sprawdzając ładownię, znajdujesz zapłatę w wysokości <payment> i dostrzegasz, jak twój pasażer ucieka do kosmoportu.`
+	"DL-301" `Oddajesz <commodity> do wyjątkowo śmierdzącego punktu recyklingu odpadów stałych i odbierasz opłatę w wysokości <payment>.`
+	"DL-302" `Zrzucasz ładunek <commodity> i odbierasz zapłatę w wysokości <payment>. Grupa <planet> obywateli dziękuje Ci za pomoc i żegna się z Tobą.`
+	"DL-303" `Życzysz strażakom powodzenia w ich wysiłkach i odbierasz zapłatę w wysokości <payment>. Grupa <planet> mieszkańców przychodzi, aby odprowadzić straż do pobliskiego namiotu, i dziękujemy za pomoc.`
+	"DL-304" `Oddajesz swój ładunek <cargo> potrzebującej społeczności w zamian za <payment>.`
+	"DL-305" `Wdzierasz się na statek i zamykasz uciekającego przestępcę w areszcie. Czas dostarczyć go do <planet>.`
+	"DL-306" `Rząd <planet> z wdzięcznością płaci ci <payment> za schwytanie przestępcy.`
+	"DL-307" `Wdzierasz się na statek, pokonujesz uciekających przestępców i zamykasz ich w areszcie. Czas dostarczyć ich do <planet>.`
+	"DL-308" `Rząd <planet> z wdzięcznością płaci ci <payment> za schwytanie gangu przestępczego.`
+	"DL-309" `To jest System Doradczy Marynarki Wojennej Republiki: <planet> doświadcza poważnego <problem>. Ochotnicy proszeni są o dostarczenie <cargo> do <date>. Zapewniamy stypendium w wysokości <payment> na pokrycie kosztów paliwa, załogi i wszelkich wydatków dodatkowych.`
+	"DL-310" `Drżący, wdzięczni pracownicy organizacji pomocowych witają twoją przesyłkę. Patrzysz dalej, czując satysfakcję, że <cargo> wkrótce dotrze do tych, którzy jej najbardziej potrzebują. Z powrotem na statku otrzymujesz powiadomienie, że otrzymałeś <payment> za swoją służbę.`
+	"DL-311" `Pracownicy pomocy humanitarnej z ulgą witają twoją przesyłkę. Patrzysz dalej, czując satysfakcję, że <cargo> wkrótce dotrze do tych, którzy jej najbardziej potrzebują. Z powrotem na statku otrzymujesz powiadomienie, że otrzymałeś <payment> za swoją służbę.`
+	"DL-312" `Pokryci popiołem, z ulgą pracownicy organizacji pomocowych witają twoją przesyłkę. Patrzysz dalej, czując satysfakcję, że <cargo> wkrótce dotrze do tych, którzy najbardziej jej potrzebują. Z powrotem na statku otrzymujesz powiadomienie, że otrzymałeś <payment> za swoją służbę.`
+	"DL-313" `To jest System Doradczy Marynarki Wojennej Republiki: <planet> doświadcza poważnego <problem>. Ochotnicy proszeni są o przetransportowanie <bunks> strażaków do <planet> do <date>. Zapewniamy stypendium w wysokości <payment> na pokrycie kosztów paliwa, załogi i wszelkich wydatków dodatkowych.`
+	"DL-314" `Lądujesz na prowizorycznym lądowisku, kilka minut lotu od pożaru. Dym, który wdziera się do twojego statku, gdy strażacy otwierają właz, by odlecieć, przyprawia cię o swędzenie oczu i nosa. Obserwując pasażerów zmierzających w kierunku pobliskiego miejsca postoju, myślisz o piekle, do którego wkrótce dobrowolnie wejdą. Sygnał z twojego systemu komunikacyjnego informuje, że twoja zapomoga w wysokości <payment> została zdeponowana i rozpoczynasz lot atmosferyczny z powrotem do głównego portu kosmicznego <planet>.`
+	"DL-315" `Uczniowie z entuzjazmem wybiegają z twojego statku, fotografując wszystko, co widzą. Szkoła wpłaca <payment> na twoje konto.`
+	"DL-316" `Życzysz swojemu <passengers> wszystkiego najlepszego w dniu <planet>. Po odebraniu płatności w wysokości <payment>, Twój <passengers> zakłada czapki z okazji Dnia Ziemi i wychodzi ze swoimi rzeczami.`
+	"DL-317" `Pracownicy kosmoportu, ubrani już odświętnie na Dzień Ziemi, zabierają ładunek <commodity> z twojego statku i wręczają ci zapłatę w wysokości <payment>.`
+	"DL-318" `Życzysz rolnikom powodzenia w dniu <planet> i odbierasz zapłatę w wysokości <payment>.`
+	"DL-319" `Życzysz turystom powodzenia w dniu <planet> i odbierasz opłatę w wysokości <payment>.`
+	"DL-320" `Wciąż zastanawiasz się, dlaczego jeden student uniwersytetu mógłby potrzebować tak dużej ilości <commodity>, dostarczasz pakiet opieki międzygwiezdnej i odbierasz zapłatę w wysokości <payment>.`
+	"DL-321" `Dostarczasz ładunek do ogrodu imponującej rezydencji na wsi, gdzie jakiś nadąsany młodzieniec wpada w furię w samym środku tłumu gości. Rodzice nieśmiało wręczają ci zapłatę w wysokości <payment>.`
+	"DL-322" `Twój statek zostaje skierowany do tylnego doku załadunkowego kompleksu pałacowego, gdzie rozładowywany jest ładunek <commodity>. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-323" `Żegnasz się z dwójką zakochanych dnia <planet> i odbierasz zapłatę w wysokości <payment>.`
+	"DL-324" `Twój statek jest kierowany do tylnego doku załadunkowego rozległego kompleksu rozrywkowego, gdzie rozładowywany jest ładunek <commodity>. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-325" `Twój statek jest kierowany na tylny dok załadunkowy imponującej restauracji. Kelnerzy w białych rękawiczkach ostrożnie wyładowują ładunek <commodity> i przekazują zapłatę w wysokości <payment>.`
+	"DL-326" `Nie jest ci przykro żegnać się z hałaśliwymi i nieokrzesanymi awanturnikami, których transportowałeś. Ich rodzice przesyłają ci zapłatę w wysokości <payment> bez słowa potwierdzenia.`
+	"DL-327" `Żegnasz studentów, którzy zachowywali się zaskakująco dobrze podczas podróży, prowadząc wiele fascynujących rozmów na tak różnorodne tematy, jak filozofia, mikrofluidyka i ekonomia międzygalaktyczna. Ich dumni rodzice przesyłają Ci zapłatę w wysokości <payment>.`
+	"DL-328" `Odbierasz zapłatę w wysokości <payment>, ale nie wcześniej, niż zauważysz ogólną kondycję i obfite brzuchy dokerów wyładowujących darowiznę w wysokości <commodity>.`
+	"DL-329" `Otrzymujesz zapłatę w wysokości <payment>, ale nie wcześniej, niż zwrócisz uwagę na doskonałą jakość ubrań noszonych przez pracowników doku wyładowujących darowiznę w wysokości <commodity>.`
+	"DL-330" `Otrzymujesz zapłatę w wysokości <payment>, ale nie wcześniej, niż zauważysz ogólny stan zdrowia i wigor dokerów rozładowujących darowiznę w wysokości <commodity>.`
+	"DL-331" `Otrzymujesz zapłatę w wysokości <payment>, ale nie wcześniej, niż zwrócisz uwagę na jakość ubrań, biżuterii i elektroniki osobistej przewożonej przez pracowników doku wyładowujących darowiznę w wysokości <commodity>.`
+	"DL-332" `Nadzorujesz załadunek, podczas gdy dokerzy niosą skrzynię za skrzynią <commodity> na twój statek. Pewnie jakaś impreza.`
+	"DL-333" `Wróciłeś do <planet>, ale zapomniałeś najpierw odebrać <commodity> na <stopovers>! Lepiej tam idź, zanim będzie za późno.`
+	"DL-334" `Twój statek ma wylądować na prowizorycznym pasie startowym w pobliżu rozległego zielonego pola, gdzie budowane są nowatorskie zamki. Elegancko ubrani stewardzi rozładowują <commodity>, a ty odbierasz zapłatę w wysokości <payment>.`
+	"DL-335" `Patrząc, jak dokerzy rozładowują skrzynie za skrzyniami, nie możesz powstrzymać się od pytania, co skłoniło kogoś do zebrania tak ogromnej ilości <commodity>. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-336" `Nędznie ubrani młodzi mężczyźni i kobiety w grupie nie wyglądają na tak zadowolonych z wejścia na pokład twojego statku, jak się spodziewałeś, biorąc pod uwagę nową szansę, która na nich czeka. Z trudem wdrapują się na rampę, by wrócić do <planet>.`
+	"DL-337" `Zniszczeni robotnicy kontraktowi trzymali się na uboczu i nie odzywali się do ciebie ani słowem przez całą podróż. Jednak niechlujny brygadzista, który przyjmuje cię o <origin>, wydaje się zadowolony. Wręcza ci zapłatę w wysokości <payment>.`
+	"DL-338" `Oddajesz wyjątkowo paskudną przesyłkę <commodity> dnia <planet>, już nie mogąc się doczekać kąpieli chemicznej, jaką otrzyma twój ładunek. Odbierasz zapłatę w wysokości <payment> i masz nadzieję, że ktoś w okolicy będzie wiedział, co zrobić z tym nieprzyjemnym bałaganem, który zostawiłeś.`
+	"DL-339" `Twoi pasażerowie zaczynają się oddalać, niektórzy z nich ze zdziwieniem patrzą, jak wspomnienia z błyszczących zdjęć w broszurach ustępują miejsca rzeczywistości. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-340" `Pasażerowie <npc> odchodzą, ubrani w najbardziej rzucające się w oczy stroje turystyczne, jakie najwyraźniej udało im się znaleźć, i zaczynają zachwycać się egzotyką tego dalekiego świata. Miejmy nadzieję, że nikt z nich nie zostanie okradziony. Przygotowujesz się do podróży powrotnej do <destination>.`
+	"DL-341" `Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem lokalnych sił bezpieczeństwa, przygotowując się do spłaty długów wobec społeczeństwa. Urzędnik na statku <planet> sprawdza ich stan, gdy są wyprowadzani. Wydaje się być raczej zadowolony i wręcza ci zapłatę w wysokości <payment>.`
+	"DL-342" `Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem urzędników imigracyjnych. Uśmiechnięty pośrednik pracy jest gotowy wypłacić należne <payment> wynagrodzenie.`
+	"DL-343" `Żegnasz emerytów, którzy mieli skłonność do rozlewania napojów lub irytowania Cię podczas pracy. Poza tym byli niezwykle uprzejmi i mieli mnóstwo zabawnych, choć często moralnie wątpliwych, anegdot. Gdy ostatni z ich rzeczy zostanie bezpiecznie rozładowany, Twoje konto otrzyma zapłatę w wysokości <payment> od ich agenta podróży.`
+	"DL-344" `Żegnasz samozwańczych emerytów, którzy mieli skłonność do rozlewania napojów lub irytowania cię podczas pracy. Poza tym byli niezwykle uprzejmi, choć hałaśliwi, i mieli mnóstwo zabawnych, choć często moralnie wątpliwych, anegdot. Gdy ostatnie z ich rzeczy zostaną bezpiecznie rozładowane, twoje konto otrzyma wypłatę w wysokości <payment> z anonimowego źródła.`
+	"DL-345" `Żegnasz samozwańczych emerytów, którzy mieli skłonność do rozlewania napojów lub irytowania cię podczas pracy. Poza tym byli niezwykle uprzejmi, choć hałaśliwi, i mieli mnóstwo zabawnych, choć często moralnie wątpliwych, anegdot. Gdy ostatnie z ich rzeczy zostaną bezpiecznie rozładowane, twoje konto otrzyma wypłatę w wysokości <payment> z anonimowego źródła.`
+	"DL-346" `Twoich pasażerów witają przesadnie entuzjastyczne powitanie w komicznie wystrojonych przewodnikach "wilderness." Nie możesz oprzeć się wrażeniu, że ci ludzie albo trafią do popularnego reality show, albo zostaną bezpiecznie oskubani z pieniędzy, ale nie są to postacie, które wzbudzają współczucie dla takiego losu. Jeden z witaczy dyskretnie przekazuje ci zapłatę w wysokości <payment>.`
+	"DL-347" `Twój <passengers> nalega, żebyś wylądował na krawędzi kosmoportu, żeby nikt go nie zauważył. Po wylądowaniu płacą ci <payment>, po czym szybko zabierają swoje rzeczy i opuszczają statek.`
+	"DL-348" `Twój <passengers> nalega, żebyś wylądował na krawędzi kosmoportu, żeby nikt cię nie zauważył. Po wylądowaniu zapłacą ci <payment>, po czym szybko zabiorą swoje rzeczy i opuszczą twój statek.`
+	"DL-349" `Lądujesz poza głównym miastem, aby uniknąć szansy na zauważenie twojego pasażera. Zabierają swoje rzeczy i opuszczają statek po zapłaceniu <payment>.`
+	"DL-350" `Flota została wyeliminowana. Możesz odebrać nagrodę, wracając do <destination>.`
+	"DL-351" `Piraci z <planet> z wdzięcznością płacą ci <payment> za wyeliminowanie floty Marynarki Wojennej.`
+	"DL-352" `Piraci z <planet> z wdzięcznością płacą ci <payment> za wyeliminowanie floty Syndykatu.`
+	"DL-353" `Piraci z <planet> z wdzięcznością płacą ci <payment> za wyeliminowanie floty milicji.`
+	"DL-354" `Piraci z <planet> z wdzięcznością płacą ci <payment> za wyeliminowanie rywalizującego gangu.`
+	"DL-355" `Piraci z <planet> z wdzięcznością płacą ci <payment> za wyeliminowanie rządzącego gangu.`
+	"DL-356" `Kupcy zostali wyeliminowani. Wróć do <destination> po swoją część łupu.`
+	"DL-357" `Po podliczeniu łupów ze zniszczonej floty handlowej otrzymujesz swoją część. <payment>`
+	"DL-358" `Floty Marynarki Wojennej zostały pokonane. Powrót do <destination>.`
+	"DL-359" `Wielu mieszkańców <planet> dziękuje ci i wspólnie płaci ci <payment> za pomoc w odparciu Marynarki Wojennej.`
+	"DL-360" `Wielu mieszkańców <planet> dziękuje za pomoc w odparciu Marynarki Wojennej.`
+	"DL-361" `Floty Syndykatu zostały pokonane. Powrót do <destination>.`
+	"DL-362" `Wielu mieszkańców <planet> dziękuje ci i wspólnie płaci ci <payment> za pomoc w wypędzeniu Syndykatu.`
+	"DL-363" `Wielu mieszkańców <planet> dziękuje Ci za pomoc w wypędzeniu Syndykatu.`
+	"DL-364" `Floty milicji zostały pokonane. Powrót do <destination>.`
+	"DL-365" `Wielu mieszkańców <planet> dziękuje ci i wspólnie płaci ci <payment> za pomoc w wypędzeniu sił milicji.`
+	"DL-366" `Wielu mieszkańców <planet> dziękuje Ci za pomoc w wyparciu sił milicji.`
+	"DL-367" `Lądujesz na <planet>, ale nie masz tajnego ładunku! Wróć na <npc> i zanieś ładunek na <planet>.`
+	"DL-368" `Piraci z <planet> zabierają tajny ładunek z twojej ładowni i płacą ci <payment>.`
+	"DL-369" `Cel został zniszczony. Wróć do <destination> po zapłatę.`
+	"DL-370" `Grupa handlarzy niewolników dziękuje ci za wyeliminowanie polityka i płaci <payment>.`
+	"DL-371" `Wódz piratów dziękuje ci za wyeliminowanie polityka, który im zagrażał i płaci ci <payment>.`
+	"DL-372" `Wódz piratów dziękuje ci za wyeliminowanie polityka i płaci ci <payment>.`
+	"DL-373" `Cel został zniszczony. Wróć do <destination> po zapłatę.`
+	"DL-374" `Grupa piratów dziękuje ci za wyeliminowanie polityka i płaci <payment>.`
+	"DL-375" `Wódz piratów dziękuje ci za wyeliminowanie polityka, który ci płaci <payment>.`
+	"DL-376" `Grupa handlarzy narkotyków dziękuje ci za wyeliminowanie polityka i płaci ci <payment>.`
+	"DL-377" `Twoi pasażerowie dziękują Ci za zabranie ich w podróż dookoła Krawędzi, a Ty odbierasz opłatę w wysokości <payment>. Gdy odjeżdżają, słyszysz, jak rozmawiają o uczczeniu swojej podróży imprezą <on Longjump>.`
+	"DL-378" `Twoi pasażerowie cieszą się, że zakończyli podróż dookoła Krawędzi i płacą Ci uzgodnioną kwotę <payment>. Jeden z nich przesyła już komuś <on Longjump> relację z podróży, gdy ten zaczyna odchodzić.`
+	"DL-379" `Twoi goście dziękują Ci za zabranie ich w podróż trasą lotu Hana Sizera i z radością Ci płacą <payment>. Zauważasz, że jeden z nich ma otwartą mapę nieba, na której widnieje Sabik, gdy odlatują.`
+	"DL-380" `Podążasz za wskazówkami podanymi w zleceniu do opuszczonego magazynu i znajdujesz swój ładunek w nieoznakowanych skrzyniach. Ładując go na statek, masz wrażenie, że ktoś cię obserwuje.`
+	"DL-381" `Zrzucasz nieoznakowany ładunek w magazynie niewiele różniącym się od tego, w którym go odebrałeś. Mężczyzna ubrany w pelerynę wręcza ci <payment> po tym, jak ostatnia skrzynia zostanie zabrana z twojego statku.`
+	"DL-382" `Masz pewne trudności ze znalezieniem pasażerów, ale po prawie godzinie poszukiwań w końcu ich znajdujesz. Kiedy podążają za tobą z powrotem na statek, słyszysz, jak szepczą do siebie, ale nie rozumiesz, co mówią.`
+	"DL-383" `Twoi pasażerowie proszą, żebyś wylądował z dala od zatłoczonego centrum kosmoportu. Podają ci <payment> i wybiegają z twojego statku, oddalając się od kosmoportu z dużą prędkością.`
+	"DL-384" `Ekipa Syndykatu schodzi z twojego statku bez pożegnania, z elegancką teczką w ręku. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-385" `Od kilku dni na twoim statku toczą się niekończące się dyskusje o obliczeniach obciążeń, wytrzymałości na rozciąganie i ograniczeniach termodynamicznych. Jesteś wdzięczny za chwilę spokoju, gdy zespół inżynierów wytacza się przez luk i kieruje się do egzotycznej siedziby firmy. Przygotowujesz się do podróży powrotnej do <origin>.`
+	"DL-386" `Szef zespołu dziękuje za sprawną podróż i autoryzuje wypłatę kwoty <payment>.`
+	"DL-387" `Udało Ci się wykonać wymagane skany ładunku <npc>. Czas udać się do <planet>.`
+	"DL-388" `Przesyłasz swoje skany i otrzymujesz serdeczne gratulacje, a także <payment>. "To zaoszczędzi nam miesiące!" - słyszysz kogoś w tle, gdy zamykasz łącze audio.`
+	"DL-389" `Prawie natychmiast po otwarciu luku bagażowego kilku milczących i zaskakująco dobrze ubranych mężczyzn zrzuca skrzynie z dokumentami na taśmociąg tuż obok twojego miejsca lądowania, którego nie zauważyłeś, gdzie ku twojemu zaskoczeniu wkrótce znikają w płomieniach przemysłowej spalarni. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-390" `Lądujesz na <planet> i zostawiasz wyjątkowo śmierdzącą przesyłkę <commodity> w nijakim budynku, zgodnie z instrukcją. Gdy tylko startujesz, kamera z tyłu rejestruje krzepkiego pracownika Syndykatu wybiegającego z budynku i wygrażającego pięścią. Zauważasz, że płatność w wysokości <payment> pochodzi od twojego kontaktu na <origin>, a nie z żadnego innego miejsca na <planet>.`
+	"DL-391" `Wysadzasz swój ładunek <commodity> na rampie załadunkowej ogromnego kompleksu nuklearnego i odbierasz zapłatę w wysokości <payment>.`
+	"DL-392" `Skanujesz uszkodzony statek i dokładnie mierzysz uszkodzenia w bitwie. Czas przekazać wyniki na <planet>.`
+	"DL-393" `Zapomniałeś wyłączyć lub zeskanować atrapę statku docelowego w <system>! Musisz tam wrócić i to zrobić, zanim wrócisz tu po zapłatę.`
+	"DL-394" `Statek-cel robota został zniszczony. Zostajecie powitani przez rozgniewanego urzędnika Syndykatu, który nakłada na was grzywnę <payment> i ostrzega, że dalsze tego typu błędy mogą pozbawić was prawa do wykonywania tych zadań.`
+	"DL-395" `Przesyłasz wyniki skanowania do zespołu zapalonych inżynierów i odbierasz zapłatę w wysokości <payment>.`
+	"DL-396" `Dyrektor schodzi z twojego statku z promiennym uśmiechem na twarzy. Jeden z prawników wręcza ci kwotę <payment>, mamrocząc groźby pozwów o zniesławienie, jeśli powiesz cokolwiek o tym, co mogłeś lub nie podsłuchać na statku.`
+	"DL-397" `Grupa strażników wynosi więźnia z twojego statku bardziej brutalnie, niż jest to konieczne. Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-398" `Grupa strażników wyprowadza więźniów z twojego statku, skutych łańcuchami w kostkach. Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-399" `Więźniowie wciąż mają na sobie cywilne ubrania, a gdy strażnicy prowadzą ich do środka, widać siniaki po aresztowaniu. Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-400" `Organizatorzy związkowi są nieustępliwi, gdy strażnicy wciągają ich do środka, a jeden z nich krzyczy o "zdrajcach klasy." Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-401" `Kierownik idzie w kierunku ekspresowego odprawy celnej z zadowolonym uśmiechem. Obładowany papierami prawnik wręcza ci zapłatę w wysokości <payment>.`
+	"DL-402" `Protestujący nerwowo rozglądają się po porcie kosmicznym przed wyjściem na ląd. Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-403" `Organizatorzy związkowi są niemal wychudzeni po uwięzieniu. Jeden z nich unosi twarz ku niebu, jakby opalał się w słońcu. Otrzymujesz zapłatę w wysokości <payment>.`
+	"DL-404" `Statek kosmiczny został zniszczony. Jeśli chcesz kontynuować historię Avgi, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-405" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek kosmiczny! Lepiej odejdź i poczekaj, aż cię odpowiednio przedstawią.`
+	"DL-406" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariuszem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-407" `Wylądowałeś na <planet>, ale Aberrant wciąż atakuje system. Powinieneś wystartować i pomóc Avgi ich pokonać.`
+	"DL-408" `Dotarłeś do układu Twirl, ale nie ma śladu po Srebrnym Albedo. Może powinieneś sprawdzić resztę tej gromady gwiazd.`
+	"DL-409" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z uratowaną załogą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-410" `Wylądowałeś na <planet>, ale w układach na północy wciąż są Aberranci. Wróć, gdy ich wszystkich zabijesz.`
+	"DL-411" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariusem i Sorą jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-412" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariusem, Sorą i Leonem jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-413" `Po oczyszczeniu obszaru z Aberrantów udaje ci się prześlizgnąć przez blokadę i wylądować na <origin>.`
+	"DL-414" `Agenci Heliarcha spotykają się z twoim statkiem zaraz po zadokowaniu i przyjmują kandydata, którego transportowałeś, podczas małej ceremonii. Kilka minut później otrzymujesz transfer <payment>.`
+	"DL-415" `Lekarze metodycznie pakują swój sprzęt i opuszczają twój statek. Z ich braku pośpiechu wynika, że to rutynowe zdarzenie, a nie kryzys. Kilka minut później otrzymujesz przekaz <payment>.`
+	"DL-416" `Zespół inżynierów Heliarch ostrożnie wyjmuje zapasowy napęd rozruchowy z twojego statku i przenosi go do zamkniętej strefy pierścienia. Podchodzi do ciebie Heliarch, który nadzorował procedurę, dziękuje ci za dostarczenie kolejnego napędu i wręcza ci zapłatę w wysokości <payment>.`
+	"DL-417" `Ty i pozostali agenci gromadzicie się na oznaczonym obszarze i szybko odcinacie wyjścia. Po krótkiej strzelaninie przestępcy się poddają, a statek Heliarchów nadlatuje, by ich zabrać. Żegnasz się z kolegami z Heliarchów i wracasz na swój statek, gdzie z radością zauważasz, że <payment> zostało już przeniesione na twoje konto.`
+	"DL-418" ` Ty i pozostali agenci udajecie się do oznaczonego obszaru, ale po dotarciu na miejsce okazuje się, że ktokolwiek go okupował, zdołał uciec. Zabierasz pozostałych agentów do kosmoportu, którzy lamentują nad nieudanym zadaniem.`
+	"DL-419" `Twoja drużyna rzuca się na cel i całkowicie go zaskakuje. Nie stawiają oporu, natychmiast oddając broń. Wzywasz statek Heliarchów, aby ich zabrał, a następnie żegnasz się z pozostałymi agentami, odlatując. Dodatkowa <payment> czeka już na Twoim koncie, gdy wracasz na statek.`
+	"DL-420" `Kiedy wylądujesz na <destination>, agenci Heliarch pomogą ci wyprowadzić więźniów ze statku. Gdy ostatni więzień opuści statek, otrzymasz <payment>.`
+	"DL-421" ` Ty i pozostali agenci udajecie się na wskazany obszar, szukając czegoś podejrzanego. Nie znajdujecie niczego rzucającego się w oczy, ale są wyraźne ślady wskazujące na to, że miejsce było niedawno użytkowane. Spędzacie kilka godzin na zbieraniu dowodów, zanim wracacie na swój statek.`
+	"DL-422" `Agenci dziękują za przetransportowanie ich statkiem, życzą bezpiecznej podróży i wyruszają, by przekazać znalezisko swoim przełożonym. Chwilę później zostajesz przeniesiony <payment>.`
+	"DL-423" `Członkowie Lunarium pędzą do twojego statku, gdy tylko wyląduje on w hangarze, a ty szybko otwierasz właz, żeby mogli wejść. Jeden ze spokojniejszych członków prosi cię, żebyś jak najszybciej udał się do <destination>.`
+	"DL-424" `Każdy z członków Lunarium przychodzi ci podziękować, zanim opuści twój statek, wyrażając swoją wdzięczność. Ostatni wręcza ci <payment> i odchodzi z pozostałymi.`
+	"DL-425" `Lądujesz w hangarach i czekasz kilka minut na członków Lunarium. Mijają jednak kolejne minuty, a żaden z nich nie przybywa. Zamiast tego doki coraz bardziej wypełniają się agentami Heliarchów. Na twoim monitorze pojawia się komunikat informujący, że Heliarchowie dotarli do członków tutaj pierwsi, ale i tak dziękujący ci za twoje wysiłki.`
+	"DL-426" `Niektórzy członkowie Lunarium rozładowują Rdzeń Armagedonu po tym, jak wylądujesz na odizolowanej części <planet> zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują reaktor.`
+	"DL-427" `Niektórzy członkowie Lunarium rozładowują reaktor fuzyjny po wylądowaniu na odizolowanej części <planet> zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują reaktor.`
+	"DL-428" `Niektórzy członkowie Lunarium rozładowują reaktor hodowlany po tym, jak wylądujesz na odizolowanej części <planet>, zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują reaktor.`
+	"DL-429" `Niektórzy członkowie Lunarium rozładowują wyrzutnię torped i amunicję po twoim wylądowaniu na odizolowanym fragmencie <planet> zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują ładunek.`
+	"DL-430" `Niektórzy członkowie Lunarium rozładowują wyrzutnię Typhoon i amunicję po tym, jak wylądujesz na odizolowanym fragmencie <planet>, zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują ładunek.`
+	"DL-431" `Niektórzy członkowie Lunarium rozładowują wieżyczkę plazmową po tym, jak wylądujesz na odizolowanym fragmencie <planet>, zgodnie z instrukcją. Podają ci <payment>, po czym cicho transportują wieżyczkę.`
+	"DL-432" `Niektórzy członkowie Lunarium rozładowują miotacze ognia po tym, jak wylądujesz na odizolowanym fragmencie <planet>, zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują miotacze ognia.`
+	"DL-433" `Niektórzy członkowie Lunarium odpalają granaty odłamkowe po tym, jak wylądujesz na odizolowanym fragmencie <planet>, zgodnie z instrukcją. Podają ci <payment>, po czym po cichu transportują granaty.`
+	"DL-434" `Niektórzy członkowie Lunarium rozładowują ciężką wieżyczkę przeciwrakietową po tym, jak wylądujesz na odizolowanym fragmencie <planet>, zgodnie z instrukcją. Podają ci <payment>, po czym cicho transportują wieżyczkę.`
+	"DL-435" `Gdy ponownie wylądujesz w pobliżu kilku ich okrętów wojennych i uzbrojonych strażników, Heliarchowie zabiorą ci przyniesiony przez ciebie napęd. Dziękują ci za dotrzymanie słowa i proszą, abyś więcej nie zgubił tak ważnego sprzętu.`
+	"DL-436" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z próbkami jottrytu jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-437" `Kiedy wylądujesz na <planet>, Lugglop skontaktuje się z tobą i poinformuje, że powiedział już o tobie swoim przyjaciołom. Mówi, że będą czekać w porcie kosmicznym.`
+	"DL-438" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z bliźniakami Saryd jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-439" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Pichiie jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-440" `Lugglop płaci ci <payment> za dostarczenie yottrytu w towarzystwie agenta Heliarch. "Dokończ przygotowywanie naszej prezentacji, musimy to zrobić. Jeśli chcesz nam pomóc, musisz spotkać się z nami w porcie kosmicznym. "`
+	"DL-441" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z zespołem Lugglopa i materiałami prezentacyjnymi jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-442" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Chikee jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-443" `Wysadzasz Chikee na <planet> i życzysz mu powodzenia w nowej pracy.`
+	"DL-444" `Chikee wręcza ci 130 000 kredytów po wylądowaniu. "Jak zawsze, jestem wdzięczny za transport, Kapitanie," mówi, ruszając na spotkanie z członkami Domu Idriss.`
+	"DL-445" `Dotarłeś do <planet>, ale lekarze i zapasy medyczne jeszcze nie dotarły. Wyrusz i poczekaj na statki, które je zabiorą.`
+	"DL-446" `Pracownicy medyczni opuszczają statek równie szybko, jak na niego weszli, i kierują się do różnych części miasta, kierowani przez ratowników medycznych. Po tym, jak <cargo> również zostaną wyprowadzeni ze statku, jeden z pracowników wręcza ci <payment> i mówi, że możesz poszukać innych sposobów pomocy w walce z epidemią, szukając ich kolegów w porcie kosmicznym.`
+	"DL-447" `Grupa robotników Saryd czeka na ciebie i ładuje <cargo> na twój statek. Pracownik laboratorium mamrocze o tym, jak musisz się nimi opiekować.`
+	"DL-448" `Dotarłeś do <planet>, ale szczepionki jeszcze nie dotarły. Gdy już je odbierzesz, upewnij się, że wszystkie statki, które je przewożą, dotrą do tego układu.`
+	"DL-449" `Ty i kapitanowie koalicji dostarczyliście ostatnią partię szczepionek. Musicie teraz wrócić do <origin>.`
+	"DL-450" `Dotarłeś do <planet>, ale coś ci umyka! Albo nie odwiedziłeś <stopovers>, albo zostawiłeś statki Koalicji w tyle.`
+	"DL-451" `Pytasz dookoła i zostajesz skierowany do dużej rafinerii w jednym z bardziej zaludnionych miast. Cena rumu jest rzeczywiście imponująca, 5642 kredyty za tonę, ale jeszcze bardziej imponujące jest to, jak bardzo martwiłeś się nieodpowiedzialnością studentów, kiedy poprosili cię o zakup, podczas gdy sam nie jesteś na tyle odpowiedzialny, żeby mieć trochę ponad dziesięć tysięcy kredytów do wydania. Idź zarobić trochę pieniędzy, a potem wróć tutaj.`
+	"DL-452" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z pracownikami spisowymi jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-453" `Otrzymujesz <payment> za transport Sarydów tutaj, a oni opuszczają twój statek, gotowi do pracy i rozpytywania. Mówią, że prawdopodobnie wszyscy wrócą do kosmoportu przed nocą, więc powinieneś tam zajrzeć później, jeśli chcesz im dalej pomagać.`
+	"DL-454" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Aunarisem jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać.`
+	"DL-455" `Aunaris dziękuje za przyprowadzenie jej tutaj i przeprasza, że nie może od razu zapłacić, ale obiecuje, że jak tylko ona i Inturi znajdą swój dom, ciężko popracują, żeby ci zapłacić. "Zostań tu przez kilka miesięcy, prawdopodobnie tak zrobię, zanim zbiorę resztę funduszy, " mówi, żegnając się i wsiadając do kolejki linowej do nowego miejsca pracy.`
+	"DL-456" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Aunaris i Inturi jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać.`
+	"DL-457" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Inturim jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-458" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że statek Inturiego jeszcze nie wleciał do układu. Lepiej odlecieć i poczekać, aż tu dotrze.`
+	"DL-459" `Pracownicy doków ładują <cargo> do twojej ładowni po potwierdzeniu, że zostałeś zatrudniony przez kooperatywę Arach. Chwilę po ustawieniu ostatniej skrzyni, kontaktują się z tobą Arachowie i mówią, żebyś zaniósł antybiotyki do <destination>, gdzie ci zapłacą <payment>.`
+	"DL-460" `Lądujesz na <planet>, ale farmerzy Arach nie wychodzą ci na spotkanie, ponieważ nie przywiozłeś antybiotyków dla krów długokrwistych. Upewnij się, że wszystkie statki z ładunkiem dotrą do tego układu po jego odebraniu.`
+	"DL-461" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z antybiotykami dla długiej krowy jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-462" `Lądujesz i spotykasz się z kuzynem farmera z Corral of Meblumem, a on ci płaci <payment>. "Zmieszaj nasze partie ze względu na nasze nazwisko, lekarze zawsze tak robią! " narzeka, gdy antybiotyki są wyjmowane z twojego luku bagażowego.`
+	"DL-463" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Aelbrisem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-464" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Vellorae jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-465" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dubugiem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-466" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Lady Plubat jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-467" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Plubatem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-468" `Pomimo twoich usilnych starań, by trzymać ich od siebie z daleka, Plubat i Plubat robili sobie krótkie przerwy od obrażania się nawzajem. Jednak gdy tylko wejdziesz do tego systemu, sami wrócą do swoich kabin, bez konieczności wychodzenia z kokpitu, by im przeszkodzić. Będąc tak blisko celu, masz nadzieję, że nie przysporzą ci już więcej kłopotów.`
+	"DL-469" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Apri'ie jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-470" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Apri'ie i bezzałogowymi okrętami podwodnymi jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-471" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Sedlitarisem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-472" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Sedlitarisem i przedstawicielami Rady Heliarchów jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-473" `Sedlitaris każe pylonowi rozpocząć wyszukiwanie pasujących sygnałów natychmiast po twoim wejściu do systemu. Mija kilka godzin, a maszyna nie zwraca żadnych współrzędnych, ale nie zgłasza też awarii. Sedlitaris patrzy na nią ze zdziwieniem i restartuje ją. "Polatajcie chwilę po systemie, Kapitanie? Może to przez narażenie sygnału, aktualna pozycja statku." Robisz, jak sugeruje, i powoli krążysz jeszcze przez kilka godzin. Pylon ponownie nie udziela odpowiedzi. Sedlitaris mówi, że to może być jakiś dziwny, specyficzny błąd i prosi, żebyście po prostu przeszli do następnego systemu.`
+	"DL-474" `Pylon szybko odpowiada w tym układzie, nie zgłaszając żadnych podobnych sygnałów. Sedlitaris nakazuje ci przejście do następnego układu i wraca do sprawdzania danych.`
+	"DL-475" `Sedlitaris pozwala swojemu pylonowi działać przez około godzinę, ale nie daje znaku, że w systemie nie ma innych. "Minęli nas, może i tak, ale ten świat nie był priorytetem dla rozpoznania, " mówi, wskazując na Randa. Mówisz jej, że wkrótce przejdziesz do następnego systemu, a ona wraca do pracy nad pylonem.`
+	"DL-476" `Pylon przeszukuje układ przez chwilę, ale informuje Sedlitarisa, że w układzie nie ma nikogo innego. Wzdycha lekko i prosi, żebyś przeszedł do następnego.`
+	"DL-477" `"Jeśli moje szacunki są poprawne, najbardziej prawdopodobnym miejscem spotkania powinno być to, " mówi Sedlitaris, wskakując do systemu. Pozwala pylonowi działać przez chwilę, ale nie zwraca sygnału podobnego urządzenia. "Cóż... albo źle oszacowałem, albo obie grupy miały problemy ze spotkaniem. Sprawdź następny system, powinniśmy. "`
+	"DL-478" `Po kilku minutach pylon wydaje kilka cichych gwizdów, a Sedlitaris krótko świętuje. "Jest na tej planecie! Cieszę się, że udało nam się go zlokalizować. " Mówisz jej, że wkrótce wylądujesz na Hopperze, żebyś mógł poszukać pylonu na planecie.`
+	"DL-479" `Sedlitaris pozostała w swojej koi od czasu, gdy wyruszyłeś do Ablub, słyszysz jej krzyki z koi, gdy wchodzisz do układu. Przybiega do ciebie, niosąc pylon. "Odebrałem sygnał, tak!" Mówi, wskazując na panel maszyny, gdzie powtarza się jakiś sygnał dźwiękowy. "Wyląduj na tej planecie, Kapitanie!" Mówisz jej, że wkrótce wylądujesz, a ona zostaje z tobą, aby ustalić lokalizację pylonu na Harmony, gdy już wylądujesz.`
+	"DL-480" `Nie znalazłeś jeszcze ostatniego pylonu szóstej ekspedycji. Spróbuj poszukać go na trasie z tego układu do Ablub.`
+	"DL-481" `Dajesz skanerom pracować przez kilka minut, ale nie udaje im się zlokalizować sondy Domu Idriss. Może jeszcze nie dotarła do układu, ale najlepiej poszukać informacji na Darkstone.`
+	"DL-482" `Wchodząc do układu, twoje skanery wychwytują trójkę mocno zmodyfikowanych Quicksilverów. Informują cię również o obecności sondy w układzie, choć nie udaje jej się podać dokładnej lokalizacji, jakby coś powodowało zakłócenia. Quicksilvery zauważają cię i przygotowują swoje działa.`
+	"DL-483" `Gdy wchodzisz do systemu, jeden z twoich monitorów wyświetla różne zestawy danych zapisane w języku Arach, a twoje skanery rozpoczynają zbieranie danych, których potrzebuje Dom Idriss. Mija kilka minut, zanim pojawi się pasek ładowania. Gdy pasek się kończy, pojawia się kolejny, a proces powtarza się jeszcze kilka razy. Po około godzinie twój monitor wraca do normy.`
+	"DL-484" `Latasz po tajemniczym świecie przez jakiś czas, aż twoje czujniki dziwnie zapiszczą, co, jak przypuszczasz, jest sygnałem, że modyfikacje Heliarcha zakończyły odczytywanie danych na planecie.`
+	"DL-485" `Uruchamiasz czujniki statku, pozwalając mu godzinami zbierać dane, których potrzebuje Heliarcha. W końcu słyszysz serię głuchych sygnałów dźwiękowych i sprawdzasz, czy ich działanie wróciło do normy.`
+	"DL-486" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek Heliarchów. Najlepiej odpłynąć i poczekać na ich przybycie.`
+	"DL-487" `Po wylądowaniu masz otworzyć właz, a kiedy to zrobisz, agenci Heliarch wybiegają z twojego statku, podczas gdy inna grupa, która na ciebie czekała, rozładowuje ładunek. Kilka sekund później widzisz, że <payment> zostało dodanych do twojego konta.`
+	"DL-488" ` Zauważasz dziesiątki okrętów wojennych Heliarchów szybko przeszukujących planetę. Po lądowaniu widzisz kolejne statki, które przybyły z pomocą rannym agentom. Setki zabandażowanych Sarydów, Kimeków i Arachi są przewożone na statki, które stale przypływają i odpływają. Odbierasz pasażerów i przygotowujesz się do udania się do centrum medycznego na <destination>.`
+	"DL-489" `Zgodnie z instrukcją, wypuszczasz drony podczas lądowania. Sądząc po normalnych warunkach w porcie kosmicznym, nikt najwyraźniej niczego nie zauważył, kiedy odbierasz ładunek.`
+	"DL-490" `Dotarłeś do <planet>, ale transportowce Heliarchów jeszcze nie dotarły! Najlepiej odlecieć i poczekać, aż tu dotrą.`
+	"DL-491" `Dotarłeś do <planet>, ale zostawiłeś część eskorty Heliarchów. Lepiej odejdź i poczekaj, aż tu dotrą.`
+	"DL-492" `Po wylądowaniu obok ciebie ląduje jeden z Łowców Heliarchów, którzy cię ścigali. Musisz go strząsnąć, zanim tu wylądujesz, aby odnieść sukces.`
+	"DL-493" `Kapitan Punishera próbuje cię zawołać, gdy statek wokół nich się rozpada, ale nie słyszysz ich ostatnich krzyków. Nie udało ci się po prostu unieruchomić statku i skazałeś całą załogę na zagładę. Wygląda na to, że nie będziesz już mile widziany w przestrzeni Koalicji.`
+	"DL-494" `Chociaż unieruchomiłeś Punishera, postanawiasz wejść na pokład statku, aby go uratować, niszcząc wszelkie zaufanie, jakim Heliarchowie cię darzyli. Ani oni, ani reszta Koalicji nie będą z tego zadowoleni.`
+	"DL-495" `Po długiej, wyczerpującej bitwie tobie i twojej załodze udało się schwytać Punishera. Z kapitanem w niebezpieczeństwie, a także większością załogi, Koalicja z pewnością nie będzie już was gościć.`
+	"DL-496" `Wspierasz obecnie Lunarium. Anuluj lub zakończ wszystkie misje, które dla nich masz, jeśli chcesz dołączyć do Heliarchii.`
+	"DL-497" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z zaopatrzeniem charytatywnym jeszcze nie wjechała do tego systemu. Lepiej odlecieć i poczekać.`
+	"DL-498" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z zaopatrzeniem charytatywnym i lekarzami Kimek jeszcze nie wjechała do tego systemu. Lepiej odlecieć i poczekać.`
+	"DL-499" `Dotarłeś na <planet>, ale nie zabrałeś jeszcze wszystkich potrzebnych granatów. Upewnij się, że masz je wszystkie w ładowni przed lądowaniem.`
+	"DL-500" `Przybyłeś na <planet>, ale nie zabrałeś jeszcze wszystkich potrzebnych wieżyczek przeciwrakietowych. Upewnij się, że masz je wszystkie w ładowni przed lądowaniem.`
+	"DL-501" `Dotarłeś na <planet>, ale nie zabrałeś jeszcze wszystkich wyrzutni i amunicji, których potrzebowałeś. Upewnij się, że masz je wszystkie w ładowni przed lądowaniem.`
+	"DL-502" `Przybyłeś na <planet>, ale nie zabrałeś jeszcze wszystkich potrzebnych wieżyczek plazmowych i miotaczy ognia. Upewnij się, że masz je wszystkie w ładowni przed lądowaniem.`
+	"DL-503" `Lądujesz na <planet>, ale nie otrzymujesz żadnych instrukcji od lokalnych członków Lunarium. Albo jeden lub więcej reaktorów nie znajduje się w systemie, albo minął już termin dostawy. Powinieneś przygotować się na dostarczenie trzech reaktorów przed piątym dniem miesiąca i spróbować ponownie.`
+	"DL-504" `Lądujesz na <planet>, ale nie masz jeszcze dodatkowego napędu skokowego, którego potrzebowałeś. Upewnij się, że masz go w ładowni przed lądowaniem.`
+	"DL-505" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek Domu Bebliss! Lepiej odpłynąć i poczekać, aż tu dotrą.`
+	"DL-506" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z pryczami <bunks> dla uczniów jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-507" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z uczniami <bunks> jeszcze nie wjechała do tego systemu. Lepiej odlecieć i poczekać.`
+	"DL-508" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z pryczami <bunks> dla farmerów jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-509" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z farmerami <bunks> jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-510" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z pryczami <bunks> dla imigrantów jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-511" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z imigrantami <bunks> jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-512" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Tummugiem i plakatami jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-513" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Tummugiem, jego kolegami i sztandarami jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-514" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Tummugiem, jego kolegami i materiałem do pisania na niebie jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-515" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Tummugiem, jego kolegami i plakatami jeszcze nie dotarła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-516" `Dotarłeś do <planet>, ale twoja eskorta, która wiozła Pyakriego i innych członków Lunarium wraz z zapasami, jeszcze nie wjechała do układu. Lepiej odejdź i poczekaj na nich.`
+	"DL-517" `Lądujesz na <planet>, ale misja jeszcze się nie skończyła. Albo niektóre statki Lunarium jeszcze nie wpłynęły do układu, albo niektóre statki pirackie w <waypoints> nie zostały pokonane. Wróć, gdy wszystko będzie w porządku.`
+	"DL-518" `Dotarłeś do <planet>, ale twoja eskorta, która przyprowadza Pyakriego i pozostałych członków Lunarium, jeszcze nie wjechała do systemu. Lepiej odejdź i poczekaj na nich.`
+	"DL-519" `Wspierasz obecnie Heliarchię. Anuluj lub zakończ wszystkie misje, które dla niej masz, jeśli chcesz dołączyć do Lunarium.`
+	"DL-520" `Dotarłeś do <planet>, ale twoja eskorta, która przyprowadza Oobata, jeszcze nie weszła do systemu. Lepiej odejdź i poczekaj.`
+	"DL-521" `Po opuszczeniu <origin> otrzymujesz wiadomość przychodzącą. "Witaj, człowieku <first> <last>. Ta wiadomość jest od Adrauni. Wróć do <planet> przy pierwszej nadarzającej się okazji."`
+	"DL-522" `Po podjęciu decyzji o ostrzelaniu floty Gegno, obserwującej twoją wizytę na ich ojczystej planecie, spotykasz się z agresywnym oporem i niezliczonymi, gniewnymi okrzykami. Wszelkie szanse na współpracę z Gegno przepadły.`
+	"DL-523" `Wróciłeś do <origin>, ale nie masz 5 ton żelaza wydobytego i na swoim statku. Upewnij się, że wydobyłeś 5 ton żelaza i załadowałeś je do ładowni przed lądowaniem.`
+	"DL-524" `Wróciłeś do <origin>, ale nie masz 10 ton aluminium w ładowni. Upewnij się, że wydobyłeś 10 ton aluminium i zapakowałeś je do ładowni przed lądowaniem.`
+	"DL-525" `Wróciłeś do <origin>, ale nie masz 10 ton miedzi w ładowni. Upewnij się, że wydobyłeś 10 ton miedzi i zapakowałeś ją do ładowni przed lądowaniem.`
+	"DL-526" `Wróciłeś do <origin>, ale nie masz 10 ton żelaza w ładowni. Upewnij się, że wydobyłeś 10 ton żelaza i zapakowałeś je do ładowni przed lądowaniem.`
+	"DL-527" `Wróciłeś do <origin>, ale nie masz 10 ton ołowiu w ładowni. Upewnij się, że wydobędziesz 10 ton ołowiu i załadujesz go do ładowni przed lądowaniem.`
+	"DL-528" `Wróciłeś do <origin>, ale nie masz 10 ton krzemu w ładowni. Upewnij się, że wydobędziesz 10 ton krzemu i załadujesz go do ładowni przed lądowaniem.`
+	"DL-529" `Wróciłeś do <origin>, ale nie masz 10 ton tytanu w ładowni. Upewnij się, że wydobyłeś 10 ton tytanu i zapakowałeś go do ładowni przed lądowaniem.`
+	"DL-530" `Zbierasz żądane <commodity> i ładujesz je na swój statek, aby wrócić do <planet>.`
+	"DL-531" `Twoja płatność w wysokości <payment> czeka na Ciebie w momencie przybycia wraz z instrukcjami dostawy. Wysyłasz <commodity> dedykowanym kurierem.`
+	"DL-532" `Zaraz po wylądowaniu otrzymasz wiadomość od smakosza Hai z podziękowaniami i informacją o płatności w wysokości <payment>.`
+	"DL-533" `Hai majsterkowicz czeka na ciebie po przybyciu. Zapłaci ci <payment>, a potem pobiegnie za paletami z ładunkiem, jakby planował je otworzyć w porcie kosmicznym.`
+	"DL-534" `Hai opuszczają twój statek, ćwierkając z podniecenia. Jeden z nich wręcza ci zapłatę w wysokości <payment>, po czym biegnie dogonić swoich przyjaciół.`
+	"DL-535" `Podczas podróży Twoi pasażerowie najwyraźniej ćwiczyli prezentację na konwencję. Wyczuwasz nutkę zdenerwowania, gdy dają Ci <payment> i opuszczają statek.`
+	"DL-536" `Hai ćwierkają z ekscytacją, dając ci <payment> i schodząc ze statku. Niektóre fabuły filmowe, o których rozmawiali podczas podróży, były oszałamiające.`
+	"DL-537" `Hai ćwierkają podekscytowani, dając ci <payment> i schodząc ze statku. Słychać muzykę dudniącą aż z kosmoportu.`
+	"DL-538" `Hai ćwierkają z ekscytacją, dając ci <payment> i schodząc z pokładu. Rozmowy twoich pasażerów były w większości niezrozumiałe, ale poza tym przez całą podróż były przyjemne.`
+	"DL-539" `Hai ćwierkają podekscytowani, dając ci <payment> i schodząc z twojego statku. Gdy odchodzą, jeden z nich pokazuje ci gest dłonią, który rozpoznajesz ze starego programu science fiction.`
+	"DL-540" `Szukasz Elliota, ale zdajesz sobie sprawę, że pojechał z jedną z twoich eskort! Lepiej odejdź i poczekaj, aż eskorta dotrze do tego układu gwiezdnego.`
+	"DL-541" `Kontaktujesz się z władzami kosmoportu <planet> i pytasz, czy szukają zaginionego dziecka z plemienia Hai. Okazuje się, że rodzina była tak zmartwiona, że wyznaczyła nagrodę <payment> za odnalezienie syna. Pracownik kosmoportu Hai zabiera dziecko z twojego statku i dziękuje ci za znalezienie go dla rodziny.`
+	"DL-542" `Dotarłeś do <planet>, ale zostawiłeś Turnera. Poczekaj na przybycie statku Turnera przed lądowaniem.`
+	"DL-543" `Frachtowce będą gotowe do startu, kiedy dotrzesz do <planet>. "Teraz musimy tylko eskortować te frachtowce do Followera w układzie Alphard i z powrotem w jednym kawałku, " wykrzykuje Turner, wskakując z powrotem na swoją Królową Gwiazd.`
+	"DL-544" `Dotarłeś do <planet>, ale zostawiłeś jeden ze statków, które miałeś eskortować. Poczekaj na przybycie statku Turnera i wszystkich frachtowców masowych, zanim wylądujesz.`
+	"DL-545" `Po wylądowaniu otrzymasz wiadomość od Davida Turnera. "Witaj, Kapitanie. Mam nadzieję, że dobrze się bawisz w naszym ośrodku. Mam dla Ciebie nową propozycję, ponieważ wykupiłem resztę parku wokół ośrodka. Spotkajmy się na <destination>, jeśli chcesz o tym usłyszeć."`
+	"DL-546" `Załadunek masowców przebiega bez problemu. Kiedy jeden z pracowników kosmoportu pyta Turnera, dokąd trafiają te zapasy, odpowiada: "To tylko po to, żeby rozszerzyć moje przedsięwzięcie biznesowe na, hm, Glory."`
+	"DL-547" `Szukasz Artura i Kiru, ale zdajesz sobie sprawę, że przyjechali na pokładzie jednej z twoich eskort! Lepiej odejdź i poczekaj, aż eskorta dotrze do tego układu gwiezdnego.`
+	"DL-548" `Arthur i Kiru płacą ci <payment>, zanim pobiegną do centrum kongresowego. Podczas ucieczki zauważasz, że Kiru przyciąga wzrok tłumu, ale nikt nie podejrzewa, że jest prawdziwym kosmitą.`
+	"DL-549" `Szukasz Anayi i Touhara, ale zdajesz sobie sprawę, że przyjechali na pokładzie jednej z twoich eskort! Lepiej odejdź i poczekaj, aż eskorta dotrze do tego układu gwiezdnego.`
+	"DL-550" `Zamiast lądować w porcie kosmicznym, gdzie będą widoczne, wysadzasz Anayę i Touhara jak najbliżej miejsca, w którym będą przebywać. Dom jest kilka kilometrów stąd, ale zapewniają cię, że poradzą sobie sami. Płacą ci <payment> i dziękują za dowiezienie ich tak daleko.`
+	"DL-551" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek Nanachi! Lepiej odpłyń i poczekaj, aż dotrze do tego układu gwiezdnego.`
+	"DL-552" `Dotarłeś do <planet>, ale jeszcze nie ukończyłeś misji! Albo zostawiłeś statek Nanachi, albo nie odwiedziłeś <stopovers>.`
+	"DL-553" `Po wylądowaniu podchodzi do ciebie Hai w formalnym mundurze. "Witaj, Kapitanie <last>. Ambasador Sayari przesłał wiadomość do Rady Starszych, że nasi Bracia Nieskrępowani stworzyli nowy, potężny statek. Rada poprosiła o twoją obecność na <planet>; Sayari powiedziała, że brałeś udział w walkach tymi statkami i że Starsi są zainteresowani twoją wiedzą."`
+	"DL-554" `Wygląda na to, że delegacja jest zakwaterowana w eskortach, które jeszcze nie dotarły do tego systemu. Proszę wystartować i poczekać na nich.`
+	"DL-555" `Szukasz grupy studentów, których transportowałeś, ale zdajesz sobie sprawę, że przyjechali na pokładzie jednego z twoich eskort! Lepiej odejdź i poczekaj, aż twoi eskortowcy dotrą do tego układu gwiezdnego.`
+	"DL-556" `Szukasz Hareeka, ale zdajesz sobie sprawę, że pojechał z jedną z twoich eskort! Lepiej odejdź i poczekaj, aż eskorta dotrze do tego układu gwiezdnego.`
+	"DL-557" `Zapomniałeś o Eeeyi albo o jej górach ciasteczek. Może są w którejś z twoich eskort?`
+	"DL-558" `Eeeya nie ma w systemie. Może jest w jednej z twoich eskort?`
+	"DL-559" `Wróciłeś, ale los piratów i schwytanych Hai wciąż jest niepewny. Dopilnuj, aby Czarny Licz został pokonany, a los schwytanych Hai, niezależnie od tego, czy zginęli, czy są bezpieczni z tobą, był znany.`
+	"DL-560" `Odrzuciłeś ważną misję fabularną. Jeśli chcesz kontynuować, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-561" `Po udanym wejściu na pokład Geocoris i pokonaniu pirackich załóg, wita cię z ulgą pojmany Hai. Wysyłasz załogę na pokład, by pilotowała statek i obiecujesz, że bezpiecznie odprowadzisz ich do Allhome.`
+	"DL-562" `Wróciłeś do Hai-home, ale nie znalazłeś niczego, co dałoby się wyjaśnić Sayari. Nadal masz czas na znalezienie dowodów.`
+	"DL-563" `Wygląda na to, że jacyś podejrzani typki podążyli za tobą na orbitę w pogoni za rodziną Yeertle. Możesz z nimi walczyć, ale nie wyglądają na przygotowanych do udanej podróży powrotnej do przestrzeni Hai; więc prawdopodobnie możesz ich też wyprzedzić, jeśli wolisz.`
+	"DL-564" `Rodzina Yeertle jest wniebowzięta, że wróciła do domu po długiej gehennie i z radością przekazuje Wam <payment>. Obiecują, że przed kolejnym zatrudnieniem przeprowadzą weryfikację przeszłości pilotów.`
+	"DL-565" `Ci, którzy ścigają Ooonema, szybko się zorientowali i podążyli za tobą na orbitę. Prawdopodobnie będziesz musiał z nimi walczyć, ale to tylko piraci z Rdzenia i nie wyglądają na przygotowanych do udanej podróży powrotnej do przestrzeni Hai. Jeśli będziesz wystarczająco szybki, prawdopodobnie możesz spróbować po prostu ich uniknąć.`
+	"DL-566" `Ooonem z ulgą wraca do <planet>. Prowadzi cię do domu swojej rodziny, gdzie zostajesz poczęstowany obfitym obiadem. Kuchnia to w całości połączenie kuchni ludzkiej i hajskiej. Do deseru dodaje się to, co Ooonem określa jako najpyszniejszą przyprawę ze wszystkich: <payment>.`
+	"DL-567" `Badacze z Hai dziękują za uratowanie ich z ich nieudanego "więziennego rejsu z odgrywaniem ról" i obiecują, że w przyszłości będą się trzymać bezpieczniejszych rozrywek. Z przyjemnością dają ci <payment>.`
+	"DL-568" `Meroot i Lucy dziękują za pomoc i dają <payment>. Lucy postanawia zamieszkać w przestrzeni Hai z Meroot. "Tu jest bezpieczniej, " wyjaśnia, choć masz wątpliwości. Pytasz, ale obie nie mają pojęcia, kim byli mężczyźni, którzy je porwali.`
+	"DL-569" `Hai, który od tamtej pory przedstawia się jako Gipeep Anl'ooh, dziękuje Ci za pomoc w dotarciu do domu ze sklepu. Jego wdzięczna rodzina przesyła Ci <payment>. Nikt z nich nie wie, kto go porwał ani dlaczego.`
+	"DL-570" `Flota ośmiu Geocorisów czeka, by towarzyszyć Ci po przybyciu, a ostatnie ładunki będą ładowane tuż przed lądowaniem. Podążą za Tobą do miejsca, gdzie powstanie nowa stacja.`
+	"DL-571" `Przybyłeś bez wszystkich ośmiu Geocoris, których eskortujesz z <origin> do <planet>. Musisz wystartować i poczekać, aż zakończą tę misję.`
+	"DL-572" `Dotarłeś na plac budowy Mountaintop, ale budowa nie została jeszcze ukończona ani nie zatrudniono w niej personelu.`
+	"DL-573" `W końcu dobijasz do portu <planet>, twoja żmudna wycieczka dobiegła końca. Wkrótce potem otrzymujesz sygnał dźwiękowy informujący, że <payment> zostało wpłacone na twoje konto. Terry musiał ustawić automatyczne wpłaty.`
+	"DL-574" `Masz meble, które zamówił Hai. Czas je zwrócić <planet>.`
+	"DL-575" `Wiadomość od Alondo informuje Cię, że ma on wątły trop, który może Ci przekazać. Mówi też, żebyś szukał go tylko wtedy, gdy nie jesteś zajęty innymi sprawami.`
+	"DL-576" `Odrzuciłeś ważną misję fabularną. Jeśli chcesz dokończyć ten wątek fabularny, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-577" `Otrzymujesz krótką wiadomość od Teeneep. "Słyszałem, co się stało <last>. To nie jest jedna z grup, które były już na naszym radarze, więc kiedy skończysz, bardzo chętnie dowiem się, co odkryłeś."`
+	"DL-578" `Wróciłeś do <planet>, ale jeszcze nie namierzyłeś Legionu Blizny. Może powinieneś popytać o informacje w porcie kosmicznym planet pirackich w pobliżu tunelu czasoprzestrzennego prowadzącego do przestrzeni Hai.`
+	"DL-579" `Pokonałeś przywódcę Legionu Blizny. Widzowie walki nie atakują cię, ale to może być tylko kwestia czasu, zanim zdecydują się zwrócić przeciwko tobie broń za zabicie ich przywódcy. Lepiej udaj się do <planet>, zanim to nastąpi.`
+	"DL-580" `Prowadzisz frachtowce Hai przez wrota przeciwpancerne. Pomimo ogromnych rozmiarów frachtowców, wszystkie mieszczą się w porcie kosmicznym asteroidy z pewnym zapasem miejsca, co świadczy o ogromie pracy włożonej w tę bazę. Piraci z Legionu Blizny wyładowują całą technologię Hai z frachtowców. Po zniknięciu ostatniej skrzyni frachtowce szybko wylatują z asteroidy.`
+	"DL-581" `Po bezpiecznym powrocie frachtowców, Hai dziękują ci za rozwiązanie sytuacji z Legionem Blizny i przekazują ci <payment> za pomoc.`
+	"DL-582" `Rozwiązując sytuację z Legionem Blizny, dowiedziałeś się informacji, które powinieneś przekazać Alondo, ale najwyraźniej jest on gdzieś daleko i niedostępny przez chwilę. Nawet gdyby opóźnienie było ryzykiem, na które mógłbyś sobie pozwolić, samo czekanie na niego w tym momencie może wzbudzić podejrzenia. Prawdopodobnie jednak powinieneś poinformować Teeneep o całej tej sytuacji, a to może również rzucić nieco światła na większe intrygi. Zamiast tego wróć do niej i porozmawiaj z nią.`
+	"DL-583" `Teeneep jest na innym statku, który jeszcze nie znajduje się w układzie. Wystartuj i poczekaj na przybycie statku, aby kontynuować.`
+	"DL-584" `Lecisz na podane współrzędne, aby rozstawić przekaźnik i wyrzucić go przez śluzę powietrzną, upewniając się, że w zasięgu nie ma żadnych statków, które mogłyby to zobaczyć. Przekaźnik wysyła sygnał potwierdzający po pomyślnej aktywacji.`
+	"DL-585" `Aby ukończyć tę misję, musisz odwiedzić wszystkie cztery systemy i zwrócić sprzęt do rozmieszczenia do <planet>. Może znajdować się on w eskorcie, która jeszcze nie dotarła.`
+	"DL-586" `Batu znajduje się na innym statku, który jeszcze nie znajduje się w układzie. Wystartuj i poczekaj na przybycie statku, aby kontynuować.`
+	"DL-587" `Teeneep znajduje się na innym statku, który jeszcze nie znajduje się w układzie. Wystartuj i poczekaj na przybycie statku, aby kontynuować podróż.`
+	"DL-588" `Gdy wjeżdżasz na punkt kontrolny, jeden z kapitanów Hai cię wita. "Kapitanie, mamy rozkaz zamknąć granicę dla wszystkich, ale... wiemy, że załatwiałeś sprawy urzędowe i nie kazano nam cię specjalnie blokować. My też jesteśmy ci winni przysługę. Możesz przejść, ale nie próbuj nikogo ze sobą zabierać. Jeśli to zrobisz, nie będziemy mieli innego wyjścia, jak tylko ostrzelać ciebie i ich."`
+	"DL-589" `Podczas przygotowywania statku zostajesz poinformowany, że popłyniesz do <stopovers>, zanim udasz się do <planet>.`
+	"DL-590" `Wygląda na to, że Teeneep przekonał Starszych do zawarcia umowy z Nieskrępowanymi. Dołącza do was duża flota Nieskrępowanych.`
+	"DL-591" `Albo nie zatrzymałeś się na Everhope zgodnie z instrukcją, albo zostawiłeś Sayari. Pamiętaj, że w tych pilnych okolicznościach jej przesądy wzięły górę, więc musisz zainstalować Kwantowy Klucz, aby mogła podróżować z tobą.`
+	"DL-592" `Nie zaliczyłeś ważnej misji fabularnej. Sprawiłeś też, że Hai stali się wrogimi. Jeśli chcesz ukończyć ten wątek fabularny, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-593" `Nie wykonałeś ważnej misji (CAŁA jedna flota została zniszczona). Aby ukończyć ten wątek fabularny, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-594" `Dotarliście na miejsce spotkania, a floty różnych ras przybywają. Zgodnie z obietnicą, statki Hai i ludzi połączyły swoją nawigację z waszymi systemami, aby koordynować kolejne skoki na Alcyone. Nigdy nie widzieliście tylu jednostek wojskowych w jednym miejscu.`
+	"DL-595" `Następny skok stąd prowadzi do Alcyone. Upewnij się, że wszystkie statki są gotowe do skoku jednocześnie. Piraci i maruderzy z <planet> przygotowali się do inwazji i spodziewają się, że będą czekać. Dyscyplina w przybyciu jest niezbędna.`
+	"DL-596" `Nie wszedłeś jeszcze na pokład statku, aby dowiedzieć się czegokolwiek o przemytnikach. Musisz to zrobić, aby kontynuować.`
+	"DL-597" `Nie zaliczyłeś ważnej misji fabularnej i jesteś teraz uznawany za wyjętego spod prawa. Jeśli chcesz ukończyć ten wątek fabularny, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-598" `Giti lub jej sprzęt są w jednej z twoich eskort. Musisz poczekać na przybycie eskorty, zanim wylądujesz ponownie.`
+	"DL-599" `Po przyjeździe otrzymasz <payment> na pokrycie bieżących wydatków związanych z pomaganiem.`
+	"DL-600" `Dotarłeś dnia <planet>, ale zostawiłeś jednego lub więcej swoich eskort.`
+	"DL-601" `Zaraz po starcie floty, Danforth cię wzywa. "Właśnie otrzymaliśmy dodatkowe myśliwce i drony od Syndykatu, proszę poczekać na nie przed skokiem."`
+	"DL-602" `Nie zaliczyłeś ważnej misji. Aby ukończyć ten wątek fabularny, wróć do autozapisu lub innego wcześniejszego stanu gry.`
+	"DL-603" `Aby ukończyć tę misję, musisz poczekać na przybycie statków Teeneep, Choot'ka i Danfortha, a następnie wylądować ponownie.`
+	"DL-604" `Aby ukończyć tę misję, musisz poczekać na przybycie statków Teeneep i Choot'ka, a następnie wylądować ponownie.`
+	"DL-605" `Wiadomość od Stephena Moraya pojawia się przed opuszczeniem Mirfaku. "Hej, Kapitanie. Wygląda na to, że Terry zaginęła; jeśli ją zobaczysz, daj jej znać, że straci stanowisko, jeśli wkrótce nie wróci do swoich obowiązków."`
+	"DL-606" `Opuszczając planetę, zauważasz, że na południowym zachodzie na twoich skanerach pojawił się nowy układ. Powinieneś odpowiednio dostosować cel podróży.`
+	"DL-607" `Przybyłeś bez eskortowanego statku. Musisz wystartować i poczekać, aż statek ruszy dalej.`
+	"DL-608" `Dotarłeś, ale albo Geocoris nie przybył, albo piraci nadal zagrażają placowi budowy.`
+	"DL-609" `Przybyłeś bez konwoju, który eskortujesz. Musisz wystartować i poczekać na jego kontynuację.`
+	"DL-610" `Nie udało Ci się bezpiecznie eskortować konwoju przewoźnika Wolnego Świata.`
+	"DL-611" `Szukasz młodego Hai, ale zdajesz sobie sprawę, że pojechał z jedną z twoich eskort! Lepiej odejdź i poczekaj, aż eskorta dotrze do tego układu gwiezdnego.`
+	"DL-612" `Nieugięci i ich wspólnicy są wyraźnie niezadowoleni, gdy w jakiś sposób dowiadują się, że nie dostarczyłeś ładunku na czas, zostawiając ci krótką wiadomość na panelu sterowania: "Nie udowodnisz nam swojej wartości, nie spełniając naszych próśb."`
+	"DL-613" `Dotarłeś do <planet>, ale albo nie przywiozłeś Anomalocaris, albo część ładunku znajdowała się na innym statku.`
+	"DL-614" `Po wylądowaniu grupa Nieskrępowanych zbiera się wokół twojego statku i zaczyna rozładowywać zapasy medyczne, choć o dziwo, nie spieszą się. Krótko po tym, jak skończą, otrzymujesz dość krótką wiadomość od Hai, od którego kupiłeś statek, wraz z niezwykle dużą sumą kredytów. "Dziękujemy za pomoc naszym braciom, <last>. Proszę przyjąć te <payment>."`
+	"DL-615" `Otrzymujesz wezwanie od Nieskrępowanych. "Uciekłeś i nie dokończyłeś pojedynku. W związku z tym nie będziesz już dłużej cieszył się niesłusznym szacunkiem! Leży w twoim najlepszym interesie zwrócić nam statek, jeśli kiedykolwiek znajdziemy cię ponownie na naszych światach!`
+	"DL-616" `Nawiązujesz kontakt z Nieskrępowanymi, gdy wchodzisz w atmosferę planety. "Nie udało Ci się ukończyć pojedynku. Zawieszenie broni dobiegło końca. Nie będziesz już dłużej cieszyć się niesłusznym szacunkiem!"`
+	"DL-617" `Otrzymujesz wezwanie od Mery, która brzmi na dość wściekłą. "Zniszczenie statku może być spowodowane jedynie niekompetencją lub złymi intencjami, a my nie będziemy tolerować żadnego z nich!"`
+	"DL-618" `Otrzymujesz wiadomość ze statku Unfettered. "Poddajemy się. Wyląduj na Firelode, aby odebrać nagrodę."`
+	"DL-619" `Udało Ci się pokonać Nieskrępowanego. Czas wylądować na Firelode i odebrać nagrodę.`
+	"DL-620" `Mera cię wita. "Stop! Jestem tu tylko jako obserwator. Jeśli zniszczysz mój statek, umowa jest nieważna!"`
+	"DL-621" `Gdy niszczysz Lightning Buga wraz z Merą i jej załogą, otrzymujesz gniewny okrzyk od Nieskrępowanych. "Całkowicie złamałeś zasady pojedynku i zabiłeś jednego z naszych najwybitniejszych inżynierów! Nie będziesz już tu mile widziany! "`
+	"DL-622" `Identyfikujesz za pomocą skanerów uwięziony statek kosmiczny, któremu wcześniej pomagałeś, ale nie mogąc się z nim skontaktować, nie możesz mu pomóc. Nie masz wyboru i musisz zostawić ich na pastwę losu na tym burzliwym świecie.`
+	"DL-623" `Dotarłeś do <planet>, ale twoja misja nie jest ukończona! Upewnij się, że Taely i cały sprzęt przejadą przez <waypoints>. Jeśli są w eskorcie, musisz poczekać, aż dotrze do <waypoints>, zanim wrócisz do <planet>.`
+	"DL-624" `Dotarłeś, ale zdajesz sobie sprawę, że twoja eskorta z <commodity> jeszcze nie weszła do systemu! Lepiej odejdź i poczekaj.`
+	"DL-625" `Wróciłeś do <planet>, ale zdajesz sobie sprawę, że twoja eskorta z <commodity> jeszcze nie weszła do systemu! Lepiej odejdź i poczekaj.`
+	"DL-626" `Dotarłeś, ale zdajesz sobie sprawę, że twoja eskorta z Dusk jeszcze nie wjechała do systemu! Lepiej odlecieć i poczekać.`
+	"DL-627" `Wróciłeś do <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dusk jeszcze nie wjechała do systemu! Lepiej odlecieć i poczekać.`
+	"DL-628" `Dotarłeś do <planet>, ale nie cały ładunek i pasażerowie są w systemie! Lepiej odlecieć i poczekać na przybycie eskorty do tego układu. Pamiętaj, że eskorta również musi być zamaskowana. Możesz zaparkować eskortę, która nie jest w stanie się zamaskować.`
+	"DL-629" `Z otwartej ładowni obserwujesz, jak satelita wlatuje do wnętrza twojego statku. Dzielisz się zadaniami między sobą a Duskiem, utrzymując satelitę w stabilnej pozycji, podczas gdy on pobiera dane. Za kilka minut proces się kończy i możesz wrócić sondą do pierwotnej misji.`
+	"DL-630" `Wróciłeś do <planet>, ale jeszcze nie odwiedziłeś <waypoints>! Lepiej wyjdź i koniecznie odwiedź system.`
+	"DL-631" `Osadnicy Korath powoli opuszczają twój statek z ładunkiem, najwyraźniej obawiając się wejścia na ten niegdyś martwy świat. Dowodzący Korath dziękuje ci gestem wdzięczności i wręcza ci <payment>.`
+	"DL-632" `Wędrowcy próbują wyjaśnić swoje metody uprawy rolnikom z Korath, ale bariera językowa utrudnia im to. Korathowie w końcu podchwytują urywki tego, co robią Wędrowcy. Czas wrócić do <destination>.`
+	"DL-633" `Kiedy wracasz, Korathowie wykonują okrężny ruch dłońmi skierowanymi w twoją stronę na znak wdzięczności. Podają ci <payment> i wysiadają ze statku.`
+	"DL-634" `Znajdujesz Koratha, który najwyraźniej czekał na ciebie w porcie kosmicznym. Wita cię, pokazując dłonie, a następnie wyciąga je, jakby czekał na przesyłkę. Wręczasz mu niewielką przesyłkę, a on wręcza ci niewielką zapłatę w wysokości <payment>.`
+	"DL-635" `Przybywasz, ale zauważasz, że <EDC-ship> jest nieobecny. Musisz go tu przynieść, żeby dokończyć misję ratunkową.`
+	"DL-636" `Otwierasz ładownię i pozwalasz skanerowi Quarg wylecieć w pustkę.`
+	"DL-637" `Patrząc na byłą planetę-kolonię niewolniczą podczas rozstawiania skanera, zastanawiasz się, czy Quargowie słyszeli o historii Poisonwood i czy to właśnie dlatego zdecydowali się pomóc w śledzeniu.`
+	"DL-638" `Uwalniasz skaner Quarg i pozwalasz mu opuścić swój statek.`
+	"DL-639" `Chociaż mieszkańcom tej planety nie przeszkadzają sporadyczne żądania haraczu przez piratów, być może docenią mniejszą obecność piratów, zakładając, że skaner Quarg rzeczywiście w tym pomoże.`
+	"DL-640" `Lądujesz i widzisz Quarga czekającego tuż przy dokach. Podaje ci <payment> i dziękuje za pomoc.`
+	"DL-641" `<cargo> jest ładowane na twój statek pod ścisłym nadzorem, każda skrzynia jest starannie ewidencjonowana.`
+	"DL-642" `Gdy jesteś w połowie skrupulatnego rozładunku ładunku, podchodzi do ciebie Quarg i wręcza ci <payment>.`
+	"DL-643" `Nad głowami wciąż krążą najeźdźcy Korath. Powinieneś wystartować i pomóc statkom Remnantów w walce z nimi.`
+	"DL-644" `Zniszczyłeś statek Korath, który pozostał po nalocie na <planet>. Możesz teraz tam wrócić, aby odebrać zapłatę.`
+	"DL-645" `Ta sama kobieta spotyka cię, gdy lądujesz na <planet>. "Jeszcze raz dziękuję, " mówi. "Zasugeruję innym, że mogą zaoferować ci podobne zlecenia łowcy nagród w przyszłości. " Ona ci płaci <payment>.`
+	"DL-646" `Teraz, gdy jesteś sam, możesz niezauważenie wysłać satelitę obserwacyjnego Remnant. Czas zameldować się u <planet>.`
+	"DL-647" `Wróciłeś do <planet>, ale nie wysłałeś jeszcze satelity obserwacyjnego. Wróć do <waypoints> i upewnij się, że wszyscy Korathowie zostali tam wyeliminowani.`
+	"DL-648" `Wróciłeś do <planet>, ale nie masz 50 "quantum keystones", żeby dać je dostawcy. Kup keystones od Hai, zanim tu wrócisz.`
+	"DL-649" `W tym układzie rzeczywiście istnieją dziwne formy życia podróżujące w kosmosie. Zbierasz pomiary za pomocą specjalnych czujników, a następnie przygotowujesz się do powrotu do <planet>.`
+	"DL-650" `Wróciłeś do <planet>, ale czegoś ci brakuje! Albo nie odwiedziłeś <waypoints>, aby zeskanować duszki pustki, albo twoja eskorta z wyposażeniem skanującym nie dotarła do układu.`
+	"DL-651" `Wylądowałeś na <planet>, ale nie zeskanowałeś duszków pustki w <waypoints>. Upewnij się, że zeskanowałeś wszystkie duszki pustki za pomocą skanera strojów.`
+	"DL-652" `Wróciłeś do <planet>, ale nie masz dwóch ciężkich laserów, o które prosił Taely. Kup dwa ciężkie lasery przed powrotem.`
+	"DL-653" `Wróciłeś do <planet>, ale nie masz dwóch dział plazmowych, o które prosił Taely. Kup dwa działa plazmowe przed powrotem.`
+	"DL-654" `Wróciłeś do <planet>, ale nie masz dwóch katalitycznych Ramscoopów, o które prosił Taely. Kup dwa katalityczne Ramscoopy przed powrotem.`
+	"DL-655" `Wróciłeś do <planet>, ale nie masz dwóch wiązek elektronów, o które prosił Taely. Kup dwie wiązki elektronów, zanim wrócisz.`
+	"DL-656" `Wróciłeś do <planet>, ale nie masz dwóch generatorów osłon D94-YV, o które prosił Taely. Kup te dwa generatory osłon przed powrotem.`
+	"DL-657" `Wróciłeś do <planet>, ale nie masz dwóch regeneratorów S-970, o które prosił Taely. Kup dwa regeneratory osłon, zanim wrócisz.`
+	"DL-658" `Unieszkodliwiłeś statek Korath, który pozostał po nalocie na <planet>. Możesz teraz tam wrócić, aby odebrać zapłatę.`
+	"DL-659" `Widzi cię prefekt, który wygląda na zdenerwowanego. "Statek miał zostać unieruchomiony, żeby można było uratować jego zawartość!" podpisuje gniewnie. Mimo to wciska ci do ręki żeton kredytowy o wartości <payment>. "To połowa tego, co zarobiłbyś, gdyby statek został unieruchomiony." Robi pauzę i kręci głową. "Myślę, że Taely może mieć dla ciebie jeszcze trochę pracy w porcie kosmicznym, ale w międzyczasie może poszukasz jakiegoś Koratha, żeby poćwiczyć unieruchamianie? To cenna umiejętność wśród Remnantów."`
+	"DL-660" `Widzi cię prefekt, który dziękuje ci za wyłączenie systemu i wręcza ci chip kredytowy na <payment>. "Myślę, że Taely może mieć dla ciebie jeszcze trochę pracy w porcie kosmicznym, ale w międzyczasie nie zapomnij zostawić w magazynie sprzętu, żeby badacze mogli je obejrzeć. "`
+	"DL-661" `Na Caelian możesz znaleźć odpowiedni magazyn badawczy tuż przy głównym lądowisku. Po kilku minutach technik laboratoryjny uwalnia się od projektu i przyprowadza na statek wóz z wielbłądami, aby rozładować złom. Wydaje ci się nieco nielogiczne, że technik laboratoryjny używa podnośnika grawitonowego do załadunku ładunku z twojego statku na wóz ciągnięty przez wielbłąda. "Jeśli możesz, powinienem mieć kilka rzeczy do odesłania Taely, jeśli mogłabyś spotkać się ze mną dziś po południu w stołówce."`
+	"DL-662" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że zostawiłeś Dawn i jej kolegów na jednym ze swoich pojazdów eskortowych, który nie wleciał do systemu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-663" `Wylądowałeś na <planet>, ale nie zeskanowałeś jeszcze <npc>. Odleć i użyj skanera wyposażenia, aby przeskanować statek.`
+	"DL-664" `Lądujesz na <planet>, ale nie zeskanowałeś Starlinga w <waypoints>. Upewnij się, że zeskanowałeś statek przed powrotem.`
+	"DL-665" `Lądujesz na <planet>, ale nie zeskanowałeś <npc> w <waypoints>. Upewnij się, że zeskanowałeś statek przed powrotem.`
+	"DL-666" `Dawn szybko zabiera się do rozbudowy laboratorium i ustawiania instrumentów. Po kilku minutach wraca do kokpitu i siada na krześle przy oknie. "Wszystko gotowe, Kapitanie. Teraz tylko czekamy na nadejście burzy. Dam ci znać, kiedy będziemy gotowi do odlotu. "`
+	"DL-667" `Gdy burza zaczyna narastać wokół Ciebie, instrumenty wydają dźwięk, sygnalizując zebranie wszystkich potrzebnych danych. Dawn szybko rozpoczyna procedurę wyłączania, aby chronić sprzęt przed potencjalnym uszkodzeniem, dając Ci zielone światło na powrót do <planet>.`
+	"DL-668" `Wróciłeś na Awentyn bez skanów z obu gazowych olbrzymów w Nenii. Upewnij się, że odwiedziłeś oba i że statek z urządzeniem skanującym powrócił tutaj.`
+	"DL-669" `Zniszczyłeś łowców Korath. Możesz teraz wrócić do <planet>, aby odebrać zapłatę.`
+	"DL-670" `Zlokalizowałeś flotę Korath. Wygląda na to, że w tej chwili nigdzie się nie wybierają.`
+	"DL-671" `Zniszczyłeś wszystkich Korathów, którzy wydawali się polować na duchy pustki.`
+	"DL-672" `Flota Korath zniknęła. Biorąc pod uwagę pilność, z jaką prefekt Chilia zlecił tę misję, odpowiedzialność spoczywa na tobie, aby ją odnaleźć... szybko.`
+	"DL-673" `Znalazłeś flotę Korath. Czas zniszczyć ich wszystkich, zgodnie z prośbą prefekta Chilii.`
+	"DL-674" `Stworzenie zatrzymuje się przed tobą, obraca się na chwilę, a następnie rozkłada macki w innym kierunku. Kierując się intuicją Porzuconego, dopasowujesz je do swoich map gwiezdnych jako prawdopodobnie Konwektor. Po minucie utrzymywania tej pozycji, stworzenie zmienia położenie i zaczyna migotać, dając znaki, że szykuje się do skoku, ale zatrzymuje się, jakby na ciebie czekało.`
+	"DL-675" `Wygląda na to, że analiza lokalizacji była trafna. Stwór szybko się do ciebie zbliża i powtarza swój poprzedni taniec, kończąc w nieco innej, zamrożonej pozycji. Z tej perspektywy podejrzewasz, że to prawdopodobnie Nenia. Tym razem, gdy przyglądasz mu się bliżej, wygląda na to, że w jakiś sposób podąża twoim śladem.`
+	"DL-676" `Nigdy nie widziałeś takiej aktywności duszków pustki. Wiele z nich szybko gromadzi się wokół dziwnego stworzenia, które cię prowadziło, i eskortuje je na Nasqueron. Wygląda na to, że właśnie tam chciało się znaleźć. W oddali widzisz Archonta metodycznie rozbijającego Palavreta.`
+	"DL-677" `Gdy wlatujesz do układu, szybko szukasz Archona, ale nigdzie go nie widać. Grupa myśliwska Korathów wyraźnie na ciebie czeka i rusza do ataku. Gdy ich statki zbliżają się do ciebie, Pelikany natychmiast zaczynają zbierać duszki pustki. Gdy ostatni z nich zamyka swoją ładownię, na ekranie taktycznym pojawiają się kody potwierdzające. "Gotowy do startu."`
+	"DL-678" `Czujnie obserwujesz, jak Pelikany z duszkami pustki zanurzają się w atmosferze Eskwiliny i otwierają wrota luków. Duchy pustki wynurzają się niepewnie, a następnie pewnie wzbijają się w chmury. Kilka minut później otrzymujesz wiadomość ze stacji Eskwiliny informującą, że pierwszy duszek pustki właśnie przeleciał przez luk, złapał jeden z suplementów asteroidy i ponownie zniknął w chmurach.`
+	"DL-679" `Gdy komputer portu kosmicznego pobiera dane, Twój komputer wyświetla komunikat dołączony do pliku dziennika: "Dziękujemy za udostępnienie dodatkowych danych z dzienników nawigacyjnych. Przydadzą się one do porównania z danymi naszych zwiadowców. Zatwierdzono korektę logistyczną <payment> dla <ship>."`
+	"DL-680" `Zniszczyłeś statek Korath, który Taely wysłał cię na poszukiwanie. Wróć do <destination>, aby zdać raport o występie Merganserów.`
+	"DL-681" `Zniszczyłeś statki, które Palavret zostawił.`
+	"DL-682" `Patrolowałeś wszystkie sześć systemów.`
+	"DL-683" `Gdy tylko wlecisz do układu, trzy 'olofezy zaczną atakować twój statek. To prawdopodobnie te niespodzianki, których obawiał się Gavriil.`
+	"DL-684" `Wróciłeś na Ssil Vida, ale nie upewniłeś się, czy wszystkie pobliskie układy są czyste.`
+	"DL-685" `Pozostali mają przygotowaną Komórkę Eonu, gdy lądujesz. Ostrożnie przenoszą ją na twój statek, a kilku dotyka jej z szacunkiem przed odlotem. Przypominasz sobie, żeby upewnić się, że jest odpowiednio schowana przed ponownym startem.`
+	"DL-686" `Twój system komunikacji odbiera trzeszczący sygnał: "Nie wiem, kim jesteś, ale jest nagroda za osoby niezrzeszone, które zbierają duże ilości materiałów do produkcji broni, które zamierzam zebrać!"`
+	"DL-687" `Ten statek ledwo rejestruje się na twoich sensorach, a ty wyraźnie przez niego widzisz. Remnant będzie chciał o tym wiedzieć. Prawdopodobnie powinieneś poszukać Taely na Viminal.`
+	"DL-688" `Ten statek wydaje się być nieco bardziej solidny, niż gdy go pierwszy raz zobaczyłeś, ale nie wydaje się być do końca obecny.`
+	"DL-689" `Ruach krótko sprawdza anteny skanujące, po czym melduje, że - co nie powinno dziwić - statek najwyraźniej nie jest obecny. Sugeruje przeszukanie pobliskich układów w celu jego zlokalizowania.`
+	"DL-690" `W słabym oświetleniu ten statek mógłby uchodzić za Palavreta, ale skanowanie ujawnia istotne różnice konstrukcyjne. Sugerują one, że jest to co najmniej nowa generacja modelu, a może zupełnie inna konstrukcja. Czas zgłosić to Chilii.`
+	"DL-691" `Wyłączyłeś Dathnak A'awoj. Czas zgłosić się do <planet>.`
+	"DL-692" `Wchodząc do układu, dostrzegasz statek-cel. Wyobrażasz sobie, ile ludzi w środku jest w tym małym miasteczku, z których wiele to prawdopodobnie dzieci.`
+	"DL-693" `Pozostali są zdumieni twoim porzuceniem tej misji, ale mówią ci, że wyślą kogoś innego do wykonania tej pracy. Ostrzegają cię, że nie będą ci więcej proponować tego typu zadań.`
+	"DL-694" `Nie udało Ci się unieszkodliwić Dathnak A'awoj bez zniszczenia go... Pozostali nie będą zadowoleni...`
+	"DL-695" `Zniszczyłeś statek Korath. Możesz teraz wrócić do <planet>, aby odebrać zapłatę.`
+	"DL-696" `Dowódca wojskowy Remnantów dziękuje ci za upolowanie <npc> i wręcza ci uzgodnioną kwotę <payment>.`
+	"DL-697" `Dowódca wojskowy Remnant dziękuje ci za upolowanie statku Korath <npc> i wręcza ci uzgodnioną zapłatę w wysokości <payment>.`
+	"DL-698" `Zespół badawczy szybko rozładowuje zepsuty dysk i płaci ci <payment>, po czym śpieszy z powrotem do laboratorium.`
+	"DL-699" `Twój naukowiec rozpakowuje laboratorium i dokonuje żądanych obserwacji. Chwilę później dane są zebrane na zestawie kryształów danych i informuje cię, że wszystko jest gotowe do wyjazdu.`
+	"DL-700" `Po wylądowaniu badacz szybko odzyskuje kryształy danych zawierające informacje o badanym systemie i wręcza ci przydział logistyczny <payment>.`
+	"DL-701" `Zniszczyłeś statek Korath i jego myśliwce. Możesz teraz wrócić do <planet>, aby odebrać zapłatę.`
+	"DL-702" `Wylądowałeś na <planet>, ale statek Korath i jego myśliwce nie zostały całkowicie wyeliminowane. Wytrop ich i zniszcz, zanim wrócisz.`
+	"DL-703" `Dowódca wojskowy Remnant dziękuje ci za upolowanie statku Korath <npc> i jego myśliwców i wręcza ci uzgodnioną zapłatę w wysokości <payment>.`
+	"DL-704" `Inżynier projektu dokonuje inspekcji <cargo> i zatwierdza płatność w wysokości <payment>.`
+	"DL-705" `Technik projektu dokonuje inspekcji <cargo> i zatwierdza płatność w wysokości <payment>.`
+	"DL-706" `Technik dokonujący naprawy dokonuje przeglądu <cargo> części i autoryzuje płatność w wysokości <payment>.`
+	"DL-707" `Dwóch uzbrojonych techników dokonuje inspekcji <cargo> i autoryzuje płatność w wysokości <payment>.`
+	"DL-708" `Wylądowałeś na <planet>, ale zablokowany Dathnak A'awoj nie został jeszcze unieszkodliwiony. Wytrop go i unieszkodliw przed powrotem.`
+	"DL-709" `Pozostali są zszokowani twoim przerwaniem tej misji, ale mówią ci, że wyślą kogoś innego do wykonania tej pracy. Radzą ci, że w przyszłości priorytetowo potraktują inne zespoły w tych misjach.`
+	"DL-710" `Wojskowy prefekt Pozostałości dziękuje ci za unieszkodliwienie Dathnaka A'awoja <npc> i przekazuje ci uzgodnioną korektę logistyczną <payment>.`
+	"DL-711" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z archeologiem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-712" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Albertem, Johnem i sprzętem do mapowania jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-713" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Albertem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-714" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta ze sprzętem do wykopalisk jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-715" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Amelią i Yarthisem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać.`
+	"DL-716" `Ostatni z pirackich rabusiów został odparty. Czas wylądować i sprawdzić, czy wykopaliska zostały uszkodzone.`
+	"DL-717" `Udało ci się pokonać całą flotę najemników. Nie powinieneś mieć teraz problemu z lądowaniem w ich obozie i odzyskaniem kostki.`
+	"DL-718" `Po wylądowaniu na tym dziwnym świecie zdajesz sobie sprawę, że nie wszystko jest w porządku! Lepiej upewnij się, że Szmaragdowy Miecz został abordowany i że żadna załoga ani ładunek nie są eskortowane poza układem.`
+	"DL-719" `Dotarłeś do <planet>, ale nie cały sprzęt archeologiczny wrócił! Lepiej odejdź i poczekaj, aż twoja eskorta dotrze do tego układu gwiezdnego.`
+	"DL-720" `Przynajmniej jeden z eskortujących cię myśliwców przechwytujących Sukcesorów został zniszczony. Jeśli chcesz kontynuować wątek Sukcesorów, wróć do wcześniejszego zapisu.`
+	"DL-721" `Nie udało ci się oddać Sieaseja jego ludowi na czas. Jeśli chcesz kontynuować wątek Następców, wróć do wcześniejszego zapisu.`
+	"DL-722" `Młodzi opuszczają twój statek i spotykają się z inną grupą Wędrowców po drugiej stronie kosmoportu. Zanim podążą za nimi, dorosły Wędrowiec dziękuje ci i wręcza <payment>.`
+	"DL-723" `Życzysz naukowcom powodzenia na <planet>, gdy wyniosą sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>.`
+	"DL-724" `Życzysz biologom powodzenia na <planet>, gdy będą wynosić sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>.`
+	"DL-725" `Życzysz botanikom powodzenia w dniu <planet>, kiedy będą wynosić sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>.`
+	"DL-726" `Życzysz Wędrowcom powodzenia w dniu <planet> i odbierasz zapłatę w wysokości <payment>.`
+	"DL-727" `Wędrowcy szybko opuszczają twój statek z wyposażeniem, by powstrzymać inwazyjne zwierzęta. Po około godzinie wracają na twój statek z klatkami, które umieszczają w ładowni. Teraz wróć do <origin> po zapłatę.`
+	"DL-728" `Po uwolnieniu zwierząt, <bunks> Wędrowcy dziękują ci za pomoc w ich zwróceniu <planet> i wręczają ci <payment>.`
+	"DL-729" `Wędrowcy szybko opuszczają twój statek z wyposażeniem, aby powstrzymać inwazyjną roślinę. Po około godzinie wracają na twój statek z roślinami w pojemnikach, które umieszczają w ładowni. Teraz wróć do <origin> po zapłatę.`
+	"DL-730" `Po przekazaniu roślin innym Wędrowcom do zasadzenia gdzie indziej, <bunks> Wędrowcy dziękują Ci za pomoc w utrzymaniu roślin na <planet> i przekazują Ci <payment>.`
+	"DL-731" `Gdy wylądujesz na <planet>, kilku umundurowanych Wędrowców wypędza Nieskrępowanych więźniów z twojego statku. Odbierasz zapłatę w wysokości <payment>.`
+	"DL-732" `Wędrowcy podróżują po planecie, aby zbadać problemy środowiskowe, z jakimi boryka się ten świat Kor Efret. Próbują wskazać konkretne rzeczy towarzyszącym im Korathom, ale ich wysiłki nie przynoszą skutku. Po kilku godzinach zbierają wystarczającą ilość danych i są gotowi do powrotu do domu.`
+	"DL-733" `Kiedy wrócisz, Wędrowcy podziękują ci za zabranie ich do Kor Efreti i wręczą ci <payment> przed zejściem na ląd.`
+	"DL-734" `Gdy startujesz z <origin>, zauważasz, że kilka małych dronów Mereti startuje z tobą i podąża za twoim statkiem.`
+	"DL-735" `Drony Mereti z wcześniejszej części wciąż czekają w porcie kosmicznym, kiedy dotrzesz na miejsce. Va'ika szybko wysiada i zaczyna rozmawiać z miejscowymi, zatrzymując się tylko na chwilę, by powiedzieć ci, żebyś spotkał się z nią w porcie kosmicznym.`
+	"DL-736" `Dotarłeś na <planet>, ale zostawiłeś <npc>. Niosą roślinę, więc powinieneś wystartować i poczekać na jej przybycie.`
+	"DL-737" `Wróciłeś do <planet>, ale nie masz jeszcze komponentu sterującego dronami Kor Mereti. Odleć i spróbuj wejść na pokład jednego z dronów, aby go splądrować.`
+	"DL-738" `Wróciłeś do <planet>, ale nie masz jeszcze komponentu sterującego dronami Kor Sestor. Odleć i spróbuj wejść na pokład jednego z dronów, aby go splądrować.`
+	"DL-739" `Nad głowami wciąż krążą drony Kor Mereti. Powinieneś pomóc Wędrowcom je przepędzić.`
+	"DL-740" `Gdy ostatni z oddziału szturmowego Kor Mereti zostaje zniszczony, otrzymujesz wiadomość od Sobari Tele'eka. "Dołącz do nas w [bazie, osadzie], jak tylko będziesz mógł, " mówi. "Będziemy musieli [uzgodnić, ustalić] strategię radzenia sobie z tymi [robotami, dronami], na wypadek gdyby ich ataki się nasiliły. "`
+	"DL-741" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Rekiem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-742" `Dotarłeś do <planet>, ale zostawiłeś jeden ze statków Quargów. Lepiej odpłyń i poczekaj, aż dotrze.`
+	"DL-743" `Wchodzisz do systemu docelowego i zaczynasz nagrywać komunikację dronów Kor Mereti. Zebranie wszystkich danych potrzebnych Wędrowcom może trochę potrwać, ale skonfigurowali oni swój sprzęt tak, aby powiadomił cię o zakończeniu zbierania.`
+	"DL-744" `Urządzenie nagrywające Wanderer wydaje ćwierkający sygnał, dając znać, że zebrało wystarczającą ilość danych. Czas wrócić do <planet>.`
+	"DL-745" `Wróciłeś do <planet>, ale nie masz wystarczającej ilości danych dla Wędrowców. Wróć do Mesuket i poczekaj, aż urządzenie powiadomi cię, że ma wystarczającą ilość danych.`
+	"DL-746" `Drony Kor Mereti zostały zneutralizowane. Powinieneś wylądować na planecie i ponownie połączyć się z Rekiem i inżynierami Korath.`
+	"DL-747" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Meto Pa'aret i Umysłem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-748" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z inżynierami Wędrowca i Umysłem jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-749" `W tym układzie gwiezdnym panuje kompletny chaos. Ogromna liczba dronów Mereti jest tu obecna. Niektóre atakują się nawzajem. Inne atakują Wędrowców. A jeszcze inne, niestety, zdają się mieć zamiar zaatakować ciebie. Będziesz musiał ich powstrzymywać tak długo, jak to możliwe, starając się jednocześnie pozostać po dobrej stronie dronów, które zdają się cię bronić.`
+	"DL-750" `Ostatnie wrogie drony Kor Mereti zostały zniszczone; pozostałe drony nie atakują Wędrowców. Nie jest do końca jasne, co się stało, ale miejmy nadzieję, że Wędrowcy z <planet> uzyskali jakieś informacje poprzez tylne połączenie ze swoją sztuczną inteligencją.`
+	"DL-751" `Wylądowałeś na <planet>, ale w systemie Chimitarp wciąż są wrogie drony Kor Mereti. Lepiej odlecieć i upewnić się, że się nimi zajęto.`
+	"DL-752" `Dotarłeś do <planet>, ale twoja eskorta, która niesie martwą roślinę, jeszcze nie dotarła do układu. Lepiej odlecieć i poczekać.`
+	"DL-753" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek Wędrowca. Lepiej odpłyń i poczekaj, aż przybędzie.`
+	"DL-754" `Dotarłeś do <planet>, ale statek Korath jeszcze nie dotarł. Lepiej odpłynąć i poczekać, aż dotrze.`
+	"DL-755" `To była ostatnia z planet Kor Sestor, o zeskanowanie której poprosili cię Wędrowcy. Czas wrócić do <planet> z danymi.`
+	"DL-756" `Rzeczywiście jest tu flota Kor Sestor, ale nie jest ona tak duża, jak wskazywał posłaniec. Albo posłaniec przesadzał, albo część floty już uciekła.`
+	"DL-757" `Nad nami wciąż krążą statki Kor Sestor. Powinieneś wystartować i wrócić do bitwy.`
+	"DL-758" `Wróciłeś do <planet>, ale wciąż nie wiesz, dokąd zawędrowała flota Sestor. Szukaj jej dalej; pozostawienie tak potężnej wrogiej floty na wolności jest niebezpieczne.`
+	"DL-759" `Nad nami wciąż krążą okręty wojenne Sestora. Powinieneś ponownie wystartować i pomóc w walce.`
+	"DL-760" `Flota Kor Sestor została odparta. Czas wylądować i zobaczyć, co Danforth uważa za stosowne.`
+	"DL-761" `Dotarłeś do <planet>, ale albo zostawiłeś jeden z okrętów Quargów, albo twoja eskorta z zaopatrzeniem medycznym od Eliasa jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać.`
+	"DL-762" `Idziesz wypchnąć urządzenie przez śluzę powietrzną, ale uświadamiasz sobie, że zostawiłeś je u jednego ze swoich eskort. Lepiej odejdź i poczekaj, aż dostanie się do systemu.`
+	"DL-763" `Danforth zauważa lądowanie twojego statku, gdy niebo rozświetlają eksplozje okrętów marynarki wojennej. "Użyłeś bomby?" pyta. Stres w jego głosie jest wyczuwalny. Kręcisz głową. "To co ty tu, do cholery, robisz? Właź tam i zrzuć bombę!"`
+	"DL-764" `Wbrew wszelkim przeciwnościom, wszystkie statki Kor Sestor atakujące Strażników Przysięgi zostały zniszczone. Może jednak nie będziesz musiał używać bomby Danfortha.`
+	"DL-765" `Wszystkie statki Kor Sestor w tym układzie zostały wyeliminowane.`
+	"DL-766" `Wróciłeś do <planet>, ale nie wszystkie statki Sestor w Alnilam zostały jeszcze pokonane. Wróć do układu i upewnij się, że wszystkie zostały zniszczone.`
+	"DL-767" `Dotarłeś do <planet>, ale nie wszystkie krążowniki Marynarki Wojennej wpłynęły jeszcze do systemu. Lepiej odlecieć i poczekać na ich przybycie, bo bez nich nie ma szans na atak na bazę Alfa.`
+	"DL-768" `Dotarłeś do <planet>, ale nie wszystkie krążowniki marynarki wojennej wpłynęły jeszcze do systemu. Lepiej odlecieć i poczekać na ich przybycie.`
+	"DL-769" `Uruchamiasz czujniki swojego statku i rejestrujesz numery identyfikacyjne oraz oznaczenia statków Kor Sestor w tym układzie.`
+	"DL-770" `Wróciłeś do <planet>, ale jeszcze nie nawiązałeś kontaktu z wygnańcami z Korath. Udaj się do jądra galaktyki i poszukaj sposobu, by się z nimi skontaktować.`
+	"DL-771" `Dotarłeś do <planet>, ale czegoś ci brakuje! Albo zostawiłeś jeden ze statków Korath, albo twoja eskorta z Rekiem jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-772" `Nad głowami wciąż krążą drony Kor Sestor. Powinieneś się z nimi rozprawić, żeby wygnańcy Korath nie zostali zaatakowani podczas próby wyłączenia fabryk.`
+	"DL-773" `W tym układzie jest kilka dronów Kor Mereti i Kor Sestor i nie wyglądają na przyjazne. Powinieneś donieść Wędrowcom, że wygnańcy rozpoczęli produkcję własnych dronów.`
+	"DL-774" `Twój statek jest otoczony przez ptasiopodobne kosmitów. Kiedy wchodzisz na planetę, jeden z nich zdaje się cię rozpoznawać. "Ka'hai?" zdają się pytać, po raz kolejny naśladując uszy Hai przypominające gryzonie, swoimi pierzastymi kończynami. Kręcisz głową, bo wróciłeś bez Hai, który mógłby pełnić rolę tłumacza. Może rozsądniej byłoby przed powrotem udać się do Hai i sprawdzić, czy któryś z nich pójdzie z tobą.`
+	"DL-775" `Twój statek jest otoczony przez ptasiopodobne kosmitów. Kiedy wchodzisz na planetę, jeden z nich zdaje się cię rozpoznawać. "Ka'hai?" zdają się pytać, po raz kolejny naśladując uszy Hai przypominające gryzonie swoimi pierzastymi kończynami. Próbujesz gestykulować w stronę Sayari, ale zawstydza cię fakt, że zostawiłeś ją w jednej ze swoich eskort, która jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-776" `Nad nami wciąż krążą okręty wojenne Unfettered. Powinieneś ponownie wystartować i pomóc w walce.`
+	"DL-777" `Kiedy lądujesz na <planet>, pytasz jednego z Wędrowców, gdzie jest dostawa żywności. Przechyla tylko głowę i odpowiada w języku Wędrowców. Rozglądasz się za Iktatem Rekiem, żeby to przetłumaczył, ale uświadamiasz sobie, że zostawiłeś go w jednej ze swoich eskort, która jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-778" `Wylądowałeś na <planet>, ale coś ci umyka! Albo <npc> jeszcze nie wszedł do systemu, albo Iktat Rek jest na pokładzie jednej z twoich eskort, która jeszcze nie wjechała do systemu. Lepiej odlecieć i poczekać.`
+	"DL-779" `Kiedy wracasz do <planet>, podchodzi do ciebie Sayari i kilku starszych Wędrowców. "Gdzie jest Iktat Rek? " pyta Sayari. Zdajesz sobie sprawę, że zostawiłeś go w jednej ze swoich eskort, która jeszcze nie wjechała do systemu. Lepiej odejdź i poczekaj, aż dotrze.`
+	"DL-780" `Nie próbowałeś jeszcze sprzedać Unfettered Hai napędu rozruchowego. Wróć tutaj, gdy to zrobisz.`
+	"DL-781" `Otwierasz śluzę powietrzną i zrzucasz w kosmos garść maleńkich kostek obserwacyjnych Wędrowców. Zanim odpłyną na kilka metrów, czujniki twojego statku nie są w stanie ich wykryć.`
+	"DL-782" `Korzystając z nadajnika dołączonego do kostek monitorujących, wysyłasz sygnał i odbierasz zaszyfrowane nagrania aktywności floty.`
+	"DL-783" `Gdy wchodzisz do układu, Elias sprawdza swój nadajnik. "Tak, odbieram sygnały z nośnika z możliwością skoku, " mówi. "Ścieżka prowadzi na wschód, poza granicę przestrzeni Hai."`
+	"DL-784" `Elias ponownie sprawdza tracker. "Na południowy wschód, stąd, " mówi. Tymczasem syreny ostrzegawcze twojego statku zaczynają wyć; są tu statki obcych i nie wyglądają na przyjazne.`
+	"DL-785" `Elias sprawdza tracker. "Wciąż na południowy wschód," mówi. "I mam nadzieję, że te statki Korath nie są po tej samej stronie co Alfy."`
+	"DL-786" `Elias bawi się przez chwilę swoim urządzeniem śledzącym, a potem daje za wygraną. "Przepraszam, nie odczytuję tu żadnych sygnałów. Może przeskoczyli przez ten system?"`
+	"DL-787" `Elias mówi: "Znaleźliśmy ich ślad. Zawrócili i skierowali się znowu na wschód, a może trochę na północ."`
+	"DL-788" `Elias marszczy brwi, patrząc na odczyt trackera. "Chyba źle skręciliśmy. Nie ma śladu użycia napędów rozruchowych w tym systemie, "mówi.`
+	"DL-789" `Kiedy wlatujesz do tego układu, twoje czujniki wykryły lotniskowiec marynarki wojennej na orbicie wokół planety podobnej do Ziemi. Wygląda na to, że znalazłeś bazę Alfa. "To oni, " mówi Hanover. "Mam nadzieję, że jesteś wystarczająco silny, żeby ich zniszczyć. " Lotniskowiec zaczyna wystrzeliwać myśliwce: korathowskie, nie ludzkie. To może być trudna walka...`
+	"DL-790" `Transportowiec Alfa został zniszczony. Możesz teraz wrócić na pierścień Quarg i zaplanować kolejne kroki.`
+	"DL-791" `Wróciłeś do <planet>, ale czujesz, że twoje zadanie jeszcze się nie skończyło. Albo znajdź kryjówkę Alfy, albo wróć tam, gdzie się ukrywają i dokończ to, co zacząłeś.`
+	"DL-792" `Wylądowałeś na <planet>, ale zdajesz sobie sprawę, że Elias jest na pokładzie jednego z twoich statków eskortowych, który jeszcze nie wleciał do systemu. Lepiej odlecieć i poczekać na jego przybycie, zanim spotkasz się z admirałem Danforthem.`
+	"DL-793" `Dotarłeś do <planet>, ale zostawiłeś za sobą statek Danfortha. Poczekaj na jego przybycie (lub wróć i zatankuj go, jeśli to konieczne), a potem wróć tutaj.`
+	"DL-794" `Wylądowałeś na <planet>, ale zdajesz sobie sprawę, że Elias jest na pokładzie jednego z twoich eskort, który jeszcze nie wszedł do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
+	"DL-795" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Isaiem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-796" `Wracasz do <planet> bez żadnych dalszych informacji o tym, kto lub co kontroluje Oko. Być może odpowiedź jest bliżej, niż myślisz.`
+	"DL-797" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Sayari jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
+	"DL-798" `To był ostatni z nowych statków Unfettered. Możesz teraz zgłosić się do Tele'eka na <planet>.`
+	"DL-799" `Tele'ek podejdzie do ciebie, gdy wylądujesz. "Mam [meldunki, wieści], że statki Unfettered wciąż [obecne, żywe] są w Prakacha'a. Proszę, zniszcz je wszystkie przed powrotem."`
+	"DL-800" `Wylądowałeś na <planet>, ale nie wszystkie transportowce Riptide z uchodźcami są w systemie. Lepiej odlecieć i poczekać, aż wszyscy dotrą.`
+	"DL-801" `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Iktatem Rekiem jeszcze nie weszła do systemu. Lepiej odlecieć i poczekać na jego przybycie.`
+	"DL-802" `Wróciłeś do <planet>, ale jeszcze nie wszedłeś do układu Sko'karak, żeby go zbadać. Lepiej odejdź i koniecznie go odwiedź przed powrotem.`
+	"DL-803" `Nie zaliczyłeś ważnej misji w Wolnych Światach. Jeśli chcesz ukończyć fabułę, wróć do autozapisu lub innego wcześniejszego stanu gry.`

@@ -15,76 +15,76 @@
 
 phrase "00-07"
 	word
-		"00"
-		"01"
-		"02"
-		"03"
-		"04"
-		"05"
-		"06"
-		"07"
+		"<WR-12991>"
+		"<WR-12992>"
+		"<WR-12993>"
+		"<WR-12994>"
+		"<WR-12995>"
+		"<WR-12996>"
+		"<WR-12997>"
+		"<WR-12998>"
 
 
 
 phrase "0-F"
 	word
-		"0"
-		"1"
-		"2"
-		"3"
-		"4"
-		"5"
-		"6"
-		"7"
-		"8"
-		"9"
-		"A"
-		"B"
-		"C"
-		"D"
-		"E"
-		"F"
+		"<WR-4694>"
+		"<WR-4695>"
+		"<WR-4696>"
+		"<WR-4697>"
+		"<WR-4698>"
+		"<WR-4699>"
+		"<WR-4700>"
+		"<WR-4701>"
+		"<WR-4702>"
+		"<WR-4703>"
+		"<WR-4704>"
+		"<WR-4705>"
+		"<WR-4706>"
+		"<WR-4707>"
+		"<WR-4708>"
+		"<WR-4709>"
 
 
 
 phrase "00-1F"
 	word
-		"0"
-		"1"
+		"<WR-4694>"
+		"<WR-4695>"
 	phrase
-		"0-F"
+		"<WR-12999>"
 
 
 
 phrase "A group of"
 	word
-		"A "
+		"<WR-11002>"
 	word
-		"pair"
-		"couple"
-		"pack"
-		"squad"
-		"team"
-		"family"
-		"group"
-		"gathering"
-		"small group"
-		"medium group"
-		"large group"
+		"<WR-13000>"
+		"<WR-13001>"
+		"<WR-13002>"
+		"<WR-13003>"
+		"<WR-13004>"
+		"<WR-13005>"
+		"<WR-13006>"
+		"<WR-11856>"
+		"<WR-13007>"
+		"<WR-13008>"
+		"<WR-13009>"
 	word
-		" of "
+		"<WR-2387>"
 
 
 
 phrase "Indeterminate"
 	word
-		"A few"
-		"Several"
-		"Some"
-		"Lots of"
-		"Many"
+		"<WR-1102>"
+		"<WR-6628>"
+		"<WR-1100>"
+		"<WR-13010>"
+		"<WR-6624>"
 	word
-		" "
+		"<WR-117>"
 
 
 
@@ -93,7 +93,7 @@ phrase "Amount of Remnant"
 		"A group of"
 		"Indeterminate"
 	word
-		"Remnant"
+		"<WR-13011>"
 
 
 news "remnant security advisory"
@@ -113,7 +113,7 @@ news "remnant security advisory"
 			"Threats"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Incoming Korath Fleet in "
 		word
@@ -132,10 +132,10 @@ news "remnant security advisory"
 		word
 			"."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Incoming Korath Ship in "
 		word
@@ -154,10 +154,10 @@ news "remnant security advisory"
 		word
 			"."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Patrol"
 			"Salvage"
@@ -196,10 +196,10 @@ news "remnant security advisory"
 		word
 			"."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Salvage ships report to orbit for incoming Korath ships."
 			"No change in current threat level."
@@ -209,7 +209,7 @@ news "remnant security advisory"
 			"Reminder to update your IFF settings and verify keys."
 			"Reminder to verify functionality of selective IFF broadcast every startup."
 		word
-			`"`
+			`<CN-7796>`
 
 
 

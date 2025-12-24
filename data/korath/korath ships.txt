@@ -91,8 +91,8 @@ ship "Rano'erek"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and raiders lacked the cargo capacity. The Rano'erek-class Asteroid Dredging Ship, named for a respected civilian politician and economist, was born as an answer to this problem."
-	description "	Featuring an abundance of cargo and passenger space in addition to their formidable defensive armament, these bulky ships can also offer potent support for frontline Palavrets."
+	description "<DS-2972>"
+	description "<DS-2973>"
 
 
 ship "Palavret"
@@ -165,8 +165,8 @@ ship "Palavret"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Successive raider designs have been the Korath warship of choice for plundering neighboring species for generations. Named for a celebrated captain who gave her life to ensure her crippled vessel made it back to port with its desperately needed cargo of stolen fish, the Palavret-Class Raiding Ship continues that grim tradition."
-	description "	Like all Exile ships, the Palavret has been adapted to house as many Korath as possible, as comfortably as possible, inflating its size beyond similarly armed warships. The spaceborne construction techniques employed allow for the ship's easy replacement, facilitating continued raids of nearby systems."
+	description "<DS-2974>"
+	description "<DS-2975>"
 
 
 ship "Tubfalet"
@@ -279,8 +279,8 @@ ship "Tubfalet"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The venerable Palavret has been a mainstay of the Korath raiding fleet, elements of its design dating back from before the era of shortages and desperation caused by a life in exile. Over forty generations of raiders have terrorized neighboring systems over the centuries."
-	description "	Constant warfare against surrounding aliens has been building pressure on Korath shipyards to recover some of their ancient prowess. Now, with a fresh industrial network to draw upon, the Korath have created a new raider to deal with modern targets, and the Tubfalet-Class Raiding Ship is named for an admiral who dealt with such enemies. Despite extensive injuries, he remained on his flag bridge during a Remnant attack, leading his squadron to victory."
+	description "<DS-2976>"
+	description "<DS-2977>"
 
 
 ship "'nra'ret"
@@ -352,8 +352,8 @@ ship "'nra'ret"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "While perhaps, at first, seeming like a super-sized 'olofez-Class Carried Chaser, the 'nra'ret-Class Chaser is not only the first truly unique warship design the Exiles have fielded since the Exodus, but also the first built solely for combat instead of needing to double as a habitat or supply ship. Its size and non-modular nature also means it must be constructed wholesale at the largest Korath facilities, something that, until recently, was generally reserved for the likes of the massive Ik'atilajej and the Korsmanath A'awoj."
-	description "	The 'nra'ret-Class Chaser, named in honor of a brilliant weapons engineer who took their own life to avoid having their secrets captured by a hostile alien force, provides the Exiles with a fast and powerful patrol striker both in support of large raiding fleets and as independent units. To this end, it is armed with numerous missile ports designed to rain fire on enemies from afar. It also carries a pair of langrage heavers for sustained operations, and two Fire-Lances for emergency use in close quarters."
+	description "<DS-2978>"
+	description "<DS-2979>"
 
 
 ship "'olofez"
@@ -392,8 +392,8 @@ ship "'olofez"
 	engine 7 23
 	gun 0 -28 "Fire-Lance"
 	explode "tiny explosion" 20
-	description "The 'olofez-Class Carried Chaser, named for a renowned artist who painted their visions of ancient hunts, is a fighter carried by most Exile capital ships."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "<DS-2980>"
+	description "<DS-819>"
 
 
 ship "Kas'ik Tek 7"
@@ -433,8 +433,8 @@ ship "Kas'ik Tek 7"
 	engine 8.5 25
 	explode "tiny explosion" 9
 	explode "small explosion" 6
-	description `These small probes are primarily deployed by larger Korath Exile ships to scan for intruders, evaluate foreign vessels, and analyze system bodies. Their secondary function is to retrieve small debris and deactivated microbots spread across Korath space which have fallen off their ships, been fired from Shunt-Strikes, or were even deliberately deployed. Although the data observed and logged by an individual microbot is extremely limited, processing them in bulk yields a valuable gestalt of information. More importantly, the microbots can be recycled for use afterwards.`
-	description `	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay.`
+	description `<DS-2981>`
+	description `<DS-834>`
 
 
 ship "Rai'alorej"
@@ -514,8 +514,8 @@ ship "Rai'alorej"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Although fierce in battle and highly adaptable, Korath do not easily recover from injury. Without the aid of a surgeon or more equipment than fits into a standard escape pod, a stranded, injured Korath faces poor odds of survival. Therefore, Korath who leave their home territory have placed great importance on the construction of hospital ships that can quickly locate, recover, and treat the survivors of wrecked ships."
-	description "	The Rai'alorej-Class Refuge, named for a pioneer in the field of microbot-assisted surgery, is thoroughly appointed with lifeform scanners, locator beacon receivers, ambulances, and search-and-rescue teams. Once onboard, crash victims are greeted with the finest hospital facilities, microbot treatments, and stores of medicine the Exiles have at hand. Even incubators and nurseries are available to treat the young who grow up aboard ship."
+	description "<DS-2982>"
+	description "<DS-2983>"
 
 
 ship "Ikatila'ej"
@@ -590,8 +590,8 @@ ship "Ikatila'ej"
 	explode "large explosion" 60
 	explode "huge explosion" 25
 	"final explode" "final explosion large"
-	description "For most of their manufacturing needs, the Korath rely, as even some terrestrial species do, upon their space station and asteroid infrastructure. Due to their spacebound existence, however, the acceptability for failure and downtime is slim to nonexistent. Should equipment aboard a station or a world-ship fail, the Ikatila'ej, named for an inventor famously proficient in a variety of fields, is called in to provide critical support. Its microbot-run factory produces basic living supplies, machine parts, and systems cores, and may assist in continuing stalled production."
-	description "	When not assisting with damaged ships and stations, or replenishing its own stores, the Ikatila'ej serves as an all-in-one recycling, mining, refining, and factory ship, using its microbot-powered grinder to rapidly turn asteroids and garbage into whatever products the civilian economic planning committees have determined to be in the most dire need."
+	description "<DS-2984>"
+	description "<DS-2985>"
 
 
 ship "Lor'kas Ik 577"
@@ -667,7 +667,7 @@ ship "Lor'kas Ik 577"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. The simplest are adapted to haul materials between refinery and factory stations. Fittingly, they're named after a productive colony of the Efreti, to honor their focus on peaceful industry."
+	description "<DS-2986>"
 
 
 ship "Ra'gru Ik 618"
@@ -752,7 +752,7 @@ ship "Ra'gru Ik 618"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This deceptively spindly ship bristles with weapon emplacements for heavy raiding or defending other vessels. It is named after the Mereti's capital planet, where they made powerful warships out of modular components."
+	description "<DS-2987>"
 
 
 ship "Kas'lor Ik 582"
@@ -825,7 +825,7 @@ ship "Kas'lor Ik 582"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This relatively streamlined ship has been adapted to collect, refine, and transport hyperspace fuel. Its name refers to the delicious squids that lived in their gas giants, and especially Deka Dathnak."
+	description "<DS-2988>"
 
 
 ship "Lor'nag Ik 590"
@@ -901,7 +901,7 @@ ship "Lor'nag Ik 590"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This bulbous ship has been adapted to carry passengers between stations, or boarding parties into enemy strongholds. Its name is in memory of the Anatruskor, who invented the jump drive."
+	description "<DS-2989>"
 
 
 ship "Ra'at Ik 621"
@@ -989,7 +989,7 @@ ship "Ra'at Ik 621"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This many-lobed ship has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts. Its radial arrangements of hangars allows fighters a maximum variety of safe approach patterns in combat. Sestor exiles, who had a great affinity for carriers and fighters, bequeathed this variant its name after their capital world."
+	description "<DS-2990>"
 
 
 ship "Kasichara A'awoj"
@@ -1056,8 +1056,8 @@ ship "Kasichara A'awoj"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description `Originally designed as a luxury habitat for those wealthy enough to escape living on the polluted surface of Korath worlds, when the Korath were exiled, it was into these gargantuan "world-ships" they first crammed themselves into and fled to the core on. Nostalgically, the class was then renamed after the devastated and now forbidden Korath homeworld in honor of the Korsmanathi, ancestors of all Korath.`
-	description `	Since the introduction of purpose-built city ships, these ancient vessels have mostly been decommissioned, turned into stations, or reconfigured into smaller, specialized vessels. Yet a few still ply the starlanes, crewed by those too restless to live on stations yet not bold enough to go on raids.`
+	description `<DS-2991>`
+	description `<DS-2992>`
 
 
 ship "Korsmanath A'awoj"
@@ -1292,8 +1292,8 @@ ship "Korsmanath A'awoj"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
-	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
+	description "<DS-2993>"
+	description "<DS-2994>"
 
 
 
@@ -1356,7 +1356,7 @@ ship "Echo-Galleon"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description `The largest of Korath production vessels are derived from a common and ancient chassis, including this large Efreti vessel. Facing very different challenges, and taking some inspiration from their Quarg protectors, the Efreti descendant of the "World-Ships" of old is lighter, faster, and more efficient, but less powerful than its Exile counterparts.`
+	description `<DS-2995>`
 
 
 ship "Arch-Carrack"
@@ -1419,7 +1419,7 @@ ship "Arch-Carrack"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "Although they do not effectively provide for their own defense, the Efreti remain responsible for the day-to-day needs of civilian and cargo transportation. While not as bulky or powerful as other Korath designs, this freighter is much faster at making runs back and forth between the Efreti's handful of remaining planets, while still holding enough defensive loadout to ward off the odd Mereti drone that slips past the Quarg."
+	description "<DS-2996>"
 
 
 ship "Charm-Shallop"
@@ -1477,7 +1477,7 @@ ship "Charm-Shallop"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "A recent design, this Efreti multi-role vessel is found taking up many jobs previously relegated to a now scrapped fleet of early-model raiders. While some are used primarily for passenger transport, others are used in local mining to satiate the Efreti's perpetual demand for ores. Incorporating Quarg-inspired structural elements, its light frame allows it to complete tasks more nimbly than any other independent Korath ship."
+	description "<DS-2997>"
 
 
 
@@ -1545,7 +1545,7 @@ ship "Kar Ik Vot 349"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "The largest and deadliest of the Kor Sestor robotic warships, a single one of these battlecruisers can hold its own against an entire fleet of lesser ships."
+	description "<DS-2998>"
 
 
 ship "Tek Far 71 - Lek"
@@ -1625,7 +1625,7 @@ ship "Tek Far 71 - Lek"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Kor Sestor war fleets rely heavily on small, powerful fighters and drones. This ship can carry up to ten of their drones, clamped to the exterior of its hull."
+	description "<DS-2999>"
 
 
 ship "Tek Far 78 - Osk"
@@ -1705,7 +1705,7 @@ ship "Tek Far 78 - Osk"
 	explode "large explosion" 45
 	explode "huge explosion" 12
 	"final explode" "final explosion large"
-	description "This carrier is equipped with docking clamps for up to nine fighters. When loaded with a full complement of the powerful Kor Sestor robotic fighters, it is a formidable opponent."
+	description "<DS-3000>"
 
 
 ship "Tek Far 109"
@@ -1793,7 +1793,7 @@ ship "Tek Far 109"
 	explode "large explosion" 30
 	explode "huge explosion" 8
 	"final explode" "final explosion medium"
-	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
+	description "<DS-3001>"
 
 
 ship "Met Par Tek 53"
@@ -1852,7 +1852,7 @@ ship "Met Par Tek 53"
 	explode "large explosion" 20
 	explode "huge explosion" 6
 	"final explode" "final explosion medium"
-	description "Although this is the smallest Kor Sestor ship other than their fighters, it is larger than most human capital ships and considerably more powerful."
+	description "<DS-3002>"
 
 
 ship "Far Lek 14"
@@ -1891,8 +1891,8 @@ ship "Far Lek 14"
 	gun 0 -30
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "At the peak of their recent civil war, the Kor Sestor faction developed these automated attack drones, easy to manufacture and encased in an ultra-dense hull that can absorb a significant amount of damage."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "<DS-3003>"
+	description "<DS-834>"
 
 
 ship "Far Osk 27"
@@ -1932,8 +1932,8 @@ ship "Far Osk 27"
 	gun 13 -8
 	explode "tiny explosion" 25
 	explode "small explosion" 15
-	description "Because it is piloted by a computer and has no need for a cockpit or life support systems, the FS27 fighter is able to support a thicker hull, more shields, and more powerful guns than any comparable human ship."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "<DS-3004>"
+	description "<DS-819>"
 
 
 
@@ -1981,7 +1981,7 @@ ship "Model 8"
 	explode "tiny explosion" 30
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description "The primary role of the smallest Kor Mereti drones is asteroid mining, but their lasers can also be employed as offensive weapons when necessary."
+	description "<DS-3005>"
 
 
 ship "Model 16"
@@ -2035,7 +2035,7 @@ ship "Model 16"
 	explode "medium explosion" 30
 	explode "large explosion" 10
 	"final explode" "final explosion small"
-	description "The Kor Mereti war drones are constructed in a modular fashion, which allows them to grow over time as more materials become available. This one is recently built, and relatively small."
+	description "<DS-3006>"
 
 
 ship "Model 32"
@@ -2090,7 +2090,7 @@ ship "Model 32"
 	explode "medium explosion" 40
 	explode "large explosion" 15
 	"final explode" "final explosion medium"
-	description "The Kor Mereti built their drones to mimic life: capable of growth and development throughout their life cycles. Their automated factories can convert the drones from one configuration to another by adding or removing modules."
+	description "<DS-3007>"
 
 
 ship "Model 64"
@@ -2147,7 +2147,7 @@ ship "Model 64"
 	explode "medium explosion" 50
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "This medium-sized drone serves the Kor Mereti fleets in much the same way as a human Frigate, but in terms of total firepower it is far beyond anything humans have constructed."
+	description "<DS-3008>"
 
 
 ship "Model 128"
@@ -2205,7 +2205,7 @@ ship "Model 128"
 	explode "medium explosion" 60
 	explode "large explosion" 25
 	"final explode" "final explosion large"
-	description "As Kor Mereti drones continue to grow and develop into their final form, they split down the middle. At the same time, their shielding and weaponry continue to become stronger."
+	description "<DS-3009>"
 
 
 ship "Model 256"
@@ -2265,7 +2265,7 @@ ship "Model 256"
 	explode "medium explosion" 70
 	explode "large explosion" 30
 	"final explode" "final explosion large"
-	description "There is a saying among the Quarg that every species which insists on studying war will eventually construct a weapon that outlives its creators. For the Korath, their war drones have very nearly done so."
+	description "<DS-3010>"
 
 
 ship "Model 512"
@@ -2328,4 +2328,4 @@ ship "Model 512"
 	explode "medium explosion" 80
 	explode "large explosion" 35
 	"final explode" "final explosion large"
-	description "This is the final state in the evolution of a Kor Mereti war drone: a perfect ring, with incredibly powerful shields and turrets firing in every direction."
+	description "<DS-3011>"

@@ -1,0 +1,120 @@
+substitutions
+	"BL-0" `You have reached <origin>, but you'll need <capacity> to continue this mission. Return here when you have the required space free.`
+	"BL-1" `You've returned to <planet>, but Ivan informs you that you'll need <capacity> available for this next mission. Return when you have the available space.`
+	"BL-2" `You recall that Hjlod wanted you to have 52 bunks spare for the mission. Return when you have enough room.`
+	"BL-3" `You have reached <origin>, but you need <capacity> in order to take on Katya's mission for the Free Worlds. Return here when you have the required space free.`
+	"BL-4" `You need bunks for both Katya and Eyes in order to continue this mission.`
+	"BL-5" `Alondo contacts you and says, "Captain, you're going to need a bunk free for me. Do you have space?" You do not, so you should complete or abort another mission to make room for him, then return here.`
+	"BL-6" `Freya contacts you and says, "<first>, you're going to need ten tons of cargo space for this next mission." You should return here after freeing up <capacity>.`
+	"BL-7" `You have reached <origin>, but you do not have a bunk free for Senator Huygens. You should return here after freeing up a bunk.`
+	"BL-8" `JJ contacts you and says, "Captain, you're going to need a bunk free for me. Do you have space?" You do not, so you should complete or abort another mission to make room for him, then return here.`
+	"BL-9" `You have reached <origin>, but you do not have ten tons of cargo space free for the equipment. Return here when you have made more space available.`
+	"BL-10" `You do not have a bunk free for Alondo. Return here when you do.`
+	"BL-11" `You receive a message from Freya: "Captain, please meet up with us as soon as you have a bunk free for Alondo." You have no bunks free, so you should return here once you have made one available.`
+	"BL-12" `To continue this mission, you need a bunk free for Freya. Return here when you have made one available.`
+	"BL-13" `Alondo contacts you and asks, "Do you have a bunk ready for me?" You do not, so you will need to free one up to continue this mission.`
+	"BL-14" `You need a bunk free for Freya (in addition to JJ) to continue this mission.`
+	"BL-15" `You have reached <origin>, but you don't have a bunk free for Alondo! You should return to <origin> once you have freed one up.`
+	"BL-16" `You have returned to <origin>, but you do not have a bunk free for Katya. You should return here once you have a bunk free.`
+	"BL-17" `You need to have a bunk free for Katya to continue with the next mission. Complete or abort whatever mission is using up all your passenger space, then return here to <origin>.`
+	"BL-18" `As you are landing, Freya contacts you and says, "You're going to need ten tons of cargo space for this next mission, and a bunk for me, as well." That means you have to free up <capacity>.`
+	"BL-19" `When you land on <origin>, Freya says, "Captain, it looks like you're going to need <capacity> to continue with this mission." You should free up more space, then return here.`
+	"BL-20" `You need at least one bunk free for Freya in order to continue this mission.`
+	"BL-21" `You need another bunk free (for Ijs) in order to continue this mission.`
+	"BL-22" `You do not have bunks available for Ijs and Katya. Return here when you do.`
+	"BL-23" `As you are landing, Alondo contacts you and asks, "Do you have a bunk free for me?" You do not, so you will need to free one up in order to continue this mission.`
+	"BL-24" `Freya contacts you and says, "Captain, you're going to need ten tons of cargo space." You do not have that much available, so you should return here when you do.`
+	"BL-25" `Freya contacts you and says, "<first>, we're going to need space for me, plus ten tons of cargo, on your ship. Think you can do that?" You tell her you will contact her here on <origin> as soon as you have made the space available.`
+	"BL-26" `You need a bunk free for Freya to continue this mission.`
+	"BL-27" `You meet up with Ijs in the spaceport, but he tells you that you will need three bunks for him and some friends. Return here once you have space available.`
+	"BL-28" `You have reached <origin>, but you need <capacity> in order to take on the next mission. Return here when you have the required space free.`
+	"BL-29" `You'll need more cargo space in order to take the next mission from Eric and Alaric. Return here when you have <capacity>.`
+	"BL-30" `You need <capacity> in order to take on the next mission. Return here when you have the required space free.`
+	"BL-31" `This mission requires that you have at least one free bunk. Return once you have the space.`
+	"BL-32" `The spaceport workers inform you that you need <tons> of cargo free to pick up the woollen goods intended for <planet>.`
+	"BL-33" `Howard has offered you an investment opportunity, but mentioned that it'll cost you a million credits up front, and you'll need space on your ship to transport him elsewhere. Better come back when you have that, plus a few more credits.`
+	"BL-34" `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	"BL-35" `When you meet up with James in the spaceport, he says, "Hi there, <first>! I think you'll find what I want to show you next very interesting, but you'll need to free up <capacity> first. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	"BL-36" `You'll need a free bunk on the <ship> if you want to take Darius anywhere off this station.`
+	"BL-37" `You'll need a free bunk on the <ship> to take Darius to <planet>.`
+	"BL-38" `You'll need <capacity> to complete this mission.`
+	"BL-39" `You'll need two free bunks on the <ship> for Darius and Sora.`
+	"BL-40" `You'll need <capacity> to transport Darius, Sora, and Hriso.`
+	"BL-41" `You'll need <capacity> on the <ship> to transport Darius, Sora, and Leon.`
+	"BL-42" `You'll need <capacity> on the <ship> to transport Darious and Sora.`
+	"BL-43" `You'll need <capacity> on the <ship> to transport Darius.`
+	"BL-44" `You need <capacity> to transport Aliza and her colleagues to Dokimi.`
+	"BL-45" `You need <capacity> to help Apri'ie move the submarines. Return here when you have the required space free.`
+	"BL-46" `You need <capacity> to take the next mission. Return here when you have the required space free.`
+	"BL-47" `You may need space on your ship for Anna in the next mission.`
+	"BL-48" `You do not have enough space for Anna and the Heliarch agent. Return here when you have two bunks free.`
+	"BL-49" `You do not have enough bunk space for Anna Fangvin and the Heliarch agent. Come back here when you have two bunks free.`
+	"BL-50" `You need at least one available bunk to accept this mission.`
+	"BL-51" `The Hai delegation to meet the Remnant requires 3 bunks for the trip, but you don't have enough available space! Return when you have room for the delegation.`
+	"BL-52" `You need <capacity> in order to return the Hai delegation and the repair technology back to <planet>.`
+	"BL-53" `The Hai delegation to meet the Coalition requires 3 bunks for the trip, but you don't have enough available space! Return when you have room for the delegation.`
+	"BL-54" `You will need <capacity> in order to take this mission.`
+	"BL-55" `Terry contacts you and says, "Captain, there are things to do and you're going to need a bunk free for me. I need to speak to you as soon as practicable." You do not have a free bunk, so you should complete or abort another mission to make room for her, then return here.`
+	"BL-56" `A message left for you by Sayari reads, "<first>, we need your help and you're going to need 200 tons of cargo space for this." You should return here after freeing up <capacity>.`
+	"BL-57" `It's probably not advisable to bring so many unnecessary people to a secret location on Darkwaste. You should return when your spare bunks are unoccupied.`
+	"BL-58" `When you advise Alondo of your return he requests you ensure you have at least 8 tonnes of cargo space available.`
+	"BL-59" `You need room for 7t of <cargo>.`
+	"BL-60" `You need <bunks> passenger spaces to transport Xilin, Alondo, Sayari and Teeneep.`
+	"BL-61" `You need <bunks> passenger spaces to pick up the misplaced Hai; make sure you have that, and then return here.`
+	"BL-62" `You have landed on <origin>, but you don't have enough passenger space for the <bunks> Incipias. Return here when you have the required space free.`
+	"BL-63" `You'll need <capacity> available to carry short range scanners. Return here when you have enough free space.`
+	"BL-64" `You'll need <capacity> available so Dusk can join you on your mission. Return with the available space to continue.`
+	"BL-65" `As soon as you arrive, Dusk contacts you again. "Welcome back, <first>! We should be ready for the next Patir expedition, but we need at least five free bunks to attempt it, and at least 2 tons of cargo space for samples."`
+	"BL-66" `Dusk contacts you soon after you reach the spaceport. "<first>, we will need at least five free bunks for the mission we are preparing."`
+	"BL-67" `Dusk contacts you soon after you reach the spaceport. "<first>, this mission is going to require <capacity>."`
+	"BL-68" `Right as you touch down, you notice a message coming in from Dusk. "<first>, we will need at least a free bunk for the mission we are preparing."`
+	"BL-69" `Right as you touch down, you notice a message coming in from Dusk. "<first>, we will need at least five free bunks for the mission we are preparing."`
+	"BL-70" `Right as you touch down, you notice a message coming in from Dusk. "<first>, we will need at least five free bunks and 3 tons of cargo for the mission we are preparing."`
+	"BL-71" `This mission requires one empty bunk to carry Gavriil with you.`
+	"BL-72" `The cargo is ready to load, but you do not have enough free space. Come back when you have <tons> free.`
+	"BL-73" `The cargo is ready to load, but you do not have enough free space. Come back when you have <tons> of empty cargo space.`
+	"BL-74" `Looking towards the downed <EDC-ship>, you suddenly realize you forgot the <bunks> bunks you need for the evacuees.`
+	"BL-75" `You need <bunks> available bunks to carry the salvage team.`
+	"BL-76" `You need to be able to carry <bunks> additional crew to salvage the ship. Return here when you have sufficient crew capacity.`
+	"BL-77" `The Remnant researcher has another job for you, but you're going to have to free up some cargo space in order to take it on.`
+	"BL-78" `A prefect informs you that they need to evacuate some injured to a hospital on Aventine, but you will need 8 free bunks and 5 tons of cargo space in order to handle the injured.`
+	"BL-79" `Taely would like you to deliver some valuable Korath equipment to Caelian, but you will need 20 tons of space to carry it.`
+	"BL-80" `The technician you delivered Taely's salvaged parts to would like you to take some finished parts back to Taely, but you will need 20 tons of space to do so.`
+	"BL-81" `This mission requires bunks for three passengers.`
+	"BL-82" `The cargo is ready to load, however you do not have enough free space. Come back when you have <tons> of free space.`
+	"BL-83" `You need a jump drive and a research laboratory to take this mission.`
+	"BL-84" `The Remnant researcher has another job for you, but you're going to have to free up <tons> cargo space in order to take it on.`
+	"BL-85" `Plume's engineer needs a free bunk and <tons> of cargo space for his equipment. Come back when you have enough space.`
+	"BL-86" `Plume's technician needs a free bunk and <tons> of cargo space for his equipment. Come back when you have enough space.`
+	"BL-87" `You need 10 free cargo space for this mission.`
+	"BL-88" `You need 10 free space, five free bunks, and a Research Laboratory for this mission.`
+	"BL-89" `You receive a message from Dusk and Taely indicating the next mission requires space for <tons> of cargo and <fare>.`
+	"BL-90" `Over the commlink Torza is a flurry of motion as he issues orders in several directions. "Right now, we need another ship that can evacuate 280 tons and 20 people. Return here when you have suitable capabilities."`
+	"BL-91" `The scene is one of organized chaos. One Remnant signs "We need a ship that can carry <tons> of cargo and 20 passengers."`
+	"BL-92" `You check in with Torza, who glances at his commlink. "You will need a ship with space for 15 people and 30 tons of cargo."`
+	"BL-93" `Chilia and Taely look excited about something, but when you inquire, they shake their heads and say you need to have earned their capital license before they can tell you more.`
+	"BL-94" `For the next mission in the Remnant campaign, you must have at least 58 cargo space free.`
+	"BL-95" `Your commlink chimes with a note that this mission requires a Research Laboratory installed on your flagship as well as 2 tons of cargo space and 1 free bunk.`
+	"BL-96" `As you approach the starport your commlink chimes with a message from Ruach requesting that you make space for 13 people as well as 19 tons of cargo.`
+	"BL-97" `From your count at the information desk, you estimate that you need space for 11 people as well as 18 tons of cargo.`
+	"BL-98" `You consider telling Albert Foster about your findings on Zug, but realize that you don't have a bunk free to take him there! Return when you have free space.`
+	"BL-99" `You do not have enough cargo space to carry the equipment for Albert Foster's archaeological dig. Return here when you have at least 28 tons of space free.`
+	"BL-100" `You do not have enough cargo space to carry the equipment for Albert Foster's archaeological dig. Return here when you have <capacity>.`
+	"BL-101" `You will need <capacity> to transport the xenobiologist that Albert Foster asked you to fetch. Return here when you have space available.`
+	"BL-102" `You arrive at the spaceport, but then you realize your ships don't have enough free bunks or cargo space required to bring the archaeologist team with you. You manage to contact them, and in an embarrassing conversation ask them to wait for you while you make sure you're ready.`
+	"BL-103" `You arrive to make the preparations to jump to Zubenelhakrabi, but Albert stops you. "Captain, the Emerald Sword is an alien ship, and we have no idea how many people we will need to man it, so I've taken the liberty of hiring some extra crew on top of the specialist team. We're going to need 150 additional crew to help, including us, and 50 tons of cargo to take our materials and the spare jump drive."`
+	"BL-104" `You speak with Sieasej, who informs you that they require at least 1 free bunk to travel and 1 ton of cargo space to carry the "Kijra-riitaa" back to Successor space.`
+	"BL-105" `The Wanderers have another mission for you, but you will need <capacity> for their scientific equipment.`
+	"BL-106" `You will need room for a passenger in order to take on the next Wanderer mission.`
+	"BL-107" `You will need <capacity> free to take on the next mission for the Wanderers.`
+	"BL-108" `To take on this mission, you will need a bunk free for Rek.`
+	"BL-109" `You will need <capacity> to take on the next Wanderer mission.`
+	"BL-110" `To take this mission, you will need <capacity> free.`
+	"BL-111" `You will need 1 ton of cargo space to receive the next mission.`
+	"BL-112" `You will need <capacity> to take on the next mission.`
+	"BL-113" `You will need <capacity> to carry supplies back to Farpoint.`
+	"BL-114" `You need a bunk free in order to take on this mission.`
+	"BL-115" `You don't have enough passenger space to take on this mission. Return here when you have a bunk free.`
+	"BL-116" `You receive a message from Isai indicating that she would like to join you for the next mission, but you don't have space right now. Return when you have a bunk free.`
+	"BL-117" `To continue helping the Wanderers, you will need a bunk free for a passenger. Return here when you have space available.`
+	"BL-118" `You need a bunk free in order to carry Iktat Rek.`

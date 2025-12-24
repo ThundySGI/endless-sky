@@ -183,7 +183,7 @@ ship "Wardragon"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "The origin of this Wardragon is shrouded in mystery. It was said that the Quarg once used this ship as a powerful light warship. Other sources suggest that it was used as a front-line heavy warship. One thing is for certain though, and that's its design is far different than any Quarg ship that exists today, and one can only question where it came from."
+	description "<DS-1952>"
 
 
 person "Marauding Max"
@@ -252,23 +252,23 @@ person "Marauding Max"
 
 phrase "MMK subphrase 1"
 	word
-		"got what it takes to "
-		"got the gumption to "
-		"could "
-		"have the guramba to "
-		"are good enough to "
+		"<WR-9129>"
+		"<WR-9130>"
+		"<WR-9131>"
+		"<WR-9132>"
+		"<WR-9133>"
 	word
-		"capture "
-		"collect "
-		"gather "
+		"<WR-9134>"
+		"<WR-9135>"
+		"<WR-9136>"
 
 phrase "MMK subphrase 2"
 	word
-		"are capable of "
+		"<WR-9137>"
 	word
-		"capturing "
-		"collecting "
-		"gathering "
+		"<WR-9138>"
+		"<WR-9139>"
+		"<WR-9140>"
 
 ship "Marauder Fury"
 	plural "Marauder Furies"
@@ -306,8 +306,8 @@ ship "Marauder Fury"
 		"Intrusion Countermeasures" 3
 		"Nerve Gas"
 
-		`"Biroo" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`<CN-7916>`
+		`<CN-7914>`
 		"Hyperdrive"
 		
 	engine -23 44.5 0.6
@@ -328,7 +328,7 @@ ship "Marauder Fury"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description "You're sure there's a Southbound Shipyards Fury under all the extra modifications. This ship appears to be one man's insane quest to make the most powerful single-pilot warship ever; after close inspection, you're inclined to believe he may have succeeded."
+	description "<DS-1953>"
 
 
 
@@ -383,8 +383,8 @@ person "Captain Nate"
 		word
 			"When you need to make your point, stick to Pointedstick Communications Inc.!"
 			"Pointedstick Communications: making the galaxy a more verbose place, one commit at a time!"
-			`Pointedstick Inc.: "Sharpen your communication skills!"`
-			`Pointedstick Inc.: "Our products are simply so good that no one feels the need to compete with us!"`
+			`<CN-7923>`
+			`<CN-7924>`
 			"Did you know that you can hail a ship over and over again and you'll get a different reply each time?"
 			"Don't you have a cargo of antique grandfather clocks or something to deliver somewhere?"
 			"Need as well as greed have followed us to the stars, and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse."
@@ -629,21 +629,21 @@ person "Power of the People"
 		word
 			", "
 		word
-			`"I was out of bullets."`
-			`"There's safety in sandwiches."`
-			`"Welcome to the party, pal!"`
-			`"Punch it!"`
-			`"Here's where the fun begins!"`
-			`"I'm just a guy with a starship for hire."`
-			`"I'm going to grow a beard, just in case."`
-			`"Want a breath mint?"`
-			`"Sorry about the mess."`
-			`"I happen to like to shoot first."`
-			`"Laugh it up, fuzzball."`
-			`"This isn't a combat probe."`
-			`"Negative. I am a meat popsicle."`
-			`"How 'bout a bumper sandwich, Boogerlips?"`
-			`"I recommend the lobster."`
+			`<CN-7925>`
+			`<CN-7926>`
+			`<CN-7927>`
+			`<CN-7928>`
+			`<CN-7929>`
+			`<CN-7930>`
+			`<CN-7931>`
+			`<CN-7932>`
+			`<CN-7933>`
+			`<CN-7934>`
+			`<CN-7935>`
+			`<CN-7936>`
+			`<CN-7937>`
+			`<CN-7938>`
+			`<CN-7939>`
 	ship "Modified Osprey" "Power of the People"
 		"never disabled"
 
@@ -701,7 +701,7 @@ ship "Modified Osprey"
 		"Wanderer Ramscoop"
 		
 		"Volcano Afterburner"
-		`"Bufaer" Atomic Thruster`
+		`<CN-7913>`
 		"Ionic Afterburner" 5
 		"Type 4 Radiant Thruster"
 		"Type 4 Radiant Steering" 4
@@ -868,7 +868,7 @@ ship "Ursa Polaris"
 		"Thermal Repeater Rifle" 600
 		"Thruster (Stellar Class)"
 		"Smelter-Class Thruster"
-		`"Basrem" Atomic Thruster`
+		`<CN-7918>`
 	engine 26 219 0.9
 	engine 59.5 205.5 0.6
 	engine -7 205.5 0.6
@@ -1077,8 +1077,8 @@ ship "Shooting Star"
 	explode "pug medium explosion" 25
 	explode "pug large explosion" 15
 	"final explode" "final explosion medium"
-	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
-	description "	Its advanced properties also allow it to reject the influence of enemy Command Centers, nullifying their effect."
+	description "<DS-1954>"
+	description "<DS-1955>"
 
 outfit "Crystal Projector"
 	category "Systems"
@@ -1092,7 +1092,7 @@ outfit "Crystal Projector"
 	weapon
 		"hardpoint sprite" "hardpoint/shooting star flare/ss-rays"
 			"frame time" 3
-	description "Never underestimate the power of a bunch of crystals on a rock. In this case all they do is project some harmless purple rays around the Shooting Star, but the point still stands."
+	description "<DS-1956>"
 
 outfit "Floating Crystal"
 	category "Systems"
@@ -1110,8 +1110,8 @@ outfit "Floating Crystal"
 		"reload" 4
 		"firing force" -139.5
 		"hit force" -121.5
-	description "The real core of the Shooting Star, this floating crystal uses the effects of space-time to reduce the distance between a ship and its target. Legend has it this is no different from a thruster, but conventional engines don't bring your enemy closer."
-	description "	It also takes up a spinal mount slot to be installed, although you aren't sure why."
+	description "<DS-1957>"
+	description "<DS-1958>"
 
 outfit "Crystalline Formation"
 	"cost" 1914
@@ -1132,7 +1132,7 @@ outfit "Crystalline Formation"
 		"reload" 1
 		"piercing" 1
 		"hull damage" 293
-	description "There appear to have been several prior attempts to discern the mechanics of this outfit, but the debate is still ongoing whether this can be considered a device or not."
+	description "<DS-1959>"
 
 outfit "Hexagonal Crystal"
 	"cost" 1939
@@ -1155,7 +1155,7 @@ outfit "Hexagonal Crystal"
 		"firing force" 2700
 		"hit force" 5250
 		"hull damage" 2160
-	description "'Any sufficiently advanced technology is indistinguishable from magic,' Arthur C. Clarke said. This is sufficiently advanced technology."
+	description "<DS-1960>"
 
 outfit "Tree Skeleton Key Stone"
 	"cost" 2003
@@ -1165,7 +1165,7 @@ outfit "Tree Skeleton Key Stone"
 	"outfit space" -1
 	"unique" 1
 	"quantum keystone" 1
-	description "Although in appearance it may look somewhat similar to a tree, you don't know how it is supposed to resemble a skeleton. You aren't sure you want to find out either."
+	description "<DS-1961>"
 
 
 
@@ -1187,7 +1187,7 @@ person "Rais Iris XVIII"
 			"I'm basically a computer gynecologist."
 			"Your ship looks like it came out of a liquidizer!"
 			"Look at me. I am the Captain now."
-			`Pronounce "Wrzlprnft." You have 5 seconds.`
+			`<CN-7940>`
 			"Everything you see here has been created by volunteers. You can join us if you want!"
 
 			"To this day, I can still hear the Teeworlds title music."
@@ -1209,7 +1209,7 @@ person "Rais Iris XVIII"
 
 			# SovietWomble
 			"Get the doomsday rounds."
-			`I wouldn't recommend shooting at me, because your gun goes "pew pew," but my gun goes BBBRRRRRRR!`
+			`<CN-7941>`
 			"Ramming speed!"
 
 			# videogamedonkey
@@ -1539,8 +1539,8 @@ ship "Modified Boxwing"
 	leak "flame" 50 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `No matter how maligned, every ship has someone out there that loves it.`
-	description `Surprisingly, someone invested a lot of time, money, and effort into transforming this humble boxwing from a flying coffin into a palatial sarcophagus. It is still terribly cramped, but at least it is luxurious and shiny!`
+	description `<DS-1962>`
+	description `<DS-1963>`
 
 
 
@@ -1642,7 +1642,7 @@ ship "Modified Battleship"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Never underestimate how far an individual is willing to go to modify their favorite spacecraft - sometimes before it even exists.`
+	description `<DS-1964>`
 
 outfit "Prototype Fusion Cannon"
 	category "Secondary Weapons"
@@ -1682,7 +1682,7 @@ outfit "Prototype Fusion Cannon"
 		"disruption damage" 5
 		"hit force" 150
 		"missile strength" 10
-	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
+	description "<DS-1965>"
 	
 effect "fusion cannon fire"
 	sprite "effect/plasma fire"
@@ -1787,7 +1787,7 @@ person "MasterOfGrey"
 			"I have questions. Questions that do not yet need answers."
 			"There are no bugs in my code, only Xapleaux precursors."
 			"If I were green I would photosynthesize."
-			`"Trust the process" isn't a joke for no reason.`
+			`<CN-7942>`
 			"Have you reviewed Hai Reveal yet?"
 			"I gotta go get ready for work. Play nice and don't @ me."
 			"I don't even like yellow."
@@ -1853,9 +1853,9 @@ ship "Modified Ladybug"
 		"Quantum Keystone"
 		"Thermal Repeater Rifle" 16
 		
-		`"Biroo" Reverse Thruster`
-		`"Bondir" Atomic Steering`
-		`"Bufaer" Atomic Thruster`
+		`<CN-7943>`
+		`<CN-7917>`
+		`<CN-7913>`
 		"Hyperdrive"
 		"Jump Drive"
 
@@ -1890,7 +1890,7 @@ ship "Modified Ladybug"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `This is an old war-torn Hai Ladybug with numerous modifications done on the hull. Apart from the additional turret mounts, the main adjustments on the vessel are three huge engine cells - two in the back replacing the old engine pods, and one in the front replacing the gun mounts. These push the Modified Ladybug to speeds only an insane captain would enjoy.`
+	description `<DS-1966>`
 
 
 
@@ -2066,14 +2066,14 @@ ship "Waverider"
 	gun 22.5 -56.5 "Particle Cannon"
 	gun -31.5 -7 "Particle Cannon"
 	gun 31.5 -7 "Particle Cannon"
-	description `The Waverider was a ship that was first requested and never used for five years, seven months and twenty-seven days.`
-	description `	Its disappointment was so immense, it willed itself into being.`
+	description `<DS-1967>`
+	description `<DS-1968>`
 
 outfit "Emotional Baggage"
 	category "Unique"
 	thumbnail "outfit/unknown"
-	description `The physical embodiment of everything that makes the Reviewers who they are today.`
-	description `	Unfortunately, it's not for sale.`
+	description `<DS-1969>`
+	description `<DS-1970>`
 
 
 
@@ -2254,4 +2254,4 @@ ship "Modified Hauler VI"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Hauler cargo ships are considered by many to be outdated, and it is unclear if upgrading the cargo space to six containers is sufficient to make this Hauler ship popular. It certainly doesn't help that the Hauler VI is more expensive than four Hauler IIIs."
+	description "<DS-1971>"

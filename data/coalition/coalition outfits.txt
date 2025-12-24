@@ -23,7 +23,7 @@ outfit "Small Collector Module"
 	"outfit space" -6
 	"solar collection" .8
 	"solar heat" .4
-	description "Solar power is the mainstay of the Coalition's merchant marine. The design of these panels has been refined over the millennia, growing ever more efficient."
+	description "<DS-2278>"
 
 outfit "Large Collector Module"
 	category "Power"
@@ -37,7 +37,7 @@ outfit "Large Collector Module"
 	"outfit space" -21
 	"solar collection" 3.3
 	"solar heat" 1.5
-	description "One of these solar panels is enough to meet the energy needs of a medium-sized Coalition civilian ship, especially given the energy efficiency of their engines and the fact that under their laws only Heliarch ships are allowed to have weapons."
+	description "<DS-2279>"
 
 outfit "Small Reactor Module"
 	category "Power"
@@ -51,8 +51,8 @@ outfit "Small Reactor Module"
 	"outfit space" -42
 	"energy generation" 9.8
 	"heat generation" 19
-	description "Solar power is sufficient for commerce, but excessive thriftiness is seldom a winning strategy in warfare. For ships that must have a reliable energy source to power weapons, the Heliarchs use compact nuclear reactors."
-	description "	A beam of antiprotons triggers fusion in tiny injected fuel pellets, allowing for a complete burnup far more efficient than would otherwise be possible."
+	description "<DS-2280>"
+	description "<DS-2281>"
 
 outfit "Large Reactor Module"
 	category "Power"
@@ -66,8 +66,8 @@ outfit "Large Reactor Module"
 	"outfit space" -98
 	"energy generation" 24.2
 	"heat generation" 45
-	description "Though still unable to replicate Quarg power generation technology, Heliarch science teams are constantly looking to realize their most recent guess on how they work. For this larger module, a steady stream of injected antiprotons catalyzes reactions in carefully confined fusion plasma, extracting as much power as physically possible."
-	description "	This advanced fusion reactor was designed for the most powerful Heliarch warships. Its structure has not changed significantly in the millennia since the first battle with the Quarg, but each generation of reactors is made slightly more efficient than the previous ones."
+	description "<DS-2282>"
+	description "<DS-2283>"
 
 outfit "Small Cogeneration Module"
 	category "Power"
@@ -81,8 +81,8 @@ outfit "Small Cogeneration Module"
 	"outfit space" -11
 	"energy generation" 1.15
 	"heat generation" .85
-	description "The Kimek originally created much larger versions of this module, intended to provide energy for their hunger towers."
-	description "	This compact design recovers much of what would otherwise be waste heat, making it a very efficient fuel cell."
+	description "<DS-2284>"
+	description "<DS-2285>"
 
 outfit "Large Cogeneration Module"
 	category "Power"
@@ -96,7 +96,7 @@ outfit "Large Cogeneration Module"
 	"outfit space" -46
 	"energy generation" 5.3
 	"heat generation" 3.45
-	description "Without much exciting work available in peacetime, many Coalition engineers take to tinkering with existing equipment to improve its efficiency."
+	description "<DS-2286>"
 
 outfit "Small Battery Module"
 	category "Power"
@@ -109,7 +109,7 @@ outfit "Small Battery Module"
 	"mass" 4
 	"outfit space" -4
 	"energy capacity" 3600
-	description "Because Coalition ships rely on solar power, they must also be able to store a substantial amount of energy. This small battery pack is much more efficient than comparable human technology."
+	description "<DS-2287>"
 
 outfit "Large Battery Module"
 	category "Power"
@@ -122,7 +122,7 @@ outfit "Large Battery Module"
 	"mass" 18
 	"outfit space" -18
 	"energy capacity" 18000
-	description "This battery pack stores enough power to allow a Coalition ship to continue maneuvering even when its solar panels are only producing a fraction of their peak output."
+	description "<DS-2288>"
 
 
 outfit "Small Shield Module"
@@ -138,7 +138,7 @@ outfit "Small Shield Module"
 	"shield generation" .28
 	"shield energy" .28
 	"shield heat" .1
-	description "Although combat is almost unheard of in Coalition space, almost all of their ships are able to recharge their shields when necessary."
+	description "<DS-2289>"
 
 outfit "Large Shield Module"
 	category "Systems"
@@ -153,7 +153,7 @@ outfit "Large Shield Module"
 	"shield generation" 1.3
 	"shield energy" 1.3
 	"shield heat" .5
-	description "The Coalition manufactures heavy shield generators for their ships in case they ever face aggression from the Quarg or another species."
+	description "<DS-2290>"
 
 outfit "Overcharged Shield Module"
 	category "Systems"
@@ -169,7 +169,7 @@ outfit "Overcharged Shield Module"
 	"shield energy" 4.6
 	"shield heat" 1.4
 	"energy consumption" .5
-	description "These modular shield generators are the most powerful emitters produced in Coalition space, and as such they are strictly controlled and exclusively used by the Heliarchs. The additions made to the Large Shield Module more than tripled its shield generation, but at the cost of it requiring a constant supply of energy to stabilize it."
+	description "<DS-2291>"
 
 outfit "Small Repair Module"
 	category "Systems"
@@ -184,7 +184,7 @@ outfit "Small Repair Module"
 	"hull repair rate" .12
 	"hull energy" .12
 	"hull heat" .1
-	description "Arach ships, which rely more on strong hull than on energy shields, often carry one of these repair modules to allow damaged hull plating to be patched back together on the fly."
+	description "<DS-2292>"
 
 outfit "Large Repair Module"
 	category "Systems"
@@ -199,7 +199,7 @@ outfit "Large Repair Module"
 	"hull repair rate" .57
 	"hull energy" .57
 	"hull heat" .5
-	description "This hub houses a small fleet of repair robots that can climb around on a ship's hull and repair damage to it, even in the middle of combat."
+	description "<DS-2293>"
 
 outfit "Overclocked Repair Module"
 	category "Systems"
@@ -215,7 +215,7 @@ outfit "Overclocked Repair Module"
 	"hull energy" 1.4
 	"hull heat" 1.2
 	"heat generation" .6
-	description "These advanced repair modules are issued to Heliarch ships, providing hull repair unparalleled in all of Coalition space. The legions of small repair drones come with the extensive pathways they use to quickly get around a ship, and as such the outfit can interfere with a ship's cooling and heat dissipation systems."
+	description "<DS-2294>"
 
 outfit "Cooling Module"
 	category "Systems"
@@ -229,7 +229,7 @@ outfit "Cooling Module"
 	"outfit space" -5
 	"active cooling" 21
 	"cooling energy" 1.4
-	description "This Cooling Module consumes energy. To conserve power, it does not ramp up to full strength unless a ship is very close to overheating."
+	description "<DS-2295>"
 
 outfit "Fuel Module"
 	category "Systems"
@@ -243,8 +243,8 @@ outfit "Fuel Module"
 	"outfit space" -19
 	"fuel capacity" 400
 	"fuel protection" .25
-	description "In their early days of space exploration, the Saryds developed the Fuel Module to travel far from Saros without worrying about becoming stranded without fuel, or sudden fuel leaks."
-	description "	Nowadays, nearly every system in the Coalition has refueling facilities, but some captains still find use in the extra jumps these modules offer."
+	description "<DS-2296>"
+	description "<DS-2297>"
 
 outfit "Decoy Plating"
 	category "Systems"
@@ -256,8 +256,8 @@ outfit "Decoy Plating"
 	"outfit space" -7
 	"scan interference" 2
 	"radar jamming" 5
-	description "This plating takes advantage of a ship's scan logs and reproduces the data of other ships nearby, effectively deflecting attempts to scan a ship's true cargo and equipment."
-	description "	Out of a need to protect themselves against destructive Heliarch torpedoes, the Lunarium incorporated small, independent radar jamming systems in each section of the plating, if only to act as a last line of defense."
+	description "<DS-2298>"
+	description "<DS-2299>"
 
 outfit "Refueling Module"
 	category "Systems"
@@ -270,8 +270,8 @@ outfit "Refueling Module"
 	"fuel capacity" -100
 	"fuel generation" .05
 	"energy consumption" .11
-	description "To avoid the risk of being inspected by the Heliarchs as they refuel on planets, Lunarium captains employ this outfit when carrying supplies or stolen outfits."
-	description "	The outfit's mechanisms need a partitioned amount of fuel set aside to allow it to work properly, so a ship can only install so many of these before becoming incapable of jumping to another system."
+	description "<DS-2300>"
+	description "<DS-2301>"
 
 outfit "Shield Refactor Module"
 	category "Systems"
@@ -286,8 +286,8 @@ outfit "Shield Refactor Module"
 	"shield heat" .32
 	"shield generation multiplier" .2
 	"hull repair multiplier" -.2
-	description "In theory, all shield generators can operate at a much faster rate than normal, if pushed to their true limit. However, the constant need to reform shields during a heated battle quickly overloads shield generators and damages them in the process. By relocating dedicated hull repair systems to focus exclusively on repairing such damage, this compact device allows shield generators to reach their true potential."
-	description "	A much needed boon against the Heliarch torpedoes' devastating effects on hull plating, the Lunarium highly favors production of this expensive piece due to its advantages over other shield generators."
+	description "<DS-2302>"
+	description "<DS-2303>"
 
 outfit "Small Recovery Module"
 	category "Systems"
@@ -303,7 +303,7 @@ outfit "Small Recovery Module"
 	"hull repair rate" .43
 	"hull energy" .97
 	"hull heat" .07
-	description "By combining the Coalition's shield generation and hull repair technologies into one piece of equipment, the Lunarium has increased the effectiveness of both, allowing for better defenses against Heliarch weaponry."
+	description "<DS-2304>"
 
 outfit "Scanning Module"
 	category "Systems"
@@ -320,7 +320,7 @@ outfit "Scanning Module"
 	"cargo scan power" 25
 	"cargo scan efficiency" 18
 	"tactical scan power" 25
-	description "This system allows the Heliarchs to scan nearby ships, enabling them to detect weapons or illegal goods."
+	description "<DS-2305>"
 
 outfit "Outskirts Gauger"
 	category "Systems"
@@ -333,8 +333,8 @@ outfit "Outskirts Gauger"
 	"unique" 1
 	"tactical scan power" 169
 	"energy consumption" .2
-	description "Completed with the data from one of their long-lost satellites, the newest scanner of House Idriss excels at reading various energy signatures across vast distances."
-	description "	Constantly running its calculations about every little thing it detects within its impressive range, the gauger needs a steady supply of energy to function."
+	description "<DS-2306>"
+	description "<DS-2307>"
 
 outfit "Small Thrust Module"
 	category "Engines"
@@ -353,7 +353,7 @@ outfit "Small Thrust Module"
 	"flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	"flare sound" "atomic tiny"
-	description "This tiny thruster produces a considerable amount of thrust... but also a considerable amount of heat."
+	description "<DS-2308>"
 
 outfit "Large Thrust Module"
 	category "Engines"
@@ -372,7 +372,7 @@ outfit "Large Thrust Module"
 	"flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	"flare sound" "atomic small"
-	description "Coalition engineers prefer to focus on perfecting a few versatile designs rather than producing a wide range of them. This thruster is quite efficient, but large ships will need several of them stacked together to produce sufficient thrust."
+	description "<DS-2309>"
 
 outfit "Small Reverse Module"
 	category "Engines"
@@ -391,8 +391,8 @@ outfit "Small Reverse Module"
 	"reverse flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	"reverse flare sound" "atomic tiny"
-	description "Placing this tiny thruster in the front of a freighter or transport allows Coalition merchants to considerably improve their energy efficiency, which is of great benefit when relying on solar power."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "<DS-2310>"
+	description "<DS-144>"
 
 outfit "Large Reverse Module"
 	category "Engines"
@@ -411,8 +411,8 @@ outfit "Large Reverse Module"
 	"reverse flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	"reverse flare sound" "atomic small"
-	description "With their significant weapons capacity left unused in peacetime, captains of larger Coalition freighters and transports can use Large Reverse Modules to rapidly slow their ships, allowing them to save both time and energy."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "<DS-2311>"
+	description "<DS-144>"
 
 outfit "Small Steering Module"
 	category "Engines"
@@ -431,7 +431,7 @@ outfit "Small Steering Module"
 	"steering flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	"steering flare sound" "atomic tiny"
-	description "Despite its high efficiency, this module is not sufficient for any but the tiniest of ships. Instead, the modules are designed with the expectation that ships may use two or three of them in tandem."
+	description "<DS-2312>"
 
 outfit "Large Steering Module"
 	category "Engines"
@@ -450,7 +450,7 @@ outfit "Large Steering Module"
 	"steering flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	"steering flare sound" "atomic small"
-	description "By focusing on small, modular engines rather than the massive capital ship drives that most other species develop, the Coalition loses some of the potential efficiency for very large ships, but gains a considerable amount of flexibility."
+	description "<DS-2313>"
 
 outfit "Enforcer Confrontation Gear"
 	category "Hand to Hand"
@@ -463,7 +463,7 @@ outfit "Enforcer Confrontation Gear"
 	"capture attack" 3.1
 	"capture defense" 4.9
 	"unplunderable" 1
-	description "The peak of Heliarch combat engineering, this weapon uses condensed blasts of energy to dispatch any who dare threaten the safety of the Coalition."
+	description "<DS-2314>"
 
 outfit "Enforcer Riot Staff"
 	category "Hand to Hand"
@@ -476,7 +476,23 @@ outfit "Enforcer Riot Staff"
 	"capture attack" 2.0
 	"capture defense" 3.5
 	"unplunderable" 1
-	description "Made to deal with the occasional dissidents that pop up around Coalition space in a non-lethal manner, these weapons see minimal use in shipbound combat, but are carried anyway in the event a dissident gets aboard."
+	description "<DS-2315>"
+
+outfit "Guardian Turret"
+	category "Hand to Hand"
+	series "Fortifications"
+	index 08025
+	licenses
+		Heliarch
+	cost 876000
+	thumbnail "outfit/guardian turret"
+	"mass" 1
+	"outfit space" -1
+	"capture defense" 19
+	"unplunderable" 1
+	description "<DS-2316>"
+	description "<DS-2317>"
+	description "<DS-2318>"
 
 outfit "Anti-Materiel Gun"
 	category "Hand to Hand"
@@ -487,22 +503,22 @@ outfit "Anti-Materiel Gun"
 	"capture attack" 3.4
 	"capture defense" 1.9
 	"unplunderable" 1
-	description "Easy to use and relatively cheap to manufacture, these weapons were born by refurbishing the Heliarchs' favored arms, with the new barrel shaping the energy into deadly blasts that make short work of even the toughest body armor."
+	description "<DS-2319>"
 
 outfit "Coalition License"
 	category "Licenses"
 	series "Licenses"
 	index 08010
 	thumbnail "outfit/coalition license"
-	description "A digital chip in the form of a stylized badge, this document signifies the permission of the owner to browse, employ and deal in transactions involving civilian Coalition technology."
-	description "	There is a history of controversy surrounding this license, as throughout the millennia several Heliarch laws have been in a back and forth regarding the conditions that need to be met for someone to obtain a license. This argument started with the third Civil Goods and Fares Act, created just a few decades after the War of Independence. It has continued all the way to the relatively recent twenty-sixth addendum to the second article of the Ninth Rectification on Commerce and Traffic, passed two hundred years ago, which made the acquisition requirements much more flexible."
+	description "<DS-2320>"
+	description "<DS-2321>"
 
 outfit "Heliarch License"
 	category "Licenses"
 	series "Licenses"
 	index 08020
 	thumbnail "outfit/heliarch license"
-	description "An ornate circlet of gold and platinum, it serves as both a symbol of rank and as a license to access exclusive Heliarch facilities. Custom-made to fit a human's head, it's surprisingly light and comfortable."
+	description "<DS-2322>"
 
 outfit "Beyond the Hyperdrive"
 	category "Unique"
@@ -510,5 +526,5 @@ outfit "Beyond the Hyperdrive"
 	index 11
 	thumbnail "outfit/beyond the hyperdrive"
 	"unique" 1
-	description "A book gifted to you by Anna Fangvin, a struggling author who found success in Coalition space. It is a signed copy."
-	description "	The story follows a human captain who steals a jump drive from the Quarg and travels beyond the hyperlanes, learning new things about the aliens of the galaxy."
+	description "<DS-2323>"
+	description "<DS-2324>"

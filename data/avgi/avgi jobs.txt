@@ -17,8 +17,8 @@
 mission "Avgi: Small Cargo 1 (Generic)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -36,8 +36,8 @@ mission "Avgi: Small Cargo 1 (Generic)"
 mission "Avgi: Small Cargo 2 (Generic)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -55,8 +55,8 @@ mission "Avgi: Small Cargo 2 (Generic)"
 mission "Avgi: Small Cargo 3 (Generic)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -76,8 +76,8 @@ mission "Avgi: Small Cargo 3 (Generic)"
 mission "Avgi: Bulk Cargo 1 (Generic)"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -95,8 +95,8 @@ mission "Avgi: Bulk Cargo 1 (Generic)"
 mission "Avgi: Bulk Cargo 2 (Generic)"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -114,8 +114,8 @@ mission "Avgi: Bulk Cargo 2 (Generic)"
 mission "Avgi: Bulk Cargo 3 (Generic)"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -136,8 +136,8 @@ mission "Avgi: Rush Cargo 1 (Generic)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -157,8 +157,8 @@ mission "Avgi: Rush Cargo 2 (Generic)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -178,8 +178,8 @@ mission "Avgi: Rush Cargo 3 (Generic)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -199,8 +199,8 @@ mission "Avgi: Rush Cargo 3 (Generic)"
 mission "Avgi: Small Cargo 1 (Avgi Cargo)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -218,8 +218,8 @@ mission "Avgi: Small Cargo 1 (Avgi Cargo)"
 mission "Avgi: Small Cargo 2 (Avgi Cargo)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -237,8 +237,8 @@ mission "Avgi: Small Cargo 2 (Avgi Cargo)"
 mission "Avgi: Small Cargo 3 (Avgi Cargo)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -258,8 +258,8 @@ mission "Avgi: Small Cargo 3 (Avgi Cargo)"
 mission "Avgi: Bulk Cargo 1 (Avgi Cargo)"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -277,8 +277,8 @@ mission "Avgi: Bulk Cargo 1 (Avgi Cargo)"
 mission "Avgi: Bulk Cargo 2 (Avgi Cargo)"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -296,8 +296,8 @@ mission "Avgi: Bulk Cargo 2 (Avgi Cargo)"
 mission "Avgi: Bulk Cargo 3 (Avgi Cargo)"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -318,8 +318,8 @@ mission "Avgi: Rush Cargo 1 (Avgi Cargo)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -339,8 +339,8 @@ mission "Avgi: Rush Cargo 2 (Avgi Cargo)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -360,8 +360,8 @@ mission "Avgi: Rush Cargo 3 (Avgi Cargo)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -381,8 +381,8 @@ mission "Avgi: Rush Cargo 3 (Avgi Cargo)"
 mission "Avgi: Small Cargo 1 (Avgi Nuclear)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -400,8 +400,8 @@ mission "Avgi: Small Cargo 1 (Avgi Nuclear)"
 mission "Avgi: Small Cargo 2 (Avgi Nuclear)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -419,8 +419,8 @@ mission "Avgi: Small Cargo 2 (Avgi Nuclear)"
 mission "Avgi: Small Cargo 3 (Avgi Nuclear)"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -441,8 +441,8 @@ mission "Avgi: Rush Cargo 1 (Avgi Nuclear)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -462,8 +462,8 @@ mission "Avgi: Rush Cargo 2 (Avgi Nuclear)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -483,8 +483,8 @@ mission "Avgi: Rush Cargo 3 (Avgi Nuclear)"
 	job
 	repeat
 	deadline
-	name "Rush delivery to <planet>"
-	description "<destination> urgently needs a shipment of <cargo> by <date>. Payment is <payment>."
+	name "<NM-220>"
+	description "<DS-1994>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -505,25 +505,25 @@ mission "Avgi: Rush Cargo 3 (Avgi Nuclear)"
 
 phrase "avgi specialists complete"
 	word
-		"You drop off the "
+		"<WR-9690>"
 	word
-		"engineers"
-		"doctors"
-		"scientists"
-		"researchers"
-		"mechanics"
-		"technicians"
-		"specialists"
-		"experts"
-		"academics"
+		"<WR-9691>"
+		"<WR-9692>"
+		"<WR-886>"
+		"<WR-9693>"
+		"<WR-9694>"
+		"<WR-9695>"
+		"<WR-9696>"
+		"<WR-9697>"
+		"<WR-9698>"
 	word
-		" on <planet> as they chatter excitedly about their subjects of expertise. You collect <payment> in payment."
+		"<WR-9699>"
 
 mission "Avgi: Specialized Workers 1"
 	job
 	repeat
-	name "Specialists to <planet>"
-	description "Take these <bunks> specialists to <destination> to provide subject matter expertise in exchange for <payment>."
+	name "<NM-465>"
+	description "<DS-1995>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -541,8 +541,8 @@ mission "Avgi: Specialized Workers 1"
 mission "Avgi: Specialized Workers 2"
 	job
 	repeat
-	name "Specialists to <planet>"
-	description "Take these <bunks> specialists to <destination> to provide subject matter expertise in exchange for <payment>."
+	name "<NM-465>"
+	description "<DS-1995>"
 	source
 		attributes "avgi diaspora"
 	destination
@@ -561,8 +561,8 @@ mission "Avgi: Specialized Workers 2"
 mission "Avgi: Ergastirio Researchers 1"
 	job
 	repeat
-	name "Researchers to <planet>"
-	description "Take these <bunks> researchers to <destination> to work for a term on the laboratory station in exchange for <payment>."
+	name "<NM-466>"
+	description "<DS-1996>"
 	source
 		attributes "avgi diaspora"
 		near "Symphony" 1 30
@@ -580,8 +580,8 @@ mission "Avgi: Ergastirio Researchers 1"
 mission "Avgi: Ergastirio Researchers 2"
 	job
 	repeat
-	name "Researchers to <planet>"
-	description "Take these <bunks> researchers to <destination> to work for a term on the laboratory station in exchange for <payment>."
+	name "<NM-466>"
+	description "<DS-1996>"
 	source
 		attributes "avgi diaspora"
 		near "Symphony" 1 30
@@ -599,25 +599,25 @@ mission "Avgi: Ergastirio Researchers 2"
 
 phrase "avgi diplomats complete"
 	word
-		"You drop off the "
+		"<WR-9690>"
 	word
-		"diplomats"
-		"negotiators"
+		"<WR-9700>"
+		"<WR-9701>"
 	word
-		" on <planet> as they "
+		"<WR-9702>"
 	word
-		"review papers"
-		"shuffle papers"
-		"prepare arguments"
-		"practice arguments"
+		"<WR-9703>"
+		"<WR-9704>"
+		"<WR-9705>"
+		"<WR-9706>"
 	word
-		" for the negotiations. You collect <payment> in payment."
+		"<WR-9707>"
 
 mission "Avgi: Outpost Diplomats 1"
 	job
 	repeat
-	name "Diplomats to <planet>"
-	description "Take these <bunks> diplomats to <destination> to negotiate with unhappy workers in exchange for <payment>."
+	name "<NM-467>"
+	description "<DS-1997>"
 	source "Peripheria"
 	destination
 		attributes "dissonance sympathies"
@@ -634,8 +634,8 @@ mission "Avgi: Outpost Diplomats 1"
 mission "Avgi: Outpost Diplomats 2"
 	job
 	repeat
-	name "Diplomats to <planet>"
-	description "Take these <bunks> diplomats to <destination> to soothe dissatisfied Avgi in exchange for <payment>."
+	name "<NM-467>"
+	description "<DS-1998>"
 	source "Peripheria"
 	destination
 		attributes "dissonance sympathies"
@@ -652,8 +652,8 @@ mission "Avgi: Outpost Diplomats 2"
 mission "Avgi: Outpost Diplomats 3"
 	job
 	repeat
-	name "Diplomats to <planet>"
-	description "Take these <bunks> diplomats to <destination> to soothe dissatisfied Avgi in exchange for <payment>."
+	name "<NM-467>"
+	description "<DS-1998>"
 	source "Peripheria"
 	destination
 		attributes "dissonance sympathies"
@@ -670,19 +670,19 @@ mission "Avgi: Outpost Diplomats 3"
 
 phrase "avgi doctors complete"
 	word
-		"You drop off the "
+		"<WR-9690>"
 	word
-		" doctors"
+		"<WR-9708>"
 	word
-		" on <planet>, who immediately rush off to provide care."
+		"<WR-9709>"
 	word
-		" You collect <payment> in payment."
+		"<WR-9710>"
 
 mission "Avgi: Doctors 1"
 	job
 	repeat
-	name "Doctors to <planet>"
-	description "Take these <bunks> doctors to <destination> to provide treatment and medical services in exchange for <payment>."
+	name "<NM-468>"
+	description "<DS-1999>"
 	source "Peripheria"
 	destination
 		distance 1 30
@@ -699,8 +699,8 @@ mission "Avgi: Doctors 1"
 mission "Avgi: Doctors 2"
 	job
 	repeat
-	name "Doctors to <planet>"
-	description "Take these <bunks> doctors to <destination> to provide treatment and medical services in exchange for <payment>."
+	name "<NM-468>"
+	description "<DS-1999>"
 	source "Peripheria"
 	destination
 		distance 1 30
@@ -717,8 +717,8 @@ mission "Avgi: Doctors 2"
 mission "Avgi: Doctors 3"
 	job
 	repeat
-	name "Doctors to <planet>"
-	description "Take these <bunks> doctors to <destination> to provide treatment and medical services in exchange for <payment>."
+	name "<NM-468>"
+	description "<DS-1999>"
 	source "Peripheria"
 	destination
 		distance 1 30
@@ -737,13 +737,13 @@ mission "Avgi: Doctors 3"
 
 phrase "avgi cylinder materials"
 	word
-		"You drop off the cylinder construction materials and collect <payment> in payment."
+		"<WR-9711>"
 
 mission "Avgi: Cylinder Materials 1"
 	job
 	repeat
-	name "Construction materials to the <planet>"
-	description "Bring <cargo> from <origin> to the <destination> to support the construction of the <destination> in exchange for <payment>."
+	name "<NM-469>"
+	description "<DS-2000>"
 	source
 		distance 1 30
 		attributes "avgi diaspora"
@@ -762,8 +762,8 @@ mission "Avgi: Cylinder Materials 1"
 mission "Avgi: Cylinder Materials 2"
 	job
 	repeat
-	name "Construction materials to the <planet>"
-	description "Bring <cargo> from <origin> to the <destination> to support the construction of the <destination> in exchange for <payment>."
+	name "<NM-469>"
+	description "<DS-2000>"
 	source
 		distance 1 30
 		attributes "avgi diaspora"
@@ -782,8 +782,8 @@ mission "Avgi: Cylinder Materials 2"
 mission "Avgi: Cylinder Materials 3"
 	job
 	repeat
-	name "Construction materials to the <planet>"
-	description "Bring <cargo> from <origin> to the <destination> to support the construction of the <destination> in exchange for <payment>."
+	name "<NM-469>"
+	description "<DS-2000>"
 	source
 		distance 1 30
 		attributes "avgi diaspora"
@@ -802,8 +802,8 @@ mission "Avgi: Cylinder Materials 3"
 mission "Avgi: Bulk Cylinder Materials 1"
 	job
 	repeat
-	name "Bulk materials to the <planet>"
-	description "Bring <cargo> from <origin> to the <destination> to support the construction of the <destination> in exchange for <payment>."
+	name "<NM-470>"
+	description "<DS-2000>"
 	source
 		distance 1 30
 		attributes "avgi diaspora"
@@ -822,8 +822,8 @@ mission "Avgi: Bulk Cylinder Materials 1"
 mission "Avgi: Bulk Cylinder Materials 2"
 	job
 	repeat
-	name "Bulk materials to the <planet>"
-	description "Bring <cargo> from <origin> to the <destination> to support the construction of the <destination> in exchange for <payment>."
+	name "<NM-470>"
+	description "<DS-2000>"
 	source
 		distance 1 30
 		attributes "avgi diaspora"
@@ -842,8 +842,8 @@ mission "Avgi: Bulk Cylinder Materials 2"
 mission "Avgi: Bulk Cylinder Materials 3"
 	job
 	repeat
-	name "Bulk materials to the <planet>"
-	description "Bring <cargo> from <origin> to the <destination> to support the construction of the <destination> in exchange for <payment>."
+	name "<NM-470>"
+	description "<DS-2000>"
 	source
 		distance 1 30
 		attributes "avgi diaspora"
@@ -862,13 +862,13 @@ mission "Avgi: Bulk Cylinder Materials 3"
 
 phrase "avgi nuclear materials"
 	word
-		"You deliver the <cargo> to a heavily armed security detail and collect <payment> in payment."
+		"<WR-9712>"
 
 mission "Avgi: Special Nuclear Material Shipment 1"
 	job
 	repeat
-	name "Special nuclear materials to <planet>"
-	description "Deliver <cargo> to <destination> by <date> in exchange for <payment>. Be on the lookout for pirates looking to steal the nuclear material for nefarious purposes."
+	name "<NM-471>"
+	description "<DS-2001>"
 	source
 		government "Avgi (Twilight Guard)"
 	destination
@@ -903,8 +903,8 @@ mission "Avgi: Special Nuclear Material Shipment 1"
 mission "Avgi: Special Nuclear Material Shipment 2"
 	job
 	repeat
-	name "Special nuclear materials to <planet>"
-	description "Deliver <cargo> to <destination> by <date> in exchange for <payment>. Be on the lookout for pirates looking to steal the nuclear material for nefarious purposes."
+	name "<NM-471>"
+	description "<DS-2001>"
 	source
 		government "Avgi (Twilight Guard)"
 	destination
@@ -939,8 +939,8 @@ mission "Avgi: Special Nuclear Material Shipment 2"
 mission "Avgi: Special Nuclear Material Shipment 3"
 	job
 	repeat
-	name "Special nuclear materials to <planet>"
-	description "Deliver <cargo> to <destination> by <date> in exchange for <payment>. Be on the lookout for pirates looking to steal the nuclear material for nefarious purposes."
+	name "<NM-471>"
+	description "<DS-2001>"
 	source
 		government "Avgi (Twilight Guard)"
 	destination
@@ -975,23 +975,23 @@ mission "Avgi: Special Nuclear Material Shipment 3"
 
 phrase "avgi infocourier delivery"
 	word
-		"You drop off the "
+		"<WR-9690>"
 	word
-		"bricks"
-		"sheets"
-		"slabs"
-		"rods"
-		"tiles"
+		"<WR-9713>"
+		"<WR-9714>"
+		"<WR-9715>"
+		"<WR-9716>"
+		"<WR-9717>"
 	word
-		" of "
+		"<WR-2387>"
 	word
-		"<commodity> at a designated terminal and receive <payment> in payment."
+		"<WR-9718>"
 
 mission "Avgi: Information Courier"
 	job
 	repeat
-	name "Information courier to <planet>"
-	description "Bring <cargo> storage media to <destination> to update <planet>'s local network by <date> in exchange for <payment>."
+	name "<NM-472>"
+	description "<DS-2002>"
 	source
 		government "Avgi (Consonance)" "Avgi (Twilight Guard)"
 	destination
@@ -1011,8 +1011,8 @@ mission "Avgi: Information Courier"
 mission "Avgi: Information Courier Rush"
 	job
 	repeat
-	name "Information courier to <planet>"
-	description "Bring <cargo> storage media to <destination> to update <planet>'s local network by <date> in exchange for <payment>."
+	name "<NM-472>"
+	description "<DS-2002>"
 	source
 		government "Avgi (Consonance)" "Avgi (Twilight Guard)"
 	destination
@@ -1032,13 +1032,13 @@ mission "Avgi: Information Courier Rush"
 
 phrase "avgi twilight guards dropoff"
 	word
-		"You say your goodbyes to the Twilight Guardsmen and receive <payment> in payment."
+		"<WR-9719>"
 
 mission "Avgi: Twilight Guardsmen Transport"
-	name "Twilight Guardsmen to <planet>"
+	name "<NM-473>"
 	job
 	repeat
-	description "These <bunks> Twilight Guardsmen need transportation to <destination>. They are willing to pay you <payment> in exchange."
+	description "<DS-2003>"
 	source
 		attributes "twilight guard"
 		government "Avgi (Twilight Guard)" "Avgi (Consonance)"
@@ -1056,10 +1056,10 @@ mission "Avgi: Twilight Guardsmen Transport"
 		dialog phrase "avgi twilight guards dropoff"
 
 mission "Avgi: Twilight Guard Officers Transport"
-	name "Twilight Guard Officers to <planet>"
+	name "<NM-474>"
 	job
 	repeat
-	description "These <bunks> Twilight Guard officers need comfortable transportation to <destination>. They are willing to pay you <payment> in exchange."
+	description "<DS-2004>"
 	source
 		attributes "twilight guard"
 		government "Avgi (Twilight Guard)" "Avgi (Consonance)"
@@ -1077,10 +1077,10 @@ mission "Avgi: Twilight Guard Officers Transport"
 		dialog phrase "avgi twilight guards dropoff"
 
 mission "Avgi: Twilight Guard Flag Officers Transport"
-	name "Twilight Guard Flag Officers to <planet>"
+	name "<NM-475>"
 	job
 	repeat
-	description "These <bunks> Twilight Guard flag officers need comfortable transportation to <destination>. They are willing to pay you <payment> in exchange."
+	description "<DS-2005>"
 	source
 		attributes "twilight guard"
 		government "Avgi (Twilight Guard)" "Avgi (Consonance)"
@@ -1101,27 +1101,27 @@ mission "Avgi: Twilight Guard Flag Officers Transport"
 
 phrase "avgi twilight guards relief complete"
 	word
-		"You drop off the "
+		"<WR-9690>"
 	word
-		"tired"
-		"exhausted"
-		"grateful"
-		"talkative"
-		"withdrawn"
-		"injured"
-		"wounded"
+		"<WR-9720>"
+		"<WR-9721>"
+		"<WR-9722>"
+		"<WR-9723>"
+		"<WR-9724>"
+		"<WR-9725>"
+		"<WR-9726>"
 	word
-		" Twilight Guardsmen"
+		"<WR-9727>"
 	word
-		" on <planet> to rest and recover."
+		"<WR-9728>"
 	word
-		" You collect <payment> in payment."
+		"<WR-9710>"
 
 mission "Avgi: Twilight Guard Relief 1"
 	job
 	repeat
-	name "Shore leave on <planet>"
-	description "Take these <bunks> Twilight Guards to <destination> to recover from their rotation on the front lines in exchange for <payment>."
+	name "<NM-476>"
+	description "<DS-2006>"
 	source "Feo Platform"
 	destination
 		distance 1 30
@@ -1139,8 +1139,8 @@ mission "Avgi: Twilight Guard Relief 1"
 mission "Avgi: Twilight Guard Relief 2"
 	job
 	repeat
-	name "Shore leave on <planet>"
-	description "Take these <bunks> Twilight Guards to <destination> to recover from their rotation on the front lines in exchange for <payment>."
+	name "<NM-476>"
+	description "<DS-2006>"
 	source "Feo Platform"
 	destination
 		distance 1 30
@@ -1158,8 +1158,8 @@ mission "Avgi: Twilight Guard Relief 2"
 mission "Avgi: Twilight Guard Relief 3"
 	job
 	repeat
-	name "Shore leave on <planet>"
-	description "Take these <bunks> Twilight Guards to <destination> to recover from their rotation on the front lines in exchange for <payment>."
+	name "<NM-476>"
+	description "<DS-2006>"
 	source "Feo Platform"
 	destination
 		distance 1 30

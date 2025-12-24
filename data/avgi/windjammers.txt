@@ -14,15 +14,15 @@
 
 phrase tree
 	word
-		"Gentle Titan"
+		"<WR-10496>"
 
 phrase tree2
 	word
-		"Noble Giant"
+		"<WR-10497>"
 
 phrase empty
 	word
-		" "
+		"<WR-117>"
 
 
 mission "Avgi: Gossamer Sailors"
@@ -114,7 +114,7 @@ outfit "Pinecone Launcher"
 			"throttle control"
 		"tracking" .5
 		"missile strength" 40
-	description "When there is no one left to speak for the trees, these cannons will do all the talking."
+	description "<DS-2127>"
 
 
 outfit "Pollen"
@@ -127,8 +127,8 @@ outfit "Pollen"
 	"installable" -1
 	"minable" 1
 	"flotsam chance" 0.6
-	description "This granule of exotic Windjammer pollen is not only replete with nutritious proteins, but also appears to contain valuable platinum group elements bound in organic molecules. This includes a collection of complex enzymes, which appear to be capable of catalyzing many difficult reactions with ease."
-	description "	Achoo!"
+	description "<DS-2128>"
+	description "<DS-2129>"
 
 
 outfit "Jamfruit"
@@ -140,7 +140,7 @@ outfit "Jamfruit"
 	"installable" -1
 	"minable" 1
 	"flotsam chance" 0.3
-	description "Closer to a berry than a fruit, this tart prize of a Windjammer tree is not only delicious, but is rich in nutrients. It can be refined to extract a variety of useful medicinal compounds, giving it value both as a delicacy and as a remedy."
+	description "<DS-2130>"
 
 
 # Ships
@@ -451,7 +451,7 @@ ship "Pollen"
 	outfits
 		"Pollen" 10
 	explode "pug tiny explosion" 2
-	description "This allergenic menace is dreaded by captains across the galaxy. Only the most powerful civilizations could hope to contend with even a single granule."
+	description "<DS-2131>"
 
 
 ship "Sprout"
@@ -486,4 +486,4 @@ ship "Sprout"
 		"Pollen" 5
 
 	explode "pug tiny explosion" 2
-	description "Marginally tamer than a free floating pollen granule, this sprouting terror is still not to be underestimated."
+	description "<DS-2132>"

@@ -50,7 +50,7 @@ outfit "Grab-Strike Turret"
 		"shield damage" 108
 		"hull damage" 32
 		"hit force" -240
-	description "Korath Grab-Strike projectiles are designed to pull a target closer to the Korath ship, to keep it from escaping."
+	description "<DS-3012>"
 
 effect "grab-strike impact"
 	sprite "effect/grab-strike impact"
@@ -105,8 +105,8 @@ outfit "Shunt-Strike Turret"
 		"piercing" 0.1
 		"missile strength" 80
 		"safe"
-	description "This weapon fires homing balls of microbots that pass through a target's shields and attempt to convert its hull into raw materials or useful items such as heat shunts. As Exile microbots contain safety circuits that prevent them from becoming independent of their Systems Core, they will fail after a short time, but not before wreaking havoc on the ship."
-	description "	Because the same property that allows the microbots through a target's shields disrupts the shields of the ship firing them, it should never be used without an appropriately large Systems Core. Given adequate shield generation, however, the microbots make fantastic miners."
+	description "<DS-3013>"
+	description "<DS-3014>"
 
 effect "shunt-strike hit"
 	sprite "effect/shunt-strike-hit"
@@ -151,7 +151,7 @@ outfit "Banisher Grav-Turret"
 		"shield damage" 2.8
 		"hull damage" .9
 		"hit force" 60
-	description "The Korath like to keep their enemies close... but not too close."
+	description "<DS-3015>"
 
 outfit "Expeller Grav-Ray"
 	category "Guns"
@@ -177,7 +177,7 @@ outfit "Expeller Grav-Ray"
 		"shield damage" 1.4
 		"hull damage" .45
 		"hit force" 37.5
-	description "This low-power version of the Banisher is used on Korath fighters to push enemy vessels away from carriers and civilians."
+	description "<DS-3016>"
 
 effect "banisher impact"
 	sprite "effect/banisher impact"
@@ -208,7 +208,7 @@ outfit "Warder Anti-Missile"
 		"reload" 5
 		"firing energy" 24
 		"firing heat" 10
-	description "This anti-missile system helps defend Korath warships from long-range attacks."
+	description "<DS-3017>"
 
 effect "korath warder"
 	sprite "effect/warder"
@@ -246,7 +246,7 @@ outfit "Fire-Lance"
 		"hull damage" 1.5
 		"heat damage" 8
 		"burn damage" .15
-	description "The Korath Fire-Lance is a medium-range beam weapon designed to be used by their fighters."
+	description "<DS-3018>"
 
 effect "fire-lance impact"
 	sprite "effect/fire-lance impact"
@@ -284,7 +284,7 @@ outfit "Blaze-Pike Turret"
 		"hull damage" 3.1
 		"heat damage" 18
 		"burn damage" 0.4
-	description "The seeming reverence the Korath have for fire appears embodied in this weapon. This pair of Fire-Lances mounted together in a turret do not merely create twin lances of fire: Rather, they begin to form a gestalt - a single, longer, hotter, and almost hypnotic column of fire."
+	description "<DS-3019>"
 
 effect "blaze-pike hit"
 	sprite "effect/blaze-pike hit"
@@ -324,7 +324,7 @@ outfit "Korath Inferno"
 		"hull damage" 4.8
 		"heat damage" 30
 		"burn damage" 0.75
-	description "Some Korath consider the Inferno the crowning achievement of Exile weapon design. Three Fire-Lances mounted together in precisely the right manner combine synergistically, creating a longer, more powerful beam than three would individually."
+	description "<DS-3020>"
 
 effect "korath inferno hit"
 	sprite "effect/korath inferno hit"
@@ -365,7 +365,7 @@ outfit "Thermal Repeater"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "This is the smallest and simplest Korath projectile weapon, designed mostly for use on fighters and drones. As with most Korath technology, it generates a large amount of heat, enough that the gun must pause briefly after every few shots to cool down."
+	description "<DS-3021>"
 
 effect "repeater impact"
 	sprite "effect/repeater impact"
@@ -409,7 +409,7 @@ outfit "Thermal Repeater Turret"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "Thermal Repeaters fire compact bolts of superheated plasma at their targets. For every one of these turrets installed on a ship, an auxiliary cooling system is typically required to cope with its heat output."
+	description "<DS-3022>"
 
 
 outfit "Piercer Missile"
@@ -420,7 +420,7 @@ outfit "Piercer Missile"
 	thumbnail "outfit/piercer"
 	"mass" .3
 	"piercer capacity" -1
-	description "This missile is fired from a Piercer Missile Launcher."
+	description "<DS-3023>"
 
 outfit "Piercer Missile Rack"
 	category "Ammunition"
@@ -432,7 +432,7 @@ outfit "Piercer Missile Rack"
 	"outfit space" -7
 	"piercer capacity" 16
 	ammo "Piercer Missile"
-	description "The Piercer Missile Rack is used to store extra ammunition for Piercer Missile Launchers."
+	description "<DS-3024>"
 
 outfit "Piercer Missile Launcher"
 	category "Secondary Weapons"
@@ -476,8 +476,8 @@ outfit "Piercer Missile Launcher"
 		"hit force" 450
 		"missile strength" 73
 		"stream"
-	description "Korath Piercer Missiles carry a pair of warheads. The first, a smaller one in the very tip of the missile, explodes on impact to blast a hole in the ship's shields to allow some of the subsequent, larger explosion to pierce through."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-3025>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -556,7 +556,7 @@ outfit "Korath Detainer"
 		"hull damage" 240
 		"slowing damage" 40
 		"blast radius" 20
-	description "Although not the most damaging weapon of its size, the Korath Detainer is feared for two reasons: its exceptionally long range, and its ability to interfere with the propulsion systems of any ship it strikes. Its reputation has earned it the honor of being named for the Korath themselves."
+	description "<DS-3026>"
 
 effect "detainer sparks"
 	sprite "effect/detainer sparks"
@@ -596,7 +596,7 @@ outfit "Cluster Mine"
 	thumbnail "outfit/korath mine"
 	"mass" .7
 	"minelayer capacity" -1
-	description "This is ammunition for a Cluster Mine Layer. Each mine splits into eleven submunitions after it is deployed."
+	description "<DS-3027>"
 
 outfit "Cluster Mine Rack"
 	category "Ammunition"
@@ -608,7 +608,7 @@ outfit "Cluster Mine Rack"
 	"outfit space" -9
 	"minelayer capacity" 9
 	ammo "Cluster Mine"
-	description "The Cluster Mine Rack is used to store extra ammunition for Cluster Mine Layers."
+	description "<DS-3028>"
 
 outfit "Cluster Mine Layer"
 	category "Secondary Weapons"
@@ -651,8 +651,8 @@ outfit "Cluster Mine Layer"
 		"hull damage" -2400
 		"hit force" -225
 		"stream"
-	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-3029>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -736,7 +736,7 @@ outfit "Shield Disruptor Turret"
 		"shield damage" 3.8
 		"hull damage" .5
 		"disruption damage" .24
-	description "Shield Disruptor Turrets interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description "<DS-3030>"
 
 effect "disruptor impact"
 	sprite "effect/static"
@@ -774,7 +774,7 @@ outfit "Husk-Slice"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
+	description "<DS-3031>"
 
 outfit "Husk-Slice Turret"
 	category "Turrets"
@@ -805,7 +805,7 @@ outfit "Husk-Slice Turret"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+	description "<DS-3032>"
 
 effect "slicer impact"
 	sprite "effect/slicer impact"
@@ -848,7 +848,7 @@ outfit "Digger Mining Turret"
 		"minable damage" 5.2
 		"prospecting" 4.2
 		"disruption damage" .08
-	description `When the Korath Exiles needed a cheap mining laser for their large vessels, they re-engineered this ancient, robust design and added a turret base. The mild shield disruption effect makes it somewhat useful in combat if required.`
+	description `<DS-3033>`
 
 outfit "Digger Mining Beam"
 	category "Guns"
@@ -877,7 +877,7 @@ outfit "Digger Mining Beam"
 		"minable damage" 4.6
 		"prospecting" 3.7
 		"disruption damage" .06
-	description `The gun version of the classic Korath mining laser allows a larger mothership to release a cloud of fighter-sized miners to harvest resources when working faster-moving or more dangerous asteroid fields.`
+	description `<DS-3034>`
 
 effect "korath digger hit"
 	sprite "effect/korath digger hit"
@@ -922,8 +922,8 @@ outfit "Langrage Hyper-Heaver"
 		"hull damage" -342
 		"hit force" 5400
 		submunition "Heaver Shard" 20
-	description `Langrage Hyper-Heavers raise the use of improvised ammunition to a fine art. This turret converts scrap metal, nearby asteroids, compressed garbage, or other debris into a high speed debris field. The exact mechanism is unclear, but the internal workings bear some similarities to hyperdrives and Banishers.`
-	description `	At close range, the heaved langrage merely forces the enemy back. As the launch field collapses and the langrage returns fully to normal space, however, it is rent into a rapidly-expanding cloud of deadly projectiles as it returns to normal space.`
+	description `<DS-3035>`
+	description `<DS-3036>`
 
 effect "heaver hyperspace hit"
 	sprite "effect/heaver hyperspace hit"
@@ -992,7 +992,7 @@ outfit "Firelight Storage Rack"
 	"outfit space" -6
 	"firelight missile capacity" 10
 	ammo "Firelight Missile"
-	description "This rack stores additional Firelight missiles to feed into a Firelight Bank."
+	description "<DS-3037>"
 
 outfit "Firelight Missile"
 	category "Ammunition"
@@ -1004,7 +1004,7 @@ outfit "Firelight Missile"
 	"firelight missile capacity" -1
 	"energy generation" 0.02
 	"heat generation" 0.1
-	description `The reactor element inside a Firelight Missile must be kept minimally active in order to ensure it is ready for launch. Although terribly inefficient, it nonetheless produces a trickle of power that can be tapped into when properly installed.`
+	description `<DS-3038>`
 
 outfit "Firelight Missile Bank"
 	category "Secondary Weapons"
@@ -1043,9 +1043,9 @@ outfit "Firelight Missile Bank"
 		"missile strength" 33
 		submunition "Firelight Turning"
 		"stream"
-	description "As the Firestorm Torpedo does not require full reactor shielding or safety interlocks, Korath engineers were able to create the Firelight by further scaling down the reactor element to fit in a missile casing for use on and against smaller vessels."
-	description "	Rather than rely on traditional reaction engines attached to the missile for launch, this rapid-fire missile bank appears to operate on the same principles as a Banisher."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-3039>"
+	description "<DS-3040>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1146,7 +1146,7 @@ outfit "Microbot Grinder"
 		"firing hull" -100
 		"piercing" 0.1
 		"safe"
-	description "This is a huge grinder that digests incoming material with the aid of microbots. With intake bays large enough to swallow a drone whole, wrecking claws massive enough to tear apart the hulls of heavy warships, and a seemingly omnicidal swarm of microbots ready to break down anything that falls in to its component molecules, it is a fearsome sight that any captain would be foolish to fly within reach of."
+	description "<DS-3041>"
 
 
 outfit "Firestorm Torpedo"
@@ -1160,7 +1160,7 @@ outfit "Firestorm Torpedo"
 	"firestorm torpedo capacity" -1
 	"energy generation" 0.06
 	"heat generation" 0.3
-	description `Massive in both size and destructive capability, the Firestorm Torpedo's enormous blast radius makes it a dangerous part of larger ship arsenals, despite the lack of more recent Korath innovations. The Firestorm Torpedo is used as ammo for the Firestorm Battery.`
+	description `<DS-3042>`
 
 outfit "Firestorm Torpedo Rack"
 	category "Ammunition"
@@ -1172,7 +1172,7 @@ outfit "Firestorm Torpedo Rack"
 	"outfit space" -20
 	"firestorm torpedo capacity" 13
 	ammo "Firestorm Torpedo"
-	description "This large cage-like rack is designed to be able to house several deadly Firestorm Torpedoes."
+	description "<DS-3043>"
 
 outfit "Firestorm Battery"
 	plural "Firestorm Batteries"
@@ -1223,8 +1223,8 @@ outfit "Firestorm Battery"
 		"corrosion damage" 5
 		"hit force" 6000
 		"missile strength" 115
-	description "Though not as refined as the newer Firelight version, this torpedo contains an augmented Korath Plasma Core reactor element completely stripped of its protective casing and safety interlocks. When activated, it generates a tremendous explosion of heat and force that pushes ships away and will even melt their hulls."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-3044>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 

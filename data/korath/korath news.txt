@@ -104,7 +104,7 @@ news "wanderer at kor efret spaceport"
 			"Wanderer trader"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"The Kor Efret worlds are littered with [stark, serious] environmental problems. I have seen nothing of this [magnitude, scale] before."
 			"The Kor Efreti are a very [prideful, honorable] people. I offered a favor to one free of charge, and it seemed insulted."
@@ -112,4 +112,4 @@ news "wanderer at kor efret spaceport"
 			"I [received, accepted] a job from a terminal earlier. The Kor Efreti are indeed putting them to good use."
 			"It is [disheartening, upsetting] to see how damaged this world is, but I take comfort knowing we will work to [restore, rebirth] it."
 		word
-			`"`
+			`<CN-7796>`

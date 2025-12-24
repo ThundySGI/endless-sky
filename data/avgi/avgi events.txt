@@ -36,10 +36,10 @@ mission "Avgi: Aberrant Blockade"
 		attributes "aberrant siege"
 	on offer
 		conversation
-			`As you attempt to land, your sensors warn you of an approaching pod of Aberrant over the horizon, intent on destroying anything that approaches or tries to launch from <origin>. It seems you'll have to fight if you want to land here.`
+			`<CN-8310>`
 				launch
 	on complete
-		dialog "With the area cleared of Aberrant, you manage to slip through the blockade and land on <origin>."
+		dialog "<DL-413>"
 
 	npc kill
 		government "Aberrant"

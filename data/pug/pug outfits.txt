@@ -36,7 +36,7 @@ outfit "Pug Zapper"
 		"firing heat" 1.4
 		"shield damage" 3.7
 		"hull damage" 2.9
-	description "This is a formidable beam weapon, more damaging than even the most advanced energy beams that humanity has developed. Pug ships have integrated power plants that produce the considerable amount of energy that is needed to drive weapons like this one."
+	description "<DS-3045>"
 
 outfit "Pug Zapper Turret"
 	category "Turrets"
@@ -66,7 +66,7 @@ outfit "Pug Zapper Turret"
 		"firing heat" 2.8
 		"shield damage" 7.4
 		"hull damage" 5.8
-	description "Mounted on a turret, this Pug weapon becomes even more devastatingly powerful. However, its energy requirements are higher than most human ships can support."
+	description "<DS-3046>"
 
 effect "zapper impact"
 	sprite "effect/zapper impact"
@@ -111,7 +111,7 @@ outfit "Pug Seeker"
 		"hull damage" 13
 		"hit force" 3
 		"missile strength" 10
-	description "You have no idea how this weapon works. It requires no ammunition, but its energy-based projectiles have the ability to home in on a target ship."
+	description "<DS-3047>"
 
 effect "seeker impact"
 	sprite "effect/seeker impact"
@@ -143,7 +143,7 @@ outfit "Pug Anti-Missile"
 		"reload" 2
 		"firing energy" 8
 		"firing heat" 2
-	description "This anti-missile system designed by the Pug draws a lot of energy, but its fast firing rate makes it twice as effective as anything that Lovelace Labs has been able to come up with. A ship with one of these turrets will be very difficult to hit with missiles."
+	description "<DS-3048>"
 
 effect "pug anti-missile"
 	sprite "effect/large anti missile"
@@ -176,7 +176,7 @@ outfit "Tier 3 Anti-Missile"
 		"reload" 8
 		"firing energy" 60
 		"firing heat" 10
-	description "This powerful anti-missile turret is capable of destroying even the strongest of missiles."
+	description "<DS-3049>"
 
 effect "tier 3 anti-missile fire"
 	sprite "effect/anti-missile 3 fire"
@@ -223,7 +223,7 @@ outfit "Pug Gridfire Turret"
 		"hull damage" 300
 		"blast radius" 40
 		"piercing" .3
-	description "No one understands how the Gridfire Turret works, and the Pug aren't interested in explaining."
+	description "<DS-3050>"
 
 effect "gridfire fire"
 	sprite "effect/gridfire fire"
@@ -268,7 +268,7 @@ outfit "Pug Akfar Thruster"
 	"flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	"flare sound" "ion medium"
-	description "This is a small thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "<DS-3051>"
 
 outfit "Pug Akfar Steering"
 	category "Engines"
@@ -285,7 +285,7 @@ outfit "Pug Akfar Steering"
 	"steering flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	"steering flare sound" "ion medium"
-	description "This is a small steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "<DS-3052>"
 
 outfit "Pug Cormet Thruster"
 	category "Engines"
@@ -302,7 +302,7 @@ outfit "Pug Cormet Thruster"
 	"flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	"flare sound" "ion large"
-	description "This is a medium-sized thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "<DS-3053>"
 
 outfit "Pug Cormet Steering"
 	category "Engines"
@@ -319,7 +319,7 @@ outfit "Pug Cormet Steering"
 	"steering flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	"steering flare sound" "ion large"
-	description "This is a medium-sized steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "<DS-3054>"
 
 outfit "Pug Lohmar Thruster"
 	category "Engines"
@@ -336,7 +336,7 @@ outfit "Pug Lohmar Thruster"
 	"flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	"flare sound" "ion huge"
-	description "This is a large thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "<DS-3055>"
 
 outfit "Pug Lohmar Steering"
 	category "Engines"
@@ -353,7 +353,7 @@ outfit "Pug Lohmar Steering"
 	"steering flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	"steering flare sound" "ion huge"
-	description "This is a large steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "<DS-3056>"
 
 
 
@@ -366,7 +366,7 @@ outfit "Pug Biodefenses"
 	thumbnail "outfit/pug biodefenses"
 	"capture defense" 100
 	"unplunderable" 1
-	description "This semi-organic defense system is designed to release a highly lethal bioengineered virus capable of rapidly infecting any foreign entities present on the ship that it is installed on while leaving the crew of the ship unharmed. The virus, when combined with the defense system itself, is highly accurate at automatically determining friend from foe."
+	description "<DS-3057>"
 
 outfit "Pug Peacekeeping Staff"
 	plural "Pug Peacekeeping Staves"
@@ -378,4 +378,4 @@ outfit "Pug Peacekeeping Staff"
 	"capture attack" 2.3
 	"capture defense" 2.3
 	"unplunderable" 1
-	description "Though designed for planetary population control, the peacekeeping staff also works exceptionally well for ship defense. The staff emits a short-ranged beam that incapacitates anyone it touches by causing them to enter a euphoric and hallucinogenic state, wandering off to somewhere where they won't cause any trouble. Coming down from the state of euphoria is never pleasant."
+	description "<DS-3058>"

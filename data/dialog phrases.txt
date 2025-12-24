@@ -13,141 +13,149 @@
 
 phrase "generic arrived-without-npc dialog"
 	word
-		`You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system.`
+		`<WR-9085>`
 phrase "generic safe escort completion dialog"
 	word
-		`The captain of the <npc> thanks you for escorting them safely, and pays you <payment>.`
+		`<WR-9086>`
 
 phrase "generic pirate attack payment dialog"
 	word
-		`The government of <planet>`
+		`<WR-9087>`
 	word
-		` `
-		` gratefully `
+		`<WR-117>`
+		`<WR-9088>`
 	word
-		`pays you <payment> for helping to`
+		`<WR-9089>`
 	word
-		` drive off `
-		` defeat `
+		`<WR-9090>`
+		`<WR-9091>`
 	word
-		`the `
+		`<WR-31>`
 	word
-		`pirates.`
-		`raiders.`
-		`attackers.`
+		`<WR-9092>`
+		`<WR-9093>`
+		`<WR-9094>`
 
 phrase "generic cargo delivery payment"
 	word
-		`You drop off your cargo of <commodity> and collect your payment of <payment>.`
+		`<WR-9095>`
 phrase "generic cargo on visit"
 	word
-		`You have reached <planet>, but not all of the cargo is in the system! Better depart and wait for your escorts to arrive in this star system.`
+		`<WR-9096>`
 
 phrase "generic passenger dropoff payment"
 	word
-		`You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>.`
-		`You say farewell to your <passengers> on <planet>, and collect your payment of <payment>.`
+		`<WR-9097>`
+		`<WR-9098>`
 phrase "generic passenger on visit"
 	word
-		`You have reached <planet>, but not all of the passengers are in the system! Better depart and wait for your escorts to arrive in this star system.`
+		`<WR-9099>`
 
 phrase "generic cargo and passenger on visit"
 	word
-		`You have reached <planet>, but not all of the cargo and passengers are in the system! Better depart and wait for your escorts to arrive in this star system.`
+		`<WR-9100>`
 
 phrase "generic mineral delivery payment"
 	word
-		`You drop off the <amount> tons of <mineral> and collect your payment of <payment>.`
+		`<WR-9101>`
 
 phrase "generic mineral on visit"
 	word
-		`You've returned to <origin>, but you are not carrying <amount> tons of <mineral> in your cargo hold.`
+		`<WR-9102>`
 
 phrase "generic missing stopover or cargo and passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or not all the cargo and passengers are in the system.`
+		`<WR-9103>`
 phrase "generic missing stopover or passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or not all the passengers are in the system.`
+		`<WR-9104>`
 phrase "generic missing stopover or cargo"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or not all the cargo is in the system.`
+		`<WR-9105>`
 phrase "generic missing stopover or escort"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or you left the <npc> behind.`
+		`<WR-9106>`
 phrase "generic missing waypoint or cargo and passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't passed through <waypoints>, or not all the cargo and passengers are in the system.`
+		`<WR-9107>`
 phrase "generic missing waypoint or passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't passed through <waypoints>, or not all the passengers are in the system.`
+		`<WR-9108>`
 phrase "generic missing waypoint or cargo"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't passed through <waypoints>, or not all the cargo is in the system.`
+		`<WR-9109>`
 
 phrase "generic stopover on visit"
 	word
-		`You have reached <planet>, but you haven't visited all the planets yet! Better depart and make sure you visit <stopovers>.`
+		`<WR-9110>`
 phrase "generic waypoint on visit"
 	word
-		`You have reached <planet>, but you haven't visited all the systems yet! Better depart and make sure you visit <waypoints>.`
+		`<WR-9111>`
 
 
 phrase "generic hunted bounty eliminated and payment dialog"
 	word
-		`The <npc> has been eliminated. Shortly afterwards, the government of <planet> sends you <payment> along with a message of gratitude.`
+		`<WR-9112>`
 
 phrase "generic hunted bounty eliminated dialog"
 	word
-		`The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>.`
+		`<WR-9113>`
 phrase "generic bounty hunting payment dialog"
 	word
-		`The government of <planet> gratefully pays you <payment> for eliminating the <npc>.`
+		`<WR-9114>`
 phrase "generic bounty hunting on visit"
 	word
-		`You've landed on <planet>, but the <npc> has not been eliminated yet. Hunt it down and destroy it before returning.`
+		`<WR-9115>`
 phrase "generic bounty hunting boarding on visit"
 	word
-		`You've landed on <planet>, but you have not boarded the <npc> yet. Hunt it down and board it before returning.`
+		`<WR-9116>`
 
 phrase "generic hunted bounty fleet eliminated and payment dialog"
 	word
-		`The <npc> and their fleet have been eliminated. Shortly afterwards, the government of <planet> sends you <payment> along with a message of gratitude.`
+		`<WR-9117>`
 
 phrase "generic hunted bounty fleet eliminated dialog"
 	word
-		`The <npc> and their fleet have been eliminated. You can claim the bounty payment by returning to <destination>.`
+		`<WR-9118>`
 phrase "generic fleet bounty hunting payment dialog"
 	word
-		`The government of <planet> gratefully pays you <payment> for eliminating the <npc> and their fleet.`
+		`<WR-9119>`
 phrase "generic fleet bounty hunting on visit"
 	word
-		`You've landed on <planet>, but the <npc> and its fleet has not been eliminated yet. Hunt it down and destroy it before returning.`
+		`<WR-9120>`
 
 phrase "generic pirate fleet battle on visit"
 	word
-		`You've landed on <planet>, but there are still pirates circling overhead. You should take off and help finish them off.`
+		`<WR-9121>`
 
 phrase "generic completed pirate cargo mission"
 	word
-		`You find the contact at the edge of the spaceport. Your cargo of <commodity> is removed from your ship, and you collect your payment of <payment>.`
+		`<WR-9122>`
 
 phrase "generic completed highly illegal pirate cargo mission"
 	word
-		`You find the contact outside of the main city. Your cargo of <commodity> is removed from your ship, and you collect your payment of <payment>.`
+		`<WR-9123>`
 
 phrase "generic aborted pirate passenger mission"
 	word
-		`Your passenger never arrived at <destination>. This doesn't help to establish your reputation as a reliable, no-questions-asked transporter.`
+		`<WR-9124>`
 
 phrase "generic aborted pirate cargo mission"
 	word
-		`Your cargo of <commodity> never arrived at its destination. The pirates won't be happy to hear about this.`
+		`<WR-9125>`
 
 phrase "generic completed pirate slave mission"
 	word
-		`After landing on <planet>, the pirates move the <bunks> slaves from your ship and pay you <payment>.`
+		`<WR-9126>`
 
 phrase "generic aborted pirate slave mission"
 	word
-		`Your slaves never arrived at <destination>. This doesn't help to establish your reputation as a reliable, no-questions-asked transporter.`
+		`<WR-9127>`
+
+phrase "free worlds failed"
+	word
+		`<WR-9128>`
+
+phrase "free worlds declined"
+	word
+		`<CN-7920>`

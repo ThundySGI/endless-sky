@@ -1,0 +1,518 @@
+substitutions
+	"TP-0" `(parked)`
+	"TP-1" `How quickly this ship gains speed. The higher a ship's mass (including the mass of any cargo or fighters it is carrying), the slower it accelerates.`
+	"TP-2" `Modifies the ship's acceleration by the given factor.`
+	"TP-3" `Cooling provided per second when running at full strength. Active cooling requires energy, but if your heat level is low it runs at a lower cooling rate and lower energy draw. The amount of cooling is proportional to the temperature of your ship, reaching the full level only if you are about to overheat.`
+	"TP-4" `Energy consumed per second when firing this afterburner.`
+	"TP-5" `Shield damage dealt to the ship per second when firing this afterburner.`
+	"TP-6" `Hull damage dealt to the ship per second when firing this afterburner.`
+	"TP-7" `Fuel consumed per second when firing this afterburner.`
+	"TP-8" `Accumulated shield discharging per second when firing this afterburner.`
+	"TP-9" `Accumulated hull corrosion per second when firing this afterburner.`
+	"TP-10" `Accumulated ionization per second when firing this afterburner.`
+	"TP-11" `Accumulated scrambling per second when firing this afterburner.`
+	"TP-12" `Accumulated leaking fuel per second when firing this afterburner.`
+	"TP-13" `Accumulated exothermic interactions per second when firing this afterburner.`
+	"TP-14" `Accumulated engine interference per second when firing this afterburner.`
+	"TP-15" `Accumulated shield interference per second when firing this afterburner.`
+	"TP-16" `Heat created per second when firing this afterburner.`
+	"TP-17" `Thrust produced by this afterburner.`
+	"TP-18" `Allows scanning of asteroids. The range of this asteroid scanner is proportional to the square root of this value.`
+	"TP-19" `This type of scanning cannot be performed by your ship, but this outfit might be useful for certain missions.`
+	"TP-20" `A ship with this attribute does not need any crew to operate, even if it has outfits that normally require additional crew. However, you cannot use it as your flagship in this state.`
+	"TP-21" `The number of people (passengers or crew) your ship can hold.`
+	"TP-22" `Protection provided against burn damage. Increases by the given factor how much burn damage a ship can withstand before its heat rises as much as an unprotected ship.`
+	"TP-23" `Burn damage resisted per second.`
+	"TP-24" `Energy consumed per second when resisting burn damage.`
+	"TP-25" `Fuel consumed per second when resisting burn damage.`
+	"TP-26" `Heat generated per second when resisting burn damage.`
+	"TP-27" `Increases the "strength" of one crew member when attacking another ship to capture it. Each crew member can only wield one weapon at a time, but they will use whichever weapons provide the highest power.`
+	"TP-28" `Increases the "strength" of one crew member when defending against an attempt to capture this ship. Each crew member can only wield one weapon at a time, but they will use whichever weapons provide the highest power.`
+	"TP-29" `Tons of cargo this ship is carrying right now, out of its maximum.`
+	"TP-30" `Allows scanning of your target ship's cargo from up to this distance away.`
+	"TP-31" `Allows scanning of your target ship's cargo. The range of this cargo scanner is proportional to the square root of this value.`
+	"TP-32" `Determines how long it takes to perform a cargo scan. A higher value will correspond to a quicker scan.`
+	"TP-33" `The maximum speed of this cargo scanner is proportional to the square root of this value. The observed scan speed will be impacted by multiple factors. Targets which are farther away or have a larger cargo hold will take longer to scan.`
+	"TP-34" `Increases the time required for other ships to perform a cargo scan of this ship. A value of one has the same influence on the time taken as adding one more ton of cargo space to scan.`
+	"TP-35" `Tons of cargo (commodities, mission cargo, and plundered outfits) this ship can carry.`
+	"TP-36" `Tons of cargo space this outfit uses up.`
+	"TP-37" `This outfit allows your ship to cloak. The value represents how long it takes to fully activate or deactivate cloaking. Ships cannot fire while cloaked, except if they have the related "cloaked firing" attribute.`
+	"TP-38" `This outfit allows your ship to cloak. The value represents how long it takes to fully activate or deactivate cloaking for a ship with 1000 mass. The higher a ship's mass, the slower the cloak works, the lower its mass, the faster the cloak works. Ships cannot fire while cloaked, except if they have the related "cloaked firing" attribute.`
+	"TP-39" `Energy consumed per second when cloaked.`
+	"TP-40" `Fuel consumed per second when cloaked.`
+	"TP-41" `Heat generated per second when cloaked.`
+	"TP-42" `Shields consumed per second while cloaked.`
+	"TP-43" `This ship is unable to regenerate shields whilst cloaked, instead its shield regeneration will suffer a delay that will grow the longer it is cloaked`
+	"TP-44" `Hull consumed per second while cloaked.`
+	"TP-45" `This ship is unable to regenerate hull whilst cloaked, instead its hull regeneration will suffer a delay that will grow the longer it is cloaked.`
+	"TP-46" `Protection provided against weapons that do hull damage when the cloak is active. Increases by the given factor how much hull damage a ship can withstand before it loses as much energy as an unprotected ship.`
+	"TP-47" `Protection provided against weapons that do shield damage when the cloak is active. Increases by the given factor how much shield damage a ship can withstand before it loses as much energy as an unprotected ship.`
+	"TP-48" `When cloaked, weapons cannot affect this ship, and pass right through.`
+	"TP-49" `This device is so efficient at hiding you that you may shoot when cloaking, losing this amount of cloaking in the process, before being cloaked again. A negative value means shooting does not even hinder your cloak.`
+	"TP-50" `If you have hull lower than this value (seen as a % between 0 and 1) the cloaking device can no longer operate.`
+	"TP-51" `Heat dissipated per second. This is for when your ship's built-in heat dissipation is not sufficient to keep it from overheating.`
+	"TP-52" `Energy consumed per second when active cooling is running at full strength (because your ship's temperature is approaching the overheating threshold).`
+	"TP-53" `Interference with your ship's cooling abilities. Its cooling systems will only be about 75% effective at a cooling inefficiency of 5, and 30% at an inefficiency of 10.`
+	"TP-54" `Protection provided against corrosion damage. Increases by the given factor how much corrosion damage a ship can withstand before it loses as much hull as an unprotected ship.`
+	"TP-55" `Corrosion damage resisted per second.`
+	"TP-56" `Energy consumed per second when resisting corrosion damage.`
+	"TP-57" `Fuel consumed per second when resisting corrosion damage.`
+	"TP-58" `Heat generated per second when resisting corrosion damage.`
+	"TP-59" `Cost, in credits. If you have sold any used (depreciated) items today, you can buy them back for the same price you sold them for.`
+	"TP-60" `Protection provided against shield discharge damage. Increases by the given factor how much discharge damage a ship can withstand before it loses as much shielding as an unprotected ship.`
+	"TP-61" `How much shield discharge damage this ship can resist per second.`
+	"TP-62" `Energy consumed per second when resisting discharge damage.`
+	"TP-63" `Fuel consumed per second when resisting discharge damage.`
+	"TP-64" `Heat generated per second when resisting discharge damage.`
+	"TP-65" `Protection provided against shield disruption damage. Increases by the given factor how much disruption damage a ship can withstand before its shields are as disrupted as those of an unprotected ship.`
+	"TP-66" `Shield disruption damage resisted per second.`
+	"TP-67" `Energy consumed per second when resisting disruption damage.`
+	"TP-68" `Fuel consumed per second when resisting disruption damage.`
+	"TP-69" `Heat generated per second when resisting disruption damage.`
+	"TP-70" `Limits the maximum speed of a ship.`
+	"TP-71" `Reduces drag. Increases the top speed of a ship by the given factor.`
+	"TP-72" `The number of ships from the "Drone" category that this ship can carry.`
+	"TP-73" `The amount of energy this outfit adds to your ship's energy capacity. This allows you to temporarily use more power than your generators produce.`
+	"TP-74" `Energy consumed per second while in flight.`
+	"TP-75" `Energy generated per second. If your ship has weapons other than beam weapons, you will probably also need batteries to store energy in.`
+	"TP-76" `Tons of engine space this outfit takes up.`
+	"TP-77" `Tons of engines this ship can hold. (To install an engine, you must also have enough total outfit space available.)`
+	"TP-78" `Protection provided against energy damage. Increases by the given factor how much energy damage a ship can withstand before it loses as much energy as an unprotected ship.`
+	"TP-79" `The number of ships from the "Fighter" category that this ship can carry.`
+	"TP-80" `The chance that this outfit will drop as flotsam when the ship it is installed on is destroyed.`
+	"TP-81" `Protection provided against hit force from weapons. Increases by the given factor how much external force a ship can withstand before it is moved as much as an unprotected ship.`
+	"TP-82" `This ship's current fuel amount. An ordinary hyperdrive jump consumes 100 fuel.`
+	"TP-83" `The amount of fuel this ship can hold. An ordinary hyperdrive jump consumes 100 fuel. Fuel is replenished for free when you land on an inhabited planet.`
+	"TP-84" `Fuel consumed per second when in flight.`
+	"TP-85" `Energy produced per second when consuming fuel.`
+	"TP-86" `Fuel generated per second.`
+	"TP-87" `Heat produced per second when consuming fuel.`
+	"TP-88" `Protection provided against fuel damage. Increases by the given factor how much fuel damage a ship can withstand before it loses as much fuel as an unprotected ship.`
+	"TP-89" `This weapon uses up a gun port. Guns always fire straight forward; turrets fire in the direction of your currently selected target.`
+	"TP-90" `How many guns this ship can hold. This includes most missiles and secondary weapons that fire straight forward.`
+	"TP-91" `How effectively this ship radiates excess heat.`
+	"TP-92" `Heat generated per second. Heat generation can be offset by "cooling" outfits. If your ship exceeds its maximum heat, it must temporarily shut down to cool itself off.`
+	"TP-93" `Protection provided against heat damage. Increases by the given factor how much heat damage a ship can withstand before its heat rises as much as an unprotected ship.`
+	"TP-94" `Increases the maximum heat this ship is able to withstand before becoming overheated. A value of one has the same influence on a ship's maximum heat as one ton of mass, without the effects that mass has on movement.`
+	"TP-95" `Total hull strength and repair rate per second. The smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	"TP-96" `Total hull strength. Ships with a higher hull strength are able to take more damage as a proportion of their total strength before being disabled; the smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	"TP-97" `Energy consumed per second when repairing the hull.`
+	"TP-98" `Additional energy consumed per second when repairing the hull after the repair delay period.`
+	"TP-99" `Modifies the energy consumed when repairing the hull by the given factor.`
+	"TP-100" `Fuel consumed per second when repairing the hull.`
+	"TP-101" `Additional fuel consumed per second when repairing the hull after the repair delay period.`
+	"TP-102" `Modifies the fuel consumed when repairing the hull by the given factor.`
+	"TP-103" `Heat produced per second when repairing the hull.`
+	"TP-104" `Additional heat produced per second when repairing the hull after the repair delay period.`
+	"TP-105" `Modifies the heat produced when repairing the hull by the given factor.`
+	"TP-106" `Modifies the ship's total hull strength by the given factor.`
+	"TP-107" `Amount of hull strength that can be repaired per second. Repairs usually consume energy and may generate heat as well.`
+	"TP-108" `Additional hull strength that can be repaired per second after the repair delay period.`
+	"TP-109" `The number of seconds it takes for additional hull repairs to begin after taking hull damage.`
+	"TP-110" `The number of seconds it takes for hull repairs to begin after being disabled.`
+	"TP-111" `The number of seconds it takes for a disabled ship to repair itself.`
+	"TP-112" `The energy cost required for a disabled ship to repair itself.`
+	"TP-113" `The fuel cost required for a disabled ship to repair itself.`
+	"TP-114" `The heat applied when a disabled ship repairs itself.`
+	"TP-115" `The ion damage applied when a disabled ship repairs itself.`
+	"TP-116" `The scrambling damage applied when a disabled ship repairs itself.`
+	"TP-117" `The disruption damage applied when a disabled ship repairs itself.`
+	"TP-118" `The slowing damage applied when a disabled ship repairs itself.`
+	"TP-119" `The discharge damage applied when a disabled ship repairs itself.`
+	"TP-120" `The corrosion damage applied when a disabled ship repairs itself.`
+	"TP-121" `The leak damage applied when a disabled ship repairs itself.`
+	"TP-122" `The burning damage applied when a disabled ship repairs itself.`
+	"TP-123" `The remaining hull strength at which the ship becomes disabled. This attribute takes priority over other attributes that change the disabled threshold.`
+	"TP-124" `Modifies the hull strength value at which the ship will become disabled.`
+	"TP-125" `Modifies the percentage of the remaining hull strength at which the ship will become disabled.`
+	"TP-126" `Protection provided against direct hull damage. Increases by the given factor how much hull damage a ship can withstand before it loses as much hull as an unprotected ship.`
+	"TP-127" `Modifies the amount of hull strength repaired per second by the given factor.`
+	"TP-128" `Modifies the amount of hull strength repaired per second by the given factor while a cloaking device is active.`
+	"TP-129" `Amount of credits you can be fined for carrying this outfit.`
+	"TP-130" `Amount of credits received per day when you own this outfit, even if it is not in active use.`
+	"TP-131" `Reduces effective ship mass. Increases how quickly a ship accelerates by the given factor.`
+	"TP-132" `Protection provided against ion damage. Modifies by the given factor how much ion damage a ship can withstand before it loses as much energy as an unprotected ship.`
+	"TP-133" `Protection provided against weapon scrambling damage. Increases by the given factor how much scramble damage a ship can withstand before its weapons are as scrambled as those of an unprotected ship.`
+	"TP-134" `Ion damage resisted per second.`
+	"TP-135" `Energy consumed per second when resisting ion damage.`
+	"TP-136" `Fuel consumed per second when resisting ion damage.`
+	"TP-137" `Heat generated per second when resisting ion damage.`
+	"TP-138" `Speed at which this ship appears to land or travel through a wormhole.`
+	"TP-139" `Scrambling damage resisted per second.`
+	"TP-140" `Energy consumed per second when resisting scrambling damage.`
+	"TP-141" `Fuel consumed per second when resisting scrambling damage.`
+	"TP-142" `Heat generated per second when resisting scrambling damage.`
+	"TP-143" `The maximum velocity the ship can jump at.`
+	"TP-144" `Fuel consumed when jumping between systems using this hyperdrive.`
+	"TP-145" `Fuel consumed when jumping between systems using this jump drive.`
+	"TP-146" `The maximum distance this drive can jump.`
+	"TP-147" `Fuel consumed per 100 tons of mass when jumping. Additive with jump fuel.`
+	"TP-148" `Modifies the impact your ship's mass has on the jump mass cost. Ships below this mass will have a cheaper jump cost than the base jump fuel cost, while ships above this mass will have more expensive jumps.`
+	"TP-149" `Protection provided against leak damage. Increases by the given factor how much leak damage a ship can withstand before it loses as much fuel as an unprotected ship.`
+	"TP-150" `Leak damage resisted per second.`
+	"TP-151" `Energy consumed per second when resisting leak damage.`
+	"TP-152" `Fuel consumed per second when resisting leak damage.`
+	"TP-153" `Heat generated per second when resisting leak damage.`
+	"TP-154" `Credits spent per day to maintain this outfit. Even if a ship is parked or an outfit is in cargo, you still need to pay for its maintenance.`
+	"TP-155" `The number of star systems included in this map.`
+	"TP-156" `Mass of this ship when not carrying any cargo or fighters. Cargo increases mass, which reduces acceleration and turn rate and increases maximum heat before overheating.`
+	"TP-157" `Mass, in tons. A ship's mass determines how fast it turns and accelerates and its maximum heat before overheating.`
+	"TP-158" `The maximum speed of this ship when using thrusters. Excludes the effect of afterburners, unless there are no normal thrusters installed.`
+	"TP-159" `How quickly this ship can accelerate and turn.`
+	"TP-160" `How quickly this ship can accelerate and turn when its cargo hold is full versus when it is empty.`
+	"TP-161" `Credits spent per day to maintain this outfit when it is in active use.`
+	"TP-162" `Credits received per day when this outfit is in active use.`
+	"TP-163" `Allows scanning of your target ship's outfits from up to this distance away.`
+	"TP-164" `Allows scanning of your target ship's outfits. The range of this outfit scanner is proportional to the square root of this value.`
+	"TP-165" `Determines how long it takes to perform an outfit scan. A higher value will correspond to a quicker scan.`
+	"TP-166" `The maximum speed of this outfit scanner is proportional to the square root of this value. The observed scan speed will be impacted by multiple factors. Targets which are farther away or have a larger outfit capacity will take longer to scan.`
+	"TP-167" `Increases the time required for other ships to perform an outfit scan of this ship. A value of one has the same influence on the time taken as adding one more ton of outfit space to scan.`
+	"TP-168" `Tons of general-purpose space this outfit provides.`
+	"TP-169" `Tons of general-purpose space this outfit uses up. Some outfits also use up weapon space or engine space.`
+	"TP-170" `Tons of space this ship has for outfits (including weapons and engines).`
+	"TP-171" `Hull damage taken per second when overheated. Overheat damage scales with how far past the overheat threshold the ship is.`
+	"TP-172" `Increases the percentage past overheated at which point overheat damage begins.`
+	"TP-173" `Reduces the ability of optical-guided missiles to track your ship, which is mostly useful for larger ships. The more optical jamming is installed, the greater the distance at which missiles can be jammed, and the greater the chance that a jammed missile will fly off in a random direction.`
+	"TP-174" `Percentage of this weapon's damage that leaks through to the hull while the target's shields are still active.`
+	"TP-175" `Protection provided against piercing weapons. Increases by the given factor the amount of piercing required to make the same portion of weapon damage bypass a ship's shields.`
+	"TP-176" `Piercing damage resisted on all incoming projectiles, preventing damage from leaking through the shields to the hull.`
+	"TP-177" `Reduces the ability of radar-guided missiles to track your ship. The more radar jamming is installed, the greater the distance at which missiles can be jammed, and the greater the chance that a jammed missile will fly off in a random direction.`
+	"TP-178" `Replenishes fuel by harvesting the stellar wind. Ramscoops are more effective when closer to a star. If you add more than one ramscoop, each additional one is less effective: you need four ramscoops to achieve double the recharge rate that one ramscoop provides.`
+	"TP-179" `Crew members required to operate this ship, and the total number bunks available. Extra bunks can be used for passengers or extra crew.`
+	"TP-180" `Changes the number of crew members this ship requires by this amount.`
+	"TP-181" `Reverse thrust generated by engines. Reverse thrust allows a ship to slow down without needing to turn around.`
+	"TP-182" `Energy consumed per second when firing reverse thrusters.`
+	"TP-183" `Heat produced per second when firing reverse thrusters.`
+	"TP-184" `Shield damage dealt to the ship per second when firing reverse thrusters.`
+	"TP-185" `Hull damage dealt to the ship per second when firing reverse thrusters.`
+	"TP-186" `Fuel consumed per second when firing reverse thrusters.`
+	"TP-187" `Accumulated shield discharging per second when firing reverse thrusters.`
+	"TP-188" `Accumulated hull corrosion per second when firing reverse thrusters.`
+	"TP-189" `Accumulated ionization per second when firing reverse thrusters.`
+	"TP-190" `Accumulated scrambling per second when firing reverse thrusters.`
+	"TP-191" `Accumulated leaking fuel per second when firing reverse thrusters.`
+	"TP-192" `Accumulated exothermic interactions per second when firing reverse thrusters.`
+	"TP-193" `Accumulated engine interference per second when firing reverse thrusters.`
+	"TP-194" `Accumulated shield interference per second when firing reverse thrusters.`
+	"TP-195" `Ability to evade detection when a ship is carrying illegal outfits or cargo. Interference of 1 blocks 50% of scan attempts; 3 blocks 75%, and 9 blocks 90%.`
+	"TP-196" `Allows you to jump without coming to a stop, as long as your velocity is within this range of being lined up with the direction you are jumping in.`
+	"TP-197" `The chance of this ship self-destructing when you try to board or capture it.`
+	"TP-198" `What this outfit will sell for, in credits. Outfits and ships will depreciate (lose resale value) over time, and plunder always starts out fully depreciated.`
+	"TP-199" `Energy consumed per second when recharging shields.`
+	"TP-200" `Additional energy consumed per second when recharging shields after the shield delay period.`
+	"TP-201" `Modifies the energy consumed when recharging shields by the given factor.`
+	"TP-202" `Fuel consumed per second when recharging shields.`
+	"TP-203" `Additional fuel consumed per second when recharging shields after the shield delay period.`
+	"TP-204" `Modifies the fuel consumed when recharging shields by the given factor.`
+	"TP-205" `Heat produced per second when recharging shields.`
+	"TP-206" `Additional heat produced per second when recharging shields after the shield delay period.`
+	"TP-207" `Modifies the heat produced when recharging shields by the given factor.`
+	"TP-208" `Shield points recharged per second. Recharging shields usually consumes energy, and may also produce heat.`
+	"TP-209" `Additional shield points recharged per second after the shield delay period.`
+	"TP-210" `Modifies the amount of shield points recharged per second by the given factor.`
+	"TP-211" `Modifies the amount of shield points recharged per second by the given factor while a cloaking device is active.`
+	"TP-212" `This percentage of all incoming damage bypasses shields and applies directly to the hull when at full shields.`
+	"TP-213" `This percentage of all incoming damage will bypass shields and apply directly to the hull as shields approach zero.`
+	"TP-214" `This percentage of all incoming damage will bypass shields and apply directly to the hull while you are cloaked.`
+	"TP-215" `Total shield strength and regeneration rate per second.`
+	"TP-216" `Total shield strength. Most weapons cannot damage your hull until your shields are depleted. Some weapon effects, such as heat damage, become more severe once shields are down.`
+	"TP-217" `Modifies the ship's total shield strength by the given factor.`
+	"TP-218" `The number of seconds it takes for additional shield generation to begin after taking shield damage.`
+	"TP-219" `The number of seconds it takes for additional shield generation to begin after your shields have been depleted.`
+	"TP-220" `Protection provided against shield damage. Increases by the given factor how much shield damage a ship can withstand before it loses as much shields as an unprotected ship.`
+	"TP-221" `Prevents a ship from making hyperdrive or jump drive sounds when entering or leaving a system.`
+	"TP-222" `Prevents a ship from emitting scan sounds.`
+	"TP-223" `Protection provided against slowing damage. Increases by the given factor how much slowing damage a ship can withstand before it as slowed as an unprotected ship.`
+	"TP-224" `Slowing damage resisted per second.`
+	"TP-225" `Energy consumed per second when resisting slowing damage.`
+	"TP-226" `Fuel consumed per second when resisting slowing damage.`
+	"TP-227" `Heat generated per second when resisting slowing damage.`
+	"TP-228" `Energy produced depending on how far this ship is from the star at the center of the system.`
+	"TP-229" `Heat produced depending on how far this ship is from the star at the center of the system.`
+	"TP-230" `Strategic scanners allow you to view your current target's distance from you, maximum gun range, maximum turret range, current speed, maximum acceleration, and turning speed when it is within range. The range is proportional to the square root of this value.`
+	"TP-231" `Tactical scanners allow you to view your current target's crew complement, fuel, heat, and energy levels when it is within range. The range is proportional to the square root of this value.`
+	"TP-232" `Mobility scanners allow you to view your current target's current maximum acceleration when it is within range. The range is proportional to the square root of this value.`
+	"TP-233" `Crew scanners allow you to view your current target's crew complement when it is within range. The range is proportional to the square root of this value.`
+	"TP-234" `Energy scanners allow you to view your current target's energy levels when it is within range. The range is proportional to the square root of this value.`
+	"TP-235" `Fuel scanners allow you to view your current target's fuel levels when it is within range. The range is proportional to the square root of this value.`
+	"TP-236" `Maneuver scanners allow you to view your current target's current maximum turn speed when it is within range. The range is proportional to the square root of this value.`
+	"TP-237" `Mobility scanners allow you to view your current target's current speed and maximum acceleration when it is within range. The range is proportional to the square root of this value.`
+	"TP-238" `Range finders allow you to view the distance from the center of your ship to the center of your current target. There is no range limit.`
+	"TP-239" `Thermal scanners allow you to view your current target's thermal level when it is within range. The range is proportional to the square root of this value.`
+	"TP-240" `Mobility scanners allow you to view your current target's current speed when it is within range. The range is proportional to the square root of this value.`
+	"TP-241" `Weapon scanners allow you to view your current target's weapons' maximum range when it is within scanner range. Specifically, it shows the longest range of all weapons in a gun hardpoint; and the longest range of all weapons in a turret hardpoint. These ranges include the weapon offset and thus show the maximum range from the center of the ship its shots can reach. The scanner range is proportional to the square root of this value.`
+	"TP-242" `Thrust produced by engines. Higher thrust increases a ship's acceleration and top speed. The more mass a ship has, the more thrust is needed to achieve the same acceleration.`
+	"TP-243" `Energy consumed per second when firing thrusters.`
+	"TP-244" `Heat generated per second when firing thrusters.`
+	"TP-245" `Shield damage dealt to the ship per second when firing thrusters.`
+	"TP-246" `Hull damage dealt to the ship per second when firing thrusters.`
+	"TP-247" `Fuel consumed per second when firing thrusters.`
+	"TP-248" `Accumulated shield discharging per second when firing thrusters.`
+	"TP-249" `Accumulated hull corrosion per second when firing thrusters.`
+	"TP-250" `Accumulated ionization per second when firing thrusters.`
+	"TP-251" `Accumulated scrambling per second when firing thrusters.`
+	"TP-252" `Accumulated leaking fuel per second when firing thrusters.`
+	"TP-253" `Accumulated exothermic interactions per second when firing thrusters.`
+	"TP-254" `Accumulated engine interference per second when firing thrusters.`
+	"TP-255" `Accumulated shield interference per second when firing thrusters.`
+	"TP-256" `Turning force produced by engines. The more mass a ship has, the more turning force is needed to achieve the same turn rate.`
+	"TP-257" `Turn rate, in degrees per second. The higher a ship's mass (including the mass of any cargo or fighters it is carrying), the slower it turns.`
+	"TP-258" `Modifies the ship's rate of turn by the given factor.`
+	"TP-259" `Energy consumed per second when turning.`
+	"TP-260" `Heat generated per second when turning.`
+	"TP-261" `Shield damage dealt to the ship per second when turning.`
+	"TP-262" `Hull damage dealt to the ship per second when turning.`
+	"TP-263" `Fuel consumed per second when turning.`
+	"TP-264" `Accumulated shield discharging per second when turning.`
+	"TP-265" `Accumulated hull corrosion per second when turning.`
+	"TP-266" `Accumulated ionization per second when turning.`
+	"TP-267" `Accumulated scrambling per second when turning.`
+	"TP-268" `Accumulated leaking fuel per second when turning.`
+	"TP-269" `Accumulated exothermic interactions per second when turning.`
+	"TP-270" `Accumulated engine interference per second when turning.`
+	"TP-271" `Accumulated shield interference per second when turning.`
+	"TP-272" `This weapon can fire in any direction, tracking your currently selected target. It uses up one of your ship's turret mounts.`
+	"TP-273" `How many turrets can be mounted on this ship. Turrets fire in the direction of the currently selected target, instead of firing straight forward like guns.`
+	"TP-274" `Tons of weapon space this outfit takes up.`
+	"TP-275" `Tons of weapons this ship can hold. (To install a weapon, you must also have enough total outfit space available.)`
+	"TP-276" `Modifies the likelihood of this illegal outfit appearing on a cargo scan. The higher the brightness, the more likely a scan will pick it up. A scan brightness of 5 has as much a chance of being scanned as an outfit that is 5 tons.`
+	"TP-277" `Hides an equivalent mass of illegal cargo from cargo scans, preventing you from being fined for having it. A scan concealment of 10 would make up to 10 tons of illegal cargo not appear on cargo scans.`
+	"TP-278" `Price the ship itself would sell for without any outfits installed.`
+	"TP-279" `Price that all this ship's outfits would sell for.`
+	"TP-280" `Energy and heat generated when this ship is idle, i.e. not firing weapons, turning, or thrusting.`
+	"TP-281" `Energy consumed and heat generated when this ship is turning and thrusting. This is in addition to the "idle" amount.`
+	"TP-282" `Energy consumed and heat generated when this ship is firing all its weapons. This is in addition to the "idle" amount.`
+	"TP-283" `Energy consumed and heat generated when this ship is recharging shields and repairing its hull at the same time. This is in addition to the "idle" amount.`
+	"TP-284" `Energy consumed and heat generated when this ship is repairing its hull. This is in addition to the "idle" amount.`
+	"TP-285" `Energy consumed and heat generated when this ship is recharging its shields. This is in addition to the "idle" amount.`
+	"TP-286" `The sum of the energy consumed and heat generated from the above energy and heat values. Represents the worst case scenario when all systems are active at once.`
+	"TP-287" `Energy storage capacity and maximum safe level for heat generation. Energy capacity allows a ship to temporarily draw more energy than it produces. The heat maximum is the highest your heat generation can be without eventually causing your ship to overheat.`
+	"TP-288" `Weapons that are fixed in place (firing in the direction your ship is pointed) and that require no ammunition.`
+	"TP-289" `Weapons that can fire in any direction and will track your currently selected target.`
+	"TP-290" `Weapons that require ammunition (which must be purchased separately).`
+	"TP-291" `Outfits that serve as ammunition for other weapons. To fire this ammunition, you need a launcher of the appropriate type.`
+	"TP-292" `Outfits that occupy general space, not the space set aside for engines or weapons.`
+	"TP-293" `Outfits that either supply energy, or store the energy that is generated.`
+	"TP-294" `Thrusters and steering systems, which affect how quickly your ship moves.`
+	"TP-295" `Weapons that your crew uses when trying to capture a ship.`
+	"TP-296" `Items you can purchase or sell but that are not outfits that can be installed in a ship.`
+	"TP-297" `The type of outfits this weapon consumes when fired.`
+	"TP-298" `Units of ammo this weapon consumes when fired.`
+	"TP-299" `Total range of this weapon.`
+	"TP-300" `The initial velocity of projectiles fired by this weapon. Some weapons have projectiles that accelerate or decelerate from this initial value as they travel.`
+	"TP-301" `The multiplier applied to the damage of this weapon once its projectile has reached the maximum dropoff range.`
+	"TP-302" `The starting and ending range between which the damage of this weapon ramps from 100% to the displayed dropoff modifier.`
+	"TP-303" `Shield damage dealt per second.`
+	"TP-304" `Hull damage dealt per second.`
+	"TP-305" `Minable damage dealt per second.`
+	"TP-306" `Fuel lost by the target per second when hit by this weapon. Only half as effective when the target's shields are up. A negative amount means fuel is added.`
+	"TP-307" `Increases the target's heat by this amount per second. Only half as effective when the target's shields are up.`
+	"TP-308" `Reduces the target's energy by this amount per second. Only half as effective when the target's shields are up.`
+	"TP-309" `Reduces the target's energy. Only half as effective when the target's shields are up. Ionization slowly wears off over time.`
+	"TP-310" `Increases the target's chance of weapon failure. Only half as effective when the target's shields are up. Scrambling slowly wears off over time.`
+	"TP-311" `Reduces the target's turn rate, acceleration, and top speed. Only half as effective when the target's shields are up. Slowing wears off over time.`
+	"TP-312" `Allows weapon damage to "leak through" to the hull even if shields are up. Shield disruption wears off over time, and adding additional shield disruption becomes more difficult as damage leaks past shields instead of disrupting them.`
+	"TP-313" `Shield damage dealt over time by this weapon per second.`
+	"TP-314" `Hull damage dealt over time by this weapon per second.`
+	"TP-315" `Fuel damage dealt over time by this weapon per second.`
+	"TP-316" `Heat damage dealt over time by this weapon per second.`
+	"TP-317" `Shield damage dealt per second, as a percentage of the target's total shield strength.`
+	"TP-318" `Hull damage dealt per second, as a percentage of the target's total hull strength.`
+	"TP-319" `Minable damage dealt per second, as a percentage of the target's total health.`
+	"TP-320" `Fuel loss caused per second as a percentage of the target's total fuel capacity. Only half as effective when the target's shields are up.`
+	"TP-321" `Increases the target's heat as a percentage of its maximum heat capacity by this amount per second. Only half as effective when the target's shields are up.`
+	"TP-322" `Reduces the target's energy as a percentage of its energy capacity by this amount per second. Only half as effective when the target's shields are up.`
+	"TP-323" `Energy consumed per second.`
+	"TP-324" `Heat generated per second.`
+	"TP-325" `Fuel consumed per second.`
+	"TP-326" `Hull damage dealt to your ship per second.`
+	"TP-327" `Shield damage dealt to your ship per second.`
+	"TP-328" `Reduces energy levels for some time after this weapon is fired.`
+	"TP-329" `Increases the chance of weapon failure for some time after this weapon is fired.`
+	"TP-330" `Reduces the turn rate, acceleration, and top speed of the ship when this weapon is fired. Slowing wears off over time.`
+	"TP-331" `Disrupts the ship's shields after firing this weapon, allowing damage from hostile weapons to "leak through" to the hull even if shields are up. Shield disruption wears off over time, but imparting disruption on yourself does not lose effectiveness as your shields become more leaky.`
+	"TP-332" `Reduces shields for some time after this weapon is fired.`
+	"TP-333" `Reduces hull for some time after this weapon is fired.`
+	"TP-334" `Reduces fuel for some time after this weapon is fired.`
+	"TP-335" `Increases heat for some time after this weapon is fired.`
+	"TP-336" `Energy consumed per second, as a percentage of your total energy capacity.`
+	"TP-337" `Increases your heat as a percentage of your maximum heat capacity by this amount per second.`
+	"TP-338" `Fuel used or lost per second as a percentage of the ship's total fuel.`
+	"TP-339" `Hull damage dealt to your ship per second, as a percentage of your total hull strength.`
+	"TP-340" `Shield damage dealt to your ship per second, as a percentage of your total shield strength.`
+	"TP-341" `Projectiles fired per second by this weapon. Weapons that fire continuously do not require batteries if the ship's energy generation per second is higher than the weapon's firing energy per second. Some continuous fire weapons only fire a fraction of the time, in which case the ship's energy production must be higher than the weapon's firing energy divided by the firing time to not require batteries.`
+	"TP-342" `Degrees this turret can turn per second.`
+	"TP-343" `Modifies the turret turn rate on this ship by the given factor.`
+	"TP-344" `The angular range of protection provided by this weapon, in degrees.`
+	"TP-345" `How this projectile tracks its target. Projectiles with "direct" will fly straight at their target, while projectiles with "leading" will lead their trajectory.`
+	"TP-346" `This projectile's ability to maintain its target lock.`
+	"TP-347" `This projectile's ability to maintain an optical target lock, which depends on the size of the target; negatively affected by any potential optical jamming equipment.`
+	"TP-348" `This projectile's ability to maintain an infrared target lock, which depends on the target ship's heat level and distance from the missile; IR-guided missiles become more accurate the closer they are to their targets.`
+	"TP-349" `This projectile's ability to maintain a radar target lock; negatively affected by the target ship's radar jamming equipment.`
+	"TP-350" `Shield damage dealt per shot.`
+	"TP-351" `Hull damage dealt per shot.`
+	"TP-352" `Damage dealt to minable objects per shot, in lieu of hull damage.`
+	"TP-353" `Fuel lost by the target per shot when hit by this weapon. Only half as effective when the target's shields are up. A negative amount means fuel is added.`
+	"TP-354" `Increases the target ship's heat by this amount per shot. Only half as effective when the target's shields are up.`
+	"TP-355" `Reduces the target ship's energy by this amount per shot. Only half as effective when the target's shields are up.`
+	"TP-356" `Increases the target's ionization by this amount per shot. Only half as effective when the target's shields are up. Ionization reduces the target's energy, and slowly wears off over time.`
+	"TP-357" `Shield damage dealt over time by this weapon per shot.`
+	"TP-358" `Hull damage dealt over time by this weapon per shot.`
+	"TP-359" `Fuel damage dealt over time by this weapon per shot.`
+	"TP-360" `Heat damage dealt over time by this weapon per shot.`
+	"TP-361" `Shield damage dealt per shot, as a percentage of your target's total shield strength.`
+	"TP-362" `Hull damage dealt per shot, as a percentage of your target's total hull strength.`
+	"TP-363" `Minable damage dealt as a percentage of the target's total health, in lieu of relative hull damage being used.`
+	"TP-364" `Fuel loss caused per shot as a percentage of the target's total fuel capacity. Only half as effective when the target's shields are up.`
+	"TP-365" `Increases the target ship's heat as a percentage of its maximum heat capacity by this amount per shot. Only half as effective when the target's shields are up.`
+	"TP-366" `Reduces the target ship's energy as a percentage of its energy capacity by this amount per shot. Only half as effective when the target's shields are up.`
+	"TP-367" `Energy consumed per shot. A weapon will not fire if the ship's batteries do not have at least this amount of energy stored.`
+	"TP-368" `Heat generated per shot.`
+	"TP-369" `Fuel consumed per shot.`
+	"TP-370" `Hull damage dealt to your ship per shot.`
+	"TP-371" `Shield damage dealt to your ship per shot.`
+	"TP-372" `Reduces the ship's energy. Ionization slowly wears off over time.`
+	"TP-373" `Reduces the ship's turn rate, acceleration, and top speed. Slowing wears off over time.`
+	"TP-374" `Allows weapon damage to "leak through" to the ship's hull even if shields are up. Shield disruption wears off over time, but imparting disruption on yourself does not lose effectiveness as your shields become more leaky.`
+	"TP-375" `Shield damage dealt to your ship over time by this weapon per shot.`
+	"TP-376" `Hull damage dealt to your ship over time by this weapon per shot.`
+	"TP-377" `Fuel damage dealt to your ship over time per shot.`
+	"TP-378" `Heat damage dealt to your ship over time per shot.`
+	"TP-379" `Energy consumed per shot, as a percentage of the ship's total energy capacity.`
+	"TP-380" `Heat generated per shot, as a percentage of the ship's maximum heat capacity.`
+	"TP-381" `Fuel used or lost per shot, as a percentage of the ship's total fuel.`
+	"TP-382" `Hull damage dealt to your ship per shot, as a percentage of your total hull strength.`
+	"TP-383" `Shield damage dealt to your ship per shot, as a percentage of your total shield strength.`
+	"TP-384" `Maximum inaccuracy of this weapon, in degrees. A value of one means the weapon's aim will be at most one degree off-target.`
+	"TP-385" `Everything within this distance (including friendly ships) will be damaged when the weapon hits something.`
+	"TP-386" `This projectile's resistance to anti-missile shots.`
+	"TP-387" `The power of the anti-missile shots. Higher values make it easier to destroy stronger projectiles.`
+	"TP-388" `The base velocity that this weapon pulls flotsam toward itself. Heavier flotsam is more difficult to pull.`
+	"TP-389" `A measure of how well this weapon prevents damage to valuable materials while mining. Weapons with a positive precision result in higher yields, while a negative precision results in lower yields. Some minable objects are tougher than others, and are therefore less susceptible to having their yields altered.`
+	"TP-390" `This ship needs crew to operate, but has no bunks.`
+	"TP-391" `This ship's outfits are producing so much heat that it will overheat the moment it takes off. You must either add more cooling or remove some of the outfits that are producing heat.`
+	"TP-392" `This ship does not have any source of energy to power its systems. You must install some sort of generator.`
+	"TP-393" `This ship does not have enough fuel to provide energy to power its systems. You must increase the fuel capacity.`
+	"TP-394" `This ship is unable to move. You must install thrusters.`
+	"TP-395" `This ship is unable to turn. You must install steering systems.`
+	"TP-396" `This ship does not have enough bunks for its crew. It could become unresponsive at random times.`
+	"TP-397" `This ship is too cold to use some of its engines while idle. Its movement may be hindered if it does not have another way of generating heat.`
+	"TP-398" `This ship's only thruster is an afterburner. It may be unable to move if the afterburner runs out of fuel.`
+	"TP-399" `This ship has a reverse thruster but no forward thruster. It could be very difficult to maneuver.`
+	"TP-400" `This ship has no means of generating energy. It could end up stranded and unable to move if its batteries are depleted.`
+	"TP-401" `This ship's energy supply is not sufficient to run the thrusters at full power. Its top speed and acceleration will be diminished.`
+	"TP-402" `This ship's energy supply is not sufficient to run the steering at full power. Its turn rate will be diminished.`
+	"TP-403" `This ship is powered entirely by solar energy. It could be difficult to maneuver if you fly too far from the center of a star system, because your engines will only have a fraction of the power they require.`
+	"TP-404" `This ship consumes fuel, but has insufficient storage. If it took off, it would immediately run out of fuel.`
+	"TP-405" `This ship has no hyperdrive. If it took off, it would be unable to leave this star system.`
+	"TP-406" `This ship has insufficient fuel capacity to make a hyperspace jump. If it took off, it would be unable to leave this star system.`
+	"TP-407" `There are insufficient bays available to carry this ship. If it took off, it would be unable to leave this star system.`
+	"TP-408" `This ship has insufficient energy storage to fire an installed weapon.`
+	"TP-409" `Governments that scan for illegal goods will attack you upon discovering this item in your possession in space, or arrest you if found when landed.`
+	"TP-410" `Accelerate your flagship forward.`
+	"TP-411" `Turn your flagship left.`
+	"TP-412" `Turn your flagship right.`
+	"TP-413" `Turn your flagship opposite its current direction of flight. If reverse thrusters are installed, accelerate backwards.`
+	"TP-414" `With <shift>, stop your ship.`
+	"TP-415" `Fire your flagship's afterburner, if one is installed.`
+	"TP-416" `If the "Automatic aiming" setting is off, activate automatic aiming when this key is held.`
+	"TP-417" `Land on the selected planet. If no planet is selected, automatically selects a planet to land on, or attempts to land on the planet you are directly on top of if traveling at low speeds. If a planet is already selected, double tapping will cycle to the next planet.`
+	"TP-418" `Initiate a hyperspace jump to follow your current travel plan. If you have no travel plan, initiates a jump nearest to your current facing angle. When held, commands your escorts to get ready to jump and only initiates the jump when released.`
+	"TP-419" `With <shift>, your fleet will not jump until every ship in the fleet is ready for every system in the travel plan instead of needing to hold the key at each system.`
+	"TP-420" `Open the star map panel.`
+	"TP-421" `Open the player info panel.`
+	"TP-422" `Select the nearest hostile ship.`
+	"TP-423" `With <shift>, select the nearest ship regardless of hostility.`
+	"TP-424" `Select the next non-escort ship in the system, cycling through all ships.`
+	"TP-425" `With <shift>, cycle through escorts.`
+	"TP-426" `Hail the selected ship or planet. If both a ship and planet are selected, hails the ship.`
+	"TP-427" `With <shift>, hails the planet.`
+	"TP-428" `Board the selected ship. If no boardable ship is selected, selects a ship to board based on the "Boarding target priority" setting.`
+	"TP-429" `With <shift>, selects an escort to board.`
+	"TP-430" `Select the nearest asteroid based on the "Target asteroid based on" setting.`
+	"TP-431" `Scan the selected ship, if you have outfit or cargo scanners installed.`
+	"TP-432" `Fire all of your flagship's primary weapons. The "automatic firing" setting will fire only those weapons that are within your target's range.`
+	"TP-433" `Toggle the "Turret tracking" setting between "focused" and "opportunistic". See the "Turret tracking" setting tooltip on the Settings tab for more details.`
+	"TP-434" `Cycle to your flagship's next secondary weapon. After cycling through all secondary weapons individually, selects every secondary weapon at once, then selects no weapons.`
+	"TP-435" `Fire your flagship's selected secondary weapon(s).`
+	"TP-436" `Activate or deactivate your fleet's cloaking devices, if any are installed.`
+	"TP-437" `Turrets aim towards your cursor when this key is held. If the "Aim turrets with mouse" setting is enabled, it will do the opposite.`
+	"TP-438" `Cause your flagship to turn toward your mouse if this key is held. To have mouse turning always active, activate the "Control ship with mouse" setting. If that setting is active, holding this key deactivates mouse turning.`
+	"TP-439" `Open the main menu.`
+	"TP-440" `Toggle whether the game is in fullscreen mode.`
+	"TP-441" `Toggle a 3x speed fast-forward. Fast-forward may be automatically deactivated by the "Interrupt fast-forward" setting. If the key is set to caps-lock then the caps-lock state will be used to determine the fast-forward state.`
+	"TP-442" `Stop time in the game. You can still select ships, give commands, and interact with menus.`
+	"TP-443" `Display the help dialogs that are relevant to your current UI panel and situation. Uses the same help dialogs from the "Reactivate first-time help" setting, forcing them to appear even if they have already appeared before.`
+	"TP-444" `Open the log panel containing status messages and hails from other ships received since the current pilot was loaded.`
+	"TP-445" `Deploy or recall carried ships (e.g. fighters, drones) in your fleet. Requires carriers with space to hold the carried ships.`
+	"TP-446" `Command your entire fleet to focus fire on the selected target. If only some escorts are selected, only sends the command to those escorts. This command can also be sent by right clicking on a hostile ship.`
+	"TP-447" `Command your fleet to stop firing except if they are given a specific target to shoot at afterwards. If only some escorts are selected, only sends the command to those escorts.`
+	"TP-448" `Command your fleet to gather around your flagship. If only some escorts are selected, only sends the command to those escorts. You can also command escorts to gather around another ship by right clicking on a friendly ship.`
+	"TP-449" `With <shift>, change the formation pattern in your fleet.`
+	"TP-450" `Command your fleet to hold its current position. If only some escorts are selected, only sends the command to those escorts. This command can also be sent by right clicking on empty space.`
+	"TP-451" `Toggle the "Escorts expend ammo" setting.`
+	"TP-452" `Command your fleet to harvest nearby flotsam (e.g. dropped cargo). The "Flotsam collection" setting must allow your escorts to pick up flotsam in order to harvest it.`
+	"TP-453" `Increase the main zoom factor (the size of the UI and gameplay). Wraps back to 100 if the zoom exceeds your screen's limits. If the zoom factor is greater than 100, activates high DPI images if they are available.`
+	"TP-454" `Increase the zoom factor of the gameplay view when in flight. Can also be changed by the + and - keys and the scroll wheel.`
+	"TP-455" `Toggle whether the game is in windowed or fullscreen mode. Can also be toggled by the "Toggle fullscreen" control.`
+	"TP-456" `Toggle vsync between off, on, and adaptive (should your computer support it).`
+	"TP-457" `Determines whether the screen center is fixed on, trails behind, or speeds ahead of the flagship while accelerating.`
+	"TP-458" `Display the CPU and GPU load at the top of the screen while in flight. Loads are presented as a percentage of a frame (1/60th of a second) that it takes to calculate or draw each frame. >100% load (or >33% when fast-forward is active) means the game will run slower.`
+	"TP-459" `Toggle whether motion blur is rendered for all moving objects.`
+	"TP-460" `Reduce the size of very large (images with >= 1 million pixels) or all graphics to half their dimensions. UI sprites are excluded. (Not recommended for high-resolution displays, but may be used to free up memory. Requires game restart.)`
+	"TP-461" `Draw the background haze when in flight.`
+	"TP-462" `Draw the background starfield when in flight.`
+	"TP-463" `Draw the background starfield with a fixed zoom level instead of changing with the view zoom level.`
+	"TP-464" `Add parallax to objects in the background (haze and starfield). If set to fancy, create three layers of parallax. If set to fast, create one layer of parallax.`
+	"TP-465" `Animate the background stars and haze in the main menu.`
+	"TP-466" `Create a white flash when hyperspacing between systems.`
+	"TP-467" `Add additional motion blur to the background when jumping between systems. The medium and heavy options control how intense the effect is.`
+	"TP-468" `Controls the display of your fleet ship icons when in the shipyard or outfitter. When fancy, applies a sobel filter to all ships. (This can result in high GPU load for large fleets.) When fast, just uses the ship's sprite.`
+	"TP-469" `Controls the display of your flagship and target ship icons in the HUD. When fancy, applies a sobel filter to the sprites. (This can result in high GPU load for some ships on very old or low performance computers.) When fast, just uses the ship's sprite.`
+	"TP-470" `Controls the display of cloaked escorts. When fancy, causes the ship to become transparent and applies a red outline. When fast, simply shifts the ship to being red.`
+	"TP-471" `Display status overlays over top of all ships when in flight. Status overlays display a ship's shields and hull. If the damaged option is chosen, overlays only appear on ships that have taken damage.`
+	"TP-472" `Display a status overlay over top of your flagship when in flight.`
+	"TP-473" `Display status overlays over top of your escorts when in flight.`
+	"TP-474" `Display status overlays over top of hostile ships when in flight.`
+	"TP-475" `Display status overlays over top of friendly and neutral ships when in flight.`
+	"TP-476" `Display an overlay on hostile missiles. The overlay indicates the danger of the missiles, with more powerful missiles relative to your flagship's HP being indicated more intensely.`
+	"TP-477" `Display overlays on your flagship's turrets with blindspots. Setting this to "blindspots only" shows the overlays only when the blindspots are blocking the turrets' fire.`
+	"TP-478" `If an asteroid scanner is installed on your flagship, display an overlay for nearby asteroids.`
+	"TP-479" `Apply a green highlight to your flagship.`
+	"TP-480" `Rotate the icon for your flagship in the HUD to match your flagship's actual rotation.`
+	"TP-481" `Display an overlay on nearby landable planets and stations.`
+	"TP-482" `Control the display of a mini-map of nearby systems. If set to "when jumping", the mini-map only appears when initiating a hyperspace jump. If set to "always on", then it is always present when in flight.`
+	"TP-483" `Activate the ability to send commands to your escorts using the in-system radar mini-map.`
+	"TP-484" `Indicate when hostile ships enter your current system. Audio plays a siren. Visual displays an alert icon by the in-system radar.`
+	"TP-485" `Display extra status messages about escorts in your fleet, such as when they are under-crewed or collect flotsam.`
+	"TP-486" `If active, your flagship will always turn toward your mouse. For activating mouse turning on a key press, see the "Mouse turning (hold)" control.`
+	"TP-487" `If active, your turrets will target your mouse position. See the "Turret aim override (hold)" keybind to toggle based on a held key.`
+	"TP-488" `Automatically turn your ship towards your target to aim fixed weapons.`
+	"TP-489" `Automatically fire your primary weapons if your enemy is within the weapon's range.`
+	"TP-490" `The strategy that your fleet's turrets use when targeting hostiles. Focused tracking will target all turrets on a ship at the same hostile. Opportunistic tracking will cause turrets to target ships that they are nearest to aiming at, allowing multiple hostiles to be engaged at once.`
+	"TP-491" `The strategy that the "Select nearest asteroid" control uses for selecting asteroids. Proximity selects the nearest asteroid. Value selects the highest value asteroid.`
+	"TP-492" `The strategy that the "Board selected ship" control uses for selecting ships when you have none targeted. Proximity selects the nearest ship. Value selects the highest value ship (with the value being estimated if you haven't scanned the outfits of the ship). Mixed accounts for the value divided by the distance to the ship.`
+	"TP-493" `The strategy that your escorts use for determining when to fire their secondary weapons. Able to be toggled by the "Fleet: Toggle ammo usage" control. The frugal setting only fires secondary weapons when your escort's HP is low or the hostiles in the system are stronger than your fleet and friendlies.`
+	"TP-494" `Control which of your ships can pick up cargo floating in space.`
+	"TP-495" `The strategy used for repairing carried ships (e.g. fighters, drones) in your fleet while they are docked with their carrier. Series repairs the highest HP ship until it is fully repaired, then moves on to the next one. Parallel repairs the lowest HP ship at all times so that all ships increase in HP together.`
+	"TP-496" `Fighters transfer any cargo that they have to their carried ship when they dock.`
+	"TP-497" `Rehires extra crew whenever you land if you lost additional (non-required) crew while in flight.`
+	"TP-498" `Automatically unpark a ship dragged to the first position in the ship list, and make it your flagship.`
+	"TP-499" `When distributing cargo and passengers among your ships on takeoff, prioritize the flagship over your escorts. (When your flagship does not have enough space, some mission cargo or passengers may still be moved to your other ships.)`
+	"TP-500" `For rush missions, subtract the distance to the destination from the deadline to determine how fast to blink the map marker.`
+	"TP-501" `Creates a dark shroud over regions of the galaxy that you haven't explored yet. The shroud is lifted as you explore systems.`
+	"TP-502" `If you have escorts, marks systems with escorts in them on the star map.`
+	"TP-503" `If you have outfits stored on a planet, marks systems with stored outfits on the star map.`
+	"TP-504" `Right-click on a location in the system mini-map on the galaxy map to send your escorts to that location in the selected system.`
+	"TP-505" `Always underline the shortcut key for any buttons. Holding the alt key in any panel will also underline the button shortcut keys if this setting is off.`
+	"TP-506" `Reactivate the first-time help dialogs.`
+	"TP-507" `Disable fast-forward whenever you land or when a conversation, dialog, or other panel appears while in flight.`
+	"TP-508" `Apply a cinematic zoom in and out when you are landing and taking off.`
+	"TP-509" `The speed of scrolling in panels that can scroll.`
+	"TP-510" `For how long you need to hover over an item to show its tooltip.`
+	"TP-511" `The format that dates in the game are displayed in.`
+	"TP-512" `Toggle parenthesis around the trade prices in the ports map mode.`
+	"TP-513" `If you enter a system with a planet you must land on for a mission, plays a notification sound.`
+	"TP-514" `Include message logs in pilot files so they are not lost when closing the game or reloading the save file. This will increase save file sizes and may increase load times. The stored log history can be cleared from the message log panel.`
+	"TP-515" `Choose the theme of the title bar, or leave "system default" to use system settings. (Available on Windows 10 or newer; on Windows 10, the game window must be resized or restarted in order for the change to take effect.)`
+	"TP-516" `Control the appearance of window corners. (Available on Windows 11.)`

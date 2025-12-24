@@ -12,10 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Drought Relief"
-	name `Drought relief to <planet>`
+	name `<NM-54>`
 	job
 	repeat
-	description `The farming world of <destination> is currently experiencing a drought. Deliver <cargo> to the planet by <date> for <payment>.`
+	description `<DS-121>`
 	cargo "drought relief supplies" 25 2 .05
 	deadline
 	to offer
@@ -31,14 +31,14 @@ mission "Drought Relief"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 10000 160
-		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you and bid you farewell."
+		dialog "<DL-54>"
 
 
 mission "To Remembrance Day celebration [0]"
-	name `Remembrance Day celebration`
+	name `<NM-55>`
 	job
 	repeat
-	description `Bring <fare> to <destination> by <date> for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `<DS-122>`
 	passengers 4 4 .5
 	deadline
 	to offer
@@ -65,14 +65,14 @@ mission "To Remembrance Day celebration [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 1000 180
-		dialog "You wish your <passengers> the best of luck on <planet>. The children run off your ship in green face paint, and the parents pay you <payment>."
+		dialog "<DL-55>"
 
 
 mission "To Remembrance Day celebration [1]"
-	name `Remembrance Day celebration`
+	name `<NM-55>`
 	job
 	repeat
-	description `Deliver <cargo> to <destination> by <date> in preparation for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `<DS-123>`
 	cargo random 5 2 .1
 	deadline
 	to offer
@@ -99,13 +99,13 @@ mission "To Remembrance Day celebration [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 180
-		dialog `Spaceport workers already festively dressed for Remembrance Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+		dialog `<DL-56>`
 
 mission "To Remembrance Day celebration [2]"
-	name `Remembrance Day celebration`
+	name `<NM-55>`
 	job
 	repeat
-	description `Deliver <cargo> to <destination> by <date> in preparation for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `<DS-123>`
 	cargo random 5 2 .1
 	deadline
 	to offer
@@ -132,14 +132,14 @@ mission "To Remembrance Day celebration [2]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 180
-		dialog `Spaceport workers already festively dressed for Remembrance Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+		dialog `<DL-56>`
 
 
 mission "To Remembrance Day celebration [3]"
-	name `Remembrance Day celebration`
+	name `<NM-55>`
 	job
 	repeat
-	description `Bring <fare> to <destination> by <date> for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `<DS-122>`
 	passengers 20 4 .15
 	deadline
 	to offer
@@ -167,14 +167,14 @@ mission "To Remembrance Day celebration [3]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 200000 120
-		dialog "You wish your <passengers> the best of luck on <planet>. The children run off your ship in green face paint, and the parents pay you <payment>."
+		dialog "<DL-55>"
 
 
 mission "From Remembrance Day celebration [0]"
-	name `Return from Remembrance Day`
+	name `<NM-56>`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Remembrance Day celebration. Payment is <payment>.`
+	description `<DS-124>`
 	passengers 4 4 .5
 	to offer
 		or
@@ -199,14 +199,14 @@ mission "From Remembrance Day celebration [0]"
 	on complete
 		payment
 		payment 1000
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `<DL-57>`
 
 
 mission "From Remembrance Day celebration [1]"
-	name `Return from Remembrance Day`
+	name `<NM-56>`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Remembrance Day celebration. Payment is <payment>.`
+	description `<DS-124>`
 	passengers 4 4 .3
 	to offer
 		or
@@ -231,14 +231,14 @@ mission "From Remembrance Day celebration [1]"
 	on complete
 		payment
 		payment 1000
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `<DL-57>`
 
 
 mission "From Remembrance Day celebration [2]"
-	name `Return from Remembrance Day`
+	name `<NM-56>`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Remembrance Day celebration. Payment is <payment>.`
+	description `<DS-124>`
 	passengers 20 4 .15
 	to offer
 		random < ( "passenger space" - 30 ) * 2
@@ -263,15 +263,15 @@ mission "From Remembrance Day celebration [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 120000 100
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `<DL-57>`
 
 
 mission "Food Convoy [0]"
-	name `Food convoy to <planet>`
+	name `<NM-57>`
 	job
 	repeat
 	deadline
-	description `The captain of the <npc>, leading a small convoy of ships carrying food, will pay you <payment> to escort them to <destination> by <date>.`
+	description `<DS-125>`
 	to offer
 		random < 30
 		"combat rating" > 30
@@ -316,17 +316,17 @@ mission "Food Convoy [0]"
 				"Freighter" 3
 	on complete
 		payment 100000
-		dialog "The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>."
+		dialog "<DL-58>"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
 
 mission "Food Convoy [1]"
-	name `Food convoy to <planet>`
+	name `<NM-57>`
 	job
 	repeat
 	deadline
-	description `The captain of the <npc>, leading a convoy of ships carrying food, will pay you <payment> to escort them to <destination> by <date>.`
+	description `<DS-126>`
 	to offer
 		random < 25
 		"combat rating" > 60
@@ -363,17 +363,17 @@ mission "Food Convoy [1]"
 				"Freighter" 2
 	on complete
 		payment 160000
-		dialog "The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>."
+		dialog "<DL-58>"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
 
 mission "Food Convoy [2]"
-	name `Food convoy to <planet>`
+	name `<NM-57>`
 	job
 	repeat
 	deadline
-	description `The captain of the <npc>, leading a large convoy of ships carrying food, will pay you <payment> to escort them to <destination> by <date>.`
+	description `<DS-127>`
 	to offer
 		random < 15
 		"combat rating" > 90
@@ -411,6 +411,6 @@ mission "Food Convoy [2]"
 				"Behemoth" 2
 	on complete
 		payment 220000
-		dialog "The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>."
+		dialog "<DL-58>"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"

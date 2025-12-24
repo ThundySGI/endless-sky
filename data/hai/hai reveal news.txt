@@ -28,11 +28,11 @@ news "alien paranoia: generic citizen"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		phrase
 			"paranoia: generic alien fear"
 		word
-			`"`
+			`<CN-7796>`
 		
 news "Pug paranoia: generic citizen"
 	to show
@@ -51,7 +51,7 @@ news "Pug paranoia: generic citizen"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I never realized how vulnerable we were until the Pug attacked Earth."
 			"I always suspected there were more aliens than the Quarg, but I never thought they would be so hostile."
@@ -66,7 +66,7 @@ news "Pug paranoia: generic citizen"
 			"Do the Pug even see us as people? They act like we're just stories in a big game of theirs."
 			"I bet the Pug caused the Ten Plagues. And World War II, and the Great Chinese Famine, and the Yangtze river floods, and the Black Plague, and the Minoan Eruption, and the Alpha Wars, and the fall of the Tower of Babel, and..."
 		word
-			`"`
+			`<CN-7796>`
 		
 news "Quarg paranoia: generic citizen"
 	to show
@@ -86,7 +86,7 @@ news "Quarg paranoia: generic citizen"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Did you hear about the smashed ringworld? I bet that came from a Pug-Quarg war. If the Quarg can't beat the Pug, why did we win our war?"
 			"Accursed Quarg. I never trust anyone twice my size. Yes, I'm a meter and a half tall. Stop laughing."
@@ -95,7 +95,7 @@ news "Quarg paranoia: generic citizen"
 			"I wonder if the Quarg have been manipulating our society for millennia. Or was it the Pug? Or another alien race? Biblical plagues? World War II? How many atrocities did they cause?"
 			"I'm never going to a Quarg planet again. I swear they read your mind and plant nightmares within. I keep dreaming of mighty space-cockroaches, reptiles, and big robot-ships. Owls! Owls everywhere!"
 		word
-			`"`
+			`<CN-7796>`
 
 news "Korath ship sightings: generic citizen"
 	to show
@@ -115,7 +115,7 @@ news "Korath ship sightings: generic citizen"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I saw a video of a big I-shaped ship shooting Syndicate vessels. I wonder if it was faked?"
 			"They say there are strange vessels at the edge of the core which keep attacking human ships. Do you think they're Pug?"
@@ -125,7 +125,7 @@ news "Korath ship sightings: generic citizen"
 			"The local maps say there are planets east of the core worlds. Do you think there are aliens there? Do they visit us?"
 			"I went on a school trip long ago, out to Canyon. One of the school ships' escorts was blown out of the sky by a ship shooting little yellow dots. We barely escaped."
 		word
-			`"`
+			`<CN-7796>`
 
 news "Hai sightings: generic citizen"
 	to show
@@ -145,7 +145,7 @@ news "Hai sightings: generic citizen"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I thought I saw a squirrel jumping in a tree, until I looked harder. It was the size of a person! And it was eating acorns! I was going to call the police but I was so mesmerized by its cuteness that I forgot."
 			"On my way home from a trip five systems away, I saw this big teardrop-shaped ship with castles on it. It was huge! Bigger than a Navy Cruiser. I bet it was an alien ship. It seemed friendly though."
@@ -155,7 +155,7 @@ news "Hai sightings: generic citizen"
 			"There was a crashed ship near me, and I heard rumors of some crazy squirrel inside. The police cleaned it up really quick and now all we see is some scorch marks. The authorities won't say anything."
 			"The pickled acorns they sell in the store taste so good they can't possibly be of human manufacture."
 		word
-			`"`
+			`<CN-7796>`
 
 news "Deneb scientist"
 	to show
@@ -174,7 +174,7 @@ news "Deneb scientist"
 			"Cryptozoologist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We assumed this planet was always inhabitable, but it turns out it had a dangerously-toxic atmosphere a while ago. The Pug made it fertile again, and according to our studies, they did it in under 40 years."
 			"The Pug left the strangest objects behind for us to study. It's like solving a thousand educational puzzles."
@@ -192,7 +192,7 @@ news "Deneb scientist"
 			"There are residual space-time distortions at the Quarg ringworld past the wormhole. We suspect it was moved in minutes. The energy required would be more than the total energy ever produced by the human race."
 			"A ringworld is such a stupid idea. If you break clean through one piece, the centrifugal force tears the whole ring apart. If the Quarg were smart, they would've made a Dyson swarm instead."
 		word
-			`"`
+			`<CN-7796>`
 
 news "pirate: smug about Pug"
 	to show
@@ -204,7 +204,7 @@ news "pirate: smug about Pug"
 			"Pirate"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"When I saw the Pug attacking Earth, I laughed so hard I almost cried. Smug navy keeps shooting up our ships, and now it's their turn to die!"
 			"Them Syndicate was torn in half by the Pug. Serves them right, I say. They make it too hard to earn a dishonest living around here."
@@ -213,7 +213,7 @@ news "pirate: smug about Pug"
 			"Psychological manipulation, that's all it is. Any good anarchist will tell you that's what the Pug are all about. Murder, death, kill... to trick you into doing what THEY want."
 			"I wish the Pug hadn't stopped the Syndicate from nuking Earth. Can you imagine the collapse of the galactic Republic? Galactic anarchy! It's how the galaxy should be."
 		word
-			`"`
+			`<CN-7796>`
 
 news "pirate: korath collector"
 	to show
@@ -225,7 +225,7 @@ news "pirate: korath collector"
 			"Pirate"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"We flew near Stormhold and saw this big ship that looked like a huge letter 'I' and it destroyed half our fleet. We nearly blew it up, but it disappeared in a bunch of sparkles."
 			"My pirate gang has been hunting these big ships near Stormhold. They usually blow up, but occasionally we can pillage some nice stuff. It sells for a fortune on the black market."
@@ -240,7 +240,7 @@ news "pirate: korath collector"
 			"From an alien ship near Stormhold, my crew pillaged one of the... sparkle drive systems? We jumped past human space and regretted it quickly. I sold the drive to the Syndicate for a hefty sum. Let them deal with the insanity that lies beyond."
 			"I still have nightmares about my time at Durax. I'm never going back there."
 		word
-			`"`
+			`<CN-7796>`
 
 phrase "paranoia: generic alien fear"
 	phrase
@@ -251,270 +251,270 @@ phrase "paranoia: generic alien fear"
 
 phrase "somebody suspects that"
 	word
-		"I suspect that"
-		"I'm positive that"
-		"People say"
-		"People say that"
-		"They say"
-		"I hear rumors that"
-		"I wouldn't be surprised if"
-		"I can't help feeling like"
-		"There's a good chance that"
-		"It's definitely possible that"
-		"I'm pretty sure"
-		"Everyone I know is certain that"
-		"My crazy uncle is always jabbering on about how"
-		"My crazy mother-in-law is always jabbering on about how"
-		"My last girlfriend wouldn't stop ranting about how she thinks"
-		"My last boyfriend wouldn't stop ranting about how he thinks"
-		"I can't believe how some people could think that"
-		"You'd have to be a real dope to believe that"
-		"I find myself believing that"
-		"Nobody believes me when I tell them about how"
-		"I think"
-		"I really do think"
-		"I believe that"
-		"I really do believe that"
-		"I'm sure that"
-		"Everyone knows"
-		"Everyone knows that"
-		"Everybody knows"
-		"Everybody knows that"
-		"I wish more people realized"
-		"I wish more people realized that"
-		"My nutty cousin claims that"
-		"The voices in my head say"
-		"My invisible friend knows that"
+		"<WR-1298>"
+		"<WR-1299>"
+		"<WR-1300>"
+		"<WR-1301>"
+		"<WR-1302>"
+		"<WR-1303>"
+		"<WR-1304>"
+		"<WR-1305>"
+		"<WR-1306>"
+		"<WR-1307>"
+		"<WR-1309>"
+		"<WR-1310>"
+		"<WR-1311>"
+		"<WR-1312>"
+		"<WR-1313>"
+		"<WR-1314>"
+		"<WR-1315>"
+		"<WR-1316>"
+		"<WR-1317>"
+		"<WR-1318>"
+		"<WR-1319>"
+		"<WR-1320>"
+		"<WR-1321>"
+		"<WR-1322>"
+		"<WR-1323>"
+		"<WR-1324>"
+		"<WR-1325>"
+		"<WR-1326>"
+		"<WR-1327>"
+		"<WR-1328>"
+		"<WR-1329>"
+		"<WR-1330>"
+		"<WR-11291>"
+		"<WR-11292>"
 
 phrase "paranoia: people in power are aliens"
 	phrase
 		"somebody suspects that"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the politicians"
-		"government officials"
-		"members of Parliament"
-		"people on the Paradise worlds"
-		"people on the rich worlds"
-		"those weird folks from the Deep"
-		"corporate executives"
-		"the Republic's intelligence operatives"
-		"bank managers"
-		"Syndicate executives"
-		"most planetary governors"
-		"the executives of the Tarazed corporation"
-		"the executives of the Lionheart corporation"
-		"the executives of the Megaparsec corporation"
-		"the executives of the Lovelace corporation"
+		"<WR-1335>"
+		"<WR-1336>"
+		"<WR-1337>"
+		"<WR-11293>"
+		"<WR-11294>"
+		"<WR-1340>"
+		"<WR-11295>"
+		"<WR-1343>"
+		"<WR-11296>"
+		"<WR-11297>"
+		"<WR-1346>"
+		"<WR-1347>"
+		"<WR-1348>"
+		"<WR-1349>"
+		"<WR-1350>"
 	word
-		" are actually aliens."
-		" are aliens in disguise."
-		" are just pretending to be human."
-		" are aliens."
+		"<WR-11298>"
+		"<WR-11299>"
+		"<WR-11300>"
+		"<WR-11301>"
 
 phrase "paranoia: band members are aliens"
 	word
-		"I watched the video of"
-		"I listened to"
-		"I just got tickets to see"
-		"I just got back from seeing"
-		"I'm just coming back from seeing"
-		"I just heard"
-		"I just saw"
-		"I had a backstage pass to"
+		"<WR-11302>"
+		"<WR-11303>"
+		"<WR-538>"
+		"<WR-539>"
+		"<WR-540>"
+		"<WR-541>"
+		"<WR-542>"
+		"<WR-543>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"band"
+		"<WR-544>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"playing a concert"
-		"doing a show"
-		"in concert"
-		"at their concert"
-		"playing a benefit concert"
-		"live"
-		"on tour"
-		"at a live concert"
-		"playing a gig"
-		"live in concert"
+		"<WR-545>"
+		"<WR-546>"
+		"<WR-547>"
+		"<WR-548>"
+		"<WR-549>"
+		"<WR-550>"
+		"<WR-551>"
+		"<WR-552>"
+		"<WR-553>"
+		"<WR-554>"
 	word
-		" at Tarazed Stadium"
-		" at the amphitheater"
-		" at a concert hall"
-		" in a nightclub"
-		" at Betelgeuse Stadium"
-		" at Lionheart Arena"
-		" at the Grange"
-		" at a resort"
-		" at Canyonland Park"
-		" in a stylin' party-hall"
-		""
+		"<WR-555>"
+		"<WR-556>"
+		"<WR-557>"
+		"<WR-558>"
+		"<WR-559>"
+		"<WR-560>"
+		"<WR-561>"
+		"<WR-562>"
+		"<WR-563>"
+		"<WR-564>"
+		"<WR-34>"
 	word
-		", but after what I heard"
-		", but after what I've seen"
-		", and now that I've really looked at them"
+		"<WR-11304>"
+		"<WR-11305>"
+		"<WR-11306>"
 	word
-		" I'm sure they're"
-		" I know they're"
-		" it's clear to me now they're"
-		" I know they have to be"
+		"<WR-11307>"
+		"<WR-11308>"
+		"<WR-11309>"
+		"<WR-11310>"
 	word
-		" aliens"
+		"<WR-11311>"
 	word
-		" in disguise."
-		" wearing holograms."
-		" hiding among us."
-		" pretending to be human."
+		"<WR-11312>"
+		"<WR-11313>"
+		"<WR-11314>"
+		"<WR-11315>"
 
 phrase "paranoia: media creators are aliens"
 	word
-		"I checked out the latest installment of "
-		"I got hooked on "
-		"I was catching up on "
-		"I went to a fan convention for "
+		"<WR-11316>"
+		"<WR-11317>"
+		"<WR-11318>"
+		"<WR-11319>"
 	word
-		"'"
+		"<WR-11320>"
 	phrase
-		"media name"
+		"<WR-580>"
 	word
-		"'"
+		"<WR-11320>"
 	word
-		" but now I'm sure that"
-		" but I think"
-		" and I know now that"
+		"<WR-11321>"
+		"<WR-11322>"
+		"<WR-11323>"
 	word
-		" the one of the actors is"
-		" the director is"
-		" the lead actor is"
-		" the set designer is"
-		" the producer is"
+		"<WR-11324>"
+		"<WR-11325>"
+		"<WR-11326>"
+		"<WR-11327>"
+		"<WR-11328>"
 	word
-		" an alien" 2
-		" some kind of alien"
+		"<WR-11329>" 2
+		"<WR-11330>"
 	word
-		" in disguise."
-		" wearing holograms."
-		" hiding among us."
-		" pretending to be human."
+		"<WR-11312>"
+		"<WR-11313>"
+		"<WR-11314>"
+		"<WR-11315>"
 
 phrase "paranoia: people in my life are aliens"
 	phrase
 		"My (person in my life) must be"
 		"The (person in my life) near me must be"
 	word
-		" an alien because "
+		"<WR-11331>"
 	phrase
-		"(reason why someone is an alien)"
+		"<WR-11332>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "(reason why someone is an alien)"
 	word
-		"someone saw them"
-		"I saw them"
+		"<WR-11333>"
+		"<WR-11334>"
 	word
-		" sneeze non-stop for an hour"
-		" wearing dark sunglasses in a movie theater"
-		" eating a piece of metal"
-		" speaking in their dreams"
-		" speaking some strange language"
-		" moving too quickly for a human"
-		" lifting a one-ton crate"
-		" reciting 2000 digits of pi"
-		" using a full-body hologram"
+		"<WR-11335>"
+		"<WR-11336>"
+		"<WR-11337>"
+		"<WR-11338>"
+		"<WR-11339>"
+		"<WR-11340>"
+		"<WR-11341>"
+		"<WR-11342>"
+		"<WR-11343>"
 
 phrase "The (person in my life) near me must be"
 	word
-		"The "
+		"<WR-8908>"
 	word
-		"tailor"
-		"gardener"
-		"lawyer"
-		"neighbor"
-		"proctologist"
-		"fortune teller"
-		"veterinarian"
-		"masseuse"
-		"chiropractor"
-		"janitor"
-		"neurologist"
-		"social worker"
-		"psychologist"
-		"psychiatrist"
-		"therapist"
+		"<WR-11344>"
+		"<WR-11345>"
+		"<WR-11346>"
+		"<WR-11347>"
+		"<WR-11348>"
+		"<WR-11349>"
+		"<WR-11350>"
+		"<WR-11351>"
+		"<WR-11352>"
+		"<WR-11353>"
+		"<WR-11354>"
+		"<WR-11355>"
+		"<WR-11356>"
+		"<WR-11357>"
+		"<WR-11358>"
 	word
-		" near me"
-		" next door"
-		" across the street"
-		" down the block"
-		" in the next apartment"
+		"<WR-11359>"
+		"<WR-11360>"
+		"<WR-11361>"
+		"<WR-11362>"
+		"<WR-11363>"
 	word
-		" must be"
-		" is"
-		" has to be"
+		"<WR-11364>"
+		"<WR-11365>"
+		"<WR-11366>"
 
 phrase "My (person in my life) must be"
 	word
-		"My "
+		"<WR-11367>"
 	word
-		"landlord"
-		"boss"
-		"tailor"
-		"gardener"
-		"friend"
-		"lawyer"
-		"in-law"
-		"neighbor"
-		"proctologist"
-		"stepbrother"
-		"evil stepmother"
-		"fortune teller"
-		"veterinarian"
-		"masseuse"
-		"chiropractor"
-		"janitor"
-		"neurologist"
-		"social worker"
-		"psychologist"
-		"psychiatrist"
-		"therapist"
-		"beau"
+		"<WR-11368>"
+		"<WR-11369>"
+		"<WR-11344>"
+		"<WR-11345>"
+		"<WR-741>"
+		"<WR-11346>"
+		"<WR-11370>"
+		"<WR-11347>"
+		"<WR-11348>"
+		"<WR-11371>"
+		"<WR-11372>"
+		"<WR-11349>"
+		"<WR-11350>"
+		"<WR-11351>"
+		"<WR-11352>"
+		"<WR-11353>"
+		"<WR-11354>"
+		"<WR-11355>"
+		"<WR-11356>"
+		"<WR-11357>"
+		"<WR-11358>"
+		"<WR-11373>"
 	word
-		" is"
-		" must be"
-		" could be"
+		"<WR-11365>"
+		"<WR-11364>"
+		"<WR-11374>"
 
 # A person who provides you a service, is a major part of your life,
 # or lives near you. Must not be a genetic relative.
 phrase "person you could suspect to be aliens"
 	word
-		"landlord"
-		"boss"
-		"tailor"
-		"gardener"
-		"friend"
-		"lawyer"
-		"in-law"
-		"neighbor"
-		"proctologist"
-		"stepbrother"
-		"evil stepmother"
-		"fortune teller"
-		"veterinarian"
-		"masseuse"
-		"chiropractor"
-		"janitor"
-		"neurologist"
-		"social worker"
-		"psychologist"
-		"psychiatrist"
-		"therapist"
-		"beau"
-		"dog"
-		"cat"
+		"<WR-11368>"
+		"<WR-11369>"
+		"<WR-11344>"
+		"<WR-11345>"
+		"<WR-741>"
+		"<WR-11346>"
+		"<WR-11370>"
+		"<WR-11347>"
+		"<WR-11348>"
+		"<WR-11371>"
+		"<WR-11372>"
+		"<WR-11349>"
+		"<WR-11350>"
+		"<WR-11351>"
+		"<WR-11352>"
+		"<WR-11353>"
+		"<WR-11354>"
+		"<WR-11355>"
+		"<WR-11356>"
+		"<WR-11357>"
+		"<WR-11358>"
+		"<WR-11373>"
+		"<WR-4006>"
+		"<WR-8762>"
 
 
 
@@ -535,7 +535,7 @@ news "Hai video: human response"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Did you see that video of the alien ships fighting? I heard that my sister's best friend's husband saw a bunch of those ships near Cardax."
 			"I saw that video of the alien ships fighting, and it looked a lot like another ship I saw one time. It was a teardrop-shaped luxury liner. The captain called it a Centipede, but wouldn't say where it came from."
@@ -546,7 +546,7 @@ news "Hai video: human response"
 			"I know a fake video when I see one. There's enough real alien problems in the galaxy to worry about without thinking about a FAKE group of aliens."
 			"Did you see the alien ship fight video? I swear, I was using Blender version 17.47, and I found 3D models of those ships made back in the 21st century. Am I losing my mind?"
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -567,14 +567,14 @@ news "Hai roleplay station: human response"
 			"Conspiracy theorist"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I visited the new Syndicate station at Ultima Thule. It's hilarious. They have alien-looking architecture and a huge ad banner."
 			"It turns out the alien video was just a marketing gimmick for the new Syndicate station."
 			"We're supposed to believe this absurd story about the alien ships past Ultima Thule? There's no wormhole there. It was all a Syndicate marketing gimmick."
 			"I don't like how the Syndicate tricked us with that fake alien video as a silly marketing gimmick, but at least they're not trying to nuke Earth or destroy starlanes."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
@@ -590,7 +590,7 @@ news "Hai news: generic citizen"
 			"Parent"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Did you try the Hai beer made of fermented nuts? It's amazing."
 			"I always knew those pickled acorns were too good to be of human manufacture."
@@ -606,7 +606,7 @@ news "Hai news: generic citizen"
 			"I hear the Hai let pirates live in their territory, as part of reformation programs. That may not be the wisest decision they've ever made, but it's certainly a compassionate one."
 			"I hope nobody is smuggling Hai technology to the pirates. I don't want to think of what would happen if pirates got their hands on that stuff."
 		word
-			`"`
+			`<CN-7796>`
 
 
 # Visual suggestion: a bit quirky or weird; expression is content, confident, or stoic
@@ -620,7 +620,7 @@ news "Hai news: merchant captain"
 			"Merchant captain"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I wonder if Hai have pirates of their own, like we do?"
 			"I hear Hai defensive technology is amazing. I'm going to stock up on shields and anti-missile turrets when I get there. Hopefully I'll lose fewer ships when I fly near pirate space."
@@ -634,4 +634,4 @@ news "Hai news: merchant captain"
 			"Don't go too far north in Hai space. They have their own pirates, and they're much more powerful than anything we're used to in human space."
 			"I hear Hai space wasn't peaceful a few centuries ago when some reptilian aliens were raiding the place. I wonder where they went?"
 		word
-			`"`
+			`<CN-7796>`

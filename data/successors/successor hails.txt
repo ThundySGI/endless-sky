@@ -15,744 +15,744 @@
 
 phrase "successor friendly hail" # Wary
 	word
-		`Art thou the "noble visitor" of whom the Houses speak?`
-		`Art thou the "honored guest" the Houses do parade?`
-		"Art thou the eerie creature that hails from distant lands?"
-		"Art thou the strange-ish traveler that hails from distant stars?"
-		"Art thou the alien visitor within our noble lands?"
-		"Art thou the creature'f history, returned to seek the present?"
-		"Thy ship and countenance seem strange-ish and bizarre,"
+		`<WR-13297>`
+		`<WR-13298>`
+		"<WR-13299>"
+		"<WR-13300>"
+		"<WR-13301>"
+		"<WR-13302>"
+		"<WR-13303>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"I note thy presence but remain'f thee wary."
-		"If corrupted be thy soul, then prithee keep thy distance."
-		"If thou art friend to me, so I shall be to thee."
-		"What is thy goal within these stars? To wander in delight?"
-		"To whom and what thou does thou lend thy own strength?"
-		"What is thy goal within these stars? To observe or interfere?"
-		"What is thy goal within these stars? Be a trader or a traitor?"
+		"<WR-13305>"
+		"<WR-13306>"
+		"<WR-13307>"
+		"<WR-13308>"
+		"<WR-13309>"
+		"<WR-13310>"
+		"<WR-13311>"
 
 
 phrase "successor friendly hail" # Equipment
 	word
-		"I never fly without"
-		"I never travel 'thout"
-		"T'would be foolish t'fly without"
+		"<WR-13312>"
+		"<WR-13313>"
+		"<WR-13314>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"a trusty scanner"
-		"my trusty scanner"
-		"a larger fuel tank"
-		"communications"
-		"some conversation"
-		"a stock of crab-cubes"
-		"a stock of kelp-packs"
-		"a week's supply-cache"
+		"<WR-13315>"
+		"<WR-13316>"
+		"<WR-13317>"
+		"<WR-13318>"
+		"<WR-13319>"
+		"<WR-13320>"
+		"<WR-13321>"
+		"<WR-13322>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"I suggest thou dost the same in thine best interest."
-		"It makes the many hours pass by quickly."
-		"The dark of space is lightened by its presence."
-		"There's little point in taking off without it."
+		"<WR-13324>"
+		"<WR-13325>"
+		"<WR-13326>"
+		"<WR-13327>"
 
 
 phrase "successor friendly hail" # Basic greeting
 	word
-		"Hail"
-		"Hark"
+		"<WR-5971>"
+		"<WR-13328>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"fellow captain"
-		"fellow pilot"
-		"star treader"
-		"captain"
-		"visitor"
+		"<WR-739>"
+		"<WR-13329>"
+		"<WR-13330>"
+		"<WR-740>"
+		"<WR-9168>"
 	word
-		"." 3
-		"!" 3
-		", strange as thou might be."
+		"<WR-40>" 3
+		"<WR-573>" 3
+		"<WR-13331>"
 
 
 phrase "successor friendly hail" # Regretful
 	word
-		"I was"
+		"<WR-13332>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"meant"
-		"trained"
-		"taught"
+		"<WR-13333>"
+		"<WR-13334>"
+		"<WR-13335>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"to be a"
+		"<WR-13336>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"successor occupation"
+		"<WR-13337>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"truly"
-		"really"
-		"yes"
-		"true"
+		"<WR-13338>"
+		"<WR-13339>"
+		"<WR-13340>"
+		"<WR-11582>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"not"
+		"<WR-10957>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"some"
-		"this"
-		"a"
+		"<WR-1437>"
+		"<WR-1473>"
+		"<WR-771>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"meager"
-		"lowly"
-		"wretched"
-		"somber"
-		"pit'ful"
-		"lonely"
+		"<WR-13341>"
+		"<WR-13342>"
+		"<WR-13343>"
+		"<WR-13344>"
+		"<WR-13345>"
+		"<WR-13346>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"pilot"
+		"<WR-781>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "successor friendly hail" # Media
 	word
-		"Hast thou"
+		"<WR-13347>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"enjoyed"
-		"seen"
-		"experienced"
-		"taken'n"
+		"<WR-13348>"
+		"<WR-13349>"
+		"<WR-13350>"
+		"<WR-13351>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"successor media name"
+		"<WR-13352>"
 	word
-		"? / "
+		"<WR-13353>"
 	word
-		"Truly, I've naught t'compare it with that's equal"
-		"'Tis my favorite of its kind, without discussion"
-		"Such truth in art is truly rare to find"
-		"If not, then thou art poorer for it"
-		"'Tis perfect to enjoy while on the starlanes"
-		"More relevant today than aught before"
+		"<WR-13354>"
+		"<WR-13355>"
+		"<WR-13356>"
+		"<WR-13357>"
+		"<WR-13358>"
+		"<WR-13359>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "successor friendly hail" # Cargo
 	word
-		"T'was hired t'bring"
-		"I'm transporting"
+		"<WR-13360>"
+		"<WR-13361>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"a"
+		"<WR-771>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"load" 2
-		"box"
-		"crate"
+		"<WR-13362>" 2
+		"<WR-13363>"
+		"<WR-13364>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"of pricy"
-		"containing"
-		"of gilded"
+		"<WR-13365>"
+		"<WR-13366>"
+		"<WR-13367>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"successor commodities (2-syllable)"
+		"<WR-13368>"
 	word
-		". / "
-		"! / "
+		"<WR-13369>"
+		"<WR-13370>"
 	word
-		"I'll see it"
-		"It shall be"
+		"<WR-13371>"
+		"<WR-13372>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"delivered"
-		"offered"
-		"unloaded"
+		"<WR-13373>"
+		"<WR-13374>"
+		"<WR-13375>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"quickly"
-		"safely"
-		"shortly"
-		"caref'ly"
+		"<WR-11277>"
+		"<WR-13376>"
+		"<WR-13377>"
+		"<WR-13378>"
 	word
-		" and with conviction"
-		", as is my standard"
-		" and on time"
+		"<WR-13379>"
+		"<WR-13380>"
+		"<WR-13381>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "successor friendly hail" # Proverbs
 	word
-		"We swim in the water that we salt ourselves."
-		"One is blind, two are foolish, but three bend not to whims or fancy."
-		"Trust to an arm's-tip."
-		"Eyes open, arms wide."
-		"The eggs of suspicion are the scions of prudence."
-		"Better the dry House to the wet rage."
-		"First name for the past, second for the present, third for the future."
-		"Honor is the offspring of safety."
-		"Is there in truth no beauty? Is there in virtue no joy?"
+		"<WR-13382>"
+		"<WR-13383>"
+		"<WR-13384>"
+		"<WR-13385>"
+		"<WR-13386>"
+		"<WR-13387>"
+		"<WR-13388>"
+		"<WR-13389>"
+		"<WR-13390>"
 
 
 phrase "successor friendly hail" # Relation
 	word
-		"My"
+		"<WR-13391>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"successor relation"
+		"<WR-13392>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"always told me: be a"
-		"has just earned the title:"
-		"used to know a friendly"
-		"helped me find a friendly"
-		"just got married to a"
-		"told me: never trust a"
-		"used to be a skillful"
+		"<WR-13393>"
+		"<WR-13394>"
+		"<WR-13395>"
+		"<WR-13396>"
+		"<WR-13397>"
+		"<WR-13398>"
+		"<WR-13399>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"successor occupation"
+		"<WR-13337>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"With these long days, I wish that they were me."
-		"A noble job, and yet not one for me."
-		"It's not my place to give critique, and yet..."
-		"I hope that I will see them soon again."
-		"Hast thou met them? Do they carry any news?"
+		"<WR-13400>"
+		"<WR-13401>"
+		"<WR-13402>"
+		"<WR-13403>"
+		"<WR-13404>"
 
 
 phrase "successor friendly hail" # Conspiracy
 	word
-		"I hope that thou will keep this thought between us:"
-		"A friend of mine hath told me once in secret:"
-		"I have heard from well reputed, honest lips that:"
-		"The High Houses try to hide it, but I know that:"
-		"I've learned in many years of honest pil'ting:"
-		"If thou art willing to believe me:"
-		"Doubt my words if knave'ry is thy goal, but:"
+		"<WR-13405>"
+		"<WR-13406>"
+		"<WR-13407>"
+		"<WR-13408>"
+		"<WR-13409>"
+		"<WR-13410>"
+		"<WR-13411>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"T'was the scheming Drak who brought ruin to our empire."
-		"The treach'rous Quarg's who caused the end of the old empire."
-		"That jealous Coalition brought the end of the old empire."
-		"The canny Korath caused the end of the old empire."
-		"The High Houses by themselves destroyed our empire."
-		"The best trade routes are ones not prone to scanning." 5
-		"The best trade routes are those that make thee money." 5
-		"The best trade routes are hidden from thy sensors." 2
-		"There are nightmares in the void that the Houses fear."
-		"The empty systems here are prone to strangeness."
+		"<WR-13412>"
+		"<WR-13413>"
+		"<WR-13414>"
+		"<WR-13415>"
+		"<WR-13416>"
+		"<WR-13417>" 5
+		"<WR-13418>" 5
+		"<WR-13419>" 2
+		"<WR-13420>"
+		"<WR-13421>"
 
 
 phrase "successor friendly hail" # Compliance
 	word
-		"If thou'rt scanned by"
-		"When thou'rt scanned by"
+		"<WR-13422>"
+		"<WR-13423>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"a Houses ship"
-		"the local House"
-		"a House warship"
-		"a House patrol"
+		"<WR-13424>"
+		"<WR-13425>"
+		"<WR-13426>"
+		"<WR-13427>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"Make haste to stop"
-		"Don't try to flee"
-		"Make still thy craft"
+		"<WR-13428>"
+		"<WR-13429>"
+		"<WR-13430>"
 	word
-		" and don't resist"
-		", unfold thyself"
-		", explain thy route"
-		", present thy writ"
+		"<WR-13431>"
+		"<WR-13432>"
+		"<WR-13433>"
+		"<WR-13434>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "successor friendly hail" # Careful
 	word
-		"Let not thy"
+		"<WR-13435>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"voyage"
-		"journey"
-		"travel"
-		"mission"
-		"effort"
+		"<WR-13436>"
+		"<WR-13437>"
+		"<WR-13438>"
+		"<WR-13439>"
+		"<WR-13440>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"be for naught"
-		"be undone"
-		"turn to ash"
-		"make for naught"
+		"<WR-13441>"
+		"<WR-13442>"
+		"<WR-13443>"
+		"<WR-13444>"
 	word
-		"! / "
-		"; / "
+		"<WR-13370>"
+		"<WR-13445>"
 	word
-		"Keep thy craft pristine"
-		"Stow thy cargo'th care"
-		"Watch thy sensors caref'ly"
-		"Read thy writ with care"
+		"<WR-13446>"
+		"<WR-13447>"
+		"<WR-13448>"
+		"<WR-13449>"
 	word
-		" and keep thine eyes alight"
-		", thine eyes alight"
-		" for secur'ty's sake"
-		" for thy whole crew's sake"
-		" and thy wit a razor"
-		" and thine arms adroit"
+		"<WR-13450>"
+		"<WR-13451>"
+		"<WR-13452>"
+		"<WR-13453>"
+		"<WR-13454>"
+		"<WR-13455>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "successor hostile hail"
 	word
-		"Thou hast betrayed our trust and for what purpose!?"
-		"Our foolishness it was, we see, to trust thee;"
-		"Cruel, malignant, violent, petty creature."
-		"Vile! Thy deception is exposed now."
-		"Your death will leave no absence on the cosmos."
-		"Our friendship now, you find, has been retracted."
+		"<WR-13456>"
+		"<WR-13457>"
+		"<WR-13458>"
+		"<WR-13459>"
+		"<WR-13460>"
+		"<WR-13461>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"So sorry thou shalt meet a violent end."
-		"The Houses will unburden thee of life."
-		"Prepare to shuffle off thy mortal coil."
-		"The gentle hand of Death doth close thine eye."
-		"No satisfaction lives in our reprisal."
+		"<WR-13462>"
+		"<WR-13463>"
+		"<WR-13464>"
+		"<WR-13465>"
+		"<WR-13466>"
 
 
 phrase "successor friendly disabled hail"
 	word
-		"A prompt assist would honor thee,"
-		"Alas, our vessel's lay'en low,"
-		`"Help!" we ask, fair visitor,`
-		"Our valiant craft's been stricken, friend,"
+		"<WR-13467>"
+		"<WR-13468>"
+		`<WR-13469>`
+		"<WR-13470>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Make haste, we thee implore."
-		"Lend aid if 'tis in reach."
-		"Thy help would make us whole."
-		"'Tis noble to be kind and wise to help."
+		"<WR-13471>"
+		"<WR-13472>"
+		"<WR-13473>"
+		"<WR-13474>"
 
 
 phrase "successor hostile disabled hail"
 	word
-		"Ruinous creature, see now thy bitter handiwork!"
-		"Thy deceit's laid low our fairest vessel!"
-		"Bitter knave, thoughtless in kind and action!"
-		"Cruel deceiver, we observe our fault 'twas trusting thee,"
+		"<WR-13475>"
+		"<WR-13476>"
+		"<WR-13477>"
+		"<WR-13478>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"The Houses shall bring thy bitter self to justice!"
-		"Spare us but our lives if not our ship!"
-		"Thou art cursed, foolish, cruel, and sure to die."
-		"Our families shall avenge us, no matter how!"
+		"<WR-13479>"
+		"<WR-13480>"
+		"<WR-13481>"
+		"<WR-13482>"
 
 # High Houses: Generic
 
 phrase "high houses friendly hail"
 	word
-		"We welcome thee to join us in our space"
-		"Thy presence in our lovely space is welcome"
-		"We note thy visitation and accept"
-		`"Noble friend," thou art by our decree`
-		`"Honored guest," within our skies thou art`
-		`"Regal sojourner," thy name shall be with us`
+		"<WR-13483>"
+		"<WR-13484>"
+		"<WR-13485>"
+		`<WR-13486>`
+		`<WR-13487>`
+		`<WR-13488>`
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"So that thou"
+		"<WR-13489>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"might"
-		"may"
-		"shalt"
-		"can'st"
+		"<WR-3741>"
+		"<WR-13490>"
+		"<WR-13491>"
+		"<WR-13492>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"enjoy our pleasant worlds"
-		"enjoy our verdant worlds"
-		"make note of our advance"
-		"find joy in our success"
-		"bear witness to our joy"
-		"appreciate our lands"
-		"learn well of our success"
-		"feel awe at our success"
+		"<WR-13493>"
+		"<WR-13494>"
+		"<WR-13495>"
+		"<WR-13496>"
+		"<WR-13497>"
+		"<WR-13498>"
+		"<WR-13499>"
+		"<WR-13500>"
 	word
-		"." 3
-		"!"
+		"<WR-40>" 3
+		"<WR-573>"
 
 
 phrase "high houses friendly hail"
 	word
-		"By noble lineage do we exalt us all,"
-		"With joyful strength and honest might we fly,"
-		"No evil shall impede our noble goal:"
-		"Our goal's a true and simple thing:"
-		"With watching eyes and gallant hearts,"
+		"<WR-13501>"
+		"<WR-13502>"
+		"<WR-13503>"
+		"<WR-13504>"
+		"<WR-13505>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"To build for all a great and lasting peace."
-		"To make for all a true and joyful peace."
-		"To keep us all secure and bright in peace."
-		"To promote the joy and welfare of us all."
+		"<WR-13506>"
+		"<WR-13507>"
+		"<WR-13508>"
+		"<WR-13509>"
 
 
 phrase "high houses friendly hail"
 	word
-		"Hark"
-		"Hail"
+		"<WR-13328>"
+		"<WR-5971>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"traveler"
-		"guest"
-		"alien"
-		"captain"
-		"pilot"
+		"<WR-9167>"
+		"<WR-13510>"
+		"<WR-9146>"
+		"<WR-740>"
+		"<WR-781>"
 	word
-		"!"
+		"<WR-573>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Our"
+		"<WR-2860>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"House"
-		"fleet"
-		"ship"
-		"craft"
+		"<WR-6037>"
+		"<WR-3743>"
+		"<WR-7289>"
+		"<WR-13511>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"patrols"
-		"maintains"
-		"observes"
-		"doth grace"
+		"<WR-13512>"
+		"<WR-13513>"
+		"<WR-13514>"
+		"<WR-13515>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"this space"
-		"these worlds"
+		"<WR-13516>"
+		"<WR-13517>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "high houses friendly hail"
 	word
-		"Let those with"
-		"May those with"
+		"<WR-13518>"
+		"<WR-13519>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"evil"
-		"rancor"
-		"fury"
-		"knave'ry"
-		"cruelty"
-		"terror"
-		"violence"
-		"mock'ry"
+		"<WR-13520>"
+		"<WR-13521>"
+		"<WR-8693>"
+		"<WR-13522>"
+		"<WR-13523>"
+		"<WR-13524>"
+		"<WR-13525>"
+		"<WR-13526>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"in their hearts"
-		"as their guide"
-		"as intent"
+		"<WR-13527>"
+		"<WR-13528>"
+		"<WR-13529>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"quake"
-		"fright"
-		"flee"
-		"begone"
+		"<WR-13530>"
+		"<WR-13531>"
+		"<WR-13532>"
+		"<WR-13533>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"and blanch in fear"
-		"before our might"
-		"as we arrive"
+		"<WR-13534>"
+		"<WR-13535>"
+		"<WR-13536>"
 	word
-		". / "
-		"! / "
+		"<WR-13369>"
+		"<WR-13370>"
 	word
-		"Your House is here"
-		"Your House arrives"
+		"<WR-13537>"
+		"<WR-13538>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "high houses friendly hail"
 	word
-		"Make naked not the"
-		"Loose not the wicked"
+		"<WR-13539>"
+		"<WR-13540>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"blade"
-		"spear"
-		"claw"
+		"<WR-8697>"
+		"<WR-7260>"
+		"<WR-8711>"
 	word
-		" of "
+		"<WR-2387>"
 	word
-		"evil"
-		"rancor"
-		"fury"
-		"cruelty"
-		"terror"
-		"violence"
-		"mock'ry"
+		"<WR-13520>"
+		"<WR-13521>"
+		"<WR-8693>"
+		"<WR-13523>"
+		"<WR-13524>"
+		"<WR-13525>"
+		"<WR-13526>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"'fore our gaze"
-		"'thin our sight"
-		"while we yet breathe"
-		"among our worlds"
-		"upon our people"
+		"<WR-13541>"
+		"<WR-13542>"
+		"<WR-13543>"
+		"<WR-13544>"
+		"<WR-13545>"
 	word
-		". / "
-		"! / "
+		"<WR-13369>"
+		"<WR-13370>"
 	word
-		"All knaves shall meet their bitter end"
-		"Our wrath stands equal to our love"
-		"Our might exceeds the basest foe"
-		"Our duty 'mplores us to defend"
-		"We shan't abide a violent foe"
+		"<WR-13546>"
+		"<WR-13547>"
+		"<WR-13548>"
+		"<WR-13549>"
+		"<WR-13550>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "high houses friendly hail"
 	word
-		"Justice"
-		"Strength"
-		"Sight"
-		"Might"
-		"Care"
+		"<WR-4610>"
+		"<WR-5224>"
+		"<WR-13551>"
+		"<WR-5216>"
+		"<WR-13552>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"honor"
-		"passion"
-		"valor"
+		"<WR-3777>"
+		"<WR-13553>"
+		"<WR-13554>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"integrity"
-		"fidelity"
-		"precision"
-		"nobility"
-		"honesty"
-		"clarity"
-		"swiftness"
-		"bravery"
+		"<WR-3780>"
+		"<WR-13555>"
+		"<WR-13556>"
+		"<WR-13557>"
+		"<WR-13558>"
+		"<WR-13559>"
+		"<WR-13560>"
+		"<WR-13561>"
 	word
-		": "
+		"<WR-13562>"
 	word
-		"these"
-		"such"
+		"<WR-13563>"
+		"<WR-13564>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"are the virtues of"
+		"<WR-13565>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"our"
+		"<WR-9610>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"noble"
-		"regal"
+		"<WR-2342>"
+		"<WR-13566>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"House."
+		"<WR-13567>"
 
 
 phrase "high houses friendly hail"
 	word
-		"Travel"
-		"Visit"
+		"<WR-2306>"
+		"<WR-13568>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"planetside"
-		"onworld"
+		"<WR-13569>"
+		"<WR-13570>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"to see"
-		"to touch"
+		"<WR-13571>"
+		"<WR-13572>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"an Aaulqra"
-		"a Seiitej"
-		"a Veusade"
-		"an Ojet"
-		"a coilgun"
+		"<WR-13573>"
+		"<WR-13574>"
+		"<WR-13575>"
+		"<WR-13576>"
+		"<WR-13577>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"in person"
-		"up close"
-		"with thine own arms"
+		"<WR-13578>"
+		"<WR-13579>"
+		"<WR-13580>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "high houses hostile hail"
 	word
-		"Thy deception marks the apex of thine ill,"
-		"Thy cowardice is the basis of thy fame,"
-		"Our foolishness it was, we see, to trust thee;"
-		"A knave and coward thou hast clearly proved thyself;"
-		"Cowards die many times before their deaths,"
+		"<WR-13581>"
+		"<WR-13582>"
+		"<WR-13457>"
+		"<WR-13583>"
+		"<WR-13584>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Our duty shalt relieve thee of thy life."
-		"May thou in death find the peace thou lacked in life."
-		"May thy death be valorous and quick."
-		"May, in death, thou recognize thy wrongs."
-		"Enlightened now, we are to thy malignity."
-		"May thy knavish and deceptive heart now cease."
-		"The valiant never taste of death but once."
+		"<WR-13585>"
+		"<WR-13586>"
+		"<WR-13587>"
+		"<WR-13588>"
+		"<WR-13589>"
+		"<WR-13590>"
+		"<WR-13591>"
 
 
 phrase "high houses hostile hail"
 	word
-		"We take no pleasure in this graven duty,"
-		"Thy venom shall be met with our resolve:"
-		"Our graven duty 'tis to end thy cruelty:"
+		"<WR-13592>"
+		"<WR-13593>"
+		"<WR-13594>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"We'll make thy death a quick and painless thing."
-		"Our thorns shall sprout in thy rebellious flesh."
-		"May thy death be valorous and quick."
-		"May thy pain be consuming and quick."
+		"<WR-13595>"
+		"<WR-13596>"
+		"<WR-13587>"
+		"<WR-13597>"
 
 
 phrase "high houses hostile disabled hail" 2
 	word
-		"Ruinous cur, our vengeance shall yet find thee!"
-		"Revenge is a dish best served cold,"
-		"Thou might break our ship but shall never break our spirit!"
-		"Putrefy and fester, knave deceiver!"
-		"Board us and we shall fight to the last!"
+		"<WR-13598>"
+		"<WR-13599>"
+		"<WR-13600>"
+		"<WR-13601>"
+		"<WR-13602>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Our friends shall avenge thy bitter cruelty!"
-		"Let thy rotten flesh be consumed in flame!"
-		"Our friends shall yet let thee know fear."
-		"Thine only noble act shall be to perish."
+		"<WR-13603>"
+		"<WR-13604>"
+		"<WR-13605>"
+		"<WR-13606>"
 
 
 phrase "high houses hostile disabled hail"
 	word
-		"From void's heart, we stab at thee! / For the good of hate, we spit our last breaths at thee!" # Moby-Dick
-		"Cowards die many times before their deaths, / But the valiant never taste of death but once!" # Julius Caesar, Act 2, Scene 2
-		"Woe, destruction, ruin and decay; / The worst is death, and death will have its day." # Richard II, Act 3, Scene 2
-		"Cur, keep back, or else embrace thy death; / Come not within the measure of my wrath." # The Two Gentlemen of Verona, Act 5, Scene 4
-		"And by a sleep we say to end / The heartache, and the thousand natural shocks / That flesh is heir to." # Hamlet, Act 3, Scene 1
+		"<WR-13607>" # Moby-Dick
+		"<WR-13608>" # Julius Caesar, Act 2, Scene 2
+		"<WR-13609>" # Richard II, Act 3, Scene 2
+		"<WR-13610>" # The Two Gentlemen of Verona, Act 5, Scene 4
+		"<WR-13611>" # Hamlet, Act 3, Scene 1
 
 # High Houses: Old Houses
 
 phrase "old houses friendly hail" # Boast hails
 	word
-		"The"
+		"<WR-700>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"arm of"
-		"spear of"
-		"sword of"
-		"shield of"
-		"prime of"
-		"best of"
+		"<WR-13612>"
+		"<WR-13613>"
+		"<WR-13614>"
+		"<WR-13615>"
+		"<WR-13616>"
+		"<WR-13617>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the Old Houses"
+		"<WR-13618>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"in"
-		"with"
+		"<WR-1233>"
+		"<WR-13619>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"joy"
-		"pride"
-		"strength"
-		"glory"
+		"<WR-7268>"
+		"<WR-13620>"
+		"<WR-3740>"
+		"<WR-13621>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"we are;"
+		"<WR-13622>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"A simple truth in which we take our pride."
-		"An honest fact 'tis plain for all to see."
-		"A simple truth in which we take our joy."
-		"A truth that we wear on our sleeves."
-		"A position that we hold with utmost glee."
-		"An honor that we never shall deny."
-		"A joy in word and action, purely said."
+		"<WR-13623>"
+		"<WR-13624>"
+		"<WR-13625>"
+		"<WR-13626>"
+		"<WR-13627>"
+		"<WR-13628>"
+		"<WR-13629>"
 
 
 phrase "old houses friendly hail" 10
@@ -767,28 +767,28 @@ phrase "chydiyi friendly hail" 7
 
 phrase "chydiyi friendly hail"
 	word
-		"Share in House Chydiyi's Barred Sky"
-		"Fly by grace of the Barred Sky"
+		"<WR-13630>"
+		"<WR-13631>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"Its"
-		"Our"
+		"<WR-13632>"
+		"<WR-2860>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"fleet"
-		"ships"
-		"craft"
+		"<WR-3743>"
+		"<WR-2566>"
+		"<WR-13511>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the clouds within it"
-		"the wreath of stars"
-		"a storm within't"
+		"<WR-13633>"
+		"<WR-13634>"
+		"<WR-13635>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "myurej friendly hail" 6
@@ -798,65 +798,65 @@ phrase "myurej friendly hail" 6
 
 phrase "myurej friendly hail"
 	word
-		"Endure not"
+		"<WR-13636>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the rise and fall"
-		"the in and out"
-		"the breath of waves"
-		"the pain of yore"
+		"<WR-13637>"
+		"<WR-13638>"
+		"<WR-13639>"
+		"<WR-13640>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"the ebb and play"
-		"the draw of fear"
-		"the ghost of past"
+		"<WR-13641>"
+		"<WR-13642>"
+		"<WR-13643>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"make thine eyes aflutter"
-		"lift thy head with pride"
-		"stretch thine arms afront"
-		"push thy spirit forth"
-		"grant thy spirit flight"
+		"<WR-13644>"
+		"<WR-13645>"
+		"<WR-13646>"
+		"<WR-13647>"
+		"<WR-13648>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"breathe in the noble day"
-		"make merry of the day"
-		"find success in thine 'deavors"
-		"take pleasure in thy role"
+		"<WR-13649>"
+		"<WR-13650>"
+		"<WR-13651>"
+		"<WR-13652>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "myurej friendly hail"
 	word
-		"The Blossoming Arm of "
+		"<WR-13653>"
 	word
-		"House"
-		"grand"
-		"sweet"
+		"<WR-6037>"
+		"<WR-4046>"
+		"<WR-13654>"
 	word
-		" Myurej "
+		"<WR-13655>"
 	word
-		"extends to thee"
-		"'s offered to thee"
+		"<WR-13656>"
+		"<WR-13657>"
 	word
-		" in "
+		"<WR-13658>"
 	word
-		"friendship"
-		"peace"
-		"aid"
-		"am'ty"
+		"<WR-10941>"
+		"<WR-744>"
+		"<WR-2295>"
+		"<WR-13659>"
 	word
-		". / "
+		"<WR-13369>"
 	word
-		"Thou may'st accept as thou requires."
-		"Do naught but hail t'invoke assistance."
-		"Such is our promise, nobly made."
+		"<WR-13660>"
+		"<WR-13661>"
+		"<WR-13662>"
 	
 
 phrase "sioeora friendly hail" 7
@@ -866,72 +866,72 @@ phrase "sioeora friendly hail" 7
 
 phrase "sioeora friendly hail"
 	word
-		"The"
+		"<WR-700>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"gleaming"
-		"brilliant"
-		"faultless"
-		"clever"
+		"<WR-13663>"
+		"<WR-13664>"
+		"<WR-13665>"
+		"<WR-13666>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"ships"
-		"craft"
-		"tools"
-		"arms"
+		"<WR-2566>"
+		"<WR-13511>"
+		"<WR-13667>"
+		"<WR-13668>"
 	word
-		" of "
+		"<WR-2387>"
 	word
-		"our noble House"
-		"bright Sioeora"
-		"the Twin-Moon House"
+		"<WR-13669>"
+		"<WR-13670>"
+		"<WR-13671>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Stand ready to assist"
-		"Are well-known as the best of all"
-		"Shall not endure the evil-hearted"
-		"Are our pleasure to employ"
+		"<WR-13672>"
+		"<WR-13673>"
+		"<WR-13674>"
+		"<WR-13675>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 # High Houses: New Houses
 
 phrase "new houses friendly hail" # Boast hails
 	word
-		"The"
+		"<WR-700>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"arm of"
-		"spear of"
-		"sword of"
-		"shield of"
-		"prime of"
-		"best of"
+		"<WR-13612>"
+		"<WR-13613>"
+		"<WR-13614>"
+		"<WR-13615>"
+		"<WR-13616>"
+		"<WR-13617>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the New Houses"
+		"<WR-13676>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"in joy"
-		"with pride"
-		"with joy"
+		"<WR-13677>"
+		"<WR-13678>"
+		"<WR-13679>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"we are;"
+		"<WR-13622>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"A simple truth in which we take our pride."
-		"An honest fact 'tis plain for all to see."
-		"A simple truth in which we take our joy."
+		"<WR-13623>"
+		"<WR-13624>"
+		"<WR-13625>"
 
 
 phrase "new houses friendly hail" 10
@@ -946,62 +946,62 @@ phrase "kaatrij friendly hail" 6
 
 phrase "kaatrij friendly hail"
 	word
-		"We art on gossamer wings with fang'ed claws."
-		"May thou recognize thine own multitudes;"
-		"Remember the fallen, new and old."
-		"We endure together, then and now."
-		"Pry not, seek not, now and always."
-		"We watch, we maintain, never resting;"
+		"<WR-13680>"
+		"<WR-13681>"
+		"<WR-13682>"
+		"<WR-13683>"
+		"<WR-13684>"
+		"<WR-13685>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Our noble house thus flies unhindered."
-		"In our unity we find our strength."
-		"May thou be watchful as thy virtue."
+		"<WR-13686>"
+		"<WR-13687>"
+		"<WR-13688>"
 
 
 phrase "kaatrij friendly hail"
 	word
-		"The"
+		"<WR-700>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"Kijran"
-		"Composite"
-		"Wing'ed"
-		"Winged-Eye"
+		"<WR-13689>"
+		"<WR-13690>"
+		"<WR-13691>"
+		"<WR-13692>"
 	word
-		" House "
+		"<WR-13693>"
 	word
-		"doth greet"
-		"observes"
-		"observes and notes"
-		"salutes"
+		"<WR-13694>"
+		"<WR-13514>"
+		"<WR-13695>"
+		"<WR-13696>"
 	word
-		" thee, "
+		"<WR-13697>"
 	word
-		"traveler"
-		"captain"
-		"alien"
-		"pilot"
-		"guest"
+		"<WR-9167>"
+		"<WR-740>"
+		"<WR-9146>"
+		"<WR-781>"
+		"<WR-13510>"
 	word
-		". / "
+		"<WR-13369>"
 	word
-		"May thou have"
-		"Let thou have"
+		"<WR-13698>"
+		"<WR-13699>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"clarity"
-		"prudence"
-		"success"
-		"integrity"
+		"<WR-13559>"
+		"<WR-13700>"
+		"<WR-3077>"
+		"<WR-3780>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"in thy travels."
-		"on thy journey."
+		"<WR-13701>"
+		"<WR-13702>"
 
 
 phrase "seineq friendly hail"
@@ -1011,54 +1011,54 @@ phrase "seineq friendly hail"
 
 phrase "seineq friendly hail"
 	word
-		"In"
+		"<WR-10661>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"verdant"
-		"lasting"
-		"brilliant"
-		"gleaming"
+		"<WR-13703>"
+		"<WR-13704>"
+		"<WR-13664>"
+		"<WR-13663>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"peace"
+		"<WR-744>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"and"
-		"with"
+		"<WR-2291>"
+		"<WR-13619>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"glowing"
-		"passioned"
-		"clear-eyed"
+		"<WR-13705>"
+		"<WR-13706>"
+		"<WR-13707>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"pride"
+		"<WR-13620>"
 	word
-		", / "
+		"<WR-13323>"
 	word
-		"the Houses, New"
-		"our noble House"
-		"grand Seineq's House"
-		"the Lum'nary party"
-		"the Twice-Wrapped Ring"
+		"<WR-13708>"
+		"<WR-13669>"
+		"<WR-13709>"
+		"<WR-13710>"
+		"<WR-13711>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"doth"
+		"<WR-13712>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"endure and thrive"
-		"proclaim success"
-		"invoke our skill"
+		"<WR-13713>"
+		"<WR-13714>"
+		"<WR-13715>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 
 phrase "aqrabe friendly hail" 6
@@ -1068,114 +1068,114 @@ phrase "aqrabe friendly hail" 6
 
 phrase "aqrabe friendly hail"
 	word
-		"Heed the words of"
-		"Keep close the words'f"
-		"Ignore not"
-		"Discount not"
+		"<WR-13716>"
+		"<WR-13717>"
+		"<WR-13718>"
+		"<WR-13719>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"the"
-		"our"
+		"<WR-23>"
+		"<WR-9610>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"noble"
-		"regal"
-		"thoughtful"
+		"<WR-2342>"
+		"<WR-13566>"
+		"<WR-13720>"
 	word
-		" saint of "
-		" paragon o'"
+		"<WR-13721>"
+		"<WR-13722>"
 	word
-		"Clarity"
-		"Cleverness"
-		"Cognizance"
-		"Family"
-		"Honesty"
-		"Humility"
-		"Industry"
-		"Unity"
-		"Wealth"
+		"<WR-5219>"
+		"<WR-13723>"
+		"<WR-13724>"
+		"<WR-1887>"
+		"<WR-7960>"
+		"<WR-11612>"
+		"<WR-13725>"
+		"<WR-13726>"
+		"<WR-13727>"
 	word
-		": / "
+		"<WR-13728>"
 	word
-		`"Feed not the yawning maw of idleness."`
-		`"Prosperity enacts its own virtues."`
-		`"Strength is the enabler of virtue."`
-		`"Resilience is the egg of success."`
-		`"Ostentation is the skin of the false."`
-		`"Security enables prosperity."`
-		`"Betterment is not wrought without well-built tools."`
-		`"Let thy gold be thread, not statue."`
+		`<WR-13729>`
+		`<WR-13730>`
+		`<WR-13731>`
+		`<WR-13732>`
+		`<WR-13733>`
+		`<WR-13734>`
+		`<WR-13735>`
+		`<WR-13736>`
 
 
 phrase "aqrabe friendly hail"
 	word
-		"We are Aqrabe"
-		"Noble House Aqrabe"
+		"<WR-13737>"
+		"<WR-13738>"
 	word
-		", "
+		"<WR-24>"
 	word
-		"The Tower of Ij"
-		"Devoted Party to the New Houses"
+		"<WR-13739>"
+		"<WR-13740>"
 	word
-		": no "
+		"<WR-13741>"
 	word
-		"evildoer"
-		"malevolent"
-		"miscreant"
+		"<WR-13742>"
+		"<WR-13743>"
+		"<WR-3636>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"shall"
-		"can"
-		"could"
+		"<WR-10990>"
+		"<WR-13190>"
+		"<WR-13744>"
 	word
-		" "
+		"<WR-117>"
 	word
-		"escape"
-		"evade"
-		"avoid"
+		"<WR-3720>"
+		"<WR-13745>"
+		"<WR-13746>"
 	word
-		" our "
+		"<WR-4044>"
 	word
-		"wrath"
-		"gaze"
-		"purview"
-		"might"
+		"<WR-13747>"
+		"<WR-13748>"
+		"<WR-13749>"
+		"<WR-3741>"
 	word
-		"."
-		"!"
+		"<WR-40>"
+		"<WR-573>"
 
 # People's Houses
 
 phrase "people's houses friendly hail"
 	word
-		"Revel in thy freedom and endurance."
-		"I intend to thee no harm nor malfeasance."
-		"We fly the flag of freedom from oppression."
-		"The People's Houses offer true equality."
+		"<WR-13750>"
+		"<WR-13751>"
+		"<WR-13752>"
+		"<WR-13753>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Live without the chains of aristocracy."
-		"Remain unshackled from the listless norm."
-		"The People's Houses are ready to assist."
+		"<WR-13754>"
+		"<WR-13755>"
+		"<WR-13756>"
 
 phrase "people's houses hostile hail"
 	word
-		"Art thou a knave in title same as action!?"
-		"Thou art nothing but a foolish slave to power!"
-		"Art thou blind and deaf to suff'ring or just evil?"
-		"If thou wouldst drop thy cargo, we'll be going."
-		"No harm shall come to those who drop their cargo."
-		"Thou art knavish in thy friendships and thine action."
+		"<WR-13757>"
+		"<WR-13758>"
+		"<WR-13759>"
+		"<WR-13760>"
+		"<WR-13761>"
+		"<WR-13762>"
 	word
-		" / "
+		"<WR-13304>"
 	word
-		"Thy blood shall grace the inside of thy starship."
-		"Resistance shall be met with execution."
-		"I hope thy pain is great and everlasting."
-		"Allow me to unburden thee of mortality."
-		"Prepare to shuffle off thy mortal coil."
+		"<WR-13763>"
+		"<WR-13764>"
+		"<WR-13765>"
+		"<WR-13766>"
+		"<WR-13464>"
 		"The sudden hand of Death shalt close thine eye."

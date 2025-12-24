@@ -52,8 +52,8 @@ ship "Kaiken"
 	leak "flame" 60 80
 	explode "tiny explosion" 20
 	explode "small explosion" 15
-	description "While not particularly fast by fighter standards, where the Kaiken lacks in speed it makes up for in durability and firepower; it boasts a significant amount of weapon space and ports for up to three guns, allowing for the use of a trio of Locust Blasters or the option of using a larger Mandible Cannon."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "<DS-2163>"
+	description "<DS-819>"
 
 
 
@@ -120,8 +120,8 @@ ship "Sasumata"
 	explode "medium explosion" 20
 	explode "large explosion" 5
 	"final explode" "final explosion small"
-	description "The Sasumata is the chief scout ship of the Bunrodea. While not designed for combat, this stealth transport vessel is still capable of holding its own against some smaller warships; its four fighter bays turn the Sasumata into a force to be reckoned with when its fighters are deployed."
-	description "	The cloaking technology is built into the Sasumata's hull; it cannot be removed or transferred to another ship."
+	description "<DS-2164>"
+	description "<DS-2165>"
 
 
 
@@ -174,7 +174,7 @@ ship "Tanto"
 	explode "small explosion" 30
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Tanto freighter was designed as a fast blockade runner. While being lightly armed and armored, the Tanto is incredibly swift for a ship of its size, allowing it to jump into and out of systems before any hostile force can bear its full might down on the small ship."
+	description "<DS-2166>"
 
 
 
@@ -242,7 +242,7 @@ ship "Ararebo"
 	explode "medium explosion" 10
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Ararebo is one of the Bunrodea's main methods for shipping large volumes of cargo across space, but anyone who would dare to think that this freighter is an easy target would be sorely mistaken. The Ararebo doubles as the Bunrodea's primary support carrier, carrying a squadron of eight fighters that can tear almost any ship to shreds."
+	description "<DS-2167>"
 
 
 
@@ -299,7 +299,7 @@ ship "Tekkan"
 	explode "medium explosion" 10
 	explode "large explosion" 5
 	"final explode" "final explosion small"
-	description "The Tekkan is the one ship in the Bunrodean arsenal that favors turrets over forward facing guns. This allows the small and fast vessel to act as the primary means of anti-missile defense for larger Bunrodean ships that are lacking in turret mounts compared to their guns. Tekkans are also able to take advantage of the rarely used but powerful Locust Turrets, packing a considerable amount of damage into a small ship."
+	description "<DS-2168>"
 
 
 
@@ -358,7 +358,7 @@ ship "Kunai"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion small"
-	description "The Kunai is the smallest of the Bunrodea's gunships, warships which focus heavily on the power of their forward-facing guns. Lacking any turret mounts and focusing more on turning quickly than traveling fast, the Kunai is highly susceptible to missile weaponry and must rely on other ships in the fleet to carry anti-missile turrets."
+	description "<DS-2169>"
 
 
 
@@ -426,7 +426,7 @@ ship "Kama"
 	explode "large explosion" 30
 	explode "huge explosion" 10
 	"final explode" "final explosion medium"
-	description "The Kama gunship is a formidable warship, capable of carrying up to ten guns as well as having a single turret mount typically equipped with an anti-missile turret. This makes the Kama less susceptible to missile weaponry than its smaller sibling, the Kunai."
+	description "<DS-2170>"
 
 
 
@@ -504,4 +504,4 @@ ship "Chigiriki"
 	explode "large explosion" 20
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Chigiriki is the largest of the Bunrodea's gunships, boasting an astonishing seventeen gun ports. One of these ports is equipped with the devastating Thorax Cannon, a massive cannon capable of dealing significant damage to any ship that dares get in the Chigiriki's way. Some Chigiriki also double as missile platforms, raining down walls of missiles so thick that they can blot out the nearest star."
+	description "<DS-2171>"

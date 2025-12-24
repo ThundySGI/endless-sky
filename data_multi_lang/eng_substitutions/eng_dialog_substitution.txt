@@ -1,0 +1,805 @@
+substitutions
+	"DL-0" `The captain you talked with before thanks you again for saving him and his crew, and hands you <payment>.`
+	"DL-1" `You drop off your cargo of <commodity>, explain how the original merchant who took the job quit and handed off the cargo to you, and collect your payment of <payment>.`
+	"DL-2" `The pirate crew members thank you for bringing them to <planet>. One of them hands you a small payment of <payment>. You wish them all the best of luck with their new lives and part ways.`
+	"DL-3" `The scientists have been giddily discussing the results of their research during the entire trip. You're happy for a bit of peace and quiet as they make tracks for a prominent research lab to have the results analyzed. You prepare for the return journey to <planet>.`
+	"DL-4" `You bid goodbye to the scientists and accept your payment of <payment>.`
+	"DL-5" `The scientists have been giddily sharing and discussing the results of each of their research teams during the entire trip. You're happy for a bit of peace and quiet as they make tracks for a prominent research lab to have the results analyzed. You prepare for the return journey to <planet>.`
+	"DL-6" `The <npc> lands alongside you and teams of scientists wearing crisp white lab coats and serious-looking boots and gloves descend on the test site with all manner of exotic equipment. As they take their measurements, you prepare for the return journey to <planet>.`
+	"DL-7" `You have reached <planet>, but you can't complete this mission until the <npc> has visited <stopovers> with you and then joined you here.`
+	"DL-8" `You bid goodbye to the captain of the <npc> and accept your payment of <payment>.`
+	"DL-9" `As you are walking through the spaceport, a man approaches you and flashes a Deep Security ID. "Greetings Captain <last>. We need someone to deliver this to <destination> by <date>, taking the most direct route possible."`
+	"DL-10" `As you are walking through the spaceport, a harried man approaches you, informing you that <bunks> Deep Security consultants, including himself, are in need of urgent transport to <destination> by <date>, leaving no time for stopovers.`
+	"DL-11" `You drop off the pilot with their hovercraft and collect your payment of <payment>.`
+	"DL-12" `You drop off the racing team with their hovercraft and collect your payment of <payment>.`
+	"DL-13" `You arrive at the pickup location on the night side of Hephaestus. The Syndicate employees who load the freighters do not allow you to see what is inside the cargo, and advise you to leave quickly once the cargo is loaded.`
+	"DL-14" `You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or you left part of the convoy behind.`
+	"DL-15" `You and the freighters are directed to park in a private hangar owned by the Tarazed Corporation. While watching the cargo crates get loaded onto the freighters, you notice that the crates have labels on them which read "To be opened by addressee only" in large red letters.`
+	"DL-16" `When you arrive, Kraz Cybernetics already has the cargo waiting by the spaceport. After a few hours of loading the massive freighters, the spaceport crew gives you the 'all clear' signal, and the Behemoth captains get ready to depart.`
+	"DL-17" `You have placed cubes on the last of the planets that Paris has asked you to. When you look into the bag you find that there are three left. Go to <destination> to give the remaining cubes to Paris.`
+	"DL-18" `You receive a message from Lieutenant Paris. "Greetings, Captain. The situation involving Beelzebub has gone slightly sour, and the Navy is involved now. I have been asked to gather the merchants who assisted the Deep previously in placing the cubes. If you are interested, please come to <destination>."`
+	"DL-19" `You have reached <planet>, but some of your escorts have not yet reached the system. Wait for all escorts to enter the system before landing.`
+	"DL-20" `Alnitak is in chaos when you enter the system. An outnumbered defense fleet is fighting a group of pirate ships, and among the pirates your sensors identify the three stolen Cruisers.`
+	"DL-21" `You have landed on <planet>, but there are still pirates attacking the system. Defeat all of the pirates in order to complete this mission.`
+	"DL-22" `You arrive on <planet>, but realize that your escort carrying the band and their supplies has not arrived yet. Better depart and wait for your escorts to enter the system.`
+	"DL-23" `Upon landing, you receive an encrypted message from an unknown sender. "Hello, Captain <last>. Your recent assistance of the Deep is much appreciated. I'd like to speak with you on <destination> if you are interested." The message is not signed.`
+	"DL-24" `You arrive on <planet>, but realize that your escort carrying the scientists and their supplies has not arrived yet. Better depart and wait for your escorts to enter the system.`
+	"DL-25" `You do not have the 10 quantum keystones that Ivan asked you to purchase in Hai space. You should return here after obtaining them.`
+	"DL-26" `This region of space appears to be inhabited. You should attempt to find out more about the beings living here.`
+	"DL-27" `You have landed on <planet>, but you have not explored enough of the space beyond the wormhole. Return to the wormhole and continue exploring the region for anything of interest.`
+	"DL-28" `You've returned to <planet>, but you haven't traveled through all the wormholes yet. Return to the strange region of space and travel through the loop of wormholes.`
+	"DL-29" `You have finished scanning the alien creatures in the system. You may now return to <destination> with the scanner logs.`
+	"DL-30" `You show your scanner logs to Ivan, but he shakes his head. "This isn't enough. There should be more creatures for you to scan in <waypoints>. Make sure you're using an outfit scanner as well."`
+	"DL-31" `The team is visibly excited when you return with the scanner logs. "Give us a few weeks to look these over," Ivan says. "Then we will contact you about what we want you to do next."`
+	"DL-32" `You have finished scanning the Remnant ships in the system, and they don't seem to have taken too kindly to that. You may now return to <destination> with the scanner logs.`
+	"DL-33" `You show your scanner logs to Ivan, but he shakes his head. "This isn't enough. There should be more ships for you to scan in <waypoints>. Make sure you're using an outfit scanner as well."`
+	"DL-34" `The team is visibly excited when you return with the scanner logs, but become more somber when you mention that the ships became hostile when you scanned them. "Give us a few weeks to look these over," Ivan says. "Then we will contact you about what we want you to do next. By then, should we return, hopefully those ships won't be too upset anymore."`
+	"DL-35" `You have landed on <planet>, but you do not have both a Forge-Class Thruster and Forge-Class Steering. Return to <planet> once you have obtained both engines.`
+	"DL-36" `You have landed on <planet>, but you do not have a Millennium Cell. Return to <planet> once you have obtained the generator.`
+	"DL-37" `You have landed on <planet>, but you do not have an Inhibitor Cannon. Return to <planet> once you have the weapon.`
+	"DL-38" `You have landed on <planet>, but you have not placed two cubes on all the Remnant worlds. Return to the Ember Waste and make sure you have placed surveillance devices on <stopovers>.`
+	"DL-39" `Upon entering Betelgeuse, you fail to see any trace of the Star Queen. The pirates must have captured it and escaped to a nearby system.`
+	"DL-40" `As you enter Arneb, your scanners pick up the Star Queen landing on Haven. Unfortunately, there are also a large number of pirate vessels headed in your direction. You should report back to Paris on <destination> for further instruction.`
+	"DL-41" `You have landed on Valhalla, but you have not located the Star Queen! Find it somewhere in the Far North.`
+	"DL-42" `You have landed on Haven, but you left the <npc> behind! Wait for the <npc> to enter the system before landing.`
+	"DL-43" `As your engines roar, you notice a large pirate ship looming over the planet. Even from the underside, it is undeniably a Bactrian, but how a pirate could ever attain one is a mystery.`
+	"DL-44" `	You receive a transmission from Lieutenant Paris. "I have a sneaking suspicion that Beelzebub may be behind this. I suggest we jump out of here immediately and make it back to the Deep alive before taking on that Bactrian."`
+	"DL-45" `You have landed on Valhalla, but you left the <npc> behind! Wait for it to enter the system before landing.`
+	"DL-46" `You landed on Valhalla, but you didn't kill the Bactrian! Return to Arneb and make sure that the Bactrian is destroyed and forever out of pirate hands.`
+	"DL-47" `You have reached <planet>, but your escort carrying Skaldgar has not arrived! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-48" `Skaldgar is as clean as you've seen him: scrubbed, shaved and wearing clothes that are respectable, if a few decades out of style. His eyes glisten, and he turns to you.`
+	"DL-49" `You have reached <planet>, but your escort with Skaldgar has not arrived! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-50" `Helheim's hustle and bustle threatens to overwhelm the senses, yet Skaldgar, for all his age and illness, seems to have a skip in his step as he saunters out of your ship and into the teeming masses.`
+	"DL-51" `It turns out there is no need to search for Helm, as he is waiting for you when you land.`
+	"DL-52" `You have reached <planet>, but your escort carrying Thorleif and Helm has not arrived! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-53" `You have reached <planet>, but your escort with the space reserved for Thorleif and Ragnhild has not arrived! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-54" `You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you and bid you farewell.`
+	"DL-55" `You wish your <passengers> the best of luck on <planet>. The children run off your ship in green face paint, and the parents pay you <payment>.`
+	"DL-56" `Spaceport workers already festively dressed for Remembrance Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+	"DL-57" `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+	"DL-58" `The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>.`
+	"DL-59" `When you land on <planet>, you're approached by Freya Winters. She gives you <payment> in exchange for your scanner logs of the Southern systems. "Thank you, Captain. I pray the pirates didn't give you too much trouble," she says. "I'll be in touch when we've got a new assignment for you, assuming you're still interested."`
+	"DL-60" `You receive a message from Freya, the militia officer in charge of tracking pirate activity. "Hello, Captain <last>. I pray you're still interested in being a part of our Thousand Eyes program. We need some more intel on the empty systems in the middle of the Dirt Belt," she says. "Pay would be a bit better than last time, since these systems are a bit more out of the way. As with before, return to <destination> once you're finished."`
+	"DL-61" `You transfer your sensor logs to Freya. She thanks you for your work and pays you <payment>. "I'll let you know when we need your services again," she says.`
+	"DL-62" `You receive another message from Freya: "Hello, Captain! I've got a more challenging and lucrative mission for you this time. We need someone to do a flyby of four pirate systems bordering the South, to gauge their strength. Again, no fighting is required, just fly in and out of the systems as fast as possible, and we're willing to pay much more than the last job given the danger involved. What do you say?"`
+	"DL-63" `Freya Winters meets up with you in person soon after you land. "Glad to see you're still in one piece. I pray you didn't have much trouble," she says, as she hands you a credit chip for <payment>. "You've been a great help to us. I'll be sure to contact you next time we need a scout."`
+	"DL-64" `Once again, you receive a message from Freya Winters. "We have another mission for you," she says, "this one a bit more dangerous. We've heard rumors of a pirate fleet amassing in one of the seldom-visited systems in the Dirt Belt, and we need to know where they are. Interested in helping to track them down? As before, you don't need to fight, just observe them."`
+	"DL-65" `You have located the pirate fleet. Time to head back to <planet> to report to Freya what you found.`
+	"DL-66" `You have reached <planet>, but you haven't located the pirate fleet yet! Better depart and make sure you have checked <marks>.`
+	"DL-67" `You report to Freya that you found a sizable pirate fleet in the Naper system, as well as spotting some pirates elsewhere. She thanks you, and pays you <payment>. "Thank you for your assistance," she says. "Again, I'll be in touch if we need you."`
+	"DL-68" `You land on <planet>, but you realize that the militia officer is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-69" `The militia officer thanks you for the ride and pays you <payment>. As he is leaving, he says, "If you're interested in doing more work for us, head to the spaceport bar and find my commander. I'll tell him to keep an eye out for you."`
+	"DL-70" `You land on <planet>, but you haven't yet scanned the Navy Cruiser patrolling the system. Depart and scan the Cruiser's outfits before returning.`
+	"DL-71" `Soon after you land, the militia captain comes to your ship and pays you <payment> in exchange for your sensor logs regarding the <npc>. He says, "If you would be interested in continuing to work for us, meet me in the spaceport bar in an hour."`
+	"DL-72" `You've scanned all the ships you can find here that seem to be upgraded for combat. Time to return to <planet> to collect your payment.`
+	"DL-73" `You land on <planet>, but you haven't yet scanned the Navy Cruisers patrolling Menkent. Depart and scan the Cruisers' outfits before returning.`
+	"DL-74" `JJ meets you as soon as you land, and you hand over the scanner data in exchange for <payment>. "Thank you again," he says. "If you're willing to take on one more recon mission, meet me in the bar."`
+	"DL-75" `A minute after you land, a Republic Gunboat, the <npc>, lands directly next to you. JJ does not approach you. You notice from your ship's logs that this Gunboat has been following you ever since you left <origin>; before you can hand over the information, you will need to escape its pursuit.`
+	"DL-76" `You have reached <planet>, but you left part of the convoy behind! Better depart and wait for them to arrive in this star system.`
+	"DL-77" `You've returned to <planet>, but the <npc> is not with you. If you have not repaired it yet, travel to <waypoints> to do so, or take off wait for it to arrive in this system if you already have.`
+	"DL-78" `The "Rat Pack" has been eliminated. You can claim the bounty payment by returning to <destination>.`
+	"DL-79" `The militia officer who asked you to hunt down the "Rat Pack" arrives at your ship soon after you land and thanks you profusely. "Now we won't have to worry about them bothering ships in this sector anymore." She pays you the bounty of <payment> and says she'll tell other militia leaders how helpful you were.`
+	"DL-80" `The militia officer who asked you to hunt down the <npc> meets you in the spaceport and pays you <payment>. "Once again, thank you for assisting us," he says.`
+	"DL-81" `The militia officer who asked you to hunt down the <npc> contacts you soon after you land. "You've done us a great service," he says. "I'll be telling the Council how helpful you were." He hands you a payment of <payment>.`
+	"DL-82" `You land on <planet>, but realize that your escort carrying Marty, Sarah, and the medical supplies hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-83" `You land on <planet>, but your escort with room for Mr. Eyes hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-84" `You land on <planet>, but you realize that Mr. Eyes is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-85" `You land on <planet>, but you don't have a Surveillance Pod. You must disable a Navy surveillance drone and plunder the outfit from it before returning.`
+	"DL-86" `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-87" `You land on <planet>, but you realize that Katya and Brother Greg are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-88" `You've landed on <planet>, but there are still Navy ships circling overhead. You should take off and help finish them off.`
+	"DL-89" `The Navy has been driven off, but at a great cost. You should probably visit the spaceport and see if Tomek is there, or someone else who can tell you what to do next.`
+	"DL-90" `There are still Navy ships patrolling overhead. Staying on <planet> while your allies are dying in orbit would be a very bad idea.`
+	"DL-91" `You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system.`
+	"DL-92" `You drop off the Navy prisoners on <planet>. Now, it's time to get back to Deep with your fleet before the ceasefire ends.`
+	"DL-93" `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-94" `The <npc> has been eliminated. Time to return to <destination> and report to Barmy Edward.`
+	"DL-95" `You have returned to <planet>, but your mission is not complete - either the Red Nile is not destroyed, or you have left the Walloping Window-Blind behind.`
+	"DL-96" `You make sure that all ten Star Barges have landed safely, then report to the quartermaster. He thanks you for your work, and mentions that Tomek has asked to see you in the spaceport bar.`
+	"DL-97" `You have scouted out all four pirate systems that Tomek asked you to visit. Time to head back to the spaceport bar and see if he is waiting for you.`
+	"DL-98" `You land on <planet>, but realize that your escort carrying Senator Huygens hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-99" `Your patrol fleet is still busy finding landing spots, but your work is done. Time to head to the spaceport bar and see if Tomek is there.`
+	"DL-100" `You've landed on <planet>, but there are still pirates defending the system. All pirates in the system must be eliminated before <planet> can be taken.`
+	"DL-101" `When you launch, you receive a message from the Terebinth, Alondo's transport. "Greetings, Captain <last>. This is the captain of the F.S. Terebinth. I have the Council in tow. I know that Greenrock has been suppressed, but I wouldn't be surprised if there are pirates looking for revenge. Care to watch my back on our way to <planet>? Thanks."`
+	"DL-102" `You land on <planet>, but realize that your escort carrying JJ hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-103" `Upon entering <system>, you spot Free Worlds ships in combat with the Navy. It looks like the Navy only sent a small force so far; there are only a few ships remaining and there don't appear to be many destroyed ships. Regardless, the Free Worlds captains defending the system would probably appreciate help clearing out the rest before you land.`
+	"DL-104" `You've landed on <planet>, but you haven't yet completed all the objectives. Either there are still Navy ships in the system, or one of your ships carrying JJ is not yet in the system.`
+	"DL-105" `There are still Navy ships overhead. Staying on <planet> while your allies are dying in orbit would be a very bad idea.`
+	"DL-106" `Although the battle is won, the mood is somber, just as with the first battles of the war. You help the militia tend to the wounded on both sides, caring for the Navy survivors, even on this harsh snowy planet. Within the hour, Free Worlds troop transports arrive to pick them up. As the transports take off, you receive a message from Freya calling you back to Longjump.`
+	"DL-107" `As you are landing, Alondo contacts you and asks you to meet him in the spaceport as soon as you have a bunk prepared for him.`
+	"DL-108" `You are still finding it hard to believe that you made it to Earth and back in one piece. Alondo thanks you for transporting him and says, "Now I just have to break the bad news to the Senate. JJ and I will meet you in the spaceport bar in a few hours, once we've decided what our next steps will be."`
+	"DL-109" `You've returned to <planet>, but you don't have an Electron Beam. Try finding lone Navy ships in Wei or Alnasl to disable and plunder from.`
+	"DL-110" `You hand off the Electron Beam to Freya's science team. They tell you that she's waiting for you in a cafe in the spaceport.`
+	"DL-111" `You hand off the Electron Turret to Freya's science team. They tell you that she's waiting for you in a cafe in the spaceport.`
+	"DL-112" `You land on <planet> with the battle fleet. Time to meet up with Freya in the spaceport.`
+	"DL-113" `You've finished patrolling the nearby systems. Now you can meet up with Freya in the spaceport, and hopefully she will have good news about Katya.`
+	"DL-114" `You land on <planet>, but realize that your escort carrying Freya hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-115" `You have reached <planet>, but without both the Dreadnoughts you were assigned to escort! Better depart and wait for them to arrive in this star system.`
+	"DL-116" `You have reached <planet>, but the battle is not over - you've either failed to kill one of the pirates, or left one of your ships behind in a different system.`
+	"DL-117" `You have reached <planet>, but you left the freighters behind! Better depart and wait for them to arrive in this star system.`
+	"DL-118" `You land on <planet>, but realize that you either haven't destroyed Ryk Bartlett's ship, the Dread, or your escort carrying JJ hasn't entered the system yet. Better depart and make sure that you've done everything you need to do to complete this mission.`
+	"DL-119" `You have destroyed Ryk Bartlett's ship. Hopefully now the elders on Albatross will be more inclined to bargain with the Free Worlds.`
+	"DL-120" `You land on <planet>, but realize that your escort carrying JJ and Freya hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-121" `You spot the Syndicate fleet orbiting above New Tibet when you enter the system, but to your surprise they begin targeting your ship. They don't seem very interested in answering any questions about the defector.`
+	"DL-122" `You've landed on <planet>, but there are still Syndicate ships circling overhead. You should take off and help finish them off.`
+	"DL-123" `You have reached <planet>, but the Blue Yonder is not here yet! Better depart and wait for them to arrive in this star system.`
+	"DL-124" `You have reached <planet>, but the Big Brother is not here yet! Better depart and wait for them to arrive in this star system.`
+	"DL-125" `You land on <planet>, but you realize that Alondo and Katya are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-126" `You land on <planet>, but you realize that Katya is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-127" `You've landed on <planet>, but there are still alien ships circling overhead. You should take off and help finish them off.`
+	"DL-128" `You land on <planet>, but realize that your escort carrying Katya hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-129" `You land on <planet>, but realize that your escort carrying Katya hasn't entered the system yet. Better depart and wait for it to arrive. (If your escorts don't have jump drives, try parking them so that Katya will be on your flagship.)`
+	"DL-130" `You've landed on <planet>, but there are still Pug ships circling overhead. You should take off and help finish them off.`
+	"DL-131" `You receive a message from Freya: "Captain, we need you back down here. I think I discovered a way to restore the link, but we're going to have to go back to New Austria to do it, and quickly before the Pug have time to send more ships to this system. And, I hope you have space in your cargo bay for a bunch of equipment."`
+	"DL-132" `You land on <planet>, but realize that your escort carrying Freya and the graviton reflector hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-133" `You land on <planet>, but you realize that Freya is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-134" `You land on <planet>, but you realize that Freya and the graviton reflector are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-135" `After a few minutes of scanning the surface of <planet>, Freya locates another transmitter station that matches the one you found on Oblivion. You contact Admiral Danforth to tell him its location, and he dispatches a crew to take control of it. He also reports to you that once again, apparently all the Pug left the planet during the course of the battle. "A pity," he says. "If we had taken prisoners, maybe we could have gotten some answers from them. Anyway, meet me in the spaceport whenever you're ready to help with our next mission."`
+	"DL-136" `You have reached <planet>, but you left Raven's ship behind! Better depart and wait for them to arrive in this star system.`
+	"DL-137" `You land on <planet>, but realize that your escort carrying Katya and Sawyer hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-138" `You have reached <planet>, but you've either left Raven's ship behind, or failed to destroy some of the Syndicate ships watching you.`
+	"DL-139" `You land on <planet>, but realize that your escort carrying Katya and Mr. Eyes hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-140" `You've landed on <planet>, but there are still Pirate ships circling overhead. You should take off and help finish them off.`
+	"DL-141" `You have reached <planet>, but you left the ambassadors behind! Better depart and wait for them to arrive in this star system.`
+	"DL-142" `You have reached <planet>, but you left one of your escorts! Better depart and wait for them to arrive in this star system.`
+	"DL-143" `You have reached <planet>, but the dreadnoughts are lagging behind you because they are using ordinary hyperdrives. Better depart and wait for them to arrive in this star system.`
+	"DL-144" `You have reached <planet>, but part of your fleet is not here yet. Better depart and wait for them to arrive in this star system.`
+	"DL-145" `You've landed on <planet>, but there are either still Pug ships circling overhead, or you've left Freya behind. You should take off and help finish off the Pug or wait for your escort carrying Freya to arrive.`
+	"DL-146" `You receive a message from Freya: "Captain, I think I've figured out the transmitter, and there is indeed a chance that we can reopen the hyperspace links. Meet me back down on the planet as soon as possible - I'll need you to take some equipment back to Hephaestus and set it up there."`
+	"DL-147" `You land on <planet>, but realize that your escort carrying the graviton reflector hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-148" `You land on <planet>, but you realize that Mr. Eyes and the Andersons are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-149" `Ijs thanks you for the lift and gives you a credit chip for <payment>. He says, "Next we need to pick up some equipment from Tarazed Corporation. Meet me in the spaceport if you're willing to help out as an escort."`
+	"DL-150" `Your three escorts land safely on Tarazed. Their cargo is quickly offloaded and exchanged for the terraforming equipment that the Conservatory needs.`
+	"DL-151" `You've landed on <planet>, but you have not disabled the <npc> yet. Disable it before returning.`
+	"DL-152" `You deliver the data card with the details of the Catalytic Ramscoop to the contact you were given in the Delta V corporation. "Excellent," she says. "We have been trying to duplicate their work for months, but this will make it much easier." She hands you a credit chip worth <payment>, and says, "We'll contact you when we've begun mass-producing the new ramscoops. I hope they will be useful in the conflict ahead."`
+	"DL-153" `You have destroyed all the target freighters. Time to report back to the Wolf Pack on Solace.`
+	"DL-154" `You've landed on <planet>, but the freighters have not been eliminated yet. Hunt them down in the Sarin system and destroy them before returning.`
+	"DL-155" `Rex, one of the "Wolf Pack" men you spoke with earlier, meets you in the spaceport and hands you a credit chip for <payment>. "Good work," he says. "We'll contact you when we have another target selected."`
+	"DL-156" `The food convoy has been destroyed. You can now return to Solace.`
+	"DL-157" `You've landed on <planet>, but the freighters have not been eliminated yet. Hunt them down in the Gacrux system and destroy them before returning.`
+	"DL-158" `Once again, Rex from the Wolf Pack meets you soon after your ship lands. This time, he pays you <payment>. "I hope they didn't give you any trouble," he says. "We'll be in touch when there's another target to strike."`
+	"DL-159" `You receive another message from the Wolf Pack: "Hello Captain. If nothing else, we've certainly succeeded in getting some of the Navy's ships diverted from the front, to serve as escorts! Your next target, if you're willing to help us again, will be a bit tougher: an Auxiliary freighter, probably with Navy escorts. The freighter is passing through the <waypoints> system. Interested?"`
+	"DL-160" `You have eliminated the Auxiliary that was carrying food to the Republic. Time to report back to the Wolf Pack and receive your reward.`
+	"DL-161" `You've landed on <planet>, but the freighter has not been eliminated yet. Hunt it down in the Mizar system and destroy it before returning.`
+	"DL-162" `You have escorted the convoy safely to its destination. The workers begin unloading some very heavy crates, and one of the freighter captains hands you <payment> and thanks you for your protection.`
+	"DL-163" `You have landed on <planet>, but you have yet to scout out all the marked systems. Visit all the systems marked on your map before returning.`
+	"DL-164" `You have reached <planet>, but you left part or all of the convoy behind! Better depart and wait for them to arrive in this star system.`
+	"DL-165" `You unload the Free Worlds soldiers into the busy spaceport of <planet>, and collect your payment of <payment>.`
+	"DL-166" `After a smooth landing, you guide your student through an especially rough part of the spaceport, full of trash, homeless drifters, and poorly-lit alleyways. You explain the ins and outs of avoiding pickpockets, keeping out of bar fights, and how to spot a lousy deal at an outfitter's shop. After a few hours in one of the seedier parts of the galaxy, both of you are eager to return to <origin>.`
+	"DL-167" `You've returned to <planet>, but forgot to escort the <npc> to <stopovers> first! Better head there first.`
+	"DL-168" `Your student thanks you for the instruction and for providing a guided view of some of the galaxy's rougher areas. You receive your payment of <payment>.`
+	"DL-169" `The young couple from <origin> pays you and thanks you profusely as they gather up their goods and depart. You wish them the best of luck in their new life on <planet>.`
+	"DL-170" `You have reached <planet>, but your escort with the space reserved for Pookie has not arrived! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-171" `You have reached <planet>, but your escort carrying Pookie has not arrived! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-172" `In the past few days, Pookie has barked incessantly and thrown up several times despite being fed perfectly on schedule, and the room you've been keeping her in will likely smell like dog urine for months. You are all too happy to return her to her owner, who pays you <payment>.`
+	"DL-173" `You land on <planet> and look for Joe and Maria, but you realize that they were in one of your escorts that has not yet entered the system. Better depart and wait for them.`
+	"DL-174" `You enter the atmosphere of <planet>, but realize that the scientists and their equipment were on one of your escorts who hasn't entered the system yet. Better depart and wait for them.`
+	"DL-175" `You land on <planet>, but realize that the scientists and their equipment were on one of your escorts who hasn't entered the system yet. Better depart and wait for them.`
+	"DL-176" `You drop the team of scientists off on <planet>. They thank you for helping them out, and pay you <payment>.`
+	"DL-177" `In one of the corners of the spaceport, you meet a family with two kids, and a pile of trunks and boxes spread out next to them. They tell you that they are trying to book passage to <planet>. "Work has gotten way too hard to come by here," explains the father. "I've had seven different jobs in the past year, and none of them lasted more than a month. So we thought we'd try our luck on a Syndicate world. We can pay you <payment> for the trouble."`
+	"DL-178" `You drop off the family from <origin>, and wish them the best of luck on <planet>. They seem optimistic, and their kids are still quite excited about having taken their first ever space journey. You're sure that they will be remembering this trip for years to come. Their parents thank you, and pay you <payment>.`
+	"DL-179" `You drop off the young man from <origin> who is hoping to find work and save enough money for his girlfriend to join him. "Good luck," you say. "Be wise. Don't let yourself get into debt." He thanks you, and pays you <payment>.`
+	"DL-180" `You drop off the Pattersons, the farm family from <origin>, and help them to unload their wagon and cattle from your cargo hold. They thank you, and Jim pays you <payment>.`
+	"DL-181" `A group of <bunks> scientists approaches you and asks if you will be headed to the Rim any time soon. "We're doing research on Wolf-Rayet stars," they explain, "and we're hoping to find a captain who can do a flyby of <waypoints>." Scientific research in the Deep is notoriously well-funded, so they will probably pay you quite well.`
+	"DL-182" `The team of scientists unpacks their equipment and takes some measurements of the star. Before long they inform you they are ready to go home.`
+	"DL-183" `The team of scientists thanks you for bringing them to <waypoints> and back, and pays you <payment>. They seem eager to get back to their lab and start analyzing their measurements.`
+	"DL-184" `As you are walking through the spaceport, a man pulls you aside and asks if you would like to help transport <tons> of "recreational pharmaceuticals" to <planet> for <payment>. (This sounds like an illegal mission, so you'll need to avoid getting scanned or landing on planets with high security.)`
+	"DL-185" `Some disreputable-looking locals unload the illegal drugs from your cargo bay, and hand you your payment of <payment>.`
+	"DL-186" `When you walk into the local bar, a man sitting in the corner waves you over and says in a hushed voice, "Captain, we've got <tons> of the good stuff that needs to get to <planet>. I promise you this will be a very lucrative operation. What do you say?"`
+	"DL-187" `Immediately after you land, some workers show up to unload the "stuff." They give you <payment>.`
+	"DL-188" `A well-dressed woman approaches you as you are walking through the spaceport and asks quietly if you would be willing to help facilitate the transport of some "naughty substances" to a certain individual on <planet> for <payment>.`
+	"DL-189" `You hand off the illegal "substances" to your contact on <planet>, who pays you <payment>.`
+	"DL-190" `While having a drink at one of the spaceport's bars, a somewhat scruffy-looking man in a dark cloak pulls you aside and offers <payment> for discreet, no-questions-asked passage to <destination>, which is quite close by. This could be a quick and lucrative job. (It also sounds illegal, so you'll need to avoid getting scanned or landing on planets with high security.)`
+	"DL-191" `Your mysterious passenger has spoken hardly a word during the entire trip. As soon as you land, he hands you your payment of <payment> and disappears into a crowd.`
+	"DL-192" `As you are walking through the spaceport, two men in nondescript clothing appear out of nowhere and offer <payment> for discreet, no-questions-asked passage to <destination>. Though they say very little, you get the distinct sense that their presence on this planet and motivation to be elsewhere may not be entirely legal.`
+	"DL-193" `You bundle the men onto your ship before anyone sees them. As you're helping unpack their luggage, one of them casually mentions that they may have attracted the attention of some bounty hunters, and would prefer not to be captured. You should probably avoid being scanned, too.`
+	"DL-194" `Your passengers depart after paying you the agreed-upon sum of <payment>, off to make new lives for themselves doing who-knows-what.`
+	"DL-195" `A group of <bunks> fearsome-looking young men and women brazenly walk up to you in broad daylight, explaining that they're in some legal trouble and need to get to <destination> as quickly as possible. They offer <payment> to secure discreet passage. You must be getting quite a reputation in certain circles. Transporting them might be very dangerous. On the other hand, they're offering a small fortune...`
+	"DL-196" `The mercenaries (or gang members, or fleeing bank robbers, or who knows what else) make themselves at home on your ship, and begin drinking and arguing. You wonder what you've gotten yourself into...`
+	"DL-197" `During the voyage, you've come to understand that your passengers are mercenaries whose latest exploits put them on the wrong side of the law. They pay you the agreed-upon sum of <payment> and disappear into a crowd, no doubt off to cause chaos and mayhem for some unsuspecting victims. Oh well, not your problem...`
+	"DL-198" `You hand off your prisoners to the planetary authorities who gratefully take them into custody. It turns out that they were wanted, and there's a substantial bounty. You find yourself richer to the tune of <payment>.`
+	"DL-199" `You've just sat down in the spaceport bar and ordered a drink when someone in uniform runs into the room and shouts, "There's been a mine explosion on <planet>! We need all available ships to carry relief workers and supplies and to evacuate the injured to a world where there are better medical facilities."`
+	"DL-200" `You drop off the medical personnel on <origin>. There are nearly a hundred injured miners waiting for medical evacuation to <planet>. Do you volunteer to carry some of them?`
+	"DL-201" `You drop off the injured miners at one of the medical facilities on <planet> that has agreed to care for the survivors. It's a somewhat chaotic process, but eventually someone thanks you for your help and pays you <payment>.`
+	"DL-202" `As you are walking through the spaceport, a man approaches you and says, "Excuse me, Captain. I took on a rush delivery of <cargo> to <planet>, but my ship needs repairs and there's no way I can make it there before <day>. Can you take this job for me? The payment for the job is <payment>."`
+	"DL-203" `You drop off the package and collect your payment of <payment>.`
+	"DL-204" `A woman in a suit walks up to you and says, "Pardon me, Captain. I represent a recently deceased client here on <origin> whose legal papers need to be delivered to his next of kin on <destination>. Would you be willing to do some courier work? The papers must be delivered by <day>, and you will be paid <payment>."`
+	"DL-205" `You drop off the legal papers and collect your payment of <payment>.`
+	"DL-206" `Somehow, you have managed to bring the large lizard to <planet> without it breaking loose and eating you. You unload it and wait for its new owner to come. When he does, he pays you <payment>.`
+	"DL-207" `The migrant workers thank you for transporting them, and hand you <payment>. You hope that they will be able to find better work here than they had on <origin>.`
+	"DL-208" `You land on <planet>, but realize that your escort carrying the managers hasn't entered the system yet. Better depart and wait for it.`
+	"DL-209" `You land on <planet>, but realize that your escort carrying Eric, Alaric, and Amy hasn't entered the system yet. Better depart and wait for it.`
+	"DL-210" `On the entire return journey, Eric and Alaric have been busy showing Amy geological survey maps of Rand and asking her for ideas. The moment you land, they hurry out of the ship. "I'm going to show Amy around," says Eric, "but meet us in the spaceport bar later if you want to help out with whatever we do next." Alaric hands you <payment> as payment for your services, and then follows after them.`
+	"DL-211" `You return to the spaceport to the confused looks of Eric, Alaric, and Amy. "You didn't put the thrusters on the asteroid," Amy says. "Just board the asteroid to attach the thrusters." Amy begins pushing you back to your ship, clearly eager to see the results of this experiment.`
+	"DL-212" `You land on <planet>, but realize that your escort carrying Amy hasn't entered the system yet. Better depart and wait for it.`
+	"DL-213" `As soon as you land, Amy heads off to meet with some local biologists who she contacted during the trip over here. "We'll be back in the spaceport in two hours," she says. "Be sure to have ten tons of cargo space free."`
+	"DL-214" `You land on <planet>, but realize that your escort carrying Amy and the seeds hasn't entered the system yet. Better depart and wait for it.`
+	"DL-215" `You receive a message from the Republic itself. "Captain <last>. You have not arrived on Earth for your trial on the 'unlawful use of an asteroid' in the time provided to you and therefore are now a criminal of the Republic."`
+	"DL-216" `You land on <planet>, but realize that your escort carrying Amy and Nolan hasn't entered the system yet. Better depart and wait for it.`
+	"DL-217" `The whole journey to <planet>, Amy and Nolan discussed the multiple planets within the Dirt Belt that would be perfect candidates for terraforming. "Nolan and I will spend the next few months here researching my theories," Amy says as she steps off of your ship. "I'll make sure to contact you once we're ready to try terraforming another planet." She hands you <payment>, then follows Nolan out of the spaceport.`
+	"DL-218" `You receive a message from Amy: "Hello, Captain <last>. I just wanted to tell you that Nolan and I have recently published our work on 'Reducing Terraforming Expenses Through Equilibrium Mapping,' and we've received a grant from the Deep for it! We're going to begin experiments with terraforming on a different world. Don't worry, the Republic has approved our experiment this time, so we won't get dragged off for any more cases of an 'unlawful use of an asteroid.' If you're interested in helping, pick us up on <destination>."`
+	"DL-219" `You land on <planet>, but realize that your escort carrying the scientists and their equipment hasn't entered the system yet. Better depart and wait for it.`
+	"DL-220" `You land on <planet>, but realize that your escort carrying the representative hasn't entered the system yet. Better depart and wait for it.`
+	"DL-221" `You return to <planet>, but not all of the pirates have been fought off. They don't look like they're leaving any time soon either. Better depart and finish them off for good.`
+	"DL-222" `You return to the spaceport to the confused looks of Amy and the rest of the scientists. "You didn't put the thrusters on the asteroid," Amy says. "Just board the asteroid to attach the thrusters." Amy begins pushing you back to your ship, clearly eager to see the results of this experiment.`
+	"DL-223" `You board the science drone and discover that the pirates have stripped just about everything of value from it: the engines, the sensors, and the fuel cell that powered it. But the computer system is either too deeply integrated into the drone, or too specialized, to be of any value to the pirates. You transfer enough power to the drone's batteries to reactivate it, and are able to retrieve the data that the scientist was looking for. But it's clear that this drone, or what's left of it, is not going anywhere. You'll have to leave it behind.`
+	"DL-224" `You've returned to <planet>, but you don't have the drone's data. Go to Terminus and board the science drone to retrieve the data.`
+	"DL-225" `You've landed on <planet>, but you haven't yet found Tod. Keep looking for the <npc> and then board the ship; it can't be far from Deadman's Cove.`
+	"DL-226" `You land on <planet>, but remember that Tod is in one of your escorts that has yet to enter the system. Better depart and wait for it to arrive.`
+	"DL-227" `You wish Tod the best of luck on <planet>. "Thank you, Captain. Hopefully I can repay you one day. As cliche as it sounds, I owe you my life."`
+	"DL-228" `You land on <planet>, but realize that the girl is in one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-229" `You land on <planet>, but realize that Diana is in one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-230" `As the last crate of supplies is loaded off of your ship, the Navy ships defending the system land. The local authorities thank you for helping, and you are paid <payment>.`
+	"DL-231" `The last of the defenses are quickly unloaded from your ship, put into place, and activated. A pirate ship attacking the system attempts to follow you down to the surface, but the fire coming from the newly installed spaceport turrets forces the pirate to turn away and flee for orbit. Time to return to <destination>.`
+	"DL-232" `The Free Worlds captain thanks you for helping to fortify the frontier worlds, and pays you <payment>.`
+	"DL-233" `Multiple bands of pirates, each run by a different warlord, are waiting in the spaceport when you land. They take the food from your cargo hold like animals, leaving quite the mess behind. When you return to your ship, you find that the Syndicate has deposited <payment> into your account.`
+	"DL-234" `You land on <planet> and begin looking around for the man you are supposed to meet, but then you realize that not all of the escaped slaves are here. Better depart and wait for your escorts holding the rest to arrive.`
+	"DL-235" `You have failed to capture the smuggler and recover the stolen cargo. This will probably not be good for your reputation.`
+	"DL-236" `You land on <origin>, but you don't have the smuggler and the cargo he stole. You should probably be careful not to run into your contact until you do.`
+	"DL-237" `There is no inheritance for Mr. Pappa waiting for you at the bank, but there are many other victims that paid some credits while expecting to earn a larger amount of credits in return. Some make a big fuss about it, until the alerted authorities start fining them for attempted inheritance fraud. You leave the bank in silence.`
+	"DL-238" `You land on <planet>, but the Testament hasn't caught up with you yet. Better take off and wait for it to appear in this system.`
+	"DL-239" `You land on <planet>, but the Testament didn't catch up with you yet.`
+	"DL-240" `When you take off, you run a quick scan on all other ships that are taking off. You see no sign of the Esca. Maybe it's already waiting for you at Umbral.`
+	"DL-241" `As you descend through the upper atmosphere, the skydivers jump from your ship, spectacularly diving until they open their parachutes and land safely near the spaceport. You collect your payment of <payment>.`
+	"DL-242" `As you descend through the upper atmosphere, the skydivers jump from your ship, spectacularly diving until they try to open their parachutes. Some of the parachutes open only partially and part of the team suffers an uncontrolled hard landing. Medical teams respond quickly, but the skydivers are too preoccupied with their injured teammates to pay you the credits they owe you.`
+	"DL-243" `As you descend through the upper atmosphere, the skydivers jump from your ship. Some minutes into the jump disaster strikes; the skydivers start moving in an uncontrolled manner. It's unclear if the spacesuits or the oxygen supplies were at fault, but it looks unlikely that any of the skydivers makes it safely to the ground. Authorities investigate the incident and although they don't find serious wrongdoings on your part, they still fine you <payment> for enabling such a dangerous and deadly act.`
+	"DL-244" `As you descend through the upper atmosphere, you inform your skydivers that it's time to jump. However, after being able to see the distances and atmospheric conditions involved, all of them are far less keen on the idea than when you first picked them up. You bring them down to the landing pad, and they pay you a meager <payment> before hopping off.`
+	"DL-245" `The hooded woman prepares to disembark your ship. Just before she steps off, she turns to look at you. "I'm sorry for threatening you back on <origin>, Captain. I'll try to find some way to repay you." She walks off into the bustling spaceport to find her lover.`
+	"DL-246" `You land on <planet>, but realize you haven't acquired the statues from Greenrock yet. Better return to Shaula to make sure Lokust is defeated before claiming them on the planet.`
+	"DL-247" `You land on <planet>, but realize that your escort carrying Riley hasn't entered this system yet. Better depart and wait for it.`
+	"DL-248" `When you land, dock workers begin loading crates with woolen garments on board as arranged. Time to set course for Bloodsea.`
+	"DL-249" `Your cargo of woolen garments is unloaded by several bulky workers led by a one-armed woman. She hands you <payment> for the trouble of transport, then says, "Thanks for the shipment. I know that you captains think that we're all bad, but I'm glad that you were able to aid the more friendly among us."`
+	"DL-250" `As expected, there are pirates waiting for you in Moktar. Unfortunately, the <npc> makes no attempt to attack them, instead turning its guns on you.`
+	"DL-251" `You receive a hail from the <npc>: "Gotcha, you didn't suspect a thing!"`
+	"DL-252" `The <npc> hails you: "Wrong way, mate! You'll miss the deadline if you go the whole way round. Head back up to Mirfak, then north, west, southwest and south."`
+	"DL-253" `The <npc> hails you again: "Figured it out, did you? Bit late for that now, mate. You're still going down."`
+	"DL-254" `You receive a message from the <npc>, which is now several systems away: "Hello? You still there? I don't know what just happened, but on the off chance you're still alive, I thought I'd just let you know that the deal's off." You open up the cargo that he wanted you to carry, and find nothing but worthless barrels of water.`
+	"DL-255" `The <npc> hails you: "Figured it out, did you? Bit late for that now, mate. You're still going down."`
+	"DL-256" `You have reached <planet>, but your escort, loaded with the shipment, has not arrived. Better depart and wait for your escorts to arrive in this star system.`
+	"DL-257" `You contact the spaceport authorities and they direct you to the respective landing pad, where the post office staff is already waiting. They transfer the cargo and you prepare to head back to <origin>. Again, you have 10 days to make the delivery.`
+	"DL-258" `You have reached <planet>, but your escort carrying the misposted mail has not arrived. Better depart and wait for your escorts to arrive in this star system.`
+	"DL-259" `The same manager from before is waiting with the unloading crew, and thanks you for covering for the other pilot before handing you the credit chip for payment. It's nice to know that captains who get hired to deliver such wrongly-posted packages, like you once did, won't have to finish those deliveries themselves in the future."`
+	"DL-260" `The <npc> has been disabled. Syndicated Security will now deal with the hijackers, but you should go back and report to the captain of the ship.`
+	"DL-261" `You've boarded the Moonshake Express, against the orders of the Syndicated Security officer. The ship's captain won't be impressed.`
+	"DL-262" `You have destroyed the Moonshake Express. The ship's captain won't be impressed.`
+	"DL-263" `You've passed through all three systems outlined in the search plan, running long-range deep scans for Artemis Renard's transponder in each, but all you've gotten back is static. As far as you can tell, she's not in any of them.`
+	"DL-264" `Penny and Rosa thank you for getting them safely to <destination>, handing you <payment> for your troubles. You wish them and Eduardo the best of luck starting their new life away from a potential war in human space.`
+	"DL-265" `You arrive on <planet>, but realize that your escort carrying the exhibition installations has not arrived yet. Better depart and wait for your escorts to enter the system.`
+	"DL-266" `The crew of the Golden Jewel are no more. You think you can make out the pirate captain drifting in space nearby.`
+	"DL-267" `You watch as the Emergency Shuttle you're supposed to save explodes into a cloud of debris.`
+	"DL-268" `You watch as Howard's Shuttle explodes into a cloud of debris along with any hope of an investment opportunity.`
+	"DL-269" `You step into the Syndicate Test Vessel, eerily quiet, the empty ship amplifying every footstep. You hurry to upload Howard's evidence file to the ship. The file uploads in seconds, and you return to the <ship> to leave this ghostly vessel behind.`
+	"DL-270" `With the Quicksilver destroyed, it's time to get to <destination>.`
+	"DL-271" `You receive a brief hail as the Manta explodes: "Consider this an open tab with the Rumrunners - the next round is on you, and we collect in blood!"`
+	"DL-272" `You watch as Howard's Shuttle explodes into a cloud of debris along with any hope of his promotion.`
+	"DL-273" `You watch as Howard's Bounder explodes into a cloud of debris along with any hope of that investment opportunity.`
+	"DL-274" `There are still marauder ships flying overhead. Take off and defeat them before finding the fleet.`
+	"DL-275" `After destroying the last of the marauder ships you feel you can safely return to the base.`
+	"DL-276" `The rival pirate fleet has been destroyed. You should return to Haven now to check up on Ildico.`
+	"DL-277" `It is often thought that there's nothing interesting in these uninhabited systems by the Deep, but Sophie points out that there is a strange anomaly in this system. "When we got to see him, our father used to describe all these unusual sights he saw on his adventures flying through wormholes or nebulae. That anomaly reminds me of one of them."`
+	"DL-278" `While Sophie and Liam are both quite chatty at times, the beauty of this star stops all their conversations.`
+	"DL-279" `Approaching the nebula surrounding Gorvi, Sophie and Liam both chatter to each other about the marvels and mysteries of the Wolf-Rayet star at its center.`
+	"DL-280" `If there was ever a prime example of how much the human race still has to learn, it is the strange, impressive, and yet still unfinished ringworld in this system. Liam tells you, "Our father was a very curious man, and he always talked about the Quarg and their ringworlds, and how it would be another thousand years before humanity could build anything similar. We've never seen how big it was until now!"`
+	"DL-281" `You've reached <destination>, but you don't have at least five tons of silicon in your cargo hold. Locate and mine silicon asteroids in this system before returning.`
+	"DL-282" `You've landed on <planet>, but there are still Korath circling overhead. You should take off and help finish them off.`
+	"DL-283" `The government of <planet> pays you <payment> for helping to drive off the raiders.`
+	"DL-284" `You wish the mining family the best of luck on <planet>, and collect your payment of <payment>.`
+	"DL-285" `You wish the farm family the best of luck on <planet>, and collect your payment of <payment>.`
+	"DL-286" `You wish the workers the best of luck on <planet>, and collect your payment of <payment>.`
+	"DL-287" `The family you have been transporting departs your ship after paying you <payment>.`
+	"DL-288" `You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account.`
+	"DL-289" `The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>.`
+	"DL-290" `The students excitedly rush off your ship into the arms of their waiting parents. The adventure was fun, but they're very pleased to be safely home after so long. The school deposits <payment> into your account.`
+	"DL-291" `The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as forced laborers in <planet>'s mines. You collect your payment of <payment>.`
+	"DL-292" `The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as forced laborers in <planet>'s factories. You collect your payment of <payment>.`
+	"DL-293" `The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as domestic servants for <planet>'s wealthy elite. You collect your payment of <payment>.`
+	"DL-294" `The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society in a penal colony on this remote world. You collect your payment of <payment>.`
+	"DL-295" `Your shackled passengers offer bitter curses as burly and well-armed guards practically beat them out of your ship, driving them in the direction of a penal colony on this remote world. You collect your payment of <payment>.`
+	"DL-296" `The released prisoners walk out into the spaceport with nothing but their meager belongings and discharge paperwork. You collect your payment of <payment>.`
+	"DL-297" `The released prisoners walk into the spaceport with nothing but discharge paperwork and the clothes on their backs. You collect your payment of <payment>.`
+	"DL-298" `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. You catch a glimpse of your passenger running off into the spaceport.`
+	"DL-299" `After landing, you go to the passenger compartments to notify them of the arrival and ask for the payment. The door opens as you raise your hand to knock, and a teenager rushes past you. Before you can recover, they're already gone and on their way into the depths of the spaceport.`
+	"DL-300" `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. Checking the bay, you find a payment of <payment> and spot your passenger running off into the spaceport.`
+	"DL-301" `You drop off the <commodity> at an especially smelly solid waste recycler and collect your payment of <payment>.`
+	"DL-302" `You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you for your assistance and bid you farewell.`
+	"DL-303" `You wish the firefighting team well in their efforts and collect your payment of <payment>. A group of <planet> citizens comes to guide the team away to a nearby tent, and thank you for your assistance.`
+	"DL-304" `You turn your cargo of <cargo> over to the needy community in return for <payment>.`
+	"DL-305" `You blast your way onto the ship and confine the fleeing criminal to your ship's brig. Time to deliver them to <planet>.`
+	"DL-306" `The government of <planet> gratefully pays you <payment> for apprehending the criminal.`
+	"DL-307" `You blast your way onto the ship, subdue the fleeing criminals, and confine them to your ship's brig. Time to deliver them to <planet>.`
+	"DL-308" `The government of <planet> gratefully pays you <payment> for apprehending the criminal gang.`
+	"DL-309" `This is the Republic Navy Advisory System: <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses.`
+	"DL-310" `Shivering, appreciative aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+	"DL-311" `Relieved-looking aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+	"DL-312" `Ash-covered, relieved aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+	"DL-313" `This is the Republic Navy Advisory System: <planet> is experiencing a severe <problem>. Volunteers are requested to transport <bunks> firefighters to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses.`
+	"DL-314" `You land at a makeshift landing site a few minutes flight from the blaze. The smoky haze that drifts into your ship when the firefighters open the hatch to depart makes your eyes and nose itch. As you watch your passengers heading toward a staging area nearby, you think about the inferno they will soon be voluntarily entering. A chirp from your communications system indicates your stipend of <payment> has been deposited, and you begin your atmospheric flight back to <planet>'s main spaceport.`
+	"DL-315" `The students excitedly rush off your ship, taking pictures of everything they see. The school deposits <payment> into your account.`
+	"DL-316" `You wish your <passengers> the best of luck on <planet>. After collecting your payment of <payment>, your <passengers> put on their Earth Day hats and leave with their belongings.`
+	"DL-317" `Spaceport workers already festively dressed for Earth Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+	"DL-318" `You wish the farmers the best of luck on <planet>, and collect your payment of <payment>.`
+	"DL-319" `You wish the tourists the best of luck on <planet>, and collect your payment of <payment>.`
+	"DL-320" `Still wondering why one university student would possibly need such a large quantity of <commodity>, you deliver the interstellar care package and collect your payment of <payment>.`
+	"DL-321" `You deliver the cargo to the garden of an imposing mansion in the countryside, wherein some pouty young sprout is throwing a very conspicuous fit at the center of a swarm of guests. The parents sheepishly hand you your payment of <payment>.`
+	"DL-322" `Your ship is directed to the rear loading dock of a palatial complex where your cargo of <commodity> is unloaded. You collect your payment of <payment>.`
+	"DL-323" `You bid the two lovebirds goodbye on <planet> and collect your payment of <payment>.`
+	"DL-324" `Your ship is directed to the rear loading dock of a sprawling entertainment complex where your cargo of <commodity> is unloaded. You collect your payment of <payment>.`
+	"DL-325" `Your ship is directed to the rear loading dock of a very impressive eatery. White-gloved waiters gingerly unload the cargo of <commodity> and relay your payment of <payment>.`
+	"DL-326" `You're not sorry to say goodbye to the rowdy and uncouth troublemakers you've been transporting. Their parents send you your payment of <payment> with not a word of acknowledgment.`
+	"DL-327" `You bid goodbye to the students, who behaved surprisingly well during the journey - yielding many fascinating conversations on subjects as diverse as philosophy, microfluidics, and intergalactic economics. Their proud parents send you your payment of <payment>.`
+	"DL-328" `You collect your payment of <payment>, but not before noticing the general robustness and ample bellies of the dockworkers unloading the donation of <commodity>.`
+	"DL-329" `You collect your payment of <payment>, but not before noticing the fine quality of the clothes worn by the dockworkers unloading the donation of <commodity>.`
+	"DL-330" `You collect your payment of <payment>, but not before noticing the general health and vigor of the dockworkers unloading the donation of <commodity>.`
+	"DL-331" `You collect your payment of <payment>, but not before noticing the quality of the clothes, jewelry, and personal electronics carried by the dockworkers unloading the donation of <commodity>.`
+	"DL-332" `You oversee the loading as dockworkers carry box after box of <commodity> onto your ship. Must be some party.`
+	"DL-333" `You've returned to <planet>, but forgot to pick up the <commodity> on <stopovers> first! Better head there before it's too late.`
+	"DL-334" `Your ship is directed to land on a makeshift tarmac near a sprawling greenfield where novelty castles are being constructed. Sharply-dressed stewards unload the <commodity> and you collect your payment of <payment>.`
+	"DL-335" `As you watch the dockworkers unload crate after crate, you can't help but wonder what would drive someone to collect such a huge quantity of <commodity>. You collect your payment of <payment>.`
+	"DL-336" `The shabbily-dressed young men and women in the group don't look nearly as happy to be boarding your ship as you expected, given the new opportunity that awaits them. They shuffle wearily up the ramp for the return trip to <planet>.`
+	"DL-337" `The bedraggled contract laborers kept to themselves and didn't say a word to you throughout the entire trip. The scruffy foreman who receives you on <origin> seems pleased, however. He hands you your payment of <payment>.`
+	"DL-338" `You drop off the exceptionally foul shipment of <commodity> on <planet>, already looking forward to the chemical bath your cargo hold is going to receive. You collect your payment of <payment> and hope that somebody around here knows what to do with the unpleasant mess you dropped off.`
+	"DL-339" `Your passengers begin to wander off, some of them sporting puzzled looks as the memories of glossy photos in the brochures give way to reality. You collect your payment of <payment>.`
+	"DL-340" `The passengers of the <npc> wander off, bedecked in the most conspicuous tourist attire they seem to have been able to find, and begin oohing and aahing at the exoticism of this faraway world. Hopefully none of them gets robbed. You prepare for the return journey to <destination>.`
+	"DL-341" `The passengers shuffle unhappily out of the ship under the watchful eye of a local security force as they prepare to repay their debts to society. A clerk on <planet> checks their condition as they're led off. He seems mostly pleased and hands you your payment of <payment>.`
+	"DL-342" `The passengers shuffle unhappily out of the ship under the watchful eye of immigration officials. A grinning job service provider is on hand to pay you the <payment> you are owed.`
+	"DL-343" `You bid goodbye to the retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from their travel broker.`
+	"DL-344" `You bid goodbye to the self-proclaimed retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite, if raucous, and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from an anonymous source.`
+	"DL-345" `You bid goodbye to the self-proclaimed retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite, if raucous, and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from an anyonymous source.`
+	"DL-346" `Your passengers are met by an overly enthusiastic greeting service of comically overdressed "wilderness guides." You can't help but think these people are either about to end up on a popular reality show, or be safely fleeced of their money, but they're not the sort of characters who engender much sympathy for such fates. One of the greeters quietly transfers to you your payment of <payment>.`
+	"DL-347" `Your <passengers> insists that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship.`
+	"DL-348" `Your <passengers> insist that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship.`
+	"DL-349" `You land outside of the main city to avoid any chances of your passenger being seen. They grab their things and make their way off of your ship after paying you <payment>.`
+	"DL-350" `The fleet has been eliminated. You can claim the bounty payment by returning to <destination>.`
+	"DL-351" `The pirates of <planet> gratefully pay you <payment> for eliminating the Navy fleet.`
+	"DL-352" `The pirates of <planet> gratefully pay you <payment> for eliminating the Syndicate fleet.`
+	"DL-353" `The pirates of <planet> gratefully pay you <payment> for eliminating the militia fleet.`
+	"DL-354" `The pirates of <planet> gratefully pay you <payment> for eliminating the rival gang.`
+	"DL-355" `The pirates of <planet> gratefully pay you <payment> for eliminating the ruling gang.`
+	"DL-356" `The merchants have been eliminated. Return to <destination> for your cut of the loot.`
+	"DL-357" `After counting up the loot from the destroyed merchant fleet, you are given your cut. <payment>`
+	"DL-358" `The Navy fleets have been defeated. Return to <destination>.`
+	"DL-359" `Many locals of <planet> thank you and collectively pay you <payment> for helping to drive off the Navy.`
+	"DL-360" `Many locals of <planet> thank you for helping to drive off the Navy.`
+	"DL-361" `The Syndicate fleets have been defeated. Return to <destination>.`
+	"DL-362" `Many locals of <planet> thank you and collectively pay you <payment> for helping to drive off the Syndicate.`
+	"DL-363" `Many locals of <planet> thank you for helping to drive off the Syndicate.`
+	"DL-364" `The militia fleets have been defeated. Return to <destination>.`
+	"DL-365" `Many locals of <planet> thank you and collectively pay you <payment> for helping to drive off the militia forces.`
+	"DL-366" `Many locals of <planet> thank you for helping to drive off the militia forces.`
+	"DL-367" `You land on <planet>, but you don't have the secret cargo! Return to the <npc> and bring the cargo back to <planet>.`
+	"DL-368" `The pirates of <planet> take the secret cargo from your cargo hold and pay you <payment>.`
+	"DL-369" `The target has been destroyed. Return to <destination> for your payment.`
+	"DL-370" `A band of slave traders thank you for eliminating the politician and pay you <payment>.`
+	"DL-371" `The pirate warlord thanks you for eliminating the politician that threatened them and pays you <payment>.`
+	"DL-372" `A pirate warlord thanks you for eliminating the politician and pays you <payment>.`
+	"DL-373" `The target has been destroyed. Return to <destination> for payment.`
+	"DL-374" `A band of pirates thank you for eliminating the politician and pay you <payment>.`
+	"DL-375" `A pirate warlord thanks you for eliminating the politician pays you <payment>.`
+	"DL-376" `A band of drug traders thank you for eliminating the politician and pay you <payment>.`
+	"DL-377" `Your passengers thank you for taking them on a journey around the Rim, and you collect your payment of <payment>. As they depart, you hear them talking about celebrating their trip with a party <on Longjump>.`
+	"DL-378" `Your passengers are excited to have completed their journey around the Rim and pay you the agreed fee of <payment>. One is already uploading a travelogue to someone <on Longjump> as they start walking away.`
+	"DL-379" `Your guests thank you for taking them on a journey along the flight path of Han Sizer and cheerfully pay you <payment>. You notice one has a star chart open to Sabik's entry as they head off.`
+	"DL-380" `You follow the directions specified in the job to an abandoned-looking warehouse and find your cargo in unlabeled crates. As you load it onto your ship, you get the feeling that you are being watched.`
+	"DL-381" `You drop off the unlabeled cargo in a warehouse not too dissimilar to the one you picked it up in. A man dressed in a cloak hands you <payment> after the last crate is removed from your ship.`
+	"DL-382" `You have some difficulty finding your passengers, but after almost an hour of searching you finally find them. As they follow you back to your ship, you hear them whispering to each other, but you can't make out what they're saying.`
+	"DL-383" `Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed.`
+	"DL-384" `The Syndicate executive rushes off your ship without even a goodbye, fancy briefcase in hand. You collect your payment of <payment>.`
+	"DL-385" `For days your ship has played host to endless discussions about load calculations, tensile strengths, and thermodynamic limits. You're grateful for some peace and quiet as the team of engineers tromps out of the hatch and heads for their exotic corporate retreat. You prepare for the return journey to <origin>.`
+	"DL-386" `The team's boss thanks you for a smooth trip and authorizes a payment of <payment>.`
+	"DL-387" `You manage to make the requested scans of the <npc>'s cargo. Time to head to <planet>.`
+	"DL-388" `You transmit your scans and receive a hearty congratulations, as well as <payment>. "This will save us months!" you hear someone say in the background as you close the audio link.`
+	"DL-389" `Almost as soon as you open the cargo hatch, several silent and surprisingly well-dressed men feed the crates of documents onto a conveyor belt right next to your landing site that you hadn't noticed, where to your surprise they soon disappear into the flames of an industrial incinerator. You collect your payment of <payment>.`
+	"DL-390" `You land on <planet> and drop off the exceptionally smelly shipment of <commodity> at a nondescript building, as instructed. Just as you take off, your rear camera catches sight of a burly Syndicate employee running out of the building shaking his fist. You notice that your payment of <payment> came from your contact on <origin>, not from anywhere on <planet>.`
+	"DL-391" `You drop off your cargo of <commodity> at the loading bay of a towering nuclear complex and collect your payment of <payment>.`
+	"DL-392" `You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>.`
+	"DL-393" `You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment.`
+	"DL-394" `The robotic target ship has been destroyed. You are hailed by an angry Syndicate official who fines you <payment> and warns you that further mistakes of this nature may remove you from eligibility for these jobs.`
+	"DL-395" `You transmit the scan results to a team of eager engineers and collect your payment of <payment>.`
+	"DL-396" `The executive strolls off your ship with a sunny smile on his face. One of the lawyers hands you your payment of <payment> with muttered threats about libel lawsuits if you say anything about what you may or may not have overheard on your ship.`
+	"DL-397" `A group of guards carry the prisoner off your ship more roughly than is strictly necessary. You receive your payment of <payment>.`
+	"DL-398" `A group of guards lead the prisoners off your ship, chained together at the ankles. You receive your payment of <payment>.`
+	"DL-399" `The prisoners are still wearing their civilian clothes, and you can see bruises from when they were arrested as the guards lead them inside. You receive your payment of <payment>.`
+	"DL-400" `The union organizers are defiant as the guards drag them inside, and one of the organizers yells about "class traitors." You receive your payment of <payment>.`
+	"DL-401" `The executive strides toward the express customs entrance with a smug grin. A paperwork-laden lawyer gives you your payment of <payment>.`
+	"DL-402" `The protesters look around the spaceport nervously before disembarking. You receive your payment of <payment>.`
+	"DL-403" `The labor organizers are almost skeletally thin from their imprisonment. One of them raises his face to the sky as though showering in sunlight. You receive your payment of <payment>.`
+	"DL-404" `The alien ship has been destroyed. If you want to continue the Avgi story, revert to the autosave or another earlier snapshot of the game.`
+	"DL-405" `You have reached <planet>, but you left the alien ship behind! Better depart and wait for them to properly introduce you.`
+	"DL-406" `You land on <planet>, but realize that your escort carrying Darius hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-407" `You've landed on <planet>, but there are still Aberrant attacking the system. You should take off and help the Avgi defeat them.`
+	"DL-408" `You've reached the Twirl system, but there is no sign of the Silver Albedo. Perhaps you should check the rest of this star cluster.`
+	"DL-409" `You land on <planet>, but realize that your escort carrying the rescued crew hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-410" `You've landed on <planet>, but there are still Aberrant left in the systems to the north. Return once you've killed them all.`
+	"DL-411" `You land on <planet>, but realize that your escort carrying Darius and Sora hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-412" `You land on <planet>, but realize that your escort carrying Darius, Sora, and Leon hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-413" `With the area cleared of Aberrant, you manage to slip through the blockade and land on <origin>.`
+	"DL-414" `Heliarch agents meet your ship as soon as it docks and receive the candidate whom you have been transporting, in a small ceremony. A few minutes later you receive a transfer of <payment>.`
+	"DL-415" `The doctors methodically pack up their equipment and leave your ship. From their lack of urgency, it appears that this is a routine event, not a crisis. A few minutes later you receive a transfer of <payment>.`
+	"DL-416" `A team of Heliarch engineers carefully removes the spare jump drive from your ship and brings it to a restricted section of the ring. You're approached by the Heliarch who supervised the procedure, who thanks you for bringing in another drive, and hands you the pay of <payment>.`
+	"DL-417" `You and the other agents converge on the marked area and quickly move to cut off any exits. After a brief firefight, the criminals surrender and a Heliarch ship swoops in to pick them up. You bid your Heliarch colleagues farewell and return to your ship, where you are happy to see that <payment> have already been transferred to your account.`
+	"DL-418" `You and the other agents head to the marked area, but when you arrive it becomes evident that whoever occupied the place has managed to escape. You bring the other agents to the spaceport as they lament the failed job.`
+	"DL-419" `Your team pounces and catches the targets entirely by surprise. They offer no resistance, relinquishing their weapons immediately. You call for a Heliarch ship to pick them up and then bid the other agents farewell as you leave. An extra <payment> is already waiting in your account when you return to your ship.`
+	"DL-420" `When you land on <destination>, Heliarch agents help you move the prisoners out of your ship. Once the last prisoner leaves you're handed <payment>.`
+	"DL-421" `You and the other agents head to the reported area looking for anything out of place. You don't find anything prominent, but there are clear signs that the place was recently used. You spend a few hours collecting evidence before heading back to your ship.`
+	"DL-422" `The agents thank you for transporting them in your ship, wish you safe travels, and head off to deliver the findings to their superiors. You're transferred <payment> a few moments later.`
+	"DL-423" `The Lunarium members rush to your ship once it touches down on the hangars, and you swiftly open your hatch for them to come in. One of the calmer members asks that you head to <destination> as soon as possible.`
+	"DL-424" `Each of the Lunarium members comes to thank you before they leave your ship, expressing their gratitude. The last one hands you <payment>, and heads off with the others.`
+	"DL-425" `You touch down on the hangars, and wait for a few minutes for the Lunarium members. Many minutes pass, however, and none arrive. Instead the docks become increasingly filled with Heliarch agents. A message appears on your monitor, saying that the Heliarchs got to the members here first, but thanking you for your efforts anyway.`
+	"DL-426" `Some Lunarium members unload the Armageddon Core after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+	"DL-427" `Some Lunarium members unload the Fusion Reactor after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+	"DL-428" `Some Lunarium members unload the Breeder Reactor after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+	"DL-429" `Some Lunarium members unload the Torpedo Launcher and its ammunition after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the cargo away.`
+	"DL-430" `Some Lunarium members unload the Typhoon Launcher and its ammunition after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the cargo away.`
+	"DL-431" `Some Lunarium members unload the Plasma Turret after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the turret away.`
+	"DL-432" `Some Lunarium members unload the Flamethrowers after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the Flamethrowers away.`
+	"DL-433" `Some Lunarium members unload the Fragmentation Grenades after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the grenades away.`
+	"DL-434" `Some Lunarium members unload the Heavy Anti-Missile Turret after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the turret away.`
+	"DL-435" `After you once again land near several of their warships and armed guards, the Heliarchs take the jump drive you brought them. They thank you for keeping true to your word, and ask that you avoid losing such an important outfit again.`
+	"DL-436" `You land on <planet>, but realize that your escort carrying the yottrite samples hasn't entered the system yet. Better depart and wait for it.`
+	"DL-437" `When you land on <planet>, Lugglop contacts you and informs you that he has already told his friends about you. He says they will be waiting in the spaceport.`
+	"DL-438" `You land on <planet>, but realize that your escort carrying the Saryd twins hasn't entered the system yet. Better depart and wait for it.`
+	"DL-439" `You land on <planet>, but realize that your escort carrying Pichiie hasn't entered the system yet. Better depart and wait for it.`
+	"DL-440" `Lugglop pays you <payment> as you deliver the yottrite, accompanied by a Heliarch agent. "Finish preparing our presentation, we now must. If to help us further you wish, in the spaceport meet us you must."`
+	"DL-441" `You land on <planet>, but realize that your escort carrying Lugglop's team and their presentation materials hasn't entered the system yet. Better depart and wait for it.`
+	"DL-442" `You land on <planet>, but realize that your escort carrying Chikee hasn't entered the system yet. Better depart and wait for it.`
+	"DL-443" `You drop Chikee off on <planet>, and wish him good luck on the new job.`
+	"DL-444" `Chikee hands you 130,000 credits when you land. "As always, for transporting me, grateful I am, Captain," he says, as he heads off to meet with the members of House Idriss.`
+	"DL-445" `You've reached <planet>, but the doctors and the medical supplies haven't arrived yet. Depart and wait for the ships carrying them.`
+	"DL-446" `The medical workers exit your ship just as quickly as they entered it and head off to different sections of the city, directed by some emergency workers. After the <cargo> are also taken off your ship, a worker hands you <payment> and says you could look for more ways to help with the outbreak by looking for their colleagues in the spaceport.`
+	"DL-447" `A group of Saryd workers is waiting for you, and they load the <cargo> onto your ship. A laboratory worker babbles about how you must care for them.`
+	"DL-448" `You've reached <planet>, but the vaccines aren't here yet. Once you've picked them up, make sure all ships that are carrying them arrive in this system.`
+	"DL-449" `You and the Coalition captains have delivered the final batch of vaccines. You must now return to <origin>.`
+	"DL-450" `You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or you left the Coalition ships behind.`
+	"DL-451" `You ask around and are directed to a large refinery on one of the more populated cities here. The rum's price is impressive indeed, 5,642 credits per ton, but what is more impressive is how you worried about the students' irresponsibility when they asked you to buy this when you yourself aren't responsible enough to have a bit over ten thousand credits to spend. Go earn some money, then return here.`
+	"DL-452" `You land on <planet>, but realize that your escort carrying the census workers hasn't entered the system yet. Better depart and wait for it.`
+	"DL-453" `You're paid <payment> for transporting the Saryds here, and they leave your ship, ready to get to work and ask around. They say that they'll probably all be back in the spaceport by night time, so you should check there later if you want to help them further.`
+	"DL-454" `You land on <planet>, but realize that your escort carrying Aunaris hasn't entered the system yet. Better depart and wait for it.`
+	"DL-455" `Aunaris thanks you for bringing her here, and apologizes for not being able to pay you right away, but promises once she and Inturi have figured out their home, they will work hard to pay you. "Stay here for a few months, I probably will, before the remaining funds I have acquired," she says before saying goodbye and taking a cable car to her new workplace.`
+	"DL-456" `You land on <planet>, but realize that your escort carrying Aunaris and Inturi hasn't entered the system yet. Better depart and wait for it.`
+	"DL-457" `You land on <planet>, but realize that your escort carrying Inturi hasn't entered the system yet. Better depart and wait for it.`
+	"DL-458" `You land on <planet>, but realize that Inturi's ship hasn't entered the system yet. Better depart and wait for it to get here.`
+	"DL-459" `The dockworkers load <cargo> into your cargo hold after verifying you've been hired by the Arach cooperative. A bit after the last crate has been placed, you're contacted by the Arachi, and they say you should bring the antibiotics to <destination>, where they will pay you <payment>.`
+	"DL-460" `You land on <planet>, but the Arach ranchers don't come to meet you as you've not brought the longcow antibiotics. Make sure all your ships carrying the cargo arrive in this system after you've picked it up.`
+	"DL-461" `You land on <planet>, but realize that your escort carrying the longcow antibiotics hasn't entered the system yet. Better depart and wait for it.`
+	"DL-462" `You land and meet up with the cousin of the Corral of Meblumem rancher, and he pays you <payment>. "Mix up our batches due to our family name, the doctors always do!" he grumbles as the antibiotics are being removed from your cargo hold.`
+	"DL-463" `You land on <planet>, but realize that your escort carrying Aelbris hasn't entered the system yet. Better depart and wait for it.`
+	"DL-464" `You land on <planet>, but realize that your escort carrying Vellorae hasn't entered the system yet. Better depart and wait for it.`
+	"DL-465" `You land on <planet>, but realize that your escort carrying Dubug hasn't entered the system yet. Better depart and wait for it.`
+	"DL-466" `You land on <planet>, but realize that your escort carrying Lady Plubat hasn't entered the system yet. Better depart and wait for it.`
+	"DL-467" `You land on <planet>, but realize that your escort carrying Plubat hasn't entered the system yet. Better depart and wait for it.`
+	"DL-468" `In spite of your best attempts to keep them away from each other, Plubat and Plubat have been brief on their breaks from insulting one another. However, once you enter this system, they head back to their rooms on their own without you needing to leave the cockpit to interfere. Being so close to their destination, you hope they won't give you any more headaches.`
+	"DL-469" `You land on <planet>, but realize that your escort carrying Apri'ie hasn't entered the system yet. Better depart and wait for it.`
+	"DL-470" `You land on <planet>, but realize that your escort carrying Apri'ie and the unmanned submarines hasn't entered the system yet. Better depart and wait for it.`
+	"DL-471" `You land on <planet>, but realize that your escort carrying Sedlitaris hasn't entered the system yet. Better depart and wait for it.`
+	"DL-472" `You land on <planet>, but realize that your escort carrying Sedlitaris and the Heliarch council representatives hasn't entered the system yet. Better depart and wait for it.`
+	"DL-473" `Sedlitaris has the pylon start searching for any matching signals as soon as you jump into the system. A few hours pass and the machine doesn't return any coordinates, but it also doesn't report a failure. Sedlitaris looks at it puzzled, and reboots it. "Fly around the system for a while, could you, Captain? Maybe compromising the signal, the ship's current position is." You do as she suggests, and slowly cruise around for a few more hours. Once again, the pylon doesn't give any answer. Sedlitaris says it might be some oddly specific bug, and asks that you just move on to the next system.`
+	"DL-474" `The pylon is quick to answer in this system, reporting no similar signals. Sedlitaris urges you to move to the next system, and goes back to checking the data.`
+	"DL-475" `Sedlitaris lets her pylon work for about an hour, but it returns no sign of any others in the system. "Passed by here, they might have, but a priority for recon, that world was not," she says as she points at Rand. You tell her you'll move on to the next system soon, and she goes back to working on the pylon.`
+	"DL-476" `The pylon searches for some time, but tells Sedlitaris no others are in the system. She sighs lightly, and asks you to move on to the next.`
+	"DL-477" `"If correct, my estimates were, the most likely meeting point, this should be," Sedlitaris says as you jump into the system. She lets the pylon work for a while, but it returns no signal of a similar device. "Well... either estimated wrong, I have, or issues in meeting here, the two groups had. Check the next system, we should."`
+	"DL-478" `After a couple of minutes, the pylon emits a few quiet whistles, and Sedlitaris celebrates briefly. "On that planet, it is! Glad that we managed to locate it, I am." You tell her you'll land on Hopper soon so you can search for the pylon on the planet.`
+	"DL-479" `While Sedlitaris remained in her bunk since you left for Ablub, you can hear her shouting from her bunk as you enter the system. She comes running to you, bringing along the pylon. "Picked up a signal, it has!" She says, pointing at the machine's panel, where some message is repeatedly beeping in and out. "Land on that planet we must, Captain!" You tell her you'll land soon, and she remains with you to figure out the pylon's location on Harmony once you've landed.`
+	"DL-480" `You haven't yet found the sixth expedition's last pylon. Try searching for it on a route from this system to Ablub.`
+	"DL-481" `You let your scanners work for a few minutes, but they don't manage to locate House Idriss' probe. It might not yet have arrived in the system, but it would be best to look for information on Darkstone.`
+	"DL-482" `Entering the system, your scanners catch a trio of heavily modified Quicksilvers. They also inform you that the probe is in the system, though it fails at giving you its exact location, as if something is causing interference. The Quicksilvers notice you and ready their guns.`
+	"DL-483" `One of your monitors brings up various sets of data written in the Arach language when you enter the system, and your scanners begin gathering the data House Idriss wants. A few minutes pass until a loading bar comes up. When it reaches the end, another one appears, and the process repeats a few more times. After about an hour, your monitor goes back to normal.`
+	"DL-484" `You fly around the mysterious world for a while, until your sensors beep in an odd way, in what you guess is the signal that the Heliarch's modifications are done doing their read on the planet.`
+	"DL-485" `You fire up your ship's sensors, letting it collect the data the Heliarch want for hours on end. Eventually you hear a series of beeps in a dull rhythm, and look to see that their performance is back to normal.`
+	"DL-486" `You've reached <planet> but left the Heliarch ship behind. Best depart and wait for them to arrive.`
+	"DL-487" `You're told to open your hatch as soon as you land, and when you do, the Heliarch agents storm out of your ship while a separate group that was waiting for you unloads the cargo. A few seconds later you see that <payment> have been added to your account.`
+	"DL-488" `You notice dozens of Heliarch warships rapidly surveying the planet. When you land, you see more of the ships that came to help pick up the injured agents. Hundreds of bandaged Saryds, Kimek, and Arachi are being brought to the ships that keep arriving and departing. You pick up your passengers and prepare to head to the medical center on <destination>.`
+	"DL-489" `As instructed, you release the drones as you come in for a landing. Judging by the normal conditions of the spaceport, no one seems to have noticed anything as you pick up the cargo.`
+	"DL-490" `You've reached <planet>, but the Heliarch transports haven't arrived yet! Best depart and wait for them to get here.`
+	"DL-491" `You have reached <planet>, but you left some of the Heliarch escorts behind. Better depart and wait for them to get here.`
+	"DL-492" `After you land, one of the Heliarch Hunters who was pursuing you lands beside you. You'll need to shake it off before landing here to succeed.`
+	"DL-493" `The Punisher's captain tries to hail you as the ship collapses around them, but you never get to hear their final cries. You have failed to simply disable the ship, and doomed the entire crew. It seems that you will not be welcome in Coalition space any longer.`
+	"DL-494" `Although you've disabled the Punisher, you decide to move in and board the ship in order to salvage it, breaking any trust the Heliarchs had in you. They, and the rest of the Coalition, will not be pleased with this.`
+	"DL-495" `After a long, exhausting battle, you and your crew successfully capture the Punisher. With the captain's life on your hands, as well as most of her crew, the Coalition most certainly won't be welcoming you anymore.`
+	"DL-496" `You are currently assisting the Lunarium. Cancel or finish any missions you have for them if you want to join the Heliarchy.`
+	"DL-497" `You land on <planet>, but realize that your escort carrying the charity supplies hasn't entered this system yet. Better depart and wait for it.`
+	"DL-498" `You land on <planet>, but realize that your escort carrying the charity supplies and Kimek doctors hasn't entered this system yet. Better depart and wait for it.`
+	"DL-499" `You've arrived on <planet>, but you haven't brought all the grenades you needed to yet. Make sure you have them all in your cargo before you land.`
+	"DL-500" `You've arrived on <planet>, but you haven't brought all the anti-missile turrets you needed to yet. Make sure you have them all in cargo before you land.`
+	"DL-501" `You've arrived on <planet>, but you haven't brought all the launchers and ammo you needed to yet. Make sure you have them all in your cargo before you land.`
+	"DL-502" `You've arrived on <planet>, but you haven't brought all the Plasma Turrets and Flamethrowers you needed to yet. Make sure to have them all in your cargo before you land.`
+	"DL-503" `You land on <planet>, but don't receive any instructions from the local Lunarium members. Either one or more of the reactors aren't with you in the system, or you're past the delivery window. You should prepare to bring in the three reactors before the fifth day of the month, and try again.`
+	"DL-504" `You land on <planet>, but you haven't brought the extra jump drive you needed to yet. Make sure to have it in your cargo before you land.`
+	"DL-505" `You've reached <planet>, but left House Bebliss' ship behind! Best depart and wait for them to get here.`
+	"DL-506" `You land on <planet>, but realize that your escort with the <bunks> bunks for the students hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-507" `You land on <planet>, but realize that your escort carrying the <bunks> students hasn't entered this system yet. Better depart and wait for it.`
+	"DL-508" `You land on <planet>, but realize that your escort with the <bunks> bunks for the ranchers hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-509" `You land on <planet>, but realize that your escort with the <bunks> ranchers hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-510" `You land on <planet>, but realize that your escort with the <bunks> bunks for the immigrants hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-511" `You land on <planet>, but realize that your escort with the <bunks> immigrants hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-512" `You land on <planet>, but realize that your escort carrying Tummug and the posters hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-513" `You land on <planet>, but realize that your escort carrying Tummug, his colleagues, and the banners hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-514" `You land on <planet>, but realize that your escort carrying Tummug, his colleagues and the skywriting material hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-515" `You land on <planet>, but realize that your escort carrying Tummug, his colleagues and the posters hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-516" `You've reached <planet>, but your escort bringing Pyakri and the other Lunarium members and their supplies hasn't entered the system yet. Better depart and wait for them.`
+	"DL-517" `You land on <planet>, but you're not done with the mission yet. Either some of the Lunarium's ships haven't entered the system yet, or some of the pirate ships in <waypoints> haven't been defeated. Return once everything is in order.`
+	"DL-518" `You've reached <planet>, but your escort bringing Pyakri and the other Lunarium members hasn't entered the system yet. Better depart and wait for them.`
+	"DL-519" `You are currently assisting the Heliarchy. Cancel or finish any missions you have for them if you want to join the Lunarium.`
+	"DL-520" `You've reached <planet>, but your escort bringing Oobat hasn't entered the system yet. Better depart and wait for it.`
+	"DL-521" `Upon departure from <origin>, you receive an incoming message. "Greetings, human <first> <last>. This message is from Adrauni. Return to <planet> at the first opportunity given to you."`
+	"DL-522" `After deciding to fire upon the Gegno fleet surveying your visit to their homeworld, you are met with aggressive opposition along with what sound like countless angry hails. Whatever chance you had left of associating with the Gegno is gone now.`
+	"DL-523" `You've returned to <origin>, but do not have 5 tons of iron mined and in your ship. Make sure to mine 5 tons of iron and collect it into your cargo before you land.`
+	"DL-524" `You've returned to <origin>, but do not have 10 tons of aluminum in your cargo hold. Make sure to mine 10 tons of aluminum and collect it into your cargo before you land.`
+	"DL-525" `You've returned to <origin>, but do not have 10 tons of copper in your cargo hold. Make sure to mine 10 tons of copper and collect it into your cargo before you land.`
+	"DL-526" `You've returned to <origin>, but do not have 10 tons of iron in your cargo hold. Make sure to mine 10 tons of iron and collect it into your cargo before you land.`
+	"DL-527" `You've returned to <origin>, but do not have 10 tons of lead in your cargo hold. Make sure to mine 10 tons of lead and collect it into your cargo before you land.`
+	"DL-528" `You've returned to <origin>, but do not have 10 tons of silicon in your cargo hold. Make sure to mine 10 tons of silicon and collect it into your cargo before you land.`
+	"DL-529" `You've returned to <origin>, but do not have 10 tons of titanium in your cargo hold. Make sure to mine 10 tons of titanium and collect it into your cargo before you land.`
+	"DL-530" `You gather the requested <commodity> and load them on your ship for return to <planet>.`
+	"DL-531" `Your payment of <payment> is waiting when you touch down, along with delivery instructions. You send the <commodity> by dedicated courier.`
+	"DL-532" `As soon as you touch down you receive a message from the Hai gourmet with thanks and your payment of <payment>.`
+	"DL-533" `The Hai tinkerer is waiting for you when you arrive. They pay you <payment> and then run after the cargo pallets as though they plan to open them right there in the spaceport.`
+	"DL-534" `The Hai depart your ship chittering in excitement. One of them hands you your payment of <payment> before running to catch up with their friends.`
+	"DL-535" `During the trip, your passengers appeared to be practicing a presentation for the convention. You sense a tinge of nervousness as they give you <payment> and leave your ship.`
+	"DL-536" `The Hai chitter excitedly as they give you <payment> and step off your ship. Some of the movie plots they discussed during the trip were bewildering.`
+	"DL-537" `The Hai chitter excitedly as they give you <payment> and step off your ship. You can hear the music blasting all the way from the spaceport.`
+	"DL-538" `The Hai chitter excitedly as they give you <payment> and step off your ship. Your passengers' conversations went mostly over your head, but they were otherwise pleasant the entire trip.`
+	"DL-539" `The Hai chitter excitedly as they give you <payment> and step off your ship. As they leave, one of them gives you a hand gesture that you recognize from an old human sci-fi program.`
+	"DL-540" `You look for Elliot, but realize that he took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-541" `You contact the spaceport authorities of <planet> and ask them if they are looking for a lost Hai child. It turns out that the family was so worried that they put up a <payment> reward for finding their son. A Hai spaceport worker takes the child from your ship and thanks you for finding him for the family.`
+	"DL-542" `You've reached <planet>, but you've left Turner behind. Wait for Turner's ship to arrive before landing.`
+	"DL-543" `The freighters are ready to launch by the time you get to <planet>. "Now we just need to escort these freighters to Follower in the Alphard system and back in one piece," Turner exclaims, hopping back on to his Star Queen.`
+	"DL-544" `You've reached <planet>, but you've left one of the ships you're supposed to be escorting behind. Wait for Turner's ship and all the Bulk Freighters to arrive before landing.`
+	"DL-545" `You receive a message from David Turner when you land. "Hello, Captain. I hope you've been enjoying your share in the outfitter. I have a new proposition for you, as I've bought out the rest of the park around the outfitter. Meet me on <destination> if you'd like to hear about it."`
+	"DL-546" `The Bulk Freighters are loaded with supplies without any problem. When one of the spaceport workers asks Turner where the supplies are going, he replies, "These are just to expand a business venture of mine on, uh, Glory."`
+	"DL-547" `You look for Arthur and Kiru, but realize that they took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-548" `Arthur and Kiru pay you <payment> before running off to the convention center. As they run away, you notice that Kiru is drawing a number of eyes from the crowd, but no one seems to suspect that he is an actual alien.`
+	"DL-549" `You look for Anaya and Touhar, but realize that they took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-550" `Instead of landing in the spaceport where they can be seen, you drop Anaya and Touhar off as close as you can to where they will be staying. The house is a few kilometers away, but they assure you that they can make it on their own. They pay you <payment> and thank you for bringing them this far.`
+	"DL-551" `You have reached <planet>, but you left Nanachi's ship behind! Better depart and wait for her to arrive in this star system.`
+	"DL-552" `You have reached <planet>, but you haven't finished the mission yet! Either you left Nanachi's ship behind or you haven't visited <stopovers>.`
+	"DL-553" `After you finish landing, you're approached by a Hai in a formal uniform. "Greetings, Captain <last>. Ambassador Sayari has sent word to the council of elders that our Unfettered brethren have created a new ship of great strength. The council has requested your presence on <planet>; Sayari said you have been in combat with these ships, and the elders are interested in your expertise."`
+	"DL-554" `It appears that the delegation is bunked on escorts that have not arrived in this system yet. Take off and wait for them.`
+	"DL-555" `You look for the group of students you were transporting, but realize that they took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-556" `You look for Hareek, but realize that he took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-557" `You forgot Eeeya or some of her mountains of cookies. Maybe they're in one of your escorts?`
+	"DL-558" `Eeeya is not in the system. Maybe she's in one of your escorts?`
+	"DL-559" `You have returned, but the fate of the pirates and the captured Hai is still in doubt. Ensure that the Black Lich is defeated and that the fate of the captured Hai, whether deceased or safely with you, is certainly known.`
+	"DL-560" `You have declined an essential narrative mission. If you would like to continue, revert to the autosave or another earlier snapshot of the game.`
+	"DL-561" `After successfully boarding the Geocoris and defeating its pirate crews, you are greeted by the relieved captive Hai. You send crew aboard to fly the ship and promise to return them safely to Allhome.`
+	"DL-562" `You have returned to Hai-home but haven't found anything actionable you can tell Sayari. There's still time to look for evidence.`
+	"DL-563" `It appears some unsavory types have followed you into orbit in pursuit of the Yeertle family. You could fight them, but they don't look equipped to make the journey back to Hai space successfully; so you could also probably outrun them if you prefer.`
+	"DL-564" `The Yeertle family is ecstatic to be home after their long ordeal and gladly give you <payment>. They promise to run background checks of human pilots before hiring next time.`
+	"DL-565" `Those pursuing Ooonem have caught on quickly and followed you into orbit. You'll probably have to fight them, but they're only Core pirates and don't look equipped to make the journey back to Hai space successfully. If you're fast enough, you could probably attempt to simply dodge them instead.`
+	"DL-566" `Ooonem is relieved to return to <planet>. She leads you to her family's home where you're treated to a bountiful dinner. The cuisine is entirely human-Hai fusion dishes. The dessert is accompanied by what Ooonem describes as the most delicious spice of all: <payment>.`
+	"DL-567" `The Hai researchers thank you for rescuing them from their ill-fated "prison role-play cruise" and promise to stick to safer pastimes in the future. They happily give you <payment>.`
+	"DL-568" `Meroot and Lucy thank you for your help and give you <payment>. Lucy decides to live in Hai space with Meroot. "It's safer here," she explains, though you have your doubts. You ask, but the two have no idea who the men that kidnapped them were.`
+	"DL-569" `The Hai, who has since introduced himself as Gipeep Anl'ooh, thanks you for helping him finally finish his long walk home from the store. His grateful family give you <payment>. None of them know who kidnapped him or why.`
+	"DL-570" `A fleet of eight Geocoris is waiting to accompany you when you arrive, with just the final items being loaded as you come in to land. They will follow you to the site where the new station will be built.`
+	"DL-571" `You have arrived without all eight of the Geocoris you are escorting from <origin> to <planet>. You must take off and wait for them to finish this mission.`
+	"DL-572" `You have arrived at the Mountaintop construction site, but it isn't finished or staffed yet.`
+	"DL-573" `You finally dock at <planet>, your tedious tour complete. Shortly after, you receive a ping informing you that <payment> has been deposited into your account. Terry must've set it up to happen automatically.`
+	"DL-574" `You have the furnishings the Hai ordered. It's time to return them to <planet>.`
+	"DL-575" `A message from Alondo informs you that he has a tenuous lead he can give you. It also says to look for him only when you're not busy with other business.`
+	"DL-576" `You have declined an essential narrative mission. If you want to complete this story line, revert to the autosave or another earlier snapshot of the game.`
+	"DL-577" `You receive a short message from Teeneep. "I heard what happened <last>. This is not one of the groups that was already on our radar, so once you're done I would very much like to hear what you find out."`
+	"DL-578" `You've returned to <planet>, but you haven't yet tracked down Scar's Legion. Perhaps you should ask around the spaceport of pirate planets near the wormhole into Hai space for information.`
+	"DL-579" `You've defeated the leader of Scar's Legion. The various spectators to the fight aren't attacking you, but it may only be a matter of time before they decide to turn their guns on you for killing their leader. Better head to <planet> before that happens.`
+	"DL-580" `You lead the Hai freighters into the blast doors. Despite the massive size of the freighters, they all manage to fit into the asteroid's spaceport with some room to spare, a testament to how much work was put into this base. The pirates of Scar's Legion unload all the Hai technology from the freighters. After the last crate is gone, the freighters quickly launch from the asteroid.`
+	"DL-581" `With the freighters safely returned, the Hai thank you for resolving the situation with Scar's Legion and hand you <payment> for your help.`
+	"DL-582" `While resolving the situation with Scar's Legion, you have learned information which should be reported to Alondo, but apparently he is away somewhere and unavailable for a short while. Even if the delay were a risk you could afford to take, simply waiting for him at this point may draw suspicion. This whole situation is probably something Teeneep should be informed of, though, and doing so may also help shed some light on the grander schemes at play. Return to and speak with her, instead.`
+	"DL-583" `Teeneep is on another ship not yet in the system. Take off and wait for the ship to arrive in order to continue.`
+	"DL-584" `You fly to the coordinates given to deploy the relay and eject it from an airlock, making sure that there are no ships in range to see it happen. The relay gives you a confirmation ping when it's successfully activated.`
+	"DL-585" `To finish this mission, you must visit all four systems, and return the deployment hardware to <planet>. It may be in an escort that hasn't arrived.`
+	"DL-586" `Batu is on another ship not yet in the system. Take off and wait for the ship to arrive in order to continue.`
+	"DL-587" `Teeneep is on another ship not yet in the system, take off and wait for the ship to arrive in order to continue.`
+	"DL-588" `As you enter Waypoint one of the Hai captains hails you. "Captain, we've orders to close the border to everyone, but... we know you've been doing official business, and we haven't been told to specifically block you. We also owe you one. You can go through, but don't try and bring anyone with you. We'll have no choice but to fire upon you and them if you do."`
+	"DL-589" `As you prepare your ship you are informed that you will be traveling to <stopovers> before going to <planet>.`
+	"DL-590" `It seems Teeneep has got the Elders to agree to the deal with the Unfettered. A large Unfettered fleet joins you here.`
+	"DL-591" `You have either not stopped on Everhope as instructed, or you have left Sayari behind. Remember, her superstition has gotten the better of her under these pressing circumstances, so you must have a Quantum Keystone installed for her to travel with you.`
+	"DL-592" `You have failed an essential narrative mission. You've also made the Hai hostile. If you want to complete this story line, revert to the autosave or another earlier snapshot of the game.`
+	"DL-593" `You have failed an essential mission (ALL of one fleet has been wiped out). To complete this story line, revert to the autosave or another earlier snapshot of the game.`
+	"DL-594" `You have reached the rendezvous and various fleets are arriving. As promised, both Hai and human ships have tied their navigation to your systems for coordinating the next couple of jumps to Alcyone. You have never seen so many military vessels in one place.`
+	"DL-595" `The next jump from here is to Alcyone. Make sure all ships are ready to jump all at once. The pirate and marauder lords of <planet> have prepared for the invasion and are expected to be waiting. A disciplined arrival is essential.`
+	"DL-596" `You have not yet boarded a ship to learn anything about the smugglers. You will need to do this to continue.`
+	"DL-597" `You have failed a critical narrative mission and are now considered an outlaw. If you want to complete this story line, revert to the autosave or another earlier snapshot of the game.`
+	"DL-598" `Giti or her equipment are in one of your escorts. You need to wait for your escorts to arrive before landing again.`
+	"DL-599" `You are provided <payment> on arrival to cover ongoing expenses while helping out.`
+	"DL-600" `You've arrived on <planet>, but you've left one or more of your escorts behind.`
+	"DL-601" `Right after the fleet takes off, Danforth hails you. "We have just received additional fighters and drones from the Syndicate, please wait for them before jumping."`
+	"DL-602" `You have failed an essential mission. To complete this story line, revert to the autosave or another earlier snapshot of the game.`
+	"DL-603" `To finish this mission, you need to wait for Teeneep, Choot'k, and Danforth's ships to arrive and then land again.`
+	"DL-604" `To finish this mission, you need to wait for Teeneep and Choot'k's ships to arrive and then land again.`
+	"DL-605" `A message from Stephen Moray pops up before you can depart Mirfak. "Hey, Captain. It seems Terry has gone missing; if you see her, let her know she will lose her position if she doesn't return to her duties soon."`
+	"DL-606" `As you depart the planet, you notice a new system has appeared on your scanners to the southwest. You should adjust your destination accordingly.`
+	"DL-607" `You have arrived without the ship you are escorting. You must take off and wait for it to continue.`
+	"DL-608" `You have arrived, but either the Geocoris has not arrived, or the pirates are still threatening the construction site.`
+	"DL-609" `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+	"DL-610" `You have failed to safely escort the convoy of Free World outfitters.`
+	"DL-611" `You look for the young Hai, but realize that he took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-612" `The Unfettered and their associates are clearly not happy when they somehow find out you didn't deliver the cargo in time, leaving you a brief message on your command panel: "You will not prove yourself to us by failing our requests."`
+	"DL-613" `You have reached <planet>, but you either did not bring the Anomalocaris, or some of the cargo was on another ship.`
+	"DL-614" `After landing, a group of Unfettered gather around your ship and begin unloading the medical supplies, though strangely they don't seem to be in any hurry. Shortly after they've finished, you receive a rather brief message from the Hai you bought the ship from, along with an unusually large sum of credits. "Thank you for helping our brethren, <last>. Please accept these <payment>."`
+	"DL-615" `You receive a hail from the Unfettered. "You ran away and failed to complete the duel. As such, you will not enjoy unwarranted respect any longer! It would be in your best interest to return the ship to us should we ever find you on our worlds again!`
+	"DL-616" `You are contacted by the Unfettered as you enter the planet's atmosphere. "You failed to complete the duel. The ceasefire is over. You will not enjoy unwarranted respect any longer!"`
+	"DL-617" `You receive a hail from Mera, who sounds quite angry. "Destroying the ship can only be due to either incompetence or evil intent, and we will not tolerate either!"`
+	"DL-618" `You receive a message from the Unfettered ship. "We surrender. Land on Firelode to receive your reward."`
+	"DL-619" `You have managed to defeat the Unfettered challenger. Now it's time to land on Firelode and claim your reward.`
+	"DL-620" `Mera hails you. "Stop! I am only here as an observer. If you destroy my ship, the deal is off!"`
+	"DL-621" `As you destroy the Lightning Bug, along with Mera and her crew in it, you receive an angry hail from the Unfettered. "You completely disrespected the rules of a duel and killed one of our most prominent engineers! You will not be welcome here anymore!"`
+	"DL-622" `You identify the stranded alien ship you assisted earlier on your scanners, but with no way to communicate with them you are unable to help. You have no choice but to leave them to their doom on this stormy world.`
+	"DL-623" `You've arrived at <planet>, but your mission is not complete! Make sure Taely and all the equipment passes through <waypoints>. If they are on an escort, you must wait for it to arrive at <waypoints> before you return to <planet>.`
+	"DL-624" `You've arrived, but you realize your escort carrying the <commodity> has not yet entered the system! Better depart and wait for it.`
+	"DL-625" `You've returned to <planet>, but you realize your escort carrying the <commodity> has not yet entered the system! Better depart and wait for it.`
+	"DL-626" `You've arrived, but you realize your escort carrying Dusk has not yet entered the system! Better depart and wait for it.`
+	"DL-627" `You've returned to <planet>, but you realize your escort carrying Dusk has not yet entered the system! Better depart and wait for it.`
+	"DL-628" `You have reached <planet>, but not all of the cargo and passengers are in the system! Better depart and wait for your escorts to arrive in this star system. Remember that your escorts need to be cloaked as well. You may want to park your escorts that are incapable of cloaking.`
+	"DL-629" `From the open cargo bay, you watch as the satellite moves up inside your ship. You split up tasks between yourself and Dusk, keeping the satellite stabilized while he downloads the data. In a few minutes the process is over, and you can return the probe to its original mission.`
+	"DL-630" `You have returned to <planet>, but you haven't visited <waypoints> yet! Better depart and make sure you visit the system.`
+	"DL-631" `The Korath settlers slowly depart your ship with their cargo, seemingly apprehensive to step onto this once-dead world. The Korath in charge gives you a gesture of thanks and hands you <payment>.`
+	"DL-632" `The Wanderers try to explain their farming methods to the Korath farmers, but the language barrier makes it challenging. The Korath eventually pick up bits and pieces of what the Wanderers are doing. Time to return to <destination>.`
+	"DL-633" `When you return, the Korath move their hands in a circular motion with their palms toward you as a sign of gratitude. They hand you <payment> and disembark your ship.`
+	"DL-634" `You find a Korath who seems to have been waiting for you in the spaceport. They greet you by showing their palms, then outstretch their hands as if waiting to receive the package. You hand off the small delivery and they hand you a small payment of <payment>.`
+	"DL-635" `You arrive, but you notice the <EDC-ship> is absent. You'll have to bring it here to finish the salvage mission.`
+	"DL-636" `You open your cargo hold, and let a Quarg scanner drift out to the void.`
+	"DL-637" `Looking at the former slave-colony planet here as you deploy their scanner, you wonder if the Quarg heard about Poisonwood's history, and that's why they decided to help with surveillance.`
+	"DL-638" `You set a Quarg scanner free, and let it leave your ship.`
+	"DL-639" `Although those that live on the planet here don't seem to mind the occasional pirates demanding tribute, maybe they will come to appreciate the reduced pirate presence here, assuming the Quarg scanner really does help with that.`
+	"DL-640" `You land to find a Quarg waiting right at the docks. It hands you <payment>, and thanks you for your help.`
+	"DL-641" `The <cargo> is loaded into your ship under strict supervision, each crate carefully accounted for.`
+	"DL-642" `About halfway through the meticulous unloading of the cargo, a Quarg comes up to you and hands you <payment>.`
+	"DL-643" `There are still Korath raiders circling overhead. You should take off and help the Remnant ships to fight them.`
+	"DL-644" `You have destroyed the Korath ship that was left over from the raid on <planet>. You can now return there to collect your payment.`
+	"DL-645" `The same woman meets you when you land on <planet>. "Again, thank you," she says. "I will suggest to others that they might offer you similar bounty hunting jobs in the future." She pays you <payment>.`
+	"DL-646" `Now that you are alone, you are able to deploy the Remnant surveillance satellite unobserved. Time to report back to <planet>.`
+	"DL-647" `You have returned to <planet>, but you haven't deployed the surveillance satellite yet. Return to <waypoints> and make sure that all of the Korath there have been eliminated.`
+	"DL-648" `You have returned to <planet>, but you don't have 50 "quantum keystones" to give to the outfitter. Buy the keystones from the Hai before returning here.`
+	"DL-649" `There are indeed some strange space-faring life forms in this system. You collect measurements with the special sensors, and then prepare to return to <planet>.`
+	"DL-650" `You have returned to <planet>, but you're missing something! Either you haven't visited <waypoints> to scan the void sprites, or your escort carrying the scanning equipment has not arrived in the system.`
+	"DL-651" `You land on <planet>, but you haven't scanned the void sprites in <waypoints>. Make sure you scan all the void sprites using an outfit scanner.`
+	"DL-652" `You have returned to <planet>, but you don't have the two Heavy Lasers that Taely requested. Go buy two Heavy Lasers before returning.`
+	"DL-653" `You have returned to <planet>, but you don't have the two Plasma Cannons that Taely requested. Go buy two Plasma Cannons before returning.`
+	"DL-654" `You have returned to <planet>, but you don't have the two Catalytic Ramscoops that Taely requested. Go buy two Catalytic Ramscoops before returning.`
+	"DL-655" `You have returned to <planet>, but you don't have the two electron beams that Taely requested. Go buy two electron beams before returning.`
+	"DL-656" `You have returned to <planet>, but you don't have the two D94-YV Shield Generators that Taely requested. Go buy the two shield generators before returning.`
+	"DL-657" `You have returned to <planet>, but you don't have the two S-970 Regenerator that Taely requested. Go buy the two shield regenerators before returning.`
+	"DL-658" `You have disabled the Korath ship that was left over from the raid on <planet>. You can now return there to collect your payment.`
+	"DL-659" `You are met by a prefect who looks upset. "The ship was supposed to be disabled so its contents could be salvaged!" he signs angrily. Nonetheless, he shoves a credit chip worth <payment> into your hand. "That's half what you would have earned if the ship had been disabled." He pauses and shakes his head. "I think Taely might have some more work for you in the spaceport, but in the meantime, why don't you go find some Korath to practice disabling? It is a valuable skill among the Remnant."`
+	"DL-660" `You are met by a prefect who thanks you for disabling it and hands you a credit chip for <payment>. "I think Taely might have some more work for you in the spaceport, but in the meantime, don't forget to drop off any salvaged outfits in the outfitters so the researchers can look at them."`
+	"DL-661" `On Caelian, you are able to find the appropriate research warehouse just off the main landing pad. After a few minutes, a lab technician disentangles herself from a project and brings a wagon and camel team out to the ship to unload the salvage. It strikes you as a bit incongruous that a lab technician is using a graviton repulsion lifter to load cargo from your ship into a wagon pulled by a camel. "If you can, I should have some things to send back to Taely if you could meet me in the cafeteria this afternoon."`
+	"DL-662" `You land on <planet>, but realize that you left Dawn and her colleagues on one of your escorts that hasn't entered the system. Better depart and wait for it to arrive.`
+	"DL-663" `You have landed on <planet>, but you have not yet scanned the <npc>'s. Depart and use an outfit scanner to scan the ship.`
+	"DL-664" `You land on <planet>, but you have not scanned the Starling in <waypoints>. Make sure you scan the ship before returning.`
+	"DL-665" `You land on <planet>, but you have not scanned the <npc> in <waypoints>. Make sure you scan the ship before returning.`
+	"DL-666" `Dawn quickly sets to work expanding the laboratory and setting up her instruments. After a few minutes, she returns to the cockpit and settles into a chair by the window. "Everything is ready, Captain. Now we just wait for the storm to arrive. I will let you know when we are ready to leave."`
+	"DL-667" `As the storm starts to swell around you, the instrumentation chimes to indicate that it has collected all the data it needs. Dawn quickly begins the shutdown routine to protect the equipment against potential damage, giving you the OK to return back to <planet>.`
+	"DL-668" `You've returned to Aventine without the scans from both gas giants in Nenia. Make sure you have visited both and that the ship carrying the scanning equipment has returned here.`
+	"DL-669" `You have destroyed the Korath hunters. You can now return to <planet> to collect your payment.`
+	"DL-670" `You have located the Korath fleet. They do not seem to be going anywhere at the moment.`
+	"DL-671" `You have destroyed all the Korath that appeared to be hunting void sprites.`
+	"DL-672" `The Korath fleet is gone. Given the urgency Prefect Chilia put on this mission, the onus is on you to find it... quickly.`
+	"DL-673" `You have found the Korath fleet. Time to destroy them all as Prefect Chilia requested.`
+	"DL-674" `The creature comes to a stop in front of you, spins around briefly, then spreads out its tentacles in another pattern. Following the Remnant's intuition, you match it to your star charts as probably being Convector. After holding the position for a minute, the creature realigns itself and starts to shimmer with the tell-tale signs of starting to make a jump, but it holds it, as if waiting for you.`
+	"DL-675" `It seems the analysis of the location was right. The creature quickly approaches you and repeats its previous dance, ending up with a slightly different frozen position. From this vantage, you suspect that it is probably Nenia. This time, as you watch it more closely, it looks like it is following in your wake somehow.`
+	"DL-676" `You have never seen such activity from the void sprites. Many quickly congregate around the strange creature that has been guiding you, and escort it to Nasqueron. It seems like that is where it wanted to be. In the distance, you can see the Archon methodically pulverizing a Palavret.`
+	"DL-677" `As you enter the system, you quickly search for the Archon, but it is nowhere to be seen. A Korath hunting party, however, is clearly waiting for you and moves to attack. As their ships converge on you, the Pelicans immediately set to work collecting void sprites. As the last one closes its hold, the confirmation codes flash across your tactical screen. "Good to go."`
+	"DL-678" `You watch vigilantly as the Pelicans with the void sprites dip low into Esquiline's atmosphere and open their bay doors. The void sprites emerge tentatively, then confidently launch themselves into the clouds. A few minutes later, you receive a message from Esquiline station informing you that the first void sprite just swooped through the bay, grabbed one of the asteroid supplements, and vanished into the clouds again.`
+	"DL-679" `As the starport computer downloads the data, your computer displays a message tacked onto the log file: "Thank you for providing the additional data from your navigational logs. It will be useful to contrast against those of our scouts. A logistics adjustment of <payment> has been authorized for the <ship>."`
+	"DL-680" `You have destroyed the Korath ship that Taely sent you to hunt down. Return to <destination> to report the Mergansers' performance.`
+	"DL-681" `You have destroyed the ships that the Palavret left behind.`
+	"DL-682" `You have patrolled all six systems.`
+	"DL-683" `As soon as you enter the system, three 'olofezes begin targeting your ship. These are probably the surprises that Gavriil was worried about.`
+	"DL-684" `You have returned to Ssil Vida, but you have not ensured all the nearby systems are clear.`
+	"DL-685" `The Remnant have an Aeon Cell ready when you land. They carefully move it to your ship, and several touch it reverently before they depart. You remind yourself to make sure that it is suitably stowed before taking off again.`
+	"DL-686" `Your comms pick up a crackling broadcast: "Don't know who you are, but there's a bounty on unaffiliated people picking up large volumes of weapons grade materials that I intend to collect!"`
+	"DL-687" `This ship barely registers on your sensors, and you can clearly see through it. The Remnant will want to know about it. You should probably look for Taely on Viminal.`
+	"DL-688" `This ship seems a bit more solid than it did when you first saw it, but it does not seem to be quite present.`
+	"DL-689" `Ruach briefly checks the scanning arrays before reporting that, unsurprisingly, the ship seems to not be present. She suggests searching nearby systems to locate it.`
+	"DL-690" `In poor lighting, this ship might have passed for a Palavret, but scanning reveals major structural differences. These suggest this is at least a new generation of the model, or perhaps an entirely different design. Time to report this to Chilia.`
+	"DL-691" `You have disabled the Dathnak A'awoj. Time to report back to <planet>.`
+	"DL-692" `As you enter the system you spot the target ship. You imagine the small town's worth of people inside, many of which are probably children.`
+	"DL-693" `The Remnant are puzzled at your aborting of this mission, but they tell you they will send someone else to do this work. They warn you they will not propose any more of the sort to you again.`
+	"DL-694" `You were unable to disable the Dathnak A'awoj without destroying it... The Remnant will not be pleased...`
+	"DL-695" `You have destroyed the Korath ship. You can now return to <planet> to collect your payment.`
+	"DL-696" `A Remnant military leader thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>.`
+	"DL-697" `A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>.`
+	"DL-698" `The research team quickly offloads the broken jump drive and pays you <payment> before hurrying back to their lab.`
+	"DL-699" `Your scientist unpacks the laboratory and takes the requested observations. A short while later, they have the data compiled on a set of data crystals and inform you that everything is ready for departure.`
+	"DL-700" `When you land, a researcher quickly retrieves the data crystals with the information about the surveyed system and hands you the logistics allotment of <payment>.`
+	"DL-701" `You have destroyed the Korath ship and its fighters. You can now return to <planet> to collect your payment.`
+	"DL-702" `You've landed on <planet>, but the Korath ship and its fighters have not all been eliminated. Hunt them down and destroy them before returning.`
+	"DL-703" `A Remnant military leader thanks you for hunting down the Korath ship <npc> and its fighters, and gives you the agreed-upon payment of <payment>.`
+	"DL-704" `A project engineer inspects the <cargo> and signs off on your payment of <payment>.`
+	"DL-705" `A project technician inspects the <cargo> and approves your payment of <payment>.`
+	"DL-706" `A repair technician inspects the <cargo> parts and authorizes your payment of <payment>.`
+	"DL-707" `Two armed repair technicians inspects the <cargo> and authorize your payment of <payment>.`
+	"DL-708" `You've landed on <planet>, but the stuck Dathnak A'awoj has not been disabled yet. Hunt it down and disable it before returning.`
+	"DL-709" `The Remnant are puzzled at your aborting of this mission, but they tell you they will send someone else to do this work. They advise you they will prioritize other teams for these missions in the future.`
+	"DL-710" `A Remnant military prefect thanks you for disabling the Dathnak A'awoj <npc>, and gives you the agreed-upon logistics adjustment of <payment>.`
+	"DL-711" `You land on <planet>, but realize that your escort carrying the archaeologist hasn't entered the system yet. Better depart and wait for it.`
+	"DL-712" `You land on <planet>, but realize that your escort carrying Albert, John, and the mapping equipment hasn't entered the system yet. Better depart and wait for it.`
+	"DL-713" `You land on <planet>, but realize that your escort carrying Albert hasn't entered the system yet. Better depart and wait for it.`
+	"DL-714" `You land on <planet>, but realize that your escort carrying the excavation equipment hasn't entered the system yet. Better depart and wait for it.`
+	"DL-715" `You land on <planet>, but realize that your escort carrying Amelia and Yarthis hasn't entered the system yet. Better depart and wait for it.`
+	"DL-716" `The last of the pirate raiders have been driven off. Time to land and check if any damage was done to the dig.`
+	"DL-717" `You managed to defeat the entire mercenary fleet. You should have no problem landing in their camp now and recovering the cube.`
+	"DL-718" `Upon landing on this strange world, you realize not everything is accounted for! Better make sure the Emerald Sword has been boarded, and no crew or cargo is on escorts out of the system.`
+	"DL-719" `You have reached <planet>, but not all of the archaeology equipment made it back! Better depart and wait for your escorts to arrive in this star system.`
+	"DL-720" `At least one of the Successor interceptors escorting you has been destroyed. If you want to continue the Successors' story line, revert to an earlier save.`
+	"DL-721" `You failed to return Sieasej to their people in time. If you wish to continue the Successors' storyline, revert to a prior save.`
+	"DL-722" `The younglings depart your ship and meet up with another group of Wanderers across the spaceport. Before following after the younglings, the adult Wanderer thanks you and hands you <payment>.`
+	"DL-723" `You wish the scientists the best of luck on <planet> as they carry their scientific equipment off of your ship and hand you your payment of <payment>.`
+	"DL-724" `You wish the biologists the best of luck on <planet> as they carry their scientific equipment off of your ship and hand you your payment of <payment>.`
+	"DL-725" `You wish the botanists the best of luck on <planet> as they carry their scientific equipment off of your ship and hand you your payment of <payment>.`
+	"DL-726" `You wish the Wanderers the best of luck on <planet> and collect your payment of <payment>.`
+	"DL-727" `The Wanderers quickly make their way out of your ship with their equipment to contain the invasive animals. After roughly an hour, they return to your ship with cages that they place into your cargo hold. Now return to <origin> for payment.`
+	"DL-728" `After releasing the animals, the <bunks> Wanderers each thank you for assisting them in returning the animals to <planet> and hand you <payment>.`
+	"DL-729" `The Wanderers quickly make their way out of your ship with their equipment to contain the invasive plant. After roughly an hour, they return to your ship with plants in containers of some sort that they place into your cargo hold. Now return to <origin> for payment.`
+	"DL-730" `After handing the plants off to other Wanderers to plant elsewhere, the <bunks> Wanderers each thank you for assisting them in keeping the plants on <planet> and hand you <payment>.`
+	"DL-731" `Once you land on <planet>, several uniformed Wanderers drive the Unfettered prisoners off of your ship. You collect your payment of <payment>.`
+	"DL-732" `The Wanderers tour the planet to investigate the environmental problems this Kor Efret world faces. They try to point out specific things to the Korath accompanying them, but it's not very effective. After a few hours, they've gathered enough data and are ready to return home.`
+	"DL-733" `When you return, the Wanderers thank you for taking them to the Kor Efreti and hand you <payment> before disembarking.`
+	"DL-734" `As you take off from <origin>, you notice a few small Mereti drones take off with you and follow alongside your ship.`
+	"DL-735" `The Mereti drones from earlier are still waiting at the spaceport when you arrive. Va'ika quickly disembarks and starts conversing with the locals, pausing only briefly to tell you to meet her in the spaceport.`
+	"DL-736" `You have arrived on <planet>, but you have left the <npc> behind. It's carrying the plant, so you ought to take off and wait for it to arrive.`
+	"DL-737" `You have returned to <planet>, but you don't yet have a the component that is controlling the Kor Mereti drones. Depart and attempt to board one of the drones to plunder one.`
+	"DL-738" `You have returned to <planet>, but you don't yet have a the component that is controlling the Kor Sestor drones. Depart and attempt to board one of the drones to plunder one.`
+	"DL-739" `There are still Kor Mereti drones circling overhead. You should help the Wanderers to drive them off.`
+	"DL-740" `As the last of the Kor Mereti raiding party is destroyed, you receive a message from Sobari Tele'ek. "Please join us at the [base, settlement] as soon as you are able to," he says. "We will need to [agree, decide] on a strategy to deal with these [robots, drones] in case their attacks grow worse."`
+	"DL-741" `You land on <planet>, but realize that your escort carrying Rek hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-742" `You've reached <planet>, but you left one of the Quarg ships behind. Better depart and wait for it to arrive.`
+	"DL-743" `You enter the target system and begin recording the communications of the Kor Mereti drones. It may take a while to collect all the data that the Wanderers need, but they have set up their equipment to notify you when it is done collecting.`
+	"DL-744" `The Wanderer recording device chirps at you to let you know that it has collected enough data. Time to return to <planet>.`
+	"DL-745" `You've returned to <planet>, but you don't have enough data for the Wanderers. Return to Mesuket and wait until the device notifies you that it has enough data.`
+	"DL-746" `The Kor Mereti drones have been neutralized. You should land on the planet and reconnect with Rek and the Korath engineers.`
+	"DL-747" `You land on <planet>, but realize that your escort carrying Meto Pa'aret and the Mind hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-748" `You land on <planet>, but realize that your escort carrying Wanderer engineers and the Mind hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-749" `This star system is in utter chaos. A vast number of Mereti drones are here. Some are attacking each other. Others are attacking the Wanderers. And still others, sadly, seem intent on attacking you. You'll have to hold them off as long as you can, while trying to stay on the good side of the drones that now seem to be defending you.`
+	"DL-750" `The last of the hostile Kor Mereti drones are destroyed; the remaining drones are not attacking the Wanderers. It is not entirely clear what has happened, but hopefully the Wanderers back on <planet> will have gained some information through the backdoor connection to their AI.`
+	"DL-751" `You've landed on <planet>, but there are still hostile Kor Mereti drones in the Chimitarp system. Better depart and make sure they've been taken care of.`
+	"DL-752" `You've reached <planet>, but your escort who is carrying the dead plant hasn't arrived in the system yet. Better depart and wait for it.`
+	"DL-753" `You've reached <planet>, but you left the Wanderer ship behind. Better depart and wait for it to arrive.`
+	"DL-754" `You've reached <planet>, but the Korath ship isn't here yet. Better depart and wait for it to arrive.`
+	"DL-755" `That was the last of the Kor Sestor planets that the Wanderers asked you to scan. Time to return to <planet> with the data.`
+	"DL-756" `There is indeed a Kor Sestor fleet here, but it is nowhere near as large as the messenger indicated. Either the messenger was exaggerating, or some of the fleet has already fled.`
+	"DL-757" `There are still Kor Sestor ships overhead. You should take off and rejoin the battle.`
+	"DL-758" `You've returned to <planet>, but you haven't yet found out where the Sestor fleet has gone. Keep searching for it; it's dangerous letting such a powerful hostile fleet roam free.`
+	"DL-759" `There are still Sestor warships overhead. You should take off again and assist in the fight.`
+	"DL-760" `The Kor Sestor fleet has been driven off. Time to land and see what Danforth thinks you should do next.`
+	"DL-761" `You've reached <planet>, but you've either left one of the Quarg warships behind, or your escort carrying the medical supplies from Elias hasn't entered the system yet. Better depart and wait for it.`
+	"DL-762" `You go to push the device out of the airlock, but realize that you left it on one of your escorts. Better depart and wait for it to enter the system.`
+	"DL-763" `Danforth notices your ship land as the sky lights up with the explosions of Navy ships. "Did you use the bomb?" he asks. The stress in his voice is palpable. You shake your head. "Then what the hell are you doing here? Get up there and drop the bomb already!"`
+	"DL-764" `Against all odds, all the Kor Sestor ships attacking the Oathkeepers have been destroyed. Maybe you won't have to use Danforth's bomb after all.`
+	"DL-765" `All of the Kor Sestor ships in this system have been eliminated.`
+	"DL-766" `You've returned to <planet>, but not all of the Sestor ships in Alnilam have been defeated yet. Return to the system and make sure they are all destroyed.`
+	"DL-767" `You've reached <planet>, but not all of the Navy Cruisers have entered the system yet. Better depart and wait for them to arrive, because there's no way you're going to assault the Alpha base without them.`
+	"DL-768" `You've reached <planet>, but not all of the Navy Cruisers have entered the system yet. Better depart and wait for them to arrive.`
+	"DL-769" `You fire up your ship's sensors and log the identification numbers and markings of the Kor Sestor ships in this system.`
+	"DL-770" `You've returned to <planet>, but you haven't yet made contact with the Korath exiles. Travel to the core of the galaxy and look for a way to make contact with them.`
+	"DL-771" `You have reached <planet>, but you're missing something! Either you've left one of the Korath ships behind, or your escort carrying Rek hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-772" `There are still Kor Sestor drones overhead. You should go fight them off so the Korath exiles are not attacked while trying to disable the factories.`
+	"DL-773" `There are several Kor Mereti and Kor Sestor drones in this system, and they don't look friendly. You should report to the Wanderers that the exiles have begun manufacturing drones of their own.`
+	"DL-774" `Your ship is surrounded by the birdlike aliens. When you step onto the planet, one of the aliens seems to recognize you. "Ka'hai?" they seem to ask, once again mimicking the rodent-like ears of the Hai with their feathered limbs. You shake your head, for you have returned without a Hai to act as an interpreter. Maybe it would be wise to actually go to the Hai before returning to see if one will come with you.`
+	"DL-775" `Your ship is surrounded by the birdlike aliens. When you step onto the planet, one of the aliens seems to recognize you. "Ka'hai?" they seem to ask, once again mimicking the rodent-like ears of the Hai with their feathered limbs. You attempt to gesture to Sayari, but become embarrassed when you realize that you left her on one of your escorts that hasn't yet entered the system. Better depart and wait for it to arrive.`
+	"DL-776" `There are still Unfettered warships overhead. You should take off again and assist in the fight.`
+	"DL-777" `When you land on <planet>, you ask one of the Wanderers where the food shipment is. They only tilt their head and respond to you in the Wanderer language. You look around for Iktat Rek to translate, but you realize that you left him on one of your escorts that hasn't yet entered the system. Better depart and wait for it to arrive.`
+	"DL-778" `You've landed on <planet>, but you're missing something! Either the <npc> hasn't entered the system yet, or Iktat Rek is on one of your escorts that hasn't entered the system yet. Better depart and wait for it.`
+	"DL-779" `When you return to <planet>, you're approached by Sayari and a few of the Wanderer elders. "Where is Iktat Rek?" Sayari asks. You realize that you left him on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-780" `You have not yet tried to sell the Unfettered Hai a jump drive. Return here after doing so.`
+	"DL-781" `You cycle the airlock and dump a handful of the tiny Wanderer surveillance cubes into space. By the time they've drifted a few meters away, your ship's sensors are unable to detect them.`
+	"DL-782" `Using the transmitter that came with the surveillance cubes, you send out the signal and receive back the encrypted fleet activity recordings.`
+	"DL-783" `As you enter the system, Elias checks his tracker device. "Yup, I'm picking up signs of a jump-enabled Carrier," he says. "The path goes east, beyond the edge of Hai space."`
+	"DL-784" `Elias checks the tracker again. "Southeast, from here," he says. Meanwhile, your ship's warning sirens begin going off; there are alien ships here, and they don't seem friendly.`
+	"DL-785" `Elias checks the tracker. "Still due southeast," he says. "And I hope those Korath ships aren't on the same side as the Alphas."`
+	"DL-786" `Elias fiddles with his tracking device for a while, and then gives up. "Sorry, I'm not reading any signals here. Maybe they jumped right over this system?"`
+	"DL-787" `Elias says, "Found their trail. They've turned and headed east again, and maybe a little bit north."`
+	"DL-788" `Elias frowns as he looks at the tracker's readout. "I think we've taken a wrong turn. No sign of jump drives being used in this system," he says.`
+	"DL-789" `When you enter this system, your sensors pick up a Navy Carrier in orbit around an Earth-like planet. It appears that you have found the Alpha base. "That's them," says Hanover. "I hope you're strong enough to destroy them." The Carrier starts to launch fighters: Korath ones, not human ships. This might be a difficult fight...`
+	"DL-790" `The Alpha Carrier has been destroyed. You can now return to the Quarg ringworld and plan your next steps.`
+	"DL-791" `You've returned to <planet>, but you have a feeling that your job isn't done. Either find where the Alphas are hiding, or return to where they are hiding and finish what you started.`
+	"DL-792" `You've landed on <planet>, but you realize that Elias is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive before meeting with Admiral Danforth.`
+	"DL-793" `You have reached <planet>, but you left Danforth's ship behind. Wait for him to arrive (or go back and refuel him, if necessary) and then return here.`
+	"DL-794" `You've landed on <planet>, but you realize that Elias is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-795" `You land on <planet>, but realize that your escort carrying Isai hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-796" `You return to <planet> without any more information on who or what controls the Eye. Perhaps the answer is closer than you think.`
+	"DL-797" `You land on <planet>, but realize that your escort carrying Sayari hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-798" `That was the last of the new Unfettered ships. You can now report back to Tele'ek on <planet>.`
+	"DL-799" `Tele'ek approaches you when you land. "I have [reports, word] that the Unfettered ships are still [present, alive] within Prakacha'a. Please destroy them all before returning."`
+	"DL-800" `You've landed on <planet>, but not all of the Riptide transports carrying the refugees are in the system. Better depart and wait for them all to arrive.`
+	"DL-801" `You land on <planet>, but realize that your escort carrying Iktat Rek hasn't entered the system yet. Better depart and wait for it to arrive.`
+	"DL-802" `You've returned to <planet>, but you haven't yet entered the Sko'karak system to investigate. Better depart and make sure you visit it before returning.`
+	"DL-803" `There is an incoming message on your communications device. "Greetings, human <first> <last>. This message is from the Quarg that is named Adrauni. Return to <planet> at the first opportunity given to you."`

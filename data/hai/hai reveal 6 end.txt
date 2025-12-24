@@ -15,30 +15,30 @@
 
 mission "Hai Reveal [C01] Cleanup"
 	landing
-	name "Hai Diplomacy"
-	description "With the crisis now averted, all that remains is to go to Mountaintop for the formalities."
+	name "<NM-720>"
+	description "<DS-2729>"
 	source "Hai-home"
 	destination "Mountaintop"
 	passengers 4
-	blocked "You need <bunks> passenger spaces to transport Xilin, Alondo, Sayari and Teeneep."
+	blocked "<BL-60>"
 	to offer
 		has "Hai Reveal [B14] Journey to Peace: done"
 	on offer
 		event "mountaintop ascendant"
 		fail "Hai Reveal [B12-A] Devil-Hide Fleet"
-		log `Returned the Hai to their own space to bring an end to the missing Hai saga. Choot'k tried, unsuccessfully, to recruit Teeneep to the Unfettered. They spoke of a future peaceful unification of the Hai, though differ on the specifics despite their closeness. There is one last trip to do for official matters.`
+		log `<LG-421>`
 		"reputation: Hai (Unfettered)" >?= 10
 		conversation
-			`When you land, you, Teeneep, and the Unfettered Hai are greeted as heroes. Word has traveled ahead of you through the new message links, and you are greeted by a hastily planned celebration in the capitol. After a few hours involving a brief formal parade, a great deal of cheering, some minor speeches with Xilin and Alondo trotted out to reassure everyone that there would be no conflict, and finally some more discrete parties outside the public eye, General Choot'k comes to you and Teeneep to bid his farewell.`
-			`	He shakes your hand and says, "You're a fine warrior, Captain <last>. You are as much a True Hai as any human can be, and it was an honor to fight alongside you in battle."`
-			`	Then he turns to Teeneep and tells her, "You're the future leader of all our people, Teeneep. Come back with me to Darkcloak. Join the True Hai and lead us to victory."`
-			`	Teeneep smiles and says, "My fight is here, general. I fight for the hearts and minds of our Fettered brethren that we may find a true path. One day we will again be one people."`
-			`	Teeneep is quiet for a while after he departs, but soon enough the statesperson in her has walked you back into the celebrations, making sure to leave you with Sayari so she can keep you from embarrassing yourself.`
-			`	You're nursing the warmth of a beverage after breakfast the next morning on far too little sleep when your communicator pings. When it turns out to be Sayari, you take a moment to thank your body clock for ensuring you were already dressed and decent today, despite the suffering over it.`
-			`	"So glad to see that you've pulled up alright this morning," she says. "As one final thing, we all need to go and meet the human leaders on Mountaintop and finally close the book on this chapter. We could take any ship at this point, but I cannot overstate how much you've helped us. I thought you might like to see it through to the end.`
-			`	"We'll be ready to go in a couple of hours. What do you say?"`
+			`<CN-14110>`
+			`<CN-14111>`
+			`<CN-14112>`
+			`<CN-14113>`
+			`<CN-14114>`
+			`<CN-14115>`
+			`<CN-14116>`
+			`<CN-14117>`
 			choice
-				`	"Seems silly not to come on the final trip. Of course I'll take you."`
+				`<CN-14118>`
 					accept
 		# Taking the diplomats (all) and Teeneep to Mountaintop; for the public resolution, spirit of this was already drafted in the days while you returned.
 		# This treaty is essentially a 'resolution' to commit to a broader and more detailed treaty to be negotiated in full.
@@ -46,46 +46,46 @@ mission "Hai Reveal [C01] Cleanup"
 	on accept
 		fail "Hai Reveal [B01-A] The Blockade Goes Up"
 	on complete
-		log `The Free Worlds, Republic, and Hai Elders have signed a resolution to ensure safe passage for Hai in human space, on the condition that they register with a customs authority on Mountaintop. Any Hai sent against their will into human space will be recovered alive if possible, regardless of the risk to human soldiers. However, human authorities will not change their approach towards regular human pirates and slavery, citing "unsustainable loss of life."`
-		log `Have learned that during the crisis a single ship loaded with kidnapped Hai was misplaced and abandoned. They require rescue and may indicate the presence of a loose end.`
+		log `<LG-422>`
+		log `<LG-423>`
 		conversation
-			`Arriving on Mountaintop, you see the station has seen serious renovations including a grand ballroom, all manner of diplomatic suites, and a notable lack of movie props. Rather than actors and stage crew, you see many familiar and unfamiliar people in full diplomatic regalia, and dress uniforms laden with medals abound on all sides. The Chancellor of the Free Worlds and President of the Republic are in their most respectable suits, while Alondo and Xilin have the traditional symbols of office (though Alondo's looks like the Free Worlds have perhaps not finalized their design just yet). You appear to be a guest of honor, occasionally being called upon to answer idle queries from people seeking clarity on one point or another but otherwise left to yourself. As you mingle with those taking a break from their duties throughout these preliminary meetings, you notice Remington and Terry are conspicuously absent.`
+			`<CN-14119>`
 			choice
-				`	(Ask Xilin about it.)`
-				`	(Ignore it.)`
+				`<CN-14120>`
+				`<CN-193>`
 					goto "public broadcast"
 			branch "president aside"
 				has patronizedthepresident
-			`	Between scheduled sessions, Xilin explains the Syndicate's absence. "The Syndicate is technically part of the Republic and awarded no special diplomatic status. Besides, Terry seems to have disappeared from Syndicate communications, though I won't hazard a guess as to their internal politics."`
+			`<CN-14121>`
 				goto "public broadcast"
 			label "president aside"
-			`	At one quiet point between structured meetings, during which the peripheral conversations are more focused on the particulars of the Free Worlds' position, you manage to get a hold of Xilin to ask about it. He explains the Syndicate's absence. "The Syndicate is technically part of the Republic and awarded no special diplomatic status. Besides, Terry seems to have disappeared from Syndicate communications, though I won't hazard a guess as to their internal politics."`
-			`	Perhaps seizing on the opportunity to get a momentary reprieve from more official business, the President himself steps in to fill the gap as soon as Xilin departs. It seems that you acquire a bubble of space around you whenever anyone of note stands next to you, and the President exploits this. "You know," he says quietly, while staring out at the many people hustling about at their business, "it's not very often that someone has the gall to patronize me to my face... I usually have to pay people to do that, or at least, to do it constructively anyway."`
-			`	The pause he leaves between sentences is just slightly too short to invite a response. "If you ever decide on a career change, that might be an option for you."`
-			`	He exhales through his nose as if chuckling at something humorous. "Fly safe, Captain; a lot of people know who you are now."`
-			`	With that he steps away directly to meet an aide who had been hurrying towards you both, intent on ignoring the bubble. From across the room you catch Xilin with his eyebrows raised, giving you a curious look despite being engaged in his own conversation. Neither of them speak to you again for the remainder of the meetings.`
+			`<CN-14122>`
+			`<CN-14123>`
+			`<CN-14124>`
+			`<CN-14125>`
+			`<CN-14126>`
 			label "public broadcast"
-			`	Eventually you follow the diplomats to a room called the Grand Borealis Chamber, "Where Mountains Touch The Sky," as Teeneep makes the first publicly broadcast speech from the Hai to humanity. The three heads of state announce a resolution granting safe passage to all Hai in human space, as long as they register with customs on Mountaintop before entering, and Teeneep expresses similar sentiments for humans visiting Hai space. It is announced that extensive surveillance fleets will be posted on both sides of the wormhole to ensure safety. This meeting will now turn into a multi-day summit to discuss the creation of a formal treaty.`
-			`	As you leave the summit for lunch, Xilin and Sayari intercept you.`
-			`	"Trouble. We need to talk," says Xilin. You follow them to a private meeting room.`
+			`<CN-14127>`
+			`<CN-14128>`
+			`<CN-14129>`
 			choice
-				`	"What's wrong?"`
+				`<CN-14130>`
 					goto whut
-				`	"Really? I thought we had figured everything out."`
+				`<CN-14131>`
 					goto "need to talk"
-				`	"Hey, don't worry. Whatever it is, I'm sure we've been through worse."`
-			`	Sayari rolls her eyes and says, "Don't relax yet, Captain <last>. There is one more minor disaster to be averted."`
+				`<CN-14132>`
+			`<CN-14133>`
 				goto whut
 			label "need to talk"
-			`	Sayari says, "It would have been too easy if it was all over. We have one more minor disaster to avert first."`
+			`<CN-14134>`
 			label whut
-			`	Xilin begins. "It seems that somewhere along the way, a shipload of kidnapped Hai didn't make it to a processing area. The Hai were left on Sunracer, and the ship appears to have disappeared."`
-			`	"For the moment," says Sayari, "We're the only ones who know about it. The Hai are in hiding but have tapped into a communication grid. I intercepted their transmission as it was routed through this station directly."`
-			`	Xilin looks at you pointedly. "We need you to go pick them up and bring them here. While you're at it, make sure there aren't any loose ends. If there are, this resolution may not happen, despite everything we've achieved."`
+			`<CN-14135>`
+			`<CN-14136>`
+			`<CN-14137>`
 			choice
-				`	"Of course. I'll take care of it."`
-				`	"You deal with the diplomacy, and leave the heroism to me."`
-			`	The two look considerably less worried as you leave to solve this one last problem.`
+				`<CN-14138>`
+				`<CN-14139>`
+			`<CN-14140>`
 
 event "mountaintop ascendant"
 	system "Ultima Thule"
@@ -104,59 +104,59 @@ event "mountaintop ascendant"
 		government "Hai"
 		attributes hai "hai tourism"
 		landscape land/station0
-		description `This brand new station is built with wide, spacious interiors to accommodate the Hai's preferred geometric development pattern and long-term perspectives. The powerful holoprojection system, which once projected an "anomaly" into space to cover the wormhole, is now inactive. Now that the Hai are entering public relations with human governments, this station has come into its own. A wide concourse facilitates social and business exchanges, as well as parades and demonstrations. The two uppermost decks handle state functions and diplomatic services, including the now famed Borealis Chamber, formally referred to as "Where Mountains Touch The Sky," where the public acknowledgment of the Hai was first given, and where the two species committed a formal resolution to define a treaty of cooperation.`
-		spaceport `The spaceport is a spacious docking assembly sheltered under broad, carapace-like structures which are arrayed around the lower decks like petals. It is designed to look impressive, and still has that shiny look and freshly oiled smell of a newly minted construction, though it has only basic facilities and services.`
+		description `<DS-2730>`
+		spaceport `<SP-587>`
 		security 1
 	
 mission "Hai Reveal [C02] Cleanup"
 	landing
-	name "Hai Diplomacy"
-	description "Pick up a misplaced group of kidnapped Hai and find out what happened."
+	name "<NM-720>"
+	description "<DS-2731>"
 	source "Mountaintop"
 	stopover "Sunracer"
 	destination "Mountaintop"
 	passengers 23
-	blocked "You need <bunks> passenger spaces to pick up the misplaced Hai; make sure you have that, and then return here."
+	blocked "<BL-61>"
 	to offer
 		has "Hai Reveal [C01] Cleanup: done"
 	on stopover
 		conversation
-			`Arriving on Sunracer, you follow the coded coordinates you were given to avoid drawing unnecessary attention. With the Hai's first public appearance only just days past and still dominating the news cycle, you've been instructed to keep this as low-profile as possible. Fortunately, a glance at the feeds your ship picks up seems to indicate that the government response has taken the wind out of the more sensationalist talking heads - or at least the ones with notable followings.`
-			`	The coordinates turn out to lead to a lean-to town built around a Star Barge. The Hai here were unable to all fit on the ship and appear to have built shelters out of local flora to keep out the weather. The communicator on the barge must be what was used to send a message. You find a clear space to land not too far away and make your way over.`
-			`	One of the Hai approaches you. "Are you Captain <last>?"`
+			`<CN-14141>`
+			`<CN-14142>`
+			`<CN-14143>`
 			choice
-				`	"Yes, that is me."`
-			`	He appears visibly relieved. "Oh good. We've been very concerned since we were dropped here. It's all very strange... we've no idea what's going on anymore."`
+				`<CN-14144>`
+			`<CN-14145>`
 			label responses
 			choice
-				`	"The Hai are no longer a secret in human space, but they are concerned how you ended up here."`
+				`<CN-14146>`
 					goto revealed
 					to display
 						not "Hai Reveal [C02] Cleanup: label revealed"
-				`	"What happened to the ship that brought you here?"`
+				`<CN-14147>`
 					goto kidnappers
 					to display
 						not "Hai Reveal [C02] Cleanup: label kidnappers"
-				`	"Well, let's get you home before anything else happens."`
+				`<CN-14148>`
 					goto depart
 			label revealed
 			action
 				set "Hai Reveal [C02] Cleanup: label revealed"
-			`	"Ah, we thought we saw something about that, but our comms are spotty, so we didn't rely on it. We all actually signed up to go to Mountaintop to take part in the facade, so it seemed especially suspicious."`
-			`	He shrugs. "An abundance of caution seemed warranted; we were kidnapped, after all."`
+			`<CN-14149>`
+			`<CN-14150>`
 				goto responses
 			label kidnappers
 			action
 				set "Hai Reveal [C02] Cleanup: label kidnappers"
-			`	"We were en route to somewhere after the ship left Hai space. We don't really know what happened, but they received some kind of message that left them very concerned. They said something about hiding somewhere safe and landed here."`
-			`	At this point, he twists his face in a non-human manner you recognize as a Hai frown. "We were set down here for days and days. Our kidnappers couldn't seem to work out what they should do. Eventually, a woman landed next to us in this ship here," he explains, gesturing at the Star Barge. "She had them ferry us and all our stuff out to this ship, and then she took charge and flew off with them. That was when we sent the message. We were partly afraid it was some kind of elaborate trap when we saw that we could communicate to a Hai address directly. We never used to be able to communicate between human space and ours like that. I guess we were lucky this time."`
+			`<CN-14151>`
+			`<CN-14152>`
 			choice
-				`	"Do you know where they went?"`
-				`	"What did this woman look like?"`
-			`	"The woman was very fierce and very strict about what people said aloud. She disciplined a number of our kidnappers in front of us for opening their mouths at the wrong time. We have no idea where they went, but we did hear one of them say that they were afraid they wouldn't be welcome there. It sounded like it was out of the way somewhere, wherever it was."`
+				`<CN-14153>`
+				`<CN-14154>`
+			`<CN-14155>`
 				goto responses
 			label depart
-			`	The Hai sincerely thanks you, and they load their meager possessions and board your ship in less than twenty minutes. The Star Barge isn't in good shape after being lived in instead of flown, so you leave it behind. The woman they described is almost undoubtedly Terry.`
+			`<CN-14156>`
 
 
 mission "Hai Reveal [C02A] Cleanup"
@@ -166,35 +166,35 @@ mission "Hai Reveal [C02A] Cleanup"
 	to offer
 		has "Hai Reveal [C02] Cleanup: active"
 	on enter Mirfak
-		dialog `A message from Stephen Moray pops up before you can depart Mirfak. "Hey, Captain. It seems Terry has gone missing; if you see her, let her know she will lose her position if she doesn't return to her duties soon."`
+		dialog `<DL-605>`
 		fail
 
 
 mission "Hai Reveal [C03] Cleanup"
 	landing
-	name "Loose Ends"
-	description "See if you can find Terry. She might have been involved in the kidnappings."
+	name "<NM-721>"
+	description "<DS-2732>"
 	source "Mountaintop"
 	destination "Freedom"
 	to offer
 		has "Hai Reveal [C02] Cleanup: done"
 	on offer
-		log `Recovered Hai after mysterious circumstances left them on Sunracer. Heading to Freedom to follow up on a hunch about this loose end. Will hopefully find answers there.`
+		log `<LG-424>`
 		conversation
-			`	When you return to Mountaintop, an all-Hai greeting party is waiting to provide aid and coordinate the safe return of those you've rescued from Sunracer. It appears to have avoided media attention, and the summit is progressing toward a resolution at an acceptable rate. It's been slow going: the Hai and human legal systems are so different that establishing common legal terms of reference has been a long-winded exercise.`
-			`	You've had a couple of days to contemplate the turn of events that led to you hauling a group of spontaneously abandoned Hai out of Syndicate space. The timing seems suspect, the individual seems familiar, and there's just something about what the Philosophers said that you just can't shake.`
-			`	While your passengers are quietly loaded onto a handful of transports to be taken home, Sayari and Xilin find you somewhere quiet. "Thank you, <last>. You had all the necessary discretion at this sensitive time," says Sayari.`
-			`	Xilin is more direct, "I'll certainly thank you for saving me from another headache. Was there anything else you found? It seems so odd."`
+			`<CN-14157>`
+			`<CN-14158>`
+			`<CN-14159>`
+			`<CN-14160>`
 			choice
-				`	"There is something, but I should deal with it myself."`
-			`	They both frown and huddle in closer. "Do you think some of the kidnappers escaped? Do you think they'll continue?" asks Sayari.`
+				`<CN-14161>`
+			`<CN-14162>`
 			choice
-				`	"No, but I think there's one thing I should check out."`
-			`	Xilin raises an eyebrow. "Is this something I'm going to have to report?"`
+				`<CN-14163>`
+			`<CN-14164>`
 			choice
-				`	"Not if I can help it."`
-				`	"Hopefully not, but we'll see."`
-			`	You leave them with only guesses. You're not entirely sure yourself what's going on, but you do know one thing: you have to go to Freedom, where this all began.`
+				`<CN-14165>`
+				`<CN-14166>`
+			`<CN-14167>`
 				accept
 
 # These don't have to be here, but this is where they used to be defined by event, and these are the systems used for this going forward.
@@ -248,53 +248,53 @@ system "Al Hurr"
 planet Aspiration
 	attributes pirate
 	landscape land/sea17-harro
-	description `The world of Aspiration appears to be a mild, habitable world, but one currently in an advanced ice age now slowly retreating. The equatorial region of the planet is warm and comfortable, a cool temperate at the present time. The native biosphere seems to be mostly grasses and something resembling pine trees. In a few thousand years, it might look similar to Earth before it was paved over. For now, it's a sparse world with a single major town built on a promontory, overlooking a wide river mouth which carries runoff from continental scale glaciers to the sea.`
-	spaceport `The spaceport on Aspiration is a spaceport in the same way that an airport at a regional town is an airport. It has the most minimal facilities to handle a ship landing without disturbance to the nearby town, and that is it. There are no shops or stalls. Aspiration is not on any trade routes and it does not expect visitors. A lone freighter is parked permanently on the outskirts.`
+	description `<DS-1067>`
+	spaceport `<SP-64>`
 
 
 
 mission "Hai Reveal [C04] Cleanup"
 	landing
-	name "Loose Ends"
-	description "Find Aspiration in the Al Hurr system. It wasn't on the maps before, but it's supposed to be close by."
+	name "<NM-721>"
+	description "<DS-2733>"
 	source "Freedom"
 	destination "Aspiration"
 	clearance
 	to offer
 		has "Hai Reveal [C03] Cleanup: done"
 	on enter Almaaz
-		dialog `As you depart the planet, you notice a new system has appeared on your scanners to the southwest. You should adjust your destination accordingly.`
+		dialog `<DL-606>`
 	on offer
 		event "lofty goals"
-		log `Confirmed the loose end is Terry. Discovered the existence of another system in the Far North only accessible via jump drive.`
+		log `<LG-425>`
 		conversation
-			`	When you land on Freedom, the spaceport is busy as ever, but as you go around asking if anyone has seen a woman matching Terry's description, people start acting unusually toward you. You wouldn't describe it as frosty: no one actually seems to know anything, and they remain as friendly and helpful as you'd expect a bunch of anarchists to be. Yet, the more you ask around, the more it seems that people are following you around and whispering to each other. You wonder just who Terry really is, and just how deeply involved she was. She seems to have been one step ahead all the way.`
-			`	As you go down a short, wide alley flanked by tall buildings, you hear the creak of hinges behind you and turn around to see a great wooden gate being closed. The same happens in front of you at the other end of the alley, and the people in the alley suddenly disappear through doorways. As you're looking around, you realize nearly a dozen plasma rifles are pointing at you from windows in upper floors.`
+			`<CN-14168>`
+			`<CN-14169>`
 			choice
-				`	(Shout.)`
-				`	(Draw your weapon.)`
-				`	(Raise your hands.)`
+				`<CN-14170>`
+				`<CN-13922>`
+				`<CN-14171>`
 					goto surrender
-			`	The people in the windows don't take very kindly to your decision, and very quickly make sure it's your last.`
+			`<CN-14172>`
 				die
 			label surrender
-			`	An elderly woman arises from her seat in a deep-set alcove and shuffles out in front of you with a gnarled, wooden walking stick. Despite her weathered skin and obvious age, her eyes are clear as she looks at you with veiled judgment. "You are a long way from home, Captain <last>."`
+			`<CN-14173>`
 			choice
-				`	"I suppose that is true."`
-			`	She chuckles. "Now, what would bring the infamous war hero all the way to my humble abode?"`
-			`	"I'm looking for Terry Adrianopolous, I believe she might have come here," you answer.`
-			`	"Oh, I know very well who you're looking for, Captain," she says. "My question has more to do with the why."`
+				`<CN-14174>`
+			`<CN-14175>`
+			`<CN-14176>`
+			`<CN-14177>`
 			choice
-				`	"I need to tie up some loose ends."`
-				`	"I need to know the answer to a question."`
+				`<CN-14178>`
+				`<CN-14179>`
 					goto question
-			`	She shakes her head, "The only loose end here is you."`
-			`	The people in the windows open fire.`
+			`<CN-14180>`
+			`<CN-14181>`
 				die
 			label question
-			`	She stares into your eyes for a few long seconds, and then she bows her head. You think you catch sight of a tear glistening as she turns away. "If you have the means, point your scanners towards Mebsuta from here. Seek out Aspiration."`
-			`	Her voice catches at the end, and she looks back at you from the corner of her eye. "If you have it in your heart to do so, please, do not harm my great-granddaughter."`
-			`	She steps to a doorway and vanishes inside. Within seconds, the windows are closed, the gates are open, and you are left alone in the alley with the bustle of the spaceport beyond.`
+			`<CN-14182>`
+			`<CN-14183>`
+			`<CN-14184>`
 				accept
 	# This is a gamble. If you indicate in any way that you are overtly hostile, she'll kill you and deal with the consequences later.
 	# She also knows that if you go missing, someone else will come looking. Someone will eventually find her great-granddaughter, and she can't intercept everyone.
@@ -308,8 +308,8 @@ event "lofty goals"
 
 mission "Hai Reveal [C05] Cleanup"
 	landing
-	name "Loose Ends"
-	description "Return to the summit and assure Sayari and Xilin that there will be no further problems."
+	name "<NM-721>"
+	description "<DS-2734>"
 	source "Aspiration"
 	destination "Mountaintop"
 	clearance
@@ -317,120 +317,120 @@ mission "Hai Reveal [C05] Cleanup"
 		has "Hai Reveal [C04] Cleanup: done"
 	on offer
 		conversation
-			`Your arrival is unobstructed as you land on this mild, habitable world that appears to be in an advanced, but retreating, ice age. No one comes to greet you at the spaceport, either. As you wander into the single major town, built on a promontory overlooking a wide river mouth, you notice that the people here seem to be happy and the town appears to be remarkably modern. This place has been looked after by someone who knew how to source the necessary import goods to support it on this sparse world of grasses and something resembling pine trees - someone who was Chief of Operations of the Syndicate, for example...`
-			`	You spend about fifteen minutes looking around before a young boy walks up and addresses you. "Hey, stranger sir. I've been asked to tell you that Terry is out on the bluff waiting for you."`
+			`<CN-14185>`
+			`<CN-14186>`
 			choice
-				`	"Who are you?"`
-				`	"How do you know Terry?"`
-				`	"What is this place?"`
-			`	Before you can respond, he's dashed away.`
-			`	When you get out to the bluff, there is a single individual standing on a level section with scrubby grass tufting between bare rock. The city is obscured from here, and you could believe you were isolated from all of civilization. As you approach, it becomes clear the individual is indeed Terry. The wind whips her hair around her constantly, and there is a chill here that is only partly the fault of the wind. Could this one young woman really have been behind all of this trouble, all of this death and suffering, everything that was risked between the Hai and humanity?`
-			`	As you approach, she turns, and you can see she has been crying. "You know you ruined everything," she says. "We were so close." The wind almost steals her last word and you unconsciously step closer to hear her better, causing her to tense.`
+				`<CN-678>`
+				`<CN-14187>`
+				`<CN-14188>`
+			`<CN-14189>`
+			`<CN-14190>`
+			`<CN-14191>`
 			choice
-				`	"So close to what?"`
-			`	"To changing everything, to remaking the Syndicate, to creating a whole new political order."`
-			`	She wipes away a tear and visibly steels herself to speak, "I was Alastair's chosen successor, I had already dealt with the competition, a few more years and I'd have been a hero!"`
-			`	She turns slightly and gestures at the sea. "Instead now I'm here, and you get to be the hero, a dumb war hero," her voice rises in pitch and volume, "Never mind a brighter future for humanity!"`
-			`	Her expression seems to be wrestling between fury and despair at this point, "So now what? You here to kill me then?!"`
+				`<CN-14192>`
+			`<CN-14193>`
+			`<CN-14194>`
+			`<CN-14195>`
+			`<CN-14196>`
 			choice
-				`	"You kidnapped thousands of people. How is that a brighter future?"`
-			`	"Of course you have no idea!" she throws up her hands and expresses a noise of frustration.`
-			`	Her voice drops to a more reasonable level. "I never wanted to kidnap people," Terry says, then lowers her voice even more. "I inherited that legacy..."`
-			`	"You still profited off it, did nothing to stop it," you point out.`
-			`	Your tone had not been accusatory, but merely matter of fact, and yet they seem to have struck her like a sack of bricks. Her composure shatters, and she begins to sob, sinking to her knees and shielding her face from the wind.`
-			`	"It was never meant to be like this," she forces out between sobs. "But the Philosophers were our only resource, and we weren't in control anymore.`
-			`	"We wanted to reform the government, make it better, make it work for the people instead of against them. We dealt with the devil to keep that dream alive. I guess I should have expected it to get us burnt eventually."`
+				`<CN-14197>`
+			`<CN-14198>`
+			`<CN-14199>`
+			`<CN-14200>`
+			`<CN-14201>`
+			`<CN-14202>`
+			`<CN-14203>`
 			choice
-				`	"Who is 'us?'"`
-			`	She sighs. "My father and I, and a couple of the old survivors of the purge. It's only me left now though, just one Base Principle."`
-			`	You shake your head and ask, "Do you realize you nearly started a war that would have killed millions? Possibly ended human government entirely?"`
-			`	"I know," she says, calm now. "Obviously not my intent, but maybe that would have been better in the long run than the Republic and its corruption. There's no apology appropriate for it, and I can't pretend it would be totally sincere on that front. War changes things; sometimes some pain in the short term is needed for a better future.`
-			`	"The Free Worlds were almost the perfect catalyst, but none of us could have predicted the Pug. Still, that nearly forced Alastair into retirement; it was almost enough. Were it not for the Pug, I would already be running the Syndicate, and there would have been no further risk with the Hai. None of this would have ever happened."`
-			`	Her expression is defiant. "No one would have cared about a few missing people in the world I would have built! It's a necessary sacrifice in the name of progress, and I would've shut down the pirates myself!"`
+				`<CN-14204>`
+			`<CN-14205>`
+			`<CN-14206>`
+			`<CN-14207>`
+			`<CN-14208>`
+			`<CN-14209>`
 			choice
-				`	"It's always fine to say as much about plans that were never fulfilled."`
-				`	"People would have always had a problem with kidnappings."`
-			`	She gives you a hard stare, but her resolve isn't up to the task for more than a couple seconds. She looks away, and you can see her blinking away more tears. "Is this to be my end, then?" she asks. "Is this the price I pay for my efforts?"`
+				`<CN-14210>`
+				`<CN-14211>`
+			`<CN-14212>`
 			label decide
 			choice
 				# First option is to ask for clarification:
-				`	"Am I to be judge, jury, and executioner?"`
+				`<CN-14213>`
 					goto judge
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
 
 				# Next two are the silent endings, which are available regardless:
-				`	(Spare her silently.)`
+				`<CN-14214>`
 					goto spare
-				`	(End her wordlessly.)`
+				`<CN-14215>`
 					goto end
 
 				# Justifications are only available after asking for clarification:
-				`	(Spare her.) "There is no other home for you now. Let that be your justice."`
+				`<CN-14216>`
 					goto spare
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
-				`	(End her.) "Justice is the price you pay."`
+				`<CN-14217>`
 					goto end
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
-				`	(Spare her.) "I've sinned more than you. If people like us decided what is right or wrong, the galaxy would be in cinders."`
+				`<CN-14218>`
 					goto spare
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
 
 				# The callous option is available regardless, but it's after the "I thought about it" options:
-				`	(End her.) "This is for all the trouble you've caused me."`
+				`<CN-14219>`
 					goto end
 
 				# Joke options are only available if you don't care enough to ask for clarification:
-				`	(Spare her.) "Consider this my movie review."`
+				`<CN-14220>`
 					goto spare
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
-				`	(End her.) "Consider this my movie review."`
+				`<CN-14221>`
 					goto end
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
 
 			label spare
-			`	You draw your weapon and point it at her, your thumb on the safety. When you look inside yourself, though, you cannot bring yourself to be her executioner.`
+			`<CN-14222>`
 			action
 				set "spared terry"
-				log `Hunted down Terry on Aspiration and confronted her about the events that led you there. The remnants of the anarcho-syndicalist, anti-Syndicate organization called Base Principles were associated with this planet. There are no other actual individuals here that were involved (at least, not anymore), but this community was built in isolation with people who believed in the principles of anarcho-syndicalism. Allowed her to live, but nevertheless this loose end is thoroughly tied up.`
-				log "People" "Terry Adrianopoulos" `During the Hai-human crisis, Terry was arrested when it seemed like war might break out, but was released when the threat of conflict ended. She immediately vanished and was later identified in association with some lingering kidnappers. It is unclear what happened to them, but it is implied that she dealt with them in some way. It turned out that she had been a lone operative infiltrating the Syndicate for many years, with the goal of seizing control and rebuilding the government to be less corrupt, but she condoned kidnapping and exploitation to achieve it. With her life in ruins, she continues to live on the world of Aspiration, far from civilization.`
-			`	The holster clicks as you put the weapon away.`
+				log `<LG-426>`
+				log "People" "Terry Adrianopoulos" `<LG-427>`
+			`<CN-14223>`
 				goto return
 			label end
-			`	You draw your weapon and point it at her, your thumb on the safety. Some prices are too high to pay for a better future.`
+			`<CN-14224>`
 			action
 				set "ended terry"
-				log `Hunted down Terry on Aspiration and confronted her about the events that led you there. The remnants of the anarcho-syndicalist, anti-Syndicate organization called Base Principles were associated with this planet. There are no other actual individuals here that were involved (at least, not anymore), but this community was built in isolation with people who believed in the principles of anarcho-syndicalism. Chose to end her life. This loose end is thoroughly tied up.`
-				log "People" "Terry Adrianopoulos" `During the Hai-human crisis, Terry was arrested when it seemed like war might break out, but was released when the threat of conflict ended. She immediately vanished and was later identified in association with some lingering kidnappers. It is unclear what happened to them, but it is implied that she dealt with them in some way. It turned out that she had been a lone operative infiltrating the Syndicate for many years, with the goal of seizing control and rebuilding the government to be less corrupt, but she condoned kidnapping and exploitation to achieve it. Her story ended on the bluffs of Aspiration, though no one may ever know it.`
-			`	The retort of the weapon is taken away on the wind.`
+				log `<LG-428>`
+				log "People" "Terry Adrianopoulos" `<LG-429>`
+			`<CN-14225>`
 				goto return
 			label judge
 			action
 				set "Hai Reveal [C05] Cleanup: label judge"
-			`	"You'd better be," she says. "You and I both know that this can't become public. If you take me to the Syndicate they will do away with me if they find out, and I doubt they could manage to not."`
-			`	"Oh, Moray told me to say you're fired if you don't get back quickly... that was over a week ago now," you tell her.`
-			`	She rolls her eyes. "Of course, this is exactly the sort of callous governance I expect of them.`
-			`	"Don't distract from the point though. I can never go back. You're the only one who knows everything, and no one else can know it all. Taking me back is a guarantee that I'll be 'disappeared' - you might as well pull the trigger yourself. You must decide here, now, how this ends.`
-			`	"You are the judge, whether you like it or not, and no one else will carry out your judgment."`
+			`<CN-14226>`
+			`<CN-14227>`
+			`<CN-14228>`
+			`<CN-14229>`
+			`<CN-14230>`
 				goto decide
 			label return
-			`	You return to your ship. You're done here.`
+			`<CN-14231>`
 				accept
 	on complete
 		event "hai-human resolution announced"
 		fail "Hai Reveal [A11-A] Permanent Fleets"
 		fail "Hai Reveal [B02-A] The Blockade Goes Up"
 		conversation
-			`When you return to <planet>, you reassure Sayari and Xilin that there is nothing more to do. The danger is over, for good.`
-			`	As it happens, the summit has functionally concluded by the time you return. In fact, diplomats had been running interference to prolong things, knowing that your return could potentially have critical consequences. Now that you're here, the remaining agenda items miraculously get resolved within hours, and late in the day, you find yourself once again "Where Mountains Touch The Sky," as the successful resolution is announced.`
-			`	The historic moment lays the groundwork for a future official treaty framework and governmental cooperation, as well as establishing <planet> as the principle diplomatic embassy for both peoples. Less publicly, extensive surveillance fleets are posted on both sides of the wormhole to detect any kidnappings or other illegal travel. Now, the only way for illicit transfers to happen is if a government employee is involved, but all three countries have quietly agreed to watch for that behavior and punish it severely.`
-			`	At last, it really is over, and you can get back to your own life.`
-			`	Maybe you'll have to find out who the Unfettered were stealing their other technologies from. They mentioned another group: the "Wanderers."`
+			`<CN-14232>`
+			`<CN-14233>`
+			`<CN-14234>`
+			`<CN-14235>`
+			`<CN-14236>`
 
 
 

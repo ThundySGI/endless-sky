@@ -13,13 +13,13 @@
 
 phrase "coalition ringworld workers"
 	word
-		`You drop off the workers on the <planet>. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10532>`
 
 mission "Coalition: Ringworld Workers 1"
 	job
 	repeat
-	name "Workers to the <planet>"
-	description "Transport this crew of <bunks> workers to the Heliarch <planet>, where they will help in the efforts to maintain and expand the ringworld. Payment will be <payment>."
+	name "<NM-479>"
+	description "<DS-2180>"
 	passengers 5 8 .2
 	to offer
 		has "known to the heliarchs"
@@ -39,8 +39,8 @@ mission "Coalition: Ringworld Workers 1"
 mission "Coalition: Ringworld Workers 2"
 	job
 	repeat
-	name "Workers to the <planet>"
-	description "Transport this crew of <bunks> workers to the Heliarch <planet>, where they will help in the efforts to maintain and expand the ringworld. Payment will be <payment>."
+	name "<NM-479>"
+	description "<DS-2180>"
 	passengers 5 5 .1
 	to offer
 		has "known to the heliarchs"
@@ -60,8 +60,8 @@ mission "Coalition: Ringworld Workers 2"
 mission "Coalition: Ringworld Workers 3"
 	job
 	repeat
-	name "Workers to the <planet>"
-	description "Transport this crew of <bunks> workers to the Heliarch <planet>, where they will help in the efforts to maintain and expand the ringworld. Payment will be <payment>."
+	name "<NM-479>"
+	description "<DS-2180>"
 	passengers 5 3 .04
 	to offer
 		has "known to the heliarchs"
@@ -81,13 +81,13 @@ mission "Coalition: Ringworld Workers 3"
 
 phrase "coalition ringworld volunteers"
 	word
-		`You drop off the volunteers on the <planet>, where they are met by a Heliarch agent. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10533>`
 
 mission "Coalition: Ringworld Volunteers 1"
 	job
 	repeat
-	name "Volunteers to the <planet>"
-	description "The government will pay you <payment> to bring these <bunks> volunteer workers to the <planet>, where they will assist in the construction effort in return for room and board."
+	name "<NM-480>"
+	description "<DS-2181>"
 	passengers 5 3 .3
 	to offer
 		has "known to the heliarchs"
@@ -107,8 +107,8 @@ mission "Coalition: Ringworld Volunteers 1"
 mission "Coalition: Ringworld Volunteers 2"
 	job
 	repeat
-	name "Volunteers to the <planet>"
-	description "The government will pay you <payment> to bring these <bunks> volunteer workers to the <planet>, where they will assist in the construction effort in return for room and board."
+	name "<NM-480>"
+	description "<DS-2181>"
 	passengers 5 10 .5
 	to offer
 		has "known to the heliarchs"
@@ -128,8 +128,8 @@ mission "Coalition: Ringworld Volunteers 2"
 mission "Coalition: Ringworld Volunteers 3"
 	job
 	repeat
-	name "Volunteers to the <planet>"
-	description "The government will pay you <payment> to bring these <bunks> volunteer workers to the <planet>, where they will assist in the construction effort in return for room and board."
+	name "<NM-480>"
+	description "<DS-2181>"
 	passengers 5 4 .2
 	to offer
 		has "known to the heliarchs"
@@ -149,13 +149,13 @@ mission "Coalition: Ringworld Volunteers 3"
 
 phrase "coalition ringworld materials"
 	word
-		`You drop off the construction materials and receive <payment> in payment.`
+		`<WR-10534>`
 
 mission "Coalition: Ringworld Materials 1"
 	job
 	repeat
-	name "Materials to the <planet>"
-	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
+	name "<NM-481>"
+	description "<DS-2182>"
 	deadline
 	cargo "Construction" 10 3 .02
 	to offer
@@ -176,8 +176,8 @@ mission "Coalition: Ringworld Materials 1"
 mission "Coalition: Ringworld Materials 2"
 	job
 	repeat
-	name "Materials to the <planet>"
-	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
+	name "<NM-481>"
+	description "<DS-2182>"
 	deadline
 	cargo "Construction" 10 4 .02
 	to offer
@@ -198,8 +198,8 @@ mission "Coalition: Ringworld Materials 2"
 mission "Coalition: Ringworld Materials 3"
 	job
 	repeat
-	name "Materials to the <planet>"
-	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
+	name "<NM-481>"
+	description "<DS-2182>"
 	deadline
 	cargo "Construction" 10 5 .02
 	to offer
@@ -220,13 +220,13 @@ mission "Coalition: Ringworld Materials 3"
 
 phrase "coalition ringworld supplies"
 	word
-		`You drop off the donation of <commodity> and receive <payment> in payment.`
+		`<WR-10535>`
 
 mission "Coalition: Ringworld Supplies 1"
 	job
 	repeat
-	name "Supplies to the <planet>"
-	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
+	name "<NM-482>"
+	description "<DS-2183>"
 	cargo random 5 10 .2
 	to offer
 		has "known to the heliarchs"
@@ -246,8 +246,8 @@ mission "Coalition: Ringworld Supplies 1"
 mission "Coalition: Ringworld Supplies 2"
 	job
 	repeat
-	name "Supplies to the <planet>"
-	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
+	name "<NM-482>"
+	description "<DS-2183>"
 	cargo random 5 10 .15
 	to offer
 		has "known to the heliarchs"
@@ -267,8 +267,8 @@ mission "Coalition: Ringworld Supplies 2"
 mission "Coalition: Ringworld Supplies 3"
 	job
 	repeat
-	name "Supplies to the <planet>"
-	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
+	name "<NM-482>"
+	description "<DS-2183>"
 	cargo random 5 10 .1
 	to offer
 		has "known to the heliarchs"
@@ -289,8 +289,8 @@ mission "Coalition: Ringworld Supplies 3"
 mission "Coalition: Heliarch Candidate"
 	job
 	repeat
-	name "Candidate to the <planet>"
-	description "You will be paid <payment> for transporting this candidate for elevation to the rank of Heliarch to the <planet> by <date>."
+	name "<NM-483>"
+	description "<DS-2184>"
 	passengers 1
 	deadline 5 1
 	to offer
@@ -306,18 +306,18 @@ mission "Coalition: Heliarch Candidate"
 		"coalition jobs" ++
 		payment
 		payment 50000
-		dialog `Heliarch agents meet your ship as soon as it docks and receive the candidate whom you have been transporting, in a small ceremony. A few minutes later you receive a transfer of <payment>.`
+		dialog `<DL-414>`
 
 
 phrase "coalition interpreters dialog"
 	word
-		`You drop off the interpreters on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10536>`
 
 mission "Coalition: Interpreters 1"
 	job
 	repeat
-	name "Interpreters to <planet>"
-	description "Bring these <bunks> Heliarch agents, trained as interpreters and mediators, to <destination>. Payment is <payment>."
+	name "<NM-484>"
+	description "<DS-2185>"
 	passengers 2 3 .5
 	to offer
 		has "known to the heliarchs"
@@ -337,8 +337,8 @@ mission "Coalition: Interpreters 1"
 mission "Coalition: Interpreters 2"
 	job
 	repeat
-	name "Interpreters to <planet>"
-	description "Bring these <bunks> Heliarch agents, trained as interpreters and mediators, to <destination>. Payment is <payment>."
+	name "<NM-484>"
+	description "<DS-2185>"
 	passengers 2 5 .5
 	to offer
 		has "known to the heliarchs"
@@ -358,8 +358,8 @@ mission "Coalition: Interpreters 2"
 mission "Coalition: Interpreters 3"
 	job
 	repeat
-	name "Interpreters to <planet>"
-	description "Bring these <bunks> Heliarch agents, trained as interpreters and mediators, to <destination>. Payment is <payment>."
+	name "<NM-484>"
+	description "<DS-2185>"
 	passengers 2 10 .5
 	to offer
 		has "known to the heliarchs"
@@ -379,13 +379,13 @@ mission "Coalition: Interpreters 3"
 
 phrase "coalition peacekeepers dialog"
 	word
-		`You drop off the peacekeepers on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10537>`
 
 mission "Coalition: Peacekeepers 1"
 	job
 	repeat
-	name "Peacekeepers to <planet>"
-	description "Transport this corps of <bunks> peacekeepers to <destination> to investigate reports of Lunarium activity. Payment is <payment>."
+	name "<NM-485>"
+	description "<DS-2186>"
 	passengers 10 10 .2
 	to offer
 		has "known to the heliarchs"
@@ -405,8 +405,8 @@ mission "Coalition: Peacekeepers 1"
 mission "Coalition: Peacekeepers 2"
 	job
 	repeat
-	name "Peacekeepers to <planet>"
-	description "Transport this corps of <bunks> peacekeepers to <destination> to investigate reports of Lunarium activity. Payment is <payment>."
+	name "<NM-485>"
+	description "<DS-2186>"
 	passengers 10 5 .1
 	to offer
 		has "known to the heliarchs"
@@ -426,13 +426,13 @@ mission "Coalition: Peacekeepers 2"
 
 phrase "coalition interspecies settlers"
 	word
-		`You drop off the settlers on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10538>`
 
 mission "Coalition: Saryd Interspecies 1"
 	job
 	repeat
-	name "Saryds to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-486>"
+	description "<DS-2187>"
 	passengers 4 2 .1
 	to offer
 		has "known to the heliarchs"
@@ -452,8 +452,8 @@ mission "Coalition: Saryd Interspecies 1"
 mission "Coalition: Saryd Interspecies 2"
 	job
 	repeat
-	name "Saryds to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-486>"
+	description "<DS-2187>"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -473,8 +473,8 @@ mission "Coalition: Saryd Interspecies 2"
 mission "Coalition: Kimek Interspecies 1"
 	job
 	repeat
-	name "Kimek to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-487>"
+	description "<DS-2187>"
 	passengers 4 2 .1
 	to offer
 		has "known to the heliarchs"
@@ -494,8 +494,8 @@ mission "Coalition: Kimek Interspecies 1"
 mission "Coalition: Kimek Interspecies 2"
 	job
 	repeat
-	name "Kimek to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-487>"
+	description "<DS-2187>"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -515,8 +515,8 @@ mission "Coalition: Kimek Interspecies 2"
 mission "Coalition: Arach Interspecies 1"
 	job
 	repeat
-	name "Arachi to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-488>"
+	description "<DS-2187>"
 	passengers 4 2 .1
 	to offer
 		has "known to the heliarchs"
@@ -536,8 +536,8 @@ mission "Coalition: Arach Interspecies 1"
 mission "Coalition: Arach Interspecies 2"
 	job
 	repeat
-	name "Arachi to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-488>"
+	description "<DS-2187>"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -557,13 +557,13 @@ mission "Coalition: Arach Interspecies 2"
 
 phrase "coalition transfer dialog"
 	word
-		`You drop off the workers on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10539>`
 
 mission "Coalition: Transfer 1"
 	job
 	repeat
-	name "Transfer to <planet>"
-	description "As a part of the Full Employment Program, these <bunks> workers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-489>"
+	description "<DS-2188>"
 	passengers 2 10 .3
 	to offer
 		has "known to the heliarchs"
@@ -585,8 +585,8 @@ mission "Coalition: Transfer 1"
 mission "Coalition: Transfer 2"
 	job
 	repeat
-	name "Transfer to <planet>"
-	description "As a part of the Full Employment Program, these <bunks> workers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-489>"
+	description "<DS-2188>"
 	passengers 2 10 .2
 	to offer
 		has "known to the heliarchs"
@@ -608,8 +608,8 @@ mission "Coalition: Transfer 2"
 mission "Coalition: Transfer 3"
 	job
 	repeat
-	name "Transfer to <planet>"
-	description "As a part of the Full Employment Program, these <bunks> workers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "<NM-489>"
+	description "<DS-2188>"
 	passengers 2 10 .1
 	to offer
 		has "known to the heliarchs"
@@ -631,13 +631,13 @@ mission "Coalition: Transfer 3"
 
 phrase "coalition tourists outbound"
 	word
-		`The tourists thank you for bringing them to <planet> and pay you <payment>.`
+		`<WR-10540>`
 
 mission "Coalition: Tourists Out 1"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "<NM-490>"
+	description "<DS-2189>"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -661,8 +661,8 @@ mission "Coalition: Tourists Out 1"
 mission "Coalition: Tourists Out 2"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "<NM-490>"
+	description "<DS-2189>"
 	deadline
 	passengers 2 5 .4
 	to offer
@@ -686,8 +686,8 @@ mission "Coalition: Tourists Out 2"
 mission "Coalition: Tourists Out 3"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "<NM-490>"
+	description "<DS-2189>"
 	deadline
 	passengers 2 5 .3
 	to offer
@@ -711,13 +711,13 @@ mission "Coalition: Tourists Out 3"
 
 phrase "coalition tourists homebound"
 	word
-		`The tourists thank you for bringing them home and pay you <payment>.`
+		`<WR-10541>`
 
 mission "Coalition: Tourists Home 1"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them home to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "<NM-490>"
+	description "<DS-2190>"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -741,8 +741,8 @@ mission "Coalition: Tourists Home 1"
 mission "Coalition: Tourists Home 2"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them home to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "<NM-490>"
+	description "<DS-2190>"
 	deadline
 	passengers 2 5 .4
 	to offer
@@ -766,8 +766,8 @@ mission "Coalition: Tourists Home 2"
 mission "Coalition: Tourists Home 3"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them home to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "<NM-490>"
+	description "<DS-2190>"
 	deadline
 	passengers 2 5 .3
 	to offer
@@ -791,13 +791,13 @@ mission "Coalition: Tourists Home 3"
 
 phrase "coalition fast courier"
 	word
-		`The recipient thanks you for bringing the <commodity> here so quickly, and pays you <payment>.`
+		`<WR-10542>`
 
 mission "Coalition: Fast Courier 1"
 	job
 	repeat
-	name "Fast courier to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
+	name "<NM-491>"
+	description "<DS-2191>"
 	deadline 5 1
 	cargo random 2 20 .6
 	to offer
@@ -819,8 +819,8 @@ mission "Coalition: Fast Courier 1"
 mission "Coalition: Fast Courier 2"
 	job
 	repeat
-	name "Fast courier to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
+	name "<NM-491>"
+	description "<DS-2191>"
 	deadline 5 1
 	cargo random 2 30 .6
 	to offer
@@ -842,8 +842,8 @@ mission "Coalition: Fast Courier 2"
 mission "Coalition: Fast Courier 3"
 	job
 	repeat
-	name "Fast courier to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
+	name "<NM-491>"
+	description "<DS-2191>"
 	deadline 5 1
 	cargo random 2 40 .6
 	to offer
@@ -865,13 +865,13 @@ mission "Coalition: Fast Courier 3"
 
 phrase "coalition commodity delivery"
 	word
-		`You drop off the <commodity> on <planet>, and receive <payment> in payment.`
+		`<WR-10543>`
 
 mission "Coalition: Cargo 1"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	cargo "coalition cargo" 4 6 .3
 	to offer
 		has "known to the heliarchs"
@@ -892,8 +892,8 @@ mission "Coalition: Cargo 1"
 mission "Coalition: Cargo 2"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	cargo "coalition cargo" 4 8 .3
 	to offer
 		has "known to the heliarchs"
@@ -914,8 +914,8 @@ mission "Coalition: Cargo 2"
 mission "Coalition: Cargo 3"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	cargo "coalition cargo" 4 11 .3
 	to offer
 		has "known to the heliarchs"
@@ -936,8 +936,8 @@ mission "Coalition: Cargo 3"
 mission "Coalition: Cargo 4"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-261>"
+	description "<DS-1>"
 	cargo "coalition cargo" 4 15 .3
 	to offer
 		has "known to the heliarchs"
@@ -959,8 +959,8 @@ mission "Coalition: Cargo 4"
 mission "Coalition: Bulk 1"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	cargo random 20 6 .1
 	to offer
 		has "known to the heliarchs"
@@ -981,8 +981,8 @@ mission "Coalition: Bulk 1"
 mission "Coalition: Bulk 2"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	cargo random 30 9 .1
 	to offer
 		has "known to the heliarchs"
@@ -1003,8 +1003,8 @@ mission "Coalition: Bulk 2"
 mission "Coalition: Bulk 3"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	cargo random 40 15 .1
 	to offer
 		has "known to the heliarchs"
@@ -1025,8 +1025,8 @@ mission "Coalition: Bulk 3"
 mission "Coalition: Bulk 4"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "<NM-464>"
+	description "<DS-1>"
 	cargo random 50 25 .1
 	to offer
 		has "known to the heliarchs"
@@ -1048,8 +1048,8 @@ mission "Coalition: Bulk 4"
 mission "Coalition: Rush 1"
 	job
 	repeat
-	name "Rush Delivery to <planet>"
-	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
+	name "<NM-492>"
+	description "<DS-2192>"
 	deadline
 	cargo random 10 8 .2
 	to offer
@@ -1071,8 +1071,8 @@ mission "Coalition: Rush 1"
 mission "Coalition: Rush 2"
 	job
 	repeat
-	name "Rush Delivery to <planet>"
-	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
+	name "<NM-492>"
+	description "<DS-2192>"
 	deadline
 	cargo random 10 12 .2
 	to offer
@@ -1094,8 +1094,8 @@ mission "Coalition: Rush 2"
 mission "Coalition: Rush 3"
 	job
 	repeat
-	name "Rush Delivery to <planet>"
-	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
+	name "<NM-492>"
+	description "<DS-2192>"
 	deadline
 	cargo random 10 18 .2
 	to offer
@@ -1118,8 +1118,8 @@ mission "Coalition: Rush 3"
 mission "Coalition: Doctors"
 	job
 	repeat
-	name "Doctors to <planet>"
-	description "The government will pay you <payment> to bring this team of <bunks> doctors to <destination>, to address a viral outbreak. They must arrive by <date>."
+	name "<NM-468>"
+	description "<DS-2193>"
 	deadline 8 1
 	passengers 4 10 .4
 	to offer
@@ -1136,18 +1136,18 @@ mission "Coalition: Doctors"
 		"coalition jobs" ++
 		payment
 		payment 50000
-		dialog `The doctors methodically pack up their equipment and leave your ship. From their lack of urgency, it appears that this is a routine event, not a crisis. A few minutes later you receive a transfer of <payment>.`
+		dialog `<DL-415>`
 
 
 phrase "coalition cadets dialog"
 	word
-		`You drop off the cadets on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`<WR-10544>`
 
 mission "Coalition: Cadets 1"
 	job
 	repeat
-	name "Cadets to <planet>"
-	description "These <bunks> new recruits need transport to the Academy on <destination>. Payment is <payment>."
+	name "<NM-493>"
+	description "<DS-2194>"
 	passengers 10 10 .5
 	to offer
 		has "known to the heliarchs"
@@ -1167,8 +1167,8 @@ mission "Coalition: Cadets 1"
 mission "Coalition: Cadets 2"
 	job
 	repeat
-	name "Cadets to <planet>"
-	description "These <bunks> new recruits need transport to the Academy on <destination>. Payment is <payment>."
+	name "<NM-493>"
+	description "<DS-2194>"
 	passengers 10 10 .4
 	to offer
 		has "known to the heliarchs"
@@ -1188,13 +1188,13 @@ mission "Coalition: Cadets 2"
 
 phrase "coalition games dialog"
 	word
-		`The passengers thank you for bringing them to <planet> and pay you <payment>.`
+		`<WR-10545>`
 
 mission "Coalition: To Games 1"
 	job
 	repeat
-	name "Spectators to <planet>"
-	description "These <bunks> passengers will pay <payment> for transportation to <planet> in time for the Coalition Games (by <date>)."
+	name "<NM-494>"
+	description "<DS-2195>"
 	deadline 0 2
 	passengers 4 4 .2
 	to offer
@@ -1216,8 +1216,8 @@ mission "Coalition: To Games 1"
 mission "Coalition: To Games 2"
 	job
 	repeat
-	name "Spectators to <planet>"
-	description "These <bunks> passengers will pay <payment> for transportation to <planet> in time for the Coalition Games (by <date>)."
+	name "<NM-494>"
+	description "<DS-2195>"
 	deadline 0 2
 	passengers 4 4 .1
 	to offer
@@ -1239,8 +1239,8 @@ mission "Coalition: To Games 2"
 mission "Coalition: To Games 3"
 	job
 	repeat
-	name "Spectators to <planet>"
-	description "These <bunks> passengers will pay <payment> for transportation to <planet> in time for the Coalition Games (by <date>)."
+	name "<NM-494>"
+	description "<DS-2195>"
 	deadline 0 2
 	passengers 4 4 .05
 	to offer
@@ -1263,8 +1263,8 @@ mission "Coalition: To Games 3"
 mission "Coalition: From Games 1"
 	job
 	repeat
-	name "Passengers to <planet>"
-	description "Transport <bunks> passengers, who were on <origin> for the Coalition Games, back to their home world of <destination>. Payment is <payment>."
+	name "<NM-0>"
+	description "<DS-2196>"
 	passengers 4 4 .2
 	to offer
 		has "known to the heliarchs"
@@ -1286,8 +1286,8 @@ mission "Coalition: From Games 1"
 mission "Coalition: From Games 2"
 	job
 	repeat
-	name "Passengers to <planet>"
-	description "Transport <bunks> passengers, who were on <origin> for the Coalition Games, back to their home world of <destination>. Payment is <payment>."
+	name "<NM-0>"
+	description "<DS-2196>"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -1309,8 +1309,8 @@ mission "Coalition: From Games 2"
 mission "Coalition: From Games 3"
 	job
 	repeat
-	name "Passengers to <planet>"
-	description "Transport <bunks> passengers, who were on <origin> for the Coalition Games, back to their home world of <destination>. Payment is <payment>."
+	name "<NM-0>"
+	description "<DS-2196>"
 	passengers 4 4 .05
 	to offer
 		has "known to the heliarchs"
@@ -1332,9 +1332,9 @@ mission "Coalition: From Games 3"
 
 mission "Heliarchs Buy Jump Drive Job 1"
 	job
-	name "Sell Jump Drive"
+	name "<NM-495>"
 	"apparent payment" 5000000
-	description "Sell a jump drive to the Heliarchs for <payment>."
+	description "<DS-2197>"
 	source
 		government "Heliarch"
 	to offer
@@ -1343,31 +1343,31 @@ mission "Heliarchs Buy Jump Drive Job 1"
 		has "outfit (cargo): Jump Drive"
 	on accept
 		conversation
-			`The Heliarchs thank you profusely when they see you've taken them up on their offer, and soon enough several of their ships have landed near your own. Apparently they've learned of your change of mind and are excited to see the exchange, leaving their ships and surrounding yours. Soon enough, they make space for an army of engineers to come and remove the spare jump drive from your ship. Still watching the scene, only now in formations, the Heliarch agents whisper among themselves, rarely shifting their eyes, as if looking at a spectacle.`
-			`	Once the drive is out of your ship, it is secured in an excessively reinforced container and transported to a restricted section of the ring, under the guard of hundreds of armed soldiers. One of the Heliarchs who seem to be in charge of the procedure, an Arach, personally comes to you, thanking you again and handing you <payment>. "Honor us you do with such generosity, Captain. Though made great progress in studying jump drives and their mechanisms, we have, still incapable of creating our own, we are, and means of acquiring new copies we have not. Tremendously valuable, each and every drive you could bring us is. If interested in selling any more jump drives, you are, continue to offer you such jobs, we will."`
+			`<CN-9003>`
+			`<CN-9004>`
 			branch license
 				"coalition jobs" < 30
-			`	She thanks you yet again, salutes, and leaves to follow the entourage guarding the newly purchased jump drive.`
+			`<CN-9005>`
 				accept
 			label license
 			action
 				"reputation: Coalition" += 10
 				"reputation: Heliarch" += 10
 				set "license: Coalition"
-				log "Sold a jump drive to the Heliarchs and received permission to purchase Coalition civilian technology and ships."
-				log "Factions" "Saryds" `Saryds are an alien species who look suspiciously similar to the centaurs found in early human mythology. They prefer to live on worlds with as much green space as possible, and even their major cities are full of parks and gardens. Most Saryds live in small communes with up to a few dozen of them per house.`
-				log "Factions" "Kimek" `The Kimek are large insectoid aliens, and are members of the Coalition. They discovered spaceflight after the Saryds, but before the Arachi. They are intensely social creatures, preferring to live together in massive buildings with thousands of inhabitants, and many of their worlds have populations in the tens of billions, far more than any human world.`
-				log "Factions" "Arachi" `The spider-like Arachi were the last of the three Coalition species to discover interstellar travel. Most members of their society owe allegiance to one of the great Arach "Houses," organizations that are somewhat similar to guilds and that each specialize in one particular form of industry or technology.`
-			`	She thanks you yet again, salutes, and leaves to follow the entourage guarding the newly purchased jump drive. Not a minute after she has left, three more Heliarchs arrive at your ship, a delegation consisting of a member of each of the three Coalition species, all wearing golden circlets denoting their rank and authority. "A most unexpected, but greatly value contribution this is," the Saryd says, "to think that so eager would our visitor be to prove their diligence and commitment."`
-			`	The Kimek says, "As aided you have our society in breaking free of the Quarg's cages, with our society's technology may you be trusted."`
-			`	"But," says the Arach, "like all civilians, even citizens, to you our weapons and warships we still cannot sell."`
+				log "<LG-327>"
+				log "Factions" "Saryds" `<LG-328>`
+				log "Factions" "Kimek" `<LG-329>`
+				log "Factions" "Arachi" `<LG-330>`
+			`<CN-9006>`
+			`<CN-9007>`
+			`<CN-9008>`
 			choice
-				`	"Thank you."`
+				`<CN-1893>`
 					goto end
-				`	"Why don't you allow civilians to purchase weapons or warships?"`
-			`	"For the sake of peace it is," says the Saryd. "The Heliarch military, well-trained to use weapons only for defense and only for justice, they are. And to place the needs of the Coalition over the ambitions of their own native species, each one committed is. No such discipline do civilians have, even you. But as a respectful guest you are, to maintain your weapons we shall allow."`
+				`<CN-9009>`
+			`<CN-9010>`
 			label end
-			`	Apparently nothing is for sale here, but they assure you that many Coalition worlds will now grant you access to their shipyards and outfitters. The three Heliarchs all express their deep gratitude for your generosity with providing them a fresh jump drive, and wish you well.`
+			`<CN-9011>`
 				accept
 		"coalition jobs" >?= 30
 		outfit "Jump Drive" -1
@@ -1377,9 +1377,9 @@ mission "Heliarchs Buy Jump Drive Job 1"
 mission "Heliarchs Buy Jump Drive Job 2"
 	job
 	repeat
-	name "Sell Jump Drive"
+	name "<NM-495>"
 	"apparent payment" 5000000
-	description "Sell a jump drive to the Heliarchs for <payment>."
+	description "<DS-2197>"
 	source
 		government "Heliarch"
 	to offer
@@ -1390,7 +1390,7 @@ mission "Heliarchs Buy Jump Drive Job 2"
 			not "Heliarchs Buy Jump Drive Mission: declined"
 			has "Heliarchs Buy Jump Drive Job 1: offered"
 	on accept
-		dialog "A team of Heliarch engineers carefully removes the spare jump drive from your ship and brings it to a restricted section of the ring. You're approached by the Heliarch who supervised the procedure, who thanks you for bringing in another drive, and hands you the pay of <payment>."
+		dialog "<DL-416>"
 		"coalition jobs" += 2
 		outfit "Jump Drive" -1
 		payment 5000000
@@ -1400,8 +1400,8 @@ mission "Heliarchs Buy Jump Drive Job 2"
 mission "Heliarch Contain True"
 	job
 	repeat
-	name `Contain Criminals`
-	description `Fly to <destination> by <date> so that you and <bunks> other Heliarch agents can combat criminals on site. Payment is <payment>.`
+	name `<NM-496>`
+	description `<DS-2198>`
 	deadline
 	passengers 16 58
 	to offer
@@ -1419,13 +1419,13 @@ mission "Heliarch Contain True"
 	on complete
 		payment
 		payment 70000
-		dialog `You and the other agents converge on the marked area and quickly move to cut off any exits. After a brief firefight, the criminals surrender and a Heliarch ship swoops in to pick them up. You bid your Heliarch colleagues farewell and return to your ship, where you are happy to see that <payment> have already been transferred to your account.`
+		dialog `<DL-417>`
 
 mission "Heliarch Contain Fail"
 	job
 	repeat
-	name `Contain Criminals`
-	description `Fly to <destination> by <date> so that you and <bunks> other Heliarch agents can combat criminals on site. Payment is <payment>.`
+	name `<NM-496>`
+	description `<DS-2198>`
 	deadline
 	passengers 16 58
 	"apparent payment" 70000
@@ -1442,13 +1442,13 @@ mission "Heliarch Contain Fail"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog `You and the other agents head to the marked area, but when you arrive it becomes evident that whoever occupied the place has managed to escape. You bring the other agents to the spaceport as they lament the failed job.`
+		dialog `<DL-418>`
 
 mission "Heliarch Contain Fake"
 	job
 	repeat
-	name `Contain Criminals`
-	description `Fly to <destination> by <date> so that you and <bunks> other Heliarch agents can combat criminals on the site. Payment is <payment>.`
+	name `<NM-496>`
+	description `<DS-2199>`
 	deadline
 	passengers 16 58
 	to offer
@@ -1466,14 +1466,14 @@ mission "Heliarch Contain Fake"
 	on complete
 		payment
 		payment 55000
-		dialog `Your team pounces and catches the targets entirely by surprise. They offer no resistance, relinquishing their weapons immediately. You call for a Heliarch ship to pick them up and then bid the other agents farewell as you leave. An extra <payment> is already waiting in your account when you return to your ship.`
+		dialog `<DL-419>`
 
 
 mission "Heliarch Prisoner Transport"
 	job
 	repeat
-	name `Transport Prisoners`
-	description `Bring <bunks> criminals, who were arrested on <origin>, to <destination>. Payment is <payment>.`
+	name `<NM-497>`
+	description `<DS-2200>`
 	passengers 3 11
 	to offer
 		random < 15
@@ -1490,14 +1490,14 @@ mission "Heliarch Prisoner Transport"
 	on complete
 		payment
 		payment 45000
-		dialog `When you land on <destination>, Heliarch agents help you move the prisoners out of your ship. Once the last prisoner leaves you're handed <payment>.`
+		dialog `<DL-420>`
 
 
 mission "Heliarch Investigate"
 	job
 	repeat
-	name `Investigate signs of criminal activity`
-	description `Land on <stopovers>, where you and <bunks> other Heliarch agents will investigate an area where suspicious activity was reported. When you've finished, return to <origin> to receive <payment>.`
+	name `<NM-498>`
+	description `<DS-2201>`
 	passengers 6 11
 	to offer
 		random < 60
@@ -1510,18 +1510,18 @@ mission "Heliarch Investigate"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on stopover
-		dialog `You and the other agents head to the reported area looking for anything out of place. You don't find anything prominent, but there are clear signs that the place was recently used. You spend a few hours collecting evidence before heading back to your ship.`
+		dialog `<DL-421>`
 	on complete
 		payment
 		payment 40000
-		dialog `The agents thank you for transporting them in your ship, wish you safe travels, and head off to deliver the findings to their superiors. You're transferred <payment> a few moments later.`
+		dialog `<DL-422>`
 
 
 mission "Evacuate Lunarium True"
 	job
 	repeat
-	name "Rescue Lunarium Members"
-	description "Pick up <bunks> Lunarium members on <stopovers>, then bring them to <destination> by <date>."
+	name "<NM-499>"
+	description "<DS-2202>"
 	deadline
 	to offer
 		random < 10
@@ -1541,19 +1541,19 @@ mission "Evacuate Lunarium True"
 		government "Coalition"
 		distance 5 6
 	on stopover
-		dialog `The Lunarium members rush to your ship once it touches down on the hangars, and you swiftly open your hatch for them to come in. One of the calmer members asks that you head to <destination> as soon as possible.`
+		dialog `<DL-423>`
 	on visit
 		dialog phrase "generic missing stopover or passengers"
 	on complete
 		payment
 		payment 33000
-		dialog `Each of the Lunarium members comes to thank you before they leave your ship, expressing their gratitude. The last one hands you <payment>, and heads off with the others.`
+		dialog `<DL-424>`
 
 mission "Evacuate Lunarium Fail"
 	job
 	repeat
-	name "Rescue Lunarium Members"
-	description "Pick up the <bunks> Lunarium members on <stopovers>, then bring them to <destination> by <date>."
+	name "<NM-499>"
+	description "<DS-2203>"
 	deadline
 	to offer
 		random < 5
@@ -1573,15 +1573,15 @@ mission "Evacuate Lunarium Fail"
 		government "Coalition"
 		distance 5 6
 	on stopover
-		dialog `You touch down on the hangars, and wait for a few minutes for the Lunarium members. Many minutes pass, however, and none arrive. Instead the docks become increasingly filled with Heliarch agents. A message appears on your monitor, saying that the Heliarchs got to the members here first, but thanking you for your efforts anyway.`
+		dialog `<DL-425>`
 		fail
 
 
 mission "Lunarium: Armageddon Core Delivery"
 	job
 	repeat
-	name "Armageddon Core Delivery"
-	description "The Lunarium is offering <payment> for you to deliver an Armageddon Core to <destination>."
+	name "<NM-500>"
+	description "<DS-2204>"
 	to offer
 		random < 4
 		has "Lunarium: Smuggling: Reactors: done"
@@ -1602,13 +1602,13 @@ mission "Lunarium: Armageddon Core Delivery"
 	on complete
 		outfit "Armageddon Core" -1
 		payment 13500000
-		dialog `Some Lunarium members unload the Armageddon Core after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+		dialog `<DL-426>`
 
 mission "Lunarium: Fusion Reactor Delivery"
 	job
 	repeat
-	name "Fusion Reactor Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Fusion Reactor to <destination>."
+	name "<NM-501>"
+	description "<DS-2205>"
 	to offer
 		random < 7
 		has "Lunarium: Smuggling: Reactors: done"
@@ -1629,13 +1629,13 @@ mission "Lunarium: Fusion Reactor Delivery"
 	on complete
 		outfit "Fusion Reactor" -1
 		payment 7500000
-		dialog `Some Lunarium members unload the Fusion Reactor after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+		dialog `<DL-427>`
 
 mission "Lunarium: Breeder Reactor Delivery"
 	job
 	repeat
-	name "Breeder Reactor Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Breeder Reactor to <destination>."
+	name "<NM-502>"
+	description "<DS-2206>"
 	to offer
 		random < 10
 		has "Lunarium: Smuggling: Reactors: done"
@@ -1656,13 +1656,13 @@ mission "Lunarium: Breeder Reactor Delivery"
 	on complete
 		outfit "Breeder Reactor" -1
 		payment 3250000
-		dialog `Some Lunarium members unload the Breeder Reactor after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+		dialog `<DL-428>`
 
 mission "Lunarium: Torpedo Delivery"
 	job
 	repeat
-	name "Torpedo Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Torpedo Launcher, complete with 30 torpedoes, to <destination>."
+	name "<NM-503>"
+	description "<DS-2207>"
 	to offer
 		random < 12
 		has "Lunarium: Smuggling: Torpedoes: done"
@@ -1683,13 +1683,13 @@ mission "Lunarium: Torpedo Delivery"
 		outfit "Torpedo Launcher" -1
 		outfit "Torpedo" -30
 		payment 183000
-		dialog `Some Lunarium members unload the Torpedo Launcher and its ammunition after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the cargo away.`
+		dialog `<DL-429>`
 
 mission "Lunarium: Typhoon Delivery"
 	job
 	repeat
-	name "Typhoon Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Typhoon Launcher, complete with 30 Typhoon Torpedoes, to <destination>."
+	name "<NM-504>"
+	description "<DS-2208>"
 	to offer
 		random < 7
 		has "Lunarium: Smuggling: Torpedoes: done"
@@ -1708,13 +1708,13 @@ mission "Lunarium: Typhoon Delivery"
 		outfit "Typhoon Launcher" -1
 		outfit "Typhoon Torpedo" -30
 		payment 511500
-		dialog `Some Lunarium members unload the Typhoon Launcher and its ammunition after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the cargo away.`
+		dialog `<DL-430>`
 
 mission "Lunarium: Plasma Delivery"
 	job
 	repeat
-	name "Plasma Turret Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Plasma Turret to <destination>."
+	name "<NM-505>"
+	description "<DS-2209>"
 	to offer
 		random < 6
 		has "Lunarium: Smuggling: Heat: done"
@@ -1732,13 +1732,13 @@ mission "Lunarium: Plasma Delivery"
 	on complete
 		outfit "Plasma Turret" -1
 		payment 780000
-		dialog `Some Lunarium members unload the Plasma Turret after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the turret away.`
+		dialog `<DL-431>`
 
 mission "Lunarium: Flamethrower Delivery"
 	job
 	repeat
-	name "Flamethrower Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a pair of Flamethrowers to <destination>."
+	name "<NM-506>"
+	description "<DS-2210>"
 	to offer
 		random < 8
 		has "Lunarium: Smuggling: Heat: done"
@@ -1756,13 +1756,13 @@ mission "Lunarium: Flamethrower Delivery"
 	on complete
 		outfit "Flamethrower" -2
 		payment 570000
-		dialog `Some Lunarium members unload the Flamethrowers after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the Flamethrowers away.`
+		dialog `<DL-432>`
 
 mission "Lunarium: Grenade Delivery"
 	job
 	repeat
-	name "Grenade Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a dozen Fragmentation Grenades to <destination>."
+	name "<NM-507>"
+	description "<DS-2211>"
 	to offer
 		random < 11
 		has "Lunarium: Smuggling: Grenades: done"
@@ -1780,13 +1780,13 @@ mission "Lunarium: Grenade Delivery"
 	on complete
 		outfit "Fragmentation Grenades" -12
 		payment 306000
-		dialog `Some Lunarium members unload the Fragmentation Grenades after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the grenades away.`
+		dialog `<DL-433>`
 
 mission "Lunarium: Anti-Missile Delivery"
 	job
 	repeat
-	name "Anti-Missile Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Heavy Anti-Missile Turret to <destination>."
+	name "<NM-508>"
+	description "<DS-2212>"
 	to offer
 		random < 10
 		has "Lunarium: Smuggling: AM: done"
@@ -1804,4 +1804,4 @@ mission "Lunarium: Anti-Missile Delivery"
 	on complete
 		outfit "Heavy Anti-Missile Turret" -1
 		payment 225000
-		dialog `Some Lunarium members unload the Heavy Anti-Missile Turret after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the turret away.`
+		dialog `<DL-434>`

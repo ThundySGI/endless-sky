@@ -33,7 +33,7 @@ outfit "Energy Blaster"
 		"firing heat" 18
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description "Although not the most accurate or damaging of weapons, the Energy Blaster is popular because it is small enough to be installed on even the tiniest of ships. One blaster is not enough to do appreciable damage to anything larger than a fighter, but a ship equipped with several of them becomes a force to be reckoned with."
+	description "<DS-927>"
 
 outfit "Twin Blaster"
 	category "Guns"
@@ -61,7 +61,7 @@ outfit "Twin Blaster"
 		"reload" 12
 		"firing energy" 11.6
 		"firing heat" 36
-	description "The Energy Blaster's ubiquity, low price, and stable performance have made it irresistible to tinkerers from the day it was first introduced. These blasters have been bolted together to fit within a single gun port, offering twice the damage of a single blaster at the cost of twice the heat and power consumption, along with some additional mass."
+	description "<DS-928>"
 
 outfit "Blaster Submunition"
 	weapon
@@ -98,7 +98,7 @@ outfit "Blaster Turret"
 		"firing heat" 18
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description "A Blaster Turret is a pair of Energy Blasters mounted on a rotating platform, allowing it to fire in any direction. Sophisticated software algorithms allow the turret to correct for a target's motion, making the Blaster Turret effective even against small, quickly moving fighters. Because it needs a special mounting point with a 360 degree field of view, not all ships are capable of being equipped with a turret."
+	description "<DS-929>"
 
 outfit "Quad Blaster Turret"
 	category "Turrets"
@@ -126,7 +126,7 @@ outfit "Quad Blaster Turret"
 		"firing heat" 18
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description "A Quad Blaster Turret carries four guns on a single turret mount, doubling the firepower of an ordinary Blaster Turret for ships with enough space to install one and energy to drive it."
+	description "<DS-930>"
 
 effect "blaster impact"
 	sprite "effect/blaster impact"
@@ -159,7 +159,7 @@ outfit "Modified Blaster"
 		"firing heat" 25.2
 		"shield damage" 13.2
 		"hull damage" 8.8
-	description "This is an Energy Blaster that has been tampered with to increase its power slightly, at the cost of reduced range and higher energy consumption. Modified Blasters also produce an extreme amount of heat when firing, increasing the risk that your ship will overheat."
+	description "<DS-931>"
 
 outfit "Twin Modified Blaster"
 	category "Guns"
@@ -187,7 +187,7 @@ outfit "Twin Modified Blaster"
 		"reload" 12
 		"firing energy" 13
 		"firing heat" 50.4
-	description "An enterprising engineer, presumably having decided that the Modified Blaster's already-frightening lack of safety control was insufficient, has taken two of the weapons and shoved them together in the same gun port, crudely welded together with fervid enthusiasm. Whether or not this weapon will destroy the target before it melts its own components is anyone's guess; perhaps the intent was that the twin barrels would intimidate enemies into submission before the weapon would have to be fired."
+	description "<DS-932>"
 
 outfit "Modified Blaster Submunition"
 	weapon
@@ -224,7 +224,7 @@ outfit "Modified Blaster Turret"
 		"firing heat" 25.2
 		"shield damage" 13.2
 		"hull damage" 8.8
-	description "This is a turreted version of the Modified Blaster, which is an Energy Blaster modified for greater power at the cost of higher energy consumption and heat. These turrets are popular with pirates and others who are trying to cram as much firepower into their ships as possible."
+	description "<DS-933>"
 
 outfit "Heavy Blaster"
 	category "Guns"
@@ -248,7 +248,7 @@ outfit "Heavy Blaster"
 		"firing heat" 150
 		"shield damage" 90
 		"hull damage" 54
-	description "The Heavy Blaster is a scaled-up variant of the ever-so-popular Energy Blaster design. These saw extensive use on several warships earlier in history, most notably as the main armament of the Firebird when it was first produced. Over time, the development of more advanced weapons such as the Particle Cannon and Plasma Cannon has supplanted the Heavy Blaster on newer craft, but it still performs consistently enough to be found on older serviceable ships."
+	description "<DS-934>"
 
 
 outfit "Beam Laser"
@@ -274,7 +274,7 @@ outfit "Beam Laser"
 		"firing heat" 1.6
 		"shield damage" 1
 		"hull damage" 1.3
-	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere."
+	description "<DS-935>"
 
 outfit "Laser Turret"
 	category "Turrets"
@@ -303,7 +303,7 @@ outfit "Laser Turret"
 		"firing heat" 3.2
 		"shield damage" 2
 		"hull damage" 2.6
-	description "Laser Turrets are hated by fighter pilots because it is nearly impossible to dodge them once you are within their reach. This turret carries a pair of lasers and can swivel almost instantly to fire on new targets as they approach. Laser Turrets are especially useful when mounted on slow-moving freighters to fend off packs of small pirate vessels."
+	description "<DS-936>"
 
 effect "beam laser impact"
 	sprite "effect/laser impact"
@@ -338,7 +338,7 @@ outfit "Heavy Laser"
 		"firing heat" 2.8
 		"shield damage" 1.7
 		"hull damage" 2.4
-	description "The Heavy Laser is an upgraded Beam Laser with a significantly longer range and higher power. It is mostly intended for larger ships, where energy and space are plentiful, but some pilots consider a single Heavy Laser to be a worthwhile alternative to a pair of Beam Lasers, because the longer range makes up for the fact that it does not quite deal twice as much damage."
+	description "<DS-937>"
 
 outfit "Heavy Laser Turret"
 	category "Turrets"
@@ -367,7 +367,7 @@ outfit "Heavy Laser Turret"
 		"firing heat" 5.6
 		"shield damage" 3.4
 		"hull damage" 4.8
-	description "For ships with enough space to install one, the Heavy Laser Turret is a powerful weapon, equally useful for driving off fighters and for bombarding larger targets with continuous fire without having to worry about pointing your ship in the right direction."
+	description "<DS-938>"
 
 effect "heavy laser impact"
 	sprite "effect/heavy laser impact"
@@ -404,8 +404,8 @@ outfit "Mining Laser"
 		"hull damage" 1.4
 		"minable damage" 1.9
 		"prospecting" 1
-	description "The development of the Beam Laser in the mid-2400s not only led to advancements in space warfare, but also to the field of asteroid mining, as the traditional but inefficient method of towing asteroids to bases for extraction was supplanted by individual spacecraft that could precisely extract the ore from asteroids themselves."
-	description "	The modern Mining Laser is a derivative of the Beam Laser engineered to optimize mineral yield and extraction rates at the expense of range and shield damage."
+	description "<DS-939>"
+	description "<DS-940>"
 
 
 outfit "Mining Laser Turret"
@@ -437,8 +437,8 @@ outfit "Mining Laser Turret"
 		"hull damage" 1.4
 		"minable damage" 1.9
 		"prospecting" 1
-	description "While asteroid miners typically prefer more nimble ships that can keep speed with asteroids, the Mining Laser Turret makes it easier for large and slow ships with spacious cargo holds to mine."
-	description "	Mining Laser Turrets are designed to be used in conjunction with asteroid scanners, as being unable to target asteroids means you have to aim the weapon manually as if it were a fixed gun."
+	description "<DS-941>"
+	description "<DS-942>"
 
 
 outfit "Tractor Beam"
@@ -462,7 +462,7 @@ outfit "Tractor Beam"
 		"reload" 1
 		"firing energy" 2.1
 		"firing heat" .8
-	description "The anti-gravity properties of repulsor engines started a revolution in human spaceflight during the 24th century, but it was only relatively recently that engineers began experimenting with gravitational attraction. Tractor beams utilize rudimentary attractor technology to allow ships to attract space debris, be that the ores from a recently mined asteroid, or the dumped cargo from a merchant ship fleeing for its life. This has led to tractor beams being a popular outfit among asteroid miners and pirates alike."
+	description "<DS-943>"
 
 effect "tractor beam"
 	sprite "effect/tractor beam"
@@ -493,7 +493,7 @@ outfit "Electron Beam"
 		"firing heat" 3.6
 		"shield damage" 2.4
 		"hull damage" 3.3
-	description "The Electron Beam is a recent development by the Deep Sky labs, a more powerful weapon with a design similar to their perennially popular laser guns."
+	description "<DS-944>"
 
 outfit "Electron Turret"
 	category "Turrets"
@@ -522,7 +522,7 @@ outfit "Electron Turret"
 		"firing heat" 7.2
 		"shield damage" 4.8
 		"hull damage" 6.6
-	description "This turret places two of Deep Sky's recently developed electron beam weapons onto a rotating turret, providing unsurpassed accuracy and power for shooting down fast-moving targets."
+	description "<DS-945>"
 
 effect "electron impact"
 	sprite "effect/electron impact"
@@ -554,7 +554,7 @@ outfit "Anti-Missile Turret"
 		"reload" 8
 		"firing energy" 5
 		"firing heat" 3
-	description "Centuries ago, space battles were fought mostly with missiles, with the outcome dependent only on which ship had more shielding or ammunition. Lovelace Labs was originally founded to remedy that situation by developing a protective system that could shoot missiles out of the air, defending freighter convoys from pirates who could otherwise simply bombard them into submission without ever venturing within range of their guns."
+	description "<DS-946>"
 
 effect "small anti-missile"
 	sprite "effect/small anti missile"
@@ -586,7 +586,7 @@ outfit "Heavy Anti-Missile Turret"
 		"reload" 6
 		"firing energy" 10
 		"firing heat" 5
-	description "The Heavy Anti-Missile Turret has a longer range, higher power, and shorter reload time than its smaller sibling. The only way to overcome it is by firing missiles in a cluster so that while one is being targeted, the others can get through, and as a result all missile systems on the market now default to firing in clusters if multiple copies of the same launcher are installed, rather than staggering their fire as ordinary guns do."
+	description "<DS-947>"
 
 effect "large anti-missile"
 	sprite "effect/large anti missile"
@@ -622,7 +622,7 @@ outfit "Particle Cannon"
 		"hit force" 120
 		"shield damage" 65
 		"hull damage" 62
-	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
+	description "<DS-948>"
 
 effect "particle impact"
 	sprite "effect/particle impact"
@@ -657,7 +657,7 @@ outfit "Proton Gun"
 		"firing energy" 15
 		"firing force" 3
 		"firing heat" 60
-	description "The Proton Gun started out as the Syndicate's attempt to reverse engineer and mass-produce a cheap competitor for the Particle Cannon. Unfortunately, they were unable to find a reliable way to keep the beam coherent, but the resulting weapon is still popular with some captains, particularly as an anti-fighter gun."
+	description "<DS-949>"
 
 outfit "Proton Fragment"
 	weapon
@@ -706,7 +706,7 @@ outfit "Proton Turret"
 		"firing energy" 15
 		"firing force" 3
 		"firing heat" 60
-	description "The Syndicate Proton Turret is a relatively new product designed to compete with Deep Sky's perennially popular Laser Turrets in the anti-fighter defense market. Though cruder than its competition, the Proton Turret maintains a loyal following among captains dissatisfied with laser weapons' short range."
+	description "<DS-950>"
 
 
 outfit "Plasma Cannon"
@@ -734,7 +734,7 @@ outfit "Plasma Cannon"
 		"shield damage" 63
 		"hull damage" 25
 		"heat damage" 340
-	description "The Plasma Cannon fires bursts of superheated plasma. In addition to damaging your target, these plasma bursts impart a significant amount of heat, especially to a target whose shields are down."
+	description "<DS-951>"
 
 outfit "Plasma Turret"
 	category "Turrets"
@@ -765,7 +765,7 @@ outfit "Plasma Turret"
 		"shield damage" 63
 		"hull damage" 25
 		"heat damage" 340
-	description "The Plasma Turret is a pair of Plasma Cannons mounted on a turret so that they can fire in any direction. It is a fearsome weapon, but only the largest of ships have the space and the energy that it requires."
+	description "<DS-952>"
 
 outfit "Plasma Repeater"
 	category "Guns"
@@ -792,8 +792,8 @@ outfit "Plasma Repeater"
 		"hull damage" 13
 		"heat damage" 144
 		"hit force" 28.5
-	description `Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the Southern Rim. The repeater has so far proved immensely popular amongst any who braved testing it, and is shaping up to become an essential deterrent for anyone who flaunts their haul for pirate plunder.`
-	description `	Derived from the original Plasma Cannon, this heavier version trades off its larger bursts for a much faster rate of fire. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, the volume of fire results in more damage to the target overall.`
+	description `<DS-953>`
+	description `<DS-954>`
 
 effect "plasma explosion"
 	sprite "effect/plasma explosion"
@@ -831,7 +831,7 @@ outfit "Flamethrower"
 		"firing energy" .1
 		"firing fuel" .4
 		"firing heat" 4
-	description "A crude but impressive-looking weapon, the Flamethrower ignites your hyperspace fuel and directs a stream of it towards your adversaries. The damage it does is relatively minor, but it can be useful for causing a target that is already operating near its thermal capacity to overheat, temporarily taking it out of the fight."
+	description "<DS-955>"
 
 outfit "Flamethrower Projectile"
 	weapon
@@ -882,7 +882,7 @@ outfit "Meteor Missile"
 	thumbnail "outfit/meteor"
 	"mass" .2
 	"meteor capacity" -1
-	description "A Meteor Missile serves as ammunition for the Meteor Missile Launcher. Each missile launcher has its own capacity; you cannot install missiles if you have not first purchased a pod, launcher, or storage to store them in."
+	description "<DS-956>"
 
 outfit "Meteor Missile Box"
 	plural "Meteor Missile Boxes"
@@ -895,7 +895,7 @@ outfit "Meteor Missile Box"
 	"outfit space" -5
 	"meteor capacity" 15
 	ammo "Meteor Missile"
-	description "The Meteor Missile Box is used to store extra ammunition for Meteor Missile Launchers."
+	description "<DS-957>"
 
 outfit "Meteor Missile Launcher"
 	category "Secondary Weapons"
@@ -934,8 +934,8 @@ outfit "Meteor Missile Launcher"
 		"hull damage" 220
 		"hit force" 330
 		"missile strength" 6
-	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space. Meteors are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-958>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -978,9 +978,9 @@ outfit "Meteor Missile Pod"
 		"hull damage" 220
 		"hit force" 330
 		"missile strength" 6
-	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space. Meteors are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
-	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-958>"
+	description "<DS-960>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1012,7 +1012,7 @@ outfit "Sidewinder Missile"
 	thumbnail "outfit/sidewinder"
 	"mass" .2
 	"sidewinder capacity" -1
-	description "The Sidewinder Missile is ammunition for the Sidewinder Missile Launcher; each launcher that you have installed can be armed with up to 45 of them, while pods can carry 4. You cannot install a missile without a pod or launcher to fire it from."
+	description "<DS-961>"
 
 outfit "Sidewinder Missile Rack"
 	category "Ammunition"
@@ -1024,7 +1024,7 @@ outfit "Sidewinder Missile Rack"
 	"outfit space" -7
 	"sidewinder capacity" 23
 	ammo "Sidewinder Missile"
-	description "The Sidewinder Missile Rack is used to store extra ammunition for Sidewinder Missile Launchers."
+	description "<DS-962>"
 
 outfit "Sidewinder Missile Launcher"
 	category "Secondary Weapons"
@@ -1064,9 +1064,9 @@ outfit "Sidewinder Missile Launcher"
 		"hull damage" 180
 		"hit force" 255
 		"missile strength" 18
-	description "The Sidewinder Missile is designed by Lovelace Labs, which is ironically also the designer of the Anti-Missile Turret. Rumors say that the two engineering teams at Lovelace who make the missiles and the anti-missiles are locked in furious competition with each other: the result has been generation after generation of smarter missiles and then smarter turrets to fend them off."
-	description "	Although not as powerful or cheap as the popular Meteor Missiles, Sidewinders have several advantages, including their superior maneuverability, better tracking systems, and protective casings that make them much harder for anti-missile systems to destroy."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-963>"
+	description "<DS-964>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1110,10 +1110,10 @@ outfit "Sidewinder Missile Pod"
 		"hull damage" 180
 		"hit force" 255
 		"missile strength" 18
-	description "The Sidewinder Missile is designed by Lovelace Labs, which is ironically also the designer of the Anti-Missile Turret. Rumors say that the two engineering teams at Lovelace who make the missiles and the anti-missiles are locked in furious competition with each other: the result has been generation after generation of smarter missiles and then smarter turrets to fend them off."
-	description "	Although not as powerful or cheap as the popular Meteor Missiles, Sidewinders have several advantages, including their superior maneuverability, better tracking systems, and protective casings that make them much harder for anti-missile systems to destroy."
-	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-963>"
+	description "<DS-964>"
+	description "<DS-960>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1146,7 +1146,7 @@ outfit "Javelin"
 	thumbnail "outfit/javelin"
 	"mass" .04
 	"javelin capacity" -1
-	description "A Javelin missile is ammunition for the Javelin Pod; without a Pod to store them in you cannot purchase or use Javelins."
+	description "<DS-965>"
 
 outfit "Javelin Storage Crate"
 	category "Ammunition"
@@ -1158,7 +1158,7 @@ outfit "Javelin Storage Crate"
 	"outfit space" -6
 	"javelin capacity" 100
 	ammo "Javelin"
-	description "The Javelin Storage Crate is used to store extra ammunition for Javelin Pods."
+	description "<DS-966>"
 
 outfit "Javelin Pod"
 	category "Secondary Weapons"
@@ -1187,9 +1187,9 @@ outfit "Javelin Pod"
 		"hull damage" 26
 		"hit force" 75
 		"missile strength" 3
-	description "The Javelin Pod fires a rapid stream of unguided missiles. A Javelin Pod does far more damage than any gun of a comparable size, and has a longer range as well, but once a ship has expended all of its ammunition it must leave combat and find a planet where it can buy more, which makes Javelins less useful in protracted battles."
-	description "	The weapon's high rate of fire also makes it useful for saturating well-protected ships' anti-missile defenses so that more dangerous projectiles fired by allied ships can sneak through."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-967>"
+	description "<DS-968>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1222,10 +1222,10 @@ outfit "Javelin Mini Pod"
 		"hull damage" 26
 		"hit force" 75
 		"missile strength" 3
-	description "The Javelin Pod fires a rapid stream of unguided missiles. A Javelin Pod does far more damage than any gun of a comparable size, and has a longer range as well, but once a ship has expended all of its ammunition it must leave combat and find a planet where it can buy more, which makes Javelins less useful in protracted battles."
-	description "	The weapon's high rate of fire also makes it useful for saturating well-protected ships' anti-missile defenses so that more dangerous projectiles fired by allied ships can sneak through."
-	description "	Mini pods enable fighters and other light craft to carry small quantities of Javelins into battle while retaining enough space for other weapons. Large ships are better off with full-size pods."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-967>"
+	description "<DS-968>"
+	description "<DS-969>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1260,8 +1260,8 @@ outfit "Javelin Turret"
 		"hull damage" 26
 		"hit force" 75
 		"missile strength" 3
-	description "Mounting not one but two Javelin Pods, the Javelin Turret delivers a torrential downpour of unguided missiles that deal noticeably more damage than other turreted weapons of the same size, at the expense of using a prodigious amount of ammo due to its high fire rate. For that reason, these turrets are commonly paired with Javelin Storage Crates and weapons that don't require the use of ammunition to fall back on once all of the missiles are expended."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-970>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1288,7 +1288,7 @@ outfit "Torpedo"
 	thumbnail "outfit/torpedo"
 	"mass" .4
 	"torpedo capacity" -1
-	description "Torpedoes are ammunition for the Torpedo Launcher. Each Torpedo Launcher can hold 30 of them. You cannot install torpedoes unless you have also installed a launcher to fire them from."
+	description "<DS-971>"
 
 outfit "Torpedo Storage Rack"
 	category "Ammunition"
@@ -1300,7 +1300,7 @@ outfit "Torpedo Storage Rack"
 	"outfit space" -9
 	"torpedo capacity" 15
 	ammo "Torpedo"
-	description "The Torpedo Storage Rack is used to store extra ammunition for Torpedo Launchers."
+	description "<DS-972>"
 
 outfit "Torpedo Launcher"
 	category "Secondary Weapons"
@@ -1339,8 +1339,8 @@ outfit "Torpedo Launcher"
 		"hull damage" 820
 		"hit force" 450
 		"missile strength" 30
-	description "Torpedoes are the most powerful homing weapon, but they move slowly enough that fast ships can simply outrun them, making them most useful against large targets or against small ships at times when they are too distracted to dodge. Torpedo launchers are also much larger than other missile systems, so they are most often found in capital ships."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-973>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1383,9 +1383,9 @@ outfit "Torpedo Pod"
 		"hull damage" 820
 		"hit force" 450
 		"missile strength" 30
-	description "Torpedoes are the most powerful homing weapon, but they move slowly enough that fast ships can simply outrun them, making them most useful against large targets or against small ships at times when they are too distracted to dodge."
-	description "	Pods enable fighters and other light craft to carry small quantities of Torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-974>"
+	description "<DS-975>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1417,7 +1417,7 @@ outfit "Typhoon Torpedo"
 	thumbnail "outfit/typhoon"
 	"mass" .5
 	"typhoon capacity" -1
-	description "Typhoon Torpedoes are ammunition for the Typhoon Launcher. Each launcher can hold 30 of them. You cannot install Typhoon Torpedoes unless you have also installed a launcher to fire them from."
+	description "<DS-976>"
 
 outfit "Typhoon Storage Tube"
 	category "Ammunition"
@@ -1429,7 +1429,7 @@ outfit "Typhoon Storage Tube"
 	"outfit space" -10
 	"typhoon capacity" 15
 	ammo "Typhoon Torpedo"
-	description "The Typhoon Storage Tube is used to store extra ammunition for Typhoon Launchers."
+	description "<DS-977>"
 
 outfit "Typhoon Launcher"
 	category "Secondary Weapons"
@@ -1469,8 +1469,8 @@ outfit "Typhoon Launcher"
 		"hull damage" 1050
 		"hit force" 675
 		"missile strength" 40
-	description "Typhoon Torpedoes are an improved torpedo technology; they do considerably more damage than ordinary torpedoes. However, they are also much slower, because they are intended mostly for use against large and slow-moving capital ships. As a result, sufficiently skilled pilots can often dodge around them."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-978>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1514,9 +1514,9 @@ outfit "Typhoon Pod"
 		"hull damage" 1050
 		"hit force" 675
 		"missile strength" 40
-	description "Typhoon Torpedoes are an improved torpedo technology; they do considerably more damage than ordinary torpedoes. However, they are also much slower, because they are intended mostly for use against large and slow-moving capital ships. As a result, sufficiently skilled pilots can often dodge around them."
-	description "	Pods enable fighters and other light craft to carry small quantities of Typhoon Torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-978>"
+	description "<DS-979>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1547,7 +1547,7 @@ outfit "Heavy Rocket"
 	thumbnail "outfit/rocket"
 	"mass" .5
 	"rocket capacity" -1
-	description "Heavy Rockets are ammunition for the Heavy Rocket Launcher. You cannot install one unless you have first installed a launcher to fire it from. Each launcher holds up to 20 rockets."
+	description "<DS-980>"
 
 outfit "Heavy Rocket Rack"
 	category "Ammunition"
@@ -1559,7 +1559,7 @@ outfit "Heavy Rocket Rack"
 	"outfit space" -7
 	"rocket capacity" 10
 	ammo "Heavy Rocket"
-	description "The Heavy Rocket Rack is used to store extra ammunition for Heavy Rocket Launchers."
+	description "<DS-981>"
 
 outfit "Heavy Rocket Launcher"
 	category "Secondary Weapons"
@@ -1594,8 +1594,8 @@ outfit "Heavy Rocket Launcher"
 		"hull damage" 670
 		"hit force" 900
 		"missile strength" 16
-	description "Heavy Rockets are one of the most powerful missile weapons available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off. Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-982>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1634,9 +1634,9 @@ outfit "Heavy Rocket Pod"
 		"hull damage" 670
 		"hit force" 900
 		"missile strength" 16
-	description "Heavy Rockets are one of the most powerful missile weapons available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off. Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
-	description "	Pods enable fighters and other light craft to carry small quantities of rockets into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "<DS-982>"
+	description "<DS-983>"
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1708,8 +1708,8 @@ outfit "Nuclear Missile"
 		"hull damage" 7000
 		"hit force" 6000
 		"missile strength" 200
-	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
-	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+	description "<DS-984>"
+	description "<DS-985>"
 
 effect "nuke explosion"
 	sprite "effect/explosion/nuke"
@@ -1752,7 +1752,7 @@ outfit "Gatling Gun Ammo"
 	thumbnail "outfit/bullet"
 	"mass" .002
 	"gatling round capacity" -1
-	description "This simple cartridge is the ammunition for the Gatling Gun, with a projectile of depleted nuclear fuel or an illuminated tracer round. Since this ammunition is primarily manufactured on pirate worlds by slave children in poor working conditions, muzzle velocity can vary by up to 30%, and tracer distribution is seldom uniform."
+	description "<DS-986>"
 
 outfit "Bullet Boxes"
 	plural "Bullet Boxes"
@@ -1765,7 +1765,7 @@ outfit "Bullet Boxes"
 	"outfit space" -5
 	"gatling round capacity" 1500
 	ammo "Gatling Gun Ammo"
-	description "Bullet Boxes are used to store extra ammunition for Gatling Guns."
+	description "<DS-987>"
 
 outfit "Gatling Gun"
 	category "Secondary Weapons"
@@ -1795,8 +1795,8 @@ outfit "Gatling Gun"
 		"submunition" "gbullet"
 		"cluster"
 		"hit effect" "bullet impact"
-	description `When Dr. Richard J. Gatling invented the rapid-fire gun bearing his name in the 19th century, he hoped that its destructiveness would lead to the end of war itself. Over a millennium later, this modern incarnation of the Gatling Gun sees action in the stars, a testament to its fundamentally robust design - and Dr. Gatling's naivete. While capable of a high fire rate, this gun needs to cool down for twice as long as it fires, and can only sustain a maximum of three seconds of continuous fire.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `<DS-988>`
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1836,8 +1836,8 @@ outfit "Gatling Turret"
 		"firing heat" 5
 		"cluster"
 		"hit effect" "bullet impact"
-	description `In an act that would make Dr. Richard J. Gatling spin in his grave with the ferocity of the barrels of his invention, the Gatling Turret was born when a resourceful pirate thought to replace the Energy Blasters on a Blaster Turret with a pair of Gatling Guns. Ever since, the dominion of the Gatling Turret has spread across the Southern Rim, terrorizing merchants and law enforcement alike with its unparalleled ability to tear apart the hulls of ships.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `<DS-989>`
+	description "<DS-959>"
 		to display
 			has "gamerule: universal ammo restocking"
 

@@ -101,15 +101,15 @@ phrase "exile humanika: If you board us, we will win."
 	phrase
 		"exile humanika: If you board our ship, then"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: we will win the boarding mission"
-		"exile humanika: you will lose the boarding mission"
+		"<WR-12014>"
+		"<WR-12015>"
 	phrase
-		"exile mixed:, you inferior beings"
-		"exile: empty phrase"
+		"<WR-12016>"
+		"<WR-12017>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "exile humanika: insults"
 	phrase
@@ -130,82 +130,82 @@ phrase "exile mixed: cargo demands"
 	phrase
 		"exile mixed: You will give us"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile mixed: food"
-		"exile mixed: raw materials"
+		"<WR-12018>"
+		"<WR-12019>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile mixed: and we will let you live."
+		"<WR-12020>"
 
 phrase "exile humanika: oddly specific demands"
 	phrase
 		"exile humanika: You will give us"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: cultural items" 10
-		"exile humanika: strange items" 3
-		"exile humanika: open source games" 3
+		"<WR-12021>" 10
+		"<WR-12022>" 3
+		"<WR-12023>" 3
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: and we will let you live."
+		"<WR-12024>"
 
 phrase "exile mixed: bragging about tech"
 	phrase
 		"exile: Our ship's"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: weapons" 7
-		"exile: engines" 5
-		"exile: systems" 5
-		"exile humanika: systems" 12
-		"exile humanika: engines" 12
+		"<WR-12025>" 7
+		"<WR-12026>" 5
+		"<WR-12027>" 5
+		"<WR-12028>" 12
+		"<WR-12029>" 12
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: [system] is snazzy" 7
-		"exile: [system] is better than yours" 4
+		"<WR-12030>" 7
+		"<WR-12031>" 4
 	word
-		"." 3
-		"!"
+		"<WR-40>" 3
+		"<WR-573>"
 
 phrase "exile mixed: request for mercy"
 	phrase
 		"exile: Our ship is disabled."
 		"exile: Our systems went haywire."
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile mixed: Please don't do terrible things to us while we are disabled."
+		"<WR-12032>"
 
 
 phrase "exile humanika: You will lose this fight."
 	word
-		"Yu loose lif here."              # You [will] lose your life here. (mispronounced)
-		"Die yuu if no surendr."          # Die you if no surrender. (mispronounced)
-		"Wee wiiin yuu los if no cahgo."  # We [will] win [and] you [will] lose if [you give us] no cargo. (mispronounced)
-		"Yoo no gud fite so gif up."      # You are no good in a fight, so give up. (mispronounced)
+		"<WR-12033>"              # You [will] lose your life here. (mispronounced)
+		"<WR-12034>"          # Die you if no surrender. (mispronounced)
+		"<WR-12035>"  # We [will] win [and] you [will] lose if [you give us] no cargo. (mispronounced)
+		"<WR-12036>"      # You are no good in a fight, so give up. (mispronounced)
 
 
 phrase "exile humanika: Nobody can defeat the Korath."
 	word
-		"We Korath imotal!"     # We, the Korath, are immortal! (mispronounced)
-		"Korath flame stong."   # [The] Korath flame is strong. (mispronounced)
-		"Korath bove all."      # Korath [are] above all. (mispronounced)
-		"Foeva Korath!"         # The Korath will live forever! (mispronounced)
+		"<WR-12037>"     # We, the Korath, are immortal! (mispronounced)
+		"<WR-12038>"   # [The] Korath flame is strong. (mispronounced)
+		"<WR-12039>"      # Korath [are] above all. (mispronounced)
+		"<WR-12040>"         # The Korath will live forever! (mispronounced)
 
 phrase "exile: Exclamation!"
 	word
 		# Strange korath sounds?
-		"Hththththt!"           # Some strange Korath sound?
-		"Sssnn'k!"              # Some strange Korath sound?
-		"Kaaaaaaaaaiii't!"      # Some strange Korath sound?
-		"Kaaaayiiyiiyiiyiiyii!" # Some strange Korath sound?
-		"Hsssthththiiiiii!"     # Some strange Korath sound?
+		"<WR-12041>"           # Some strange Korath sound?
+		"<WR-12042>"              # Some strange Korath sound?
+		"<WR-12043>"      # Some strange Korath sound?
+		"<WR-12044>" # Some strange Korath sound?
+		"<WR-12045>"     # Some strange Korath sound?
 
 		# Korath exclamations
 		"Pusuh!"                # [Misinformed|misguided] individual!
@@ -225,33 +225,33 @@ phrase "exile: we are disabled, please help us"
 		"exile: Our ship is disabled."
 		"exile: Our systems went haywire."
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: Could you be so kind as to render assistance?"
+		"<WR-12046>"
 
 phrase "efreti: we are disabled, please help us"
 	phrase
 		"efreti: Our ship is disabled."
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: Could you be so kind as to render assistance?"
+		"<WR-12047>"
 
 phrase "efreti: threatening warning about being protected"
 	phrase
 		"efreti: You should stop attacking us"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: because we are protected by (Insert Powerful Faction Name Here)."
+		"<WR-12048>"
 
 phrase "efreti: friendly warning about being protected"
 	phrase
 		"efreti: You should not attack us"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: because we are protected by (Insert Powerful Faction Name Here)."
+		"<WR-12048>"
 
 phrase "exile: loud angry rambling"
 	phrase
@@ -280,22 +280,22 @@ phrase "efreti: miscellaneous rambling"
 # two they heard before to say, "Don't gas us!"
 phrase "exile mixed: Please don't do terrible things to us while we are disabled."
 	word
-		"'uu shud" 3    # You should (mispronounced)
-		"Can hav" 3     # Can have (mispronounced)
-		"'oo wil" 3     # You will (mispronounced)
-		"Most yuu" 3    # Must you (mispronounced)
+		"<WR-12049>" 3    # You should (mispronounced)
+		"<WR-12050>" 3     # Can have (mispronounced)
+		"<WR-12051>" 3     # You will (mispronounced)
+		"<WR-12052>" 3    # Must you (mispronounced)
 
 		"Ratami'"                # Please
 		"Asra 'olap"             # You should
 		"Bati'leh tiah ras"      # Be kind and
 		"Rattovroref ratiahet:"  # Show kindness:
 	word
-		" "
+		"<WR-117>"
 	word
-		"'oo merve gas." 4  # no nerve gas (mispronounced)
-		"'o nerf gus." 4    # no nerve gas (mispronounced)
-		"no ga'as us." 4    # no gas us (mispronounced)
-		"nerf gas no." 4    # nerve gas no (mispronounced)
+		"<WR-12053>" 4  # no nerve gas (mispronounced)
+		"<WR-12054>" 4    # no nerve gas (mispronounced)
+		"<WR-12055>" 4    # no gas us (mispronounced)
+		"<WR-12056>" 4    # nerve gas no (mispronounced)
 
 		"ranrav rataron 'an jala'."       # do not use nerve gas.
 		"ranrav 'an ifat."                # do not gas us.
@@ -311,181 +311,181 @@ phrase "exile mixed: Please don't do terrible things to us while we are disabled
 
 phrase "exile humanika: If you board our ship, then"
 	word
-		"Yoo bored us"         # You board us (mispronounced)
-		"Board to"             # Board [us] to (mispronounced)
-		"Come'n onbod"         # Come in onboard (mispronounced)
-		"No you git unbod"     # No, you get onboard (mispronounced)
-		"Ova when boad"        # It will be over for you when you board us (mispronounced)
+		"<WR-12057>"         # You board us (mispronounced)
+		"<WR-12058>"             # Board [us] to (mispronounced)
+		"<WR-12059>"         # Come in onboard (mispronounced)
+		"<WR-12060>"     # No, you get onboard (mispronounced)
+		"<WR-12061>"        # It will be over for you when you board us (mispronounced)
 
 phrase "exile humanika: we will win the boarding mission"
 	word
-		"kil ur marins"        # kill your marines (mispronounced)
-		"burn yuu up"          # burn you up (mispronounced)
-		"eat yoo skin"         # eat your skin (mispronounced)
-		"mak bon piles"        # make piles of your bones (mispronounced)
-		"to neks meet"         # turn you into my next meat (mispronounced)
+		"<WR-12062>"        # kill your marines (mispronounced)
+		"<WR-12063>"          # burn you up (mispronounced)
+		"<WR-12064>"         # eat your skin (mispronounced)
+		"<WR-12065>"        # make piles of your bones (mispronounced)
+		"<WR-12066>"         # turn you into my next meat (mispronounced)
 
 phrase "exile humanika: you will lose the boarding mission"
 	word
-		"yoo looose"           # you will lose (mispronounced)
-		"yoo ded mor"          # you dead more (mispronounced)
-		"die so die"           # die so die (What does this mean?)
-		"lose yoo crewe"       # lose your crew (mispronounced)
-		"no crew leff"         # no crew left (mispronounced)
+		"<WR-12067>"           # you will lose (mispronounced)
+		"<WR-12068>"          # you dead more (mispronounced)
+		"<WR-12069>"           # die so die (What does this mean?)
+		"<WR-12070>"       # lose your crew (mispronounced)
+		"<WR-12071>"         # no crew left (mispronounced)
 
 phrase "exile humanika: Your ship sucks."
 	phrase
 		"exile humanika: Your ship or its contents or attributes"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: are inferior to what we possess"
-		"exile humanika: are sub-par by any reasonable standards"
+		"<WR-12072>"
+		"<WR-12073>"
 	phrase
-		"exile mixed:, you inferior beings"
-		"exile: empty phrase"
+		"<WR-12016>"
+		"<WR-12017>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "exile humanika: We are better than you."
 	phrase
 		"exile humanika: Our ship or its contents or attributes"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: are superior to what you possess"
-		"exile humanika: are above par by any reasonable standards"
+		"<WR-12074>"
+		"<WR-12075>"
 	phrase
-		"exile mixed:, you inferior beings"
-		"exile: empty phrase"
+		"<WR-12016>"
+		"<WR-12017>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "exile humanika: Your ship or its contents or attributes"
 	word
-		"Yer ship"           # Your ship (mispronounced)
-		"Yoo"                # You (mispronounced)
-		"Yer injuns"         # Your engines (mispronounced)
-		"Yu wepuns"          # Your weapons (mispronounced)
-		"'oo gen'rator"      # Your [power] generator (mispronounced)
-		"Dem ship"           # Them ship (mispronounced)
+		"<WR-12076>"           # Your ship (mispronounced)
+		"<WR-12077>"                # You (mispronounced)
+		"<WR-12078>"         # Your engines (mispronounced)
+		"<WR-12079>"          # Your weapons (mispronounced)
+		"<WR-12080>"      # Your [power] generator (mispronounced)
+		"<WR-12081>"           # Them ship (mispronounced)
 
 phrase "exile humanika: Our ship or its contents or attributes"
 	word
-		"Are ship"           # Our ship (mispronounced)
-		"Wee"                # We (mispronounced)
-		"Mi injuns"          # My engines (mispronounced)
-		"Oar wepuns"         # Our weapons (mispronounced)
-		"Ere pasa core"      # Our plasma core (mispronounced)
-		"Mi ship"            # My ship (mispronounced)
+		"<WR-12082>"           # Our ship (mispronounced)
+		"<WR-12083>"                # We (mispronounced)
+		"<WR-12084>"          # My engines (mispronounced)
+		"<WR-12085>"         # Our weapons (mispronounced)
+		"<WR-12086>"      # Our plasma core (mispronounced)
+		"<WR-12087>"            # My ship (mispronounced)
 
 phrase "exile humanika: are sub-par by any reasonable standards"
 	word
-		"a's no gud"         # is no good (mispronounced)
-		"baad"               # bad (mispronounced)
-		"be sit"             # is [epithet for fecal matter] (mispronounced)
-		"dus'n wurk"         # doesn't work (mispronounced)
-		"ain' gud"           # ain't good (mispronounced)
+		"<WR-12088>"         # is no good (mispronounced)
+		"<WR-12089>"               # bad (mispronounced)
+		"<WR-12090>"             # is [epithet for fecal matter] (mispronounced)
+		"<WR-12091>"         # doesn't work (mispronounced)
+		"<WR-12092>"           # ain't good (mispronounced)
 
 phrase "exile humanika: are above par by any reasonable standards"
 	word
-		"i' amazin"          # is amazing (mispronounced)
-		"do gud"             # [do|does] good (mispronounced)
-		"werks wall"         # works well (mispronounced)
-		"snassy"             # [snazzy|sassy] (mispronounced)
-		"hi tek"             # [is] high tech (mispronounced)
+		"<WR-12093>"          # is amazing (mispronounced)
+		"<WR-12094>"             # [do|does] good (mispronounced)
+		"<WR-12095>"         # works well (mispronounced)
+		"<WR-12096>"             # [snazzy|sassy] (mispronounced)
+		"<WR-12097>"             # [is] high tech (mispronounced)
 
 phrase "exile humanika: are inferior to what we possess"
 	word
-		"les ours"           # [is] less [than] ours (mispronounced)
-		"smalrn oars"        # [is] smaller than ours (mispronounced)
-		"week thin me"       # [is] weaker than me (mispronounced)
+		"<WR-12098>"           # [is] less [than] ours (mispronounced)
+		"<WR-12099>"        # [is] smaller than ours (mispronounced)
+		"<WR-12100>"       # [is] weaker than me (mispronounced)
 
 phrase "exile humanika: are superior to what you possess"
 	word
-		"be'ren yurs"        # [is] better than yours (mispronounced)
-		"bigger yers"        # [is] bigger than yours (mispronounced)
-		"ston thin you"      # [is] stronger than [you|yours] (mispronounced)
+		"<WR-12101>"        # [is] better than yours (mispronounced)
+		"<WR-12102>"        # [is] bigger than yours (mispronounced)
+		"<WR-12103>"      # [is] stronger than [you|yours] (mispronounced)
 
 phrase "exile: empty phrase"
 	word
-		""
+		"<WR-34>"
 
 phrase "exile mixed:, you inferior beings"
 	word
-		", "
+		"<WR-24>"
 	phrase
-		"exile humanika: you inferior beings"
+		"<WR-12104>"
 
 phrase "exile humanika: you inferior beings"
 	word
-		"humanika dren"       # human dren (mispronounced)
-		"weeeeek speeeces"    # weak species (mispronounced)
-		"yoo ugli foo"        # You ugly fool (mispronounced)
-		"skinlis beest"       # Skinless beast (mispronounced)
-		"ugli halching"       # Ugly hatchling (mispronounced)
-		"yer've humpd corp's" # you have performed explicit actions with a corpse (mispronounced)
+		"<WR-12105>"       # human dren (mispronounced)
+		"<WR-12106>"    # weak species (mispronounced)
+		"<WR-12107>"        # You ugly fool (mispronounced)
+		"<WR-12108>"       # Skinless beast (mispronounced)
+		"<WR-12109>"       # Ugly hatchling (mispronounced)
+		"<WR-12110>" # you have performed explicit actions with a corpse (mispronounced)
 
 phrase "exile humanika: All of your [cargo] is ours now."
 	phrase
 		"exile humanika: All of your"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: non-luxury foodstuffs" 3
-		"exile humanika: raw materials" 2
-		"exile humanika: tactical and strategic items"
+		"<WR-12111>" 3
+		"<WR-12112>" 2
+		"<WR-12113>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: is ours now."
+		"<WR-12114>"
 
 phrase "exile humanika: You will give us [cargo] and we will let you live."
 	phrase
 		"exile humanika: You will give us"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: non-luxury foodstuffs" 3
-		"exile humanika: raw materials" 2
-		"exile humanika: tactical and strategic items"
+		"<WR-12111>" 3
+		"<WR-12112>" 2
+		"<WR-12113>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: and we will let you live."
+		"<WR-12024>"
 
 phrase "exile humanika: You will give us"
 	word
-		"Can haf"                # Can have (mispronounced)
-		"Will haf"               # Will have (mispronounced)
-		"Gif us"                 # Give us (mispronounced)
-		"Tribu'e"                # Tribute (mispronounced, probably heard it from pirates)
-		"Wee taek yur"           # We take your (mispronounced)
-		"Is are"                 # Is our (mispronounced)
+		"<WR-12115>"                # Can have (mispronounced)
+		"<WR-12116>"               # Will have (mispronounced)
+		"<WR-12117>"                 # Give us (mispronounced)
+		"<WR-12118>"                # Tribute (mispronounced, probably heard it from pirates)
+		"<WR-12119>"           # We take your (mispronounced)
+		"<WR-12120>"                 # Is our (mispronounced)
 
 phrase "exile humanika: All of your"
 	word
-		"All yer"                # All your (mispronounced)
-		"Yor"                    # Your (mispronounced)
-		"Te"                     # The (mispronounced)
-		"A' of our"              # All of your (mispronounced)
+		"<WR-12121>"                # All your (mispronounced)
+		"<WR-12122>"                    # Your (mispronounced)
+		"<WR-12123>"                     # The (mispronounced)
+		"<WR-12124>"              # All of your (mispronounced)
 
 phrase "exile humanika: is ours now."
 	word
-		"blong to u'."           # belong to us (mispronounced)
-		"giv mine."              # give mine (mispronounced)
-		"arrr ows now."          # are ours now (mispronounced)
-		"ar ba'ong to us."       # are belong to us (mispronounced)
+		"<WR-12125>"           # belong to us (mispronounced)
+		"<WR-12126>"              # give mine (mispronounced)
+		"<WR-12127>"          # are ours now (mispronounced)
+		"<WR-12128>"       # are belong to us (mispronounced)
 
 phrase "exile: You will give us"
 	word
-		"Asra rata ilehfef ifat"                  # You will give us
-		"Ifat kokroref asra"                      # We demand your
-		"Itimif aofe' oftimif"                    # [We now] own all of your
-		"Kohelef ranraneb poreb"                  # [We are] seizing a full [cargo] hold of
-		"Ratileh ifat aofe'"                      # Give us all [of your]
-		"Ratomlebis tokro mihfanref"              # [It is] necessary to take [your]
-		"Pakrileb rapakleh bosip nrag akit mihfa" # [Our] survival dictates we take
+		"<WR-12129>"                  # You will give us
+		"<WR-12130>"                      # We demand your
+		"<WR-12131>"                    # [We now] own all of your
+		"<WR-12132>"                  # [We are] seizing a full [cargo] hold of
+		"<WR-12133>"                      # Give us all [of your]
+		"<WR-12134>"              # [It is] necessary to take [your]
+		"<WR-12135>" # [Our] survival dictates we take
 
 phrase "exile mixed: You will give us"
 	phrase
@@ -500,26 +500,26 @@ phrase "exile mixed: food"
 # Wish list food, probably half joking
 phrase "exile: good food"
 	word
-		"ukku'il ifod"                          # squid risotto
-		"roafal ras iahad ifod"                 # herb and chili calamari
-		"ak'ab akrik ifod-ifod"                 # squid ink pasta
-		"ifod nrelun"                           # fried calamari
-		"ko'ibnraol ranres egralu"              # space slug with orange
-		"bipad ko'ibnraol nrilet"               # dried space slug chips
-		"asame' oavip aok lane'"                # fresh dark green lettuce
-		"nrahfot tasah pagrel"                  # crunchy rhino beetles
-		"ilehul' lane' nrag nrakaf"             # ripe succulent strawberries
-		"sud nrannrab ranres nracah pikob"      # baked cod with garlic
-		"kemmij emu' nrannrab"                  # baked sole fillet
-		"'ah koam imipd"                        # Chilean Sea Bass
-		"rati is 'aka 'aklet"                   # fish en papillote
-		"rumef rohfe osaf"                      # honeydew melons
-		"oham nrirot nradrid 'omap"             # finely chopped yellow squash
-		"ica' oavip kolab"                      # shredded collard greens
-		"totnrafe' aqlam nridad nramen"         # a bowlful of hornworm larvae
-		"polome' irumut kofe'"                  # an entire ant colony
-		"igah 'otik rinris ranres ra'aip"       # chilled baby mice with garnish
-		"ak'ab lamo midet ranres u'tah nradrid" # a pasta of small snakes with mice meatballs
+		"<WR-12136>"                          # squid risotto
+		"<WR-12137>"                 # herb and chili calamari
+		"<WR-12138>"                 # squid ink pasta
+		"<WR-12139>"                           # fried calamari
+		"<WR-12140>"              # space slug with orange
+		"<WR-12141>"               # dried space slug chips
+		"<WR-12142>"                # fresh dark green lettuce
+		"<WR-12143>"                  # crunchy rhino beetles
+		"<WR-12144>"             # ripe succulent strawberries
+		"<WR-12145>"      # baked cod with garlic
+		"<WR-12146>"                  # baked sole fillet
+		"<WR-12147>"                        # Chilean Sea Bass
+		"<WR-12148>"                   # fish en papillote
+		"<WR-12149>"                      # honeydew melons
+		"<WR-12150>"             # finely chopped yellow squash
+		"<WR-12151>"                      # shredded collard greens
+		"<WR-12152>"         # a bowlful of hornworm larvae
+		"<WR-12153>"                  # an entire ant colony
+		"<WR-12154>"       # chilled baby mice with garnish
+		"<WR-12155>" # a pasta of small snakes with mice meatballs
 
 phrase "exile mixed: raw materials"
 	phrase
@@ -528,17 +528,17 @@ phrase "exile mixed: raw materials"
 
 phrase "exile: good raw materials"
 	word
-		"ranrakah 'afe irlof"             # pure gold ingots
-		"foirukomb nrag kanra' 'omap"     # highly refined plutonium
-		"ralahfem foirakik"               # titanium sheets
-		"kabfelebe' ruk nrakah reki'nrok" # quarter ton tungsten rods (Korath tons, obviously)
-		"raimleh arlobfe'"                # perfect diamonds
-		"afim pomob kemab anahfek"        # fifty palettes of copper
-		"rabab ogat 'alet"                # hardwood planks
-		"'okale' melah li'ab rakaoh"      # a hundred barrels of manufactured sand
-		"avah maloktol' ma'af"            # bulk structural steel
-		"ehokurar ruhlat ifama"           # naturally [formed] carbon nanotubes
-		"ralahfem karuhlatimub"           # polycarbonate sheets
+		"<WR-12156>"             # pure gold ingots
+		"<WR-12157>"     # highly refined plutonium
+		"<WR-12158>"               # titanium sheets
+		"<WR-12159>" # quarter ton tungsten rods (Korath tons, obviously)
+		"<WR-12160>"                # perfect diamonds
+		"<WR-12161>"        # fifty palettes of copper
+		"<WR-12162>"                # hardwood planks
+		"<WR-12163>"      # a hundred barrels of manufactured sand
+		"<WR-12164>"            # bulk structural steel
+		"<WR-12165>"           # naturally [formed] carbon nanotubes
+		"<WR-12166>"           # polycarbonate sheets
 
 phrase "exile mixed: and we will let you live."
 	phrase
@@ -547,21 +547,21 @@ phrase "exile mixed: and we will let you live."
 
 phrase "exile humanika: and we will let you live."
 	word
-		"lat 'oo liff."                   # let you live (mispronounced)
-		"oo go frie."                     # you go free (mispronounced)
-		"no' oo die."                     # not you die (mispronounced)
-		"oo stai ali'ef."                 # you stay alive (mispronounced)
-		"wee go o o way."                 # we go [our own way|away] (mispronounced)
-		"wee go way."                     # we go away (mispronounced)
-		"uu keep ur skin"                 # you will keep your skin (mispronounced)
+		"<WR-12167>"                   # let you live (mispronounced)
+		"<WR-12168>"                     # you go free (mispronounced)
+		"<WR-12169>"                     # not you die (mispronounced)
+		"<WR-12170>"                 # you stay alive (mispronounced)
+		"<WR-12171>"                 # we go [our own way|away] (mispronounced)
+		"<WR-12172>"                     # we go away (mispronounced)
+		"<WR-12173>"                 # you will keep your skin (mispronounced)
 
 phrase "exile: and we will let you live."
 	word
-		"'amahfef asra ranres ranro'nramet bosip."  # [we will] reward you with survival.
-		"iba rata amagref inam."                    # [your] flame will burn anew
-		"rata anavref kimot asra."                  # [you] will keep your skin.
-		"imahfet et ofanlaomet."                    # [we will let you] return to your family.
-		"ratagalef ranro'nramet bosip asra."        # [you can] celebrate your survival
+		"<WR-12174>"  # [we will] reward you with survival.
+		"<WR-12175>"                    # [your] flame will burn anew
+		"<WR-12176>"                  # [you] will keep your skin.
+		"<WR-12177>"                    # [we will let you] return to your family.
+		"<WR-12178>"        # [you can] celebrate your survival
 
 
 # Attempt at demanding what they need so you understand. Korath know
@@ -572,10 +572,10 @@ phrase "exile: and we will let you live."
 phrase "exile humanika: non-luxury foodstuffs"
 	word
 		# General terms for food have a high probability
-		"fuud" 2                     # food (mispronounced)
-		"f'oood" 2                   # food (mispronounced)
-		"fude" 2                     # food (mispronounced)
-		"foo'de" 2                   # food (mispronounced)
+		"<WR-12179>" 2                     # food (mispronounced)
+		"<WR-12180>" 2                   # food (mispronounced)
+		"<WR-12181>" 2                     # food (mispronounced)
+		"<WR-12182>" 2                   # food (mispronounced)
 
 		# Terms for categories of food have a high probability
 		"feeshs" 2                   # fish (mispronounced)
@@ -604,163 +604,161 @@ phrase "exile humanika: non-luxury foodstuffs"
 
 phrase "exile humanika: raw materials"
 	word
-		"iren"         # iron (mispronounced)
-		"copear"       # copper (mispronounced)
-		"sapi'r"       # sapphire (mispronounced)
-		"uranume"      # uranium (mispronounced)
-		"herdwuud"     # hardwood (mispronounced)
-		"tungs'en"     # tungsten (mispronounced)
-		"sann'"        # sand (mispronounced)
-		"qurts"        # quartz (mispronounced)
-		"ste'l"        # steel (mispronounced)
-		"pla'ik"       # plastic (mispronounced)
+		"<WR-12183>"         # iron (mispronounced)
+		"<WR-12184>"       # copper (mispronounced)
+		"<WR-12185>"       # sapphire (mispronounced)
+		"<WR-12186>"      # uranium (mispronounced)
+		"<WR-12187>"     # hardwood (mispronounced)
+		"<WR-12188>"     # tungsten (mispronounced)
+		"<WR-12189>"        # sand (mispronounced)
+		"<WR-12190>"        # quartz (mispronounced)
+		"<WR-12191>"        # steel (mispronounced)
+		"<WR-12192>"       # plastic (mispronounced)
 
 phrase "exile humanika: tactical and strategic items"
 	word
-		"mapse of humanika spass"   # Maps of human space (mispronounced)
-		"tar maps"                  # Star maps (mispronounced)
-		"humanika flit moment dita" # Human fleet movement data (mispronounced)
-		"re' wermhol resurch"       # Red wormhole research (mispronounced)
-		"rad holl resurch"          # Red [worm]hole research (mispronounced)
-		"wermhol resurch"           # Wormhole research (mispronounced)
-		"sampil o humanika tetch"   # [Examples|Samples] of human technology (mispronounced)
-		"inernal govment docmants"  # internal government documents (mispronounced)
-		"humanika beakoff gupes"    # Information about human break-off groups (ie.: Remnant or Alphas) (mispronounced)
-		"medital resorch humanika"  # Medical research relating to humans. (Perhaps to keep captives alive, design bioweapons, or simple curiosity.) (mispronounced)
-		"nerf gus"                  # Nerve gas, probably to develop counter-measures. (mispronounced)
-		"all yer data"              # all [of] your data (mispronounced)
-		"'avigatun lugs"            # navigation logs (mispronounced)
+		"<WR-12193>"   # Maps of human space (mispronounced)
+		"<WR-12194>"                  # Star maps (mispronounced)
+		"<WR-12195>" # Human fleet movement data (mispronounced)
+		"<WR-12196>"       # Red wormhole research (mispronounced)
+		"<WR-12197>"          # Red [worm]hole research (mispronounced)
+		"<WR-12198>"           # Wormhole research (mispronounced)
+		"<WR-12199>"   # [Examples|Samples] of human technology (mispronounced)
+		"<WR-12200>"  # internal government documents (mispronounced)
+		"<WR-12201>"    # Information about human break-off groups (ie.: Remnant or Alphas) (mispronounced)
+		"<WR-12202>"  # Medical research relating to humans. (Perhaps to keep captives alive, design bioweapons, or simple curiosity.) (mispronounced)
+		"<WR-12203>"                  # Nerve gas, probably to develop counter-measures. (mispronounced)
+		"<WR-12204>"              # all [of] your data (mispronounced)
+		"<WR-12205>"            # navigation logs (mispronounced)
 
 
 # These show the Korath Exiles do still try to have a culture. All of
 # these are horribly mispronounced human words.
 phrase "exile humanika: cultural items"
 	word
-		"sculping suplis"          # Sculpting supplies (mispronounced)
-		"painbush n paint"         # Paintbrushes and paint (mispronounced)
-		"musi'l instru'ats"        # Musical instruments (mispronounced)
-		"dru' set"                 # Drum set (mispronounced)
-		"Mosart musaic"            # Mozart music (mispronounced)
-		"tess set's"               # chess sets (mispronounced)
-		"fingre pain'in ki'"       # finger-painting kit (mispronounced)
-		"all yer operas"           # all of your operas (mispronounced)
-		"sonettes n haukus"        # sonnets and haikus (mispronounced)
-		"colore' pencals"          # colored pencils (mispronounced)
-		"buulk fabri'"             # bulk fabric (mispronounced)
-		"strang instraments"       # string instruments (mispronounced)
-		"rok gittar"               # rock guitar (mispronounced)
-		"bomance novals"           # [romance|bromance] novels (mispronounced)
-		"skech buks"               # sketch books (mispronounced)
-		"cley n kiln"              # clay and kiln (mispronounced)
-		"benjos"                   # banjos (mispronounced)
-		"bokets f painte"          # buckets of paint (mispronounced)
-		"easls ith trypods"        # easels with tripods (mispronounced)
-		"recerd playrs"            # record players (mispronounced)
-		"relegos tects"            # religious texts (mispronounced)
-		"blak muusic shee's"       # blank music sheets (mispronounced)
-		"sinin boowl sets"         # singing bowl set (mispronounced)
+		"<WR-12206>"          # Sculpting supplies (mispronounced)
+		"<WR-12207>"         # Paintbrushes and paint (mispronounced)
+		"<WR-12208>"        # Musical instruments (mispronounced)
+		"<WR-12209>"                 # Drum set (mispronounced)
+		"<WR-12210>"            # Mozart music (mispronounced)
+		"<WR-12211>"               # chess sets (mispronounced)
+		"<WR-12212>"       # finger-painting kit (mispronounced)
+		"<WR-12213>"           # all of your operas (mispronounced)
+		"<WR-12214>"        # sonnets and haikus (mispronounced)
+		"<WR-12215>"          # colored pencils (mispronounced)
+		"<WR-12216>"             # bulk fabric (mispronounced)
+		"<WR-12217>"       # string instruments (mispronounced)
+		"<WR-12218>"               # rock guitar (mispronounced)
+		"<WR-12219>"           # [romance|bromance] novels (mispronounced)
+		"<WR-12220>"               # sketch books (mispronounced)
+		"<WR-12221>"              # clay and kiln (mispronounced)
+		"<WR-12222>"                   # banjos (mispronounced)
+		"<WR-12223>"          # buckets of paint (mispronounced)
+		"<WR-12224>"        # easels with tripods (mispronounced)
+		"<WR-12225>"            # record players (mispronounced)
+		"<WR-12226>"            # religious texts (mispronounced)
+		"<WR-12227>"       # blank music sheets (mispronounced)
+		"<WR-12228>"         # singing bowl set (mispronounced)
 
 
 # These are items that make you wonder what strange things happen
 # among the Korath that make them ask for this.
 phrase "exile humanika: strange items"
 	word
-		"Hoy a'orn cookees"                  # Hai acorn cookies (mispronounced)
-		"toilat pepper"                      # Toilet paper (mispronounced)
-		"geko"                               # Gecko (mispronounced)
-		"Sha'ls n Sheragi"                   # Shackles and Sheragi (mispronounced)
-		"Bondle' Fontre'z: tee Fire Lizards" # Boundless Frontiers: the Fire Lizards (mispronounced)
-		"Ter Mite Bee Riot Abums"            # There Might Be Riots Albums (mispronounced)
-		"How tu Serv Man buuk"               # The book, "How to Serve Man" (mispronounced)
-		"ganfadder clok"                     # grandfather clock (mispronounced)
-		"bored games"                        # board games (mispronounced)
-		"Dapdannel ay nenergy"               # Zapchannel Ray Energy (mispronounced)
-		"Woof, oat, and abbage"              # A wolf, a goat, and a cabbage (mispronounced)
-		"Oar Funzy Para-dice"                # "Our Fuzzy Paradise" TV series (mispronouced)
-		"rump of kowl"                       # A lump of coal (mispronounced)
-		"Three Keleton Knee Tone"            # Tree Skeleton Key Stone (mispronounced)
+		"<WR-12229>"                  # Hai acorn cookies (mispronounced)
+		"<WR-12230>"                      # Toilet paper (mispronounced)
+		"<WR-12231>"                               # Gecko (mispronounced)
+		"<WR-12232>"                   # Shackles and Sheragi (mispronounced)
+		"<WR-12233>" # Boundless Frontiers: the Fire Lizards (mispronounced)
+		"<WR-12234>"            # There Might Be Riots Albums (mispronounced)
+		"<WR-12235>"               # The book, 		"<WR-12236>"                     # grandfather clock (mispronounced)
+		"<WR-12237>"                        # board games (mispronounced)
+		"<WR-12238>"               # Zapchannel Ray Energy (mispronounced)
+		"<WR-12239>"              # A wolf, a goat, and a cabbage (mispronounced)
+		"<WR-12240>"                # 		"<WR-12241>"                       # A lump of coal (mispronounced)
+		"<WR-12242>"            # Tree Skeleton Key Stone (mispronounced)
 
 
 # The Exiles like to play other open source games. These are horribly
 # mispronounced names of actual games.
 phrase "exile humanika: open source games"
 	word
-		"Nethick"                  # Nethack (mispronounced)
-		"Batfer Westnorth"         # Battle for Wesnoth (mispronounced)
-		"Komium Bee Essu"          # Chromium BSU (mispronounced)
-		"Feedoid R Peegee"         # Freedroid RPG (mispronounced)
-		"Fee Rion"                 # Free Orion (mispronounced)
-		"Flea Civ"                 # Freeciv (mispronounced)
-		"Ehmmay Are Ess"           # M.A.R.S. (mispronounced)
-		"Hedgeworts"               # Hedgewars (mispronounced)
-		"Uppen Tee Tee Dee"        # Open TTD (mispronounced)
-		"Supper Tax Kert"          # SuperTuxKart (mispronounced)
-		"Zero Add'ee"              # Zero AD (mispronounced)
-		"Nah Eve"                  # Naev (mispronounced)
-		"Pickle Dundun"            # Pixel Dungeon (mispronounced)
-		"2 pow 11"                 # 2048
-		"Hyperdrove"               # HyperRogue (mispronounced)
-		"Lu lan tee"               # Luanti (mispronounced)
-		"Fellorman"                # Veloren (mispronounced)
-		"Mundertree"               # Mindustry (mispronounced)
+		"<WR-12243>"                  # Nethack (mispronounced)
+		"<WR-12244>"         # Battle for Wesnoth (mispronounced)
+		"<WR-12245>"          # Chromium BSU (mispronounced)
+		"<WR-12246>"         # Freedroid RPG (mispronounced)
+		"<WR-12247>"                 # Free Orion (mispronounced)
+		"<WR-12248>"                 # Freeciv (mispronounced)
+		"<WR-12249>"           # M.A.R.S. (mispronounced)
+		"<WR-12250>"               # Hedgewars (mispronounced)
+		"<WR-12251>"        # Open TTD (mispronounced)
+		"<WR-12252>"          # SuperTuxKart (mispronounced)
+		"<WR-12253>"              # Zero AD (mispronounced)
+		"<WR-12254>"                  # Naev (mispronounced)
+		"<WR-12255>"            # Pixel Dungeon (mispronounced)
+		"<WR-12256>"                 # 2048
+		"<WR-12257>"               # HyperRogue (mispronounced)
+		"<WR-12258>"               # Luanti (mispronounced)
+		"<WR-12259>"                # Veloren (mispronounced)
+		"<WR-12260>"               # Mindustry (mispronounced)
 
 
 phrase "exile: [system] is snazzy"
 	word
-		"ioabfamef raarlobfe'et"                   # transcends perfection
-		"pamasa aglat ire' tirtek"                 # is a work of engineering art
-		"kapabis alade' ipami"                     # is divinely sculpted
-		"pamasa aglatapaf"                         # is a masterpiece
-		"monnro famas agri'nroj"                   # excels at its function
-		"itimifef raobfafet nrag laom a'aih"       # has amazing capabilities
-		"pamasa nrag nrimab 'iraf is fama ak'efe'" # is the most snazzy in the universe
-		"ralefab nrag lemotakte'"                  # spectacularly exhibits [its purpose]
-		"'oleref-'olek ipihemef avlerit"           # perennially exceeds performance [metrics]
-		"kaohis ranres kanra' tiah"                # is most excellently fashioned
+		"<WR-12261>"                   # transcends perfection
+		"<WR-12262>"                 # is a work of engineering art
+		"<WR-12263>"                     # is divinely sculpted
+		"<WR-12264>"                         # is a masterpiece
+		"<WR-12265>"                   # excels at its function
+		"<WR-12266>"       # has amazing capabilities
+		"<WR-12267>" # is the most snazzy in the universe
+		"<WR-12268>"                  # spectacularly exhibits [its purpose]
+		"<WR-12269>"           # perennially exceeds performance [metrics]
+		"<WR-12270>"                # is most excellently fashioned
 
 phrase "exile: [system] is better than yours"
 	word
-		"saha-sahaleh ikacemef inumurtek asra"           # is centuries past your technology
-		"kapimlek inah asra iklebe' refolka'ri ipami"    # looks to you like a divine instrument
-		"raavleteb kad nrag pihem tiah ilas mabat"       # [has a] better paint job than your ship
-		"monnro is laom rafapafeb asra"                  # excels beyond your understanding
-		"pamasa ire' nrag tasik parleb a'ih asra ianlap" # is art you could never appreciate
+		"<WR-12271>"           # is centuries past your technology
+		"<WR-12272>"    # looks to you like a divine instrument
+		"<WR-12273>"       # [has a] better paint job than your ship
+		"<WR-12274>"                  # excels beyond your understanding
+		"<WR-12275>" # is art you could never appreciate
 
 phrase "exile: Our ship is disabled."
 	phrase
 		"exile: We or our ship"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: ain't doing so well right now."
+		"<WR-12276>"
 
 
 phrase "exile: Our systems went haywire."
 	phrase
 		"exile: Our malfunctioning system"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: has destroyed our ship."
+		"<WR-12277>"
 
 phrase "exile: Our malfunctioning system"
 	phrase
 		"exile: Our ship's"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile humanika: engines" 9
-		"exile humanika: systems" 9
-		"exile: engines" 4
-		"exile: systems" 4
-		"exile: weapons" 4
+		"<WR-12029>" 9
+		"<WR-12028>" 9
+		"<WR-12026>" 4
+		"<WR-12027>" 4
+		"<WR-12025>" 4
 
 phrase "exile: Our ship's"
 	word
-		"Akit"                # Our
-		"Mabat iri"           # This ship's
-		"Ot"                  # My
-		"Oki"                 # The
+		"<WR-12278>"                # Our
+		"<WR-12279>"           # This ship's
+		"<WR-12280>"                  # My
+		"<WR-9746>"                 # The
 
 # These outfit names are just supposed to be good enough for hails.
 # If we were to rename the outfits, the names should be finely
@@ -768,128 +766,128 @@ phrase "exile: Our ship's"
 
 phrase "exile: weapons"
 	word
-		"mihfa etilka' kellok"          # grab-strike turret
-		"alaref ratunufeb krop'"        # shunt-strike turret
-		"oamapnref alaref i'akiqaln"    # banisher grav-turret
-		"ratlaomet akavre' i'akiqaln"   # expeler grav-ray
-		"alaref matnrareb masol"        # warder anti-missile
-		"akavre' tahfuk iba"            # fire-lance
-		"nraseb nrag latahlek"          # blaze-pike turret
-		"korath alaref ataler"          # korath inferno turret
-		"le'am ranrahfakleb"            # digger mining beam
-		"alaref ranrahfakleb"           # digger mining turret
-		"mebaket enralnam"              # langrage hyper-heaver
-		"masol iba ranril"              # firelight missile
-		"masol iba rabuk"               # firestorm torpedo
+		"<WR-12281>"          # grab-strike turret
+		"<WR-12282>"        # shunt-strike turret
+		"<WR-12283>"    # banisher grav-turret
+		"<WR-12284>"   # expeler grav-ray
+		"<WR-12285>"        # warder anti-missile
+		"<WR-12286>"            # fire-lance
+		"<WR-12287>"          # blaze-pike turret
+		"<WR-12288>"          # korath inferno turret
+		"<WR-12289>"            # digger mining beam
+		"<WR-12290>"           # digger mining turret
+		"<WR-12291>"              # langrage hyper-heaver
+		"<WR-12292>"              # firelight missile
+		"<WR-12293>"               # firestorm torpedo
 
 
 phrase "exile: engines"
 	word
-		"nrulusreb ovaf"                # forward thrusters
-		"nrulusreb timahlek"            # reverse thrusters
-		"latahfeb 'alet"                # afterburners
-		"kev isofet"                    # steering
-		"ri'ef"                         # engines
-		"talennreb lo'oh"               # bow drive
+		"<WR-12294>"                # forward thrusters
+		"<WR-12295>"            # reverse thrusters
+		"<WR-12296>"                # afterburners
+		"<WR-12297>"                    # steering
+		"<WR-12298>"                         # engines
+		"<WR-12299>"               # bow drive
 
 phrase "exile humanika: engines"
 	word
-		"tusters"                       # thrusters (mispronounced)
-		"injuns"                        # engines (mispronounced)
-		"s'earing"                      # steering (mispronounced)
-		"bow drif"                      # bow drive (mispronounced)
-		"fawid tusters"                 # forward thrusters (mispronounced)
-		"'eversers"                     # reversers (mispronounced)
+		"<WR-12300>"                       # thrusters (mispronounced)
+		"<WR-12301>"                        # engines (mispronounced)
+		"<WR-12302>"                      # steering (mispronounced)
+		"<WR-12303>"                      # bow drive (mispronounced)
+		"<WR-12304>"                 # forward thrusters (mispronounced)
+		"<WR-12305>"                     # reversers (mispronounced)
 
 phrase "exile: systems"
 	word
-		"ikri fek'i'"                   # systems core[s]
-		"ikri af'amb"                   # plasma core[s]
-		"oalib 'arab"                   # heat shunt[s]
-		"rinrisreb foilkar liad"        # liquid sodium cooler
-		"pamunreb rapah latah"          # fuel processor
-		"roi'ak'a rarapakleb"           # defense station
+		"<WR-12306>"                   # systems core[s]
+		"<WR-12307>"                   # plasma core[s]
+		"<WR-12308>"                   # heat shunt[s]
+		"<WR-12309>"        # liquid sodium cooler
+		"<WR-12310>"          # fuel processor
+		"<WR-12311>"           # defense station
 
 phrase "exile humanika: systems"
 	word
-		"sysim corr"                    # systems core (mispronounced)
-		"lasma corr"                    # plasma core (mispronounced)
-		"haet sunt"                     # heat shunt (mispronounced)
-		"likid coolar"                  # liquid cooler (mispronounced)
-		"gruel proce'or"                # fuel processor (mispronounced)
+		"<WR-12312>"                    # systems core (mispronounced)
+		"<WR-12313>"                    # plasma core (mispronounced)
+		"<WR-12314>"                     # heat shunt (mispronounced)
+		"<WR-12315>"                  # liquid cooler (mispronounced)
+		"<WR-12316>"                # fuel processor (mispronounced)
 
 phrase "exile: has destroyed our ship."
 	word
-		"pamek liadref"               # has melted
-		"lareh-lareh ratpar'ofis"     # totally annihilated
-		"lareh-lareh sekamohuhfud'is" # thoroughly discombobulated
-		"fomeh ratibalis"             # unmade
-		"lareh-lareh baonref"         # completely vaporized
-		"rattimahfef 'akilamub"       # reversed the polarity of
-		"rataretis agaih"             # charged (in the electrical sense)
-		"agrporebe' 'ohferef"         # fully penetrated through
-		"lareh-lareh liad"            # absolutely liquified
-		"tasemef arlobfe'"            # [perfectly|without exception] imploded
+		"<WR-12317>"               # has melted
+		"<WR-12318>"     # totally annihilated
+		"<WR-12319>" # thoroughly discombobulated
+		"<WR-12320>"             # unmade
+		"<WR-12321>"         # completely vaporized
+		"<WR-12322>"       # reversed the polarity of
+		"<WR-12323>"             # charged (in the electrical sense)
+		"<WR-12324>"         # fully penetrated through
+		"<WR-12325>"            # absolutely liquified
+		"<WR-12326>"            # [perfectly|without exception] imploded
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: our entire ship."
-		"exile: part of our ship."
+		"<WR-12327>"
+		"<WR-12328>"
 
 phrase "exile: our entire ship."
 	word
-		"polome' mabat ifat."         # our entire ship.
-		"polome' rarivalet."          # the whole craft.
-		"agrap agramane'."            # just everything.
-		"rapohameb ras rarat."        # port and starboard.
-		"aofe' tes."                  # all decks.
+		"<WR-12329>"         # our entire ship.
+		"<WR-12330>"          # the whole craft.
+		"<WR-12331>"            # just everything.
+		"<WR-12332>"        # port and starboard.
+		"<WR-12333>"                  # all decks.
 
 phrase "exile: part of our ship."
 	word
-		"ri'ef rarat."                # the starboard engines.
-		"aofe' alaref rabes."         # all forward turrets
-		"nrulusreb lakobleh."         # the turning thrusters
-		"nravroreb bosip rapahfak."   # auxiliary life support
-		"ladrafeb ia'ileb."           # the shield emitters
-		"raiatnral iamel agas afako." # [the] primary power relay circuits
+		"<WR-12334>"                # the starboard engines.
+		"<WR-12335>"         # all forward turrets
+		"<WR-12336>"         # the turning thrusters
+		"<WR-12337>"   # auxiliary life support
+		"<WR-12338>"           # the shield emitters
+		"<WR-12339>" # [the] primary power relay circuits
 
 phrase "exile: We or our ship"
 	word
-		"Mabat ifat"        # Our ship
-		"Anlo' nraol iri"   # This space haven
-		"Pafol akit"        # This home
-		"Mabat iri"         # This ship
-		"Akit"              # We are
-		"Akit isavref"      # We became
-		"Kabfek ranrosrimleb ifat"   # Our safehaven
-		"Kaca'eb laom a'atnra akit"  # Our spacecraft
+		"<WR-12340>"        # Our ship
+		"<WR-12341>"   # This space haven
+		"<WR-12342>"        # This home
+		"<WR-12279>"         # This ship
+		"<WR-12278>"              # We are
+		"<WR-12343>"      # We became
+		"<WR-12344>"   # Our safehaven
+		"<WR-12345>"  # Our spacecraft
 
 phrase "exile: ain't doing so well right now."
 	word
-		"ifamanref tagrah ramananet fek'i'."                  # [is] having multiple systems failures.
-		"inralefef rapihemet raheh luktael."                  # [is] fighting a reactor overload.
-		"ikatesref ramananet makuk."                          # [is] close to complete failure.
-		"agrap itimifef abaleheh kiref alaso nrag a'i'lek!"   # has only minutes of air left.
-		"tasik itimifef ikri fek'i' marui'nroj."              # has no functional systems core.
-		"arelat ri'ef ifat pememef arelat agr'arab ilisre'."  # [is failing] due to our engines melting under their own heat.
-		"tasik kabas ratmi'apnref alaso oaka lia."            # [is] unable to produce air or water.
-		"pamek isavref 'arabe' nrakrih rulkoer."              # has become as hot as a neutron star.
-		"tasik itimifef kropi' 'arab avlet."                  # has no working heat shunts.
-		"abrak ri'ef oaka anarek nrag avleteh."               # is without working engines or power
-		"tasik itimifef fek'i' nrotosreb rabosipet avlet."    # has no working life support systems
+		"<WR-12346>"                  # [is] having multiple systems failures.
+		"<WR-12347>"                  # [is] fighting a reactor overload.
+		"<WR-12348>"                          # [is] close to complete failure.
+		"<WR-12349>"   # has only minutes of air left.
+		"<WR-12350>"              # has no functional systems core.
+		"<WR-12351>"  # [is failing] due to our engines melting under their own heat.
+		"<WR-12352>"            # [is] unable to produce air or water.
+		"<WR-12353>"              # has become as hot as a neutron star.
+		"<WR-12354>"                  # has no working heat shunts.
+		"<WR-12355>"               # is without working engines or power
+		"<WR-12356>"    # has no working life support systems
 
 phrase "exile: Could you be so kind as to render assistance?"
 	word
-		"Nrumuk okrah ifat!"             # Please help us!
-		"Akit ratpokohfef rakafamegreb!" # We need rescue!
-		"Rapi'at ras nrakas."            # Have pity and come [here].
-		"Patoaf asra okrahfef ifat?"     # Will you help us?
-		"Ratkafamegref ifat?"            # [Will you] rescue us?
-		"Mati tanpa bantuan."            # [We will] die without [your] help.
-		"Pamisav racampab ifat!"         # Be our hero!
-		"Pataba Humanika tiah?"          # Are humans kind?
-		"Okrah ifat bosip!"              # Help us [continue to] live!
-		"Ratkafame' ifat!"               # Save us!
+		"<WR-12357>"             # Please help us!
+		"<WR-12358>" # We need rescue!
+		"<WR-12359>"            # Have pity and come [here].
+		"<WR-12360>"     # Will you help us?
+		"<WR-12361>"            # [Will you] rescue us?
+		"<WR-12362>"            # [We will] die without [your] help.
+		"<WR-12363>"         # Be our hero!
+		"<WR-12364>"          # Are humans kind?
+		"<WR-12365>"              # Help us [continue to] live!
+		"<WR-12366>"               # Save us!
 
 
 
@@ -897,590 +895,589 @@ phrase "efreti: Our ship is disabled."
 	phrase
 		"efreti: We or our ship"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: ain't doing so well right now."
+		"<WR-12367>"
 
 phrase "efreti: We or our ship"
 	word
-		"Nacas ifas"        # Our ship
-		"Alpom lraop iri"   # This space haven
-		"Hafop akis"        # This home
-		"Nacas iri"         # This ship
-		"Akis"              # We are
-		"Akis itawref"      # We became
-		"Kacfek ralrotrinpec ifas"   # Our safehaven
-		"Kagamec paon amaslra akis"  # Our spacecraft
+		"<WR-12368>"        # Our ship
+		"<WR-12369>"   # This space haven
+		"<WR-12370>"        # This home
+		"<WR-12371>"         # This ship
+		"<WR-12372>"              # We are
+		"<WR-12373>"      # We became
+		"<WR-12374>"   # Our safehaven
+		"<WR-12375>"  # Our spacecraft
 
 phrase "efreti: ain't doing so well right now."
 	word
-		"ifanalref sadrab ranalales fekmim."                 # [is] having multiple systems failures.
-		"ilrapfef rahibenes rabeb puksaep."                  # [is] fighting a reactor overload.
-		"ikasetref ranalales nakuk."                         # [is] close to complete failure.
-		"adrah isinifef acapebeb kiref apato lrad amimpek!"  # has only minutes of air left.
-		"satik isinifef ikri fekmim naruimlroy."             # has no functional systems core.
-		"arepas rimef ifas henenef arepas adrmarac ipitrem." # [is failing] due to our engines melting under their own heat.
-		"satik kacat rasnimahlref apato oaka pia."           # [is] unable to produce air or water.
-		"hanek itawref maracem lrakrib rupkoer."             # has become as hot as a neutron star.
-		"satik isinifef krohm marac awpes"                   # has no working heat shunts.
-		"acrak rimef oaka alarek lrad awpeseb."              # is without working engines or power
-		"satik isinifef fekmim lrosotrec racotihes awpes."   # has no working life support systems
+		"<WR-12376>"                 # [is] having multiple systems failures.
+		"<WR-12377>"                  # [is] fighting a reactor overload.
+		"<WR-12378>"                         # [is] close to complete failure.
+		"<WR-12379>"  # has only minutes of air left.
+		"<WR-12380>"             # has no functional systems core.
+		"<WR-12381>" # [is failing] due to our engines melting under their own heat.
+		"<WR-12382>"           # [is] unable to produce air or water.
+		"<WR-12383>"             # has become as hot as a neutron star.
+		"<WR-12384>"                   # has no working heat shunts.
+		"<WR-12385>"              # is without working engines or power
+		"<WR-12386>"   # has no working life support systems
 
 phrase "efreti: Could you be so kind as to render assistance?"
 	word
-		"Lrunuk okrab ifas!"             # Please help us!
-		"Akis rashokobfef rakafanedrec!" # We need rescue!
-		"Rahimas rat lrakat."            # Have pity and come [here].
-		"Hasoaf atra okrabfef ifas?"     # Will you help us?
-		"Raskafanedref ifas?"            # [Will you] rescue us?
-		"Mati tanpa bantuan."            # [We will] die without [your] help.
-		"Hanitaw raganhac ifas!"         # Be our hero!
-		"Hasaca humanika siab?"          # Are humans kind?
-		"Okrab ifas cotih!"              # Help us [continue to] live!
-		"Raskafanem ifas!"               # Save us!
+		"<WR-12387>"             # Please help us!
+		"<WR-12388>" # We need rescue!
+		"<WR-12389>"            # Have pity and come [here].
+		"<WR-12390>"     # Will you help us?
+		"<WR-12391>"            # [Will you] rescue us?
+		"<WR-12362>"            # [We will] die without [your] help.
+		"<WR-12392>"         # Be our hero!
+		"<WR-12393>"          # Are humans kind?
+		"<WR-12394>"              # Help us [continue to] live!
+		"<WR-12395>"               # Save us!
 
 phrase "efreti: You should not attack us"
 	word
-		"Osanipecpeb kaam atra atapeb it irim"   # Behave while you are here
-		"Hanikah-ikahpeb ralret ofakawrem"       # Use caution with your guns
-		"Ralraw lrapem nacas ifas"               # Do not attack our ships
-		"Casimpeb kobfen it kilran akis"         # Be gentle in our [sky|space|system]
-		"Ralraw hokrem nubfuk ica oki"           # Do not touch that fire button
-		"Riafpeb siab ralret sara-sara akis"     # Play [kindly|gently] with our [young|weak]
-		"Raspovrah ponek kaam atra it irim"      # Smash no eggs while you are here
-		"Ralraw rasosanef ramapeses"             # Do not be [violent|aggressive]
-		"Satik hawawref akis"                    # No [colonizing|conquering] us
-		"Alawref rasatrik atra alawit"           # Keep your actions guarded
+		"<WR-12396>"   # Behave while you are here
+		"<WR-12397>"       # Use caution with your guns
+		"<WR-12398>"               # Do not attack our ships
+		"<WR-12399>"         # Be gentle in our [sky|space|system]
+		"<WR-12400>"           # Do not touch that fire button
+		"<WR-12401>"     # Play [kindly|gently] with our [young|weak]
+		"<WR-12402>"      # Smash no eggs while you are here
+		"<WR-12403>"             # Do not be [violent|aggressive]
+		"<WR-12404>"                    # No [colonizing|conquering] us
+		"<WR-12405>"           # Keep your actions guarded
 
 phrase "efreti: You should stop attacking us"
 	word
-		"Atra mopah ikrehpeb sabferef"                # You should stop shooting
-		"Apelem rasnallrik fekmim ifas"               # Depart our system immediately
-		"Ilpec, comodrec somob"                       # Begone, foul interloper
-		"Rasikreh apelem rakaobfec hanamaf atra"      # Cease your trouble making immediately
-		"Hanikrehpeb itawref sara nasar"              # Stop being a brat
-		"Ipihsa ramupubfec iri"                       # End this wastefulness
-		"Rasnallrik kacfek iri lrapasem"              # Leave this place now
-		"Ikrehpeb haslrikpeb ikpecem sara nives"      # Stop acting like a child
-		"Adas akrifef atra ikrehpeb sikinellref adas" # I demand you stop [tickling|physically annoying] me
-		"Somoref atra mopah pihsapeb lrapasem"        # Your [poking|ineffectual attack] should stop now
+		"<WR-12406>"                # You should stop shooting
+		"<WR-12407>"               # Depart our system immediately
+		"<WR-12408>"                       # Begone, foul interloper
+		"<WR-12409>"      # Cease your trouble making immediately
+		"<WR-12410>"              # Stop being a brat
+		"<WR-12411>"                       # End this wastefulness
+		"<WR-12412>"              # Leave this place now
+		"<WR-12413>"      # Stop acting like a child
+		"<WR-12414>" # I demand you stop [tickling|physically annoying] me
+		"<WR-12415>"        # Your [poking|ineffectual attack] should stop now
 
 # The powerful faction probably won't intervene, but it is a
 # believable threat that may scare away would-be attackers.
 
 phrase "efreti: because we are protected by (Insert Powerful Faction Name Here)."
 	word
-		"fonebem Drak ofhorobfef."               # before the Drak kill you.
-		"oaka Kuwaru rasa ipavref ofnawa."       # or the Quarg will seek your doom.
-		"ralraw iacfam Kuwaru rasa lrakat."      # lest the Quarg come.
-		"sokro ipatrihlref sabfuk kilran."       # to avoid the Sky Lances
-		"arepas Kuwaru hanata apatoam akis."     # because the Quarg are our siblings
-		"oaka atra rasa itawref Kuwaru naim."    # or you will be Quarg dung.
-		"arepas Kuwaru ilrotrinef akis."         # because [the] Quarg protect us
-		"ralraw iacfam ipekafikra ipihsalref."   # lest antimatter [which powers Quarg ships] end [you]
-		"sokro ipatrihlref ramanabfec Kuwaru."   # to avoid a Quarg's vengeance
+		"<WR-12416>"               # before the Drak kill you.
+		"<WR-12417>"       # or the Quarg will seek your doom.
+		"<WR-12418>"      # lest the Quarg come.
+		"<WR-12419>"       # to avoid the Sky Lances
+		"<WR-12420>"     # because the Quarg are our siblings
+		"<WR-12421>"    # or you will be Quarg dung.
+		"<WR-12422>"         # because [the] Quarg protect us
+		"<WR-12423>"   # lest antimatter [which powers Quarg ships] end [you]
+		"<WR-12424>"   # to avoid a Quarg's vengeance
 
 phrase "exile: I do bad things to my enemies"
 	phrase
 		"exile: I perform harmful acts upon"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: people who offend, attack, or oppress me"
+		"<WR-12425>"
 	word
-		"." 2
-		"!"
+		"<WR-40>" 2
+		"<WR-573>"
 
 phrase "efreti: I do bad things to my enemies"
 	phrase
 		"efreti: I perform harmful acts upon"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: people who offend, attack, or oppress me"
+		"<WR-12426>"
 	word
-		"." 2
-		"!"
+		"<WR-40>" 2
+		"<WR-573>"
 
 phrase "exile: I perform harmful acts upon"
 	word
-		"Bapamef ranres alihfen"            # [I] joyfully devour
-		"Ratto'afis et famas ataler"        # [I] subsume into an inferno
-		"Raiakrahfeb abrak robfa"           # [I] mercilessly slaughter
-		"Ratotamef railak raikafet"         # [I] perform the dance of death [in relation to | with the subject being]
-		"Li'imalkeref rafadra ilas"         # I neutralize the threat of
-		"Rarataf ranril asab kimot"         # [I] snack on the skin of
-		"Aga' ikaftiref 'akisap ilas"       # I enjoy the death of
-		"Ratilehfef akrid ralet atakebamaf" # [I] give love-taps of doom [to]
-		"Tikimennref alade' tikbimatuba"    # [I] apocalyptically tickle
+		"<WR-12427>"            # [I] joyfully devour
+		"<WR-12428>"        # [I] subsume into an inferno
+		"<WR-12429>"           # [I] mercilessly slaughter
+		"<WR-12430>"         # [I] perform the dance of death [in relation to | with the subject being]
+		"<WR-12431>"         # I neutralize the threat of
+		"<WR-12432>"         # [I] snack on the skin of
+		"<WR-12433>"       # I enjoy the death of
+		"<WR-12434>" # [I] give love-taps of doom [to]
+		"<WR-12435>"    # [I] apocalyptically tickle
 
 phrase "efreti: I perform harmful acts upon"
 	word
-		"Ratotamef railak raikafet"           # [I] perform the dance of death [in relation to | with the subject being]
-		"Li'imalkeref rafadra ilas"           # I neutralize the threat of
-		"Rarataf ranril asab kimot"           # [I] snack on the skin of
-		"Osa rahimas atac bimar"              # I pity the fate of
-		"Rassowrok raparebes pihsapek ataces" # [I] show [the] final truth to
-		"Sititref inabfes ralret mapes"       # [I] violently reeducate
-		"Rasipebfef akriv raps asakecanaf"    # [I] give love-taps of doom [to]
-		"Kahafef lratro-lratro lranok ipat"   # [I] sculpt bone statues out of
-		"Adas satik asotpeb"                  # I do not mourn
+		"<WR-12430>"           # [I] perform the dance of death [in relation to | with the subject being]
+		"<WR-12431>"           # I neutralize the threat of
+		"<WR-12432>"           # [I] snack on the skin of
+		"<WR-12436>"              # I pity the fate of
+		"<WR-12437>" # [I] show [the] final truth to
+		"<WR-12438>"       # [I] violently reeducate
+		"<WR-12439>"    # [I] give love-taps of doom [to]
+		"<WR-12440>"   # [I] sculpt bone statues out of
+		"<WR-12441>"                  # I do not mourn
 
 phrase "exile: people who offend, attack, or oppress me"
 	word
-		"rahlut rapalafet aga' nrag lareh"  # victims of my righteous rage
-		"atelef nrag ohlegref kinram"       # those who invade [our|the] [sky | star system]
-		"rimavlek ranres otraa'a'okobet"    # [people who are] entwined with my despair
-		"pavavreb asi'uren akit"            # our genocidal invaders
-		"atelef nrag rata pavavref akit"    # those who would colonize [us|our home]
-		"rafadra inah bosip aga'"           # [people who are] threats to my life
-		"aofe' nralu pusuh abrak kimot"     # all skinless fools [who threaten us]
-		"kapavreb ranres ikap 'e"           # villains with hearts of ice
-		"Humanika nrag tasik jikalebuut"    # uncooperative humans
-		"kagaf bosip is Nraol Alaj"         # [walking corpses|helpless victims] in Ember Space
-		"rabfo failef famas otranrasrab"    # cannon fodder in my sights
+		"<WR-12442>"  # victims of my righteous rage
+		"<WR-12443>"       # those who invade [our|the] [sky | star system]
+		"<WR-12444>"    # [people who are] entwined with my despair
+		"<WR-12445>"            # our genocidal invaders
+		"<WR-12446>"    # those who would colonize [us|our home]
+		"<WR-12447>"           # [people who are] threats to my life
+		"<WR-12448>"     # all skinless fools [who threaten us]
+		"<WR-12449>"           # villains with hearts of ice
+		"<WR-12450>"    # uncooperative humans
+		"<WR-12451>"         # [walking corpses|helpless victims] in Ember Space
+		"<WR-12452>"    # cannon fodder in my sights
 
 phrase "efreti: people who offend, attack, or oppress me"
 	word
-		"rabpus rahapafes adas lrad pareb"      # victims of my righteous rage
-		"asepef lrad obpedref kilran"           # those who invade [our|the] [sky|star system]
-		"rinawpek ralret osraamamokoces"        # [people who are] entwined with my despair
-		"hawawrec atimurel akis"                # our genocidal invaders
-		"asepef lrad rasa hawawref akis"        # those who would colonize [us|our home]
-		"rafavra ilab cotih adas"               # [people who are] threats to my life
-		"ipovrec racotihes lrad kahaw"          # evil thieves of lives
-		"aofem lrapu hutub acrak kinos"         # all skinless fools [who threaten us]
-		"rarahak ipat rahanames asepef ipitrem" # [prisoners of|those imprisoned by] their own misdeeds
-		"racfo faipef fanat osralratrac"        # cannon fodder in my sights
+		"<WR-12453>"      # victims of my righteous rage
+		"<WR-12454>"           # those who invade [our|the] [sky|star system]
+		"<WR-12455>"        # [people who are] entwined with my despair
+		"<WR-12456>"                # our genocidal invaders
+		"<WR-12457>"        # those who would colonize [us|our home]
+		"<WR-12458>"               # [people who are] threats to my life
+		"<WR-12459>"          # evil thieves of lives
+		"<WR-12460>"         # all skinless fools [who threaten us]
+		"<WR-12461>" # [prisoners of|those imprisoned by] their own misdeeds
+		"<WR-12462>"        # cannon fodder in my sights
 
 
 phrase "exile: the last person who attacked me had something bad happen to them"
 	phrase
 		"exile: The last person who attacked me"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: had something bad happen to them"
+		"<WR-12463>"
 	word
-		"! "
-		". "
+		"<WR-1529>"
+		"<WR-670>"
 	phrase
-		"exile: You are the next person that will have something bad happen to them."
+		"<WR-12464>"
 
 phrase "efreti: the last person who attacked me had something bad happen to them"
 	phrase
 		"efreti: The last person who attacked me"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: had something bad happen to them"
+		"<WR-12465>"
 	word
-		"! "
-		". "
+		"<WR-1529>"
+		"<WR-670>"
 	phrase
-		"efreti: You are the next person that will have something bad happen to them."
+		"<WR-12466>"
 
 phrase "exile: The last person who attacked me"
 	word
-		"'asrireb liptalek aga'"                 # My last oppressor
-		"Nralu pusuh nrag otnralegref"           # A fool that attacked me
-		"Rilafet, raikafet asramef"              # Yesterday, the dying struck
-		"Humanika nrag pafem nralegref"          # A weak human attacked
-		"Kagaf nrag latahlek ilukunref otkimot"  # Burning corpses soiled my skin
-		"Ramananet nrag ratlistakis"             # A doomed failure
-		"Rarataf liptalek aga'"                  # My last meal
-		"Kosah nralegref agrfomehe'"             # Clowns attacked before
-		"Paohe' kickir inrakasref ifat"          # A [skinless|uneducated] person came to us
-		"Paohe' rariaf ohlegref"                 # A plaything invaded"
-
+		"<WR-12467>"                 # My last oppressor
+		"<WR-12468>"           # A fool that attacked me
+		"<WR-12469>"              # Yesterday, the dying struck
+		"<WR-12470>"          # A weak human attacked
+		"<WR-12471>"  # Burning corpses soiled my skin
+		"<WR-12472>"             # A doomed failure
+		"<WR-12473>"                  # My last meal
+		"<WR-12474>"             # Clowns attacked before
+		"<WR-12475>"          # A [skinless|uneducated] person came to us
+		"<WR-12476>"                 # A plaything invaded
 phrase "efreti: The last person who attacked me"
 	word
-		"Matrirec pihsapek adas"              # My last oppressor
-		"Lrapu hutub lrad oslrapdref"         # A fool that attacked me
-		"Ripafes, raikafes atranef"           # Yesterday, the dying struck
-		"Atelef nrag rata porohfef"           # Those that would kill
-		"Kahawrec somob lrapdref adrfonebem"  # Foul criminals struck before
-		"Ranalales lrad raspitsakit"          # A doomed failure
-		"Kotab lrapdref adrfonebem"           # Clowns attacked before
-		"Hanam rasititrec obpedref"           # Miseducated people invaded
-		"Ralinuuh ofikpecem lrapdref"         # Hooligans like you assailed
-		"Paohe' kickir inrakasref ifat"       # A [nitwit | unwise person] came to us
+		"<WR-12477>"              # My last oppressor
+		"<WR-12478>"         # A fool that attacked me
+		"<WR-12479>"           # Yesterday, the dying struck
+		"<WR-12480>"           # Those that would kill
+		"<WR-12481>"  # Foul criminals struck before
+		"<WR-12482>"          # A doomed failure
+		"<WR-12483>"           # Clowns attacked before
+		"<WR-12484>"           # Miseducated people invaded
+		"<WR-12485>"         # Hooligans like you assailed
+		"<WR-12475>"       # A [nitwit | unwise person] came to us
 
 phrase "exile: had something bad happen to them"
 	word
-		"isavref rabakra' nrag laom a'aih"       # became an excellent meal
-		"odifef luktael aga'"                    # fueled my reactor
-		"ralohonreb iba is laom a'atnra"         # [had a] fiery burial in space
-		"raca resre'ralk ohes nrakrih"           # [became a] transcendent cloud of stardust
-		"i'aip nrinas 'ikekri' Nu'agel aga"      # garnished my Nutrigel synthetic meat
-		"i'elbfutis isavref raimleh tokro 'otuj" # was compressed into diamond for an energy focus [device]
-		"talharef nriob-nriob is siulek'a"       # [ crashed into | became ] debris on asteroids
-		"ikaftiref rainlebet nrag iba-ibaleh"    # enjoyed a fiery departure
-		"ikofime'is iba rapalafet"               # was enshrouded in wrathful flames
-		"ranres alihfen tikimennref otpalafa"    # tickled my joyous rage
+		"<WR-12486>"       # became an excellent meal
+		"<WR-12487>"                    # fueled my reactor
+		"<WR-12488>"         # [had a] fiery burial in space
+		"<WR-12489>"           # [became a] transcendent cloud of stardust
+		"<WR-12490>"      # garnished my Nutrigel synthetic meat
+		"<WR-12491>" # was compressed into diamond for an energy focus [device]
+		"<WR-12492>"       # [ crashed into | became ] debris on asteroids
+		"<WR-12493>"    # enjoyed a fiery departure
+		"<WR-12494>"               # was enshrouded in wrathful flames
+		"<WR-12495>"    # tickled my joyous rage
 
 phrase "efreti: had something bad happen to them"
 	word
-		"itawref rakahac lranok lrad hatri"             # became beautiful bone sculptures
-		"odifef luktael aga'"                           # fueled my reactor
-		"rapobolrec ica it paon amaslra"                # [had a] fiery burial in space
-		"raga retremrapk obet lrakrib"                  # [became a] transcendent cloud of stardust
-		"imepcfusit itawref rainpeb sokro mosuy ilpere" # was compressed into diamond for an energy focus [device]
-		"sapbaref lrioc-lrioc it tiupekma"              # [crashed into | became] debris on asteroids
-		"patung dari puing-puing"                       # [became a] sculpture of debris
-		"ikocinit apkmespu ramapeses"                   # was engulfed in an orchestra of violence
-		"satik ikafsiref bimar asepef"                  # did not enjoy their fate
-		"ralret apibfel sikinellref oshapafa"           # tickled my joyous rage
+		"<WR-12496>"             # became beautiful bone sculptures
+		"<WR-12487>"                           # fueled my reactor
+		"<WR-12497>"                # [had a] fiery burial in space
+		"<WR-12498>"                  # [became a] transcendent cloud of stardust
+		"<WR-12499>" # was compressed into diamond for an energy focus [device]
+		"<WR-12500>"              # [crashed into | became] debris on asteroids
+		"<WR-12501>"                       # [became a] sculpture of debris
+		"<WR-12502>"                   # was engulfed in an orchestra of violence
+		"<WR-12503>"                  # did not enjoy their fate
+		"<WR-12504>"           # tickled my joyous rage
 
 
 phrase "exile: You are the next person that will have something bad happen to them."
 	word
-		"Sekarang kamu akan terbakar!"          # Now you will burn!
-		"Dewa Anda tidak dapat membantu Anda."  # Your gods can't help you [now].
-		"Ofkagaf rata i'aipnref otrakahfev."    # Your corpse will decorate my bridge.
-		"Nriob-nriob rata ronrahfef mabat."     # [Your] debris will [be used to] construct [our] ships!
-		"Tevenref rapalafet rekubfi asra!"      # I mock your impotent rage!
-		"Rasosanef raipak raikafes!"            # [You will] do the dance of death!
-		"Kulit anda akan dilupakan."            # Your skin will be forgotten.
-		"Luktael i'fo'rutnref nrinas asra!"     # [My] reactor [will] consume your flesh.
-		"I'toselef asra isavref af'amb!"        # [I will] reduce you to plasma.
-		"Af'amb rata ratto'afef asra."          # The plasma [from my guns] will subsume you.
+		"<WR-12505>"          # Now you will burn!
+		"<WR-12506>"  # Your gods can't help you [now].
+		"<WR-12507>"    # Your corpse will decorate my bridge.
+		"<WR-12508>"     # [Your] debris will [be used to] construct [our] ships!
+		"<WR-12509>"      # I mock your impotent rage!
+		"<WR-12510>"            # [You will] do the dance of death!
+		"<WR-12511>"            # Your skin will be forgotten.
+		"<WR-12512>"     # [My] reactor [will] consume your flesh.
+		"<WR-12513>"        # [I will] reduce you to plasma.
+		"<WR-12514>"          # The plasma [from my guns] will subsume you.
 
 phrase "efreti: You are the next person that will have something bad happen to them."
 	word
-		"Nikmati tarian terakhirmu!"                 # Enjoy your final dance!
-		"Rasakas osatac ofrarilries."                # Tell me your [ dying wish | final memory ].
-		"Hasaca ata kapihsa Humanika?"               # Is there a human afterlife?
-		"Dewa Anda tidak dapat membantu Anda!"       # Your gods can't help you [now]!
-		"Hasrasa akis idradrpeb afampeb it kapihsa?" # Will we sing together in the afterlife?
-		"Tevenref rapalafet rekubfi asra!"           # I mock your impotent rage!
-		"Rasosanef raipak raikafes!"                 # [You will] do the dance of death!
-		"Kulit anda akan dilupakan."                 # Your skin will be forgotten.
-		"Osa rasa kahafef ofraikafes."               # I will make a sculpture of your demise.
-		"Sara-sara rasagakperef ranicfapekes atra."  # [Our] children laugh at your [terrible piloting] skills.
+		"<WR-12515>"                 # Enjoy your final dance!
+		"<WR-12516>"                # Tell me your [ dying wish | final memory ].
+		"<WR-12517>"               # Is there a human afterlife?
+		"<WR-12518>"       # Your gods can't help you [now]!
+		"<WR-12519>" # Will we sing together in the afterlife?
+		"<WR-12509>"           # I mock your impotent rage!
+		"<WR-12510>"                 # [You will] do the dance of death!
+		"<WR-12511>"                 # Your skin will be forgotten.
+		"<WR-12520>"               # I will make a sculpture of your demise.
+		"<WR-12521>"  # [Our] children laugh at your [terrible piloting] skills.
 
 phrase "exile: I like to do things"
 	phrase
 		"exile: I like to"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: listen to (Band)"
-		"exile: eat good food"
+		"<WR-12522>"
+		"<WR-12523>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "efreti: I like to do things"
 	phrase
 		"efreti: I like to"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: listen to (Band)"
-		"efreti: eat good food"
+		"<WR-12524>"
+		"<WR-12525>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "exile: I learned to do things"
 	phrase
 		"exile: To better myself"
 		"exile: For the community"
 	word
-		", "
+		"<WR-24>"
 	phrase
-		"exile: i learned | practiced | taught"
+		"<WR-12526>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: artistic or musical skill"
-		"exile: practical skill"
+		"<WR-12527>"
+		"<WR-12528>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "efreti: I learned to do things"
 	phrase
 		"efreti: To better myself"
 		"efreti: For the community"
 	word
-		", "
+		"<WR-24>"
 	phrase
-		"efreti: i learned | practiced | taught"
+		"<WR-12529>"
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"efreti: artistic or musical skill"
-		"efreti: practical skill"
+		"<WR-12530>"
+		"<WR-12531>"
 	word
-		"."
+		"<WR-40>"
 
 phrase "exile: I like to"
 	word
-		"'aga tedarsoar"                            # I'm addicted to
-		"Tehapaniaar ahasi siahasitar samaf"        # Eternal bliss is enshrined in
-		"Teritfakar kelkirnni sabak sikefotar"      # Supreme enjoyment can be found in
-		"Kisat atar belrap asa dotob"               # There can never be enough
-		"Vicato 'emamo ferornno"                    # My soul always awaits
-		"Tomik 'aga feralit 'aga te"                # My skin draws me to
-		"Kerkorga 'aga asamap luki orkot ferduha"   # Surely I was bred to
-		"Hanaifara 'aga kisat ferduha"              # How can I not try
-		"'aga atar femeba'tar Nu'agel orkot"        # I'd give up Nutrigel for
-		"Helamip veri' temafir atar helr"           # Switching genders would be worth
+		"<WR-12532>"                            # I'm addicted to
+		"<WR-12533>"        # Eternal bliss is enshrined in
+		"<WR-12534>"      # Supreme enjoyment can be found in
+		"<WR-12535>"               # There can never be enough
+		"<WR-12536>"                    # My soul always awaits
+		"<WR-12537>"                # My skin draws me to
+		"<WR-12538>"   # Surely I was bred to
+		"<WR-12539>"              # How can I not try
+		"<WR-12540>"        # I'd give up Nutrigel for
+		"<WR-12541>"           # Switching genders would be worth
 
 phrase "efreti: I like to"
 	word
-		"Mada sevartoar"                            # I'm addicted to
-		"Sebahaliaar abati tiabatisar tanaf"        # Eternal bliss is enshrined in
-		"Serisfakar kepkirlli tacak tikefosar"      # Supreme enjoyment can be found in
-		"Kitas asar ceprah ata vosoc"               # There can never be enough
-		"Wigaso menano ferorllo"                    # My soul always awaits
-		"Sonik mada ferapis mada se"                # My skin draws me to
-		"Kerkorda mada atanah puki orkos fervuba"   # Surely I was bred to
-		"Balaifara mada kitas fervuba"              # How can I not try
-		"Mada asar fenocasar Kuwaru hirlla"         # I'd forget the Quarg to
-		"Bepanih werim senafir asar bepr"           # Switching genders would be worth
+		"<WR-12542>"                            # I'm addicted to
+		"<WR-12543>"        # Eternal bliss is enshrined in
+		"<WR-12544>"      # Supreme enjoyment can be found in
+		"<WR-12545>"               # There can never be enough
+		"<WR-12546>"                    # My soul always awaits
+		"<WR-12547>"                # My skin draws me to
+		"<WR-12548>"   # Surely I was bred to
+		"<WR-12549>"              # How can I not try
+		"<WR-12550>"         # I'd forget the Quarg to
+		"<WR-12551>"           # Switching genders would be worth
 
 # Band names come from the human band list.
 
 phrase "exile: listen to (Band)"
 	word
-		"sernal"                  # hear
-		"sernaltar"               # listen to
-		"tehapaniaar orkot"       # bliss out to
-		"tohol bitilarto samaf"   # bury my thoughts in
-		"ritfaki"                 # enjoy
-		"femapab"                 # devour
-		"amilar"                  # stream
+		"<WR-12552>"                  # hear
+		"<WR-12553>"               # listen to
+		"<WR-12554>"       # bliss out to
+		"<WR-12555>"   # bury my thoughts in
+		"<WR-12556>"                 # enjoy
+		"<WR-12557>"                 # devour
+		"<WR-12558>"                  # stream
 	word
-		" "
+		"<WR-117>"
 	word
-		"Ter Mite Bee Riot"             # There Might Be Riots
-		"Rati I'arifam"                 # Laminated Fish
-		"Kafait Tikenumuba"             # Apologetic Apocalypse
-		"Racat-racat is Ikul"           # Comrades on Toast
-		"Tolannref Abrak Riwi"          # Scratching Without Permission
-		"I'omi Ramafluret"              # Illusion of Normalcy
-		"Lafa' Ranres Alad Nrag Gkjir"  # Cryptic in a Nifty Way
-		"Ratimifebet Nrag Falap"        # Unlawful Possession
-		"Rarataf Toloh ras Rakavopnreb" # Bad Food and Blasphemy
-		"Raiakrahfeb Tdramb"            # Planck Massacre
+		"<WR-12559>"             # There Might Be Riots
+		"<WR-12560>"                 # Laminated Fish
+		"<WR-12561>"             # Apologetic Apocalypse
+		"<WR-12562>"           # Comrades on Toast
+		"<WR-12563>"          # Scratching Without Permission
+		"<WR-12564>"              # Illusion of Normalcy
+		"<WR-12565>"  # Cryptic in a Nifty Way
+		"<WR-12566>"        # Unlawful Possession
+		"<WR-12567>" # Bad Food and Blasphemy
+		"<WR-12568>"            # Planck Massacre
 
 phrase "efreti: listen to (Band)"
 	word
-		"terlap"             # hear
-		"terlapsar"          # listen to
-		"sebahaliaar orkos"  # bliss out to
-		"ritfaki"            # enjoy
-		"fenahac"            # devour
-		"anipar"             # stream
+		"<WR-12569>"             # hear
+		"<WR-12570>"          # listen to
+		"<WR-12571>"  # bliss out to
+		"<WR-12556>"            # enjoy
+		"<WR-12572>"            # devour
+		"<WR-12573>"             # stream
 	word
-		" "
+		"<WR-117>"
 	word
-		"Ter Mite Bee Riot"            # There Might Be Riots
-		"Rasi Imarifan"                # Laminated Fish
-		"Rivriv Apakrek Binam Airot"   # Ringworld Crusaders
-		"Ragas-ragas it Ikup"          # Comrades on Toast
-		"Imoni Ranafpures"             # Illusion of Normalcy
-		"Apako Alpom"                  # North of Heaven
-		"Pafam Ralret Apav Lrad Dkyir" # Cryptic in a Nifty Way
-		"Lrapu Lrad Hatof Pasabpek"    # Flammable People
-		"Ranabeses Iacfam Ikaf"        # Immunity to Death
-		"Raiakrabfec Svranc"           # Planck Massacre
+		"<WR-12559>"            # There Might Be Riots
+		"<WR-12574>"                # Laminated Fish
+		"<WR-12575>"   # Ringworld Crusaders
+		"<WR-12576>"          # Comrades on Toast
+		"<WR-12577>"             # Illusion of Normalcy
+		"<WR-12578>"                  # North of Heaven
+		"<WR-12579>" # Cryptic in a Nifty Way
+		"<WR-12580>"    # Flammable People
+		"<WR-12581>"        # Immunity to Death
+		"<WR-12582>"           # Planck Massacre
 
 # This is probably not what Korath actually eat, but it's what I
 # imagine them eating if they were in our place in history on Earth.
 
 phrase "exile: eat good food"
 	word
-		"ila'ikri"                     # digest
-		"rameref"                      # ingest
-		"i'fo'rutnref"                 # consume
-		"bapamef"                      # devour
-		"ikaftir"                      # enjoy
-		"rataf"                        # dine on
-		"pagronref"                    # munch on
-		"raofavleb"                    # banquet
-		"pagronref"                    # masticate
-		"kininnref"                    # nibble
+		"<WR-12583>"                     # digest
+		"<WR-12584>"                      # ingest
+		"<WR-12585>"                 # consume
+		"<WR-12586>"                      # devour
+		"<WR-12587>"                      # enjoy
+		"<WR-12588>"                        # dine on
+		"<WR-12589>"                    # munch on
+		"<WR-12590>"                    # banquet
+		"<WR-12589>"                    # masticate
+		"<WR-12591>"                    # nibble
 	word
-		" "
+		"<WR-117>"
 	phrase
-		"exile: good food"
+		"<WR-12592>"
 
 phrase "efreti: eat good food"
 	word
-		"ipamikri"                     # digest
-		"raneref"                      # ingest
-		"imfomruslref"                 # consume
-		"cahanef"                      # devour
-		"ikafsir"                      # enjoy
-		"rasaf"                        # dine on
-		"hadrolref"                    # munch on
-		"raofawpec"                    # banquet
-		"hadrolref"                    # masticate
-		"kilillref"                    # nibble
+		"<WR-12593>"                     # digest
+		"<WR-12594>"                      # ingest
+		"<WR-12595>"                 # consume
+		"<WR-12596>"                      # devour
+		"<WR-12597>"                      # enjoy
+		"<WR-12598>"                        # dine on
+		"<WR-12599>"                    # munch on
+		"<WR-12600>"                    # banquet
+		"<WR-12599>"                    # masticate
+		"<WR-12601>"                    # nibble
 	word
-		" "
+		"<WR-117>"
 	word
-		"ukkumip ifov"                          # squid risotto
-		"roafap rat iabav ifov"                 # herb and chili calamari
-		"akmac akrik ifov-ifov"                 # squid ink pasta
-		"ifov lrepul"                           # fried calamari
-		"kocislraop ralret edrapu"              # space slug with orange
-		"cihav kocislraop lripes"               # dried space slug chips
-		"atanem oawih aok palem"                # fresh dark green lettuce
-		"lrabfos satab hadrep"                  # crunchy rhino beetles
-		"ipebupkm palem lrad lrakaf"            # ripe succulent strawberries
-		"tuv lrallrac ralret lragab hikoc"      # baked cod with garlic
-		"rasi it maka makpes"                   # fish en papillote
-		"neca akmec lrad hadrep"                # crisp gala apples
-		"oban lriros lravriv monah"             # finely chopped yellow squash
-		"kano cotih lrad kainellref"            # live squirming mealworms
-		"soslrafem arpan lrivav lranel"         # a bowlful of hornworm larvae
-		"hoponem irunus kofem"                  # an entire ant colony
-		"rasocfok pameb lrivav rinin"           # a big heaping pile of waxworms
-		"lrapam ponek lropob akro"              # a nest of ostrich eggs
-		"idab mosik rilrit ralret ramaih"       # chilled baby mice with garnish
-		"akmac pano nives ralret umsab lravriv" # a pasta of small snakes with mice meatballs
+		"<WR-12602>"                          # squid risotto
+		"<WR-12603>"                 # herb and chili calamari
+		"<WR-12604>"                 # squid ink pasta
+		"<WR-12605>"                           # fried calamari
+		"<WR-12606>"              # space slug with orange
+		"<WR-12607>"               # dried space slug chips
+		"<WR-12608>"                # fresh dark green lettuce
+		"<WR-12609>"                  # crunchy rhino beetles
+		"<WR-12610>"            # ripe succulent strawberries
+		"<WR-12611>"      # baked cod with garlic
+		"<WR-12612>"                   # fish en papillote
+		"<WR-12613>"                # crisp gala apples
+		"<WR-12614>"             # finely chopped yellow squash
+		"<WR-12615>"            # live squirming mealworms
+		"<WR-12616>"         # a bowlful of hornworm larvae
+		"<WR-12617>"                  # an entire ant colony
+		"<WR-12618>"           # a big heaping pile of waxworms
+		"<WR-12619>"              # a nest of ostrich eggs
+		"<WR-12620>"       # chilled baby mice with garnish
+		"<WR-12621>" # a pasta of small snakes with mice meatballs
 
 phrase "exile: To better myself"
 	word
-		"Tokro itiahlebfef ilis"      # to better myself
-		"Tokro 'akimaosiqisri aga'"   # for my individuality,
-		"Gkie'bi ektisref acpah"      # ipseity dictated that [I]
-		"Tokro ranrare'et"            # for [pleasure|freedom of thought]
-		"Kimot nralu aok aga'"        # for my parents' [dead skin|legacy]
+		"<WR-12622>"      # to better myself
+		"<WR-12623>"   # for my individuality,
+		"<WR-12624>"      # ipseity dictated that [I]
+		"<WR-12625>"            # for [pleasure|freedom of thought]
+		"<WR-12626>"        # for my parents' [dead skin|legacy]
 
 phrase "efreti: To better myself"
 	word
-		"Sokro isiabpecfef ipit"      # to better myself
-		"Sokro makinaotiritri adas"   # for my individuality
-		"Dkiemci eksitref aghab"      # ipseity dictated that [I]
-		"Sokro ralraremes"            # for [pleasure|freedom of thought]
-		"Kinos lrapu aok adas"        # for my parents' [dead skin|legacy]
+		"<WR-12627>"      # to better myself
+		"<WR-12628>"   # for my individuality
+		"<WR-12629>"      # ipseity dictated that [I]
+		"<WR-12630>"            # for [pleasure|freedom of thought]
+		"<WR-12631>"        # for my parents' [dead skin|legacy]
 
 phrase "exile: For the community"
 	word
-		"Tokro katalag'af"            # For the community
-		"Rapohfokleb pafol"           # To [grow|improve] our [home|community|ship]
-		"Tokro lomek"                 # For [the eggs|our children|hope]
-		"Raporefeb"                   # For a feeling of [fulfillment|belonging]
-		"Tokro i'abi'rafe"            # To [achieve|envision] our [emancipation|escape]
+		"<WR-12632>"            # For the community
+		"<WR-12633>"           # To [grow|improve] our [home|community|ship]
+		"<WR-12634>"                 # For [the eggs|our children|hope]
+		"<WR-12635>"                   # For a feeling of [fulfillment|belonging]
+		"<WR-12636>"            # To [achieve|envision] our [emancipation|escape]
 
 phrase "efreti: For the community"
 	word
-		"Sokro kasapadmaf"            # For the community
-		"Rahobfokpec hafop"           # To [grow|improve] our [home|community|ship]
-		"Sokro ponek"                 # For [the eggs|our children|hope]
-		"Rahorefec"                   # For a feeling of [fulfillment|belonging]
-		"Rasowafef rahobfokpec"       # To facilitate [societal progress|rebuilding]
+		"<WR-12637>"            # For the community
+		"<WR-12638>"           # To [grow|improve] our [home|community|ship]
+		"<WR-12639>"                 # For [the eggs|our children|hope]
+		"<WR-12640>"                   # For a feeling of [fulfillment|belonging]
+		"<WR-12641>"       # To facilitate [societal progress|rebuilding]
 
 phrase "exile: i learned | practiced | taught"
 	word
-		"ota pamek lavameh"            # i learned
-		"aga' opak"                    # i figured out
-		"ilavamebis is"                # i studied in
-		"aga' pikamleh"                # i practiced
-		"aga' tisisis is"              # i educated in
-		"aga' lavanref"                # i taught
-		"aga' rataf ramibfaleket"      # i ate the skill
-		"aga' rataf raopakenreb ohi"   # i ate mother's knowledge
-		"kimot paga ilehfef aga'"      # father's skin gave me
-		"aga' rataf lek'af"            # i ate a master's
+		"<WR-12642>"            # i learned
+		"<WR-12643>"                    # i figured out
+		"<WR-12644>"                # i studied in
+		"<WR-12645>"                # i practiced
+		"<WR-12646>"              # i educated in
+		"<WR-12647>"                # i taught
+		"<WR-12648>"      # i ate the skill
+		"<WR-12649>"   # i ate mother's knowledge
+		"<WR-12650>"      # father's skin gave me
+		"<WR-12651>"            # i ate a master's
 
 phrase "efreti: i learned | practiced | taught"
 	word
-		"osa hanek pawaneb"            # i learned
-		"adas ohak"                    # i figured out
-		"ipawanecit it"                # i studied in
-		"adas hikanpeb"                # i practiced
-		"adas sititit it"              # i educated in
-		"adas pawalref"                # i taught
-		"adas rasaf ranicfapekes"      # i ate the skill
-		"adas rasaf raohakelrec obi"   # i ate mother's knowledge
-		"kinos hada ipebfef adas"      # father's skin gave me
-		"adas rasaf pekmaf"            # i ate a master's
+		"<WR-12652>"            # i learned
+		"<WR-12653>"                    # i figured out
+		"<WR-12654>"                # i studied in
+		"<WR-12655>"                # i practiced
+		"<WR-12656>"              # i educated in
+		"<WR-12657>"                # i taught
+		"<WR-12658>"      # i ate the skill
+		"<WR-12659>"   # i ate mother's knowledge
+		"<WR-12660>"      # father's skin gave me
+		"<WR-12661>"            # i ate a master's
 
 # Korath probably don't have this exact music and art, but I chose
 # music with a low pitch, so they'd be able to hear it well.
 
 phrase "exile: artistic or musical skill"
 	word
-		"ramibfaleket riafleh ummed"          # cello playing skills
-		"katah 'ah fols"                      # bass drumming talent
-		"katah ahok nrag laom a'aih"          # terrific tuba talent
-		"i'i'ubfut ruu'ahalkrut nrag tilaref" # catchy contrabassoon composition
-		"iefuupt nrag kanra' 'iruflap"        # perfectly harmonious khoomei (Tuva throat singing)
-		"zavvakat nrag nrimab mibfalek"       # the most skilled katajjaq (Intuit throat singing)
-		"lriyee lrad kalram hatri"            # divinely beautiful eefing (Xhosa throat singing)
-		"Far Upugf Enrel Ugt"                 # Nam Myoho Renge Kyo (Buddhist religious chant)
-		"Fu A Al Ab Ad Ar Pips"               # Om A Ra Pa Ca Na Dhih (Buddhist religious chant)
-		"i'i'ubfut onam dimesepdgi'ib-ko'ub"  # post-psychedelic song composition
-		"abaleheh ukle'rut uhu"               # several oboe concertos
-		"nrokab 'islo'ha tikerit"             # kinetic absurdist sculpture
-		"ralito ivanlen lebip 'ik'imael"      # hyper-realistic chainsaw carving
-		"nrokab ranravrameket tiulep"         # heroic nudity sculpting
-		"nrokab tulah nrag 'ifaris"           # dynamic boroque sculpture
-		"nrokab ire' parak 'irlesuf-ko'ub"    # post-modernist land art sculpture
-		"agan ra'itom ef'irui'elbfi talk'ha"  # abstract impressionism painting style
-		"lekaek tikimub ti'amtuer rlesuf"     # modern neoclassical political theatre
-		"i'tolk'rutelef aiseffud ekla'mmes"   # reconstructed (as in recovered from loss) commedia dell'arte
-		"aile'ife' alebu pasrilek"            # the most beautiful opera semiseria
-		"railak jikakelblekri inumuluekef"    # meteorological interpretive dance
+		"<WR-12662>"          # cello playing skills
+		"<WR-12663>"                      # bass drumming talent
+		"<WR-12664>"          # terrific tuba talent
+		"<WR-12665>" # catchy contrabassoon composition
+		"<WR-12666>"        # perfectly harmonious khoomei (Tuva throat singing)
+		"<WR-12667>"       # the most skilled katajjaq (Intuit throat singing)
+		"<WR-12668>"            # divinely beautiful eefing (Xhosa throat singing)
+		"<WR-12669>"                 # Nam Myoho Renge Kyo (Buddhist religious chant)
+		"<WR-12670>"               # Om A Ra Pa Ca Na Dhih (Buddhist religious chant)
+		"<WR-12671>"  # post-psychedelic song composition
+		"<WR-12672>"               # several oboe concertos
+		"<WR-12673>"             # kinetic absurdist sculpture
+		"<WR-12674>"      # hyper-realistic chainsaw carving
+		"<WR-12675>"         # heroic nudity sculpting
+		"<WR-12676>"           # dynamic boroque sculpture
+		"<WR-12677>"    # post-modernist land art sculpture
+		"<WR-12678>"  # abstract impressionism painting style
+		"<WR-12679>"     # modern neoclassical political theatre
+		"<WR-12680>"   # reconstructed (as in recovered from loss) commedia dell'arte
+		"<WR-12681>"            # the most beautiful opera semiseria
+		"<WR-12682>"    # meteorological interpretive dance
 
 phrase "efreti: artistic or musical skill"
 	word
-		"ranicfapekes riafpeb unnev"           # cello playing skills
-		"kasab mmab fopt"                      # bass drumming talent
-		"kasab abok lrad paon amaib"           # terrific tuba talent
-		"imimucfus ruummabapkrus lrad siparef" # catchy contrabassoon composition
-		"iefuuhs lrad kalram mirufpah"         # perfectly harmonious khoomei (Tuva throat singing)
-		"lriyee lrad kalram hatri"             # divinely beautiful eefing (Xhosa throat singing)
-		"tawwakas lrad lrinac nicfapek"        # the most skilled katajjaq (Intuit throat singing)
-		"Far Uhudf Elrep Uds"                  # Nam Myoho Renge Kyo (Buddhist religious chant)
-		"Fu A Ap Ac Av Ar Hiht"                # Om A Ra Pa Ca Na Dhih (Buddhist religious chant)
-		"imimucfus olan vinetehvdmc-kmuc"      # post-psychedelic song composition
-		"acapebeb ukpemrus ubu"                # several oboe concertos
-		"lrokac mitpomba sikeris"              # kinetic absurdist sculpture
-		"rapiso iwalpel pecih mikminaep"       # hyper-realistic chainsaw carving
-		"adal ramison efmiruimepcfi sapkmba"   # abstract impressionism painting style
-		"lrokac ralrawranekes siupeh"          # heroic nudity sculpting
-		"lrokac supab lrad mifarit"            # dynamic boroque sculpture
-		"lrokac irem harak mirpetuf-kmuc"      # post-modernist land art sculpture
-		"pekaek sikinuc simansuer rpetuf"      # modern neoclassical political theatre
-		"imsopkmrusepef aiteffuv ekpa'nnet"    # reconstructed (as in recovered from loss) commedia dell'arte
-		"aipemifem apecu hatripek"             # the most beautiful opera semiseria
-		"raipak yikakepcpekri ilunupuekef"     # meteorological interpretive dance
+		"<WR-12683>"           # cello playing skills
+		"<WR-12684>"                      # bass drumming talent
+		"<WR-12685>"           # terrific tuba talent
+		"<WR-12686>" # catchy contrabassoon composition
+		"<WR-12687>"         # perfectly harmonious khoomei (Tuva throat singing)
+		"<WR-12668>"             # divinely beautiful eefing (Xhosa throat singing)
+		"<WR-12688>"        # the most skilled katajjaq (Intuit throat singing)
+		"<WR-12689>"                  # Nam Myoho Renge Kyo (Buddhist religious chant)
+		"<WR-12690>"                # Om A Ra Pa Ca Na Dhih (Buddhist religious chant)
+		"<WR-12691>"      # post-psychedelic song composition
+		"<WR-12692>"                # several oboe concertos
+		"<WR-12693>"              # kinetic absurdist sculpture
+		"<WR-12694>"       # hyper-realistic chainsaw carving
+		"<WR-12695>"   # abstract impressionism painting style
+		"<WR-12696>"          # heroic nudity sculpting
+		"<WR-12697>"            # dynamic boroque sculpture
+		"<WR-12698>"      # post-modernist land art sculpture
+		"<WR-12699>"      # modern neoclassical political theatre
+		"<WR-12700>"    # reconstructed (as in recovered from loss) commedia dell'arte
+		"<WR-12701>"             # the most beautiful opera semiseria
+		"<WR-12702>"     # meteorological interpretive dance
 
 phrase "exile: practical skill"
 	word
-		"raalapimefeb lekaebel af'amb"          # plasma repeater maintenance
-		"i'tolk'rut alaref ataler"              # inferno turret construction
-		"ratiahleb ras rakacaleb ri'ef"         # engine repair and maintenance
-		"raa'aonreb ire' tahferef"              # mastery of the art of shooting
-		"ramibfaleket nrikumib nrag laom a'aih" # superb piloting skills
-		"ratnrahfenref kahu tikuihikra"         # developing antibiotic medicine
-		"pakar pergerakan armada humanika"      # human fleet movement expert
-		"i'irtek Nu'agel"                       # nutrigel technician (Nu'agel = Nutrigel)
-		"i'iktalb kacaleb 'inumukafles"         # dermatological nurse practitioner
-		"racalave' Drak ras 'imarauti'b"        # Drak historian and psychoanalyst
-		"impa ati'ijulk'a 'ikeluek"             # theoretical astrophysicist
-		"ikimereb nriflujallek 'ikeluek"        # theoretical terraforming researcher
-		"impa paseh afoalk"                     # trauma surgeon
-		"ratanereb i'rei'ije anarek avlet"      # labor efficiency enforcement
-		"rakaohfeb rarataf rakaoh Nu'agel"      # Nutrigel artificial food creation (ie. fake meat & veggies)
+		"<WR-12703>"          # plasma repeater maintenance
+		"<WR-12704>"              # inferno turret construction
+		"<WR-12705>"         # engine repair and maintenance
+		"<WR-12706>"              # mastery of the art of shooting
+		"<WR-12707>" # superb piloting skills
+		"<WR-12708>"         # developing antibiotic medicine
+		"<WR-12709>"      # human fleet movement expert
+		"<WR-12710>"                       # nutrigel technician (Nu'agel = Nutrigel)
+		"<WR-12711>"         # dermatological nurse practitioner
+		"<WR-12712>"        # Drak historian and psychoanalyst
+		"<WR-12713>"             # theoretical astrophysicist
+		"<WR-12714>"        # theoretical terraforming researcher
+		"<WR-12715>"                     # trauma surgeon
+		"<WR-12716>"      # labor efficiency enforcement
+		"<WR-12717>"      # Nutrigel artificial food creation (ie. fake meat & veggies)
 
 phrase "efreti: practical skill"
 	word
-		"rasiabpec rat rakagapec rimef"         # engine repair and maintenance
-		"ranicfapekes lrikunic lrad paon amaib" # superb piloting skills
-		"raslrabfelref kabu sikuibikra"         # developing antibiotic medicine
-		"Kuwaru i'afumbis ras rapafevlek"       # Quarg diplomacy and translation
-		"pesvah icuk oba-oba akafukoa"          # automata gray hat hacker
-		"inha kubup cotih"                      # sentient roboticist
-		"imiksapc kagapec milunukafpet"         # dermatological nurse practitioner
-		"ragapawem Drak rat minarausimc"        # Drak historian and psychoanalyst
-		"inha asimiyupkma mikepuek"             # theoretical astrophysicist
-		"lrasok robes sirucuptih ilunursekuib"  # bioengineering hydroponics gardener
-		"sekimpa pekaekiyfa paon amaslra"       # spaceborne amphitheater architect
-		"rasamaf kefpoul milunukafpet"          # dermatological gourmet cooking
+		"<WR-12718>"         # engine repair and maintenance
+		"<WR-12719>" # superb piloting skills
+		"<WR-12720>"         # developing antibiotic medicine
+		"<WR-12721>"       # Quarg diplomacy and translation
+		"<WR-12722>"          # automata gray hat hacker
+		"<WR-12723>"                      # sentient roboticist
+		"<WR-12724>"         # dermatological nurse practitioner
+		"<WR-12725>"        # Drak historian and psychoanalyst
+		"<WR-12726>"             # theoretical astrophysicist
+		"<WR-12727>"  # bioengineering hydroponics gardener
+		"<WR-12728>"       # spaceborne amphitheater architect
+		"<WR-12729>"          # dermatological gourmet cooking
 		"pukite rapucan mirsek"                 # technical report editor

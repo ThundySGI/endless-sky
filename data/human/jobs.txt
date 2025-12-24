@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Escort (Tiny, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-533>"
 	repeat
 	job
 	deadline 8
@@ -77,8 +77,8 @@ mission "Escort (Tiny, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Tiny, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-534>"
 	repeat
 	job
 	deadline 8
@@ -142,8 +142,8 @@ mission "Escort (Tiny, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -190,8 +190,8 @@ mission "Escort (Small, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -239,8 +239,8 @@ mission "Escort (Small, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -293,8 +293,8 @@ mission "Escort (Medium, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -347,8 +347,8 @@ mission "Escort (Medium, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -392,8 +392,8 @@ mission "Escort (Large, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -438,8 +438,8 @@ mission "Escort (Large, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -485,8 +485,8 @@ mission "Escort (Extra Large, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -538,8 +538,8 @@ mission "Escort (Extra Large, Northern, Dangerous Origin)"
 
 
 mission "Escort (Tiny, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-533>"
 	repeat
 	job
 	deadline 8
@@ -603,8 +603,8 @@ mission "Escort (Tiny, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Tiny, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-534>"
 	repeat
 	job
 	deadline 8
@@ -668,8 +668,8 @@ mission "Escort (Tiny, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -716,8 +716,8 @@ mission "Escort (Small, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -765,8 +765,8 @@ mission "Escort (Small, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -813,8 +813,8 @@ mission "Escort (Medium, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -869,8 +869,8 @@ mission "Escort (Medium, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -914,8 +914,8 @@ mission "Escort (Large, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -960,8 +960,8 @@ mission "Escort (Large, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-535>"
 	repeat
 	job
 	deadline 10
@@ -1007,8 +1007,8 @@ mission "Escort (Extra Large, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-536>"
 	repeat
 	job
 	deadline 10
@@ -1061,8 +1061,8 @@ mission "Escort (Extra Large, Core, Dangerous Origin)"
 
 
 mission "Escort (Tiny, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort through this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-537>"
 	repeat
 	job
 	deadline 8
@@ -1125,8 +1125,8 @@ mission "Escort (Tiny, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-538>"
 	repeat
 	job
 	deadline 10
@@ -1166,8 +1166,8 @@ mission "Escort (Small, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-538>"
 	repeat
 	job
 	deadline 10
@@ -1207,8 +1207,8 @@ mission "Escort (Medium, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-538>"
 	repeat
 	job
 	deadline 10
@@ -1246,8 +1246,8 @@ mission "Escort (Large, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "<NM-182>"
+	description "<DS-538>"
 	repeat
 	job
 	deadline 10
@@ -1289,8 +1289,8 @@ mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
 
 
 mission "Southern Pirate Attack"
-	name "Defend <planet>"
-	description "Defeat a pirate raid on <destination>."
+	name "<NM-2>"
+	description "<DS-2>"
 	minor
 	repeat
 	to offer
@@ -1311,12 +1311,12 @@ mission "Southern Pirate Attack"
 		fleet "Small Militia" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by pirates! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`<CN-7747>`
 			choice
-				`	(Stay here until the fight is over.)`
+				`<CN-7748>`
 					decline
-				`	(Join the defense fleet.)`
-			`A few militia pilots have gathered to help repel the pirate attack. You join them, and take off together...`
+				`<CN-21>`
+			`<CN-7749>`
 				launch
 	on visit
 		dialog phrase "generic pirate fleet battle on visit"
@@ -1325,8 +1325,8 @@ mission "Southern Pirate Attack"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Northern Pirate Attack"
-	name "Defend <planet>"
-	description "Defeat a pirate raid on <destination>."
+	name "<NM-2>"
+	description "<DS-2>"
 	minor
 	repeat
 	to offer
@@ -1347,12 +1347,12 @@ mission "Northern Pirate Attack"
 		fleet "Small Republic" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by pirates! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`<CN-7747>`
 			choice
-				`	(Stay here until the fight is over.)`
+				`<CN-7748>`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Navy garrison is preparing to repel the pirate attack. You join them, and take off together...`
+				`<CN-21>`
+			`<CN-7750>`
 				launch
 	on visit
 		dialog phrase "generic pirate fleet battle on visit"
@@ -1361,8 +1361,8 @@ mission "Northern Pirate Attack"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Core Pirate Attack"
-	name "Defend <planet>"
-	description "Defeat a pirate raid on <destination>."
+	name "<NM-2>"
+	description "<DS-2>"
 	minor
 	repeat
 	to offer
@@ -1383,12 +1383,12 @@ mission "Core Pirate Attack"
 		fleet "Small Syndicate" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by pirates! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`<CN-7747>`
 			choice
-				`	(Stay here until the fight is over.)`
+				`<CN-7748>`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Syndicate defense forces are preparing to repel the pirate attack. You join them, and take off together...`
+				`<CN-21>`
+			`<CN-7751>`
 				launch
 	on visit
 		dialog phrase "generic pirate fleet battle on visit"
@@ -1397,8 +1397,8 @@ mission "Core Pirate Attack"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Raider Attack 1"
-	name "Defend <planet>"
-	description "Defeat an alien raid on <destination>."
+	name "<NM-2>"
+	description "<DS-539>"
 	minor
 	repeat
 	to offer
@@ -1420,22 +1420,22 @@ mission "Raider Attack 1"
 		fleet "Small Syndicate"
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`<CN-7752>`
 			choice
-				`	(Stay here until the fight is over.)`
+				`<CN-7748>`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Syndicate defense forces are preparing to repel the alien attack. You join them, and take off together...`
+				`<CN-21>`
+			`<CN-7753>`
 				launch
 	on visit
-		dialog `You've landed on <planet>, but there are still Korath circling overhead. You should take off and help finish them off.`
+		dialog `<DL-282>`
 	on complete
 		payment 550000
-		dialog `The government of <planet> pays you <payment> for helping to drive off the raiders.`
+		dialog `<DL-283>`
 
 mission "Raider Attack 2"
-	name "Defend <planet>"
-	description "Defeat an alien raid on <destination>."
+	name "<NM-2>"
+	description "<DS-539>"
 	minor
 	repeat
 	to offer
@@ -1457,26 +1457,26 @@ mission "Raider Attack 2"
 		fleet "Large Syndicate" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`<CN-7752>`
 			choice
-				`	(Stay here until the fight is over.)`
+				`<CN-7748>`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Syndicate defense forces are preparing to repel the alien attack. You join them, and take off together...`
+				`<CN-21>`
+			`<CN-7753>`
 				launch
 	on visit
-		dialog `You've landed on <planet>, but there are still Korath circling overhead. You should take off and help finish them off.`
+		dialog `<DL-282>`
 	on complete
 		payment 750000
-		dialog `The government of <planet> pays you <payment> for helping to drive off the raiders.`
+		dialog `<DL-283>`
 
 
 
 mission "Cargo [0]"
-	name "Delivery to <planet>"
+	name "<NM-1>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 5 2 .1
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1490,10 +1490,10 @@ mission "Cargo [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [1]"
-	name "Delivery to <planet>"
+	name "<NM-1>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 5 2 .1
 	to offer
 		random < 90
@@ -1509,10 +1509,10 @@ mission "Cargo [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [2]"
-	name "Delivery to <planet>"
+	name "<NM-1>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 5 2 .1
 	to offer
 		random < 80
@@ -1529,10 +1529,10 @@ mission "Cargo [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [3]"
-	name "Delivery to <planet>"
+	name "<NM-1>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 5 2 .1
 	to offer
 		random < 70
@@ -1550,10 +1550,10 @@ mission "Cargo [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [4]"
-	name "Delivery to <planet>"
+	name "<NM-1>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 5 2 .1
 	to offer
 		random < 60
@@ -1571,10 +1571,10 @@ mission "Cargo [4]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [5]"
-	name "Delivery to <planet>"
+	name "<NM-1>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 5 2 .1
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1588,10 +1588,10 @@ mission "Cargo [5]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [0]"
-	name "Bulk delivery to <planet>"
+	name "<NM-317>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 25 2 .05
 	to offer
 		random < 70
@@ -1607,10 +1607,10 @@ mission "Bulk Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [1]"
-	name "Bulk delivery to <planet>"
+	name "<NM-317>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 25 2 .05
 	to offer
 		random < 60
@@ -1627,10 +1627,10 @@ mission "Bulk Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [2]"
-	name "Bulk delivery to <planet>"
+	name "<NM-317>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 25 2 .05
 	to offer
 		random < 50
@@ -1648,10 +1648,10 @@ mission "Bulk Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [3]"
-	name "Bulk delivery to <planet>"
+	name "<NM-317>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 25 2 .05
 	to offer
 		random < 70
@@ -1667,11 +1667,11 @@ mission "Bulk Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [0]"
-	name "Rush delivery to <planet>"
+	name "<NM-220>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 5 2 .1
 	to offer
 		random < 90
@@ -1688,11 +1688,11 @@ mission "Rush Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [1]"
-	name "Rush delivery to <planet>"
+	name "<NM-220>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 5 2 .1
 	to offer
 		random < 80
@@ -1709,11 +1709,11 @@ mission "Rush Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [2]"
-	name "Rush delivery to <planet>"
+	name "<NM-220>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 5 2 .1
 	to offer
 		random < 70
@@ -1731,11 +1731,11 @@ mission "Rush Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [3]"
-	name "Rush delivery to <planet>"
+	name "<NM-220>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 5 2 .1
 	to offer
 		random < 60
@@ -1753,11 +1753,11 @@ mission "Rush Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [4]"
-	name "Rush delivery to <planet>"
+	name "<NM-220>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 5 2 .1
 	to offer
 		random < 90
@@ -1776,10 +1776,10 @@ mission "Rush Delivery [4]"
 
 
 mission "Passengers [0]"
-	name "Passenger transport to <planet>"
+	name "<NM-318>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "<DS-540>"
 	passengers 1 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1794,10 +1794,10 @@ mission "Passengers [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [1]"
-	name "Passenger transport to <planet>"
+	name "<NM-318>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "<DS-540>"
 	passengers 1 10 .9
 	to offer
 		random < 75
@@ -1813,10 +1813,10 @@ mission "Passengers [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [2]"
-	name "Passenger transport to <planet>"
+	name "<NM-318>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "<DS-540>"
 	passengers 1 10 .9
 	to offer
 		random < 50
@@ -1832,10 +1832,10 @@ mission "Passengers [2]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [3]"
-	name "Passenger transport to <planet>"
+	name "<NM-318>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "<DS-540>"
 	passengers 1 10 .9
 	to offer
 		random < 25
@@ -1851,10 +1851,10 @@ mission "Passengers [3]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [4]"
-	name "Passenger transport to <planet>"
+	name "<NM-318>"
 	job
 	repeat
-	description "These <bunks> passengers want to escape the pollution and crime on <origin> and settle on <destination>. Payment is <payment>."
+	description "<DS-541>"
 	passengers 2 10 .9
 	to offer
 		random < 50
@@ -1872,10 +1872,10 @@ mission "Passengers [4]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [5]"
-	name "Passenger transport to <planet>"
+	name "<NM-318>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "<DS-540>"
 	passengers 1 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1890,8 +1890,8 @@ mission "Passengers [5]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers to Quarg [1]"
-	name "Passenger transport to <planet>"
-	description "Bring <fare> to the Quarg planet of <destination>. Payment is <payment>."
+	name "<NM-318>"
+	description "<DS-542>"
 	job
 	repeat
 	passengers 1 10 .9
@@ -1909,8 +1909,8 @@ mission "Passengers to Quarg [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers to Quarg [2]"
-	name "Passenger transport to <planet>"
-	description "Bring <fare> to the Quarg planet of <destination>. Payment is <payment>."
+	name "<NM-318>"
+	description "<DS-542>"
 	job
 	repeat
 	passengers 1 10 .9
@@ -1930,7 +1930,7 @@ mission "Passengers to Quarg [2]"
 mission "Transport miners to <planet>"
 	job
 	repeat
-	description "This family of <bunks> miners is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "<DS-543>"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -1945,12 +1945,12 @@ mission "Transport miners to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the mining family the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-284>"
 
 mission "Transport farmers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> farmers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "<DS-544>"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -1965,12 +1965,12 @@ mission "Transport farmers to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the farm family the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-285>"
 
 mission "Transport mill workers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> mill workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "<DS-545>"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -1985,12 +1985,12 @@ mission "Transport mill workers to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-286>"
 
 mission "Transport workers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> factory workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "<DS-546>"
 	passengers 2 2 .8
 	to offer
 		random < 80
@@ -2005,13 +2005,13 @@ mission "Transport workers to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-286>"
 
 mission "Tourists out [0]"
-	name "Bring a tourist to <planet>"
+	name "<NM-319>"
 	job
 	repeat
-	description "This tourist wants to see <destination>, and will pay you <payment>."
+	description "<DS-547>"
 	passengers 1
 	to offer
 		random < 20
@@ -2029,10 +2029,10 @@ mission "Tourists out [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Tourists out [1]"
-	name "Bring tourists to <planet>"
+	name "<NM-320>"
 	job
 	repeat
-	description "These <bunks> tourists want to see <destination>. They are willing to pay you <payment>."
+	description "<DS-548>"
 	passengers 2 10 .9
 	to offer
 		random < 50
@@ -2050,10 +2050,10 @@ mission "Tourists out [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourists out"
-	name "Bring wealthy tourists to <planet>"
+	name "<NM-321>"
 	job
 	repeat
-	description "These <bunks> wealthy tourists want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "<DS-549>"
 	passengers 2 10 .9
 	to offer
 		random < 75
@@ -2073,10 +2073,10 @@ mission "Wealthy tourists out"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group out [0]"
-	name "Wealthy tourist group to <planet>"
+	name "<NM-322>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "<DS-550>"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2097,10 +2097,10 @@ mission "Wealthy tourist group out [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group out [1]"
-	name "Wealthy tourist group to <planet>"
+	name "<NM-322>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "<DS-550>"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2121,10 +2121,10 @@ mission "Wealthy tourist group out [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Tourists back [0]"
-	name "Bring a tourist home to <planet>"
+	name "<NM-323>"
 	job
 	repeat
-	description "This tourist is headed home to <destination>, and will pay you <payment>."
+	description "<DS-551>"
 	passengers 1
 	to offer
 		random < 20
@@ -2142,10 +2142,10 @@ mission "Tourists back [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Tourists back [1]"
-	name "Bring tourists home to <planet>"
+	name "<NM-324>"
 	job
 	repeat
-	description "These <bunks> tourists are headed home to <destination>. They are willing to pay you <payment>."
+	description "<DS-552>"
 	passengers 2 10 .9
 	to offer
 		random < 50
@@ -2163,10 +2163,10 @@ mission "Tourists back [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourists back"
-	name "Wealthy tourists home to <planet>"
+	name "<NM-325>"
 	job
 	repeat
-	description "These <bunks> wealthy tourists are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "<DS-553>"
 	passengers 2 10 .9
 	to offer
 		random < 75
@@ -2186,10 +2186,10 @@ mission "Wealthy tourists back"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group back [0]"
-	name "Wealthy tourists home to <planet>"
+	name "<NM-325>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "<DS-554>"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2210,10 +2210,10 @@ mission "Wealthy tourist group back [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group back [1]"
-	name "Wealthy tourists home to <planet>"
+	name "<NM-325>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "<DS-554>"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2234,10 +2234,10 @@ mission "Wealthy tourist group back [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Family [0]"
-	name "Transport family to <planet>"
+	name "<NM-312>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "<DS-555>"
 	passengers 2 4 .5
 	to offer
 		random < 60
@@ -2252,13 +2252,13 @@ mission "Family [0]"
 	on complete
 		payment
 		payment 4000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "<DL-287>"
 
 mission "Family [1]"
-	name "Transport family to <planet>"
+	name "<NM-312>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "<DS-555>"
 	passengers 2 4 .5
 	to offer
 		random < 50
@@ -2273,13 +2273,13 @@ mission "Family [1]"
 	on complete
 		payment
 		payment 6000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "<DL-287>"
 
 mission "Family [2]"
-	name "Transport family to <planet>"
+	name "<NM-312>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "<DS-555>"
 	passengers 2 4 .5
 	to offer
 		random < 40
@@ -2294,13 +2294,13 @@ mission "Family [2]"
 	on complete
 		payment
 		payment 8000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "<DL-287>"
 
 mission "Family [3]"
-	name "Transport family to <planet>"
+	name "<NM-312>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "<DS-555>"
 	passengers 2 4 .5
 	to offer
 		random < 30
@@ -2315,13 +2315,13 @@ mission "Family [3]"
 	on complete
 		payment
 		payment 10000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "<DL-287>"
 
 mission "Strike Breakers [mining]"
-	name "Strike breakers to <planet>"
+	name "<NM-326>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of mine workers who are on strike. The company will pay you <payment>."
+	description "<DS-556>"
 	passengers 5 5 .2
 	to offer
 		random < 10
@@ -2337,13 +2337,13 @@ mission "Strike Breakers [mining]"
 	on complete
 		payment
 		payment 10000
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "<DL-288>"
 
 mission "Strike Breakers [large mining]"
-	name "Strike breakers to <planet>"
+	name "<NM-326>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of mine workers who are on strike. The company will pay you <payment>."
+	description "<DS-556>"
 	passengers 40 4 .08
 	to offer
 		random < "passenger space" - 45
@@ -2358,13 +2358,13 @@ mission "Strike Breakers [large mining]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 130000 100
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "<DL-288>"
 
 mission "Strike Breakers [textile]"
-	name "Strike breakers to <planet>"
+	name "<NM-326>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of textile workers who are on strike. The company will pay you <payment>."
+	description "<DS-557>"
 	passengers 5 5 .2
 	to offer
 		random < 10
@@ -2380,13 +2380,13 @@ mission "Strike Breakers [textile]"
 	on complete
 		payment
 		payment 10000
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "<DL-288>"
 
 mission "Strike Breakers [large textile]"
-	name "Strike breakers to <planet>"
+	name "<NM-326>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of textile workers who are on strike. The company will pay you <payment>."
+	description "<DS-557>"
 	passengers 40 4 .08
 	to offer
 		random < "passenger space" - 45
@@ -2401,13 +2401,13 @@ mission "Strike Breakers [large textile]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 130000 100
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "<DL-288>"
 
 mission "Strike Breakers [factory]"
-	name "Strike breakers to <planet>"
+	name "<NM-326>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of factory workers who are on strike. The company will pay you <payment>."
+	description "<DS-558>"
 	passengers 5 5 .2
 	to offer
 		random < 10
@@ -2423,13 +2423,13 @@ mission "Strike Breakers [factory]"
 	on complete
 		payment
 		payment 10000
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "<DL-288>"
 
 mission "Strike Breakers [large factory]"
-	name "Strike breakers to <planet>"
+	name "<NM-326>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of factory workers who are on strike. The company will pay you <payment>."
+	description "<DS-558>"
 	passengers 40 4 .08
 	to offer
 		random < "passenger space" - 45
@@ -2444,13 +2444,13 @@ mission "Strike Breakers [large factory]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 130000 100
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "<DL-288>"
 
 mission "Colonists [0]"
-	name "Colonists to <planet>"
+	name "<NM-327>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "<DS-559>"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2466,13 +2466,13 @@ mission "Colonists [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 70000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "<DL-289>"
 
 mission "Colonists [1]"
-	name "Colonists to <planet>"
+	name "<NM-327>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "<DS-559>"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2488,13 +2488,13 @@ mission "Colonists [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 80000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "<DL-289>"
 
 mission "Colonists [2]"
-	name "Colonists to <planet>"
+	name "<NM-327>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "<DS-559>"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2510,13 +2510,13 @@ mission "Colonists [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 90000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "<DL-289>"
 
 mission "Colonists [3]"
-	name "Colonists to <planet>"
+	name "<NM-327>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "<DS-559>"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2532,13 +2532,13 @@ mission "Colonists [3]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 100000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "<DL-289>"
 
 mission "Stranded Field Trip"
-	name "Stranded field trip to <planet>"
+	name "<NM-328>"
 	job
 	repeat
-	description `These <bunks> pupils have been stranded on a field trip due to the unexpected bankruptcy of their booked transport. A reward of <payment> is available for them and their <tons> of luggage to be returned home to <destination>.`
+	description `<DS-560>`
 	passengers 20 4 .1
 	cargo "educational supplies" 2 10 .6
 	to offer
@@ -2556,13 +2556,13 @@ mission "Stranded Field Trip"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 100000 150
-		dialog `The students excitedly rush off your ship into the arms of their waiting parents. The adventure was fun, but they're very pleased to be safely home after so long. The school deposits <payment> into your account.`
+		dialog `<DL-290>`
 
 mission "Prisoners [0]"
-	name "Prisoner transport to <planet>"
+	name "<NM-329>"
 	job
 	repeat
-	description "Bring <bunks> petty criminals to <destination>, where they will serve their sentences as mine laborers. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "<DS-561>"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2579,13 +2579,13 @@ mission "Prisoners [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as forced laborers in <planet>'s mines. You collect your payment of <payment>."
+		dialog "<DL-291>"
 
 mission "Prisoners [1]"
-	name "Prisoner transport to <planet>"
+	name "<NM-329>"
 	job
 	repeat
-	description "Transport <bunks> petty criminals to <destination>, where they will serve their sentences as factory laborers. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "<DS-562>"
 	passengers 2 10 .9
 	to offer
 		random < 15
@@ -2602,13 +2602,13 @@ mission "Prisoners [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as forced laborers in <planet>'s factories. You collect your payment of <payment>."
+		dialog "<DL-292>"
 
 mission "Prisoners [2]"
-	name "Prisoner transport to <planet>"
+	name "<NM-329>"
 	job
 	repeat
-	description "Transport <bunks> petty criminals to <destination>, where they will serve their sentences as domestic servants. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "<DS-563>"
 	passengers 2 10 .9
 	to offer
 		random < 15
@@ -2624,13 +2624,13 @@ mission "Prisoners [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as domestic servants for <planet>'s wealthy elite. You collect your payment of <payment>."
+		dialog "<DL-293>"
 
 mission "Prisoners [3]"
-	name "Prisoner transport to <planet>"
+	name "<NM-329>"
 	job
 	repeat
-	description "Transport <bunks> petty criminals to a penal colony on <destination>. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "<DS-564>"
 	passengers 2 15 .9
 	to offer
 		random < 15
@@ -2646,13 +2646,13 @@ mission "Prisoners [3]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society in a penal colony on this remote world. You collect your payment of <payment>."
+		dialog "<DL-294>"
 
 mission "Prisoners [4]"
-	name "Prisoner transport to <planet>"
+	name "<NM-329>"
 	job
 	repeat
-	description "Transport <bunks> violent felons to a penal colony on <destination>. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "<DS-565>"
 	passengers 2 10 .9
 	to offer
 		random < 10
@@ -2669,7 +2669,7 @@ mission "Prisoners [4]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 25000 175
-		dialog "Your shackled passengers offer bitter curses as burly and well-armed guards practically beat them out of your ship, driving them in the direction of a penal colony on this remote world. You collect your payment of <payment>."
+		dialog "<DL-295>"
 	npc
 		government "Pirate"
 		personality nemesis plunders
@@ -2678,10 +2678,10 @@ mission "Prisoners [4]"
 		fleet "pirate raid"
 
 mission "Released Prisoners [0]"
-	name "Parolee transport to <planet>"
+	name "<NM-330>"
 	job
 	repeat
-	description "Transport <bunks> prisoners home after completing their sentences of hard labor. Payment is <payment>."
+	description "<DS-566>"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2696,13 +2696,13 @@ mission "Released Prisoners [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 3000 150
-		dialog "The released prisoners walk out into the spaceport with nothing but their meager belongings and discharge paperwork. You collect your payment of <payment>."
+		dialog "<DL-296>"
 
 mission "Released Prisoners [1]"
-	name "Parolee transport to <planet>"
+	name "<NM-330>"
 	job
 	repeat
-	description "Transport <bunks> prisoners home after completing their sentences as domestic servants. Payment is <payment>."
+	description "<DS-567>"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2716,13 +2716,13 @@ mission "Released Prisoners [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 3000 150
-		dialog "The released prisoners walk out into the spaceport with nothing but their meager belongings and discharge paperwork. You collect your payment of <payment>."
+		dialog "<DL-296>"
 
 mission "Released Prisoners [2]"
-	name "Parolee transport to <planet>"
+	name "<NM-330>"
 	job
 	repeat
-	description "Transport <bunks> prisoners home after completing their sentences in a penal colony. Payment is <payment>."
+	description "<DS-568>"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2736,11 +2736,11 @@ mission "Released Prisoners [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 3000 150
-		dialog "The released prisoners walk into the spaceport with nothing but discharge paperwork and the clothes on their backs. You collect your payment of <payment>."
+		dialog "<DL-297>"
 
 mission "Passenger Runoff [0]"
-	name "Passenger transport to <planet>"
-	description "Bring a hooded figure to <destination>. Payment is <payment>."
+	name "<NM-318>"
+	description "<DS-569>"
 	job
 	repeat
 	passengers 1
@@ -2756,11 +2756,11 @@ mission "Passenger Runoff [0]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. You catch a glimpse of your passenger running off into the spaceport.`
+		dialog `<DL-298>`
 
 mission "Passenger Runoff [1]"
-	name "Passenger transport to <planet>"
-	description "Bring a teenager to <destination>. Payment is <payment>."
+	name "<NM-318>"
+	description "<DS-570>"
 	job
 	repeat
 	passengers 1
@@ -2776,11 +2776,11 @@ mission "Passenger Runoff [1]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog `After landing, you go to the passenger compartments to notify them of the arrival and ask for the payment. The door opens as you raise your hand to knock, and a teenager rushes past you. Before you can recover, they're already gone and on their way into the depths of the spaceport.`
+		dialog `<DL-299>`
 
 mission "Passenger Runoff With Payment [0]"
-	name "Passenger transport to <planet>"
-	description "Bring a hooded figure to <destination>. Payment is <payment>."
+	name "<NM-318>"
+	description "<DS-569>"
 	job
 	repeat
 	passengers 1
@@ -2797,11 +2797,11 @@ mission "Passenger Runoff With Payment [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000
-		dialog `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. Checking the bay, you find a payment of <payment> and spot your passenger running off into the spaceport.`
+		dialog `<DL-300>`
 
 mission "Passenger Runoff With Payment [1]"
-	name "Passenger transport to <planet>"
-	description "Bring a teenager to <destination>. Payment is <payment>."
+	name "<NM-318>"
+	description "<DS-570>"
 	job
 	repeat
 	passengers 1
@@ -2818,13 +2818,13 @@ mission "Passenger Runoff With Payment [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000
-		dialog `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. Checking the bay, you find a payment of <payment> and spot your passenger running off into the spaceport.`
+		dialog `<DL-300>`
 
 mission "Large Bulk Delivery [0]"
-	name "Large bulk delivery to <planet>"
+	name "<NM-331>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 40 2 .02
 	to offer
 		random < 70
@@ -2842,10 +2842,10 @@ mission "Large Bulk Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Bulk Delivery [1]"
-	name "Large bulk delivery to <planet>"
+	name "<NM-331>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 40 2 .02
 	to offer
 		random < 60
@@ -2863,10 +2863,10 @@ mission "Large Bulk Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Bulk Delivery [2]"
-	name "Large bulk delivery to <planet>"
+	name "<NM-331>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "<DS-1>"
 	cargo random 40 2 .02
 	to offer
 		random < 50
@@ -2885,11 +2885,11 @@ mission "Large Bulk Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [0]"
-	name "Large rush delivery to <planet>"
+	name "<NM-332>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 20 6 .1
 	to offer
 		random < 90
@@ -2907,11 +2907,11 @@ mission "Large Rush Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [1]"
-	name "Large rush delivery to <planet>"
+	name "<NM-332>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 20 6 .1
 	to offer
 		random < 80
@@ -2929,11 +2929,11 @@ mission "Large Rush Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [2]"
-	name "Large rush delivery to <planet>"
+	name "<NM-332>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 20 6 .1
 	to offer
 		random < 70
@@ -2952,11 +2952,11 @@ mission "Large Rush Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [3]"
-	name "Large rush delivery to <planet>"
+	name "<NM-332>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "<DS-401>"
 	cargo random 20 6 .1
 	to offer
 		random < 60
@@ -2975,8 +2975,8 @@ mission "Large Rush Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Recycle garbage"
-	name "Recycle garbage"
-	description "<origin> produces a lot of garbage that needs to be disposed of off-station. Transport <cargo> to the industrial solid waste recycler on <destination>. Payment is <payment>."
+	name "<NM-333>"
+	description "<DS-571>"
 	job
 	repeat
 	to offer
@@ -2990,21 +2990,21 @@ mission "Recycle garbage"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog "You drop off the <commodity> at an especially smelly solid waste recycler and collect your payment of <payment>."
+		dialog "<DL-301>"
 		payment
 		payment 20000
 
 mission "FW Wildfire Aid [1]"
 	job
 	repeat
-	name "Wildfire aid to <planet>"
+	name "<NM-334>"
 	substitutions
 		"<problem>" "forest fire"
 		"<problem>" "brush fire"
 			"random" < 60
 		"<problem>" "wildfire"
 			"random" < 30
-	description "A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Bring <cargo> to <planet> by <date> to assist in the firefighting efforts. Payment is <payment>."
+	description "<DS-572>"
 	cargo "flames aid" 25 2 .05
 	deadline
 	to offer
@@ -3019,19 +3019,19 @@ mission "FW Wildfire Aid [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 8500 80
-		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you for your assistance and bid you farewell."
+		dialog "<DL-302>"
 
 mission "FW Wildfire Aid [2]"
 	job
 	repeat
-	name "Firefighters to <planet>"
+	name "<NM-335>"
 	substitutions
 		"<problem>" "forest fire"
 		"<problem>" "brush fire"
 			"random" < 60
 		"<problem>" "wildfire"
 			"random" < 30
-	description "A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport a team of <bunks> firefighters to <planet> by <date> to assist in the firefighting efforts. Payment is <payment>."
+	description "<DS-573>"
 	passengers 5 10
 	deadline
 	to offer
@@ -3046,11 +3046,11 @@ mission "FW Wildfire Aid [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10500 80
-		dialog "You wish the firefighting team well in their efforts and collect your payment of <payment>. A group of <planet> citizens comes to guide the team away to a nearby tent, and thank you for your assistance."
+		dialog "<DL-303>"
 
 mission "FW Cold Aid [1]"
-	name "Cold relief to <planet>"
-	description `A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport <cargo> to <planet> by <date> to assist in the recovery efforts. Payment is <payment>.`
+	name "<NM-336>"
+	description `<DS-574>`
 	job
 	repeat
 	deadline
@@ -3073,11 +3073,11 @@ mission "FW Cold Aid [1]"
 		random < 1
 	on complete
 		payment 8500 80
-		dialog `You turn your cargo of <cargo> over to the needy community in return for <payment>.`
+		dialog `<DL-304>`
 
 mission "FW Cold Aid [2]"
-	name "Cold relief to <planet>"
-	description `A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport <cargo> to <planet> by <date> to assist in the recovery efforts. Payment is <payment>.`
+	name "<NM-336>"
+	description `<DS-574>`
 	job
 	repeat
 	deadline
@@ -3100,13 +3100,13 @@ mission "FW Cold Aid [2]"
 		random < 1
 	on complete
 		payment 8500 80
-		dialog `You turn your cargo of <cargo> over to the needy community in return for <payment>.`
+		dialog `<DL-304>`
 
 
 
 mission "Bounty Hunting (Very Tiny)"
-	name "Wanted corsair near <system>"
-	description "A small pirate fighter named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-337>"
+	description "<DS-575>"
 	repeat
 	job
 	deadline 14
@@ -3150,8 +3150,8 @@ mission "Bounty Hunting (Very Tiny)"
 			fail
 
 mission "Bounty Hunting (Very Tiny, Local)"
-	name "Wanted corsair entering <system>"
-	description "A small pirate fighter named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-338>"
+	description "<DS-576>"
 	repeat
 	job
 	deadline 3
@@ -3199,8 +3199,8 @@ mission "Bounty Hunting (Very Tiny, Local)"
 
 
 mission "Bounty Hunting (Tiny)"
-	name "Wanted outlaw near <system>"
-	description "A well armed pirate fighter named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-339>"
+	description "<DS-577>"
 	repeat
 	job
 	deadline 14
@@ -3252,8 +3252,8 @@ mission "Bounty Hunting (Tiny)"
 			fail
 
 mission "Bounty Hunting (Tiny, Local)"
-	name "Wanted outlaw entering <system>"
-	description "A well armed pirate fighter named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-340>"
+	description "<DS-578>"
 	repeat
 	job
 	deadline 3
@@ -3303,8 +3303,8 @@ mission "Bounty Hunting (Tiny, Local)"
 			fail
 
 mission "Bounty Hunting (Very Small)"
-	name "Wanted criminal near <system>"
-	description "A light pirate warship named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-341>"
+	description "<DS-579>"
 	repeat
 	job
 	deadline 14
@@ -3354,8 +3354,8 @@ mission "Bounty Hunting (Very Small)"
 			fail
 
 mission "Bounty Hunting (Very Small, Local)"
-	name "Wanted criminal entering <system>"
-	description "A light pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-342>"
+	description "<DS-580>"
 	repeat
 	job
 	deadline 3
@@ -3403,8 +3403,8 @@ mission "Bounty Hunting (Very Small, Local)"
 			fail
 
 mission "Bounty Hunting (Small)"
-	name "Wanted bandit near <system>"
-	description "A medium pirate warship named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-343>"
+	description "<DS-581>"
 	repeat
 	job
 	deadline 14
@@ -3447,8 +3447,8 @@ mission "Bounty Hunting (Small)"
 			fail
 
 mission "Bounty Hunting (Small, Local)"
-	name "Wanted bandit entering <system>"
-	description "A medium pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-344>"
+	description "<DS-582>"
 	repeat
 	job
 	deadline 3
@@ -3489,8 +3489,8 @@ mission "Bounty Hunting (Small, Local)"
 			fail
 
 mission "Bounty Hunting (Medium)"
-	name "Wanted pirate near <system>"
-	description "A sizable pirate warship named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-345>"
+	description "<DS-583>"
 	repeat
 	job
 	deadline 14
@@ -3527,8 +3527,8 @@ mission "Bounty Hunting (Medium)"
 			fail
 
 mission "Bounty Hunting (Medium, Local)"
-	name "Wanted pirate entering <system>"
-	description "A sizable pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-346>"
+	description "<DS-584>"
 	repeat
 	job
 	deadline 3
@@ -3563,8 +3563,8 @@ mission "Bounty Hunting (Medium, Local)"
 			fail
 
 mission "Bounty Hunting (Big)"
-	name "Wanted warlord near <system>"
-	description "A heavy warship known as the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-347>"
+	description "<DS-585>"
 	repeat
 	job
 	deadline 14
@@ -3605,8 +3605,8 @@ mission "Bounty Hunting (Big)"
 			fail
 
 mission "Bounty Hunting (Big, Local)"
-	name "Wanted warlord entering <system>"
-	description "A heavy warship known as the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-348>"
+	description "<DS-586>"
 	repeat
 	job
 	deadline 3
@@ -3645,8 +3645,8 @@ mission "Bounty Hunting (Big, Local)"
 			fail
 
 mission "Bounty Hunting (Small, Hidden)"
-	name "Disguised bandit near <system>"
-	description "A medium pirate warship named the <npc> is posing as a merchant ship within two jumps of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+	name "<NM-349>"
+	description "<DS-587>"
 	repeat
 	job
 	deadline 30
@@ -3692,8 +3692,8 @@ mission "Bounty Hunting (Small, Hidden)"
 			fail
 
 mission "Bounty Hunting (Medium, Hidden)"
-	name "Disguised pirate near <system>"
-	description "A sizable pirate warship named the <npc> is posing as a merchant ship within two jumps of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+	name "<NM-350>"
+	description "<DS-588>"
 	repeat
 	job
 	deadline 30
@@ -3733,8 +3733,8 @@ mission "Bounty Hunting (Medium, Hidden)"
 			fail
 
 mission "Bounty Hunting (Big, Hidden)"
-	name "Disguised warlord near <system>"
-	description "A heavy warship known as the <npc> is posing as a merchant ship within two jumps of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+	name "<NM-351>"
+	description "<DS-589>"
 	repeat
 	job
 	deadline 30
@@ -3778,8 +3778,8 @@ mission "Bounty Hunting (Big, Hidden)"
 			fail
 
 mission "Bounty Hunting (Small, Boarding, Entering)"
-	name "Stolen ship near <system>"
-	description "A wanted criminal is fleeing in a stolen ship, the <npc>, which is about to enter this system. Board the ship and detain the criminal in a brig, then bring them to <destination> by <date>. Reward for capture: <payment>."
+	name "<NM-352>"
+	description "<DS-590>"
 	passengers 1
 	deadline 14
 	repeat
@@ -3809,16 +3809,16 @@ mission "Bounty Hunting (Small, Boarding, Entering)"
 				"Scout (Speedy)"
 			variant
 				"Clipper (Speedy)"
-		dialog "You blast your way onto the ship and confine the fleeing criminal to your ship's brig. Time to deliver them to <planet>."
+		dialog "<DL-305>"
 	on visit
 		dialog phrase "generic bounty hunting boarding on visit"
 	on complete
 		payment 175000
-		dialog "The government of <planet> gratefully pays you <payment> for apprehending the criminal."
+		dialog "<DL-306>"
 
 mission "Bounty Hunting (Medium, Boarding, Entering)"
-	name "Stolen warship near <system>"
-	description "Several wanted criminals are fleeing in a stolen warship, the <npc>, which is about to enter this system. Board the ship and detain the criminals in a brig, then bring them to <destination> by <date>. Reward for capture: <payment>."
+	name "<NM-353>"
+	description "<DS-591>"
 	passengers 4
 	deadline 14
 	repeat
@@ -3850,16 +3850,16 @@ mission "Bounty Hunting (Medium, Boarding, Entering)"
 				"Modified Argosy (Heavy)"
 			variant
 				"Raven (Heavy)"
-		dialog "You blast your way onto the ship, subdue the fleeing criminals, and confine them to your ship's brig. Time to deliver them to <planet>."
+		dialog "<DL-307>"
 	on visit
 		dialog phrase "generic bounty hunting boarding on visit"
 	on complete
 		payment 350000
-		dialog "The government of <planet> gratefully pays you <payment> for apprehending the criminal gang."
+		dialog "<DL-308>"
 
 mission "Bounty Hunting (Solo Marauder I)"
-	name "Marauder interceptor near <system>"
-	description "A Marauder interceptor named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-354>"
+	description "<DS-592>"
 	repeat
 	job
 	deadline 14
@@ -3887,8 +3887,8 @@ mission "Bounty Hunting (Solo Marauder I)"
 			fail
 
 mission "Bounty Hunting (Solo Marauder II)"
-	name "Small Marauder near <system>"
-	description "A small Marauder ship named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-355>"
+	description "<DS-593>"
 	repeat
 	job
 	deadline 14
@@ -3916,8 +3916,8 @@ mission "Bounty Hunting (Solo Marauder II)"
 			fail
 
 mission "Bounty Hunting (Solo Marauder III)"
-	name "Marauder near <system>"
-	description "A Marauder ship named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-356>"
+	description "<DS-594>"
 	repeat
 	job
 	deadline 14
@@ -3941,8 +3941,8 @@ mission "Bounty Hunting (Solo Marauder III)"
 			fail
 
 mission "Bounty Hunting (Solo Marauder IV)"
-	name "Large Marauder near <system>"
-	description "A large Marauder ship named the <npc> has been attacking merchants a jump away from the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "<NM-357>"
+	description "<DS-595>"
 	repeat
 	job
 	deadline 14
@@ -3966,8 +3966,8 @@ mission "Bounty Hunting (Solo Marauder IV)"
 			fail
 
 mission "Bounty Hunting (Marauder I)"
-	name "Small Marauders near <system>"
-	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-358>"
+	description "<DS-596>"
 	repeat
 	job
 	deadline 14
@@ -3994,8 +3994,8 @@ mission "Bounty Hunting (Marauder I)"
 			fail
 
 mission "Bounty Hunting (Marauder II)"
-	name "Small Marauders near <system>"
-	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-358>"
+	description "<DS-596>"
 	repeat
 	job
 	deadline 14
@@ -4022,8 +4022,8 @@ mission "Bounty Hunting (Marauder II)"
 			fail
 
 mission "Bounty Hunting (Marauder III)"
-	name "Small Marauders near <system>"
-	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-358>"
+	description "<DS-596>"
 	repeat
 	job
 	deadline 14
@@ -4050,8 +4050,8 @@ mission "Bounty Hunting (Marauder III)"
 			fail
 
 mission "Bounty Hunting (Marauder IV)"
-	name "Marauders near <system>"
-	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-359>"
+	description "<DS-597>"
 	repeat
 	job
 	deadline 14
@@ -4078,8 +4078,8 @@ mission "Bounty Hunting (Marauder IV)"
 			fail
 
 mission "Bounty Hunting (Marauder V)"
-	name "Marauders near <system>"
-	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-359>"
+	description "<DS-597>"
 	repeat
 	job
 	deadline 14
@@ -4107,8 +4107,8 @@ mission "Bounty Hunting (Marauder V)"
 
 
 mission "Bounty Hunting (Marauder VI)"
-	name "Marauders near <system>"
-	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-359>"
+	description "<DS-597>"
 	repeat
 	job
 	deadline 14
@@ -4135,8 +4135,8 @@ mission "Bounty Hunting (Marauder VI)"
 			fail
 
 mission "Bounty Hunting (Marauder VII)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-360>"
+	description "<DS-598>"
 	repeat
 	job
 	deadline 14
@@ -4159,8 +4159,8 @@ mission "Bounty Hunting (Marauder VII)"
 			fail
 
 mission "Bounty Hunting (Marauder VIII)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-360>"
+	description "<DS-598>"
 	repeat
 	job
 	deadline 14
@@ -4183,8 +4183,8 @@ mission "Bounty Hunting (Marauder VIII)"
 			fail
 
 mission "Bounty Hunting (Marauder IX)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-360>"
+	description "<DS-598>"
 	repeat
 	job
 	deadline 14
@@ -4207,8 +4207,8 @@ mission "Bounty Hunting (Marauder IX)"
 			fail
 
 mission "Bounty Hunting (Marauder X)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants a jump away from the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<NM-360>"
+	description "<DS-598>"
 	repeat
 	job
 	deadline 14
@@ -4233,8 +4233,8 @@ mission "Bounty Hunting (Marauder X)"
 
 
 mission "Republic Navy Advisory System [frozen]"
-	name "Cold relief to <planet>"
-	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe cold snap. Payment is <payment>."
+	name "<NM-336>"
+	description "<DS-599>"
 	minor
 	repeat
 	deadline
@@ -4256,14 +4256,14 @@ mission "Republic Navy Advisory System [frozen]"
 	to offer
 		random < 1
 	on offer
-		dialog `This is the Republic Navy Advisory System: <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses.`
+		dialog `<DL-309>`
 	on complete
 		payment 8500 80
-		dialog `Shivering, appreciative aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+		dialog `<DL-310>`
 
 mission "Republic Navy Advisory System [volcanic]"
-	name "Volcanic relief to <planet>"
-	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe volcanic eruption. Payment is <payment>."
+	name "<NM-361>"
+	description "<DS-600>"
 	minor
 	repeat
 	deadline
@@ -4283,14 +4283,14 @@ mission "Republic Navy Advisory System [volcanic]"
 	to offer
 		random < 1
 	on offer
-		dialog `This is the Republic Navy Advisory System: <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses.`
+		dialog `<DL-309>`
 	on complete
 		payment 8500 80
-		dialog `Relieved-looking aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+		dialog `<DL-311>`
 
 mission "Republic Navy Advisory System [wildfire cargo]"
-	name "Wildfire relief to <planet>"
-	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe wildfire. Payment is <payment>."
+	name "<NM-362>"
+	description "<DS-601>"
 	minor
 	repeat
 	deadline
@@ -4310,14 +4310,14 @@ mission "Republic Navy Advisory System [wildfire cargo]"
 	to offer
 		random < 1
 	on offer
-		dialog `This is the Republic Navy Advisory System: <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses.`
+		dialog `<DL-309>`
 	on complete
 		payment 8500 80
-		dialog `Ash-covered, relieved aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+		dialog `<DL-312>`
 
 mission "Republic Navy Advisory System [wildfire firefighters]"
-	name "Transport Firefighters"
-	description "Transport <bunks> firefighters to <planet> by <date>. Payment is <payment>."
+	name "<NM-363>"
+	description "<DS-602>"
 	minor
 	repeat
 	deadline
@@ -4337,17 +4337,17 @@ mission "Republic Navy Advisory System [wildfire firefighters]"
 	to offer
 		random < 1
 	on offer
-		dialog `This is the Republic Navy Advisory System: <planet> is experiencing a severe <problem>. Volunteers are requested to transport <bunks> firefighters to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses.`
+		dialog `<DL-313>`
 	on complete
 		payment 9000 85
-		dialog "You land at a makeshift landing site a few minutes flight from the blaze. The smoky haze that drifts into your ship when the firefighters open the hatch to depart makes your eyes and nose itch. As you watch your passengers heading toward a staging area nearby, you think about the inferno they will soon be voluntarily entering. A chirp from your communications system indicates your stipend of <payment> has been deposited, and you begin your atmospheric flight back to <planet>'s main spaceport."
+		dialog "<DL-314>"
 
 mission "Mineral Shortages (Silicon)"
-	name "Harvested silicon to <planet>"
+	name "<NM-364>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Silicon"
 		"<amount>" "120"
@@ -4367,11 +4367,11 @@ mission "Mineral Shortages (Silicon)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Lead)"
-	name "Harvested lead to <planet>"
+	name "<NM-365>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Lead"
 		"<amount>" "120"
@@ -4391,11 +4391,11 @@ mission "Mineral Shortages (Lead)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Iron)"
-	name "Harvested iron to <planet>"
+	name "<NM-366>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Iron"
 		"<amount>" "120"
@@ -4415,11 +4415,11 @@ mission "Mineral Shortages (Iron)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Aluminum)"
-	name "Harvested aluminum to <planet>"
+	name "<NM-367>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Aluminum"
 		"<amount>" "90"
@@ -4439,11 +4439,11 @@ mission "Mineral Shortages (Aluminum)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Titanium)"
-	name "Harvested titanium to <planet>"
+	name "<NM-368>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Titanium"
 		"<amount>" "90"
@@ -4463,11 +4463,11 @@ mission "Mineral Shortages (Titanium)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Copper)"
-	name "Harvested copper to <planet>"
+	name "<NM-369>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Copper"
 		"<amount>" "90"
@@ -4487,11 +4487,11 @@ mission "Mineral Shortages (Copper)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Neodymium)"
-	name "Harvested neodymium to <planet>"
+	name "<NM-370>"
 	job
 	repeat
 	deadline 14
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Neodymium"
 		"<amount>" "60"
@@ -4511,11 +4511,11 @@ mission "Mineral Shortages (Neodymium)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Tungsten)"
-	name "Harvested tungsten to <planet>"
+	name "<NM-371>"
 	job
 	repeat
 	deadline 14
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Tungsten"
 		"<amount>" "60"
@@ -4535,11 +4535,11 @@ mission "Mineral Shortages (Tungsten)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Uranium)"
-	name "Harvested uranium to <planet>"
+	name "<NM-372>"
 	job
 	repeat
 	deadline 14
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Uranium"
 		"<amount>" "60"
@@ -4559,11 +4559,11 @@ mission "Mineral Shortages (Uranium)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Silver)"
-	name "Harvested silver to <planet>"
+	name "<NM-373>"
 	job
 	repeat
 	deadline 28
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Silver"
 		"<amount>" "30"
@@ -4583,11 +4583,11 @@ mission "Mineral Shortages (Silver)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Gold)"
-	name "Harvested gold to <planet>"
+	name "<NM-374>"
 	job
 	repeat
 	deadline 28
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Gold"
 		"<amount>" "30"
@@ -4607,11 +4607,11 @@ mission "Mineral Shortages (Gold)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Platinum)"
-	name "Harvested platinum to <planet>"
+	name "<NM-375>"
 	job
 	repeat
 	deadline 28
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<DS-603>"
 	substitutions
 		"<mineral>" "Platinum"
 		"<amount>" "30"
@@ -4633,8 +4633,8 @@ mission "Mineral Shortages (Platinum)"
 mission "Student transport"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination> by <date> to study at one of <planet>'s universities. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-604>"
 	deadline
 	to offer
 		random < 20
@@ -4654,8 +4654,9 @@ mission "Student transport"
 mission "Rich student transport"
 	job
 	repeat
-	name "Transport wealthy student to <planet>"
-	description "This rich student needs transport to <destination> by <date> to study at one of <planet>'s high-end universities. They will pay you <payment>."
+	name "<NM-377>"
+	description "<DS-605>"
+	deadline
 	passengers 1
 	to offer
 		random < 10
@@ -4676,8 +4677,8 @@ mission "Rich student transport"
 mission "Student field research (farming)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-606>"
 	to offer
 		random < 5
 	source
@@ -4706,8 +4707,8 @@ mission "Student field research (farming)"
 mission "Student field research (mining / oil)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-606>"
 	to offer
 		random < 5
 	source
@@ -4738,8 +4739,8 @@ mission "Student field research (mining / oil)"
 mission "Student field research (forest)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-606>"
 	to offer
 		random < 5
 	source
@@ -4772,8 +4773,8 @@ mission "Student field research (forest)"
 mission "Student field research (urban / factory)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-606>"
 	to offer
 		random < 5
 	source
@@ -4805,8 +4806,8 @@ mission "Student field research (urban / factory)"
 mission "Student field research (fishing)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-606>"
 	to offer
 		random < 5
 	source
@@ -4839,8 +4840,8 @@ mission "Student field research (fishing)"
 mission "Student field research (volcanic)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "<NM-376>"
+	description "<DS-606>"
 	to offer
 		random < 5
 	source

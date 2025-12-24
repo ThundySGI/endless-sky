@@ -13,56 +13,56 @@
 
 phrase "quarg"
 	word
-		"Quar"
-		"Mer"
-		"Ban"
-		"Koor"
-		"Plog"
-		"Flum"
-		"Krak"
-		"Grok"
-		"Merak"
+		"<WR-12968>"
+		"<WR-11406>"
+		"<WR-12969>"
+		"<WR-12970>"
+		"<WR-12871>"
+		"<WR-12971>"
+		"<WR-12972>"
+		"<WR-12973>"
+		"<WR-12974>"
 	word
-		"-"
-		"ala"
-		"gor"
-		"o"
-		"i"
-		"oni"
-		"lam"
-		"tim"
-		"ee"
-		"shee"
+		"<WR-8055>"
+		"<WR-12975>"
+		"<WR-12976>"
+		"<WR-10705>"
+		"<WR-10704>"
+		"<WR-12977>"
+		"<WR-10693>"
+		"<WR-12978>"
+		"<WR-12979>"
+		"<WR-12980>"
 	word
-		"lim"
-		"kor"
-		"far"
-		"mor"
-		"lup"
-		"plug"
-		"trum"
-		"ruk"
-		"rook"
+		"<WR-12981>"
+		"<WR-12982>"
+		"<WR-9148>"
+		"<WR-12983>"
+		"<WR-10695>"
+		"<WR-10584>"
+		"<WR-12984>"
+		"<WR-12985>"
+		"<WR-12986>"
 
 # From the "Southern Television broadcast interruption."
 phrase "hostile quarg"
 	word
-		"All your weapons of evil must be destroyed."
-		"You have only a short time to learn to live together in peace."
-		"You must live in peace... or leave the galaxy."
+		"<WR-12987>"
+		"<WR-12988>"
+		"<WR-12989>"
 
 conversation "quarg imprisonment"
 	branch "landed"
 		has "flagship landed"
-	`You are immediately hailed by the Quarg in the system after they complete the scan of your ship.`
-	`	"<first> <last>, you are found to be in illegal possession of Quarg equipment. Our devices are precious and ours alone. Though it is regrettable, we must terminate you."`
-	`	They close communications before you have a chance to respond, and you look to your radar to see their ships are already approaching, weapons readied...`
+	`<CN-15661>`
+	`<CN-15662>`
+	`<CN-15663>`
 		accept
 	label landed
-	`Your ship loses all power immediately upon touching down on the landing pad. As you walk around to try and find the problem, you pass by your hatch. You find that it is already opened with dozens of Quarg coming in, all clad in elegant full-body armor suits.`
-	`	"<first> <last>, you are found to be in illegal possession of Quarg equipment. Our devices are precious and ours alone. Though it is regrettable, we must seize you."`
-	`	They don't allow you to get as much as a word out before one of the guards has locked your arms behind your back, completely halting your attempts to fight back with surprisingly little effort. You are brought to something akin to a Quarg courtroom, where they lecture you for several hours on how dangerous it is for Quarg apparatuses to be stolen and used so blithely by others. At the end of it all, the jury sentences you to life imprisonment.`
-	`	You spend the rest of your days in the same cell, which although large and comfortable, quickly proves plain and dull. You're kept in very good health and are well-fed, but the Quarg do not allow you to leave the cell and seldom entertain your attempts at striking up a conversation. You get few visitors and can only wonder what life would've been like had you had the chance to live out all these years in freedom, the captain of a starship.`
+	`<CN-15664>`
+	`<CN-15665>`
+	`<CN-15666>`
+	`<CN-15667>`
 
 # Human Quarg
 

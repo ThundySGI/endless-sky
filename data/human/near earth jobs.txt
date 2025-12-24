@@ -14,7 +14,7 @@
 mission "Historical field trip to <planet>"
 	job
 	repeat
-	description `These <bunks> school students need to reach <destination> by <date> for a historical field trip. The school will pay you <payment>.`
+	description `<DS-636>`
 	passengers 15 5 .1
 	deadline
 	to offer
@@ -29,14 +29,14 @@ mission "Historical field trip to <planet>"
 	on complete
 		payment
 		payment 10000
-		dialog `The students excitedly rush off your ship, taking pictures of everything they see. The school deposits <payment> into your account.`
+		dialog `<DL-315>`
 
 
 mission "To Earth Day celebration [0]"
-	name `Earth Day celebration`
+	name `<NM-379>`
 	job
 	repeat
-	description `Bring <fare> to <destination> by <date> for the Earth Day celebration on April 22nd. Payment is <payment>.`
+	description `<DS-637>`
 	passengers 4 4 .5
 	deadline 0 2
 	to offer
@@ -64,14 +64,14 @@ mission "To Earth Day celebration [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 1000 180
-		dialog "You wish your <passengers> the best of luck on <planet>. After collecting your payment of <payment>, your <passengers> put on their Earth Day hats and leave with their belongings."
+		dialog "<DL-316>"
 
 
 mission "To Earth Day celebration [1]"
-	name `Earth Day celebration`
+	name `<NM-379>`
 	job
 	repeat
-	description `Deliver <cargo> to <destination> by <date> in preparation for the Earth Day celebration on April 22nd. Payment is <payment>.`
+	description `<DS-638>`
 	cargo random 5 2 .1
 	deadline 0 2
 	to offer
@@ -99,14 +99,14 @@ mission "To Earth Day celebration [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 180
-		dialog `Spaceport workers already festively dressed for Earth Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+		dialog `<DL-317>`
 
 
 mission "To Earth Day celebration [2]"
-	name `Earth Day celebration`
+	name `<NM-379>`
 	job
 	repeat
-	description `Bring <fare> to <destination> by <date> for the Earth Day celebration on April 22nd. Payment is <payment>.`
+	description `<DS-637>`
 	passengers 15 5 .1
 	deadline 0 2
 	to offer
@@ -135,14 +135,14 @@ mission "To Earth Day celebration [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 1000 120
-		dialog "You wish your <passengers> the best of luck on <planet>. After collecting your payment of <payment>, your <passengers> put on their Earth Day hats and leave with their belongings."
+		dialog "<DL-316>"
 
 
 mission "From Earth Day celebration [0]"
-	name `Return from Earth Day`
+	name `<NM-380>`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Earth Day celebration. Payment is <payment>.`
+	description `<DS-639>`
 	passengers 4 4 .5
 	to offer
 		or
@@ -166,14 +166,14 @@ mission "From Earth Day celebration [0]"
 	on complete
 		payment
 		payment 1000
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `<DL-57>`
 
 
 mission "From Earth Day celebration [1]"
-	name `Return from Earth Day`
+	name `<NM-380>`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Earth Day celebration. Payment is <payment>.`
+	description `<DS-639>`
 	passengers 4 4 .3
 	to offer
 		or
@@ -197,14 +197,14 @@ mission "From Earth Day celebration [1]"
 	on complete
 		payment
 		payment 1000
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `<DL-57>`
 
 
 mission "From Earth Day celebration [2]"
-	name `Return from Earth Day`
+	name `<NM-380>`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Earth Day celebration. Payment is <payment>.`
+	description `<DS-639>`
 	passengers 15 5 .1
 	to offer
 		random < ( "passenger space" - 30 ) * 2
@@ -228,13 +228,13 @@ mission "From Earth Day celebration [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 1000 100
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `<DL-57>`
 
 
 mission "Transport farmers to Mars"
 	job
 	repeat
-	description "This group of <bunks> factory workers are hoping to start anew on <planet> as farmers. They will pay you <payment> to take them there."
+	description "<DS-640>"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -246,13 +246,13 @@ mission "Transport farmers to Mars"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the farmers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-318>"
 
 
 mission "Transport tourists to Luna"
 	job
 	repeat
-	description "This family of <bunks> would like to see the historic sights on Luna. They will pay you <payment> to take them there."
+	description "<DS-641>"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -264,12 +264,12 @@ mission "Transport tourists to Luna"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the tourists the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-319>"
 
 mission "Transport seasonal workers to Earth"
 	job
 	repeat
-	description "This group of <bunks> temporary farm workers are looking for transportation back home to Earth. They will pay you <payment> to take them there."
+	description "<DS-642>"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -281,12 +281,12 @@ mission "Transport seasonal workers to Earth"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "<DL-286>"
 
 
 mission "Tycho Crater Shipyards Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-643>"
 	cargo "weapons" 5 2 .1
 	job
 	repeat
@@ -303,8 +303,8 @@ mission "Tycho Crater Shipyards Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tycho Crater Shipyards Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-643>"
 	cargo "Ship Alloys" 5 2 .1
 	job
 	repeat
@@ -321,8 +321,8 @@ mission "Tycho Crater Shipyards Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tycho Crater Shipyards Shipment [2]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
+	name "<NM-11>"
+	description "<DS-643>"
 	cargo "Ship Systems" 5 2 .1
 	job
 	repeat
