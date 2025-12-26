@@ -1,0 +1,956 @@
+# Copyright (c) 2018 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+phrase "free worlds scanner payment"
+	word
+		`Po wyladowaniu na ciebie bedzie czekal kapitan Wolnych Swiatow, ktory zabierze kopie twoich dziennikow skanera, a ty odbierzesz zaplate w wysokosci <payment>.`
+
+trade
+	commodity "Free Worlds Outfits"
+		"ion engines"
+		"plasma engines"
+		"cooling systems"
+		"fission reactors"
+		"thermionic reactors"
+		"battery packs"
+		"fuel cell units"
+		"heavy rocket systems"
+		"meteor rocket systems"
+		"javelin rocket systems"
+		"energy blasters"
+		"energy blaster turrets"
+		"torpedo rocket systems"
+		"beam lasers"
+		"beam turrets"
+		"heavy lasers"
+		"heavy laser turrets"
+		"plasma cannons"
+		"plasma turrets"
+		"radar jammers"
+		"tactical scanners"
+		"anti-missile turrets"
+		"proton guns"
+		"proton turrets"
+		"shield generators"
+
+mission "FW Scout Run [0]"
+	job
+	repeat
+	name `Bieg zwiadowczy`
+	description `Przelec przez uklad <waypoints> i sprawdz aktywnosc Marynarki Wojennej. Nastepnie wroc do <destination> o <date>, gdzie zostana przeanalizowane logi skanera twojego okretu. Platnosc wynosi <payment>.`
+	deadline
+	to offer
+		random < 30
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	waypoint
+		distance 1 2
+		government "Republic"
+		not system "Graffias"
+	on visit
+		dialog phrase "generic waypoint on visit"
+	on complete
+		payment 10000 180
+		dialog phrase "free worlds scanner payment"
+	on visit
+		dialog `Wyladowales na <planet>, ale nie zdazyles jeszcze zbadac wszystkich oznaczonych systemow. Odwiedz wszystkie systemy zaznaczone na mapie przed powrotem.`
+
+mission "FW Scout Run [1]"
+	job
+	repeat
+	name `Bieg zwiadowczy`
+	description `Przelec przez systemy <waypoints> i sprawdz je pod katem aktywnosci Marynarki Wojennej. Nastepnie wroc do <destination> o <date>, gdzie zostana przeanalizowane logi skanera twojego okretu. Platnosc wynosi <payment>.`
+	deadline
+	to offer
+		random < 25
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	waypoint
+		distance 2 3
+		government "Republic"
+		not system "Graffias"
+	waypoint
+		distance 2 3
+		government "Republic"
+		not system "Graffias"
+	on visit
+		dialog phrase "generic waypoint on visit"
+	on complete
+		payment 20000 180
+		dialog phrase "free worlds scanner payment"
+	on visit
+		dialog `Wyladowales na <planet>, ale nie zdazyles jeszcze zbadac wszystkich oznaczonych systemow. Odwiedz wszystkie systemy zaznaczone na mapie przed powrotem.`
+
+mission "FW Scout Run [2]"
+	job
+	repeat
+	name `Bieg zwiadowczy`
+	description `Przelec przez systemy <waypoints> i sprawdz je pod katem aktywnosci Marynarki Wojennej. Nastepnie wroc do <destination> o <date>, gdzie zostana przeanalizowane logi skanera twojego okretu. Platnosc wynosi <payment>.`
+	deadline
+	to offer
+		random < 20
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	waypoint
+		distance 2 3
+		government "Republic"
+		not system "Graffias"
+	waypoint
+		distance 3 4
+		government "Republic"
+		not system "Graffias"
+	on visit
+		dialog phrase "generic waypoint on visit"
+	on complete
+		payment 30000 180
+		dialog phrase "free worlds scanner payment"
+	on visit
+		dialog `Wyladowales na <planet>, ale nie zdazyles jeszcze zbadac wszystkich oznaczonych systemow. Odwiedz wszystkie systemy zaznaczone na mapie przed powrotem.`
+
+
+
+phrase "free worlds convoy supplies payment"
+	word
+		`Kapitan statku <npc> dziekuje ci za bezpieczne eskortowanie, a stocznia placi ci <payment> za pomoc w dostarczeniu zaopatrzenia.`
+
+mission "FW Convoy Defense [0]"
+	job
+	repeat
+	name `Konwoj do <planet>`
+	description `Stocznia na <planet> potrzebuje wiecej zaopatrzenia do budowy okretow wojennych. Natychmiast eskortuj konwoj statkow do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 1 1
+	to offer
+		random < 30
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+		attributes "mining" "factory"
+		not attributes shipyard
+	destination
+		government "Free Worlds"
+		attributes shipyard
+		distance 2 6
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+		system destination
+		fleet "Large Southern Pirates"
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system destination
+		fleet "Large Southern Pirates"
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		fleet "Large Southern Pirates"
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		"cargo settings"
+			commodities "Ship Alloys" "Ship Systems" "Free Worlds Outfits"
+		fleet
+			names "civilian"
+			variant
+				"Freighter" 2
+				"Bastion"
+			variant
+				"Behemoth"
+				"Clipper" 2
+			variant
+				"Behemoth" 2
+			variant
+				"Hauler III"
+				"Bastion" 2
+			variant
+				"Hauler II" 2
+				"Osprey"
+			variant
+				"Argosy" 2
+				"Osprey"
+	on complete
+		payment 270000
+		dialog phrase "free worlds convoy supplies payment"
+	on visit
+		dialog `Dotarles do <planet>, ale zostawiles czesc lub caly konwoj! Lepiej odejdz i poczekaj, az dotra do tego ukladu gwiezdnego.`
+
+mission "FW Convoy Defense [1]"
+	job
+	repeat
+	name `Konwoj do <planet>`
+	description `Stocznia na <planet> potrzebuje wiecej zaopatrzenia do budowy okretow wojennych. Natychmiast eskortuj konwoj statkow do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 1 1
+	to offer
+		random < 20
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+		attributes "mining" "factory"
+		not attributes shipyard
+	destination
+		government "Free Worlds"
+		attributes shipyard
+		distance 2 6
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+		system destination
+		fleet "Large Southern Pirates"
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system destination
+		fleet "Large Southern Pirates"
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		fleet "Large Southern Pirates"
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		"cargo settings"
+			commodities "Ship Alloys" "Ship Systems" "Free Worlds Outfits"
+		fleet
+			names "civilian"
+			variant
+				"Freighter" 2
+				"Bastion"
+			variant
+				"Behemoth"
+				"Clipper" 2
+			variant
+				"Behemoth" 2
+			variant
+				"Hauler III"
+				"Bastion" 2
+			variant
+				"Hauler II" 2
+				"Osprey"
+			variant
+				"Argosy" 2
+				"Osprey"
+	on complete
+		payment 270000
+		dialog phrase "free worlds convoy supplies payment"
+	on visit
+		dialog `Dotarles do <planet>, ale zostawiles czesc lub caly konwoj! Lepiej odejdz i poczekaj, az dotra do tego ukladu gwiezdnego.`
+
+mission "FW Convoy Defense [2]"
+	job
+	repeat
+	name `Konwoj do <planet>`
+	description `Stocznia na <planet> potrzebuje wiecej zaopatrzenia do budowy okretow wojennych. Natychmiast eskortuj konwoj statkow do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 1 1
+	to offer
+		random < 10
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+		attributes "mining" "factory"
+		not attributes shipyard
+	destination
+		government "Free Worlds"
+		attributes shipyard
+		distance 2 6
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+		system destination
+		fleet "Large Southern Pirates"
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system destination
+		fleet "Large Southern Pirates"
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		fleet "Large Southern Pirates"
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		"cargo settings"
+			commodities "Ship Alloys" "Ship Systems" "Free Worlds Outfits"
+		fleet
+			names "civilian"
+			variant
+				"Freighter" 2
+				"Bastion"
+			variant
+				"Behemoth"
+				"Clipper" 2
+			variant
+				"Behemoth" 2
+			variant
+				"Hauler III"
+				"Bastion" 2
+			variant
+				"Hauler II" 2
+				"Osprey"
+			variant
+				"Argosy" 2
+				"Osprey"
+	on complete
+		payment 270000
+		dialog phrase "free worlds convoy supplies payment"
+	on visit
+		dialog `Dotarles do <planet>, ale zostawiles czesc lub caly konwoj! Lepiej odejdz i poczekaj, az dotra do tego ukladu gwiezdnego.`
+
+
+
+mission "FW Reinforcements [0]"
+	job
+	repeat
+	name `Wzmocnienia dla <planet>`
+	description `Ci <bunks> zolnierze Wolnych Swiatow wymagaja natychmiastowego transportu do <destination> do <date>, aby wzmocnic linie frontu. Zaplata wynosi <payment>.`
+	deadline 2 1
+	passengers 5 5 .2
+	to offer
+		random < 20
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 180
+		dialog `Wyladowujesz zolnierzy Wolnych Swiatow w ruchliwym porcie kosmicznym <planet> i pobierasz zaplate w wysokosci <payment>.`
+
+mission "FW Reinforcements [1]"
+	job
+	repeat
+	name `Wzmocnienia dla <planet>`
+	description `Ci <bunks> zolnierze Wolnych Swiatow wymagaja natychmiastowego transportu do <destination> do <date>, aby wzmocnic linie frontu. Zaplata wynosi <payment>.`
+	deadline 2 1
+	passengers 5 5 .2
+	to offer
+		random < 10
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 180
+		dialog `Wyladowujesz zolnierzy Wolnych Swiatow w ruchliwym porcie kosmicznym <planet> i pobierasz zaplate w wysokosci <payment>.`
+
+
+phrase "free worlds thanked resupply payment"
+	phrase
+		"generic cargo delivery payment"
+	word
+		` `
+	word
+		`Kapitan Wolnych Swiatow stacjonujacy na <planet> dziekuje za dostarczenie niezbednych zapasow.`
+		`Kapitanowie Wolnych Swiatow stacjonujacy na <planet> dziekuja za dostarczenie tak bardzo potrzebnych zapasow.`
+
+mission "FW Outfitter Resupply [0]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `W sklepie z artykulami wyposazenia na <planet> koncza sie zapasy i nalezy je natychmiast uzupelnic. Dostarcz <tons> rozmontowanych <commodity> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	cargo "Free Worlds Outfits" 5 2 .1
+	to offer
+		random < 50
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+	destination
+		distance 4 8
+		government "Free Worlds"
+		attributes outfitter
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Outfitter Resupply [1]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `W sklepie z artykulami na <planet> koncza sie zapasy i nalezy je natychmiast uzupelnic. Dostarcz <tons> z rozmontowanych <commodity> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	cargo "Free Worlds Outfits" 5 2 .1
+	to offer
+		random < 40
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+	destination
+		distance 5 10
+		government "Free Worlds"
+		attributes outfitter
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Outfitter Resupply [2]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `W sklepie z artykulami wyposazenia na <planet> koncza sie zapasy i nalezy je natychmiast uzupelnic. Dostarcz <tons> rozmontowanych <commodity> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	cargo "Free Worlds Outfits" 5 2 .1
+	to offer
+		random < 30
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+	destination
+		distance 6 12
+		government "Free Worlds"
+		attributes outfitter
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Bulk Outfitter Resupply [0]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `W sklepie z artykulami wyposazenia na <planet> koncza sie zapasy i nalezy je natychmiast uzupelnic. Dostarcz <tons> rozmontowanych <commodity> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	cargo "Free Worlds Outfits" 25 2 .05
+	to offer
+		random < 30
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+	destination
+		distance 4 8
+		government "Free Worlds"
+		attributes outfitter
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Bulk Outfitter Resupply [1]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `W sklepie z artykulami wyposazenia na <planet> koncza sie zapasy i nalezy je natychmiast uzupelnic. Dostarcz <tons> rozmontowanych <commodity> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	cargo "Free Worlds Outfits" 25 2 .05
+	to offer
+		random < 25
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+	destination
+		distance 5 10
+		government "Free Worlds"
+		attributes outfitter
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Bulk Outfitter Resupply [2]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `W sklepie z artykulami wyposazenia na <planet> koncza sie zapasy i nalezy je natychmiast uzupelnic. Dostarcz <tons> rozmontowanych <commodity> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	cargo "Free Worlds Outfits" 25 2 .05
+	to offer
+		random < 20
+		has "salary: Free Worlds"
+		not "main plot completed"
+	source
+		government "Free Worlds"
+	destination
+		distance 6 12
+		government "Free Worlds"
+		attributes outfitter
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Frontline Resupply [0]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Food" 5 2 .1
+	to offer
+		random < 40
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Frontline Resupply [1]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Medical" 5 2 .1
+	to offer
+		random < 30
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Frontline Resupply [2]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Heavy Metals" 5 2 .1
+	to offer
+		random < 20
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Frontline Resupply [3]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Military" 5 2 .1
+	to offer
+		random < 20
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+
+mission "FW Bulk Frontline Resupply [0]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Food" 25 2 .95
+	to offer
+		random < 30
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 3 12
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Bulk Frontline Resupply [1]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Medical" 25 2 .95
+	to offer
+		random < 15
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 3 12
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+mission "FW Bulk Frontline Resupply [2]"
+	job
+	repeat
+	name `Uzupelnij zapasy <planet>`
+	description `Linie frontu wojny potrzebuja uzupelnienia zapasow. Natychmiast dostarcz <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 2 1
+	cargo "Military" 25 2 .95
+	to offer
+		random < 15
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	destination
+		distance 3 12
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked resupply payment"
+
+
+
+phrase "free worlds thanked care package"
+	word
+		`Dostarczasz paczke z prezentami dla <commodity> pod wskazany adres i wyjasniasz im, skad pochodzi paczka. Dziekuja Ci za dostarczenie, a Ty odbierasz platnosc w wysokosci <payment>.`
+
+mission "FW Care Package to Republic [0]"
+	job
+	repeat
+	name `Paczka z prezentami dla <planet>`
+	description `Obywatel Wolnych Swiatow martwi sie o czlonkow rodziny w Republice. Natychmiast dostarcz paczke z prezentami o wartosci <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 1 1
+	cargo random 1 3
+	to offer
+		random < 30
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+	destination
+		government "Republic"
+		distance 2 5
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 180
+		dialog phrase "free worlds thanked care package"
+
+mission "FW Care Package to Republic [1]"
+	job
+	repeat
+	name `Paczka z prezentami dla <planet>`
+	description `Obywatel Wolnych Swiatow martwi sie o czlonkow rodziny w Republice. Natychmiast dostarcz paczke z prezentami o wartosci <cargo> do <destination> do <date>. Zaplata wynosi <payment>.`
+	deadline 1 1
+	cargo random 1 3
+	to offer
+		random < 30
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+	destination
+		government "Republic"
+		distance 2 5
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 180
+		dialog phrase "free worlds thanked care package"
+
+mission "FW Care Package from Republic [0]"
+	job
+	repeat
+	name `Paczka z prezentami dla <planet>`
+	description `Obywatel Republiki martwi sie o czlonkow rodziny w Wolnych Swiatach. Natychmiast dostarcz paczke z prezentami o wartosci <cargo> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 1 1
+	cargo random 1 3
+	to offer
+		random < 30
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Republic"
+	destination
+		government "Free Worlds"
+		distance 2 5
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 180
+		dialog phrase "free worlds thanked care package"
+
+mission "FW Care Package from Republic [1]"
+	job
+	repeat
+	name `Paczka z prezentami dla <planet>`
+	description `Obywatel Republiki martwi sie o czlonkow rodziny w Wolnych Swiatach. Natychmiast dostarcz paczke z prezentami o wartosci <cargo> do <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 1 1
+	cargo random 1 3
+	to offer
+		random < 30
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Republic"
+	destination
+		government "Free Worlds"
+		distance 2 5
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 180
+		dialog phrase "free worlds thanked care package"
+
+
+
+phrase "free worlds thanked refugee transport"
+	word
+		`Twoi pasazerowie dziekuja Ci uprzejmie za zabranie ich z niebezpiecznych linii frontu wojny. Zyczysz im powodzenia w dniu <planet> i odbierasz zaplate w wysokosci <payment>.`
+
+mission "FW Refugees [0]"
+	job
+	repeat
+	name `Uchodzcy do <planet>`
+	description `Ci <bunks> pasazerowie chcieliby uciec z frontu wojny i natychmiast osiedlic sie na <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	passengers 2 10 .9
+	to offer
+		random < 60
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked refugee transport"
+
+mission "FW Refugees [1]"
+	job
+	repeat
+	name `Uchodzcy do <planet>`
+	description `Ci <bunks> pasazerowie chcieliby uciec z frontu wojny i natychmiast osiedlic sie na <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	passengers 2 10 .9
+	to offer
+		random < 40
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked refugee transport"
+
+mission "FW Refugees [2]"
+	job
+	repeat
+	name `Uchodzcy do <planet>`
+	description `Ci <bunks> pasazerowie chcieliby uciec z frontu wojny i natychmiast osiedlic sie na <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	passengers 2 10 .9
+	to offer
+		random < 20
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "free worlds thanked refugee transport"
+
+mission "FW Bulk Refugees [0]"
+	job
+	repeat
+	name `Uchodzcy do <planet>`
+	description `Ci <bunks> pasazerowie chcieliby uciec z frontu wojny i natychmiast osiedlic sie na <destination> do <date>. Platnosc wynosi <payment>.`
+	deadline 2 1
+	passengers 5 5 .5
+	to offer
+		random < 20
+		has "chosen sides"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	destination
+		distance 2 10
+		government "Free Worlds"
+		not
+			neighbor government "Republic"
+		not
+			neighbor
+				neighbor government "Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 5000 180
+		dialog phrase "free worlds thanked refugee transport"

@@ -1,0 +1,1061 @@
+# Copyright (c) 2017 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+fleet "Small Remnant"
+	government "Remnant"
+	names "remnant"
+	cargo 2
+	commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
+	outfitters "Korath Exiles Remnant Donations" "Ka'het"
+	personality
+		disables heroic plunders appeasing secretive
+	variant 8
+		"Starling"
+	variant 6
+		"Starling (Heavy)"
+	variant 5
+		"Starling (Sniper)"
+	variant 4
+		"Starling (Hunter)"
+	variant 3
+		"Starling (Thrasher)"
+	variant 1
+		"Starling (Sniper)" 2
+	variant 1
+		"Albatross"
+	variant 1
+		"Albatross (Sniper)"
+	variant 1
+		"Albatross (Turret)"
+	variant 1
+		"Albatross (Heavy)"
+	variant 4
+		"Ibis"
+		"Petrel" 2
+		"Tern" 4
+	variant 4
+		"Ibis"
+		"Smew (Miner)" 2
+		"Tern" 4
+
+fleet "Large Remnant"
+	government "Remnant"
+	names "remnant"
+	cargo 2
+	commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
+	outfitters "Korath Exiles Remnant Donations" "Ka'het"
+	personality
+		disables heroic plunders appeasing secretive
+	variant 6
+		"Albatross"
+		"Starling" 2
+	variant 6
+		"Albatross (Sniper)"
+		"Starling (Sniper)" 2
+	variant 6
+		"Albatross (Turret)"
+		"Starling (Thrasher)" 2
+	variant 6
+		"Albatross (Heavy)"
+		"Starling (Heavy)" 2
+	variant 3
+		"Albatross"
+		"Starling (Hunter)" 2
+	variant 3
+		"Albatross (Sniper)"
+		"Starling (Hunter)" 2
+	variant 2
+		"Albatross"
+		"Albatross (Sniper)"
+	variant 2
+		"Albatross (Heavy)"
+		"Albatross (Turret)"
+	variant 2
+		"Albatross"
+		"Starling"
+		"Ibis"
+		"Petrel" 2
+		"Tern" 4
+	variant 2
+		"Albatross"
+		"Ibis" 2
+		"Tern" 8
+		"Petrel" 4
+	variant 4
+		"Ibis"
+		"Petrel" 2
+		"Tern" 4
+		"Starling" 4
+	variant 4
+		"Ibis" 3
+		"Petrel" 6
+		"Tern" 12
+		
+
+fleet "Remnant Transport"
+	government "Remnant"
+	names "remnant"
+	cargo 2
+	commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
+	outfitters "Korath Exiles Remnant Donations" "Ka'het"
+	personality
+		disables plunders coward appeasing mining harvests secretive
+	variant 10
+		"Gull"
+	variant 5
+		"Gull (Sniper)"
+	variant 4
+		"Gull (Support)"
+	variant 5
+		"Gull (Cargo)"
+	variant 5
+		"Gull (Bunks)"
+	variant 10
+		"Pelican"
+	variant 10
+		"Pelican"
+		"Gull" 2
+	variant 8
+		"Pelican"
+		"Starling" 2
+	variant 6
+		"Pelican"
+		"Gull" 2
+		"Starling" 2
+	variant 2
+		"Pelican" 3
+		"Albatross (Heavy)"
+	variant 2
+		"Pelican" 2
+		"Starling (Thrasher)" 2
+		"Starling (Sniper)"
+	variant 2
+		"Pelican"
+		"Starling (Hunter)" 2
+	variant 2
+		"Pelican"
+		"Ibis"
+		"Petrel" 2
+		"Tern" 4
+	variant 1
+		"Pelican"
+		"Gull" 2
+		"Ibis" 2
+		"Petrel" 4
+		"Tern" 8
+	
+
+fleet "Remnant Home Guard"
+	government "Remnant"
+	names "remnant"
+	cargo 2
+	commodities "Food" "Metal" "Plastic" "Heavy Metals"
+	outfitters "Korath Exiles Remnant Donations" "Ka'het"
+	personality
+		disables plunders appeasing mining harvests surveillance secretive
+	variant 20
+		"Tern" 1
+	variant 10
+		"Tern" 2
+	variant 10
+		"Smew" 1
+	variant 5
+		"Tern" 3
+	variant 5
+		"Petrel" 1
+		"Tern" 2
+	variant 5
+		"Petrel" 2
+		"Tern" 4
+	variant 3
+		"Smew (Miner)" 2
+	variant 2
+		"Smew (Runabout)"
+
+fleet "Remnant Decoy Defense"
+	government "Remnant"
+	names "remnant"
+	personality
+		staying heroic unconstrained
+	variant 10
+		"Albatross (Shield)"
+
+fleet "Light Remnant Defense"
+	government "Remnant"
+	names "remnant"
+	personality
+		staying heroic unconstrained
+	variant 10
+		"Starling" 2
+		"Starling (Heavy)" 2
+		"Starling (Sniper)" 2
+		"Starling (Hunter)" 2
+		"Starling (Thrasher)" 2
+	variant 10
+		"Starling (Heavy)" 4
+		"Starling (Sniper)" 6
+	variant 10
+		"Starling" 10
+	variant 10
+		"Starling (Heavy)" 10
+	variant 10
+		"Starling (Sniper)" 10
+	variant 10
+		"Starling (Heavy)" 5
+		"Starling (Hunter)" 5
+	variant 4
+		"Ibis" 5
+		"Tern" 20
+		"Petrel" 10
+
+fleet "Heavy Remnant Defense"
+	government "Remnant"
+	names "remnant"
+	personality
+		staying heroic unconstrained
+	variant 6
+		"Albatross (Shield)"
+		"Albatross" 3
+		"Starling" 6
+	variant 6
+		"Albatross (Shield)"
+		"Albatross (Sniper)" 3
+		"Starling (Sniper)" 6
+	variant 6
+		"Albatross (Turret)" 3
+		"Starling (Thrasher)" 6
+	variant 6
+		"Albatross (Heavy)" 3
+		"Starling (Heavy)" 6
+	variant 3
+		"Albatross" 3
+		"Starling (Hunter)" 6
+	variant 3
+		"Albatross (Sniper)" 3
+		"Starling (Hunter)" 6
+	variant 2
+		"Albatross" 3
+		"Albatross (Sniper)" 6
+	variant 2
+		"Albatross (Shield)"
+		"Albatross (Heavy)" 2
+		"Albatross (Turret)"
+	variant 4
+		"Albatross"
+		"Ibis" 4
+		"Petrel" 8
+		"Tern" 16
+
+phrase "remnant"
+	word
+		"Swietnie"
+		"Wysoki"
+		"Ciemny"
+		"Pozno"
+		"Zamrozony"
+		"Oswietlone sloncem"
+		"Spokoj"
+		"Strach"
+		"Niski"
+		"Ostry"
+		"Dlugi"
+		"Zmeczony"
+		"Starszy"
+		"Mlody"
+		"Czerwony"
+		"Zielony"
+		"Nowy"
+		"Daleko"
+		"Starozytny"
+		"Spokojny"
+		"Wieczny"
+		"Szary"
+		"Rozswietlony gwiazdami"
+		"W swietle ksiezyca"
+		"Nieskonczony"
+		"Niezlomny"
+		"Bialy"
+		"Czarny"
+		"Jasny"
+		"Szeroki"
+		"Ukryte"
+		"Mglisty"
+		"Cien"
+		"Ciemny"
+	word
+		" "
+	word
+		"Wzgorze"
+		"Piosenka"
+		"Cud"
+		"Podroz"
+		"Twierdza"
+		"Bryza"
+		"Droga"
+		"Sezon"
+		"Niebo"
+		"Ocean"
+		"Ember"
+		"Iglica"
+		"Miasto"
+		"Pamiec"
+		"Watek"
+		"Krata"
+		"Kotwica"
+		"Belka"
+		"Las"
+		"Gora"
+		"Glen"
+		"Twierdza"
+		"Sen"
+		"Wiatr"
+		"Burza"
+		"Trzymaj sie"
+		"Morze"
+		"Wieza"
+		"Reduta"
+		"Filar"
+		"Macierz"
+	word
+		" "
+	word
+		"Taniec"
+		"Skaczacy"
+		"Zanurzanie"
+		"Spada"
+		"W ogniu"
+		"Blyszczacy"
+		"W poblizu"
+		"Tam"
+		"Mowione"
+		"Przebudzony"
+		"Przerobiony"
+		"Rozpoczeto"
+		"Zakonczono"
+		"Znaleziono"
+		"Odpoczynek"
+		"Zagubiony"
+		"Zmieniono"
+		"Zyje"
+		"Przywrocono"
+		"Zachowano"
+		"Odnowiony"
+		"Odrodzony"
+		"Wzniesiony"
+		"Rosnaco"
+		"Szybko wznoszacy"
+		"Trwaly"
+		"Wieczny"
+		"Wytrwaly"
+		"Odkrywanie"
+		"Odkryto"
+
+phrase "remnant uncontacted"
+	word
+		"(Wysylaja ci sygnal powitalny w jezyku migowym, ktorego nie rozumiesz.)"
+		"(Slyszysz krotka piosenke o tym, ze skanowanie ich bedzie uwazane za dzialanie wrogie.)"
+		`"Jesli zalezy ci na dalszym przetrwaniu ludzkosci, nie skanuj naszych statkow," mowi dziwnie melodyjny glos.`
+		`"Jesli zalezy ci na przetrwaniu, nie skanuj naszych statkow." Glos przemawia tonem przypominajacym spiew.`
+		`"Cenimy sobie prywatnosc i na skanowanie odpowiemy ze smiercionosna sila." Glos jest dziwnie melodyjny.`
+		`"Nie skanujcie naszych statkow,"ktos wam spiewa.`
+
+phrase "remnant uncontacted"
+	word
+		"Jestem"
+		"Jestesmy"
+	word
+		" "
+	word
+		"ogladam"
+		"obserwujac"
+		"analizuje"
+		"nadzorowanie"
+	word
+		" "
+	word
+		"ty"
+		"Twoje dzialania"
+		"twoje zachowanie"
+	word
+		"."
+
+phrase "remnant uncontacted hostile"
+	word
+		"Zjedz kosmiczny pyl"
+		"Czas isc"
+		"Zaspiewaj swoje ostatnie modlitwy"
+		"Zostaw to miejsce"
+	word
+		", "
+	word
+		"wrogi statek"
+		"pirat"
+		"Alfa"
+	word
+		"!"
+
+phrase "remnant uncontacted hostile"
+	word
+		"Ja"
+		"Moj przyjacielu"
+		"Moj towarzyszu"
+		"Moje przeczucie"
+	word
+		" "
+	word
+		"mial racje"
+		"bylo poprawne"
+		"wiedzialem"
+	word
+		"."
+		"!"
+	word
+		" Jestes "
+	word
+		"wrogi"
+		"tutaj ze zlosliwym zamiarem"
+		"Alfa"
+	word
+		"!"
+
+phrase "remnant uncontacted hostile"
+	word
+		"(Wysylaja ci sygnal powitalny w jezyku migowym, ktorego nie rozumiesz i ktory nie wydaje sie przyjazny.)"
+		"(Podpisuja tak szybko, ze odbiorca sygnalu nie nadaza ze wszystkim.)"
+		"(Wyglada na to, ze nie jestes tu mile widziany.)"
+
+phrase "remnant friendly"
+	phrase
+		"remnant greetings"
+		"remnant preparations"
+		"remnant no scan"
+		"remnant secrecy"
+		"remnant outfit recommendations"
+		"remnant alien inquiry"
+		"remnant friendly cautions"
+
+phrase "remnant trusting"
+	phrase
+		"remnant greetings"
+		"remnant preparations"
+		"remnant scan"
+		"remnant secrecy"
+		"remnant outfit recommendations (trusted)"
+		"remnant alien inquiry"
+		"remnant friendly cautions"
+
+phrase "remnant greetings"
+	word
+		"Witam"
+		"Witaj"
+		"Pozdrowienia"
+	word
+		", "
+		" "
+	word
+		"przyjaciel"
+		"towarzyszu"
+		"bracia"
+	word
+		"."
+		"!"
+
+phrase "remnant preparations"
+	word
+		"Prawie umarlem"
+		"Kilku wrogow zaatakowalo moj statek"
+		"Moja misja byla trudna"
+		"Mielismy awarie"
+		"Byl tu roj najezdzcow Korath"
+		"Stalismy w sytuacji zagrazajacej zyciu"
+	word
+		" "
+	word
+		"w zeszlym tygodniu"
+		"ostatni miesiac"
+		"w zeszlym roku"
+	word
+		". "
+		"! "
+	word
+		"Na szczescie"
+		"Na szczescie"
+		"Cudownie"
+	word
+		", "
+	word
+		"Ja"
+		"moj kapitan"
+		"my"
+	word
+		" "
+	word
+		"przygotowal sie do tego"
+		"zaplanowalem to"
+	word
+		" majac "
+	word
+		"funkcjonalnosc maskowania"
+		"tajna bron"
+		"szybkie silniki"
+		"ostateczna deska ratunku, ktora powinien miec kazdy Pozostaly"
+	word
+		"."
+		"!"
+
+phrase "remnant no scan"
+	word
+		"Prosze"
+	word
+		" "
+	word
+		"nie"
+		"staraj sie tego nie robic"
+	word
+		" "
+	word
+		"skanowanie"
+	word
+		" "
+	word
+		"nas."
+		"nasze statki."
+
+phrase "remnant no scan"
+	word
+		"Nieostrozne skanowanie kosztuje zycie."
+		"Nieproszone skany sa niemile widziane."
+		"Skanowanie to przywilej, na ktory trzeba zapracowac."
+
+phrase "remnant scan"
+	word
+		"Byloby milo, gdyby"
+		"Byloby pomocne, gdyby"
+	word
+		" "
+	word
+		"ty"
+	word
+		" "
+	word
+		"przeskanowano"
+		"rzucilem okiem"
+		"pilnowal"
+		"sprawdzono"
+	word
+		" "
+	word
+		"moj statek."
+		"nasze statki."
+		"wszystko w Pustkowiu Zaru."
+
+phrase "remnant scan"
+	word
+		"Robiac"
+		"Wykonywanie"
+		"Wykonywanie"
+	word
+		" "
+	word
+		"przemiatanie czujnika"
+		"zamiatanie"
+		"sprawdz"
+		"skanowanie"
+	word
+		" "
+	word
+		"dla"
+	word
+		" "
+	word
+		"autostopowicze"
+		"przyczepiaja sie"
+		"niezidentyfikowane obiekty"
+		"naruszenia bezpieczenstwa"
+		"wrogie podmioty"
+	word
+		" "
+	word
+		"na moim statku"
+		"na naszych statkach"
+		"na wszystkich statkach"
+	word
+		" "
+	word
+		"jest"
+		"moze byc"
+	word
+		" "
+	word
+		"bardzo pomocne."
+		"bardzo przydatne."
+		"niezbedne dla bezpieczenstwa."
+		"bardzo doceniam."
+		"dobry srodek ostroznosci."
+
+phrase "remnant secrecy"
+	word
+		"Rozwiazle usta zatapiaja statki."
+		"Nieostrozne gadanie kosztuje zycie."
+		"Zachowaj milczenie."
+		"Jesli nikt nie wie, ze tu jestesmy, nikt nie bedzie mogl nas namierzyc."
+		"Nie moga polowac na cos, o czym nie wiedza, ze istnieje."
+		"Prosze zachowac swoja wiedze o nas dla siebie."
+		"Tajemnica jest najlepsza obrona."
+		"Jesli ktos zapyta, nikogo tu nie ma."
+		"Jesli ktos pyta, nie ma tu niczego interesujacego."
+
+phrase "remnant outfit recommendations"
+	word
+		"Jesli"
+	word
+		" "
+	word
+		"masz"
+		"prefekci ci dali"
+		"nasi starsi ci na to pozwolili"
+		"nasz rzad przyznal ci"
+	word
+		" "
+	word
+		"licencja"
+		"zezwolenie"
+		"pozwolenie na zakup naszych strojow"
+	word
+		", "
+	word
+		"Ja"
+		"nasi eksperci"
+		"nasi weterani"
+		"moi przyjaciele"
+	word
+		" "
+	word
+		"sugerowalbym"
+		"polecam"
+	word
+		" "
+	word
+		"kupuje"
+		"wyposazanie"
+		"otrzymywanie"
+		"instalowanie"
+		"wyposazanie statku w"
+	word
+		" "
+	phrase
+		"dzialo inhibitorowe pozostalosci"
+		"dzialo szczatkowe mlocarni"
+		"pozostala komora torpedowa"
+		"skaner pozostalosci"
+	word
+		" "
+	word
+		"Oni sa najlepsi!"
+		"Zdecydowanie powinienes tego sprobowac!"
+		"Zdecydowanie lepsze niz te stroje w Twoim pokoju."
+
+phrase "remnant outfit recommendations (trusted)"
+	word
+		"Od"
+	word
+		" "
+	word
+		"masz"
+		"prefekci ci dali"
+		"nasi starsi ci na to pozwolili"
+		"nasz rzad przyznal ci"
+	word
+		" "
+	word
+		"licencja"
+		"zezwolenie"
+		"pozwolenie na wyposazenie naszych strojow"
+	word
+		", "
+	word
+		"Ja"
+		"nasi eksperci"
+		"nasi weterani"
+		"moi przyjaciele"
+		"my"
+	word
+		" "
+	word
+		"sugerowalbym"
+		"polecam"
+	word
+		" "
+	word
+		"wyposazanie"
+		"otrzymywanie"
+		"instalowanie"
+		"wyposazanie statku w"
+	word
+		" "
+	phrase
+		"dzialo inhibitorowe pozostalosci"
+		"dzialo szczatkowe mlocarni"
+		"pozostala komora torpedowa"
+		"skaner pozostalosci"
+	word
+		" "
+	word
+		"Oni sa najlepsi!"
+		"Zdecydowanie powinienes tego sprobowac!"
+		"Zdecydowanie lepsze niz stroje w przestrzeni przodkow."
+
+phrase "remnant inhibitor cannon"
+	word
+		"niektore"
+		"te"
+		"nasz"
+	word
+		" Dziala inhibitorowe. "
+	word
+		"Oni"
+		"Ta bron"
+	word
+		" "
+	word
+		"moze"
+		"bedzie"
+	word
+		" "
+	word
+		"zakloca"
+		"wylacz"
+		"wolno"
+	word
+		" "
+	word
+		"silniki wroga"
+		"sterowanie twoim celem"
+		"silniki dowolnego statku"
+	word
+		" "
+	word
+		"i zapobiec ich ucieczce"
+		"i nie beda mieli szans"
+	word
+		"."
+		"!"
+
+phrase "remnant thrasher cannon"
+	word
+		"kilka"
+		"kilka"
+		"niektore"
+	word
+		" "
+	word
+		"Dziala Thrasher"
+		"Thrashers"
+		"Wiezyczki Thrasher"
+	word
+		". "
+	word
+		"W porownaniu do"
+		"Gdy umieszczony obok"
+	word
+		" twoje miotacze energii, "
+	word
+		"sa bardziej wydajne pod wzgledem ciepla"
+		"mozesz zadac wiecej obrazen naszymi dzialami"
+		"moga zuzywac wiecej energii, ale maja lepsze cieplo i obrazenia"
+		"nasze dziala moga byc drozsze, ale zadaja lepsze obrazenia"
+		"sa wieksze, ale moga zadac wieksze obrazenia i wydzielac mniej ciepla"
+		"sa sila, z ktora nalezy sie liczyc"
+	word
+		"."
+		"!"
+
+phrase "remnant emp torpedo bay"
+	word
+		"Zatoka torpedowa EMP. "
+	word
+		"Jednym strzalem"
+		"Wystrzeliwuje jeden"
+		"Jedna torpeda"
+	word
+		" "
+	word
+		"bedzie"
+		"moze"
+	word
+		" "
+	word
+		"zakloca"
+		"wylacz"
+		"wyczerpac"
+	word
+		" "
+	word
+		"systemy wroga"
+		"baterie twojego celu"
+		"tarcze twojego wroga"
+		"silniki celu"
+	word
+		"."
+		"!"
+
+phrase "remnant salvage scanner"
+	word
+		"jeden lub dwa"
+		"tuzin"
+		"niektore"
+	word
+		" skanery ratownicze. "
+	word
+		"Lacza w jednym pakiecie wyposazenie i skanery taktyczne"
+		"W porownaniu do wersji oddzielnych nasz skaner jest znacznie wydajniejszy"
+		"Maja wiekszy zasieg niz skaner twojego stroju"
+		"Te dzieci szybko skanuja"
+		"Sa niezbedne do pladrowania"
+	word
+		"."
+		"!"
+
+phrase "remnant alien inquiry"
+	word
+		"Czy slyszales"
+		"Czy wiesz"
+		"Wiesz cokolwiek"
+	word
+		" okolo "
+	word
+		"ten"
+		"te"
+	word
+		" "
+	word
+		"Quarg"
+		"Pug"
+		"Hai"
+		"Koalicja daleko na zachod od naszej przestrzeni"
+	word
+		"? "
+	phrase
+		"przyjazne dla resztek (obcy!)"
+		"przyjazne dla resztek (obcy?)"
+	replace
+		"te Koalicje" 
+phrase "remnant friendly (aliens!)"
+	word
+		"Wygladaja na silnych"
+		"Wygladaja slabo"
+		"Moze powinnismy sie z nimi skontaktowac"
+		"Mysle, ze sa niebezpieczne"
+		"Mysle, ze sa dobre"
+		"Mysle, ze mozemy im zaufac"
+		"Chce spladrowac ich technologie"
+		"Chce ich statkow"
+		"Jeszcze ich nie widzialem"
+		"Zastanawiam sie, czy prefekci juz o nich wiedzieli"
+	word
+		"."
+		"!"
+
+phrase "remnant friendly (aliens?)"
+	word
+		"Czy sa silne"
+		"Czy sa slabi"
+		"Czy sa przyjaznie nastawieni"
+		"Czy sa wrogo nastawieni"
+		"Jak silni sa"
+		"Jakie sa szanse na zdobycie ich statkow"
+		"Czy twoj rzad sie z nimi spotkal"
+		"Czy warto sprobowac zdobyc ich technologie"
+	word
+		"?"
+
+phrase "remnant friendly cautions"
+	word
+		"Uwazaj"
+		"Badz czujny"
+		"Badz czujny"
+	word
+		" o "
+	word
+		"Alfy w tej galaktyce"
+		"piraci w twojej przestrzeni"
+		"Najezdzcy Korath"
+		"Korath"
+	word
+		"."
+		"!"
+	word
+		" "
+	word
+		"Nie chcesz dac sie zabic"
+		"Spotkanie z nimi jest niebezpieczne"
+		"Zawsze miej przy sobie jakas bron na wypadek, gdybys sie na nia natknal"
+		"Mamy statki, ktore moga sie maskowac, na wypadek gdybys znalazl sie z nimi w trudnej sytuacji"
+	word
+		"."
+		"!"
+
+phrase "remnant hostile"
+	word
+		"(Sklada sie ze znakow tak skomplikowanych, ze zaden przecietny czlowiek by ich nie zrozumial, ale wyglada na to, ze oni cie nie lubia.)"
+
+phrase "remnant hostile"
+	word
+		"Najwyrazniej,"
+		"Wydaje sie"
+		"Mysle"
+	word
+		" jestes "
+	word
+		"nie rozni sie az tak bardzo od"
+		"bardzo podobny do"
+		"lubie"
+	word
+		" "
+	word
+		"Alfa"
+		"a Korath"
+	word
+		". "
+	word
+		"Szkoda"
+		"Mam nadzieje, ze sploniesz w plomieniach"
+		"Zdradziles nas"
+		"Sklamales nas"
+		"Zdradziles nasze zaufanie"
+	word
+		"."
+		
+phrase "remnant hostile"
+	word
+		"Ja"
+		"My"
+	word
+		" pomyslalem "
+	phrase
+		"resztka wrogich (bylismy)"
+		"resztka wroga (byles)"
+	word
+		". "
+	word
+		"Dlaczego to robisz"
+		"Czy jestes szalony"
+		"Czy zrobilem ci krzywde"
+	word
+		"?"
+
+phrase "remnant hostile (we were)"
+	word
+		"bylismy "
+	word
+		"przyjaciele"
+		"towarzysze"
+		"bracia"
+		"dobry"
+		"koledzy z druzyny"
+		"sojusznicy"
+
+phrase "remnant hostile (you were)"
+	word
+		"byles "
+	word
+		"nie jak Alfy"
+		"nie jak piraci"
+		"nie wrogi"
+		"przyjazny"
+		"dobry"
+		"kolega z druzyny"
+		"sojusznik"
+
+
+
+shipyard "Remnant"
+	"Starling"
+	"Gull"
+	"Albatross"
+	"Ibis"
+	"Pelican"
+	"Petrel"
+	"Smew"
+	"Tern"
+
+shipyard "Remnant Puffin"
+	"Puffin"
+
+shipyard "Remnant Salvage Ships"
+	"'olofez"
+
+
+
+outfitter "Remnant"
+	"Inhibitor Cannon"
+	"Thrasher Cannon"
+	"Thrasher Turret"
+	"Point Defense Turret"
+	"Crystal Capacitor"
+	"Millennium Cell"
+	"Epoch Cell"
+	"Aeon Cell"
+	"Thermoelectric Cooler"
+	"EMP Torpedo"
+	"EMP Torpedo Bay"
+	"EMP Torpedo Storage Bay"
+	"Emergency Ramscoop"
+	"Quantum Key Stone"
+	"Anvil-Class Engine"
+	"Crucible-Class Thruster"
+	"Forge-Class Thruster"
+	"Smelter-Class Thruster"
+	"Crucible-Class Steering"
+	"Forge-Class Steering"
+	"Smelter-Class Steering"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Local Map"
+	"Hyperdrive"
+	"Scram Drive"
+	"Fuel Pod"
+	"Cargo Scanner"
+	"Outfit Scanner"
+	"Tuning Rifle"
+	"Salvage Scanner"
+
+outfitter "Remnant Core"
+	"Crystal Capacitor"
+	"Millennium Cell"
+	"Thermoelectric Cooler"
+	"Emergency Ramscoop"
+	"Quantum Key Stone"
+	"Anvil-Class Engine"
+	"Crucible-Class Thruster"
+	"Crucible-Class Steering"
+	"Hyperdrive"
+	"Fuel Pod"
+	"Tuning Rifle"
+	"Salvage Scanner"
+	"EMP Torpedo"
+
+outfitter "Remnant Salvage"
+	"Generator (Furnace Class)"
+	"Small Heat Shunt"
+	"Systems Core (Small)"
+	"Thruster (Asteroid Class)"
+	"Thruster (Planetary Class)"
+	"Steering (Asteroid Class)"
+	"Steering (Planetary Class)"
+	"Fire-Lance"
+
+outfitter "Void Sprite Parts"
+	"Void Sprite Parts"

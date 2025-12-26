@@ -1,0 +1,233 @@
+# Copyright (c) 2022 by Saugia
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# Names
+
+phrase "gegno vi"
+	word
+		"" 4
+		"Beuci "
+		"Dueyu "
+		"Remis "
+		"Efta"
+		"Dzien dobry"
+		"Kyhe "
+		"Efe "
+		"Oczy"
+		"Imnn "
+		"Yx "
+		"Isyp "
+		"Tyyn "
+		"Hy "
+		"Eysyp "
+		"Iidt "
+		"Auc"
+	word
+		"Oorevyt"
+		"Ufftye"
+		"Iil"
+		"Tyebbui"
+		"Yuduue"
+		"Uhmtyeph"
+		"Pytanie"
+		"Cscayim"
+		"Wyjatek"
+		"Iilsc"
+		"Eitch"
+		"Ooayvyt"
+		"Echtyya"
+		"Tyyasca"
+		"Iefsct"
+		"Ieftye"
+		"Justa"
+		"Uffduyeu"
+		"Bbutye"
+		"Scbiye"
+		"Aehietch"
+		"Dueyoh"
+		"Uuftei"
+		"Ootyff"
+
+phrase "gegno scin"
+	word
+		"" 2
+		"Kuuay "
+		"Jiee "
+		"Tyuoe "
+		"Aur "
+		"Yss"
+		"Zueyt "
+		"Wiec "
+		"Tschzer "
+		"Leiesid"
+		"Inicjuj "
+		"Dy "
+		"Wydanie "
+		"Jeiys "
+		"Iepy "
+	word
+		"Oorevyt"
+		"Iil"
+		"Iievae"
+		"Gyteienl"
+		"Piaxenni"
+		"Ufftye"
+		"Echtyya"
+		"Duyeitch"
+		"Ziurteil"
+		"Ymiffeft"
+		"Tchynd"
+		"Tscael"
+		"Ymipiae"
+		"Wyjatek"
+		"Pixeni"
+		"Tiyesca"
+		"Vduscae"
+		"Duefyu"
+		"Llteiurv"
+		"Enncyurtte"
+
+phrase "gegno united"
+	word
+		"" 6
+		"Kuuay "
+		"Jiee "
+		"Tyuoe "
+		"Aur "
+		"Yss"
+		"Zueyt "
+		"Wiec "
+		"Tschzer "
+		"Leiesid"
+		"Inicjuj "
+		"Dy "
+		"Wydanie "
+		"Jeiys "
+		"Iepy "
+		"Beuci "
+		"Dueyu "
+		"Remis "
+		"Efta"
+		"Dzien dobry"
+		"Kyhe "
+		"Efe "
+		"Oczy"
+		"Imnn "
+		"Yx "
+		"Isyp "
+		"Tyyn "
+		"Hy "
+		"Eysyp "
+		"Iidt "
+		"Auc"
+	word
+		"" 6
+		"Oorevyt"
+		"Iil"
+		"Iievae"
+		"Gyteienl"
+		"Piaxenni"
+		"Ufftye"
+		"Echtyya"
+		"Duyeitch"
+		"Ziurteil"
+		"Ymiffeft"
+		"Tchynd"
+		"Tscael"
+		"Ymipiae"
+		"Wyjatek"
+		"Pixeni"
+		"Tiyesca"
+		"Vduscae"
+		"Duefyu"
+		"Llteiurv"
+		"Enncyurtte"
+		"Oorevyt"
+		"Ufftye"
+		"Iil"
+		"Tyebbui"
+		"Yuduue"
+		"Uhmtyeph"
+		"Pytanie"
+		"Cscayim"
+		"Wyjatek"
+		"Iilsc"
+		"Eitch"
+		"Ooayvyt"
+		"Echtyya"
+		"Tyyasca"
+		"Iefsct"
+		"Ieftye"
+		"Justa"
+		"Uffduyeu"
+		"Bbutye"
+		"Scbiye"
+		"Aehietch"
+		"Dueyoh"
+		"Uuftei"
+		"Ootyff"
+
+
+# Untranslated Hails
+
+phrase "gegno untranslated"
+	word
+		"Dudyei tii cie dueyu."
+		"Udiyh tei tdiser, tak, dudyei."
+		"Ye dudyei tei piyepuo."
+		"Tii duieml emm taei outei."
+		"Ye dudyei udiei tii ayyr dueyu."
+		"Tii keiou uf Oukeug."
+		"Oukeug keiou uf teim."
+		"To swiatlo to Gegno."
+		"Brak eisktici uf tii."
+		"Scienn ayyr eisktici uf tii."
+
+
+# Job Dialog
+
+phrase "gegno mining payment dialog"
+	word
+		"Po krotkiej debacie,"
+		"Po opuszczeniu statku,"
+		"Prawie roztargniona,"
+		"Nie zwracajac na ciebie najmniejszej uwagi,"
+		"Z tylko niezobowiazujacym pomrukiem,"
+	word
+		" "
+	word
+		"kilka masywnych Gegno"
+		"grupa zirytowanych Gegno"
+		"niektorzy niezainteresowani pracownicy Gegno"
+		"duza grupa Gegno"
+		"para poteznych Gegno"
+	word
+		" "
+	word
+		"niepewnie"
+		"szybko"
+		"powoli"
+		"latwo"
+		"przypadkowo"
+	word
+		" "
+	word
+		"rozladuj materialy ze swojego statku,"
+		"rozladuj materialy z ladowni,"
+		"wyciagnij materialy ze swojego statku,"
+		"rozpakuj materialy z luku bagazowego,"
+	word
+		" "
+	word
+		"and you are paid <payment>."

@@ -1,0 +1,815 @@
+# Copyright (c) 2019 by Tommaso Becca
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Ship names:
+phrase "ka'het"
+	phrase
+		"builder beginning"
+	word
+		"'to"
+
+phrase "ka'het"
+	word
+		"Osaeli"
+		"Alix"
+		"Retilie"
+		"Veliante"
+		"Eavine"
+		"Celeatis"
+		"Nona"
+		"Palarei"
+		"Ceilia"
+		"Aerite"
+		"Letis"
+		"Maiar"
+		"Lateria"
+		"Gertima"
+		"Santari"
+		"Antamesa"
+		"Delia"
+	word
+		"-"
+	phrase
+		"sylaba ka'het"
+	word
+		"rii"
+		"ri"
+		"tal"
+		"lar"
+		"ha"
+		"rae"
+		"dla"
+		"oss"
+		"bea"
+		"ca"
+		"ori"
+		"ora"
+		"goly"
+		"poniewaz"
+		"jeden"
+		"taeri"
+		"niesamowite"
+		"rexi"
+		"xaes"
+		"ite"
+		"czesci"
+		"to"
+		"rasi"
+		"pae"
+		"zespol"
+		"kliknij"
+		"tae"
+		"morze"
+		"tansii"
+		"mysle"
+		"faks"
+		"przestepstwa"
+		"teris"
+		"pess"
+		"istnieje"
+		"taete"
+	word
+		"'to"
+
+phrase "builder beginning"
+	word
+		"Pae"
+		"Para"
+		"Ani"
+		"Kai"
+		"Rea"
+		"Wiec"
+		"Axi"
+		"Rela"
+		"Mar"
+		"Ci"
+		"Tia"
+		"Dziura"
+		"Geto"
+		"Roa"
+		"Aar"
+		"Faii"
+		"Gaz"
+		"Remis"
+		"Esi"
+		"Ora"
+		"Tana"
+		"Fae"
+		"Gar"
+		"Fasi"
+	word
+		"-"
+	phrase
+		"sylaba ka'het"
+
+phrase "ka'het syllable"
+	word
+		"rii"
+		"ri"
+		"tal"
+		"lar"
+		"ha"
+		"rae"
+		"dla"
+		"oss"
+		"bea"
+		"ca"
+		"ori"
+		"ora"
+		"goly"
+		"poniewaz"
+		"jeden"
+		"taeri"
+		"niesamowite"
+		"rexi"
+		"xaes"
+		"ite"
+		"czesci"
+		"to"
+		"rasi"
+		"pae"
+		"zespol"
+		"kliknij"
+		"tae"
+		"morze"
+		"tansii"
+		"mysle"
+		"faks"
+		"przestepstwa"
+		"teris"
+		"pess"
+		"istnieje"
+		"taete"
+		""
+
+phrase "ka'mar"
+	phrase
+		"builder beginning"
+	word
+		"'mar"
+
+phrase "ka'sei"
+	phrase
+		"builder beginning"
+	word
+		"'jestes"
+
+
+
+# Hails:
+phrase "friendly ka'het"
+	word
+		"Aktualny cel: "
+	word
+		"aluminium"
+		"miedz"
+		"zloto"
+		"zelazo"
+		"olow"
+		"neodym"
+		"platyna"
+		"krzem"
+		"srebrny"
+		"tytan"
+		"wolfram"
+		"uran"
+	word
+		" "
+	phrase
+		"ka'het mining"
+		"ka'het hauling"
+
+phrase "ka'het mining"
+	word
+		"zbieranie"
+		"gornictwo"
+		"nabycie"
+		"uzyskanie"
+		"osiagniecie"
+		"odzyskiwanie"
+	word
+		". "
+	word
+		"Stan badan: poszukiwanie odpowiednich asteroid."
+
+phrase "ka'het hauling"
+	word
+		"transport"
+		"fracht"
+		"przelew"
+		"przeniesienie"
+		"alokacja"
+	word
+		". Miejsce docelowe zasobu: stacja "
+	word
+		"Ruchy"
+		"Paria"
+	word
+		", obszar "
+	phrase
+		"cyfra"
+	phrase
+		"cyfra"
+	word
+		"."
+
+phrase "friendly ka'het"
+	word
+		"Sprawdzenie systemow podstawowych: "
+	word
+		"matryce oslonowe"
+		"hipernaped"
+		"systemy podtrzymywania zycia"
+		"generator energii"
+		"systemy uzbrojenia"
+		"glowne silniki strumieniowe"
+		"glowny uklad kierowniczy"
+		"glowne chlodnice"
+		"Emitery Ravagera"
+		"Systemy ladowania Annihilatora"
+		"systemy sledzenia"
+	word
+		": online. Kontrola systemow wtornych: "
+	word
+		"urzadzenie do zbierania energii slonecznej: online i aktywne"
+		"magazynowanie energii: dostepne"
+		"obsluga chlodnic: online i aktywna"
+		"przywracacze tarczy: online i aktywni"
+		"anteny dalekiego zasiegu: dostepne"
+	word
+		"."
+
+phrase "friendly ka'het"
+	word
+		"Aktualny cel: systemy "
+	word
+		"patrol"
+		"garnizon"
+		"czujnosc"
+	word
+		". Zidentyfikowane zagrozenia: brak. Szacowany postep: "
+	phrase
+		"cyfra"
+	phrase
+		"cyfra"
+	word
+		"%."
+
+phrase "friendly ka'het"
+	word
+		"Status: "
+	word
+		"operacyjny"
+		"aktywny"
+		"zywy"
+		"dziala"
+		"przebudz sie"
+	word
+		". Przewidywany czas zycia: "
+	word
+		""
+		"1"
+		"2"
+		"3" 3
+		"4" 2
+	phrase
+		"cyfra"
+	phrase
+		"cyfra"
+	word
+		" lat."
+
+phrase "friendly ka'het"
+	word
+		"Aktualny"
+		"Wybrano"
+		"Wybrano"
+		"Glowny"
+		"Podstawowy"
+	word
+		" cel: <ship>. Rzad: "
+	word
+		"nieznany"
+		"nierozpoznany"
+		"brak danych"
+		"niezidentyfikowany"
+	word
+		". Postawa: "
+	word
+		"przyjazny"
+		"neutralny"
+		"pokojowy"
+		"pozytywny"
+		"akceptowalne"
+		"bezpieczny"
+		"dopuszczalne"
+		"odpowiedni"
+	word
+		". Brak wymaganej akcji."
+
+phrase "friendly ka'het"
+	word
+		"Polaczenie ze statkiem <ship>: "
+	word
+		"ustalono"
+		"stabilny"
+		"niezawodny"
+		"silny"
+	word
+		". Szacowana sila sygnalu: "
+	word
+		"8"
+		"9" 3
+	phrase
+		"cyfra"
+	word
+		"%."
+
+phrase "friendly ka'het"
+	word
+		"Nieudane polaczenie z "
+	word
+		"planeta Osaeli"
+		"planeta Alix"
+		"planeta Retilie"
+		"planeta Veliante"
+		"planeta Eavine"
+		"planeta Celeatis"
+		"planeta Nona"
+		"planeta Palarei"
+
+		# Most of the stations mentioned here don't exist anymore at the time of the player, they were destroyed by the Ka'het during the last 200,000 years
+		"station Ceilia"
+		"station Aerite"
+		"station Letis"
+		"station Maiar"
+		"station Lateria"
+		"station Gertima"
+		"station Santari"
+		"station Antamesa"
+		"construction site Delia"
+	word
+		". Powod: "
+	word
+		"brak odpowiedzi"
+		"nieznany"
+		"brak odpowiedzi"
+	word
+		". Wysylanie raportu do stacji "
+	word
+		"Paria"
+		"Ruchy"
+	word
+		"."
+
+phrase "friendly ka'het"
+	word
+		"Nawiazano polaczenie ze stacja "
+	word
+		"Paria"
+		"Ruchy"
+	word
+		". Sila sygnalu: "
+	word
+		"3"
+		"4"
+		"5"
+		"6"
+		"7"
+		"8"
+		"9"
+	phrase
+		"cyfra"
+	word
+		"%. Nie otrzymano nowych danych. Ostatnie otrzymane dane "
+	word
+		""
+		"1"
+		"2"
+	phrase
+		"cyfra"
+	phrase
+		"cyfra"
+	word
+		" lat, "
+	word
+		""
+		"1 sezon"
+		"2 sezony"
+		"3 sezony"
+		"4 sezony"
+		"5 sezonow"
+		"6 sezonow"
+	word
+		", "
+	word
+		"1"
+		"2"
+	phrase
+		"cyfra"
+	word
+		" dni temu. "
+	word
+		"Kontynuacja"
+		"Powrot do"
+	word
+		" zadanie glowne."
+
+phrase "friendly ka'het"
+	word
+		"Aktualny cel: systemy "
+	word
+		"patrol"
+		"garnizon"
+		"czujnosc"
+	word
+		". Analizuje system <system>. "
+	word
+		"Szukanie"
+		"Szukam"
+		"Studiuje"
+		"Neutralizujacy"
+		"Identyfikacja"
+	word
+		" mozliwe zagrozenia."
+
+phrase "friendly disabled ka'het"
+	word
+		"Sprawdzenie systemow podstawowych: "
+	word
+		"matryce oslonowe: niedostepne"
+		"hipernaped: niedostepny"
+		"systemy podtrzymywania zycia: niedostepne"
+		"generator energii: czesciowo wlaczony"
+		"systemy uzbrojenia: offline"
+		"glowne silniki napedowe: nieaktywne"
+		"glowny uklad kierowniczy: offline"
+		"glowne chlodnice: niedostepne"
+		"Emitery Ravagera: offline"
+		"Systemy ladowania Annihilatora: offline"
+		"systemy sledzenia: czesciowo online"
+	word
+		". Kontrola systemow wtornych: "
+	word
+		"urzadzenie do zbierania energii wiatru slonecznego: offline"
+		"magazynowanie energii: niedostepne"
+		"obsluga chlodnic: niedostepna"
+		"przywracacze tarczy: offline"
+		"anteny dalekiego zasiegu: niedostepne"
+	word
+		". Prosze o pomoc."
+
+phrase "hostile ka'het"
+	word
+		"Aktualny cel: zagrozenie "
+	word
+		"identyfikacja"
+		"rozpoznawanie"
+		"eliminacja"
+		"eradykacja"
+		"zniszczenie"
+	word
+		". Cel drugorzedny: "
+	word
+		"aluminium"
+		"miedz"
+		"zloto"
+		"zelazo"
+		"olow"
+		"neodym"
+		"platyna"
+		"krzem"
+		"srebrny"
+		"tytan"
+		"wolfram"
+		"uran"
+	word
+		" "
+	word
+		"odzysk"
+		"odzyskiwanie"
+		"grabiez"
+	word
+		"."
+
+phrase "hostile ka'het"
+	word
+		"Zagrozenie: "
+	word
+		"zidentyfikowano"
+		"odkryto"
+		"rozpoznano"
+		"analizowano"
+		"okreslono"
+		"zauwazono"
+	word
+		". Poziom zagrozenia: "
+	word
+		"bardzo niski"
+		"niski"
+		"srednia"
+		"wysoki"
+		"bardzo wysoki"
+	word
+		". Podejmowanie srodkow zaradczych."
+
+phrase "hostile ka'het"
+	word
+		"Aktualny"
+		"Wybrano"
+		"Wybrano"
+		"Glowny"
+		"Podstawowy"
+	word
+		" cel: <ship>. Rzad: "
+	word
+		"nieznany"
+		"nierozpoznany"
+		"brak danych"
+		"niezidentyfikowany"
+	word
+		". Postawa: "
+	word
+		"rywal"
+		"wrogi"
+		"nieprzyjazny"
+		"ujemny"
+		"niedopuszczalne"
+		"niebezpieczne"
+	word
+		". "
+	word
+		"Ocena niezbednych dzialan"
+		"Wykonywanie niezbednych dzialan"
+	word
+		"."
+
+phrase "hostile ka'het"
+	word
+		"Nawiazano polaczenie ze stacja "
+	word
+		"Paria"
+		"Ruchy"
+	word
+		". Sila sygnalu: "
+	word
+		"3"
+		"4"
+		"5"
+		"6"
+		"7"
+		"8"
+		"9"
+	phrase
+		"cyfra"
+	word
+		"%. Zglaszanie dzialan wojennych w systemie <system>."
+
+phrase "hostile disabled ka'het"
+	word
+		"Zagrozenie: "
+	word
+		"zidentyfikowano"
+		"odkryto"
+		"rozpoznano"
+		"analizowano"
+		"okreslono"
+		"zauwazono"
+	word
+		". Srodki zaradcze: "
+	word
+		"niedostepny"
+		"nieaktywny"
+	word
+		". Prosba o pomoc: "
+	word
+		"odrzucono"
+		"odmowiono"
+		"odrzucono"
+		"bez odpowiedzi"
+	word
+		". Zadanie posilkow ze stacji "
+	word
+		"Paria"
+		"Ruchy"
+	word
+		"."
+
+
+
+fleet "Ka'het"
+	government "Ka'het"
+	names "ka'het"
+	cargo 1
+	personality
+		plunders mining harvests timid
+	variant 8
+		"Maeri'het"
+	variant 6
+		"Maeri'het (EMP)"
+	variant 2
+		"Maeri'het (Disable-able)"
+	variant
+		"Maeri'het (EMP, Disable-able)"
+	variant 4
+		"Telis'het"
+	variant 4
+		"Telis'het (Guns)"
+	variant 3
+		"Telis'het (EMP)"
+	variant
+		"Telis'het (Disable-able)"
+	variant
+		"Telis'het (Guns, Disable-able)"
+	variant
+		"Telis'het (EMP, Disable-able)"
+	variant 3
+		"Vareti'het"
+	variant 2
+		"Vareti'het (EMP)"
+	variant 2
+		"Vareti'het (Strong)"
+	variant 2
+		"Vareti'het (Disable-able)"
+	variant
+		"Vareti'het (EMP, Disable-able)"
+	variant
+		"Vareti'het (Strong, Disable-able)"
+
+fleet "Ka'het Aggressive"
+	government "Ka'het (Infighting)"
+	names "ka'het"
+	cargo 1
+	personality
+		heroic plunders mining harvests
+	variant 8
+		"Maeri'het"
+	variant 6
+		"Maeri'het (EMP)"
+	variant 2
+		"Maeri'het (Disable-able)"
+	variant
+		"Maeri'het (EMP, Disable-able)"
+	variant 4
+		"Telis'het"
+	variant 4
+		"Telis'het (Guns)"
+	variant 3
+		"Telis'het (EMP)"
+	variant
+		"Telis'het (Disable-able)"
+	variant
+		"Telis'het (Guns, Disable-able)"
+	variant
+		"Telis'het (EMP, Disable-able)"
+	variant 3
+		"Vareti'het"
+	variant 2
+		"Vareti'het (EMP)"
+	variant 2
+		"Vareti'het (Strong)"
+	variant 2
+		"Vareti'het (Disable-able)"
+	variant
+		"Vareti'het (EMP, Disable-able)"
+	variant
+		"Vareti'het (Strong, Disable-able)"
+
+fleet "Ka'het Core"
+	government "Ka'het"
+	names "ka'het"
+	cargo 2
+	personality
+		plunders mining harvests coward
+	variant 8
+		"Maeri'het"
+	variant 6
+		"Maeri'het (EMP)"
+	variant 2
+		"Maeri'het (Disable-able)"
+	variant
+		"Maeri'het (EMP, Disable-able)"
+	variant 4
+		"Telis'het"
+	variant 4
+		"Telis'het (Guns)"
+	variant 3
+		"Telis'het (EMP)"
+	variant
+		"Telis'het (Disable-able)"
+	variant
+		"Telis'het (Guns, Disable-able)"
+	variant
+		"Telis'het (EMP, Disable-able)"
+	variant 3
+		"Telis'het"
+		"Maeri'het" 2
+	variant 2
+		"Telis'het (Guns)"
+		"Maeri'het (EMP)" 2
+	variant 2
+		"Telis'het (Disable-able)"
+		"Maeri'het (EMP)"
+		"Maeri'het"
+	variant
+		"Telis'het (EMP)"
+		"Maeri'het (EMP)"
+		"Maeri'het (EMP, Disable-able)"
+	variant 5
+		"Telis'het"
+		"Maeri'het"
+	variant 4
+		"Telis'het (Guns, Disable-able)"
+		"Maeri'het (EMP)"
+	variant 2
+		"Telis'het (EMP)"
+		"Maeri'het (EMP, Disable-able)"
+	variant 3
+		"Vareti'het"
+	variant 2
+		"Vareti'het (EMP)"
+	variant 2
+		"Vareti'het (Strong)"
+	variant 2
+		"Vareti'het (Disable-able)"
+	variant
+		"Vareti'het (EMP, Disable-able)"
+	variant
+		"Vareti'het (Strong, Disable-able)"
+	variant 2
+		"Vareti'het"
+		"Telis'het (Guns, Disable-able)"
+		"Telis'het (EMP)"
+		"Maeri'het (Disable-able)"
+		"Maeri'het (EMP, Disable-able)"
+		"Maeri'het"
+
+fleet "Builders Drone"
+	government "Builder"
+	names "ka'mar"
+	cargo 0
+	personality
+		plunders mining harvests
+	variant 6
+		"Selii'mar"
+		"Faes'mar"
+	variant 4
+		"Selii'mar"
+		"Faes'mar (Strong)"
+	variant 3
+		"Selii'mar" 2
+		"Faes'mar" 2
+	variant 2
+		"Selii'mar" 2
+		"Faes'mar"
+		"Faes'mar (Strong)"
+	variant 2
+		"Selii'mar" 3
+		"Faes'mar" 3
+	variant 2
+		"Selii'mar" 3
+		"Faes'mar" 2
+		"Faes'mar (Strong)"
+
+fleet "Ka'sei"
+	government "Ka'sei"
+	names "ka'sei"
+	cargo 1
+	personality
+		plunders mining harvests
+	variant
+		"Fetri'sei"
+	variant
+		"Fetri'sei (Disable-able)"
+
+
+
+outfitter "Ka'het"
+	"Ka'het Nullifier"
+	"Ka'het Ravager Beam"
+	"Ka'het Ravager Turret"
+	"Ka'het Annihilator"
+	"Ka'het Annihilator Turret"
+	"Ka'het EMP Deployer"
+	"EMP Torpedo"
+	"Ka'het Support Cooling"
+	"Ka'het Primary Cooling"
+	"Ka'het Shield Restorer"
+	"Ka'het Grand Restorer"
+	"Ka'het MHD Generator"
+	"Ka'het Reserve Accumulator"
+	"Maeri Engine Nacelles"
+	"Ka'het Sustainer Nacelles"
+	"Telis Engine Nacelles"
+	"Vareti Engine Block"
+	"Ka'het Compact Engine"

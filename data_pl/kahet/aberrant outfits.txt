@@ -1,0 +1,192 @@
+# Copyright (c) 2023 by Azure
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# Weapons:
+
+outfit "Aberrant Spiker"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 05020
+	cost 1370000
+	thumbnail "outfit/unknown"
+	"mass" 23
+	"outfit space" -23
+	"weapon capacity" -23
+	"gun ports" -1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/aberrant spike"
+			"frame rate" 24
+			"scale" 0.5
+			"rewind"
+		sound "minelayer"
+		icon "icon/finisher"
+		"fire effect" "blood" 20
+		"live effect" "spiker trail" 10000
+		"die effect" "spiker impact"
+		"hit effect" "spiker impact"
+		"inaccuracy" 7
+		"reload" 90
+		"firing energy" 4
+		"firing heat" 6
+		"firing fuel" 10
+		"firing hull" 150
+		"velocity" 15
+		"lifetime" 700
+		"acceleration" 1.45
+		"drag" .21
+		"turn" 1.3
+		"homing"
+			"throttle control"
+		"optical tracking" 0.9
+		"hit force" -1350
+		"hull damage" 730
+		"shield damage" 1270
+		"corrosion damage" 3
+		"missile strength" 31
+	description "Na grzbietach wielu wariantow Aberrantow rosna kolce, wykonane z pozornie przypadkowego zestawu materialow, zarowno metalicznych, jak i mineralnych. Urzadzenie to najwyrazniej pozwala Aberrantom wystrzeliwac te kolce jako bron ofensywna, ale to, jak potrafia sie one kierowac i poruszac w przestrzeni, pozostaje zagadka, ktorej nie ujawnia pobiezna analiza tego stroju."
+
+effect "spiker trail"
+	sprite "effect/blood"
+		"no repeat"
+		"frame rate" 10
+		"random start frame"
+	"lifetime" 61
+	"random angle" 20
+	"random velocity" 6
+	"random spin" 5
+	"velocity scale" 0
+
+effect "spiker impact"
+	sprite "effect/explosion/pug/medium"
+		"no repeat"
+		"frame rate" 19
+	sound "explosion medium"
+	"lifetime" 30
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 6
+	"random velocity" .5
+	"velocity scale" .4
+
+
+outfit "Nucleolysis Beam"
+	category "Guns"
+	series "Guns"
+	index 05040
+	cost 1900000
+	thumbnail "outfit/nucleolysis beam"
+	"flotsam sprite" "effect/flotsam nucleolysis beam"
+	"mass" 31
+	"outfit space" -31
+	"weapon capacity" -31
+	"flotsam chance" 0.1
+	"gun ports" -1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/nucleolysis"
+			"frame rate" 15
+		sound "nucleolysis"
+		"hit effect" "acuit hit"
+		"inaccuracy" .2
+		"velocity" 420
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4.2
+		"firing heat" 1.5
+		"shield damage" 0.8
+		"hull damage" 1.6
+		"heat damage" -9.1
+		"fuel damage" 1.66
+		"corrosion damage" 0.015
+	description "Ta bron wiazkowa tworzy pole, w ktorym normalnie stabilne jadra atomowe szybko sie rozpadaja. Efekt ten wydaje sie byc odwrotnie proporcjonalny do masy jadra, powodujac, ze izotopy takie jak deuter rozpadaja sie szybciej niz ciezsze pierwiastki. Poniewaz powstale produkty maja wyzszy stan energetyczny niz pierwotne jadro, wiazka chlodzi swoj cel, przeczac konwencjonalnym zasadom termodynamiki."
+	description "W praktyce wiazka ta moze wyczerpac zapasy deuteru w statku, powodujac jednoczesnie rozpad samej materii jego kadluba."
+
+outfit "Telescopic Antimissile"
+	category "Turrets"
+	series "Anti-Missile"
+	index 05010
+	cost 16000000
+	thumbnail "outfit/telescopic antimissile"
+	"flotsam sprite" "effect/flotsam telescopic antimissile"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"flotsam chance" 0.1
+	"unplunderable" 1
+	"turret mounts" -1
+	weapon
+		"hit effect" "quarg anti-missile"
+		"hardpoint sprite" "hardpoint/quarg anti missile"
+		"anti-missile" 30
+		"velocity" 760
+		"lifetime" 1
+		"reload" 15
+		"firing energy" 90
+	description "Co ciekawe, ten system przeciwrakietowy przypomina szereg skanerow i teleskopow. Taki zestaw czujnikow z pewnoscia nie mial byc uzywany jako bron, ale w jakis sposob udalo sie przepompowac wystarczajaca moc przez uklad optyczny skanera, aby uczynic go potezna obrona przeciwrakietowa."
+	description "Rozne soczewki i lustra, z ktorych sklada sie duzy teleskop, wydaja sie byc uzywane do skupiania emitowanej wiazki, co zapewnia temu systemowi przeciwrakietowemu bardzo duzy zasieg."
+
+
+# Systems:
+
+outfit "Anomalous Shield Restorer"
+	category "Systems"
+	series "Shields"
+	index 05030
+	cost 22000000
+	thumbnail "outfit/anomalous shield restorer"
+	"flotsam sprite" "effect/flotsam anomalous shield restorer"
+	"mass" 37
+	"outfit space" -25
+	"shield generation" 3
+	"shield energy" 6
+	"flotsam chance" 0.05
+	"unplunderable" 1
+	description "Ten emiter nie wytwarza zadnego wykrywalnego pola, ale za kazdym razem, gdy w poblizu pojawia sie jakiekolwiek zagrozenie, pojawia sie tarcza."
+
+
+# Power:
+
+outfit "Antimatter Power Cell"
+	category "Power"
+	series "Generators"
+	index 05020
+	cost 11000000
+	thumbnail "outfit/antimatter power cell"
+	"flotsam sprite" "effect/flotsam antimatter power cell"
+	"mass" 34
+	"outfit space" -13
+	"energy generation" 2.8
+	"heat generation" 4.9
+	"flotsam chance" 0.05
+	"unplunderable" 1
+	description "To dziwne urzadzenie wydaje sie byc czesciowo organiczne, powoli przepuszczajac antyprotony przez stale odrastajaca strukture przypominajaca gabke, aby uwolnic energie. Ilosc wytwarzanej energii jest niezgodna z iloscia materii i antymaterii anihilowanej, generujac wiecej energii, niz powinno byc to mozliwe."
+
+
+# Special
+
+outfit "Anomalous Mass"
+	plural "Anomalous Masses"
+	category "Special"
+	cost 800000
+	thumbnail "outfit/anomalous mass"
+	"flotsam sprite" "effect/flotsam anomalous mass"
+	"flotsam chance" 0.4
+	"mass" 2.718
+	"outfit space" -4
+	"heat generation" 0.4
+	"drag" 0.04
+	"inertia reduction" 0.01
+	"unplunderable" 1
+	description "Znaleziona z bardzo zroznicowanymi wlasciwosciami w roznych mechanizmach Aberracji, ta masa szklistego, miesistego materialu charakteryzuje sie ogromna trudnoscia w sklasyfikowaniu jej skladu. Sieci anomalii materii osadzone w tej masie zdaja sie nie skladac z materii atomowej, jaka znaja Avgi, ale z czegos zupelnie innego, co opiera sie wszelkim probom zbadania jej skladu. Uwaza sie, ze to umozliwia wiele bardziej zaskakujacych zdolnosci Aberrantow, z braku innego wyjasnienia."

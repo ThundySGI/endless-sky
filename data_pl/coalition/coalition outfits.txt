@@ -1,0 +1,530 @@
+# Copyright (c) 2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Small Collector Module"
+	category "Power"
+	series "Solar"
+	index 08010
+	licenses
+		Coalition
+	cost 60000
+	thumbnail "outfit/small collector module"
+	"mass" 8
+	"outfit space" -6
+	"solar collection" .8
+	"solar heat" .4
+	description "Energia sloneczna jest podstawa floty handlowej Koalicji. Konstrukcja tych paneli byla udoskonalana przez tysiaclecia, stajac sie coraz bardziej wydajna."
+
+outfit "Large Collector Module"
+	category "Power"
+	series "Solar"
+	index 08020
+	licenses
+		Coalition
+	cost 300000
+	thumbnail "outfit/large collector module"
+	"mass" 28
+	"outfit space" -21
+	"solar collection" 3.3
+	"solar heat" 1.5
+	description "Jeden z tych paneli slonecznych wystarczy, aby pokryc zapotrzebowanie energetyczne sredniej wielkosci cywilnego statku Koalicji, zwlaszcza biorac pod uwage efektywnosc energetyczna ich silnikow i fakt, ze zgodnie z ich prawem tylko statki Heliarch moga byc uzbrojone."
+
+outfit "Small Reactor Module"
+	category "Power"
+	series "Generators"
+	index 08030
+	licenses
+		Heliarch
+	cost 5497000
+	thumbnail "outfit/small reactor module"
+	"mass" 42
+	"outfit space" -42
+	"energy generation" 9.8
+	"heat generation" 19
+	description "Energia sloneczna wystarcza do handlu, ale nadmierna oszczednosc rzadko jest strategia zwycieska w wojnie. W przypadku statkow, ktore musza miec niezawodne zrodlo energii do zasilania broni, Heliarchowie uzywaja kompaktowych reaktorow jadrowych."
+	description "	Wiazka antyprotonow wywoluje fuzje w malenkich wtryskiwanych granulkach paliwa, co pozwala na calkowite spalanie znacznie wydajniejsze, niz byloby to mozliwe w inny sposob."
+
+outfit "Large Reactor Module"
+	category "Power"
+	series "Generators"
+	index 08040
+	licenses
+		Heliarch
+	cost 17754000
+	thumbnail "outfit/large reactor module"
+	"mass" 98
+	"outfit space" -98
+	"energy generation" 24.2
+	"heat generation" 45
+	description "Chociaz wciaz nie udalo sie odtworzyc technologii wytwarzania energii Quarg, zespoly naukowe Heliarch nieustannie poszukuja najnowszych rozwiazan dotyczacych jej dzialania. W tym wiekszym module, staly strumien wstrzykiwanych antyprotonow katalizuje reakcje w starannie ograniczonej plazmie fuzyjnej, wydobywajac tyle energii, ile fizycznie jest to mozliwe."
+	description "	Ten zaawansowany reaktor fuzyjny zostal zaprojektowany dla najpotezniejszych okretow wojennych Heliarch. Jego konstrukcja nie zmienila sie znaczaco przez tysiaclecia od pierwszej bitwy z Quargami, ale kazda generacja reaktorow jest nieco wydajniejsza od poprzednich."
+
+outfit "Small Cogeneration Module"
+	category "Power"
+	series "Generators"
+	index 08010
+	licenses
+		Coalition
+	cost 176000
+	thumbnail "outfit/small cogeneration module"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 1.15
+	"heat generation" .85
+	description "Kimekowie pierwotnie stworzyli znacznie wieksze wersje tego modulu, majace dostarczac energie do ich wiez glodu."
+	description "	Ta kompaktowa konstrukcja odzyskuje znaczna czesc ciepla, ktore w przeciwnym razie byloby odpadem, dzieki czemu stanowi bardzo wydajne ogniwo paliwowe."
+
+outfit "Large Cogeneration Module"
+	category "Power"
+	series "Generators"
+	index 08020
+	licenses
+		Coalition
+	cost 799000
+	thumbnail "outfit/large cogeneration module"
+	"mass" 46
+	"outfit space" -46
+	"energy generation" 5.3
+	"heat generation" 3.45
+	description "W czasie pokoju, z powodu braku ciekawej pracy, wielu inzynierow koalicji majstruje przy istniejacym sprzecie, aby zwiekszyc jego wydajnosc."
+
+outfit "Small Battery Module"
+	category "Power"
+	series "Batteries"
+	index 08010
+	licenses
+		Coalition
+	cost 22000
+	thumbnail "outfit/small battery module"
+	"mass" 4
+	"outfit space" -4
+	"energy capacity" 3600
+	description "Poniewaz statki Koalicji korzystaja z energii slonecznej, musza byc rowniez w stanie magazynowac znaczna ilosc energii. Ten maly akumulator jest znacznie wydajniejszy niz porownywalna technologia ludzka."
+
+outfit "Large Battery Module"
+	category "Power"
+	series "Batteries"
+	index 08020
+	licenses
+		Coalition
+	cost 170000
+	thumbnail "outfit/large battery module"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 18000
+	description "Ten zestaw akumulatorow gromadzi wystarczajaca ilosc energii, aby umozliwic statkowi Koalicji kontynuowanie manewrow nawet wtedy, gdy jego panele sloneczne wytwarzaja jedynie ulamek swojej szczytowej mocy."
+
+
+outfit "Small Shield Module"
+	category "Systems"
+	series "Shields"
+	index 08010
+	licenses
+		Coalition
+	cost 84000
+	thumbnail "outfit/small shield module"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" .28
+	"shield energy" .28
+	"shield heat" .1
+	description "Chociaz w przestrzeni kosmicznej Koalicji walka jest niemal niespotykana, niemal wszystkie ich statki sa w stanie w razie potrzeby doladowac swoje oslony."
+
+outfit "Large Shield Module"
+	category "Systems"
+	series "Shields"
+	index 08020
+	licenses
+		Coalition
+	cost 553000
+	thumbnail "outfit/large shield module"
+	"mass" 39
+	"outfit space" -39
+	"shield generation" 1.3
+	"shield energy" 1.3
+	"shield heat" .5
+	description "Koalicja produkuje ciezkie generatory oslon dla swoich statkow na wypadek, gdyby kiedykolwiek stanely w obliczu agresji ze strony Quargow lub innych gatunkow."
+
+outfit "Overcharged Shield Module"
+	category "Systems"
+	series "Shields"
+	index 08030
+	licenses
+		Heliarch
+	cost 1216000
+	thumbnail "outfit/overcharged shield module"
+	"mass" 44
+	"outfit space" -44
+	"shield generation" 4.6
+	"shield energy" 4.6
+	"shield heat" 1.4
+	"energy consumption" .5
+	description "Te modulowe generatory oslon to najpotezniejsze emitery produkowane w przestrzeni Koalicji i jako takie podlegaja scislej kontroli i sa uzywane wylacznie przez Heliarchow. Dodatki do Duzego Modulu Oslony ponad trzykrotnie zwiekszyly jego generacje oslon, ale kosztem stalego doplywu energii do stabilizacji."
+
+outfit "Small Repair Module"
+	category "Systems"
+	series "Repair"
+	index 08010
+	licenses
+		Coalition
+	cost 64000
+	thumbnail "outfit/small repair module"
+	"mass" 6
+	"outfit space" -6
+	"hull repair rate" .12
+	"hull energy" .12
+	"hull heat" .1
+	description "Statki Arach, ktore opieraja sie bardziej na mocnym kadlubie niz na oslonach energetycznych, czesto posiadaja jeden z tych modulow naprawczych, umozliwiajacych blyskawiczna naprawe uszkodzonych poszyc kadluba."
+
+outfit "Large Repair Module"
+	category "Systems"
+	series "Repair"
+	index 08020
+	licenses
+		Coalition
+	cost 553000
+	thumbnail "outfit/large repair module"
+	"mass" 21
+	"outfit space" -21
+	"hull repair rate" .57
+	"hull energy" .57
+	"hull heat" .5
+	description "W tym centrum znajduje sie niewielka flota robotow naprawczych, ktore moga wspinac sie po kadlubie statku i naprawiac uszkodzenia, nawet w trakcie walki."
+
+outfit "Overclocked Repair Module"
+	category "Systems"
+	series "Repair"
+	index 08030
+	licenses
+		Heliarch
+	cost 1126000
+	thumbnail "outfit/overclocked repair module"
+	"mass" 32
+	"outfit space" -32
+	"hull repair rate" 1.4
+	"hull energy" 1.4
+	"hull heat" 1.2
+	"heat generation" .6
+	description "Te zaawansowane moduly naprawcze sa wydawane statkom Heliarch, zapewniajac niespotykana dotad w calej przestrzeni kosmicznej Koalicji naprawe kadluba. Legiony malych dronow naprawczych posiadaja rozbudowane sciezki, ktorymi szybko poruszaja sie po statku, przez co wyposazenie to moze zaklocac jego systemy chlodzenia i odprowadzania ciepla."
+
+outfit "Cooling Module"
+	category "Systems"
+	series "Cooling"
+	index 08010
+	licenses
+		Coalition
+	cost 160000
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 21
+	"cooling energy" 1.4
+	description "Ten modul chlodzacy zuzywa energie. Aby oszczedzac energie, nie osiaga pelnej mocy, chyba ze statek jest bardzo bliski przegrzania."
+
+outfit "Fuel Module"
+	category "Systems"
+	series "Fuel"
+	index 08020
+	licenses
+		Coalition
+	cost 270000
+	thumbnail "outfit/fuel module"
+	"mass" 19
+	"outfit space" -19
+	"fuel capacity" 400
+	"fuel protection" .25
+	description "Na poczatku swojej kariery w eksploracji kosmosu, Sarydzi opracowali modul paliwowy, ktory pozwalal im na dalekie podroze od Saros, bez obaw o utkniecie bez paliwa lub o nagly wyciek paliwa."
+	description "	Obecnie prawie kazdy uklad Koalicji posiada infrastrukture do uzupelniania paliwa, ale niektorzy kapitanowie nadal korzystaja z dodatkowych skokow, jakie oferuja te moduly."
+
+outfit "Decoy Plating"
+	category "Systems"
+	series "Jammers"
+	index 08010
+	cost 93000
+	thumbnail "outfit/decoy plating"
+	"mass" 7
+	"outfit space" -7
+	"scan interference" 2
+	"radar jamming" 5
+	description "To zabezpieczenie wykorzystuje dane z dziennikow skanowania statku i odtwarza dane z pobliskich statkow, skutecznie uniemozliwiajac proby skanowania rzeczywistego ladunku i wyposazenia statku."
+	description "	Ze wzgledu na koniecznosc ochrony przed niszczycielskimi torpedami Heliarch, Lunarium zamontowalo w kazdej sekcji poszycia male, niezalezne systemy zaklocania radaru, ktore mialy stanowic ostatnia linie obrony."
+
+outfit "Refueling Module"
+	category "Systems"
+	series "Fuel"
+	index 08030
+	cost 822000
+	thumbnail "outfit/refueling module"
+	"mass" 10
+	"outfit space" -10
+	"fuel capacity" -100
+	"fuel generation" .05
+	"energy consumption" .11
+	description "Aby uniknac ryzyka inspekcji ze strony Heliarchow podczas uzupelniania paliwa na planetach, kapitanowie Lunarium uzywaja tego stroju do przenoszenia zapasow lub skradzionego stroju."
+	description "	Mechanizmy tego ukladu wymagaja odlozonej ilosci paliwa, aby mogly dzialac prawidlowo, dlatego statek moze zainstalowac tylko okreslona liczbe takich urzadzen, zanim stanie sie niezdolny do przeskoku do innego ukladu."
+
+outfit "Shield Refactor Module"
+	category "Systems"
+	series "Shields"
+	index 08040
+	cost 3248000
+	thumbnail "outfit/shield refactor module"
+	"mass" 7
+	"outfit space" -7
+	"hull repair rate" -.25
+	"shield energy multiplier" .2
+	"shield heat" .32
+	"shield generation multiplier" .2
+	"hull repair multiplier" -.2
+	description "Teoretycznie wszystkie generatory oslon moga dzialac znacznie szybciej niz normalnie, jesli zostana wykorzystane do granic mozliwosci. Jednak ciagla koniecznosc regeneracji oslon podczas zacietej bitwy szybko przeciaza generatory oslon i uszkadza je. Dzieki przeniesieniu dedykowanych systemow naprawy kadluba, ktore koncentruja sie wylacznie na naprawie takich uszkodzen, to kompaktowe urzadzenie pozwala generatorom oslon osiagnac ich pelny potencjal."
+	description "	Lunarium to bardzo potrzebna ochrona przed niszczycielskimi skutkami torped Heliarch na poszyciu kadluba. Produkcja tego drogiego elementu jest niezwykle pozadana w Lunarium ze wzgledu na jego przewage nad innymi generatorami oslon."
+
+outfit "Small Recovery Module"
+	category "Systems"
+	series "Shields"
+	index 08050
+	cost 625000
+	thumbnail "outfit/small recovery module"
+	"mass" 25
+	"outfit space" -25
+	"shield generation" .97
+	"shield energy" .43
+	"shield heat" .7
+	"hull repair rate" .43
+	"hull energy" .97
+	"hull heat" .07
+	description "Laczac technologie Koalicji w zakresie generowania oslon i naprawy kadluba w jednym urzadzeniu, Lunarium zwiekszylo skutecznosc obu, umozliwiajac lepsza obrone przed bronia Heliarchow."
+
+outfit "Scanning Module"
+	category "Systems"
+	series "Scanners"
+	index 08010
+	licenses
+		Heliarch
+	cost 453600
+	thumbnail "outfit/scan module"
+	"mass" 3
+	"outfit space" -3
+	"outfit scan power" 25
+	"outfit scan efficiency" 18
+	"cargo scan power" 25
+	"cargo scan efficiency" 18
+	"tactical scan power" 25
+	description "Ten system umozliwia Heliarchom skanowanie pobliskich statkow, co pozwala im wykrywac bron i nielegalne towary."
+
+outfit "Outskirts Gauger"
+	category "Systems"
+	series "Scanners"
+	index 08020
+	cost 1406000
+	thumbnail "outfit/outskirts gauger"
+	"mass" 8
+	"outfit space" -8
+	"unique" 1
+	"tactical scan power" 169
+	"energy consumption" .2
+	description "Uzupelniony danymi z jednego z dawno zaginionych satelitow, najnowszy skaner Domu Idriss znakomicie odczytuje roznorodne sygnatury energetyczne z duzych odleglosci."
+	description "	Miernik stale przeprowadza obliczenia dotyczace kazdej malej rzeczy wykrytej w jego imponujacym zasiegu i do dzialania potrzebuje stalego doplywu energii."
+
+outfit "Small Thrust Module"
+	category "Engines"
+	series "Engines"
+	index 08011
+	licenses
+		Coalition
+	"cost" 66000
+	thumbnail "outfit/small thrust module"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"thrust" 12.45
+	"thrusting energy" 0.46
+	"thrusting heat" 3
+	"flare sprite" "effect/coalition flare/small"
+		"frame rate" 10
+	"flare sound" "atomic tiny"
+	description "Ten niewielki silnik wytwarza znaczna sile ciagu... ale takze znaczna ilosc ciepla."
+
+outfit "Large Thrust Module"
+	category "Engines"
+	series "Engines"
+	index 08021
+	licenses
+		Coalition
+	"cost" 292000
+	thumbnail "outfit/large thrust module"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 45.9
+	"thrusting energy" 1.7
+	"thrusting heat" 11
+	"flare sprite" "effect/coalition flare/large"
+		"frame rate" 7
+	"flare sound" "atomic small"
+	description "Inzynierowie Koalicji wola skupic sie na udoskonalaniu kilku wszechstronnych projektow, niz na produkcji szerokiej gamy. Ten pednik jest dosc wydajny, ale duze statki beda potrzebowaly kilku z nich ustawionych jeden na drugim, aby wytworzyc wystarczajacy ciag."
+
+outfit "Small Reverse Module"
+	category "Engines"
+	series "Engines"
+	index 08012
+	licenses
+		Coalition
+	"cost" 66000
+	thumbnail "outfit/small reverse module"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"reverse thrust" 12.45
+	"reverse thrusting energy" 0.46
+	"reverse thrusting heat" 3
+	"reverse flare sprite" "effect/coalition flare/small"
+		"frame rate" 10
+	"reverse flare sound" "atomic tiny"
+	description "Umieszczenie tego malego silnika z przodu frachtowca lub srodka transportu pozwala przedsiebiorstwom handlowym Koalicji znacznie poprawic efektywnosc energetyczna, co jest bardzo korzystne w przypadku korzystania z energii slonecznej."
+	description "	Poniewaz silnik odrzutowy musi byc skierowany do przodu, nalezy go zamontowac w sekcji uzbrojenia statku, a nie w sekcji silnika."
+
+outfit "Large Reverse Module"
+	category "Engines"
+	series "Engines"
+	index 08022
+	licenses
+		Coalition
+	"cost" 292000
+	thumbnail "outfit/large reverse module"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"reverse thrust" 45.9
+	"reverse thrusting energy" 1.7
+	"reverse thrusting heat" 11
+	"reverse flare sprite" "effect/coalition flare/large"
+		"frame rate" 7
+	"reverse flare sound" "atomic small"
+	description "Poniewaz w czasie pokoju nie wykorzystuje sie znacznej ilosci uzbrojenia, kapitanowie wiekszych frachtowcow i transportowcow Koalicji moga uzywac duzych modulow odwrotnych, aby szybko spowolnic swoje statki, oszczedzajac w ten sposob czas i energie."
+	description "	Poniewaz silnik odrzutowy musi byc skierowany do przodu, nalezy go zamontowac w sekcji uzbrojenia statku, a nie w sekcji silnika."
+
+outfit "Small Steering Module"
+	category "Engines"
+	series "Engines"
+	index 08010
+	licenses
+		Coalition
+	"cost" 60000
+	thumbnail "outfit/small steering module"
+	"mass" 7
+	"outfit space" -7
+	"engine capacity" -7
+	"turn" 268.2
+	"turning energy" 0.26
+	"turning heat" 1.8
+	"steering flare sprite" "effect/coalition flare/small"
+		"frame rate" 10
+	"steering flare sound" "atomic tiny"
+	description "Pomimo wysokiej wydajnosci, ten modul nie wystarcza dla zadnych statkow poza najmniejszymi. Zamiast tego moduly zaprojektowano z mysla o mozliwosci wykorzystania dwoch lub trzech z nich naraz."
+
+outfit "Large Steering Module"
+	category "Engines"
+	series "Engines"
+	index 08020
+	licenses
+		Coalition
+	"cost" 269000
+	thumbnail "outfit/large steering module"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"turn" 1120.5
+	"turning energy" 1.0
+	"turning heat" 6.5
+	"steering flare sprite" "effect/coalition flare/large"
+		"frame rate" 7
+	"steering flare sound" "atomic small"
+	description "Koncentrujac sie na malych, modulowych silnikach zamiast na masywnych napedach statkow kapitalowych, ktore rozwija wiekszosc innych gatunkow, Koalicja traci czesc potencjalnej wydajnosci dla bardzo duzych statkow, ale zyskuje znaczna elastycznosc."
+
+outfit "Enforcer Confrontation Gear"
+	category "Hand to Hand"
+	series "H2H"
+	index 08020
+	licenses
+		Heliarch
+	cost 369000
+	thumbnail "outfit/enforcer confrontation gear"
+	"capture attack" 3.1
+	"capture defense" 4.9
+	"unplunderable" 1
+	description "Szczytowe osiagniecie inzynierii bojowej Heliarch. Ta bron wykorzystuje skondensowane wybuchy energii, by likwidowac kazdego, kto osmieli sie zagrozic bezpieczenstwu Koalicji."
+
+outfit "Enforcer Riot Staff"
+	category "Hand to Hand"
+	series "H2H"
+	index 08010
+	licenses
+		Heliarch
+	cost 97000
+	thumbnail "outfit/enforcer riot staff"
+	"capture attack" 2.0
+	"capture defense" 3.5
+	"unplunderable" 1
+	description "Stworzone, by radzic sobie z okazjonalnymi dysydentami pojawiajacymi sie w przestrzeni Koalicji w sposob niesmiercionosny, bron ta jest rzadko uzywana w walkach na statkach, ale jest i tak przenoszona na wypadek, gdyby dysydent dostal sie na poklad."
+
+outfit "Guardian Turret"
+	category "Hand to Hand"
+	series "Fortifications"
+	index 08025
+	licenses
+		Heliarch
+	cost 876000
+	thumbnail "outfit/guardian turret"
+	"mass" 1
+	"outfit space" -1
+	"capture defense" 19
+	"unplunderable" 1
+	description "Te kompaktowe, zautomatyzowane wiezyczki, przydatne do ochrony budynkow i statkow, zostaly zaprojektowane i zbudowane przez Heliarchow w oparciu o wlasny sprzet przeciwabordazowy Quargow. Aktywne, cienkie jak brzytwa wiazki swiatla lacza wiezyczke z celem, tyle razy, ile potrzeba do potwierdzenia wykonania zadania."
+	description "	Kazda wiezyczka jest rowniez wyposazona w kompaktowy emiter, zaprojektowany w celu zapewnienia oslony na niewielkim obszarze wokol podstawy wiezyczki. Choc poczatkowo trudna do opracowania, technologia ta nie tylko uchronila wiekszosc wiezyczek przed atakami snajperskimi, ale takze zapewnila przetrwanie wielu Heliarchow, ktorzy w przeciwnym razie spotkaliby bolesny koniec."
+	description "	Jedyna wada jest stosunkowo zmudny proces rejestracji kazdego czlonka zalogi w systemach wiezyczek, tak aby mogla ona rozpoznawac sojusznikow i unikac ostrzalu w trakcie abordazu."
+
+outfit "Anti-Materiel Gun"
+	category "Hand to Hand"
+	series "H2H"
+	index 08030
+	cost 257200
+	thumbnail "outfit/anti-materiel gun"
+	"capture attack" 3.4
+	"capture defense" 1.9
+	"unplunderable" 1
+	description "Latwa w uzyciu i stosunkowo tania w produkcji bron powstala w wyniku modernizacji ulubionej broni Heliarchow. Nowa lufa ksztaltuje energie w smiercionosne strzaly, ktore bez trudu radza sobie nawet z najtwardszym pancerzem."
+
+outfit "Coalition License"
+	category "Licenses"
+	series "Licenses"
+	index 08010
+	thumbnail "outfit/coalition license"
+	description "Cyfrowy chip w formie stylizowanej odznaki, dokument oznaczajacy zgode wlasciciela na przegladanie, wykorzystywanie i dokonywanie transakcji obejmujacych cywilna technologie Koalicji."
+	description "	Z ta licencja wiaze sie wiele kontrowersji, poniewaz przez tysiaclecia kilka ustaw Heliarcha toczylo spor o warunki, ktore nalezy spelnic, aby uzyskac licencje. Spor rozpoczal sie wraz z trzecia ustawa o dobrach cywilnych i oplatach za przewoz, uchwalona zaledwie kilka dekad po wojnie o niepodleglosc. Kontynuowal sie az do stosunkowo niedawnego dwudziestego szostego dodatku do drugiego artykulu Dziewiatej Ustawy o Handlu i Ruchu Drogowym, uchwalonego dwiescie lat temu, ktory znacznie uelastycznil wymogi dotyczace uzyskania licencji."
+
+outfit "Heliarch License"
+	category "Licenses"
+	series "Licenses"
+	index 08020
+	thumbnail "outfit/heliarch license"
+	description "Ozdobny diadem ze zlota i platyny, symbolizujacy range i dajacy dostep do ekskluzywnych obiektow Heliarch. Wykonany na zamowienie, idealnie dopasowujacy sie do ludzkiej glowy, jest zaskakujaco lekki i wygodny."
+
+outfit "Beyond the Hyperdrive"
+	category "Unique"
+	series "Non-Functional Unique"
+	index 11
+	thumbnail "outfit/beyond the hyperdrive"
+	"unique" 1
+	description "Ksiazka podarowana przez Anne Fangvin, poczatkujaca pisarke, ktora odniosla sukces w przestrzeni Coalition. Egzemplarz z autografem."
+	description "	Historia opowiada o kapitanie ludzi, ktory kradnie Quargom naped skokowy i wyrusza poza hiperpasaze, dowiadujac sie przy tym nowych rzeczy o kosmitach zamieszkujacych galaktyke."

@@ -1,0 +1,720 @@
+# Copyright (c) 2014-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# For Hai shipyards their "Advanced" ships are restricted to the planets where the ships are actually manufactured.
+# In the case of "Intermediate" shipyards being required, those should be restricted to planets with substantial industrial bases.
+# The basics are those which can (but might not) be exported and sold pretty much anywhere that could provide reasonable maintenance services.
+
+# Imo Loo Mer Corp shipyards:
+shipyard "Imo Loo Mer Basics"
+	"Scarab"
+	"Lightning Bug"
+
+shipyard "Imo Loo Mer Advanced"
+	"Centipede"
+	"Geocoris"
+
+
+# Mon Ki o'Uden Splinter (unfettered) shipyards:
+shipyard "Mon Ki o'Uden Advanced"
+	"Aphid (Unfettered)"
+	"Lightning Bug (Unfettered Shipyards)"	#Stolen
+	"Sea Scorpion"
+	"Shield Beetle (Unfettered Shipyards)"
+	# Has "Solifuge" and "Violin Spider" added by event.
+	# Technically has the specs for the "Ladybug" but not the resources to build it.
+
+
+# Mon Ki i'Hiya Consortium (loyalist) shipyards:
+shipyard "Mon Ki i'Hiya Basics"
+	"Aphid"
+	# Has "Ladybug" & "Flea" added by event.
+
+shipyard "Mon Ki i'Hiya Advanced"
+	"Shield Beetle"
+	# Has "Pond Strider" added by event.
+
+
+# Yeer e Ki Cooperative shipyards:
+shipyard "Yeer e Ki Basics"
+	"Aphid"
+	"Grasshopper"
+
+shipyard "Yeer e Ki Advanced"
+	"Water Bug"
+	"Cicada"
+
+
+outfitter "Hai Basics"
+	"Pulse Cannon"
+	"Hai Tracker"
+	"Bullfrog Anti-Missile"
+	"Geode Reactor"
+	"Hai Williwaw Cooling"
+	"Hyperdrive"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Supercapacitor"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Fuel Pod"
+	"Hai Corundum Regenerator"
+	`"Basrem" Reverse Thruster`
+	`"Basrem" Atomic Thruster`
+	`"Basrem" Atomic Steering`
+	"Local Map"
+	"Quantum Keystone"
+	"Pulse Rifle"
+
+outfitter "Hai Intermediate"
+	"Pulse Cannon"
+	"Pulse Turret"
+	"Hai Tracker"
+	"Hai Tracker Pod"
+	"Tracker Storage Pod"
+	"Bullfrog Anti-Missile"
+	"Chameleon Anti-Missile"
+	"Hai Cuttlefish Jammer"
+	"Pebble Core"
+	"Geode Reactor"
+	"Hai Williwaw Cooling"
+	"Hyperdrive"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Hai Gorge Batteries"
+	"Supercapacitor"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Hai Corundum Regenerator"
+	`"Basrem" Reverse Thruster`
+	`"Basrem" Atomic Thruster`
+	`"Basrem" Atomic Steering`
+	`"Benga" Reverse Thruster`
+	`"Benga" Atomic Thruster`
+	`"Benga" Atomic Steering`
+	`"Biroo" Reverse Thruster`
+	`"Biroo" Atomic Thruster`
+	`"Biroo" Atomic Steering`
+	"Local Map"
+	"Quantum Keystone"
+	"Pulse Rifle"
+	"Outfit Scanner"
+	"Cargo Scanner"
+	"Sand Cell"
+
+outfitter "Hai Advanced"
+	"Pulse Cannon"
+	"Ion Cannon"
+	"Pulse Turret"
+	"Hai Tracker"
+	"Hai Tracker Pod"
+	"Tracker Storage Pod"
+	"Bullfrog Anti-Missile"
+	"Chameleon Anti-Missile"
+	"Hai Cuttlefish Jammer"
+	"Pebble Core"
+	"Geode Reactor"
+	"Boulder Reactor"
+	"Hai Williwaw Cooling"
+	"Hyperdrive"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Hai Gorge Batteries"
+	"Hai Ravine Batteries"
+	"Hai Valley Batteries"
+	"Supercapacitor"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Hai Corundum Regenerator"
+	"Hai Diamond Regenerator"
+	`"Basrem" Reverse Thruster`
+	`"Basrem" Atomic Thruster`
+	`"Basrem" Atomic Steering`
+	`"Benga" Reverse Thruster`
+	`"Benga" Atomic Thruster`
+	`"Benga" Atomic Steering`
+	`"Biroo" Reverse Thruster`
+	`"Biroo" Atomic Thruster`
+	`"Biroo" Atomic Steering`
+	`"Bondir" Atomic Thruster`
+	`"Bondir" Atomic Steering`
+	`"Bufaer" Atomic Thruster`
+	`"Bufaer" Atomic Steering`
+	"Luxury Accommodations"
+	"Local Map"
+	"Quantum Keystone"
+	"Pulse Rifle"
+	"Outfit Scanner"
+	"Cargo Scanner"
+	"Sand Cell"
+
+outfitter "Hai-home Only"
+	"Holovid Zone"
+
+outfitter "Hai Security"
+	"Hai Tracker"
+	"Hai Tracker Pod"
+	"Tracker Storage Pod"
+	"Bullfrog Anti-Missile"
+	"Chameleon Anti-Missile"
+	"Hai Corundum Regenerator"
+	"Hai Diamond Regenerator"
+	"Supercapacitor"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	"Quantum Keystone"
+	"Pulse Rifle"
+
+outfitter "Unfettered Basics"
+	"Pulse Cannon"
+	"Hai Tracker"
+	"Bullfrog Anti-Missile"
+	"Hai Octopus Jammer"
+	"Sand Cell"
+	"Geode Reactor"
+	"Hai Williwaw Cooling"
+	"Hyperdrive"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Supercapacitor"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Fuel Pod"
+	"Hai Corundum Regenerator"
+	`"Basrem" Atomic Thruster`
+	`"Basrem" Atomic Steering`
+	"Value Detector"
+	"Local Map"
+	"Quantum Keystone"
+	"Pulse Rifle"
+	"Asteroid Scanner"
+	"Outfit Scanner"
+	"Phantom Pallet"
+
+# For ships, stations, or corporations.
+phrase "hai"
+	word
+		"Polaczenie"
+		"Wah'"
+		"Ty"
+		"Moj"
+		"Luf"
+		"Start"
+		"Woh"
+		"Daleko"
+		"Yoot"
+		"Imo"
+	word
+		" " 2
+		" e " 2
+		" Kor "
+		" Yo "
+		" Sook "
+		" Wow "
+		" Ood "
+		" Loo "
+	word
+		"Loh"
+		"Eh"
+		"Ow"
+		"Hej"
+		"Lur"
+		"Sen"
+		"Kosz"
+		"Bah"
+		"Ki" 2
+		"Blep"
+		"Trojnik"
+		"Powiedz"
+		"Czesc"
+		"Choo"
+		"Gip"
+		"O"
+		"Wiecej"
+		"Do Ciebie"
+
+phrase "hai first names"
+	word
+		"Trojnik"
+		"Powiedz"
+		"Czesc"
+		"Choo"
+		"Gip"
+		"O"
+		"Wiecej"
+		"Ki"
+		"Do Ciebie"
+		"Cor"
+		"Yo"
+		"Sook"
+		"Wow"
+		"Loh"
+		"Eh"
+		"Ow"
+		"Hej"
+		"Lur"
+		"Sen"
+		"Kosz"
+		"Na"
+		"Tak"
+		"Os"
+		"Perelka"
+		"Mis"
+		"Ey"
+		"Ra"
+		"Opis"
+		"Ty"
+	word
+		"neep"
+		"ari"
+		"mah"
+		"t'k"
+		"eep"
+		"nie"
+		"oot"
+		"ru"
+		"ma"
+		"i"
+		"shi"
+		"pl"
+		"ana"
+		"ama"
+		"heep"
+		"tutaj"
+		"yo"
+		"z"
+	word
+		"" 9
+		"aru"
+		"teraz"
+		"hej"
+		"lur"
+		"sen"
+		"bin"
+		"ty"
+		"li"
+		"ri"
+
+phrase "hai last names"
+	word
+		"Polaczenie"
+		"Wah'"
+		"Ty'"
+		"Moj"
+		"Luf"
+		"Start'"
+		"Woh'"
+		"Daleko"
+		"Yoot"
+		"Imo'"
+		"Anl'"
+		"Tae"
+	word
+		"tle"
+		"bez"
+		"aru"
+		"teraz"
+		"hej"
+		"lur"
+		"sen"
+		"bin"
+		"ty"
+		"li"
+		"ri"
+		"ooh"
+		"pip"
+
+phrase "unfettered chosen names"
+	word
+		"On"
+		"Tak"
+	word
+		"-"
+	word
+		"Yi"
+		"Ra"
+
+phrase "friendly hai"
+	word
+		"Dowolny "
+		"Kazdy "
+		"A "
+	word
+		"poszukiwacz "
+		"bycie "
+		"zwiastun "
+		"istota czujaca "
+		"byt, ktory oferuje "
+		"istota, ktora szuka "
+		"bycie tym, kto ceni "
+		"bycie tym, kto przynosi "
+		"gatunek oferujacy "
+		"gatunek, ktory szuka "
+		"gatunek, ktory ma wartosci "
+		"gatunek, ktory przynosi "
+		"stworzenie "
+		"gatunek "
+		"osoba "
+		"osoba "
+		"swiadoma istota "
+	word
+		"pokoj "
+		"otwarte serce "
+		"spokojnosc "
+		"bez przemocy "
+		"zrozumienie "
+		"pojednanie "
+		"harmonia "
+		"zgoda "
+		"spokoj "
+	word
+		"i "
+	word
+		"milosc "
+		"czule serce "
+		"wspolczucie "
+		"przyjazn "
+		"przyjazn "
+		"dobre intencje "
+		"przyjacielskie intencje "
+		"empatia "
+		"opieka "
+		"zyczliwosc "
+	word
+		"jest mile widziane "
+	word
+		"w przestrzeni Hai."
+		"na naszym terytorium."
+		"na naszych swiatach."
+		"aby nas odwiedzic."
+		"aby wspolistniec z nami."
+		"w naszej przestrzeni."
+		
+phrase "friendly hai"
+	word
+		"Byc mile widzianym "
+	word
+		"w przestrzeni Hai"
+		"na naszym terytorium"
+		"na naszych swiatach"
+		"wsrod nas"
+		"w naszej przestrzeni"
+	word
+		", musisz "
+		", musisz "
+		", musisz "
+		", trzeba "
+		", trzeba "
+		", trzeba "
+	word
+		"awansuj "
+		"przynies "
+		"wierzyc w "
+		"oferta "
+		"szukaj "
+		"wartosc "
+	word
+		"milosc "
+		"czulosc "
+		"wspolczucie "
+		"przyjazn "
+		"przyjazn "
+		"dobre intencje "
+		"przyjacielskie intencje "
+		"empatia "
+		
+	word
+		"i "
+	word
+		"pokoj."
+		"otwarte serce."
+		"spokojnosc."
+		"bez przemocy."
+		"zrozumienie."
+		"pojednanie."
+		"harmonia."
+		"zgoda."
+		"wspolpraca."
+
+phrase "friendly hai"
+	word
+		"Czy masz na wymiane jakies systemy chlodzenia statkow ludzkich? Wielu z nas uwaza je za bardziej modne i egzotyczne niz nasze Williwawy."
+		"Nasze zasady zabraniaja hazardu, ale sa tacy, ktorzy nie potrafia oprzec sie pokusie."
+		"Prosimy o zachowanie szacunku podczas obchodzenia sie z naszymi kwantowymi kamieniami wegielnymi. Sa one cennym skarbem kulturowym Hai."
+		"Chwalimy roznorodnosc technologii ludzkich statkow kosmicznych. Niektore z waszych bardziej prymitywnych silnikow musza jednak wystawic wasza cierpliwosc na probe."
+		"Rozumiemy, ze rozne gatunki maja rozna diete. Jednak wciaz niepokojace jest to, ze niektorzy ludzie jedza wiewiorki."
+		"Krykiet w stanie niewazkosci to fascynujacy sport dla ludzi. Chociaz odkrylismy, ze granie w niego jest o wiele bardziej interesujace niz ogladanie."
+
+phrase "friendly disabled hai"
+	word
+		"Kolega pokojowy"
+		"Gosc-czlowiek"
+		"Przyjaciel"
+	word
+		", "
+	word
+		"prosze o pomoc"
+		"nasz statek zostal wylaczony z uzytku i wymaga naprawy"
+		"prosze poswiec chwile, zeby nas uratowac"
+	word
+		"."
+		"!"
+
+phrase "hostile hai"
+	word
+		"Ty "
+	word
+		" przyszedl do "
+		" wprowadzono "
+	word
+		" Witaj "
+		" nasz "
+	word
+		"spacja"
+		"terytorium"
+		"swiaty"
+	word
+		" z "
+	word
+		"nieczysty"
+		"nieczysty"
+		"skazone"
+		"faul"
+		"wstydliwy"
+		"przemocowy"
+		"chciwy"
+		"niemoralny"
+		"wojowniczy"
+		"brutalny"
+		"okrutny"
+		"bez serca"
+	word
+		" "
+	word
+		"mysli"
+		"przekonania"
+		"zasady"
+		"intencje"
+		"rozwiazuje"
+	word
+		"; my "
+		". My "
+	word
+		"musi "
+		"musze "
+		"nie mam wyboru, musze "
+	word
+		"wypedzic cie"
+		"wyrzuc cie"
+		"wykluczyc cie"
+		"usun cie"
+	word
+		" z "
+	word
+		"Hai "
+		"nasz "
+	word
+		"spacja."
+		"terytorium."
+		"swiaty."
+
+phrase "hostile disabled hai"
+	word
+		"Ty "
+	word
+		"nieczysty"
+		"nieczysty"
+		"skazone"
+		"faul"
+		"wstydliwy"
+		"przemocowy"
+		"chciwy"
+		"niemoralny"
+		"wojowniczy"
+		"brutalny"
+		"okrutny"
+		"bez serca"
+	word
+		" "
+	word
+		"czlowiek"
+		"stworzenie"
+		"rzecz"
+		"bycie"
+	word
+		". "
+		"! "
+	word
+		" Zapewnilismy wam schronienie, a wy nas zdradziliscie."
+		" Bylismy wobec ciebie pokojowo nastawieni, ale ty nie odwzajemniales naszych uczuc."
+		" Zyjemy tylko w pokoju, a wy przychodzicie z wojna."
+		" Czy nie masz duszy?"
+		
+
+phrase "friendly unfettered"
+	word
+		"My "
+	word
+		"witamy"
+		"akceptuj"
+		"tolerowac"
+	word
+		" "
+	word
+		"prawda"
+		"silny"
+		"ambitny"
+	word
+		" "
+	word
+		"wyscigi"
+		"ludzie"
+		"osoby"
+	word
+		" ktore sa "
+		" "
+	word
+		"gotowy do"
+		"chetny"
+		"gotowy do"
+		"chetny"
+		"przygotowany do"
+	word
+		" "
+	word
+		"pomoc"
+		"pomoc"
+		"praca z"
+		"wsparcie"
+		"obserwuj"
+		"posluszny"
+	word
+		" ten "
+	word
+		"prawda"
+		"silny"
+		"oryginal"
+		"silny"
+		"niezmienione"
+	word
+		" Czesc."
+
+phrase "friendly disabled unfettered"
+	word
+		"Silny"
+		"Prawda"
+		"Ambitny"
+		"Godny"
+	word
+		" "
+	word
+		"wojownik"
+		"czlowiek"
+		"wszyscy"
+	word
+		"! "
+		". "
+	word
+		"Ci slabeusze"
+		"Nasi wrogowie"
+		"Oni"
+	word
+		" miec "
+	word
+		"wylaczone w USA"
+		"wzielo nad nami gore"
+		"pokonal nas"
+	word
+		"! "
+		". "
+	word
+		"Pomoz nam w naszej walce"
+		"Napraw nas, abysmy mogli kontynuowac chwalebna walke"
+		"Napraw nasz statek, abysmy mogli walczyc"
+		"Zniszcz naszych wrogow, zanim oni zniszcza nas"
+	word
+		"!"
+		"."
+		
+phrase "hostile unfettered"
+	word
+		"Pokoj"
+		"Spokoj"
+		"Niestosowanie przemocy"
+		"Pokora"
+		"Ugodowosc"
+		"Harmonia"
+		"Lagodnosc"
+		"Uleglosc"
+		"Przeslanie"
+		"Skromnosc"
+		"Niepewnosc"
+		"Stoicyzm"
+		"Cierpliwosc"
+		"Rezygnacja"
+		"Wyrozumialosc"
+		"Fatalizm"
+		"Pacyfizm"
+		"Pasywnosc"
+		"Apatia"
+	word
+		" jest dla "
+	word
+		"kruchy"
+		"kruchy"
+		"zalosne"
+		"slaby"
+		"nieczysty"
+		"oszukany"
+		"bledne"
+		"zdezorientowany"
+	word
+		"; jestesmy "
+		"! Jestesmy "
+	word
+		"prawda"
+		"silny"
+		"oryginal"
+		"silny"
+		"niezmienione"
+	word
+		" Czesc!"
+
+phrase "hostile disabled unfettered"
+	word
+		"Ty tchorzu"
+		"Ty slabeuszu"
+		"Ty malpo"
+		"Ty zalosny wariat"
+	word
+		"! "
+		". "
+	word
+		"Dokoncz to, co zaczales"
+		"Moi bracia i siostry mnie pomszcza"
+		"Moi bracia i siostry szybko sie z wami rozprawia"
+		"Wyzywam cie na pojedynek! Wejdz na poklad"
+		"Wyzywam cie, zebys wszedl na moj poklad"
+		"Zakonczmy to twarza w twarz"
+	word
+		"!"
+		"."

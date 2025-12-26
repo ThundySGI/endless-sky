@@ -1,0 +1,659 @@
+# Copyright (c) 2015-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Sunbeam"
+	category "Guns"
+	series "Guns"
+	index 09020
+	licenses
+		"Wanderer Outfits"
+	cost 1390000
+	thumbnail "outfit/sunbeam"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"gun ports" -1
+	weapon
+		sprite "projectile/sunbeam/sunbeam"
+			"frame rate" 30
+		sound "sunbeam"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" .2
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5.2
+		"firing heat" 6.2
+		"shield damage" 7.2
+		"hull damage" 3.0
+		"heat damage" 12.1
+	description "Wedrowcy nie poswiecaja wiele czasu na rozwoj technologii uzbrojenia, wolac skupic sie na bardziej konstruktywnych przedsiewzieciach. Jednak nieliczne bronie, ktore stworzyli, sa skuteczne i zabojcze."
+
+effect "sunbeam impact"
+	sprite "effect/sunbeam impact"
+		"frame rate" 30
+		"random start frame"
+	"lifetime" 3
+	"random angle" 360
+	"random spin" 360
+	"random velocity" 4
+	"velocity scale" -.0001
+
+outfit "Sunbeam Turret"
+	category "Turrets"
+	series "Turrets"
+	index 09020
+	licenses
+		"Wanderer Outfits"
+	cost 1970000
+	thumbnail "outfit/sunbeam turret"
+	"mass" 46
+	"outfit space" -46
+	"weapon capacity" -46
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/sunbeam/sunbeam"
+			"frame rate" 30
+		"hardpoint sprite" "hardpoint/sunbeam turret"
+		"hardpoint offset" -2.0 12.0
+		sound "sunbeam"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" .2
+		"turret turn" 1.8
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5.2
+		"firing heat" 6.2
+		"shield damage" 7.2
+		"hull damage" 3.0
+		"heat damage" 12.1
+	description "W miare jak Wedrowcy powoli radza sobie z przejsciem od pokoju do narastajacego konfliktu z Nieskrepowanymi Hai, zaczeli budowac statki zdolne do przenoszenia uzbrojenia montowanego na wiezyczkach. Ze wzgledu na rozmiary Sunbeam, ta wiezyczka miesci tylko jedno uzbrojenie."
+
+outfit "Dual Sunbeam Turret"
+	category "Turrets"
+	series "Turrets"
+	index 09030
+	licenses
+		"Wanderer Outfits"
+	cost 3720000
+	thumbnail "outfit/dual sunbeam turret"
+	"mass" 83
+	"outfit space" -83
+	"weapon capacity" -83
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/sunbeam/2x sunbeam"
+			"frame rate" 30
+		"hardpoint sprite" "hardpoint/dual sunbeam turret"
+		"hardpoint offset" 12.
+		sound "sunbeam"
+		"hit effect" "sunbeam impact" 2
+		"inaccuracy" .2
+		"turret turn" 1
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10.4
+		"firing heat" 12.4
+		"shield damage" 14.4
+		"hull damage" 6.0
+		"heat damage" 24.2
+	description "Ta wiezyczka jest wyposazona w pare promieni slonecznych Wedrowca. Dla kazdego statku, ktory jest w stanie zaspokoic jej zapotrzebowanie na energie, jest to niezwykle potezna bron."
+
+outfit "Moonbeam"
+	category "Guns"
+	series "Guns"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 760000
+	thumbnail "outfit/moonbeam"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.0
+		"velocity" 490
+		"lifetime" 1
+		# A full cycle is 45 frames. Beam is active 56% of the time.
+		"reload" 1.8
+		"burst count" 25
+		"burst reload" 1
+		"firing energy" 5.4
+		"firing heat" 1.8
+		"shield damage" 4.8
+		"hull damage" 8.4
+	description "Poniewaz ich promienie sloneczne nie sa zbyt skuteczne w walce z ciezkim pancerzem dronow Korath, Wedrowcy opracowali nowa bron promieniowa, ktora jest znacznie skuteczniejsza przeciwko pancerzom kadluba."
+
+effect "moonbeam fleck"
+	sprite "effect/moonbeam fleck"
+		"frame rate" 10
+	"lifetime" 7
+	"random velocity" 30
+	"velocity scale" 1
+
+effect "moonbeam impact"
+	sprite "effect/moonbeam impact"
+		"frame rate" 30
+	"lifetime" 7
+	"random angle" 360
+	"random velocity" 2
+	"velocity scale" -.002
+
+outfit "Moonbeam Turret"
+	category "Turrets"
+	series "Turrets"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 1730000
+	thumbnail "outfit/moonbeam turret"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		"hardpoint offset" 9.
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.0
+		"turret turn" 2.2
+		"velocity" 490
+		"lifetime" 1
+		# A full cycle is 36 frames. Beam is active 83% of the time.
+		"reload" 1.2
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 5.4
+		"firing heat" 1.8
+		"shield damage" 4.8
+		"hull damage" 8.4
+	description "Ta wiezyczka przenosi tylko jedna bron Moonbeam, ale jej cykl pracy zostal zwiekszony, dzieki czemu moze zadac o 50% wiecej obrazen niz wersja bez wiezyczki."
+
+outfit "Wanderer Anti-Missile"
+	category "Turrets"
+	series "Anti-Missile"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 850000
+	thumbnail "outfit/wanderer anti-missile"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/wanderer anti-missile"
+		"hardpoint offset" 6.
+		"hit effect" "wanderer anti-missile"
+		"anti-missile" 40
+		"velocity" 360
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 50
+		"firing heat" 12
+	description "W celu obrony przed pociskami sledzacymi uzywanymi przez Nieskrepowanych Hai, Wedrowcy opracowali potezny system przeciwrakietowy, ktory moze stracic niemal kazdy pocisk jednym strzalem."
+
+effect "wanderer anti-missile"
+	sprite "effect/wanderer anti-missile"
+		"no repeat"
+		"frame rate" 6
+	sound "heavy anti-missile"
+	"sound category" "anti-missile"
+	"lifetime" 31
+	"velocity scale" 1
+
+outfit "Thunderhead Launcher"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 450000
+	thumbnail "outfit/thunderhead launcher"
+	"mass" 14
+	"outfit space" -26
+	"weapon capacity" -26
+	"gun ports" -1
+	"thunderhead capacity" 40
+	weapon
+		sprite "projectile/thunderhead"
+			"no repeat"
+			"frame rate" .1
+		sound "thunderhead"
+		ammo "Thunderhead Missile"
+		icon "icon/thunderhead"
+		"submunition" "Thunderhead" 5
+		"split range" 600
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 10
+		"velocity" 4
+		"lifetime" 400
+		"reload" 75
+		"firing energy" 18
+		"firing heat" 36
+		"acceleration" 1.1
+		"drag" .1
+		"turn" 2
+		"homing"
+			"leading"
+			"throttle control"
+		"infrared tracking" .9
+		"radar tracking" .6
+		"missile strength" 12
+	description "Doskonaly przyklad pomyslowosci Wanderera, pociski Thunderhead, kazdy z nich przenosi piec podpociskow zdolnych do niezaleznego namierzania. Nawet jesli cel zdola zestrzelic lub uniknac kilku z nich, pozostale fragmenty pocisku i tak trafia w cel."
+	description "	Amunicje do tej broni mozna uzupelnic u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Thunderhead Missile"
+	category "Ammunition"
+	series "Ammunition"
+	index 09010
+	cost 1800
+	thumbnail "outfit/thunderhead"
+	mass .3
+	"thunderhead capacity" -1
+	description "Amunicja kasetowa Thunderhead to pociski Wanderer dalekiego zasiegu, ktore w poblizu celu dziela sie na piec szybkich i zwrotnych pociskow kasetowych. Kazda wyrzutnia moze pomiescic do 40 takich pociskow."
+
+outfit "Thunderhead"
+	weapon
+		sprite "projectile/thunderhead fragment"
+			"no repeat"
+			"frame rate" .1
+		"die effect" "missile death"
+		"hit effect" "small explosion"
+		"inaccuracy" 90
+		"velocity" 2
+		"lifetime" 400
+		"acceleration" 1.4
+		"drag" .1
+		"turn" 3
+		"homing"
+			"leading"
+			"throttle control"
+		"optical tracking" .9
+		"radar tracking" .6
+		"shield damage" 110
+		"hull damage" 80
+		"hit force" 225
+		"missile strength" 3
+
+outfit "Thunderhead Storage Array"
+	category "Ammunition"
+	series "Ammunition"
+	index 09011
+	licenses
+		"Wanderer Outfits"
+	cost 36000
+	thumbnail "outfit/thunderhead storage"
+	"mass" 2
+	"outfit space" -8
+	"thunderhead capacity" 20
+	ammo "Thunderhead Missile"
+	description "Macierz magazynowa Thunderhead jest uzywana do przechowywania dodatkowej amunicji do wyrzutni Thunderhead."
+
+outfitter "Thunderhead Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Thunderhead Launcher"
+			has "outfit: Thunderhead Storage Array"
+	location
+		attributes "outfitter"
+	stock
+		"Thunderhead Missile"
+
+outfit "Small Biochemical Cell"
+	category "Power"
+	series "Generators"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 230000
+	thumbnail "outfit/small biochemical"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 1.28
+	"heat generation" 1.12
+	"energy capacity" 7500
+	description "Ten niewielki generator czerpie energie z produktow ubocznych metabolizmu grupy mikroorganizmow, ktore zostaly specjalnie w tym celu wyhodowane przez Wedrowcow."
+
+outfit "Large Biochemical Cell"
+	category "Power"
+	series "Generators"
+	index 09020
+	licenses
+		"Wanderer Outfits"
+	cost 940000
+	thumbnail "outfit/large biochemical"
+	"mass" 63
+	"outfit space" -63
+	"energy generation" 4.96
+	"heat generation" 3.92
+	"energy capacity" 30000
+	description "Wedrowcy to mistrzowie niezwyklej i wydajnej technologii. Ten bioreaktor jest zasilany kultura mikroorganizmow, ktore wytwarzaja niewielki ladunek elektryczny."
+
+outfit "Red Sun Reactor"
+	category "Power"
+	series "Generators"
+	index 09030
+	licenses
+		"Wanderer Outfits"
+	cost 3800000
+	thumbnail "outfit/red sun"
+	"mass" 47
+	"outfit space" -47
+	"energy generation" 8.3
+	"heat generation" 13
+	"energy capacity" 1100
+	description "Wedrowcy niedawno rozpoczeli budowe tego malego reaktora, aby wcisnac troche wiecej energii do swoich okretow wojennych."
+
+outfit "Yellow Sun Reactor"
+	category "Power"
+	series "Generators"
+	index 09040
+	licenses
+		"Wanderer Outfits"
+	cost 7500000
+	thumbnail "outfit/yellow sun"
+	"mass" 82
+	"outfit space" -82
+	"energy generation" 15.2
+	"heat generation" 21
+	"energy capacity" 2600
+	description "To kompaktowy reaktor jadrowy zaprojektowany przez Wedrowcow. Oprocz wytwarzania energii elektrycznej, jest on w stanie magazynowac niewielka jej ilosc."
+
+outfit "White Sun Reactor"
+	category "Power"
+	series "Generators"
+	index 09050
+	licenses
+		"Wanderer Outfits"
+	cost 13900000
+	thumbnail "outfit/white sun"
+	"mass" 127
+	"outfit space" -127
+	"energy generation" 24.85
+	"heat generation" 32
+	"energy capacity" 6700
+	description "Biale Slonce to duzy reaktor jadrowy, ktorego Wedrowcy uzywaja do zasilania swoich okretow wojennych Silnego Wiatru."
+
+outfit "Blue Sun Reactor"
+	category "Power"
+	series "Generators"
+	index 09060
+	licenses
+		"Wanderer Outfits"
+	cost 21500000
+	thumbnail "outfit/blue sun"
+	"mass" 152
+	"outfit space" -152
+	"energy generation" 31.3
+	"heat generation" 39
+	"energy capacity" 8900
+	description "W miare jak Wanderersi zaczeli produkowac ciezkie okrety wojenne, pojawila sie potrzeba stosowania coraz wiekszych rdzeni reaktorow do ich zasilania."
+
+
+outfit "Bright Cloud Shielding"
+	category "Systems"
+	series "Shields"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 220000
+	thumbnail "outfit/bright cloud"
+	"mass" 19
+	"outfit space" -19
+	"shield generation" 1.5
+	"shield energy" 3.0
+	description "Ten maly generator oslon Wedrowca jest w stanie ladowac oslony statku w znacznym tempie, ale zuzywa tez wiecej energii niz niektore inne generatory oslon."
+
+outfit "Dark Storm Shielding"
+	category "Systems"
+	series "Shields"
+	index 09020
+	licenses
+		"Wanderer Outfits"
+	cost 800000
+	thumbnail "outfit/dark storm"
+	"mass" 41
+	"outfit space" -41
+	"shield generation" 3.5
+	"shield energy" 7.0
+	description "Ten generator tarcz Wedrowca potrafi przywrocic sile tarcz statku szybciej niz jakakolwiek technologia tarcz stworzona przez czlowieka, ale podczas ladowania tarcz pobiera znacznie wieksza ilosc energii."
+
+outfit "Wanderer Ramscoop"
+	category "Systems"
+	series "Ramscoops"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 460000
+	thumbnail "outfit/wanderer ramscoop"
+	"mass" 7
+	"outfit space" -7
+	"ramscoop" 4
+	description "Statki Wanderer zostaly zaprojektowane tak, aby byly samowystarczalne nawet podczas podrozy przez niezamieszkana przestrzen, a ich kompaktowe i wydajne lodzie manewrujace stanowia kluczowy element tej samowystarczalnosci."
+
+
+outfit "Wanderer Heat Sink"
+	category "Systems"
+	series "Cooling"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	cost 94000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 19
+	description "Wiekszosc systemow Wanderer jest tak wydajna, ze dodatkowe chlodzenie jest zbedne. W rezultacie ich ostatnie proby dodania chlodzenia do ciezkich okretow wojennych sa raczej prymitywne."
+
+
+outfit "Type 1 Radiant Thruster"
+	category "Engines"
+	series "Engines"
+	index 09011
+	licenses
+		"Wanderer Outfits"
+	"cost" 135000
+	thumbnail "outfit/tiny radiant thruster"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"thrust" 13.2
+	"thrusting energy" 0.55
+	"thrusting heat" 0.85
+	"cooling" 1.5
+	"flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 12
+	"flare sound" "plasma tiny"
+	description "To najmniejszy silnik Wanderera. Jak wszystkie ich silniki, dziala czesciowo poprzez promieniowanie nadmiaru ciepla, dzieki czemu pelni rowniez funkcje chlodnicy dla twojego statku."
+
+outfit "Type 2 Radiant Thruster"
+	category "Engines"
+	series "Engines"
+	index 09021
+	licenses
+		"Wanderer Outfits"
+	"cost" 390000
+	thumbnail "outfit/small radiant thruster"
+	"mass" 27
+	"outfit space" -27
+	"engine capacity" -27
+	"thrust" 31.95
+	"thrusting energy" 1.3
+	"thrusting heat" 2.4
+	"cooling" 3.6
+	"flare sprite" "effect/wanderer flare/small"
+		"frame rate" 14
+	"flare sound" "plasma small"
+	description "Silniki Wanderer dzialaja poprzez przenoszenie nadmiaru ciepla ze statku do plazmy spalinowej. Gdy nie generuja ciagu, silniki nadal pelnia funkcje ukladu chlodzenia."
+
+outfit "Type 3 Radiant Thruster"
+	category "Engines"
+	series "Engines"
+	index 09031
+	licenses
+		"Wanderer Outfits"
+	"cost" 750000
+	thumbnail "outfit/medium radiant thruster"
+	"mass" 42
+	"outfit space" -42
+	"engine capacity" -42
+	"thrust" 52.92
+	"thrusting energy" 2.2
+	"thrusting heat" 4.3
+	"cooling" 6.5
+	"flare sprite" "effect/wanderer flare/medium"
+		"frame rate" 16
+	"flare sound" "plasma medium"
+	description "Wiekszosc silnikow tej wielkosci generuje znaczna ilosc ciepla, jednak Wedrowcy opracowali sposob wykorzystania samego silnika do odprowadzania dodatkowego ciepla ze statku, generujac w ten sposob dodatkowa sile napedowa."
+
+outfit "Type 4 Radiant Thruster"
+	category "Engines"
+	series "Engines"
+	index 09041
+	licenses
+		"Wanderer Outfits"
+	"cost" 1370000
+	thumbnail "outfit/large radiant thruster"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 87
+	"thrusting energy" 3.7
+	"thrusting heat" 7.6
+	"cooling" 11.7
+	"flare sprite" "effect/wanderer flare/large"
+		"frame rate" 18
+	"flare sound" "plasma large"
+	description "To najwiekszy silnik, jaki opracowali Wedrowcy. Jego niezwykle wydajna konstrukcja pozwala mu chlodzic statek nawet podczas strzelania."
+
+outfit "Type 1 Radiant Steering"
+	category "Engines"
+	series "Engines"
+	index 09010
+	licenses
+		"Wanderer Outfits"
+	"cost" 115000
+	thumbnail "outfit/tiny radiant steering"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 271.5
+	"turning energy" .3
+	"turning heat" 0.6
+	"cooling" 1.0
+	"steering flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 12
+	"steering flare sound" "plasma tiny"
+	description "Ten niewielki system sterujacy jest uzywany przez Wedrowcow do zasilania ich bezzalogowych dronow gorniczych i geodezyjnych."
+
+outfit "Type 2 Radiant Steering"
+	category "Engines"
+	series "Engines"
+	index 09020
+	licenses
+		"Wanderer Outfits"
+	"cost" 325000
+	thumbnail "outfit/small radiant steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 714
+	"turning energy" .7
+	"turning heat" 1.5
+	"cooling" 2.1
+	"steering flare sprite" "effect/wanderer flare/small"
+		"frame rate" 14
+	"steering flare sound" "plasma small"
+	description "Ten niewielki system sterowania Wanderer odprowadza nadmiar ciepla z Twojego statku nawet wtedy, gdy nie jest uzywany, dzieki czemu moze pelnic rowniez funkcje ukladu chlodzenia."
+
+outfit "Type 3 Radiant Steering"
+	category "Engines"
+	series "Engines"
+	index 09030
+	licenses
+		"Wanderer Outfits"
+	"cost" 590000
+	thumbnail "outfit/medium radiant steering"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 1237.5
+	"turning energy" 1.2
+	"turning heat" 2.6
+	"cooling" 3.9
+	"steering flare sprite" "effect/wanderer flare/medium"
+		"frame rate" 16
+	"steering flare sound" "plasma medium"
+	description "Ten system sterowania jest uzywany przez Wedrowcow w ich sredniej wielkosci statkach. Oprocz obracania statku, jest on w stanie odprowadzac znaczna ilosc ciepla."
+
+outfit "Type 4 Radiant Steering"
+	category "Engines"
+	series "Engines"
+	index 09040
+	licenses
+		"Wanderer Outfits"
+	"cost" 1100000
+	thumbnail "outfit/large radiant steering"
+	"mass" 47
+	"outfit space" -47
+	"engine capacity" -47
+	"turn" 2199
+	"turning energy" 2.0
+	"turning heat" 4.5
+	"cooling" 6.7
+	"steering flare sprite" "effect/wanderer flare/large"
+		"frame rate" 18
+	"steering flare sound" "plasma large"
+	description "To najwiekszy system sterowania, jaki sprzedaja Wanderersi."
+
+outfit "Wanderer Outfits License"
+	category "Licenses"
+	series "Licenses"
+	index 09010
+	thumbnail "outfit/wanderer outfits license"
+	description "To naczynie o nietypowym ksztalcie zawiera kolekcje idealnie zachowanych nasion jednej trawy z gatunku Sentinel Skirtgrass, wrazliwego, lecz odpornego gatunku, ktorego Wedrowcy uzywaja podczas poczatkowych prob terraformowania, aby ocenic, jak dobrze swiat reaguje na ich metody. Kazde nasiono ma wbudowany limit pokoleniowy, ktory gwarantuje, ze trawa zniknie po kilku cyklach zycia, aby nie konkurowac z rodzima flora. Nasiona te symbolizuja poczatek zarowno terraformowania, jak i dobrej woli, dajac ich wlascicielowi prawo do nabycia strojow Wedrowca."
+
+outfit "Wanderer License"
+	category "Licenses"
+	series "Licenses"
+	index 09020
+	thumbnail "outfit/wanderer license"
+	description "Nienaruszona, w bursztynowej skorupie, ta lisciasta galaz Szlachetnego Lasu Strazniczego - rzekomo pochodzaca z pierwotnej planety Wedrowcow - symbolizuje ich dume i radosc, calkowite odrodzenie planety. Choc niezrownane pod wzgledem wielkosci i budzace groze, drzewo jest dosc wrazliwe nawet na najmniejsze zmiany klimatu, dlatego wzrost jednego takiego okazu do dojrzalosci jest postrzegany jako oznaka uzdrowienia ekosystemu. Jako symbol pokoju, podobny do ziemskiej galazki oliwnej, daje ona posiadaczowi prawo do zakupu niemilitarnych statkow Wedrowcow."
+
+outfit "Wanderer Military License"
+	category "Licenses"
+	series "Licenses"
+	index 09030
+	thumbnail "outfit/wanderer military license"
+	description "Historia Wedrowcow nie jest pozbawiona trudnosci i niepowodzen. Uwieczniona w brazowej formie, ta uschnieta galaz przypomina czasy, gdy Wedrowcy nie zdolali ocalic swiata, bo choc sa utalentowani, nie sa w stanie powstrzymac zniszczenia, gdy aktywnie zabiegaja o nie potezniejsi od nich. Upadek Szlachetnego Lasu Strazniczego, ich ukochanego symbolu, jest teraz uroczystym przyrzeczeniem: gdy pokoj zawodzi, oni rowniez musza przygotowac sie do walki. Aby stanac do walki u boku Wedrowcow, ta licencja zapewnia dostep do ich najwspanialszych okretow wojennych."

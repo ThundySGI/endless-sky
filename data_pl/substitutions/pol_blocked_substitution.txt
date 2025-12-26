@@ -1,0 +1,120 @@
+substitutions
+	"BL-0" `Osiągnąłeś <origin>, ale potrzebujesz <capacity>, aby kontynuować tę misję. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-1" `Wróciłeś do <planet>, ale Ivan informuje cię, że do następnej misji będziesz potrzebować <capacity>. Wróć, gdy będziesz mieć wolne miejsce.`
+	"BL-2" `Pamiętasz, że Hjlod chciał, żebyś miał 52 wolne prycze na misję. Wróć, gdy będziesz miał wystarczająco dużo miejsca.`
+	"BL-3" `Osiągnąłeś <origin>, ale potrzebujesz <capacity>, aby podjąć się misji Katyi w Wolnych Światach. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-4" `Aby kontynuować tę misję, potrzebne są łóżka dla Katyi i Eyes.`
+	"BL-5" `Alondo kontaktuje się z tobą i mówi: "Kapitanie, będziesz potrzebował dla mnie wolnego łóżka. Masz miejsce? " Nie masz, więc powinieneś ukończyć lub przerwać inną misję, żeby zrobić dla niego miejsce, a potem wrócić tutaj.`
+	"BL-6" `Freya kontaktuje się z tobą i mówi: "<first>, będziesz potrzebował dziesięciu ton przestrzeni ładunkowej na tę kolejną misję." Powinieneś tu wrócić po zwolnieniu <capacity>.`
+	"BL-7" `Dotarłeś do <origin>, ale nie masz wolnego miejsca dla senatora Huygensa. Powinieneś tu wrócić po zwolnieniu miejsca.`
+	"BL-8" `JJ kontaktuje się z tobą i mówi: "Kapitanie, będziesz potrzebował dla mnie wolnego łóżka. Masz miejsce? " Nie masz, więc powinieneś ukończyć lub przerwać inną misję, żeby zrobić dla niego miejsce, a potem wrócić tutaj.`
+	"BL-9" `Dotarłeś do <origin>, ale nie masz dziesięciu ton wolnej przestrzeni ładunkowej na sprzęt. Wróć tutaj, gdy zwolnisz więcej miejsca.`
+	"BL-10" `Nie masz wolnego miejsca dla Alondo. Wróć tutaj, kiedy je znajdziesz.`
+	"BL-11" `Otrzymujesz wiadomość od Freyi: "Kapitanie, spotkaj się z nami, gdy tylko znajdziesz wolne miejsce dla Alondo." Nie masz wolnych miejsc, więc powinieneś tu wrócić, gdy tylko jakieś udostępnisz.`
+	"BL-12" `Aby kontynuować tę misję, potrzebujesz wolnego miejsca dla Freyi. Wróć tutaj, gdy je udostępnisz.`
+	"BL-13" `Alondo kontaktuje się z tobą i pyta: "Czy masz dla mnie przygotowane miejsce do spania?" Nie masz, więc musisz je zwolnić, aby kontynuować misję.`
+	"BL-14" `Aby kontynuować tę misję, potrzebujesz wolnego łóżka dla Freyi (oprócz JJ).`
+	"BL-15" `Dotarłeś do <origin>, ale nie masz wolnego miejsca dla Alondo! Powinieneś wrócić do <origin>, gdy tylko jedno się zwolni.`
+	"BL-16" `Wróciłeś do <origin>, ale nie masz wolnego miejsca dla Katii. Powinieneś tu wrócić, gdy tylko znajdziesz wolne miejsce.`
+	"BL-17" `Musisz mieć wolne miejsce dla Katyi, aby kontynuować następną misję. Ukończ lub anuluj misję, która zajmuje całe miejsce w kabinie pasażerskiej, a następnie wróć tutaj, do <origin>.`
+	"BL-18" `Kiedy lądujesz, Freya kontaktuje się z tobą i mówi: "Będziesz potrzebował dziesięciu ton przestrzeni ładunkowej na tę kolejną misję, a także koi dla mnie." To oznacza, że musisz zwolnić <capacity>.`
+	"BL-19" `Kiedy wylądujesz na <origin>, Freya mówi: "Kapitanie, wygląda na to, że będziesz potrzebował <capacity>, aby kontynuować tę misję." Powinieneś zwolnić więcej miejsca, a następnie wrócić tutaj.`
+	"BL-20" `Aby kontynuować tę misję, musisz mieć przynajmniej jedno wolne miejsce dla Freyi.`
+	"BL-21" `Aby kontynuować tę misję, potrzebujesz drugiego wolnego łóżka (dla Ijs).`
+	"BL-22" `Nie masz wolnych łóżek dla Ijs i Katyi. Wróć tutaj, kiedy je znajdziesz.`
+	"BL-23" `Podczas lądowania Alondo kontaktuje się z tobą i pyta: "Czy masz dla mnie wolne miejsce?" Nie masz, więc musisz je zwolnić, aby kontynuować misję.`
+	"BL-24" `Freya kontaktuje się z tobą i mówi: "Kapitanie, będziesz potrzebował dziesięciu ton przestrzeni ładunkowej." Nie masz jej tak dużo, więc powinieneś tu wrócić, kiedy będziesz miał.`
+	"BL-25" `Freya kontaktuje się z tobą i mówi: "<first>, będziemy potrzebować miejsca dla mnie i dziesięciu ton ładunku na twoim statku. Myślisz, że dasz radę?" Mówisz jej, że skontaktujesz się z nią tutaj na <origin>, jak tylko zwolnisz miejsce.`
+	"BL-26" `Aby kontynuować tę misję, Freya musi mieć wolne łóżko.`
+	"BL-27" `Spotykasz się z Ijsem w porcie kosmicznym, ale on mówi ci, że będziesz potrzebować trzech łóżek dla niego i kilku przyjaciół. Wróć tutaj, gdy tylko zwolni się miejsce.`
+	"BL-28" `Osiągnąłeś <origin>, ale potrzebujesz <capacity>, aby podjąć się kolejnej misji. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-29" `Będziesz potrzebować więcej miejsca w ładowni, żeby przyjąć kolejną misję od Erica i Alarica. Wróć tutaj, gdy będziesz mieć <capacity>.`
+	"BL-30" `Potrzebujesz <capacity>, aby podjąć się następnej misji. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-31" `Ta misja wymaga co najmniej jednego wolnego łóżka. Wróć, gdy tylko znajdziesz wolne miejsce.`
+	"BL-32" `Pracownicy kosmoportu informują cię, że potrzebujesz <tons> wolnego ładunku, aby odebrać wełniane towary przeznaczone dla <planet>.`
+	"BL-33" `Howard zaoferował ci możliwość inwestycji, ale wspomniał, że będzie cię to kosztować milion kredytów z góry i że będziesz potrzebować miejsca na statku, żeby go przetransportować w inne miejsce. Lepiej wróć, kiedy będziesz mieć te kredyty i jeszcze kilka kredytów.`
+	"BL-34" `Kiedy spotykasz się z Jamesem w porcie kosmicznym, mówi: "Cześć, <first>! Znalazłem ci inną misję, ale wygląda na to, że będziesz potrzebować <capacity>, żeby ją wykonać. Musisz więc albo anulować inną misję, albo wrócić tu później, żeby kontynuować tę. Przepraszam! "`
+	"BL-35" `Kiedy spotkasz się z Jamesem w porcie kosmicznym, powie: "Cześć, <first>! Myślę, że to, co chcę ci teraz pokazać, będzie dla ciebie bardzo interesujące, ale najpierw musisz zwolnić <capacity>. Będziesz więc musiał albo anulować inną misję, albo wrócić tu później, żeby kontynuować tę. Przepraszam!"`
+	"BL-36" `Będziesz potrzebować wolnego miejsca na <ship>, jeśli chcesz zabrać Dariusza gdziekolwiek poza tę stację.`
+	"BL-37" `Będziesz potrzebować wolnego miejsca na pokładzie <ship>, aby zabrać Dariusza do <planet>.`
+	"BL-38" `Aby ukończyć tę misję, będziesz potrzebować <capacity>.`
+	"BL-39" `Będziesz potrzebować dwóch wolnych łóżek piętrowych na <ship> dla Dariusa i Sory.`
+	"BL-40" `Będziesz potrzebować <capacity>, aby przetransportować Dariusza, Sorę i Hriso.`
+	"BL-41" `Będziesz potrzebować <capacity> na <ship>, aby przetransportować Dariusza, Sorę i Leona.`
+	"BL-42" `Będziesz potrzebować <capacity> na <ship>, aby przetransportować Dariousa i Sorę.`
+	"BL-43" `Będziesz potrzebować <capacity> na <ship>, aby przetransportować Dariusza.`
+	"BL-44" `Potrzebujesz <capacity>, aby przetransportować Alizę i jej kolegów do Dokimi.`
+	"BL-45" `Potrzebujesz <capacity>, aby pomóc Apri'ie przesunąć okręty podwodne. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-46" `Potrzebujesz <capacity>, aby podjąć się następnej misji. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-47" `W następnej misji możesz potrzebować miejsca na swoim statku dla Anny.`
+	"BL-48" `Nie masz wystarczająco dużo miejsca dla Anny i agenta Heliarch. Wróć tutaj, gdy będziesz mieć dwa wolne miejsca.`
+	"BL-49" `Nie masz wystarczająco dużo miejsca na pryczach dla Anny Fangvin i agenta Heliarch. Wróć tu, gdy będziesz mieć dwa wolne prycze.`
+	"BL-50" `Aby przyjąć tę misję, musisz mieć przynajmniej jedno dostępne łóżko piętrowe.`
+	"BL-51" `Delegacja Hai, która ma spotkać się z Remnantami, potrzebuje 3 łóżek na podróż, ale nie macie wystarczająco dużo miejsca! Wróćcie, gdy znajdziecie miejsce dla delegacji.`
+	"BL-52" `Potrzebujesz <capacity>, aby zwrócić delegację Hai i technologię naprawczą <planet>.`
+	"BL-53" `Delegacja Hai, która ma spotkać się z Koalicją, potrzebuje 3 łóżek na podróż, ale nie macie wystarczająco dużo miejsca! Wróćcie, gdy znajdziecie miejsce dla delegacji.`
+	"BL-54" `Aby podjąć się tej misji, będziesz potrzebować <capacity>.`
+	"BL-55" `Terry kontaktuje się z tobą i mówi: "Kapitanie, są rzeczy do zrobienia i będziesz potrzebował dla mnie wolnego łóżka. Muszę z tobą porozmawiać tak szybko, jak to możliwe. " Nie masz wolnego łóżka, więc powinieneś ukończyć lub przerwać inną misję, żeby zrobić dla niej miejsce, a potem wrócić tutaj.`
+	"BL-56" `Wiadomość pozostawiona dla ciebie przez Sayari brzmi: "<first>, potrzebujemy twojej pomocy i będziesz potrzebować 200 ton przestrzeni ładunkowej." Powinieneś wrócić tutaj po zwolnieniu <capacity>.`
+	"BL-57" `Prawdopodobnie nie jest wskazane zabieranie tylu niepotrzebnych osób do sekretnej lokacji na Darkwaste. Powinieneś wrócić, gdy twoje zapasowe prycze będą wolne.`
+	"BL-58" `Kiedy powiadomisz Alondo o swoim powrocie, poprosi on Cię o upewnienie się, że dysponujesz co najmniej 8 tonami dostępnej przestrzeni ładunkowej.`
+	"BL-59" `Potrzebujesz miejsca na 7t <cargo>.`
+	"BL-60" `Potrzebujesz <bunks> miejsc pasażerskich, aby przetransportować Xilina, Alondo, Sayari i Teeneepa.`
+	"BL-61" `Potrzebujesz <bunks> miejsc pasażerskich, aby odebrać zagubionego Hai; upewnij się, że je masz, a następnie wróć tutaj.`
+	"BL-62" `Wylądowałeś na <origin>, ale nie masz wystarczająco dużo miejsca dla pasażerów Incipiasa <bunks>. Wróć tutaj, gdy będziesz mieć wymaganą ilość wolnego miejsca.`
+	"BL-63" `Będziesz potrzebować <capacity> dostępnych do przenoszenia skanerów krótkiego zasięgu. Wróć tutaj, gdy będziesz mieć wystarczająco dużo wolnego miejsca.`
+	"BL-64" `Będziesz potrzebować <capacity> dostępnych, aby Dusk mogła dołączyć do ciebie w misji. Wróć z dostępnym miejscem, aby kontynuować.`
+	"BL-65" `Gdy tylko dotrzesz, Dusk skontaktuje się z Tobą ponownie. "Witaj ponownie, <first>! Powinniśmy być gotowi na kolejną wyprawę Patir, ale potrzebujemy co najmniej pięciu wolnych koi, żeby ją podjąć, i co najmniej 2 ton przestrzeni ładunkowej na próbki."`
+	"BL-66" `Dusk skontaktuje się z tobą wkrótce po dotarciu do kosmoportu. "<first>, będziemy potrzebować co najmniej pięciu wolnych łóżek do misji, którą przygotowujemy."`
+	"BL-67" `Dusk skontaktuje się z tobą wkrótce po dotarciu do kosmoportu. "<first>, ta misja będzie wymagała <capacity>."`
+	"BL-68" `Zaraz po wylądowaniu zauważasz wiadomość od Dusk. "<first>, będziemy potrzebować przynajmniej wolnego łóżka do misji, którą przygotowujemy."`
+	"BL-69" `Zaraz po wylądowaniu zauważasz wiadomość od Dusk. "<first>, będziemy potrzebować co najmniej pięciu wolnych łóżek do misji, którą przygotowujemy."`
+	"BL-70" `Zaraz po wylądowaniu zauważasz wiadomość od Dusk. "<first>, będziemy potrzebować co najmniej pięciu wolnych łóżek i 3 ton ładunku na misję, którą przygotowujemy."`
+	"BL-71" `Ta misja wymaga jednego pustego łóżka, na którym możesz nieść Gavriila.`
+	"BL-72" `Ładunek jest gotowy do załadunku, ale nie masz wystarczająco dużo wolnego miejsca. Wróć, gdy będziesz mieć <tons> wolnego miejsca.`
+	"BL-73" `Ładunek jest gotowy do załadunku, ale nie masz wystarczająco dużo wolnego miejsca. Wróć, gdy będziesz mieć <tons> wolnego miejsca.`
+	"BL-74" `Patrząc w stronę powalonego <EDC-ship>, nagle zdajesz sobie sprawę, że zapomniałeś o <bunks> pryczach, których potrzebują ewakuowani.`
+	"BL-75" `Potrzebujesz <bunks> dostępnych łóżek, aby przewieźć ekipę ratunkową.`
+	"BL-76" `Aby uratować statek, musisz mieć <bunks> dodatkowej załogi. Wróć tutaj, gdy będziesz mieć wystarczającą liczbę członków załogi.`
+	"BL-77" `Badacz Remnant ma dla ciebie kolejne zadanie, ale będziesz musiał zwolnić trochę miejsca w ładunku, aby je wykonać.`
+	"BL-78" `Prefekt informuje cię, że trzeba ewakuować część rannych do szpitala na Awentynie, ale będziesz potrzebować 8 wolnych łóżek i 5 ton przestrzeni ładunkowej, aby się nimi zająć.`
+	"BL-79" `Taely chciałaby, żebyś dostarczył Caelianowi cenny sprzęt Korath, ale będziesz potrzebował 20 ton miejsca, żeby go udźwignąć.`
+	"BL-80" `Technik, któremu dostarczyłeś odzyskane części Taely, chciałby, abyś zawiózł do Taely'ego kilka gotowych części, ale będziesz potrzebował do tego 20 ton miejsca.`
+	"BL-81" `Ta misja wymaga łóżek dla trzech pasażerów.`
+	"BL-82" `Ładunek jest gotowy do załadunku, ale nie masz wystarczająco dużo wolnego miejsca. Wróć, gdy będziesz mieć <tons> wolnego miejsca.`
+	"BL-83" `Aby wykonać tę misję, potrzebujesz napędu skokowego i laboratorium badawczego.`
+	"BL-84" `Badacz Remnant ma dla ciebie kolejne zadanie, ale będziesz musiał zwolnić <tons> miejsca w ładunku, aby je wykonać.`
+	"BL-85" `Inżynier Plume'a potrzebuje wolnego miejsca i <tons> miejsca na ładunek na swój sprzęt. Wróć, gdy będziesz miał wystarczająco dużo miejsca.`
+	"BL-86" `Technik Plume'a potrzebuje wolnego miejsca na koję i <tons> miejsca na ładunek na swój sprzęt. Wróć, gdy będziesz miał wystarczająco dużo miejsca.`
+	"BL-87" `Do wykonania tej misji potrzebujesz 10 wolnych miejsc w ładunku.`
+	"BL-88" `Do wykonania tej misji potrzebujesz 10 wolnych miejsc, pięciu wolnych łóżek piętrowych i laboratorium badawczego.`
+	"BL-89" `Otrzymujesz wiadomość od Dusk i Taely informującą, że następna misja wymaga miejsca na <tons> ładunku i <fare>.`
+	"BL-90" `Torza wykonuje gwałtowny ruch przez łącze komunikacyjne, wydając rozkazy w kilku kierunkach. "Teraz potrzebujemy kolejnego statku, który może ewakuować 280 ton i 20 osób. Wróć tutaj, gdy będziesz miał odpowiednie możliwości."`
+	"BL-91" `Scena przedstawia zorganizowany chaos. Jeden z Remnantów podpisuje "Potrzebujemy statku, który pomieści <tons> ładunków i 20 pasażerów."`
+	"BL-92" `Meldujesz się u Torzy, który zerka na swój komunikator. "Będziesz potrzebował statku z miejscem dla 15 osób i 30 ton ładunku."`
+	"BL-93" `Chilia i Taely wyglądają na podekscytowanych czymś, ale gdy pytasz, kręcą głowami i mówią, że musisz zdobyć ich licencję kapitałową, zanim będą mogli powiedzieć ci więcej.`
+	"BL-94" `Aby rozpocząć kolejną misję kampanii Remnant, musisz mieć co najmniej 58 wolnych miejsc w ładunkach.`
+	"BL-95" `Twój komunikator informuje, że misja ta wymaga laboratorium badawczego zainstalowanego na twoim okręcie flagowym, a także 2 ton przestrzeni ładunkowej i 1 wolnego miejsca do spania.`
+	"BL-96" `Gdy zbliżasz się do portu kosmicznego, w twoim łączu rozbrzmiewa wiadomość od Ruach, która prosi o przygotowanie miejsca dla 13 osób i 19 ton ładunku.`
+	"BL-97" `Na podstawie obliczeń w punkcie informacyjnym szacujesz, że potrzebujesz miejsca dla 11 osób i 18 ton ładunku.`
+	"BL-98" `Zastanawiasz się, czy opowiedzieć Albertowi Fosterowi o swoich odkryciach na Zug, ale zdajesz sobie sprawę, że nie masz wolnego miejsca, żeby go tam zabrać! Wróć, gdy znajdziesz wolne miejsce.`
+	"BL-99" `Nie masz wystarczająco dużo miejsca na ładunek, aby przewieźć sprzęt na wykopaliska archeologiczne Alberta Fostera. Wróć tutaj, gdy będziesz mieć co najmniej 28 ton wolnego miejsca.`
+	"BL-100" `Nie masz wystarczająco dużo miejsca na ładunek, aby przewieźć sprzęt na wykopaliska archeologiczne Alberta Fostera. Wróć tutaj, gdy będziesz mieć <capacity>.`
+	"BL-101" `Będziesz potrzebować <capacity>, aby przetransportować ksenobiologa, o którego przyprowadzenie poprosił cię Albert Foster. Wróć tutaj, gdy znajdziesz wolne miejsce.`
+	"BL-102" `Docierasz do kosmoportu, ale nagle zdajesz sobie sprawę, że twoje statki nie mają wystarczającej liczby wolnych koi ani miejsca w ładowni, by zabrać ze sobą zespół archeologów. Udaje ci się z nimi skontaktować i w krępującej rozmowie prosisz, żeby na ciebie poczekali, aż upewnisz się, że jesteś gotowy.`
+	"BL-103" `Przybywasz, aby przygotować się do skoku na Zubenelhakrabi, ale Albert cię powstrzymuje. "Kapitanie, Szmaragdowy Miecz to statek kosmiczny i nie mamy pojęcia, ilu ludzi będzie nam potrzebnych do jego obsługi, więc pozwoliłem sobie zatrudnić dodatkową załogę oprócz zespołu specjalistów. Będziemy potrzebować 150 dodatkowych członków załogi do pomocy, wliczając nas, oraz 50 ton ładunku na nasze materiały i zapasowy napęd skokowy."`
+	"BL-104" `Rozmawiasz z Sieasejem, który informuje cię, że potrzebują co najmniej 1 wolnego miejsca do podróży i 1 tony przestrzeni ładunkowej, aby przetransportować "Kijra-riitaa" z powrotem do przestrzeni Następcy.`
+	"BL-105" `Wędrowcy mają dla ciebie kolejną misję, ale będziesz potrzebował <capacity> na ich wyposażenie naukowe.`
+	"BL-106" `Aby podjąć się kolejnej misji Wędrowca, będziesz potrzebować miejsca dla pasażera.`
+	"BL-107" `Będziesz potrzebować <capacity> wolnych jednostek, aby podjąć się kolejnej misji dla Wędrowców.`
+	"BL-108" `Aby podjąć się tej misji, będziesz potrzebować wolnego łóżka dla Rek.`
+	"BL-109" `Aby wykonać następną misję Wędrowca, będziesz potrzebować <capacity>.`
+	"BL-110" `Aby podjąć się tej misji, będziesz potrzebować <capacity> wolnych.`
+	"BL-111" `Aby otrzymać następną misję, będziesz potrzebować 1 tony przestrzeni ładunkowej.`
+	"BL-112" `Aby wykonać następną misję, będziesz potrzebować <capacity>.`
+	"BL-113" `Będziesz potrzebował <capacity>, aby zanieść zapasy do Farpoint.`
+	"BL-114" `Aby podjąć się tej misji, potrzebujesz wolnego łóżka.`
+	"BL-115" `Nie masz wystarczająco dużo miejsca dla pasażerów na tę misję. Wróć tutaj, gdy będziesz mieć wolne miejsce.`
+	"BL-116" `Otrzymujesz wiadomość od Isai, że chciałaby dołączyć do ciebie w kolejnej misji, ale nie masz teraz miejsca. Wróć, gdy będziesz mieć wolne miejsce.`
+	"BL-117" `Aby kontynuować pomoc Wędrowcom, potrzebujesz wolnego miejsca dla pasażera. Wróć tutaj, gdy będzie wolne miejsce.`
+	"BL-118" `Aby przewieźć Iktat Rek, potrzebne jest wolne łóżko piętrowe.`

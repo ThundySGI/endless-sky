@@ -1,0 +1,643 @@
+# Copyright (c) 2024 by Daeridanii
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Successor License"
+	category "Licenses"
+	series "Licenses"
+	index 11010
+	thumbnail "outfit/successor license"
+	description "Przedstawiona przez Wysokie Izby w Radzie, ta mala, niebiesko-biala przypinka jest symbolem dyplomacji Nastepcy. Wreczona obcemu, takiemu jak ty, wyraza ich zaufanie i pewnosc siebie, a wraz z nim gotowosc do sprzedania ci technologii cywilnej."
+
+outfit "High Houses License"
+	category "Licenses"
+	series "Licenses"
+	index 11020
+	thumbnail "outfit/successor license"
+	description "Wysokie Domy produkuja wiekszosc zaawansowanej technologii obecnej w przestrzeni Sukcesora i ograniczaja jej zakup tylko do osob i grup, ktore popieraja ich interesy. Przylaczajac sie do jednego z tych domow, zyskujesz prawo do zakupu tej ekskluzywnej technologii."
+
+
+outfit `"Byiaa" Shield Cortex`
+	category "Systems"
+	series "Shields"
+	index 11010
+	licenses
+		"Successor"
+	cost 225000
+	thumbnail "outfit/tiny successor shield"
+	"mass" 13
+	"outfit space" -13
+	"shield generation" 1.9
+	"shield protection" -0.33
+	"shield energy" 2.92
+	"shield connection point" 1
+	description "W szczytowym okresie Poprzednicy budzili strach nie ze wzgledu na szybkosc, z jaka potrafili pokonac wrogow, ale ze wzgledu na to, jak skutecznie potrafili ich przetrwac. Wiele pokolen pozniej ta filozofia wciaz znajduje odzwierciedlenie w nowoczesnych oslonach tarcz Nastepcow, ktore sa wyjatkowo potezne jak na swoj rozmiar, ale oslabiaja odpornosc tarczy na ostrzal. Pozwala to statkom Nastepcow szybko regenerowac sie po odniesionych uszkodzeniach, nawet jesli sa na nie nieco bardziej podatne."
+
+outfit `"Ej" Shield Cortex`
+	category "Systems"
+	series "Shields"
+	index 11020
+	licenses
+		"Successor"
+	cost 565000
+	thumbnail "outfit/small successor shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 3.0
+	"shield protection" -0.33
+	"shield energy" 4.7
+	"shield connection point" 1
+	description "Poniewaz ich bimodalne silniki czerpia energie z matrycy oslon statku, nawet statki Successor, ktore nie sa wykorzystywane w walce, moga uzasadnic wyposazenie ich w potezne generatory oslon, aby zapewnic im wieksza mobilnosc. To najwieksza jednostka, jaka Wysokie Domy dopuszczaja do sprzedazy publicznej; mimo to oferuje ona znacznie szybsza regeneracje niz nawet najwieksze generatory oslon ludzkich."
+
+outfit `"Jaase" Shield Cortex`
+	category "Systems"
+	series "Shields"
+	index 11030
+	licenses
+		"High Houses"
+	cost 3550000
+	thumbnail "outfit/medium successor shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 4.8
+	"shield protection" -0.33
+	"shield energy" 7.4
+	"shield connection point" 1
+	description "Technologia ich poprzednikow nie byla tak modulowa, jak wspolczesnych odpowiednikow nastepcow, ktore musza byc budowane przy uzyciu bardziej ograniczonych zasobow i stosunkowo prymitywnych technik produkcyjnych. Niemniej jednak, ten sredniej wielkosci korowy element tarczy jest wystarczajaco potezny, aby odeprzec laczne obrazenia zadawane przez kilku slabszych napastnikow, dlatego tez jest zarezerwowany przez Wysokie Rody do uzytku w ich prywatnych flotach."
+
+outfit `"Jorv" Shield Cortex`
+	category "Systems"
+	series "Shields"
+	index 11040
+	cost 8250000
+	thumbnail "outfit/large successor shield"
+	licenses
+		"High Houses"
+	"mass" 55
+	"outfit space" -55
+	"shield generation" 10.5
+	"shield protection" -0.33
+	"shield energy" 16.1
+	"shield connection point" 1
+	description "Ta duza oslona korowa Nastepcy, naszpikowana wezlami regeneracyjnymi, wymaga budzetu mocy wiekszego niz wiekszosc ludzkich okretow wojennych w calosci. Wielu bardziej tradycyjnych czlonkow Wysokich Domow nie pochwala jej projektu, argumentujac, ze tak potezny element ich technologii zasluguje na bardziej kunsztowna forme, ale ostatecznie nie bylo checi inwestowania czasu i pieniedzy w przeprojektowanie z powodow czysto estetycznych."
+
+outfit "Shield Cortex Interface"
+	category "Systems"
+	cost 250000
+	thumbnail "outfit/shield cortex interface"
+	series "Shields"
+	index 11099
+	licenses
+		"Successor"
+	mass 3
+	"outfit space" -3
+	"shield protection" 0.33
+	"shield generation multiplier" -0.05
+	"shield connection point" -2
+	description "Ten zwarty ciag wlokien elektrycznych laczy dwie kory oslon Successor, tworzac jedna calosc, zapobiegajac nadmiernemu zmniejszeniu trwalosci oslon statku przez efekt zmiekczania oslon jednego z generatorow, kosztem nieznacznego obnizenia wydajnosci. Efekt ten jest slabo skalowalny przy wykorzystaniu dwoch polaczonych generatorow."
+
+
+outfit `1-"Uurau" Betavoltaic Cell`
+	category "Power"
+	series "Generators"
+	index 11010
+	licenses
+		Successor
+	cost 120000
+	thumbnail "outfit/small betavoltaic"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 0.85
+	"heat generation" 0.65
+	"energy capacity" 1200
+	description "W przeciwienstwie do wiekszosci generatorow radioizotopowych, to ogniwo energetyczne dziala poprzez pozyskiwanie energii elektrycznej bezposrednio z czastek beta powstajacych w wyniku rozpadu promieniotworczego. Chociaz proces ten generuje mniej energii na jednostke materialu, jest on rowniez bezpieczniejszy i generuje bardzo malo ciepla odpadowego."
+
+outfit `OC-"Mavra" Betavoltaic Cell`
+	category "Power"
+	series "Generators"
+	index 11040
+	licenses
+		Successor
+	cost 540000
+	thumbnail "outfit/overcharged betavoltaic"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 2.25
+	"heat generation" 3.8
+	"energy capacity" 2000
+	description "Starajac sie stworzyc zrodlo energii o wysokiej gestosci, mniejsze niz ich reaktory fuzyjne, Successorzy stworzyli to przeladowane ogniwo betawoltaiczne, ktore zawiera material radioaktywny o szczegolnie wysokiej gestosci i nie posiada w znacznym stopniu ochrony przed promieniowaniem, jaka posiadaja standardowe modele. Chociaz technicznie przeszlo ono kontrole bezpieczenstwa, wiekszosc pilotow Successorow, co zrozumiale, woli zawsze trzymac przegrode miedzy soba a jednym z tych malych, silnych rdzeni."
+
+outfit `3-"Kaska" Betavoltaic Cell`
+	category "Power"
+	series "Generators"
+	index 11020
+	licenses
+		Successor
+	cost 455000
+	thumbnail "outfit/medium betavoltaic"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 3.5
+	"heat generation" 2.6
+	"energy capacity" 3100
+	description "Generatory betawoltaiczne Nastepcow to produkty z czasow tuz po upadku imperium ich Poprzednikow, czasow naznaczonych niedoborem i koniecznoscia. Ich solidne konstrukcje nie odwolywaly sie do tradycyjnych wartosci piekna, elegancji czy wyjatkowosci, lecz oferowaly niezawodnosc, ktora sprawila, ze cieszyly sie duza popularnoscia wsrod tych, ktorzy wowczas walczyli o przetrwanie."
+
+outfit `6-"Ruuv" Betavoltaic Cell`
+	category "Power"
+	series "Generators"
+	index 11030
+	licenses
+		Successor
+	cost 950000
+	thumbnail "outfit/large betavoltaic"
+	"mass" 75
+	"outfit space" -75
+	"energy generation" 8.1
+	"heat generation" 5.3
+	"energy capacity" 8500
+	description "Ten duzy, modulowy generator betawoltaiczny zostal zaprojektowany z mysla o odpornosci i niezawodnosci: jesli jedno z jego ogniw ulegnie awarii, moze kontynuowac prace z nieznacznie zmniejszona moca. Nastepcy unikaja jego stosowania na okretach wojennych ze wzgledu na niska gestosc energii, ale jest on czesto wykorzystywany na statkach handlowych, archeologicznych i innych statkach cywilnych."
+
+
+outfit "Auxiliary Power Reserve"
+	category "Power"
+	series "Batteries"
+	index 11010
+	cost 60000
+	thumbnail "outfit/small successor battery"
+	licenses
+		"Successor"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 3000
+	"hull energy" -0.16
+	description "Stosunkowo ograniczona moc ogniw betawoltaicznych Successorow sklonila ich do budowy wydajnych baterii, aby zrekompensowac ten deficyt. Aby uzyskac dodatkowa moc na swoich okretach wojennych, ogniwa te rezerwuja czesc swojej pojemnosci wylacznie do wykorzystania przez systemy naprawcze kadluba, skutecznie zmniejszajac ilosc energii pobieranej przez te systemy z calkowitej puli energii okretu w stanie aktywnym."
+
+outfit "Primary Power Reserve"
+	category "Power"
+	series "Batteries"
+	index 11010
+	cost 320000
+	thumbnail "outfit/large successor battery"
+	licenses
+		"Successor"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 15000
+	"hull energy" -0.8
+	description "Ta wieksza bateria Successor magazynuje imponujaca ilosc energii i moze zauwazalnie zmniejszyc efektywny pobor mocy przez systemy naprawy kadluba okretu podczas walki. Wysokie Domy wykorzystuja ja w polaczeniu z systemami dystrybucji energii swoich reaktorow, aby zapewnic zasilanie i sprawnosc okretow wojennych nawet wtedy, gdy sa wyposazone w najbardziej energochlonny sprzet. Mimo to nie ograniczaja sprzedazy tego urzadzenia do ogolu spoleczenstwa."
+
+
+outfit `"Nnesa" Fusion Core`
+	category "Power"
+	series "Generators"
+	index 11050
+	cost 4754000
+	thumbnail "outfit/small successor reactor"
+	licenses
+		"High Houses"
+	"mass" 56
+	"outfit space" -56
+	"energy generation" 9.6
+	"heat generation" 14.6
+	"shield energy multiplier" -0.08
+	"hull energy multiplier" -0.08
+	description "Chociaz betawoltaika moze byc wystarczajaca do uzytku cywilnego, bardziej zaawansowana technologia Wysokich Domow jest na tyle energochlonna, ze wymaga mocniejszych generatorow. Zamiast koncentrowac sie na pozyskiwaniu jak najwiekszej mocy z jak najmniejszej przestrzeni, Wysokie Domki zaprojektowaly te reaktory fuzyjne typu stellarator z mysla o wydajnosci i mobilnosci; wytwarzaja one malo ciepla i niewiele odpadow ubocznych. Ponadto zostaly zaprojektowane tak, aby wydajniej przekazywac energie do systemow obronnych statku, co przeklada sie na zmniejszenie poboru mocy przez powiazane urzadzenia."
+
+outfit `"Ryuit" Fusion Core`
+	category "Power"
+	series "Generators"
+	index 11060
+	cost 12250000
+	thumbnail "outfit/medium successor reactor"
+	licenses
+		"High Houses"
+	"mass" 98
+	"outfit space" -98
+	"energy generation" 17.9
+	"heat generation" 23.5
+	"shield energy multiplier" -0.14
+	"hull energy multiplier" -0.14
+	description "Podobnie jak wiekszosc technologii Nastepcow, ich wspolczesne reaktory bazuja na podobnych, ukrytych przez Wysokie Domy podczas upadku imperium Poprzednikow. Choc ich wspolczesne rozwiazania nie dorownuja w pelni potencjalem ich przodkow, projekty zachowuja aure elegancji i mocy, wirujac niczym plomienie i pulsujac energia."
+	description "	Nie sposob tez nie zastanawiac sie nad tymi kilkoma oryginalnymi reaktorami, ktore najprawdopodobniej pozostaja zamkniete w prywatnych skarbcach Wysokich Domow, utrzymywane w doskonalym stanie na wypadek, gdyby znow byly potrzebne."
+
+outfit `"Uoret" Fusion Core`
+	category "Power"
+	series "Generators"
+	index 11070
+	cost 17754000
+	thumbnail "outfit/large successor reactor"
+	licenses
+		"High Houses"
+	"mass" 145
+	"outfit space" -145
+	"energy generation" 28.5
+	"heat generation" 35.1
+	"shield energy multiplier" -0.22
+	"hull energy multiplier" -0.22
+	description "Zaprojektowany w formie rosliny kwitnacej z planety przodkow Nastepcow, ten najwiekszy i najpotezniejszy stellarator Wysokich Domow demonstruje bieglosc w wykorzystaniu energii syntezy jadrowej, znacznie przewyzszajaca mozliwosci ludzkosci. Oprocz tego, ze jest potezny i zaskakujaco wydajny, jest rowniez wspierany przez duza i dobrze zintegrowana siec dystrybucji energii, zdolna do znacznego zmniejszenia poboru energii przez energochlonne systemy obronne Nastepcow."
+
+
+outfit "Successor Cooling"
+	category "Systems"
+	series "Cooling"
+	index 11010
+	cost 94000
+	thumbnail "outfit/successor cooling"
+	licenses
+		"Successor"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 4.5
+	"active cooling" 10.5
+	"cooling energy" 1.1
+	description "Podobnie jak wiele innych rozwiazan technologicznych firmy Successor, chlodzenie Successor jest bimodalne i polega na wykorzystaniu stalego, niskoprzeplywowego obiegu chlodziwa, ktorego objetosc i ilosc oddawanego ciepla mozna zwiekszyc, gdy sytuacja tego wymaga."
+
+
+outfit "Successor Fuel Sail"
+	category "Systems"
+	series "Ramscoops"
+	index 11010
+	cost 112000
+	thumbnail "outfit/fuel sail"
+	licenses
+		"Successor"
+	"mass" 4
+	"outfit space" -14
+	"ramscoop" 4.0
+	"solar heat" 6.0
+	"drag" 0.1
+	description "Sukcesorzy zachowuja silna wiez ze swoja morska tradycja, czego przykladem jest ten dziwnie rustykalny zbiornik paliwa. Zagiel rozszerza sie do ogromnego obszaru w poblizu korony gwiezdnej, delikatnie zbierajac z niej wodor i skraplajac go do zbiornika paliwa statku w sposob znacznie bardziej elegancki niz stosunkowo brutalne dzialanie tradycyjnego szufelki. Piloci powinni jednak pamietac, ze duza powierzchnia rozlozonego zagla pochlania rowniez duzo ciepla."
+
+
+outfit `"Veldt" Combat Scanner`
+	category "Systems"
+	series "Scanners"
+	index 11020
+	cost 220000
+	thumbnail "outfit/veldt combat scanner"
+	licenses
+		"High Houses"
+	"mass" 6
+	"outfit space" -6
+	"energy consumption" 0.12
+	"tactical scan power" 50
+	"cargo scan power" 50
+	"cargo scan efficiency" 15
+	description "Wysokie Izby wola utrzymywac swoje terytoria pod scislym nadzorem i od dawna opracowuja w tym celu potezne i wydajne skanery. Ten system skanowania jest ich najnowsza generacja, sluzaca zarowno do identyfikacji przemytu, jak i namierzania potencjalnych wrogow z duzej odleglosci."
+	description "	Chociaz sprzedaz skanerow jest ograniczona, ogromna liczba wyprodukowanych egzemplarzy spowodowala, ze kilka z nich trafilo na czarny rynek. Jest to staly problem, ktory Wysokie Izby staraja sie rozwiazac."
+
+outfit `"Tuur" Scanning Suite`
+	category "Systems"
+	series "Scanners"
+	index 11010
+	cost 220000
+	thumbnail "outfit/tuur scanning suite"
+	licenses
+		"Successor"
+	"mass" 4
+	"outfit space" -4
+	"energy consumption" 0.10
+	"asteroid scan power" 35
+	"atmosphere scan" 100
+	description "Ten system skanowania zostal opracowany w pierwszych latach po upadku Poprzednikow, kiedy nowo wyemigrowane Wysokie Domy potrzebowaly nowych zloz surowcow, aby zastapic te, ktore pozostawily. Choc mniej wydajny niz skanery ludzkie, jest kompaktowy i wydajny, przydatny do identyfikacji materialow zarowno na asteroidach, jak i na powierzchni planet."
+	description "	W dzisiejszych czasach, gdy terytoria Wysokich Domow sa mniej wiecej statyczne, skanery te sa wykorzystywane przede wszystkim przez badaczy jako narzedzia do analizy planet lub przez niezaleznych pilotow utrzymujacych sie z wydobycia mineralow z asteroid."
+
+
+outfit `"Niis" Inductive Engines`
+	plural `"Niis" Inductive Engines`
+	category "Engines"
+	series "Engines"
+	index 11010
+	"cost" 255000
+	thumbnail "outfit/successor engines tiny"
+	licenses
+		"Successor"
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
+	"thrust" 16.8
+	"thrusting energy" 0.9
+	"thrusting heat" 0.8
+	"afterburner thrust" 25.2
+	"afterburner shields" 3.0
+	"afterburner heat" 1.6
+	"afterburner effect" "tiny successor afterburner"
+	"flare sprite" "effect/successor flare/tiny"
+		"frame rate" 20
+	"flare sound" "ion tiny"
+	"turn" 405
+	"turning energy" 0.24
+	"turning heat" 0.4
+	"steering flare sprite" "effect/successor flare/tiny"
+		"frame rate" 20
+	"steering flare sound" "ion tiny"
+	description "Ten niewielki zestaw silnikow indukcyjnych wystarcza do napedzania wahadlowca Successor. Zachowuje on mozliwosci pracy w dwoch trybach, co wieksze modele, choc w znacznie mniejszej skali."
+
+outfit `"Aqra" Inductive Thruster`
+	category "Engines"
+	series "Engines"
+	index 11021
+	"cost" 150000
+	thumbnail "outfit/small successor thruster"
+	licenses
+		"Successor"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 27.0
+	"thrusting energy" 1.74
+	"thrusting heat" 1.1
+	"afterburner thrust" 40.5
+	"afterburner shields" 4.5
+	"afterburner heat" 2.2
+	"afterburner energy" 1.74
+	"afterburner effect" "small successor afterburner"
+	"flare sprite" "effect/successor flare/small"
+		"frame rate" 20
+	"flare sound" "ion small"
+	description "Nastepne silniki sa bimodalne: przez wiekszosc czasu dzialaja w energooszczednym trybie niskiego poboru mocy, ale gdy nadchodzi czas ucieczki lub walki, mozna je przelaczyc na mniej wydajny, ale bardzo mocny tryb wysokiego ciagu, czerpiacy energie z oslon statku."
+
+outfit `"Aqra" Inductive Steering`
+	category "Engines"
+	series "Engines"
+	index 11020
+	"cost" 120000
+	thumbnail "outfit/small successor steering"
+	licenses
+		"Successor"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"afterburner energy" -0.7
+	"turn" 684
+	"turning energy" 1.1
+	"turning heat" 0.8
+	"steering flare sprite" "effect/successor flare/small"
+		"frame rate" 20
+	"steering flare sound" "ion small"
+	description "Poniewaz ich pedniki sterowe nie posiadaja przelacznika trybu pracy, charakterystycznego dla napedu liniowego, okrety Successor dolozyly wszelkich staran, aby pedniki te byly zarowno mocne jak na swoj rozmiar, jak i stosunkowo wydajne. Ponadto, strumienie energii z pednikow sterowych sa przekazywane z powrotem do liniowych silnikow statku podczas trybow dopalania, zmniejszajac, a nawet niwelujac, dodatkowe koszty energii zwiazane z dopalaniem."
+
+outfit `"Aqra" Inductive Reverser`
+	category "Engines"
+	series "Engines"
+	index 11022
+	"cost" 140000
+	thumbnail "outfit/small successor reverse"
+	licenses
+		"Successor"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"reverse thrust" 15.8
+	"reverse thrusting energy" 0.9
+	"reverse thrusting heat" 0.7
+	"afterburner energy" -0.52
+	"reverse flare sprite" "effect/successor flare/small"
+		"frame rate" 20
+	"reverse flare sound" "ion small"
+	description "Technologia silnikow indukcyjnych stosowana przez Successorow jest najbardziej podobna do silnikow jonowych uzywanych w przestrzeni kosmicznej, ale silniejsze pola magnetyczne wykorzystywane przez te silniki pozwalaja im generowac znacznie wieksza sile ciagu niz jakikolwiek porownywalny silnik jonowy uzywany przez czlowieka."
+	description "	Poniewaz silnik odrzutowy musi byc skierowany do przodu, nalezy go zamontowac w sekcji uzbrojenia statku, a nie w sekcji silnika."
+
+outfit `"Chyyra" Inductive Thruster`
+	category "Engines"
+	series "Engines"
+	index 11031
+	"cost" 680000
+	thumbnail "outfit/medium successor thruster"
+	licenses
+		"Successor"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 48.0
+	"thrusting energy" 2.7
+	"thrusting heat" 1.8
+	"afterburner thrust" 72.0
+	"afterburner shields" 8.0
+	"afterburner heat" 4.0
+	"afterburner energy" 2.7
+	"afterburner effect" "medium successor afterburner"
+	"flare sprite" "effect/successor flare/medium"
+		"frame rate" 20
+	"flare sound" "ion medium"
+	description "Ten wiekszy zestaw pednikow indukcyjnych jest imponujaco wydajny przy niskim poborze mocy i generuje rownie imponujacy ciag w trybie wysokiej mocy. Dzieki nim nawet duze i pozornie ociezale statki Successor moga nagle stac sie znacznie bardziej zwinne w obliczu zagrozenia."
+
+outfit `"Chyyra" Inductive Steering`
+	category "Engines"
+	series "Engines"
+	index 11030
+	"cost" 560000
+	thumbnail "outfit/medium successor steering"
+	licenses
+		"Successor"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"afterburner energy" -1.4
+	"turn" 1357.5
+	"turning energy" 2.3
+	"turning heat" 1.7
+	"steering flare sprite" "effect/successor flare/medium"
+		"frame rate" 20
+	"steering flare sound" "ion medium"
+	description "Choc nie jest szczegolnie mocny jak na swoj rozmiar, ten zestaw indukcyjnych silnikow sterujacych jest niezwykle wydajny, dzieki czemu duze statki Successor zachowuja wzgledna zwinnosc nawet wtedy, gdy sa wyposazone w bardzo male generatory."
+
+outfit `"Chyyra" Inductive Reverser`
+	category "Engines"
+	series "Engines"
+	index 11032
+	"cost" 590000
+	thumbnail "outfit/medium successor reverse"
+	licenses
+		"Successor"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"reverse thrust" 33.0
+	"reverse thrusting energy" 2.1
+	"reverse thrusting heat" 1.6
+	"afterburner energy" -1.2
+	"reverse flare sprite" "effect/successor flare/medium"
+		"frame rate" 20
+	"reverse flare sound" "ion medium"
+	description "Ten duzy silnik odwrotny wykorzystywany jest zarowno w handlu, jak i w dzialaniach wojennych, przyspieszajac przemieszczanie sie szlakami handlowymi w pierwszym przypadku i zwiekszajac zwinnosc bojowa w drugim."
+	description "	Poniewaz silnik odrzutowy musi byc skierowany do przodu, nalezy go zamontowac w sekcji uzbrojenia statku, a nie w sekcji silnika."
+
+outfit `"Veusa" Inductive Thruster`
+	category "Engines"
+	series "Engines"
+	index 11041
+	"cost" 3550000
+	thumbnail "outfit/large successor thruster"
+	licenses
+		"Successor"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 82.0
+	"thrusting energy" 4.8
+	"thrusting heat" 3.15
+	"afterburner thrust" 123.0
+	"afterburner shields" 12.2
+	"afterburner heat" 8.3
+	"afterburner energy" 4.8
+	"afterburner effect" "large successor afterburner"
+	"flare sprite" "effect/successor flare/large"
+		"frame rate" 20
+	"flare sound" "ion large"
+	description ` Veusa, najwiekszy z impulsowych silnikow indukcyjnych Successorow, sluzy glownie do napedzania duzych okretow wojennych i frachtowcow. Chociaz jego tryb wysokiej wydajnosci jest wystarczajaco mocny, aby rozpedzic nawet najwieksze jednostki do duzych predkosci, jednoczesnie niezwykle szybko wyczerpuje energie oslon; najwyrazniej jest on przeznaczony do wspolpracy z jednym z szybko ladujacych sie generatorow oslon Successorow.`
+
+outfit `"Veusa" Inductive Steering`
+	category "Engines"
+	series "Engines"
+	index 11040
+	"cost" 2925000
+	thumbnail "outfit/large successor steering"
+	licenses
+		"Successor"
+	"mass" 42
+	"outfit space" -42
+	"engine capacity" -42
+	"afterburner energy" -2.4
+	"turn" 1850
+	"turning energy" 3.15
+	"turning heat" 2.54
+	"steering flare sprite" "effect/successor flare/large"
+		"frame rate" 20
+	"steering flare sound" "ion large"
+	description `Seria Veusa jednostek sterujacych Successor jest znacznie mniejsza od porownywalnych silnikow napedzanych sila ludzkich miesni, co pozwala Successorom na pewna elastycznosc w rozmieszczeniu silnikow na ich duzych statkach.`
+
+outfit `"Veusa" Inductive Reverser`
+	category "Engines"
+	series "Engines"
+	index 11042
+	"cost" 3050000
+	thumbnail "outfit/large successor reverse"
+	licenses
+		"Successor"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"afterburner energy" -2.1
+	"reverse thrust" 51.0
+	"reverse thrusting energy" 3.5
+	"reverse thrusting heat" 2.8
+	"reverse flare sprite" "effect/successor flare/large"
+		"frame rate" 20
+	"reverse flare sound" "ion large"
+	description "Chociaz bezkregowe nastepcy sa stosunkowo niewrazliwe, ludzcy piloci musza zachowac ostroznosc podczas uzywania tak duzego silnika odwrotnego, aby uniknac niebezpiecznego przeciazenia ciala."
+	description "	Poniewaz silnik odrzutowy musi byc skierowany do przodu, nalezy go zamontowac w sekcji uzbrojenia statku, a nie w sekcji silnika."
+
+
+outfit "Multimodal Armor: Light"
+	category "Systems"
+	series "Special Systems"
+	index 11010
+	thumbnail "outfit/successor armor light"
+	licenses
+		"High Houses"
+	"hull protection" .1
+	"inertia reduction" .15
+	"multimodal armor" -1
+	"unplunderable" 1
+	description "Pancerz metamaterialowy okretow wojennych klasy Successor mozna modyfikowac w odpowiednio wyposazonym porcie kosmicznym, zmieniajac jego atrybuty."
+	description "	Ta konfiguracja wprowadza uporzadkowane nanoprzestrzenie do struktury pancerza, redukujac mase okretu wojennego bez naruszania integralnosci strukturalnej."
+
+outfit "Multimodal Armor: Heavy"
+	category "Systems"
+	series "Special Systems"
+	index 11020
+	thumbnail "outfit/successor armor heavy"
+	licenses
+		"High Houses"
+	"hull protection" .2
+	"multimodal armor" -1
+	"unplunderable" 1
+	description "Pancerz metamaterialowy okretow wojennych klasy Successor mozna modyfikowac w odpowiednio wyposazonym porcie kosmicznym, zmieniajac jego atrybuty."
+	description "	Ta konfiguracja wzmacnia wiazania miedzy atomami tworzacymi pancerz, zwiekszajac jego odpornosc na bezposrednie uszkodzenia."
+
+outfit "Multimodal Armor: Regen"
+	category "Systems"
+	series "Special Systems"
+	index 11030
+	thumbnail "outfit/successor armor regen"
+	licenses
+		"High Houses"
+	"hull repair multiplier" .75
+	"multimodal armor" -1
+	"unplunderable" 1
+	description "Pancerz metamaterialowy okretow wojennych klasy Successor mozna modyfikowac w odpowiednio wyposazonym porcie kosmicznym, zmieniajac jego atrybuty."
+	description "	Ta konfiguracja zwieksza plastycznosc pancerza, co znacznie zwieksza skutecznosc napraw w walce."
+
+outfit "Multimodal Armor: Keystone"
+	category "Systems"
+	series "Special Systems"
+	index 11040
+	thumbnail "outfit/successor armor keystone"
+	licenses
+		"High Houses"
+	cost 10000000
+	"quantum keystone" 1
+	"scan interference" 3
+	"multimodal armor" -1
+	"unplunderable" 1
+	description "Pancerz metamaterialowy okretow wojennych klasy Successor mozna modyfikowac w odpowiednio wyposazonym porcie kosmicznym, zmieniajac jego atrybuty."
+	description "	Ta konfiguracja pozwala statkowi wyposazonemu w nia bezpiecznie przechodzic przez niestabilne tunele czasoprzestrzenne. Dodatkowo, znaczaco zakloca ona zewnetrzne skanowanie ladunku lub wyposazenia statku."
+
+
+outfit "Kinetic Rail Rifle"
+	category "Hand to Hand"
+	series "H2H"
+	index 11010
+	thumbnail "outfit/railgun h2h"
+	licenses "High Houses"
+	cost 72000
+	"capture attack" 1.9
+	"capture defense" 3.2
+	"unplunderable" 1
+	description "Chociaz bron pociskowa tej skali jest uwazana za przestarzala w przestrzeni kosmicznej, wyparta przez bron laserowa, pokolenia Sukcesorow, dzieki doswiadczeniu z bronia kinetyczna duzej mocy, stworzyly ten wyjatkowo przerazajacy karabin elektromagnetyczny, wystrzeliwujacy pociski zdolne przebic pancerze, a nawet grodzie. Szczegolnie skuteczny w odpieraniu abordazy, jest w stanie komunikowac sie z komputerami i systemami nadzoru statku Sukcesora, przesylajac informacje o celu do wbudowanego wyswietlacza."
+
+
+effect "tiny successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+		"scale" 0.20
+	zooms
+	sound "successor afterburner tiny"
+	"sound category" "afterburner"
+	lifetime 1
+
+effect "small successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+		"scale" 0.36
+	zooms
+	sound "successor afterburner small"
+	"sound category" "afterburner"
+	lifetime 1
+
+effect "medium successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+		"scale" 0.6
+	zooms
+	sound "successor afterburner medium"
+	"sound category" "afterburner"
+	lifetime 1
+
+effect "large successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+	zooms
+	sound "successor afterburner large"
+	"sound category" "afterburner"
+	lifetime 1

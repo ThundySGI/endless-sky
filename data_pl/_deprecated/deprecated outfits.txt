@@ -1,0 +1,762 @@
+# Copyright (c) 2014-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Note: this file contains outfits that are no longer used in the game, but that
+# must be maintained in case anyone installed one of them while they were available.
+
+outfit "Korath Tek'far Reactor"
+	category "Power"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 3.9
+	"heat generation" 7.3
+	description "To jest miniaturowy reaktor jadrowy, uzywany przez Korath do zasilania ich mysliwcow."
+
+outfit "Korath Tek'nel Reactor"
+	category "Power"
+	cost 14000000
+	thumbnail "outfit/unknown"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 27.1
+	"heat generation" 80
+	description "Ten ogromny reaktor zostal zaprojektowany przez Korath, aby sprostac zapotrzebowaniu na energie ich najwiekszych statkow."
+
+
+outfit "Korath Shield Generator"
+	category "Systems"
+	cost 1700000
+	thumbnail "outfit/unknown"
+	"mass" 52
+	"outfit space" -52
+	"shield generation" 2.4
+	"shield energy" 2.4
+	description "Wojownicy Korath nie potrafia ladowac swoich tarcz, ale ich wieksze statki sa w nie wyposazone."
+
+outfit "Korath Heat Shunt"
+	category "Systems"
+	cost 450000
+	thumbnail "outfit/unknown"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 78
+	description "Bron Korathow generuje ekstremalnie duzo ciepla, dlatego wymaga ogromnych systemow chlodzenia."
+
+outfit "Korath Ark'torbal Thruster"
+	category "Engines"
+	"cost" 40000
+	thumbnail "outfit/unknown"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"thrust" 13.35
+	"thrusting energy" 1.1
+	"thrusting heat" 1.0
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+	description "Ten silnik jest uzywany przez mysliwce Korath."
+
+outfit "Korath Ark'parat Steering"
+	category "Engines"
+	"cost" 36000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 360
+	"turning energy" .6
+	"turning heat" .7
+	description "Ten silnik jest uzywany przez mysliwce Korath."
+
+outfit "Korath Jak'torbal Thruster"
+	category "Engines"
+	"cost" 317000
+	thumbnail "outfit/unknown"
+	"mass" 89
+	"outfit space" -89
+	"engine capacity" -89
+	"thrust" 94.65
+	"thrusting energy" 5.9
+	"thrusting heat" 14.3
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 8
+	"flare sound" "plasma large"
+	description "Ten silnik jest uzywany w okretach flagowych Korath."
+
+outfit "Korath Jak'parat Steering"
+	category "Engines"
+	"cost" 2740000
+	thumbnail "outfit/unknown"
+	"mass" 67
+	"outfit space" -67
+	"engine capacity" -67
+	"turn" 2520
+	"turning energy" 3.1
+	"turning heat" 7.9
+	description "Ten silnik jest uzywany w okretach flagowych Korath."
+
+
+# Deprecated in favor of the Outfits Expansion, which has a cooling penalty that
+# stacks up and limits how many you can install.
+outfit "Mass Expansion"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/blue screwdriver"
+	"mass" 5
+	"outfit space" 15
+	"cargo space" -20
+	unplunderable 1
+	description "Rozszerzenie masy pozwala poswiecic czesc przestrzeni ladunkowej, aby zrobic miejsce na wiecej wyposazenia, w sytuacjach, gdy potrzebujesz tylko troche wiecej miejsca na instalacje konkretnego systemu. Niestety, nie zwieksza to pojemnosci broni ani silnika."
+
+# Deprecated to give it a less generic name.
+outfit "Reverse Thruster"
+	category "Engines"
+	"cost" 140000
+	thumbnail "outfit/reverse thruster"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"reverse thrust" 28.06
+	"reverse thrusting energy" 1.8
+	"reverse thrusting heat" 3.5
+
+# Deprecated for 0.9.2 due to long outfit names.
+outfit "Bullfrog Anti-Missile Turret"
+	category "Turrets"
+	cost 55000
+	thumbnail "outfit/anti-missile hai"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		"hit effect" "small anti-missile"
+		"anti-missile" 12
+		"velocity" 150
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 12
+		"firing heat" 5
+		"stream"
+	description ""
+
+outfit "Chameleon Anti-Missile Turret"
+	category "Turrets"
+	cost 140000
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		"hit effect" "large anti-missile"
+		"anti-missile" 16
+		"velocity" 200
+		"lifetime" 1
+		"reload" 15
+		"firing energy" 23
+		"firing heat" 6
+		"stream"
+	description ""
+
+# Because of "big explosion" being renamed to "large explosion":
+effect "big explosion"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 15
+	sound "explosion large"
+	"lifetime" 32
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 4
+	"random velocity" .8
+	"velocity scale" .4
+
+# Deprecated to clarify their name as being part of the Navy, and not a general purpose license for cruiser type ships.
+outfit "Cruiser License"
+	category "Special"
+	thumbnail "outfit/navy cruiser license"
+	description "Nadzwyczaj rzadkim przywilejem jest mozliwosc zakupu okretu flagowego Marynarki Wojennej do uzytku prywatnego - nie tylko ze wzgledu na sile ognia krazownika, ale takze dlatego, ze jest on poteznym symbolem sily Republiki."
+
+# Deprecated to clarify their name as being part of the Navy, and not a general purpose license for carrier type ships.
+outfit "Carrier License"
+	category "Special"
+	thumbnail "outfit/navy carrier license"
+	description "Tylko garstka ludzi w ubieglym stuleciu otrzymala pozwolenie na zakup lotniskowca marynarki wojennej, nawet wycofanego ze sluzby, do uzytku prywatnego."
+
+# Compatibility patch for those who use plug-ins that give all the licenses.
+# Each one checks for the presence of one of the two licenses, then replaces it.
+mission "Navy Cruiser License Compatibility"
+	landing
+	invisible
+	to offer
+		has "license: Cruiser"
+	on offer
+		set "license: Navy Cruiser"
+		fail
+
+
+
+mission "Navy Carrier License Compatibility"
+	landing
+	invisible
+	to offer
+		has "license: Carrier"
+	on offer
+		set "license: Navy Carrier"
+		fail
+
+outfit "Afterburner"
+	category "Engines"
+	"cost" 70000
+	thumbnail "outfit/afterburner"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"afterburner thrust" 56.25
+	"afterburner fuel" .1
+	"afterburner heat" 10.0
+	"afterburner effect" "afterburner"
+	description "Dopalacz dziala poprzez wlanie paliwa nadprzestrzennego do silnikow i jego zaplon, generujac duza sile ciagu. Moze to byc bardzo przydatne do unikania pociskow lub chwilowej ucieczki przed szybszymi przeciwnikami, ale nalezy uwazac, aby nie zuzyc go tak duzo, ze zabraknie na podroz nadprzestrzenna."
+
+
+
+outfit "Korath Grab-Strike"
+	category "Turrets"
+	cost 821000
+	thumbnail "outfit/grab-strike"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"energy capacity" 100
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/grab-strike"
+			"frame rate" 25
+			"random start frame"
+		"hardpoint sprite" "hardpoint/grab-strike"
+		"hardpoint offset" 7.
+		sound "grab-strike"
+		"hit effect" "grab-strike impact"
+		"die effect" "grab-strike impact"
+		"inaccuracy" 1
+		"turret turn" 1.9
+		"velocity" 10
+		"lifetime" 100
+		"reload" 20
+		"firing energy" 60
+		"firing heat" 150
+		"acceleration" 1
+		"drag" .1
+		"turn" .2
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .7
+		"shield damage" 108
+		"hull damage" 32
+		"hit force" -240
+	description "Pociski Korath Grab-Strike maja na celu przyciagniecie celu blizej statku Korath, uniemozliwiajac mu ucieczke."
+
+outfit "Korath Banisher"
+	category "Turrets"
+	cost 943000
+	thumbnail "outfit/banisher"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/banisher"
+			"frame rate" 60
+		"hardpoint sprite" "hardpoint/banisher"
+		"hardpoint offset" 5.
+		sound "banisher"
+		"hit effect" "banisher impact"
+		"inaccuracy" .4
+		"turret turn" 4.2
+		"velocity" 590
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.3
+		"firing heat" 4.9
+		"shield damage" 2.8
+		"hull damage" .9
+		"hit force" 60
+	description "Koratowie lubia trzymac swoich wrogow blisko... ale nie za blisko."
+
+outfit "Korath Warder"
+	category "Turrets"
+	cost 845000
+	thumbnail "outfit/warder"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"energy capacity" 50
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/warder"
+		"hardpoint offset" 3.
+		"hit effect" "korath warder"
+		"anti-missile" 10
+		"velocity" 350
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 24
+		"firing heat" 10
+	description "Ten system przeciwrakietowy pomaga bronic okretow wojennych Korath przed atakami dalekiego zasiegu."
+
+outfit "Korath Fire-Lance"
+	category "Guns"
+	cost 697000
+	thumbnail "outfit/fire-lance"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/fire-lance"
+			"frame rate" 12
+			"random start frame"
+		sound "fire-lance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .4
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.5
+		"firing heat" 1.7
+		"shield damage" 3.5
+		"hull damage" 1.5
+		"heat damage" 12
+	description "Ognista Lanca Korath jest bronia wiazkowa sredniego zasiegu, przeznaczona dla wojownikow tej rasy."
+
+outfit "Korath Repeater"
+	category "Guns"
+	cost 306000
+	thumbnail "outfit/repeater"
+	"mass" 11
+	"outfit space" -11
+	"weapon capacity" -11
+	"energy capacity" 100
+	"gun ports" -1
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 4
+		"velocity" 13
+		"lifetime" 40
+		"reload" 10
+		"burst reload" 4
+		"burst count" 3
+		"cluster"
+		"firing energy" 24
+		"firing heat" 108
+		"shield damage" 26
+		"hull damage" 22
+		"heat damage" 33
+	description "To najmniejsza i najprostsza bron pociskowa Korath, przeznaczona glownie do uzytku w mysliwcach i dronach. Jak wiekszosc technologii Korath, generuje ona duza ilosc ciepla, wystarczajaca do tego, aby bron musiala na chwile zatrzymac sie po kilku strzalach, aby ostygnac."
+
+outfit "Korath Repeater Turret"
+	category "Turrets"
+	cost 874000
+	thumbnail "outfit/repeater turret"
+	"mass" 29
+	"outfit space" -29
+	"weapon capacity" -29
+	"energy capacity" 200
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		"hardpoint sprite" "hardpoint/repeater turret"
+		"hardpoint offset" 7.
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 3
+		"turret turn" 2.6
+		"velocity" 13
+		"lifetime" 40
+		"reload" 5
+		"burst reload" 2
+		"burst count" 6
+		"cluster"
+		"firing energy" 24
+		"firing heat" 108
+		"shield damage" 26
+		"hull damage" 22
+		"heat damage" 33
+	description "Repetiery Korath wystrzeliwuja w swoje cele kompaktowe pociski z przegrzanej plazmy. Kazda z tych wiezyczek zainstalowanych na okrecie zazwyczaj wymaga dodatkowego systemu chlodzenia, aby poradzic sobie z generowanym przez nia cieplem."
+
+outfit "Korath Piercer"
+	category "Ammunition"
+	cost 3500
+	thumbnail "outfit/piercer"
+	"mass" .3
+	"piercer capacity" -1
+	description "Ten pocisk wystrzelono z wyrzutni Korath Piercer."
+
+outfit "Korath Piercer Rack"
+	category "Ammunition"
+	cost 56000
+	thumbnail "outfit/korath piercer storage"
+	"mass" 2.2
+	"outfit space" -7
+	"piercer capacity" 16
+	ammo "Korath Piercer"
+	description "Stojak na pociski Korath Piercer jest uzywany do przechowywania dodatkowej amunicji do wyrzutni pociskow Korath Piercer."
+
+outfit "Korath Piercer Launcher"
+	category "Secondary Weapons"
+	cost 593000
+	thumbnail "outfit/piercer launcher"
+	"mass" 18
+	"outfit space" -27
+	"weapon capacity" -27
+	"energy capacity" 50
+	"gun ports" -1
+	"piercer capacity" 31
+	weapon
+		sprite "projectile/piercer"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		ammo "Korath Piercer"
+		icon "icon/piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"hit effect" "piercer explosion"
+		"die effect" "piercer explosion"
+		"inaccuracy" 3
+		"velocity" 18
+		"lifetime" 200
+		"reload" 72
+		"firing energy" 29
+		"firing heat" 144
+		"acceleration" .54
+		"drag" .03
+		"turn" 1.6
+		"homing"
+			"leading"
+			"throttle control"
+		"infrared tracking" .9
+		"shield damage" 290
+		"hull damage" 440
+		"piercing" .2
+		"hit force" 450
+		"missile strength" 73
+		"stream"
+	description "Pociski przeciwpancerne Korath przenosza dwie glowice. Pierwsza, mniejsza, umieszczona na samym koncu pocisku, eksploduje przy uderzeniu, wybijajac dziure w oslonach okretu, umozliwiajac przebicie sie czesci kolejnych, wiekszych eksplozji."
+
+outfit "Korath Mine"
+	category "Ammunition"
+	cost 3500
+	thumbnail "outfit/korath mine"
+	"mass" .7
+	"minelayer capacity" -1
+	description "To jest amunicja do stawiacza min Korath. Kazda mina rozpada sie na jedenascie mniejszych pociskow po rozstawieniu."
+
+outfit "Korath Mine Rack"
+	category "Ammunition"
+	cost 31500
+	thumbnail "outfit/korath mine storage"
+	"mass" 2.7
+	"outfit space" -9
+	"minelayer capacity" 9
+	ammo "Korath Mine"
+	description "Stojak na miny Korath sluzy do przechowywania dodatkowej amunicji dla minowcow Korath."
+
+outfit "Korath Minelayer"
+	category "Secondary Weapons"
+	cost 1073000
+	thumbnail "outfit/korath minelayer"
+	"mass" 36
+	"outfit space" -48
+	"weapon capacity" -48
+	"energy capacity" 50
+	"gun ports" -1
+	"minelayer capacity" 17
+	weapon
+		sprite "projectile/korath minelayer"
+			"frame rate" .6
+			"no repeat"
+		sound "minelayer"
+		ammo "Korath Mine"
+		icon "icon/minelayer"
+		"fire effect" "minelayer fire"
+		"hit effect" "huge explosion"
+		"die effect" "minelayer split" 5
+		"submunition" "Korath Mine Submunition" 11
+		"inaccuracy" 10
+		"velocity" 3
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 36
+		"firing heat" 36
+		"acceleration" .16
+		"drag" .04
+		"turn" 2
+		"homing"
+			"leading"
+			"throttle control"
+		"infrared tracking" .9
+		"missile strength" 35
+		"shield damage" -3200
+		"hull damage" -2400
+		"hit force" -225
+		"stream"
+	description "Ta wyrzutnia wystrzeliwuje bomby kasetowe, ktore rozszczepiaja sie na chmure stacjonarnych min, z ktorych kazda zadaje znaczne obrazenia, jesli statek w nia uderzy. Jesli jednak statek trafi w mine, zanim zdazy sie ona rozstawic, obrazenia ulegaja znacznemu zmniejszeniu."
+
+outfit "Korath Disruptor"
+	category "Turrets"
+	cost 983000
+	thumbnail "outfit/disruptor"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 15
+		"hardpoint sprite" "hardpoint/disruptor"
+		"hardpoint offset" 15.
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		"inaccuracy" 1
+		"turret turn" 1.5
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8.0
+		"firing heat" 2.7
+		"shield damage" 3.8
+		"hull damage" .5
+		"disruption damage" .24
+	description "Zaburzacze Korath zaklocaja dzialanie oslon statku, powodujac uszkodzenie kadluba nawet przy aktywnych oslonach. Same w sobie zadaja jednak bardzo niewielkie obrazenia kadlubowi."
+
+outfit "Korath Slicer"
+	category "Guns"
+	cost 832000
+	thumbnail "outfit/slicer"
+	"mass" 46
+	"outfit space" -46
+	"weapon capacity" -46
+	"gun ports" -1
+	weapon
+		sprite "projectile/slicer"
+			"frame rate" 6
+		sound "slicer"
+		"hit effect" "slicer impact"
+		"inaccuracy" 0
+		"velocity" 520
+		"lifetime" 1
+		"reload" 1.62
+		"burst reload" 1
+		"burst count" 17
+		"firing energy" 5.6
+		"firing heat" 17.8
+		"shield damage" 6.3
+		"hull damage" 16.7
+	description "Ta potezna bron promieniowa jest stosunkowo nieskuteczna przeciwko tarczom, ale przecina pancerz kadluba, jakby byl z papieru."
+
+outfit "Korath Slicer Turret"
+	category "Turrets"
+	cost 1473000
+	thumbnail "outfit/slicer turret"
+	"mass" 59
+	"outfit space" -59
+	"weapon capacity" -59
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/slicer"
+			"frame rate" 6
+		"hardpoint sprite" "hardpoint/slicer turret"
+		"hardpoint offset" 17.
+		sound "slicer"
+		"hit effect" "slicer impact"
+		"inaccuracy" 0
+		"turret turn" 2.9
+		"velocity" 520
+		"lifetime" 1
+		"reload" 1.62
+		"burst reload" 1
+		"burst count" 17
+		"firing energy" 5.6
+		"firing heat" 17.8
+		"shield damage" 6.3
+		"hull damage" 16.7
+	description "Ta wiezyczka wystrzeliwuje silnie skupiona wiazke energii, ktora jest szczegolnie skuteczna przeciwko pancerzowi kadluba. W polaczeniu z wiezyczka Disruptor stanowi zabojcza kombinacje."
+
+outfit "Korath Repeater Rifle"
+	category "Hand to Hand"
+	cost 53000
+	thumbnail "outfit/korath rifle"
+	"capture attack" 1.6
+	"capture defense" 2.4
+	"unplunderable" 1
+	description "Ten karabin jest powszechny wsrod Korathow, poprzedzajac powstanie karabinu powtarzalnego o co najmniej dwa stulecia. Poniewaz wykorzystuje przegrzana plazme zamiast laserow, karabin strzela powoli i moze czasami poparzyc rece uzytkownika, jesli ten nie zachowa ostroznosci. Rekompensuje te niedogodnosci, gwarantujac, ze trafieni nie przezyja wystarczajaco dlugo, aby odpowiedziec ogniem."
+
+outfit "Nanotech Battery"
+	plural "Nanotech Batteries"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/quarg quantum battery"
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 60000
+	description "Ludzcy inzynierowie, ktorzy po raz pierwszy zetkneli sie z Quargami, byli zdumieni ogromna wydajnoscia ich technologii. Gestosc energii baterii Quarg jest niezrownana - magazynuja one prawie o jedna trzecia wiecej energii niz najlepsze baterie ludzkie, a jednoczesnie sa o ponad jedna trzecia mniejsze."
+
+outfit "Quantum Shield Generator"
+	category "Systems"
+	cost 30000000
+	thumbnail "outfit/quarg aegis shield generator"
+	"mass" 120
+	"outfit space" -120
+	"shield generation" 10
+	"shield energy" 10
+	description "Pierwsi ludzie, ktorzy spotkali Quargow, sadzili, ze ich technologia opiera sie na magii i wielu z nich do dzis tak mysli. Mechanizm dzialania tego generatora tarczy Quarg jest calkowicie nieznany ludzkosci, a Quargowie nie chca zdradzac swoich sekretow."
+
+outfit "Intrusion Countermeasures"
+	plural "Intrusion Countermeasures"
+	category "Hand to Hand"
+	thumbnail "outfit/quarg countermeasures"
+	"capture defense" 24
+	"unplunderable" 1
+	description "Statki Quargow sa wyposazone w specjalne systemy odstraszajace abordaz. Poniewaz nikt nie chce zostac zlapany przez Quargow z ukradziona technologia, systemy te sa praktycznie bezwartosciowe na wolnym rynku."
+
+outfit "Quarg Skylance"
+	category "Turrets"
+	cost 18000000
+	thumbnail "outfit/quarg skylance"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/quarg skylance"
+		"hardpoint offset" 10
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"turret turn" 2.6
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 30
+		"firing heat" 10
+		"shield damage" 50
+		"hull damage" 40
+		"ion damage" .1
+		"scrambling damage" .1
+	description "Ta niezwykle potezna bron promieniowa jest uzywana przez okrety wojenne Quargow w celu wzbudzania strachu w sercach wszystkich, ktorzy odwaza sie jej przeciwstawic."
+
+outfit "Quarg Anti-Missile"
+	category "Turrets"
+	cost 6000000
+	thumbnail "outfit/quarg stratospear"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hit effect" "quarg anti-missile"
+		"hardpoint sprite" "hardpoint/quarg anti missile"
+		"hardpoint offset" 4
+		"anti-missile" 25
+		"velocity" 500
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 50
+	description "Systemy obrony przeciwrakietowej Quargow potrafia namierzac pociski z duzo wiekszej odleglosci w porownaniu z technologia ludzka, co sprawia, ze tylko najpotezniejsze pociski sa w stanie zblizyc sie do statku Quargow."
+
+outfit "Multimodal Armor: Resilient"
+	category "Systems"
+	series "Special Systems"
+	index 11030
+	thumbnail "outfit/successor armor light"
+	licenses
+		"High Houses"
+	"slowing protection" 0.5
+	"corrosion protection" 0.5
+	"multimodal armor" -1
+	"unplunderable" 1
+	description "Pancerz metamaterialowy okretow wojennych klasy Successor mozna modyfikowac w odpowiednio wyposazonym porcie kosmicznym, zmieniajac jego atrybuty."
+	description "	Ta konfiguracja zostala zaprojektowana z mysla o eksploracji niebezpiecznych obszarow, znacznie zwiekszajac zdolnosc pancerza do przeciwstawiania sie efektom tlumienia silnika i dlugoterminowej degradacji."
+
+outfit "Nettle Magazine"
+	category "Ammunition"
+	series "Ammunition"
+	index 07021
+	licenses
+		"Twilight Guard"
+	cost 60000
+	thumbnail "outfit/nettle magazine"
+	"mass" 3
+	"outfit space" -12
+	"nettle capacity" 72
+	ammo `"Nettle" KKV`
+	description "Aby zwiekszyc wytrzymalosc bojowa okretow, ktorych dzialanie opiera sie na zalewaniu pola bitwy malymi pociskami, ten magazynek zwieksza pojemnosc wyrzutni Nettle poprzez ladowanie nowych pociskow Nettle KKV przez dolna czesc wyrzutni."
+
+outfit "Orchid Magazine"
+	category "Ammunition"
+	series "Ammunition"
+	index 07031
+	licenses
+		"Avgi Atomics"
+	cost 150000
+	thumbnail "outfit/orchid magazine"
+	"mass" 3
+	"outfit space" -12
+	"orchid capacity" 3
+	ammo `"Orchid" Nuclear Missile`
+	description "Ten duzy magazyn amunicji laduje nowe pociski Orchid do wyrzutni za pomoca zaledwie kilku kabli, silownikow i elektrozaworow. Zaprojektowany z mysla o minimalizmie, sam rozmiar kazdego pocisku Orchid sprawia, ze magazynek jest dosc nieporeczny w stosunku do liczby przechowywanych pociskow."
+
+outfit `Z-3600 "Beam" Amat Torch`
+	category "Engines"
+	series "Engines"
+	index 07080
+	"cost" 300000000
+	thumbnail "outfit/beam antimatter drive"
+	"mass" 3600
+	"outfit space" -360
+	"engine capacity" -360
+	"thrust" 600
+	"thrusting energy" 15
+	"thrusting heat" 90
+	"thrusting fuel" 0.3
+	"drag reduction" 9
+	"flare sprite" "effect/avgi flare/antimatter"
+		"frame rate" 15
+	"flare sound" "fusion torch"
+	"turn" 6000
+	"turning energy" 9
+	"turning heat" 54
+	"steering flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 15
+		"scale" 0.5
+	"steering flare sound" "remnant afterburner"
+	"magnetic nozzle" 18
+	description "Najszybsze statki kosmiczne Avgi byly napedzane nie tylko silnikami, ale takze ogromnymi bankami laserow i wiazek czastek rozmieszczonych w ukladzie Anax, rozpedzajac statki do predkosci przekraczajacych 0,2c przed hamowaniem zaglem magnetycznym lub magnesem plazmowym. Jednak tuz przed wynalezieniem hipernapedu, Avgi udoskonalil ten naped antymaterii z rdzeniem wiazkowym, zdolny do rozpedzenia statku kosmicznego z wystarczajaca iloscia paliwa antymaterii do 0,4c, a byc moze nawet dalej. Wymagajac ogromnych ilosci antymaterii, farmy antymaterii wokol Anax, takie jak stacja Antivli, zostalyby przeciazone do granic mozliwosci, gdyby ten projekt wszedl do masowej produkcji, ale zaskakujace wynalezienie hipernapedu sprawilo, ze z dnia na dzien stal sie on absurdalnie przestarzaly."

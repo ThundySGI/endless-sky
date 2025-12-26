@@ -1,0 +1,132 @@
+# Copyright (c) 2024 by Saugia
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Gegno Asteroid Mining - Aluminum"
+	job
+	repeat
+	name "Zbierz 10 ton aluminium"
+	description "Wydobadz i zbierz 10 ton aluminium, a nastepnie przywiez mineraly do Gegno w punkcie <origin>."
+	source "Tschyss"
+	to offer
+		has "Gegno Asteroid Mining Prologue: done"
+		random < 10
+	to accept
+		"cargo space" > 10
+	on visit
+		dialog "Wrociles do <origin>, ale nie masz 10 ton aluminium w ladowni. Upewnij sie, ze wydobyles 10 ton aluminium i zapakowales je do ladowni przed ladowaniem."
+	on complete
+		"gegno: mining jobs" ++
+		payment 36000
+		outfit "Aluminum" -10
+		dialog phrase "gegno mining payment dialog"
+
+
+mission "Gegno Asteroid Mining - Copper"
+	job
+	repeat
+	name "Zbierz 10 ton miedzi"
+	description "Wydobadz i zbierz 10 ton miedzi, a nastepnie przynies mineraly do Gegno w punkcie <origin>."
+	source "Tschyss"
+	to offer
+		has "Gegno Asteroid Mining Prologue: done"
+		random < 10
+	to accept
+		"cargo space" > 10
+	on visit
+		dialog "Wrociles do <origin>, ale nie masz 10 ton miedzi w ladowni. Upewnij sie, ze wydobyles 10 ton miedzi i zapakowales ja do ladowni przed ladowaniem."
+	on complete
+		"gegno: mining jobs" ++
+		payment 60000
+		outfit "Copper" -10
+		dialog phrase "gegno mining payment dialog"
+
+
+mission "Gegno Asteroid Mining - Iron"
+	job
+	repeat
+	name "Zbierz 10 ton zelaza"
+	description "Wydobadz i zbierz 10 ton zelaza, a nastepnie przynies mineraly do Gegno w <origin>."
+	source "Tschyss"
+	to offer
+		has "Gegno Asteroid Mining Prologue: done"
+		random < 10
+	to accept
+		"cargo space" > 10
+	on visit
+		dialog "Wrociles do <origin>, ale nie masz 10 ton zelaza w ladowni. Upewnij sie, ze wydobyles 10 ton zelaza i zapakowales je do ladowni przed ladowaniem."
+	on complete
+		"gegno: mining jobs" ++
+		payment 24000
+		outfit "Iron" -10
+		dialog phrase "gegno mining payment dialog"
+
+
+mission "Gegno Asteroid Mining - Lead"
+	job
+	repeat
+	name "Zbierz 10 ton olowiu"
+	description "Wydobadz i zbierz 10 ton olowiu, a nastepnie przywiez mineraly do Gegno w <origin>."
+	source "Tschyss"
+	to offer
+		has "Gegno Asteroid Mining Prologue: done"
+		random < 10
+	to accept
+		"cargo space" > 10
+	on visit
+		dialog "Wrociles do <origin>, ale nie masz 10 ton olowiu w ladowni. Upewnij sie, ze wydobedziesz 10 ton olowiu i zaladujesz go do ladowni przed ladowaniem."
+	on complete
+		"gegno: mining jobs" ++
+		payment 18000
+		outfit "Lead" -10
+		dialog phrase "gegno mining payment dialog"
+
+
+mission "Gegno Asteroid Mining - Silicon"
+	job
+	repeat
+	name "Zbierz 10 ton krzemu"
+	description "Wydobadz i zbierz 10 ton krzemu, a nastepnie sprowadz mineraly do Gegno w <origin>."
+	source "Tschyss"
+	to offer
+		has "Gegno Asteroid Mining Prologue: done"
+		random < 10
+	to accept
+		"cargo space" > 10
+	on visit
+		dialog "Wrociles do <origin>, ale nie masz 10 ton krzemu w ladowni. Upewnij sie, ze wydobedziesz 10 ton krzemu i zaladujesz go do ladowni przed ladowaniem."
+	on complete
+		"gegno: mining jobs" ++
+		payment 8000
+		outfit "Silicon" -10
+		dialog phrase "gegno mining payment dialog"
+
+
+mission "Gegno Asteroid Mining - Titanium"
+	job
+	repeat
+	name "Zbierz 10 ton tytanu"
+	description "Wydobadz i zbierz 10 ton tytanu, a nastepnie przynies mineraly do Gegno w <origin>."
+	source "Tschyss"
+	to offer
+		has "Gegno Asteroid Mining Prologue: done"
+		random < 10
+	to accept
+		"cargo space" > 10
+	on visit
+		dialog "Wrociles do <origin>, ale nie masz 10 ton tytanu w ladowni. Upewnij sie, ze wydobyles 10 ton tytanu i zapakowales go do ladowni przed ladowaniem."
+	on complete
+		"gegno: mining jobs" ++
+		payment 50000
+		outfit "Titanium" -10
+		dialog phrase "gegno mining payment dialog"

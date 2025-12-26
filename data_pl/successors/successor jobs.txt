@@ -1,0 +1,822 @@
+# Copyright (c) 2024 by Daeridanii
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+phrase "successor tourists out"
+	word
+		`Turysci dziekuja Ci za przywiezienie ich do <planet> i placa Ci <payment>.`
+
+phrase "successor tourists in"
+	word
+		`Turysci dziekuja Ci za oddanie ich <planet> i placa Ci <payment>.`
+
+phrase "successor tourists stopover"
+	word
+		`Po zakonczeniu podrozy turysci sa gotowi na powrot do domu.`
+
+phrase "successor bold tourists stopover"
+	word
+		`Po zakonczeniu niecodziennej podrozy turysci sa gotowi na powrot do domu.`
+
+phrase "successor students out"
+	word
+		`Uczniowie dziekuja za przyprowadzenie ich do <planet> i placa <payment>.`
+
+phrase "successor workers out"
+	word
+		`Pracownicy dziekuja za przyprowadzenie ich do <planet> i placa <payment>.`
+
+phrase "successor delivery"
+	word
+		`Nadajesz przesylke <commodity> i otrzymujesz platnosc w wysokosci <payment>.`
+
+phrase "successor data"
+	word
+		`Ty `
+	word
+		`dostarczyc `
+		`przekazanie `
+		`przelew `
+	word
+		`zaszyfrowane banki danych `
+		`zabezpieczone banki danych `
+		`banki danych `
+		`dane `
+	word
+		`i `
+	word
+		`odbierz `
+		`sa podane `
+	word
+		`<payment> w platnosci.`
+		`platnosc w wysokosci <payment>.`
+
+phrase "high houses delivery"
+	word
+		`Ty `
+	word
+		`odciazenie `
+		`dostarczyc `
+		`przekazanie `
+		`oddanie `
+	word
+		`ten `
+		`twoj `
+	word
+		`przesylka `
+		`ladunek `
+	word
+		`z <commodity> do kilku dobrze ubranych oficerow nastepczych. `
+	word
+		`Daja ci twoje `
+		`Dostarczaja Ci to, na co sie zgodziles `
+		`Przekazuja twoje `
+	word
+		`platnosc <payment>.`
+
+phrase "predecessor researchers out"
+	word
+		`Dostarczasz `
+	word
+		`badacze `
+		`naukowcy `
+		`naukowcy `
+	word
+		`do <planet stopovers>, gdzie oni `
+	word
+		`niezwlocznie `
+		`natychmiast `
+		`szybko `
+		``
+	word
+		`poczatek `
+		`start `
+	word
+		` katalogowanie pobliskich formacji skalnych. `
+		` badanie pobliskich ruin. `
+		` skanowanie w poszukiwaniu artefaktow. `
+		` wykonywanie pomiarow promieniowania. `
+		` wykonywanie pomiarow gleby. `
+		` wykonywanie pomiarow atmosferycznych. `
+		` badanie lokalnej flory. `
+		` badanie lokalnej fauny. `
+		` weryfikacja danych z poprzedniej wyprawy. `
+	word
+		`Po kilku godzinach beda gotowi wrocic do domu.`
+		`Po kilku godzinach sa gotowi wrocic do domu.`
+		`W koncu sa gotowi wrocic do domu.`
+
+phrase "successor researchers out"
+	word
+		`Dostarczasz `
+	word
+		`badacze `
+		`naukowcy `
+		`eksperymentatorzy `
+	word
+		`do <planet stopovers>, gdzie oni `
+	word
+		`niezwlocznie `
+		`natychmiast `
+		`szybko `
+		``
+	word
+		`poczatek `
+		`start `
+	word
+		` katalogowanie pobliskich formacji skalnych. `
+		` wykonywanie pomiarow promieniowania. `
+		` wykonywanie pomiarow gleby. `
+		` wykonywanie pomiarow atmosferycznych. `
+		` weryfikacja danych z poprzedniej wyprawy. `
+	word
+		`Po kilku godzinach beda gotowi wrocic do domu.`
+		`Po kilku godzinach sa gotowi wrocic do domu.`
+		`W koncu sa gotowi wrocic do domu.`
+
+phrase "successor researchers in"
+	word
+		`Badacze dziekuja za zabranie ich do <stopovers> i przekazuja Ci <payment> w zamian.`
+
+phrase "successor researchers transfer"
+	word
+		`Naukowcy chetnie wyruszaja na sympozjum, ale nie wczesniej, niz zaplaca <payment>.`
+
+mission "Successors: Tourists Out 1"
+	job
+	repeat
+	name "Wczasowicze do <planet>"
+	description "Ci <bunks> podrozni zaplaca ci <payment> za przywiezienie ich do <destination> do <date>."
+	deadline
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 25
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		attributes "tourism" "quiet"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 160
+		dialog phrase "successor tourists out"
+		"successor jobs" ++
+
+
+mission "Successors: Tourists Out 2"
+	job
+	repeat
+	name "Wczasowicze do <planet>"
+	description "Ci <bunks> podrozni zaplaca ci <payment> za przywiezienie ich do <destination> do <date>."
+	deadline
+	passengers 3 6 .5
+	to offer
+		has "known to the successors"
+		random < 25
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		attributes "tourism" "quiet"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 160
+		dialog phrase "successor tourists out"
+		"successor jobs" ++
+
+
+mission "Successors: Bold Tourists Round Trip"
+	job
+	repeat
+	name "Ekstremalne zwiedzanie na <planet stopovers>"
+	description "Ci <bunks> turysci zaplaca Ci <payment> za przywiezienie ich wraz ze sprzetem bezpieczenstwa do <stopovers> i z powrotem do domu do <destination> do <date>."
+	deadline
+	cargo "Isolation Suits" 1
+	passengers 2 4 .5
+	to offer
+		has "known to the successors"
+		random < 15
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	stopover
+		attributes "bold tourism"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on visit
+		dialog phrase "successor bold tourists stopover"
+	on complete
+		payment 24000 200
+		dialog phrase "successor tourists in"
+		"successor jobs" ++
+
+
+mission "Successors: Tourist Expedition"
+	job
+	repeat
+	name "Wyprawa krajoznawcza"
+	description "Ci <bunks> turysci zaplaca ci <payment> za zabranie ich do <stopovers>, a nastepnie odwioza ich do domu w <destination> do <date>."
+	deadline
+	deadline 4
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 15
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	stopover
+		attributes "successor"
+		attributes "uninhabited" "tourism" "wealthy"
+		not attributes "crime"
+		distance 3 20
+	stopover
+		attributes "successor"
+		attributes "tourism" "wealthy"
+		not attributes "crime"
+		distance 3 20
+	stopover
+		attributes "successor"
+		attributes "quiet" "tourism" "wealthy"
+		not attributes "crime"
+		distance 3 20
+	on stopover
+		dialog phrase "successor tourists stopover"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 36000 200
+		dialog phrase "successor tourists in"
+		"successor jobs" ++
+
+
+mission "Successors: Students Out"
+	job
+	repeat
+	name "Uczniowie na przerwie do <planet>"
+	description "Ci <bunks> uczniowie maja przerwe i zaplaca ci <payment>, jesli odwieziesz ich do <destination> do <date>."
+	deadline
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 50
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		attributes "education"
+	destination
+		attributes "successor"
+		not attributes "uninhabited" "education" "crime"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 160
+		dialog phrase "successor students out"
+		"successor jobs" ++
+
+
+mission "Successors: Students In"
+	job
+	repeat
+	name "Uczniowie wracajacy do <planet>"
+	description "Ci <bunks> studenci wracaja na swoja uczelnie <destination> i zaplaca ci <payment> za odwiezienie ich tam do <date>."
+	deadline
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 20
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		not attributes "crime"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		attributes "education"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 160
+		dialog phrase "successor students out"
+		"successor jobs" ++
+
+
+mission "Successors: Workers Out 1"
+	job
+	repeat
+	name "Nastepcy pracownikow <planet>"
+	description "Ci <bunks> pracownicy szukaja pracy na <destination> i zaplaca ci <payment>, jesli zabierzesz ich tam do <date>."
+	deadline
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 20
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited" "quiet"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 160
+		dialog phrase "successor workers out"
+		"successor jobs" ++
+
+
+mission "Successors: Workers Out 2"
+	job
+	repeat
+	name "Nastepcy pracownikow <planet>"
+	description "Ci <bunks> pracownicy szukaja pracy na <destination> i zaplaca ci <payment>, jesli zabierzesz ich tam do <date>."
+	deadline
+	passengers 3 6 .5
+	to offer
+		has "known to the successors"
+		random < 20
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited" "quiet"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 9000 160
+		dialog phrase "successor workers out"
+		"successor jobs" ++
+
+
+mission "Successors: Delivery Out 1"
+	job
+	repeat
+	name "Wysylka do <planet>"
+	description "Potrzebny jest kurier dla <tons> dostaw od <origin> do <planet>. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo random 5 10 .2
+	to offer
+		has "known to the successors"
+		random < 35
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 160
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Delivery Out 2"
+	job
+	repeat
+	name "Wysylka do <planet>"
+	description "Potrzebny jest kurier dla <tons> dostaw od <origin> do <planet>. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo random 6 9 .2
+	to offer
+		has "known to the successors"
+		random < 30
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 160
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: High Value Delivery Out"
+	job
+	repeat
+	name "Wartosciowe rzeczy dla <planet>"
+	description "Do transportu <cargo> z <origin> do <planet> potrzebny jest kurier. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo "Successor High Value" 6 9 .2
+	to offer
+		has "known to the successors"
+		random < 10
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		not attributes "crime"
+	destination
+		attributes "successor"
+		attributes "wealthy"
+		not attributes "crime" "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 180
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Aid Delivery Out 1"
+	job
+	repeat
+	name "Przesylka pomocy do <planet>"
+	description "Potrzebny jest kurier, ktory dostarczy <tons> sztuk pomocy humanitarnej z <origin> do <planet> do <date>. Zaplata w wysokosci <payment> zostanie zrealizowana po dostarczeniu."
+	deadline
+	deadline 2
+	cargo random 5 10 .2
+	to offer
+		has "known to the successors"
+		random < 10
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		not attributes "crime"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		attributes "crime"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2400 160
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Large Delivery Out 1"
+	job
+	repeat
+	name "Przesylka hurtowa do <planet>"
+	description "Potrzebny jest kurier dla <tons> dostaw od <origin> do <planet>. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo random 30 80 .2
+	to offer
+		has "known to the successors"
+		random < 20
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000 140
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Large Delivery Out 2"
+	job
+	repeat
+	name "Przesylka hurtowa do <planet>"
+	description "Potrzebny jest kurier dla <tons> dostaw od <origin> do <planet>. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo random 50 70 .2
+	to offer
+		has "known to the successors"
+		random < 20
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000 140
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Rush Delivery Out 1"
+	job
+	repeat
+	name "Przesylka ekspresowa do <planet>"
+	description "Potrzebny jest kurier do pilnej dostawy <tons> sztuk materialow z <origin> do <planet> do <date>. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo random 5 10 .2
+	deadline
+	to offer
+		has "known to the successors"
+		random < 25
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2200 165
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Large Rush Delivery Out 1"
+	job
+	repeat
+	name "Duza pilna przesylka do <planet>"
+	description "Potrzebny jest kurier do pilnej dostawy <tons> sztuk materialow z <origin> do <planet> do <date>. Zaplata <payment> zostanie zrealizowana przy odbiorze."
+	cargo random 30 80 .2
+	deadline
+	to offer
+		has "known to the successors"
+		random < 15
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 150
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Seismic Stabilizers"
+	job
+	repeat
+	name "Stabilizatory sejsmiczne do <planet>"
+	description "Po niewielkim trzesieniu ziemi dnia <planet>, zamowiono <tons> stabilizatorow sejsmicznych z dostawa do <date>. Zaplata zostanie zrealizowana w wysokosci <payment>."
+	cargo "Seismic Stabilizers" 30 80 .2
+	deadline
+	deadline 2
+	to offer
+		has "known to the successors"
+		random < 6
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		attributes "successor"
+		not attributes "uninhabited" "station"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000 140
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+
+mission "Successors: Data Courier 1"
+	job
+	repeat
+	name "Kurier danych do <planet>"
+	description "Poufne dane przechowywane w <tons> bazach danych musza zostac dostarczone z <origin> do <planet> do <date>. Zaplata <payment> zostanie zrealizowana po dostarczeniu."
+	deadline
+	cargo "Encrypted Databanks" 1 1
+	to offer
+		has "known to the successors"
+		random < 30
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		attributes "wealthy" "urban" "station"
+		not attributes "crime"
+	destination
+		attributes "successor"
+		not attributes "uninhabited" "crime"
+		distance 5 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 1000 100
+		dialog phrase "successor data"
+		"successor jobs" ++
+
+
+mission "Successors: Researchers Out 1"
+	job
+	repeat
+	name "Badacze do <planet stopovers>"
+	description "Ci <bunks> badacze badajacy Poprzednikow zaplaca ci <payment> za przyprowadzenie ich do <stopovers> i zwrocenie tutaj."
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 15
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		attributes "education"
+	"distance calculation settings"
+		"all wormholes"
+		"assumes jump drive"
+	stopover
+		government "Predecessor"
+	on stopover
+		dialog phrase "predecessor researchers out"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 41000 160
+		dialog phrase "successor researchers in"
+		"successor jobs" ++
+
+
+mission "Successors: Large Researchers Out 1"
+	job
+	repeat
+	name "Badacze do <planet stopovers>"
+	description "Ten duzy zespol badawczy <bunks>, ktory bada Poprzednikow, zaplaci Ci <payment> za dostarczenie ich do <stopovers> i zwrocenie tutaj."
+	passengers 10 30 .5
+	to offer
+		has "known to the successors"
+		random < 10
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		attributes "education"
+	"distance calculation settings"
+		"all wormholes"
+		"assumes jump drive"
+	stopover
+		government "Predecessor"
+	on stopover
+		dialog phrase "predecessor researchers out"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 34000 160
+		dialog phrase "successor researchers in"
+		"successor jobs" ++
+
+
+mission "Successors: Home Researchers Out 1"
+	job
+	repeat
+	name "Badacze do <planet stopovers>"
+	description "Ci <bunks> badacze badajacy <stopovers> zaplaca ci <payment> za przewiezienie ich tam w celu przeprowadzenia badan i odwiezienie do domu."
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 20
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		attributes "education"
+	stopover
+		attributes "uninhabited"
+		attributes "successor"
+		not attributes "station"
+	on stopover
+		dialog phrase "successor researchers out"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 12000 160
+		dialog phrase "successor researchers in"
+		"successor jobs" ++
+
+
+mission "Successors: Researchers Transfer"
+	job
+	repeat
+	name "Sympozjum na temat <planet>"
+	description "Ci <bunks> badacze jadacy na sympozjum w dniu <destination> zaplaca ci <payment> za przywiezienie ich tam przed rozpoczeciem sympozjum w dniu <date>."
+	passengers 2 3 .5
+	deadline
+	to offer
+		has "known to the successors"
+		random < 30
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+		not attributes "crime"
+	destination
+		attributes "successor"
+		not attributes "uninhabited"
+		attributes "education" "wealthy"
+		distance 2 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 150
+		dialog phrase "successor researchers transfer"
+		"successor jobs" ++
+
+
+mission "Successors: Old Houses Rush Delivery"
+	job
+	repeat
+	clearance "After a moment of checking your delivery ID against their manifests, flight control clears you for landing."
+	name "Kurier Starych Domow do <planet>"
+	description "Stare Domy wymagaja <tons> wysokiej jakosci zapasow, ktore maja zostac przetransportowane z <origin> do <planet> do <date>. Zaplata <payment> zostanie Panstwu uiszczona przy odbiorze."
+	cargo random 5 10 .2
+	deadline
+	to offer
+		has "known to the successors"
+		random < 10
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		government "Old Houses" "House Chydiyi" "House Myurej" "House Sioeora"
+		distance 2 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 170
+		dialog phrase "high houses delivery"
+		"successor jobs" ++
+		"old houses jobs" ++
+
+
+mission "Successors: New Houses Rush Delivery"
+	job
+	repeat
+	clearance "After a moment of checking your delivery ID against their manifests, flight control clears you for landing."
+	name "Kurier nowych domow do <planet>"
+	description "Nowe Domy wymagaja, aby <tons> wysokiej jakosci zapasow zostalo przetransportowanych z <origin> do <planet> do <date>. Zaplata <payment> zostanie Panstwu uiszczona przy dostawie."
+	cargo random 5 10 .2
+	deadline
+	to offer
+		has "known to the successors"
+		random < 10
+	to fail
+		has "Successors: Unified Defense: offered"
+	source
+		attributes "successor"
+	destination
+		government "New Houses" "House Kaatrij" "House Seineq" "House Aqrabe"
+		distance 2 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 170
+		dialog phrase "high houses delivery"
+		"successor jobs" ++
+		"new houses jobs" ++

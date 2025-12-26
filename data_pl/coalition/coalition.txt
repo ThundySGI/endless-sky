@@ -1,0 +1,1855 @@
+# Copyright (c) 2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+fleet "Heliarch"
+	government "Heliarch"
+	names "heliarch"
+	fighters
+		names "heliarch fighter"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 40
+		"Heliarch Neutralizer"
+	variant 30
+		"Heliarch Judicator"
+		"Heliarch Pursuer" 2
+		"Heliarch Rover" 2
+		"Heliarch Stalker" 2
+	variant 20
+		"Heliarch Breacher"
+	variant 20
+		"Heliarch Interdictor"
+	variant 15
+		"Heliarch Hunter"
+	variant 10
+		"Heliarch Punisher"
+	variant 4
+		"Heliarch Neutralizer (Missile)"
+	variant 4
+		"Heliarch Neutralizer (Nimble)"
+	variant 4
+		"Heliarch Neutralizer (Scrappy)"
+	variant 8
+		"Heliarch Judicator (Attractor)"
+		"Heliarch Stalker" 6
+		"Heliarch Judicator (Repulsor)"
+		"Heliarch Pursuer (Scrappy)" 3
+		"Heliarch Rover" 3
+	variant 2
+		"Heliarch Judicator (Ions)"
+		"Heliarch Pursuer" 2
+		"Heliarch Rover (Ions)" 2
+		"Heliarch Stalker" 2
+	variant 2
+		"Heliarch Judicator (Missile)"
+		"Heliarch Stalker (Scrappy)" 6
+	variant 1
+		"Heliarch Judicator (Scrappy)"
+		"Heliarch Rover" 3
+		"Heliarch Stalker (Scrappy)" 3
+	variant 1
+		"Heliarch Breacher (Ions)"
+	variant 1
+		"Heliarch Breacher (Missile)"
+	variant 1
+		"Heliarch Breacher (Scrappy)"
+	variant 2
+		"Heliarch Interdictor (Bombardment)"
+	variant 12
+		"Heliarch Interdictor (Burst Fire)"
+	variant 8
+		"Heliarch Interdictor (Ions)"
+	variant 1
+		"Heliarch Interdictor (Missile)"
+	variant 1
+		"Heliarch Interdictor (Scrappy)"
+	variant 10
+		"Heliarch Hunter (Burst Fire)"
+	variant 2
+		"Heliarch Hunter (Interdicting)"
+	variant 2
+		"Heliarch Hunter (Ions)"
+	variant 1
+		"Heliarch Hunter (Missile)"
+	variant 4
+		"Heliarch Hunter (Scrappy)"
+	variant 10
+		"Heliarch Punisher (Burst Fire)"
+	variant 1
+		"Heliarch Punisher (Interdicting)"
+	variant 7
+		"Heliarch Punisher (Ions)"
+	variant 1
+		"Heliarch Punisher (Missile)"
+	variant 1
+		"Heliarch Punisher (Pure Finishers)"
+	variant 1
+		"Heliarch Punisher (Scrappy)"
+
+fleet "Small Arach"
+	government "Coalition"
+	names "arach"
+	cargo 3
+	personality
+		timid
+	variant 20
+		"Arach Transport"
+		"Arach Courier"
+	variant 20
+		"Arach Freighter"
+		"Arach Courier"
+	variant 30
+		"Arach Courier" 2
+	variant 20
+		"Arach Courier"
+	variant 10
+		"Arach Freighter" 2
+	variant 5
+		"Arach Freighter"
+		"Kimek Thorn" 2
+	variant 5
+		"Arach Transport"
+		"Saryd Runabout"
+	variant 5
+		"Arach Courier"
+		"Saryd Runabout"
+
+fleet "Large Arach"
+	government "Coalition"
+	names "arach"
+	cargo 3
+	personality
+		timid
+	variant 30
+		"Arach Hulk"
+	variant 20
+		"Arach Spindle"
+	variant 40
+		"Arach Freighter"
+		"Arach Transport"
+		"Arach Courier" 2
+	variant 10
+		"Arach Hulk"
+		"Arach Spindle"
+	variant 10
+		"Arach Spindle"
+		"Arach Freighter"
+	variant 5
+		"Arach Freighter"
+		"Arach Transport"
+		"Kimek Thistle"
+	variant 5
+		"Arach Spindle"
+		"Kimek Briar"
+		"Saryd Visitor"
+
+fleet "Small Kimek"
+	government "Coalition"
+	names "kimek"
+	cargo 3
+	personality
+		timid
+	variant 40
+		"Kimek Thorn"
+	variant 30
+		"Kimek Thorn" 2
+	variant 20
+		"Kimek Thorn" 3
+	variant 20
+		"Kimek Briar"
+		"Kimek Thorn"
+	variant 10
+		"Kimek Thistle"
+	variant 10
+		"Kimek Thistle"
+		"Kimek Thorn"
+	variant 10
+		"Kimek Briar" 2
+	variant 5
+		"Kimek Briar"
+		"Saryd Runabout"
+	variant 5
+		"Kimek Thistle"
+		"Arach Courier"
+
+fleet "Large Kimek"
+	government "Coalition"
+	names "kimek"
+	cargo 3
+	personality
+		timid
+	variant 40
+		"Kimek Spire"
+	variant 30
+		"Kimek Spire"
+		"Kimek Thorn" 2
+	variant 20
+		"Kimek Thistle"
+		"Kimek Briar"
+		"Kimek Thorn"
+	variant 10
+		"Kimek Thistle" 3
+	variant 10
+		"Kimek Spire"
+		"Kimek Thistle"
+		"Kimek Briar"
+		"Kimek Thorn"
+	variant 5
+		"Kimek Spire" 2
+	variant 5
+		"Kimek Spire"
+		"Saryd Traveler"
+	variant 5
+		"Kimek Thistle"
+		"Kimek Thorn" 2
+		"Saryd Visitor"
+
+fleet "Small Saryd"
+	government "Coalition"
+	names "saryd"
+	cargo 3
+	personality
+		timid
+	variant 60
+		"Saryd Runabout"
+	variant 40
+		"Saryd Visitor"
+	variant 20
+		"Saryd Runabout" 2
+	variant 20
+		"Saryd Visitor"
+		"Saryd Runabout"
+	variant 10
+		"Saryd Visitor"
+		"Saryd Runabout" 2
+	variant 5
+		"Saryd Visitor"
+		"Kimek Thorn" 2
+	variant 5
+		"Saryd Visitor"
+		"Arach Courier"
+
+fleet "Large Saryd"
+	government "Coalition"
+	names "saryd"
+	cargo 3
+	personality
+		timid
+	variant 60
+		"Saryd Traveler"
+	variant 40
+		"Saryd Sojourner"
+	variant 30
+		"Saryd Traveler"
+		"Saryd Visitor"
+	variant 20
+		"Saryd Traveler"
+		"Saryd Visitor"
+		"Saryd Runabout"
+	variant 10
+		"Saryd Visitor" 3
+	variant 10
+		"Saryd Sojourner"
+		"Saryd Traveler"
+	variant 10
+		"Saryd Sojourner"
+		"Saryd Visitor" 2
+	variant 5
+		"Saryd Sojourner"
+		"Kimek Thorn" 4
+	variant 5
+		"Saryd Traveler"
+		"Arach Courier" 2
+		"Kimek Briar"
+
+fleet "Arach Miners"
+	government "Coalition"
+	names "arach"
+	cargo 0
+	personality
+		confusion 20
+		pacifist timid mining harvests
+	variant 5
+		"Arach Courier (Miner)"
+	variant 2
+		"Arach Freighter (Miner)"
+	variant 2
+		"Arach Transport (Miner)"
+	variant 1
+		"Kimek Thorn (Miner)"
+	variant 1
+		"Saryd Runabout (Miner)"
+	variant 1
+		"Arach Spindle (Miner)"
+	variant 1
+		"Arach Hulk (Miner)"
+
+fleet "Kimek Miners"
+	government "Coalition"
+	names "kimek"
+	cargo 0
+	personality
+		confusion 20
+		pacifist timid mining harvests
+	variant 5
+		"Kimek Thorn (Miner)"
+	variant 3
+		"Kimek Briar (Miner)"
+	variant 2
+		"Kimek Thistle (Miner)"
+	variant 1
+		"Arach Courier (Miner)"
+	variant 1
+		"Saryd Runabout (Miner)"
+	variant 1
+		"Kimek Spire (Miner)"
+
+fleet "Saryd Miners"
+	government "Coalition"
+	names "saryd"
+	cargo 0
+	personality
+		confusion 20
+		pacifist timid mining harvests
+	variant 4
+		"Saryd Runabout (Miner)"
+	variant 3
+		"Saryd Visitor (Miner)"
+	variant 3
+		"Saryd Traveler (Miner)"
+	variant 1
+		"Arach Courier (Miner)"
+	variant 1
+		"Kimek Thorn (Miner)"
+	variant 1
+		"Saryd Sojourner (Miner)"
+
+
+outfitter "Coalition Basics"
+	"Small Collector Module"
+	"Small Cogeneration Module"
+	"Small Battery Module"
+	"Small Shield Module"
+	"Small Repair Module"
+	"Cooling Module"
+	"Small Thrust Module"
+	"Small Reverse Module"
+	"Small Steering Module"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Module"
+	"Hyperdrive"
+	"Local Map"
+
+outfitter "Coalition Advanced"
+	"MCS Extractor"
+	"Small Collector Module"
+	"Large Collector Module"
+	"Small Cogeneration Module"
+	"Large Cogeneration Module"
+	"Small Battery Module"
+	"Large Battery Module"
+	"Small Shield Module"
+	"Large Shield Module"
+	"Small Repair Module"
+	"Large Repair Module"
+	"Cooling Module"
+	"Small Thrust Module"
+	"Large Thrust Module"
+	"Small Reverse Module"
+	"Large Reverse Module"
+	"Small Steering Module"
+	"Large Steering Module"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Luxury Accommodations"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Module"
+	"Hyperdrive"
+	"Local Map"
+
+outfitter "Heliarch"
+	"Small Reactor Module"
+	"Large Reactor Module"
+	"Scanning Module"
+	"Bombardment Cannon"
+	"Bombardment Turret"
+	"Finisher Pod"
+	"Finisher Torpedo"
+	"Heliarch Attractor"
+	"Heliarch Repulsor"
+	"Ion Rain Gun"
+	"Local Map"
+
+outfitter "Heliarch Basics"
+	"Ion Rain Gun"
+	"Ion Hail Turret"
+	"Brig"
+	"Scanning Module"
+	"Enforcer Confrontation Gear"
+	"Enforcer Riot Staff"
+	"Guardian Turret"
+	"Local Map"
+
+outfitter "Lunarium Basics"
+	"Refueling Module"
+	"Decoy Plating"
+	"Shield Refactor Module"
+	"Small Recovery Module"
+	"Anti-Materiel Gun"
+	"Local Map"
+
+shipyard "Arach"
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Hulk"
+	"Arach Spindle"
+	"Arach Transport"
+
+shipyard "Kimek"
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+
+shipyard "Saryd"
+	"Saryd Runabout"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+	"Saryd Visitor"
+
+shipyard "Coalition Basics"
+	"Arach Courier"
+	"Kimek Thorn"
+	"Saryd Runabout"
+
+
+phrase "arach start"
+	word
+		"Kubek"
+		"Glub"
+		"Blog"
+		"Blop"
+		"Niebieski"
+		"Mog"
+		"Tlum"
+		"Dub"
+		"Drub"
+		"Lub"
+		"Dziennik"
+		"Ucho"
+		"Bloog"
+		"Loob"
+		"Krwawnik"
+		"Moog"
+		"Mup"
+		"Wtyczka"
+		"Plug"
+		"Plort"
+		"Mozna"
+		"Wloz"
+		"Plub"
+		"Wykres"
+		"Toop"
+		"Tup"
+		"Holownik"
+		"Tum"
+		"Lot"
+		"Plywak"
+		"Powodz"
+		"Flop"
+phrase "arach middle"
+	word
+		"alunik"
+		"kurz"
+		"glut"
+		"glop"
+		"alop"
+		"spisek"
+		"wtyczka"
+		"glub"
+		"blug"
+		"kubek"
+		"mog"
+		"amug"
+		"amog"
+		"ap"
+		"i"
+		"at"
+		"oot"
+		"w gore"
+		"ub"
+		"moog"
+		"dobry"
+		"rynna"
+		"kupa"
+		"wloz"
+		"krew"
+		"glob"
+		"zaraza"
+		"talug"
+		"atug"
+		"tup"
+		"ptup"
+		"plama"
+		"arub"
+		"oob"
+		"root"
+		"rup"
+		"pocierac"
+phrase "arach next"
+	word
+		" "
+	phrase
+		"start"
+phrase "arach empty"
+	word
+		""
+phrase "arach"
+	phrase
+		"start"
+	phrase
+		"arach srodkowy"
+	phrase
+		"arach srodkowy"
+		"puste pole"
+		"arach nastepny"
+	phrase
+		"arach srodkowy"
+		"puste pole"
+		
+phrase "kimek start"
+	word
+		"Ja"
+		"Tak"
+		"Ee"
+		"A"
+		"Ten"
+		"Ki"
+		"Ty"
+		"Ky"
+		"Ri"
+		"Ry"
+		"Ree"
+		"Pai"
+		"Pa"
+		"Pi"
+phrase "kimek middle"
+	word
+		"ten"
+		"cha"
+		"pa"
+		"rra"
+		"ki"
+		"ty"
+		"pri"
+		"rri"
+		"ry"
+		"kee"
+		"chee"
+		"ree"
+		"kie"
+		"rrie"
+		"'a"
+		"'i"
+		"'ee"
+		"'tak"
+		"tak"
+		"ya"
+		"yi"
+phrase "kimek next"
+	word
+		" "
+	phrase
+		"kimek start"
+phrase "kimek"
+	phrase
+		"kimek start"
+	phrase
+		"kimek srodkowy"
+	phrase
+		"kimek next"
+		"kimek srodkowy"
+	phrase
+		"kimek next"
+		"kimek srodkowy"
+	phrase
+		"kimek srodkowy"
+		
+phrase "saryd start"
+	word
+		"Lo"
+		"Ip"
+		"Zrob"
+		"Siedz"
+		"A"
+		"Kon"
+		"Reklama"
+		"Ten"
+		"Sr"
+		"Jego"
+		"Ma"
+		"W"
+		"Wyjscie"
+		"Laboratorium"
+		"I"
+		"Mag"
+		"Ali"
+		"En"
+		"Mi"
+		"Ve"
+		"Kto"
+		"Numery"
+		"Cwiczenie"
+		"Ul"
+		"Nisi"
+		"Przyklad"
+		"Com"
+		"Au"
+		"Ja"
+		"Rep"
+phrase "saryd middle"
+	word
+		"rem"
+		"suma"
+		"ich"
+		"z"
+		"sek"
+		"tu"
+		"e"
+		"wycieczka"
+		"lit"
+		"mod"
+		"przez"
+		"cid"
+		"bor"
+		"i"
+		"qua"
+		"lam"
+		"mod"
+		"czerwony"
+		"lup"
+		"tat"
+		"la"
+		"para"
+		"pi"
+		"to"
+		"fikcja"
+		"ser"
+		"lit"
+phrase "saryd middle"
+	word
+		""
+phrase "saryd end"
+	word
+		"um"
+		"i"
+		"o"
+		"orum"
+		"jest"
+		"jak"
+		"a"
+		"ae"
+		"jestem"
+		"arum"
+		"o"
+		"est"
+		"i"
+		"nas"
+		"unt"
+		"autobus"
+		"nas"
+		"um"
+		"u"
+		"ui"
+		"es"
+		"em"
+		"e"
+		"ebus"
+		"my"
+		"lub"
+		"aris"
+		"atur"
+		"amur"
+		"wlaczone"
+		"aris"
+		"atur"
+phrase "saryd"
+	phrase
+		"saryd start"
+	phrase
+		"saryd srodkowy"
+	phrase
+		"saryd koniec"
+	word
+		" "
+	phrase
+		"saryd start"
+	phrase
+		"saryd srodkowy"
+	phrase
+		"saryd koniec"
+
+phrase "heliarch"
+	word
+		"Czujny"
+		"Pacjent"
+		"Dziecko"
+		"Pomocne"
+		"Przyjazny"
+		"Pragmatyczny"
+		"Ostroznie"
+		"Ostroznie"
+		"Uwazny"
+		"Uwazny"
+		"Ostroznie"
+		"Czujny"
+		"Uwazny"
+		"Czuwanie"
+		"Rozsadny"
+		"Uwazny"
+		"Roztropny"
+		"Alert"
+		"Zamyslony"
+		"Rygorystyczny"
+		"Wybredny"
+		"Pracowity"
+		"Oslona"
+		"Schronienie"
+		"Silny"
+		"Mozliwy"
+		"Mozliwy"
+		"Trwaly"
+		"Silny"
+		"Staly"
+		"Wytrwaly"
+		"Hardy"
+		"Potezny"
+		"Wytrzymaly"
+		"Niezlomny"
+		"Staunch"
+		"Gruby"
+		"Solidny"
+		"Nieustepliwy"
+		"Nieugiety"
+		"Niezniszczalny"
+		"Nieustepliwy"
+		"Niezachwiany"
+		"Uparty"
+		"Nieugiety"
+		"Zdecydowany"
+		"Niezlomny"
+		"Ardent"
+		"Niepokonany"
+		"Trwaly"
+		"Nieprzepuszczalny"
+		"Szanowny"
+		"Odwazny"
+		"Wykwalifikowany"
+		"Stoicki"
+		"Wytrzymaly"
+		"Pobozny"
+		"Oddany"
+		"Zdyscyplinowany"
+		"Ustalono"
+		"Gorliwy"
+		"Pracowity"
+	word
+		" "
+	word
+		"Opiekun"
+		"Ochronnik"
+		"Przyjaciel"
+		"Interpreter"
+		"Agent"
+		"Rzecznik"
+		"Sojusznik"
+		"Straznik"
+		"Opiekun"
+		"Tarcza"
+		"Obronca"
+		"Pomocnik"
+		"Poszukiwacz"
+		"Eskorta"
+		"Straznik"
+		"Sentinel"
+		"Wartownik"
+		"Oddzial"
+		"Obserwator"
+		"Kurator"
+		"Gubernator"
+		"Oficer"
+		"Nadzorca"
+		"Straznik"
+		"Pasterz"
+		"Mistrz"
+		"Szef"
+		"Najlepszy"
+		"Dyrektor"
+		"Inspektor"
+		"Sedzia"
+		"Menedzer"
+		"Preserver"
+		"Opiekun"
+		"Bulwark"
+		"Bastion"
+		"Zleceniodawca"
+		"Konferansjer"
+		"Wspolpracownik"
+		"Arbiter"
+		"Wykladnik"
+		"Przewodnik"
+		"Lider"
+		"Moderator"
+		"Weteran"
+		"Regulator"
+		"Opiekun"
+		"Minister"
+
+
+phrase "heliarch fighter"
+	word
+		"Aspirujacy"
+		"Chetny"
+		"Ambitny"
+		"Dazenie"
+		"Pelen zyczen"
+		"Tesknota"
+		"Lojalny"
+		"Sumienny"
+		"Godny zaufania"
+		"Patriotyczny"
+		"Zalaczono"
+		"Zaufany"
+		"Ceniony"
+		"Uczciwy"
+		"Niezawodny"
+		"Niezawodny"
+		"Odpowiedzialny"
+		"Cnotliwy"
+		"Szlachetny"
+		"Umiarkowany"
+		"Chetny"
+		"Nieustraszony"
+	word
+		" "
+	word
+		"Towarzyszu"
+		"Konfederat"
+		"Kopia zapasowa"
+		"Asystent"
+		"Mniej"
+		"Squire"
+		"Towarzysz"
+		"Kadet"
+		"Rekrut"
+		"Uczen"
+		"Student"
+		"Zrenica"
+		"Zwiadowca"
+		"Patrol"
+		"Wspolnik"
+		"Wsparcie"
+		"Wspolpracownik"
+		"Poczatkujacy"
+		"Junior"
+		"Uczacy sie"
+
+
+phrase "friendly heliarch"
+	word
+		"Wszystkie istoty czujace"
+		"Istoty swiadome"
+		"Wszystkie gatunki myslace"
+		"Gatunek myslacy"
+		"My wszyscy"
+		"My wszyscy"
+		"Kazdy gatunek"
+		"Kazdy gatunek myslacy"
+		"Kazdy madry gatunek"
+		"Kazdy myslacy gatunek"
+		"Kazdy z naszego gatunku"
+		"Wszystkie nasze gatunki"
+	word
+		" "
+	word
+		"zyc razem"
+		"wspolistniec"
+		"wspolpracowac"
+		"laczyc"
+		"zjednoczyc sie"
+		"aby utworzyc sojusz"
+		"utworzyc koalicje"
+		"stac razem"
+		"byc jednym ludem"
+		"byc zjednoczonym"
+		"aby dolaczyc do naszej koalicji"
+		"aby do nas dolaczyc"
+		"do zycia"
+		"do wspolistnienia"
+		"do dolaczenia"
+		"do wspolnego stania"
+		"do laczenia"
+	word
+		" "
+	word
+		"w pokoju"
+		"w przyjazni"
+		"w dobrej woli"
+		"dla wspolnej sprawy"
+		"aby stworzyc sprawiedliwe spoleczenstwo"
+		"stworzyc zamozne spoleczenstwo"
+		"w rownych stosunkach partnerskich"
+		"dla dobra kazdego z nas"
+		"w calej galaktyce"
+		"wypedzic ciemiezcow"
+		"aby przejac kontrole nad wlasnym losem"
+		"dla dobra wszystkich"
+		"w dobrobycie"
+		"w harmonii"
+	word
+		" "
+	word
+		"sa w stanie"
+		"moze aspirowac"
+		"mozna sprobowac"
+		"powinien szukac"
+		"powinien wybrac"
+		"moze sie uczyc"
+		"pojemnosc ma"
+		"byc w stanie, powinno byc"
+		"powinienem sprobowac"
+		"moze pracowac"
+		"moze sluzyc"
+		"sa nazywane"
+		"sa w stanie"
+	word
+		"."
+
+phrase "friendly heliarch"
+	word
+		"Aby chronic"
+		"Aby chronic innych"
+		"Dla ochrony"
+		"Aby chronic slabych"
+		"Dla dobra innych"
+		"Aby zachowac koalicje"
+		"Aby bronic sie przed uciskiem"
+		"Abyscie wszyscy byli wolni"
+		"W imie sprawiedliwosci"
+		"Dla wiekszego dobra"
+		"Aby wypelnic nasz obowiazek"
+	word
+		" "
+	word
+		"i nie"
+		"zamiast"
+		"zamiast"
+		"ponad wszelka potrzebe"
+		"bez pragnienia"
+		"i nigdy"
+		"i nigdy"
+	word
+		" "
+	word
+		"aby sie wzbogacic"
+		"dla naszego wlasnego dobra"
+		"dla naszego wlasnego dobra"
+		"dla naszej wlasnej chwaly"
+		"dla chwaly i wladzy"
+		"aby zdobyc honor"
+		"aby zadowolic samych siebie"
+		"naduzywac naszej wladzy"
+		"dla twojej chwaly"
+		"w celu uzyskania uznania lub nagrody"
+	word
+		" "
+	word
+		"sluzymy"
+		"sluzymy Tobie"
+		"przysiegamy"
+		"tak sie nazywamy"
+		"przysieglismy"
+		"zobowiazalismy sie"
+		"sluzymy"
+		"skladamy przysiege"
+	word
+		"."
+
+phrase "friendly disabled heliarch"
+	word
+		"Naprawy, ktorych potrzebujemy"
+		"Wylaczony, nasz statek stal sie"
+		"Wylaczony, nasz statek jest"
+	word
+		". "
+	word
+		"Wejdz na nasz statek, musisz"
+		"Pomocy, musisz"
+		"Doceniam, pomoc bylaby"
+	word
+		"."
+
+phrase "hostile heliarch phrase 1 (the+our)"
+	word
+		"ten"
+		"nasz"
+	word
+		" "
+	word
+		"Koalicja"
+		"sojusz"
+		"zwiazek"
+		"przyjazn gatunkow rozumnych"
+		"obywatele Koalicji"
+		"obywatele"
+		"Koalicja"
+		"sojusz"
+		"zwiazek"
+
+phrase "hostile heliarch phrase 1 (our only)"
+	word
+		"nasz"
+	word
+		" "
+	word
+		"przyjazn"
+		"sprawiedliwy rzad"
+		"sprawiedliwa meritokracja"
+		"sprawiedliwy rzad oparty na zaslugach"
+		"spoleczenstwo"
+
+phrase "hostile heliarch"
+	word
+		"Niszczenie"
+		"Zdrada"
+		"Niehonorowanie"
+		"Ruinowanie"
+		"Najezdzajacy"
+		"Atakujacy"
+		"Zdobywanie"
+		"Uciskajacy"
+		"Wbijanie noza w plecy"
+	word
+		" "
+	phrase
+		"fraza wrogiego heliarchy 1 (the+our)"
+		"fraza wrogiego heliarchy 1 (nasza jedyna)"
+	word
+		" "
+	word
+		"bedziesz"
+		"powinienes"
+	word
+		" "
+	word
+		"nie"
+		"nigdy"
+	word
+		" "
+	word
+		"powodzenie"
+	word
+		"."
+		"!"
+
+phrase "hostile heliarch"
+	word
+		"Niemozliwe"
+		"Nie ma szans"
+		"Male szanse"
+		"Bardzo trudne"
+		"Bardzo trudne"
+		"Niemozliwe"
+	word
+		" "
+	word
+		"to jest "
+	word
+		"pokonac"
+		"zniszczyc"
+		"demoralizowac"
+		"przewyzszyc moca"
+		"byc silniejszym niz"
+		"byc wiekszym niz"
+	word
+		" "
+	word
+		"ten"
+		"nasz"
+	word
+		" "
+	word
+		"niezniszczalny"
+		"zatwierdzono"
+		"zaawansowane"
+		"zdyscyplinowany"
+		"przysiega"
+		"misje pokojowe"
+		"potezny"
+		"wieczny"
+		"legendarny"
+	word
+		" "
+	word
+		"Heliarcha"
+	word
+		" "
+	word
+		"wojskowy"
+		"organy scigania"
+		"marynarka wojenna"
+	word
+		"."
+
+phrase "hostile heliarch phrase 2 (the+our)"
+	word
+		"ten"
+		"nasz"
+	word
+		" "
+	word
+		"Koalicja"
+		"przyjazn"
+		"przyjazn gatunkow rozumnych"
+		"zwiazek"
+		"sojusz"
+
+phrase "hostile heliarch phrase 2 (the only)"
+	word
+		"ten"
+	word
+		" "
+	word
+		"anty-ciemiezyciele"
+
+phrase "hostile heliarch phrase 2 (our only)"
+	word
+		"nasz"
+	word
+		" "
+	word
+		"spoleczenstwo"
+		"idealy"
+
+phrase "hostile heliarch"
+	word
+		"Na zawsze"
+		"Do konca czasu"
+		"Do konca zycia"
+	word
+		" "
+	phrase
+		"fraza wrogiego heliarchy 2 (the+our)"
+		"fraza wroga heliarchy 2 (jedyna)"
+		"fraza wroga heliarchy 2 (nasza jedyna)"
+	word
+		" "
+	word
+		"bedzie"
+		"powinien"
+	word
+		" "
+	word
+		"na zywo"
+		"nie ulega zniszczeniu"
+		"nie bedzie historia"
+		"nie umierac"
+		"nie wyginac"
+	word
+		"!"
+
+phrase "hostile disabled heliarch"
+	word
+		"Ty"
+		"Sam, musisz mnie zostawic, ty"
+		"Spotkajmy sie ponownie, lepiej miej nadzieje, ze to sie nigdy nie zdarzy, ty"
+		"Wkurzasz sie, lepiej nie, ty"
+		"Pomscij mnie, moi przyjaciele to zrobia, ty"
+		"Zejdz mi z oczu, musisz zostac, ty"
+		"Wejdz na poklad, odwaze sie"
+	word
+		" "
+	phrase
+		"szekspirowskie obelgi"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled heliarch"
+	word
+		"A "
+	phrase
+		"szekspirowskie obelgi"
+	word
+		" "
+	word
+		", jestes"
+		"na lasce, nie moge uwierzyc, ze jestem"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled heliarch"
+	word
+		"("
+	word
+		"Statek Heliarcha wita cie, mowiac w jezyku, ktorego nie rozumiesz."
+		"Heliarcha krzyczy do ciebie w obcym jezyku."
+	word
+		" "
+	word
+		"Ich urzadzenie tlumaczace musi byc zepsute"
+		"Mozna sie tylko zastanawiac, co oni mowia"
+	word
+		".)"
+
+phrase "heliarch test dummy"
+	word
+		"Powodzenia, zycze Ci w tej bitwie."
+		"Skup sie na walce, Kapitanie."
+		"Nie wolno ci odciagac mnie od walki."
+		"Pomagasz mi sie uczyc, Twoj unikalny styl walki jest."
+		"Jestem nowicjuszem w poslugiwaniu sie bronia obcych."
+		"To doswiadczenie jest przydatne w przyszlych walkach."
+
+phrase "disabled heliarch test dummy"
+	word
+		"Pokonales nas, masz."
+		"Pokonales mnie, masz."
+		"To byla dobra walka."
+		"Byles trudnym przeciwnikiem."
+	word
+		" "
+	word
+		"Imponujace, twoje umiejetnosci bojowe sa."
+		"Musze popracowac nad taktyka."
+		"Gratulacje, kapitanie!"
+		"Atakuj mnie dalej, nie powinienes. Uczynilbym cie wrogiem Heliarchow, a moje zniszczenie by sie skonczylo."
+		"Gdybys dobrze wykorzystal swoje umiejetnosci bojowe jako Heliarcha, twoje umiejetnosci bojowe bylyby..."
+
+phrase "friendly coalition"
+	word
+		"Igrzyska Koalicyjne"
+		"Ranczo dlugich krow"
+		"Lasy deszczowe Gentle Rain"
+		"Ksiezyce Sarosa"
+		"Schronienie napowietrzone"
+		"Zimny Horyzont"
+		"Drugi blekit"
+		"Rafy koralowe Deep Treasure"
+		"Farma Niebianskiej Trzeciej"
+		"Drugie arkologie Viridian"
+	word
+		", "
+	word
+		"w zeszlym roku tak zrobilem"
+		"Chcialbym"
+		"pewnego dnia tak zrobie"
+	word
+		" "
+	word
+		"wizyta"
+		"podroz do"
+		"zobacz"
+		"obserwuj"
+		"obserwuj"
+		"obserwuj"
+	word
+		"."
+
+phrase "friendly coalition"
+	word
+		"Sponsorowane przez"
+		"Dzieki uprzejmosci"
+		"Prezent od"
+		"Finansowane przez"
+		"Obslugiwane przez"
+	word
+		" "
+	word
+		"Dom Mallob"
+		"Dom Ablomab"
+		"Dom Debdo"
+		"Dom Idrissow"
+		"Dom Garbarag"
+		"Dom Chamgar"
+		"Dom Bebliss"
+	word
+		", "
+	word
+		"moj statek to"
+		"moja flota to"
+		"ten statek jest"
+		"moj ostatni statek to"
+		"moj pierwszy statek to byl"
+		"statek mojego brata to"
+		"statek mojej siostry to"
+	word
+		"."
+
+phrase "friendly coalition"
+	word
+		"Na farmie dlugich krow"
+		"O budowie pierscienia"
+		"O konserwacji stacji"
+		"Na farmie Kimek"
+		"W kopalni Arach"
+		"W laboratorium Saryd"
+		"W wiezy glodu Kimek"
+		"W domu spokojnej starosci Saryd"
+		"W osrodku Arach"
+	word
+		", "
+	word
+		"Kiedys pracowalem"
+		"prace mojej rodziny"
+		"moi rodzice pracowali"
+		"moj drugi pilot pracowal"
+	word
+		"."
+
+phrase "hostile coalition"
+	word
+		"Zaluje tego"
+		"Zaplac za to"
+		"Zostan za to ukarany"
+		"Zaluje, ze to zrobiles"
+	word
+		", "
+	word
+		"bedziesz"
+	word
+		", "
+	word
+		""
+		"ty "
+	word
+		"zalosne"
+		"glupi"
+		"obrzydliwy"
+		"podly"
+		"kiepski"
+		"godne ubolewania"
+	word
+		" "
+	word
+		"czlowiek"
+		"osoba z zewnatrz"
+		"raider"
+		"pirat"
+		"przestepca"
+		"niszczyciele"
+		"zastraszanie"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled coalition"
+	word
+		"("
+	word
+		"Statek Koalicji wita cie, mowiac w jezyku, ktorego nie rozumiesz."
+		"Kapitan statku krzyczy do ciebie w obcym jezyku."
+	word
+		" "
+	word
+		"Mozna sie tylko zastanawiac, co oni mowia"
+	word
+		".)"
+
+phrase "friendly lunarium"
+	word
+		"Do"
+	word
+		" "
+	word
+		"wolny"
+		"wyzwolic"
+		"odlacz"
+		"emancypowac"
+		"wydanie"
+		"ratunek"
+		"zapisz"
+		"odblokuj"
+	word
+		" "
+	word
+		"nasz"
+	word
+		" "
+	word
+		"swietnie"
+		"szlachetny"
+		"dobry"
+		"wielki"
+		"zaszczytny"
+		"sprawiedliwy"
+	word
+		" "
+	word
+		"Koalicja"
+		"zwiazek"
+	word
+		", "
+	word
+		"my"
+	word
+		" "
+	word
+		"walcz o"
+		"musi"
+		"dazyc do"
+	word
+		"."
+		"!"
+
+phrase "friendly lunarium"
+	word
+		"Do"
+	word
+		" "
+	word
+		"obalenie"
+		"porazka"
+		"wyeliminuj"
+		"zniszcz"
+		"przewrocic"
+		"zlozyc"
+		"odsunac"
+	word
+		" "
+	word
+		"ten"
+	word
+		" "
+	word
+		"ciemiezyciele"
+		"Heliarchowie"
+		"niesprawiedliwi wladcy"
+		"Dom Tyrana"
+		"wladcy"
+	word
+		" "
+	word
+		"my"
+	word
+		" "
+	word
+		"walcz o"
+		"musi"
+		"dazyc do"
+		"walka o"
+	word
+		"."
+		"!"
+
+phrase "friendly disabled lunarium"
+	word
+		"Naprawy, ktorych potrzebujemy"
+		"Wylaczony, nasz statek stal sie"
+		"Wylaczony, nasz statek jest"
+	word
+		". "
+	word
+		"Wejdz na nasz statek, musisz"
+		"Pomocy, musisz"
+		"Doceniam, pomoc bylaby"
+	word
+		"."
+
+phrase "hostile lunarium"
+	word
+		"Zaatakowany"
+		"Sprzeciw"
+		"Zdradzony"
+		"Skontrowane"
+		"Naruszono"
+	word
+		" "
+	word
+		"ten"
+	word
+		" "
+	word
+		"Wolnosc koalicji"
+		"wolnosc Koalicji"
+		"nadzieja Koalicji"
+		"dobro Koalicji"
+		"Nadzieja koalicji"
+	word
+		", "
+	word
+		"masz"
+	word
+		"."
+		"!"
+	word
+		" "
+	word
+		"Walka"
+		"Bitwa"
+		"Walka"
+		"Starcie"
+		"Pojedynek"
+	word
+		"do konca"
+		"do ostatniego"
+		"az do naszej smierci"
+		"az do naszego konca"
+	word
+		", "
+	word
+		"bedziemy"
+		"musimy"
+	word
+		"."
+		"!"
+
+phrase "hostile lunarium"
+	word
+		"Popieram"
+		"Sprzymierzyles sie z"
+		"Dostosowales sie do"
+	word
+		" "
+	word
+		"niesprawiedliwosc"
+		"ucisk"
+		"ciemiezyciele"
+		"niesprawiedliwi wladcy"
+		"Dom Tyrana"
+		"Heliarchowie"
+	word
+		", "
+	word
+		"masz"
+	word
+		". "
+	word
+		"Dla"
+		"Aby zachowac"
+		"Aby zapewnic"
+	word
+		" "
+	word
+		"dobro"
+		"przyszlosc"
+		"wolnosc"
+	word
+		" "
+	word
+		"Koalicja"
+		"nasza koalicja"
+		"nasze spoleczenstwo"
+		"nasi ludzie"
+	word
+		", "
+	word
+		"sprzeciwiac sie"
+		"walka"
+		"porazka"
+		"zniszcz"
+	word
+		" "
+	word
+		"ty"
+	word
+		", "
+	word
+		"Ja"
+		"my"
+	word
+		" "
+	word
+		"musi"
+		"powinien"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled lunarium"
+	word
+		"("
+	word
+		"Statek Lunarium wita cie, mowiac w jezyku, ktorego nie rozumiesz."
+		"Lunarium krzyczy do ciebie w obcym jezyku."
+	word
+		" "
+	word
+		"Ich urzadzenie tlumaczace musi byc zepsute"
+		"Mozna sie tylko zastanawiac, co oni mowia"
+	word
+		".)"
+
+phrase "hostile disabled lunarium"
+	word
+		"Na zywo"
+		"Kontynuuj"
+		"Trwaly"
+		"Kontynuuj"
+		"Trzymaj sie"
+	word
+		", "
+	word
+		"nasz"
+	word
+		" "
+	word
+		"walka"
+		"walka"
+		"bitwa"
+		"przyczyna"
+	word
+		" "
+	word
+		"bedzie"
+		"powinien"
+	word
+		", "
+	word
+		"nawet po"
+	word
+		" "
+	word
+		"zniknelo"
+		"zniszczony"
+		"martwy"
+		"wyeliminowany"
+	word
+		" "
+	word
+		"Jestem"
+		"jestesmy"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled lunarium"
+	word
+		"Do"
+	word
+		" "
+	word
+		"wiedz, ze"
+		"rozumiem, ze"
+	word
+		" "
+	word
+		"ty"
+		"Heliarchowie"
+		"ciemiezyciele"
+		"tyrani"
+		"Dom Tyrana"
+		"Twoje pragnienie wladzy"
+	word
+		" "
+	word
+		"bedzie"
+	word
+		" "
+	word
+		"nieuchronnie"
+		"koniecznie"
+		"nieuchronnie"
+		"na pewno"
+	word
+		" "
+	word
+		"upadek"
+		"zostac pokonanym"
+		"zostac obalony"
+	word
+		", "
+	word
+		"moj"
+		"nasz"
+	word
+		" "
+	word
+		"tylko"
+		"ostateczny"
+	word
+		" "
+	word
+		"pocieszenie"
+		"nadzieja"
+		"komfort"
+		"pocieszenie"
+		"ulga"
+	word
+		"jest"
+	word
+		"."
+		"!"
+
+trade
+	commodity "coalition cargo"
+		"anodized titanium horseshoes"
+		"Arachi accordions"
+		"Arachi armor replicas"
+		"arcology miniatures"
+		"blankets"
+		"blue charity worker uniforms"
+		"carapace polish"
+		"charity goods"
+		"chitin polish paste"
+		"cogeneration module parts"
+		"collector panels"
+		"energy drinks"
+		"foldable chairs"
+		"hedgelion quills"
+		"House Ablomab artifacts"
+		"House Bebliss artifacts"
+		"House Plumtab artifacts"
+		"Kimek produce"
+		"longcow bells"
+		"longcow hide tapestries"
+		"longcow hides"
+		"longcow steaks"
+		"longcowboy hats"
+		"longcow sausage"
+		"mandible polish"
+		"multipurpose gardening tools"
+		"outdated electronics"
+		"Peacekeeper helmets"
+		"Peacekeeper uniforms"
+		"processed frass fertilizer"
+		"ringworld keychains"
+		"Saryd cakes"
+		"Saryd climbing equipment"
+		"school supplies"
+		"scratch-resistant chitin polish paste"
+		"silk wrap formalwear"
+		"sports goods"
+		"stainless steel horseshoes"
+		"toys"
+		"translation boxes"
+		"trinkets"
+		"unprocessed frass fertilizer"
+		"winter supplies"
+		"aluminized steel"
+		"aluminum"
+		"beryllium"
+		"beryllium copper"
+		"brass fittings"
+		"bulk metallic glasses"
+		"cadmium"
+		"cadmium telluride"
+		"cast iron"
+		"chromium"
+		"copper pipes"
+		"copper wire"
+		"copper"
+		"cupronickel"
+		"ductile iron"
+		"gallium"
+		"gallium arsenide"
+		"galvanized steel"
+		"indium"
+		"indium tin oxide"
+		"iron"
+		"manganese"
+		"metallic foam"
+		"magnesium"
+		"molybdenum"
+		"monel"
+		"nickel"
+		"niobium"
+		"ore"
+		"osmium"
+		"pig iron"
+		"platinum wool"
+		"platinum"
+		"rebar"
+		"rusted iron"
+		"scandium"
+		"sheet metal"
+		"silicon bronze"
+		"silver ingots"
+		"silver"
+		"sintered bronze"
+		"stainless steel"
+		"steel bars"
+		"steel cable"
+		"steel girders"
+		"steel plating"
+		"tin"
+		"titanium"
+		"tool steel blanks"
+		"vanadium"
+		"zinc"
+		"acetone"
+		"asphalt"
+		"bakelite"
+		"barrels"
+		"carbon nanotubing"
+		"crude oil"
+		"dacron"
+		"diesel oil"
+		"epoxy resin"
+		"filament"
+		"gasoline"
+		"high-tensile fibers"
+		"jet fuel"
+		"lacquer"
+		"lacquer thinner"
+		"methanal formaldehyde"
+		"mylar"
+		"nylon fiber"
+		"organic polymers"
+		"paint"
+		"petrochemicals"
+		"petroleum"
+		"plastics"
+		"plastic pellets"
+		"plastic welding rods"
+		"plastic wrap"
+		"plumber's pipes"
+		"polyethylene"
+		"polymerizing agents"
+		"polystyrene foam"
+		"recycled plastic"
+		"resin"
+		"resorcinol glue"
+		"rubber"
+		"storage tanks"
+		"styrene monomers"
+		"unplasticized PVC"
+		"vinylesters"
+		"xylene"
+		"actinide metals"
+		"barium"
+		"bismuth"
+		"depleted uranium"
+		"fuel rods"
+		"gold sheets"
+		"gold wire"
+		"gold"
+		"lanthanide metals"
+		"lead"
+		"mercury"
+		"neodymium"
+		"neptunium"
+		"platinum"
+		"plutonium"
+		"polonium"
+		"raw pitchblende"
+		"reactor-grade plutonium"
+		"reactor-grade uranium"
+		"thorium"
+		"tungsten"

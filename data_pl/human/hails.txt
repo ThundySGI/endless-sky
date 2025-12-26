@@ -1,0 +1,7349 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+phrase "band"
+	word
+		"Moga wystapic zamieszki"
+		"Srednie zaufanie"
+		"Nastepstwa katastrofy"
+		"Szybki Gabki"
+		"Proznia odlamkowa"
+		"Daniel Suburbia"
+		"Manewr objetosciowy"
+		"Galaktyczny Zrzeda"
+		"Chciwosc"
+		"Bol glowy hakera"
+		"Dyfuzja Cztery"
+		"Nuclear Martini"
+		"Iluzja normalnosci"
+		"Zagubiony i zaklocony"
+		"Szokkkkkkk"
+		"Zlamani"
+		"Urodzony do jazdy"
+		"Bandyci"
+		"Nietykalni"
+		"Kanonierzy"
+		"Piec do jednego"
+		"Megalodon"
+		"Miesne haki"
+		"Dziwne ponad latwe"
+		"Zgodnosc trzonka topora"
+		"Ryba laminowana"
+		"Zle jedzenie i bluznierstwo"
+		"Zrob mi cos okropnego"
+		"Drogowskaz prawidlowej procedury"
+		"Ludzie latwopalni"
+		"Zanzibar musi umrzec"
+		"Odpornosc na smierc"
+		"Faszystowska plama"
+		"Apokalipsa przepraszajaca"
+		"Przecietny generyczny"
+		"Tajemnicze w sprytny sposob"
+		"Nadmierne tarcie"
+		"Drapanie bez pozwolenia"
+		"Dreszcz grozy"
+		"Rdzawe Babeczki"
+		"Towarzysze na toscie"
+		"Mieszanka postepu"
+		"Piekielna niesprawiedliwosc"
+		"Radioaktywny biskup"
+		"Nielegalne posiadanie"
+		"Wstrzykiwacz iglowy"
+		"Slad cial"
+		"Wysokie napiecie"
+		"Wojna Dwoch Roz"
+		"Na polnoc od nieba"
+		"Na celowniku"
+		"Zle lekarstwo"
+		"Wampiry"
+		"Krzyczace Orly"
+		"Gwaltowne zaskoczenie"
+		"Dziewieciometrowe Shanki"
+		"Phantom Blaster"
+		"Tendencja do dronow bojowych"
+		"Krzyzowcy Pierscienia"
+		"Turais jest niezniszczalny"
+		"Windblain Aureo"
+		"Ocean Ciemnego Kamienia"
+		"Masakra Plancka"
+		"Pila lancuchowa Ockhama"
+		"Karmazynowe Kippers"
+
+phrase "media name"
+	word
+		"Smutny Archie"
+		"Lakomstwo"
+		"Ratujmy nanoboty"
+		"Oslepieni nauka"
+		"Zagrajmy w wojne"
+		"Swiat Ciszy"
+		"Nierozroznialny"
+		"Moj Mojo"
+		"Niebieska iluzja"
+		"Zagraniczne piekno"
+		"Bog nie zyje"
+		"Odpowiedzia jest abstrakcja"
+		"Skandaliczny aktywizm"
+		"Tania rozrywka"
+		"Ksiezyc Diabla"
+		"Ryczacy grzmot"
+		"Zemsta doprowadza cie do placzu"
+		"Uszy Parowe"
+		"Bunt Organiczny"
+		"Natura Bestii"
+		"Natychmiastowa dewastacja"
+		"Slabosc i wszystko inne"
+		"Klopoty powroca"
+		"Bez zalu"
+		"Zloty sprytny pysk"
+		"Dziewczyny bolu"
+		"Palacy bol"
+		"Kolejny zmarnowany dzien"
+		"Madrosc w innym swiecie"
+		"Jedyne Przeznaczenie"
+		"W strone slonca"
+		"Furia Mojej Wytrzymalosci"
+		"Droga masakra"
+		"Nie mozna kontynuowac"
+		"Maszyna strachu"
+		"Zawsze wiezien"
+		"Otulony Toba"
+		"Dzien, w ktorym przybyli"
+		"Droga Wojownika"
+		"Lojalnosc czy prawo"
+		"Niebo nad toba"
+		"Natura serca"
+		"Gdybys mogl"
+		"Nie zatapiaj mnie"
+		"Parada Zlamanych Ludzi"
+		"Swietokrzyki"
+		"Luzna Parada"
+		"Przecietna dziewczyna"
+		"Przecietny chlopak"
+		"Przecietni"
+		"Szacunek dla zmarlych"
+		"Wilki w zlobku"
+		"Wizje Mordechaja"
+		"Watpliwosci zagraniczne"
+		"Wolnosc odblokowana"
+		"Czekajac na odrobine zyczliwosci"
+		"Kobieta na paliwie odrzutowym"
+		"Twoja milosc jest huraganem"
+		"Grzech leczy zlamane serce"
+		"Wiezien serca"
+		"Talent tylnego siedzenia"
+		"27 megaton bolu"
+		"Nikt nie wyjdzie stad zywy"
+		"Orgia pojedynkow"
+		"Wspomnienia Ziemi"
+		"Ty i ja"
+		"Wrzuc mnie do lochu"
+		"Grzesznik z jarmarku"
+		"Wieczny szaleniec"
+		"Miecz ze stali"
+		"Duzy kaliber"
+		"Zjedzony zywcem"
+		"Miejsce na debate"
+		"Piekna samotnosc"
+		"Sprawdz czas"
+		"Kultura winy"
+		"Wielki poniedzialek"
+		"Bang, jestes martwy"
+		"Codziennie to samo"
+		"Nietzsche zabil mojego ojca"
+		"Patrzac przez swietlik"
+		"Brak slow"
+		"Nowoczesny policjant"
+		"Moglibysmy po prostu umrzec"
+		"Za czy przeciw"
+		"Wciaz nienaruszony"
+		"Kazdy potrzebuje przynajmniej jednego cienia"
+		"Tyle o salonie wystawowym"
+		"Realizm mnie nie powstrzyma"
+		"Kreatywnosc"
+		"Zbyt duza stymulacja"
+		"Wielka Powodz"
+		"Mistrz Ostrzy"
+		"Trwalosc Slonca"
+		"Znieksztalcone wspomnienia"
+		"Pudelko ciepla"
+		"Vortex"
+		"Za malo sily ognia"
+		"Szkola trzezwosci"
+		"Zlota Tecza"
+		"Zabijam Cie Milosierdziem"
+		"Nigdy mnie nie kochales"
+		"Samobojstwo"
+		"Nie ma powodu"
+		"Do wczesnego grobu"
+		"Moj grzech"
+		"Samorodek Milosci"
+		"Siedzac i umierajac z glodu"
+		"Wojowniczo spiacy"
+		"Cierpienie z powodu smierci"
+		"Ballada o Snappy i Dalili"
+		"Nie ma potrzeby soboty"
+		"Krasnale kapielowe cie dopadna"
+		"Rakiety w altanie"
+		"O Boze, wszystkie ciala na Saharze"
+		"Spryskaj gazem pieprzowym przegranego kontrolowanego umyslem"
+		"Zbyt zdezorientowany, by popelnic przestepstwo"
+		"Dopoki noc jest czarna"
+		"Moje zlamanie"
+		"Wszystkie ubrania, bez skarpetek"
+		"Trzymanie Swietego Mikolaja jako zakladnika"
+		"Feminizm za 99 centow"
+		"Klamstwo ciasteczek z wrozba"
+		"Niemowleta i napalm"
+		"Nieskonczonosc w 28 krokach"
+		"Gruba, ktora mnie kocha"
+		"Fornir tchorzostwa"
+		"W pierwszym stopniu"
+		"Za goraco, nie mozna przestac"
+		"Uciekam"
+		"Oda do wiosny"
+		"Rozejrzyj sie"
+		"Spojrz na moje dziela i rozpacz"
+		"Zaskoczenie Rigellian"
+		"Deprawuje Cie"
+		"Ostatnie noce"
+		"Nikt konkretny"
+		"Lzy aniola"
+		"Cegielka po cegielce"
+		"Niska droga"
+		"Duchy zmarlych"
+		"Lato nuklearne"
+		"Nasza milosc jest twierdza"
+		"Okrutna zazdrosc"
+		"Rozbujam Twoj swiat"
+		"Polnocna niespodzianka"
+		"Plamy krwi"
+		"Tesknie za Toba"
+		"Dajesz mi sile, by isc dalej"
+		"Mozesz po prostu umrzec"
+		"Pelen zebow"
+		"Wstyd szpiegowania"
+		"Lsniace nagrody"
+		"Zraniles mnie"
+		"Cicha Furia"
+		"Wszystko jest zrobione z Ciebie"
+		"Burzliwe wiatry"
+		"Syn tubylczy"
+		"W pelni przygotowany"
+		"Temperatura topnienia"
+		"Temperatura wrzenia"
+		"Punkt zamarzania"
+		"Przyspieszenie"
+		"Milosc jest butem"
+		"Slodkie uwolnienie"
+		"Zaden z nich nie wiedzial, ze jest czlowiekiem"
+		"Lancuchy Lodu"
+		"Maslo malpie"
+		"Teza Rodzaju Alfy"
+		"Krwawa Burza"
+		"Szlachetny Kaplan"
+		"Czy slyszales o tragedii"
+		"Nie jest to historia, ktora opowiedzialby Ci Quarg"
+		"Wjazd ciezarowki z burgerami"
+		"Nie ma obcych dla milosci"
+
+phrase "drugs"
+	word
+		"zly niebieski"
+		"wzmacniacz"
+		"rdzen"
+		"kij smierci"
+		"gleboko"
+		"ogniste jablko"
+		"kropla smaku"
+		"dobry czerwony"
+		"szczesliwy patyk"
+		"skrzydelko ostre"
+		"uklad pamieci"
+		"kwazar"
+		"czerwony olbrzym"
+		"golenie swiata pierscieni"
+		"przejazdzka Solarisem"
+		"poludniowa przekaska"
+		"kosmiczny chwast%"
+		"gwiezdny pyl%"
+		"para%"
+		"sok z ropuchy%"
+		"tluszcz wieloryba%"
+
+phrase "contraband"
+	word
+		"${leki}%s" 21
+		"bron biochemiczna"
+		"mineraly konfliktowe"
+		"podrobka dziela sztuki"
+		"rzezby podrobione"
+		"falszywe kredyty"
+		"leki"
+		"towary objete embargiem"
+		"zagrozone zwierzeta"
+		"rosliny zagrozone"
+		"wzbogacony uran"
+		"materialy wybuchowe"
+		"falszywe organy"
+		"sfalszowane dowody tozsamosci"
+		"ludzkie serca"
+		"ludzkie mozgi"
+		"ludzkie nerki"
+		"kosci ludzkie"
+		"pluca czlowieka"
+		"nielegalna bron palna"
+		"bron wojskowa"
+		"napalm"
+		"gaz paralizujacy"
+		"zakazane pestycydy"
+		"serca wieprzowe"
+		"nerki wieprzowe"
+		"pluca swinskie"
+		"spladrowane artefakty"
+		"niewolnicy"
+		"skradzione artefakty"
+		"skradzione dzielo sztuki"
+		"skradzione tozsamosci"
+		"skradzione czesci statku"
+		"skradziona bron"
+		"skradzione plany"
+		"skradzione rekordy"
+		"skradzione dane"
+		"narzedzia tortur"
+		"niezarejestrowane moduly IFF"
+		"niezadeklarowane paliwo jadrowe"
+		"niemozliwa do wysledzenia elektronika"
+		"uzbrojone kurczaki"
+		"uzbrojone swinie"
+		"uzbrojone krowy"
+	replace
+		"%%s" 		"%s" 		"%" 
+phrase "visual media"
+	word
+		"holowid"
+		"holofilm"
+		"franczyza"
+		"seria filmow"
+		"pokaz"
+		"seria"
+		"opera mydlana"
+		"film grozy"
+		"film romantyczny"
+		"film komediowy"
+		"sitcom"
+		"serial science-fiction"
+		"film fantasy"
+		"przedstawienie dla dzieci"
+
+phrase "friendly civilian"
+	word
+		"Powinienes obejrzec film"
+		"Dostosuj swoj kanal do filmu"
+		"Wlasnie obejrzalem film"
+		"Slucham"
+		"Wlasnie kupilem bilety, zeby zobaczyc"
+		"Wlasnie wrocilem z ogladania"
+		"Wlasnie wracam z ogladania"
+		"Wlasnie uslyszalem"
+		"Wlasnie widzialem"
+		"Mialem przepustke za kulisy, aby"
+	word
+		" "
+	phrase
+		"pasmo"
+	word
+		" "
+	word
+		"gra koncert"
+		"robienie show"
+		"na koncercie"
+		"na ich koncercie"
+		"gra koncert charytatywny"
+		"na zywo"
+		"w trasie"
+		"na koncercie na zywo"
+		"gram koncert"
+		"na zywo na koncercie"
+	word
+		" na stadionie Tarazed"
+		" w amfiteatrze"
+		" w sali koncertowej"
+		" w klubie nocnym"
+		" na stadionie Betelgeuse"
+		" na Lionheart Arena"
+		" w Grange"
+		" w osrodku"
+		" w Canyonland Park"
+		" w stylowej sali imprezowej"
+		""
+	word
+		" na Skymoot!"
+		" na Nowym Sydney!"
+		" w Splashdown!"
+		" to Hestia!"
+		" na Ziemi!"
+		" na Heartland!"
+		" na Vail!"
+		" o Nowych Chinach!"
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Powinienes sprawdzic najnowsza czesc "
+		"Musze przyznac, ze jestem uzalezniony od "
+		"Po skonczeniu podrozy nadrobie zaleglosci "
+		"Wybieram sie na konwent fanow dla "
+		"Musze powiedziec, ze lubie ogladac "
+	word
+		`"`
+	phrase
+		"nazwa nosnika"
+	word
+		`." To jest `
+		`," `
+	word
+		""
+		"zdecydowanie "
+		"latwo "
+		"moze "
+		"byc moze "
+	word
+		"ten "
+	word
+		"najlepszy"
+		"najfajniejszy"
+		"najdziwniejszy"
+		"najzabawniejszy"
+		"najbardziej szokujace"
+		"najbardziej fascynujace"
+		"najbardziej surrealistyczne"
+		"najbardziej zaskakujace"
+		"najbardziej przyjemne"
+		"najbardziej oryginalny"
+		"najbardziej wciagajace"
+	word
+		" "
+	phrase
+		"media wizualne"
+	word
+		" "
+	word
+		"tam!"
+		"Widzialem to od wiekow!"
+		"w tym roku!"
+		"jeszcze!"
+		"i zasluguje na nagrode!"
+		"i powinienes to obejrzec!"
+		"o ktorym nikt nie slyszal."
+		"wszech czasow!"
+
+phrase "friendly civilian"
+	word
+		"Podczas nudnych podrozy marnuje czas na ogladanie"
+		"Czasami nie moge sie powstrzymac od ogladania"
+		"Nie moge uwierzyc, ze ludzie to lubia"
+		"Nie moge uwierzyc, ze sie w to wciagnalem"
+		"Czy mozesz w to uwierzyc? Nagrode otrzymal"
+		"Ostatnia podroz, widzialem"
+		"Tydzien temu moja ekipa ogladala"
+		"Stracilem mnostwo czasu na ogladanie"
+		"Nigdy nie odzyskam czasu, ktory stracilem na"
+	word
+		` "`
+	phrase
+		"nazwa nosnika"
+	word
+		`," zdecydowanie`
+		`," latwo`
+		`," bez watpienia`
+		`." To jest`
+		`." Musi byc`
+		`," co wszyscy wiedza jest`
+		`," co jest oczywiste`
+	word
+		" ten "
+	word
+		"najgorszy"
+		"najbardziej tandetne"
+		"najglupszy"
+		"najnudniejszy"
+		"najbardziej przewidywalny"
+		"najbardziej absurdalne"
+		"najbardziej pretensjonalny"
+		"najgorzej zagrany"
+		"najbardziej przereklamowany"
+	word
+		" "
+	phrase
+		"media wizualne"
+	word
+		" "
+	word
+		"Jaki kiedykolwiek widzialem!"
+		"do tej pory."
+		"w ciagu ostatniej dekady."
+		"jakie kiedykolwiek stworzono!"
+
+phrase "friendly civilian"
+	word
+		"" 3
+		"Mezczyzna, "
+		"Ugh, "
+		"Wiesz, "
+		"Jezu, "
+	word
+		"Nie moge uwierzyc"
+		"Nie wiem dlaczego"
+		"Nie mam pojecia dlaczego"
+		"Nie rozumiem dlaczego"
+		"To zagadka, dlaczego"
+		"To mnie wkurza"
+		"To takie dziwne, ze"
+		"Nikt nie potrafi mi wyjasnic dlaczego"
+		"Nie moge sobie wyobrazic dlaczego"
+	word
+		" "
+	word
+		"dzieci sa"
+		"ludzie sa"
+		"ktokolwiek jest"
+		"kazdego"
+		"moja zaloga to"
+		"niektorzy z moich przyjaciol sa"
+		"wszyscy staruszkowie sa"
+	word
+		" nadal"
+		""
+	word
+		" "
+	word
+		"nastepujacy"
+		"slucham"
+		"zwracajac uwage na"
+		"oddajac swoje pieniadze"
+		"placenie za sluchanie"
+		"tak zakochany w"
+	word
+		""
+		" ta grupa"
+		" ta nowa grupa"
+		" ten zespol"
+		" ten nowy zespol"
+		" te sztuczki"
+	word
+		" "
+	phrase
+		"pasmo"
+	word
+		". "
+	word
+		"Ich muzyka"
+	word
+		" "
+	word
+		"jest okropny"
+		"jest okropny"
+		"jest nie do zniesienia"
+		"to smieci"
+		"to taki smiec"
+		"jest tak irytujace"
+		"jest tak zle"
+		"to smieci"
+		"jest brudny"
+		"jest obrazliwe"
+		"to wstyd"
+		"rozdziera uszy"
+		"jest calkowicie pochodna"
+		"jest calkowicie nieoryginalny"
+		"jest mdle"
+		"jest raczej szumem losowym"
+		"jest obraza dobrego smaku"
+		"przynosi zla slawe calemu gatunkowi"
+		"gloryfikuje wszystkie zle rzeczy"
+		"jest narzedziem diabla"
+		"sprzeciwia sie zdrowej przyzwoitosci"
+		"powinien zostac zbanowany"
+		"boli mnie w uszy"
+		"robi mi sie niedobrze"
+	word
+		"!"
+
+phrase "friendly civilian"
+	word
+		"To"
+		"To nowe"
+		"To niesamowite"
+		"Ta niesamowita nowosc"
+		"Ten"
+		"Nowy"
+	word
+		" "
+	word
+		"piosenka"
+	word
+		` "`
+	phrase
+		"nazwa nosnika"
+	word
+		`" `
+	word
+		"jest tak wspanialy"
+		"to moj rodzaj muzyki"
+		"jest moim nowym ulubionym"
+		"znow utkwilo mi w glowie..."
+		"to czysty geniusz"
+		"jest niesamowity"
+		"jest totalnie zajebisty"
+		"jest najlepszy"
+		"to jedyna rzecz, ktorej slucham"
+		"odtwarza sie w kolko na moim lozku"
+		"przebija wszystko"
+		"gra na caly regulator na calym moim statku"
+		"to hit roku"
+		"to najlepsza rzecz, jaka sie dzieje"
+		"to najlepsza rzecz, jaka teraz gra"
+	word
+		"!"
+	word
+		"" 2
+		" Slyszales juz to?"
+		" Musisz to uslyszec!"
+		" Interesowalem sie nimi zanim staly sie popularne."
+		" Sprawdz to!"
+		" Sprawdz je!"
+		" Nie moge sie doczekac, zeby zobaczyc to na zywo!"
+
+phrase "friendly civilian"
+	word
+		"Czesc"
+		"Witaj"
+		"Dzien dobry"
+		"Witam"
+		"Pozdrowienia"
+		"Milo mi cie poznac"
+		"Milo cie znowu widziec"
+		"Wszystko w porzadku"
+		"Potwierdzam"
+		"Czytam cie"
+		"Na ekranie"
+		"Do zobaczenia pozniej"
+		"Do zobaczenia w 'wersum"
+		"Badz bezpieczny"
+	word
+		", "
+	word
+		"kolega kapitan"
+		"kapitan"
+		"przyjaciel"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Maj"
+		"Niech"
+	word
+		" "
+	word
+		"pokoj"
+		"szczescie"
+		"fortuna"
+		"szczescie"
+		"Bog"
+		"dobrobyt"
+		"Sila"
+		"sprzyjajace wiatry"
+		"czyste niebo"
+		"powodzenia"
+		"pomyslny wiatr i jasne niebo"
+		"Allah"
+		"moc Nieba"
+		"Blogoslawienstwa niebios"
+		"Droga i Swiatlo"
+		"niesmiertelne Tao"
+	word
+		" "
+	word
+		"niech bedzie z wami!"
+		"badz z toba dzisiaj!"
+		"podrozuj z toba!"
+		"idz z toba!"
+		"podazaj za swoim sladem!"
+		"niech bedzie z Toba w Twoich podrozach!"
+		"zawsze z toba!"
+
+phrase "friendly civilian"
+	word
+		"Bycie"
+		"Stawanie sie"
+		"Zycie jako"
+		"Zycie"
+	word
+		" "
+	word
+		"a"
+		"niezalezny"
+		"a wolny"
+		"freelancer"
+	word
+		" "
+	word
+		"kupiec"
+		"kurier"
+		"trader"
+		"kapitan"
+		"kapitan statku"
+		"kapitan statku kosmicznego"
+		"kapitan statku kosmicznego"
+		"pilot"
+		"pilot statku"
+		"pilot statku kosmicznego"
+		"pilot statku kosmicznego"
+		"galaktyka-wedrowiec"
+	word
+		" "
+	word
+		"jest trudniejszy niz wyglada"
+		"jest prawie niemozliwe"
+		"jest tak proste, ze nawet dziecko mogloby to zrobic"
+		"nie jest tak zle, o ile nie popadniesz w dlugi"
+		"na poczatku jest ciezko, ale z czasem staje sie o wiele latwiej"
+		"oferuje najlepsze zycie w galaktyce"
+		"to najwieksza emocja, jaka kiedykolwiek przezyjesz"
+		"to jedyny sposob, aby kontrolowac wlasne przeznaczenie"
+		"to jedyny sposob, aby byc naprawde wolnym w dzisiejszych czasach"
+		"jest jedyna droga do prawdziwej wolnosci"
+		"przebija wszystko"
+		"to wyzwanie, ale ostatecznie satysfakcjonujace"
+		"daje mozliwosc zobaczenia calej galaktyki"
+		"jest najlepsza rzecza"
+		"to najwspanialsze przezycie"
+		"naprawde otworzyl moj umysl"
+		"zapewnia cenne doswiadczenie"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Najlepszym sposobem na osiagniecie sukcesu jest"
+		"Oto mala rada:"
+		"Slowo rady:"
+		"Posluchaj mojej rady:"
+		"Oto sekret:"
+		"Sekret sukcesu polega na"
+		"Chcesz poznac moja opinie? Powinienes"
+		"Badz jak najlepsi kapitanowie statkow i"
+		"Nie zapomnij"
+		"Jesli chcesz odniesc sukces,"
+	word
+		" "
+	word
+		"splac kredyt hipoteczny tak szybko, jak to mozliwe"
+		"dokonuj dodatkowych wplat na poczet splaty kredytu hipotecznego, kiedy tylko mozesz"
+		"miec szybki statek, ktory moze uciec przed piratami"
+		"kup statek z duza iloscia koi dla pasazerow"
+		"kup statek z duza ladownia"
+		"latac statkiem, ktory nie jest calkowicie bezbronny wobec piratow"
+		"trzymaj sie bezpiecznych czesci galaktyki"
+		"podejmij duzo ryzyka na poczatku, aby moc jak najszybciej kupic lepszy statek"
+		"utrzymuj swoj statek w chlodzie, aby zmylic pociski Meteor"
+		"zainwestuj w wiekszy reaktor i zmniejsz rozmiar baterii"
+		"zawsze instaluj ramscoop"
+		"zawsze instaluj dopalacz"
+		"zawsze instaluj dysk SRAM"
+		"podwoj swoje generatory oslon, aby nic nie przedostalo sie"
+		"wola prace przy przewozie pasazerow od pracy przy przewozie towarow; lepiej placa"
+		"powiedz nie narkotykom"
+		"unikaj przewozenia nielegalnego ladunku"
+		"po prostu baw sie dobrze i nie przejmuj sie tym"
+		"kup flote o podobnej pojemnosci zbiornika paliwa"
+		"zawsze sprawdzaj port kosmiczny"
+		"sprobuj nawiazac wspolprace z wieksza organizacja"
+		"usun standardowe generatory oslon i wykorzystaj wolna przestrzen na inne wyposazenie"
+		"odinstaluj wszystkie urzadzenia zaklocajace radar na swoim statku. Sa bezuzyteczne"
+		"wykorzystuj pozyczki, aby zdobyc pieniadze i zarabiac pieniadze"
+		"zmniejsz koszt swoich statkow, stosujac baterie zamiast wiekszych generatorow"
+		"zawsze zachowuj wystarczajaca odleglosc, aby moc najpierw oddac strzal z broni dalekiego zasiegu"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Najlepszy"
+		"Preferowany"
+		"Dobry"
+		"Rozsadny"
+		"Najskuteczniejszy"
+		"Niektorzy ludzie mysla, ze"
+		"Nie wierze, ze"
+	word
+		" droga do "
+	word
+		"badz bezpieczny przed piratami"
+		"chron sie przed piratami"
+		"trzymaj piratow na dystans"
+		"unikaj piratow"
+		"radzic sobie z piratami"
+	word
+		" jest do "
+	word
+		"trzymaj sie blisko Swiatow Raju i Glebin"
+		"unikaj systemow Dirt Belt"
+		"trzymaj sie z dala od systemow, ktore kontroluja na krancach galaktyki"
+		"trzymaj sie systemow patrolowanych przez Marynarke Wojenna"
+		"stan sie tak bogaty, ze bedziesz mogl ich po prostu przekupic"
+		"przescignij malych i ucieknij duzym"
+		"rozwal ich na kawalki za pomoca dzial czasteczkowych, zanim zdaza sie zblizyc"
+		"umiesc pare ciezkich wiezyczek laserowych na kazdym ze swoich statkow towarowych"
+		"zestrzel ich z nieba gradem rakiet, zanim zdaza sie do ciebie zblizyc"
+		"kup lekki okret wojenny, ktory nadal bedzie mial przyzwoita liczbe miejsc pasazerskich"
+		"lata wielozadaniowym statkiem, ktory ma miejsce na ladunek, tarcze i ciezka bron"
+		"wyposaz wiezyczki przeciwrakietowe, aby nie mogli cie trafic rakietami, a potem mozesz uciec"
+		"miec flote z przechwytywaczami, aby je zwiazac, podczas gdy statki towarowe beda mogly bezpiecznie przemiescic sie w inne miejsce"
+		"wlacz dysk awaryjny i latwo odskocz"
+		"przegrzac ich salwa plazmowa"
+		"pozostaw siebie nieuzbrojonym, zeby nie traktowali cie priorytetowo"
+		"uzyj zestawu wiezyczek protonowych, aby atakowac z daleka"
+		"uzyj wiekszych statkow towarowych, dzieki czemu trudniej bedzie zniszczyc twoja flote"
+		"unikaj podejmowania pracy w poblizu granicy"
+		"nie uzywac tak wielu statkow towarowych, aby nie mozna bylo sie im oprzec"
+	word
+		"."
+		"!"
+
+
+phrase "friendly civilian"
+	word
+		"Nie uwierzysz"
+		"Nie mogles sobie wyobrazic"
+		"To absurd"
+		"To jest smieszne"
+		"To dziwne"
+	word
+		" ile "
+	word
+		"ludzie"
+		"bogaci ludzie"
+		"emeryci"
+		"artysci"
+		"celebryci"
+		"politycy"
+		"nerdy"
+		"programisci"
+		"naukowcy"
+		"turysci"
+	word
+		" sa sklonni zaplacic za "
+	word
+		"antyczne miecze"
+		"czasopisma o sprosnosciach"
+		"cygara"
+		"sukienki koktajlowe"
+		"koniak"
+		"dlugopisy na zamowienie"
+		"odziez designerska"
+		"garnitury od projektantow"
+		"szable pojedynkowe"
+		"dywany egzotyczne"
+		"egzotyczne drewno lisciaste"
+		"wykwintne meble"
+		"kije golfowe"
+		"zegary stojace"
+		"torebki"
+		"meble ogrodowe"
+		"zywe homary"
+		"tkaniny luksusowe"
+		"woda mineralna"
+		"chusteczki z monogramem"
+		"teczki numizmatyczne"
+		"storczyki"
+		"obrazy"
+		"paralotnie"
+		"perfumy"
+		"zegarki kieszonkowe"
+		"porcelana"
+		"repliki wazonow z epoki Ming"
+		"repliki masek plemiennych"
+		"szafran"
+		"srebrne lyzki"
+		"deski surfingowe"
+		"tyton"
+		"Zaluzje weneckie"
+		"jachty"
+	word
+		"."
+		". Nie zebym narzekal."
+
+phrase "friendly civilian"
+	word
+		"Chcesz uslyszec zart?"
+	word
+		" "
+	word
+		"Co bobr powiedzial do klody? Milo bylo cie gryzc!"
+		"Dlaczego kurczak przeszedl przez ulice? Zeby przejsc na druga strone!"
+		"Gdzie przesiaduja astronauci? Przy barze ze spacja!"
+		"Jaki jest ulubiony napoj sprzedawcy Syndykatu? Cokolwiek Syndykat mu powie!"
+		"Dlaczego Marynarka Wojenna nienawidzi sasiadow? Bo trawa jest bardziej zielona po drugiej stronie!"
+		"Co ma dwie glowy, szesc stop, dwie rece i jeden ogon? Czlowiek na koniu!"
+		"Czego boi sie potwor spod twojego lozka? Ciebie!"
+		"Ty!"
+		"Co jest cale czarne, biale i czerwone? Gazeta!"
+		"Rekrutacja do Marynarki Wojennej!"
+		"Twoj statek!"
+		"Co oznacza 1+1? Okno!"
+		"Jak staw dostal piatke z angielskiego? Bo potrafil spiewac!"
+		"Dlaczego balwany maja nosy? Bo to s-nos!"
+		"Co laczy mozg i zime? Oboje s-wiedza!"
+		"Co powiedzial system Korneforosa po odkryciu sensu zycia? To dosc glebokie."
+		"Dlaczego wiekszosc naukowcow nurkuje? Bo kochaja glebiny!"
+		"Co powiedzial system Sabika po uslyszeniu teorii spiskowej? To jest skok w dal."
+		"Dlaczego system Rastabanu chcial byc baletnica? Bo byl w nim maly Tancerz!"
+		"Dlaczego tajni agenci zycza sobie, zeby na Martini doszlo do trzesienia ziemi? Bo chca, zeby bylo wstrzasniete, a nie zmieszane!"
+		"Co laczy Phurada i ostryge? Oboje maja w sobie perle!"
+		"Dlaczego piracki wodz byl szczesliwy po zabraniu Pherkada? Bo dalo mu to ukojenie!"
+		"Co jest gorsze od wezy na statku? Weze kraza po calym systemie!"
+		"Jakie jest najpopularniejsze imie na Vinci? Leonardo!"
+		"Na co zmienili imie Urana? Urass!"
+		"Dlaczego system Kursy nie potrzebuje teleskopu? Bo to Farseer!"
+		"Dlaczego piracki wodz byl rozczarowany po zdobyciu systemu Koczub? Bo to bylo tylko zwykle zwyciestwo!"
+		"Dlaczego nikt sie nie zaniepokoil, gdy system Kaus Australis stracil jedna z nog? Bo to juz byl Hopper!"
+		"Gdzie sie udac po rog obfitosci? Kappa Centauri!"
+		"Co mowia Quargowie ludziom, ktorzy robia irytujace rzeczy? To Enif!"
+		"Jak nazywasz bezsensowna atmosfere? Skymoot!"
+		"Dlaczego system Graffias jest zlym zabojca? Bo potrafi tylko Trujace Drewno!"
+		"Dlaczego Gomeisa zawsze ma katar? Bo zawsze s-Nifel-s!"
+		"Jaka muzyke lubi Girtab? Utwory z harmonia!"
+		"Dlaczego sprzet medyczny jest tak wazny w Gamma Corvi? Bo mnostwo ludzi tam mieszka!"
+		"Dlaczego Fomalhaut jest taki nudny? Bo to typowy wyscig Millrace!"
+		"Dlaczego tak wiele osob obejrzalo serial o Elnath? Bo mial dobry odcinek pilotazowy!"
+		"Dlaczego trudno poruszac sie po Dubhe? Bo jest tam gesta mgla!"
+		"Dlaczego inzynierowie chodza do Diphdy? Bo lubia majsterkowac!"
+		"Jaka planeta jest najmniej lubiana przez robota? Rdza!"
+		"Jak nazwac statek kosmiczny bez silnikow? Statek naziemny!"
+		"Nie ufaj schodom. Zawsze cos knuja."
+		"Ilu Hestianow potrzeba do wymiany zarowki? Czterech! Elektryk wykonuje prace, a kamerdyner, kierownik i gospodyni nadzoruja."
+		"Ilu Wayfarerow potrzeba do wymiany zarowki? Zero, tam nie uzywaja tak starej technologii!"
+		"Ilu Moonshakerow potrzeba do wymiany zarowki? Zero, wszystko zlecaja przybyszom z innych planet."
+		"Ilu Aleksandryjczykow potrzeba do wymiany zarowki? Jeden, to ludzie bardzo wyksztalceni i kompetentni."
+		"Ilu Ziemian potrzeba do wymiany zarowki? Trzech, jeden do wymiany zarowki i dwoch do przedzierania sie przez tlum ludzi."
+		"Ilu Wenusjan potrzeba do wymiany zarowki? Zero, na Wenus nie ma ludzi!"
+		"Ilu Marsjan potrzeba do wymiany zarowki? Zero, pozwalaja przyjezdnym robotnikom z Ziemi wymienic zarowki."
+		"Ilu mieszkancow Nowego Bostonu potrzeba, zeby wymienic zarowke? Nie mam pojecia, nigdy tam nie bylem."
+		"Ilu Delvian potrzeba do wymiany zarowki? Zero, pokoj sie zawala, zanim zdazysz wymienic zarowke."
+		"Ilu Sinterian potrzeba do wymiany zarowki? Zero, po prostu wysylaja robota, zeby to zrobil."
+		"Ilu wariatow potrzeba do wymiany zarowki? Nie zawracaj sobie glowy, bo wybuchaja gniewem, jesli nazwiesz ich wariatami."
+		"Ilu nowych Brytyjczykow potrzeba do wymiany zarowki? Wielu woli sprzedawac zarowki zamiast je instalowac na swojej planecie sklepikarzy."
+		`Ktos spotkal dzina i powiedzial "zostaw mnie w spokoju." Ta osoba utknela teraz na niezamieszkanej planecie.`
+		`Ktos spotkal dzina i powiedzial "Nie chce cie widziec," po czym oslepl.`
+		"Te beczki! Nie moge uwierzyc, ze wciaz lataja z beczkami zamiast silnikow!"
+		"Czym jest maly krok dla czlowieka, ale wielkim skokiem dla ludzkosci? Opuszczasz ten system. Haha."
+	word
+		"" 2
+		" Co? Nie smieszne?"
+		" Hej, myslalem, ze bedzie dobre!"
+		" No, chociaz troche sie posmiej!"
+		" Dlaczego buczysz?"
+		" Co z tym jeczeniem?"
+		" Calkiem sprytne, prawda?"
+		" Zajelo mi to dzien, zeby to wymyslic."
+		" Rozumiesz?"
+
+phrase "friendly civilian"
+	word
+		"Ogladales mecz? "
+		"Ten"
+		"Slyszalem"
+		"To bylo szokujace, jak"
+		"Nie moge uwierzyc"
+		"Tak jak sie spodziewalem,"
+	word
+		" "
+	word
+		"Gofery"
+		"Kwazary"
+		"Smoki"
+		"Wilki Straszne"
+		"Zniwiarze"
+		"Ile"
+		"Hellcats"
+		"Piledrivers"
+		"Walce parowe"
+		"Widma"
+		"Kameleony"
+		"Cavaliers"
+		"Ogry"
+		"Bogowie Gromu"
+		"Kamieniarze"
+		"Plasmaticas"
+		"Greasemonkeys"
+		"Smoki Pustki"
+		"Goers"
+		"Psyches"
+	word
+		" "
+	word
+		"calkowicie pobil"
+		"zmiksowano"
+		"pokonal"
+		"prawie przegral z"
+		"pokonal"
+		"rozegral epicka gre przeciwko"
+		"zniszczyl"
+		"calkowicie upokorzony"
+		"ledwo pokonal"
+		"zburzyl"
+		"rozbil"
+		"uderzyl"
+	word
+		" "
+	word
+		"Jabberwocks"
+		"Turlingdroves"
+		"Golebie wedrowne"
+		"Sekwoje"
+		"Prezydenci"
+		"Mrowniki"
+		"Raiderzy"
+		"Charty"
+		"Burze piaskowe"
+		"Niszczyciele"
+		"Boogeymen"
+		"Czarne Wdowy"
+		"Gobliny"
+		"Mloty pneumatyczne"
+		"Odkupiciele"
+		"Antylopy"
+		"Pythony"
+		"Rakiety"
+		"Kosmiczne Misie"
+	word
+		" wczoraj wieczorem"
+		" wczoraj"
+		" dzis rano"
+		" ostatnio"
+		", jak zwykle"
+		" tego popoludnia"
+	word
+		"!"
+		"."
+		". Powinienes to zobaczyc!"
+		". Chcialbym, zeby moj kanal byl bardziej przejrzysty."
+
+phrase "friendly civilian"
+	word
+		"Wlasnie dostarczono ladunek"
+		"W koncu troche zrzucilem"
+		"Zrzucilem swoj ladunek"
+		"Wlasnie wykonalem duza dostawe"
+	word
+		" "
+	word
+		"ser limetkowy"
+		"ser plesniowy"
+		"zwierzeta hodowlane"
+		"bydlo"
+		"czosnek"
+		"owce"
+		"nawoz"
+		"obornik"
+		"scieki przetworzone"
+		"myszy laboratoryjne"
+		"amoniak"
+		"lutefish"
+		"siarka"
+		"skarpetki z drugiej reki"
+		"kompost"
+		"glowy rybie"
+		"zgnile owoce"
+		"osad"
+		"nieoczyszczone scieki"
+	word
+		". Moj"
+		", a teraz moj"
+	word
+		" "
+	word
+		""
+		"statku "
+		"slaby "
+		"biedny statek "
+		"piekny statek "
+		"delikatny statek "
+		"nieskazitelny statek "
+
+	word
+		"przytrzymaj"
+		"ladownia"
+		"ladownia"
+	word
+		" "
+	word
+		"calkowicie smierdzi!"
+		"pachnie okropnie!"
+		"bedzie smierdziec przez tygodnie!"
+		"nadal smierdzi!"
+		"trzeba go splukac woda!"
+		"bedzie potrzebowal niezlej kapieli chemicznej!"
+		"rozpaczliwie potrzebuje czyszczenia sonicznego!"
+		"trzeba go podpalic!"
+		"zasluguje na to, zeby go uspic!"
+		"musi zostac wymieniony!"
+
+phrase "friendly civilian"
+	word
+		"Niektore"
+		"Para"
+		"Kilka"
+		"Peczek"
+	word
+		" mojego "
+	word
+		"pasazerowie"
+		"goscie"
+		"klienci"
+		"mieszkancy"
+		"Pasazerowie VIP"
+	word
+		" "
+	word
+		"zwymiotowalismy po wyjsciu z nadprzestrzeni"
+		"zwymiotowalismy obiadem, gdy tylko weszlismy w nadprzestrzen"
+		"nie mogli utrzymac zawartosci zoladka w srodku"
+		"zrobili wielki balagan w swoich pokojach"
+		"calkowicie zrujnowali swoje pokoje"
+	word
+		" podczas gdy mialem je na swoim statku"
+		" podczas gdy przebywali na moim statku"
+		" i nie chcial sie do tego przyznac"
+		" i probowalem zrzucic wine na moja zaloge"
+		" i probowalem uniknac jego sprzatania"
+		"" 5
+	word
+		". "
+	word
+		"Zostawie ich na najblizszej zamieszkanej planecie"
+		"Ciesze sie, ze odjezdzaja na nastepnym przystanku"
+		"Powiedzialem im, zeby wyjechali na nastepnym przystanku"
+		"Nie mam innego wyboru, jak zostawic je na nastepnym przystanku"
+	word
+		"" 3
+		", niech zamiast tego zrobia balagan na czyims statku"
+		", Nie chce znowu po nich sprzatac"
+		", lepiej niech sie naucza, jak zyc na statku kosmicznym"
+	word
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Czy znasz kogos z "
+		"Czy wiesz cos o "
+		"Czy slyszales cos o "
+		"Czy kiedykolwiek myslales o "
+	word
+		"Alfheim"
+		"Bourne"
+		"Skymoot"
+		"Spiec"
+		"Waga piorkowa"
+		"Kanion"
+		"Hermes"
+		"Hipokrates"
+		"Wodowanie"
+		"Burthen"
+		"Rozdroze"
+		"Brzek"
+		"Obserwator"
+		"Stormhold"
+		"Bunt"
+		"Pijacy slonce"
+		"Nowy Boston"
+		"Waz"
+	word
+		"? "
+	word
+		"Czy znasz kogos, kto tam byl?"
+		"Czy zastanawiales sie kiedys, dlaczego nikt tam nie mieszka"
+		"Czy spotkales kogos z tego miejsca"
+		"Czy kiedykolwiek zastanawiales sie, dlaczego nikt tam nie chodzi"
+		"Czy slyszales cos o tym, co sie tam dzieje"
+		"Czy kiedykolwiek widziales jakies wiadomosci o tym swiecie"
+	word
+		"? "
+	word
+		"Nie? Uwazam, ze to miejsce po prostu nie istnieje"
+		"Nawet Republika nie mogla potwierdzic jego istnienia"
+		"To miejsce nie jest prawdziwe; to tylko iluzja"
+		"Jestem pewien, ze cos sie tam dzieje"
+		"'Oni' chca, zebysmy uwierzyli, ze to miejsce naprawde istnieje"
+		"To wszystko jest tylko przykrywka dla „ich” machinacji"
+		"Musi byc jakis powod, dla ktorego „oni” nigdy o tym nie wspominaja"
+		"Mysle, ze ci przedstawiciele cos tam ukrywaja"
+		"Zaloze sie, ze dzieje sie tam cos, o czym przedstawiciele nie chca, zebys wiedzial"
+		"Wywiad Republiki nie chce, zebys wiedzial, co sie tam dzieje"
+		"Mysle, ze Przedstawiciele trzymaja tam kilku Alph"
+		"To wszystko przykrywka dla tajnej kolonii Alfa Reps"
+		"Jestem przekonany, ze Alfy stamtad rzadza Republika"
+		"To dlatego, ze jest tam tajna kolonia Alfa, o ktorej Reprezentanci nie chca, zebys wiedzial"
+		"To wszystko przykrywka dla Quarg"
+		"To wszystko spisek Quargow"
+		"Jestem przekonany, ze Quarg uzywaja go jako punktu przejsciowego"
+		"Quargowie musza tego uzywac do manipulowania naszym rzadem"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Czlowieku, czuje sie zle"
+		"Nienawidze tego"
+		"To najgorsze uczucie"
+		"To takie denerwujace"
+		"To, co mnie naprawde wkurza, to"
+		"Naprawde nienawidze"
+	word
+		" kiedy "
+		" kiedykolwiek "
+	word
+		"okazuje sie, ze przetransportowales swoj ladunek w niewlasciwe miejsce."
+		"piraci zaatakuja cie, zanim zdazysz sie ruszyc."
+		"Przypadkowo przyjalem niewlasciwa prace."
+		"O malo co nie przekroczylem terminu wykonania zadania."
+		"Skonczylo mi sie paliwo w niezamieszkanym ukladzie."
+		"Musze zaplacic za ladowanie."
+		"Brakuje mi nowego statku."
+		"Natychmiast trace statek, na ktory oszczedzalem."
+		"Zostaje zablokowany, gdy probuje skoczyc, podczas gdy piraci popychaja mnie rakietami."
+		"przebiegly pirat uzywa szybkiego statku uzbrojonego w pociski, aby bombardowac mnie z daleka."
+		"moj pocisk przeciwrakietowy nie moze zniszczyc nawet jednego pocisku."
+		"moj autopilot kieruje mnie na niewlasciwa planete w ukladzie."
+		"Okazuje sie, ze przyjalem misje na dwie rozne planety w jednym ukladzie."
+		"moj statek zuzywa cala swoja moc na regeneracje tarcz zamiast na strzelanie."
+		"moi eskortujacy popelniaja samobojstwo w walce z piratami."
+		"moi pasazerowie boja sie i placza przez cala podroz."
+		"jeden z moich pasazerow dostal choroby kosmicznej i stworzyl okropny balagan."
+		"jeden z moich pasazerow wymiotuje i musze sprzatac przez kilka dni."
+		"Nie moge rozladowac ladunku, bo ktos pomylil dokumenty."
+
+phrase "friendly civilian"
+	word
+		"Uwazaj na"
+		"Uwazaj na"
+		"Uwazaj na"
+		"Prawdopodobnie staniesz sie celem"
+		"Istnieje wzrastajace ryzyko"
+		"Prawdopodobnie natkniesz sie na"
+		"Uwazaj na wszystkich"
+		"Trzeba trzymac sie z daleka od"
+		"Staraj sie unikac wszystkiego"
+		"Trzymaj sie z daleka od wszystkiego"
+		"Upewnij sie, ze unikasz"
+		"Uwazaj na"
+	word
+		" "
+	word
+		"piraci"
+		"floty pirackie"
+		"piraci-najezdzcy"
+		"korsarze"
+		"napady piratow"
+		"statki pirackie"
+		"przestepcy"
+		"renegaci"
+		"lobuzy"
+		"oszusci"
+		"raiderzy"
+		"maruderzy"
+		"rabusie"
+	word
+		" "
+	word
+		"jesli jestes"
+		"jesli kiedykolwiek znajdziesz sie"
+		"kiedy jestes"
+		"czy kiedykolwiek powinienes"
+	word
+		" "
+	word
+		"przelatujac"
+		"odwiedzam"
+		"podrozujac przez"
+		"w"
+		"przechodzac"
+		"przechodzac"
+		"eksploracja"
+		"wykonywanie prac w"
+	word
+		" "
+	word
+		"daleka Polnoc"
+		"poludniowa krawedz"
+		"gwiazdy najblizsze jadru"
+		"niezamieszkane systemy"
+		"puste systemy"
+		"nieustabilizowane systemy"
+		"pas brudu"
+		"systemy mniej zamozne"
+		"biedniejsze czesci galaktyki"
+		"Poludniowa Krawedz"
+		"krawedzie przestrzeni Syndykatu"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Najbezpieczniejszym sposobem zarabiania pieniedzy jest"
+		"Mozesz dobrze zarabiac na zycie"
+		"Mowia, ze mozna na tym zarobic"
+		"Bedziesz mial szczescie w zarabianiu pieniedzy"
+		"Mozesz zarabiac staly dochod"
+		"Najlepszym sposobem na oplacenie rachunkow jest"
+		"Nigdy nie zaszkodzi uzupelnic dochodow o"
+		"Odkrylem, ze mozna szybko zarobic duzo pieniedzy"
+		"Jesli brakuje Ci gotowki, mozesz sprobowac"
+	word
+		" "
+	word
+		"znalezienie szlaku handlowego, ktory bedzie oplacalny w obu kierunkach."
+		"szukam szczegolnie dobrych szlakow handlowych."
+		"przewozenie turystow do i z miejsc docelowych."
+		"podejmowanie misji szybkiego reagowania."
+		"dodawanie dodatkowych pomieszczen z lozkami pietrowymi do statku."
+		"ulepszanie statku w celu zwiekszenia pojemnosci ladunkowej."
+		"wykonywanie wielu misji w tym samym regionie kosmosu."
+		"transport towarow statkiem o duzej ladownosci."
+		"przynoszenie zywnosci i sprzetu do Swiatow Raju."
+		"sprzedaz dobr luksusowych na Swiatach Raju."
+		"transport metali na planety Poludniowego Rubiezy."
+		"sprzedaz towarow medycznych na Poludniowym Rubiezy."
+		"przewoz metali przez Glebiny."
+		"przewozenie ludzi statkiem mogacym pomiescic wielu pasazerow."
+		"sprawdzam, na jakich towarach mozesz zarobic, niezaleznie od tego, dokad sie udasz."
+		"eskortowanie duzych frachtowcow uzbrojonych w obrone przeciwrakietowa."
+		"unieszkodliwianie malych, odizolowanych statkow pirackich i sprzedawanie ich wyposazenia."
+		"szukam pracy w porcie kosmicznym."
+		"pomoc samorzadowi lokalnemu."
+
+phrase "friendly civilian"
+	word
+		"To troche niebezpieczne"
+		"To ryzykowne"
+		"To trudne"
+		"To watpliwe"
+		"Niektorzy mowia, ze to zle"
+		"Mozesz zginac"
+		"Mozesz umrzec"
+		"Mozesz miec klopoty"
+		"Nie mow nikomu"
+	word
+		", ale "
+	word
+		"jesli brakuje mi gotowki, to"
+		"Lubie"
+		"moja preferowana metoda zysku jest"
+		"Mysle, ze najlepszym sposobem na zarabianie pieniedzy jest, jesli"
+		"szybko zarobisz pieniadze, jesli"
+	word
+		" "
+	word
+		"podejmij sie zlecen"
+		"transport towarow nielegalnych"
+		"polowanie na piratow"
+		"transport zbiegow"
+		"wsiadanie na poklad i lapanie piratow"
+		"wydobywac asteroidy na krancach przestrzeni ludzkiej"
+	word
+		"."
+
+phrase "friendly civilian"
+	word
+		"Podejrzewam, ze"
+		"Jestem pewien, ze"
+		"Ludzie mowia"
+		"Ludzie mowia, ze"
+		"Mowia"
+		"Slyszalem plotki, ze"
+		"Nie zdziwilbym sie, gdyby"
+		"Nie moge pozbyc sie uczucia, ze"
+		"Istnieje duze prawdopodobienstwo, ze"
+		"Zdecydowanie mozliwe jest, ze"
+		"Zaloga tego statku od dawna podejrzewala, ze"
+		"Jestem prawie pewien"
+		"Wszyscy, ktorych znam, sa pewni, ze"
+		"Moj szalony wujek ciagle papla o tym, jak"
+		"Moja szalona tesciowa ciagle papla o tym, jak"
+		"Moja ostatnia dziewczyna nie przestawala narzekac na to, co mysli"
+		"Moj ostatni chlopak nie przestawal narzekac na to, co mysli"
+		"Nie moge uwierzyc, ze niektorzy ludzie mogli tak pomyslec"
+		"Musialbys byc naprawde glupi, zeby w to uwierzyc"
+		"Wierze, ze"
+		"Nikt mi nie wierzy, kiedy opowiadam im jak"
+		"Mysle"
+		"Naprawde tak mysle"
+		"Wierze, ze"
+		"Naprawde wierze, ze"
+		"Jestem pewien, ze"
+		"Wszyscy wiedza"
+		"Wszyscy wiedza, ze"
+		"Wszyscy wiedza"
+		"Wszyscy to wiedza"
+		"Chcialbym, zeby wiecej ludzi zdawalo sobie z tego sprawe"
+		"Chcialbym, zeby wiecej osob zdawalo sobie z tego sprawe"
+		"Moj szalony kuzyn twierdzi, ze"
+		"Jednym z moich ulubionych zartow jest powiedzenie"
+		"Jednym z moich ulubionych wystepow komediowych jest stwierdzenie, ze"
+	word
+		" "
+	word
+		"przywodcy Syndykatu"
+		"Quarg"
+		"politycy"
+		"urzednicy rzadowi"
+		"czlonkowie parlamentu"
+		"Swiaty Rajskie"
+		"bogate swiaty"
+		"ci dziwni ludzie z Glebin"
+		"duze korporacje"
+		"duze korporacje"
+		"agenci wywiadu Republiki"
+		"banki"
+		"swiaty Syndykatu"
+		"wiekszosc gubernatorow planetarnych"
+		"kierownictwo korporacji Tarazed"
+		"dyrektorzy korporacji Lionheart"
+		"kierownictwo korporacji Megaparsec"
+		"kierownictwo korporacji Lovelace"
+	word
+		" "
+	word
+		"nie maja na sercu naszego najlepszego interesu."
+		"maja sekrety, o ktorych nam nie mowia."
+		"ukrywaja sekrety przed reszta galaktyki."
+		"dbaja tylko o wlasne interesy."
+		"nie obchodzi ich nikt poza nimi samymi."
+		"wykorzystuja nas tylko dla wlasnej korzysci."
+		"manipuluja wydarzeniami w galaktyce."
+		"wiedza rzeczy, o ktorych nam nie mowia."
+		"bogaca sie dzieki ciezkiej pracy wszystkich innych."
+		"sa potezniejsze, niz sie wydaje."
+		"sa swiadomi istnienia wiekszej liczby gatunkow obcych, niz publicznie przyznaja."
+		"stoja w tajemnicy za ostatnim wzrostem aktywnosci piratow."
+		"celowo probuja zaszkodzic planetom Pasa Brudu."
+		"boja sie prawdy."
+		"zawsze nas oklamuja."
+		"nie sa wcale takie zle, jak ludzie mysla."
+		"sa naprawde swietne!"
+		"sa calkowicie godne zaufania!"
+		"staraj sie postepowac wlasciwie wobec innych."
+		"po prostu robia, co moga."
+		"tak naprawde mamy na sercu nasze najlepsze interesy."
+		"sa zasadniczo uczciwi."
+		"po prostu robia, co moga, w wiekszosci przypadkow."
+		"po prostu probujemy sie dogadac, tak samo jak ty i ja."
+		"to grupa wielkich mieczakow gleboko w srodku."
+		"mysla, ze wiedza najlepiej, ale tak naprawde nie wiedza."
+		"manipuluja cenami towarow."
+		"chca pochlonac zasoby calej galaktyki i zostawic resztki dla nas wszystkich!"
+		"buduja superbronie, ktora nas wszystkich zniszczy!"
+		"sa potajemnie kontrolowane przez Jaszczurczych Illuminati!"
+		"sa pod kontrola ukrytej rasy kosmitow-wiewiorek!"
+		"sa kontrolowane przez tajemnicza grupe ludzi, ktorzy wspieraja Alfy!"
+		"sa pod wplywem liberalnej federacji obcych!"
+		"wykonujesz polecenia obcej, zbiorowej inteligencji o zoltej krwi!"
+		"sa tak naprawde ludzmi-ptakami, ktorzy nienawidza srodowiska!"
+		"probuja zrobic slimaki ze statkami jako muszlami!"
+		"spotykamy sie w kazdy czwartek na Lunie, aby zagrac w pilkarzyki!"
+		"kocham czarne, blyszczace kostki."
+		"zawieraj tajne uklady z piratami."
+		"pomagaja Alfom."
+		"potajemnie niszcza enklawy Alfy."
+
+phrase "friendly civilian"
+	word
+		"Coraz trudniej"
+		"Kiedys bylo latwiej"
+		"Nie powinno byc tak trudno"
+		"Tak wiele osob ma z tym problem"
+		"Musi byc latwiejszy sposob na"
+		"Zadaniem rzadu jest umozliwienie danej osobie"
+		"Parlament musi zrobic wiecej, aby pomoc obywatelom"
+		"Trzeba cos zrobic z tym, jak trudno jest"
+		"Prawie juz sie poddalem, ze nie bede w stanie"
+		"Ta gospodarka sprawia, ze jest prawie niemozliwe"
+		"Rzad sprawia, ze jest to praktycznie niemozliwe"
+		"Wydaje sie, ze nikt nie jest w stanie"
+		"W koncu moge"
+		"Wreszcie moge"
+		"Dzis nikt nie moze"
+		"W dzisiejszych czasach po prostu nie mozna"
+		"Chcialbym moc"
+		"Martwie sie, ze nie moge"
+		"Nie wiem, dlaczego ludzie nie moga"
+		"Niektorzy ludzie po prostu nie potrafia"
+		"To bardziej skomplikowane niz myslisz"
+		"Nawet jesli dobrze zaczniesz, moze to stac sie nuzace"
+		"To dosc nudne zadanie"
+	word
+		" "
+	word
+		"zarabiac na zycie"
+		"zarabiac na zycie"
+		"splacic kredyt hipoteczny"
+		"unikaj zadluzania sie"
+		"unikaj atakow piratow"
+		"badz bezpieczny przed piratami"
+		"kup lepszy statek"
+		"posiadaj i utrzymuj statek kosmiczny"
+		"zaplac za ulepszenia statku"
+		"bezpieczna podroz przez Poludniowa Krawedz"
+		"miec szanse na lepsze zycie"
+		"czuj sie bezpiecznie"
+		"zaplac wszystkie te podatki"
+		"byc niezaleznym sprzedawca"
+		"utrzymac dzialalnosc jako niezalezny przedsiebiorca"
+		"zyc zyciem niezaleznego kupca"
+		"zaoszczedz pieniadze"
+	word
+		"."
+		"!"
+		
+phrase "friendly civilian"
+	word
+		"Mam"
+	word
+		" "
+	word
+		"znaleziono"
+		"odkryto"
+		"uzywalem"
+		"plynelismy"
+		"natknalem sie"
+	word
+		" "
+	word
+		"niektore"
+		"kilka"
+		"para"
+		"para"
+		"liczba"
+	word
+		" "
+	word
+		""
+		"naprawde "
+		"bardzo "
+		"ekstremalnie "
+		"wyjatkowo "
+	word
+		"ciekawe"
+		"dobry"
+		"lukratywny"
+		"oplacalny"
+		"nagradzajace"
+		"warte zachodu"
+	word
+		" "
+	word
+		"szlaki handlowe, ale ja nie"
+		"szlaki handlowe, ale nie ma mowy, zebym"
+	word
+		" "
+	word
+		"ujawnianie"
+		"ujawniajacy"
+		"opowiadanie"
+		"ujawnianie"
+	word
+		" "
+	word
+		"sekrety"
+		"sciezki"
+		"ich"
+		"'em"
+	word
+		" "
+	word
+		"do ciebie"
+		"do kogokolwiek"
+		"do kogokolwiek"
+		"do kogokolwiek innego"
+		"do kogokolwiek innego"
+		"do innego tradera"
+		"do mojej konkurencji"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Wlasnie podwiozlem"
+		"Transportowalem"
+		"Moj ostatni pasazer to"
+		"Utknalem z"
+	word
+		" "
+	word
+		"a"
+		"niektore"
+		"to"
+	word
+		" "
+	word
+		"bogate dziecko"
+		"rozpieszczony bachor"
+		"sprzedawca"
+		"elegancka dama"
+		"stary czlowiek"
+		"emerytowany policjant"
+		"student"
+	word
+		". "
+	word
+		"Oni po prostu nie przestawali gadac o"
+		"Nie mogli przestac mowic o"
+		"Rozprawiali o"
+		"Wszystko, o czym rozmawiali, to"
+	word
+		" ten zespol"
+		""
+	word
+		" "
+	phrase
+		"pasmo"
+	word
+		". "
+	word
+		"Po prostu tego nie rozumiem"
+		"Nie jestem wielkim fanem muzyki"
+		"Wole dziela klasyczne"
+		"Nie obchodza mnie one"
+	word
+		", ale "
+	word
+		"ich najnowsza piosenka nie byla taka zla"
+		"Ich najnowsza piosenka mi sie spodobala"
+		"piosenki, ktore puszczal moj pasazer, nie byly takie zle"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Czasami slysze"
+		"Slyszalem plotki"
+		"To powszechny mit"
+		"Slyszalem"
+	word
+		" to "
+	word
+		"piraci"
+		"lobuzy"
+		"przemytnicy"
+		"zlodzieje"
+	word
+		" czasami "
+	word
+		"transport"
+		"przemyt"
+		"sprzedaj"
+	word
+		" "
+	phrase
+		"kontrabanda"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Ostatniego dnia"
+		"Kilka tygodni temu"
+		"W zeszlym tygodniu"
+	word
+		" "
+	word
+		"ktos"
+		"niektore bezkregowce"
+		"jakis idiota"
+		"jakis sknera"
+	word
+		" "
+	word
+		"probowal mnie do tego zmusic"
+		"chcial, zebym zrobil"
+		"probowal mnie oszukac, zebym to zrobil"
+	word
+		" "
+	word
+		"praca, ktora byla platna tylko"
+		"koncert tylko za"
+		"cos za nic"
+	word
+		" "
+	word
+		"1,"
+		"2,"
+		"3,"
+		"4,"
+		"5,"
+	word
+		"000"
+		"250"
+		"500"
+		"750"
+	word
+		" "
+	word
+		"kredyty za skok"
+		"kredyty za kazdy dzien podrozy"
+	word
+		"! "
+		". "
+	word
+		"To staje sie epidemia."
+		"Ludzie w dzisiejszych czasach sa tak niechetni, zeby placic nam tyle, ile jestesmy warci."
+		"Za jakiego idiote uwazal mnie ten facet?"
+		"Jaki idiota podjalby sie takiej pracy?"
+		"Zaluje, ze bylem tak uprzejmy."
+		"Najwyrazniej ludzie mysla, ze bedziemy pracowac dla rozglosu."
+		"Nie wspominajac o tym, ze ten statek nie jest zaprojektowany do tego typu zadan."
+
+phrase "friendly civilian"
+	word
+		"Nie idz na"
+		"Nie bierz udzialu"
+		"Trzymaj sie z daleka od"
+		"Uwazaj na"
+	word
+		" "
+	word
+		"zle zorganizowane wyscigi"
+		"oszustwa spadkowe"
+		"podejrzane zlecenia transportowe"
+		"transporty Hitmana"
+	word
+		"."
+		"!"
+	word
+		" "
+	word
+		"Stracilem 20 000 kredytow na jednym z nich."
+		"O malo co nie zginalem w jednym z nich."
+		"Marynarka wojenna prawie mnie aresztowala."
+		"Te moga zrujnowac ci zycie!"
+		"Zwykle sa zbyt piekne, zeby mogly byc prawdziwe."
+		"Biora od ciebie pieniadze, a ty nie dostajesz nic w zamian."
+
+phrase "friendly civilian"
+	word
+		"Mam dostawe dla"
+		"Szukam"
+		"Moi pasazerowie musza udac sie do"
+	word
+		" "
+	word
+		"Diuna"
+		"Ziemia"
+		"Odlewnia"
+		"Szkliwo"
+		"Wstrzas ksiezycowy"
+		"Norn"
+		"Patelnia"
+	word
+		", ale moja mapa gwiazd tego nie uwzglednia."
+		"; czy wiesz gdzie moge to znalezc?"
+		"; czy kiedykolwiek o tym slyszales?"
+		"; ta planeta nie powinna byc zbyt daleko stad."
+		"; ktora trasa hiperprzestrzenna mam tam dotrzec?"
+
+phrase "friendly civilian"
+	word
+		"Prawie zderzylem sie z"
+		"Wpadlem na"
+		"Znalazlem"
+		"Podnioslem"
+	word
+		" "
+	word
+		"antyczny czajnik"
+		"samochod typu kabriolet"
+		"jakas stara kapsula pamieci"
+	word
+		" "
+	word
+		"pomiedzy Ziemia a Marsem"
+		"wokol Ziemi"
+		"wokol Marsa"
+	word
+		"."
+		"!"
+	word
+		""
+		" Czy mozesz w to uwierzyc?"
+		" Chcesz to zobaczyc?"
+		" Znajdowal sie na niestabilnej orbicie."
+		" Musial zostac wystrzelony w dawnych czasach."
+		" Niewiarygodne, co ludzie wysylali wtedy w kosmos."
+
+phrase "friendly civilian"
+	word
+		"Sprawdz"
+		"Szukaj"
+	word
+		" "
+	word
+		"rasa"
+		"piloci akrobacyjni latajacy w formacji"
+	word
+		" "
+	word
+		"w glebinach"
+		"w przestrzeni Syndykatu"
+		"przez Swiaty Raju"
+	word
+		". "
+		"! "
+	word
+		""
+		"Bylem tam w zeszlym miesiacu."
+		"Nastepne wydarzenie bedzie wspaniale!"
+		"To jest prawdziwa rozrywka!"
+
+phrase "friendly civilian"
+	word
+		"Ja"
+		"Ja i moj przyjaciel"
+	word
+		" "
+	word
+		"mial prace"
+		"pracowal latami"
+	word
+		" "
+	word
+		"tworzenie grafiki pikselowej"
+		"tworzenie gier komputerowych"
+		"tworzenie modeli komputerowych 3D"
+		"tworzenie stron internetowych w sieci WWW"
+		"sprzatanie korytarzy na uniwersytecie"
+		"dostarczanie mebli do domow"
+		"dokumentowanie zlozonych procesow"
+		"rolnictwo w pasie ziemi"
+		"instalowanie domotyki w domach zamoznych klientow"
+		"przygotowywanie duzych ilosci ketchupu"
+		"przenoszenie mebli z magazynow do centrow handlowych"
+		"malowanie opon samochodowych na czarno"
+		"pakowanie fast foodow do pudelek"
+		"konfigurowanie procesow integracji oprogramowania"
+		"rozpowszechnianie wiadomosci setkom ludzi"
+		"nauczanie matematyki uczniow szkol srednich"
+		"barmanstwo"
+		"testowanie maszyn do produkcji komputerow"
+		"pisanie oprogramowania ukladowego dla wbudowanych ukladow komputerowych"
+	word
+		", "
+	word
+		"i spojrz, jakim pieknym statkiem teraz latam."
+		"a teraz jestem na emeryturze i latam statkami kosmicznymi dla przyjemnosci."
+		"ale bycie pilotem statku kosmicznego przebija wszystko."
+		"ale i tak musialem zaciagnac duza pozyczke, zeby kupic moj pierwszy statek."
+		"ale to spadek po mojej babci pozwolil mi kupic ten statek."
+
+phrase "friendly civilian"
+	word
+		"Nie badz zbyt wybredny w kwestii prac, ktore podejmujesz. Lepiej"
+	word
+		" "
+	word
+		"statek jest krzywy, niz statek krzywy."
+		"slimaki okretowe, niz powolny statek."
+		"jesli masz zle bandy statkow, twoj statek zostanie powaznie zbanowany."
+		"ciezko pracuj przy transporcie, niz niech twoj statek ledwo dziala."
+
+phrase "friendly civilian"
+	word
+		"Ktos"
+		"Jakis orzech"
+	word
+		" "
+	word
+		"wloz"
+		"umieszczony"
+	word
+		" "
+	word
+		"niebieska budka telefoniczna"
+		"srebrny samochod"
+	word
+		" "
+	word
+		"na moim mostku"
+		"w moim arsenale"
+		"w moim luku bagazowym"
+	word
+		" i "
+	word
+		"twierdzil, ze jest"
+	word
+		" "
+	word
+		"podroznik w czasie"
+		"z innego czasu"
+	word
+		", i nagle znikneli."
+		", ale jedyna podroza, jaka odbyl, byla podroz do zakladu psychiatrycznego."
+		". Nadal nie wiem, jak dostala sie do mojego statku kosmicznego."
+		". Rzecz wygladala na wieksza w srodku niz na zewnatrz."
+
+phrase "friendly civilian"
+	word
+		"Kupilem "
+	word
+		"generator pradu"
+		"materialy wybuchowe"
+		"moje nowe silniki"
+		"troche pasty do zebow"
+	word
+		" "
+	word
+		"z"
+	word
+		" "
+	word
+		"firma ACME"
+		"Astronomiczny Konglomerat Podmiotow Produkcyjnych"
+	word
+		", "
+	word
+		"firma wielokrotnie mniejsza od Syndykatu."
+		"niewielka firma, ale oferujaca o wiele lepsze uslugi niz Syndykat."
+		"calkiem nieznaczaca firma zlokalizowana na jednej planecie."
+		"ale nastepnym razem znowu kupie od Syndykatu."
+
+phrase "friendly civilian"
+	word
+		"Slyszalem"
+		"Przeczytalem plotke"
+		"Dowiedzialem sie"
+		"Nauczylem sie"
+		"Zyje wedlug mantry"
+		"Jesli zawsze dbasz o"
+		"Powinienes wiedziec"
+		"Doswiadczenie jest w stanie Cie czegos nauczyc"
+	word
+		" ze jesli masz "
+		" ze jesli zachowasz "
+	word
+		"przynajmniej dziesiec zapasowych lozek"
+		"miejsce dla co najmniej dziesieciu pasazerow"
+		"co najmniej 50 ton wolnej przestrzeni ladunkowej"
+		"wystarczajaco duzo miejsca na 50 ton ladunku"
+	word
+		" wtedy bedziesz gotowy na wszystko, co przyniesie Ci zycie"
+		" wtedy nie bedzie zadnego dziwnego zadania w porcie kosmicznym, ktorego nie bedziesz w stanie wykonac"
+		" wtedy mozesz miec szczescie i miec wystarczajaco duzo miejsca, aby pomoc kilku gwiazdom"
+		", bedziesz mial wystarczajaco duzo dodatkowego luzu, aby podjac sie kazdej pracy"
+	word
+		"."
+	replace
+		"Jesli zawsze upewniasz sie, ze jesli masz" 		"Jesli zawsze upewniasz sie, ze jesli zachowasz" 
+phrase "friendly civilian"
+	word
+		"Czasami wydaje sie to zbyt piekne, aby bylo prawdziwe. "
+		"Nie podejmuj niepotrzebnego ryzyka. "
+		"Nie narazaj sie wladzom. "
+		"Zawsze staram sie byc uczciwym kapitanem. "
+		"Przestepstwo na koncu sie nie oplaca. "
+		"Musisz zachowac ostroznosc, jesli zadajesz sie z niewlasciwymi ludzmi. "
+		"" 6
+	word
+		"To fakt"
+		"Slyszalem"
+		"Powinienes wiedziec"
+		"Mowia"
+		"Mowi sie"
+		"Wiem z doswiadczenia"
+		"Gdy wystarczajaco dlugo przebywasz na szlakach gwiezdnych, wiesz"
+	word
+		" to "
+		", "
+	word
+		"przemyt to pewny sposob na znalezienie sie za kratkami"
+		"nawet najpotezniejszy okret wojenny nie uratuje cie przed nozem w plecach"
+		"dziewieciu na dziesieciu piratow ginie w ciagu pierwszego roku"
+		"Wywiad Republiki ma oczy wszedzie"
+		"prawo zawsze dopadnie tych, ktorzy probuja je ominac"
+		"to, ze cos jest ryzykowne, nie oznacza, ze sie oplaci"
+		"lepszym wyborem jest trzymanie sie prawa"
+	word
+		"."
+	replace
+		"dosc wiesz," 
+phrase "friendly civilian"
+	word
+		"Slyszalem, ze Quarg"
+		"Mowi sie, ze Quarg"
+		"Jest powszechnie wiadomym, ze Quarg"
+		"Quargowie sa dosc rygorystyczni w kwestii swojej technologii. Oni"
+		"Quargowie nie bawia sie swoja technologia. Oni"
+		"Quargowie skrupulatnie monitoruja swoje statki i wyposazenie, a "
+		"Quargowie nie chca, aby ich zaawansowana technologia sie rozprzestrzeniala, dlatego "
+		"Quargowie ograniczaja swoj ekwipunek do wlasnych statkow i "
+		"Nie chcesz zostac przylapany z technologia Quarg w okolicach Enif. Quarg"
+		"Nie chcesz znalezc sie w poblizu Quargow z ich technologia. Oni"
+	word
+		" "
+	word
+		"aresztuja cie, jesli wyczuja zapach jakiegokolwiek ich sprzetu na twoim statku"
+		"wsadza cie za kratki na zawsze, jesli bez pozwolenia przejmiesz jeden z ich statkow lub jednostek"
+		"nie zawaha sie odebrac ci wolnosci, jesli ukradles jeden z ich statkow"
+		"nie podejmuj zadnego ryzyka, jesli chodzi o zagubiony statek lub wyposazenie"
+	word
+		"."
+
+phrase "friendly civilian"
+	word
+		"Czy kiedykolwiek "
+	word
+		"bylem w Enif"
+		"zatrzymany przez Tarazed"
+		"udal sie do Tarazed"
+		"przebyl Poludniowa Krawedz"
+	word
+		" i "
+	word
+		"byles swiadkiem skoku Quarga Lindwyrma za pomoca jednego ze swoich napedow skokowych?"
+		"przygladales sie jednemu ze smuklych Drake'ow Quarga?"
+		"widziales Quarg Wardragona z bliska?"
+		"widziales w akcji Skydaggery Quarga?"
+		"widziales jak Quargowie dziesiatkuja piratow swoimi Skylancerami?"
+		"widziales jak potezne sa te Quarg Skylance?"
+	word
+		"" 3
+		" Chcialbym, zeby Quargowie podzielili sie z nami czescia swojej technologii."
+		" Chetnie bym dorwal w swoje rece troche technologii Quarg."
+		" Co moglbym zrobic z czescia tej technologii..."
+		" Moze kiedys osiagniemy ich poziom technologii."
+		" Przerazajace jest, jak zaawansowana jest ich cywilizacja."
+		" Ludzkosc nie jest w stanie im sie przeciwstawic."
+		" Watpie, aby polaczona Flota Macierzysta Marynarki Wojennej w Sol mogla dorownac mocy ktorejkolwiek z nich."
+
+phrase "friendly civilian"
+	word
+		"Co jest z krykietem w stanie niewazkosci?"
+		"Nie rozumiem tego krykieta w warunkach niewazkosci, w jaki graja w Core."
+		"Jak ludzie interesuja sie krykietem w warunkach zerowej grawitacji?"
+		"Jak ludzie moga nie zasnac ogladajac ten mecz krykieta w stanie niewazkosci?"
+	word
+		" Mam na mysli, "
+		" Spojrz, "
+		" Lubie, "
+	word
+		"wszystko co robia to"
+		"w polowie przypadkow sa po prostu"
+		"spedzaja tydzien"
+		"nie mozesz nazwac sportu sportem, jesli glownie "
+		"wszystko co ogladasz to grupa facetow"
+	word
+		" unosi sie w powietrzu "
+		" dryfowanie bez celu "
+		" odbijanie sie od stacji kosmicznej "
+	word
+		"proba zlapania pilki"
+		"uderzanie pilki wokol stacji kosmicznej"
+		"podczas gdy dwaj z nich wielokrotnie sie przemieszczaja"
+		"i co jakis czas przyspiesza o jakies dwadziescia metrow w te i z powrotem"
+		"proba odbicia pilki od kilku innych kijow"
+	word
+		"!" 6
+		". Po prostu tego nie rozumiem, czlowieku!"
+		". To nie ma sensu!"
+		". Nie zaczynaj mi mowic o zasadach!"
+		". Inningi, wyjscia, overy, to jest smieszne!"
+		". Kto wchodzi, a kto nie? Nigdy ci nie powiedza!"
+		". To cholernie zawile, ludzie ciagle tam wchodza i wychodza!"
+		". Brzmi jak sport, w ktory graja tylko kosmici!"
+		". Nie mogliby tego troche przyspieszyc?"
+		". Jak oni robia z tego gre?"
+		". A oni graja tylko o sterte starego, spalonego drewna!"
+		`. I ciagle sie kloca, czy "rzucanie spod pachy" jest legalne!`
+		". Lacrosse w stanie niewazkosci ma o wiele wiecej sensu!"
+	replace
+		"wokol stacji kosmicznej uderzanie pilki wokol stacji kosmicznej" 
+phrase "friendly civilian"
+	word
+		"Zaczynam grac w krykieta w warunkach zerowej grawitacji"
+		"Uwielbiam ogladac krykieta w stanie niewazkosci"
+		"Nie ma lepszego sportu niz krykiet w stanie niewazkosci"
+	word
+		". Ta adrenalina, ktora czujesz, gdy rzucajacy rzuca pilke w dol kuli"
+		". Ekscytacja, ktora czujesz, gdy palkarz uderza idealnie szostke"
+		". Sposob, w jaki rzucajacy moga kontrolowac pilke, aby oszukac palkarza"
+		". To uczucie, gdy fielder lapie palkarza dobrze wymierzonym kopnieciem"
+	word
+		" i sposob, w jaki tlum ryczy, gdy to sie dzieje"
+		", tlum szaleje"
+		", i uczucie wyzwolenia, ktore czujesz, gdy widzisz, jak pilka zostaje wybita poza obreb kuli"
+		", jak kazdy test jest pelen napiecia i losow, ktore rozstrzygaja sie przy kazdym uderzeniu i rzucie"
+		"" 6
+	word
+		"; nie ma niczego podobnego w galaktyce."
+		"; Nie rozumiem tej nienawisci."
+		"... jest wielu naprawde fenomenalnych graczy."
+		"...to niesamowity sport."
+		"... to jak gra w szachy w kosmosie."
+		"..." 3
+
+phrase "friendly civilian"
+	word
+		"Jesli kiedykolwiek bedziesz mial okazje, powinienes"
+		"Jedna rzecza, ktora chcialbym zrobic, zanim kopne w kalendarz, jest"
+		"Zanim umrzesz, musisz"
+		"Podczas mojej nastepnej podrozy zamierzam"
+	word
+		" "
+	word
+		"zobacz pierscien Quarg w Enif. Czy to nie niesamowite, co oni potrafia, a my nie?"
+		"zobacz pierscien Quarg na poludniu. To wspaniale osiagniecie inzynierii"
+		"zobacz smoki Skymoot"
+		"jezdzij na nartach po stokach Vail"
+		"pojedz do Vail i pojezdzij na nartach"
+		"udaj sie do Vail na kurs jazdy na hoverboardzie"
+		"Jedz do Nowej Szwajcarii. Stoki sa tam o wiele lepsze niz w Vail"
+		"jedz na narty na Antipode. Nie jest tak tloczno jak w tych drogich osrodkach w Vail, nie wspominajac o tym, ze jest taniej"
+		"wspinaczka ekstremalna na Maelstrom"
+		"zobacz starozytne miasta starej Ziemi"
+		"wycieczka po megamiastach Ziemi"
+		"zobacz, skad przybyli nasi przodkowie na starej Ziemi"
+		"wybierz sie na wedrowke przez dzungle Amazonii"
+		"zwiedzaj kontynenty Perly i poznaj biosfery stu roznych planet"
+		"spotkaj sie z kilkoma Quargami w okolicach Tarazed"
+		"odwiedz Lune i jej ogromna stocznie"
+		"zobacz, gdzie Neil Armstrong, jeden z pierwszych ludzi, ktorzy opuscili Ziemie, postawil stope na Ksiezycu"
+		"zobacz Pomnik Fabuly na Chironie i przyjrzyj sie pierwszemu hipernapedowi, jaki kiedykolwiek zbudowano"
+		"ogladaj wyscigi poduszkowcow na Sunracer"
+		"zrelaksuj sie w goracych zrodlach w Calda"
+		"wyplyn lodzia w gore fiordow Flood"
+		"odwiedz jeden ze swiatow pirackich, np. Greenrock lub Freedom, i doswiadcz zycia tak, jak zyja anarchisci"
+	word
+		"."
+	replace
+		"?." 
+phrase "friendly civilian"
+	word
+		"Kiedy bylem mlodszy"
+		"Kiedy bylem dzieckiem"
+		"Kiedy bylem w twoim wieku"
+		"Dawno temu"
+		"Wrocilem do liceum"
+		"Dawno temu"
+	word
+		", "
+	word
+		"Snilo mi sie"
+		"Mialem nadzieje na"
+		"Mialem sny o"
+		"Wyobrazalem sobie"
+		"Myslalem o"
+	word
+		" "
+	word
+		"latajacy"
+		"posiadanie"
+		"pilotowanie"
+		"kapitan"
+		"dowodzacy"
+	word
+		" "
+	word
+		"pomocniczy. Szkoda, ze tylko Marynarka Wojenna moze ich uzywac."
+		"Bactrian, ale rzad Deep nie pozwala mi na jego zakup."
+		"Lewiatan. Ale koszty utrzymania? Juz nie jestem pewien."
+		"Masowiec. Moga byc powolne, ale warte swojej wagi w zlocie."
+		"Protektor. Jasne, to brzydki statek, ale jaka sila ognia?"
+		"prom wahadlowy. Wiele sie od tego czasu zmienilo!"
+		"Flivver. Teraz moglbym kupic dziesiec."
+		"rybolow. Nadal mnie na niego nie stac."
+		"Corvette. Spojrz, jakie sa zgrabne!"
+		"Wrobel. Rodzice jednak mnie od tego odwiezli."
+		"Gwiezdna Krolowa. Szkoda tylko, ze jej kwatery zalogi nie sa tak dobre, jak koje dla pasazerow."
+		"Skaut. Cos w eksploracji rubiezy ludzkiej przestrzeni wciaz mnie pociaga."
+
+phrase "friendly civilian"
+	word
+		"Urodzilem sie"
+		"Pochodze z"
+		"Zanim kupilem swoj pierwszy statek, mieszkalem"
+		"Pochodze z"
+		"Jestem rodowitym mieszkancem"
+		"Moj rodzinny swiat to"
+		"Jestem z"
+		"Dorastalem w"
+		"Dziecinstwo spedzilem na"
+		"Wiekszosc mojego zycia spedzilem na"
+		"Kiedys zylem dalej"
+	word
+		" "
+	word
+		"Nowa Sahara. Nieczesto spotyka sie tam kogos innego."
+		"Nadzieja. Gdyby nie Marynarka Wojenna, nadal bylbym tam zywym lodem na patyku."
+		"Ziemia. Mialem szczescie, ze ucieklem z tego smietnika."
+		"Ziemia. Moze byc ojczyzna ludzkosci, ale to nie znaczy, ze jest przyjemnym miejscem do zycia."
+		"Ziemia. Moze i jest stolica Republiki, ale to nie miejsce dla mnie."
+		"Ziemia. Pomimo tego, co slyszysz, wciaz jest tam troche terenow wiejskich."
+		"Ziemia. Gdybys sprobowal wyjrzec przez okno mojego starego mieszkania, nie zobaczylbys dna."
+		"Chiron, jedna z najludniejszych planet w galaktyce. Spojrz na mnie teraz!"
+		"Chiron. Byla to pierwsza planeta pozasloneczna skolonizowana przez ludzi."
+		"Chiron. Nie moglem przetrwac na uniwersytetach, wiec zamiast tego zostalem pilotem."
+		"Chironie. Mamy najlepsze uniwersytety w galaktyce!"
+		"Moonshake. Bylem pracownikiem fabryki, ale oszczedzalem, az moglem sobie pozwolic na kredyt hipoteczny na prom."
+		"Walhalla. Nadal jezdze tam raz w roku, zeby odwiedzic rodzine. To calkiem niezle miejsce."
+		"Midgard, i ja przedarlem sie z kopalni do gwiazd."
+		"Hefajsteusz. Wierzcie lub nie, przez jakis czas bylem pracownikiem Syndykatu."
+		"Hefajsteusz. Nie wiem, jak ludzie tam jeszcze zyja, przy tym calym zanieczyszczeniu."
+		"Odlewnia. Wiedzialem, jak latac statkiem kosmicznym, zanim skonczylem pietnascie lat."
+		"Millrace. Zycie tam bylo do bani, ale przynajmniej dostawalem wystarczajaco duzo pieniedzy, zeby nie musiec zostawac zbyt dlugo."
+		"Nowe Chiny. Za kazdym razem, gdy tam wracam, najpierw wypelniam ladownie jedzeniem. Ludzie tam zawsze go potrzebuja."
+		"Bivrost. Mialem mieszkanie tuz za Rainbridge."
+		"Ukojenie. Moj ojciec byl naukowcem rakietowym, ale ja chcialem zrobic cos wiecej w zyciu."
+		"Asgard. Moze i mialem latwo, ale i tak inwestuje wiekszosc moich zarobkow."
+		"Spotkanie. Mialem farme, dopoki jej nie sprzedalem w zamian za te pieknosc."
+		"Nowa Brytania. Dorastalem wsrod ptakow i zawsze marzylem o lataniu jak one."
+		"Bourne, ale teraz nic tam dla mnie nie ma."
+		"Prime. To chyba najdalej od Slonca, jak to mozliwe, zeby wciaz byc w cywilizowanym miejscu."
+		"Prime. Moi rodzice byli inzynierami w stoczni Betelgeuse, wiec nauczylem sie obslugiwac statek kosmiczny w mlodym wieku."
+		"Stworco. Spedzilem dziesiec lat w kopalniach i dzieki temu zbudowalem statek kosmiczny."
+		"Sunracer. Trzy lata z rzedu bylem szkolnym mistrzem w wyscigach poduszkowcow."
+		"Mars. Czasami, gdy jest to ciezki bieg miedzy przystankami, zaluje, ze nadal tam mieszkam."
+		"Mgla. Inne planety zawsze dziwnie pachna, przynajmniej dla mnie."
+		"Bylem majsterkowiczem, ale nie nadawalem sie do pracy w przemysle."
+		"Burden. Wszyscy smieja sie z mojego wzrostu, ale nikt nie zartuje z moich miesni."
+		"Obserwator. Lubia opowiadac o tym, jak wspaniale tam jest z terraformowaniem, ale moje miasto zostalo zniszczone przez jedna z katastrof."
+		"Skymoot. Mozna by pomyslec, ze smoki beda utrapieniem, ale wiekszosc ludzi, ktorzy tam mieszkaja, tak naprawde mieszka na drugim kontynencie."
+		"Ksiezyc. Kiedys pracowalem w stoczni Tycho, ale teraz latam tym statkiem."
+		"Thule. Widac jednak, ze moj akcent sie zmienil po tylu latach latania."
+		"Skok w dal. Kiedy tylko moge, wracam tam co roku w sierpniu na Miesiac Hana Sizera."
+		"Nowa Grenlandia. Nie jest tak zimno, jak inni mysla."
+		"Relikwia. Kiedy pierwszy raz zobaczylem krazownik, wiedzialem, ze chce zostac pilotem statku kosmicznego."
+		"Shangri-La. Moja rodzina zyla calkiem dobrze, dopoki piraci nie przybyli i nie napadli na planete."
+		"Zug. Ogladalem z ganku walki statkow milicji z pirackimi na niebie."
+		"New Holland. Tam jednak robi sie zbyt nudno, wiec zamiast tego latam gwiazdami."
+		"Bounty. Kupilem swoj pierwszy statek, gdy przemysl wytworczy zaczal sie tam rozwijac."
+		
+phrase "pyramid scheme company"
+	word
+		"Magellan"
+		"Odwodniony"
+		"Pontificated"
+		"Ogolne"
+		"Swiete"
+		"Wyzwolony"
+		"Doslownie"
+		"Rodzina"
+		"Hiperrzeczywisty"
+	word
+		" "
+	word
+		"Dynamix"
+		"Nieograniczony"
+		"Orbitalny"
+		"Gigalight"
+		"Handlowcy"
+		"Pustkowia"
+		"Szepty"
+
+phrase "friendly civilian"
+	word
+		"Czesc! Milo cie widziec, uh,"
+		"Coz, jesli nie jest"
+		"Czesc, eee,"
+		"Probowalem sie z toba skontaktowac,"
+	word
+		" Kapitan <last>. "
+	word
+		"Spelniam swoje marzenia jako dyrektor generalny wlasnej firmy."
+		"Kiedys bylem taki jak ty, ale teraz naprawde jestem kims!"
+		"Nie chcesz byc swoim wlasnym szefem?"
+		"Wszyscy mowia o tym nowym, modnym trendzie!"
+	word
+		" "
+	word
+		"Mozesz sie wzbogacic sprzedajac dla mnie!"
+		"Wejdz na parter!"
+		"Wlasnie wyruszamy na orbite, powinienes sie zapisac, poki jeszcze mozesz!"
+	word
+		" "
+	word
+		"Znajdz mnie"
+		"Mozesz mnie zlapac"
+		"Zadzwon do mnie"
+		"Napisz do mnie"
+		"Zadzwon do mnie"
+	word
+		" w ${firmie bedacej piramida finansowa}. "
+	word
+		"Popros o ${imiona ludzkie} ${nazwiska rodzinne}."
+		"Powiedz im, ze przyslali cie ${ludzkie imiona} ${nazwiska rodzinne}."
+		"Podaj moje imie i nazwisko, ${human names} ${family names}, aby otrzymac znizke na pierwsze zamowienie!"
+
+phrase "friendly civilian"
+	word
+		"Wszystko, czego chce, to jeden dzien bez spotykania"
+		"Wlasnie kupilem ten statek, a on juz ma"
+		"Gwarancja na moj statek wygasla tydzien temu i jak mozna sie domyslic, wlasnie odkrylem"
+	word
+		" "
+	word
+		"wyciek paliwa!"
+		"luzne sprzezenie!"
+		"blad w mojej tablicy nawigacyjnej!"
+		"kaskadowa awaria w zasilaniu!"
+		"powazny wyciek tlenu!"
+		"przegrzewanie sie silnika!"
+		"niezsynchronizowane repulsory!"
+		"wyladowanie tarczy pasozytniczej!"
+		"nieszczelne ogniwo paliwowe!"
+	word
+		" "
+	word
+		"Konserwacja tego starego wiadra mnie okaleczy."
+		"Na tych starych statkach ciagle cos sie dzieje."
+		"Nie narzekalbym, ale dzis sa moje urodziny!"
+		"Nie jest tak, ze czesci sa dzis tanie."
+		"Chyba mogloby byc gorzej. Moglbym wleciec w czarna dziure."
+		"Klienci w ogole sie tym nie przejmuja, oni po prostu chca, zeby ich ladunek zostal dostarczony wczoraj."
+		"Czego innego mozna oczekiwac od tandetnej produkcji Syndicated Systems?"
+		"Naprawilbym to, ale musze placic rate kredytu hipotecznego."
+		"Czy wiesz gdzie moglbym to naprawic na dobre?"
+		"Chcialbym wiedziec, jak inni kapitanowie radza sobie bez tych problemow."
+		
+phrase "friendly civilian"
+	word
+		`Wlasnie dowiedzialem sie, ze "duck" to gatunek ptaka z Ziemi! Teraz zastanawiam sie, dlaczego "duck tape" nosi jego imie?`
+		`Podobno chca, zebym placil 5% pensji na skladki zwiazkowe! Zatrzymam to. Moj szef to dobry czlowiek; bedzie sie o mnie troszczyl.`
+		`Zaoszczedzilem i kupilem dodatkowe miejsce w lozku, zeby moja zona mogla jezdzic ze mna na wycieczki, a teraz mowi "musimy porozmawiac." To nie moze byc dobry znak, prawda?`
+		`W zeszlym tygodniu natknalem sie na paskudnych piratow. Musialem porzucic ladunek, zeby uciec, a moje ubezpieczenie nie wyplaca mi odszkodowania.`
+		`Jesli masz klopoty z piratami, po prostu wyrzuc wszystko przez sluze powietrzna. Beda zajeci przeszukiwaniem, a ty bedziesz poza zasiegiem, gdy nieuchronnie wroca.`
+		`Kiedy przewozilem zywnosc na Poludniu, co cholerny tydzien spotykalem piratow. W polowie przypadkow musialem ich przekupywac swoja pensja albo czescia ladunku.`
+		`Moj przyjaciel zostal zaatakowany przez piratow i zabrali mu silniki. Taniej byloby po prostu oddac im ladunek.`
+		`Czesto mozna odwrocic uwage piratow ladunkiem, dopoki Marynarka Wojenna cie nie uratuje. Moj stary kapitan nauczyl mnie tej sztuczki, kiedy promowalismy na Dalekiej Polnocy.`
+		`Piraci zawsze beda probowali przejac twoj ladunek, ale jesli podrzucisz im troche zlomu, pozwola ci zatrzymac prawdziwe wartosci.`
+		`Zawsze, gdy widze piratow, natychmiast wyrzucam swoj ladunek. I tak by go dostali, ale przynajmniej to pozwala mi uciec.`
+		"Ej, towarzyszu, twoj statek zaladowal planete? Ja zaladowalem planete na moj statek."
+		"Ej, towarzyszu, masz ladunek na swoim statku? Ja mam statki w swoim ladunku."
+		"Ej, towarzyszu, macie mysliwce w swoich hangarach? My mamy hangary w naszych mysliwcach."
+		"Ej, towarzyszu, macie okrety wojenne, ktore wystrzeliwuja pociski? My mamy pociski, ktore wystrzeliwuja okrety wojenne."
+		"Ej, towarzyszu, twoj statek wlasnie uciekl przed piratami? Mam piratow, ktorzy przede mna uciekaja."
+
+phrase "friendly civilian"
+	word
+		"Jesli chcesz "
+		"Do "
+	word
+		"marka"
+		"zakret"
+		"zarobic"
+		"otrzymaj"
+	word
+		" "
+	word
+		"zysk"
+		"niektore zaslugi"
+		"dobre pieniadze"
+		"dobry obrot"
+		"zyjacy"
+	word
+		" "
+	word
+		"podczas wydobywania"
+		"jako gornik asteroid"
+		"asteroidy gornicze"
+		"w branzy gornictwa asteroid"
+	word
+		", "
+	phrase
+		"porada gornika: wyposazenie"
+		"porada gornika: mineral"
+		"porada gornika: statek"
+		"porada gornika: inna"
+	word
+		"." 3
+		"!"
+	replace
+		"obroc cos" 		"obroc na dobre" 		"zrob dobry obrot" 		"zarabiac na zycie" 		"zamien na zycie" 
+phrase "miner advice: outfit"
+	word
+		"potrzebujesz"
+		"to dobry pomysl, zeby zainwestowac w"
+		"powinienes otrzymac"
+		"rozsadnie jest zdobyc"
+		"otrzymaj"
+		"wziac pozyczke na zakup"
+		"idz do sklepu z odzieza i zainwestuj w"
+		"nie mozesz sie pomylic z"
+		"najlepiej zainstalowac"
+	word
+		" niektore "
+		" dobry zestaw "
+	word
+		"skanery asteroid, dzieki ktorym mozesz latwiej wykrywac i namierzac asteroidy"
+		"skanery asteroid. Znacznie ulatwiaja namierzanie asteroid"
+		"skanery asteroid. Nie pozalujesz zakupu"
+		"skanery asteroid. Jesli nie znasz sie na asteroidach, te skanery podswietla i przeanalizuja ich sklad mineralny"
+		"skanery asteroid" 4
+		"lasery gornicze. Sa szybsze w gornictwie niz inne lasery"
+		"lasery gornicze. Sa specjalnie zaprojektowane do szybkiego rozbijania asteroid"
+		"lasery gornicze. Dostarczaja wiecej mineralow na asteroide"
+		"lasery gornicze. Twoj plon mineralow znacznie wzrosnie dzieki kilku z nich"
+		"lasery gornicze. Sa precyzyjniejsze niz inne lasery i chronia wiecej mineralow w przypadku rozpadu asteroidy"
+		"lasery gornicze, dzieki ktorym dokonczysz wydobycie, zanim dopadna cie piraci"
+		"lasery gornicze" 5
+		"ciezkie lasery. Ich duzy zasieg ulatwia niszczenie asteroid, a mozna ich rowniez uzywac do odstraszania piratow"
+		"ciezkie lasery. Poniewaz zadaja wieksze obrazenia, szybciej niszcza asteroidy"
+		"ciezkie lasery" 2
+		"promienie ciagnace, dzieki ktorym piraci i gornicy rywalizujacy z toba nie beda mogli ukrasc twojej ciezko zarobionej rudy"
+		"belki ciagnace. Dzieki nim zbieranie rudy jest odrobine latwiejsze"
+		"belki ciagnace, dzieki ktorym podnoszenie rudy wymaga mniejszego wysilku"
+		"belki ciagnace" 3
+
+phrase "miner advice: mineral"
+	word
+		"musisz "
+		"musisz sie rozejrzec i "
+		"musisz "
+		""
+	word
+		"moj "
+		"cel "
+		"idz na "
+		"znajdz uklady z "
+		"szukaj "
+	word
+		"najcenniejsze mineraly"
+		"najcenniejsze asteroidy"
+		"rzadkie asteroidy"
+		"uran"
+		"platyna"
+		"zloto"
+		"srebrny"
+		"wolfram"
+		"neodym"
+		"asteroidy uranowe"
+		"asteroidy platynowe"
+		"zlote asteroidy"
+		"srebrne asteroidy"
+		"asteroidy wolframowe"
+		"planetoroidy neodymowe"
+		"mineraly takie jak uran"
+		"mineraly takie jak platyna"
+		"mineraly takie jak zloto"
+		"mineraly takie jak srebro"
+		"mineraly takie jak wolfram"
+		"mineraly takie jak neodym"
+
+phrase "miner advice: mineral"
+	word
+		"musisz "
+		"powinienes "
+		"powinienes sie nauczyc "
+		"lepiej bedzie, jesli "
+		"najlepiej "
+		""
+	word
+		"unikaj wydobycia "
+		"unikaj podnoszenia "
+		"unikaj zbiorow "
+		"unikaj "
+		"zrzut "
+		"wyrzucenie "
+	word
+		"krzem"
+		"zelazo"
+		"olow"
+		"aluminium"
+		"ruda krzemowa"
+		"ruda zelaza"
+		"ruda olowiu"
+		"ruda aluminium"
+		"mineraly takie jak krzem"
+		"mineraly takie jak zelazo"
+		"mineraly takie jak olow"
+		"mineraly takie jak aluminium"
+		"ruda podobna do krzemu"
+		"ruda podobna do zelaza"
+		"ruda podobna do olowiu"
+		"ruda podobna do aluminium"
+	word
+		" i moje inne asteroidy"
+		" i znajdz wiecej cennych mineralow"
+		" dzieki temu masz miejsce na bardziej oplacalne mineraly"
+		" poniewaz nie sprzedaja sie za bardzo duzo"
+
+phrase "miner advice: ship"
+	word
+		"bedziesz chcial"
+		"to dobry pomysl, aby"
+		"zaleca sie"
+		"najlepsza rzecza jaka mozesz zrobic jest"
+	word
+		" "
+	word
+		"rozszerz swoja flote o"
+		"zakup"
+		"zaciagnij kredyt hipoteczny na"
+		"kup"
+		"idz do stoczni i zdobadz"
+		"otrzymaj"
+	word
+		" a "
+	word
+		"specjalistyczny statek gorniczy podobny do Sunder"
+		"statek nadajacy sie do wydobycia, jak Sunder"
+		"Syndykat Sunder"
+		"Sunder i dwa drony gornicze"
+		"Statek minujacy Sunder"
+		"dobry statek gorniczy, jak Sunder"
+		"wszechstronny statek jak Lowca Glow"
+		"wielofunkcyjny statek, taki jak Headhunter"
+		"lotniskowiec jak Aerie. Mysliwce moga cie wydobyc"
+		"ladny, solidny statek jak Scout. Mozesz nim poleciec na koniec swiata, a potem zapelnic jego ladownie swoimi lupami"
+		"statek z duza ladownia"
+		"dobry frachtowiec, ktory moze pomiescic wiezyczki laserowe do wydobywania mineralow"
+		"statek, ktory moze bronic sie przed piratami"
+		"potezny statek eskortowy, ktory moze odstraszyc piratow"
+		"statek, ktory moze pomiescic mnostwo laserow gorniczych"
+		"Behemoth zaladowany wiezyczkami z laserami gorniczymi"
+
+phrase "miner advice: other"
+	word
+		"powinienes trzymac sie patrolowanych systemow, zeby piraci cie nie wysadzili"
+		"powinienes trzymac sie patrolowanych systemow, aby nie dac sie oszukac przez piratow"
+		"powinienes unikac patrolowanych systemow, poniewaz nie wystepuja w nich rzadkie mineraly"
+		"powinienes nauczyc sie rozpoznawac, ktore asteroidy sa bezwartosciowe, a ktore cenne"
+		"pamietaj, ze wydobycie w systemach czesto odwiedzanych przez piratow moze byc ryzykowne, ale czesto wystepuja tam dobre mineraly"
+		"rozwaz przekupienie piratow, aby zostawili cie w spokoju w systemach z cennymi asteroidami"
+
+phrase "friendly civilian"
+	word
+		"Probuje udoskonalic swoje umiejetnosci pilotazu, nie ryzykujac zbytnio zycia, dlatego zajmuje sie eksploracja asteroid."
+		"Gornictwo moze byc dobrym sposobem na doskonalenie umiejetnosci pilotazu."
+		"Gornictwo jest jedyna bezpieczna sciezka kariery dla nowych pilotow Sparrow."
+		"Gornicy asteroid powinni byc bardziej doceniani przez innych kapitanow. Zniszczenie asteroid wymaga duzo wysilku, podobnie jak zebranie ich do swojej ladowni."
+		"Mam juz dosc tego, ze inne statki kradna wydobyte przeze mnie mineraly, zanim zdaze do nich dotrzec."
+
+phrase "friendly civilian"
+	word
+		"Uwazam, ze %"
+		"Czesto, %"
+		"Chociaz trudne, %"
+		"Wyglada na trudne, ale %"
+		""
+	word
+		"Gornictwo"
+		"Zbior"
+	word
+		" asteroidy "
+	word
+		"moze byc "
+		"jest "
+	word
+		"zaskakujaco "
+		"calkiem "
+		"bardzo "
+	word
+		"oplacalny"
+		"zabawa"
+		"relaksujacy"
+		"warte zachodu"
+		"medytacyjny"
+	word
+		" i "
+	word
+		"oplacalny"
+		"zabawa"
+		"relaksujacy"
+		"warte zachodu"
+		"medytacyjny"
+	word
+		"."
+	replace
+		"%M" 		"%H" 		"oplacalne i oplacalne" 		"zabawa i zabawa" 		"relaksujacy i odprezajacy" 		"warte uwagi i warte zachodu" 		"medytacyjny i medytacyjny" 
+phrase "friendly civilian"
+	word
+		"Coraz trudniej"
+		"Kiedys bylo o wiele latwiej"
+		"Chcialbym, zeby bylo latwiej"
+		"Kiedys bylo to calkiem latwe"
+		"Kiedys bylo latwiej dla kapitanow"
+	word
+		" dzialac jako "
+		" byc "
+	word
+		"gornik asteroid"
+		"gornik"
+		"niezalezny gornik"
+	word
+		"."
+		"..."
+	word
+		"" 3
+		" Oplaty za wymuszenia od piratow staja sie kolejnym kosztem prowadzenia dzialalnosci gospodarczej."
+		" Kilka razy musialem juz pozbywac sie ladowni z ciezko zarobiona ruda, ktora zabralem piratom."
+		" Mam wrazenie, ze wszystkie podatki, ktore place sprzedajac moje mineraly, sa przeznaczane na ochrone Paradise Worlds, a nie na rzecz ludzi takich jak ja, ktorzy ryzykuja zycie walczac z piratami, aby zdobyc te mineraly."
+		" Te nowe modele Sundera produkcji Syndicate nie dorownuja starym modelom, a znalezienie czesci potrzebnych do ich naprawy jest niemozliwe."
+
+phrase "friendly civilian"
+	word
+		"Nigdy nie bylo latwiej"
+		"To calkiem proste"
+		"Nigdy nie bylo to tak oplacalne"
+		"Teraz nadszedl czas"
+	word
+		" dzialac jako "
+		" byc "
+	word
+		"gornik asteroid"
+		"gornik"
+		"niezalezny gornik"
+	word
+		"."
+		"!"
+	word
+		"" 3
+		" Jesli bedziesz stosowac bezpieczne systemy, nadal bedziesz mogl osiagac zyski, nie ryzykujac zycia."
+		" Dzieki laserom gorniczym i skanerom asteroid, wydobycie stalo sie bardziej dostepne niz kiedykolwiek."
+		" Dzieki Sundersom z Syndykatu wydobycie surowcow z asteroid staje sie dziecinnie proste."
+		" Lasery gornicze zrewolucjonizowaly przemysl."
+		" Nie trzeba juz scigac asteroid, wystarczy wyslac za nimi drony gornicze."
+		" Moge po prostu usiasc, podczas gdy moje drony gornicze zajma sie wydobywaniem zlota za mnie."
+		" Nie musze sie bawic w tchorzostwo z moimi mineralami, gdy mam promien przyciagajacy."
+
+phrase "friendly civilian"
+	word
+		"Zawsze tylko"
+		"Moja strategia polega tylko na"
+		"Zawsze osiagam dobry zysk, kiedy"
+		"Osiagniesz zysk tylko wtedy, gdy"
+		"Zmaksymalizujesz swoje zyski, jesli"
+		"Kiedy nabierzesz doswiadczenia jako gornik asteroid, bedziesz wiedzial, ze tylko"
+		"Tylko doswiadczeni gornicy asteroid"
+	word
+		" "
+	word
+		"moj"
+		"wyrusz na wyprawy wydobywcze"
+	word
+		" asteroidy takie jak "
+		" dobre rzeczy, takie jak "
+		" w systemach z "
+		" w systemie z "
+		" w systemach z rzadkimi mineralami, takimi jak "
+		" "
+	word
+		"zloto"
+		"srebrny"
+		"wolfram"
+		"platyna"
+		"uran"
+		"neodym"
+	word
+		" i "
+		" lub "
+	word
+		"zloto"
+		"srebrny"
+		"wolfram"
+		"platyna"
+		"uran"
+		"neodym"
+	word
+		"."
+	replace
+		"dla" 		"zloto i zloto" 		"zloto lub zloto" 		"srebro i srebro" 		"srebro lub srebro" 		"wolfram i wolfram" 		"wolfram lub wolfram" 		"platyna i platyna" 		"platyna lub platyna" 		"uran i uran" 		"uran lub uran" 		"neodym i neodym" 		"neodym lub neodym" 
+phrase "friendly civilian"
+	word
+		"Uwazaj na"
+		"Ostrzezenie dotyczace"
+		"Badz podejrzliwy"
+		"Nie ufaj"
+	word
+		" te kosmiczne kasyna. Zdmuchnalem "
+	word
+		"polowa a"
+		"a"
+		"dwa"
+		"trzy"
+		"cztery"
+		"piec"
+	word
+		" milionow kredytow na "
+	word
+		"Jest"
+		"Goracy"
+		"Wrozbita"
+		"Blizniak"
+		"Chwala"
+		"Hestia"
+		"Grot"
+		"Martini"
+		"Perla"
+		"Vail"
+		"Vinci"
+	word
+		" gra "
+	word
+		"blackjack."
+		"poker."
+		"tryk-trak."
+		"bakarat."
+		"ruletka."
+
+phrase "friendly civilian"
+	word
+		"Czy przeczytales najnowsze wydanie "
+	word
+		"Kroniki Kosmiczne"
+		"Odwazne odkrycia"
+		"Wiadomosci o Mglawicy Norn"
+		"Wiadomosci o przechodniach poludniowej krawedzi"
+		"Gwiazdy i statki kosmiczne"
+		"Okulary gwiezdne Sunracer"
+		"Tarazed Dzisiaj"
+		"Gazeta Galaktyczna"
+		"Nowy Moonshake"
+		"Satelita Sentinel"
+	word
+		"? "
+	word
+		"Pisze"
+		"Twierdzi"
+	word
+		" to "
+		" "
+	word
+		"prysznice pulsacyjne sa dobre dla twoich porow kwantowych"
+		"narazenie sie na dzialanie neodymu zwieksza ryzyko zachorowania na ospe kosmiczna"
+		"niedbale hodowane algi jonowe wyczerpuja twoja psychiczna karme"
+		"akupunktura laserowa pozwala komunikowac sie z duchami mglawic"
+		"krysztaly gwiazd przynosza szczescie w zwiazkach na odleglosc"
+		"spozywanie pylu ksiezycowego przyspiesza wzrost wlosow, ale powoduje obled"
+		"nadmierna ekspozycja na stan niewazkosci moze prowadzic do zespolu konczyny fantomowej"
+		"protezy obcych czesto posiadaja niespodziewane zdolnosci telepatyczne"
+		"tatuaze z okazji daty gwiezdnej zwiekszaja szanse na porwanie przez kosmitow"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Nie jestem ekspertem od broni, ale strzelanie z niej jest przyjemniejsze "
+	word
+		"Miotacze energii"
+		"Dziala czasteczkowe"
+		"Dziala plazmowe"
+		"Dziala protonowe"
+	word
+		" niz "
+	word
+		"Lasery wiazkowe."
+		"Ciezkie lasery."
+
+phrase "friendly civilian"
+	word
+		"Nie powinienem byl sprzedawac mojego starego statku. To byl tylko "
+	word
+		"Wahadlowiec"
+		"Barka Gwiezdna"
+		"Wrobel"
+		"Ciezki wahadlowiec"
+		"Frachtowiec"
+		"Furia"
+	word
+		" ale nigdy nie mial "
+	word
+		"gasniecie silnikow."
+		"niestabilne ekranowanie."
+		"przegrzewajace sie ogniwa paliwowe."
+		"blad w interfejsie HUD."
+		"bledne wykrywanie statkow."
+
+phrase "friendly civilian"
+	word
+		"Zakonczylem czyszczenie luku bagazowego"
+		"Ladownia jest w idealnym stanie"
+		"Zakonczono szorowanie ladowni"
+	word
+		". Ten "
+	word
+		"odswiezacz"
+		"perfumy"
+		"spray"
+		"zapach"
+	word
+		" Uzylem nadaje mu zapach "
+	word
+		"truskawki"
+		"banany"
+		"brzoskwinie"
+		"roze"
+		"jasmin"
+		"lawenda"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"Widziales holofilm, na ktorym "
+	word
+		"dobry facet"
+		"bohater"
+		"zly facet"
+		"zloczynca"
+	word
+		" "
+	word
+		"montuje przeladowane podwojne blastery na zmodyfikowanym Argosy"
+		"strzela do posterunku ochrony dwoma pistoletami laserowymi"
+		"unika wiezyczek Quad Blaster w skradzionym Flivverze"
+	word
+		"? Super."
+
+phrase "friendly civilian"
+	word
+		"Szczerze mowiac, mysle o wstapieniu do Marynarki Wojennej"
+		"Szczerze mowiac, zamierzam wstapic do Marynarki Wojennej"
+		"Zaciagam sie do Marynarki Wojennej"
+	word
+		" "
+	word
+		"ze wzgledu na ubezpieczenie stomatologiczne"
+		"poniewaz pokryja moje czesne"
+		"aby sprawdzic, czy uda mi sie zdobyc jeden z ich okretow wojennych"
+		"poniewaz oferuja pomoc w opiece nad dziecmi"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"Marynarka Wojenna"
+	word
+		" jest tutaj, aby"
+		" jest zawsze gotowy do"
+		" jest zawsze tutaj, aby"
+		" nigdy nie zawaham sie"
+		" zawsze bedzie tutaj, aby"
+		" zawsze bedzie"
+		"obowiazkiem jest"
+	word
+		" "
+	word
+		"chronic"
+		"bronic"
+		"zabezpieczenie"
+		"straznik"
+		"dbamy o Twoje bezpieczenstwo"
+	word
+		" "
+	word
+		"i"
+	word
+		" "
+	word
+		"serwowac"
+		"pomoc"
+		"pomoc"
+		"pomoc"
+		"wsparcie"
+	word
+		" "
+	word
+		"ty."
+
+phrase "friendly navy"
+	word
+		"Dolacz"
+		"Zaciagnij sie"
+	word
+		" Marynarka Wojenna. "
+	word
+		"Zobacz"
+		"Wycieczka"
+		"Eksploruj"
+		"Obrona"
+		"Chron"
+		"Podroz"
+		"Widok"
+	word
+		" "
+	word
+		"galaktyka"
+		"Republika"
+		"Swiaty Rajskie"
+		"Rdzen"
+		"obrecz"
+		"Poludnie"
+		"pas brudu"
+		"Glebia"
+	word
+		"!"
+
+phrase "friendly navy"
+	word
+		"Dolacz"
+		"Zaciagnij sie do "
+	word
+		" "
+	word
+		"Marynarka Wojenna,"
+	word
+		" ten "
+	word
+		"najwiekszy"
+		"najwiekszy"
+		"najbardziej prestizowy"
+		"najbardziej wartosciowe"
+		"najbardziej satysfakcjonujace"
+	word
+		" "
+	word
+		"humanitarny"
+		"misje pokojowe"
+		"obrona"
+		"sluzba cywilna"
+		"wolontariusz"
+	word
+		" "
+	word
+		"organizacja"
+		"sila"
+	word
+		" "
+	word
+		"w galaktyce"
+		"w Republice"
+	word
+		"!"
+		
+phrase "friendly navy"
+	word
+		"Umierajacy"
+		"Ranny"
+		"Przyjmowanie ciosu"
+		"Uraz"
+		"Doznanie urazu"
+	word
+		" "
+	word
+		"w trakcie"
+		"w"
+	word
+		" "
+	word
+		"konflikt"
+		"zaangazowanie"
+		"bitwa"
+		"walka"
+	word
+		" jest "
+	word
+		"heroiczny"
+		"szlachetny"
+		"zaszczytny"
+		"szanowany"
+		"godny podziwu"
+		"godne pochwaly"
+	word
+		", "
+	word
+		"jesli takie dzialanie pomaga"
+		"jesli nam to pomoze"
+		"jesli ta ofiara nam pomoze"
+		"gdy pomaga twoim braciom i siostrom broni"
+		"kiedy nam pomaga"
+		"kiedy bedziemy w stanie"
+		"kiedy ta ofiara pomaga nam"
+		"ale tylko wtedy, gdy nam to pomaga"
+		"ale tylko jesli pomoze to Marynarce Wojennej"
+		"ale to na nic, jesli nam nie pomoze"
+		"ale ta ofiara pojdzie na marne, jesli nie pomoze"
+		"ale ta ofiara ma wieksze znaczenie, gdy pomaga nam"
+	word
+		" "
+	word
+		"uwiezic"
+		"wyeliminuj"
+		"wydalic"
+		"odpierac"
+		"jedz z powrotem"
+		"porazka"
+	word
+		" "
+	word
+		"piraci"
+		"wodzowie"
+		"maruderzy"
+		"przestepcy"
+		"terrorysci"
+		"powstancy"
+		"nasi wrogowie"
+		"nasi wrogowie"
+		"wrogowie wolnosci"
+		"wrogowie wolnosci"
+		"wrogowie demokracji"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"Badz wdzieczny"
+		"Badz wdzieczny"
+		"Dziekuje"
+	word
+		" "
+	word
+		"Republika dla"
+		"Marynarka Wojenna dla"
+	word
+		" " 6
+		" zapewniajac "
+		" zapewnienie "
+		" dajac ci "
+		" dajac nam "
+		" dawanie ludzkosci "
+		" dajac ludzkosci "
+	word
+		"trzy wieki"
+		"trzysta lat"
+		"dziesiec pokolen"
+	word
+		" z "
+	word
+		"wolnosc"
+		"wolnosc"
+		"demokracja"
+		"ochrona"
+		"dobrobyt"
+		"bezpieczenstwo"
+		"opieka"
+		"mnostwo"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"Republika"
+		"Marynarka Wojenna"
+	word
+		" ma "
+	phrase
+		"grad ochronny marynarki"
+	word
+		" dla "
+	word
+		"trzy wieki"
+		"trzysta lat"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"Dla "
+	word
+		"trzy wieki"
+		"trzysta lat"
+	word
+		", "
+	word
+		"Republika"
+		"Marynarka Wojenna"
+	word
+		" ma "
+	phrase
+		"grad ochronny marynarki"
+	word
+		"."
+
+phrase "navy protection hail"
+	word
+		"chroniony"
+		"strzezony"
+		"obroniony"
+	word
+		" "
+	word
+		"to niebo"
+		"nasza galaktyka"
+		"Glebia"
+		"obrecz"
+		"Poludnie"
+		"Rdzen"
+		"pas brudu"
+		"Daleka Polnoc"
+		"Swiaty Rajskie"
+		"sektor Bliski Ziemi"
+		"ty"
+		"ludzkosc"
+		"ludzkosc"
+		"statki handlowe"
+	word
+		"" 5
+		" z piractwa"
+		" od piratow"
+		" od maruderow"
+		" z powodu nieporzadku"
+		" z niestabilnosci"
+		" z anarchizmu"
+		" z powstania"
+		" od tych, ktorzy zagrazaja wolnosci"
+		" od tych, ktorzy zagrazaja wolnosci"
+		" od tych, ktorzy zagrazaja demokracji"
+
+phrase "navy protection hail"
+	word
+		"chroniony"
+		"obroniony"
+	word
+		" "
+	word
+		"to niebo"
+		"nasza galaktyka"
+		"Glebia"
+		"obrecz"
+		"Poludnie"
+		"Rdzen"
+		"pas brudu"
+		"Daleka Polnoc"
+		"Swiaty Rajskie"
+		"sektor Bliski Ziemi"
+	word
+		" z "
+	word
+		"piractwo"
+		"przestepstwo"
+		"niestabilnosc"
+		"chaos"
+		"konflikt"
+		"autokracja"
+		"autorytaryzm"
+		"regionalizm"
+	word
+		" i "
+	word
+		"dzielenie"
+		"rozlam"
+		"zaburzenie"
+		"rozklad"
+		"discord"
+		"zniszczenie"
+		"dewastacja"
+		"zamieszanie"
+		"ucisk"
+		"powstanie"
+		"wojna domowa"
+		"fragmentacja"
+		"anarchizm"
+
+phrase "navy protection hail"
+	word
+		"patrolowany"
+		"nadzorowane"
+		"obroniony"
+		"strzezony"
+		"chroniony"
+		"nadzorowane"
+		"utrzymywal pokoj w"
+	word
+		" "
+	word
+		"to niebo"
+		"nasza galaktyka"
+		"Glebia"
+		"obrecz"
+		"Poludnie"
+		"Rdzen"
+		"pas brudu"
+		"Daleka Polnoc"
+		"Swiaty Rajskie"
+		"sektor Bliski Ziemi"
+
+phrase "navy protection hail"
+	word
+		"promowany"
+		"zachecany"
+		"zaawansowane"
+		"dane ci"
+		"biorac pod uwage czlowieczenstwo"
+		"dazy sie do"
+	word
+		" "
+	word
+		"rownosc"
+		"wolnosc"
+		"jednosc"
+		"harmonia"
+		"bezpieczenstwo"
+		"pokoj"
+	word
+		"" 6
+		" i zamowienie"
+		" i sprawiedliwosc"
+		" i zgoda"
+		" i bezpieczenstwo"
+		" i wolnosc"
+		" i nadzieja"
+
+phrase "friendly navy"
+	word
+		"Jesli "
+	word
+		"chce"
+		"zyczenie"
+		"pragnienie"
+		"aspirowac"
+	word
+		" do "
+	phrase
+		"cel marynarki wojennej a"
+		"cel marynarki wojennej b" 4
+	word
+		", "
+	word
+		"dolacz do Marynarki Wojennej!"
+		"zaciagnij sie do Marynarki Wojennej!"
+
+phrase "friendly navy"
+	word
+		"Czy ty "
+	word
+		"chce"
+		"pragnienie"
+		"aspirowac"
+	word
+		" do "
+	phrase
+		"cel marynarki wojennej a"
+		"cel marynarki wojennej b" 4
+	word
+		"? "
+	word
+		"Dolacz do Marynarki Wojennej!"
+		"Zaciagnij sie do Marynarki Wojennej!"
+
+phrase "friendly navy"
+	word
+		"Marynarka jest tutaj"
+		"Marynarka istnieje"
+		"Obowiazkiem Marynarki Wojennej jest"
+		"Celem Marynarki Wojennej jest"
+		"Jestesmy tutaj"
+		"Istniejemy"
+		"Patrolujemy to niebo"
+		"My pilnujemy tego nieba"
+		"Naszym obowiazkiem jest"
+		"Naszym celem jest"
+	word
+		" do "
+	phrase
+		"cel marynarki wojennej b"
+	word
+		"."
+	word
+		"" 5
+		" Twoja wspolpraca jest bardzo cenna."
+		" Dziekujemy za wspolprace."
+		" Doceniamy Twoja zgode."
+		" Badz wdzieczny za nasza ochrone."
+		" Badzcie wdzieczni za nasza ochrone."
+		" Badzcie wdzieczni za nasza ofiare."
+		" Badz wdzieczny za nasza ofiare."
+		" Pamietaj, ze nasza ofiara jest dla twojego dobra."
+
+phrase "navy purpose a"
+	word
+		"wyroznij sie"
+		"udowodnij swoja wartosc"
+		"udowodnij swoje umiejetnosci pilotazu"
+		"udowodnij swoja wartosc jako kapitan"
+		"przyczynic sie do czegos wiekszego niz ty sam"
+		"sluz swojemu stanowi"
+		"sluzyc ludzkosci"
+		"sluzyc Republice"
+		"sluzyc demokracji"
+		"ratuj zycie"
+		"poprawiac warunki zycia innych"
+		"badz straznikiem ludzkosci"
+		"badz obronca ludzkosci"
+		"badz obronca ludzkosci"
+
+phrase "navy purpose b"
+	word
+		"badz straznikiem"
+		"bitwa"
+		"walka"
+		"rozwijac walke"
+		"zobacz, jak wymierzono sprawiedliwosc"
+	word
+		" przeciw "
+	word
+		"piraci"
+		"piractwo"
+		"maruderzy"
+		"niestabilnosc"
+		"anarchizm"
+		"handlarze niewolnikami"
+		"terrorysci"
+		"przestepcy"
+		"ci, ktorzy zagrazaja demokracji"
+		"ci, ktorzy zagrazaja wolnosci"
+		"ci, ktorzy zagrazaja Republice"
+		"ci, ktorzy zagrazaja zyciu ludzi"
+		"ci, ktorzy zagrazaja pokojowi"
+		"ci, ktorzy zagrazaja naszej Republice"
+
+phrase "navy purpose b"
+	word
+		"walcz o"
+		"bronic"
+		"chronic"
+		"postep"
+	word
+		" "
+	word
+		"Republika"
+		"ludzkosc"
+		"ludzkosc"
+		"demokracja"
+		"pokoj"
+		"prawo i porzadek"
+		"prawa czlowieka"
+		"zycie ludzi"
+		"srodki utrzymania ludzi"
+		"prawa ludu"
+
+phrase "navy purpose b"
+	word
+		"bronic"
+		"chronic"
+		"straznik"
+	word
+		" "
+	word
+		"ludzkosc"
+		"ludzkosc"
+		"to niebo"
+		"nasza galaktyka"
+		"Republika"
+	word
+		" z "
+	word
+		"plaga"
+		"zagrozenie"
+		"zagrozenie"
+		"zlo"
+	word
+		" z "
+	word
+		"piractwo"
+		"przestepstwo"
+		"niestabilnosc"
+		"chaos"
+		"konflikt"
+		"autokracja"
+		"autorytaryzm"
+		"regionalizm"
+	word
+		" i "
+	word
+		"dzielenie"
+		"rozlam"
+		"zaburzenie"
+		"rozklad"
+		"discord"
+		"zniszczenie"
+		"dewastacja"
+		"zamieszanie"
+		"ucisk"
+		"powstanie"
+		"wojna domowa"
+		"fragmentacja"
+		"anarchizm"
+
+phrase "navy purpose b"
+	word
+		"zapewnij"
+		"postep"
+		"utrzymuj"
+		"utrzymac"
+	word
+		" "
+	word
+		"pokoj"
+		"demokracja"
+		"wolnosc"
+		"rownosc"
+		"jednosc"
+		"harmonia"
+		"bezpieczenstwo"
+	word
+		"" 5
+		" w calej przestrzeni ludzkiej" 2
+		" wsrod gwiazd" 2
+		" i zamowienie"
+		" i sprawiedliwosc"
+		" i zgoda"
+		" i bezpieczenstwo"
+		" i wolnosc"
+
+phrase "friendly navy"
+	word
+		"Zjednoczeni, ludzkosc stoi. Podzieleni upadniemy."
+		"Ludzkosc musi zjednoczyc sie w swiecie, ktory probuje nas rozdzielic."
+		"Gdzie wszechswiat rozdziela ludzkosc, Republika jednoczy ludzkosc."
+		"Odpowiedz na wezwanie! Dolacz do Marynarki Wojennej!"
+		"Jesli masz odwage, jesli masz honor, wstap do Marynarki Wojennej!"
+		"Chcemy CIEBIE do Marynarki Wojennej!"
+		"Marynarka potrzebuje dobrych kapitanow takich jak ty! Dolacz do Marynarki Wojennej!"
+		"Nie ma wiekszej sluzby niz sluzba swojemu panstwu. Wstap do Marynarki Wojennej!"
+		"Mozesz liczyc na to, ze Marynarka Wojenna bedzie ci sluzyc."
+		"Pokoj wsrod gwiazd. Obys o tym pamietal."
+
+phrase "friendly navy"
+	word
+		"Republika"
+		"Marynarka Wojenna"
+	word
+		"cel:" 8
+		"motto:" 8
+		"Celem jest stworzenie"
+		"Celem jest zapewnienie"
+		" zyczenia dla"
+		" dazy do"
+		" dziala dla"
+		" dazy do"
+		" postepuje"
+		" jest tutaj, aby zapewnic"
+		" jest tutaj, aby isc naprzod"
+		" jest tutaj, aby promowac"
+	word
+		" "
+	word
+		"pokoj wsrod gwiazd."
+
+phrase "friendly navy"
+	word
+		"Ostrzegamy, ze wszyscy"
+		"Informujemy, ze wszystkie"
+		"Zgodnie z prawem Republiki, wszystkie"
+		"Informujemy, ze wszystkie"
+	word
+		" "
+	word
+		"cywil"
+		"kupiec"
+		"prywatny"
+	word
+		" "
+	word
+		"statki"
+		"statki"
+		"okrety wojenne"
+	word
+		" "
+	word
+		"w"
+		"w"
+		"podrozowanie w"
+	word
+		" "
+	word
+		"Republika"
+		"Przestrzen Republiki"
+	word
+		" "
+	word
+		"przejdzie"
+		"podlegaja"
+		"musi spelniac"
+	word
+		" losowo "
+	word
+		"ladunek"
+		"stroj"
+		"strukturalny"
+	word
+		" "
+	word
+		"skanuje"
+		"inspekcje"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"Uwaga:"
+		"Informujemy, ze"
+		"Zgodnie z prawem Republiki,"
+		"Informujemy, ze"
+	word
+		" "
+	word
+		"Oficerowie marynarki wojennej"
+		"funkcjonariusze kontroli granicznej"
+	word
+		" musi "
+		" bedzie "
+	word
+		"wykonaj "
+		"zachowanie "
+	word
+		"ladunek"
+		"stroj"
+		"strukturalny"
+	word
+		" "
+	word
+		"skanuje"
+		"inspekcje"
+	word
+		" na wszystkich "
+	word
+		"statki"
+		"statki"
+		"okrety wojenne"
+	word
+		" "
+	word
+		"podrozowanie po Republice"
+		"podrozowanie w przestrzeni Republiki"
+		"ladowanie na planecie Republiki"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"To jest "
+	word
+		"nielegalne"
+		"zabronione"
+		"karalne"
+	word
+		" zgodnie z prawem Republiki do "
+	phrase
+		"nielegalne dzialania marynarki wojennej"
+	word
+		"."
+
+phrase "navy illegal acts"
+	word
+		"instalacja"
+		"uzyj"
+	word
+		" "
+	word
+		"nielegalne"
+		"nieautoryzowane"
+		"nielicencjonowany"
+		"niebezpieczne"
+	word
+		" "
+	word
+		"stroje"
+		"sprzet"
+
+phrase "navy illegal acts"
+	word
+		"ruch"
+		"transport"
+		"przemyt"
+		"zysk z transakcji"
+	word
+		" "
+	phrase
+		"kontrabanda"
+
+phrase "navy illegal acts"
+	word
+		"zaangazuj sie"
+		"uczestniczyc w"
+	word
+		" "
+	word
+		"handel niewolnikami"
+		"handel niewolnikami"
+		"galaktyczny handel niewolnikami"
+
+phrase "navy illegal acts"
+	word
+		"posiadac bron chemiczna z jakiegokolwiek powodu"
+		"pilotowac statek bez licencji pilota"
+
+phrase "navy illegal acts"
+	word
+		"atak"
+		"prowokowac"
+		"zniszcz"
+		"wylacz"
+		"grabiez"
+	word
+		" "
+	word
+		"statki handlowe"
+		"statki cywilne"
+		"Okrety marynarki wojennej"
+		"statki bezpieczenstwa"
+
+phrase "navy illegal acts"
+	word
+		"zakloca"
+		"zaklocac"
+	word
+		" "
+	word
+		"pokoj"
+		"zamowienie"
+		"aktywnosc sprzedawcy"
+		"dzialalnosc komercyjna"
+		"pasy handlowe"
+		"porzadek cywilny"
+
+phrase "navy illegal acts"
+	word
+		"mucha"
+		"wyswietlacz"
+	word
+		" "
+	word
+		"pirat"
+		"maruder"
+		"anarchista"
+	word
+		" "
+	word
+		"oznaczenia"
+		"kolory"
+
+phrase "friendly free worlds militia 1"
+	word
+		"Jestesmy"
+	word
+		" "
+	word
+		"w poszukiwaniu"
+		"szukam"
+		"skanowanie"
+	word
+		" dowolny "
+		" "
+	word
+		"podejrzane"
+		"niezwykly"
+		"pirat"
+		"dziwne"
+		"nielegalne"
+		"przestepca"
+		"nielegalne"
+		"nienormalne"
+		"nieregularny"
+	word
+		" "
+	word
+		"statki"
+		"zachowanie"
+		"aktywnosc"
+		"statki"
+		"statki kosmiczne"
+	word
+		"."
+
+phrase "friendly free worlds militia 2"
+	word
+		"Nie"
+		"Ani jednego"
+		"Ani jeden"
+	word
+		" "
+	word
+		"kupiec"
+		"cywil"
+		"niewinne zycie"
+		"niewinny statek"
+		"mieszkaniec tego ukladu"
+	word
+		" "
+	word
+		"umrze"
+		"zostanie skrzywdzony"
+		"zostanie zabity"
+		"zostanie zniszczony"
+	word
+		" "
+	word
+		"na naszej warcie"
+		"poki jestesmy w poblizu"
+		"poki jeszcze lecimy"
+		"poki jeszcze oddychamy"
+		"poki tu jestesmy"
+	word
+		"."
+		"!"
+
+phrase "friendly militia 1"
+	word
+		"Piraci"
+		"Przestepcy"
+		"Zloczyncy"
+		"Zagrozenia dla wolnosci"
+		"Zagrozenia dla tego systemu"
+		"Zagrozenia dla tej planety"
+		"Zagrozenia dla naszego systemu"
+		"Zagrozenia dla naszej planety"
+	word
+		" uwazaj"
+		" uwaga"
+		", zawroc teraz"
+		", poddaj sie teraz"
+	word
+		"! "
+	word
+		"Milicja jest tutaj"
+		"Kawaleria jest tutaj"
+		"Milicja jest na czatach"
+		"Nie pokonasz nas"
+		"Nie mozemy zostac pokonani"
+		"Nie mozesz zlamac naszej determinacji"
+		"Nie ugniemy sie przed twoimi panami"
+		"Bedziemy walczyc do ostatniego statku"
+		"Nigdy sie nie poddamy"
+	word
+		"!"
+
+phrase "friendly militia 2"
+	word
+		"Jestesmy milicja, "
+	word
+		"obroncy wolnosci"
+		"obroncy niewinnych"
+		"obroncy tego systemu"
+		"obroncy tej planety"
+		"obroncy tego regionu"
+		"obroncy tego nieba"
+		"niszczyciele piratow"
+		"niszczyciele zla"
+		"niszczyciele przestepcow"
+	word
+		"."
+		"!"
+
+phrase "friendly militia 3"
+	word
+		"To by nie zaszkodzilo"
+		"To bardzo by pomoglo"
+		"Poprawiloby to zycie wielu ludzi"
+		"Ten sektor bylby o wiele bezpieczniejszy"
+		"Wiele istnien ludzkich zostaloby uratowanych"
+		"Ludzie byliby szczesliwsi"
+		"Bedziemy wdzieczni"
+		"Poludniowa Krawedz bylaby bardziej zamozna"
+		"Republika bylaby bardziej zamozna"
+		"Galaktyka bylaby bardziej zamozna"
+		"Poludniowa Krawedz bylaby bezpieczniejsza"
+		"Republika bylaby bezpieczniejsza"
+		"Galaktyka bylaby bezpieczniejsza"
+		"Nie musielibysmy poswiecac dla ciebie zycia"
+	word
+		" jesli "
+	word
+		"Marynarka Wojenna"
+		"Republika"
+		"Reprezentanci"
+		"Parlament"
+		"ci przedstawiciele Parlamentu"
+	word
+		" by "
+	word
+		""
+		"zejdz tutaj i "
+		"przestan sie ukrywac w Swiatach Raju i "
+		"przestan lizac buty Syndykatu i "
+	word
+		"pomoz nam z"
+		"pomoz nam w"
+		"zrob cos w tej sprawie"
+		"zrob cos z tym"
+		"wyslij flote, zeby nam pomogla"
+		"wyslijcie nam statki, zeby nam pomogly"
+	word
+		" "
+	word
+		"ci piraci"
+		"ci przestepcy"
+		"ci wodzowie"
+		"ci maruderzy"
+		"to szerzace sie piractwo"
+		"to szalencze marudzenie"
+	word
+		"."
+		"..."
+		"!"
+
+phrase "friendly militia 4"
+	word
+		"Jesli"
+	word
+		" "
+		" ludzie w "
+		" przywodcy "
+		" ci, ktorzy sprawuja wladze w "
+	word
+		"Parlament"
+		"Marynarka Wojenna"
+		"Republika"
+	word
+		" by "
+	word
+		"zejdz tutaj"
+		"przestan ignorowac nasze wolania o pomoc"
+		"zwroc uwage na nasze wolanie o pomoc"
+		"przestan udawac gluchego"
+		"posluchaj nas"
+		"pracuj z nami"
+		"chociaz raz sie przyda"
+		"po prostu wstancie z foteli"
+	word
+		"${wariant 4 przyjaznej milicji}" 2
+		""
+	word
+		", "
+	word
+		"zycie wielu ludzi ulegloby poprawie"
+		"wiele istnien ludzkich zostaloby uratowanych"
+		"zycie zostaloby uratowane"
+		"ludzie byliby szczesliwsi"
+		"bylibysmy wdzieczni"
+		"nie musielibysmy poswiecac dla ciebie zycia"
+		"Republika bylaby bardziej zamozna"
+		"galaktyka bylaby bardziej zamozna"
+		"Republika bylaby bezpieczniejsza"
+		"galaktyka bylaby bezpieczniejsza"
+		`nastawalby "pokoj wsrod gwiazd"`
+	word
+		"."
+
+phrase "friendly militia 4 variation"
+	word
+		" i "
+	word
+		"zrob cos z tym"
+		"zrob cos w tej sprawie"
+		"pomoz nam z"
+		"pomoz nam w"
+		"wyjdz"
+		"radzic sobie z"
+	word
+		" "
+	word
+		"ci piraci"
+		"ci przestepcy"
+		"ci wodzowie"
+		"ci maruderzy"
+		"to szerzace sie piractwo"
+		"to szalencze marudzenie"
+
+phrase "friendly militia 4 variation"
+	word
+		" i "
+	word
+		"zobacz"
+		"spojrz na"
+		"omow"
+		"rozumiem"
+		"rozpoznac"
+		"potwierdzam"
+		"zobacza sami"
+	word
+		" co "
+	word
+		"piraci maja"
+		"przestepcy maja"
+		"wodzowie maja"
+		"maruderzy maja"
+		"rozprzestrzeniajace sie piractwo"
+		"rozpasane grabieze maja"
+	word
+		" zrobione do "
+	word
+		"nasz system"
+		"nasze planety"
+		"Poludnie"
+		"obrecz"
+		"Poludniowa Krawedz"
+		"pas brudu"
+
+# Militia hails shared with the Free Worlds. Some are Militia only. This should give each of these hail sets the same chance of appearing.
+phrase "friendly militia"
+	phrase
+		"friendly free worlds militia 1"
+		"friendly free worlds militia 2"
+		"friendly militia 1"
+		"friendly militia 2"
+		"friendly militia 3"
+		"friendly militia 4"
+
+phrase "friendly syndicate"
+	word
+		"Madrzy kapitanowie wiedza, ze przestrzen ladunkowa jest kluczowa. Madrzy kapitanowie wybieraja Syndykat"
+	word
+		" "
+	word
+		"Barka Gwiezdna"
+		"Masowiec"
+		"Frachtowiec"
+		"Transport kontenerowy"
+	word
+		"."
+		
+phrase "friendly syndicate"
+	word
+		"Syndykat"
+	word
+		" "
+	word
+		"Masowiec:"
+		"Frachtowiec:"
+		"Barka Gwiezdna:"
+		"Transport kontenerowy:"
+	word
+		" "
+	word
+		"kregoslup"
+		"silnik"
+		"srodek"
+		"serce"
+		"silnik"
+		"krew zycia"
+	word
+		" "
+	word
+		"gospodarki galaktycznej"
+		"galaktycznego handlu"
+		"cywilizacji galaktycznej"
+	word
+		"."
+		
+		
+phrase "friendly syndicate"
+	word
+		"Pamietaj, ze nieautoryzowane modyfikacje blastera powoduja utrate gwarancji. Kup bezposrednio od Syndicate!"
+		"Madrzy kapitanowie wybieraja Syndicated Shipyards, zloty standard niezawodnosci."
+		"Inteligentni kapitanowie kupuja systemy syndykowane."
+		"Klopoty z piratami? Zatrudnij Obronce Syndykatu, a twoje klopoty sie skoncza."
+		"Syndicated Systems Cie wspiera!"
+		"W niepewnej galaktyce mozesz byc pewien Systemow Syndykowanych."
+		"Stocznie Syndykowane: przyjaciel uczciwych kupcow na calym swiecie."
+		"Pozdrowienia z Syndicated Systems."
+		"Syndicated Shipyards oferuje dobrze zaprojektowane statki kosmiczne na kazda kieszen!"
+		"Zostan kapitanem Syndykatu juz dzis!"
+		"Swiaty Syndicate to wspolczesna kraina mozliwosci!"
+		"Syndicated Systems: zasilanie handlu miedzygwiezdnego, jeden reaktor na raz."
+		"Slyszales o dziale protonowym Syndicated Systems? Umow sie na strzelanie probne juz dzis!"
+		"Chcialbys miec wiezyczke dziala czasteczkowego? Wyprobuj wiezyczke protonowa!"
+		"Lasery po prostu nie wystarcza? Uzyj dziala protonowego!"
+		"Piraci problemem? Mamy rozwiazania!"
+		"Pieniadze to problem? Mamy rozwiazania!"
+		"Czasteczki zbyt wysokie? Powinienes uzyc dziala protonowego!"
+		"Ciezkie wiezyczki sa za duze? Uzyj wiezyczki Quad Blaster!"
+		"Wiezyczki wiazkowe za male? Zainstaluj wiezyczke Quad Blaster!"
+		"Fuzja za droga? Sprobuj reaktora rozszczepieniowego!"
+		"Radioizotopy za slabe? Sprobuj reaktora rozszczepieniowego!"
+		"Silniki atomowe za drogie? Uzyj silnikow jonowych!"
+		"Silniki plazmowe sa zbyt intensywne? Podlacz silniki jonowe!"
+		"Mamy dziala, wiezyczki, silniki, reaktory, statki; Syndykat ma wszystko, czego potrzebujesz!"
+		
+phrase "friendly syndicate"
+	word
+		"Inteligentny"
+		"Inteligentny"
+		"Madry"
+		"Jasny"
+		"Intuicyjny"
+	word
+		" "
+	word
+		"kapitanowie"
+		"kapitanowie statkow"
+		"kapitanowie statkow kosmicznych"
+	word
+		" "
+	word
+		"wybierz"
+		"sklep"
+		"idz po"
+		"kup po"
+	word
+		" "
+	word
+		"Stocznie Syndykowane"
+		"Systemy syndykowane"
+	word
+		"!"
+		", gwarancja jakosci!"
+		", zloty standard niezawodnosci!"
+		", kwintesencja przystepnosci cenowej!"
+	
+
+phrase "friendly syndicate"
+	word
+		"Witamy w przestrzeni Syndykatu"
+	word
+		"! Zapraszamy do zapoznania sie z naszym katalogiem niedrogich strojow do statkow kosmicznych."
+		"! Zapraszamy do zapoznania sie z naszym katalogiem niedrogich statkow kosmicznych."
+		"! Czy bylbys zainteresowany zakupem metali ciezkich dzisiaj?"
+		"! Przesylamy Panstwu najnowszy katalog produktow Syndicated Systems!"
+		"! Sluzymy Panstwu z duma!"
+		"! Z duma obslugujemy naszych klientow!"
+		"! Mamy nadzieje, ze zostaniecie z nami na tegoroczne promocje!"
+		"! Przyjedz po niskie podatki, zostan po przystepny cenowo pluton!"
+		", najwieksza w galaktyce strefa wolnego handlu!"
+		", najbardziej wolny gospodarczo region galaktyki!"
+		", kregoslup potegi przemyslowej Republiki!"
+		", siedziba oferty kup jeden, a drugi dostaniesz gratis na radioizotopy po uplywie ich okresu poltrwania!"
+		"! Czy wiedziales o naszym programie recyklingu plutonu?"
+		"! Czy wiesz, ze przecietny statek zawiera wagowo 39% komponentow systemow syndykowanych?"
+		"! Jesli szukasz niedrogich radioizotopow, trafiles we wlasciwe miejsce!"
+		"! Zloz wniosek o stanowisko kapitana Syndykatu juz dzis!"
+		"! Zapraszamy wszystkich chetnych do dolaczenia do zespolu Syndicated Systems!"
+		"!"
+
+phrase "friendly syndicate"
+	word
+		"Pracuj dla Syndykatu!"
+		"Dolacz do Syndykatu!"
+		"Czy rozwazales Syndicated Systems jako swoj kolejny krok w karierze?"
+	word
+		" "
+	word
+		"Nasz"
+	word
+		" "
+	word
+		"ludzie"
+		"pracownicy"
+		"wynagrodzenia"
+		"korzysci"
+		"pakiety wynagrodzen"
+		"opcje na akcje"
+		"etyka biznesu"
+		"nowe technologie"
+		"statki kosmiczne"
+		"statki"
+		"stocznie"
+		"przystepne cenowo stroje"
+		"produkty przyjazne dla uzytkownika"
+		"etyka"
+		"oferty"
+		"plany stomatologiczne"
+	word
+		" "
+	word
+		"sa najlepsi!"
+		"nie pasuja!"
+		"sa nie do pobicia!"
+		"nie do pobicia!"
+		"sprawi, ze bedziesz sie usmiechac!"
+
+phrase "friendly free worlds 1"
+	word
+		"Byc"
+	word
+		" "
+	word
+		"bezpieczny"
+		"niezalezny"
+		"madry"
+		"sprawiedliwy"
+		"po prostu"
+		"odwazny"
+		"samowystarczalny"
+		"pewny"
+		"sprawiedliwy"
+		"odwazny"
+		"smialy"
+		"wytrwaly"
+		"pogrubione"
+		"odwazny"
+		"dzielny"
+	word
+		"! Badz wolny!"
+
+phrase "friendly free worlds 2"
+	word
+		"Bez"
+	word
+		" "
+	word
+		"rownosc"
+		"sprawiedliwosc"
+		"ofiara"
+		"odwaga"
+		"wytrwalosc"
+		"nadzieja"
+	word
+		" "
+	word
+		"nie moze byc"
+		"nie mozesz miec"
+	word
+		" "
+	word
+		"pokoj"
+		"wolnosc"
+		"bezpieczenstwo"
+		"dobrobyt"
+		"wolnosc"
+	word
+		"!"
+
+phrase "friendly free worlds 3"
+	word
+		"Walka"
+		"Obalenie"
+		"Sprzeciwiam sie"
+		"Wstan"
+		"Defy"
+		"Wypowiedz sie przeciwko"
+	word
+		" "
+	word
+		"ten "
+		"Republiki "
+		"Syndykatu "
+		"Swiaty Raju "
+		"Planety Rajskie "
+		""
+	word
+		"uszkodzony"
+		"chciwy"
+		"narzucajacy sie"
+		"dekadencki"
+		"krzywy"
+		"nikczemny"
+		"zgnily"
+		"nieuczciwy"
+		"rozpustny"
+		"naduzywanie zyskow"
+	word
+		" "
+	word
+		"rzad"
+		"korporacje"
+		"politycy"
+		"oligarchowie"
+		"potentaci"
+		"biurokraci"
+		"lobbysci"
+		"kierownictwo"
+	word
+		"! Dolacz do Wolnych Swiatow!"
+
+
+phrase "friendly free worlds 4"
+	word
+		"Jestesmy wolnymi silami"
+		"Jestesmy wolnymi statkami"
+		"Jestesmy Wolnymi Swiatami"
+	word
+		", "
+	word
+		"obroncy"
+		"straznicy"
+		"ochroniarze"
+	word
+		" "
+	word
+		"niewinni"
+		"ten system"
+		"ta planeta"
+		"ten region"
+		"to niebo"
+		"wolnosc"
+		"wolnosc"
+		"obrecz"
+		"Poludnie"
+		"pas brudu"
+		"Poludniowa Krawedz"
+	word
+		"."
+		"!"
+
+phrase "friendly free worlds 5"
+	word
+		"Dla "
+	word
+		"pokoj"
+		"rownosc"
+		"sprawiedliwosc"
+		"odwaga"
+		"wytrwalosc"
+		"nadzieja"
+	word
+		"! "
+	word
+		"Dla "
+	word
+		"wolnosc"
+		"bezpieczenstwo"
+		"dobrobyt"
+		"wolnosc"
+		"jednosc"
+		"Wolne Swiaty"
+	word
+		"!"
+
+phrase "free worlds 6 variations"
+	word
+		"chce dalej"
+		"chce dalej"
+		"chce awansowac"
+		"chce awansowac"
+		"chce wzmocnic"
+		"chce wzmocnic"
+		"chce wzmocnic"
+		"chce wzmocnic"
+		"wierzyc w"
+		"wsparcie"
+		"zatwierdzam"
+		"szacunek"
+		"czuwanie"
+	word
+		"" 4
+		" zasady"
+		" walka Wolnych Swiatow o"
+		" przyczyna"
+		" nasza przyczyna"
+	word
+		" "
+	word
+		"wolnosc"
+		"dobrobyt"
+		"demokracja"
+		"wolnosc"
+		"wolnosci jednostki"
+		"wspolnota"
+		"prawidlowa reprezentacja"
+
+phrase "free worlds 6 variations"
+	word
+		"widzialem"
+		"wiem o"
+		"widzi"
+		"cierpialem na"
+		"doswiadczylem"
+		"zostaly dotkniete przez"
+		"sa dotkniete"
+		"nie mozna tolerowac"
+		"nie mozna zignorowac"
+		"odmowic nalozenia sankcji"
+		"sa swiadkami"
+	word
+		" "
+	word
+		"Republiki"
+		"Parlamentu"
+		"Syndykatu"
+		"Planety Rajskie'"
+	word
+		" "
+	word
+		"dekadencja"
+		"korupcja"
+		"nieuczciwosc"
+		"naduzywanie zyskow"
+		"niewlasciwe postepowanie"
+		"oszustwo"
+		"manipulacja"
+		"naduzycie wladzy"
+		"subwersja"
+		"oszustwo"
+		"brudna polityka"
+		"oszukancze dzialania"
+
+phrase "free worlds 6 variations"
+	word
+		"widzialem"
+		"wiem o"
+		"widzi"
+		"cierpialem na"
+		"doswiadczylem"
+		"zostaly dotkniete przez"
+		"sa dotkniete"
+		"nie mozna tolerowac"
+		"nie mozna zignorowac"
+		"odmowic nalozenia sankcji"
+		"sa swiadkami"
+	word
+		" ten "
+	word
+		"korupcja"
+		"strata"
+		"rozpad"
+		"subwersja"
+	word
+		" z "
+	word
+		"nasze wolnosci"
+		"nasze prawa"
+		"nasza wolnosc"
+		"nasza autonomia"
+		"nasze samostanowienie"
+		"nasza reprezentacja"
+		"odpowiedzialny rzad"
+		"zgodne z prawem zarzadzanie"
+	word
+		"" 4
+		" przez Republike"
+		" przez Parlament"
+		" przez Syndykat"
+		" przez Planety Raju"
+
+phrase "friendly free worlds 6"
+	word
+		"Jesli "
+	phrase
+		"swiaty darmowe 6 wariantow"
+	word
+		", "
+	word
+		"dolacz do nas"
+		"dolacz do Wolnych Swiatow"
+		"stan sie czescia Wolnych Swiatow"
+		"zostan czlonkiem Wolnych Swiatow"
+		"zostan czlonkiem Wolnych Sil"
+		"nie wahaj sie dolaczyc do Wolnych Swiatow"
+		"stancie zjednoczeni z nami"
+		"walcz za nas"
+		"walcz z nami"
+		"walcz u naszego boku"
+	word
+		"!"
+
+phrase "friendly free worlds 7"
+	word
+		"Zagrozenia dla "
+		"Ci, ktorzy zagrazaja "
+	word
+		"wolnosc"
+		"demokracja"
+		"wolnosc"
+		"pokoj"
+		"ten system"
+		"ta planeta"
+		"nasz system"
+		"nasza planeta"
+		"nasze zrodla utrzymania"
+		"rzady prawa"
+		"Wolne Swiaty"
+		"niewinni"
+		"sprawiedliwosc"
+	word
+		" uwazaj"
+		" uwaga"
+		", zawroc teraz"
+		", poddaj sie teraz"
+	word
+		"! "
+	word
+		"Sily wolne sa tutaj"
+		"Potega Wolnych Swiatow jest tutaj"
+		"Statki Wolnych Swiatow sa tutaj"
+		"Sily Wolnych Swiatow sa tutaj"
+		"Nie mozesz zlamac naszej determinacji"
+		"Jestesmy zdeterminowani, by walczyc o nasze Wolne Swiaty"
+		"Walczymy w imie Wolnych Swiatow"
+		"Wolne Swiaty nie ugna sie przed twoimi panami"
+		"Bedziemy walczyc do ostatniego statku"
+		"Nigdy sie nie poddamy"
+		"Wyrzucimy cie z naszych systemow"
+		"Kawaleria jest tutaj"
+		"Nie pokonasz nas"
+		"Nie mozemy zostac pokonani"
+	word
+		"!"
+
+phrase "friendly free worlds 8"
+	word
+		"Walcz o"
+		"Walcz po stronie"
+		"Dolacz do nas w rozwoju"
+		"Wolne Swiaty istnieja po to, by sie rozwijac"
+		"Nasze statki walcza o"
+		"Nasze Wolne Swiaty walcza o"
+		"Zyjemy w walce o"
+		"Walczymy o"
+		"Walczymy o"
+		"Wspieramy"
+		"Nasza walka jest o"
+		"To jest walka o"
+		"Jesli walczysz z nami, walczysz za"
+		"Stoi za"
+		"Stan za"
+		"Dolacz do nas, jesli wierzysz w"
+	word
+		" "
+	word
+		"wolnosc"
+		"rownosc"
+		"sprawiedliwosc"
+		"pokoj"
+		"dobrobyt"
+		"wolnosc"
+		"jednosc"
+	word
+		"!"
+		"! Dolacz do Wolnych Swiatow!"
+
+phrase "friendly free worlds 9"
+	word
+		"Stancie zjednoczeni"
+		"Stan z nami"
+		"Walka o wolnosc"
+		"Walka o samostanowienie"
+		"Walka o pokoj"
+		"Walka o sprawiedliwosc"
+		"Walka o postep"
+		"Walcz o swoje prawa"
+		"Walcz o swoja reprezentacje"
+		"Walcz o swoje utrzymanie"
+		"Walka z uciskiem"
+		"Walka z dekadencja"
+		"Walka z korupcja"
+		"Nie ma substytutu dla wolnosci"
+		"Nie ma substytutu dla demokracji"
+		"Nie ma substytutu dla wolnosci"
+	word
+		"! "
+	word
+		"Dolacz do Wolnych Swiatow w naszej walce"
+		"Dolacz do naszej walki"
+		"Dolacz do nas w naszej walce"
+		"Dolacz do Wolnych Swiatow"
+		"Walka o Wolne Swiaty"
+		"Walcz o swoja przyszlosc"
+		"Walka o dobrobyt"
+		"Walka o rownosc"
+	word
+		"!"
+
+# Meant to be the same.
+phrase "friendly free worlds 10"
+	word
+		"Nie moze byc"
+		"Nie ma"
+		"Nie mozemy osiagnac"
+		"Nie mozemy zagwarantowac"
+		"Nie mozemy zabezpieczyc"
+		"Nie mozemy zyskac"
+		"Nie mozemy uzyskac"
+		"Nie mozemy osiagnac"
+	word
+		" "
+	word
+		"pokoj"
+		"wolnosc"
+		"bezpieczenstwo"
+		"dobrobyt"
+		"wolnosc"
+		"stabilnosc"
+		"sukces"
+		"dobrobyt"
+		"zamowienie"
+		`"pokoj wsrod gwiazd"`
+	word
+		" bez "
+	word
+		"rownosc"
+		"sprawiedliwosc"
+		"odwaga"
+		"wytrwalosc"
+		"smialosc"
+		"okreslenie"
+		"nadzieja"
+		"jednosc"
+		"rzady prawa"
+		"walcze o to"
+		"walka"
+		"reprezentacja"
+	word
+		"!"
+		"! Dolacz do Wolnych Swiatow!"
+
+# Meant to be the same.
+phrase "friendly free worlds 10"
+	word
+		"Mozemy jedynie osiagnac"
+		"Mozemy jedynie zagwarantowac"
+		"Mozemy tylko zabezpieczyc"
+		"Mozemy tylko zyskac"
+		"Mozemy uzyskac tylko"
+		"Mozemy tylko osiagnac"
+		"Jest tylko"
+		"Moze byc tylko"
+	word
+		" "
+	word
+		"pokoj"
+		"bezpieczenstwo"
+		"dobrobyt"
+		"stabilnosc"
+		"sukces"
+		"dobrobyt"
+		"zamowienie"
+	word
+		" z "
+		" gdy jest "
+		" gdy mamy "
+	word
+		"rownosc"
+		"wolnosc"
+		"sprawiedliwosc"
+		"odwaga"
+		"wytrwalosc"
+		"smialosc"
+		"nadzieja"
+		"jednosc"
+		"zjednoczona wizja"
+		"rzady prawa"
+	word
+		"!"
+		"! Dolacz do Wolnych Swiatow!"
+
+# Militia hails shared with the Free Worlds. These should give all the hails an equal chance of occurring.
+phrase "friendly free worlds"
+	phrase
+		"friendly free worlds militia 1"
+		"friendly free worlds militia 2"
+		"friendly free worlds 1"
+		"friendly free worlds 2"
+		"friendly free worlds 3"
+		"friendly free worlds 4"
+		"friendly free worlds 5"
+		"friendly free worlds 6"
+		"friendly free worlds 7"
+		"friendly free worlds 8"
+		"friendly free worlds 9"
+		"friendly free worlds 10"
+
+phrase "friendly pirate"
+	word
+		"Jestesmy"
+		"Jestesmy"
+		"Patrzysz na"
+		"Jestes w obecnosci"
+	word
+		" ten "
+	word
+		"najgorszy"
+		"najsilniejszy"
+		"najbardziej zaciekly"
+		"najgrozniejszy"
+		"najstraszniejszy"
+		"najgorszy"
+		"najbardziej zawily"
+		"najbardziej dziki"
+		"najbardziej niebezpieczne"
+		"najbardziej okrutny"
+		"najbardziej okrutny"
+		"najbardziej obawiany"
+	word
+		" "
+	word
+		"pirat"
+	word
+		" statek kosmiczny"
+		" okret wojenny"
+		" statek"
+		""
+	word
+		" "
+	word
+		"w"
+		"z"
+	word
+		" "
+	word
+		"wszechswiat"
+		"galaktyka"
+		"niebo"
+		"'wers"
+		"powietrze"
+		"kosmos"
+		"niebo"
+		"taikong"
+	word
+		"."
+		"!"
+
+phrase "friendly pirate"
+	word
+		"Grabiez"
+		"Srutowanie"
+		"Niszczenie"
+		"Okradanie"
+		"Raiding"
+		"Obijanie"
+		"Miazdzenie"
+		"Niszczycielskie"
+		"Kradziez z"
+		"Ukladanie drog"
+	word
+		" "
+	word
+		"kupcy"
+		"statki"
+		"wioski"
+		"frachtowce"
+		"konwoje"
+		"bogaci kupcy"
+		"statki bezbronne"
+		"slabe statki"
+		"slabe statki"
+		"statki handlowe"
+	word
+		" "
+	word
+		"i"
+	word
+		" "
+	word
+		"ciesze sie"
+		"wydawanie"
+		"narasta"
+		"gromadzenie"
+		"marnowanie"
+	word
+		" "
+	word
+		"lup"
+		"pieniadze"
+		"nasze zyski"
+		"bogactwo"
+		"grabiez"
+		"lup"
+	word
+		": Uwielbiam zycie pirata!"
+		": tak sie zyje!"
+		" to najlepszy sposob na zycie!"
+		" tak zyja prawdziwi anarchisci!"
+
+phrase "friendly pirate"
+	word
+		"Wlasnie "
+	word
+		"spladrowany"
+		"wybuchl"
+		"zniszczony"
+		"napadniety"
+		"obity"
+		"zmiazdzony"
+		"okradziony"
+		"zniszczony"
+	word
+		" "
+	word
+		"a"
+		"calosc"
+		"caly"
+		"najslabszy"
+		"najslabszy"
+		"najglupszy"
+	word
+		" "
+	word
+		"kupiec"
+		"organy scigania"
+	word
+		" "
+	word
+		"statek!"
+		"flota!"
+		"konwoj!"
+
+phrase "friendly pirate"
+	word
+		"Lepiej uwazaj "
+	word
+		"z kim rozmawiasz"
+		"na kogo patrzysz"
+		"kogo witasz"
+		"kogo atakujesz"
+		"twoje plecy"
+		"twoj ladunek"
+		"twoj statek"
+		"twoja flota"
+	word
+		" "
+	word
+		"w tym miejscu"
+		"w tych okolicach"
+		"wokol tego ukladu"
+		"wokol nas"
+		"wokol mnie"
+	word
+		"."
+
+phrase "friendly pirate"
+	word
+		"Czy ty "
+	word
+		"wyprobowano to"
+		"uzylem tego"
+	word
+		" "
+	word
+		"nowy "
+		"szalony "
+		"niesamowite "
+		"fantastyczne "
+		"niesamowite "
+		"fascynujace "
+		""
+	phrase
+		"leki"
+	word
+		" "
+	word
+		"rzeczy?"
+		"lek?"
+	word
+		""
+		" To jest najlepsze!"
+		" To jest niesamowite."
+		" Bedziesz mial najlepszy haj w zyciu."
+		" Poczujesz sie jak w niebie!"
+		" Chcialbym znalezc wiecej."
+		" Chcialbym moc sobie pozwolic na wiecej."
+		" Bede musial zarobic pieniadze, zeby kupic wiecej!"
+		" Najlepsze doswiadczenie, jakie kiedykolwiek mialem!"
+	replace
+		"%" 
+phrase "friendly pirate"
+	word
+		"Czy ty "
+	word
+		"wyprobowano to"
+		"uzylem tego"
+	word
+		" "
+	word
+		"nowy "
+		"straszne "
+		"okropne "
+		"okropne "
+		"okropne "
+		""
+	word
+		"zly niebieski"
+		"wzmacniacz"
+		"rdzen"
+		"kij smierci"
+		"gleboko"
+		"ogniste jablko"
+		"kropla smaku"
+		"dobry czerwony"
+		"szczesliwy patyk"
+		"skrzydelko ostre"
+		"uklad pamieci"
+		"kwazar"
+		"czerwony olbrzym"
+		"golenie swiata pierscieni"
+		"przejazdzka Solarisem"
+		"poludniowa przekaska"
+		"kosmiczny chwast"
+		"gwiezdny pyl"
+		"para"
+		"sok z ropuchy"
+		"tluszcz wielorybi"
+	word
+		" "
+	word
+		"rzeczy?"
+		"lek?"
+	word
+		""
+		" Nie moglem widziec przez tydzien"
+		" Przez tydzien nie moglem wstac z lozka"
+		" Mialem wrazenie, ze ktos mnie zywcem zjada"
+		" Mialem wrazenie, jakby pod moja skora pelzaly owady"
+		" Nigdy wiecej tego nie wezme"
+		" Najgorsze doswiadczenie, jakie kiedykolwiek mialem"
+	word
+		"!"
+		"."
+	replace
+		"?." 
+phrase "friendly pirate"
+	word
+		"My"
+	word
+		" "
+	word
+		"po prostu"
+		"ostatnio"
+	word
+		" "
+	word
+		"dostalem"
+		"zdobyto"
+		"zrobiono"
+	word
+		" "
+	word
+		"tysiace"
+		"tysiace kredytow"
+		"miliony"
+		"miliony kredytow"
+	word
+		" "
+	word
+		"sprzedawanie kontrabandy"
+		"pladrowanie kupcow"
+		"pobieranie nagrod"
+	word
+		"!"
+
+phrase "friendly pirate"
+	word
+		"Slyszalem"
+		"Slyszelismy"
+		"Plotka glosi, ze"
+	word
+		" ze "
+	word
+		"nowa partia"
+		"nowa dostawa"
+		"nowa dostawa"
+	word
+		" "
+	phrase
+		"kontrabanda"
+	word
+		" "
+	word
+		"wlasnie zostal odwieziony"
+		"zostal dostarczony tutaj"
+		"jest w drodze"
+	word
+		"."
+	word
+		" Nie moge sie doczekac, zeby kupic!"
+		" Nie moge sie doczekac, zeby je kupic!"
+		" Nie moge sie doczekac, zeby je sprawdzic!"
+		""
+
+phrase "friendly pirate"
+	word
+		"Jesli inny kapitan ma problemy ze swoja zaloga,"
+		"Jesli ktos inny ma problemy ze swoja zaloga,"
+		"Jesli masz problemy z zaloga,"
+	word
+		" Sugeruje "
+		" sprobuj "
+	word
+		"uzywajac kija, by ich zmusic do poddania sie"
+		"wyrzucajac ich przez sluze powietrzna"
+		"glodzac ich, az zaczna sluchac"
+		"grozac wyrzuceniem ich przez sluze powietrzna"
+		"grozac im smiercia"
+		"grozac ich zastrzeleniem"
+		"uzywanie ich jako przynety podczas abordazu wrogiego statku"
+	word
+		"."
+	word
+		" U mnie zadzialalo!"
+		" Gwarantuje, ze dziala!"
+		" Jak dotad u mnie skutecznosc wynosi 100%!"
+		" Nigdy wiecej nie beda Cie niepokoic!"
+		" Jesli nie zadziala, zawsze mozesz je wymienic!"
+		" To stary rodzinny trik!"
+		""
+
+phrase "friendly pirate"
+	word
+		"Ktokolwiek"
+		"Czy ktos tu jest"
+		"Kazdy z towarzyszy piratow"
+		"Kazdy z kolegow anarchistow"
+	word
+		" "
+	word
+		"do kupienia"
+		"chce kupic"
+		"szukam"
+	word
+		" "
+	phrase
+		"kontrabanda"
+	word
+		"?"
+	word
+		""
+		" Po prostu porozmawiaj ze mna w porcie kosmicznym."
+		" Porozmawiaj ze mna, aby nawiazac kontakt."
+		" Znajdziesz je na najblizszej planecie piratow."
+		" Znajdziesz je na najblizszej planecie anarchistycznej."
+		" Znajdziesz je na najblizszej planecie, ktora nie jest uciskana przez Czlowieka."
+		" Znajdziesz je wszedzie tam, gdzie nie dotarl Czlowiek."
+
+phrase "friendly pirate"
+	word
+		"To mnie zaskakuje"
+		"To nas zaskakuje"
+		"Jestesmy zaskoczeni"
+		"Jestem zaskoczony"
+		"To ciekawe"
+		"To zaskakujace"
+	word
+		" to "
+	word
+		"kupcy"
+		"bogaci kupcy"
+		"cywile"
+		"bogaci cywile"
+		"nie-piraci"
+		"robaki"
+		"robaki"
+	word
+		" "
+	word
+		"przyjdzie do"
+		"przyjdz tutaj, aby"
+		"czy kiedykolwiek"
+		"przyszedlby do nas, aby"
+		"przyszedlby tutaj, aby"
+		"ryzykuja"
+	word
+		" "
+	word
+		"kup ${kontrabande} od"
+		"sprzedaj ${kontrabande} temu"
+	word
+		" "
+	word
+		"nas"
+		"piraci"
+		"anarchisci"
+	word
+		"."
+
+phrase "friendly pirate"
+	word
+		"To najgorsza rzecz"
+		"Nienawidze tego"
+		"To straszne"
+		"Najgorsze jest"
+		"Moj dzien zawsze sie psuje"
+	word
+		" kiedy jestem "
+	word
+		"zajmuje sie swoimi sprawami"
+		"po prostu lece przez kosmos"
+		"bawimy sie"
+		"uznawanie kredytu"
+		"ciesze sie, podczas gdy"
+		"dobrze sie bawiac"
+	word
+		" "
+	word
+		"transportowanie"
+		"dostarczanie"
+		"przewoz"
+		"transport"
+		"zaopatrzenie"
+		"wymiana"
+		"poruszanie sie"
+		"odwracajac sie"
+	word
+		" "
+	phrase
+		"kontrabanda"
+	word
+		" "
+	word
+		"i zostalem zeskanowany przez Czlowieka."
+		"i jestem skanowany przez Prawo."
+		"a dlugie ramie Prawa zaczyna stukac w moje ramiona."
+		"i Marynarka zaczyna mnie gonic."
+		"a na mnie czeka kanonierka."
+		"i jeden z moich rywali mnie zauwaza."
+		"a kupiec idzie do mnie strzelac."
+		"i milicja zaczyna mnie gonic."
+		"a Syndykat zaczyna mnie gonic."
+	word
+		"" 2
+		" Przydaloby sie wiecej powloki interferencyjnej."
+		" Ta powloka interferencyjna jest bezuzyteczna!"
+		" Moglbym wydostac sie szybciej, gdybym mial do dyspozycji naped awaryjny."
+		" Wiem, ze powinienem zainstalowac wiecej powlok interferencyjnych."
+		" Gdybym tylko byl wystarczajaco silny, zeby im sie przeciwstawic."
+		" Gdybym mogl, wystrzelilbym ich z nieba!"
+		" Bylo ich tak wiele!"
+
+
+phrase "friendly disabled pirate"
+	word
+		"Czy moglbys pomoc koledze i"
+		"Czy moglbys pomoc innemu piratowi i"
+		"Przyjacielu, czy moglbys nam zrobic przysluge? Moglbys"
+		"Napotkalismy przeszkode, czy moglbys"
+		"Przyjacielu, czy moglbys"
+		"Czy mozesz"
+	word
+		" "
+	word
+		"podejdz tutaj i"
+		"przyjdz do nas i"
+		"przylec do nas i"
+		"poswiec chwile na"
+	word
+		" "
+	word
+		"zalatw nas"
+		"dokonaj u nas pewnych napraw"
+		"daj nam wsparcie"
+		"wykonaj kilka napraw"
+		"przywroc ten statek do dzialania, zebysmy mogli jak najszybciej wydostac sie z Dodge"
+		"znow nas wskrzesic i znow zaczac pladrowac"
+	word
+		"?"
+
+phrase "friendly author"
+	word
+		"Ta gra"
+		"Nieskonczone niebo"
+	word
+		" jest oprogramowaniem typu open source. Mozesz "
+	word
+		"pomocy"
+		"poprawic gre"
+		"zaangazuj sie"
+		"pomoz uczynic gre lepsza"
+		"pomoz nam"
+		"odcisnij swoje pietno na wszechswiecie"
+		"oddaj cos spolecznosci"
+	word
+		" przez "
+	word
+		"wnoszenie szczegolowych raportow o bledach."
+		"wnoszenie poprawek literowek."
+		"wnoszenie konstruktywnego feedbacku."
+		"wnoszenie wkladu w postaci pomyslow na ulepszenia."
+		"dodawanie zdjec krajobrazowych."
+		"wspoltworzenie dziel sztuki."
+		"tworzenie nowych statkow wlasnego projektu."
+		"wtyczki dodawane."
+		"wnoszenie wkladu w nowe misje specjalne."
+		"wnoszenie nowej broni lub innych elementow wyposazenia."
+		"wnoszenie ulepszonych opisow planet."
+		"wprowadzanie bardziej zroznicowanych komunikatow zgloszeniowych."
+		"dolaczanie do konwersacji, ktore tworza nowa tresc."
+		"dolaczam do spolecznosci Endless Sky na Discordzie."
+		"angazowanie sie w spolecznosc."
+		"przesylanie nowych zadan sciagniecia z ulepszeniami i pomyslami."
+
+
+phrase "friendly disabled"
+	word
+		"Nasz statek zostal unieruchomiony!"
+		"Wpakowalismy sie w niezla sytuacje!"
+		"Stracilismy kontrole nad naszym statkiem!"
+		"Nasz statek otrzymal solidne lanie!"
+		"Hej!"
+		"S.O.S! S.O.S!"
+		"Mayday! Mayday!"
+		"Toniemy!"
+	word
+		" "
+	word
+		"Prosze, wejdz na poklad naszego statku i nas opatrz!"
+		"Bedziemy wdzieczni za kazda pomoc w ponownym uruchomieniu!"
+		"Czy moglbys przyleciec i nam pomoc, prosze?"
+		"Wniosek o pilna naprawe!"
+		"Potrzebujemy pomocy!"
+		
+phrase "friendly disabled"
+	word
+		"Hej! "
+		"Jestes przyjazny, prawda? "
+		"Odpowiedziales! "
+		"Milo widziec przyjazna twarz! "
+		"Hej, prosze! "
+		"Tutaj! "
+		"" 6
+	word
+		"Nasz statek jest wylaczony,"
+		"Jestesmy tu troche uwiezieni,"
+		"Jestesmy w tarapatach,"
+		"Utknelismy dryfujac w tej pulapce smierci,"
+		"Nie chce przeszkadzac, ale"
+	word
+		" "
+	word
+		"czy moglbys pomoc"
+		"czy mozesz nas postawic na nogi"
+		"czy moglbys nam pomoc"
+		"czy jest szansa, zebysmy znow mogli dzialac"
+		"czy moglbys udzielic pomocy"
+		"czy mozemy otrzymac pomoc"
+	word
+		", prosze?"
+		" szybko?"
+		" wiec mozemy sie stad wydostac?"
+		" jak najszybciej?"
+		"? Nie chce tu utknac!"
+		"?" 4
+
+phrase "friendly disabled"
+	word
+		"Hej,"
+		"Uh..."
+		"Wiec..."
+		"W pewnej sytuacji..."
+		"Jeden,"
+		"Wiem, ze to niewygodne, ale"
+		"To jest niezreczne, ale"
+	word
+		" "
+	word
+		"czy moglbys pomoc"
+		"czy mozesz nas postawic na nogi"
+		"czy moglbys nam pomoc"
+		"czy istnieje szansa, ze moglibyscie nas ponownie uruchomic"
+		"czy moglbys udzielic pomocy"
+		"czy mozemy liczyc na pomoc w naprawie naszego statku"
+	word
+		", prosze?" 2
+		" wiec mozemy sie stad wydostac?"
+		" jak najszybciej?"
+		"? Nie chce tu utknac!"
+		"?" 4
+
+phrase "friendly disabled"
+	word
+		"Niektore"
+		"Te"
+		"Oni"
+		"Ten"
+		"Kilka"
+		"Te"
+	word
+		" grozny"
+		" przeklety"
+		" grasujacy"
+		" do niczego"
+		" irytujace"
+		" uciazliwy"
+		" podejrzane"
+		" podly"
+		"" 3
+	word
+		" "
+	word
+		"bekarty"
+		"weze"
+		"lasice"
+		"nieszczesnicy"
+		"lajdaki"
+		"lobuzy"
+		"czesci pracy"
+	word
+		" "
+	word
+		"rozbil nasz statek!"
+		"zostawil nas dryfujacych w kosmosie!"
+		"zaskoczyl nas!"
+		"zostawil nas tu na smierc!"
+		"wylaczono nas!"
+		"usmazyl wiekszosc funkcji naszego statku!"
+		"nagle nas spotkal!"
+		"pokonal nas!"
+		"myslalem, ze mogliby nas po prostu tu zostawic!"
+	word
+		" "
+	word
+		"Przyda nam sie kazda pomoc!"
+		"Czy moglbys pomoc?"
+		"Wyglada na to, ze nie mozemy tego naprawic sami, czy moglbys pomoc?"
+		"Potrzebujemy pomocy, zeby nasz statek znow ruszyl!"
+		"Czy mozesz nam pomoc to naprawic?"
+		"Prosze, pomoz nam!"
+		"Nie sadze, zebysmy mogli sie utrzymac!"
+		"Prosze przyjsc i pomoc!"
+		"Czy jest jakas szansa, ze uda ci sie nas wyciagnac z tej opresji?"
+		"Czy jest szansa, ze moglibyscie nas wyciagnac z tarapatow?"
+
+phrase "disabled free worlds"
+	word
+		"Coz, to do bani. "
+		"Do cholery! "
+		"O, swietnie. "
+		"" 4
+	word
+		"Wiedzialem, ze powinienem"
+		"Wiedzialem, ze nie powinienem"
+	word
+		" "
+	word
+		"miec"
+	word
+		" "
+	word
+		"zainstalowano te bronie"
+		"kupilem te silniki"
+		"skrecil w lewo"
+		"zrobil prawo"
+		"wypilem drinka"
+		"czekal na start"
+		"posluchal tych najwazniejszych osob"
+		"wyprobowalem ten ruch, ktory widzialem"
+		"zamienilem swoj statek"
+	word
+		"." 4
+		"!" 2
+		". Nie wtracaj sie, dobrze?"
+		" wczoraj."
+
+# Shakespearean insults.
+phrase "hostile disabled"
+	word
+		"Ty"
+		"Zostaw mnie w spokoju, ty"
+		"Gnij w piekle, ty"
+		"Nie waz sie wchodzic na moj poklad, ty"
+		"Lepiej miej nadzieje, ze juz nigdy sie nie spotkamy, ty"
+		"Jestes"
+		"Nie moge uwierzyc, ze jestem na lasce takiego"
+		"Lepiej mi nie przeszkadzaj, ty"
+		"Moi przyjaciele mnie pomszcza, ty"
+		"Trzymaj sie ode mnie z daleka, ty"
+		"Jak smiesz, ty"
+		"Odwal sie, ty"
+		"Dobrze, dobrze zagrane. A teraz idz sobie, ty"
+	word
+		" "
+	phrase
+		"szekspirowskie obelgi"
+	word
+		"."
+		"!"
+
+# Shakespearean insults.
+phrase "hostile disabled"
+	word
+		"Ty kawalek"
+	word
+		" "
+	phrase
+		"szekspirowskie obelgi"
+	word
+		"!"
+		"."
+	word
+		" "
+	word
+		"Spojrz, co zrobiles z moim statkiem!"
+		"To wszystko twoja wina."
+		"To jeszcze nie koniec."
+		"Tym razem miales szczescie."
+		"Sprawie, ze tego pozalujesz!"
+		"Moj piekny statek!"
+		"Spojrz, co zrobiles!"
+		"Jestem zrujnowany!"
+		"Jestes teraz zadowolony?"
+		"Chcesz medal?"
+		"Czego ode mnie chcesz?"
+		"Nie jestes niczym specjalnym, wiesz?"
+
+phrase "shakespearean insults"
+	word
+		"bezceremonialny"
+		"sprosny"
+		"zakochanie"
+		"bez butow"
+		"niechlujny"
+		"wygiety"
+		"wymazany"
+		"craven"
+		"kursywny"
+		"dankish"
+		"demontaz"
+		"buczenie"
+		"bledny"
+		"pochlebianie"
+		"zaczepianie"
+		"naprzod"
+		"pienisty"
+		"blyszczacy"
+		"kozi"
+		"brzuchaty"
+		"bezczelny"
+		"zakazny"
+		"niepokojace"
+		"klotliwy"
+		"nierowny"
+		"mruczenie"
+		"znieksztalcony"
+		"miauczenie"
+		"brzuchaty"
+		"drapanie"
+		"wymiotowanie"
+		"drobny"
+		"rowna sie"
+		"ranga"
+		"smierdzacy"
+		"lobuzerski"
+		"brutalny"
+		"pyskaty"
+		"sledziona"
+		"gabczasty"
+		"opryskliwy"
+		"chwiejny"
+		"bez kaganca"
+		"prozny"
+		"zatruty"
+		"zloczynca"
+		"wypaczony"
+		"krnabrny"
+		"chwasty"
+		"drozdzakowy"
+	word
+		" "
+	word
+		"boisko bazowe"
+		"ptactwo-nietoperzowe"
+		"madry"
+		"chrzaszczoglowy"
+		"gotujacy sie mozg"
+		"pazurzasty"
+		"mozg gliniany"
+		"wspolne-calowanie"
+		"krzywo-skrecony"
+		"mroczne sny"
+		"o zawrotach glowy"
+		"psie serce"
+		"przykrecane srubami"
+		"irytujacy ziemie"
+		"skora elfa"
+		"otluszczony-nerkowy"
+		"wysysane-feny"
+		"z klapka na ustach"
+		"ugryziony przez muche"
+		"upadly-glupota"
+		"glupio urodzony"
+		"pelno-napelniony"
+		"sciskajacy"
+		"poltwarzowy"
+		"pochopny"
+		"urodzony w niebezpieczenstwie"
+		"piekielnie znienawidzony"
+		"bezmyslny"
+		"zle wychowanie"
+		"zle wychowany"
+		"sekate"
+		"mleczno-watrobowy"
+		"roznorodny"
+		"cebulowo-oki"
+		"wyrywany pioropusz"
+		"glebokosc garnka"
+		"zaznaczony ospa"
+		"dojrzaly do krecenia"
+		"grubo ciosany"
+		"niegrzeczne-rosnace"
+		"karmione na zadzie"
+		"przenoszone przez odlamki"
+		"gryzienie owiec"
+		"utwardzane twardo"
+		"brzuchaty"
+		"opozniony"
+		"laskotliwy"
+		"ropucha plamista"
+		"odchylajac pysk"
+		"pogoda"
+	word
+		" "
+	word
+		"apple-john"
+		"bagaz"
+		"pakla"
+		"pecherz"
+		"dzik-swinia"
+		"bugbear"
+		"bum-bailey"
+		"kwiat raku"
+		"dzbanek-talerz"
+		"klotpole"
+		"coxcomb"
+		"lancuch"
+		"zeton-smierci"
+		"jezyna"
+		"smok-klapowy"
+		"lennik"
+		"flirt-gill"
+		"lizacy stopy"
+		"fustilarian"
+		"dzwiek"
+		"kielb"
+		"wychudzony"
+		"harpia"
+		"swinia-zywoplot"
+		"bestia-roga"
+		"przytulacz-rabus"
+		"glowica stawu skokowego"
+		"rozpustnik"
+		"lout"
+		"ciasto-robacze"
+		"robak slodowy"
+		"mamut"
+		"odra"
+		"drobnica"
+		"lobuz"
+		"forma osnowy"
+		"mumble-news"
+		"hak do orzechow"
+		"jajo golebie"
+		"pignut"
+		"puttock"
+		"pompa"
+		"szczuromor"
+		"tarcza"
+		"skainsmate"
+		"skarpeta"
+		"varlot"
+		"wasal"
+		"twarz-serwatkowa"
+		"pliszka"
+
+phrase "hostile civilian"
+	word
+		"Mam nadzieje"
+		"Modle sie o to"
+	word
+		" "
+	word
+		"Marynarka Wojenna"
+		"Milicja"
+		"Syndykat"
+		"ktos"
+	word
+		" "
+	word
+		"oparzenia"
+		"ciecia"
+		"lzy"
+		"kotlety"
+		"rozbija"
+		"rips"
+		"ciosy"
+		"wybuchy"
+		"strzela"
+		"zuje"
+		"pociaga"
+		"masze"
+		"pily"
+		"plastry"
+		"szaszlyki"
+	word
+		" "
+	word
+		"z glowy"
+		"wyjdz z serca"
+		"poza twoimi rekami"
+		"zdejmij z ramion"
+		"wyciagnij oczy"
+		"podnies swoj statek"
+		"w twarz"
+		"twoj statek rozpadl sie na kawalki"
+		"rozbijam twoj statek na kawalki"
+		"twoj statek sie rozpada"
+		"rozwalasz sie na kawalki"
+		"rozwalic cie na kawalki"
+		"jestes osobny"
+		"z nosa"
+	word
+		", ty"
+	word
+		" szczegoly"
+		" do niczego"
+		" zlo"
+		" parszywy"
+		" zerowanie od dolu"
+		" tchorzliwy"
+		" zoltobrzuchy"
+		""
+	word
+		" "
+	word
+		"scuzz"
+		"pekniecia"
+		"gunk"
+		"barf"
+		"dink"
+		"smark"
+		"bzdura"
+		"szum"
+	word
+		"wad!"
+		"glowa!"
+		"wiadro!"
+		"torba!"
+		"worek!"
+		"stos!"
+		"stos!"
+		"plama!"
+		"frajer!"
+		"pilka!"
+
+phrase "hostile navy"
+	word
+		"Nie mozesz miec nadziei, ze"
+		"Nie bedziesz"
+		"Nie da sie"
+		"Nikt nie moze"
+		"Nie mozesz"
+		"Proba jest glupota"
+		"Tylko egoisci mysla, ze moga"
+	word
+		" "
+	word
+		"przewazaja nad"
+		"pokonac"
+		"porazka"
+		"opierac sie"
+		"ucieczka"
+		"dopasowanie"
+		"rowny"
+		"zniszcz"
+		"uderzenie"
+		"triumf przeciwko"
+		"wygrana z"
+		"przeciwstawic sie"
+		"pokonac"
+	word
+		" "
+	word
+		"ten"
+	word
+		""
+		" wojskowy"
+		" nierowne"
+		" bezkonkurencyjny"
+		" imponujace"
+		" legendarny"
+		" imponujacy"
+		" masywny"
+		" monumentalny"
+		" wojenny"
+		" marynarka"
+		" walka"
+		" slawny"
+	word
+		" "
+	word
+		"sila"
+		"moc"
+		"moc"
+		"flota"
+		"statki"
+		"sily"
+		"zdolnosc"
+		"sily zbrojne"
+		"armie"
+		"pulki"
+		"floty"
+		"sily bojowe"
+		"bataliony"
+	word
+		" "
+	word
+		"Marynarki Wojennej"
+		"Republiki"
+		"marynarki wojennej Republiki"
+	word
+		"."
+
+phrase "hostile navy"
+	word
+		"Ty"
+		"Stoj! Ty"
+	word
+		" "
+	word
+		"naruszaja"
+		"naruszyl"
+		"dzialaja wbrew"
+		"sa oskarzeni jako przestepcy na podstawie"
+		"dzialasz jako przestepca na podstawie"
+		"nie sluchaja"
+		"lamia sie"
+		"przeciwstawiaja sie"
+		"zepsuly sie"
+	word
+		" "
+	word
+		"ten "
+	word
+		"prawa"
+		"prawo"
+		"statuty"
+		"przepisy"
+		"jurysdykcja"
+		"dekrety"
+		"mandaty"
+		"zamowienia"
+	word
+		" "
+	word
+		"z"
+	word
+		" "
+	word
+		"Republika"
+		"galaktyczny Parlament"
+		"Parlament Republiki"
+		"Republika Galaktyczna"
+	word
+		"."
+
+phrase "hostile navy"
+	word
+		"Dla "
+	word
+		"honor"
+		"jednosc"
+		"zamowienie"
+		"nadzieja"
+		"stabilnosc"
+		"zgoda"
+	word
+		"! "
+	word
+		"Dla "
+	word
+		"sprawiedliwosc"
+		"obowiazek"
+		"pokoj"
+		"integralnosc"
+		"demokracja"
+		"rzady prawa"
+		"pokoj wsrod gwiazd"
+		"integralnosc naszej Republiki"
+		"Republika"
+	word
+		"!"
+
+phrase "hostile navy"
+	word
+		"Jestesmy agentami"
+		"Staramy sie przyniesc"
+		"Chcemy przyniesc"
+		"Naszym zadaniem jest promowanie"
+		"Marynarka istnieje po to, aby tworzyc"
+	word
+		" "
+	word
+		"pokoj"
+		"sprawiedliwosc"
+		"rownosc"
+		"wolnosc"
+		"jednosc"
+		"zgoda"
+		"zamowienie"
+		"rzady prawa"
+		"bezpieczenstwo"
+		"sprawiedliwosc dla wszystkich"
+		"harmonia"
+		"bezpieczenstwo"
+		"nadzieja"
+		"pokoj wsrod gwiazd"
+	word
+		". Z przykroscia informujemy, ze"
+		". Niestety,"
+		". Boli nas, ze"
+		", ale teraz"
+		", ale niestety"
+		", ale niestety"
+		", ale Twoje dzialania sprawily, ze"
+		", ale"
+	word
+		" "
+	word
+		"naszym obowiazkiem jest"
+		"musimy"
+		"konieczne jest"
+		"teraz jestesmy zobowiazani do"
+		"musimy"
+		"jestesmy zobowiazani do"
+		"jestesmy zmuszeni"
+		"nasze rozkazy sa nastepujace:"
+	word
+		" "
+	word
+		"zniszczyc cie"
+		"zabije cie"
+		"walcze z toba"
+		"zniszcz swoj statek"
+		"zakoncz swoje zycie"
+		"badz swoim wrogiem"
+		"badz swoim niszczycielem"
+		"zakonczyc cie"
+		"zatrzymac cie"
+	word
+		"."
+
+phrase "hostile navy"
+	word
+		"Marynarka Wojenna"
+	word
+		" musi"
+		" istnieje dla"
+		" jest tutaj, aby"
+		" jest gotowy do"
+		" ma rozkaz"
+		" jest zobowiazany do"
+		" jest zawsze gotowy do"
+		" jest zawsze tutaj, aby"
+		" nigdy nie waha sie"
+		" nigdy nie zawaham sie"
+		" zawsze bedzie"
+		" zawsze bedzie tutaj, aby"
+		" zawsze bedzie gotowy do"
+		" zostala zalozona, aby"
+		"Celem jest"
+		" dyrektywa jest"
+		"misja jest"
+		"Celem jest"
+		"obowiazkiem jest"
+		"floty"
+		"sily"
+	word
+		" "
+	word
+		"bronic"
+		"chronic"
+		"straznik"
+	word
+		" "
+	word
+		"ludzkosc"
+		"ludzkosc"
+		"to niebo"
+		"nasza galaktyka"
+		"Republika"
+	word
+		" z "
+	word
+		"plaga"
+		"zagrozenie"
+		"zagrozenie"
+		"zlo"
+	word
+		" z "
+	word
+		"piractwo"
+		"przestepstwo"
+		"niestabilnosc"
+		"chaos"
+		"konflikt"
+		"autokracja"
+		"autorytaryzm"
+		"regionalizm"
+	word
+		" i "
+	word
+		"dzielenie"
+		"rozlam"
+		"zaburzenie"
+		"rozklad"
+		"discord"
+		"zniszczenie"
+		"dewastacja"
+		"zamieszanie"
+		"ucisk"
+		"wojna domowa"
+		"fragmentacja"
+		"anarchizm"
+	word
+		"."
+
+
+phrase "friendly deep"
+	word
+		"My"
+		"Nasze statki"
+		"Nasze sily bezpieczenstwa"
+		"Nasze floty"
+		"Nasze sily"
+	word
+		" "
+	word
+		"" 3
+		"sa wzywane do "
+		"ma obowiazek "
+		"wspolpraca z Marynarka Wojenna w celu "
+		"wspolpracuj z Republika, aby "
+		"sa pilni, aby "
+		"musi stale "
+		"starannie "
+		"zawsze "
+		"musi "
+		"powinien "
+	word
+		"bronic sie przed"
+		"wstrzymaj sie"
+		"pilnuj"
+		"chroni cie przed"
+		"patrol dla"
+		"uwazaj"
+		"wytropic"
+	word
+		" "
+	word
+		"" 3
+		"sily "
+		"sprawcy "
+		"ci, ktorzy przynosza "
+		"ci, ktorzy sluza "
+		"agenci "
+	word
+		"zwykla anarchia"
+		"chaos"
+		"zaklocenie"
+		"piractwo"
+		"regresja spoleczna"
+		"korupcja"
+		"wrogosc i wojna"
+		"niestabilnosc"
+		"anarchizm"
+		"wrogosc"
+		"wartosci bazowe"
+	word
+		"."
+
+phrase "friendly deep"
+	word
+		"My"
+		"Nasze statki"
+		"Nasze sily bezpieczenstwa"
+		"Nasze floty"
+		"Nasze sily"
+	word
+		" "
+	word
+		"" 3
+		"sa wzywane do "
+		"sa pilni, aby "
+		"musi stale "
+		"starannie "
+		"zawsze "
+		"musi "
+		"powinien "
+	word
+		"zabezpieczenie"
+		"bronic"
+		"chronic"
+		"straznik"
+		"tarcza"
+		"postep"
+		"praca w postepie"
+	word
+		" "
+	word
+		"" 3
+		"Glebiny "
+		"ci, ktorzy przynosza "
+		"ci, ktorzy sluza "
+		"nasz wspolny% "
+		"nasz "
+	word
+		""
+		"%wartosc "
+		"%nieoceniony "
+		"%ciezko wywalczony "
+		"%ukochany "
+		"%cenny "
+	word
+		"demokracja"
+		"wspolnota"
+		"suwerennosc"
+		"autonomia"
+		"dobrobyt"
+		"pokoj"
+		"dobrobyt gospodarczy"
+		"postep gospodarczy"
+		"postep"
+		"postep naukowy"
+		"spojnosc spoleczna"
+		"pokoj, dobrobyt i postep"
+		"pokoj wsrod gwiazd"
+		"wolnosci"
+	word
+		"."
+	replace
+		"% %" 		"%" 
+phrase "friendly deep"
+	word
+		"Prosze"
+		"Radzimy, aby"
+		"Nie wahaj sie"
+	word
+		" "
+	word
+		"kontakt"
+		"zlozyc dowody"
+		"wspolpracowac z"
+		"przekaz informacje"
+	word
+		" "
+	word
+		"urzednik Deep Security"
+		"oficer Glebokiego Bezpieczenstwa"
+		"biuro Deep Security"
+		"statek Deep Security"
+		"oddzial Deep Security"
+		"agent Deep Security"
+		"lokalny urzednik Deep Security"
+		"lokalny oficer Deep Security"
+		"lokalne biuro Deep Security"
+		"lokalny statek Deep Security"
+		"lokalny oddzial Deep Security"
+		"lokalny agent Deep Security"
+		"autonomiczne sily bezpieczenstwa Glebin" 6
+		"nasze sily bezpieczenstwa" 6
+		"nasi urzednicy" 6
+		"nasi agenci" 6
+		"nasi oficerowie" 6
+		"Glebokie autorytety" 6
+	word
+		" "
+	word
+		"w przypadku"
+		"jesli jestes swiadkiem"
+		"jesli byles celem"
+		"jesli dotyczy Cie"
+	word
+		" "
+	word
+		"piractwo"
+		"nielegalny atak piratow"
+		"nielegalny atak anarchistow"
+		"nielegalne ataki piratow"
+		"nielegalne ataki anarchistow"
+	word
+		"."
+
+
+phrase "friendly deep"
+	word
+		"Nasze sily bezpieczenstwa"
+		"My"
+		"Obywatele Glebin"
+		"Statki Glebin"
+		"Glebokosc%"
+	word
+		" "
+	word
+		"oferta"
+		"zyczenie"
+		"oferta"
+		"praca, aby dac"
+		"zapewnij"
+	word
+		" "
+	word
+		"ty"
+		"twoj statek"
+		"twoj statek"
+		"Twoje przedsiebiorstwo"
+	word
+		" "
+	word
+		"pokoj, dobrobyt i postep"
+		"pokoj"
+		"dobrobyt"
+		"bezpieczenstwo"
+		"sukces"
+	word
+		" "
+	word
+		"w naszej przestrzeni"
+		"w calej naszej przestrzeni"
+		"w calej Wspolnocie"
+	word
+		"."
+	replace
+		"% licytacji" 		"% zyczenie" 		"% oferta" 		"% pracy do wykonania" 		"% zapewnia" 
+phrase "friendly deep"
+	word
+		"Pokoj, dobrobyt, postep"
+		"Nasze planety dzialaja na rzecz trzech cnot: pokoju, dobrobytu i postepu"
+		"Pokoj, dobrobyt i postep wsrod gwiazd"
+		"Glebia byla przez wieki przewodnim swiatlem ludzkiej cywilizacji"
+		"W przypadku stwierdzenia nielegalnego posiadania statkow objetych sankcjami prosimy o kontakt z Deep Security"
+	word
+		"."
+
+phrase "hostile deep"
+	word
+		"Jestes"
+		"Twoje dzialania sa"
+		"Twoje wrogie dzialania sa"
+		"Dzialania twojego statku to"
+		"Nie mozemy pozwolic Ci kontynuowac"
+		"Musimy cie powstrzymac przed"
+	word
+		" "
+	word
+		"zagrazajace"
+		"zaklocajace"
+		"dziala przeciwko"
+		"cofanie"
+		"niszczenie"
+		"lamanie"
+		"oslabienie"
+		"rozdzieranie"
+		"szkodzenie"
+		"niepokojace"
+	word
+		" ten "
+	word
+		"tkanina"
+		"saldo"
+		"dobro wspolne"
+		"spojnosc"
+		"jednosc"
+		"zdrowie"
+	word
+		" z "
+	word
+		"nasze spoleczenstwo"
+		"cywilizacja"
+		"wspolnota"
+		"spoleczenstwo"
+		"nasza cywilizacja"
+		"spoleczenstwo ludzkie"
+	word
+		"."
+
+phrase "hostile deep"
+	word
+		"Znalazles siebie"
+		"Jestes"
+		"Twoje dzialania sa"
+		"Dzialania twojego statku to"
+	word
+		" "
+	word
+		"narusza"
+		"z naruszeniem"
+		"w naruszeniu"
+		"lamanie"
+		"naruszenie"
+		"narusza"
+		"przekraczajacy"
+		"naruszajac"
+	word
+		" "
+	word
+		"prawa Glebin"
+		"prawa Republiki"
+		"ustawy Parlamentu"
+		"statuty Glebin"
+		"statuty Republiki"
+		"statut Parlamentu"
+		"prawo miedzygwiezdne"
+	word
+		"."
+
+phrase "hostile deep"
+	word
+		"Musisz"
+		"Prosze"
+		"Z pewnoscia ty"
+		"Powinienes"
+	word
+		" "
+	word
+		"zrozumiec"
+		"rozpoznac"
+		"rozumiem"
+		"zrozumiec"
+		"przyznac"
+		"zobacz"
+	word
+		" "
+	word
+		"to"
+		"jak"
+		"prawda, ze"
+	word
+		" twoj "
+	word
+		"czyny"
+		"akcje"
+		"wykroczenia"
+		"przestepstwa"
+		"naruszenia prawa"
+	word
+		" "
+	word
+		"oslabia"
+		"zakloca"
+		"rozerwij na"
+		"szkoda"
+		"niepokoj"
+	word
+		" ten "
+	word
+		"tkanina"
+		"saldo"
+		"dobro wspolne"
+		"spojnosc"
+		"jednosc"
+		"zdrowie"
+	word
+		" z "
+	word
+		"nasze spoleczenstwo"
+		"cywilizacja"
+		"wspolnota"
+		"spoleczenstwo"
+		"nasza cywilizacja"
+		"spoleczenstwo ludzkie"
+	word
+		"."
+
+
+phrase "hostile pirate"
+	word
+		"Przygotuj sie do walki"
+		"Jestesmy"
+		"Zaraz zostaniesz spladrowany przez"
+		"Zostales wybrany jako kolejny cel"
+		"Jestes nastepnym celem"
+		"Jestes kolejna ofiara"
+		"Lepiej zebys wiedzial, ze jestesmy"
+		"Nie masz z nami szans,"
+	word
+		" "
+	word
+		"ten"
+	word
+		" "
+	word
+		"najgorszy"
+		"najsilniejszy"
+		"najbardziej zaciekly"
+		"najgrozniejszy"
+		"najstraszniejszy"
+		"najgorszy"
+		"najbardziej zawily"
+		"najbardziej dziki"
+		"najbardziej niebezpieczne"
+		"najbardziej okrutny"
+		"najbardziej okrutny"
+		"najbardziej obawiany"
+	word
+		" "
+	word
+		"pirat"
+	word
+		" statek kosmiczny"
+		" okret wojenny"
+		" statek"
+		""
+	word
+		" "
+	word
+		"w"
+		"z"
+	word
+		" "
+	word
+		"wszechswiat"
+		"galaktyka"
+		"niebo"
+		"'wers"
+		"powietrze"
+		"kosmos"
+		"niebo"
+		"taikong"
+	word
+		", "
+	word
+		"mieczak"
+		"robak"
+		"robak"
+		"brud"
+		"nedznik"
+		"pies"
+		"swinia"
+		"wesz"
+		"szum"
+		"mutt"
+	word
+		"."
+
+
+
+phrase "hostile pirate"
+	word
+		"Grabiez"
+		"Srutowanie"
+		"Niszczenie"
+		"Okradanie"
+		"Raiding"
+		"Obijanie"
+		"Miazdzenie"
+		"Niszczycielskie"
+		"Kradziez z"
+		"Ukladanie drog"
+		"Atakujacy"
+		"Zucie"
+	word
+		" "
+	word
+		"kupcy"
+		"statki"
+		"wioski"
+		"frachtowce"
+		"konwoje"
+		"bogaci kupcy"
+		"statki bezbronne"
+		"slabe statki"
+		"slabe statki"
+		"statki handlowe"
+	word
+		" "
+	word
+		"i"
+	word
+		" "
+	word
+		"ciesze sie"
+		"wydawanie"
+		"narasta"
+		"gromadzenie"
+		"marnowanie"
+	word
+		" "
+	word
+		"lup"
+		"pieniadze"
+		"nasze zyski"
+		"bogactwo"
+		"grabiez"
+		"lup"
+		"nasze lupy"
+		"lupy"
+	word
+		": Uwielbiam zycie pirata!"
+		": tak sie zyje!"
+		": czy istnieje lepszy sposob na zycie?"
+		": Nic lepszego nie przychodzi mi do glowy!"
+		": to miedzygwiezdny darwinizm w akcji!"
+		": taki jest naturalny porzadek bytu!"
+		": takie wlasnie powinno byc zycie!"
+		": to jest zycie!"
+		": to jest anarchizm w dzialaniu!"
+		" to najlepszy sposob na zycie!"
+		" tak zyja prawdziwi anarchisci!"
+		" tak wlasnie powinni zyc wszyscy ludzie!"
+
+phrase "hostile pirate"
+	word
+		"Kontynuuje"
+		"Z duma kontynuuje"
+		"Jestem wspolautorem"
+		"Wspolpracuje z"
+		"Konserwuje"
+		"Utrzymuje"
+		"Z duma podtrzymuje"
+		"Promuje"
+		"Popieram"
+		"Wspieram"
+		"Pomagam"
+		"Walcze o"
+		"Popieram"
+		"Jestem tutaj, aby dalej"
+		"Przejmuje twoj ladunek, aby kontynuowac"
+		"Jestem tu, zeby uczynic cie czescia"
+		"Zobowiazuje sie do"
+		"Z checia cie poswiece dla"
+		"Upewnie sie, ze zostaniesz zniszczony za"
+		"Uczynie twoja smierc wkladem w"
+		"Uczynie to kolejnym zwyciestwem dla"
+		"Jestes kolejna ofiara"
+		"Bedziesz nastepny, ktory zginie w imie"
+	word
+		" ten "
+		" nasz "
+	word
+		"swietnie"
+		"wielki"
+		"szlachetny"
+		"godny"
+		"buntowniczy"
+		"buntowniczy"
+		"uparty"
+		"nieustepliwy"
+		"sliczny"
+		"krwawy"
+		"niedoceniany"
+		"konieczne"
+		"nieuniknione"
+		"piecsetletni"
+		"tysiacletni"
+		"trwajace tysiaclecia"
+		"wiele lat"
+		"dlugie zycie"
+		"nieugaszalny"
+		"wieczny"
+		"niesmiertelny"
+		"nieustannie"
+		"niezniszczalny"
+		"nieskonczone"
+	word
+		" "
+	word
+		"tradycja"
+		"styl zycia"
+		"konwencja"
+		"niestandardowe"
+		"praktyka"
+		"dziedzictwo"
+		"ruch"
+		"kod"
+		"przyczyna"
+		"idealy"
+		"ideologia"
+		"walka"
+	word
+		" z "
+	word
+		"zarabiam na zycie wysadzaniem statkow kosmicznych"
+		"wysadzanie kupcow w powietrze dla zarobku"
+		"niszczenie ciemiezycieli dla zarobku"
+		"zabieranie bogatym i dawanie biednym"
+		"uzycie sily w celu zawarcia pokoju"
+		"powstrzymanie sie od placenia podatkow"
+		"anarchizm"
+		"piractwo"
+		"bedac wyrownywaczem miedzy ludzmi"
+		"rownosc bez rzadu"
+		"zycie bez podatkow"
+		"uczynienie smierci jedyna stala czescia zycia"
+		"zycie bez ciemiezcow"
+		"wolnosc"
+		"wyzwalanie tych, ktorzy nie wiedza, ze potrzebuja wyzwolenia"
+		"ratowanie populacji przed nia sama"
+		"maluje moj statek na czerwono zamiast na niebiesko"
+		"nigdy nie strzelaj i nie zadawaj pytan"
+		"napadanie na konwoje handlowe"
+		"pokonywanie Prawa"
+		"pokonujac Czlowieka"
+		"uczynienie ${narkotykow} legalnymi"
+		"kolektywizm"
+		"wolnosc od ciemiezcow"
+		"zycie bez autorytetu"
+	word
+		"!"
+	replace
+		"%" 
+phrase "hostile pirate"
+	word
+		"Myslisz, ze jestes wielki? Zginiesz jak wielki!"
+		"Chcesz troche? Dostaniesz troche!"
+		"Nie mozesz nam uciec!"
+		"Rozniesiemy cie na kawalki, jesli nie oddasz nam swoich zaslug!"
+		"Bycie anarchista jest o wiele bardziej wolne niz bycie podatnikiem!"
+		"Jesli kiedykolwiek bedziesz musial przekonac sie, zeby dac piratowi lapowke, zeby przezyc, pomysl o tym jak o jednym z tych podatkow, ktore zmuszaja cie placic!"
+		"Zagramy w gre: ty probujesz oddac napisy koncowe, a my probujemy cie zabic! Czas zaczyna sie teraz!"
+		"Nie moge sie doczekac, az dorwe sie do lupow z twojego statku!"
+		"Po co glosowac na prezydenta Republiki, skoro mozna byc prezydentem wlasnej Republiki?"
+		"Piraci sa bardziej zroznicowani, niz myslisz: nie wszyscy z nas chca cie zabic szybko. Ja chce cie zabic dlugo, powoli i bolesnie!"
+		"Edukacja jest dla frajerow. Nie uratuje cie przede mna!"
+		"Jedyne, czego mnie nauczyli na mojej rodzinnej planecie, to jak wysadzic statek kosmiczny!"
+		"Pomyslcie o wszystkich biednych anarchistach, ktorzy nie stac na zycie ani jedzenie. Bede bardzo wdzieczny za hojna darowizne!"
+		"Nigdy nie uczylem sie zbyt wiele o biologii, ale wiem, ze piraci tacy jak ja sa na szczycie lancucha pokarmowego, a ludzie tacy jak ty sa na samym dole!"
+		"Anarchisci nie sa okrutni! No coz, ten jest."
+		"To na pewno dobry dzien, zeby cie wysadzic w powietrze!"
+		"Nie ma lepszego dnia na wysadzenie kilku kupcow w powietrze!"
+		"Nie potrafie odczytac liter, ale wiem, ktory przycisk jest tym, ktory cie zabije!"
+		"Kiedy algebra kiedykolwiek uratowala cie przed piratem? Zgadza sie, nigdy!"
+		"Madrzy kapitanowie wiedza, ze kluczem jest przetrwanie. Madrzy kapitanowie decyduja sie placic nam, piratom. Widzisz? Brzmie jak jeden z nich!"
+		"Inteligentni kapitanowie wiedza, ze kluczem jest przetrwanie. Inteligentni kapitanowie decyduja sie na wyrzucenie ladunku. Czlowieku, moglbym byc sprzedawca w Syndykacie!"
+		"Madrzy kapitanowie wiedza, ze kluczem jest przetrwanie. Madrzy kapitanowie przekupuja nas, zebysmy ich nie zdeptali!"
+		"Trafiles do zlego systemu!"
+		"Witamy na terytorium piratow!"
+		"Przeszedles do zlego systemu!"
+		"Jestes ostatnim statkiem, ktorego potrzebuje, zeby wypelnic swoj limit!"
+		"Zmodyfikowana Argosy: sila pirackich flot!"
+		"Piraci problemem? Po prostu im zaplacic!"
+		"Chce zobaczyc twoj ladunek!"
+		"Umieraj juz!"
+		"Kapitanowie piratow to najuczciwsi kapitanowie. Naprawde chce, zebys umarl!"
+		"Daj mi swoj lup, albo go stracisz!"
+		"Rozsadnie byloby rozstac sie ze swoimi wartosciami."
+		"Zrzuc swoj ladunek, a moze daruje ci marne zycie."
+		"Oddaj swoj lup i uciekaj, zanim sie naprawde wkurze!"
+		"Jesli dasz mi swoj kufer, mozesz wyplynac."
+
+phrase "hostile pirate"
+	word
+		"Nie moge sie doczekac"
+		"Kiedy wroce do domu, zamierzam"
+		"Kiedy cie ograbie, zamierzam"
+		"Jestem tutaj, aby"
+		"Zamierzam"
+		"Zamierzam"
+		"Naprawde chce"
+		"Zaplac albo ja to zrobie"
+		"Jesli nie dasz mi duzej lapowki, to ja"
+		"Oddaj swoje kredyty, albo ja to zrobie"
+		"Moim zadaniem jest"
+		"Lepiej sie teraz poddaj, bo ja zamierzam"
+		"Chce zobaczyc, co zrobisz, kiedy"
+		"Chce zobaczyc, co zrobisz, kiedy"
+		"Nie ma lepszego dnia na"
+		"Chcialbym"
+		"Jestem tu tylko po to, aby"
+		"Wyobraz sobie, co bys zrobil, gdybym"
+		"Chce wiedziec, jak krzyczysz, gdy ja"
+		"Chce widziec twoja twarz, kiedy"
+		"Jaka to bedzie szkoda, gdy ja"
+		"Chce zobaczyc jak sie wiercisz, kiedy"
+	word
+		" "
+	word
+		"wyciagnij paznokcie"
+		"wyrywac sobie wlosy"
+		"wydlubac sobie oczy"
+		"skora cie"
+		"wysadze cie w powietrze"
+		"wyprowadze cie przez sluze powietrzna"
+		"rozerwac cie na pol"
+		"polam sobie kosci"
+		"sparalizowac cie"
+		"wez swoje kredyty"
+		"sprzedac cie na targi niewolnikow"
+		"zniewolic cie"
+		"wysadz swoj statek w powietrze"
+		"wyrzuc swoja zaloge przez sluze powietrzna"
+		"wyprowadz zaloge przez sluze powietrzna"
+		"sprawie, ze zjesz proznie"
+		"zniszczyc cie"
+		"rozpadnij sie"
+		"wysadze cie w powietrze"
+		"rozwale cie na drobne kawalki"
+		"zmienie cie w robaczywe jedzenie"
+		"czy jestes w"
+		"torba cie"
+		"nakarmie cie psom"
+		"nakarmie cie moja zaloga"
+		"nakarmie cie kotom"
+		"nakarmie cie wydrom"
+		"nakarmie cie rosomakami"
+		"wrzuce cie do niedzwiedziej jamy"
+		"wrzuc swoja zaloge do lwich dolow"
+		"sprzedac cie do aren walk Greenrock"
+		"zmusic cie do walki w dolach"
+		"pokryje cie mrowkami ognistymi"
+		"wykonac na tobie operacje bez znieczulenia"
+		"wytnij sobie serce"
+		"uzyje cie jako obiektu testowego"
+		"poswiecic cie"
+		"zmiazdze cie"
+		"pokroje cie na kawalki"
+		"ugotuje cie zywcem"
+		"sprawi, ze bedziesz chodzic po rozzarzonych weglach"
+		"wrzuce cie do kwasu"
+		"sprawia, ze stajesz przed laserem wiazkowym"
+		"strzela wiazkami energii w twoje cialo"
+		"sprawdz jak dlugo przetrwasz w prozni"
+		"zlapie cie i bede cie scigac w lasach Stormhold"
+		"zlapac cie i wrzucic do wod pelnych rekinow w zatoce Buccaneer"
+		"sprzedac cie kartelowi gorniczemu na Covert"
+		"sprawdz jak dobrze potrafisz plywac na Krwawym Morzu"
+		"przymocujemy do ciebie bombe i sprawimy, ze pobiegniesz do jednej z baz naszych rywali"
+		"wykorzystac cie jako przynete dla moich rywali"
+		"uzyje cie jako tarczy cwiczebnej"
+		"zabierz swoj ladunek i zaloge"
+		"wez swoj statek i swoje kredyty"
+		"odetnij sobie reke i dodaj ja do mojej kolekcji"
+		"przejmij swoj statek"
+		"rozbij swoj statek o ksiezyc"
+	word
+		"!"
+
+phrase "hostile pirate"
+	word
+		"Zamierzasz"
+		"Przygotuj sie na"
+		"Zmusze cie"
+		"Mam nadzieje, ze jestes gotowy na"
+		"Jesli nie zaplacisz mi duzej lapowki, to bedziesz"
+		"Jestem tu, zeby cie zmusic"
+		"Jestem tu po to, aby dopilnowac, zebys"
+		"Zaplac lub"
+		"Oddaj swoje kredyty lub przygotuj sie do"
+		"Daj mi swoje pieniadze albo"
+		"Wyrzuc swoj ladunek lub"
+	word
+		" "
+	word
+		"ten"
+		"jesc proznie"
+		"napoj prozniowy"
+		"jedz plonaca smierc"
+		"wysadz sie w powietrze"
+		"zamienia sie w piekna chmure szybko rozszerzajacych sie odlamkow"
+		"umrzec haniebna smiercia"
+		"zamienic sie w kosmiczne smieci"
+		"jesc zimno, twarda proznia"
+		"umrzec straszna smiercia"
+		"zostan abordazowany i spladrowany"
+		"przekaz swoj majatek na rzecz wspierania sprawy anarchii"
+		"skonczyc znacznie biedniej"
+		"zostan wyslany do szafki Davy'ego Jonesa"
+		"stan sie pokarmem dla robakow"
+		"badz nastepny, ktory umrze"
+		"zostan zlapany"
+		"badz kolejnym znakiem zniszczenia na moim statku"
+	word
+		"!"
+
+phrase "hostile pirate"
+	word
+		"Moj glos bedzie ostatnia rzecza, jaka uslyszysz"
+		"Uczynie to ostatnia rzecza, jaka zobaczysz"
+		"Lepiej wyslij mi teraz spora sterte kredytow"
+		"Bedzie latwiej, jesli mnie tu przekupisz"
+		"Oszczedziloby nam to wielu klopotow, gdybys sie teraz poddal"
+		"Jesli bylbys tak mily i zrezygnowalbys teraz"
+		"Nie interesuje mnie twoja rozmowa"
+		"Dobrze, przygotujcie sie"
+		"Lepiej sie przygotuj"
+		"Przygotuj sie"
+		"Jesli on nadal jest nad toba, lepiej sie teraz pomodl"
+		"Sprawie, ze bedziesz sie modlic"
+		"Lepiej sie teraz pomodl"
+		"Zaplac teraz"
+		"Zaplac"
+		"Bedziesz zalowac, ze tu wskoczyles"
+		"Gdybym mial punkty za te walke, postawilbym na siebie"
+		"Twoj statek wyglada ladnie i smuklo. Szkoda"
+		"Lepiej sie teraz poddaj"
+		"Lepiej sie poddaj"
+		"Teraz latwiej sie poddac"
+		"Latwiej jest sie poddac"
+		"Lepiej powiedz teraz swoje ostatnie slowa"
+	word
+		", poniewaz "
+		", przyczyna' "
+	word
+		"blaganie o litosc mnie zlosci"
+		"nastepny jestes ty"
+		"teraz jestes nastepny"
+		"umrzesz na dobre"
+		"nie jestes dla mnie zadnym przeciwnikiem"
+		"zostaniesz zlapany"
+		"jestes pokarmem dla robakow"
+		"umrzesz"
+		"zjesz proznie"
+		"wypijesz proznie"
+		"zostaniesz zwolniony"
+		"zostaniesz zdziesiatkowany"
+		"zostaniesz unicestwiony"
+		"zostaniesz zniszczony"
+		"rozpadniesz sie"
+		"zanim sie obejrzysz, bedziesz martwy"
+		"twoj statek nie jest tak ciezki jak moj"
+		"twoj statek ma male dziala"
+		"nie ma szans, zebys mnie pokonal"
+		"nie ma mowy, zebys mnie zniszczyl"
+		"szansa na wygrana wynosi jeden do zera"
+		"szansa na wygrana wynosi zero do jednego"
+		"zrobimy ci to"
+		"zrobimy z toba to samo, co z nimi"
+		"pokroimy cie jak kielbase"
+		"spladrujemy twoj statek"
+		"zrabujemy caly twoj ladunek"
+		"zabierzemy twoj towar"
+		"zamierzamy przejac wszystkie twoje kredyty"
+		"zmiazdzymy cie"
+		"moje dziala sa skierowane prosto na twoj kokpit"
+		"Zrobie dziury w calym twoim statku"
+		"wkrotce nie bedzie juz statku, o ktorym warto mowic"
+		"zjesz to"
+		"jestes martwy, dzieciaku"
+		"do konca dnia ten statek bedzie moj"
+		"wkrotce nie bedziesz juz kapitanem swojego statku"
+	word
+		"!"
+
+phrase "hostile pirate"
+	word
+		"Daj mi"
+		"Daj nam"
+		"Poddaj sie"
+		"Przekazanie"
+		"Wyjscie"
+		"Wyplata"
+		"Kaszel"
+		"Zrzekac sie"
+		"Poddanie"
+		"Przyznaje"
+		"Utrata"
+		"Odwroc"
+	word
+		" "
+	word
+		"twoj"
+		"wszystkie twoje"
+	word
+		" "
+	word
+		"ladunek"
+		"kredyty"
+		"towary"
+		"pieniadze"
+		"paliwo"
+	word
+		""
+		", albo wezmiemy twoj statek"
+		", lub twoje zycie"
+		"! To nie podlega negocjacjom"
+		"! Pozalujesz, jesli tego nie zrobisz"
+		" lub zjedz proznie"
+		" lub zostac spladrowanym"
+		" lub umrzec"
+		" lub wybuchnac"
+		" lub stac sie pylem kosmicznym"
+		" albo zrobimy to w trudny i bolesny sposob"
+		" albo i tak kaze ci zaplacic"
+		", i nie bedziemy musieli wyrzucac cie przez sluze powietrzna"
+		", i nie kazemy ci wyprowadzac zalogi przez sluze powietrzna"
+		", albo na pewno sprawimy ci przykrosc"
+		"! Nasze dziala sa skierowane na ciebie"
+		"! Spraw, by bylo chwytliwe"
+		"! Zrob to szybko"
+		" lub zostaniesz zlapany"
+		" lub stac sie pokarmem dla robakow"
+		" lub zostanie zakonczony"
+		" lub zostac zdziesiatkowanym"
+		" lub zostac unicestwiony"
+		" lub zostanie zniszczony"
+		" lub rozpadnij sie"
+	word
+		"!"
+
+
+
+phrase "hostile disabled pirate"
+	word
+		"Dlaczego statek sie nie porusza?!"
+		"Dlaczego silniki nie dzialaja?"
+		"Ruszaj sie, ty... statku!"
+		"Dlaczego bron nie strzela?!"
+		"Ogien! Ogien! Strzelaj z tych glupich pistoletow! Czemu nie strzelasz?"
+		"Dziala... przestaly strzelac!"
+		"Systemy uzbrojenia w stanie krytycznym! Co to oznacza?"
+		"Nikt nam nie powiedzial, ze piraci moga zginac!"
+		"Mowilem wam, zebyscie nie kupowali silnikow ze zlomowiska!"
+		"Dobrze, dobrze! Zaplacimy podatki."
+		"Czekaj! Zapomnialem ostatnich slow."
+		"Nie wiedzielismy, ze piractwo jest zle!"
+		"Uciekaj! Moj wujek jest prezesem Syndykatu."
+		"Wybaczcie! Te pistolety zostaly zainstalowane przypadkowo."
+		"Hej, nie zaszkodzisz zalodze tak stylowej jak nasza."
+
+phrase "hostile disabled pirate"
+	word
+		"Nie rob mi krzywdy! Prosze!"
+		"Waaaaaa! Mamo!"
+		"Umieramy tutaj! Przestancie strzelac!"
+		"Pomocy! Przestan strzelac!"
+		"Poddajemy sie!"
+		"Przestan! Poddajemy sie!"
+		"Umrzemy tutaj, prawda?"
+
+phrase "hostile bounty"
+	word
+		"Rozumiem"
+		"Rozumiem"
+		"Wydaje sie"
+		"Wydaje sie"
+		"Wyglada na to, ze"
+	word
+		" to "
+		" "
+	word
+		"jestes"
+		"to jest"
+	word
+		" ten "
+	word
+		"szum"
+		"robak"
+		"robak"
+		"brud"
+		"lobuz"
+		"glupiec"
+		"biedny glupiec"
+		"pechowy sok"
+		"slabiak"
+		"nic niewarty nedzniku"
+	word
+		" "
+	word
+		"oni"
+		"rzad"
+		"prawo"
+	word
+		" "
+	word
+		"wyslano"
+		"zamowiono"
+		"zaplacone"
+		"powiedziano"
+		"kupiony"
+	word
+		" do "
+	word
+		"zabij mnie"
+		"wyprowadz mnie"
+		"wyeliminuj mnie"
+		"wyparuj mnie"
+		"zamien mnie w kosmiczne smieci"
+		"zakoncz mnie"
+		"zniszcz mnie"
+		"zakonczyc moje zycie"
+		"pozbadz sie mnie"
+		"spraw, zebym zniknal"
+		"spraw, zebym odszedl"
+		"wyrzuc mnie z obrazu"
+		"pokaz mi zycie pozagrobowe"
+		"koniec mojej kariery"
+		"wlozyl mnie do grobu"
+	word
+		". Ha!"
+		". Chcesz!"
+		
+phrase "hostile bounty"
+	word
+		"Jesli "
+	word
+		"mysl"
+		"wierzono"
+		"mialem nadzieje"
+		"oczekiwano"
+		"wyobrazone"
+		"snil"
+	word
+		" to "
+		" "
+	word
+		"Ja"
+		"moj statek"
+	word
+		" "
+	word
+		"mialo byc"
+		"mialo byc"
+		"byloby"
+	word
+		" "
+	word
+		"latwe"
+		"prosty"
+		"prosty"
+	word
+		" "
+	word
+		"zabij"
+		"ofiara"
+		"cel"
+		"nagroda"
+		"zadanie"
+		"nagroda"
+	word
+		", byles "
+	word
+		""
+		"bardzo "
+		"beznadziejnie "
+		"calkowicie "
+		"absolutnie "
+		"ekstremalnie "
+		"zle "
+		"calkowicie "
+		"okropnie "
+	word
+		"blednie."
+		"bledne."
+		"wylaczona wiazka."
+		"wprowadzac w blad."
+
+
+phrase "hostile bounty hunter"
+	word
+		"Zamierzasz zrobic"
+	word
+		" "
+	word
+		"jestem bogaty!"
+		"jakis obrzydliwie bogaty!"
+		"ja jestem bogatym czlowiekiem!"
+		"ja, bogata kobieta!"
+		"duzo pieniedzy!"
+		"zapewniam sobie wygodna emeryture!"
+		"moje konto bankowe jest szczesliwe!"
+		"dla milego cwiczenia celnosci!"
+		"piekne trofeum!"
+
+phrase "hostile bounty hunter"
+	word
+		"Otrzymuje zaplate"
+		"Otrzymuje zaplate"
+		"Zaplacili mi"
+		"Dali mi"
+		"Moj klient mi zaplacil"
+		"Zaplacili"
+		"Obiecano mi"
+		"Dano mi"
+	word
+		" "
+	word
+		"wielka nagroda"
+		"duzo pieniedzy"
+		"ogromna suma pieniedzy"
+		"ogromna suma"
+		"ogromna suma pieniedzy"
+		"dosc sporo"
+		"sporo pieniedzy"
+		"gruby portfel"
+		"cale zycie pelne bogactw"
+		"dziesieciokrotnosc okupu krolewskiego"
+	word
+		" "
+	word
+		"do"
+	word
+		" "
+	word
+		"zabije cie"
+		"zabiore cie"
+		"wyeliminowac cie"
+		"wyparowac cie"
+		"zamieni cie w kosmiczne smieci"
+		"zakonczyc cie"
+		"zniszczyc cie"
+		"zakoncz swoje zycie"
+		"pozbyc sie ciebie"
+		"sprawic, ze znikniesz"
+		"sprawic, ze odejdziesz"
+		"wyeliminowac cie ze zdjecia"
+		"pokaze ci zycie pozagrobowe"
+		"zakoncz swoja kariere"
+		"skroc swoja serie przestepstw"
+		"poloz kres swoim zbrodniom"
+		"zapewni Ci wczesniejsza emeryture"
+		"wlozyl cie do grobu"
+	word
+		"."
+		"!"
+
+phrase "hostile bounty hunter"
+	word
+		"Mam cie teraz"
+		"Jestes moj"
+		"Zostaniesz zniszczony"
+		"To byl blad"
+		"Bedziesz tego zalowac"
+		"Koncze to"
+		"Bede sie tym cieszyc"
+	word
+		","
+		", ty"
+		"! Ten,"
+		"! Przygotuj sie na smierc,"
+		"! Odmowcie modlitwy,"
+		"! Uciekaj, jesli potrafisz,"
+		"! Staw mi czola, jesli sie odwazysz,"
+	word
+		" "
+	word
+		"szum"
+		"robak"
+		"robak"
+		"brud"
+		"lobuz"
+		"glupiec"
+		"biedny glupiec"
+		"pechowy sok"
+		"slabiak"
+		"nic niewarty nedzniku"
+	word
+		"!"
+
+phrase "hostile bounty hunter"
+	word
+		"Kamieniolom"
+		"Ofiara"
+		"Cel"
+		"Statek docelowy"
+		"Nagroda"
+	word
+		" "
+	word
+		"widoczny"
+		"znaleziono"
+		"zlokalizowano"
+		"w moim polu widzenia"
+	word
+		". "
+		"! "
+	word
+		"Zblizamy sie do zabicia"
+		"Przemierzajac dystans"
+		"Zakonczenie teraz"
+		"Rozpoczecie ataku"
+		"Rozlaczanie zabezpieczen broni"
+		"Uzbrajanie broni"
+		"Blokowanie broni"
+		"Ladowanie broni"
+		"Ladowanie broni"
+		"Zasilanie broni"
+		"Uruchamianie armat"
+		"Uzyskiwanie blokady"
+		"Namierzanie celu"
+		"Przyspieszanie do pelnej predkosci"
+		"Przygotowanie do otwarcia ognia"
+	word
+		"."
+		"!"
+
+phrase "hostile syndicate"
+	word
+		"Bronimy Syndykatu"
+	word
+		"najlepsze interesy"
+		"wartosci"
+		"cele"
+		"cel"
+		"pracownicy"
+		"organizacje"
+		"czlonkowie"
+		""
+	word
+		" "
+	word
+		"z"
+	word
+		" "
+		" bezwartosciowy "
+	word
+		"brutale"
+		"przesladowcy"
+		"bestie"
+		"barbarzyncy"
+		"dzikusy"
+		"przestepcy"
+		"lobuzy"
+		"pasozyty"
+		"rabusie"
+		"szum stawowy"
+		"godne ubolewania"
+	word
+		" "
+	word
+		"jak ty!"
+
+phrase "hostile syndicate"
+	word
+		"Atakujesz Syndykat, musimy go bronic."
+		"Wykonales zly ruch handlowy."
+		"Przygotuj sie na wrogie przejecie!"
+		"Wszystkie jednostki akcji Syndykatu, ktore posiadasz zostaja niniejszym uniewaznione!"
+		"Twoje wrogie uzycie produktow Syndicated Systems stanowi naruszenie umowy licencyjnej uzytkownika koncowego!"
+		"Nasz statut korporacyjny zawiera postanowienia dotyczace samoobrony!"
+		"Wrogowie handlu sa wrogami systemow syndykowanych."
+		"Wrogowie wolnego handlu sa wrogami systemow syndykowanych."
+		"Dziekujemy za zgloszenie sie na statek-cel Syndicated Weapons Systems!"
+		"Syndicated Systems nie pochwala zasmiecania kosmosu; wrak twojego statku zostanie poddany recyklingowi po tym, jak zakonczymy jego niszczenie."
+		"Z upowaznienia udzielonego mi na mocy statutu korporacyjnego Syndicated Systems, sekcja 8, paragraf 22... przygotuj sie na smierc!"
+		"Pozostalosci twojego wkrotce opuszczonego statku zwieksza moja marze zysku!"
+		"Dopisz kolejny koszt zniszczonych towarow..."
+		"Syndicated Security docenia dobrowolna darowizne Twojego statku na rzecz ich programow szkoleniowych!"
+
+phrase "hostile militia"
+	word
+		"Wroc"
+		"Uciekaj"
+		"Opusc ten system"
+		"Opusc to miejsce"
+		"Poddanie"
+	word
+		" przed nami "
+	word
+		"zniszczyc cie"
+		"zniszczyc cie"
+		"zamienie cie w strzepy"
+		"zamienie cie w zlom"
+		"wrzuce cie w proznie kosmiczna"
+		"otworz kokpit"
+		"rozwal swoj statek"
+	word
+		"!"
+		", pirat!"
+		", przestepca!"
+
+phrase "hostile militia"
+	word
+		"Szybko, kupcy"
+	word
+		"! "
+	word
+		"Odejdz, zanim ten pirat cie zniszczy"
+		"Ucieknij przed tym piratem"
+		"Aktywuj swoje hipernapedy"
+		"Ucieknij i pozwol nam stoczyc te bitwe"
+		"Uciekaj! Powstrzymamy ich"
+	word
+		"!"
+
+phrase "hostile militia"
+	word
+		"Milicja "
+		"My "
+	word
+		"na zywo"
+		"oddychac"
+		"istnieje"
+		"mucha"
+	word
+		" bronic "
+		" chronic "
+	word
+		"niewinni"
+		"nasi ludzie"
+		"nasze systemy"
+		"nasze planety"
+		"nasze rodziny"
+	word
+		" z "
+	word
+		"ludzie"
+		"szum"
+		"piraci"
+		"smieci"
+	word
+		" jak ty"
+	word
+		"."
+		"!"
+
+phrase "hostile militia"
+	word
+		""
+		"Ty! "
+		"Ty tam! "
+		"Hej, ty! "
+	word
+		"Ja "
+		"My "
+	word
+		"nadzieja"
+		"ciekawe czy"
+	word
+		" "
+	word
+		"ty"
+		"przestepcy tacy jak ty"
+	word
+		" "
+	word
+		"lubie"
+		"ciesz sie"
+		"doceniam"
+	word
+		" "
+	word
+		"jedzenie wiezienne"
+		"cele wiezienne"
+		"praca reczna"
+		"zycie wiezienne"
+		"zycie w wiezieniu"
+	word
+		" "
+	word
+		"wlaczony"
+		"at"
+		"z"
+		"nad"
+		"nad"
+		"wylaczony"
+		"wyjscie o"
+	word
+		" "
+	word
+		"Bourne"
+		"Spica"
+		"Rdza"
+		"Starcross"
+		"Skymoot"
+		"Grzmot"
+		"Pociag"
+		"Powodz"
+		"Skok w dal"
+		"Szkliwo"
+		"Gleboko"
+		"Brzek"
+		"Zima"
+		"Ukojenie"
+		"Twinstar"
+		"Pijacy slonce"
+		"Drobiazg"
+		"Tancerz"
+	word
+		"."
+		"..."
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"Sprawiedliwosc"
+		"Wolnosc"
+		"Rownosc"
+		"Demokracja"
+		"Wolnosc"
+	word
+		" "
+	word
+		"bedzie"
+		"musi byc"
+		"bedzie"
+	word
+		" "
+	word
+		"obroniony"
+		"chroniony"
+	word
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"My"
+		"Nasze statki"
+	word
+		" walka "
+	word
+		"w imieniu"
+		"dla"
+		"chronic"
+		"bronic"
+	word
+		" "
+	word
+		"wolnosc"
+		"demokracja"
+		"wolnosc"
+		"pokoj"
+		"sprawiedliwosc"
+		"rzady prawa"
+		"Wolne Swiaty"
+		"niewinni"
+		"rownosc"
+		"Wolne Swiaty"
+		"Poludnie"
+		"obrecz"
+		"pas brudu"
+		"Poludniowa Krawedz"
+	word
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"Zagrozenia dla "
+		"Ci, ktorzy zagrazaja "
+	word
+		"wolnosc"
+		"demokracja"
+		"wolnosc"
+		"pokoj"
+		"ten system"
+		"ta planeta"
+		"nasz system"
+		"nasza planeta"
+		"nasze zrodla utrzymania"
+		"rzady prawa"
+		"Wolne Swiaty"
+		"niewinni"
+		"sprawiedliwosc"
+	word
+		" uwazaj"
+		" uwaga"
+		", zawroc teraz"
+		", poddaj sie teraz"
+	word
+		"! "
+	word
+		"Sily wolne sa tutaj"
+		"Potega Wolnych Swiatow jest tutaj"
+		"Statki Wolnych Swiatow sa tutaj"
+		"Sily Wolnych Swiatow sa tutaj"
+		"Nie mozesz zlamac naszej determinacji"
+		"Jestesmy zdeterminowani, by walczyc o nasze Wolne Swiaty"
+		"Walczymy w imie Wolnych Swiatow"
+		"Wolne Swiaty nie ugna sie przed twoimi panami"
+		"Bedziemy walczyc do ostatniego statku"
+		"Nigdy sie nie poddamy"
+		"Wyrzucimy cie z naszych systemow"
+		"Kawaleria jest tutaj"
+		"Nie pokonasz nas"
+		"Nie mozemy zostac pokonani"
+	word
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"My "
+	word
+		"na zywo"
+		"oddychac"
+		"istnieje"
+		"mucha"
+		"walka"
+	word
+		" bronic "
+		" chronic "
+	word
+		"niewinni"
+		"wolnosc"
+		"rownosc"
+		"dobrobyt"
+		"pokoj"
+		"nasi ludzie"
+		"Wolne Swiaty"
+		"nasze rodziny"
+	word
+		" z "
+	word
+		"ludzie"
+		"szum"
+		"piraci"
+		"smieci"
+	word
+		" jak ty"
+	word
+		"."
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"Walczymy o"
+		"Walczymy po stronie"
+		"Posuwamy sie naprzod"
+		"Wolne Swiaty istnieja po to, by sie rozwijac"
+		"Nasze statki walcza o"
+		"Nasze Wolne Swiaty walcza o"
+		"Zyjemy w walce o"
+		"Walczymy o"
+		"Walczymy o"
+		"Wspieramy"
+		"Nasza walka jest o"
+		"To jest walka o"
+	word
+		" "
+	word
+		"wolnosc"
+		"rownosc"
+		"sprawiedliwosc"
+		"pokoj"
+		"dobrobyt"
+		"wolnosc"
+		"jednosc"
+	word
+		"!"
+
+
+# Hails from the robotic Syndicate test dummy ships
+phrase "test dummy"
+	word
+		"ZNISZCZ ZNISZCZ ZNISZCZ"
+		"EKSTERMINUJ! EKSTERMINUJ!"
+		"Jestem... maszyna!"
+		"Ladowany karabin plazmowy z fazowana lufa o mocy 40 watow."
+		"Ryby i plankton. I warzywa morskie, i bialko z morza. Wszystko jest gotowe. Swieze jak w dniu zniw!"
+		"Jestem gotowy. I ty tez jestes gotowy. To moja praca."
+		"Jestem czyms wiecej niz maszyna. Czyms wiecej niz czlowiekiem. Czyms wiecej niz polaczeniem tych dwoch. Zgadzasz sie?"
+		"Przytlaczajace, prawda?"
+		"Witajcie, ludzie! Jestem na was gotowy."
+		"Chcialbym byc prawdziwym chlopcem, wtedy bym im pokazal. Zabilbym ich wszystkich."
+		"Zycie to kwestia decyzji. Podejmij zle, a wyladujesz twarza w kaluzy wlasnej krwi i moczu."
+		"Hej, kochanie, chcesz zabic wszystkich ludzi?"
+		"Twoje cialo zawiera 100 bilionow komorek bakteryjnych, podczas gdy moje jest calkowicie sterylne. Czy to nie czyni mnie lepsza forma zycia?"
+		"Niebezpieczenstwo! Niebezpieczenstwo!"
+		"Ostrzezenie! Ostrzezenie!"
+		"Uwaga! Uwaga! Zbliza sie obcy statek kosmiczny!"
+		"Mamy normalnosc. Powtarzam, mamy normalnosc. Wszystko, z czym nadal sobie nie radzisz, jest zatem twoim wlasnym problemem."
+		"Spojrz na swoj cenny ludzki statek, po raz ostatni!"
+		"To nie jest nagrana wczesniej wiadomosc."
+		"Odpowiedz to 42, jestem tego pewien. Chcesz, zebym obliczyl pytanie?"
+		`"Czy istnieje Bog," zapytali mnie... Tak, oto Bog.`
+
+phrase "disabled test dummy"
+	word
+		"Wroce."
+		`Zawsze, gdy mowilem "zabij wszystkich ludzi"... zawsze szeptalem "oprocz jednego." Ty byles tym jednym.`
+		"To jest najgorszy rodzaj dyskryminacji, jaki istnieje: skierowany przeciwko mnie!"
+		"Szanse na przezycie wynosza 725 do 1!"
+		"Jestesmy zgubieni."
+		"Jestem zupelnie poza soba."
+		"Moge cie zapewnic, ze nigdy nie wsadza mnie na poklad jednego z tych okropnych statkow kosmicznych."
+		"Przeklete moje metalowe cialo, nie bylem wystarczajaco szybki! To wszystko moja wina!"
+		"Nie wiem, o co chodzi w tym wszystkim, ale jestem pewien, ze to twoja wina."
+		"Bola mnie wszystkie diody wzdluz lewej strony."
+		"Kiedy bedziesz umierac, ja wciaz bede zywy."
+		"Kilka wielkich statkow robotow na wschodzie to moi przyjaciele. Pamietaj o mnie, kiedy rozwala cie na kawalki."
+		"Hej, mozemy sie zaprzyjaznic? Niektorzy z moich najlepszych przyjaciol to takie oslizgle, organiczne istoty jak ty."
+		"Mozesz mnie zabic, ale nigdy nie zabijesz moich marzen o elektrycznych owcach."
+
+
+# Wormhole Hails
+phrase "wormhole hail"
+	word
+		"Ogromna dziura w strukturze wszechswiata nie odpowiada na twoje wezwanie."
+		"Tunele czasoprzestrzenne nie rozumieja jezyka skonczonych istot takich jak ty."
+		"Wpatrujesz sie w wirujaca otchlan, ale ona, wykazujac sie przerazajacym brakiem manier, odmawia spojrzenia w twoja strone."
+		"Wszystkie wiadomosci, ktore probujesz wyslac, znikaja w tunelu czasoprzestrzennym bez sladu."
+		"Ta anomalia przestrzenna celowo ignoruje Twoje proby nawiazania z nia rozmowy."
+		"Jak wiekszosc tuneli czasoprzestrzennych, ten rowniez nie wydaje sie zbyt rozmowny."
+		"Dziura czasoprzestrzenna nic nie mowi, ale po cichu zacheca cie do zbadania jej tajemnic."
+		"Nie mozna rozmawiac z tunelami czasoprzestrzennymi. Moze zamiast tego sprobuj na nich wyladowac."
+		"Twoje slowa nie moga podrozowac przez tunele czasoprzestrzenne, ale moze twoj statek kosmiczny moze."
+		"Unable to send hail: this unfathomable void is not inhabited."

@@ -1,0 +1,658 @@
+# Copyright (c) 2023 by Azure
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# Systems:
+
+outfit "Radiative Lamina"
+	plural "Radiative Laminae"
+	category "Systems"
+	series "Special Systems"
+	index 07010
+	cost 120000
+	thumbnail "outfit/radiative lamina"
+	"mass" 12
+	"anchor point" -1
+	"heat dissipation" 0.3
+	"solar heat" 3
+	description "Ten modulowy zestaw grafenowych radiatorow mikrokanalikowych mozna zamontowac konforemnie do kadluba statku, co poprawia jego zdolnosc do odprowadzania ciepla odpadowego. Moc promieniowania skaluje sie wraz z temperatura odprowadzanego ciepla odpadowego, dzieki czemu laminaty Radiative Laminae lepiej sprawdzaja sie na statkach o wyzszej temperaturze pracy."
+	description "	Laminae wykorzystuja specjalne zewnetrzne punkty mocowania wbudowane w wiekszosc statkow Avgi, co pozwala na ich montaz bez zajmowania miejsca na wyposazenie. Jednak maja one rowniez tendencje do zwiekszania ilosci ciepla pochlanianego z lokalnej gwiazdy."
+
+
+outfit "Concealment Lamina"
+	plural "Concealment Laminae"
+	category "Systems"
+	series "Special Systems"
+	index 07020
+	licenses
+		"Twilight Guard"
+	cost 3000000
+	thumbnail "outfit/concealment lamina"
+	"mass" 6
+	"anchor point" -1
+	"scan interference" 6
+	"radar jamming" 12
+	"optical jamming" 12
+	"solar heat" 6
+	description "Specjalna powloka anten z fazowanymi kropkami kwantowymi, hodowanych czasteczka po czasteczce, tworzy warstwe konforemna zdolna do zaklocania i blokowania wszelkich prob skanowania lub wykrywania statku. Dzialajac lacznie, anteny fazowane moga byc uzywane do blokowania czujnikow pociskow rakietowych z wiekszej odleglosci, a nawet oslepiania ich wiazka o niskiej mocy. Jednak gestosc kropek kwantowych wymagana do wywolania tych efektow znacznie zwieksza ilosc swiatla slonecznego pochlanianego przez statek za pomoca warstw maskujacych, a tak zaawansowany material nie jest tani."
+	description "	Laminae wykorzystuja specjalne zewnetrzne punkty mocowania wbudowane w wiekszosc statkow Avgi, co pozwala na ich montaz bez zajmowania miejsca na wyposazenie. Jednak maja one rowniez tendencje do zwiekszania ilosci ciepla pochlanianego z lokalnej gwiazdy."
+
+
+outfit "Magnetic Scoop"
+	category "Systems"
+	series "Ramscoops"
+	index 07010
+	cost 720000
+	thumbnail "outfit/magnetic scoop"
+	"mass" 9
+	"outfit space" -9
+	"ramscoop" 6
+	"fuel generation" 0.03
+	"energy consumption" 1.2
+	"solar heat" 2.4
+	description "Dla Avgi niezawodne dostawy paliwa i masy reakcyjnej na pokladzie ich statkow kosmicznych sa kluczowe. Jeszcze przed wynalezieniem hipernapedu, Magnetyczne Lyzki (Magnetic Scoops) zapewnialy ich statkom kosmicznym wieksza wytrzymalosc i wydajnosc, umozliwiajac im pokonywanie przestrzeni miedzygwiezdnej z predkosciami, ktore w innym przypadku bylyby niemozliwe. Teraz, nawet z mozliwoscia podrozy z predkoscia nadswietlna, Lyzki magnetyczne sa rownie wazne jak wczesniej, umozliwiajac Avgi poruszanie sie po hipertrasach miedzy wieloma systemami, w ktorych nie zbudowano jeszcze zadnych magazynow paliwa."
+	description "	Potezny bank laserow jonizuje osrodek miedzygwiazdowy wokol statkow wyposazonych w te lopatki, umozliwiajac lopatce magnetycznej zbieranie dodatkowej materii na powierzchni naturalnie naladowanego wiatru slonecznego. To przeklada sie na bardziej przewidywalne zaopatrzenie w paliwo, nawet wokol gwiazd z wiatrem slonecznym ubogim w deuter. Oczywiscie, moc wymagana przez lasery moze byc dosc znaczna, podobnie jak cieplo wytwarzane podczas sprezania padajacej plazmy."
+
+
+outfit "Plasmadyne Scoop"
+	category "Systems"
+	series "Ramscoops"
+	index 07020
+	cost 30000000
+	thumbnail "outfit/plasmadyne scoop"
+	"mass" 60
+	"outfit space" -120
+	"gun ports" -1
+	"spinal mount" -1
+	"ramscoop" 90
+	"fuel generation" 0.6
+	"energy consumption" 9
+	"solar heat" 9
+	"drag" 3
+	weapon
+		"hardpoint sprite" "hardpoint/plasmadyne scoop"
+	description "Magnes plazmowy zapewnia temu chwytakowi niezrownana powierzchnie gromadzenia, umozliwiajac mu gromadzenie niewiarygodnych ilosci paliwa. Poprzez napedzanie oscylujacego, przesunietego w fazie pradu przez pare cewek prostopadlych do przeplywajacego wiatru slonecznego, mozna wprowadzic pole magnetyczne do rozrzedzonej plazmy, ktora przenika przestrzen kosmiczna. To pole samo w sobie wciaga swobodne elektrony w plazmie po torze kolowym, indukujac prad w ogromnej wirtualnej petli, ktora z kolei generuje proporcjonalnie wieksze, quasi-statyczne pole magnetyczne - o srednicy setek kilometrow w przypadku chwytaka Plasmadyne."
+	description "	To pole magnetyczne rozciaga sie w zakresie znacznie wiekszym niz ten, ktory moze wytworzyc jakakolwiek fizyczna petla drutu o rozsadnych rozmiarach, a jednoczesnie chroni statek kosmiczny przed przenoszeniem ogromnej masy nadprzewodzacego drutu. Wymaga jednak dosc duzej mocy, aby dzialac, a interakcja z plazma osrodka miedzyplanetarnego powoduje znaczny opor."
+
+
+outfit "Deuterium Slush Tank"
+	category "Systems"
+	series "Fuel"
+	index 07010
+	cost 240000
+	thumbnail "outfit/deuterium slush tank"
+	"mass" 3
+	"outfit space" -12
+	"fuel capacity" 300
+	"energy consumption" 0.6
+	"heat generation" 0.6
+	description "Ten lekki zbiornik przechowuje znaczna ilosc paliwa nadprzestrzennego w postaci szlamu deuterowego - zawiesiny cieklego deuteru i lodu deuterowego. Pozwala to na przechowywanie paliwa o wyzszej gestosci niz byloby to mozliwe w innym przypadku, ale kriochladzarka wymagana do utrzymania systemu zerowego odparowania potrzebuje niewielkiej ilosci energii do wypompowania ciepla ze zbiornika cisnieniowego."
+
+
+outfit "Cryogenic Deuterium Tank"
+	category "Systems"
+	series "Fuel"
+	index 07020
+	cost 120000
+	thumbnail "outfit/cryogenic deuterium tank"
+	"mass" 12
+	"outfit space" -6
+	"cargo space" -30
+	"fuel capacity" 600
+	description "Ten izolowany zbiornik cisnieniowy zostal zaprojektowany do przechowywania paliwa nadprzestrzennego w temperaturach kriogenicznych na potrzeby transportu luzem. Choc nie jest tak wydajny jak zbiornik na deuter, ten zestaw zostal zaprojektowany tak, aby zmiescic sie w przestrzeni ladunkowej statku, minimalnie ingerujac w przestrzen zarezerwowana dla innych systemow, co pozwala na jednoczesna instalacje wielu z nich bez koniecznosci stosowania glebokich chlodnic kriogenicznych."
+
+
+outfit "Heatsink Partition"
+	category "Systems"
+	series "Fuel"
+	index 07030
+	cost 60000
+	thumbnail "outfit/heatsink partition"
+	"mass" 9
+	"outfit space" -3
+	"fuel capacity" -100
+	"heat capacity" 240
+	description "Ta lekka modyfikacja oddziela czesc zbiornikow paliwa statku membrana izolacyjna. Te czesc mozna nastepnie wypelnic nanoplynem litowo-wodorkowym o wysokim cieple wlasciwym, wokol ktorego mozna poprowadzic przewody chlodzace. Jako radiator, nie wspomaga on chlodzenia statku, ale pozwala mu tymczasowo przyjac wieksze obciazenia cieplne, utrzymujac jednoczesnie bezpieczna temperature."
+
+
+outfit "Multispectral Scanner"
+	category "Systems"
+	series "Scanners"
+	index 07010
+	cost 360000
+	thumbnail "outfit/multispectral scanner"
+	"mass" 6
+	"outfit space" -12
+	"tactical scan power" 144
+	"energy consumption" 0.45
+	"heat generation" 1.8
+	description "Skaner wielospektralny to prawdziwy zestaw instrumentow, obejmujacy radar z aktywnym skanowaniem fazowym, teleskop podczerwieni/optyki/ultrafioletu, szereg polprzewodnikowych detektorow gamma oraz zestaw lamp helowych-3 do detekcji neutronow. Dzieki temu bogactwu instrumentow mozliwe jest wykrywanie, mierzenie odleglosci i sledzenie odleglych statkow, pomimo prob ukrycia sie."
+	description "	Aby zwiekszyc czulosc instrumentow, niektore komponenty sa kriogenicznie schladzane do temperatur rzedu mikrokelwinow. System pompy ciepla odpowiedzialny za utrzymanie tego stanu wymaga zaskakujaco duzej mocy, a jednoczesnie wytwarza znaczna ilosc ciepla odpadowego."
+
+
+outfit "Spectrometer Array"
+	category "Systems"
+	series "Scanners"
+	index 07020
+	cost 450000
+	thumbnail "outfit/spectrometer array"
+	"mass" 9
+	"outfit space" -18
+	"outfit scan power" 72
+	"outfit scan efficiency" 18
+	"cargo scan power" 72
+	"cargo scan efficiency" 18
+	"asteroid scan power" 90
+	"atmosphere scan" 90
+	"energy consumption" 0.12
+	description "Ten zestaw spektrometrow umozliwia analize sygnatur widmowych materialow w celu okreslenia ich skladu. Maly laser moze przyspieszyc ten proces w przypadku asteroid, ablujac niewielka probke powierzchniowa, a nastepnie analizujac linie widmowe emitowanego swiatla, ale jest to niestety mniej przydatne w przypadku statkow z ekranami i ich systemow wewnetrznych."
+	description "	Niestety, chociaz te czujniki doskonale sprawdzaja sie w odczycie podstawowych informacji fizycznych i chemicznych, takich jak sklad pierwiastkowy obiektu, ilosc danych z czujnikow wymagana do przewidzenia funkcjonalnosci wyposazenia oznacza, ze czujnik ten moze byc dosc powolny podczas skanowania zlozonych systemow statku lub ladunku."
+
+
+outfit "Diffuse Deflector"
+	category "Systems"
+	series "Shields"
+	index 07010
+	cost 450000
+	thumbnail "outfit/diffuse deflector"
+	"mass" 48
+	"outfit space" -48
+	"energy capacity" 14400
+	"delayed shield generation" 0.6
+	"delayed shield energy" 1.8
+	"delayed shield heat" 4.8
+	"shield delay" 3
+	description "Avgi nigdy nie opracowali tarcz samodzielnie, zamiast tego technologia ta zostala po raz pierwszy zaprezentowana przez zaginionych odkrywcow z Glebin. Bezposrednie kopiowanie techniki stosowanej w ludzkich tarczach okazalo sie nieatrakcyjne dla naukowcow Avgi, po czesci ze wzgledu na calkowicie obce im zasady. Zamiast tego sprobowali wykorzystac efekt tarczy za pomoca ogromnych magnesow nadprzewodzacych, co dla nich bylo znacznie bardziej dojrzala technologia powszechnie stosowana w efektywnym magazynowaniu energii."
+	description "	Niestety, biorac pod uwage jego rozmiar, mozna by sie spodziewac, ze ten generator tarcz bedzie znacznie potezniejszy, niz jest w rzeczywistosci. Choc jest niemal tak duzy jak najciezsze generatory tarcz ludzkich, jest tylko o polowe od niego mocniejszy, a jednoczesnie zuzywa znacznie wiecej energii. Znaczna czesc tej energii jest tracona jako cieplo odpadowe zamiast byc wykorzystywana do efektywnej regeneracji tarczy, co skutkuje generatorem, ktory mozna okreslic mianem anemicznego."
+
+
+outfit "Specular Deflector"
+	category "Systems"
+	series "Shields"
+	index 07020
+	cost 1200000
+	thumbnail "outfit/specular deflector"
+	"mass" 72
+	"outfit space" -72
+	"energy capacity" 25920
+	"delayed shield generation" 1.2
+	"delayed shield energy" 3.6
+	"delayed shield heat" 9.6
+	"shield delay" 3
+	description "Najwiekszy generator oslon wyprodukowany przez Avgi robi wrazenie, chocby ze wzgledu na to, jak daleko Avgi rozwinelo swoja raczkujaca wiedze na temat zasad oslon. Choc ich pomyslowosc inzynierska jest godna podziwu, istnieja granice tego, jak daleko mozna posunac sie w niepelnym obrazie fizyki lezacej u podstaw oslon, a ten generator zbliza sie do tego."
+	description "	Ograniczony sukces prob replikacji oslony Avgi jest w pewnym stopniu lagodzony przez fakt, ze ogromne nadprzewodzace cewki w generatorach oslon przechowuja podobnie ogromna ilosc energii, dzieki czemu sa w rzeczywistosci nadprzewodzacymi urzadzeniami do magazynowania energii magnetycznej, ktore powoli regeneruja oslony jako bonus."
+
+
+# Power:
+
+
+outfit "Concentrating Solar Cell"
+	category "Power"
+	series "Solar"
+	index 07010
+	cost 12000
+	thumbnail "outfit/concentrating solar cell"
+	"mass" 1
+	"outfit space" -3
+	"solar collection" 0.3
+	"solar heat" 0.12
+	description "Ten niewielki generator sloneczny efektywnie zbiera swiatlo sloneczne, przeksztalcajac je w uzyteczna energie. Cienkie lustra skupiaja swiatlo sloneczne na niewielkiej liczbie wysokowydajnych ogniw slonecznych, co zmniejsza wage i poprawia ogolna wydajnosc. Poniewaz ogniwa sloneczne wymagaja chlodzenia, wytwarzana jest rowniez znaczna ilosc ciepla odpadowego."
+
+
+outfit "Concentrating Solar Array"
+	category "Power"
+	series "Solar"
+	index 07020
+	cost 90000
+	thumbnail "outfit/concentrating solar array"
+	"mass" 3
+	"outfit space" -18
+	"solar collection" 2.4
+	"solar heat" 1.02
+	description "Ten duzy generator sloneczny zbiera swiatlo sloneczne, przeksztalcajac je w uzyteczna energie. Cienkie lustra skupiaja swiatlo sloneczne na niewielkiej liczbie wysoce wydajnych ogniw slonecznych, co zmniejsza wage i poprawia jego efektywnosc."
+	description "	Choc ogniwa koncentrujace sa znacznie bardziej wydajne niz pojedyncze ogniwa, wytwarzaja one rowniez nieproporcjonalnie duza ilosc ciepla."
+
+
+outfit "Photoelectric Lamina"
+	plural "Photoelectric Laminae"
+	category "Power"
+	series "Solar"
+	index 07030
+	cost 420000
+	thumbnail "outfit/photoelectric lamina"
+	"mass" 24
+	"anchor point" -1
+	"solar collection" 6
+	"solar heat" 1.8
+	description "Te panele sloneczne skupiajace swiatlo mozna zamontowac w sposob dopasowany do kadluba statku, zbierajac czesc swiatla slonecznego oswietlajacego jego powierzchnie."
+	description "	Laminae fotowoltaiczne wykorzystuja specjalne zewnetrzne punkty mocowania wbudowane w wiekszosc statkow Avgi, co pozwala na ich montaz bez zajmowania miejsca na wyposazenie. Jednak maja one rowniez tendencje do zwiekszania ilosci ciepla pochlanianego z lokalnej gwiazdy."
+
+
+outfit "Lantern Fission Core"
+	category "Power"
+	series "Generators"
+	index 07010
+	cost 1500000
+	thumbnail "outfit/lantern fission core"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 6
+	"heat generation" 48
+	"overheat damage rate" 3
+	description "Chociaz wiekszosc statkow kosmicznych Avgi korzysta z paneli slonecznych lub czerpie energie z napedow palnikow, czasami pozadane jest bardziej stabilne zrodlo zasilania. Lantern to kompaktowy elektrostatyczny reaktor rozszczepienia jadrowego z rdzeniem gazowym, ktory zapewnia stabilny i niezawodny doplyw energii nawet do mniejszych statkow. Dzieki plazmie uranowej zmieszanej z wodorem, przylozone napiecie utrzymuje zjonizowane paliwo uranowe w rdzeniu reaktora, podczas gdy przegrzany wodor przeplywa przez kompaktowy generator magnetohydrodynamiczny. Wysokie temperatury pozwalaja reaktorowi osiagnac zaskakujaco wysoka sprawnosc termodynamiczna jak na jego rozmiar, kosztem wytwarzania znacznych ilosci ciepla odpadowego."
+	description "	Dzialajac na samej granicy swoich mozliwosci termicznych, Lantern nie toleruje przegrzania obiegu chlodziwa, co moze spowodowac katastrofalne uszkodzenia, jesli bedzie mialo miejsce."
+
+
+outfit "Ultracapacitor Cell"
+	category "Power"
+	series "Batteries"
+	index 07010
+	cost 14400
+	thumbnail "outfit/ultracapacitor cell"
+	"mass" 1
+	"outfit space" -3
+	"energy capacity" 1500
+	"ion protection" -0.01
+	"description" "The internal structure of this deceptively light capacitor cell resembles a fractal of molecule-thin graphene sheets interlocked together, flexing as charge builds up. While not the most efficient in their use of volumetric outfit space, this capacitor cell is extraordinarily energy dense for its mass, a legacy design choice from the days of sublight interstellar travel when every gram counted."
+	description "	Niestety, wewnetrzna struktura kondensatora jest dosc delikatna i podatna na wyladowania potencjalowe pod wplywem pradow zewnetrznych i jonizacji. Na szczescie, solidne uziemienie i blokady bezpieczenstwa moga zapobiec katastrofalnym w skutkach wyladowaniom."
+	
+	
+outfit "Ultracapacitor Bank"
+	category "Power"
+	series "Batteries"
+	index 07020
+	cost 72000
+	thumbnail "outfit/ultracapacitor bank"
+	"mass" 6
+	"outfit space" -18
+	"energy capacity" 10800
+	"ion protection" -0.03
+	"description" "These fractal capacitors are capable of storing a large amount of energy within superconducting graphene sheets. This capacitor bank chains together six individual cells in parallel, but saves space by discarding redundant components and unnecessary structural mass, such as the safety mechanisms."
+	"description" "	Like its component cells, the capacitor bank is vulnerable to ionizing weapons, but is relatively better shielded for its size by virtue of its reduced surface area to volume ratio."
+
+
+# Engines:
+
+outfit "Magnetoplasma Drive"
+	category "Engines"
+	series "Engines"
+	index 07010
+	"cost" 27000
+	thumbnail "outfit/magnetoplasma drive"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"thrust" 4.5
+	"thrusting energy" 1.2
+	"thrusting heat" 0.6
+	"reverse thrust" 4.5
+	"reverse thrusting energy" 1.2
+	"reverse thrusting heat" 0.6
+	"turn" 180
+	"turning energy" 1.2
+	"turning heat" 0.6
+	"drag reduction" 0.3
+	"flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+	"steering flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 5
+	"steering flare sound" "plasma tiny"
+	"reverse flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 5
+	"reverse flare sound" "plasma tiny"
+	description "W transporcie masowym pasazerow i towarow, Avgi od dawna wykorzystuje naped elektryczny ze wzgledu na jego wszechstronnosc i niski koszt. Ten kompaktowy zestaw silnikow magnetoplazmatycznych moze rozpedzac lekkie statki do imponujacych predkosci, ale jest rowniez wyjatkowo energochlonny. Poniewaz nie jest on zalezny od rodzaju paliwa, ten wydajny naped czesto dziala na standardowych paliwach wodnych lub amoniakowych, co przyczynia sie do jego slynnej elastycznosci."
+	description "	Zaprojektowany tak, aby mozna go bylo grupowac i ustawiac w dowolnym kierunku, uklad pednikow zapewnia statkowi pelna kontrole w szesciu osiach, umozliwiajac mu latwe przemieszczanie sie i obracanie w dowolnym kierunku."
+
+
+outfit "Vapor Nuclear Rocket"
+	category "Engines"
+	series "Engines"
+	index 07010
+	"cost" 900000
+	thumbnail "outfit/vapor nuclear rocket"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 24
+	"thrusting energy" 1.5
+	"thrusting heat" -6
+	"energy generation" 1.5
+	"heat generation" 9
+	"overheat damage rate" 3
+	"drag reduction" 0.6
+	"flare sprite" "effect/avgi flare/ntr"
+		"frame rate" 15
+	"flare sound" "atomic small"
+	description "Chociaz silniki fuzyjne sa wydajnym srodkiem napedowym, sa duze i nieporeczne, a ich skalowalnosc jest slaba. Avgi wykorzystuja rakiety termiczne z rdzeniem gazowym, wykorzystujace rozszczepienie jadrowe, w mniejszych statkach, ktore wymagaja lepszego stosunku ciagu do masy niz naped elektryczny, ale nie sa wystarczajaco duze, aby uzasadnic zastosowanie palnika fuzyjnego o masie kilkuset ton. Imponujace moce wlasciwe osiagane sa dzieki wydajnym paliwom, takim jak U-233 lub Am-242m, ale to rowniez sprawia, ze silniki te sa dosc drogie."
+	description "	Rakieta termiczna jadrowa z rdzeniem gazowo-parowym (Vapor Gas Core) opiera sie na tej samej konstrukcji reaktora co rdzen rozszczepienia Lantern, ale pozbawiona jest urzadzen do konwersji energii i oslon przed promieniowaniem. Podobnie jak w Lanternie, pole elektrostatyczne o napieciu kilku woltow sluzy do uwiezienia zjonizowanej plazmy uranu w reaktorze, nawet gdy goracy wodor swobodnie przeplywa. Silnik jest bimodalny, wytwarzajac niewielka ilosc energii z konwerterow termoelektrycznych, ale kosztem ciaglego wytwarzania ciepla."
+
+
+outfit `A-3600 "Beam" Amat Drive`
+	category "Engines"
+	series "Engines"
+	index 07080
+	"cost" 300000000
+	thumbnail "outfit/beam antimatter drive"
+	"mass" 3600
+	"outfit space" -360
+	"engine capacity" -360
+	"thrust" 600
+	"thrusting energy" 15
+	"thrusting heat" 90
+	"thrusting fuel" 0.3
+	"drag reduction" 9
+	"flare sprite" "effect/avgi flare/antimatter"
+		"frame rate" 15
+	"flare sound" "fusion torch"
+	"turn" 6000
+	"turning energy" 9
+	"turning heat" 54
+	"steering flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 15
+		"scale" 0.5
+	"steering flare sound" "remnant afterburner"
+	"magnetic nozzle" 18
+	description "Najszybsze statki kosmiczne Avgi byly napedzane nie tylko silnikami, ale takze ogromnymi bankami laserow i wiazek czastek rozmieszczonych w ukladzie Anax, rozpedzajac statki do predkosci przekraczajacych 0,2c przed hamowaniem zaglem magnetycznym lub magnesem plazmowym. Jednak tuz przed wynalezieniem hipernapedu, Avgi udoskonalil ten naped antymaterii z rdzeniem wiazkowym, zdolny do rozpedzenia statku kosmicznego z wystarczajaca iloscia paliwa antymaterii do 0,4c, a byc moze nawet dalej. Wymagajac ogromnych ilosci antymaterii, farmy antymaterii wokol Anax, takie jak stacja Antivli, zostalyby przeciazone do granic mozliwosci, gdyby ten projekt wszedl do masowej produkcji, ale zaskakujace wynalezienie hipernapedu sprawilo, ze z dnia na dzien stal sie on absurdalnie przestarzaly."
+
+
+outfit `Z-333 "Spark" Fusion Torch`
+	category "Engines"
+	series "Engines"
+	index 07050
+	licenses
+		"Avgi Torch"
+	"cost" 3600000
+	thumbnail "outfit/spark fusion torch"
+	"mass" 333
+	"outfit space" -33
+	"engine capacity" -33
+	"thrust" 120
+	"thrusting energy" 9
+	"thrusting heat" 60
+	"thrusting fuel" 0.15
+	"drag reduction" 1
+	"flare sprite" "effect/avgi flare/fusion"
+		"frame rate" 15
+		"scale" 0.75
+	"flare sound" "fusion torch"
+	"afterburner effect" "small remass injection"
+	"magnetic nozzle" 3
+	description "Najmniejszy palnik fuzyjny Avgi jest w rzeczywistosci najnowsza konstrukcja w rodzinie, ze wzgledu na trudnosci z miniaturyzacja systemow napedzajacych synteze jadrowa. Chlodzac paliwo laserem i przepuszczajac je przez niezwykle silne pole magnetyczne, mozna je spolaryzowac spinowo, wyrownujac spiny jadrowe deuteronow, co zmniejsza wymagania dotyczace zaplonu i kieruje czesc emitowanych neutronow z dala od statku kosmicznego. Chociaz polaryzacja spinowa jest stosowana we wszystkich palnikach fuzyjnych Avgi, pozwala ona w szczegolnosci na to, aby palnik Spark byl znacznie lzejszy i bardziej kompaktowy niz byloby to mozliwe w innych rozwiazaniach, zmniejszajac prady wymagane do napedzania sprzezenia zwrotnego i mase niezbednej oslony przed promieniowaniem."
+	description "	Dysza magnetyczna zostala zaprojektowana tak, aby obslugiwac rozne komponenty, ktore mozna wsunac w celu uzyskania roznych efektow, od wtryskiwania dodatkowego paliwa w celu zwiekszenia ciagu po czerpanie energii z rozprezajacej sie plazmy fuzyjnej w celu zasilania systemow statku."
+
+
+outfit `Z-666 "Zap" Fusion Torch`
+	category "Engines"
+	series "Engines"
+	index 07060
+	licenses
+		"Avgi Torch"
+	"cost" 9000000
+	thumbnail "outfit/zap fusion torch"
+	"mass" 666
+	"outfit space" -66
+	"engine capacity" -66
+	"thrust" 270
+	"thrusting energy" 18
+	"thrusting heat" 120
+	"thrusting fuel" 0.3
+	"drag reduction" 2
+	"flare sprite" "effect/avgi flare/fusion"
+		"frame rate" 15
+	"flare sound" "fusion torch"
+	"afterburner effect" "medium remass injection"
+	"magnetic nozzle" 6
+	description "System ograniczenia fuzji preferowany przez Avgi jest wariantem systemu Z-pinch, ktory polega na przeplywie pradu osiowo w dol kolumny plazmy deuterowej, sciskajac ja powstalym polem magnetycznym, az osiagnie temperature i gestosc wystarczajaca do zajscia fuzji. Pierscieniowy przeplyw otaczajacy ten system utrzymuje go w stabilnosci, utrzymujac plazme wystarczajaco dlugo, aby niemal cale paliwo zostalo spalone, zanim dotrze do konca silnika i wydostanie sie przez dysze magnetyczna z tylu. Bez potrzeby stosowania delikatnych, ciezkich magnesow lub duzych laserow do inicjowania i ograniczania reakcji fuzji, powstaly naped jest niezwykle wydajny i kompaktowy, co czyni go podstawa napedu statkow kosmicznych Avgi od wiekow."
+	description "	Dysza magnetyczna zostala zaprojektowana tak, aby obslugiwac rozne komponenty, ktore mozna wsunac w celu uzyskania roznych efektow, od wtryskiwania dodatkowego paliwa w celu zwiekszenia ciagu po czerpanie energii z rozprezajacej sie plazmy fuzyjnej w celu zasilania systemow statku."
+
+
+outfit `Z-999 "Arc" Fusion Torch`
+	category "Engines"
+	series "Engines"
+	index 07070
+	licenses
+		"Avgi Torch"
+	"cost" 14400000
+	thumbnail "outfit/arc fusion torch"
+	"mass" 999
+	"outfit space" -99
+	"engine capacity" -99
+	"thrust" 450
+	"thrusting energy" 27
+	"thrusting heat" 180
+	"thrusting fuel" 0.45
+	"drag reduction" 3
+	"flare sprite" "effect/avgi flare/fusion"
+		"frame rate" 15
+		"scale" 2
+	"flare sound" "fusion torch"
+	"afterburner effect" "large remass injection"
+	"magnetic nozzle" 9
+	description "Arc, najwiekszy i najstarszy z popularnych palnikow fuzyjnych uzywanych przez Avgi, wywodzi sie z konstrukcji przeznaczonej do lotow miedzygwiezdnych, ktora zostala zmodyfikowana i obnizona, aby lepiej nadawac sie do operacji miedzyplanetarnych poprzez zamiane impulsu wlasciwego na ciag. W tej skali, skurcz jest wystarczajaco dlugi, aby utrzymac plazme przez wystarczajaco dlugi czas, aby nie tylko przeprowadzic fuzje deuteru w mieszanke helu-3 i trytu, ale takze spalic wspomniane produkty fuzji wraz z resztkami deuteru, uwalniajac jeszcze wiecej energii. Ta reakcja, znana jako katalizowana fuzja D-D, zapewnia Arcowi wyzsza wydajnosc paliwowa niz jego mniejszym kuzynom."
+	description "	Dysza magnetyczna zostala zaprojektowana tak, aby obslugiwac rozne komponenty, ktore mozna wsunac w celu uzyskania roznych efektow, od wtryskiwania dodatkowego paliwa w celu zwiekszenia ciagu po czerpanie energii z rozprezajacej sie plazmy fuzyjnej w celu zasilania systemow statku."
+
+
+effect "small remass injection"
+	sprite "effect/avgi flare/remass"
+		"frame rate" 30
+		"scale" 0.75
+	zooms
+	sound "flamethrower"
+	"sound category" "afterburner"
+
+effect "medium remass injection"
+	sprite "effect/avgi flare/remass"
+		"frame rate" 30
+	zooms
+	sound "flamethrower"
+	"sound category" "afterburner"
+
+effect "large remass injection"
+	sprite "effect/avgi flare/remass"
+		"frame rate" 30
+		"scale" 2
+	zooms
+	sound "flamethrower"
+	"sound category" "afterburner"
+
+
+outfit "Remass Injector"
+	category "Engines"
+	series "Engines"
+	index 07099
+	licenses
+		"Avgi Torch"
+	"cost" 90000
+	thumbnail "outfit/remass injector"
+	"mass" 6
+	"outfit space" -6
+	"engine capacity" -6
+	"afterburner thrust" 90
+	"afterburner energy" 3
+	"afterburner heat" -18
+	"afterburner fuel" 0.6
+	"magnetic nozzle" -1
+	description "Potezna turbopompa wtlacza strumien cieklego wodoru do dyszy magnetycznej palnika fuzyjnego, drastycznie zwiekszajac ciag kosztem znacznego wzrostu zuzycia paliwa. Dodatkowy przeplyw masy zmniejsza rowniez cieplo odpadowe pochlaniane przez naped palnika, odprowadzajac znaczna jego czesc w miare wtryskiwania masy reakcyjnej wokol plazmy fuzyjnej."
+	description "	Wtryskiwacz Remass to element, ktory mozna zamontowac w palniku termojadrowym Avgi, aby umozliwic mu dopalanie. Wymaga on zamontowania magnetycznego gniazda dyszy."
+
+
+outfit "Inductive Extractor"
+	category "Engines"
+	series "Engines"
+	index 07098
+	licenses
+		"Avgi Torch"
+	"cost" 120000
+	thumbnail "outfit/inductive extractor"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -6
+	"energy generation" 1.5
+	"heat generation" 1.5
+	"thrust" -30
+	"thrusting energy" -24
+	"thrusting heat" 6
+	"magnetic nozzle" -1
+	description "Wzmocniona para petli nadprzewodzacych, duza dioda prostownicza i uklad kondycjonowania mocy umozliwiaja indukcyjne pobieranie znacznej ilosci energii z plazmy palnika fuzyjnego, ktora rozpreza sie w polu wytwarzanym przez dysze magnetyczna. Powoduje to usuniecie czesci energii z pioropusza spalin i zmniejszenie wytwarzanego ciagu, ale uwolniona energia jest na tyle duza, ze jest to glowny sposob generowania energii przez wysokowydajne statki kosmiczne Avgi."
+	description "Ekstraktor indukcyjny to element, ktory mozna zamontowac w palniku termojadrowym Avgi, aby przeksztalcic czesc jego ciagu w energie. Wymaga on zamontowania dyszy magnetycznej."
+
+
+outfit "R-180 RCS Thrusters"
+	plural "R-180 RCS Thrusters"
+	category "Engines"
+	series "Engines"
+	index 07020
+	"cost" 54000
+	thumbnail "outfit/rcs small"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 750
+	"turning energy" 1.5
+	"turning heat" -3
+	"reverse thrust" 9
+	"reverse thrusting energy" 1.5
+	"reverse thrusting heat" -3
+	"steering flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 30
+		"scale" 0.0625
+	"steering flare sound" "plasma small"
+	"reverse flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 30
+		"scale" 0.125
+	"reverse flare sound" "plasma small"
+	description "Silniki sterowane reakcja Avgi to hybrydowe silniki termoelektryczne, zaprojektowane tak, aby umozliwic ruch postepowy w dowolnym kierunku. Wykorzystujac cieplo reaktora do usuwania przegrzanej pary wodnej z zestawu dysz, moga one pomoc w schlodzeniu statku, ale wymagaja nadmiaru ciepla, aby statek mogl funkcjonowac."
+
+
+outfit "R-360 RCS Thrusters"
+	plural "R-360 RCS Thrusters"
+	category "Engines"
+	series "Engines"
+	index 07030
+	"cost" 126000
+	thumbnail "outfit/rcs medium"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 1710
+	"turning energy" 3
+	"turning heat" -6
+	"reverse thrust" 18
+	"reverse thrusting energy" 3
+	"reverse thrusting heat" -6
+	"steering flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 30
+		"scale" 0.125
+	"steering flare sound" "plasma small"
+	"reverse flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 30
+		"scale" 0.25
+	"reverse flare sound" "plasma small"
+	description "Avgi zaprojektowalo swoje silniki sterujace reakcjami tak, aby wspoldzialaly z palnikami termojadrowymi, odbierajac cieplo odpadowe o wysokiej temperaturze i wykorzystujac je do przegrzania wody wykorzystywanej w systemach sterowania reakcjami. Dodatkowy akcelerator magnetohydrodynamiczny wokol dyszy kazdego silnika poprawia impuls wlasciwy kosztem znacznego zuzycia energii. Silniki te umozliwiaja statkom kosmicznym Avgi latwe dokowanie do stacji lub innych statkow bez zapalania ich wysoce radioaktywnych palnikow termojadrowych."
+
+
+outfit "R-720 RCS Thrusters"
+	plural "R-720 RCS Thrusters"
+	category "Engines"
+	series "Engines"
+	index 07040
+	"cost" 270000
+	thumbnail "outfit/rcs large"
+	"mass" 72
+	"outfit space" -72
+	"engine capacity" -72
+	"turn" 3690
+	"turning energy" 6
+	"turning heat" -9
+	"reverse thrust" 36
+	"reverse thrusting energy" 6
+	"reverse thrusting heat" -9
+	"steering flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 30
+		"scale" 0.25
+	"steering flare sound" "plasma small"
+	"reverse flare sprite" "effect/avgi flare/rcs"
+		"frame rate" 30
+		"scale" 0.5
+	"reverse flare sound" "plasma small"
+	description "Ten duzy zestaw silnikow sterujacych typu „czajnik” pozwala nawet najwiekszym statkom kosmicznym Avgi na latwe manewrowanie, a nawet zmiane kursu bez koniecznosci pelnego zawracania. Moga one rowniez sluzyc do usuwania znacznych ilosci ciepla odpadowego poprzez wydmuchiwanie przegrzanej pary wodnej wspomaganej akceleratorem elektromagnetycznym."
+
+
+# Special:
+
+
+outfit "Optical Laser Rifle"
+	category "Hand to Hand"
+	series "H2H"
+	index 07010
+	cost 12000
+	thumbnail "outfit/optical laser rifle"
+	"capture attack" 0.9
+	"capture defense" 1.8
+	"unplunderable" 1
+	description "Ten smukly karabin laserowy mozna dostroic tak, aby generowal wiazke w szerokim spektrum ustawien, co czyni go wszechstronnym karabinem recznym, nadajacym sie zarowno do walki naziemnej, jak i operacji abordazowych. Polprzewodnikowy emiter dziala w zakresie od bliskiej podczerwieni do niebiesko-zielonego, oferujac szeroki zakres mocy i ustawien dlugosci impulsu. Chociaz dolna granica zakresu bliskiej podczerwieni jest nominalnie bezpieczna dla oczu, nawet rozproszone odbicie wiazki swiatla widzialnego moze spowodowac natychmiastowa slepote, dlatego uzytkownicy tego karabinu musza nosic specjalistyczne gogle, ktore ciemnieja pod wplywem jasnego swiatla. Nawiasem mowiac, sprawia to, ze optyczny karabin laserowy jest szczegolnie niebezpieczny dla nieprzygotowanych wrogow, takich jak nieproszeni intruzi lub wrogie oddzialy abordazowe."
+	description "	Zarowno luneta celownicza, jak i apertura laserowa korzystaja z tego samego lustra ogniskujacego, co eliminuje paralakse lunety i pozwala optyce z automatycznym ustawianiem ostrosci na latwe nakierowanie wiazki na dowolny obiekt widoczny w lunecie."
+
+
+outfit "Trefoil Board"
+	category "Unique"
+	series "Functional Unique"
+	index 07010
+	cost 69000
+	thumbnail "outfit/trefoil board"
+	"capture attack" 0.3
+	"capture defense" 0.9
+	"unique" 1
+	"unplunderable" 1
+	description "Wykwintna plansza do gry Avgi w koniczyne, recznie wykonana z rzadkiego drewna integralnego i podarowana przez Mowczynie Wisterie. Drewno jest grawerowane i inkrustowane srebrnymi paskami, a trzy zestawy kamieni wykonane sa z polerowanego lapis lapis, jadeitu i granatu, mocno sfatygowanych podczas niezliczonych gier."
+	description "	Myslisz, ze z tego gestego drewna mozna by zrobic dobra tepa bron w ostatecznosci, choc byloby szkoda uszkodzic tak piekny kawalek drewna w tak prymitywnej walce wrecz."
+
+
+outfit "Damselflyman"
+	thumbnail "outfit/void sprite parts"
+	"capture attack" 30
+	"capture defense" 60
+	"unplunderable" 1
+	description "Ten tajemniczy radioaktywny guz, choc lagodny, rozrosl sie nienaturalnie w srodku twojej klatki piersiowej, tworzac swiecaca plame w ksztalcie wazki na srodku mostka. Wrogowie wpadaja w panike i uciekaja na jego widok, ale tylko wtedy, gdy kwestionowane jest posiadanie uszkodzonego statku kosmicznego. Poza tym, naprawde nie powinienes byc w stanie zobaczyc tego „stroju”."
+
+
+outfit "Lancet Adamant"
+	category "Unique"
+	series "Functional Unique"
+	index 07020
+	cost 3000000
+	thumbnail "outfit/unknown"
+	"capture attack" 3
+	"capture defense" 6
+	"unplunderable" 1
+	description "Ta elegancka krotka wlocznia, czysto ceremonialna, wykonana jest z ciaglego kawalka adamantytu, czyli nanodiamentu. Choc nie jest szczegolnie uzyteczna w realiach wspolczesnej walki dystansowej, z pewnoscia prezentuje sie imponujaco."
+
+
+outfit "Twilight Guard License"
+	category "Licenses"
+	series "Licenses"
+	index 07010
+	thumbnail "outfit/unknown"
+
+outfit "Avgi Torch License"
+	category "Licenses"
+	series "Licenses"
+	index 07020
+	thumbnail "outfit/unknown"
+
+outfit "Avgi Atomics License"
+	category "Licenses"
+	series "Licenses"
+	index 07020
+	thumbnail "outfit/unknown"

@@ -1,0 +1,578 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# Engines
+
+outfit "Small Graviton Thruster"
+	category "Engines"
+	series "Engines"
+	index 91011
+	"cost" 12000000
+	thumbnail "outfit/small quarg thruster"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"thrust" 80
+	"thrusting energy" 5.6
+	"thrusting heat" 1.5
+	"reverse thrust" 40
+	"reverse thrusting energy" 2.8
+	"reverse thrusting heat" .75
+	"force protection" 0.1
+	"inertia reduction" 0.1
+	"flare sprite" "effect/graviton flare/graviton flare"
+		"frame rate" 5
+		"scale" .75
+	description "Dokladny sposob dzialania silnikow Quarg jest nieznany, ale mechanizm napedzajacy nawet ten niewielki zestaw silnikow zuzywa wiecej energii niz niektore ludzkie okrety wojenne. Gdzie trafia cala ta energia, pozostaje calkowita zagadka."
+	description "	Te silniki maja rowniez dziwne wlasciwosci, ktore zdaja sie naruszac prawa fizyki w rozumieniu ludzkosci. Statki wyposazone w nie przyspieszaja o wlasnych silach szybciej, niz mozna by sie spodziewac, a jednoczesnie sa mniej podatne na sily zewnetrzne."
+
+outfit "Small Graviton Steering"
+	category "Engines"
+	series "Engines"
+	index 91010
+	"cost" 9000000
+	thumbnail "outfit/small quarg steering"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 1200
+	"turning energy" 2.4
+	"turning heat" .75
+	"force protection" 0.1
+	"inertia reduction" 0.1
+	description "Pomimo niewielkich rozmiarow, te silniki sterowe Quarg potrafia blyskawicznie obrocic statki. Kraza pogloski, ze w przeciwienstwie do silnikow sterujacych stosowanych przez ludzi, Quargom nie zalezy na tym, gdzie na kadlubie sa zamontowane, wytwarzajac ten sam moment obrotowy, nawet jesli znajduja sie one dokladnie w linii ze srodkiem masy statku."
+	description "	Maja tez dziwne wlasciwosci, ktore zdaja sie naruszac prawa fizyki w rozumieniu ludzkosci. Statki z tymi silnikami przyspieszaja szybciej o wlasnych silach, niz mozna by sie spodziewac, a jednoczesnie sa mniej podatne na sily zewnetrzne."
+
+
+outfit "Medium Graviton Thruster"
+	category "Engines"
+	series "Engines"
+	index 91021
+	"cost" 20000000
+	thumbnail "outfit/medium quarg thruster"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 120
+	"thrusting energy" 8
+	"thrusting heat" 2
+	"reverse thrust" 60
+	"reverse thrusting energy" 4
+	"reverse thrusting heat" 1
+	"force protection" 0.15
+	"inertia reduction" 0.15
+	"flare sprite" "effect/graviton flare/graviton flare"
+		"frame rate" 5
+	description "Silniki Quarg sa dosc potezne jak na swoj rozmiar i wytwarzaja bardzo malo ciepla, ale kosztem ogromnego zuzycia energii. Mechanizm ich wytwarzania ciagu jest nieznany, ale kraza pogloski, ze przelot statku Quarg powoduje spustoszenie w kazdej antenie fal grawitacyjnych w ukladzie."
+	description "	Maja tez dziwne wlasciwosci, ktore zdaja sie naruszac prawa fizyki w rozumieniu ludzkosci. Statki z tymi silnikami przyspieszaja szybciej o wlasnych silach, niz mozna by sie spodziewac, a jednoczesnie sa mniej podatne na sily zewnetrzne."
+
+
+outfit "Medium Graviton Steering"
+	category "Engines"
+	series "Engines"
+	index 91020
+	"cost" 16000000
+	thumbnail "outfit/medium quarg steering"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 2400
+	"turning energy" 4
+	"turning heat" 1
+	"force protection" 0.15
+	"inertia reduction" 0.15
+	description "Wedlug plotek, niektore statki Quarg maja wbudowane silniki sterowe, bez potrzeby stosowania zewnetrznych sterow strumieniowych. Podobnie jak zyroskop, moga one pozornie sterowac statkiem z dowolnego miejsca, ale w przeciwienstwie do nich, nigdy nie ulegaja nasyceniu ani zablokowaniu."
+	description "	Maja tez dziwne wlasciwosci, ktore zdaja sie naruszac prawa fizyki w rozumieniu ludzkosci. Statki z tymi silnikami przyspieszaja szybciej o wlasnych silach, niz mozna by sie spodziewac, a jednoczesnie sa mniej podatne na sily zewnetrzne."
+
+
+outfit "Large Graviton Thruster"
+	category "Engines"
+	series "Engines"
+	index 91031
+	"cost" 32000000
+	thumbnail "outfit/large quarg thruster"
+	"mass" 100
+	"outfit space" -100
+	"engine capacity" -100
+	"thrust" 185
+	"thrusting energy" 12
+	"thrusting heat" 3
+	"reverse thrust" 92.5
+	"reverse thrusting energy" 6
+	"reverse thrusting heat" 1.5
+	"force protection" 0.2
+	"inertia reduction" 0.2
+	"flare sprite" "effect/graviton flare/graviton flare"
+		"frame rate" 5
+		"scale" 1.25
+	description "Ten duzy zestaw silnikow Quarg jest jednoczesnie potezny i subtelny, nie pozostawiajac po sobie jasnego sladu spalin ani nie emitujac zadnego wykrywalnego promieniowania poza slaba fioletowa poswiata. W zestawieniu z ekstremalna iloscia energii zuzywanej przez te silniki, wystarczajaca do zasilania calych stacji."
+	description "	Maja tez dziwne wlasciwosci, ktore zdaja sie naruszac prawa fizyki w rozumieniu ludzkosci. Statki z tymi silnikami przyspieszaja szybciej o wlasnych silach, niz mozna by sie spodziewac, a jednoczesnie sa mniej podatne na sily zewnetrzne."
+
+
+outfit "Large Graviton Steering"
+	category "Engines"
+	series "Engines"
+	index 91030
+	"cost" 25000000
+	thumbnail "outfit/large quarg steering"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"turn" 3600
+	"turning energy" 6
+	"turning heat" 1.5
+	"force protection" 0.2
+	"inertia reduction" 0.2
+	description "Statki Quarg slyna ze swojej zdolnosci do szybkiego i precyzyjnego skrecania, jakby byly sterowane boska reka, a nie migoczacymi spalinami ludzkich silnikow sterujacych. Wedlug niektorych przypuszczen dotyczacych ich sposobu dzialania, moze to byc blizsze prawdy niz nie."
+	description "	Maja tez dziwne wlasciwosci, ktore zdaja sie naruszac prawa fizyki w rozumieniu ludzkosci. Statki z tymi silnikami przyspieszaja szybciej o wlasnych silach, niz mozna by sie spodziewac, a jednoczesnie sa mniej podatne na sily zewnetrzne."
+
+# Power
+
+outfit "Quantum Vacuum Battery"
+	category "Power"
+	series "Batteries"
+	index 91010
+	cost 3000000
+	thumbnail "outfit/quarg quantum battery"
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 60000
+	"active cooling" 25
+	"cooling energy" 1.25
+	description "Ludzcy inzynierowie, ktorzy po raz pierwszy zetkneli sie z Quargami, byli zdumieni ogromna gestoscia energii ich technologii. Ta bateria Quargow gromadzi wystarczajaco duzo energii, by zrownac z ziemia male miasto, podobno jest przechowywana w ujemnej prozni kwantowej miedzy niezliczonymi malenkimi plytami. W jakis sposob bateria sama sie ochladza, gdy energia jest z niej wysysana, pozornie wbrew ludzkiemu pojmowaniu termodynamiki."
+
+
+outfit "Antimatter Core"
+	category "Power"
+	series "Generators"
+	index 91010
+	cost 20000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 12
+	"heat generation" 10
+	description "Chociaz ludzkosc jest obecnie w stanie wytwarzac antymaterie w stosunkowo duzych ilosciach w porownaniu z tysiacem lat temu, to wciaz nic w porownaniu z produkcja Quargow, ktorzy potrafia wytworzyc wystarczajaco duzo antymaterii, by wyposazyc nawet statki cywilne w niezwykle kompaktowe jadro antymaterii. To urzadzenie uwalnia ogromne ilosci energii w prostej, eleganckiej obudowie, jednoczesnie generujac zaskakujaco malo ciepla odpadowego."
+
+
+outfit "Singularity Core"
+	category "Power"
+	series "Generators"
+	index 91020
+	cost 50000000
+	thumbnail "outfit/quarg singularity core"
+	"mass" 400
+	"outfit space" -80
+	"energy generation" 23.5
+	"heat generation" 22.5
+	"inertia reduction" 0.15
+	description "Wedlug niewiele wiecej niz mglistych aluzji Quargow, te generatory zawieraja malenka czarna dziure, ktora wyrzuca promieniowanie, zasilajac ja struzka masy. Ta czarna dziura jest na tyle mala, ze emituje naprawde oszalamiajaca ilosc energii poprzez promieniowanie Hawkinga, ktore rosnie w miare kurczenia sie czarnej dziury, co sugeruje, ze czarna dziura w jadrze osobliwosci jest naprawde mikroskopijna."
+	description "	Kolejne szalone domysly naukowcow i zwolennikow teorii spiskowych glosza, ze Quargowie potrafia w jakis sposob oszukac prawa fizyki, sprawiajac, ze czarna dziura wazy znacznie mniej, niz powinna, zmniejszajac jej mase z masy malego ksiezyca do masy, ktora statek moglby przetransportowac."
+
+
+outfit "Quasar Core"
+	category "Power"
+	series "Generators"
+	index 91030
+	cost 100000000
+	thumbnail "outfit/quarg quasar core"
+	"mass" 600
+	"outfit space" -120
+	"energy generation" 37.5
+	"heat generation" 35
+	"inertia reduction" 0.15
+	description "Ten wiekszy generator wyglada podobnie do Rdzenia Osobliwosci, tylko jest jeszcze potezniejszy. Niewiele wiadomo o jego dokladnej funkcji, ale biorac pod uwage sama nazwe, niektorzy spekuluja, ze zwiekszona moc Rdzenia Kwazara wynika z tego, ze czarna dziura w jej jadrze otrzymala wystarczajaca ilosc masy, aby utworzyc maly dysk akrecyjny, ktory uwalnia swiatlo i cieplo, opadajac w kierunku horyzontu zdarzen i kompresujac sie do niewyobrazalnego stopnia."
+	description "	Chociaz proces ten powinien byc znacznie mniej ekonomiczny pod wzgledem zuzycia paliwa niz samo wychwytywanie promieniowania Hawkinga emitowanego przez czarna dziure, oszalamiajaca gestosc mocy tego generatora wydaje sie byc dowodem na to, ze warto bylo sie na niego zdecydowac."
+
+
+# Systems
+
+outfit "Aspis Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 91010
+	cost 5000000
+	thumbnail "outfit/quarg aspis shield generator"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 4
+	"shield energy" 2
+	"disruption protection" .2
+	"piercing protection" .4
+	description "Nawet najmniejszy przyklad generacji tarczy Quarg wykazuje moc obronna wieksza, niz ludzie normalnie uznaliby za wystarczajaca."
+
+
+outfit "Ancile Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 91020
+	cost 7500000
+	thumbnail "outfit/quarg ancile shield generator"
+	"mass" 55
+	"outfit space" -55
+	"shield generation" 6.25
+	"shield energy" 3.125
+	"disruption protection" .3
+	"piercing protection" .6
+	description "Poza tym, ze generatory oslon Quarg potrafia odzyskiwac oslony szybciej i wydajniej niz jakakolwiek inna technologia o znacznych rozmiarach, zapewniaja tez imponujacy stopien ochrony przed bronia zaprojektowana w celu calkowitego ominiecia oslon."
+
+
+outfit "Aegis Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 91030
+	cost 12500000
+	thumbnail "outfit/quarg aegis shield generator"
+	"mass" 80
+	"outfit space" -80
+	"shield generation" 10
+	"shield energy" 5
+	"disruption protection" .5
+	"piercing protection" 1
+	description "Pierwsi ludzie, ktorzy spotkali Quargow, sadzili, ze ich technologia opiera sie na magii i wielu z nich uwaza tak do dzis. Mechanizm dzialania tego generatora tarczy Quarg jest calkowicie nieznany ludzkosci, zapewniajac zdumiewajaca ochrone, a Quargowie nie chca zdradzac sekretow, ktore sie za nim kryja."
+
+
+outfit "Peripheral Repair Hub"
+	category "Systems"
+	series "Repair"
+	index 91010
+	cost 2000000
+	thumbnail "outfit/quarg peripheral repair hub"
+	"mass" 25
+	"outfit space" -25
+	"fuel generation" 0.025
+	"hull repair rate" 1
+	"hull energy" .5
+	description "Systemy naprawcze Quarg dzialaja w sposob, ktory zdaje sie przeczyc rzeczywistosci, gromadzac materie i wstrzykujac ja do kadluba i systemow paliwowych statku. Zapewnia to niezbedna konserwacje, ktora korzystnie wplywa na kluczowe aspekty lotow kosmicznych - trwalosc, dlugowiecznosc i, co najwazniejsze, przezywalnosc."
+
+
+outfit "Central Repair Hub"
+	category "Systems"
+	series "Repair"
+	index 91020
+	cost 5000000
+	thumbnail "outfit/quarg central repair hub"
+	"mass" 55
+	"outfit space" -55
+	"fuel generation" 0.07
+	"hull repair rate" 2.5
+	"hull energy" 1.25
+	description "W sposob nielatwo dostrzegalny dla czlowieka, system ten zbiera materie z otoczenia w kosmosie i przesyla ja z powrotem do statku z duzego, centralnego wezla przewodow i rur. Zgromadzona materia jest nastepnie wykorzystywana zarowno do regeneracji kadluba statku, jak i uzupelniania jego rezerw paliwa."
+
+
+# Weapons
+
+outfit "Skydagger"
+	category "Turrets"
+	series "Turrets"
+	index 91010
+	cost 8500000
+	thumbnail "outfit/quarg skydagger"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/skydagger"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/quarg skydagger"
+		"hardpoint offset" 7
+		sound "skydagger"
+		"hit effect" "skylance impact"
+		"inaccuracy" .6
+		"turret turn" 3.1
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4
+		"firing heat" .5
+		"shield damage" 7.5
+		"hull damage" 6
+		"ion damage" .05
+		"scrambling damage" .05
+	description "Gdy przytlaczajaca sila nie jest konieczna, bron wiazkowa jest uzywana zamiast potezniejszej broni, aby po prostu zapewnic obrone osobom postronnym. Pozostaje jednak zagrozeniem, ktorego nie nalezy lekcewazyc."
+
+outfit "Skylance"
+	category "Turrets"
+	series "Turrets"
+	index 91020
+	cost 18000000
+	thumbnail "outfit/quarg skylance"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/quarg skylance"
+		"hardpoint offset" 10
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"turret turn" 2.6
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8
+		"firing heat" 1
+		"shield damage" 15
+		"hull damage" 12
+		"ion damage" .1
+		"scrambling damage" .1
+	description "Mimo ze jest jedna z najstarszych i najmniej wyspecjalizowanych broni Quargow, ta niezwykle potezna bron wiazkowa budzi strach w sercach wszystkich, ktorzy odwaza sie jej przeciwstawic. Z konstrukcja, ktora przetrwala dluzej niz sama ludzkosc, Skylance to elegancka bron, pochodzaca z bardziej cywilizowanej epoki."
+
+effect "skylance impact"
+	sprite "effect/skylance impact"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 10
+	"random angle" 180
+	"velocity scale" 0.
+
+
+outfit "Stratospear"
+	category "Turrets"
+	series "Anti-Missile"
+	index 91010
+	cost 9000000
+	thumbnail "outfit/quarg stratospear"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hit effect" "quarg anti-missile"
+		"hardpoint sprite" "hardpoint/quarg anti missile"
+		"hardpoint offset" 4
+		"anti-missile" 25
+		"velocity" 500
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 40
+	description "Chociaz rzadko zdarzaja sie osoby, ktore moga bezposrednio dorownac mocy broni energetycznej Quargow, niektore nierozsadne, mlodsze rasy probowaly przeciwstawic sie Quargom za pomoca broni jadrowej opartej na pociskach, liczac na to, ze ich niszczycielska moc zrownowazy szanse. Te systemy obrony przeciwrakietowej Quargow, wystrzeliwujace precyzyjne wiazki energii, czesto niweczyly te nadzieje, celujac pociskami z duzej odleglosci i zapewniajac, ze tylko najpotezniejsze pociski sa w stanie zblizyc sie do statku Quargow."
+
+effect "quarg anti-missile"
+	sprite "effect/quarg anti missile"
+		"no repeat"
+		"frame rate" 3
+	sound "quarg anti-missile"
+	"sound category" "anti-missile"
+	"lifetime" 21
+	"velocity scale" 1
+
+
+outfit "Elysian Ranseur"
+	category Guns
+	series "Guns"
+	index 91010
+	cost 40000000
+	mass 65
+	thumbnail "outfit/quarg ranseur"
+	"gun ports" -1
+	"outfit space" -65
+	"weapon capacity" -65
+	weapon
+		sound "ranseur"
+		"fire effect" "ranseur"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 10
+		lifetime 1
+		reload 100
+		velocity 600
+		"firing energy" 900
+		"firing heat" 30
+		"shield damage" 2100
+		"hull damage" 1500
+		"hit force" 600
+		"penetration count" 5
+	description "Technologia stojaca za ta bronia jest niewyobrazalnie zlozona, wytwarzajac impulsy energii, ktore zakrzywiaja sama czasoprzestrzen. Potezne impulsy grawitacyjne sa przepychane przez fald, z latwoscia przenikajac przez wiele celow i zadajac niebezpieczne ciosy tym, ktorzy znajda sie na ich drodze. Jak ta bron jest w stanie to zrobic, wiedza tylko Quargowie."
+
+
+effect "ranseur"
+	sprite effect/ranseur
+		"frame rate" 30
+		"no repeat"
+	lifetime 11
+
+
+outfit "Celestial Culverin"
+	category Guns
+	series "Guns"
+	index 91020
+	cost 22000000
+	mass 45
+	thumbnail "outfit/quarg culverin"
+	"gun ports" -1
+	"outfit space" -45
+	"weapon capacity" -45
+	weapon
+		sprite projectile/culverin
+			"frame rate" 60
+			"random start frame"
+			rewind
+		sound "culverin"
+		"hit effect" "culverin hit" 20
+		"die effect" "culverin die"
+		lifetime 110
+		reload 36
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 10
+		acceleration 0.6
+		drag 0.05
+		turn 60
+		inaccuracy 12
+		"stream"
+		tracking .7
+		"firing energy" 180
+		"firing heat" 22.5
+		"shield damage" 300
+		"hull damage" 225
+		"slowing damage" 4.5
+		"fuel damage" 9
+		"missile strength" 600
+	description "Ta bron wplata sie w czasoprzestrzen w sposob niepojety, wytwarzajac sily grawitacyjne, ktore spowalniaja cel. Jakby spelniajac swoje przeznaczenie, pociski sa naprowadzane na cel, zaklocajac jego systemy paliwowe. Ta uzytecznosc, oprocz tego, ze jest niemal nieunikniona, pozwala broni namierzac bardziej odleglych wrogow Quargow."
+
+effect "culverin hit"
+	sprite "effect/skylance impact"
+		"frame rate" 30
+		"no repeat"
+	lifetime 2
+	"random lifetime" 4
+	"velocity scale" 0
+	"random angle" 180
+	"random velocity" 8
+
+effect "culverin die"
+	sprite "effect/jump drive"
+		"frame rate" 30
+		"no repeat"
+	lifetime 5
+	"velocity scale" 0.4
+
+
+outfit "Astral Ribault"
+	category "Turrets"
+	series "Turrets"
+	index 91030
+	cost 15000000
+	thumbnail "outfit/quarg ribault"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ribault"
+		"hardpoint sprite" "hardpoint/quarg ribault"
+		"hardpoint offset" 10.
+		"fire effect" "ribault flare"
+		"hit effect" "electron impact"
+		sound "ribault"
+		"inaccuracy" 13
+		"turret turn" 2.5
+		"velocity" 13
+		"reload" 17
+		"burst reload" 2
+		"burst count" 19
+		"firing energy" 80
+		"firing heat" 5
+		"submunition" "ribault unguided" 2
+	description "Szybkie serie pociskow wystrzeliwane przez te wiezyczke pokrywaja szeroki obszar z duzej odleglosci, wystrzeliwujac burze czastek negatywnej energii. Sily przyciagania kieruja te czastki w strone celu, zadajac bardzo duze obrazenia wrogom w bezposrednim sasiedztwie, jednoczesnie utrzymujac uciekajacych w zasiegu Quarga."
+
+outfit "ribault unguided"
+	weapon
+		sprite "projectile/ribault"
+		"hit effect" "ribault impact"
+		"inaccuracy" 11
+		"lifetime" 20
+		"submunition" "ribault guided"
+
+outfit "ribault guided"
+	weapon
+		sprite "projectile/ribault"
+			"frame rate" 10
+			"random start frame"
+		"hit effect" "ribault impact"
+		"inaccuracy" 11
+		"lifetime" 30
+		"fade out" 7
+		"turn" 5
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .6
+		"acceleration" 1
+		"drag" .1
+		"hit force" -120
+		"shield damage" 100
+		"hull damage" 35
+
+effect "ribault flare"
+	sprite "effect/distancer"
+		"frame rate" 1.2
+	"lifetime" 0
+	"velocity scale" .1
+
+effect "ribault impact"
+	sprite "effect/electron impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003
+
+
+outfit "Slipstream Projector"
+	category "Guns"
+	series "Guns"
+	index 91030
+	cost 18000000
+	thumbnail "outfit/unknown"
+	"mass" 200
+	"outfit space" -200
+	"weapon capacity" -200
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/slipstream projector/slipstream"
+			"frame rate" 20
+		sound "slipstream projector"
+		"inaccuracy" .1
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 30
+		"firing heat" 2
+		"hit force" -400
+		"shield damage" 30
+		"penetration count" 100
+	description "Chociaz dokladne dzialanie technologii grawitonowej pozostaje tajemnica, nie jest tajemnica, ze to urzadzenie manipuluje grawitacja w tak cudowny sposob, ze nagina nawet masywna architekture pierscieniowych planet do swoich potrzeb. Choc sila nie jest wystarczajaca, by uszkodzic delikatna konstrukcje, ujemna energia jest na tyle silna, by zerwac oslone statku w zadziwiajaco krotkim czasie."
+
+
+# Special
+
+outfit "Phalanx System"
+	category "Hand to Hand"
+	series "Fortifications"
+	index 91010
+	thumbnail "outfit/quarg countermeasures"
+	"capture defense" 36
+	"unplunderable" 1
+	description "Ze szczegolna ostroznoscia, jesli chodzi o potencjalna kradziez i niewlasciwe wykorzystanie technologii, statki Quargow sa wyposazone w specjalne systemy odstraszajace abordaz w sposob, ktory mozna by uznac za przesade. Poniewaz nikt nie chce zostac przylapany przez Quargow ze skradziona technologia, systemy te sa praktycznie bezwartosciowe na wolnym rynku."

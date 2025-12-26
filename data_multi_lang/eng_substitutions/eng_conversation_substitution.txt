@@ -19415,3 +19415,4 @@ substitutions
 	"CN-19413" `	Still, it might be best to listen to what the Quarg said and exercise caution going forward.`
 	"CN-19414" `The Scin ships following you off the planet show little hesitation before firing their weapons at you, likely feeling provoked by your choice of actions with them during the encounter. Still, they must have some sort of interest in you if they led you to them, meaning that there could be other possibilities to get involved with the Gegno at other locations in their space.`
 	"CN-19415" `	Still, the Gegno already have qualms with outsiders. It might be a good idea to listen to what the Quarg said about exercising caution, especially if it leads to hostile encounters.`
+	"CN-19416" `Alfy mogą żyć wieki i jest prawdopodobne, że wiele z nich przetrwało, ukrywając się na anarchistycznych światach lub gdzieś poza ludzką przestrzenią. Na szczęście rozmnażają się znacznie wolniej niż zwykli ludzie.`
