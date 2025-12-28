@@ -1,0 +1,1234 @@
+# Copyright (c) 2014 by Michael Zahniser and Nate Graham
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+phrase "deep mystery cube pickup"
+	word
+		`Zgodnie z instrukcją,`
+		`Ty`
+	word
+		` `
+	word
+		`otwórz skrytkę depozytową`
+		`otwórz schowek`
+	word
+		` `
+	word
+		`w nieoznakowanym i niezamieszkanym magazynie`
+		`w pobliżu miejsca lądowania`
+	word
+		` `
+	word
+		`i podnieś tajemniczą paczkę. To mały, czarny sześcian o boku około dwóch centymetrów, zaskakująco ciężki jak na swój rozmiar, bez żadnych oznaczeń.`
+	word
+		` `
+	word
+		`Nieparzyste.` 2
+		`Dziwne.` 2
+		`Wydaje ci się, że widzisz jakąś podejrzaną postać, która cię obserwuje, ale to może być tylko twoja wyobraźnia.`
+		`Słyszysz, jak ktoś podaje twój opis, ale nie wiesz, skąd on pochodzi ani z kim rozmawia.`
+		`Wychodząc, nawiązujesz kontakt wzrokowy z niebezpiecznie wyglądającym osobnikiem. Czy cię obserwowali? Pewnie to zbieg okoliczności.`
+
+phrase "deep mystery cube dropoff payment"
+	word
+		`Zgodnie z instrukcją,`
+	word
+		` `
+	word
+		`zostaw tajemniczą kostkę na poboczu drogi kilka kilometrów od kosmoportu.`
+		`zostaw tajemniczą kostkę za chwiejną drewnianą wieżą.`
+		`zakop kostkę gdzieś na odludziu, zanim wylądujesz w porcie kosmicznym.`
+		`przekaż kostkę pierwszej żebraczce, którą zobaczysz na planecie. Przyjmuje ją bez słowa i odchodzi.`
+		`zostaw kostkę w magazynie. Nikt się nie pojawi, żeby ją zabrać.`
+	word
+		``
+		` "To musi być legalne, inaczej nie mogliby tego opublikować na tablicy ogłoszeń," przypominasz sobie.`
+	word
+		` `
+	word
+		`Twoje konto bankowe natychmiast powiadamia Cię, że uzgodniona płatność w wysokości <payment> została zaksięgowana. Zastanawiasz się, skąd o tym wiedzieli.`
+
+phrase "deep mystery cube dropoff station payment"
+	word
+		`Zgodnie z instrukcją,`
+	word
+		` `
+	word
+		`zostaw tajemniczą kostkę w drugiej szafce z zapasami, na którą trafisz.`
+		`zostaw tajemniczą kostkę w odkręconym otworze wentylacyjnym.`
+		`Podaj kostkę trzeciej parze turystów, którą zobaczysz na stacji. Przyjmują ją bez słowa.`
+		`wrzuć kostkę do miedzianego kosza na śmieci w porcie kosmicznym.`
+		`wrzuć kostkę do zsypu na pranie.`
+	word
+		``
+		` "To musi być legalne, inaczej nie mogliby tego opublikować na tablicy ogłoszeń," przypominasz sobie.`
+	word
+		` `
+	word
+		`Twoje konto bankowe natychmiast powiadamia Cię, że uzgodniona płatność w wysokości <payment> została zaksięgowana. Zastanawiasz się, skąd o tym wiedzieli.`
+
+mission "Mystery Cube Delivery Job Safe [0]"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 7 16
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 30
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+
+mission "Mystery Cube Delivery Job Safe [1]"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 9 20
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 15
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+mission "Mystery Cube Delivery Job [0]"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 7 16
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 45
+		"combat rating" > 35
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	npc
+		government "Bounty Hunter"
+		personality nemesis disables waiting plunders
+		system
+			distance 6 9
+		fleet "Bounty Hunters"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"reputation: Deep Security" += 2
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+
+mission "Mystery Cube Delivery Job [1]"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 9 20
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 30
+		"combat rating" > 35
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	npc
+		government "Bounty Hunter"
+		personality nemesis disables waiting plunders
+		system
+			distance 6 9
+		fleet "Bounty Hunters"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"reputation: Deep Security" += 2
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+
+mission "Mystery Cube Delivery Job [2]"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 9 20
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 30
+		"combat rating" > 35
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	npc
+		government "Bounty Hunter"
+		personality nemesis disables waiting plunders
+		system
+			distance 6 9
+		fleet "Bounty Hunters"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"reputation: Deep Security" += 2
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+
+mission "Mystery Cube Delivery Job [3]"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 9 20
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 30
+		"combat rating" > 35
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	npc
+		government "Bounty Hunter"
+		personality nemesis disables waiting plunders
+		system
+			distance 6 9
+		fleet "Bounty Hunters"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"reputation: Deep Security" += 2
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+
+mission "Mystery Cube Delivery Job Station"
+	job
+	repeat
+	name "Tajemnicza dostawa do <planet>"
+	description "Dostarcz paczkę do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 9 20
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 10
+		"combat rating" > 35
+	on accept
+		dialog phrase "deep mystery cube pickup"
+	npc
+		government "Bounty Hunter"
+		personality nemesis disables waiting plunders
+		system
+			distance 6 9
+		fleet "Bounty Hunters"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"reputation: Deep Security" += 2
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff station payment"
+
+
+mission "Mystery Cube Retrieval Job"
+	job
+	repeat
+	name "Tajemnicze odnalezienie <planet stopovers>"
+	description "Odbierz paczkę z <stopovers>, a następnie wróć do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	stopover
+		distance 9 20
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Hai" "Quarg"
+		attributes "spaceport"
+		not attributes "station"
+	cargo "mystery package" 1
+	to offer
+		random < 30
+		"combat rating" > 35
+	npc
+		government "Bounty Hunter"
+		personality nemesis disables waiting plunders
+		system
+			distance 10 17
+		fleet "Bounty Hunters"
+	on stopover
+		dialog phrase "deep mystery cube pickup"
+	on visit
+		dialog phrase "generic missing stopover or cargo"
+	on complete
+		"reputation: Deep Security" += 2
+		"mystery cube" ++
+		payment 5000 1000
+		dialog phrase "deep mystery cube dropoff payment"
+
+
+mission "Transport scientists"
+	job
+	repeat
+	description "Zespół <bunks> naukowców potrzebuje przeanalizować notatki badawcze w ośrodku na <stopovers>. Zabierz naukowców tam, a następnie zwróć ich do <planet> na <payment>."
+	source
+		attributes "deep"
+	stopover
+		attributes "education" "research"
+		not attributes "uninhabited"
+		distance 2 50
+	passengers 3 4 .43
+	to offer
+		random < 15
+	on stopover
+		dialog "Naukowcy z entuzjazmem omawiali wyniki swoich badań przez całą podróż. Cieszysz się z chwili spokoju, gdy jadą do ważnego laboratorium badawczego, by poddać wyniki analizie. Przygotowujesz się do podróży powrotnej do <planet>."
+	on visit
+		dialog phrase "generic missing stopover or passengers"
+	on complete
+		dialog "Żegnasz się z naukowcami i akceptujesz zapłatę w wysokości <payment>."
+		payment
+		payment 30000
+
+
+mission "Transport science department"
+	job
+	repeat
+	description "Dział <bunks> naukowców potrzebuje przeanalizować notatki badawcze w ośrodku w dniu <stopovers>. Zabierz naukowców tam, a następnie zwróć ich do <planet> na <payment>."
+	source
+		attributes "deep"
+	stopover
+		attributes "education" "research"
+		not attributes "uninhabited"
+		distance 2 50
+	passengers 20 4 .1
+	to offer
+		random < "passenger space" - 30
+	on stopover
+		dialog "Naukowcy z entuzjazmem dzielili się wynikami prac każdego ze swoich zespołów badawczych i omawiali je przez całą podróż. Cieszysz się z chwili spokoju, gdy podążają do ważnego laboratorium badawczego, by poddać wyniki analizie. Przygotowujesz się do podróży powrotnej do <planet>."
+	on visit
+		dialog phrase "generic missing stopover or passengers"
+	on complete
+		dialog "Żegnasz się z naukowcami i akceptujesz zapłatę w wysokości <payment>."
+		payment 180000 100
+
+
+mission "Escort science vessel"
+	job
+	repeat
+	description "Załoga statku naukowego <npc> prosi o eskortę do <stopovers>, gdzie planują badać pewne niezwykłe zjawiska. Eskortujcie ich tam, a następnie zawieźcie do <planet> na <payment>."
+	source
+		attributes "research"
+	stopover
+		attributes "education" "quarg" "pirate" "volcanic" "frontier" "dirt belt" "north" "south"
+		distance 6 50
+	to offer
+		random < 15
+		"combat rating" > 50
+	npc
+		government "Pirate"
+		personality nemesis waiting plunders
+		system
+			distance 2 3
+		fleet "pirate raid"
+	
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		fleet
+			names "deep science vessel"
+			variant
+				"Scout"
+			variant
+				"Bounder"
+			variant
+				"Star Queen"
+	on stopover
+		dialog "<npc> ląduje obok ciebie, a zespoły naukowców w eleganckich białych fartuchach laboratoryjnych i poważnych butach oraz rękawiczkach zjeżdżają na miejsce testów z wszelkiego rodzaju egzotycznym sprzętem. Podczas gdy oni dokonują pomiarów, ty przygotowujesz się do podróży powrotnej do <planet>."
+	on visit
+		dialog "Osiągnąłeś <planet>, ale nie możesz ukończyć tej misji, dopóki <npc> nie odwiedzi <stopovers> razem z tobą i nie dołączy do ciebie tutaj."
+	on complete
+		dialog "Żegnasz się z kapitanem <npc> i przyjmujesz zapłatę w wysokości <payment>."
+		payment
+		payment 60000
+
+phrase "academic conference recording payment"
+	word
+		`Lądujesz na <planet> i udajesz się do sali konferencyjnej na okazałym uniwersytecie. Podane dane uwierzytelniające umożliwiają Ci dostęp i ustawiasz sprzęt nagrywający z tyłu sali.`
+	word
+		` `
+	word
+		`Paneliści są elektryzujący, elokwentnie wypowiadając się na różnorodne, nowatorskie tematy z zakresu nauk ścisłych i humanistycznych. To doświadczenie pozostawia w nas niezwykle optymistyczne nastawienie do przyszłości ludzkości, tu, w gwiazdach.`
+	word
+		` `
+	word
+		`Przesyłasz wideo do swojego kontaktu na adres <origin> i otrzymujesz zapłatę w wysokości <payment>.`
+
+mission "Record academic conference"
+	job
+	repeat
+	description "Nagranie konferencji naukowej na temat <destination> dla profesorów, którzy nie mogą w niej uczestniczyć. Zapewnimy akredytacje i sprzęt nagrywający. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		attributes "education" "research" "quarg" "rich" "paradise"
+		distance 4 10
+	cargo "recording equipment" 1
+	to offer
+		random < 15
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "academic conference recording payment"
+		payment 5000 1000
+
+
+phrase "secure package pickup"
+	word
+		`Zgodnie z instrukcją,`
+		`Ty`
+	word
+		` `
+	word
+		`odbierz paczkę z bezpiecznego stanowiska bagażowego`
+		`odebrać przesyłkę z biura ochrony`
+	word
+		` `
+	word
+		`w cichej części kosmoportu.`
+		`w pobliżu miejsca lądowania.`
+	word
+		` `
+	word
+		`To duża skrzynia na wbudowanym, bezpiecznym wózku antygrawitacyjnym.`
+		`To małe pudełko z elektronicznym zamkiem szyfrowym.`
+		`To miękki, ale szczelnie zapakowany pakunek, który wydaje niepokojący dźwięk, gdy się go ściska.`
+
+phrase "secure package dropoff payment"
+	word
+		`Zgodnie z instrukcją dostarczasz paczkę do`
+	word
+		` `
+	word
+		`lad recepcyjny firmy technologicznej.`
+		`znudzony oficer ochrony portu kosmicznego.`
+		`sklep z wyszukanymi osobliwościami.`
+		`funkcjonariusz w ubraniu cywilnym, który otrzymuje dokument po okazaniu minimalnego potwierdzenia tożsamości.`
+		`starsza pani czekająca na ławce.`
+		`inny kapitan statku czeka na dokach.`
+	word
+		` `
+	word
+		`Na Twoje konto bankowe zostanie niezwłocznie wysłane powiadomienie o zaksięgowaniu uzgodnionej kwoty <payment>.`
+
+
+mission "Secure Transport Job (Secret) [0]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 25
+		not "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Secret) [1]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 20
+		not "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Secret) [2]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 20
+		not "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Secret) [3]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 20
+		not "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Secret) [4]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 20
+		not "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+
+mission "Deep Security Package Reveal"
+	minor
+	invisible
+	source
+		attributes "deep"
+		not attributes "station"
+	to offer
+		"reputation: Deep Security" >= 40
+		"secure deep package" >= 20
+		"mystery cube" >= 5
+		not "deep security reveal"
+		or
+			not "chosen sides"
+			has "main plot completed"
+	on offer
+		log "Minor People" "Agent Wayde" `Młody agent w dziale logistyki Deep Security, poręczył za twoje zwiększone możliwości zatrudnienia po tym, jak mu pomogłeś.`
+		conversation
+			`As you turn to leave a food stand in the spaceport, a rather young man in activewear waves you over to a bench off to the side of the main drag.`
+			choice
+				`	(Go over to him.)`
+					goto bench
+				`	(Keep walking.)`
+			`	When you go to ignore him he gives a quick, sharp, whistle and briefly flashes a Deep Security badge at you. He immediately covers this with a friendly wave for any nearby eyes, but it is clear that he won't be ignored.`
+			label bench
+			`	When you approach the bench he says, "Hello captain. Please, have a seat and allow me to take a moment of your time."`
+			`	His manner is very rehearsed, but he seems quite intent and assured in his request.`
+			choice
+				`	"Sure. Who are you?"`
+					goto who
+				`	"Sorry, but I'm busy right now."`
+			`	"To be clear, I'm here to thank you, if that helps." he says.`
+			choice
+				`	"Oh. What is it?" (Sit down.)`
+				`	"Sorry, maybe next time."`
+					decline
+			label who
+			`	As you sit down, the man smiles at you before directing his attention back to those passing by as he speaks. "My name is Wayde, Agent Wayde if you will. Don't mind the title though, I... well I work in the logistics division for Deep Security. You've transported a large number of secure packages recently, and several of them were mine."`
+			choice
+				`	"If it pays, it pays."`
+					goto "blind acceptance"
+				`	"Ah, yes."`
+					goto "blind acceptance"
+				`	"Do all the secure packages belong to Deep Security?"`
+			`	"Oh no, plenty of tech businesses and wealthy individuals use the same secure package shipping channels. We do monitor all of them though just to make sure our own channels don't get compromised by something ill-advised... or illegal." He shrugs, giving you a measured look.`
+			label "blind acceptance"
+			`	"Well, I looked at your record and it seems you've done quite a lot for the Deep, and you're well-regarded. We like to keep a list of pilots that we can call on if we need something delivered with either urgency or discretion, and it seems like you qualified. You passed the background check at any rate.`
+			`	"So at any rate, I'm authorized to give you a one-time offer to join that list. Don't worry, I'm not asking anything of you right now."`
+			`	He stops keeping an eye on passers-by for a moment to look directly at you. "So, are you interested?"`
+			choice
+				`	"I'm willing to help."`
+					goto agree
+				`	"Sorry, but I don't think I want to get that involved."`
+					decline
+				`	"You said 'at any rate' twice."`
+			`	His expression twitches slightly but he carries on with a chuckle. "Er, good catch. The question stands though."`
+			choice
+				`	"I'm willing to help."`
+					goto agree
+				`	"Sorry, but I don't think I want to get that involved."`
+					decline
+			label agree
+			`	"Excellent," he says, standing up and stretching as if concluding a friendly conversation. He turns back to you with a smile, "I'll add you to the list as soon as I get back to the office then. Your ID will also let you see which packages are ours specifically too. Oh, and again, thank you!"`
+			action
+				set "deep security reveal"
+			`	Agent Wayde appears to flick a subtle salute your direction, or perhaps merely tips an imaginary cap. "Good day, captain. I look forward to working with you in the future."`
+			`	With a quick motion he flicks his hair back out his eyes and jogs away, sending one last wave your direction just before he turns a corner and disappears.`
+				decline
+
+
+mission "Secure Transport Job (Basic) [0]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 50
+		has "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Basic) [1]"
+	job
+	repeat
+	name "Bezpieczna dostawa do <planet>"
+	description "Dostarcz bezpieczną paczkę z materiałami do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "secure package" 1
+	to offer
+		random < 50
+		has "deep security reveal"
+		"reputation: Deep Security" >= 0
+		"reputation: Deep Security" >= "secure deep package" * -3
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 3
+	on complete
+		payment 3000 750
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Deep Security) [0]"
+	job
+	repeat
+	name "Dostawa Deep Security do <planet>"
+	description "Dostarcz pakiet Deep Security do <destination>. Płatność wynosi <payment>."
+	cargo "deep security package" 1
+	to offer
+		random < 20
+		has "deep security reveal"
+		"reputation: Deep Security" >= 40
+		"secure deep package" >= 20
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 5
+	on complete
+		payment 5000 1000
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Secure Transport Job (Deep Security) [1]"
+	job
+	repeat
+	name "Dostawa Deep Security do <planet>"
+	description "Dostarcz pakiet Deep Security do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	cargo "deep security package" 1
+	to offer
+		random < 20
+		has "deep security reveal"
+		"reputation: Deep Security" >= 40
+		"secure deep package" >= 20
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 5
+	on complete
+		payment 5000 1000
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+
+mission "Deep Consultants"
+	minor
+	name "Konsultanci ds. transportu do <planet>"
+	description "Julie i jej asystentka spóźniły się na transport i muszą dotrzeć na <destination> do <date>, aby zdążyć na kilka ważnych spotkań biznesowych."
+	source
+		attributes "deep"
+		attributes "urban"
+		not attributes "station" "moon"
+		not planet "Valhalla"
+	destination "Valhalla"
+	deadline 2 1
+	passengers 2
+	to offer
+		"reputation: Deep Security" >= 60
+		"secure deep package" >= 30
+		has "deep security reveal"
+		or
+			not "chosen sides"
+			has "main plot completed"
+	on offer
+		conversation
+			`Strolling through the spaceport, you are suddenly accosted by a young and breathless woman. "Please, Captain," she wheezes, "I'm so glad I caught you."`
+			`	After drawing in a deep breath, she stands up straighter and gestures to someone some distance away. "Captain, I'm sorry, but my colleague Julie and I are in dire need of urgent transport. Can you help?"`
+			`	As she catches her breath some more, her older colleague hustles over, bags in tow.`
+			choice
+				`	"Sure, I'd be glad to help."`
+					goto sure
+				`	"Where do you need to go?"`
+				`	"Why is it so urgent?"`
+				`	"Who are you?"`
+			`	Julie holds out her hand in greeting. "Apologies, let's do this properly. My name is Julie Gillar. My assistant and I were held back with our duties and missed our booked transport. We're in dire need of passage to Valhalla for several important business meetings, but unfortunately everything is booked up for the next five days straight, and that's just not acceptable to my employer."`
+			choice
+				`	"Sure, I'd be glad to help."`
+					goto sure
+				`	"Who's your employer?"`
+			`	Julie furtively glances at the people nearby. "Well, I have a few employers actually, but at the moment, indirectly, Deep Security."`
+			`	She leans in slightly closer and lowers her voice. "We have access to their list of trustworthy pilots for emergencies. You'll be paid quite well."`
+			choice
+				`	"Sure, I'd be glad to help."`
+					goto sure
+				`	"I'm sorry, but I really can't help you right now."`
+					decline
+			label sure
+			`	"Lead right on then," says Julie. You point towards your ship, and the women move to board it.`
+				accept
+	on complete
+		log "Minor People" "Julie Gillar" `Konsultantka, która pracowała z Deep Security. Poprosiła cię o transport ratunkowy i pokazała, jak być dostępnym dla przyszłych konsultantów.`
+		payment 350000
+		set "deep security consultants"
+		conversation
+			`Julie and her assistant are model passengers the entire journey. As she prepares to disembark, she thanks you for your assistance. In addition to transferring <payment> into your account, she helps you change your job board preferences with the local spaceport agencies to make yourself available for business passengers consulting with Deep Security.`
+			`	"Thank you Captain <last>, you've been most helpful. Do keep an eye out in the spaceports around here though. Deep Security is notorious for keeping us longer than we're booked for. There's often someone stuck and in need of rapid transport off-world."`
+
+
+phrase "stranded consultant pickup"
+	word
+		`Zgodnie z prośbą o zakwaterowanie`
+		`Pomimo krótkiego terminu, ty`
+	word
+		` `
+	word
+		`spotkaj się z <passengers> w ich hotelu`
+		`odbierz <passengers> ze stacji ochrony`
+		`wyłowić <passengers> z podejrzanego baru`
+		`uratuj <passengers> przed despotycznymi towarzyszami`
+	word
+		` `
+	word
+		`w cichej części kosmoportu`
+		`po drugiej stronie miasta`
+		`w hałaśliwej dzielnicy tuż za portem`
+	word
+		` `
+	word
+		`i eskortować ich na pokładzie.`
+
+phrase "stranded consultant dropoff payment"
+	word
+		`Konsultanci dziękują Ci, gdy dowozisz ich do celu.`
+	word
+		` `
+	word
+		`Dopiero później dowiadujesz się, że w jednej z twoich kabin zostawili parę brudnych butów.`
+		`Następnie znajdujesz krawat wiszący na jednej z klamek drzwi twojego statku.`
+		`Później znajdujesz na pokładzie pogniecione dokumenty i mądrze wrzucasz je do spalarni okrętowej, nie patrząc na nie.`
+	word
+		` `
+	word
+		`Wkrótce na Twoje konto bankowe zostanie zaksięgowana uzgodniona kwota <payment>.`
+
+
+mission "Transport Consultants (Deep Security) [0]"
+	job
+	repeat
+	name "Konsultanci ds. głębokiego bezpieczeństwa transportu"
+	description "Transport <fare>, którego rozkłady jazdy zostały zrujnowane przez Deep Security, do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		attributes "urban"
+		not attributes "station"
+	passengers 1 8
+	to offer
+		random < 20
+		has "deep security consultants"
+		"reputation: Deep Security" >= 60
+		"secure deep package" >= 30
+	on accept
+		dialog phrase "stranded consultant pickup"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 7
+	on complete
+		payment 10000 300
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "stranded consultant dropoff payment"
+
+mission "Transport Consultants (Deep Security) [1]"
+	job
+	repeat
+	name "Konsultanci ds. głębokiego bezpieczeństwa transportu"
+	description "Transport <fare>, którego rozkłady jazdy zostały zrujnowane przez Deep Security, do <destination>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+		not attributes "station"
+	destination
+		distance 2 7
+		attributes "deep"
+		attributes "urban"
+		not attributes "station"
+	passengers 1 8
+	to offer
+		random < 20
+		has "deep security consultants"
+		"reputation: Deep Security" >= 60
+		"secure deep package" >= 30
+	on accept
+		dialog phrase "stranded consultant pickup"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 7
+	on complete
+		payment 10000 300
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "stranded consultant dropoff payment"
+
+
+mission "Urgent Deep Sec Package"
+	minor
+	repeat
+	name "Dostawa Rush Deep Security"
+	description "Dostarcz pakiet Deep Security do <destination> do <date>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 6 7
+		attributes "deep"
+		not planet "Valhalla"
+		not attributes "station"
+	deadline 1 1
+	cargo "deep security package" 1
+	to offer
+		random < 3
+		has "deep security reveal"
+		"reputation: Deep Security" >= 40
+		"secure deep package" >= 20
+	on offer
+		dialog `Gdy idziesz przez kosmodrom, podchodzi do ciebie mężczyzna i pokazuje identyfikator Deep Security. "Witaj Kapitanie <last>. Potrzebujemy kogoś, kto dostarczy to do <destination> do <date>, najkrótszą możliwą trasą. "`
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 7
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 30000 1000
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission "Urgent Deep Sec Consultants [0]"
+	minor
+	repeat
+	name "Konsultanci ds. bezpieczeństwa Rush Deep"
+	description "Dostarcz <bunks> konsultantów Deep Security do <destination> do <date>. Płatność wynosi <payment>."
+	source
+		attributes "deep"
+	destination
+		distance 6 7
+		attributes "deep"
+		attributes "urban"
+		not attributes "station"
+	deadline 1 1
+	passengers 2 6
+	to offer
+		random < 1
+		has "deep security consultants"
+		"reputation: Deep Security" >= 60
+		"secure deep package" >= 30
+	on offer
+		dialog `Gdy przechadzasz się po porcie kosmicznym, podchodzi do ciebie zapracowany mężczyzna i informuje, że <bunks> konsultanci Deep Security, w tym on sam, potrzebują pilnego transportu do <destination> do <date>, nie zostawiając czasu na międzylądowania.`
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 9
+	on complete
+		payment 60000 300
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "stranded consultant dropoff payment"
+
+mission "Urgent Deep Sec Consultants [1]"
+	repeat
+	minor
+	name "Konsultanci ds. bezpieczeństwa Rush Deep"
+	description "Dostarcz <bunks> konsultantów Deep Security do <destination> do <date>. Płatność wynosi <payment>."
+	source
+		near "Epsilon Leonis" 3 4
+		attributes "deep"
+		not attributes "station"
+	destination "Valhalla"
+	deadline 1 1
+	passengers 2 6
+	to offer
+		random < 3
+		has "deep security consultants"
+		"reputation: Deep Security" >= 60
+		"secure deep package" >= 30
+	on offer
+		dialog `Gdy przechadzasz się po porcie kosmicznym, podchodzi do ciebie zapracowany mężczyzna i informuje, że <bunks> konsultanci Deep Security, w tym on sam, potrzebują pilnego transportu do <destination> do <date>, nie zostawiając czasu na międzylądowania.`
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		# No penalty for aborting.
+	on fail
+		"secure deep package" -= 9
+	on complete
+		payment 60000 300
+		"reputation: Deep Security" += 1
+		"secure deep package" ++
+		dialog phrase "stranded consultant dropoff payment"
+
+
+mission "Lionheart Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Lionheart Industries, znanego z zaawansowanych i eksperymentalnych projektów. Płatność wynosi <payment>."
+	cargo "weapons" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Valhalla"
+	source
+		near "Epsilon Leonis" 2 10
+		attributes factory
+	destination Valhalla
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Lionheart Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Lionheart Industries, znanego z zaawansowanych i eksperymentalnych projektów. Płatność wynosi <payment>."
+	cargo "Ship Alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Valhalla"
+	source
+		near "Epsilon Leonis" 2 10
+		attributes factory research
+	destination Valhalla
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Lionheart Shipment [2]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Lionheart Industries, znanego z zaawansowanych i eksperymentalnych projektów. Płatność wynosi <payment>."
+	cargo "Ship Systems" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Valhalla"
+	source
+		near "Epsilon Leonis" 2 10
+		attributes factory mining
+	destination Valhalla
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Deep Sky Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Deep Sky, producenta najnowocześniejszej cybernetyki, broni i wyposażenia statków kosmicznych. Płatność wynosi <payment>."
+	cargo Metal 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Asgard"
+	source
+		near Naos 2 15
+		attributes factory
+	destination Asgard
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Deep Sky Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Deep Sky, producenta najnowocześniejszej cybernetyki, broni i wyposażenia statków kosmicznych. Płatność wynosi <payment>."
+	cargo Electronics 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Asgard"
+	source
+		near Naos 2 15
+		attributes factory research
+	destination Asgard
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Deep Hovercraft Racer Transport"
+	name "Transportuj kierowcę wyścigowego do <planet>"
+	description "Dostarcz pilota i jego poduszkowiec do <destination> w celu wzięcia udziału w wyścigu do <date>."
+	passengers 1
+	cargo "Deep hovercraft" 1
+	job
+	repeat
+	deadline
+	deadline 8
+	to offer
+		random < 6
+		has "landing access: Sunracer"
+	source
+		attributes "deep"
+	destination Sunracer
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 11000
+		dialog `Odwozisz pilota z poduszkowcem i pobierasz opłatę w wysokości <payment>.`
+
+mission "Deep Hovercraft Large Racer Transport"
+	name "Zespół transportowy do <planet>"
+	description "Dostarcz tę <passengers>-osobową drużynę wyścigową i jej <cargo> do <destination>, aby mogli wziąć udział w wyścigu do <date>."
+	passengers 50 100 .9
+	cargo "Deep hovercraft" 50
+	job
+	repeat
+	deadline
+	deadline 8
+	to offer
+		random < 1
+		has "landing access: Sunracer"
+	source
+		attributes "deep"
+	destination Sunracer
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 23000
+		dialog `Odwozisz drużynę wyścigową z poduszkowcem i odbierasz opłatę w wysokości <payment>.`

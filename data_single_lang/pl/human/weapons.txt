@@ -1,0 +1,1876 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Energy Blaster"
+	category "Guns"
+	series "Guns"
+	index 01010
+	cost 16000
+	thumbnail "outfit/blaster"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3
+		"velocity" 10.625
+		"lifetime" 48
+		"reload" 12
+		"firing energy" 5.8
+		"firing heat" 18
+		"shield damage" 10.6
+		"hull damage" 6.6
+	description "Chociaż nie jest to najcelniejsza ani najgroźniejsza broń, miotacz energii jest popularny, ponieważ jest na tyle mały, że można go zainstalować nawet na najmniejszych statkach. Jeden miotacz nie wystarczy, aby zadać znaczące obrażenia czemuś większemu niż myśliwiec, ale statek wyposażony w kilka z nich staje się siłą, z którą trzeba się liczyć."
+
+outfit "Twin Blaster"
+	category "Guns"
+	series "Guns"
+	index 01030
+	cost 40000
+	thumbnail "outfit/twin blaster"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sound "blaster"
+		"submunition" "Blaster Submunition"
+			"offset" 1 0
+			"facing" 0.3
+		"submunition" "Blaster Submunition"
+			"offset" -1 0
+			"facing" -0.3
+		"hit effect" "blaster impact" 2
+		"inaccuracy" 3
+		"lifetime" 1
+		"velocity override" 10.625
+		"range override" 510
+		"reload" 12
+		"firing energy" 11.6
+		"firing heat" 36
+	description "Powszechność, niska cena i stabilna wydajność Energy Blastera sprawiły, że stał się on nieodpartym towarzyszem majsterkowiczów od dnia jego debiutu. Te blastery zostały skręcone, aby zmieścić się w jednym porcie, oferując dwukrotnie większe obrażenia niż pojedynczy blaster, kosztem dwukrotnie większego zużycia ciepła i energii, a także dodatkowej masy."
+
+outfit "Blaster Submunition"
+	weapon
+		sprite "projectile/blaster"
+		"hit effect" "blaster impact"
+		"velocity" 10.625
+		"lifetime" 48
+		"shield damage" 10.6
+		"hull damage" 6.6
+
+outfit "Blaster Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01010
+	cost 100000
+	thumbnail "outfit/blaster turret"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/blaster"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3
+		"turret turn" 3.6
+		"velocity" 10.625
+		"lifetime" 48
+		"reload" 6
+		"firing energy" 5.8
+		"firing heat" 18
+		"shield damage" 10.6
+		"hull damage" 6.6
+	description "Wieżyczka blasterska to para działek energetycznych zamontowanych na obrotowej platformie, umożliwiających ostrzał w dowolnym kierunku. Zaawansowane algorytmy programowe pozwalają wieżyczce korygować ruch celu, dzięki czemu jest skuteczna nawet przeciwko małym, szybko poruszającym się myśliwcom. Ponieważ wymaga specjalnego punktu montażowego z 360-stopniowym polem widzenia, nie wszystkie statki mogą być wyposażone w wieżyczkę."
+
+outfit "Quad Blaster Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01030
+	cost 230000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/blaster"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3
+		"turret turn" 2.6
+		"velocity" 10.625
+		"lifetime" 48
+		"reload" 3
+		"firing energy" 5.8
+		"firing heat" 18
+		"shield damage" 10.6
+		"hull damage" 6.6
+	description "Wieżyczka czterodziałowa z czterema działami na pojedynczym stanowisku, podwajając siłę ognia zwykłej wieżyczki z działami w przypadku statków dysponujących wystarczającą ilością miejsca na jej zamontowanie oraz energii do jej napędzania."
+
+effect "blaster impact"
+	sprite "effect/blaster impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 7
+	"random angle" 40
+	"velocity scale" -.05
+
+
+outfit "Modified Blaster"
+	category "Guns"
+	series "Guns"
+	index 01020
+	cost 35000
+	thumbnail "outfit/mod blaster"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"gun ports" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "mod blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 4
+		"velocity" 10
+		"lifetime" 48
+		"reload" 12
+		"firing energy" 6.5
+		"firing heat" 25.2
+		"shield damage" 13.2
+		"hull damage" 8.8
+	description "To miotacz energii, który został zmodyfikowany w celu nieznacznego zwiększenia jego mocy, kosztem mniejszego zasięgu i większego zużycia energii. Zmodyfikowane miotacze wytwarzają również ekstremalnie dużo ciepła podczas strzelania, zwiększając ryzyko przegrzania statku."
+
+outfit "Twin Modified Blaster"
+	category "Guns"
+	series "Guns"
+	index 01040
+	cost 84000
+	thumbnail "outfit/twin mod blaster"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		sound "mod blaster"
+		"submunition" "Modified Blaster Submunition"
+			"offset" 1 0
+			"facing" 0.45
+		"submunition" "Modified Blaster Submunition"
+			"offset" -1 0
+			"facing" -0.45
+		"hit effect" "blaster impact" 2
+		"inaccuracy" 4
+		"lifetime" 0
+		"velocity override" 10
+		"range override" 480
+		"reload" 12
+		"firing energy" 13
+		"firing heat" 50.4
+	description "Przedsiębiorczy inżynier, prawdopodobnie uznając, że i tak już przerażający brak kontroli bezpieczeństwa Modified Blastera jest niewystarczający, wziął dwie sztuki broni i wcisnął je razem w ten sam otwór strzelniczy, prymitywnie zespawając je z żarliwym entuzjazmem. Czy ta broń zniszczy cel, zanim stopi własne komponenty, pozostaje kwestią domysłów; być może celem było zastraszenie wrogów i zmuszenie ich do poddania się, zanim broń będzie musiała zostać użyta."
+
+outfit "Modified Blaster Submunition"
+	weapon
+		sprite "projectile/mod blaster"
+		"hit effect" "blaster impact"
+		"velocity" 10
+		"lifetime" 48
+		"shield damage" 13.2
+		"hull damage" 8.8
+
+outfit "Modified Blaster Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01020
+	cost 170000
+	thumbnail "outfit/mod blaster turret"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/mod blaster"
+		"hardpoint sprite" "hardpoint/mod blaster turret"
+		"hardpoint offset" 9.
+		sound "mod blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 4
+		"turret turn" 3.6
+		"velocity" 10
+		"lifetime" 48
+		"reload" 6
+		"firing energy" 6.5
+		"firing heat" 25.2
+		"shield damage" 13.2
+		"hull damage" 8.8
+	description "To wieżyczkowa wersja Modified Blaster, czyli miotacza energii zmodyfikowanego pod kątem większej mocy kosztem większego zużycia energii i ciepła. Wieżyczki te są popularne wśród piratów i innych, którzy próbują zmieścić jak najwięcej siły ognia na swoich statkach."
+
+outfit "Heavy Blaster"
+	category "Guns"
+	series "Guns"
+	index 01050
+	cost 125000
+	thumbnail "outfit/heavy blaster"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	weapon
+		sprite "projectile/heavy blaster"
+		sound "heavy blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 5
+		"velocity" 9
+		"lifetime" 65
+		"reload" 30
+		"firing energy" 49
+		"firing heat" 150
+		"shield damage" 90
+		"hull damage" 54
+	description "Ciężki miotacz to powiększona wersja niezwykle popularnego projektu Energy Blaster. Były one szeroko stosowane na kilku okrętach wojennych we wcześniejszej historii, zwłaszcza jako główne uzbrojenie Firebirda, gdy ten został wyprodukowany. Z czasem rozwój bardziej zaawansowanej broni, takiej jak działo cząsteczkowe i działo plazmowe, wyparł ciężki miotacz na nowszych jednostkach, ale nadal działa on na tyle stabilnie, że można go znaleźć na starszych, sprawnych okrętach."
+
+
+outfit "Beam Laser"
+	category "Guns"
+	series "Guns"
+	index 01050
+	cost 29000
+	thumbnail "outfit/laser"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .5
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .67
+		"firing heat" 1.6
+		"shield damage" 1
+		"hull damage" 1.3
+	description "Na początku ery kosmicznej osady w regionie znanym jako Głębia rozwijały się w względnej izolacji od reszty przestrzeni kosmicznej. Jednym ze skutków tej izolacji jest to, że ich technologia uzbrojenia wykorzystuje głównie broń wiązkową, zamiast broni pocisków energetycznych, które są powszechniejsze gdzie indziej."
+
+outfit "Laser Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01040
+	cost 140000
+	thumbnail "outfit/laser turret"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x laser"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/laser turret"
+		"hardpoint offset" -0.5 8.
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .5
+		"turret turn" 4
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.33
+		"firing heat" 3.2
+		"shield damage" 2
+		"hull damage" 2.6
+	description "Wieżyczki laserowe są znienawidzone przez pilotów myśliwców, ponieważ praktycznie niemożliwe jest ich uniknięcie, gdy znajdzie się w ich zasięgu. Wieżyczka ta jest wyposażona w parę laserów i może niemal natychmiast się obrócić, aby ostrzelać zbliżające się cele. Wieżyczki laserowe są szczególnie przydatne na wolno poruszających się frachtowcach, aby odpierać ataki małych statków pirackich."
+
+effect "beam laser impact"
+	sprite "effect/laser impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.005
+
+
+outfit "Heavy Laser"
+	category "Guns"
+	series "Guns"
+	index 01060
+	cost 60000
+	thumbnail "outfit/heavy laser"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" .4
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.33
+		"firing heat" 2.8
+		"shield damage" 1.7
+		"hull damage" 2.4
+	description "Laser Heavy to ulepszony laser wiązkowy o znacznie większym zasięgu i większej mocy. Jest przeznaczony głównie dla większych statków, gdzie energii i miejsca jest pod dostatkiem, ale niektórzy piloci uważają pojedynczy laser Heavy za wartościową alternatywę dla dwóch laserów wiązkowych, ponieważ większy zasięg rekompensuje fakt, że nie zadaje on dwukrotnie większych obrażeń."
+
+outfit "Heavy Laser Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01050
+	cost 320000
+	thumbnail "outfit/heavy laser turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x heavy laser"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		"hardpoint offset" 8.
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" .4
+		"turret turn" 2.2
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.66
+		"firing heat" 5.6
+		"shield damage" 3.4
+		"hull damage" 4.8
+	description "W przypadku statków dysponujących wystarczającą ilością miejsca na jej instalację, wieżyczka laserowa Heavy Laser Turret stanowi potężną broń, równie przydatną do odstraszania myśliwców, jak i bombardowania większych celów ciągłym ogniem, bez konieczności martwienia się o skierowanie statku we właściwym kierunku."
+
+effect "heavy laser impact"
+	sprite "effect/heavy laser impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"random velocity" 1
+	"velocity scale" -.007
+
+outfit "Mining Laser"
+	category "Guns"
+	series "Guns"
+	index 01070
+	cost 38000
+	thumbnail "outfit/mining laser"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/mining laser"
+			"frame rate" 1
+		sound "mining laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .35
+		"velocity" 200
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.1
+		"firing heat" 2.1
+		"shield damage" .8
+		"hull damage" 1.4
+		"minable damage" 1.9
+		"prospecting" 1
+	description "Rozwój lasera wiązkowego w połowie lat 2400. doprowadził nie tylko do postępu w wojnie kosmicznej, ale także do rozwoju górnictwa asteroid, ponieważ tradycyjna, lecz nieefektywna metoda holowania asteroid do baz wydobywczych została wyparta przez pojedyncze statki kosmiczne, które mogły precyzyjnie wydobywać rudę z samych asteroid."
+	description "	Nowoczesny laser górniczy jest pochodną lasera wiązkowego, zaprojektowaną w celu optymalizacji wydobycia minerałów i szybkości ekstrakcji kosztem zasięgu i uszkodzeń osłony."
+
+
+outfit "Mining Laser Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01060
+	cost 66000
+	thumbnail "outfit/mining laser turret"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/mining laser"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/mining laser turret"
+		"hardpoint offset" 0.7 8.
+		sound "mining laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .35
+		"turret turn" 4.4
+		"velocity" 200
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.1
+		"firing heat" 2.1
+		"shield damage" .8
+		"hull damage" 1.4
+		"minable damage" 1.9
+		"prospecting" 1
+	description "Chociaż górnicy wydobywający minerały z asteroid zazwyczaj preferują bardziej zwinne statki, które mogą dotrzymywać kroku asteroidom, wieżyczka górnicza z laserem ułatwia wydobycie dużym i wolnym statkom z przestronnymi ładowniami."
+	description "	Wieżyczki górnicze z laserem górniczym są zaprojektowane do użytku w połączeniu ze skanerami asteroid, ponieważ brak możliwości namierzania asteroid oznacza, że broń trzeba celować ręcznie, tak jakby była działem stacjonarnym."
+
+
+outfit "Tractor Beam"
+	category "Turrets"
+	series "Tractor Beams"
+	index 10
+	cost 75000
+	thumbnail "outfit/tractor beam"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/tractor beam"
+		"hardpoint offset" 4.
+		sound "tractor beam"
+		"hit effect" "tractor beam"
+		"tractor beam" 7
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.1
+		"firing heat" .8
+	description "Właściwości antygrawitacyjne silników repulsorowych zapoczątkowały rewolucję w załogowych lotach kosmicznych w XXIV wieku, ale dopiero stosunkowo niedawno inżynierowie zaczęli eksperymentować z przyciąganiem grawitacyjnym. Promienie ściągające wykorzystują prymitywną technologię atraktorów, aby umożliwić statkom przyciąganie kosmicznych śmieci, czy to rudy z niedawno wydobytej asteroidy, czy ładunku wyrzuconego przez statek handlowy uciekający w poszukiwaniu życia. To sprawiło, że promienie ściągające stały się popularnym narzędziem zarówno wśród górników asteroid, jak i piratów."
+
+effect "tractor beam"
+	sprite "effect/tractor beam"
+		"frame rate" 3.5
+	"lifetime" 1
+	"velocity scale" 1
+
+outfit "Electron Beam"
+	category "Guns"
+	series "Guns"
+	index 01080
+	cost 170000
+	thumbnail "outfit/electron beam"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron"
+			"frame rate" 60
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .3
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2
+		"firing heat" 3.6
+		"shield damage" 2.4
+		"hull damage" 3.3
+	description "Promień elektronów to najnowsze osiągnięcie laboratoriów Deep Sky, potężniejsza broń o konstrukcji podobnej do ich niezwykle popularnych pistoletów laserowych."
+
+outfit "Electron Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01070
+	cost 720000
+	thumbnail "outfit/electron turret"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x electron"
+			"frame rate" 60
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hardpoint offset" 8.
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .3
+		"turret turn" 1.2
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4
+		"firing heat" 7.2
+		"shield damage" 4.8
+		"hull damage" 6.6
+	description "Wieżyczka ta umieszcza dwa niedawno opracowane przez Deep Sky ładunki elektronowe na obrotowej wieżyczce, co zapewnia niezrównaną celność i moc do zestrzeliwania szybko poruszających się celów."
+
+effect "electron impact"
+	sprite "effect/electron impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003
+
+
+outfit "Anti-Missile Turret"
+	category "Turrets"
+	series "Anti-Missile"
+	index 01010
+	cost 60000
+	thumbnail "outfit/anti-missile"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small anti-missile"
+		"anti-missile" 5
+		"velocity" 150
+		"lifetime" 1
+		"reload" 8
+		"firing energy" 5
+		"firing heat" 3
+	description "Wiek temu bitwy kosmiczne toczono głównie za pomocą pocisków, a ich wynik zależał jedynie od tego, który statek miał więcej osłon lub amunicji. Laboratoria Lovelace zostały pierwotnie założone, aby zaradzić tej sytuacji poprzez opracowanie systemu ochronnego, który mógł wystrzeliwać pociski w powietrze, broniąc konwojów frachtowców przed piratami, którzy w przeciwnym razie mogliby je po prostu zbombardować i zmusić do kapitulacji, nie zbliżając się nawet do zasięgu ich dział."
+
+effect "small anti-missile"
+	sprite "effect/small anti missile"
+		"no repeat"
+		"frame rate" 3
+	sound "anti-missile"
+	"sound category" "anti-missile"
+	"lifetime" 21
+	"velocity scale" 1
+
+
+outfit "Heavy Anti-Missile Turret"
+	category "Turrets"
+	series "Anti-Missile"
+	index 01020
+	cost 150000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 8
+		"velocity" 200
+		"lifetime" 1
+		"reload" 6
+		"firing energy" 10
+		"firing heat" 5
+	description "Ciężka wieżyczka przeciwrakietowa ma większy zasięg, większą moc i krótszy czas przeładowania niż jej mniejszy odpowiednik. Jedynym sposobem na pokonanie tego problemu jest strzelanie pociskami w klastrze, tak aby podczas gdy jeden jest namierzany, pozostałe mogły się przedostać. W rezultacie wszystkie systemy rakietowe dostępne na rynku domyślnie strzelają teraz w klastrach, jeśli zainstalowanych jest wiele kopii tej samej wyrzutni, zamiast rozłożyć ogień, jak to ma miejsce w przypadku zwykłych dział."
+
+effect "large anti-missile"
+	sprite "effect/large anti missile"
+		"no repeat"
+		"frame rate" 2
+	sound "heavy anti-missile"
+	"sound category" "anti-missile"
+	"lifetime" 31
+	"velocity scale" 1
+
+
+outfit "Particle Cannon"
+	category "Guns"
+	series "Guns"
+	index 01090
+	cost 220000
+	thumbnail "outfit/particle cannon"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .5
+		"velocity" 30
+		"lifetime" 25
+		"reload" 20
+		"firing energy" 35
+		"firing force" 15
+		"firing heat" 120
+		"hit force" 120
+		"shield damage" 65
+		"hull damage" 62
+	description "Działo Cząsteczkowe działa poprzez przyspieszenie krótkiego strumienia cząstek do prędkości bliskich prędkości relatywistycznej. Zamontowane na statku, który może obracać się wystarczająco szybko, aby utrzymać je na celowniku zbliżających się jednostek, staje się niemal niepokonaną bronią, zdolną zniszczyć mniejsze statki, zanim zdążą się zbliżyć na tyle blisko, aby ich stosunkowo krótki zasięg był skuteczny."
+
+effect "particle impact"
+	sprite "effect/particle impact"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion small"
+	"lifetime" 20
+	"random angle" 2
+	"random spin" 10
+	"velocity scale" -.05
+
+
+outfit "Proton Gun"
+	category "Guns"
+	series "Guns"
+	index 01100
+	cost 150000
+	thumbnail "outfit/proton gun"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	weapon
+		sprite "projectile/proton"
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 4
+		"submunition" "Proton Fragment" 3
+		"velocity" 24
+		"lifetime" 2
+		"reload" 8
+		"firing energy" 15
+		"firing force" 3
+		"firing heat" 60
+	description "Działo protonowe powstało jako próba Syndykatu, aby dokonać inżynierii wstecznej i masowo produkować tanią konkurencję dla działa cząsteczkowego. Niestety, nie udało im się znaleźć niezawodnego sposobu na utrzymanie spójności wiązki, ale powstała broń wciąż cieszy się popularnością wśród niektórych kapitanów, szczególnie jako broń przeciw myśliwcom."
+
+outfit "Proton Fragment"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "proton impact"
+		"inaccuracy" 2
+		"lifetime" 24
+		"hit force" 9
+		"shield damage" 10.1
+		"hull damage" 8.4
+
+effect "proton impact"
+	sprite "effect/proton impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 20
+	"random angle" 2
+	"velocity scale" -.005
+
+
+outfit "Proton Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01080
+	cost 260000
+	thumbnail "outfit/proton turret"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/proton"
+		"hardpoint sprite" "hardpoint/proton turret"
+		"hardpoint offset" 14.
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 4
+		"turret turn" 2.4
+		"submunition" "Proton Fragment" 3
+		"velocity" 24
+		"lifetime" 2
+		"reload" 8
+		"firing energy" 15
+		"firing force" 3
+		"firing heat" 60
+	description "Wieżyczka Protonowa Syndicate to stosunkowo nowy produkt, zaprojektowany, aby konkurować z niezmiennie popularnymi wieżyczkami laserowymi Deep Sky na rynku obrony przeciwmyśliwskiej. Choć bardziej prymitywna niż konkurencja, wieżyczka Protonowa cieszy się lojalnym zainteresowaniem wśród kapitanów niezadowolonych z krótkiego zasięgu broni laserowej."
+
+
+outfit "Plasma Cannon"
+	category "Guns"
+	series "Guns"
+	index 01110
+	cost 190000
+	thumbnail "outfit/plasma cannon"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 3
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"inaccuracy" 2
+		"velocity" 12
+		"lifetime" 40
+		"reload" 18
+		"firing energy" 30
+		"firing heat" 180
+		"hit force" 45
+		"shield damage" 63
+		"hull damage" 25
+		"heat damage" 340
+	description "Działo plazmowe wystrzeliwuje serie przegrzanej plazmy. Oprócz zadawania obrażeń celowi, te serie wydzielają znaczną ilość ciepła, szczególnie celowi, którego osłony są wyłączone."
+
+outfit "Plasma Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01090
+	cost 520000
+	thumbnail "outfit/plasma turret"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 3
+		"hardpoint sprite" "hardpoint/plasma turret"
+		"hardpoint offset" 15.
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"inaccuracy" 2
+		"turret turn" 1.6
+		"velocity" 12
+		"lifetime" 40
+		"reload" 9
+		"firing energy" 30
+		"firing heat" 180
+		"hit force" 45
+		"shield damage" 63
+		"hull damage" 25
+		"heat damage" 340
+	description "Wieżyczka plazmowa to para dział plazmowych zamontowanych na wieżyczce, które mogą strzelać w dowolnym kierunku. To straszliwa broń, ale tylko największe statki mają wystarczającą przestrzeń i energię."
+
+outfit "Plasma Repeater"
+	category "Guns"
+	series "Guns"
+	index 01120
+	cost 274000
+	thumbnail "outfit/plasma repeater"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"gun ports" -1
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 3
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"lifetime" 38
+		"velocity" 12
+		"inaccuracy" 5
+		"reload" 7
+		"firing energy" 13
+		"firing heat" 100
+		"shield damage" 33
+		"hull damage" 13
+		"heat damage" 144
+		"hit force" 28.5
+	description `Dekady po zakupieniu praw do Działka Plazmowego, Kraz Cybernetics umieściło tę broń na półkach każdego luksusowego sklepu z bronią w Southern Rim. Jak dotąd, powtarzalny karabin cieszył się ogromną popularnością wśród tych, którzy odważyli się go przetestować, i staje się niezbędnym środkiem odstraszającym dla każdego, kto afiszuje się ze swoimi pirackimi łupami.`
+	description `	Wywodząca się z oryginalnego działa plazmowego, ta cięższa wersja oferuje znacznie większą szybkostrzelność, rezygnując z większych serii. Chociaż mniejsze serie przegrzanej plazmy zadają znacznie mniej obrażeń niż poprzednik, ich objętość powoduje większe obrażenia zadawane celowi.`
+
+effect "plasma explosion"
+	sprite "effect/plasma explosion"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion tiny"
+	"lifetime" 21
+	"random angle" 360
+	"random spin" 4
+	"random velocity" .1
+	"velocity scale" -.05
+
+
+outfit "Flamethrower"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01160
+	cost 190000
+	thumbnail "outfit/flamethrower"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "effect/explosion/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		icon "icon/flamethrower"
+		"submunition" "Flamethrower Projectile"
+		"inaccuracy" 12
+		"velocity" 9
+		"lifetime" 5
+		"reload" 1
+		"firing energy" .1
+		"firing fuel" .4
+		"firing heat" 4
+	description "Prosta, ale imponująco wyglądająca broń, miotacz ognia zapala paliwo nadprzestrzenne i kieruje strumień w stronę przeciwników. Zadaje stosunkowo niewielkie obrażenia, ale może być przydatny, jeśli cel, który już działa blisko swojej pojemności cieplnej, przegrzeje się, tymczasowo wyłączając go z walki."
+
+outfit "Flamethrower Projectile"
+	weapon
+		sprite "projectile/flamethrower"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "flamethrower hit"
+		"die effect" "flamethrower die"
+		"inaccuracy" 20
+		"lifetime" 18
+		"random lifetime" 8
+		"damage dropoff" 0 198
+		"dropoff modifier" .5
+		"shield damage" .8
+		"hull damage" .7
+		"heat damage" 125
+
+effect "flamethrower die"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 2
+	"random velocity" .4
+	"velocity scale" .4
+
+effect "flamethrower hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4
+
+
+outfit "Meteor Missile"
+	category "Ammunition"
+	series "Ammunition"
+	index 01020
+	cost 500
+	thumbnail "outfit/meteor"
+	"mass" .2
+	"meteor capacity" -1
+	description "Pocisk Meteor służy jako amunicja do wyrzutni pocisków Meteor. Każda wyrzutnia ma swoją własną pojemność; nie można instalować pocisków, jeśli nie zakupiono wcześniej zasobnika, wyrzutni lub magazynu, w którym można je przechowywać."
+
+outfit "Meteor Missile Box"
+	plural "Meteor Missile Boxes"
+	series "Ammunition"
+	index 01021
+	category "Ammunition"
+	cost 9000
+	thumbnail "outfit/meteor storage"
+	"mass" 2
+	"outfit space" -5
+	"meteor capacity" 15
+	ammo "Meteor Missile"
+	description "Skrzynia na pociski Meteor służy do przechowywania dodatkowej amunicji do wyrzutni pocisków Meteor."
+
+outfit "Meteor Missile Launcher"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01050
+	cost 15000
+	thumbnail "outfit/meteor launcher"
+	"mass" 8
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	"meteor capacity" 30
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Meteor Missile"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 5
+		"velocity" 11
+		"lifetime" 350
+		"reload" 80
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 1
+		"drag" .1
+		"turn" 1.8
+		"homing"
+			"blindspot"
+		"infrared tracking" .65
+		"shield damage" 360
+		"hull damage" 220
+		"hit force" 330
+		"missile strength" 6
+	description "Pocisk Meteor to najtańsza i najprostsza broń samonaprowadzająca dostępna w przestrzeni kosmicznej. Meteory są szybko niszczone przez systemy przeciwrakietowe, a ich systemy śledzenia w podczerwieni mają problemy z namierzaniem celów o niskim poziomie ciepła. Niemniej jednak, ich duże głowice bojowe mogą oznaczać zagładę dla słabo bronionych celów, gdy pociski są wystrzeliwane w dużych ilościach."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Meteor Missile Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01040
+	cost 5000
+	thumbnail "outfit/meteor pod"
+	"mass" 1
+	"outfit space" -3
+	"weapon capacity" -3
+	"gun ports" -1
+	"meteor capacity" 7
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Meteor Missile"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 5
+		"velocity" 11
+		"lifetime" 350
+		"reload" 200
+		"burst count" 7
+		"burst reload" 80
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 1
+		"drag" .1
+		"turn" 1.8
+		"homing"
+			"blindspot"
+		"infrared tracking" .65
+		"shield damage" 360
+		"hull damage" 220
+		"hit force" 330
+		"missile strength" 6
+	description "Pocisk Meteor to najtańsza i najprostsza broń samonaprowadzająca dostępna w przestrzeni kosmicznej. Meteory są szybko niszczone przez systemy przeciwrakietowe, a ich systemy śledzenia w podczerwieni mają problemy z namierzaniem celów o niskim poziomie ciepła. Niemniej jednak, ich duże głowice bojowe mogą oznaczać zagładę dla słabo bronionych celów, gdy pociski są wystrzeliwane w dużych ilościach."
+	description "	Kapsuły umożliwiają myśliwcom i innym lekkim jednostkom transportowanie niewielkich ilości pocisków na pole bitwy, zachowując jednocześnie wystarczająco dużo miejsca na inną broń. Większe statki lepiej sprawdzają się z pełnowymiarowymi wyrzutniami."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "meteor fire"
+	sprite "effect/meteor fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 12
+	"random velocity" 10
+
+outfitter "Meteor Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Meteor Missile Launcher"
+			has "outfit: Meteor Missile Pod"
+			has "outfit: Meteor Missile Box"
+	location
+		attributes "outfitter"
+	stock
+		"Meteor Missile"
+
+
+outfit "Sidewinder Missile"
+	category "Ammunition"
+	series "Ammunition"
+	index 01030
+	cost 900
+	thumbnail "outfit/sidewinder"
+	"mass" .2
+	"sidewinder capacity" -1
+	description "Pocisk Sidewinder to amunicja do wyrzutni pocisków Sidewinder; każda zainstalowana wyrzutnia może pomieścić maksymalnie 45 pocisków, podczas gdy zasobniki mogą przenosić 4. Nie możesz zainstalować pocisku bez zasobnika lub wyrzutni, z której mógłbyś go wystrzelić."
+
+outfit "Sidewinder Missile Rack"
+	category "Ammunition"
+	series "Ammunition"
+	index 01031
+	cost 20000
+	thumbnail "outfit/sidewinder storage"
+	"mass" 2.4
+	"outfit space" -7
+	"sidewinder capacity" 23
+	ammo "Sidewinder Missile"
+	description "Stojak na pociski Sidewinder służy do przechowywania dodatkowej amunicji do wyrzutni pocisków Sidewinder."
+
+outfit "Sidewinder Missile Launcher"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01070
+	cost 60000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 11
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"sidewinder capacity" 45
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Sidewinder Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 14
+		"lifetime" 350
+		"reload" 60
+		"firing energy" 1
+		"firing heat" 15
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+	description "Pocisk Sidewinder został zaprojektowany przez Lovelace Labs, które ironicznie jest również twórcą wieżyczki przeciwrakietowej. Plotki głoszą, że dwa zespoły inżynierów Lovelace, które tworzą pociski i wieżyczki przeciwrakietowe, toczą ze sobą zaciętą rywalizację: efektem tego są kolejne generacje inteligentniejszych pocisków, a następnie inteligentniejszych wieżyczek, które je odpierają."
+	description "	Choć nie są tak potężne i tanie jak popularne pociski Meteor, pociski Sidewinder mają kilka zalet, m.in. lepszą manewrowość, lepsze systemy namierzania i osłony ochronne, dzięki którym są znacznie trudniejsze do zniszczenia przez systemy przeciwrakietowe."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Sidewinder Missile Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01060
+	cost 20000
+	thumbnail "outfit/sidewinder pod"
+	"mass" 2
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	"sidewinder capacity" 6
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Sidewinder Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 14
+		"lifetime" 350
+		"reload" 150
+		"burst count" 6
+		"burst reload" 60
+		"firing energy" 1
+		"firing heat" 15
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+	description "Pocisk Sidewinder został zaprojektowany przez Lovelace Labs, które ironicznie jest również twórcą wieżyczki przeciwrakietowej. Plotki głoszą, że dwa zespoły inżynierów Lovelace, które tworzą pociski i wieżyczki przeciwrakietowe, toczą ze sobą zaciętą rywalizację: efektem tego są kolejne generacje inteligentniejszych pocisków, a następnie inteligentniejszych wieżyczek, które je odpierają."
+	description "	Choć nie są tak potężne i tanie jak popularne pociski Meteor, pociski Sidewinder mają kilka zalet, m.in. lepszą manewrowość, lepsze systemy namierzania i osłony ochronne, dzięki którym są znacznie trudniejsze do zniszczenia przez systemy przeciwrakietowe."
+	description "	Kapsuły umożliwiają myśliwcom i innym lekkim jednostkom transportowanie niewielkich ilości pocisków na pole bitwy, zachowując jednocześnie wystarczająco dużo miejsca na inną broń. Większe statki lepiej sprawdzają się z pełnowymiarowymi wyrzutniami."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+
+effect "sidewinder fire"
+	sprite "effect/sidewinder fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 9
+	"random velocity" 2
+
+outfitter "Sidewinder Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Sidewinder Missile Launcher"
+			has "outfit: Sidewinder Missile Pod"
+			has "outfit: Sidewinder Missile Rack"
+	location
+		attributes "outfitter"
+	stock
+		"Sidewinder Missile"
+
+
+outfit "Javelin"
+	category "Ammunition"
+	series "Ammunition"
+	index 01010
+	cost 50
+	thumbnail "outfit/javelin"
+	"mass" .04
+	"javelin capacity" -1
+	description "Pocisk Javelin to amunicja do zasobnika Javelin; jeśli nie masz zasobnika, w którym możesz ją przechowywać, nie możesz kupić ani używać pocisków Javelin."
+
+outfit "Javelin Storage Crate"
+	category "Ammunition"
+	series "Ammunition"
+	index 01011
+	cost 5000
+	thumbnail "outfit/javelin storage"
+	"mass" 2
+	"outfit space" -6
+	"javelin capacity" 100
+	ammo "Javelin"
+	description "Skrzynia do przechowywania oszczepu służy do przechowywania dodatkowej amunicji do zasobników oszczepu."
+
+outfit "Javelin Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01020
+	cost 20000
+	thumbnail "outfit/javelin pod"
+	"mass" 4
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"javelin capacity" 200
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "Javelin"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 60
+		"reload" 15
+		"firing energy" .2
+		"firing heat" 12
+		"shield damage" 48
+		"hull damage" 26
+		"hit force" 75
+		"missile strength" 3
+	description "Kapsuła Javelin wystrzeliwuje szybki strumień niekierowanych pocisków. Zadaje ona znacznie większe obrażenia niż jakiekolwiek działo porównywalnej wielkości i ma również większy zasięg, ale gdy statek wyczerpie całą amunicję, musi opuścić pole bitwy i znaleźć planetę, gdzie może dokupić więcej, co sprawia, że Javeliny są mniej przydatne w przedłużających się bitwach."
+	description "	Wysoka szybkostrzelność tej broni sprawia, że jest ona przydatna także do nasycania obrony przeciwrakietowej dobrze chronionych statków, tak aby groźniejsze pociski wystrzeliwane przez sojusznicze statki mogły się przez nią prześlizgnąć."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Javelin Mini Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01010
+	cost 5000
+	thumbnail "outfit/javelin mini pod"
+	"mass" 1
+	"outfit space" -3
+	"weapon capacity" -3
+	"gun ports" -1
+	"javelin capacity" 30
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		ammo "Javelin"
+		icon "icon/javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 60
+		"reload" 40
+		"burst count" 30
+		"burst reload" 15
+		"firing energy" .2
+		"firing heat" 12
+		"shield damage" 48
+		"hull damage" 26
+		"hit force" 75
+		"missile strength" 3
+	description "Kapsuła Javelin wystrzeliwuje szybki strumień niekierowanych pocisków. Zadaje ona znacznie większe obrażenia niż jakiekolwiek działo porównywalnej wielkości i ma również większy zasięg, ale gdy statek wyczerpie całą amunicję, musi opuścić pole bitwy i znaleźć planetę, gdzie może dokupić więcej, co sprawia, że Javeliny są mniej przydatne w przedłużających się bitwach."
+	description "	Wysoka szybkostrzelność tej broni sprawia, że jest ona przydatna także do nasycania obrony przeciwrakietowej dobrze chronionych statków, tak aby groźniejsze pociski wystrzeliwane przez sojusznicze statki mogły się przez nią prześlizgnąć."
+	description "	Mini-kapsuły pozwalają myśliwcom i innym lekkim statkom transportować niewielkie ilości Javelinów na pole bitwy, zachowując jednocześnie wystarczająco dużo miejsca na inną broń. Większe statki lepiej sprawdzają się z pełnowymiarowymi kapsułami."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Javelin Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01030
+	cost 110000
+	thumbnail "outfit/javelin turret"
+	"mass" 15
+	"outfit space" -31
+	"weapon capacity" -31
+	"turret mounts" -1
+	"required crew" 1
+	"javelin capacity" 400
+	weapon
+		sprite "projectile/javelin"
+		"hardpoint sprite" "hardpoint/javelin turret"
+		"hardpoint offset" 9.
+		sound "javelin"
+		ammo "Javelin"
+		icon "icon/javelin turret"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 4
+		"turret turn" 2.6
+		"velocity" 10
+		"lifetime" 60
+		"reload" 7.5
+		"firing energy" .2
+		"firing heat" 12
+		"shield damage" 48
+		"hull damage" 26
+		"hit force" 75
+		"missile strength" 3
+	description "Wieżyczka Javelin, wyposażona nie w jeden, lecz dwa zasobniki Javelin, wystrzeliwuje potężną lawinę niekierowanych pocisków rakietowych, które zadają zauważalnie większe obrażenia niż inne bronie wieżyczkowe tej samej wielkości, kosztem ogromnego zużycia amunicji ze względu na wysoką szybkostrzelność. Z tego powodu wieżyczki te są często łączone ze skrzyniami magazynowymi Javelin i bronią, która nie wymaga użycia amunicji, aby móc się na nią wycofać po wyczerpaniu wszystkich pocisków."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfitter "Javelin Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Javelin Pod"
+			has "outfit: Javelin Mini Pod"
+			has "outfit: Javelin Turret"
+			has "outfit: Javelin Storage Crate"
+	location
+		attributes "outfitter"
+	stock
+		"Javelin"
+
+
+outfit "Torpedo"
+	plural "Torpedoes"
+	series "Ammunition"
+	index 01050
+	category "Ammunition"
+	cost 1400
+	thumbnail "outfit/torpedo"
+	"mass" .4
+	"torpedo capacity" -1
+	description "Torpedy to amunicja do wyrzutni torped. Każda wyrzutnia mieści 30 torped. Nie można zainstalować torped, jeśli nie zainstalowano również wyrzutni, z której można je wystrzelić."
+
+outfit "Torpedo Storage Rack"
+	category "Ammunition"
+	series "Ammunition"
+	index 01051
+	cost 21000
+	thumbnail "outfit/torpedo storage"
+	"mass" 3
+	"outfit space" -9
+	"torpedo capacity" 15
+	ammo "Torpedo"
+	description "Stojak do przechowywania torped służy do przechowywania dodatkowej amunicji do wyrzutni torped."
+
+outfit "Torpedo Launcher"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01110
+	cost 80000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 18
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"torpedo capacity" 30
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "torpedo"
+		ammo "Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "torpedo fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 7
+		"lifetime" 900
+		"reload" 150
+		"firing energy" 2
+		"firing heat" 45
+		"acceleration" .15
+		"drag" .025
+		"turn" 1.5
+		"homing"
+			"throttle control"
+		"optical tracking" .8
+		"shield damage" 820
+		"hull damage" 820
+		"hit force" 450
+		"missile strength" 30
+	description "Torpedy to najpotężniejsza broń samonaprowadzająca, ale poruszają się na tyle wolno, że szybkie statki mogą je łatwo wyprzedzić, co czyni je najbardziej użytecznymi przeciwko dużym celom lub przeciwko małym statkom, gdy są zbyt rozproszone, by uniknąć ataku. Wyrzutnie torped są również znacznie większe niż inne systemy rakietowe, dlatego najczęściej znajdują się na okrętach flagowych."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Torpedo Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01100
+	cost 30000
+	thumbnail "outfit/torpedopod"
+	"mass" 5
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"torpedo capacity" 3
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "torpedo"
+		ammo "Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "torpedo fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 7
+		"lifetime" 900
+		"reload" 320
+		"burst count" 3
+		"burst reload" 150
+		"firing energy" 2
+		"firing heat" 45
+		"acceleration" .15
+		"drag" .025
+		"turn" 1.5
+		"homing"
+			"throttle control"
+		"optical tracking" .8
+		"shield damage" 820
+		"hull damage" 820
+		"hit force" 450
+		"missile strength" 30
+	description "Torpedy są najpotężniejszą bronią samonaprowadzającą, ale poruszają się na tyle wolno, że szybkie statki mogą je łatwo wyprzedzić, co czyni je najbardziej przydatnymi przeciwko dużym celom lub przeciwko małym statkom, gdy są zbyt rozproszone, aby ich uniknąć."
+	description "	Kapsuły umożliwiają myśliwcom i innym lekkim jednostkom transport niewielkich ilości torped na pole bitwy, zachowując jednocześnie wystarczająco dużo miejsca na inną broń. Większe okręty lepiej sprawdzają się z pełnowymiarowymi wyrzutniami."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "torpedo fire"
+	sprite "effect/torpedo fire"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 15
+
+outfitter "Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Torpedo Launcher"
+			has "outfit: Torpedo Pod"
+			has "outfit: Torpedo Storage Rack"
+	location
+		attributes "outfitter"
+	stock
+		"Torpedo"
+
+
+outfit "Typhoon Torpedo"
+	plural "Typhoon Torpedoes"
+	series "Ammunition"
+	index 01060
+	category "Ammunition"
+	cost 2700
+	thumbnail "outfit/typhoon"
+	"mass" .5
+	"typhoon capacity" -1
+	description "Torpedy Typhoon to amunicja do wyrzutni Typhoon. Każda wyrzutnia mieści 30 torped. Nie można zainstalować torped Typhoon, jeśli nie zainstalowano również wyrzutni, z której można je wystrzelić."
+
+outfit "Typhoon Storage Tube"
+	category "Ammunition"
+	series "Ammunition"
+	index 01061
+	cost 40500
+	thumbnail "outfit/typhoon storage"
+	"mass" 2.5
+	"outfit space" -10
+	"typhoon capacity" 15
+	ammo "Typhoon Torpedo"
+	description "Torba magazynowa Typhoon służy do przechowywania dodatkowej amunicji do wyrzutni Typhoon."
+
+outfit "Typhoon Launcher"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01130
+	cost 260000
+	thumbnail "outfit/typhoon launcher"
+	"mass" 25
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"typhoon capacity" 30
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Typhoon Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 6
+		"lifetime" 1100
+		"reload" 120
+		"firing energy" 4
+		"firing heat" 50
+		"acceleration" .1
+		"drag" .02
+		"turn" 1.5
+		"homing"
+			"leading"
+			"throttle control"
+		"optical tracking" .9
+		"shield damage" 1050
+		"hull damage" 1050
+		"hit force" 675
+		"missile strength" 40
+	description "Torpedy Typhoon to ulepszona technologia torpedowa; zadają znacznie większe obrażenia niż zwykłe torpedy. Są jednak również znacznie wolniejsze, ponieważ są przeznaczone głównie do zwalczania dużych i powolnych okrętów liniowych. Dzięki temu odpowiednio doświadczeni piloci często potrafią je ominąć."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Typhoon Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01120
+	cost 100000
+	thumbnail "outfit/typhoonpod"
+	"mass" 6
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"typhoon capacity" 3
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Typhoon Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 6
+		"lifetime" 1100
+		"reload" 252
+		"burst count" 3
+		"burst reload" 120
+		"firing energy" 4
+		"firing heat" 50
+		"acceleration" .1
+		"drag" .02
+		"turn" 1.5
+		"homing"
+			"leading"
+			"throttle control"
+		"optical tracking" .9
+		"shield damage" 1050
+		"hull damage" 1050
+		"hit force" 675
+		"missile strength" 40
+	description "Torpedy Typhoon to ulepszona technologia torpedowa; zadają znacznie większe obrażenia niż zwykłe torpedy. Są jednak również znacznie wolniejsze, ponieważ są przeznaczone głównie do zwalczania dużych i powolnych okrętów liniowych. Dzięki temu odpowiednio doświadczeni piloci często potrafią je ominąć."
+	description "	Kapsuły umożliwiają myśliwcom i innym lekkim jednostkom transport niewielkich ilości torped Typhoon w bitwie, zachowując jednocześnie wystarczająco dużo miejsca na inną broń. Większe okręty lepiej sprawdzają się z pełnowymiarowymi wyrzutniami."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "typhoon fire"
+	sprite "effect/typhoon fire"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 15
+
+outfitter "Typhoon Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Typhoon Launcher"
+			has "outfit: Typhoon Pod"
+			has "outfit: Typhoon Storage Tube"
+	location
+		attributes "outfitter"
+	stock
+		"Typhoon Torpedo"
+
+
+outfit "Heavy Rocket"
+	category "Ammunition"
+	series "Ammunition"
+	index 01040
+	cost 2000
+	thumbnail "outfit/rocket"
+	"mass" .5
+	"rocket capacity" -1
+	description "Ciężkie rakiety to amunicja do wyrzutni ciężkich rakiet. Nie można jej zainstalować, dopóki nie zainstaluje się wyrzutni, z której można ją wystrzelić. Każda wyrzutnia mieści do 20 rakiet."
+
+outfit "Heavy Rocket Rack"
+	category "Ammunition"
+	series "Ammunition"
+	index 01041
+	cost 20000
+	thumbnail "outfit/rocket storage"
+	"mass" 2
+	"outfit space" -7
+	"rocket capacity" 10
+	ammo "Heavy Rocket"
+	description "Stojak na ciężkie rakiety służy do przechowywania dodatkowej amunicji do ciężkich wyrzutni rakiet."
+
+outfit "Heavy Rocket Launcher"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01090
+	cost 40000
+	thumbnail "outfit/rocket launcher"
+	"mass" 15
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"rocket capacity" 20
+	weapon
+		sprite "projectile/rocket"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Heavy Rocket"
+		icon "icon/rocket"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 8
+		"lifetime" 125
+		"reload" 240
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" .8
+		"drag" .1
+		"trigger radius" 20
+		"blast radius" 90
+		"shield damage" 790
+		"hull damage" 670
+		"hit force" 900
+		"missile strength" 16
+	description "Ciężkie rakiety to jedna z najpotężniejszych dostępnych broni rakietowych, ale ma to swoją cenę: zamiast systemu naprowadzania, strzelają prosto przed siebie i polegają na detonatorze zbliżeniowym. Po detonacji uszkadzają jednak wszystkie statki w promieniu rażenia, co czyni je niezwykle skutecznymi przeciwko skupiskom myśliwców."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Heavy Rocket Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01080
+	cost 15000
+	thumbnail "outfit/rocket pod"
+	"mass" 3
+	"outfit space" -6
+	"weapon capacity" -6
+	"gun ports" -1
+	"rocket capacity" 2
+	weapon
+		sprite "projectile/rocket"
+			"frame rate" 4
+		sound "rocket"
+		ammo "Heavy Rocket"
+		icon "icon/rocket"
+		"hit effect" "heavy rocket hit"
+		"die effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 8
+		"lifetime" 125
+		"reload" 500
+		"burst count" 2
+		"burst reload" 240
+		"firing energy" 1
+		"firing heat" 250
+		"acceleration" .8
+		"drag" .1
+		"trigger radius" 20
+		"blast radius" 90
+		"shield damage" 790
+		"hull damage" 670
+		"hit force" 900
+		"missile strength" 16
+	description "Ciężkie rakiety to jedna z najpotężniejszych dostępnych broni rakietowych, ale ma to swoją cenę: zamiast systemu naprowadzania, strzelają prosto przed siebie i polegają na detonatorze zbliżeniowym. Po detonacji uszkadzają jednak wszystkie statki w promieniu rażenia, co czyni je niezwykle skutecznymi przeciwko skupiskom myśliwców."
+	description "	Kapsuły umożliwiają myśliwcom i innym lekkim statkom przenoszenie niewielkich ilości rakiet na pole bitwy, zachowując jednocześnie wystarczająco dużo miejsca na inną broń. Większe statki lepiej sprawdzają się z pełnowymiarowymi wyrzutniami."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "heavy rocket hit"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 15
+	sound "heavy rocket hit"
+	"lifetime" 36
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" .4
+
+outfitter "Heavy Rocket Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Heavy Rocket Launcher"
+			has "outfit: Heavy Rocket Pod"
+			has "outfit: Heavy Rocket Rack"
+	location
+		attributes "outfitter"
+	stock
+		"Heavy Rocket"
+
+
+outfit "Nuclear Missile"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01170
+	cost 1000000
+	thumbnail "outfit/nuke"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/nuke"
+		sound "nuke"
+		ammo "Nuclear Missile"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 800
+		"reload" 400
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 30
+		"blast radius" 150
+		"shield damage" 9000
+		"hull damage" 7000
+		"hit force" 6000
+		"missile strength" 200
+	description "Minęły stulecia od czasu, gdy stoczono ostatnią wojnę nuklearną, i do niedawna większość ludzi w galaktyce zakładała, że era chaosu i zniszczenia należy już do przeszłości..."
+	description "	[Pociski nuklearne są bronią jednorazową: każdy pocisk zajmuje miejsce w gnieździe karabinu maszynowego, a po wystrzeleniu miejsce, w którym się znajdował, pozostaje puste.]"
+
+effect "nuke explosion"
+	sprite "effect/explosion/nuke"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion nuke"
+	"lifetime" 15
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" .4
+
+effect "nuke residue fast"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 36
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 8
+	"velocity scale" 0.1
+
+effect "nuke residue slow"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 60
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 5
+	"velocity scale" 0.1
+
+
+outfit "Gatling Gun Ammo"
+	plural "Gatling Gun Ammo"
+	category "Ammunition"
+	series "Ammunition"
+	index 01070
+	cost 4
+	thumbnail "outfit/bullet"
+	"mass" .002
+	"gatling round capacity" -1
+	description "Ten prosty nabój to amunicja do karabinu Gatlinga, z pociskiem ze zubożonym paliwem jądrowym lub oświetlonym pociskiem smugowym. Ponieważ amunicja ta jest produkowana głównie na pirackich planetach przez dzieci niewolników w trudnych warunkach pracy, prędkość początkowa pocisku może wahać się nawet o 30%, a rozkład smugaczy rzadko jest równomierny."
+
+outfit "Bullet Boxes"
+	plural "Bullet Boxes"
+	category "Ammunition"
+	series "Ammunition"
+	index 01071
+	cost 3000
+	thumbnail "outfit/bullet storage"
+	"mass" 2
+	"outfit space" -5
+	"gatling round capacity" 1500
+	ammo "Gatling Gun Ammo"
+	description "Skrzynki na naboje służą do przechowywania dodatkowej amunicji do karabinów Gatlinga."
+
+outfit "Gatling Gun"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01140
+	cost 20000
+	thumbnail "outfit/gat"
+	"mass" 2
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"gatling round capacity" 3000
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+		sound "gatling"
+		ammo "Gatling Gun Ammo"
+		icon "icon/gat"
+		"inaccuracy" 2
+		"velocity" 16
+		"lifetime" 1
+		"reload" 3
+		"burst count" 180
+		"burst reload" 1
+		"firing energy" .03
+		"firing heat" 2.5
+		"submunition" "gbullet"
+		"cluster"
+		"hit effect" "bullet impact"
+	description `Kiedy dr Richard J. Gatling wynalazł w XIX wieku szybkostrzelny karabin noszący jego imię, miał nadzieję, że jego niszczycielska moc doprowadzi do końca wojny. Ponad tysiąc lat później ta współczesna wersja karabinu Gatlinga bierze udział w akcji w kosmosie, co świadczy o jej fundamentalnie solidnej konstrukcji - i naiwności dr. Gatlinga. Choć karabin ten charakteryzuje się dużą szybkostrzelnością, schładzanie trwa dwa razy dłużej niż strzelanie i może prowadzić ogień ciągły maksymalnie przez trzy sekundy.`
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Gatling Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01150
+	cost 120000
+	thumbnail "outfit/gat turret"
+	"mass" 11
+	"outfit space" -23
+	"weapon capacity" -23
+	"turret mounts" -1
+	"required crew" 1
+	"gatling round capacity" 6000
+	weapon
+		sound "gatling"
+		sprite "projectile/2x tinyflare"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/gat turret hardpoint"
+		"submunition" "gbullet"
+			"offset" 1.5 -6
+			"facing" 0.3
+		"submunition" "gbullet"
+			"offset" -1.5 -6
+			"facing" -0.3
+		ammo "Gatling Gun Ammo" 2
+		icon "icon/gat turret"
+		"inaccuracy" 2
+		"turret turn" 3.6
+		"velocity" 16
+		"lifetime" 1
+		"reload" 3
+		"burst count" 180
+		"burst reload" 1
+		"firing energy" .06
+		"firing heat" 5
+		"cluster"
+		"hit effect" "bullet impact"
+	description `W akcie, który przyprawiłby dr. Richarda J. Gatlinga o przewrócenie się w grobie z powodu zaciekłości luf jego wynalazku, Wieżyczka Gatlinga narodziła się, gdy przedsiębiorczy pirat wpadł na pomysł zastąpienia działek energetycznych w Wieżyczce Blasterowej parą działek Gatlinga. Od tamtej pory dominium Wieżyczki Gatlinga rozprzestrzeniło się po Południowym Rubieżu, terroryzując zarówno kupców, jak i stróżów prawa swoją niezrównaną zdolnością do rozrywania kadłubów statków.`
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "gbullet"
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"random velocity" 8
+		"lifetime" 20
+		"random lifetime" 5
+		"shield damage" 3
+		"hull damage" 6
+		"hit force" 3
+		"hit effect" "bullet impact"
+
+effect "bullet impact"
+	sprite "effect/bullet impact"
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 8
+	"random angle" 40
+	"velocity scale" -.05
+
+outfitter "Gatling Gun Ammo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Gatling Gun"
+			has "outfit: Gatling Turret"
+			has "outfit: Bullet Boxes"
+	location
+		attributes "outfitter"
+	stock
+		"Gatling Gun Ammo"

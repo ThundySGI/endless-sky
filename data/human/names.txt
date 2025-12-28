@@ -556,7 +556,10 @@ phrase "plural nouns"
 		"<WR-5178>"
 	# Plural forms of some female titles are special cases.
 	replace
-		"<WR-5179>" 		"<WR-5180>" 		"<WR-89>" 
+		"ss%s" "sses"
+		"y%s" "ies"
+		"%" ""
+
 phrase "nouns of indeterminate quantity"
 	word
 		"<WR-5181>"
@@ -2723,7 +2726,9 @@ phrase "civilian subphrase 3"
 		"<WR-5284>" 103
 	# When making a word ending in "s" possessive, only add an apostrophe.
 	replace
-		"<WR-7142>" 		"<WR-89>" 
+		"s%'s" "s'"
+		"%" ""
+
 # e.g.:
 # Words and Changes
 # Beauty and Legends
@@ -4804,7 +4809,9 @@ phrase "pirate subphrase 4"
 		"<WR-8672>" 52
 	# When making a word ending in "s" possessive, only add an apostrophe.
 	replace
-		"<WR-7142>" 		"<WR-89>" 
+		"s%'s" "s'"
+		"%" ""
+
 phrase "pirate subphrase 5"
 	phrase
 		"sinister names"

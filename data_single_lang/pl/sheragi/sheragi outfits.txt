@@ -1,0 +1,420 @@
+# Copyright (c) 2020 by @Karirawri
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Outfits
+
+outfit "Small EM Battery"
+	plural "Small EM Batteries"
+	category "Power"
+	series "Batteries"
+	index 13010
+	cost 200000
+	thumbnail "outfit/small embattery"
+	"mass" 14
+	"outfit space" -14
+	"unique" 1
+	"shield generation" 0.14
+	"shield energy" 0.14
+	"shield heat" 0.14
+	"heat generation" 0.8
+	"energy capacity" 8300
+	description "Ta mała nadprzewodząca cewka gromadzi wystarczającą ilość energii, aby utrzymać myśliwiec w ruchu, a generowane przez nią pole elektromagnetyczne pomaga w utrzymaniu macierzy osłony."
+
+outfit "Large EM Battery"
+	plural "Large EM Batteries"
+	category "Power"
+	series "Batteries"
+	index 13020
+	cost 1000000
+	thumbnail "outfit/embattery"
+	"mass" 150
+	"outfit space" -150
+	"unique" 1
+	"shield generation" 0.8
+	"shield energy" 0.8
+	"shield heat" 0.8
+	"heat generation" 6.5
+	"energy capacity" 100000
+	description "To masywna cewka nadprzewodząca, zdolna do magazynowania dużych ilości energii w polu elektromagnetycznym i rozładowywania jej w całości w ułamku sekundy. Pole magnetyczne zapewnia również niewielki impuls do regeneracji osłon statku, które poza tym są bardzo słabo rozwinięte."
+
+outfit "Small Hybrid Cooling"
+	category "Systems"
+	series "Cooling"
+	index 13010
+	cost 200000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"unique" 1
+	"cooling" 9
+	"active cooling" 17
+	"cooling energy" 3.1
+	description "To niewielkie rozwiązanie chłodzące zostało zaprojektowane z myślą o myśliwcach i jako takie nie magazynuje paliwa. Zapewnia jednak bardziej pasywne chłodzenie niż jego starszy brat."
+
+outfit "Large Hybrid Cooling"
+	category "Systems"
+	series "Cooling"
+	index 13020
+	cost 1000000
+	thumbnail "outfit/sheragicooling"
+	"mass" 40
+	"outfit space" -40
+	"unique" 1
+	"cooling" 24
+	"active cooling" 128
+	"cooling energy" 16.2
+	"fuel capacity" 200
+	description "Ten system chłodzenia Sheragi jest co najwyżej prymitywny, ale działa zarówno aktywnie, jak i pasywnie, pozwalając mu rozpraszać znacznie więcej ciepła niż zwykły radiator. Zużywa jednak dużo energii w warunkach wysokiej temperatury panującej podczas bitwy. Zawiera również zbiorniki kriogeniczne, w których mieści się dodatkowe paliwo, wykorzystywane jako tymczasowy rezerwuar ciepła."
+
+outfit "Fission Drive"
+	category "Engines"
+	series "Engines"
+	index 13010
+	cost 2650000
+	thumbnail "outfit/fissiondrive"
+	"mass" 71
+	"outfit space" -71
+	"engine capacity" -38
+	"unique" 1
+	"energy generation" 5.2
+	"heat generation" 19.4
+	"thrust" 26.7
+	"thrusting energy" 1.508
+	"thrusting heat" 2.86
+	"turn" 479.7
+	"turning energy" 0.585
+	"turning heat" 1.365
+	"flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic small"
+	"steering flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic tiny"
+	description "Znacznie mniejszy kuzyn napędu fuzyjnego, do działania wykorzystuje rozszczepienie zamiast syntezy jądrowej, zapewniając niezbędną generację energii i ciągu do napędzania cyklotronu ciężkich jonów."
+
+outfit "Fusion Drive"
+	category "Engines"
+	series "Engines"
+	index 13020
+	cost 80000000
+	thumbnail "outfit/fusiondrive"
+	"mass" 480
+	"outfit space" -480
+	"engine capacity" -230
+	"unique" 1
+	"jump fuel" 100
+	"jump speed" 0.2
+	"hyperdrive" 1
+	"energy generation" 54
+	"heat generation" 156
+	"turn" 3744.0
+	"turning energy" 4.55
+	"turning heat" 12.35
+	"thrust" 270.75
+	"thrusting energy" 11
+	"thrusting heat" 33
+	"reverse thrust" 63.9
+	"reverse thrusting energy" 4.9
+	"reverse thrusting heat" 13.3
+	"flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic huge"
+	"steering flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic medium"
+	"reverse flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"reverse flare sound" "atomic large"
+	"unplunderable" 1
+	description "Silniki Sheragi to znacznie więcej niż proste tuby ziejące ogniem; to zbiór współzależnych urządzeń, zapewniających zwiększoną wydajność kosztem modułowości. Należą do nich hipernapęd, ogromny reaktor fuzyjny i najpotężniejsze silniki plazmowe, jakie kiedykolwiek widziałeś. To wszystko przykłady stosunkowo prostej technologii, ale dopracowanej i doprowadzonej do granic możliwości. Silniki są zasadniczo połączone z reaktorem fuzyjnym, co jeszcze bardziej zwiększa ich ciąg, a tym samym pozwala Szmaragdowemu Mieczowi latać z imponującą prędkością, podróżując przez przestrzeń międzygwiezdną z względną łatwością."
+
+outfit "Electronic Warfare System"
+	category "Systems"
+	series "Scanners"
+	index 13010
+	cost 3400000
+	thumbnail "outfit/sheragi ews"
+	"mass" 6
+	"outfit space" -6
+	"unique" 1
+	"radar jamming" 10
+	"tactical scan power" 25
+	"scan interference" 2
+	"energy consumption" .2
+	description "To urządzenie zapewnia zagłuszanie radarów i cały pakiet walki elektronicznej, gromadząc dane o polu bitwy w czasie rzeczywistym i zwiększając możliwości bojowe okrętu. Było niezbędnym elementem każdego okrętu wojennego Sheragi, a technika, którą wykorzystuje, do dziś jest trudna do opanowania."
+
+# Weapons
+
+outfit "Dragonflame Cannon"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 13020
+	cost 150000000
+	thumbnail "outfit/dragonflame"
+	"mass" 156
+	"outfit space" -156
+	"weapon capacity" -156
+	"required crew" 10
+	"gun ports" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		sound "dragonflame"
+		icon "icon/dragonflame"
+		"fire effect" "dragonflame"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 180
+		"firing energy" 16000
+		"firing fuel" 200
+		"firing heat" 40000
+		"firing force" 1500
+		"hit force" 3000
+		"shield damage" 25000
+		"hull damage" 15000
+		"heat damage" 50000
+		"piercing" 0.4
+		"penetration count" 20
+	description "Starożytna superbroni Sheragi jest prosta w koncepcji, ale koszty jej opracowania są horrendalne. Trudno sobie wyobrazić, co mogło być motywacją do stworzenia czegoś takiego. Wykorzystuje ona niewiarygodnie dużą ilość energii, aby wywołać niezwykle potężną reakcję termojądrową, kierując większość energii powstałej w wyniku eksplozji do przodu w postaci niszczycielsko potężnej wiązki promieniowania gamma."
+
+effect "dragonflame"
+	sprite "effect/dragonflame"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 21
+	"velocity scale" 1
+
+effect "bright hit"
+	sprite "effect/explosion/nuke"
+		"no repeat"
+		"frame rate" 60
+	sound "explosion nuke"
+	"lifetime" 7
+	"random angle" 360
+	"random spin" 30
+	"velocity scale" 0.005
+
+effect "dragonflame plasma"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 5
+	"random angle" 15
+	"random velocity" 40
+	"velocity scale" 0.002
+
+effect "dragonflame debris"
+	sprite "effect/bolide"
+		"no repeat"
+		"frame rate" 6
+	"lifetime" 60
+	"random frame rate" 6
+	"random angle" 25
+	"random spin" 60
+	"random velocity" 30
+	"velocity scale" 0.001
+
+outfit "Sheragi Anti-Missile"
+	category "Turrets"
+	series "Anti-Missile"
+	index 13010
+	cost 845000
+	thumbnail "outfit/sheragiam"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	"unique" 1
+	weapon
+		"hardpoint sprite" "hardpoint/sheragiam"
+		"hardpoint offset" 1.5
+		"hit effect" "sheragiam"
+		"anti-missile" 200
+		"velocity" 450
+		"lifetime" 1
+		"reload" 60
+		"firing energy" 220
+		"firing heat" 440
+	description "Pocisk przeciwpancerny Sheragi wystrzeliwuje niezwykle potężny impuls laserowy, który jest w stanie zniszczyć dowolny pocisk jednym strzałem, ale jego ładowanie trwa długo."
+
+effect "sheragiam"
+	sprite "effect/sheragiam"
+		"no repeat"
+		"frame rate" 30
+	sound "proton"
+	"lifetime" 5
+	"velocity scale" 1
+
+outfit "Particle Waveform Turret"
+	category "Turrets"
+	series "Turrets"
+	index 13010
+	cost 1650000
+	thumbnail "outfit/pwave turret"
+	"mass" 47
+	"outfit space" -47
+	"weapon capacity" -47
+	"turret mounts" -1
+	"required crew" 1
+	"unique" 1
+	weapon
+		sprite "projectile/pwavecannon"
+			"frame rate" 20
+		sound "pwave"
+		"hardpoint sprite" "hardpoint/pwavehp"
+		"hardpoint offset" 11
+		"fire effect" "lightning flare"
+		"hit effect" "pwave impact"
+		"inaccuracy" 1.5
+		"turret turn" 1.2
+		"velocity" 50
+		"lifetime" 18
+		"reload" 60
+		"firing energy" 180
+		"firing heat" 651
+		"shield damage" 95
+		"hull damage" 270
+		"heat damage" 224
+		"ion damage" 4.2
+		"scrambling damage" 4.2
+	description "Ta starożytna wieżyczka Sheragi przyspiesza gęsty pakiet elektronów, który, choć bardzo nieskuteczny w walce z jakąkolwiek osłoną, ma bardzo duży zasięg i zakłóca systemy elektryczne. Z natury tej broni można wywnioskować, że ich taktyka prawdopodobnie polegała na użyciu działa Dragonflame Cannon z dużej odległości do przełamania tarcz wroga, a następnie na dobijaniu go z bliskiej odległości za pomocą wieżyczek Particle Waveform."
+
+effect "lightning flare"
+	sprite "effect/pwaveflare"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 7
+	"velocity scale" 1
+
+effect "pwave impact"
+	sprite "effect/pwave impact"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 19
+	"random angle" 10
+	"random spin" 1
+	"velocity scale" -.001
+
+outfit "Shard Fabricator"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 13010
+	cost 330000
+	thumbnail "outfit/shard"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -7
+	"fuel capacity" 36
+	"gun ports" -1
+	"unique" 1
+	"operating costs" 150
+	weapon
+		sprite "projectile/shardactive"
+			"frame rate" 30
+			"random start frame"
+		sound "grab-strike"
+		icon "icon/shard"
+		"fire effect" "basic launch"
+		"hit effect" "shard impact"
+		"submunition" "Shard inactive"
+		"inaccuracy" 80
+		"velocity" 15
+		"lifetime" 40
+		"random lifetime" 20
+		"reload" 60
+		"burst reload" 2
+		"burst count" 6
+		"firing energy" 40
+		"firing fuel" 2
+		"firing heat" 60
+		"acceleration" 1.5
+		"drag" .1
+		"turn" 8
+		"homing"
+			"leading"
+			"throttle control"
+		"radar tracking" .8
+		"missile strength" 1
+	description "Aby zmniejszyć zależność od łańcuchów dostaw w czasie przedłużającej się wojny, ta jednostka zatrudnia wyspecjalizowanych producentów, którzy produkują proste pociski kinetyczne z materiałów magazynowych i niewielkiej ilości zmagazynowanego paliwa; ich system naprowadzania odbiera jedynie dane z radaru pokładowego. Pociski są wystrzeliwane salwami po sześć na raz z każdej wyrzutni, co czyni je bardzo skutecznymi w przełamywaniu obrony punktowej, pomimo ich kruchości. Jednak niewielka ilość paliwa, którą przenoszą, oznacza, że mogą namierzyć cel tylko przez około sekundę, zanim zamienią się w amunicję niekierowaną. Ponieważ są produkowane na miejscu, ich przeładowanie zajmuje dużo czasu."
+
+outfit "Shard inactive"
+	weapon
+		sprite "projectile/shardinactive"
+			"frame rate" 5
+			"random start frame"
+		"hit effect" "shard impact"
+		"die effect" "missile death"
+		"lifetime" 60
+		"random lifetime" 40
+		"hit force" 30
+		"shield damage" 110
+		"hull damage" 160
+
+effect "shard impact"
+	sprite "effect/particle impact"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion tiny"
+	"lifetime" 30
+	"velocity scale" 0
+
+outfit "Heavy Ion Cyclotron"
+	category "Guns"
+	series "Guns"
+	index 13010
+	cost 1650000
+	thumbnail "outfit/hion"
+	"mass" 33
+	"outfit space" -33
+	"weapon capacity" -21
+	"gun ports" -1
+	"unique" 1
+	weapon
+		sprite "projectile/hion"
+			"frame rate" 30
+		sound "hion"
+		"hit effect" "proton impact" 3
+		"submunition" "Heavy Ion Fragment" 3
+		"velocity" 28
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.9
+		"firing heat" 12.2
+		"firing force" 13.5
+	description "Główną bronią myśliwców Sheragi jest akcelerator cząstek, podobny do tych używanych przez Marynarkę Wojenną Republiki i Syndykat. Jednak ten wytwarza gęsty strumień jonów metali ciężkich zamiast wybuchów lżejszych, co powoduje duże obrażenia i silny odrzut. Ponieważ sam akcelerator cząstek można zamontować w innym miejscu, oszczędza to miejsce na broń."
+
+outfit "Heavy Ion Fragment"
+	weapon
+		sprite "projectile/hionfrag"
+			"no repeat"
+			"frame time" 8
+		"hit effect" "proton impact"
+		"inaccuracy" 1
+		"random velocity" 8
+		"lifetime" 25
+		"random lifetime" 8
+		"acceleration" 0.001
+		"drag" .02
+		"hit force" 4.5
+		"shield damage" 1.79
+		"hull damage" 1.47

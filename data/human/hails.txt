@@ -328,7 +328,10 @@ phrase "contraband"
 		"<WR-516>"
 		"<WR-517>"
 	replace
-		"<WR-518>" 		"<WR-519>" 		"<WR-89>" 
+		"%%s" ""
+		"%s" "s"
+		"%" ""
+
 phrase "visual media"
 	word
 		"<WR-520>"
@@ -1961,7 +1964,9 @@ phrase "friendly civilian"
 	word
 		"<WR-40>"
 	replace
-		"<WR-1668>" 		"<WR-1669>" 
+		"If you always ensure that if you have" "If you always ensure that you have"
+		"If you always ensure that if you keep" "If you always ensure that you keep"
+
 phrase "friendly civilian"
 	word
 		"<WR-1670>"
@@ -1993,7 +1998,8 @@ phrase "friendly civilian"
 	word
 		"<WR-40>"
 	replace
-		"<WR-1687>" 
+		"enough you know," "enough, you know"
+
 phrase "friendly civilian"
 	word
 		"<WR-1688>"
@@ -2084,7 +2090,8 @@ phrase "friendly civilian"
 		`<WR-1750>`
 		"<WR-1751>"
 	replace
-		"<WR-1752>" 
+		"around a space station hitting a ball around a space station" "around hitting a ball around a space station"
+
 phrase "friendly civilian"
 	word
 		"<WR-1753>"
@@ -2143,7 +2150,8 @@ phrase "friendly civilian"
 	word
 		"<WR-40>"
 	replace
-		"<WR-1796>" 
+		"?." "?"
+
 phrase "friendly civilian"
 	word
 		"<WR-1797>"
@@ -2385,7 +2393,12 @@ phrase "friendly civilian"
 		"<WR-40>" 3
 		"<WR-573>"
 	replace
-		"<WR-1973>" 		"<WR-1974>" 		"<WR-1975>" 		"<WR-1976>" 		"<WR-1977>" 
+		"turn some" "turn over some"
+		"turn good" "turn over good"
+		"turn a good turnover" "make a good turnover"
+		"get a living" "make a living"
+		"turn a living" "make a living"
+
 phrase "miner advice: outfit"
 	word
 		"<WR-1978>"
@@ -2582,7 +2595,14 @@ phrase "friendly civilian"
 	word
 		"<WR-40>"
 	replace
-		"<WR-2117>" 		"<WR-2118>" 		"<WR-2119>" 		"<WR-2120>" 		"<WR-2121>" 		"<WR-2122>" 		"<WR-2123>" 
+		"%M" "m"
+		"%H" "h"
+		"profitable and profitable" "profitable"
+		"fun and fun" "fun"
+		"relaxing and relaxing" "relaxing"
+		"worthwhile and worthwhile" "worthwhile"
+		"meditative and meditative" "meditative"
+
 phrase "friendly civilian"
 	word
 		"<WR-2124>"
@@ -2674,7 +2694,20 @@ phrase "friendly civilian"
 	word
 		"<WR-40>"
 	replace
-		"<WR-2164>" 		"<WR-2165>" 		"<WR-2166>" 		"<WR-2167>" 		"<WR-2168>" 		"<WR-2169>" 		"<WR-2170>" 		"<WR-2171>" 		"<WR-2172>" 		"<WR-2173>" 		"<WR-2174>" 		"<WR-2175>" 		"<WR-2176>" 
+		"for in" "in"
+		"gold and gold" "gold"
+		"gold or gold" "gold"
+		"silver and silver" "silver"
+		"silver or silver" "silver"
+		"tungsten and tungsten" "tungsten"
+		"tungsten or tungsten" "tungsten"
+		"platinum and platinum" "platinum"
+		"platinum or platinum" "platinum"
+		"uranium and uranium" "uranium"
+		"uranium or uranium" "uranium"
+		"neodymium and neodymium" "neodymium"
+		"neodymium or neodymium" "neodymium"
+
 phrase "friendly civilian"
 	word
 		"<WR-2177>"
@@ -4740,7 +4773,8 @@ phrase "friendly pirate"
 		"<WR-3207>"
 		"<WR-3208>"
 	replace
-		"<WR-89>" 
+		"%" ""
+
 phrase "friendly pirate"
 	word
 		"<WR-3190>"
@@ -4795,7 +4829,8 @@ phrase "friendly pirate"
 		"<WR-573>"
 		"<WR-40>"
 	replace
-		"<WR-1796>" 
+		"?." "?"
+
 phrase "friendly pirate"
 	word
 		"<WR-3224>"
@@ -5903,7 +5938,9 @@ phrase "friendly deep"
 	word
 		"<WR-40>"
 	replace
-		"<WR-3879>" 		"<WR-89>" 
+		"% %" ", "
+		"%" ""
+
 phrase "friendly deep"
 	word
 		"<WR-3880>"
@@ -5995,7 +6032,12 @@ phrase "friendly deep"
 	word
 		"<WR-40>"
 	replace
-		"<WR-3924>" 		"<WR-3925>" 		"<WR-86>" 		"<WR-3926>" 		"<WR-3927>" 
+		"% bid" " bids"
+		"% wish" " wishes"
+		"% offer" " offers"
+		"% work to give" " works to give"
+		"% ensure" " ensures"
+
 phrase "friendly deep"
 	word
 		"<WR-3928>"
@@ -6372,7 +6414,8 @@ phrase "hostile pirate"
 	word
 		"<WR-573>"
 	replace
-		"<WR-89>" 
+		"%" ""
+
 phrase "hostile pirate"
 	word
 		"<WR-4101>"

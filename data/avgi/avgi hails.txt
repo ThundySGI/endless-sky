@@ -1011,7 +1011,11 @@ phrase "avgi angry"
 		"<WR-40>"
 		"<WR-573>"
 	replace
-		"<WR-9642>" 		"<WR-9643>" 		"<WR-9644>" 		"<WR-9645>" 
+		"of this." "of this?"
+		"of this!" "of this?"
+		"you doing." "you doing?"
+		"you doing!" "you doing?"
+
 
 phrase "dissonance angry"
 	word

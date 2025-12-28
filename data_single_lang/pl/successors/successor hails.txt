@@ -1,0 +1,1181 @@
+# Copyright (c) 2024 by Daeridanii
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Successor civilian
+
+phrase "successor friendly hail" # Wary
+	word
+		`Czy ty jesteś tym "szlachetnym gościem", o którym mówią Izby?`
+		`Czy jesteś "honorowym gościem" na paradzie Domów?`
+		"Czy jesteś upiornym stworzeniem, które przybywa z odległych krain?"
+		"Czy jesteś tym dziwnym podróżnikiem, który przybywa z odległych gwiazd?"
+		"Czy jesteś obcym gościem na naszych szlachetnych ziemiach?"
+		"Czy jesteś stworzeniem historii, które powróciło, by szukać teraźniejszości?"
+		"Twój statek i oblicze wydają się dziwne i osobliwe,"
+	word
+		" / "
+	word
+		"Zauważyłem twoją obecność, ale pozostaję czujny."
+		"Jeśli twoja dusza jest skażona, to proszę, trzymaj się od niej z daleka."
+		"Jeśli jesteś moim przyjacielem, ja będę twoim przyjacielem."
+		"Jaki jest twój cel pośród tych gwiazd? Błąkać się w rozkoszy?"
+		"Komu i czemu użyczasz swojej własnej siły?"
+		"Jaki jest twój cel w tych gwiazdach? Obserwować czy ingerować?"
+		"Jaki jest twój cel w tych gwiazdach? Być handlarzem czy zdrajcą?"
+
+
+phrase "successor friendly hail" # Equipment
+	word
+		"Nigdy nie latam bez"
+		"Nigdy nie podróżuję bez"
+		"Głupotą byłoby latać bez"
+	word
+		" "
+	word
+		"zaufany skaner"
+		"mój zaufany skaner"
+		"większy zbiornik paliwa"
+		"komunikacja"
+		"jakaś rozmowa"
+		"zapas kostek kraba"
+		"zapas pakietów kelp"
+		"zapas tygodniowy"
+	word
+		", / "
+	word
+		"Sugeruję, abyś zrobił to samo dla własnego dobra."
+		"Dzięki niemu godziny mijają szybko."
+		"Jego obecność rozjaśnia ciemność kosmosu."
+		"Nie ma sensu ruszać się bez niego."
+
+
+phrase "successor friendly hail" # Basic greeting
+	word
+		"Witaj"
+		"Słuchaj"
+	word
+		", "
+	word
+		"kolega kapitan"
+		"kolega pilot"
+		"bieżnik gwiazdowy"
+		"kapitan"
+		"odwiedzający"
+	word
+		"." 3
+		"!" 3
+		", jakkolwiek dziwny byś nie był."
+
+
+phrase "successor friendly hail" # Regretful
+	word
+		"Byłem"
+	word
+		" "
+	word
+		"miał na myśli"
+		"wyszkolony"
+		"nauczono"
+	word
+		" "
+	word
+		"być"
+	word
+		" "
+	phrase
+		"następne zajęcie"
+	word
+		", "
+	word
+		"naprawdę"
+		"naprawdę"
+		"tak"
+		"prawda"
+	word
+		", / "
+	word
+		"nie"
+	word
+		" "
+	word
+		"niektóre"
+		"to"
+		"a"
+	word
+		" "
+	word
+		"skromny"
+		"nisko"
+		"nieszczęsny"
+		"ponury"
+		"żałosny"
+		"samotny"
+	word
+		" "
+	word
+		"pilot"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Media
+	word
+		"Czy wiesz"
+	word
+		" "
+	word
+		"cieszył się"
+		"widziano"
+		"doświadczony"
+		"zabrano"
+	word
+		" "
+	phrase
+		"nazwa kolejnego nośnika"
+	word
+		"? / "
+	word
+		"Prawdę mówiąc, nie mam nic, co mogłoby go równać się z tym równym"
+		"To mój ulubiony tego typu, bez dyskusji"
+		"Taką prawdę w sztuce naprawdę rzadko można znaleźć"
+		"Jeśli nie, to jesteś przez to uboższy"
+		"Doskonałe do delektowania się na gwiezdnych szlakach"
+		"Bardziej aktualne dzisiaj niż kiedykolwiek wcześniej"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Cargo
+	word
+		"Został zatrudniony, aby przywieźć"
+		"Transportuję"
+	word
+		" "
+	word
+		"a"
+	word
+		" "
+	word
+		"ładowanie" 2
+		"pudełko"
+		"skrzynia"
+	word
+		" "
+	word
+		"cennych"
+		"zawiera"
+		"pozłacane"
+	word
+		" "
+	phrase
+		"towary następcze (2-sylabowe)"
+	word
+		". / "
+		"! / "
+	word
+		"Zobaczę to"
+		"Tak powinno być"
+	word
+		" "
+	word
+		"dostarczono"
+		"oferowane"
+		"rozładowany"
+	word
+		" "
+	word
+		"szybko"
+		"bezpiecznie"
+		"wkrótce"
+		"ostrożnie"
+	word
+		" i z przekonaniem"
+		", jak to jest w moim standardzie"
+		" i na czas"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Proverbs
+	word
+		"Płyniemy w wodzie, którą sami solimy."
+		"Jeden jest ślepy, dwóch głupich, ale trzech nie ulega kaprysom i fantazjom."
+		"Zaufaj na wyciągnięcie ręki."
+		"Oczy otwarte, ramiona szeroko rozłożone."
+		"Jaja podejrzeń są potomkami roztropności."
+		"Lepiej suchy dom niż mokra furia."
+		"Imię w przeszłości, drugie imię w teraźniejszości, trzecie imię w przyszłości."
+		"Honor jest potomstwem bezpieczeństwa."
+		"Czy w prawdzie nie ma piękna? Czy w cnocie nie ma radości?"
+
+
+phrase "successor friendly hail" # Relation
+	word
+		"Mój"
+	word
+		" "
+	phrase
+		"relacja następcza"
+	word
+		" "
+	word
+		"zawsze mi mówił: bądź"
+		"właśnie zdobył tytuł:"
+		"używany do poznania przyjaciela"
+		"pomógł mi znaleźć przyjaznego"
+		"właśnie poślubiłem"
+		"powiedział mi: nigdy nie ufaj"
+		"kiedyś był zdolny"
+	word
+		" "
+	phrase
+		"następne zajęcie"
+	word
+		", / "
+	word
+		"W tych długich dniach chciałbym, żeby były mną."
+		"Szlachetne zadanie, ale nie dla mnie."
+		"Nie moją rolą jest krytykowanie, a jednak..."
+		"Mam nadzieję, że wkrótce ich znowu zobaczę."
+		"Spotkałeś ich? Czy przynoszą jakieś wieści?"
+
+
+phrase "successor friendly hail" # Conspiracy
+	word
+		"Mam nadzieję, że zachowasz tę myśl między nami:"
+		"Mój przyjaciel kiedyś w tajemnicy mi powiedział:"
+		"Słyszałem od osób o dobrej reputacji i uczciwości, że:"
+		"Wysokie Izby próbują to ukryć, ale ja wiem, że:"
+		"Nauczyłem się przez wiele lat uczciwego pilowania:"
+		"Jeśli chcesz mi uwierzyć:"
+		"Wątp w moje słowa, jeśli twoim celem jest oszustwo, ale:"
+	word
+		" / "
+	word
+		"To był intrygant Drak, który sprowadził zagładę na nasze imperium."
+		"Zdradliwi Quargowie, którzy spowodowali koniec starego imperium."
+		"Ta zazdrosna koalicja przyniosła koniec starego imperium."
+		"Sprytny Korath spowodował koniec starego imperium."
+		"Wysokie domy same zniszczyły nasze imperium."
+		"Najlepsze szlaki handlowe to te, które nie są podatne na skanowanie." 5
+		"Najlepsze szlaki handlowe to te, które przynoszą pieniądze." 5
+		"Najlepsze szlaki handlowe są ukryte przed twoimi czujnikami." 2
+		"W pustce czają się koszmary, których Domy się boją."
+		"Puste systemy tutaj są podatne na dziwność."
+
+
+phrase "successor friendly hail" # Compliance
+	word
+		"Jeśli zostałeś zeskanowany przez"
+		"Kiedy jesteś skanowany przez"
+	word
+		" "
+	word
+		"statek Domu"
+		"lokalny Dom"
+		"okręt wojenny rodu"
+		"patrol domowy"
+	word
+		", / "
+	word
+		"Pospiesz się, żeby się zatrzymać"
+		"Nie próbuj uciekać"
+		"Ucisz swoje rzemiosło"
+	word
+		" i nie stawiaj oporu"
+		", rozwiń się"
+		", wyjaśnij swoją trasę"
+		", przedstaw swój nakaz"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Careful
+	word
+		"Niech twój"
+	word
+		" "
+	word
+		"podróż"
+		"podróż"
+		"podróż"
+		"misja"
+		"wysiłek"
+	word
+		" "
+	word
+		"nie ma sensu"
+		"niezrobione"
+		"zamienić się w popiół"
+		"nie zdziałać nic"
+	word
+		"! / "
+		"; / "
+	word
+		"Utrzymaj swój statek w nienaruszonym stanie"
+		"Zabezpiecz swój ładunek starannie"
+		"Uważnie obserwuj swoje czujniki"
+		"Przeczytaj uważnie swoje pismo"
+	word
+		" i trzymaj oczy otwarte"
+		", twoje oczy płoną"
+		" ze względów bezpieczeństwa"
+		" dla dobra całej twojej załogi"
+		" a twój dowcip brzytwą"
+		" i twoje ramiona zręczne"
+	word
+		"."
+		"!"
+
+
+phrase "successor hostile hail"
+	word
+		"Zdradziłeś nasze zaufanie i w jakim celu!?"
+		"Widzimy, że nasza głupota polegała na tym, że ci zaufaliśmy;"
+		"Okrutne, złośliwe, gwałtowne, małostkowe stworzenie."
+		"Wstrętny! Twoje oszustwo zostało teraz ujawnione."
+		"Twoja śmierć nie pozostawi śladu w kosmosie."
+		"Nasza przyjaźń, jak się okazuje, została odwołana."
+	word
+		" / "
+	word
+		"Bardzo mi przykro, że spotka cię gwałtowny koniec."
+		"Domy uwolnią cię od ciężaru życia."
+		"Przygotuj się na zerwanie ze swoją śmiertelną powłoką."
+		"Łagodna ręka Śmierci zamyka twoje oko."
+		"Nasza zemsta nie daje żadnej satysfakcji."
+
+
+phrase "successor friendly disabled hail"
+	word
+		"Szybka pomoc byłaby dla ciebie zaszczytem,"
+		"Niestety, nasz statek leży na dnie,"
+		`"Pomocy!" prosimy, uczciwy gościu,`
+		"Nasz waleczny statek został uszkodzony, przyjacielu,"
+	word
+		" / "
+	word
+		"Pośpiesz się, błagamy cię."
+		"Udzielaj pomocy, jeśli jest w zasięgu."
+		"Twoja pomoc uczyniłaby nas zdrowymi."
+		"'Szlachetnie jest być miłym i mądrze pomagać."
+
+
+phrase "successor hostile disabled hail"
+	word
+		"Niszczycielska istoto, zobacz teraz swoje gorzkie dzieło!"
+		"Twoje oszustwo zniszczyło nasz najpiękniejszy statek!"
+		"Zgorzkniały łobuz, nierozważny w naturze i czynach!"
+		"Okrutny oszustwie, widzimy, że naszym błędem było zaufanie tobie,"
+	word
+		" / "
+	word
+		"Domy doprowadzą twoją zgorzkniałą osobę przed oblicze sprawiedliwości!"
+		"Oszczędź nam, jeśli nie nasz statek, to nasze życie!"
+		"Jesteś przeklęty, głupi, okrutny i skazany na śmierć."
+		"Nasze rodziny pomszczą nas, bez względu na wszystko!"
+
+# High Houses: Generic
+
+phrase "high houses friendly hail"
+	word
+		"Zapraszamy do dołączenia do naszej przestrzeni"
+		"Witamy Twoją obecność w naszym pięknym miejscu"
+		"Zauważamy Twoją wizytę i przyjmujemy"
+		`"Szlachetny przyjacielu," jesteś naszym wyrokiem`
+		`"Szanowny gościu," na naszym niebie jesteś`
+		`"Królewski przybyszu," Twoje imię będzie z nami`
+	word
+		", / "
+	word
+		"Abyś"
+	word
+		" "
+	word
+		"moc"
+		"może"
+		"shalt"
+		"nie mogę"
+	word
+		" "
+	word
+		"ciesz się naszymi przyjemnymi światami"
+		"ciesz się naszymi zielonymi światami"
+		"zanotuj nasz postęp"
+		"znajdź radość w naszym sukcesie"
+		"bądź świadkiem naszej radości"
+		"doceniamy nasze ziemie"
+		"dobrze poznaj nasz sukces"
+		"poczuj podziw dla naszego sukcesu"
+	word
+		"." 3
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"Szlachetnym pochodzeniem wywyższamy nas wszystkich,"
+		"Z radosną siłą i uczciwą mocą lecimy,"
+		"Żadne zło nie stanie na przeszkodzie naszemu szlachetnemu celowi:"
+		"Nasz cel jest prosty i prawdziwy:"
+		"Z czujnymi oczami i dzielnymi sercami,"
+	word
+		" / "
+	word
+		"Aby zbudować dla wszystkich wielki i trwały pokój."
+		"Aby zapewnić wszystkim prawdziwy i radosny pokój."
+		"Abyśmy wszyscy byli bezpieczni i mogli cieszyć się pokojem."
+		"Aby promować radość i dobrobyt nas wszystkich."
+
+
+phrase "high houses friendly hail"
+	word
+		"Słuchaj"
+		"Witaj"
+	word
+		", "
+	word
+		"podróżnik"
+		"gość"
+		"obcy"
+		"kapitan"
+		"pilot"
+	word
+		"!"
+	word
+		" / "
+	word
+		"Nasz"
+	word
+		" "
+	word
+		"Dom"
+		"flota"
+		"statek"
+		"rzemiosło"
+	word
+		" "
+	word
+		"patrole"
+		"utrzymuje"
+		"obserwuje"
+		"czy łaska"
+	word
+		" "
+	word
+		"ta przestrzeń"
+		"te światy"
+	word
+		"."
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"Niech ci z"
+		"Niech ci z"
+	word
+		" "
+	word
+		"zło"
+		"uraza"
+		"furia"
+		"łobuzerstwo"
+		"okrucieństwo"
+		"błąd"
+		"przemoc"
+		"kpina"
+	word
+		" "
+	word
+		"w ich sercach"
+		"jako ich przewodnik"
+		"zgodnie z intencją"
+	word
+		" "
+	word
+		"trzęsienie ziemi"
+		"strach"
+		"uciekaj"
+		"precz"
+	word
+		" "
+	word
+		"i bledną ze strachu"
+		"przed naszą potęgą"
+		"jak dotrzemy"
+	word
+		". / "
+		"! / "
+	word
+		"Twój dom jest tutaj"
+		"Twój dom przybywa"
+	word
+		"."
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"Zrób nagi nie"
+		"Nie uwalniaj niegodziwych"
+	word
+		" "
+	word
+		"ostrze"
+		"włócznia"
+		"pazur"
+	word
+		" z "
+	word
+		"zło"
+		"uraza"
+		"furia"
+		"okrucieństwo"
+		"błąd"
+		"przemoc"
+		"kpina"
+	word
+		" "
+	word
+		"'przed naszym spojrzeniem"
+		"'w naszym polu widzenia"
+		"póki jeszcze oddychamy"
+		"wśród naszych światów"
+		"na nasz lud"
+	word
+		". / "
+		"! / "
+	word
+		"Wszyscy łotrzykowie spotkają swój gorzki koniec"
+		"Nasz gniew jest równy naszej miłości"
+		"Nasza potęga przewyższa najpodlejszego wroga"
+		"Nasz obowiązek nakazuje nam bronić"
+		"Nie będziemy tolerować gwałtownego wroga"
+	word
+		"."
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"Sprawiedliwość"
+		"Siła"
+		"Celownik"
+		"Moc"
+		"Opieka"
+	word
+		", "
+	word
+		"honor"
+		"pasja"
+		"męstwo"
+	word
+		", "
+	word
+		"integralność"
+		"wierność"
+		"precyzja"
+		"szlachta"
+		"uczciwość"
+		"jasność"
+		"szybkość"
+		"odwaga"
+	word
+		": "
+	word
+		"te"
+		"taki"
+	word
+		" "
+	word
+		"są cnotami"
+	word
+		" "
+	word
+		"nasz"
+	word
+		" "
+	word
+		"szlachetny"
+		"królewski"
+	word
+		" "
+	word
+		"Dom."
+
+
+phrase "high houses friendly hail"
+	word
+		"Podróż"
+		"Odwiedź"
+	word
+		" "
+	word
+		"planeta"
+		"na świecie"
+	word
+		" "
+	word
+		"widzieć"
+		"dotykać"
+	word
+		" "
+	word
+		"an Aaulqra"
+		"a Seiitej"
+		"a Veusade"
+		"Ojet"
+		"działo cewkowe"
+	word
+		" "
+	word
+		"osobiście"
+		"z bliska"
+		"własnymi ramionami"
+	word
+		"."
+		"!"
+
+
+phrase "high houses hostile hail"
+	word
+		"Twoje oszustwo jest szczytem twego zła,"
+		"Twoje tchórzostwo jest podstawą twojej sławy,"
+		"Widzimy, że nasza głupota polegała na tym, że ci zaufaliśmy;"
+		"Okazałeś się łotrem i tchórzem;"
+		"Tchórze umierają wiele razy przed śmiercią,"
+	word
+		" / "
+	word
+		"Nasz obowiązek uwolni cię od życia."
+		"Obyś w śmierci znalazł spokój, którego brakowało ci za życia."
+		"Niech twoja śmierć będzie waleczna i szybka."
+		"Obyś w chwili śmierci rozpoznał swoje błędy."
+		"Teraz oświeceni, jesteśmy świadomi twojej złośliwości."
+		"Niech twoje nikczemne i oszukańcze serce teraz ustanie."
+		"Odważni nigdy nie zaznają śmierci, tylko raz."
+
+
+phrase "high houses hostile hail"
+	word
+		"Nie sprawia nam przyjemności wypełnianie tego poważnego obowiązku,"
+		"Twój jad spotka się z naszą determinacją:"
+		"Naszym najpoważniejszym obowiązkiem jest położenie kresu twemu okrucieństwu:"
+	word
+		" / "
+	word
+		"Sprawimy, że twoja śmierć będzie szybka i bezbolesna."
+		"Nasze ciernie wyrosną w twoim buntowniczym ciele."
+		"Niech twoja śmierć będzie waleczna i szybka."
+		"Niech twój ból będzie wyniszczający i szybki."
+
+
+phrase "high houses hostile disabled hail" 2
+	word
+		"Niszczycielski psie, nasza zemsta cię jeszcze dosięgnie!"
+		"Zemsta jest daniem, które najlepiej smakuje na zimno,"
+		"Możesz rozbić nasz statek, lecz nigdy nie złamiesz naszego ducha!"
+		"Gnij i gnij, podstępny oszust!"
+		"Wejdźcie na pokład, a będziemy walczyć do końca!"
+	word
+		" / "
+	word
+		"Nasi przyjaciele pomszczą twoje gorzkie okrucieństwo!"
+		"Niech twoje zgniłe ciało spłonie w płomieniach!"
+		"Nasi przyjaciele jeszcze raz dadzą ci poznać strach."
+		"Twoim jedynym szlachetnym czynem będzie zginąć."
+
+
+phrase "high houses hostile disabled hail"
+	word
+		"Z serca pustki, ranimy cię! / W imię nienawiści, plujemy na ciebie naszym ostatnim oddechem!" # Moby-Dick
+		"Tchórze umierają wiele razy, zanim umrą, / Lecz dzielni nigdy nie zaznają śmierci dłużej niż raz!" # Julius Caesar, Act 2, Scene 2
+		"Biada, zniszczenie, ruina i rozkład; / Najgorsza jest śmierć, a śmierć będzie miała swój dzień." # Richard II, Act 3, Scene 2
+		"Trzymaj się z daleka, albo przyjmuj śmierć z otwartymi ramionami; / Nie zbliżaj się do miary mojego gniewu." # The Two Gentlemen of Verona, Act 5, Scene 4
+		"I przez sen mówimy, że koniec / Bólowi serca i tysiącowi naturalnych wstrząsów / Które ciało dziedziczy." # Hamlet, Act 3, Scene 1
+
+# High Houses: Old Houses
+
+phrase "old houses friendly hail" # Boast hails
+	word
+		"Ten"
+	word
+		" "
+	word
+		"ramię"
+		"włócznia"
+		"miecz"
+		"tarcza"
+		"liczba pierwsza z"
+		"najlepsze z"
+	word
+		" "
+	word
+		"Stare Domy"
+	word
+		" "
+	word
+		"w"
+		"z"
+	word
+		" "
+	word
+		"radość"
+		"duma"
+		"siła"
+		"chwała"
+	word
+		" "
+	word
+		"jesteśmy;"
+	word
+		" / "
+	word
+		"Prosta prawda, z której jesteśmy dumni."
+		"Uczciwy fakt, oczywisty dla wszystkich."
+		"Prosta prawda, z której czerpiemy radość."
+		"Prawda, którą nosimy na rękawie."
+		"Pozycja, którą zajmujemy z największą radością."
+		"Zaszczyt, którego nigdy nie odmówimy."
+		"Radość w słowach i czynach, mówiąc wprost."
+
+
+phrase "old houses friendly hail" 10
+	phrase
+		"high houses friendly hail"
+
+
+phrase "chydiyi friendly hail" 7
+	phrase
+		"old houses friendly hail"
+
+
+phrase "chydiyi friendly hail"
+	word
+		"Udział w Zakratowanym Niebie Domu Chydiyi"
+		"Lataj z łaski Przekreślonego Nieba"
+	word
+		", / "
+	word
+		"Jego"
+		"Nasz"
+	word
+		" "
+	word
+		"flota"
+		"statki"
+		"rzemiosło"
+	word
+		" "
+	word
+		"chmury w nim"
+		"wieniec gwiazd"
+		"burza w środku"
+	word
+		"."
+		"!"
+
+
+phrase "myurej friendly hail" 6
+	phrase
+		"old houses friendly hail"
+
+
+phrase "myurej friendly hail"
+	word
+		"Nie znoś"
+	word
+		" "
+	word
+		"wzlot i upadek"
+		"wejście i wyjście"
+		"oddech fal"
+		"ból dawnych czasów"
+	word
+		", "
+	word
+		"przypływ i odpływ"
+		"losowanie strachu"
+		"duch przeszłości"
+	word
+		", / "
+	word
+		"spraw, by twoje oczy zadrżały"
+		"podnieś głowę z dumą"
+		"wyciągnij ramiona przed siebie"
+		"wypchnij swego ducha"
+		"udziel swemu duchowi lotu"
+	word
+		", "
+	word
+		"odetchnij w szlachetnym dniu"
+		"świętuj dzień"
+		"odnieś sukces w swoich 'deavorach"
+		"ciesz się swoją rolą"
+	word
+		"."
+		"!"
+
+
+phrase "myurej friendly hail"
+	word
+		"Kwitnące ramię "
+	word
+		"Dom"
+		"wielki"
+		"słodki"
+	word
+		" Myurej "
+	word
+		"rozciąga się do ciebie"
+		"jest ci ofiarowane"
+	word
+		" w "
+	word
+		"przyjaźń"
+		"pokój"
+		"pomoc"
+		"am'ty"
+	word
+		". / "
+	word
+		"Możesz przyjąć to, czego potrzebujesz."
+		"Nie rób nic, tylko wzywaj pomocy."
+		"Taka jest nasza szlachetna obietnica."
+	
+
+phrase "sioeora friendly hail" 7
+	phrase
+		"old houses friendly hail"
+
+
+phrase "sioeora friendly hail"
+	word
+		"Ten"
+	word
+		" "
+	word
+		"błyszczący"
+		"wspaniałe"
+		"bezbłędny"
+		"sprytny"
+	word
+		" "
+	word
+		"statki"
+		"rzemiosło"
+		"narzędzia"
+		"broń"
+	word
+		" z "
+	word
+		"nasz szlachetny Domu"
+		"jasna Sioeora"
+		"Dom Bliźniaczych Księżyców"
+	word
+		" / "
+	word
+		"Bądźcie gotowi do pomocy"
+		"Są znani jako najlepsi ze wszystkich"
+		"Nie zniesie złych"
+		"Z przyjemnością zatrudniamy"
+	word
+		"."
+		"!"
+
+# High Houses: New Houses
+
+phrase "new houses friendly hail" # Boast hails
+	word
+		"Ten"
+	word
+		" "
+	word
+		"ramię"
+		"włócznia"
+		"miecz"
+		"tarcza"
+		"liczba pierwsza z"
+		"najlepsze z"
+	word
+		" "
+	word
+		"Nowe Domy"
+	word
+		" "
+	word
+		"w radości"
+		"z dumą"
+		"z radością"
+	word
+		" "
+	word
+		"jesteśmy;"
+	word
+		" / "
+	word
+		"Prosta prawda, z której jesteśmy dumni."
+		"Uczciwy fakt, oczywisty dla wszystkich."
+		"Prosta prawda, z której czerpiemy radość."
+
+
+phrase "new houses friendly hail" 10
+	phrase
+		"high houses friendly hail"
+
+
+phrase "kaatrij friendly hail" 6
+	phrase
+		"new houses friendly hail"
+
+
+phrase "kaatrij friendly hail"
+	word
+		"Jesteśmy na delikatnych skrzydłach z pazurami w kształcie kłów."
+		"Obyś rozpoznał swoje własne tłumy;"
+		"Pamiętaj o poległych, nowych i starych."
+		"Wytrwamy razem, wtedy i teraz."
+		"Nie podważaj, nie szukaj, teraz i zawsze."
+		"Czuwamy, utrzymujemy, nigdy nie odpoczywając;"
+	word
+		" / "
+	word
+		"Nasz szlachetny dom lata więc bez przeszkód."
+		"W naszej jedności znajdujemy naszą siłę."
+		"Niech czuwa twoja cnota."
+
+
+phrase "kaatrij friendly hail"
+	word
+		"Ten"
+	word
+		" "
+	word
+		"Kijran"
+		"Kompozyt"
+		"Skrzydlaty"
+		"Skrzydlate-Oko"
+	word
+		" Dom "
+	word
+		"pozdrawiam"
+		"obserwuje"
+		"obserwuje i notuje"
+		"pozdrawiam"
+	word
+		" ciebie, "
+	word
+		"podróżnik"
+		"kapitan"
+		"obcy"
+		"pilot"
+		"gość"
+	word
+		". / "
+	word
+		"Obyś miał"
+		"Niech masz"
+	word
+		" "
+	word
+		"jasność"
+		"ostrożność"
+		"sukces"
+		"integralność"
+	word
+		" "
+	word
+		"w twoich podróżach."
+		"w twojej podróży."
+
+
+phrase "seineq friendly hail"
+	phrase
+		"new houses friendly hail" 7
+
+
+phrase "seineq friendly hail"
+	word
+		"W"
+	word
+		" "
+	word
+		"zielone"
+		"trwały"
+		"wspaniałe"
+		"błyszczący"
+	word
+		" "
+	word
+		"pokój"
+	word
+		" "
+	word
+		"i"
+		"z"
+	word
+		" "
+	word
+		"świecący"
+		"pasjonat"
+		"o jasnych oczach"
+	word
+		" "
+	word
+		"duma"
+	word
+		", / "
+	word
+		"Domy, Nowe"
+		"nasz szlachetny Domu"
+		"Dom Wielkiego Seineqa"
+		"partia Lum'nary"
+		"Pierścień dwukrotnie owinięty"
+	word
+		" "
+	word
+		"doth"
+	word
+		" "
+	word
+		"wytrwać i rozwijać się"
+		"ogłaszać sukces"
+		"wywołujemy naszą umiejętność"
+	word
+		"."
+		"!"
+
+
+phrase "aqrabe friendly hail" 6
+	phrase
+		"new houses friendly hail"
+
+
+phrase "aqrabe friendly hail"
+	word
+		"Zważaj na słowa"
+		"Trzymaj blisko słowa 'f"
+		"Ignoruj nie"
+		"Rabat nie"
+	word
+		" "
+	word
+		"ten"
+		"nasz"
+	word
+		" "
+	word
+		"szlachetny"
+		"królewski"
+		"przemyślany"
+	word
+		" święty "
+		" paragon o'"
+	word
+		"Przejrzystość"
+		"Spryt"
+		"Świadomość"
+		"Rodzina"
+		"Uczciwość"
+		"Pokora"
+		"Przemysł"
+		"Jedność"
+		"Bogactwo"
+	word
+		": / "
+	word
+		`"Nie karm ziejącej paszczy lenistwa."`
+		`"Dobrobyt urzeczywistnia swoje własne cnoty."`
+		`"Siła jest czynnikiem umożliwiającym cnotę."`
+		`"Odporność jest jajkiem sukcesu."`
+		`"Ostentacja jest skórą fałszu."`
+		`"Bezpieczeństwo umożliwia dobrobyt."`
+		`"Ulepszanie nie jest możliwe bez dobrze wykonanych narzędzi."`
+		`"Niech twoje złoto będzie nicią, a nie posągiem."`
+
+
+phrase "aqrabe friendly hail"
+	word
+		"Jesteśmy Aqrabe"
+		"Szlachecki Dom Aqrabe"
+	word
+		", "
+	word
+		"Wieża Ij"
+		"Oddana impreza nowym domom"
+	word
+		": nie "
+	word
+		"złoczyńca"
+		"złośliwy"
+		"łobuz"
+	word
+		" "
+	word
+		"powinien"
+		"może"
+		"mógłby"
+	word
+		" "
+	word
+		"ucieczka"
+		"unikaj"
+		"unikaj"
+	word
+		" nasz "
+	word
+		"gniew"
+		"spojrzenie"
+		"zakres"
+		"moc"
+	word
+		"."
+		"!"
+
+# People's Houses
+
+phrase "people's houses friendly hail"
+	word
+		"Ciesz się swoją wolnością i wytrzymałością."
+		"Nie zamierzam wyrządzić ci żadnej krzywdy ani nie wyrządzić ci żadnej krzywdy."
+		"Wywieszamy flagę wolności od ucisku."
+		"Domy Ludowe oferują prawdziwą równość."
+	word
+		" / "
+	word
+		"Żyj bez łańcuchów arystokracji."
+		"Pozostań wolny od apatycznej normy."
+		"Domy Ludowe są gotowe do pomocy."
+
+phrase "people's houses hostile hail"
+	word
+		"Czyż jesteś łobuzem z tego samego tytułu co w działaniu!?"
+		"Jesteś tylko głupim niewolnikiem władzy!"
+		"Czy jesteś ślepy i głuchy na cierpienie czy po prostu zły?"
+		"Jeśli zechciałbyś zostawić swój ładunek, to pójdziemy."
+		"Tym, którzy upuszczą swój ładunek, nie stanie się żadna krzywda."
+		"Jesteś podstępny w swoich przyjaźniach i swoich czynach."
+	word
+		" / "
+	word
+		"Twoja krew będzie zdobić wnętrze twojego statku kosmicznego."
+		"Opór spotka się z egzekucją."
+		"Mam nadzieję, że Twój ból jest wielki i wieczny."
+		"Pozwól mi uwolnić cię od ciężaru śmiertelności."
+		"Przygotuj się na zerwanie ze swoją śmiertelną powłoką."
+		"The sudden hand of Death shalt close thine eye."

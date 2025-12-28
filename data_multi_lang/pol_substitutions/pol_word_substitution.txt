@@ -1160,8 +1160,8 @@ substitutions
 	"WR-1158" `To miejsce nie jest prawdziwe; to tylko iluzja`
 	"WR-1159" `Jestem pewien, że coś się tam dzieje`
 	"WR-1160" `'Oni' chcą, żebyśmy uwierzyli, że to miejsce naprawdę istnieje`
-	"WR-1161" `To wszystko jest tylko przykrywką dla „ich” machinacji`
-	"WR-1162" `Musi być jakiś powód, dla którego „oni” nigdy o tym nie wspominają`
+	"WR-1161" `To wszystko jest tylko przykrywką dla "ich" machinacji`
+	"WR-1162" `Musi być jakiś powód, dla którego "oni" nigdy o tym nie wspominają`
 	"WR-1163" `Myślę, że ci przedstawiciele coś tam ukrywają`
 	"WR-1164" `Założę się, że dzieje się tam coś, o czym przedstawiciele nie chcą, żebyś wiedział`
 	"WR-1165" `Wywiad Republiki nie chce, żebyś wiedział, co się tam dzieje`

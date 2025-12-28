@@ -1,0 +1,387 @@
+# Copyright (c) 2023 by RisingLeaf (https://github.com/RisingLeaf)
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Weapons:
+outfit "Plasma Discharger"
+	category "Guns"
+	series "Guns"
+	index 12010
+	cost 140000
+	mass 25
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	thumbnail "outfit/plasma discharger"
+	weapon
+		sprite "projectile/plasma discharge"
+		sound "plasma discharger"
+		"hit effect" "blaster impact"
+		"submunition" "plasma particle" 5
+		"inaccuracy" 8
+		"velocity" 10
+		"lifetime" 64
+		"random lifetime" 12
+		"reload" 40
+		"firing energy" 60
+		"firing heat" 30
+		"shield damage" 33
+		"hull damage" 39
+		"minable damage" 90
+	description "Incipianie rozpoczęli eksploatację asteroid na długo przed rozpoczęciem podróży wewnątrzukładowych, ze względu na bliskość atmosfery ich planety do jej pierścieni. W rezultacie to narzędzie górnicze wydaje się być bardziej zaawansowane niż ich ogólna technologia, ale wciąż nie dorównuje skuteczności broni ludzkiej."
+	description "	Samo urządzenie wyładowcze wystrzeliwuje pociski plazmy o wysokiej gęstości, które po pewnym czasie rozpadają się na małe cząsteczki. Dzięki infuzji plazmowej szybkostrzelność jest wyjątkowa, ale zużycie energii jest wysokie."
+
+outfit "plasma particle"
+	weapon
+		sprite "effect/plasma particle"
+		"hit effect" "blaster impact"
+		"lifetime" 60
+		"random velocity" 2
+		"inaccuracy" 20
+		"shield damage" 6.6
+		"hull damage" 7.8
+		"minable damage" 18
+
+outfit "Stagnation Beam"
+	category "Turrets"
+	series "Turrets"
+	index 12010
+	cost 180000
+	mass 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	thumbnail "outfit/stagnation beam"
+	licenses
+		"Hicemus Conflict"
+	weapon
+		sprite "projectile/stagnation beam"
+			"random start frame"
+			"frame rate" 6
+		"hardpoint sprite" "hardpoint/stagnation beam"
+		sound "stagnation beam"
+		"hit effect" "stagnation beam impact"
+		"inaccuracy" .5
+		"turret turn" 3.8
+		"velocity" 600
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.5
+		"firing heat" 3.2
+		# Deal damage to provoke ships.
+		"shield damage" 0.1
+		"hull damage" 0.1
+		"hit force" -40
+		"slowing damage" 0.1
+	description "Promień Stagnacyjny to jedna z niewielu technologii Incipias, która przewyższa wszystko, co ludzkość do tej pory stworzyła - w rzeczywistości pierwsze prototypy powstały, zanim Incipias w ogóle zaczęli marzyć o podróżach kosmicznych. Początki tej broni sięgają gigantycznych reaktorów, które miały za zadanie wytrącać asteroidy z orbity ich macierzystej planety, zapewniając łatwy dostęp do większej ilości zasobów. Oczywiście, wprowadzono również mechanizm spowalniający asteroidy, aby zapobiec przypadkowym zderzeniom."
+	description "	Wraz ze wzrostem biegłości Incipiasów w lotach kosmicznych, rosła również wydajność generatorów, co pozwoliło na budowę bardziej kompaktowych, statkowych promieni ściągających. Te nowe modele znacznie usprawniły gromadzenie zasobów, co wpłynęło korzystnie na powolne statki Incipiasów."
+	description "	Sekret działania tych promieni znany jest tylko nielicznym naukowcom z Incipias, którzy podlegają władzy państwa. Upublicznienie tej wiedzy mogłoby mieć katastrofalne konsekwencje dla Hicemus i ich władzy."
+
+effect "stagnation beam impact"
+	sprite "effect/stagnation beam impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"velocity scale" -.005
+
+outfit "Star Tail"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 12010
+	cost 320000
+	mass 48
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	thumbnail "outfit/star tail launcher"
+	"star tail capacity" 20
+	licenses
+		"Hicemus Conflict"
+	weapon
+		sprite "projectile/star tail upload"
+			"frame rate" 10
+			"no repeat"
+		sound "star tail"
+		"hit effect" "blaster impact"
+		"velocity" 1
+		"lifetime" 58
+		"reload" 180
+		"firing energy" 60
+		"firing heat" 30
+		"shield damage" 820
+		"hull damage" 860
+		"range override" 3000
+		
+		# To make the AI fire even if the ship is not directly in front.
+		"homing"
+			"blindspot"
+		"optical tracking" 1
+		"turn" 0.5
+
+		ammo "Star Tail Cell"
+		"submunition" "Star Tail Projectile" 1
+	description " Niewiele informacji o tej broni nigdy nie zostało upublicznionych. Krążą plotki, że wystrzeliwuje ona wysoce lotne bryły plazmy."
+	description "	Kapitanowie, którzy używali tej broni, twierdzą, że jej pociski mogły zmieniać kierunek w trakcie lotu i podążać za celem, mimo prób uniknięcia strzałów przez ofiary."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Star Tail Projectile"
+	weapon
+		sprite "projectile/star tail"
+			"frame rate" 12
+		"hit effect" "star tail hit"
+		"live effect" "star tail live" 120
+		"velocity" 1
+		acceleration 5
+		drag .2
+		"lifetime" 120
+		"shield damage" 410
+		"hull damage" 430
+		"homing"
+			"blindspot"
+		"optical tracking" 1
+		"turn" .5
+
+effect "star tail hit"
+	sprite "effect/star tail hit"
+		"no repeat"
+		"frame rate" 40
+	sound "explosion small"
+	"lifetime" 30
+	"velocity scale" 0.
+
+effect "star tail live"
+	sprite "effect/star tail live"
+		"no repeat"
+		"frame rate" 28
+	"lifetime" 15
+	"velocity scale" 0.
+
+outfit "Star Tail Cell"
+	category "Ammunition"
+	cost 1500
+	thumbnail "outfit/star tail cell"
+	"mass" .1
+	"star tail capacity" -1
+	description "Gwiezdny Ogon potrzebuje ogromnej ilości energii, której Incipias nie są w stanie wytworzyć w krótkim czasie. Aby to uwzględnić, Komórka Gwiezdnego Ogona zawiera bogatą w energię substancję, która uwalnia ją po wystrzeleniu. Jedna z tych komórek posiada wystarczającą ilość energii, aby wystrzelić dokładnie jeden strzał."
+
+outfit "Star Tail Storage"
+	category "Ammunition"
+	cost 6000
+	thumbnail "outfit/star tail cell storage"
+	"mass" 10
+	"outfit space" -10
+	"star tail capacity" 20
+	ammo "Star Tail Cell"
+	licenses
+		"Hicemus Conflict"
+	description "Ponieważ ogniwa Star Tail są bardzo niestabilne, potrzebują solidnego systemu magazynowania. Ta radialna konstrukcja jest w stanie wytrzymać niewielkie eksplozje dzięki zastosowaniu wariantu osłony, którą można rozłożyć tymczasowo."
+	description "	Jedna warstwa tego łatwo rozszerzalnego systemu jest dostarczana razem z samym pistoletem. Aby zwiększyć przestrzeń magazynową, kolejne warstwy układa się po prostu jedna na drugiej."
+
+outfitter "Star Tail Cell Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Star Tail"
+			has "outfit: Star Tail Storage"
+	location
+		attributes "outfitter"
+	stock
+		"Star Tail Cell"
+
+
+outfit "Horizon Grappler"
+	category "Turrets"
+	series "Tractor Beams"
+	index 12020
+	cost 200000
+	thumbnail "outfit/horizon grappler"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/horizon grappler"
+		"hardpoint offset" 0.
+		sound "tractor beam"
+		"hit effect" "horizon grappler"
+		"tractor beam" 9
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.2
+		"firing heat" 1.1
+	description `To narzędzie górnicze reprezentuje szczyt technologii Incipianów. Udoskonalany przez wieki, ten promień ściągający znacznie przewyższa wszystko, co do tej pory opracowali Incipianie. Nazwa promienia pochodzi od jego pierwszych prototypów opracowanych przed nadejściem ery lotów kosmicznych, które zbierały minerały, wciągając asteroidy z pierścieni ich macierzystej planety do atmosfery.`
+
+effect "horizon grappler"
+	sprite "effect/horizon grappler"
+		"frame rate" 3.5
+	"lifetime" 1
+	"velocity scale" 1
+
+# Shields/Energy:
+outfit "Gas-Class Shield"
+	category "Systems"
+	series "Shields"
+	index 12010
+	thumbnail "outfit/gas class shield"
+	cost 136000
+	mass 60
+	"outfit space" -60
+	"shield generation" .1
+	"energy generation" 4.2
+	"heat generation" 5
+	"shield fuel" .01
+	description "Technologia tarcz to jedno z najnowszych osiągnięć Incipias. Choć tarcza ta wygląda jak tarcza ludzka, działa na zupełnie innej zasadzie. W jej rdzeniu spalany jest wodór, dostarczając energię do regeneracji. Okazało się to tak skuteczne, że stało się głównym źródłem zasilania wszystkich ich statków."
+
+outfit "Liquid-Class Shield"
+	category "Systems"
+	series "Shields"
+	index 12020
+	thumbnail "outfit/liquid class shield"
+	cost 216000
+	mass 80
+	"outfit space" -90
+	"shield generation" .25
+	"energy generation" 6.1
+	"heat generation" 6
+	"shield fuel" .02
+	description "Ten bardziej zaawansowany generator tarcz spala ciecz zamiast gazu. To znacznie zwiększa wydajność, ale wymaga też więcej miejsca, przez co ten zestaw jest popularny tylko na większych statkach."
+
+outfit "Metallic Hydrogen Cell"
+	category "Power"
+	series "Batteries"
+	index 12010
+	thumbnail "outfit/metallic hydrogen cell"
+	cost 2500
+	mass 20
+	"outfit space" -20
+	"energy capacity" 500
+	description "Magazynowanie energii wodorowej zostało odkryte wcześnie przez Incipiasów ze względu na dużą ilość metalicznego wodoru na ich ojczystej planecie. Ponieważ statki Incipiasów zazwyczaj pobierają energię w momencie jej wytwarzania, potrzeba jedynie niewielkiej ilości energii. W rezultacie większość ich statków ma zainstalowane tylko jedno ogniwo."
+
+# Engines:
+outfit "MH Blue-Class Thruster"
+	category "Engines"
+	series "Engines"
+	index 12011
+	thumbnail "outfit/mh blue-class thruster"
+	cost 32000
+	mass 27
+	"outfit space" -27
+	"engine capacity" -27
+	"flare sprite" "effect/incipias flare/metallic hydrogen small"
+		"frame rate" 24
+	"flare sound" "incip plasma small"
+	"thrust" 24
+	"thrusting energy" 2
+	"thrusting heat" 2.5
+	description "W kulturze Incipii niebieski jest najsłabszym kolorem. Ster strumieniowy oznaczony jako niebieski nie wróży dobrze prędkości żadnego statku, który go używa."
+
+outfit "MH Blue-Class Steering"
+	category "Engines"
+	series "Engines"
+	index 12010
+	thumbnail "outfit/mh blue-class steering"
+	cost 28000
+	mass 24
+	"outfit space" -24
+	"engine capacity" -24
+	"turn" 498
+	"turning energy" 1.
+	"turning heat" 3
+	description "Ten układ sterowania zapewnia zaledwie minimalną siłę potrzebną do obrócenia statku, ale mimo to jest często używany ze względu na swoją niską cenę."
+
+outfit "MH Green-Class Thruster"
+	category "Engines"
+	series "Engines"
+	index 12021
+	thumbnail "outfit/mh green-class thruster"
+	cost 44000
+	mass 32
+	"outfit space" -32
+	"engine capacity" -32
+	"flare sprite" "effect/incipias flare/metallic hydrogen medium"
+		"frame rate" 24
+	"flare sound" "incip plasma med"
+	"thrust" 30
+	"thrusting energy" 2.2
+	"thrusting heat" 2.8
+	description "Zielony to kolor równowagi dla Incipiasów. Ten silnik łączy potrzebę przestrzeni z potrzebą mocnych silników."
+
+outfit "MH Green-Class Steering"
+	category "Engines"
+	series "Engines"
+	index 12020
+	thumbnail "outfit/mh green-class steering"
+	cost 35000
+	mass 28
+	"outfit space" -28
+	"engine capacity" -28
+	"turn" 618
+	"turning energy" 1.1
+	"turning heat" 3.1
+	description "Incipiasy zdają się mieć coś przeciwko skręcaniu swoich statków. Chociaż ten układ sterowania ma być ulepszeniem w stosunku do układu sterowania klasy Blue, to jest on ledwie zauważalny."
+
+outfit "MH Red-Class Thruster"
+	category "Engines"
+	series "Engines"
+	index 12031
+	thumbnail "outfit/mh red-class thruster"
+	cost 50000
+	mass 41
+	"outfit space" -41
+	"engine capacity" -41
+	"flare sprite" "effect/incipias flare/metallic hydrogen large"
+		"frame rate" 24
+	"flare sound" "incip plasma large"
+	"thrust" 48
+	"thrusting energy" 5
+	"thrusting heat" 10
+	description "Obfitość metalicznego wodoru na rodzimej planecie Incipiasów doprowadziła do opracowania silników wykorzystujących to silne źródło energii, co pozwoliło na stworzenie wydajniejszych silników, niż można by się spodziewać, biorąc pod uwagę krótką historię lotów kosmicznych Incipiasów."
+
+outfit "MH Red-Class Steering"
+	category "Engines"
+	series "Engines"
+	index 12030
+	thumbnail "outfit/mh red-class steering"
+	cost 49000
+	mass 41
+	"outfit space" -41
+	"engine capacity" -41
+	"turn" 1134
+	"turning energy" 2.5
+	"turning heat" 12
+	description "Nawet Incipianie zdają sobie sprawę, że statki muszą skręcić w kierunku celu, aby móc go zestrzelić. Ten układ sterowania został zaprojektowany specjalnie do walki, ale kapitanowie z dużym kapitałem uważają go za bardzo przydatny w górnictwie."
+
+
+# Hand to Hand
+outfit "Cloud Piercer"
+	category "Hand to Hand"
+	series "H2H"
+	index 12010
+	cost 10000
+	thumbnail "outfit/cloud piercer"
+	licenses
+		"Hicemus Conflict"
+	"capture attack" .55
+	"capture defense" 1.5
+	"unplunderable" 1
+	description "Jeśli chodzi o walkę wręcz, Incipias to groźni przeciwnicy. Ta brutalna broń może nie być najlepsza do ataku na inny statek, ale w obronie dosłownie rozszarpuje wrogów."
+
+# Special
+outfit "Hicemus Conflict License"
+	category "Licenses"
+	series "Licenses"
+	index 12010
+	description "Hicemusowie zaufali ci na tyle, by przyznać ci tę licencję, dzięki której będziesz mógł zapoznać się z ich najcenniejszą technologią - technologią, która ma dać im przewagę nad innymi frakcjami."

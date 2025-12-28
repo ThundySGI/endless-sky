@@ -1,0 +1,1590 @@
+# Copyright (c) 2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Fleet management:
+tip "parked"
+	`(zaparkowany)`
+
+
+
+# Outfit and ship attributes:
+tip "acceleration:"
+	`Jak szybko ten statek nabiera prędkości. Im większa masa statku (wliczając masę ładunku lub myśliwców, które przewozi), tym wolniej przyspiesza.`
+
+tip "acceleration multiplier:"
+	`Modyfikuje przyspieszenie statku o podany współczynnik.`
+
+tip "active cooling:"
+	`Chłodzenie na sekundę przy pełnej mocy. Aktywne chłodzenie wymaga energii, ale jeśli poziom ciepła jest niski, chłodzenie działa z mniejszą szybkością i mniejszym poborem energii. Ilość chłodzenia jest proporcjonalna do temperatury statku, a pełny poziom chłodzenia osiąga się tylko wtedy, gdy statek jest bliski przegrzania.`
+
+tip "afterburner energy:"
+	`Energia zużywana na sekundę podczas odpalania dopalacza.`
+
+tip "afterburner shields:"
+	`Uszkodzenia tarczy zadawane statkowi na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner hull:"
+	`Uszkodzenia kadłuba zadawane statkowi na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner fuel:"
+	`Paliwo zużywane na sekundę podczas odpalania dopalacza.`
+
+tip "afterburner discharge:"
+	`Skumulowana liczba rozładowań osłony na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner corrosion:"
+	`Skumulowana korozja kadłuba na sekundę podczas odpalania dopalacza.`
+
+tip "afterburner ion:"
+	`Skumulowana jonizacja na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner scramble:"
+	`Skumulowana liczba zakłóceń na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner leakage:"
+	`Skumulowana ilość wyciekającego paliwa na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner burn:"
+	`Skumulowane oddziaływania egzotermiczne na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner slowing:"
+	`Skumulowane zakłócenia silnika na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner disruption:"
+	`Skumulowane zakłócenia osłony na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner heat:"
+	`Ciepło wytwarzane na sekundę podczas odpalania tego dopalacza.`
+
+tip "afterburner thrust:"
+	`Siła ciągu wytwarzana przez ten dopalacz.`
+
+tip "asteroid scan power:"
+	`Umożliwia skanowanie asteroid. Zasięg tego skanera asteroid jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "atmosphere scan:"
+	`Twój statek nie może wykonać tego typu skanowania, ale ten sprzęt może okazać się przydatny w niektórych misjach.`
+
+tip "automaton:"
+	`Statek z tym atrybutem nie potrzebuje załogi do działania, nawet jeśli ma wyposażenie, które normalnie wymaga dodatkowej załogi. Nie możesz jednak używać go jako okrętu flagowego w tym stanie.`
+
+tip "bunks:"
+	`Liczba osób (pasażerów lub załogi), jaką może pomieścić Twój statek.`
+
+tip "burn protection:"
+	`Ochrona przed oparzeniami. Zwiększa o podany współczynnik, ile uszkodzeń od oparzeń statek może wytrzymać, zanim jego temperatura wzrośnie tak samo, jak w przypadku statku niechronionego.`
+
+tip "burn resistance:"
+	`Oporność na obrażenia od poparzenia na sekundę.`
+
+tip "burn resistance energy:"
+	`Energia zużywana na sekundę podczas opierania się obrażeniom od poparzenia.`
+
+tip "burn resistance fuel:"
+	`Zużycie paliwa na sekundę przy opieraniu się obrażeniom od poparzenia.`
+
+tip "burn resistance heat:"
+	`Ciepło wytwarzane na sekundę podczas opierania się obrażeniom spowodowanym oparzeniem.`
+
+tip "capture attack:"
+	`Zwiększa "siłę" jednego członka załogi podczas ataku na inny statek w celu jego przejęcia. Każdy członek załogi może posługiwać się tylko jedną bronią na raz, ale użyje broni o największej mocy.`
+
+tip "capture defense:"
+	`Zwiększa "siłę" jednego członka załogi podczas obrony przed próbą przejęcia tego statku. Każdy członek załogi może posługiwać się tylko jedną bronią na raz, ale użyje broni o największej mocy.`
+
+tip "cargo:"
+	`W tej chwili ten statek przewozi mnóstwo ładunku, przekraczając tym samym swój limit.`
+
+tip "cargo scan:"
+	`Umożliwia skanowanie ładunku statku docelowego z odległości do tej.`
+
+tip "cargo scan power:"
+	`Umożliwia skanowanie ładunku statku docelowego. Zasięg tego skanera ładunku jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "cargo scan speed:"
+	`Określa czas skanowania ładunku. Wyższa wartość oznacza szybsze skanowanie.`
+
+tip "cargo scan efficiency:"
+	`Maksymalna prędkość tego skanera ładunków jest proporcjonalna do pierwiastka kwadratowego z tej wartości. Obserwowana prędkość skanowania będzie zależeć od wielu czynników. Cele znajdujące się dalej lub o większej ładowności będą skanowane dłużej.`
+
+tip "cargo scan opacity:"
+	`Wydłuża czas potrzebny innym statkom na przeskanowanie ładunku tego statku. Wartość jeden ma taki sam wpływ na czas skanowania, jak dodanie jednej tony ładunku do skanowania.`
+
+tip "cargo space:"
+	`Ten statek może przewieźć mnóstwo ładunku (towarów, ładunków misji i zrabowanych sprzętów).`
+
+tip "cargo space needed:"
+	`Ten strój wykorzystuje mnóstwo miejsca na ładunek.`
+
+tip "cloak:"
+	`Ten strój pozwala Twojemu statkowi na maskowanie. Wartość ta reprezentuje czas potrzebny do pełnej aktywacji lub dezaktywacji maskowania. Statki nie mogą strzelać w trybie maskowania, chyba że mają powiązany atrybut "cloaked firing".`
+
+tip "cloak by mass:"
+	`Ten zestaw pozwala Twojemu statkowi na maskowanie. Wartość ta reprezentuje czas potrzebny do pełnej aktywacji lub dezaktywacji maskowania dla statku o masie 1000. Im większa masa statku, tym wolniej działa maskowanie, im mniejsza masa, tym szybciej działa maskowanie. Statki nie mogą strzelać w trybie maskowania, chyba że mają powiązany atrybut "cloaked firing".`
+
+tip "cloaking energy:"
+	`Energia zużywana na sekundę podczas maskowania.`
+
+tip "cloaking fuel:"
+	`Zużycie paliwa na sekundę w stanie niewidzialności.`
+	
+tip "cloaking heat:"
+	`Ciepło generowane na sekundę podczas maskowania.`
+
+tip "cloaking shields:"
+	`Ilość zużytych osłon na sekundę podczas maskowania.`
+
+tip "cloaking shield delay:"
+	`Ten statek nie jest w stanie regenerować tarcz, gdy jest w trybie maskowania. Zamiast tego regeneracja tarcz będzie opóźniona, co będzie się zwiększać wraz z czasem maskowania.`
+
+tip "cloaking hull:"
+	`Zużycie kadłuba na sekundę podczas maskowania.`
+
+tip "cloaking repair delay:"
+	`Ten statek nie jest w stanie regenerować kadłuba, gdy jest w trybie maskowania. Zamiast tego regeneracja kadłuba będzie opóźniona, co będzie się zwiększać wraz z czasem maskowania.`
+
+tip "cloak hull protection:"
+	`Ochrona przed bronią uszkadzającą kadłub, gdy maskowanie jest aktywne. Zwiększa o podany współczynnik, ile uszkodzeń kadłuba statek może wytrzymać, zanim straci tyle samo energii, co statek niechroniony.`
+
+tip "cloak shield protection:"
+	`Ochrona przed bronią, która zadaje obrażenia tarczy, gdy maskowanie jest aktywne. Zwiększa o podany współczynnik, ile obrażeń tarczy statek może wytrzymać, zanim straci tyle samo energii, co statek bez ochrony.`
+
+tip "cloak phasing:"
+	`Kiedy statek jest zamaskowany, broń nie ma wpływu na niego i przechodzi przez niego.`
+
+tip "cloaked firing:"
+	`To urządzenie jest tak skuteczne w ukrywaniu, że możesz strzelać w trybie maskowania, tracąc w ten sposób tę wartość, zanim ponownie się zamaskujesz. Wartość ujemna oznacza, że strzał nie zakłóca nawet działania funkcji maskowania.`
+
+tip "cloak hull threshold:"
+	`Jeśli masz kadłub o wartości niższej niż ta wartość (widziana jako % pomiędzy 0 a 1), urządzenie maskujące nie będzie mogło dłużej działać.`
+
+tip "cooling:"
+	`Ciepło rozpraszane na sekundę. Dotyczy sytuacji, gdy wbudowane odprowadzanie ciepła statku nie jest wystarczające, aby zapobiec przegrzaniu.`
+
+tip "cooling energy:"
+	`Energia zużywana na sekundę, gdy aktywne chłodzenie działa z pełną mocą (ponieważ temperatura twojego statku zbliża się do progu przegrzania).`
+
+tip "cooling inefficiency:"
+	`Zakłócenie chłodzenia statku. Jego systemy chłodzenia będą skuteczne tylko w około 75% przy nieefektywności chłodzenia 5 i 30% przy nieefektywności 10.`
+
+tip "corrosion protection:"
+	`Ochrona przed korozją. Zwiększa o podany współczynnik, ile uszkodzeń korozyjnych statek może wytrzymać, zanim straci tyle samo kadłuba, co statek niezabezpieczony.`
+
+tip "corrosion resistance:"
+	`Liczba uszkodzeń korozyjnych odpornych na sekundę.`
+
+tip "corrosion resistance energy:"
+	`Energia zużywana na sekundę podczas stawiania oporu korozji.`
+
+tip "corrosion resistance fuel:"
+	`Zużycie paliwa na sekundę przy odporności na korozję.`
+
+tip "corrosion resistance heat:"
+	`Ciepło wytwarzane na sekundę podczas stawiania oporu korozji.`
+
+tip "cost:"
+	`Koszt w kredytach. Jeśli sprzedałeś dziś jakieś używane (zamortyzowane) przedmioty, możesz je odkupić za tę samą cenę, za którą je sprzedałeś.`
+
+tip "discharge protection:"
+	`Ochrona przed uszkodzeniami od wyładowania osłony. Zwiększa o podany współczynnik, ile uszkodzeń od wyładowania może wytrzymać statek, zanim straci tyle samo osłony, co statek niechroniony.`
+
+tip "discharge resistance:"
+	`Ile obrażeń od wyładowania tarczy może wytrzymać ten statek na sekundę.`
+
+tip "discharge resistance energy:"
+	`Energia zużywana na sekundę podczas opierania się uszkodzeniom spowodowanym rozładowaniem.`
+
+tip "discharge resistance fuel:"
+	`Paliwo zużywane na sekundę przy opieraniu się uszkodzeniom od rozładowania.`
+
+tip "discharge resistance heat:"
+	`Ciepło wytwarzane na sekundę podczas opierania się uszkodzeniom spowodowanym rozładowaniem.`
+
+tip "disruption protection:"
+	`Ochrona przed uszkodzeniami spowodowanymi zakłóceniami tarcz. Zwiększa o podany współczynnik, ile uszkodzeń spowodowanych zakłóceniami może wytrzymać statek, zanim jego tarcze zostaną zakłócone tak samo, jak tarcze statku niechronionego.`
+
+tip "disruption resistance:"
+	`Ilość odpartych obrażeń od zakłóceń tarczy na sekundę.`
+
+tip "disruption resistance energy:"
+	`Energia zużywana na sekundę podczas stawiania oporu uszkodzeniom zakłócającym.`
+
+tip "disruption resistance fuel:"
+	`Paliwo zużywane na sekundę przy opieraniu się obrażeniom zakłócającym.`
+
+tip "disruption resistance heat:"
+	`Ciepło generowane na sekundę podczas stawiania oporu uszkodzeniom zakłócającym.`
+
+tip "drag:"
+	`Ogranicza maksymalną prędkość statku.`
+	
+tip "drag reduction:"
+	`Zmniejsza opór. Zwiększa prędkość maksymalną statku o podany współczynnik.`
+
+tip "drone bays:"
+	`Liczba statków z kategorii "Drone", które może przenosić ten statek.`
+
+tip "energy capacity:"
+	`Ilość energii, jaką ten sprzęt dodaje do pojemności energetycznej twojego statku. Pozwala to tymczasowo wykorzystać więcej energii niż wytwarzają twoje generatory.`
+
+tip "energy consumption:"
+	`Energia zużywana na sekundę podczas lotu.`
+	
+tip "energy generation:"
+	`Energia generowana na sekundę. Jeśli twój statek ma broń inną niż broń wiązkowa, prawdopodobnie będziesz potrzebować również baterii do magazynowania energii.`
+
+tip "engine capacity needed:"
+	`Ten zestaw zajmuje mnóstwo miejsca w silniku.`
+
+tip "    engine capacity:"
+	`Ten statek może pomieścić mnóstwo silników. (Aby zainstalować silnik, musisz mieć również wystarczająco dużo miejsca na wyposażenie.)`
+
+tip "energy protection:"
+	`Ochrona przed uszkodzeniami energetycznymi. Zwiększa o podany współczynnik, ile uszkodzeń energetycznych statek może wytrzymać, zanim straci tyle samo energii, co statek niechroniony.`
+
+tip "fighter bays:"
+	`Liczba statków z kategorii "Fighter", które może przenosić ten statek.`
+
+tip "flotsam chance:"
+	`Szansa, że ten sprzęt pozostanie jako szczątki statku, na którym został zainstalowany, po jego zniszczeniu.`
+
+tip "force protection:"
+	`Ochrona przed siłą uderzenia broni. Zwiększa o podany współczynnik siłę zewnętrzną, jaką statek może wytrzymać, zanim zostanie poruszony, tak samo jak statek niechroniony.`
+
+tip "fuel:"
+	`Aktualna ilość paliwa tego statku. Zwykły skok z hipernapędem zużywa 100 jednostek paliwa.`
+
+tip "fuel capacity:"
+	`Ilość paliwa, jaką może pomieścić ten statek. Zwykły skok z hipernapędem zużywa 100 jednostek paliwa. Paliwo jest uzupełniane za darmo po wylądowaniu na zamieszkanej planecie.`
+
+tip "fuel consumption:"
+	`Paliwo zużyte na sekundę podczas lotu.`
+	
+tip "fuel energy:"
+	`Energia produkowana na sekundę podczas zużycia paliwa.`
+	
+tip "fuel generation:"
+	`Paliwo wytwarzane na sekundę.`
+	
+tip "fuel heat:"
+	`Ciepło wytwarzane na sekundę podczas spalania paliwa.`
+
+tip "fuel protection:"
+	`Ochrona przed uszkodzeniami paliwowymi. Zwiększa o podany współczynnik, ile uszkodzeń paliwowych statek może wytrzymać, zanim straci tyle samo paliwa, co statek niechroniony.`
+
+tip "gun ports needed:"
+	`Ta broń zajmuje otwór na działo. Działa zawsze strzelają na wprost; wieżyczki strzelają w kierunku aktualnie wybranego celu.`
+
+tip "gun ports free:"
+	`Ile dział może pomieścić ten statek. Dotyczy to większości pocisków rakietowych i broni dodatkowej strzelającej na wprost.`
+
+tip "heat dissipation:"
+	`Jak skutecznie ten statek odprowadza nadmiar ciepła.`
+
+tip "heat generation:"
+	`Ciepło generowane na sekundę. Generowanie ciepła można skompensować za pomocą "cooling" wyposażenia. Jeśli Twój statek przekroczy maksymalną temperaturę, musi się tymczasowo wyłączyć, aby się ochłodzić.`
+
+tip "heat protection:"
+	`Ochrona przed uszkodzeniami cieplnymi. Zwiększa o podany współczynnik, ile uszkodzeń cieplnych statek może wytrzymać, zanim jego temperatura wzrośnie tak wysoko, jak w przypadku statku niechronionego.`
+
+tip "heat capacity:"
+	`Zwiększa maksymalne ciepło, jakie statek jest w stanie wytrzymać, zanim ulegnie przegrzaniu. Wartość jeden ma taki sam wpływ na maksymalne ciepło statku, jak jedna tona masy, bez wpływu masy na ruch.`
+
+tip "hull (repair):"
+	`Całkowita wytrzymałość kadłuba i szybkość naprawy na sekundę. Najmniejsze statki ulegają uszkodzeniu, gdy wytrzymałość kadłuba spadnie poniżej około 45%, podczas gdy bardzo duże statki ulegają uszkodzeniu przy poziomie bliskim 10%.`
+
+tip "hull:"
+	`Całkowita wytrzymałość kadłuba. Statki o wyższej wytrzymałości kadłuba są w stanie przyjąć więcej uszkodzeń w stosunku do swojej całkowitej wytrzymałości, zanim zostaną unieruchomione; najmniejsze statki ulegają uszkodzeniu, gdy ich wytrzymałość kadłuba spadnie poniżej około 45%, podczas gdy bardzo duże statki ulegają uszkodzeniu przy wartości bliskiej 10%.`
+
+tip "hull energy:"
+	`Energia zużywana na sekundę podczas naprawy kadłuba.`
+
+tip "delayed hull energy:"
+	`Dodatkowa energia zużywana na sekundę podczas naprawy kadłuba po okresie opóźnienia naprawy.`
+
+tip "hull energy multiplier:"
+	`Modyfikuje energię zużywaną podczas naprawy kadłuba o podany współczynnik.`
+
+tip "hull fuel:"
+	`Paliwo zużywane na sekundę podczas naprawy kadłuba.`
+
+tip "delayed hull fuel:"
+	`Dodatkowe paliwo zużywane na sekundę podczas naprawy kadłuba po okresie opóźnienia naprawy.`
+
+tip "hull fuel multiplier:"
+	`Modyfikuje paliwo zużywane podczas naprawy kadłuba o podany współczynnik.`
+
+tip "hull heat:"
+	`Ciepło wytwarzane na sekundę podczas naprawy kadłuba.`
+
+tip "delayed hull heat:"
+	`Dodatkowe ciepło wytwarzane na sekundę podczas naprawy kadłuba po okresie opóźnienia naprawy.`
+
+tip "hull heat multiplier:"
+	`Modyfikuje ciepło wytwarzane podczas naprawy kadłuba o podany współczynnik.`
+
+tip "hull multiplier:"
+	`Modyfikuje całkowitą wytrzymałość kadłuba statku o podany współczynnik.`
+
+tip "hull repair rate:"
+	`Ilość wytrzymałości kadłuba, którą można naprawić na sekundę. Naprawy zazwyczaj zużywają energię i mogą również generować ciepło.`
+
+tip "delayed hull repair rate:"
+	`Dodatkowa wytrzymałość kadłuba, którą można naprawić na sekundę po okresie opóźnienia naprawy.`
+
+tip "repair delay:"
+	`Liczba sekund potrzebnych na rozpoczęcie dodatkowych napraw kadłuba po jego uszkodzeniu.`
+
+tip "disabled repair delay:"
+	`Liczba sekund potrzebnych na rozpoczęcie naprawy kadłuba po jego unieruchomieniu.`
+	
+tip "disabled recovery time:"
+	`Liczba sekund potrzebnych uszkodzonemu statkowi na samodzielną naprawę.`
+	
+tip "disabled recovery energy:"
+	`Koszt energii potrzebny do naprawy uszkodzonego statku.`
+
+tip "disabled recovery fuel:"
+	`Koszt paliwa potrzebny do naprawy uszkodzonego statku.`
+	
+tip "disabled recovery heat:"
+	`Ciepło wytwarzane podczas naprawy uszkodzonego statku.`
+
+tip "disabled recovery ionization:"
+	`Uszkodzenia jonowe zadawane, gdy uszkodzony statek naprawia się sam.`
+
+tip "disabled recovery scrambling:"
+	`Uszkodzenia powstałe w wyniku samonaprawy uszkodzonego statku.`
+
+tip "disabled recovery disruption:"
+	`Uszkodzenia powstałe w wyniku zakłóceń, które powstają, gdy uszkodzony statek naprawia się sam.`
+
+tip "disabled recovery slowing:"
+	`Uszkodzenia spowalniające zadawane, gdy uszkodzony statek naprawia się sam.`
+
+tip "disabled recovery discharge:"
+	`Uszkodzenia od wyładowania zadawane, gdy uszkodzony statek naprawia się sam.`
+
+tip "disabled recovery corrosion:"
+	`Uszkodzenia korozyjne powstające podczas samonaprawy uszkodzonego statku.`
+
+tip "disabled recovery leak:"
+	`Uszkodzenia powstałe w wyniku przecieku, gdy uszkodzony statek naprawia się sam.`
+	
+tip "disabled recovery burning:"
+	`Obrażenia od ognia zadawane, gdy uszkodzony statek naprawia się sam.`
+
+tip "absolute threshold:"
+	`Pozostała wytrzymałość kadłuba, przy której statek zostaje unieruchomiony. Ten atrybut ma pierwszeństwo przed innymi atrybutami zmieniającymi próg unieruchomienia.`
+
+tip "hull threshold:"
+	`Modyfikuje wartość wytrzymałości kadłuba, przy której statek zostanie unieruchomiony.`
+
+tip "threshold percentage:"
+	`Zmienia procent pozostałej wytrzymałości kadłuba, przy którym statek zostanie unieruchomiony.`
+
+tip "hull protection:"
+	`Ochrona przed bezpośrednim uszkodzeniem kadłuba. Zwiększa o podany współczynnik, ile uszkodzeń kadłuba statek może wytrzymać, zanim straci tyle samo kadłuba, co statek niechroniony.`
+
+tip "hull repair multiplier:"
+	`Modyfikuje ilość naprawianej wytrzymałości kadłuba na sekundę o podany współczynnik.`
+
+tip "cloaked repair multiplier:"
+	`Zmienia ilość naprawianej wytrzymałości kadłuba na sekundę o podany współczynnik, gdy aktywne jest urządzenie maskujące.`
+
+tip "illegal:"
+	`Ilość kredytów, które możesz otrzymać za noszenie tego stroju.`
+
+tip "income:"
+	`Liczba kredytów otrzymywanych dziennie, gdy posiadasz ten strój, nawet jeśli nie jest on aktywnie używany.`
+	
+tip "inertia reduction:"
+	`Zmniejsza efektywną masę statku. Zwiększa szybkość przyspieszania statku o podany współczynnik.`
+
+tip "ion protection:"
+	`Ochrona przed uszkodzeniami jonowymi. Modyfikuje o podany współczynnik, ile uszkodzeń jonowych statek może wytrzymać, zanim straci tyle samo energii, co statek niechroniony.`
+
+tip "scramble protection:"
+	`Ochrona przed uszkodzeniami od podsłuchu. Zwiększa o podany współczynnik, ile uszkodzeń od podsłuchu statek może wytrzymać, zanim jego uzbrojenie zostanie podsłuchem tak samo, jak uzbrojenie statku niechronionego.`
+
+tip "ion resistance:"
+	`Oporność na uszkodzenia jonowe na sekundę.`
+
+tip "ion resistance energy:"
+	`Energia zużywana na sekundę podczas opierania się uszkodzeniom jonowym.`
+
+tip "ion resistance fuel:"
+	`Zużycie paliwa na sekundę przy opieraniu się uszkodzeniom jonowym.`
+
+tip "ion resistance heat:"
+	`Ciepło wytwarzane na sekundę podczas stawiania oporu uszkodzeniom jonowym.`
+
+tip "landing speed:"
+	`Prędkość, z jaką ten statek wydaje się lądować lub przemieszczać przez tunel czasoprzestrzenny.`
+
+tip "scramble resistance:"
+	`Oporność na obrażenia od splątania na sekundę.`
+
+tip "scramble resistance energy:"
+	`Energia zużywana na sekundę podczas opierania się obrażeniom od ataku.`
+
+tip "scramble resistance fuel:"
+	`Paliwo zużywane na sekundę podczas opierania się obrażeniom od ataku.`
+
+tip "scramble resistance heat:"
+	`Ciepło wytwarzane na sekundę podczas stawiania oporu obrażeniom od szarpania.`
+
+tip "jump speed:"
+	`Maksymalna prędkość, z jaką statek może skoczyć.`
+
+tip "hyperdrive fuel:"
+	`Zużycie paliwa podczas przeskakiwania między systemami za pomocą tego hipernapędu.`
+
+tip "jump drive fuel:"
+	`Zużycie paliwa podczas przeskakiwania między systemami za pomocą tego napędu skokowego.`
+
+tip "jump range:"
+	`Maksymalna odległość, jaką może pokonać ten napęd.`
+
+tip "jump mass cost:"
+	`Paliwo zużyte na 100 ton masy podczas skoku. Dodatek do paliwa do skoków.`
+
+tip "jump base mass:"
+	`Modyfikuje wpływ masy statku na koszt skoku. Statki o masie poniżej tej będą miały niższy koszt skoku niż podstawowy koszt paliwa, a statki o masie powyżej tej będą miały droższe skoki.`
+
+tip "leak protection:"
+	`Ochrona przed uszkodzeniami spowodowanymi wyciekiem. Zwiększa o podany współczynnik, ile uszkodzeń spowodowanych wyciekiem statek może wytrzymać, zanim straci tyle samo paliwa, co statek niezabezpieczony.`
+
+tip "leak resistance:"
+	`Liczba uszkodzeń spowodowanych wyciekiem, którym można się oprzeć na sekundę.`
+
+tip "leak resistance energy:"
+	`Energia zużywana na sekundę podczas stawiania oporu uszkodzeniom spowodowanym wyciekiem.`
+
+tip "leak resistance fuel:"
+	`Paliwo zużywane na sekundę przy odporności na uszkodzenia spowodowane wyciekiem.`
+
+tip "leak resistance heat:"
+	`Ciepło wytwarzane na sekundę podczas stawiania oporu uszkodzeniom spowodowanym wyciekiem.`
+
+tip "maintenance costs:"
+	`Kredyty wydawane dziennie na utrzymanie tego sprzętu. Nawet jeśli statek jest zaparkowany lub sprzęt znajduje się w ładunku, nadal musisz płacić za jego utrzymanie.`
+
+tip "map:"
+	`Liczba układów gwiezdnych uwzględnionych na tej mapie.`
+
+tip "mass with no cargo:"
+	`Masa tego statku bez ładunku ani myśliwców. Ładunek zwiększa masę, co zmniejsza przyspieszenie i prędkość skrętu oraz zwiększa maksymalną temperaturę przed przegrzaniem.`
+
+tip "mass:"
+	`Masa w tonach. Masa statku określa jego prędkość obrotową i przyspieszenie oraz maksymalną temperaturę przed przegrzaniem.`
+
+tip "max speed:"
+	`Maksymalna prędkość tego statku przy użyciu silników odrzutowych. Nie uwzględnia efektu dopalaczy, chyba że nie ma zainstalowanych standardowych silników odrzutowych.`
+
+tip "movement:"
+	`Jak szybko ten statek może przyspieszać i skręcać.`
+
+tip "movement (full - no cargo):"
+	`Jak szybko ten statek może przyspieszyć i skręcić, gdy jego ładownia jest pełna w porównaniu do sytuacji, gdy jest pusta.`
+
+tip "operating costs:"
+	`Kredyty wydawane dziennie na utrzymanie tego stroju, gdy jest on aktywnie używany.`
+
+tip "operating income:"
+	`Liczba punktów otrzymywanych dziennie, gdy ten strój jest aktywnie używany.`
+
+tip "outfit scan:"
+	`Umożliwia skanowanie wyposażenia docelowego statku z odległości do podanej poniżej.`
+
+tip "outfit scan power:"
+	`Umożliwia skanowanie wyposażenia docelowego statku. Zasięg tego skanera wyposażenia jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "outfit scan speed:"
+	`Określa czas skanowania stroju. Wyższa wartość oznacza szybsze skanowanie.`
+
+tip "outfit scan efficiency:"
+	`Maksymalna prędkość tego skanera ekwipunku jest proporcjonalna do pierwiastka kwadratowego z tej wartości. Obserwowana prędkość skanowania będzie zależeć od wielu czynników. Cele znajdujące się dalej lub o większej pojemności ekwipunku będą skanowane dłużej.`
+
+tip "outfit scan opacity:"
+	`Wydłuża czas potrzebny innym statkom na wykonanie skanowania wyposażenia tego statku. Wartość jeden ma taki sam wpływ na czas skanowania, jak dodanie jednej tony dodatkowego miejsca na wyposażenie.`
+
+tip "outfit space added:"
+	`To ubranie zapewnia mnóstwo uniwersalnej przestrzeni.`
+
+tip "outfit space needed:"
+	`Ten ekwipunek zajmuje mnóstwo miejsca na broń i silniki. Niektóre ekwipunki zajmują również miejsce na broń lub silniki.`
+
+tip "outfit space free:"
+	`Ten statek ma mnóstwo miejsca na wyposażenie (wliczając broń i silniki).`
+
+tip "overheat damage rate:"
+	`Obrażenia kadłuba na sekundę przy przegrzaniu. Obrażenia od przegrzania skalują się w zależności od tego, jak daleko statek przekroczył próg przegrzania.`
+
+tip "overheat damage threshold:"
+	`Zwiększa procent przegrzania, w którym rozpoczynają się uszkodzenia od przegrzania.`
+
+tip "optical jamming:"
+	`Zmniejsza zdolność pocisków kierowanych optycznie do śledzenia statku, co jest szczególnie przydatne w przypadku większych jednostek. Im więcej zainstalowanych zakłóceń optycznych, tym większa odległość, z której można zakłócić pociski, i tym większe prawdopodobieństwo, że zakłócony pocisk poleci w losowym kierunku.`
+
+tip "piercing:"
+	`Procent obrażeń tej broni, które przedostają się do kadłuba, gdy osłony celu są nadal aktywne.`
+
+tip "piercing protection:"
+	`Ochrona przed bronią przebijającą. Zwiększa o podany współczynnik wartość przebicia potrzebną do tego, aby ta sama część obrażeń od broni ominęła tarcze statku.`
+
+tip "piercing resistance:"
+	`Odporność na uszkodzenia przebijające przy wszystkich nadlatujących pociskach, zapobiegająca przedostawaniu się uszkodzeń przez osłony do kadłuba.`
+
+tip "radar jamming:"
+	`Zmniejsza zdolność pocisków naprowadzanych radarowo do śledzenia twojego statku. Im więcej radarów zakłócających jest zainstalowanych, tym większa jest odległość, z której pociski mogą zostać zakłócone i tym większe prawdopodobieństwo, że zakłócony pocisk poleci w losowym kierunku.`
+
+tip "ramscoop:"
+	`Uzupełnia paliwo poprzez zbieranie wiatru gwiezdnego. Ramscoopy są bardziej efektywne w pobliżu gwiazdy. Jeśli dodasz więcej niż jeden Ramscoop, każdy kolejny będzie mniej efektywny: potrzebujesz czterech Ramscoopów, aby osiągnąć dwukrotnie większą szybkość ładowania niż jeden Ramscoop.`
+
+tip "required crew / bunks:"
+	`Liczba członków załogi wymaganych do obsługi tego statku oraz całkowita liczba dostępnych koi. Dodatkowe koje mogą być przeznaczone dla pasażerów lub dodatkowej załogi.`
+
+tip "required crew:"
+	`Zmienia liczbę członków załogi wymaganych przez ten statek o tę wartość.`
+
+tip "reverse thrust:"
+	`Ciąg wsteczny generowany przez silniki. Ciąg wsteczny pozwala statkowi zwolnić bez konieczności zawracania.`
+
+tip "reverse thrusting energy:"
+	`Energia zużywana na sekundę podczas uruchamiania silników odwrotnych.`
+
+tip "reverse thrusting heat:"
+	`Ciepło wytwarzane na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "reverse thrusting shields:"
+	`Uszkodzenia osłony zadawane statkowi na sekundę podczas odpalania silników odwrotnych.`
+
+tip "reverse thrusting hull:"
+	`Uszkodzenia kadłuba zadawane statkowi na sekundę podczas odpalania silników odwrotnych.`
+
+tip "reverse thrusting fuel:"
+	`Zużycie paliwa na sekundę podczas używania silników odrzutowych.`
+
+tip "reverse thrusting discharge:"
+	`Skumulowana liczba rozładowań osłony na sekundę podczas odpalania silników odrzutowych.`
+
+tip "reverse thrusting corrosion:"
+	`Skumulowana korozja kadłuba na sekundę podczas używania silników odrzutowych.`
+
+tip "reverse thrusting ion:"
+	`Skumulowana jonizacja na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "reverse thrusting scramble:"
+	`Skumulowana liczba zakłóceń na sekundę podczas odpalania silników odwrotnych.`
+
+tip "reverse thrusting leakage:"
+	`Skumulowana ilość wyciekającego paliwa na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "reverse thrusting burn:"
+	`Skumulowane oddziaływania egzotermiczne na sekundę podczas uruchamiania silników odwrotnych.`
+
+tip "reverse thrusting slowing:"
+	`Skumulowane zakłócenia silnika na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "reverse thrusting disruption:"
+	`Skumulowane zakłócenia osłony na sekundę podczas odpalania silników odwrotnych.`
+
+tip "scan interference:"
+	`Możliwość uniknięcia wykrycia, gdy statek przewozi nielegalne wyposażenie lub ładunek. Zakłócenie na poziomie 1 blokuje 50% prób skanowania; 3 blokuje 75%, a 9 blokuje 90%.`
+
+tip "scram drive:"
+	`Pozwala skakać bez zatrzymywania się, pod warunkiem, że twoja prędkość mieści się w zakresie zgodnym z kierunkiem skoku.`
+
+tip "self destruct:"
+	`Szansa na samozniszczenie statku w przypadku próby wejścia na pokład lub przejęcia go.`
+
+tip "sells for:"
+	`Za ile sprzedam ten strój, w kredytach. Stroje i statki z czasem stracą na wartości (stracą na wartości odsprzedaży), a łupy zawsze zaczynają się od pełnej amortyzacji.`
+
+tip "shield energy:"
+	`Energia zużywana na sekundę podczas ładowania osłon.`
+
+tip "delayed shield energy:"
+	`Dodatkowa energia zużywana na sekundę podczas ładowania osłon po okresie opóźnienia osłony.`
+
+tip "shield energy multiplier:"
+	`Modyfikuje energię zużywaną podczas ładowania tarcz o podany współczynnik.`
+
+tip "shield fuel:"
+	`Zużycie paliwa na sekundę podczas ładowania osłon.`
+
+tip "delayed shield fuel:"
+	`Dodatkowe paliwo zużywane na sekundę podczas ładowania osłon po okresie opóźnienia osłon.`
+
+tip "shield fuel multiplier:"
+	`Modyfikuje zużycie paliwa podczas ładowania osłon o podany współczynnik.`
+
+tip "shield heat:"
+	`Ciepło wytwarzane na sekundę podczas ładowania osłon.`
+
+tip "delayed shield heat:"
+	`Dodatkowe ciepło wytwarzane na sekundę podczas ładowania osłon po okresie opóźnienia osłony.`
+
+tip "shield heat multiplier:"
+	`Modyfikuje ciepło wytwarzane podczas ładowania osłon o podany współczynnik.`
+
+tip "shield generation:"
+	`Punkty tarczy odnawiają się na sekundę. Ładowanie tarcz zazwyczaj zużywa energię i może również generować ciepło.`
+
+tip "delayed shield generation:"
+	`Dodatkowe punkty osłony odnawiane co sekundę po upływie okresu opóźnienia osłony.`
+
+tip "shield generation multiplier:"
+	`Modyfikuje liczbę punktów osłony odnawianych na sekundę o podany współczynnik.`
+
+tip "cloaked regen multiplier:"
+	`Modyfikuje liczbę punktów osłony odnawianych na sekundę o podany współczynnik, gdy aktywne jest urządzenie maskujące.`
+
+tip "high shield permeability:"
+	`Ten procent wszystkich nadchodzących obrażeń omija osłony i działa bezpośrednio na kadłub przy pełnych osłonach.`
+
+tip "low shield permeability:"
+	`Ten procent wszystkich nadchodzących obrażeń ominie osłony i zostanie przyłożony bezpośrednio do kadłuba, gdy osłony zbliżą się do zera.`
+
+tip "cloaked shield permeability:"
+	`Ten procent wszystkich otrzymywanych obrażeń ominie tarcze i zostanie przyłożony bezpośrednio do kadłuba, gdy jesteś w ukryciu.`
+
+tip "shields (charge):"
+	`Całkowita siła osłony i szybkość regeneracji na sekundę.`
+
+tip "shields:"
+	`Całkowita siła osłon. Większość broni nie może uszkodzić kadłuba, dopóki osłony nie zostaną wyczerpane. Niektóre efekty broni, takie jak obrażenia od ciepła, stają się poważniejsze, gdy osłony są osłabione.`
+
+tip "shield multiplier:"
+	`Modyfikuje całkowitą siłę osłony statku o podany współczynnik.`
+
+tip "shield delay:"
+	`Liczba sekund, po których rozpoczyna się generowanie dodatkowej tarczy po otrzymaniu obrażeń tarczy.`
+
+tip "depleted shield delay:"
+	`Liczba sekund, po upływie których rozpoczyna się generowanie dodatkowej osłony po wyczerpaniu osłon.`
+
+tip "shield protection:"
+	`Ochrona przed uszkodzeniami tarczy. Zwiększa o podany współczynnik, ile uszkodzeń tarczy statek może wytrzymać, zanim straci tyle samo tarcz, co statek niechroniony.`
+
+tip "silent jumps:"
+	`Zapobiega wydawaniu przez statek dźwięków hipernapędu lub napędu skokowego podczas wchodzenia do układu lub jego opuszczania.`
+
+tip "silent scans:"
+	`Zapobiega emitowaniu dźwięków skanowania przez statek.`
+
+tip "slowing protection:"
+	`Ochrona przed uszkodzeniami spowalniającymi. Zwiększa o podany współczynnik, ile uszkodzeń spowalniających statek może wytrzymać, zanim będzie tak samo spowolniony jak statek niechroniony.`
+
+tip "slowing resistance:"
+	`Spowolnienie obrażeń odpartych na sekundę.`
+
+tip "slowing resistance energy:"
+	`Energia zużywana na sekundę podczas opierania się obrażeniom spowalniającym.`
+
+tip "slowing resistance fuel:"
+	`Paliwo zużywane na sekundę podczas opierania się obrażeniom spowalniającym.`
+
+tip "slowing resistance heat:"
+	`Ciepło generowane na sekundę podczas stawiania oporu obrażeniom spowalniającym.`
+
+tip "solar collection:"
+	`Energia wytwarzana w zależności od odległości statku od gwiazdy w centrum układu.`
+
+tip "solar heat:"
+	`Ciepło wytwarzane w zależności od odległości statku od gwiazdy w centrum układu.`
+
+tip "strategic scan power:"
+	`Skanery strategiczne pozwalają sprawdzić odległość od celu, maksymalny zasięg działa, maksymalny zasięg wieżyczki, aktualną prędkość, maksymalne przyspieszenie i prędkość skrętu, gdy cel znajduje się w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "tactical scan power:"
+	`Skanery taktyczne pozwalają sprawdzić stan załogi, paliwa, ciepła i energii aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "acceleration scan power:"
+	`Skanery mobilności pozwalają na podgląd maksymalnego przyspieszenia aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "crew scan power:"
+	`Skanery załogi pozwalają sprawdzić skład załogi aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "energy scan power:"
+	`Skanery energii pozwalają sprawdzić poziom energii aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "fuel scan power:"
+	`Skanery paliwa pozwalają sprawdzić poziom paliwa w aktualnym celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "maneuver scan power:"
+	`Skanery manewrów pozwalają sprawdzić maksymalną prędkość skrętu aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "mobility scan power:"
+	`Skanery mobilności pozwalają sprawdzić aktualną prędkość i maksymalne przyspieszenie celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "range finder power:"
+	`Dalmierze pozwalają sprawdzić odległość od środka statku do środka aktualnego celu. Nie ma limitu zasięgu.`
+
+tip "thermal scan power:"
+	`Skanery termiczne pozwalają na podgląd poziomu termicznego aktualnego celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "velocity scan power:"
+	`Skanery mobilności pozwalają sprawdzić aktualną prędkość celu, gdy znajduje się on w zasięgu. Zasięg jest proporcjonalny do pierwiastka kwadratowego tej wartości.`
+
+tip "weapon scan power:"
+	`Skanery broni pozwalają zobaczyć maksymalny zasięg broni aktualnego celu, gdy znajduje się on w zasięgu skanera. Dokładniej, pokazują najdłuższy zasięg wszystkich broni w punkcie mocowania działa; oraz najdłuższy zasięg wszystkich broni w punkcie mocowania wieży. Zasięgi te uwzględniają przesunięcie broni, a tym samym pokazują maksymalny zasięg od środka statku, jaki mogą osiągnąć jej strzały. Zasięg skanera jest proporcjonalny do pierwiastka kwadratowego z tej wartości.`
+
+
+tip "thrust:"
+	`Ciąg wytwarzany przez silniki. Większy ciąg zwiększa przyspieszenie i prędkość maksymalną statku. Im większa masa statku, tym większy ciąg jest potrzebny do osiągnięcia tego samego przyspieszenia.`
+
+tip "thrusting energy:"
+	`Energia zużywana na sekundę podczas odpalania silników odrzutowych.`
+
+tip "thrusting heat:"
+	`Ciepło wytwarzane na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "thrusting shields:"
+	`Uszkodzenia osłony zadawane statkowi na sekundę podczas odpalania silników odrzutowych.`
+
+tip "thrusting hull:"
+	`Uszkodzenia kadłuba zadawane statkowi na sekundę podczas odpalania silników odrzutowych.`
+
+tip "thrusting fuel:"
+	`Zużycie paliwa na sekundę podczas odpalania silników odrzutowych.`
+
+tip "thrusting discharge:"
+	`Skumulowana liczba rozładowań osłony na sekundę podczas odpalania silników.`
+
+tip "thrusting corrosion:"
+	`Skumulowana korozja kadłuba na sekundę podczas odpalania silników odrzutowych.`
+
+tip "thrusting ion:"
+	`Skumulowana jonizacja na sekundę podczas odpalania silników.`
+
+tip "thrusting scramble:"
+	`Skumulowana liczba zakłóceń na sekundę podczas odpalania silników.`
+
+tip "thrusting leakage:"
+	`Skumulowana ilość wyciekającego paliwa na sekundę podczas odpalania silników odrzutowych.`
+
+tip "thrusting burn:"
+	`Skumulowane oddziaływania egzotermiczne na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "thrusting slowing:"
+	`Skumulowane zakłócenia silnika na sekundę podczas uruchamiania silników odrzutowych.`
+
+tip "thrusting disruption:"
+	`Skumulowane zakłócenia osłony na sekundę podczas odpalania silników odrzutowych.`
+
+tip "turn:"
+	`Siła skrętu wytwarzana przez silniki. Im większa masa statku, tym większa siła skrętu jest potrzebna do osiągnięcia tej samej prędkości skrętu.`
+
+tip "turning:"
+	`Prędkość skrętu w stopniach na sekundę. Im większa masa statku (wliczając masę ładunku lub myśliwców, które przewozi), tym wolniej skręca.`
+
+tip "turn multiplier:"
+	`Zmienia szybkość zwrotu statku o podany współczynnik.`
+
+tip "turning energy:"
+	`Energia zużywana na sekundę podczas skręcania.`
+
+tip "turning heat:"
+	`Ciepło wytwarzane na sekundę podczas skręcania.`
+
+tip "turning shields:"
+	`Uszkodzenia tarczy zadawane statkowi na sekundę podczas obrotu.`
+
+tip "turning hull:"
+	`Uszkodzenia kadłuba zadawane statkowi na sekundę podczas obrotu.`
+
+tip "turning fuel:"
+	`Paliwo zużyte na sekundę podczas skrętu.`
+
+tip "turning discharge:"
+	`Skumulowana liczba rozładowań osłony na sekundę podczas obrotu.`
+
+tip "turning corrosion:"
+	`Skumulowana korozja kadłuba na sekundę podczas skrętu.`
+
+tip "turning ion:"
+	`Skumulowana jonizacja na sekundę podczas obrotu.`
+
+tip "turning scramble:"
+	`Skumulowana liczba zawirowań na sekundę podczas skręcania.`
+
+tip "turning leakage:"
+	`Liczba nagromadzonego wyciekającego paliwa na sekundę podczas skręcania.`
+
+tip "turning burn:"
+	`Skumulowane oddziaływania egzotermiczne na sekundę podczas obrotu.`
+
+tip "turning slowing:"
+	`Skumulowane zakłócenia silnika na sekundę podczas skręcania.`
+
+tip "turning disruption:"
+	`Skumulowane zakłócenia tarczy na sekundę podczas skręcania.`
+
+tip "turret mounts needed:"
+	`Ta broń może strzelać w dowolnym kierunku, śledząc aktualnie wybrany cel. Zajmuje jedno z mocowań wieżyczek na statku.`
+
+tip "turret mounts free:"
+	`Ile wieżyczek można zamontować na tym statku. Wieżyczki strzelają w kierunku aktualnie wybranego celu, zamiast strzelać prosto przed siebie, jak działa.`
+
+tip "weapon capacity needed:"
+	`Ten strój zajmuje mnóstwo miejsca na broń.`
+
+tip "    weapon capacity:"
+	`Ten statek może pomieścić mnóstwo broni. (Aby zainstalować broń, musisz mieć również wystarczająco dużo miejsca na wyposażenie.)`
+
+tip "scan brightness:"
+	`Zmienia prawdopodobieństwo pojawienia się nielegalnego sprzętu podczas skanowania ładunku. Im wyższa jasność, tym większe prawdopodobieństwo jego wykrycia. Jasność skanowania równa 5 ma taką samą szansę na wykrycie, jak sprzęt o wadze 5 ton.`
+
+tip "scan concealment:"
+	`Ukrywa równoważną masę nielegalnego ładunku przed skanowaniem ładunku, zapobiegając karze za jego posiadanie. Ukrycie skanowania na poziomie 10 sprawi, że do 10 ton nielegalnego ładunku nie pojawi się podczas skanowania ładunku.`
+
+
+
+# Sale labels:
+tip "empty hull:"
+	`Cena, za którą można by sprzedać sam statek bez żadnego wyposażenia.`
+
+tip "  + outfits:"
+	`Cena, za którą można by sprzedać cały ekwipunek tego statku.`
+
+
+
+# Ship heat and energy summary fields:
+tip "idle:"
+	`Energia i ciepło wytwarzane, gdy statek jest bezczynny, tzn. nie strzela, nie obraca się ani nie wykonuje pchnięć.`
+
+tip "moving:"
+	`Energia zużyta i ciepło wytwarzane podczas skręcania i ruchu tego statku. Jest to wartość dodatkowa do wartości "jałowej".`
+
+tip "firing:"
+	`Energia zużyta i ciepło wytworzone, gdy ten statek strzela ze wszystkich swoich broni. Jest to wartość dodatkowa do "bezczynności".`
+
+tip "shields / hull:"
+	`Energia zużyta i ciepło wytworzone, gdy ten statek jednocześnie ładuje osłony i naprawia kadłub. Jest to wartość dodatkowa do wartości "idle".`
+
+tip "repairing hull:"
+	`Energia zużyta i ciepło wytworzone podczas naprawy kadłuba tego statku. Jest to wartość dodatkowa do wartości "idle".`
+
+tip "charging shields:"
+	`Energia zużyta i ciepło wytworzone podczas ładowania osłon tego statku. Jest to wartość dodatkowa do wartości "idle".`
+
+tip "net change:"
+	`Suma energii zużytej i ciepła wytworzonego na podstawie powyższych wartości energii i ciepła. Reprezentuje najgorszy scenariusz, gdy wszystkie systemy są aktywne jednocześnie.`
+
+tip "max:"
+	`Pojemność magazynowania energii i maksymalny bezpieczny poziom wytwarzania ciepła. Pojemność energetyczna pozwala statkowi tymczasowo pobierać więcej energii niż wytwarza. Maksymalne ciepło to najwyższa generacja ciepła, jaka może wystąpić bez ryzyka przegrzania statku.`
+
+
+
+# Outfit categories:
+tip "Guns:"
+	`Broń zamocowana na stałe (strzelająca w kierunku, w którym skierowany jest statek) i niewymagająca amunicji.`
+
+tip "Turrets:"
+	`Broń, która może strzelać w dowolnym kierunku i śledzi aktualnie wybrany cel.`
+
+tip "Secondary Weapons:"
+	`Broń wymagająca amunicji (którą należy zakupić osobno).`
+
+tip "Ammunition:"
+	`Ekwipunek służący jako amunicja do innej broni. Do strzelania tą amunicją potrzebna jest wyrzutnia odpowiedniego typu.`
+
+tip "Systems:"
+	`Urządzenia zajmujące ogólną przestrzeń, a nie przestrzeń zarezerwowaną na silniki lub broń.`
+
+tip "Power:"
+	`Urządzenia, które albo dostarczają energię, albo magazynują energię, która jest generowana.`
+
+tip "Engines:"
+	`Systemy sterowania i sterowania, które wpływają na szybkość poruszania się statku.`
+
+tip "Hand to Hand:"
+	`Broń, której używa twoja załoga, próbując przejąć statek.`
+
+tip "Special:"
+	`Przedmioty, które możesz kupić lub sprzedać, ale które nie są strojami, które można zainstalować na statku.`
+
+
+
+# Weapon attributes:
+tip "ammo:"
+	`Rodzaj wyposażenia, jakie ta broń zużywa podczas strzału.`
+
+tip "ammo usage:"
+	`Jednostki amunicji, które ta broń zużywa podczas strzału.`
+
+tip "range:"
+	`Całkowity zasięg tej broni.`
+
+tip "velocity:"
+	`Prędkość początkowa pocisków wystrzeliwanych przez tę broń. Niektóre rodzaje broni mają pociski, które przyspieszają lub zwalniają od tej wartości początkowej w trakcie lotu.`
+
+tip "dropoff modifier:"
+	`Mnożnik stosowany do obrażeń tej broni, gdy jej pocisk osiągnie maksymalny zasięg zrzutu.`
+
+tip "dropoff range:"
+	`Zakres początkowy i końcowy, w którym obrażenia tej broni rosną od 100% do wyświetlanego modyfikatora spadku.`
+
+tip "shield damage / second:"
+	`Obrażenia tarczy zadawane na sekundę.`
+
+tip "hull damage / second:"
+	`Obrażenia kadłuba zadawane na sekundę.`
+
+tip "minable damage / second:"
+	`Obrażenia, które można wydobyć na sekundę.`
+
+tip "fuel damage / second:"
+	`Paliwo tracone przez cel na sekundę po trafieniu tą bronią. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Wartość ujemna oznacza, że paliwo jest dodawane.`
+
+tip "heat damage / second:"
+	`Zwiększa ciepło celu o tę wartość na sekundę. Skuteczność jest tylko o połowę mniejsza, gdy tarcze celu są aktywne.`
+
+tip "energy damage / second:"
+	`Zmniejsza energię celu o tę wartość na sekundę. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
+
+tip "ion damage / second:"
+	`Zmniejsza energię celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Jonizacja powoli zanika z czasem.`
+
+tip "scrambling damage / second:"
+	`Zwiększa szansę celu na awarię broni. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Efekt "Scrambling" powoli zanika z czasem.`
+
+tip "slowing damage / second:"
+	`Zmniejsza szybkość skrętu, przyspieszenie i prędkość maksymalną celu. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Spowolnienie z czasem zanika.`
+
+tip "disruption damage / second:"
+	`Pozwala na "przenikanie obrażeń od broni" do kadłuba, nawet gdy tarcze są aktywne. Zakłócenie tarcz zanika z czasem, a dodanie kolejnego zakłócenia tarcz staje się trudniejsze, ponieważ obrażenia przechodzą przez tarcze zamiast je zakłócać.`
+
+tip "discharge damage / second:"
+	`Obrażenia tarczy zadawane przez tę broń w czasie na sekundę.`
+
+tip "corrosion damage / second:"
+	`Obrażenia kadłuba zadawane przez tę broń w czasie na sekundę.`
+
+tip "leak damage / second:"
+	`Obrażenia od paliwa zadawane przez tę broń w czasie na sekundę.`
+
+tip "burn damage / second:"
+	`Obrażenia od ciepła zadawane przez tę broń w czasie na sekundę.`
+
+tip "% shield damage / second:"
+	`Obrażenia tarczy zadawane na sekundę, jako procent całkowitej wytrzymałości tarczy celu.`
+
+tip "% hull damage / second:"
+	`Obrażenia kadłuba zadawane na sekundę, jako procent całkowitej wytrzymałości kadłuba celu.`
+
+tip "% minable damage / second:"
+	`Obrażenia, które można wydobyć na sekundę, jako procent całkowitego zdrowia celu.`
+
+tip "% fuel damage / second:"
+	`Utrata paliwa na sekundę jako procent całkowitej pojemności paliwa celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
+
+tip "% heat damage / second:"
+	`Zwiększa ciepło celu o tę wartość procentową jego maksymalnej pojemności cieplnej na sekundę. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+
+tip "% energy damage / second:"
+	`Zmniejsza energię celu o określoną wartość procentową jego pojemności energetycznej na sekundę. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+
+tip "firing energy / second:"
+	`Energia zużywana na sekundę.`
+
+tip "firing heat / second:"
+	`Ciepło generowane na sekundę.`
+
+tip "firing fuel / second:"
+	`Paliwo zużyte na sekundę.`
+
+tip "firing hull / second:"
+	`Uszkodzenia kadłuba zadawane Twojemu statkowi na sekundę.`
+
+tip "firing shields / second:"
+	`Uszkodzenia tarczy zadawane Twojemu statkowi na sekundę.`
+
+tip "firing ion / second:"
+	`Zmniejsza poziom energii na pewien czas po wystrzale z tej broni.`
+
+tip "firing scramble / second:"
+	`Zwiększa szansę na awarię broni na pewien czas po wystrzale.`
+
+tip "firing slowing / second:"
+	`Zmniejsza prędkość skrętu, przyspieszenie i prędkość maksymalną statku podczas strzelania tą bronią. Efekt spowolnienia z czasem zanika.`
+
+tip "firing disruption / second:"
+	`Zaburza osłony statku po wystrzale z tej broni, umożliwiając "przenikanie obrażeń od wrogiej broni" do kadłuba, nawet gdy osłony są aktywne. Zakłócenie osłon z czasem zanika, ale zadawanie sobie obrażeń nie traci skuteczności, gdy osłony stają się bardziej nieszczelne.`
+
+tip "firing discharge / second:"
+	`Zmniejsza osłony na pewien czas po wystrzale z tej broni.`
+
+tip "firing corrosion / second:"
+	`Zmniejsza kadłub na jakiś czas po wystrzale z tej broni.`
+
+tip "firing leak / second:"
+	`Zmniejsza zużycie paliwa na pewien czas po wystrzale z tej broni.`
+
+tip "firing burn / second:"
+	`Zwiększa temperaturę na pewien czas po wystrzale z tej broni.`
+
+tip "% firing energy / second:"
+	`Energia zużywana na sekundę, jako procent całkowitej pojemności energetycznej.`
+
+tip "% firing heat / second:"
+	`Zwiększa ciepło o określoną wartość procentową maksymalnej pojemności cieplnej na sekundę.`
+
+tip "% firing fuel / second:"
+	`Paliwo zużyte lub utracone na sekundę jako procent całkowitego paliwa statku.`
+
+tip "% firing hull / second:"
+	`Uszkodzenia kadłuba zadawane Twojemu statkowi na sekundę, jako procent całkowitej wytrzymałości kadłuba.`
+
+tip "% firing shields / second:"
+	`Uszkodzenia tarczy zadawane Twojemu statkowi na sekundę, jako procent całkowitej wytrzymałości tarczy.`
+
+tip "shots / second:"
+	`Liczba pocisków wystrzeliwanych na sekundę przez tę broń. Broń strzelająca w sposób ciągły nie wymaga baterii, jeśli generowana przez statek energia na sekundę jest wyższa niż energia strzału broni na sekundę. Niektóre bronie strzelające w sposób ciągły strzelają tylko przez ułamek czasu, w takim przypadku produkcja energii przez statek musi być wyższa niż energia strzału broni podzielona przez czas strzału, aby nie wymagać baterii.`
+
+tip "turret turn rate:"
+	`O ile stopni ta wieżyczka może się obrócić na sekundę.`
+
+tip "turret turn multiplier:"
+	`Zmienia szybkość obrotu wieżyczki na tym statku o podany współczynnik.`
+
+tip "arc:"
+	`Zasięg kątowy ochrony zapewniany przez tę broń, w stopniach.`
+
+tip "homing type:"
+	`Jak ten pocisk śledzi swój cel. Pociski z "direct" będą lecieć prosto na cel, a pociski z "leading" będą wyprzedzać swoją trajektorię.`
+
+tip "tracking:"
+	`Zdolność tego pocisku do utrzymywania namierzania celu.`
+
+tip "optical tracking:"
+	`Zdolność tego pocisku do utrzymywania optycznego namierzania celu, która zależy od rozmiaru celu; negatywnie wpływa na nią jakikolwiek potencjalny sprzęt zakłócający sygnał optyczny.`
+
+tip "infrared tracking:"
+	`Zdolność tego pocisku do utrzymywania namierzania celu za pomocą podczerwieni, co zależy od poziomu ciepła statku docelowego i odległości od pocisku; pociski naprowadzane za pomocą podczerwieni stają się celniejsze w miarę zbliżania się do celu.`
+
+tip "radar tracking:"
+	`Zdolność tego pocisku do utrzymywania namiaru na cel za pomocą radaru; negatywnie wpływa na nią sprzęt zakłócający radar statku docelowego.`
+
+tip "shield damage / shot:"
+	`Obrażenia tarczy zadawane na strzał.`
+
+tip "hull damage / shot:"
+	`Obrażenia kadłuba zadawane strzałem.`
+
+tip "minable damage / shot:"
+	`Obrażenia zadawane obiektom możliwym do wydobycia na strzał, zamiast uszkodzeń kadłuba.`
+
+tip "fuel damage / shot:"
+	`Paliwo tracone przez cel na strzał po trafieniu tą bronią. Skuteczność tylko w połowie, gdy tarcze celu są aktywne. Wartość ujemna oznacza, że paliwo jest dodawane.`
+
+tip "heat damage / shot:"
+	`Zwiększa temperaturę statku docelowego o tę wartość z każdym strzałem. Skuteczność jest tylko o połowę niższa, gdy tarcze celu są aktywne.`
+
+tip "energy damage / shot:"
+	`Zmniejsza energię statku docelowego o tę wartość na strzał. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+
+tip "ion damage / shot:"
+	`Zwiększa jonizację celu o tę wartość z każdym strzałem. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Jonizacja zmniejsza energię celu i powoli zanika z czasem.`
+
+tip "scrambling damage / shot:"
+	`Zwiększa szansę celu na awarię broni. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Efekt "Scrambling" powoli zanika z czasem.`
+
+tip "slowing damage / shot:"
+	`Zmniejsza szybkość skrętu, przyspieszenie i prędkość maksymalną celu. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Spowolnienie z czasem zanika.`
+
+tip "disruption damage / shot:"
+	`Pozwala na "przenikanie obrażeń od broni" do kadłuba, nawet gdy tarcze są aktywne. Zakłócenie tarcz zanika z czasem, a dodanie kolejnego zakłócenia tarcz staje się trudniejsze, ponieważ obrażenia przechodzą przez tarcze zamiast je zakłócać.`
+
+tip "discharge damage / shot:"
+	`Obrażenia tarczy zadawane przez tę broń w czasie na każdy strzał.`
+
+tip "corrosion damage / shot:"
+	`Obrażenia kadłuba zadawane tą bronią w czasie na każdy strzał.`
+
+tip "leak damage / shot:"
+	`Obrażenia od paliwa zadawane w czasie przez tę broń na każdy strzał.`
+
+tip "burn damage / shot:"
+	`Obrażenia od ciepła zadawane przez tę broń w czasie na każdy strzał.`
+
+tip "% shield damage / shot:"
+	`Obrażenia tarczy zadawane na strzał, jako procent całkowitej wytrzymałości tarczy celu.`
+
+tip "% hull damage / shot:"
+	`Obrażenia kadłuba zadawane strzałem, jako procent całkowitej wytrzymałości kadłuba celu.`
+
+tip "% minable damage / shot:"
+	`Obrażenia, które można wydobyć, zadawane jako procent całkowitego zdrowia celu, zamiast względnych obrażeń kadłuba.`
+
+tip "% fuel damage / shot:"
+	`Utrata paliwa spowodowana każdym strzałem jako procent całkowitej pojemności paliwa celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
+
+tip "% heat damage / shot:"
+	`Zwiększa ciepło docelowego statku o tę wartość procentową jego maksymalnej pojemności cieplnej na strzał. Skuteczność jest tylko o połowę niższa, gdy tarcze celu są aktywne.`
+
+tip "% energy damage / shot:"
+	`Zmniejsza energię statku docelowego o tę wartość procentową jego pojemności energetycznej na strzał. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne.`
+
+tip "firing energy / shot:"
+	`Energia zużywana na strzał. Broń nie wystrzeli, jeśli baterie statku nie zgromadzą co najmniej takiej ilości energii.`
+
+tip "firing heat / shot:"
+	`Ciepło generowane na każdy strzał.`
+
+tip "firing fuel / shot:"
+	`Paliwo zużyte na każdy strzał.`
+
+tip "firing hull / shot:"
+	`Uszkodzenia kadłuba zadawane Twojemu statkowi na strzał.`
+
+tip "firing shields / shot:"
+	`Uszkodzenia tarczy zadawane Twojemu statkowi każdym strzałem.`
+
+tip "firing ion / shot:"
+	`Zmniejsza energię statku. Jonizacja powoli zanika z czasem.`
+
+tip "firing scramble / shot:"
+	`Zwiększa szansę na awarię broni na pewien czas po wystrzale.`
+
+tip "firing slowing / shot:"
+	`Zmniejsza prędkość skrętu, przyspieszenie i prędkość maksymalną statku. Efekt spowolnienia z czasem zanika.`
+
+tip "firing disruption / shot:"
+	`Pozwala na "przenikanie obrażeń od broni" przez kadłub statku, nawet gdy tarcze są aktywne. Zakłócenie tarcz zanika z czasem, ale zadawanie sobie zakłóceń nie traci skuteczności, gdy tarcze stają się bardziej nieszczelne.`
+
+tip "firing discharge / shot:"
+	`Obrażenia tarczy zadawane Twojemu statkowi przez tę broń na przestrzeni czasu przy każdym strzale.`
+
+tip "firing corrosion / shot:"
+	`Obrażenia kadłuba zadawane Twojemu statkowi przez tę broń na przestrzeni czasu przy każdym strzale.`
+
+tip "firing leak / shot:"
+	`Obrażenia od paliwa zadawane Twojemu statkowi w czasie przy każdym strzale.`
+
+tip "firing burn / shot:"
+	`Obrażenia od ciepła zadawane Twojemu statkowi w czasie przy każdym strzale.`
+
+tip "% firing energy / shot:"
+	`Energia zużywana na każdy strzał, jako procent całkowitej pojemności energetycznej statku.`
+
+tip "% firing heat / shot:"
+	`Ciepło wytworzone na każdy strzał, jako procent maksymalnej pojemności cieplnej statku.`
+
+tip "% firing fuel / shot:"
+	`Paliwo zużyte lub utracone na każdy strzał, jako procent całkowitego paliwa statku.`
+
+tip "% firing hull / shot:"
+	`Uszkodzenia kadłuba zadawane Twojemu statkowi każdym strzałem, jako procent całkowitej wytrzymałości kadłuba.`
+
+tip "% firing shields / shot:"
+	`Uszkodzenia tarczy zadawane Twojemu statkowi na strzał, jako procent całkowitej wytrzymałości tarczy.`
+
+tip "inaccuracy:"
+	`Maksymalna niedokładność tej broni w stopniach. Wartość jeden oznacza, że celowanie bronią będzie maksymalnie o jeden stopień odchylone od celu.`
+
+tip "blast radius:"
+	`Wszystko w tej odległości (wliczając przyjazne statki) zostanie uszkodzone, gdy broń trafi w coś.`
+
+tip "missile strength:"
+	`Odporność tego pocisku na ostrzał przeciwrakietowy.`
+
+tip "anti-missile:"
+	`Siła pocisków przeciwrakietowych. Wyższe wartości ułatwiają niszczenie silniejszych pocisków.`
+
+tip "tractor beam:"
+	`Podstawowa prędkość, z jaką ta broń przyciąga do siebie unoszące się szczątki. Cięższe unoszące się szczątki są trudniejsze do przyciągnięcia.`
+
+tip "mining precision:"
+	`Miara skuteczności tej broni w zapobieganiu uszkodzeniom cennych materiałów podczas wydobycia. Broń o dodatniej precyzji zapewnia wyższą wydajność, a ujemna - niższą. Niektóre obiekty nadające się do wydobycia są twardsze niż inne i dlatego są mniej podatne na zmiany w wydajności.`
+
+
+
+# Flight checks:
+tip "no bunks!"
+	`Do działania tego statku potrzebna jest załoga, ale nie ma w nim koi.`
+
+tip "overheating!"
+	`Wyposażenie tego statku wytwarza tyle ciepła, że nastąpi przegrzanie w momencie startu. Musisz albo dodać więcej chłodzenia, albo zdjąć część wyposażenia, które wytwarza ciepło.`
+
+tip "no energy!"
+	`Ten statek nie ma żadnego źródła energii do zasilania swoich systemów. Musisz zainstalować jakiś generator.`
+
+tip "no fuel!"
+	`Ten statek nie ma wystarczającej ilości paliwa, aby zapewnić energię do zasilania swoich systemów. Musisz zwiększyć pojemność zbiornika paliwa.`
+
+tip "no thruster!"
+	`Ten statek nie może się poruszać. Musisz zainstalować silniki.`
+
+tip "no steering!"
+	`Ten statek nie może się obracać. Musisz zainstalować systemy sterowania.`
+
+tip "insufficient bunks?"
+	`Ten statek nie ma wystarczającej liczby koi dla załogi. Może w losowych momentach przestać reagować.`
+
+tip "insufficient heat?"
+	`Ten statek jest zbyt zimny, aby używać niektórych silników na biegu jałowym. Jego ruch może być utrudniony, jeśli nie ma innego sposobu na generowanie ciepła.`
+
+tip "afterburner only?"
+	`Jedynym pędnikiem tego statku jest dopalacz. Może on nie móc się poruszać, jeśli dopalaczowi skończy się paliwo.`
+
+tip "reverse only?"
+	`Ten statek ma ster strumieniowy wsteczny, ale nie ma steru strumieniowego do przodu. Manewrowanie nim może być bardzo trudne.`
+
+tip "battery only?"
+	`Ten statek nie ma możliwości generowania energii. Może utknąć na mieliźnie i nie móc się poruszać, jeśli wyczerpią się jego baterie.`
+
+tip "limited thrust?"
+	`Zapas energii tego statku nie wystarcza do uruchomienia silników sterujących z pełną mocą. Jego prędkość maksymalna i przyspieszenie ulegną zmniejszeniu.`
+
+tip "limited turn?"
+	`Zasilanie tego statku energią jest niewystarczające do uruchomienia układu sterowania z pełną mocą. Jego prędkość skrętu ulegnie zmniejszeniu.`
+
+tip "solar power?"
+	`Ten statek jest zasilany wyłącznie energią słoneczną. Manewrowanie nim może być trudne, jeśli oddalisz się zbyt daleko od centrum układu gwiezdnego, ponieważ twoje silniki będą miały tylko ułamek wymaganej mocy.`
+
+tip "fuel?"
+	`Ten statek zużywa paliwo, ale ma za mało miejsca w magazynie. Gdyby wystartował, natychmiast zabrakłoby mu paliwa.`
+
+tip "no hyperdrive?"
+	`Ten statek nie ma hipernapędu. Gdyby wystartował, nie mógłby opuścić tego układu gwiezdnego.`
+
+tip "no fuel?"
+	`Ten statek ma niewystarczającą ilość paliwa, aby wykonać skok nadprzestrzenny. Gdyby wystartował, nie mógłby opuścić tego układu gwiezdnego.`
+
+tip "no bays?"
+	`Nie ma wystarczającej liczby luków, aby pomieścić ten statek. Gdyby wystartował, nie mógłby opuścić tego układu gwiezdnego.`
+
+tip "insufficient energy to fire?"
+	`Ten statek nie ma wystarczającej ilości energii zmagazynowanej w celu wystrzelenia zainstalowanej broni.`
+
+
+
+# Boolean attributes:
+tip "This outfit is considered an atrocity."
+	`Rządy, które skanują nielegalne towary, zaatakują cię, jeśli odkryjesz ten przedmiot przy sobie w kosmosie, lub aresztują, jeśli zostaniesz znaleziony po wylądowaniu.`
+
+
+
+# Controls
+tip "Forward thrust"
+	`Przyspiesz swój okręt flagowy.`
+
+tip "Turn left"
+	`Skręć swój okręt flagowy w lewo.`
+
+tip "Turn right"
+	`Obróć swój okręt flagowy w prawo.`
+
+tip "Reverse"
+	`Obróć swój okręt flagowy w kierunku przeciwnym do aktualnego kierunku lotu. Jeśli są zainstalowane silniki odrzutowe, przyspiesz do tyłu.`
+	`Za pomocą <shift> zatrzymaj swój statek.`
+
+tip "Fire afterburner"
+	`Uruchom dopalacz swojego okrętu flagowego, jeśli jest zainstalowany.`
+
+tip "Auto steer"
+	`Jeśli ustawienie "Automatyczne celowanie" jest wyłączone, włącz automatyczne celowanie po przytrzymaniu tego klawisza.`
+
+tip "Land on planet / station"
+	`Wyląduj na wybranej planecie. Jeśli żadna planeta nie jest wybrana, automatycznie wybiera planetę do lądowania lub podejmuje próbę lądowania na planecie, na której znajdujesz się bezpośrednio, jeśli podróżujesz z niską prędkością. Jeśli planeta jest już wybrana, dwukrotne stuknięcie spowoduje przejście do następnej planety.`
+
+tip "Initiate hyperspace jump"
+	`Zainicjuj skok w nadprzestrzeń, aby podążać za aktualnym planem podróży. Jeśli nie masz planu podróży, inicjuje skok najbliższy kątowi, pod którym patrzysz. Po przytrzymaniu wydaje eskorcie polecenie przygotowania się do skoku i inicjuje skok dopiero po zwolnieniu.`
+	`Dzięki <shift> twoja flota nie przeskoczy, dopóki każdy statek we flocie nie będzie gotowy do wejścia do każdego systemu w planie podróży, zamiast konieczności trzymania klucza w każdym systemie.`
+
+tip "View star map"
+	`Otwórz panel mapy gwiazd.`
+
+tip "View player info"
+	`Otwórz panel informacji o graczu.`
+
+tip "Select nearest hostile ship"
+	`Wybierz najbliższy wrogi statek.`
+	`Za pomocą <shift> wybierz najbliższy statek bez względu na wrogość.`
+
+tip "Select next ship"
+	`Wybierz następny statek w systemie, który nie jest eskortą, i przejrzyj wszystkie statki.`
+	`Za pomocą <shift> przechodź między eskortami.`
+
+tip "Talk to selected ship"
+	`Przywołaj wybrany statek lub planetę. Jeśli wybrano zarówno statek, jak i planetę, przywołaj statek.`
+	`Z <shift>, wita planetę.`
+
+tip "Board selected ship"
+	`Wejście na wybrany statek. Jeśli nie wybrano żadnego statku do wejścia na pokład, wybiera statek do wejścia na pokład na podstawie ustawienia "Boarding target priority".`
+	`Za pomocą <shift> wybiera eskortę do wejścia na pokład.`
+
+tip "Select nearest asteroid"
+	`Wybierz najbliższą asteroidę na podstawie ustawienia "Asteroida docelowa na podstawie".`
+
+tip "Scan selected ship"
+	`Przeskanuj wybrany statek, jeśli masz zainstalowane skanery wyposażenia lub ładunku.`
+
+tip "Fire primary weapon"
+	`Wystrzel ze wszystkich głównych broni swojego okrętu flagowego. Ustawienie "automatycznego ognia" spowoduje wystrzelenie tylko z broni znajdującej się w zasięgu celu.`
+
+tip "Toggle turret tracking"
+	`Przełączaj ustawienie "Turret tracking" między "focused" a "opportunistic". Więcej szczegółów znajdziesz w podpowiedzi ustawienia "Turret tracking" na karcie Ustawienia.`
+
+tip "Select secondary weapon"
+	`Przejdź do następnej broni dodatkowej swojego okrętu flagowego. Po przejrzeniu wszystkich broni dodatkowych z osobna, wybierz wszystkie bronie dodatkowe naraz, a następnie nie wybieraj żadnej broni.`
+
+tip "Fire secondary weapon"
+	`Wystrzel z wybranej broni dodatkowej swojego okrętu flagowego.`
+
+tip "Toggle cloaking device"
+	`Aktywuj lub dezaktywuj urządzenia maskujące swojej floty, jeśli takowe są zainstalowane.`
+
+tip "Turret aim override (hold)"
+	`Wieżyczki celują w stronę kursora po przytrzymaniu tego klawisza. Jeśli opcja "Celuj wieżyczki myszą" jest włączona, efekt będzie odwrotny.`
+
+tip "Mouse turning (hold)"
+	`Spraw, aby Twój okręt flagowy obracał się w kierunku myszy, jeśli przytrzymasz ten klawisz. Aby obracanie myszą było zawsze aktywne, aktywuj ustawienie "Sterowanie okrętem za pomocą myszy". Jeśli to ustawienie jest aktywne, przytrzymanie tego klawisza dezaktywuje obracanie myszą.`
+
+tip "Show main menu"
+	`Otwórz menu główne.`
+
+tip "Toggle fullscreen"
+	`Przełącz, czy gra ma być w trybie pełnoekranowym.`
+
+tip "Toggle fast-forward"
+	`Przełącza przewijanie do przodu z prędkością 3x. Przewijanie do przodu może zostać automatycznie wyłączone przez ustawienie "Interrupt fast-forward". Jeśli klawisz jest ustawiony w trybie Caps Lock, stan Caps Lock zostanie użyty do określenia stanu przewijania do przodu.`
+
+tip "Pause"
+	`Zatrzymaj czas w grze. Nadal możesz wybierać statki, wydawać polecenia i korzystać z menu.`
+
+tip "Show help"
+	`Wyświetla okna dialogowe pomocy, które są istotne dla bieżącego panelu interfejsu użytkownika i sytuacji. Używa tych samych okien dialogowych pomocy, co ustawienie "Reactivate first-time help", wymuszając ich wyświetlanie, nawet jeśli pojawiły się już wcześniej.`
+
+tip "View message log"
+	`Otwórz panel dziennika zawierający wiadomości o statusie i zaproszenia z innych statków otrzymane od momentu załadowania bieżącego pilota.`
+
+tip "Deploy / recall fighters"
+	`Wysyłaj lub przywołuj statki przewożone (np. myśliwce, drony) do swojej floty. Wymaga lotniskowców z miejscem na przewożone statki.`
+
+tip "Fleet: Fight my target"
+	`Wydaj rozkaz całej flocie, aby skoncentrowała ogień na wybranym celu. Jeśli wybrano tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort. To polecenie można również wysłać, klikając prawym przyciskiem myszy na wrogi statek.`
+
+tip "Fleet: Toggle hold fire"
+	`Wydaj rozkaz swojej flocie, aby wstrzymała ostrzał, chyba że później zostanie wyznaczony konkretny cel do ostrzału. Jeśli wybrano tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort.`
+
+tip "Fleet: Gather around me"
+	`Wydaj rozkaz swojej flocie, aby zebrała się wokół okrętu flagowego. Jeśli wybrano tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort. Możesz również wydać rozkaz eskortom, aby zebrały się wokół innego statku, klikając prawym przyciskiem myszy na sojuszniczym statku.`
+	`Za pomocą <shift> zmień wzór formacji swojej floty.`
+
+tip "Fleet: Hold position"
+	`Wydaj swojej flocie rozkaz utrzymania aktualnej pozycji. Jeśli zaznaczono tylko niektóre eskorty, polecenie zostanie wysłane tylko do tych eskort. To polecenie można również wysłać, klikając prawym przyciskiem myszy na puste miejsce.`
+
+tip "Fleet: Toggle ammo usage"
+	`Przełącz ustawienie "Eskorty zużywającej amunicję".`
+
+tip "Fleet: Harvest flotsam"
+	`Wydaj rozkaz swojej flocie, aby zebrała pobliskie szczątki (np. zrzucony ładunek). Ustawienie "Zbiórka szczątków" musi umożliwiać eskorcie zbieranie szczątków, aby można było je zebrać.`
+
+
+
+# Settings
+tip "Main zoom factor"
+	`Zwiększa główny współczynnik powiększenia (rozmiar interfejsu użytkownika i rozgrywki). Wraca do 100, jeśli powiększenie przekracza limity ekranu. Jeśli współczynnik powiększenia przekracza 100, aktywuje obrazy o wysokiej rozdzielczości, jeśli są dostępne.`
+
+tip "View zoom factor"
+	`Zwiększ współczynnik powiększenia widoku rozgrywki podczas lotu. Można go również zmienić za pomocą klawiszy + i - oraz kółka przewijania.`
+
+tip "Screen mode"
+	`Przełącza między trybem gry w oknie a trybem pełnoekranowym. Można to również przełączać za pomocą kontrolki "Toggle fullscreen".`
+
+tip "VSync"
+	`Przełączanie synchronizacji pionowej między trybem wyłączonym, włączonym i adaptacyjnym (o ile komputer ją obsługuje).`
+
+tip "Camera acceleration"
+	`Określa, czy środek ekranu jest nieruchomy, pozostaje w tyle lub wyprzedza okręt flagowy podczas przyspieszania.`
+
+tip "Show CPU / GPU load"
+	`Wyświetla obciążenie procesora i karty graficznej u góry ekranu podczas gry. Obciążenie jest prezentowane jako procent klatki (1/60 sekundy) potrzebny do obliczenia lub narysowania każdej klatki. Obciążenie >100% (lub >33% przy aktywnym przewijaniu do przodu) oznacza, że gra będzie działać wolniej.`
+
+tip "Render motion blur"
+	`Przełącz, czy rozmycie ruchu ma być renderowane dla wszystkich ruchomych obiektów.`
+
+tip "Reduce large graphics"
+	`Zmniejsz rozmiar bardzo dużych (obrazów > 1 miliona pikseli) lub wszystkich grafik do połowy ich wymiarów. Wykluczone są sprite'y interfejsu użytkownika. (Niezalecane dla wyświetlaczy o wysokiej rozdzielczości, ale można użyć do zwolnienia pamięci. Wymaga ponownego uruchomienia gry.)`
+
+tip "Draw background haze"
+	`Narysuj mgłę w tle podczas lotu.`
+
+tip "Draw starfield"
+	`Narysuj tło pola gwiazd podczas lotu.`
+
+tip "Fixed starfield zoom"
+	`Rysuj tło pola gwiazd przy stałym poziomie powiększenia zamiast zmieniać go w zależności od poziomu powiększenia widoku.`
+
+tip "Parallax background"
+	`Dodaj paralaksę do obiektów w tle (mgły i pola gwiezdnego). Jeśli ustawisz na efektowny, utwórz trzy warstwy paralaksy. Jeśli ustawisz na szybki, utwórz jedną warstwę paralaksy.`
+
+tip "Animate main menu background"
+	`Ożywia tło gwiazd i mgłę w menu głównym.`
+
+tip "Show hyperspace flash"
+	`Tworzy biały błysk podczas hiperprzestrzeni między systemami.`
+
+tip "Extended jump effects"
+	`Dodaj dodatkowe rozmycie ruchu do tła podczas przeskakiwania między systemami. Opcje "średnie" i "duże" kontrolują intensywność efektu.`
+
+tip "Ship outlines in shops"
+	`Steruje wyświetlaniem ikon statków floty w stoczni lub u dostawcy sprzętu. W trybie "fantastic" stosuje filtr Sobela do wszystkich statków. (Może to powodować wysokie obciążenie GPU w przypadku dużych flot). W trybie "fast" używa tylko sprite'a statku.`
+
+tip "Ship outlines in HUD"
+	`Steruje wyświetlaniem ikon okrętu flagowego i okrętu docelowego w interfejsie HUD. W trybie zaawansowanym nakłada filtr Sobel na sprite'y. (Może to powodować wysokie obciążenie GPU niektórych okrętów na bardzo starych lub mało wydajnych komputerach). W trybie szybkim używa tylko sprite'a okrętu.`
+
+tip "Cloaked ship outlines"
+	`Steruje wyświetlaniem zamaskowanych eskort. W trybie "fantastic" statek staje się przezroczysty i ma czerwony kontur. W trybie "fast" po prostu zmienia kolor statku na czerwony.`
+
+tip "Show status overlays"
+	`Wyświetlaj nakładki statusu na wszystkich statkach w locie. Nakładki statusu pokazują tarcze i kadłub statku. Jeśli wybierzesz opcję uszkodzenia, nakładki pojawiają się tylko na statkach, które zostały uszkodzone.`
+
+tip "   Show flagship overlay"
+	`Wyświetlaj nakładkę statusu na górze swojego okrętu flagowego podczas lotu.`
+
+tip "   Show escort overlays"
+	`Wyświetlaj nakładki statusu nad eskortą w trakcie lotu.`
+
+tip "   Show enemy overlays"
+	`Wyświetlaj nakładki statusu na wrogich statkach w trakcie lotu.`
+
+tip "   Show neutral overlays"
+	`Wyświetlaj nakładki statusu nad przyjaznymi i neutralnymi statkami podczas lotu.`
+
+tip "Show missile overlays"
+	`Wyświetl nakładkę na wrogie pociski. Nakładka wskazuje zagrożenie ze strony pocisków, przy czym pociski o większej sile w stosunku do PW okrętu flagowego są wskazywane bardziej intensywnie.`
+
+tip "Turret overlays"
+	`Wyświetlaj nakładki na wieżyczki okrętu flagowego z martwymi polami. Ustawienie tej opcji na "blindspots only" wyświetla nakładki tylko wtedy, gdy martwe pola blokują ostrzał wieżyczek.`
+
+tip "Show asteroid scanner overlay"
+	`Jeśli na Twoim okręcie flagowym zainstalowano skaner asteroid, wyświetl nakładkę dla pobliskich asteroid.`
+
+tip "Highlight player's flagship"
+	`Zastosuj zielone podświetlenie do swojego okrętu flagowego.`
+
+tip "Rotate flagship in HUD"
+	`Obróć ikonę swojego okrętu flagowego w HUD tak, aby odpowiadała faktycznemu obrotowi okrętu flagowego.`
+
+tip "Show planet labels"
+	`Wyświetl nakładkę na pobliskie planety i stacje nadające się do lądowania.`
+
+tip "Show mini-map"
+	`Steruje wyświetlaniem minimapy pobliskich systemów. Jeśli ustawione na "when jumping", minimapa pojawia się tylko podczas inicjowania skoku w nadprzestrzeń. Jeśli ustawione na "always on", jest zawsze obecna podczas lotu.`
+
+tip "Clickable radar display"
+	`Aktywuj możliwość wysyłania poleceń do eskorty za pomocą minimapy radarowej wewnątrz systemu.`
+
+tip "Alert indicator"
+	`Wskazuje wejście wrogich statków do twojego systemu. Dźwięk odtwarza syrenę. Wizualizacja wyświetla ikonę alarmu na radarze wewnątrz systemu.`
+
+tip "Extra fleet status messages"
+	`Wyświetlaj dodatkowe komunikaty o stanie eskort w Twojej flocie, np. gdy brakuje załogi lub gdy zbierają szczątki statku.`
+
+tip "Control ship with mouse"
+	`Jeśli ta opcja jest aktywna, Twój okręt flagowy zawsze będzie się obracał w kierunku myszy. Aby aktywować obracanie myszy po naciśnięciu klawisza, zapoznaj się z sekcją "Obrót myszy (przytrzymanie)".`
+
+tip "Aim turrets with mouse"
+	`Jeśli aktywne, wieżyczki będą celować w pozycję myszy. Zobacz skrót klawiszowy "Turret aim override (hold)", aby przełączać na podstawie przytrzymanego klawisza.`
+
+tip "Automatic aiming"
+	`Automatycznie obróć swój statek w stronę celu, aby móc celować bronią stałą.`
+
+tip "Automatic firing"
+	`Automatycznie wystrzel z broni głównej, jeśli wróg znajduje się w zasięgu broni.`
+
+tip "Turret tracking"
+	`Strategia stosowana przez wieżyczki twojej floty podczas namierzania wrogów. Skoncentrowane śledzenie będzie namierzać wszystkie wieżyczki na statku na tym samym wrogu. Śledzenie oportunistyczne sprawi, że wieżyczki będą celować w statki, które są najbliżej celu, umożliwiając jednoczesne zaatakowanie wielu wrogów.`
+
+tip "Target asteroid based on"
+	`Strategia używana przez kontrolkę "Select near asteroid" do wybierania asteroid. Opcja "bliskość" wybiera najbliższą asteroidę. Opcja "wartość" wybiera asteroidę o najwyższej wartości.`
+
+tip "Boarding target priority"
+	`Strategia używana przez "Board selected ship" do wybierania statków, gdy nie masz żadnego namierzonego. Bliskość wybiera najbliższy statek. Wartość wybiera statek o najwyższej wartości (wartość jest szacowana, jeśli nie zeskanowano wyposażenia statku). Mieszane oblicza wartość podzieloną przez odległość do statku.`
+
+tip "Escorts expend ammo"
+	`Strategia, której używają twoje eskorty, aby określić, kiedy użyć broni dodatkowej. Można ją przełączać za pomocą "Fleet: Przełącz zużycie amunicji". Ustawienie "oszczędny" powoduje użycie broni dodatkowej tylko wtedy, gdy PW twojej eskorty są niskie lub gdy wrogowie w systemie są silniejsi niż twoja flota i jednostki sojusznicze.`
+
+tip "Flotsam collection"
+	`Kontroluj, które z twoich statków mogą podnosić ładunki dryfujące w kosmosie.`
+
+tip "Repair fighters in"
+	`Strategia używana do naprawy statków transportowych (np. myśliwców, dronów) we flocie, gdy są one zadokowane na swoim lotniskowcu. Seria naprawia statek o największej wytrzymałości, aż do jego pełnej naprawy, a następnie przechodzi do następnego. Równoległe naprawianie statku o najniższej wytrzymałości zawsze powoduje, że wszystkie statki jednocześnie zwiększają swoją wytrzymałość.`
+
+tip "Fighters transfer cargo"
+	`Myśliwce przekazują cały ładunek, jaki posiadają, na statek, na którym są umieszczone, gdy dokują.`
+
+tip "Rehire extra crew when lost"
+	`Ponownie zatrudnia dodatkową załogę po każdym lądowaniu, jeśli straciłeś dodatkową (niepotrzebną) załogę w trakcie lotu.`
+
+tip "Automatically unpark flagship"
+	`Automatycznie odparkuj statek przeciągnięty na pierwszą pozycję na liście statków i uczyń go swoim okrętem flagowym.`
+
+tip "Prioritize flagship use"
+	`Rozdzielając ładunek i pasażerów między statkami podczas startu, priorytetowo potraktuj okręt flagowy nad eskortą. (Jeśli na okręcie flagowym brakuje miejsca, część ładunku lub pasażerów misji może zostać przeniesiona na inne statki.)`
+	
+tip "Deadline blink by distance"
+	`W przypadku misji ekspresowych odejmij odległość do celu od terminu, aby ustalić, jak szybko znacznik na mapie ma migać.`
+
+tip "Hide unexplored map regions"
+	`Tworzy ciemną zasłonę nad regionami galaktyki, których jeszcze nie zbadałeś. Osłona unosi się, gdy eksplorujesz systemy.`
+
+tip "Show escort systems on map"
+	`Jeśli masz eskortę, zaznacz na mapie gwiazd systemy, w których znajdują się eskorty.`
+
+tip "Show stored outfits on map"
+	`Jeśli posiadasz stroje przechowywane na planecie, zaznacz na mapie gwiazd systemy ze przechowywanymi strojami.`
+
+tip "System map sends move orders"
+	`Kliknij prawym przyciskiem myszy na miejscu na minimapie układu na mapie galaktyki, aby wysłać eskortę do tego miejsca w wybranym układzie.`
+
+tip "Always underline shortcuts"
+	`Zawsze podkreślaj klawisz skrótu dla dowolnych przycisków. Przytrzymanie klawisza Alt w dowolnym panelu spowoduje również podkreślenie klawiszy skrótu dla przycisków, jeśli to ustawienie jest wyłączone.`
+
+tip "Reactivate first-time help"
+	`Ponownie aktywuj okna dialogowe pomocy przy pierwszym użyciu.`
+
+tip "Interrupt fast-forward"
+	`Wyłącz szybkie przewijanie do przodu po lądowaniu lub gdy w trakcie lotu pojawi się rozmowa, okno dialogowe lub inny panel.`
+
+tip "Landing zoom"
+	`Zastosuj kinowe przybliżanie i oddalanie podczas lądowania i startu.`
+
+tip "Scroll speed"
+	`Prędkość przewijania w panelach, które można przewijać.`
+
+tip "Tooltip activation time"
+	`Określa, jak długo należy najechać kursorem na element, aby wyświetlić jego podpowiedź.`
+
+tip "Date format"
+	`Format, w jakim wyświetlane są daty w grze.`
+
+tip "Show parenthesis"
+	`Przełącz nawiasy wokół cen handlowych w trybie mapy portów.`
+
+tip "Notify on destination"
+	`Jeśli wejdziesz do układu, na którym znajduje się planeta, na której musisz wylądować w ramach misji, odtworzy się dźwięk powiadomienia.`
+
+tip "Save message log"
+	`Dołącz dzienniki komunikatów do plików pilota, aby nie zostały utracone po zamknięciu gry lub ponownym wczytaniu pliku zapisu. Spowoduje to zwiększenie rozmiaru plików zapisu i może wydłużyć czas ładowania. Zapisaną historię dziennika można wyczyścić z panelu dziennika komunikatów.`
+
+tip "Title bar theme"
+	`Wybierz motyw paska tytułu lub pozostaw "system default", aby użyć ustawień systemowych. (Dostępne w systemie Windows 10 i nowszych; w systemie Windows 10 należy zmienić rozmiar okna gry lub uruchomić je ponownie, aby zmiana została wprowadzona.)`
+
+tip "Window rounding"
+	`Kontrola wyglądu narożników okien. (Dostępne w systemie Windows 11.)`

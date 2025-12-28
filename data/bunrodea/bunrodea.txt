@@ -207,7 +207,9 @@ phrase "bunrodea (erabu)"
 	phrase
 		"<WR-10501>"
 	replace
-		"<WR-10502>" 		"<WR-10503>" 
+		"a xx" "a ve"
+		"u xx" "u va"
+
 phrase "bunrodea title"
 	word
 		"<WR-10504>"

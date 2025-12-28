@@ -1,0 +1,402 @@
+# Copyright (c) 2021 by Amazinite
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Shield Relay Booster"
+	category "Systems"
+	series "Shields"
+	index 10098
+	cost 59000
+	thumbnail "outfit/shield booster"
+	"mass" 2
+	"outfit space" -2
+	"shield generation" 0.4
+	"shield energy" 1.2
+	"relay upgrades" -1
+	description "Wzmacniacz przekaźnika osłonowego to komponent, który można zainstalować w przekaźniku osłonowym Bunrodeana w celu modyfikacji jego skuteczności. Wzmacniacze zwiększają moc generowania osłony przekaźnika, ale kosztem zmniejszonej efektywności energetycznej."
+
+outfit "Shield Relay Limiter"
+	category "Systems"
+	series "Shields"
+	index 10099
+	cost 12000
+	thumbnail "outfit/shield limiter"
+	"mass" 1
+	"outfit space" -1
+	"shield generation" -0.02
+	"shield energy" -0.1
+	"relay upgrades" -1
+	description "Ogranicznik przekaźnika osłonowego to element, który można zainstalować w przekaźniku osłonowym Bunrodeana w celu modyfikacji jego skuteczności. Ograniczniki zwiększają efektywność energetyczną przekaźnika, ale kosztem zmniejszenia mocy generowanej przez jego osłonę."
+
+outfit "Small Shield Relay"
+	category "Systems"
+	series "Shields"
+	index 10010
+	cost 172000
+	thumbnail "outfit/small shield relay"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 0.65
+	"shield energy" 0.6
+	"relay upgrades" 6
+# Giving an outfit "ammo" like this means that selling this outfit sells the "ammo," which is better UX for selling these outfits without having to sell the upgrades first, but this also makes it so that if you have space for upgrades, entering the outfitter asks you if you want to "buy ammo," which is not good UX. We either need a way to decouple those two mechanics (only ask to buy ammo if the "ammo" is actually in the ammo category?), or come up with a new keyword that only provides the "selling this sells that" behavior.
+#	ammo "Shield Relay Booster"
+#	ammo "Shield Relay Limiter"
+	description "Przekaźniki osłony Bunrodeana są imponująco wydajne; podczas gdy generator osłony o podobnej wielkości z innej frakcji może być w stanie wytworzyć więcej osłony, przekaźniki osłony Bunrodeana generują skromną ilość osłony, zużywając jedynie niewielką ilość energii."
+	description "	Przekaźniki osłonowe można modernizować poprzez instalację wzmacniaczy lub ograniczników osłon, które zmieniają ich działanie. Każdy przekaźnik ma jednak ograniczoną liczbę gniazd na te ulepszenia."
+
+outfit "Large Shield Relay"
+	category "Systems"
+	series "Shields"
+	index 10020
+	cost 593000
+	thumbnail "outfit/large shield relay"
+	"mass" 56
+	"outfit space" -56
+	"shield generation" 2
+	"shield energy" 1.6
+	"relay upgrades" 16
+#	ammo "Shield Relay Booster"
+#	ammo "Shield Relay Limiter"
+	description "Niektórzy kapitanowie wojskowi z Bunrodea twierdzili, że zamiana generacji osłon na efektywność energetyczną to nierozsądny interes, podczas gdy kapitanowie statków handlowych, chcący maksymalnie wykorzystać potencjał swoich reaktorów, argumentowali, że mogłyby one być bardziej energooszczędne. W związku z tym przekaźniki osłonowe można dostosować do upodobań właściciela za pomocą komponentów zewnętrznych."
+	description "	Przekaźniki osłonowe można modernizować poprzez instalację wzmacniaczy lub ograniczników osłon, które zmieniają ich działanie. Każdy przekaźnik ma jednak ograniczoną liczbę gniazd na te ulepszenia."
+
+
+
+outfit "Nanite Enhancer"
+	category "Systems"
+	series "Repair"
+	index 10098
+	cost 76000
+	thumbnail "outfit/nanite enhancer"
+	"mass" 5
+	"outfit space" -5
+	"hull repair rate" 0.25
+	"hull energy" 0.75
+	"nanite upgrades" -2
+	description "Wzmacniacz nanitów to komponent, który można zainstalować w fabrykatorze nanitów Bunrodeana w celu modyfikacji jego skuteczności. Wzmacniacze zwiększają wytrzymałość naprawy kadłuba fabrykatora, ale kosztem zmniejszonej efektywności energetycznej."
+
+outfit "Nanite Limiter"
+	category "Systems"
+	series "Repair"
+	index 10099
+	cost 21000
+	thumbnail "outfit/nanite limiter"
+	"mass" 2
+	"outfit space" -2
+	"hull repair rate" -0.025
+	"hull energy" -0.2
+	"nanite upgrades" -1
+	description "Ogranicznik nanitów to element, który można zainstalować w fabrykatorze nanitów Bunrodeana w celu modyfikacji jego skuteczności. Ograniczniki zwiększają wydajność energetyczną i cieplną fabrykatora, ale kosztem zmniejszenia wytrzymałości jego kadłuba."
+
+outfit "Small Nanite Fabricator"
+	category "Systems"
+	series "Repair"
+	index 10010
+	cost 650000
+	thumbnail "outfit/small nanite fabricator"
+	"mass" 23
+	"outfit space" -23
+	"hull repair rate" 0.72
+	"hull energy" 1.08
+	"nanite upgrades" 4
+#	ammo "Nanite Enhancer"
+#	ammo "Nanite Limiter"
+	description "Chociaż statki Bunrodei zazwyczaj polegają na swoich osłonach do obrony, niektórzy piloci decydują się na instalację generatora nanitów. Generatory te wytwarzają stały strumień nanitów, które przemieszczają się po kadłubie statku i naprawiają wszelkie znalezione uszkodzenia."
+	description "	Fabrykatory nanitów można ulepszać, instalując wzmacniacze lub ograniczniki nanitów, które zmieniają wydajność fabrykatora. Każdy fabrykator ma jednak ograniczoną liczbę slotów na te ulepszenia."
+
+outfit "Large Nanite Fabricator"
+	category "Systems"
+	series "Repair"
+	index 10020
+	cost 1940000
+	thumbnail "outfit/large nanite fabricator"
+	"mass" 58
+	"outfit space" -58
+	"hull repair rate" 2.12
+	"hull energy" 3.18
+	"nanite upgrades" 10
+#	ammo "Nanite Enhancer"
+#	ammo "Nanite Limiter"
+	description "Tworzenie fabrykatorów nanitów zostało zainspirowane wczesnym kontaktem między Bunrodeą a Korathem. Poruszające się po kadłubie mikroboty z rdzeni systemu Korath umożliwiały statkom Korath dokonywanie napraw bez potrzeby korzystania z portu kosmicznego, co Bunrodea preferowała w swoich statkach zwiadowczych."
+	description "	Fabrykatory nanitów można ulepszać, instalując wzmacniacze lub ograniczniki nanitów, które zmieniają wydajność fabrykatora. Każdy fabrykator ma jednak ograniczoną liczbę slotów na te ulepszenia."
+
+
+
+outfit "Solar Battery"
+	plural "Solar Batteries"
+	category "Power"
+	series "Batteries"
+	index 10010
+	cost 49000
+	thumbnail "outfit/solar battery"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 6000
+	"solar cell" 36
+#	ammo "Solar Cell"
+	description "Baterie słoneczne Bunrodeana są niezbędne do instalacji ogniw słonecznych, ale baterie słoneczne doskonale radzą sobie bez nich. Wielu kapitanów instaluje baterie, aby magazynować energię pozyskiwaną z normalnych reaktorów, bez konieczności instalowania ogniw słonecznych."
+
+outfit "Solar Cell"
+	category "Power"
+	series "Batteries"
+	index 10020
+	cost 17000
+	thumbnail "outfit/solar cell"
+	"mass" 1
+	"outfit space" -1
+	"solar collection" 0.145
+	"solar heat" 0.07
+	"solar cell" -1
+	description "Panele słoneczne Bunrodean są niezwykle wydajne i mogą zasilać nawet mniejsze lub słabsze okręty wojenne. Uwaga: choć te ogniwa słoneczne mogą dostarczać znaczną ilość energii, wiąże się to z generowaniem ciepła odpadowego, które zwiększa się wraz z wytwarzaną energią, co może być szczególnie niebezpieczne w pobliżu jasnych gwiazd."
+	description "	Te ogniwa muszą zostać zainstalowane na platformie montażowej, do której dołączono baterię słoneczną, aby można było z nich korzystać."
+
+
+
+outfit "Reactor Overclocker"
+	category "Power"
+	series "Generators"
+	index 10098
+	cost 142000
+	thumbnail "outfit/reactor overclocker"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 0.9
+	"heat generation" 3.15
+	"reactor upgrades" -3
+	description "Reactor Overclocker to komponent, który można zainstalować w reaktorze Bunrodea w celu modyfikacji jego wydajności. Overclockery zwiększają moc generowania energii przez reaktor, ale kosztem zmniejszonej sprawności cieplnej."
+
+outfit "Reactor Limiter"
+	category "Power"
+	series "Generators"
+	index 10099
+	cost 26000
+	thumbnail "outfit/reactor limiter"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" -0.55
+	"heat generation" -6.6
+	"reactor upgrades" -2
+	description "Ogranicznik reaktora to element, który można zainstalować w reaktorze Bunrodea w celu modyfikacji jego efektywności. Ograniczniki zwiększają sprawność cieplną reaktora, ale kosztem zmniejszenia mocy generowanej przez niego energii."
+
+outfit "Quark Reactor"
+	category "Power"
+	series "Generators"
+	index 10010
+	cost 3367000
+	thumbnail "outfit/quark reactor"
+	"mass" 61
+	"outfit space" -61
+	"energy generation" 8.35
+	"heat generation" 10.9
+	"reactor upgrades" 6
+#	ammo "Reactor Overclocker"
+#	ammo "Reactor Limiter"
+	description "Reaktory Bunrodea zdają się nosić nazwy od rodzajów egzotycznych gwiazd, które kiedyś były lub nadal są uważane za teoretyczne dla ludzkości. Gwiazda kwarkowa została po raz pierwszy odkryta przez ludzkość w pobliżu układu Shangri-La w XXVIII wieku - gwiazda o tak ekstremalnych temperaturach i ciśnieniach w jądrze, że powstaje w niej materia kwarkowa."
+	description "	Reaktory Bunrodeana można ulepszać, instalując Reactor Overclockers lub Limiters, które zmieniają wydajność reaktora. Każdy reaktor ma jednak ograniczoną liczbę slotów na te ulepszenia."
+
+outfit "Electroweak Reactor"
+	category "Power"
+	series "Generators"
+	index 10020
+	cost 8393000
+	thumbnail "outfit/electroweak reactor"
+	"mass" 106
+	"outfit space" -106
+	"energy generation" 17.25
+	"heat generation" 20.5
+	"reactor upgrades" 18
+#	ammo "Reactor Overclocker"
+#	ammo "Reactor Limiter"
+	description "Istnienie egzotycznych gwiazd, od których pochodzi nazwa tego reaktora Bunrodeana, jest wciąż nieznane ludzkości. Gwiazda elektrosłaba to gwiazda egzotyczna, której zapadnięcie się jest zapobiegane przez oddziaływanie elektrosłabe, ponieważ kwarki przekształcają się w leptony w jądrze gwiazdy."
+	description "	Reaktory Bunrodeana można ulepszać, instalując Reactor Overclockers lub Limiters, które zmieniają wydajność reaktora. Każdy reaktor ma jednak ograniczoną liczbę slotów na te ulepszenia."
+
+outfit "Dark Reactor"
+	category "Power"
+	series "Generators"
+	index 10030
+	cost 15022000
+	thumbnail "outfit/dark reactor"
+	"mass" 142
+	"outfit space" -142
+	"energy generation" 24.7
+	"heat generation" 28.6
+	"reactor upgrades" 30
+#	ammo "Reactor Overclocker"
+#	ammo "Reactor Limiter"
+	description `Termin "ciemna gwiazda" może mieć różne znaczenia, ale jedną z jego definicji jest gwiazda, której jądro powstało wokół dużej ilości ciemnej materii. Ludzkość teoretyzuje, że takie egzotyczne gwiazdy mogły istnieć wśród pierwszych generacji gwiazd we Wszechświecie, a skupiska ciemnej materii działały jako miejsca zarodkowania.`
+	description "	Reaktory Bunrodeana można ulepszać, instalując Reactor Overclockers lub Limiters, które zmieniają wydajność reaktora. Każdy reaktor ma jednak ograniczoną liczbę slotów na te ulepszenia."
+
+
+
+outfit "Lasher Pistol"
+	category "Hand to Hand"
+	series "H2H"
+	index 10010
+	cost 47000
+	thumbnail "outfit/lasher pistol"
+	"capture attack" 1.1
+	"capture defense" 2.8
+	"unplunderable" 1
+	description "Podczas wojen z Korathami, nierzadko zdarzało się, że statki Bunrodeańczyków były abordażowane przez korathańskich rabusiów poszukujących technologii i zapasów do kradzieży. W związku z tym skuteczna broń strzelecka stała się niezbędnym elementem wyposażenia każdej załogi Bunrodeańczyków, która może być potrzebna do odparcia abordaży."
+
+
+
+outfit "Chiisana Rift Thruster"
+	category "Engines"
+	series "Engines"
+	index 10011
+	cost 130000
+	thumbnail "outfit/chiisana rift thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 11.6625
+	"thrusting energy" 1.15
+	"thrusting heat" 0.65
+	"flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.3
+	"flare sound" "ion tiny"
+	description "Podczas gdy Korathowie preferują moc silników, Bunrodea stawiają na wydajność, decydując się na silniki o mniejszym ciągu i wytwarzające znacznie mniej ciepła."
+
+outfit "Nami Rift Thruster"
+	category "Engines"
+	series "Engines"
+	index 10021
+	cost 262000
+	thumbnail "outfit/nami rift thruster"
+	"mass" 19
+	"outfit space" -19
+	"engine capacity" -19
+	"thrust" 21.135
+	"thrusting energy" 2.3
+	"thrusting heat" 1.3
+	"flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.6
+	"flare sound" "ion small"
+	description "Chociaż silniki ryftowe są niezwykle wydajne cieplnie, ich zapotrzebowanie na energię jest dość wysokie w porównaniu do ciągu, jaki wytwarzają, nawet w porównaniu ze strasznie nieefektywnymi silnikami Korath."
+
+outfit "Ookii Rift Thruster"
+	category "Engines"
+	series "Engines"
+	index 10031
+	cost 512000
+	thumbnail "outfit/ookii rift thruster"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 37.455
+	"thrusting energy" 4.4
+	"thrusting heat" 2.5
+	"flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.8
+	"flare sound" "ion medium"
+	description "Mimo że energia pobierana na jednostkę ciągu przez silniki szczelinowe jest niższa niż w przypadku silników Korath, ogólne zapotrzebowanie na energię silników szczelinowych jest w porównaniu z nimi wciąż znacznie mniejsze."
+
+outfit "Subarashii Rift Thruster"
+	category "Engines"
+	series "Engines"
+	index 10041
+	cost 1004000
+	thumbnail "outfit/subarashii rift thruster"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"thrust" 69.75
+	"thrusting energy" 8.6
+	"thrusting heat" 4.9
+	"flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+	"flare sound" "ion large"
+	description "Ze względu na mniejszy rozmiar i ciąg silników szczelinowych, statki Bunrodea nie są dobrze znane ze swoich możliwości pościgowych. Jednak wśród niektórych Bunrodea krążą pogłoski o starożytnym zbiorze silników, potężniejszych nawet niż te z Korath, które pozwoliłyby każdemu statkowi śmigać po gwiazdach jak kometa i ścigać każdy potencjalny cel."
+
+outfit "Chiisana Rift Steering"
+	category "Engines"
+	series "Engines"
+	index 10010
+	cost 201000
+	thumbnail "outfit/chiisana rift steering"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"turn" 808.5
+	"turning energy" 2.6
+	"turning heat" 1
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.3
+	"steering flare sound" "ion tiny"
+	description "Biorąc pod uwagę, że statki Bunrodea zazwyczaj koncentrują się na intensywnym wykorzystaniu dział skierowanych do przodu, Bunrodea preferują wysokie obroty znacznie bardziej niż wysokie prędkości. W związku z tym systemy sterowania szczelinowego są większe niż odpowiednie systemy sterów strumieniowych tej samej kategorii rozmiarów."
+
+outfit "Nami Rift Steering"
+	category "Engines"
+	series "Engines"
+	index 10020
+	cost 442000
+	thumbnail "outfit/nami rift steering"
+	"mass" 31
+	"outfit space" -31
+	"engine capacity" -31
+	"turn" 1705.5
+	"turning energy" 5.3
+	"turning heat" 2.1
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.6
+	"steering flare sound" "ion small"
+	description "Podobnie jak w wielu układach Bunrodeańskich, silniki ryftowe wytwarzają bardzo mało ciepła. Dzięki temu ich statki mogą zrezygnować z jakichkolwiek znaczących systemów chłodzenia, pozostawiając więcej miejsca na inne systemy, zarówno defensywne, jak i ofensywne."
+
+outfit "Ookii Rift Steering"
+	category "Engines"
+	series "Engines"
+	index 10030
+	cost 940000
+	thumbnail "outfit/ookii rift steering"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"turn" 3148.5
+	"turning energy" 9.2
+	"turning heat" 3.65
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.8
+	"steering flare sound" "ion medium"
+	description "Mimo że skupienie się na sterowaniu, a nie na ciągu, sprawia, że statki Bunrodeańskie są łatwym celem do śledzenia, siła ich systemów uzbrojenia mogłaby sprawić, że każdy byłby naiwny, gdyby uwierzył, że są łatwym celem."
+
+outfit "Subarashii Rift Steering"
+	category "Engines"
+	series "Engines"
+	index 10040
+	cost 1577000
+	thumbnail "outfit/subarashii rift steering"
+	"mass" 90
+	"outfit space" -90
+	"engine capacity" -90
+	"turn" 5850
+	"turning energy" 17.1
+	"turning heat" 6.5
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+	"steering flare sound" "ion large"
+	description "Największy z systemów sterowania szczeliną. Silniki te pozwalają ciężkim okrętom bojowym Bunrodei skierować liczne działa w stronę nieszczęsnego celu."

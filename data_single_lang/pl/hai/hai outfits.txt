@@ -1,0 +1,995 @@
+# Copyright (c) 2014-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Phantom Pallet"
+	category "Systems"
+	series "Special Systems"
+	index 02020
+	cost 12000
+	thumbnail "outfit/phantom pallet"
+	"mass" 0.2
+	"unplunderable" 1
+	"energy consumption" 0.015
+	"heat generation" 0.03
+	# Replacing 30% of your cargo bay with these triples your cargo scan time.
+	"cargo space" -1
+	"cargo scan opacity" 15
+	description `Stroje holograficzne Hai składają się z zestawu pojedynczych "holopadów", które razem tworzą większą scenę. Phantom Pallet to nieskrępowana wersja tych holopadów, wystarczająco wytrzymała, aby przetrwać strzelaninę i łatwo ją ukryć pod podłogą, w ścianach lub sufitach, pozostając niewykrytą. Przedsiębiorczy korsarz może wypełnić nimi ładownię i wyświetlać fałszywe ładunki jako widma sensorów, myląc skanery i skanując pustą przestrzeń zamiast kontrabandy; ten dodatkowy czas może decydować o tym, czy ładunek zostanie przejęty, czy dostarczony.`
+
+outfit "Holovid Zone"
+	category "Systems"
+	series "Special Systems"
+	index 02030
+	cost 320000
+	thumbnail "outfit/holovid zone"
+	"mass" 20
+	"outfit space" -20
+	"unplunderable" 1
+	"holographic entertainment" 1
+	"energy consumption" 0.5
+	"heat generation" 1.0
+	"cargo scan opacity" 150
+	"outfit scan opacity" 150
+	description "Technologia holograficzna Hai znacznie przewyższa porównywalne ludzkie odpowiedniki, a nigdzie nie jest to najlepiej zilustrowane niż w Strefie Holovid. Jej holograficzne projektory i teksturowane pola siłowe zapewniają realistyczne obrazy, a głośniki z matrycą fazową emitują dźwięki z dowolnego miejsca w pomieszczeniu."
+	description "	Dla Hai taka technologia jest powszechna i wykorzystywana do tworzenia sal konferencyjnych 3D, kin holovidowych, salonów gier i nie tylko. W przeszłości kapitanowie Hai instalowali Strefy Holovid na swoich pokładach dowodzenia, co pozwalało im na generowanie taktycznych ocen bitew w czasie rzeczywistym."
+	description "	Możliwości są nieograniczone... zwłaszcza dla przebiegłego kapitana, który nadużywa tego urządzenia. Jeśli władze będą poszukiwać przemytników lub nielegalnych organizacji, Strefa Holovid może ich oszukać na tyle długo, by przemytnik mógł uciec. Pałki śmierci trudno znaleźć na statku z pięćdziesięcioma tonami holograficznej słomy."
+
+outfit "Pulse Cannon"
+	category "Guns"
+	series "Guns"
+	index 02010
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 1
+		"velocity" 15
+		"lifetime" 30
+		"reload" 20
+		"firing energy" 24
+		"firing heat" 70
+		"shield damage" 45
+		"hull damage" 34
+	description "Podobnie jak większość przykładów inżynierii Hai, które widziałeś, działo impulsowe nie wyróżnia się jako szczególnie zaawansowana lub elegancka technologia, ale ma opinię wydajnego, niezawodnego i dobrze wyważonego."
+
+outfit "Pulse Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02010
+	cost 590000
+	thumbnail "outfit/pulse turret"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/pulse"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		"hardpoint offset" 7.
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 1
+		"turret turn" 2.6
+		"velocity" 15
+		"lifetime" 30
+		"reload" 10
+		"firing energy" 24
+		"firing heat" 70
+		"shield damage" 45
+		"hull damage" 34
+	description "Działa pulsacyjne to główna broń ofensywna używana przez okręty Hai. Ta wieżyczka posiada dwa działa pulsacyjne umieszczone obok siebie, co pozwala im śledzić nawet najszybciej poruszające się cele."
+
+outfit "Tripulse Shredder"
+	category "Guns"
+	series "Guns"
+	index 02020
+	cost 520000
+	thumbnail "outfit/tripulse shredder"
+	"mass" 42
+	"outfit space" -42
+	"weapon capacity" -42
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 5
+		"velocity" 15
+		"lifetime" 30
+		"reload" 6
+		"burst count" 36
+		"burst reload" 4
+		"cluster"
+		"firing energy" 25
+		"firing heat" 60
+		"shield damage" 45
+		"hull damage" 34
+	description "Tripulse Shredder, będący wczesnym etapem rozwoju lepszej i szybszej broni, mogącej konkurować z bronią Wanderersów, składa się z trzech działek impulsowych w jednej obudowie. Udoskonalenia w zakresie chłodzenia zmniejszyły ciepło generowane przez każdy strzał kosztem nieco większego poboru mocy. Dodatkowo, pojedyncza, wspólna obudowa skutkuje mniej spójnym wzorcem ognia, ograniczając go do serii. Te czynniki sprawiły, że Tripulse Shredder stał się popularną bronią do uderzeń i ucieczki wśród Unfettered."
+
+effect "pulse impact"
+	sprite "effect/pulse impact"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 20
+	"random angle" 360
+	"random spin" 4
+	"random velocity" .6
+	"velocity scale" -.1
+
+
+outfit "Ion Cannon"
+	category "Guns"
+	series "Guns"
+	index 02030
+	cost 490000
+	thumbnail "outfit/ion cannon"
+	"mass" 47
+	"outfit space" -47
+	"weapon capacity" -47
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 120
+		"firing force" 15
+		"firing heat" 150
+		"hit force" 180
+		"shield damage" 168
+		"hull damage" 60
+		"ion damage" 6
+		"scrambling damage" 6
+	description "Działa jonowe nie zadają tak dużych obrażeń, jak niektóre inne rodzaje broni, ale zakłócają systemy elektryczne każdego trafionego statku, wyczerpując jego energię i powodując zacięcia uzbrojenia. Jeśli statek ma spore rezerwy baterii, może to mieć niewielki wpływ, ale w przypadku statku pracującego na granicy swojej wydajności energetycznej, uderzenie jonowe może wyłączyć go z walki na kilka sekund, aby mógł się zregenerować, lub w inny sposób utrudnić mu strzelanie z broni."
+
+effect "ion impact"
+	sprite "effect/ion impact"
+		"no repeat"
+		"frame rate" 30
+	sound "ion impact"
+	"lifetime" 9
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 2
+	"velocity scale" -.05
+
+
+outfit "Ionic Blaster Prototype"
+	category "Guns"
+	series "Guns"
+	index 02040
+	cost 530000
+	thumbnail "outfit/hai ionic blaster"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	weapon
+		sprite "projectile/ionic blast"
+			"frame rate" 5
+		sound "ionic blast"
+		"hit effect" "ion impact"
+		"inaccuracy" 4
+		"velocity" 18
+		"lifetime" 30
+		"reload" 30
+		"firing energy" 72
+		"firing force" 18
+		"firing heat" 108
+		"hit force" 108
+		"shield damage" 70
+		"hull damage" 30
+		"ion damage" .5
+		"scrambling damage" 1.45
+	description "Konflikt Unfettered z resztą Hai wywarł na nich presję, by zdobyć przewagę technologiczną, pomimo ograniczonych zasobów. Miotacz Jonowy jest rezultatem tej presji. Jest znacznie mniejszy niż szacowne Działo Jonowe, a jednocześnie zadaje większe obrażenia jak na swój rozmiar. Nadal potrafi również wysysać energię z tych samych efektów, ale naukowcy Unfettered przenieśli go w kierunku bardziej relatywnie skoncentrowanego na zagłuszaniu broni wroga."
+
+outfit "Ionic Turret Prototype"
+	category "Turrets"
+	series "Turrets"
+	index 02020
+	cost 1260000
+	thumbnail "outfit/hai ionic turret"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ionic turret"
+			"frame rate" 20
+		"fade out" 10
+		"hardpoint sprite" "hardpoint/hai ionic turret"
+		"hardpoint offset" 16.
+		sound "ion"
+		"hit effect" "ionic impact" 5
+		"inaccuracy" 2
+		"turret turn" 1.4
+		"velocity" 12
+		"lifetime" 70
+		"reload" 70
+		"firing energy" 371
+		"firing force" 12
+		"firing heat" 259
+		"hit force" 90
+		"shield damage" 100
+		"hull damage" 50
+		"ion damage" 17.5
+		"scrambling damage" 10
+	description "Ta broń znacznie poprawia możliwości jonizacyjne działa jonowego, zadając jednocześnie mniejsze obrażenia i nie powodując efektów zacinania się broni. Jest jednak również zamontowana na wieżyczce, co pozwala jej strzelać do wrogów w dowolnym kierunku, a nie tylko do tych znajdujących się bezpośrednio przed nią."
+	description "	Tego projektu nie da się jeszcze wprowadzić do masowej produkcji, ale te, które powstały, są cenione przez nielicznych szczęśliwców, którzy je posiadają."
+
+effect "ionic impact"
+	sprite "effect/ionic impact"
+		"no repeat"
+		"frame rate" 30
+	sound "ion impact"
+	"lifetime" 9
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 2
+	"velocity scale" -.05
+
+outfit "Railgun Slug"
+	"display name" "Skipper Railgun Slug"
+	category "Ammunition"
+	series "Ammunition"
+	index 02020
+	cost 13
+	thumbnail "outfit/railslug"
+	"mass" 0.003
+	"railgun slug capacity" -1
+	description "Pociski Skipper Railgun Slug zawierają kondensatory rozładowujące energię, które zadają celowi niewielkie obrażenia jonowe. Choć nie są one zbyt silne, to w połączeniu ze znacznym odrzutem każdego strzału, drony Flea stają się skutecznymi okrętami wsparcia dalekiego zasięgu."
+
+outfit "Railgun Slug Rack"
+	"display name" "Skipper Slug Rack"
+	category "Ammunition"
+	series "Ammunition"
+	index 02021
+	cost 15000
+	thumbnail "outfit/railslug rack"
+	"mass" 1
+	"outfit space" -3
+	"railgun slug capacity" 500
+	ammo "Railgun Slug"
+	description "Ten stojak na pociski do działa elektromagnetycznego służy do przechowywania i ładowania dodatkowej amunicji do działa elektromagnetycznego Skipper."
+
+outfit "Railgun"
+	"display name" "Skipper Railgun"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02020
+	cost 20000
+	thumbnail "outfit/railgun"
+	"mass" 1
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	"railgun slug capacity" 1000
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		ammo "Railgun Slug"
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2100
+		"reload" 12
+		"firing energy" 3.5
+		"firing heat" 7.2
+		"firing force" 105
+		"stream"
+		"submunition" "rslug" 1
+	description "Hai zaprojektowali tę broń, aby jak najlepiej uzupełniała ich drony Flea. Każdy karabin maszynowy Skipper Railgun zapewnia znaczną siłę podczas strzału, odpychając drona Flea do tyłu i zmuszając go do utrzymania dystansu od celu."
+	description "	Piloci dronów Flea żartują, że dają one większy ciąg niż silniki o podobnej mocy, więc Unfettered powinno ich używać na rufie swoich statków. W tym żarcie jest prawdopodobnie element kulturowy, którego wielu nie dostrzega, ponieważ jest on często opowiadany, a Hai śmieją się z niego histerycznie - za każdym razem."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "rslug"
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"hit effect" "bullet impact"
+		"lifetime" 49
+		"acceleration" 2.2
+		"drag" .05
+		"turn" .6
+		"homing"
+			"blindspot"
+		"optical tracking" .4
+		"shield damage" 4.2
+		"hull damage" 8.4
+		"ion damage" .3
+		"scrambling damage" .3
+		"hit force" 22.5
+
+effect "rail sparks"
+	sprite "effect/railspark"
+		"random start frame"
+		"frame rate" 30
+		"rewind"
+	"lifetime" 6
+	"random angle" 360
+	"random spin" 30
+	"velocity scale" 1.2
+
+outfitter "Railgun Slug Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Railgun"
+			has "outfit: Railgun Slug Rack"
+	location
+		attributes "outfitter"
+	stock
+		"Railgun Slug"
+
+
+outfit "Hai Tracker"
+	category "Ammunition"
+	series "Ammunition"
+	index 02010
+	cost 1000
+	thumbnail "outfit/hai tracker"
+	"mass" .2
+	"tracker capacity" -1
+	description "To jest amunicja do modułu Tracker Pod."
+
+outfit "Tracker Storage Pod"
+	category "Ammunition"
+	series "Ammunition"
+	index 02011
+	cost 28000
+	thumbnail "outfit/hai tracker storage"
+	"mass" 4.4
+	"outfit space" -10
+	"tracker capacity" 28
+	ammo "Hai Tracker"
+	description "Kabina magazynowa Tracker Storage Pod służy do przechowywania dodatkowej amunicji do kapsuł Tracker."
+
+outfit "Hai Tracker Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02010
+	cost 150000
+	thumbnail "outfit/hai tracker pod"
+	"mass" 8
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	"tracker capacity" 56
+	weapon
+		sprite "projectile/tracker"
+			"frame rate" 10
+			"random start frame"
+		sound "tracker"
+		ammo "Hai Tracker"
+		icon "icon/tracker"
+		"fire effect" "tracker fire"
+		"hit effect" "tracker impact"
+		"hit effect" "tracker cloud" 3
+		"die effect" "tracker impact"
+		"inaccuracy" 20
+		"velocity" 14
+		"lifetime" 475
+		"reload" 60
+		"firing energy" 45
+		"firing heat" 5
+		"acceleration" .7
+		"drag" .05
+		"turn" 1.2
+		"homing"
+			"leading"
+			"throttle control"
+		"optical tracking" .8
+		"infrared tracking" .4
+		"shield damage" 200
+		"hull damage" 160
+		"hit force" 525
+		"missile strength" 16
+	description "Trackery to szybka i celna broń samonaprowadzająca. Choć nie są tak potężne jak większość pocisków wystrzeliwanych przez ludzi, charakteryzują się znaczną siłą rażenia, co pomaga zapobiec ucieczce każdego, kto ma pecha znaleźć się po ich stronie. Ich jedyną słabością jest duży promień skrętu: jeśli Tracker chybi celu, zawrócenie zajmuje dużo czasu."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "tracker fire"
+	sprite "effect/tracker fire"
+		"no repeat"
+		"frame rate" 8
+	"lifetime" 45
+	"random angle" 5
+	"random spin" 4
+	"random velocity" 10
+
+effect "tracker impact"
+	sprite "effect/tracker impact"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion medium"
+	"lifetime" 16
+	"random angle" 360
+	"random spin" 10
+	"random velocity" .2
+	"velocity scale" -.05
+
+effect "tracker cloud"
+	sprite "effect/tracker cloud"
+		"no repeat"
+		"frame rate" 5
+	"lifetime" 72
+	"random angle" 360
+	"random spin" 8
+	"random velocity" 1
+	"random frame rate" 2
+	"velocity scale" -.1
+
+outfitter "Hai Tracker Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Hai Tracker Pod"
+			has "outfit: Tracker Storage Pod"
+	location
+		attributes "outfitter"
+	stock
+		"Hai Tracker"
+
+
+outfit "Bullfrog Anti-Missile"
+	category "Turrets"
+	series "Anti-Missile"
+	index 02010
+	cost 55000
+	thumbnail "outfit/anti-missile hai"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile hai"
+		"hardpoint offset" 3.
+		"hit effect" "small anti-missile"
+		"anti-missile" 12
+		"velocity" 150
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 12
+		"firing heat" 5
+		"stream"
+	description "Wiek temu Hai walczyli bardziej prymitywnymi wersjami Trackera i to właśnie on stanowił ich główną obronę. Pomimo przestarzałej konstrukcji, wciąż jest skuteczny przeciwko niewielkiej liczbie ich najnowszych pocisków rakietowych."
+
+
+outfit "Chameleon Anti-Missile"
+	category "Turrets"
+	series "Anti-Missile"
+	index 02020
+	cost 140000
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "large anti-missile"
+		"anti-missile" 16
+		"velocity" 200
+		"lifetime" 1
+		"reload" 15
+		"firing energy" 23
+		"firing heat" 6
+		"stream"
+	description "Wieżyczka przeciwrakietowa Chameleon ma większy zasięg, większą moc i krótszy czas przeładowania niż Bullfrog."
+
+
+
+outfit "Hai Cuttlefish Jammer"
+	category "Systems"
+	series "Jammers"
+	index 02010
+	cost 260000
+	thumbnail "outfit/hai jammer"
+	"mass" 10
+	"outfit space" -7
+	"optical jamming" 15
+	"energy consumption" .8
+	description "Kiedy Hai po raz pierwszy zaczęli ze sobą walczyć, potrzeba przeciwdziałania Trackerom szybko stała się oczywista. Zagłuszacz Cuttlefish może wyraźnie zakłócić namierzanie statku przez Trackera, przedstawiając mu pozornie lepszy, choć iluzoryczny, cel. Ten zagłuszacz jest najskuteczniejszy na większych statkach, które nie są w stanie wystawić wystarczającej liczby pocisków przeciwrakietowych, aby skutecznie przeciwdziałać pociskom ze wszystkich kierunków."
+
+outfit "Hai Octopus Jammer"
+	category "Systems"
+	series "Jammers"
+	index 02020
+	cost 350000
+	thumbnail "outfit/hai jammer overclocked"
+	"mass" 10
+	"outfit space" -7
+	"optical jamming" 20
+	"energy consumption" 1.2
+	description "Zagłuszacz Octopus to bardziej agresywna adaptacja Zagłuszacza Cuttlefish, przeznaczona do krótkich rajdów Nieskrępowanych. Dzięki ominięciu kilku obwodów bezpieczeństwa jest w stanie skuteczniej oszukiwać nadlatujących Trackerów, ale znacznie wyższy koszt energii sprawia, że każdy statek z nim na pokładzie jest jeszcze bardziej podatny na broń jonową."
+
+
+outfit "Hai Corundum Regenerator"
+	category "Systems"
+	series "Shields"
+	index 02010
+	cost 300000
+	thumbnail "outfit/small regenerator hai"
+	"mass" 16
+	"outfit space" -16
+	"shield generation" .7
+	"shield energy" .7
+	"energy consumption" .3
+	"shield heat" 3
+	description "Regeneratory tarcz Hai działają poprzez subtelną modyfikację geometrii i harmonicznych matrycy tarczy, aby uczynić ją bardziej plastyczną, a tym samym znacznie łatwiejszą do naładowania. Niestety, system ten wymaga stałego źródła zasilania i generuje sporo ciepła podczas regeneracji."
+
+outfit "Hai Diamond Regenerator"
+	category "Systems"
+	series "Shields"
+	index 02020
+	cost 1150000
+	thumbnail "outfit/large regenerator hai"
+	"mass" 49
+	"outfit space" -49
+	"shield generation" 2.5
+	"shield energy" 2.5
+	"shield heat" 9
+	"energy consumption" .9
+	description "Regenerator Hai Diamond Shield to zaawansowana technologia ładowania tarcz. Niestety, jego zapotrzebowanie na energię jest dość wysokie, a zmiany, jakie wprowadza do matrycy tarcz, powodują intensywne nagrzewanie się regeneratora podczas ładowania tarcz. Hai zazwyczaj korzystają z chłodzenia Williwaw podczas korzystania z tego regeneratora."
+
+outfit "Hai Williwaw Cooling"
+	category "Systems"
+	series "Cooling"
+	index 02010
+	cost 15000
+	thumbnail "outfit/hai williwaw"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 11
+	description "Chociaż technologia Hai jest dość energooszczędna, czasami wyposażają swoje statki w taki sposób, że sporadycznie się przegrzewają i wyłączają. W takim przypadku instalują te urządzenia."
+
+outfit "Quantum Keystone"
+	series "Drives"
+	index 50
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/keystone"
+	"mass" 0.1
+	"outfit space" -1
+	"quantum keystone" 1
+	description "Ten kawałek skały z gór na ojczystej planecie Hai to najwyraźniej nic więcej niż amulet przynoszący szczęście, ale Hai ozdabiali nim swoje statki od czasów świetności swojego imperium. Bardziej przesądni Hai twierdzą, że kamienie te w jakiś sposób łagodzą nudności wywołane skokami w nadprzestrzeń, ułatwiając podróż między systemami gwiezdnymi, a wielu bogatych Hai odmawia rezerwacji podróży statkiem bez niego."
+	description "	Ten kamień węgielny jest dostarczany w opakowaniu z holograficznym certyfikatem autentyczności potwierdzającym jego pochodzenie z Hai-home, ozdobną, ale solidną ramą oraz małą tabliczką z wytłoczonym logo kamienia węgielnego i numerem sprzedaży. Zgodnie z instrukcją na opakowaniu, oprawiony certyfikat należy umieścić w widocznym miejscu w pobliżu głównej śluzy powietrznej lub ogólnodostępnego obszaru."
+
+outfit "Value Detector"
+	category "Systems"
+	series "Scanners"
+	index 02010
+	cost 260000
+	thumbnail "outfit/value detector"
+	"mass" 5
+	"outfit space" -5
+	"cargo scan power" 75
+	"cargo scan efficiency" 10
+	"tactical scan power" 35
+	"heat generation" 2
+	description "The Unfettered opracowali ten skaner, aby określić, które statki warto splądrować, a które nie są w stanie przeciwstawić się ich broni jonowej. Niektórzy Hai uważają go za dość prymitywny, ale wystarcza do identyfikacji ładunku na statku z daleka i dostarczenia bardziej szczegółowych informacji o stanie taktycznym wrogich jednostek. Ta podwójna funkcja jest przydatna podczas eksperymentalnego uzbrojenia."
+
+outfit "Hai Chasm Batteries"
+	plural "Hai Chasm Batteries"
+	category "Power"
+	series "Batteries"
+	index 02010
+	cost 7000
+	thumbnail "outfit/tiny battery hai"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 2164
+	description "Technologia magazynowania energii Hai ma tysiące lat, ale jest niezwykle prosta i solidna. To najmniejszy akumulator Hai."
+
+outfit "Hai Fissure Batteries"
+	plural "Hai Fissure Batteries"
+	category "Power"
+	series "Batteries"
+	index 02020
+	cost 11000
+	thumbnail "outfit/small battery hai"
+	"mass" 15
+	"outfit space" -15
+	"energy capacity" 6836
+	description "Ten zestaw baterii ma ponad trzykrotnie większą pojemność energetyczną niż baterie Hai Chasm, co pozwala ich statkom na walkę przez dłuższy czas, zanim wyczerpie się energia."
+
+outfit "Hai Gorge Batteries"
+	plural "Hai Gorge Batteries"
+	category "Power"
+	series "Batteries"
+	index 02030
+	cost 25000
+	thumbnail "outfit/medium battery hai"
+	"mass" 30
+	"outfit space" -30
+	"energy capacity" 15044
+	description "Ten średniej wielkości zestaw akumulatorów idealnie zaspokaja większość potrzeb Hai w zakresie zasilania, umożliwiając prowadzenie średniodługich walk, ale może być również używany do ograniczania emisji ciepła przez statek przy użyciu małego generatora prądu i dużych silników."
+
+outfit "Hai Ravine Batteries"
+	plural "Hai Ravine Batteries"
+	category "Power"
+	series "Batteries"
+	index 02040
+	cost 47000
+	thumbnail "outfit/large battery hai"
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 27350
+	description "Ten duży zestaw akumulatorów charakteryzuje się większą gęstością energii niż mniejsze modele i pomaga utrzymać statki w walce pomimo kilku trafień z dział jonowych."
+
+outfit "Hai Valley Batteries"
+	plural "Hai Valley Batteries"
+	category "Power"
+	series "Batteries"
+	index 02050
+	cost 74000
+	thumbnail "outfit/huge battery hai"
+	"mass" 70
+	"outfit space" -70
+	"energy capacity" 42222
+	description "Chociaż większość statków Hai nie korzysta z największego modelu baterii, kilka bardzo potężnych okrętów wojennych jest okazjonalnie wyposażonych w taki model, co pozwala im zachować niską emisję ciepła i przetrwać dłużej w walce z przeciwnikami wyposażonymi w działa jonowe."
+
+
+outfit "Boulder Reactor"
+	category "Power"
+	series "Generators"
+	index 02040
+	cost 5750000
+	thumbnail "outfit/hai boulder"
+	"mass" 90
+	"outfit space" -90
+	"energy generation" 17.3
+	"heat generation" 34
+	description "Hai zaprojektowali te zminiaturyzowane generatory fuzyjne, gdy ich terytorium było najeżdżane przez Korathów. W tych względnie spokojnych czasach nie widzieli potrzeby modernizacji projektu."
+
+outfit "Geode Reactor"
+	category "Power"
+	series "Generators"
+	index 02030
+	cost 1750000
+	thumbnail "outfit/hai geode"
+	"mass" 58
+	"outfit space" -58
+	"energy generation" 8.9
+	"heat generation" 21.2
+	description "Reaktory rozszczepienia są uważane za technologię podstawową wśród gatunków międzygwiezdnych. Niemniej jednak, pozostaje to sprawdzona i bezpieczna technologia, z której nawet Hai korzystają dość regularnie."
+
+outfit "Pebble Core"
+	category "Power"
+	series "Generators"
+	index 02020
+	cost 1050000
+	thumbnail "outfit/hai pebble core"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 4.5
+	"heat generation" 11.9
+	description "Pebble Core to zminiaturyzowany reaktor jądrowy, na tyle mały, że można go zainstalować na każdym statku większym niż myśliwiec. Hai opracowali ten model dla swoich mniejszych statków."
+
+outfit "Sand Cell"
+	category "Power"
+	series "Generators"
+	index 02010
+	cost 45000
+	thumbnail "outfit/fuel cell hai"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 1.65
+	"heat generation" 2.45
+	description "Sand Cell to najmniejszy generator Hai. Został zaprojektowany dla statków, które nie potrzebują lub nie mogą przenosić reaktora jądrowego i wyraźnie przypomina ludzkie ogniwa paliwowe."
+
+
+outfit `"Baellie" Atomic Engines`
+	plural `"Baellie" Atomic Engines`
+	category "Engines"
+	series "Engines"
+	index 02010
+	"cost" 230000
+	thumbnail "outfit/tiny atomic engines hai"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 14.7
+	"thrusting energy" .87
+	"thrusting heat" 1.7
+	"turn" 366
+	"turning energy" .64
+	"turning heat" 1.28
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+		"scale" 0.8
+	"flare sound" "atomic tiny"
+	"steering flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+		"scale" 0.8
+	"steering flare sound" "atomic tiny"
+	description `Kiedy Hai projektowali Fleę, szybko stało się oczywiste, że nawet zestaw silników "Basrem" był zbyt duży do tego celu. W rezultacie powstał zestaw sterowania pędnikami: "Baellie."`
+
+outfit `"Basrem" Atomic Thruster`
+	category "Engines"
+	series "Engines"
+	index 02021
+	"cost" 150000
+	thumbnail "outfit/tiny atomic thruster hai"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 22.83
+	"thrusting energy" 1.4
+	"thrusting heat" 2.8
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+		"scale" 0.8
+	"flare sound" "atomic tiny"
+	description "Naukowcy z Głębin nie wiedzą, że Hai używają technologii silników atomowych od tysiącleci. Silniki atomowe Hai wciąż zużywają znacznie więcej energii niż inne, ale wykazują większą wydajność niż ich ludzkie odpowiedniki."
+
+outfit `"Benga" Atomic Thruster`
+	category "Engines"
+	series "Engines"
+	index 02031
+	"cost" 300000
+	thumbnail "outfit/small atomic thruster hai"
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
+	"thrust" 37.725
+	"thrusting energy" 2.5
+	"thrusting heat" 4.8
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+	description "W przeciwieństwie do przestrzeni kosmicznej, gdzie silniki atomowe są rzadkością i luksusem, lata ograniczenia do stosunkowo małego obszaru Galaktyki pozwoliły na wyposażenie wszystkich statków Hai w silniki atomowe."
+
+outfit `"Biroo" Atomic Thruster`
+	category "Engines"
+	series "Engines"
+	index 02041
+	"cost" 610000
+	thumbnail "outfit/medium atomic thruster hai"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"thrust" 62.475
+	"thrusting energy" 4
+	"thrusting heat" 8.2
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"flare sound" "atomic small"
+	description "Ten pędnik jest standardowym pędnikiem na większości lekkich okrętów wojennych Hai, zapewniającym wystarczający ciąg, by nadawały się do użycia w walce, jednak nie jest na tyle duży, by nadawał się do tak dużego okrętu jak Hai Shield Beetle."
+
+outfit `"Bondir" Atomic Thruster`
+	category "Engines"
+	series "Engines"
+	index 02051
+	"cost" 1100000
+	thumbnail "outfit/large atomic thruster hai"
+	"mass" 63
+	"outfit space" -63
+	"engine capacity" -63
+	"thrust" 94.2
+	"thrusting energy" 6.1
+	"thrusting heat" 12.7
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 12
+	"flare sound" "atomic medium"
+	description "Podczas gdy Deep Sky był zajęty rozwijaniem bojowych silników atomowych, Hai pracowali nad udoskonaleniem swoich. Dzięki temu silniki atomowe Hai są bardzo wydajne w porównaniu z ich ludzkimi odpowiednikami, wymagając mniej energii do uruchomienia i wytwarzając mniej ciepła."
+
+outfit `"Bufaer" Atomic Thruster`
+	category "Engines"
+	series "Engines"
+	index 02061
+	"cost" 2400000
+	thumbnail "outfit/huge atomic thruster hai"
+	"mass" 104
+	"outfit space" -104
+	"engine capacity" -104
+	"thrust" 163.275
+	"thrusting energy" 10.4
+	"thrusting heat" 22.6
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 11
+	"flare sound" "atomic large"
+	description "Te silniki to największe silniki atomowe Hai i jedne z najpotężniejszych w znanej przestrzeni kosmicznej. Wygrywają tylko z największymi silnikami atomowymi napędzanymi przez człowieka, te potężne silniki zapewniają wystarczającą siłę ciągu, by poruszać nawet największymi statkami, niczym myśliwcami."
+
+outfit `"Basrem" Reverse Thruster`
+	category "Engines"
+	series "Engines"
+	index 02022
+	"cost" 150000
+	thumbnail "outfit/tiny atomic reverse hai"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"reverse thrust" 22.83
+	"reverse thrusting energy" 1.4
+	"reverse thrusting heat" 2.8
+	"reverse flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+		"scale" 0.8
+	"reverse flare sound" "atomic tiny"
+	description `Malutkie silniki odrzutowe "Basrem" zapewniają nawet najmniejszym statkom Hai dodatkową manewrowość wykraczającą poza normalne sterowanie. Wielu młodych Hai uważa je za nieocenioną inwestycję, gdy po raz pierwszy wyruszają w samodzielną podróż.`
+
+outfit `"Benga" Reverse Thruster`
+	category "Engines"
+	series "Engines"
+	index 02032
+	"cost" 300000
+	thumbnail "outfit/small atomic reverse hai"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"reverse thrust" 37.725
+	"reverse thrusting energy" 2.5
+	"reverse thrusting heat" 4.8
+	"reverse flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"reverse flare sound" "atomic tiny"
+	description "Wielu pilotów frachtowców Hai uważało, że są one warte swojej wysokiej ceny i dlatego instaluje takie silniki odrzutowe, aby poprawić sterowanie większymi statkami Hai, które często jest utrudnione."
+
+outfit `"Biroo" Reverse Thruster`
+	category "Engines"
+	series "Engines"
+	index 02042
+	"cost" 610000
+	thumbnail "outfit/medium atomic reverse hai"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"reverse thrust" 62.475
+	"reverse thrusting energy" 4
+	"reverse thrusting heat" 8.2
+	"reverse flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"reverse flare sound" "atomic small"
+	description "Piloci zazwyczaj wolą skupić się na sterowaniu, gdy potrzebna jest rzeczywista zwrotność, dlatego są to największe silniki odrzutowe oferowane przez Hai. Mimo to, jak na swój rozmiar, charakteryzują się imponującą mocą, co pozwala nawet największym statkom Hai na szybkie zatrzymanie się w razie potrzeby."
+
+outfit `"Basrem" Atomic Steering`
+	category "Engines"
+	series "Engines"
+	index 02020
+	"cost" 120000
+	thumbnail "outfit/tiny atomic steering hai"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 451.5
+	"turning energy" .7
+	"turning heat" 1.5
+	"steering flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+		"scale" 0.8
+	"steering flare sound" "atomic tiny"
+	description "Silniki atomowe są zbyt drogie dla większości ludzi. Wszystkie, poza najmniejszymi, są warte więcej niż większość najpopularniejszych statków kosmicznych."
+
+outfit `"Benga" Atomic Steering`
+	category "Engines"
+	series "Engines"
+	index 02030
+	"cost" 250000
+	thumbnail "outfit/small atomic steering hai"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 844.5
+	"turning energy" 1.1
+	"turning heat" 2.85
+	"steering flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"steering flare sound" "atomic tiny"
+	description "Silniki atomowe Hai pozwalają na budowę jednych z najbardziej konfigurowalnych statków w znanej przestrzeni kosmicznej ze względu na swój rozmiar i wydajność. Nieliczni ludzie, którzy są w stanie zaoszczędzić wystarczająco dużo pieniędzy, aby kupić zestaw silników Hai, zazwyczaj zadziwiają innych w przestrzeni kosmicznej wydajnością swojego statku."
+
+outfit `"Biroo" Atomic Steering`
+	category "Engines"
+	series "Engines"
+	index 02040
+	"cost" 530000
+	thumbnail "outfit/medium atomic steering hai"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"turn" 1542
+	"turning energy" 2.0
+	"turning heat" 5.1
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"steering flare sound" "atomic small"
+	description "Posiadanie tak potężnych silników to miecz obosieczny dla Hai, ponieważ Nieskrępowani Hai również posiadają te potężne cuda. Silniki te pozwalają większości statków Hai obracać się z niesamowitą prędkością, co czyni je niezwykle śmiercionośnymi w walce."
+
+outfit `"Bondir" Atomic Steering`
+	category "Engines"
+	series "Engines"
+	index 02050
+	"cost" 950000
+	thumbnail "outfit/large atomic steering hai"
+	"mass" 49
+	"outfit space" -49
+	"engine capacity" -49
+	"turn" 2571
+	"turning energy" 3.2
+	"turning heat" 8.2
+	"steering flare sprite" "effect/atomic flare/medium"
+		"frame rate" 12
+	"steering flare sound" "atomic medium"
+	description "Zarezerwowane do specjalnego użytku tylko na niewielkiej liczbie statków Hai, te silniki atomowe są jednym z najdroższych, jakie można kupić. Znacznie bardziej wydajne niż jakikolwiek inny silnik tej samej wielkości, silniki atomowe Hai to idealny wybór dla każdego, kto potrzebuje dużej prędkości obrotowej."
+
+outfit `"Bufaer" Atomic Steering`
+	category "Engines"
+	series "Engines"
+	index 02060
+	"cost" 2100000
+	thumbnail "outfit/huge atomic steering hai"
+	"mass" 76
+	"outfit space" -76
+	"engine capacity" -76
+	"turn" 4450.5
+	"turning energy" 5.2
+	"turning heat" 13.8
+	"steering flare sprite" "effect/atomic flare/large"
+		"frame rate" 11
+	"steering flare sound" "atomic large"
+	description "Dziewięciu na dziesięciu kapitanów, z którymi przeprowadzono wywiad w kosmosie Hai, twierdzi, że wybraliby silniki atomowe Hai zamiast silników Deep Sky... oczywiście, gdyby było ich stać na tak drogie silniki."
+
+
+outfit "Pulse Rifle"
+	category "Hand to Hand"
+	series "H2H"
+	index 02010
+	cost 11000
+	thumbnail "outfit/hai rifle"
+	"capture attack" .7
+	"capture defense" 1.0
+	"unplunderable" 1
+	description "Karabin pulsacyjny został pierwotnie opracowany przez Hai, aby pomóc w ochronie ich statków przed abordażami podczas najazdów na Korath. Chociaż od tego czasu został on zaadaptowany do skuteczniejszego obezwładniania celu, jeśli kilka bełtów trafi w krótkim odstępie czasu, zgromadzony ładunek ma śmiertelny wpływ na układ nerwowy większości gatunków."
+
+
+outfit "Shield Beetle Pendant"
+	category "Unique"
+	series "Functional Unique"
+	index 30
+	thumbnail "outfit/crystal pendant"
+	"quantum keystone" 1
+	"unique" 1
+	description "Wisiorek wykonany z tych samych kryształów, które znaleziono na ojczystej planecie Hai, ukształtowany na wzór tarczownika. Dar od Nanachi."
+	description "	Do lampy dołączona jest starannie wykonana, podświetlana obudowa, dzięki czemu można ją montować i eksponować z dumą. Trzy uchwyty montażowe - miniatury tych stosowanych w oprawach Quantum Keystones - zapewniają bezpieczne zamocowanie i bezpieczeństwo lampy."
+
+
+outfit "Failed Control System"
+	category "Systems"
+	series "Special Systems"
+	index 02010
+	cost 0
+	thumbnail "outfit/control transceiver"
+	"mass" 1
+	"unplunderable" 1
+	"integrated control systems" 1
+	description "Miało to służyć do sterowania jakimś systemem eksperymentalnym, ale najwyraźniej zawiodło. Niestety, nie wydaje się, aby dało się go bezpiecznie usunąć."

@@ -128,12 +128,12 @@ mission "Pirate Occupation [2]"
 		dialog phrase "generic pirate attack payment dialog"
 
 conversation "pirate occupation"
-	`<CN-7909>`
+	`Suddenly you hear raised voices and shouting outside as pilots run for their ships: "<destination> is being occupied by a pirate fleet! They are requesting help from any combat-worthy ship that can get there by <date> to join the defenses!" The authorities of <planet> will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
 	choice
-		`<CN-20>`
+		`	(Don't join the fight.)`
 			decline
-		`<CN-21>`
-	`<CN-7910>`
+		`	(Join the defense fleet.)`
+	`A few militia pilots have gathered to help repel the pirate attack. You join them, and prepare your ship for the upcoming battle...`
 		accept
 
 

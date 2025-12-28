@@ -783,7 +783,7 @@ outfitter "Nettle Restock"
 	location
 		attributes "outfitter"
 	stock
-		`<CN-8422>`
+		`"Nettle" KKV`
 
 
 outfit `"Orchid" Nuclear Missile`

@@ -1,0 +1,907 @@
+# Copyright (c) 2016 by Michael Zahniser
+# Copyright (c) 2022 by Lia Gerty, EjoThims, Saugia, and Zitchas
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Generator (Candle Class)"
+	plural "Generators (Candle Class)"
+	category "Power"
+	series "Generators"
+	index 04010
+	cost 493000
+	thumbnail "outfit/small korath generator"
+	"mass" 23
+	"outfit space" -23
+	"energy generation" 3.1
+	"heat generation" 7.0
+	description "Ten niewielki generator wytwarza znaczną ilość energii, wykorzystując ciepło powstające w wyniku rozpadu promieniotwórczego niektórych wyjątkowo niestabilnych izotopów jądrowych."
+
+outfit "Generator (Furnace Class)"
+	plural "Generators (Furnace Class)"
+	category "Power"
+	series "Generators"
+	index 04020
+	cost 925000
+	thumbnail "outfit/medium korath generator"
+	"mass" 39
+	"outfit space" -39
+	"energy generation" 5.5
+	"heat generation" 13.0
+	description "Ponieważ sprzęt Korath jest tak energochłonny, używają oni generatorów radiotermicznych nawet w swoich myśliwcach i przechwytywaczach, zamiast polegać na ogniwach paliwowych lub innej porównywalnej technologii."
+
+outfit "Generator (Inferno Class)"
+	plural "Generators (Inferno Class)"
+	category "Power"
+	series "Generators"
+	index 04030
+	cost 1877000
+	thumbnail "outfit/large korath generator"
+	"mass" 71
+	"outfit space" -71
+	"energy generation" 10.4
+	"heat generation" 27.0
+	description "Z typowym dla siebie lekceważeniem wpływu swojej technologii na środowisko, Korathowie umieścili w tym generatorze radiotermicznym kilka dość niepokojących izotopów. Jego znaczna moc wyjściowa jest równoważona przez wytwarzane przez niego ciepło."
+
+outfit "Plasma Core"
+	category "Power"
+	series "Generators"
+	index 04040
+	cost 4188000
+	thumbnail "outfit/plasma core"
+	"mass" 54
+	"outfit space" -54
+	"energy generation" 11.9
+	"heat generation" 36.0
+	description "Ten kompaktowy reaktor fuzyjny jest starożytną konstrukcją Korathów i stanowił podstawę ich flot wojennych, dopóki większe statki i potężniejsza broń nie stworzyły potrzeby budowy większych i potężniejszych generatorów."
+
+outfit "Double Plasma Core"
+	category "Power"
+	series "Generators"
+	index 04050
+	cost 9321000
+	thumbnail "outfit/double plasma core"
+	"mass" 93
+	"outfit space" -93
+	"energy generation" 22.0
+	"heat generation" 72.0
+	description "Ten rdzeń reaktora łączy w sobie parę starych i wytrzymałych rdzeni plazmowych Korath w jednym pakiecie."
+
+outfit "Triple Plasma Core"
+	category "Power"
+	series "Generators"
+	index 04060
+	cost 20460000
+	thumbnail "outfit/triple plasma core"
+	"mass" 169
+	"outfit space" -169
+	"energy generation" 43.6
+	"heat generation" 154.0
+	description "Na największym ze swoich okrętów flagowych Korath zaprojektował reaktor fuzyjny o wiele potężniejszy od jakiejkolwiek porównywalnej technologii stworzonej przez człowieka."
+
+
+
+outfit "Small Heat Shunt"
+	category "Systems"
+	series "Cooling"
+	index 04010
+	cost 180000
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 13.5
+	description "Zdecydowana nieefektywność większości urządzeń Korath zmusiła ich do stania się wyjątkowo dobrymi w jednej dziedzinie: radzeniu sobie z dużymi ilościami ciepła odpadowego."
+
+outfit "Large Heat Shunt"
+	category "Systems"
+	series "Cooling"
+	index 04020
+	cost 790000
+	thumbnail "outfit/large heat shunt"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 54
+	description "Bez tych wydajnych systemów chłodzenia większość okrętów wojennych Korath przegrzewałaby się w ciągu kilku sekund od rozpoczęcia ostrzału."
+
+outfit "Liquid Sodium Cooler"
+	category "Systems"
+	series "Cooling"
+	index 04030
+	cost 1660000
+	thumbnail "outfit/liquid sodium"
+	"mass" 34
+	"outfit space" -34
+	"active cooling" 116
+	"cooling energy" 5.2
+	"energy consumption" 2.4
+	"heat capacity" 680
+	description "Ten aktywny system chłodzenia wykorzystuje pętlę chłodzenia ciekłym sodem do odprowadzania ciepła z najgorętszych układów statku. System pomocniczy pobiera umiarkowaną ilość energii, aby stale zasilać pompę i utrzymywać minimalną temperaturę, zapobiegając zamarzaniu sodu, gdy system jest nieaktywny."
+
+
+outfit "Systems Core (Tiny)"
+	plural "Systems Cores (Tiny)"
+	category "Systems"
+	series "Shields"
+	index 04010
+	cost 621000
+	thumbnail "outfit/tiny systems core"
+	"mass" 17
+	"outfit space" -17
+	"energy capacity" 1300
+	"shield generation" 0.8
+	"shield energy" 1.2
+	"hull repair rate" 0.1
+	"hull energy" 0.1
+	"hull heat" 0.15
+	description `Większość pilotów myśliwców Korath rezygnuje z rdzeni systemowych, woląc korzystać z większych niż to konieczne generatorów i wracać do statku-matki w razie uszkodzenia. Zazwyczaj tylko cywilni operatorzy małych statków są skłonni poświęcić wystarczającą siłę ognia, aby zamontować ten generator osłony, kondensator, rój mikrobotów naprawczych i komputer sterujący nimi.`
+
+outfit "Systems Core (Small)"
+	plural "Systems Cores (Small)"
+	category "Systems"
+	series "Shields"
+	index 04020
+	cost 1452000
+	thumbnail "outfit/small systems core"
+	"mass" 31
+	"outfit space" -31
+	"energy capacity" 2600
+	"shield generation" 1.6
+	"shield energy" 2.4
+	"hull repair rate" 0.2
+	"hull energy" 0.2
+	"hull heat" 0.3
+	description `Sercem każdego statku Korath jest Rdzeń Systemowy, w którym mieści się centralny komputer statku, generatory osłon, rezerwowe źródło zasilania i mały zbiornik, w którym przechowywany, produkowany i przetwarzany jest niewielki rój mikrobotów, który może dokonywać drobnych napraw statku w trakcie lotu.`
+
+outfit "Systems Core (Medium)"
+	plural "Systems Cores (Medium)"
+	category "Systems"
+	series "Shields"
+	index 04030
+	cost 3630000
+	thumbnail "outfit/medium systems core"
+	"mass" 53
+	"outfit space" -53
+	"energy capacity" 5200
+	"shield generation" 3.1
+	"shield energy" 4.6
+	"hull repair rate" 0.4
+	"hull energy" 0.4
+	"hull heat" 0.6
+	description `Rdzeń Systemu mieści potężny komputer, generatory osłon, rezerwowe źródło zasilania oraz centrum sterowania dla mikrobotów naprawczych, które mogą poruszać się po zewnętrznej stronie statku i powoli naprawiać uszkodzenia kadłuba. Zbiornik mikrobotów jest w stanie pomieścić znaczną liczbę jednostek.`
+
+outfit "Systems Core (Large)"
+	plural "Systems Cores (Large)"
+	category "Systems"
+	series "Shields"
+	index 04040
+	cost 9075000
+	thumbnail "outfit/large systems core"
+	"mass" 91
+	"outfit space" -91
+	"energy capacity" 10400
+	"shield generation" 6.0
+	"shield energy" 8.8
+	"hull repair rate" 0.8
+	"hull energy" 0.8
+	"hull heat" 1.2
+	description `W tym olbrzymim zestawie komputerów, generatorów osłon, kondensatorów i zbiorników na mikroboty naprawcze znajduje się wszystko, co potrzebne, by utrzymać największe statki Korath w dobrym stanie technicznym.`
+
+
+outfit "Fuel Processor"
+	category "Systems"
+	series "Ramscoops"
+	index 04010
+	cost 400000
+	thumbnail "outfit/korath fuel processor"
+	"mass" 14
+	"outfit space" -14
+	"fuel capacity" 200
+	"ramscoop" 2
+	description "Procesor paliwa został opracowany w drugiej połowie wojny domowej w Korath, kiedy frakcje Korath próbowały zapewnić sobie wsparcie wojenne, najeżdżając Hai w poszukiwaniu zapasów. Ich statki często osiadały na mieliźnie, gdy zabrakło im paliwa i nie mogły uciec przed flotami wojskowymi Hai, co skłoniło do stworzenia tego hybrydowego urządzenia do magazynowania paliwa i chwytaka. Urządzenia te są obecnie głównym źródłem paliwa dla pozostałych Korathów w galaktyce."
+
+
+outfit "Command Center"
+	category "Systems"
+	series "Passenger"
+	index 50
+	cost 437000
+	thumbnail "outfit/command center"
+	"mass" 8
+	"outfit space" -24
+	"bunks" 1
+	"required crew" 1
+	"automaton" -1
+	unplunderable 1
+	description "W odpowiedzi na sporadyczne ataki robotycznych maszyn wojennych pozostawionych po niedawnym konflikcie, Kor Efret opracował to minimalistyczne, spartańskie Centrum Dowodzenia, które można zainstalować na zdobytym statku, aby umożliwić pilotowi sterowanie sztuczną inteligencją i interfejs z elementami sterowania. Centrum Dowodzenia zapewnia tylko jedną koję dla kapitana, więc więcej koi może być potrzebnych, jeśli statek ma wieżyczki lub inne systemy wymagające obecności załogi."
+
+outfit "Reasoning Node"
+	category "Systems"
+	series "Special Systems"
+	index 04010
+	cost "23000"
+	thumbnail "outfit/reasoning node"
+	"mass" 1
+	"outfit space" -1
+	description "To jakiś zaawansowany, miniaturowy komputer połączony z różnymi czujnikami i przekaźnikiem komunikacji nadprzestrzennej. Prawdopodobnie w jakiś sposób kontroluje automaty Mereti lub pozwala im łatwiej koordynować swoje działania."
+
+outfit "Control Transceiver"
+	category "Systems"
+	series "Special Systems"
+	index 04020
+	cost "7000"
+	thumbnail "outfit/control transceiver"
+	"mass" 1
+	"outfit space" -1
+	description "To zminiaturyzowane urządzenie komunikacyjne, które można podłączyć do wszystkich głównych systemów automatu Kor Sestor, najwyraźniej w celu zdalnego sterowania nimi. Komunikacja jest szyfrowana i uwierzytelniana w sposób, który praktycznie uniemożliwia podrabianie sygnałów sterujących."
+
+
+outfit "Afterburner (Asteroid Class)"
+	plural "Afterburners (Asteroid Class)"
+	category "Engines"
+	series "Afterburners"
+	index 04010
+	"cost" 136000
+	thumbnail "outfit/tiny korath afterburner"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -5
+	"fuel capacity" 100
+	"ramscoop" 0.25
+	"afterburner thrust" 20.6
+	"afterburner energy" 0.6
+	"afterburner heat" 6.25
+	"afterburner fuel" 0.075
+	"afterburner effect" "korath afterburner tiny"
+	description "Najmniejszy z dopalaczy jest zarówno procesorem paliwa, jak i dopalaczem. Pozwala operatorom małych statków Korath na wciśnięcie hipernapędu do statków wewnątrzukładowych i całkowite zrezygnowanie z konwencjonalnych silników odrzutowych."
+	description "	Dopalacze Korath pompują przegrzane paliwo nadprzestrzenne bezpośrednio do strumienia plazmy silnika, co powoduje potężną eksplozję, która może niemal stopić silnik."
+
+outfit "Afterburner (Comet Class)"
+	plural "Afterburners (Comet Class)"
+	category "Engines"
+	series "Afterburners"
+	index 04020
+	"cost" 299000
+	thumbnail "outfit/small korath afterburner"
+	"mass" 19
+	"outfit space" -19
+	"engine capacity" -19
+	"afterburner thrust" 84.3
+	"afterburner energy" 2.25
+	"afterburner heat" 22.75
+	"afterburner fuel" 0.25
+	"afterburner effect" "korath afterburner small"
+	description "Dodanie tych dopalaczy do przechwytywacza pozwala mu osiągnąć absurdalne prędkości; jednak wytwarzane ciepło sprawia, że ich używanie przez dłuższy czas będzie wymagało solidnego chłodzenia."
+	description "	Dopalacze Korath pompują przegrzane paliwo nadprzestrzenne bezpośrednio do strumienia plazmy silnika, co powoduje potężną eksplozję, która niemal topi silnik."
+
+outfit "Afterburner (Lunar Class)"
+	plural "Afterburners (Lunar Class)"
+	category "Engines"
+	series "Afterburners"
+	index 04030
+	"cost" 647000
+	thumbnail "outfit/medium korath afterburner"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"afterburner thrust" 148.5
+	"afterburner energy" 3.9
+	"afterburner heat" 41.65
+	"afterburner fuel" 0.45
+	"afterburner effect" "korath afterburner medium"
+	description "Mimo że dopalacze te wytwarzają niewiarygodnie dużą siłę ciągu w stosunku do zużycia paliwa, sama perspektywa ich zainstalowania budzi wiele obaw dotyczących bezpieczeństwa."
+	description "	Dopalacze Korath pompują przegrzane paliwo nadprzestrzenne bezpośrednio do strumienia plazmy silnika, co powoduje potężną eksplozję, która niemal topi silnik."
+
+outfit "Afterburner (Planetary Class)"
+	plural "Afterburners (Planetary Class)"
+	category "Engines"
+	series "Afterburners"
+	index 04040
+	"cost" 1459000
+	thumbnail "outfit/large korath afterburner"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"afterburner thrust" 265.5
+	"afterburner energy" 7.1
+	"afterburner heat" 79.45
+	"afterburner fuel" 0.8
+	"afterburner effect" "korath afterburner large"
+	"heat capacity" 150
+	description "Te ogromne dopalacze mają specjalne komory reakcyjne z otworami wentylacyjnymi, które zapobiegają zniszczeniu silnika przez wybuch plazmy paliwowej."
+	description "	Dopalacze Korath pompują przegrzane paliwo nadprzestrzenne bezpośrednio do strumienia plazmy silnika, co powoduje potężną eksplozję, która niemal topi silnik."
+
+outfit "Afterburner (Stellar Class)"
+	plural "Afterburners (Stellar Class)"
+	category "Engines"
+	series "Afterburners"
+	index 04060
+	"cost" 3280000
+	thumbnail "outfit/huge korath afterburner"
+	"mass" 94
+	"outfit space" -94
+	"engine capacity" -94
+	"afterburner thrust" 474.3
+	"afterburner energy" 12.65
+	"afterburner heat" 148
+	"afterburner fuel" 1.45
+	"afterburner effect" "korath afterburner huge"
+	"active cooling" 8
+	"cooling energy" 0.4
+	"heat capacity" 150
+	description "Największe dopalacze Korath posiadają zintegrowany aktywny system chłodzenia, zasilany wybuchem plazmy paliwowej, w celu zapobiegania stopieniu się komór reakcyjnych."
+	description "	Dopalacze Korath pompują przegrzane paliwo nadprzestrzenne bezpośrednio do strumienia plazmy silnika, co powoduje potężną eksplozję, która niemal topi silnik."
+
+effect "korath afterburner tiny"
+	sprite "effect/korath afterburner"
+		scale 0.8
+		"no repeat"
+		"frame rate" 90
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 7
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
+
+effect "korath afterburner small"
+	sprite "effect/korath afterburner"
+		"no repeat"
+		"frame rate" 60
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 10
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
+
+effect "korath afterburner medium"
+	sprite "effect/korath afterburner"
+		scale 1.2
+		"no repeat"
+		"frame rate" 45
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 12
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
+
+effect "korath afterburner large"
+	sprite "effect/korath afterburner"
+		scale 1.4
+		"no repeat"
+		"frame rate" 30
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 14
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
+
+effect "korath afterburner huge"
+	sprite "effect/korath afterburner"
+		scale 1.6
+		"no repeat"
+		"frame rate" 20
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 16
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
+
+
+outfit "Engine (Meteor Class)"
+	plural "Engines (Meteor Class)"
+	category "Engines"
+	series "Engines"
+	index 04010
+	"cost" 187000
+	thumbnail "outfit/tiny korath engine"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 15.75
+	"thrusting energy" 1.35
+	"thrusting heat" 2.9
+	"turn" 360
+	"turning energy" 0.65
+	"turning heat" 1.95
+	"flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"flare sound" "plasma tiny"
+	"steering flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"steering flare sound" "plasma tiny"
+	description `Chociaż dominującym podejściem Korathów do budowy silników zawsze było koncentrowanie się na tworzeniu maszyn większych, szybszych i potężniejszych, Wygnańcy uznali za konieczne opracowanie tych silników, aby umożliwić ich myśliwcom przenoszenie większej broni lub ładunku, kosztem pewnej prędkości.`
+
+outfit "Bow Drive (Meteor Class)"
+	plural "Bow Drives (Meteor Class)"
+	category "Engines"
+	series "Engines"
+	index 04011
+	"cost" 187000
+	thumbnail "outfit/korath bow drive"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -15
+	"weapon capacity" -3
+	"turn" 360
+	"turning energy" 0.65
+	"turning heat" 1.95
+	"reverse thrust" 15.75
+	"reverse thrusting energy" 1.35
+	"reverse thrusting heat" 2.9
+	"steering flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"reverse flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"reverse flare sound" "plasma tiny"
+	"steering flare sound" "plasma tiny"
+	description "Ta modyfikacja silników klasy Meteor działa jako rewers, umożliwiając pełny zakres mobilności małych statków w połączeniu z mocniejszymi silnikami podstawowymi."
+
+outfit "Reverser (Asteroid Class)"
+	plural "Reversers (Asteroid Class)"
+	category "Engines"
+	series "Engines"
+	index 04022
+	"cost" 113000
+	thumbnail "outfit/tiny korath reverser"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -7
+	"weapon capacity" -7
+	"reverse thrust" 20.76
+	"reverse thrusting energy" 1.5
+	"reverse thrusting heat" 3.4
+	"reverse flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"reverse flare sound" "plasma tiny"
+	description "Rewers klasy Asteroid zapewnia umiarkowaną ilość ciągu, dając kapitanom Korath, którzy mają miejsce na broń, niewielką przewagę w bitwie."
+	description "	Ten silnik Korath został zmodyfikowany tak, aby można go było częściowo zainstalować w przestrzeni uzbrojenia statku, co pozwala mu na poruszanie statku do tyłu."
+
+outfit "Reverser (Comet Class)"
+	plural "Reversers (Comet Class)"
+	category "Engines"
+	series "Engines"
+	index 04032
+	"cost" 249000
+	thumbnail "outfit/small korath reverser"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -12
+	"weapon capacity" -12
+	"reverse thrust" 37.53
+	"reverse thrusting energy" 2.8
+	"reverse thrusting heat" 6.5
+	"reverse flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"reverse flare sound" "plasma small"
+	description "Rewers klasy Comet nie cieszy się popularnością wśród kapitanów Korath, którzy uważają go za zbyt słaby w połączeniu z silnikami klasy Planetary, a jednocześnie jest zbyt duży, aby opłacało się poświęcać przestrzeń na broń."
+	description "	Ten silnik Korath został zmodyfikowany tak, aby można go było częściowo zainstalować w przestrzeni uzbrojenia statku, co pozwala mu na poruszanie statku do tyłu."
+
+outfit "Reverser (Lunar Class)"
+	plural "Reversers (Lunar Class)"
+	category "Engines"
+	series "Engines"
+	index 04042
+	"cost" 539000
+	thumbnail "outfit/medium korath reverser"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -20
+	"weapon capacity" -20
+	"reverse thrust" 66.195
+	"reverse thrusting energy" 4.9
+	"reverse thrusting heat" 11.9
+	"reverse flare sprite" "effect/korath flare/medium"
+		"frame rate" 7
+	"reverse flare sound" "plasma medium"
+	description "Silnik ten, przyćmiewający wszelkie odwracacze w przestrzeni kosmicznej, zapewnia znaczną ilość ciągu wstecznego dla średniej wielkości statków Korath, gdzie najczęściej jest spotykany."
+	description "	Ten silnik Korath został zmodyfikowany tak, aby można go było częściowo zainstalować w przestrzeni uzbrojenia statku, co pozwala mu na poruszanie statku do tyłu."
+
+outfit "Reverser (Planetary Class)"
+	plural "Reversers (Planetary Class)"
+	category "Engines"
+	series "Engines"
+	index 04052
+	"cost" 1216000
+	thumbnail "outfit/large korath reverser"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -34
+	"weapon capacity" -34
+	"reverse thrust" 120.0
+	"reverse thrusting energy" 8.9
+	"reverse thrusting heat" 22.7
+	"reverse flare sprite" "effect/korath flare/large"
+		"frame rate" 6.5
+	"reverse flare sound" "plasma large"
+	description "Będąc w zasadzie lekko zmodyfikowanym silnikiem klasy planetarnej, ten odwracacz zapewnia ogromną ilość ciągu wstecznego dla każdego statku zdolnego do jego zainstalowania."
+	description "	Ten silnik Korath został zmodyfikowany tak, aby można go było częściowo zainstalować w przestrzeni uzbrojenia statku, co pozwala mu na poruszanie statku do tyłu."
+
+outfit "Reverser (Stellar Class)"
+	plural "Reversers (Stellar Class)"
+	category "Engines"
+	series "Engines"
+	index 04062
+	"cost" 2733000
+	thumbnail "outfit/huge korath reverser"
+	"mass" 118
+	"outfit space" -118
+	"engine capacity" -59
+	"weapon capacity" -59
+	"reverse thrust" 224.1
+	"reverse thrusting energy" 15.8
+	"reverse thrusting heat" 42.6
+	"reverse flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"reverse flare sound" "plasma huge"
+	description "Rewers klasy Stellar, wzorowany na największych silnikach, zapewnia odwrotny ciąg, jakiego nigdy wcześniej nie widziałeś."
+	description "	Ten silnik Korath został zmodyfikowany tak, aby można go było częściowo zainstalować w przestrzeni uzbrojenia statku, co pozwala mu na poruszanie statku do tyłu."
+
+
+outfit "Thruster (Asteroid Class)"
+	plural "Thrusters (Asteroid Class)"
+	category "Engines"
+	series "Engines"
+	index 04021
+	"cost" 113000
+	thumbnail "outfit/tiny korath thruster"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 20.76
+	"thrusting energy" 1.5
+	"thrusting heat" 3.4
+	"flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"flare sound" "plasma tiny"
+	description "Biorąc pod uwagę jego rozmiar, ten maleńki silnik Korath generuje spory kop. Ale pobiera też sporą moc."
+
+outfit "Thruster (Comet Class)"
+	plural "Thrusters (Comet Class)"
+	category "Engines"
+	series "Engines"
+	index 04031
+	"cost" 249000
+	thumbnail "outfit/small korath thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 37.53
+	"thrusting energy" 2.8
+	"thrusting heat" 6.5
+	"flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"flare sound" "plasma small"
+	description "Podobnie jak w przypadku większości technologii Korath, moc tego silnika jest równoważona przez jego zapotrzebowanie na energię i emisję ciepła."
+
+outfit "Thruster (Lunar Class)"
+	plural "Thrusters (Lunar Class)"
+	category "Engines"
+	series "Engines"
+	index 04041
+	"cost" 539000
+	thumbnail "outfit/medium korath thruster"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 66.195
+	"thrusting energy" 4.9
+	"thrusting heat" 11.9
+	"flare sprite" "effect/korath flare/medium"
+		"frame rate" 7
+	"flare sound" "plasma medium"
+	description "Korathowie mają wątpliwą sławę polegającą na stosowaniu systemów napędowych, które wytwarzają więcej ciepła odpadowego niż systemy uzbrojenia większości innych gatunków."
+
+outfit "Thruster (Planetary Class)"
+	plural "Thrusters (Planetary Class)"
+	category "Engines"
+	series "Engines"
+	index 04051
+	"cost" 1216000
+	thumbnail "outfit/large korath thruster"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"thrust" 120.0
+	"thrusting energy" 8.9
+	"thrusting heat" 22.7
+	"flare sprite" "effect/korath flare/large"
+		"frame rate" 6.5
+	"flare sound" "plasma large"
+	description "Quargowie, którzy wszystko robią sprawnie, patrzą na systemy napędowe Korath ze szczególną niechęcią."
+
+outfit "Thruster (Stellar Class)"
+	plural "Thrusters (Stellar Class)"
+	category "Engines"
+	series "Engines"
+	index 04061
+	"cost" 2733000
+	thumbnail "outfit/huge korath thruster"
+	"mass" 118
+	"outfit space" -118
+	"engine capacity" -118
+	"thrust" 224.1
+	"thrusting energy" 15.8
+	"thrusting heat" 42.6
+	"flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"flare sound" "plasma huge"
+	description "Legenda wśród Korathów głosi, że podczas pierwszych testów najnowszej generacji silników plazmowych, zaniepokojona flota Quargów zgłosiła się na ochotnika do pomocy w ewakuacji załogi Korathów z czegoś, co uznali za umierający statek. Quargowie byli zaskoczeni, gdy dowiedzieli się, że płomienie buchające z rufy statku były w rzeczywistości jego zamierzonym sposobem napędu."
+
+outfit "Steering (Asteroid Class)"
+	plural "Steerings (Asteroid Class)"
+	category "Engines"
+	series "Engines"
+	index 04020
+	"cost" 95000
+	thumbnail "outfit/tiny korath steering"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 420.0
+	"turning energy" 0.7
+	"turning heat" 2.1
+	"steering flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"steering flare sound" "plasma tiny"
+	description "Korathowie używają tych systemów sterowania tylko na najmniejszych ze swoich statków."
+
+outfit "Steering (Comet Class)"
+	plural "Steerings (Comet Class)"
+	category "Engines"
+	series "Engines"
+	index 04030
+	"cost" 221000
+	thumbnail "outfit/small korath steering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 853.2
+	"turning energy" 1.4
+	"turning heat" 4.1
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "Ten kompaktowy układ kierowniczy jest klasycznym przykładem technologii Korath: mały, mocny i niezwykle nieefektywny."
+
+outfit "Steering (Lunar Class)"
+	plural "Steerings (Lunar Class)"
+	category "Engines"
+	series "Engines"
+	index 04040
+	"cost" 473000
+	thumbnail "outfit/medium korath steering"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 1584.0
+	"turning energy" 2.5
+	"turning heat" 7.4
+	"steering flare sprite" "effect/korath flare/medium"
+		"frame rate" 7
+	"steering flare sound" "plasma medium"
+	description "Silniki Korath można zamontować na praktycznie każdym statku, ale jeśli nie zostaną wyposażone w odpowiednie systemy chłodzenia Korath, ich moc cieplna będzie często przekraczać możliwości statku."
+
+outfit "Steering (Planetary Class)"
+	plural "Steerings (Planetary Class)"
+	category "Engines"
+	series "Engines"
+	index 04050
+	"cost" 1077000
+	thumbnail "outfit/large korath steering"
+	"mass" 52
+	"outfit space" -52
+	"engine capacity" -52
+	"turn" 3104.4
+	"turning energy" 4.6
+	"turning heat" 14.2
+	"steering flare sprite" "effect/korath flare/large"
+		"frame rate" 6.5
+	"steering flare sound" "plasma large"
+	description "Podczas gdy inne gatunki skupiają się na jak najefektywniejszej konwersji energii na ciąg, Korathowie dążą do upchnięcia jak największej mocy na jak najmniejszej powierzchni. Ten system sterowania jest klasycznym przykładem ich pracy."
+
+outfit "Steering (Stellar Class)"
+	plural "Steerings (Stellar Class)"
+	category "Engines"
+	series "Engines"
+	index 04060
+	"cost" 2435000
+	thumbnail "outfit/huge korath steering"
+	"mass" 89
+	"outfit space" -89
+	"engine capacity" -89
+	"turn" 6007.5
+	"turning energy" 8.2
+	"turning heat" 26.7
+	"steering flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"steering flare sound" "plasma huge"
+	description "Po tysiącleciach wojny Korathowie zbudowali naprawdę ogromne okręty wojenne. Te systemy sterowania zapewniają nawet ich największym okrętom znaczną zwinność w walce."
+
+outfit "Arkrof GP Hybrid Thruster"
+	category "Engines"
+	series "Engines"
+	index 04071
+	"cost" 165000
+	thumbnail "outfit/tiny efreti thruster"
+	"mass" 19
+	"outfit space" -19
+	"engine capacity" -19
+	"thrust" 28.95
+	"thrusting energy" 2.6
+	"thrusting heat" 3
+	"flare sprite" "effect/efreti flare/tiny"
+		"frame rate" 8
+	"flare sound" "ion tiny"
+	description "Inżynierowie Efreti zaczęli niechętnie czerpać inspirację od swoich nie do końca mile widzianych strażników Quarg. Wprowadzenie napędu grawitacyjnego zwiększa siłę ciągu silników w tej linii, kosztem jeszcze większego zużycia energii. Są to najmniejsze silniki grawitoplazmowe."
+
+outfit "Farves GP Hybrid Thruster"
+	category "Engines"
+	series "Engines"
+	index 04081
+	"cost" 405000
+	thumbnail "outfit/small efreti thruster"
+	"mass" 33
+	"outfit space" -33
+	"engine capacity" -33
+	"thrust" 53.1
+	"thrusting energy" 5.05
+	"thrusting heat" 5.9
+	"flare sprite" "effect/efreti flare/small"
+		"frame rate" 7.5
+	"flare sound" "ion small"
+	description "Przymusowe wycofanie się z badań nad technologią międzygwiezdnych napędów skokowych pozostawiło inżynierom Efreti niewiele do roboty poza napędem podświetlnym. Te silniki są jednym z ważnych przykładów tych wysiłków. Synteza napędu grawitacyjnego z bardziej tradycyjnymi silnikami plazmowymi ogranicza emisję ciepła z tych silników."
+
+outfit "Gaktem GP Hybrid Thruster"
+	category "Engines"
+	series "Engines"
+	index 04091
+	"cost" 883000
+	thumbnail "outfit/medium efreti thruster"
+	"mass" 57
+	"outfit space" -57
+	"engine capacity" -57
+	"thrust" 97.425
+	"thrusting energy" 9.1
+	"thrusting heat" 11.05
+	"flare sprite" "effect/efreti flare/medium"
+		"frame rate" 7
+	"flare sound" "ion medium"
+	description "Konstrukcja tych silników sugeruje, że fizycy Efreti posunęli się znacznie dalej niż matematycznie spójne, ale uparcie niefalsyfikowalne hipotezy teorii strun. Pomimo ograniczonych zasobów Efreti, silniki te pozwalają ich silnikom zachować tradycyjny nacisk Korath na prędkość w małej obudowie, jednocześnie ograniczając emisję ciepła."
+
+outfit "Nelmeb GP Hybrid Thruster"
+	category "Engines"
+	series "Engines"
+	index 04101
+	"cost" 1649000
+	thumbnail "outfit/large efreti thruster"
+	"mass" 86
+	"outfit space" -86
+	"engine capacity" -86
+	"thrust" 156.9
+	"thrusting energy" 14
+	"thrusting heat" 18
+	"flare sprite" "effect/efreti flare/large"
+		"frame rate" 6.5
+	"flare sound" "ion large"
+	description "Fizycy z Korath od kilku stuleci rozumieją konkretne aspekty jedności leżącej u podstaw zarówno grawitacji kwantowej, jak i sił wiążących kwarki i gluony. Jednakże, ponieważ prace Efreti są stosunkowo niedawne, ta synteza technologiczna pozostaje w tyle za porównywalną technologią Quarg."
+	description "	To największe silniki grawitoplazmowe, jakie Efreti mają do zaoferowania, i jako takie zazwyczaj można je znaleźć tylko na ich gigantycznych statkach cywilnych. Pomimo rozmiarów i mocy ciągu, Quargowie wciąż nie są pod wrażeniem nieefektywnej natury tej konstrukcji."
+
+outfit "Arkrof GP Hybrid Steering"
+	category "Engines"
+	series "Engines"
+	index 04070
+	"cost" 131000
+	thumbnail "outfit/tiny efreti steering"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 517.5
+	"turning energy" 1.25
+	"turning heat" 1.3
+	"steering flare sprite" "effect/efreti flare/tiny"
+		"frame rate" 8
+	"steering flare sound" "ion tiny"
+	description "W przeciwieństwie do większości silników Korath, silniki Efreti nie opierają się wyłącznie na plazmie. Silniki grawitoplazmowe łączą tradycyjny ciąg plazmowy Korath z inspirowanymi Quargami próbami napędu grawitacyjnego. Najmniejszy układ kierowniczy generuje duży moment obrotowy kosztem wyższych kosztów energii."
+
+outfit "Farves GP Hybrid Steering"
+	category "Engines"
+	series "Engines"
+	index 04080
+	"cost" 413000
+	thumbnail "outfit/small efreti steering"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"turn" 1200
+	"turning energy" 2.7
+	"turning heat" 2.95
+	"steering flare sprite" "effect/efreti flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "ion small"
+	description "Ważnym efektem nieustannych wysiłków inżynierów Efreti, aby pogłębić swoją wiedzę na temat fundamentalnej fizyki i sposobów jej praktycznego zastosowania, jest ten kompaktowy układ kierowniczy. Klasyczny przykład technologii Korath - jest mały, mocny i żałośnie nieefektywny. Wygląda na to, że wpływ Quargów na Efreti nie zmienił fundamentalnej filozofii projektowania zamieszkujących tu Korathów."
+
+
+outfit "Gaktem GP Hybrid Steering"
+	category "Engines"
+	series "Engines"
+	index 04090
+	"cost" 833000
+	thumbnail "outfit/medium efreti steering"
+	"mass" 42
+	"outfit space" -42
+	"engine capacity" -42
+	"turn" 2385
+	"turning energy" 4.9
+	"turning heat" 5.85
+	"steering flare sprite" "effect/efreti flare/medium"
+		"frame rate" 7
+	"steering flare sound" "ion medium"
+	description "W tych hybrydowych silnikach grawitoplazmowych naukowcy i inżynierowie Efreti zaczęli łączyć najnowsze, zunifikowane rozumienia grawitacji kwantowej z siłami jądrowymi."
+	description "	Jeśli nie będzie on wyposażony w systemy napędowe Korath, zużycie energii przez ten układ sterowania Efreti będzie często przekraczać możliwości statku. Ich główną zaletą w porównaniu z innymi silnikami Korath o tej samej wielkości jest zmniejszona emisja ciepła."
+
+outfit "Nelmeb GP Hybrid Steering"
+	category "Engines"
+	series "Engines"
+	index 04100
+	"cost" 1439000
+	thumbnail "outfit/large efreti steering"
+	"mass" 67
+	"outfit space" -67
+	"engine capacity" -67
+	"turn" 4200
+	"turning energy" 7.85
+	"turning heat" 10
+	"steering flare sprite" "effect/efreti flare/large"
+		"frame rate" 6.5
+	"steering flare sound" "ion large"
+	description "Pobudzeni silną wolą dalszego rozwoju i innowacji, pomimo konieczności porzucenia technologii napędu skokowego, inżynierowie Efreti zaczęli ostatnio wykorzystywać swoją wiedzę teoretyczną do włączania napędu grawitacyjnego do swoich tradycyjnych silników plazmowych opartych na fuzji jądrowej."
+	description "	Bardziej stabilne, niż można by oczekiwać po silnikach Korath tej wielkości, te stery strumieniowe zostały opracowane przez Efreti jako środek do sterowania ich najmasywniejszymi statkami. Ich wysokie zużycie energii jest łagodzone przez fakt, że zazwyczaj są zasilane przez najmasywniejsze reaktory fuzyjne Korath."
+
+outfit "Thermal Repeater Rifle"
+	category "Hand to Hand"
+	series "H2H"
+	index 04010
+	cost 53000
+	thumbnail "outfit/korath rifle"
+	"capture attack" 1.6
+	"capture defense" 2.4
+	"unplunderable" 1
+	description "Ten karabin jest powszechny wśród Korathów, wyprzedzając powstanie powtarzalnego termowizora okrętowego o co najmniej dwa stulecia. Ponieważ zamiast laserów wykorzystuje przegrzaną plazmę, karabin strzela powoli i może czasami poparzyć ręce użytkownika, jeśli ten nie zachowa ostrożności. Rekompensuje te niedogodności, gwarantując, że trafieni nie przeżyją wystarczająco długo, aby odpowiedzieć ogniem."
+
+outfit "Microbot Defense Station"
+	category "Hand to Hand"
+	series "Fortifications"
+	index 04010
+	cost 53000
+	thumbnail "outfit/microbot defense station"
+	mass 2
+	"outfit space" -3
+	"capture defense" 18
+	illegal 10000000
+	"energy consumption" 0.01
+	"heat generation" 0.1
+	unplunderable 1
+	description `Ta podstępna pułapka czyha na każdego, kto jest na tyle głupi, by spróbować przejąć statki-światy Korath. Intruzi zostają uwięzieni przed tą śluzą powietrzną, przed którą uwalniana jest chmura mikrobotów zaprogramowanych do rozkładania materii organicznej na nutrigel. Powstały żel spływa do zbiornika poniżej, a roboty są przywoływane.`
+	description `	Wiele ras uważa ten sposób obrony za odrażający. Powołując się na bolesną, dezorientującą śmierć doświadczaną przez ofiary, naruszenie tabu związanego z kanibalizmem i błędne obawy, że mikroboty mogłyby jakoś "uciec," posiadanie tych śluz powietrznych może skutkować wysokimi grzywnami.`

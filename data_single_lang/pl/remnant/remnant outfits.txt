@@ -1,0 +1,1018 @@
+# Copyright (c) 2017 by Michael Zahniser
+# Copyright (c) 2021 by Zitchas
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Weapons:
+
+outfit "Inhibitor Cannon"
+	category "Guns"
+	series "Guns"
+	index 03010
+	licenses
+		Remnant
+	cost 471000
+	thumbnail "outfit/inhibitor cannon"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	weapon
+		sprite "projectile/inhibitor"
+			"frame rate" 10
+			"no repeat"
+		sound "inhibitor"
+		"hit effect" "inhibitor impact" 3
+		"inaccuracy" .5
+		"velocity" 36
+		"random velocity" .5
+		"lifetime" 24
+		"reload" 13
+		"cluster"
+		"firing energy" 26
+		"firing heat" 45.5
+		"firing force" 19.5
+		"shield damage" 26
+		"hull damage" 19.5
+		"hit force" 58.5
+		"slowing damage" .5
+	description `Prawie sto lat temu zwiadowca Porzuconych, badający kosmos na północ od Pustkowia Żaru, został ostrzelany przez flotę obcych uzbrojoną w broń, która zakłócała pracę silników zwiadowcy. Historia głosi, że kapitan Porzuconych spokojnie powiedział swojej załodze: "Nie wrócimy do domu, dopóki nie ukradniemy tej broni." Ta obca technologia stała się podstawą działa Inhibitorów.`
+	description `	Chociaż Pozostali docenili oryginalną broń, byli rozczarowani, że była zbyt duża, by zmieścić się na większości ich statków. Zamiast zmarnować swój wysiłek, postanowili wykorzystać nowo zdobytą wiedzę, tworząc broń odpowiednią dla ich bardziej zwrotnych jednostek. W ten sposób Inhibitor doskonale kontroluje dystans, utrzymując cele w zasięgu, jednocześnie odpychając je siłą każdego strzału, a jednocześnie spowalniając ich zbliżanie się poprzez zakłócanie pracy silników.`
+
+effect "inhibitor impact"
+	sprite "effect/inhibitor impact"
+		"frame rate" 30
+		"no repeat"
+	"lifetime" 11
+	"random angle" 360
+	"random frame rate" 15
+	"random velocity" 6
+	"velocity scale" -.05
+
+outfit "Inhibitor Turret"
+	category "Turrets"
+	series "Turrets"
+	index 03010
+	licenses
+		Remnant
+	cost 1371000
+	thumbnail "outfit/inhibitor turret"
+	"mass" 42
+	"outfit space" -28
+	"weapon capacity" -22
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/inhibitor"
+			"frame rate" 10
+			"no repeat"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		"hardpoint offset" 6.
+		sound "inhibitor"
+		"hit effect" "inhibitor impact" 3
+		"inaccuracy" .5
+		"turret turn" 3.6
+		"velocity" 36
+		"random velocity" .5
+		"lifetime" 24
+		"reload" 6.5
+		"cluster"
+		"firing energy" 26
+		"firing heat" 45.5
+		"firing force" 19.5
+		"shield damage" 26
+		"hull damage" 19.5
+		"hit force" 58.5
+		"slowing damage" .5
+	description `Chociaż działa, które mogą zakłócać pracę silników statku, są przydatne w każdej sytuacji, Remnant szybko doszedł do wniosku, że będą jeszcze bardziej przydatne jako wieżyczki, których ich statki mogłyby używać do utrudniania pościgu. Te małe wieżyczki Inhibitorów zazwyczaj znajdują się na pelikanach, które próbują wyprzedzić przeciwników, a nie ich pokonać.`
+	description `Chociaż te wieżyczki nie wyróżniają się niczym szczególnym pod względem osiągów, stosunkowo niedawne udoskonalenie techniki montażu głównej części uzbrojenia na zewnątrz, na podstawie wieżyczki, a nie pod podstawą, zaowocowało bronią, która zajmuje stosunkowo mało miejsca. Nadal jednak znacznie zwiększa masę okrętu.`
+
+
+outfit "Thrasher Cannon"
+	category "Guns"
+	series "Guns"
+	index 03020
+	licenses
+		Remnant
+	cost 218000
+	thumbnail "outfit/thrasher cannon"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/thrasher"
+			"frame rate" 10
+			"random start frame"
+			"no repeat"
+		sound "thrasher"
+		"hit effect" "thrasher impact"
+		"inaccuracy" 9
+		"velocity" 10
+		"lifetime" 36
+		"reload" 20
+		"firing energy" 36
+		"firing heat" 27
+		"shield damage" 38
+		"hull damage" 46
+	description "Ta broń została pierwotnie opracowana w celu odtworzenia pocisku energetycznego dalekiego zasięgu, preferowanego przez obcą rasę, którą Remnant napotkał w pobliżu. W trakcie prac odkryto, że dodając pociskom więcej energii, można zadać znacznie większe obrażenia w zamian za krótszy zasięg, i tak narodziło się działo Thrasher Cannon."
+
+effect "thrasher impact"
+	sprite "effect/thrasher impact"
+		"frame rate" 30
+		"no repeat"
+	"lifetime" 11
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 3
+	"velocity scale" -.1
+
+
+outfit "Thrasher Turret"
+	category "Turrets"
+	series "Turrets"
+	index 03020
+	licenses
+		Remnant
+	cost 980000
+	thumbnail "outfit/thrasher turret"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/thrasher"
+			"frame rate" 10
+			"random start frame"
+			"no repeat"
+		"hardpoint sprite" "hardpoint/thrasher turret"
+		"hardpoint offset" 6.
+		sound "thrasher"
+		"hit effect" "thrasher impact"
+		"inaccuracy" 6
+		"turret turn" 2
+		"velocity" 10
+		"lifetime" 36
+		"reload" 5
+		"firing energy" 36
+		"firing heat" 27
+		"shield damage" 38
+		"hull damage" 46
+	description "Ta wieżyczka posiada cztery działa Thrasher na jednej obrotowej podstawie. Broń ta zadaje bardzo satysfakcjonujące obrażenia, gdy jest wystrzeliwana z bliskiej odległości, szczególnie wolno poruszającemu się celowi."
+
+
+outfit "Point Defense Turret"
+	category "Turrets"
+	series "Anti-Missile"
+	index 03010
+	licenses
+		Remnant
+	cost 1120000
+	thumbnail "outfit/point defense"
+	"mass" 33
+	"outfit space" -33
+	"weapon capacity" -33
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/point defense"
+		"fire effect" "point defense fire"
+		"die effect" "point defense hit"
+		"die effect" "point defense die"
+		"anti-missile" 42
+		"velocity" 270
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 62
+		"firing heat" 18
+	description "Niedługo po tym, jak Remnant osiedlił się na Awentynie, zaczęli odkrywać skrytki z obcą technologią w kryptach głęboko pod górami, strzeżonych przez starożytne, ale wciąż działające systemy obrony punktowej. Remnant nauczył się powielać te systemy obronne i obecnie uważa się je za znacznie bardziej przydatne niż większość przedmiotów, których strzegli."
+
+effect "point defense fire"
+	sprite "effect/point defense fire"
+		"frame rate" 17
+		"no repeat"
+	sound "point defense"
+	"sound category" "anti-missile"
+	lifetime 10
+	"velocity scale" .5
+
+effect "point defense hit"
+	sprite "effect/point defense hit"
+		"frame rate" 13
+		"no repeat"
+	lifetime 10
+	"velocity scale" .2
+
+effect "point defense die"
+	sprite "effect/point defense die"
+		"frame rate" 20
+		"no repeat"
+	lifetime 15
+	"velocity scale" .2
+
+
+outfit "EMP Torpedo"
+	plural "EMP Torpedoes"
+	category "Ammunition"
+	series "Ammunition"
+	index 03010
+	cost 4400
+	thumbnail "outfit/emp torpedo"
+	"mass" 1
+	"emp torpedo capacity" -1
+	description "Ta torpeda może emitować impulsy elektromagnetyczne, zakłócające pracę generatorów statku."
+
+outfit "EMP Torpedo Storage Bay"
+	category "Ammunition"
+	series "Ammunition"
+	index 03011
+	licenses
+		Remnant
+	cost 98000
+	thumbnail "outfit/emp rack"
+	"mass" 5
+	"outfit space" -12
+	"energy capacity" 400
+	"emp torpedo capacity" 7
+	ammo "EMP Torpedo"
+	description "Ładownia torped EMP służy do przechowywania dodatkowej amunicji do broni wykorzystującej torpedy EMP."
+	description "	Oprócz pojemności amunicji, w ładowni mieści się również niewielka ilość ładunku, wystarczająca do wystrzelenia torped EMP z okrętu pozbawionego baterii."
+
+outfit "EMP Torpedo Bay"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 03010
+	licenses
+		Remnant
+	cost 583000
+	thumbnail "outfit/emp torpedo bay"
+	"mass" 9
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	"emp torpedo capacity" 9
+	weapon
+		sprite "projectile/emp torpedo"
+			"frame rate" 2
+			"no repeat"
+		sound "torpedo"
+		ammo "EMP Torpedo"
+		icon "icon/emp"
+		"fire effect" "emp torpedo fire" 5
+		"hit effect" "nuke explosion"
+		"hit effect" "emp ring" 30
+		"hit effect" "emp spark" 20
+		"die effect" "tiny explosion"
+		stream
+		"reload" 330
+		"firing energy" 400
+		"firing heat" 18
+		"inaccuracy" 5
+		"lifetime" 300
+		"velocity" 7
+		"acceleration" .7
+		"drag" .1
+		"turn" 2
+		"homing"
+			"throttle control"
+		"infrared tracking" .7
+		"radar tracking" .8
+		"trigger radius" 50
+		"blast radius" 200
+		"shield damage" 700
+		"hull damage" 100
+		"ion damage" 48
+		"scrambling damage" 48
+		"hit force" 135
+		"missile strength" 80
+	description "Broń wykorzystująca impulsy elektromagnetyczne została opracowana przez Remnantów na początku istnienia kolonii, gdy obawiano się, że Alfy opanują przestrzeń zamieszkaną przez ludzi i rozprzestrzenią się poza nią."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfitter "EMP Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: EMP Torpedo Bay"
+			has "outfit: Ka'het EMP Deployer"
+			has "outfit: EMP Torpedo Storage Bay"
+	location
+		attributes "outfitter"
+	stock
+		"EMP Torpedo"
+
+
+
+outfit "Teciimach Canister"
+	category "Ammunition"
+	series "Ammunition"
+	index 03020
+	cost 35500
+	thumbnail "outfit/emp torpedo"
+	"mass" 1
+	"teciimach canister capacity" -1
+	description "Ten pojemnik zawiera wszystko, co potrzebne do zmontowania torpedy Teciimach. Broń ta emituje silne impulsy elektromagnetyczne, które zakłócają pracę generatorów statku i neutralizują część ich energii."
+	description `	W przeciwieństwie do poprzedniej generacji torped "EMP," torpedy Teciimach aktywnie kształtują wzór emisji, aby uniknąć oddziaływania na swoich sojuszników.`
+
+outfit "Teciimach Canister Rack"
+	category "Ammunition"
+	series "Ammunition"
+	index 03021
+	licenses
+		Remnant
+	cost 295000
+	thumbnail "outfit/emp rack"
+	"mass" 5
+	"outfit space" -9
+	"energy capacity" 500
+	"teciimach canister capacity" 9
+	ammo "Teciimach Canister"
+	description "Stojak na kanistry Teciimach służy do przechowywania dodatkowych zestawów komponentów, zarówno w celu zwiększenia pojemności statku, jak i na lotniskowcach do uzupełniania zapasów myśliwców."
+	description "	Oprócz pojemności amunicji, w ładowni mieści się również niewielka ilość ładunku, wystarczająca do montażu torped Teciimach na statku pozbawionym baterii."
+
+outfit "Teciimach Bay"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 03030
+	licenses
+		Remnant
+	cost 1525000
+	thumbnail "outfit/teciimach bay"
+	"mass" 9
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"teciimach canister capacity" 9
+	weapon
+		sprite "projectile/emp torpedo"
+			"frame rate" 2
+			"no repeat"
+		sound "torpedo"
+		ammo "Teciimach Canister"
+		icon "icon/emp"
+		"fire effect" "emp torpedo fire" 5
+		"hit effect" "nuke explosion"
+		"hit effect" "emp ring" 30
+		"hit effect" "emp spark" 20
+		"die effect" "tiny explosion"
+		cluster
+		safe
+		"reload" 310
+		"firing energy" 400
+		"firing heat" 18
+		"inaccuracy" 5
+		"lifetime" 300
+		"velocity" 8
+		"acceleration" .7
+		"drag" .1
+		"turn" 2.5
+		"homing"
+			"throttle control"
+		"infrared tracking" .8
+		"radar tracking" .9
+		"trigger radius" 50
+		"blast radius" 200
+		"shield damage" 900
+		"hull damage" 125
+		"disabled damage" 60
+		"ion damage" 65
+		"scrambling damage" 65
+		"energy damage" 2000
+		"hit force" 135
+		"missile strength" 95
+	description "Broń wykorzystująca impulsy elektromagnetyczne została pierwotnie opracowana przez Remnantów w początkowym okresie istnienia kolonii, gdy obawiano się, że Alfy opanują przestrzeń zamieszkaną przez ludzi i rozprzestrzenią się poza nią."
+	description "Wiele wieków później, rewizja Teciimach zawiera szereg ulepszeń zwiększających ich skuteczność, wydajność, niezawodność i bezpieczeństwo. Remnant przypisuje te ulepszenia połączeniu najnowszych badań i tajemnic odkrytych przez zespoły badawcze Warrena."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+outfit "Teciimach Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 03020
+	licenses
+		Remnant
+	cost 762500
+	thumbnail "outfit/teciimach pod"
+	"mass" 3
+	"outfit space" -6
+	"weapon capacity" -6
+	"gun ports" -1
+	"teciimach canister capacity" 3
+	weapon
+		sprite "projectile/emp torpedo"
+			"frame rate" 2
+			"no repeat"
+		sound "torpedo"
+		ammo "Teciimach Canister"
+		icon "icon/emp"
+		"fire effect" "emp torpedo fire" 5
+		"hit effect" "nuke explosion"
+		"hit effect" "emp ring" 30
+		"hit effect" "emp spark" 20
+		"die effect" "tiny explosion"
+		cluster
+		safe
+		"burst count" 3
+		"burst reload" 110
+		"reload" 620
+		"firing energy" 350
+		"firing heat" 16
+		"inaccuracy" 5
+		"lifetime" 300
+		"velocity" 8
+		"acceleration" .7
+		"drag" .1
+		"turn" 2.5
+		"homing"
+			"throttle control"
+		"infrared tracking" .8
+		"radar tracking" .9
+		"trigger radius" 50
+		"blast radius" 200
+		"shield damage" 900
+		"hull damage" 125
+		"disabled damage" 60
+		"ion damage" 60
+		"scrambling damage" 60
+		"energy damage" 2000
+		"hit force" 135
+		"missile strength" 95
+	description "Chociaż pierwotnie opracowano je jako ciężką broń do paraliżowania wrogich okrętów flagowych, Remnant wykorzystał techniki montażu na miejscu, aby umożliwić ich użycie na mniejszych jednostkach. Te kapsuły rezygnują z wielu systemów montażowych, aby zmieścić je na jednostkach klasy przechwytywaczy."
+	description "	Mimo tego wyjaśnienia, dokładne zbadanie tych zatok i zasobników sugeruje, że jest tu o wiele więcej, niż sugerowałaby ich objętość."
+	description "	Amunicję do tej broni można uzupełnić u dowolnego sprzedawcy."
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "emp torpedo fire"
+	sprite "effect/emp torpedo fire"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 31
+	"random angle" 10
+	"random frame rate" 10
+	"random spin" 2
+	"random velocity" 7
+
+effect "emp ring"
+	sprite "effect/emp ring"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 60
+	"random angle" 360
+	"random frame rate" 6
+	"random velocity" 4
+	"velocity scale" 0.1
+
+effect "emp spark"
+	sprite "effect/emp spark"
+		"no repeat"
+		"frame rate" 8
+	"lifetime" 45
+	"random angle" 360
+	"random frame rate" 6
+	"random velocity" 7
+	"velocity scale" 0.1
+
+outfitter "Teciimach Canister Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Teciimach Bay"
+			has "outfit: Teciimach Pod"
+			has "outfit: Teciimach Canister Rack"
+	location
+		attributes "outfitter"
+	stock
+		"Teciimach Canister"
+
+
+
+outfit "Ember Tear"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 03040
+	licenses
+		"Remnant Capital"
+	cost 270000000
+	thumbnail "outfit/ember tear"
+	"mass" 250
+	"outfit space" -190
+	"weapon capacity" -200
+	"gun ports" -1
+	"spinal mount" -1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/ember tear/ember tear"
+			"frame rate" 30
+		sound "ember tear"
+		"hit effect" "ember tear spark"
+		"hit effect" "ember tear impact"
+		"hit effect" "ember tear vortex"
+		"fire effect" "ember tear fire"
+		"velocity" 800
+		"inaccuracy" 0
+		"safe"
+		"lifetime" 1
+		"reload" 1
+		"firing force" 1.5
+		"blast radius" 150
+		"firing energy" 230
+		"firing fuel" 10
+		"firing heat" 105
+		"shield damage" 250
+		"hull damage" 250
+		"slowing damage" 10
+		"fuel damage" 2.5
+	description "Pustkowia Ember to anomalny region podlegający siłom przeczącym konwencjonalnej fizyce: energii spontanicznie wytryskującej z próżni, gęstości materii znacznie większej niż można by się spodziewać w kosmosie - nawet wokół mgławicy, koncentracji tuneli czasoprzestrzennych niespotykanych w galaktyce oraz regionom, w których sam wszechświat zdaje się być w ciągłym ruchu. Ten region, bardziej niż jakikolwiek budynek czy statek, jest laboratorium Porzuconych, w którym badają najgłębsze mechanizmy wszechświata."
+	description "	Poproszony o wyjaśnienie, czy nazwa odnosi się do rozdzierania, czy do płaczu, technik patrzy na ciebie z zaciekawieniem i odpowiada "do obu". Następnie wyjaśnia, że bardzo uproszczonym wyjaśnieniem działania tej broni jest to, że tworzy ona mikropęknięcia w strukturze czasoprzestrzeni, a następnie ponownie je spaja. Czy Pustkowia Żaru nie powinny płakać z powodu konieczności posiadania takiej broni?"
+	description "	Ta potężna broń wymaga specjalnych punktów mocowania i jest budowana w tak małej liczbie, że Remnant dystrybuuje ją bezpośrednio w razie potrzeby. Ze względu na ogromne zapotrzebowanie na energię i paliwo, tylko najpotężniejsze statki Remnant mogą obsługiwać regularne użycie tej broni."
+
+effect "ember tear spark"
+	sprite "effect/ember tear/ember tear spark"
+		"start frame" 0
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 10
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 10
+	"random frame rate" 10
+
+effect "ember tear fire"
+	sprite "effect/ember tear/ember tear fire"
+		"start frame" 0
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 3
+	"velocity scale" 1
+	"random angle" 360
+	"random velocity" 3
+	"random frame rate" 10
+
+effect "ember tear impact"
+	sprite "effect/ember tear/ember tear impact"
+		"start frame" 1
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 3
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 10
+	"random frame rate" 10
+
+effect "ember tear vortex"
+	sprite "effect/ember tear/ember tear vortex"
+		"start frame" 0
+		"no repeat"
+		"frame rate" 10
+	"sound" "ember tear hit"
+	"lifetime" 100
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 0
+	"random frame rate" 30
+
+
+
+# Systems:
+
+outfit "Crystal Capacitor"
+	category "Power"
+	series "Batteries"
+	index 03010
+	licenses
+		Remnant
+	cost 57000
+	thumbnail "outfit/crystal capacitor"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 13600
+	"energy consumption" .4
+	"heat generation" .4
+	"ion resistance" 0.01
+	"scramble resistance" 0.01
+	description "Te kryształy, wydobywane na planecie Remnantów, Viminal, mogą gromadzić zaskakująco dużo energii w kompaktowej formie. Kryształy wystarczająco czyste, by można je było wykorzystać w ten sposób, są jednak trudne do znalezienia."
+	description "	Kondensatory mają tendencję do ulatniania niewielkich ilości energii w postaci nadmiaru ciepła. Ten upływ energii powoduje również szybsze rozpraszanie jonizacji, zapewniając statkom z tymi kryształami pewną odporność na sporadyczne burze jonowe występujące na Pustkowiu."
+
+outfit "Millennium Cell"
+	category "Power"
+	series "Generators"
+	index 03010
+	licenses
+		Remnant
+	cost 553000
+	thumbnail "outfit/millennium cell"
+	"mass" 29
+	"outfit space" -29
+	"energy generation" 3.6
+	"heat generation" 6.0
+	"ion resistance" 0.025
+	"scramble resistance" 0.025
+	description "Ten niezwykle kompaktowy generator radiotermiczny wykorzystuje izotopy tak radioaktywne i tak ściśle ze sobą upakowane, że można by go niemal zaklasyfikować jako reaktor jądrowy."
+	description "	Choć nie są one zbyt imponujące pod względem ilości wytwarzanej energii, generatory Remnant zostały zaprojektowane tak, aby lepiej radzić sobie z efektami pochłaniania energii przez jonizację."
+
+outfit "Epoch Cell"
+	category "Power"
+	series "Generators"
+	index 03020
+	licenses
+		Remnant
+	cost 2123000
+	thumbnail "outfit/epoch cell"
+	"mass" 98
+	"outfit space" -98
+	"energy generation" 12.7
+	"heat generation" 19.8
+	"ion resistance" 0.085
+	"scramble resistance" 0.085
+	description "Technologia Efficient Remnant zapewnia, że niemal całe ciepło wytwarzane przez radioizotopy tego generatora jest przekształcane w energię elektryczną, zamiast stawać się ciepłem odpadowym."
+	description "	Pozostali wykorzystali efekty rozpraszania jonów kryształów znalezionych na Viminal i zreplikowali je w swoich generatorach, aby pomóc sobie przetrwać w nieprzyjaznym środowisku Pustkowia Żaru."
+
+outfit "Aeon Cell"
+	category "Power"
+	series "Generators"
+	index 03030
+	licenses
+		Remnant
+	cost 4384000
+	thumbnail "outfit/aeon cell"
+	"mass" 160
+	"outfit space" -160
+	"energy generation" 21.9
+	"heat generation" 31.5
+	"ion resistance" 0.14
+	"scramble resistance" 0.14
+	description "Pierwsi inżynierowie Remnant nie ufali kapryśnym i nieprzewidywalnym reaktorom jądrowym, które były wówczas używane w przestrzeni kosmicznej, dlatego też skupili się na udoskonalaniu sztuki pozyskiwania energii termoelektrycznej z radioizotopów."
+	description "	Odporność na jony we wszystkich generatorach Remnant nie tylko pozwala im szybciej odzyskiwać siły po burzach jonowych, ale także daje ich statkom okno czasowe, w którym burza jonowa rozpoczyna się i nie ma na nie wpływu, dając im szansę na ucieczkę, zanim zostaną osłabione przez burzę."
+
+outfit "Thermoelectric Cooler"
+	category "Systems"
+	series "Cooling"
+	index 03010
+	licenses
+		Remnant
+	cost 100000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 8
+	"cooling energy" .4
+	description "Ta chłodziarka jest w rzeczywistości tylko jednym z elementów generujących energię ogniwa Millennium Cell, ale została podłączona w taki sposób, że może działać w odwrotnym kierunku: pobierać energię elektryczną w celu przesyłania ciepła z systemów statku na zewnątrz."
+
+outfit "Emergency Ramscoop"
+	category "Systems"
+	series "Ramscoops"
+	index 03010
+	licenses
+		Remnant
+	cost 72000
+	thumbnail "outfit/emergency ramscoop"
+	"mass" 4
+	"outfit space" -4
+	"ramscoop" 1.25
+	description `Pustkowie Żaru to miejsce, w którym tylko bardzo nierozsądny kapitan podróżowałby bez jakiegoś urządzenia do uzupełniania paliwa nadprzestrzennego. Chociaż ryzyko to nie istnieje na statkach Porzuconych dzięki ich "skrzelom," które są w zasadzie wbudowanymi chruścielami, niektórzy kapitanowie wolą przyspieszyć ten proces, dodając dodatkową pojemność. Dla nielicznych kapitanów, którzy odważą się na ten obszar na statkach innych niż Porzucone, ta chruściel nie jest szczególnie potężna, ale pozwala statkowi eksplorować bez obawy o utkniecie na mieliźnie.`
+
+outfit "NDR-114 Android"
+	category "Unique"
+	series "Functional Unique"
+	index 40
+	cost 120000
+	thumbnail "outfit/android"
+	"required crew" -1
+	"energy consumption" 0.01
+	"unique" 1
+	unplunderable 1
+	description "Chociaż kiedyś uważano je za urządzenia nowatorskie, brak autonomicznych możliwości i korzyści ekonomicznych sprawił, że nigdy nie otrzymały licencji od producenta."
+	description "	Mimo to niektórzy kapitanowie zlecili ich wykonanie bezpośrednio ich wynalazcy, skutecznie zastępując jednego z członków załogi robotem. Kapitanowie ci odkryli, że androidy posiadają wystarczające możliwości do wykonywania większości zadań, ale brakuje im zdolności do dowodzenia statkiem lub udziału w akcjach abordażowych."
+
+outfit "Research Laboratory"
+	category "Systems"
+	series "Scanners"
+	index 03020
+	licenses
+		Remnant
+	cost 500000
+	thumbnail "outfit/research laboratory"
+	"mass" 11
+	"outfit space" -6
+	"asteroid scan power" 84
+	"cargo scan power" 20
+	"cargo scan efficiency" 6
+	"atmosphere scan" 100
+	"required crew" 1
+	"unplunderable" 1
+	description "Od samego początku Remnant polegał na swojej zdolności do badania wszystkiego, co napotka. Ta wiedza pozwoliła im przetrwać, a nawet prosperować w surowym środowisku Pustkowia Żaru. Aby umożliwić to dążenie do wiedzy, Remnant zaprojektował to kompaktowe laboratorium, które jest zbudowane na ścianie ładowni, stołówki lub innego większego pomieszczenia. Gdy pomieszczenie nie jest w żaden inny sposób zajęte, moduł ten można rozszerzyć, przekształcając je w pełnoprawne laboratorium."
+	description "	Chociaż naukowcy na planecie mogliby uznać ją za niewiele więcej niż schowek wypełniony skanerami i sprzętem, dla Remnantów jest to baza operacyjna służąca do badania zjawisk kosmicznych i gwiezdnych na miejscu. Dla kapitanów posiadanie zaawansowanego sprzętu do obsługi czujników oraz wykwalifikowanego naukowca w załodze to ogromna zaleta."
+
+outfit "Quantum Key Stone"
+	category "Systems"
+	series "Drives"
+	index 60
+	licenses
+		Remnant
+	cost 240000
+	thumbnail "outfit/keystone"
+	"mass" 0.1
+	"outfit space" -1
+	"quantum keystone" 1
+	description "Ten cenny artefakt dostraja oscylacje kwantowe statku w sposób umożliwiający mu podróż przez pewne, w przeciwnym razie nieprzekraczalne tunele czasoprzestrzenne na Pustkowiu Żaru. Kamienie są rzadkie i cenne, ponieważ można je wydobywać tylko z jednego miejsca na Pustkowiu."
+
+outfit "Salvage Scanner"
+	category "Systems"
+	series "Scanners"
+	index 03010
+	licenses
+		Remnant
+	cost 410000
+	thumbnail "outfit/salvage scanner"
+	"mass" 7
+	"outfit space" -7
+	"outfit scan power" 13
+	"outfit scan efficiency" 12
+	"tactical scan power" 84
+	description "Kiedy Remnant zdekonstruował obce wieżyczki obrony punktowej strzegące krypt na Awentynie, rozszyfrował również mechanizmy sterujące starożytną bronią. Po znacznych inwestycjach w badania i rozwój, przekształcili te systemy naprowadzania w zaawansowaną technologię skanowania."
+	description "	Chociaż wszystkie statki Remnant są wyposażone w wewnętrzne skanery, niektórzy kapitanowie nadal wolą zwiększać ich zasięg i moc, aby skuteczniej wybierać wrogie statki warte ataku."
+
+
+
+# Engines:
+
+outfit "Bellows-Class Afterburner"
+	category "Engines"
+	series "Afterburners"
+	index 03010
+	"cost" 640000
+	thumbnail "outfit/remnant afterburner"
+	"mass" 8
+	"outfit space" -11
+	"engine capacity" -11
+	"slowing resistance" 0.01
+	"afterburner thrust" 187.5
+	"afterburner fuel" 1.95
+	"afterburner energy" 6
+	"afterburner heat" 72
+	"afterburner effect" "remnant afterburner"
+	description "Pozostali żyją w środowisku, w którym surowce do produkcji paliwa są stosunkowo powszechne w wiatrach mgławicy. W związku z tym ich statki posiadają wbudowaną technologię "ramscoop" i choć niechętnie marnują paliwo, nie boją się go użyć w razie potrzeby. Znacznie ważniejsza jest możliwość szybkiego i sprawnego wejścia lub wyjścia z walki przez ich statki w razie potrzeby. Ostatecznie najważniejsze jest ciągłe życie."
+	description "	Dopalacz klasy Bellows ucieleśnia tę filozofię, zapewniając kapitanom narzędzie pozwalające na wykonywanie dużych skoków przyspieszenia, zazwyczaj podczas manewrów unikowych lub w celu dogonienia uciekającego celu. Ze względu na ogromne zużycie paliwa, tylko najbardziej wyspecjalizowane statki mają go wystarczająco dużo, aby korzystać z niego dłużej niż kilka sekund, zanim całkowicie się wyczerpie."
+
+effect "remnant afterburner"
+	sprite "effect/remnant afterburner/remnant afterburner"
+		"frame rate" 10
+	sound "remnant afterburner"
+	"sound category" "afterburner"
+
+
+
+outfit "Anvil-Class Engine"
+	category "Engines"
+	series "Engines"
+	index 03010
+	licenses
+		Remnant
+	"cost" 290000
+	thumbnail "outfit/tiny remnant engine"
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
+	"thrust" 20.7
+	"thrusting energy" 2.05
+	"thrusting heat" 1.95
+	"turn" 554.4
+	"turning energy" 1.05
+	"turning heat" 1.1
+	"reverse thrust" 15.45
+	"reverse thrusting energy" 1.5
+	"reverse thrusting heat" 1.45
+	"slowing resistance" 0.02
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+	"steering flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"steering flare sound" "plasma tiny"
+	"reverse flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"reverse flare sound" "plasma tiny"
+	description "Ten niewielki zestaw silników został zaprojektowany specjalnie do tak małych statków, że łączy w sobie zarówno silniki strumieniowe, jak i układ sterowania w jednym urządzeniu."
+
+outfit "Crucible-Class Thruster"
+	category "Engines"
+	series "Engines"
+	index 03021
+	licenses
+		Remnant
+	"cost" 200000
+	thumbnail "outfit/small remnant thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 24.825
+	"thrusting energy" 2.1
+	"thrusting heat" 2.0
+	"reverse thrust" 18.6
+	"reverse thrusting energy" 1.6
+	"reverse thrusting heat" 1.5
+	"slowing resistance" 0.012
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"flare sound" "plasma tiny"
+	"reverse flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"reverse flare sound" "plasma tiny"
+	description "Te małe, ale potężne silniki napędzane są zjonizowanym gazem, który rozpędza się z prędkością stanowiącą znaczną część prędkości światła."
+
+outfit "Forge-Class Thruster"
+	category "Engines"
+	series "Engines"
+	index 03031
+	licenses
+		Remnant
+	"cost" 441000
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 39
+	"outfit space" -39
+	"engine capacity" -39
+	"thrust" 51
+	"thrusting energy" 4.4
+	"thrusting heat" 4.25
+	"reverse thrust" 38.25
+	"reverse thrusting energy" 3.3
+	"reverse thrusting heat" 3.2
+	"slowing resistance" 0.024
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 4
+	"flare sound" "plasma small"
+	"reverse flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"reverse flare sound" "plasma small"
+	description "Pozostali wzięli podstawową konstrukcję silnika jonowego, używanego przez ludzkość od zarania dziejów lotów kosmicznych, i znacznie go wzmocnili... ale też zwiększyli jego zapotrzebowanie na energię."
+
+outfit "Smelter-Class Thruster"
+	category "Engines"
+	series "Engines"
+	index 03041
+	licenses
+		Remnant
+	"cost" 984000
+	thumbnail "outfit/large remnant thruster"
+	"mass" 76
+	"outfit space" -76
+	"engine capacity" -76
+	"thrust" 106.65
+	"thrusting energy" 9.5
+	"thrusting heat" 9.6
+	"reverse thrust" 79.95
+	"reverse thrusting energy" 7.1
+	"reverse thrusting heat" 7.2
+	"slowing resistance" 0.048
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 3
+	"flare sound" "plasma medium"
+	"reverse flare sprite" "effect/remnant flare/medium"
+		"frame rate" 5
+	"reverse flare sound" "plasma medium"
+	description "Nierzadko zdarza się, że silniki statków Remnantów pobierają więcej mocy niż ich systemy uzbrojenia: może to wskazywać na to, że wolą unikać bitwy, jeśli to możliwe."
+
+outfit "Crucible-Class Steering"
+	category "Engines"
+	series "Engines"
+	index 03020
+	licenses
+		Remnant
+	"cost" 172000
+	thumbnail "outfit/small remnant steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 684
+	"turning energy" 1.32
+	"turning heat" 1.4
+	"slowing resistance" 0.008
+	"steering flare sprite" "effect/remnant flare/small"
+		"frame rate" 5
+	"steering flare sound" "plasma tiny"
+	description "Ten system sterowania jest na tyle mały, że zmieści się nawet w przechwytywaczu, ale Remnantowie używają go głównie w celu zapewnienia dodatkowej manewrowości większym statkom."
+
+outfit "Forge-Class Steering"
+	category "Engines"
+	series "Engines"
+	index 03030
+	licenses
+		Remnant
+	"cost" 393000
+	thumbnail "outfit/medium remnant steering"
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
+	"turn" 1492.5
+	"turning energy" 2.64
+	"turning heat" 3.0
+	"slowing resistance" 0.016
+	"steering flare sprite" "effect/remnant flare/medium"
+		"frame rate" 4
+	"steering flare sound" "plasma small"
+	description "Ten niezwykle energochłonny układ kierowniczy mieści dużą moc w stosunkowo małej przestrzeni. Wygląda na to, że technologia silników poczyniła szybsze postępy w przypadku Remnantów niż w przypadku reszty ludzkości."
+
+outfit "Smelter-Class Steering"
+	category "Engines"
+	series "Engines"
+	index 03040
+	licenses
+		Remnant
+	"cost" 880000
+	thumbnail "outfit/large remnant steering"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"turn" 3184.5
+	"turning energy" 5.21
+	"turning heat" 6.2
+	"slowing resistance" 0.032
+	"steering flare sprite" "effect/remnant flare/large"
+		"frame rate" 3
+	"steering flare sound" "plasma medium"
+	description "Nie jest jasne, czy potężne systemy napędowe Remnantów są wyłącznie ich własnym wynalazkiem, czy też częściowo inspirowane technologią obcych."
+
+
+
+# Hand to Hand
+
+outfit "Tuning Rifle"
+	category "Hand to Hand"
+	series "H2H"
+	index 03010
+	licenses
+		Remnant
+	cost 22000
+	thumbnail "outfit/remnant rifle"
+	"capture attack" 1.2
+	"capture defense" 1.8
+	"unplunderable" 1
+	description "Karabin Strojeniowy wykorzystuje fale dźwiękowe do destabilizacji słabszych tkanek wewnętrznych wielu ras i ich upłynnienia."
+
+
+
+# Unique
+
+outfit "Void Rifle"
+	category "Unique"
+	series "Functional Unique"
+	index 50
+	licenses
+		Remnant
+	cost 1000000
+	thumbnail "outfit/void rifle"
+	"capture attack" 20
+	"capture defense" 20
+	"energy consumption" 0.017
+	"unique" 1
+	"unplunderable" 1
+	description "Pozostali wytworzyli znaczną liczbę tych broni we wczesnych latach badań nad duszkami Pustki, ale nie byli w stanie stworzyć żadnych nowych, odkąd Archont wstrzymał ich zbiory. Bez zapasu nowych macek, Pozostali nie byli w stanie wyprodukować więcej. Choć są trwałe, rzadko wytrzymują dłużej niż dekadę, więc nawet najlepiej utrzymane stare Karabiny Pustki popadły w ruinę wieki temu. Uważa się, że ta niezwykle skuteczna broń pomagała Pozostali chronić ich schronienia przed zagrożeniami z ziemi we wczesnych latach istnienia."
+	description "	Po wystrzale Karabin Pustki emituje wiązkę, która ma silny efekt paraliżujący układ nerwowy. Z obszarem działania, który przenika ściany i inne obiekty stałe, jest to niezwykle skuteczna broń."
+
+
+
+outfit "Void Sprite Parts"
+	plural "Void Sprite Parts"
+	category "Unique"
+	series "Non-Functional Unique"
+	index 20
+	cost 500
+	thumbnail "outfit/void sprite parts"
+	"flotsam sprite" "effect/void sprite parts/void sprite parts"
+	"mass" 1
+	"outfit space" -1
+	"flotsam chance" .5
+	"installable" -1
+	"unique" 1
+	description "To nic więcej i nic mniej niż metr sześcienny części duszka pustki. Dla Remnantów oznacza to zarówno straszne wydarzenie, jak i straszliwą okazję."
+	description "	To mogłoby być bardzo cenne dla kogoś, kto wiedział, co robi, gdyby zostało odpowiednio potraktowane. Zamiast tego jest warte niewiele więcej niż wartość zawartych w nim związków chemicznych."
+
+
+
+# Special
+
+outfit "Remnant License"
+	category "Licenses"
+	series "Licenses"
+	index 03010
+	thumbnail "outfit/remnant license"
+	description "Oprócz funkcji poręcznego weryfikatora IFF, narzędzia identyfikacji osobistej i licencji na zakup technologii Remnant, to urządzenie posiada ruchome części, które mechanicznie klikają przy każdej regulacji. Gdy elementy są przełączane w określonej kolejności i rytmie, seria kliknięć tworzy zaskakująco piękną mieszankę utworów muzyki klasycznej."
+
+outfit "Remnant Capital License"
+	category "Licenses"
+	series "Licenses"
+	index 03020
+	thumbnail "outfit/remnant capital license"
+	description "Choć na pierwszy rzut oka wydaje się nieszkodliwe, to urządzenie ukazuje genialną prostotę inżynierii Remnantów. Stuknięcie w którąkolwiek z krawędzi powoduje krótki, cichy szum, który może nieść się na ogromne odległości na planecie. Ten szum pozwala kapitanom, którym powierzono najcenniejszą technologię Remnantów, wezwać pobliskie patrole na pomoc w razie utknięcia."

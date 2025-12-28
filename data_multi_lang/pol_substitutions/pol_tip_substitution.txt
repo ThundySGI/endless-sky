@@ -309,7 +309,7 @@ substitutions
 	"TP-307" `Zwiększa ciepło celu o tę wartość na sekundę. Skuteczność jest tylko o połowę mniejsza, gdy tarcze celu są aktywne.`
 	"TP-308" `Zmniejsza energię celu o tę wartość na sekundę. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne.`
 	"TP-309" `Zmniejsza energię celu. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Jonizacja powoli zanika z czasem.`
-	"TP-310" `Zwiększa szansę celu na awarię broni. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Efekt „Scrambling” powoli zanika z czasem.`
+	"TP-310" `Zwiększa szansę celu na awarię broni. Skuteczność jest o połowę mniejsza, gdy tarcze celu są aktywne. Efekt "Scrambling" powoli zanika z czasem.`
 	"TP-311" `Zmniejsza szybkość skrętu, przyspieszenie i prędkość maksymalną celu. Skuteczność jest o połowę niższa, gdy tarcze celu są aktywne. Spowolnienie z czasem zanika.`
 	"TP-312" `Pozwala na "przenikanie obrażeń od broni" do kadłuba, nawet gdy tarcze są aktywne. Zakłócenie tarcz zanika z czasem, a dodanie kolejnego zakłócenia tarcz staje się trudniejsze, ponieważ obrażenia przechodzą przez tarcze zamiast je zakłócać.`
 	"TP-313" `Obrażenia tarczy zadawane przez tę broń w czasie na sekundę.`
@@ -466,10 +466,10 @@ substitutions
 	"TP-464" `Dodaj paralaksę do obiektów w tle (mgły i pola gwiezdnego). Jeśli ustawisz na efektowny, utwórz trzy warstwy paralaksy. Jeśli ustawisz na szybki, utwórz jedną warstwę paralaksy.`
 	"TP-465" `Ożywia tło gwiazd i mgłę w menu głównym.`
 	"TP-466" `Tworzy biały błysk podczas hiperprzestrzeni między systemami.`
-	"TP-467" `Dodaj dodatkowe rozmycie ruchu do tła podczas przeskakiwania między systemami. Opcje „średnie” i „duże” kontrolują intensywność efektu.`
-	"TP-468" `Steruje wyświetlaniem ikon statków floty w stoczni lub u dostawcy sprzętu. W trybie „fantastic” stosuje filtr Sobela do wszystkich statków. (Może to powodować wysokie obciążenie GPU w przypadku dużych flot). W trybie „fast” używa tylko sprite'a statku.`
+	"TP-467" `Dodaj dodatkowe rozmycie ruchu do tła podczas przeskakiwania między systemami. Opcje "średnie" i "duże" kontrolują intensywność efektu.`
+	"TP-468" `Steruje wyświetlaniem ikon statków floty w stoczni lub u dostawcy sprzętu. W trybie "fantastic" stosuje filtr Sobela do wszystkich statków. (Może to powodować wysokie obciążenie GPU w przypadku dużych flot). W trybie "fast" używa tylko sprite'a statku.`
 	"TP-469" `Steruje wyświetlaniem ikon okrętu flagowego i okrętu docelowego w interfejsie HUD. W trybie zaawansowanym nakłada filtr Sobel na sprite'y. (Może to powodować wysokie obciążenie GPU niektórych okrętów na bardzo starych lub mało wydajnych komputerach). W trybie szybkim używa tylko sprite'a okrętu.`
-	"TP-470" `Steruje wyświetlaniem zamaskowanych eskort. W trybie „fantastic” statek staje się przezroczysty i ma czerwony kontur. W trybie „fast” po prostu zmienia kolor statku na czerwony.`
+	"TP-470" `Steruje wyświetlaniem zamaskowanych eskort. W trybie "fantastic" statek staje się przezroczysty i ma czerwony kontur. W trybie "fast" po prostu zmienia kolor statku na czerwony.`
 	"TP-471" `Wyświetlaj nakładki statusu na wszystkich statkach w locie. Nakładki statusu pokazują tarcze i kadłub statku. Jeśli wybierzesz opcję uszkodzenia, nakładki pojawiają się tylko na statkach, które zostały uszkodzone.`
 	"TP-472" `Wyświetlaj nakładkę statusu na górze swojego okrętu flagowego podczas lotu.`
 	"TP-473" `Wyświetlaj nakładki statusu nad eskortą w trakcie lotu.`
@@ -490,9 +490,9 @@ substitutions
 	"TP-488" `Automatycznie obróć swój statek w stronę celu, aby móc celować bronią stałą.`
 	"TP-489" `Automatycznie wystrzel z broni głównej, jeśli wróg znajduje się w zasięgu broni.`
 	"TP-490" `Strategia stosowana przez wieżyczki twojej floty podczas namierzania wrogów. Skoncentrowane śledzenie będzie namierzać wszystkie wieżyczki na statku na tym samym wrogu. Śledzenie oportunistyczne sprawi, że wieżyczki będą celować w statki, które są najbliżej celu, umożliwiając jednoczesne zaatakowanie wielu wrogów.`
-	"TP-491" `Strategia używana przez kontrolkę "Select near asteroid" do wybierania asteroid. Opcja „bliskość” wybiera najbliższą asteroidę. Opcja „wartość” wybiera asteroidę o najwyższej wartości.`
+	"TP-491" `Strategia używana przez kontrolkę "Select near asteroid" do wybierania asteroid. Opcja "bliskość" wybiera najbliższą asteroidę. Opcja "wartość" wybiera asteroidę o najwyższej wartości.`
 	"TP-492" `Strategia używana przez "Board selected ship" do wybierania statków, gdy nie masz żadnego namierzonego. Bliskość wybiera najbliższy statek. Wartość wybiera statek o najwyższej wartości (wartość jest szacowana, jeśli nie zeskanowano wyposażenia statku). Mieszane oblicza wartość podzieloną przez odległość do statku.`
-	"TP-493" `Strategia, której używają twoje eskorty, aby określić, kiedy użyć broni dodatkowej. Można ją przełączać za pomocą "Fleet: Przełącz zużycie amunicji". Ustawienie „oszczędny” powoduje użycie broni dodatkowej tylko wtedy, gdy PW twojej eskorty są niskie lub gdy wrogowie w systemie są silniejsi niż twoja flota i jednostki sojusznicze.`
+	"TP-493" `Strategia, której używają twoje eskorty, aby określić, kiedy użyć broni dodatkowej. Można ją przełączać za pomocą "Fleet: Przełącz zużycie amunicji". Ustawienie "oszczędny" powoduje użycie broni dodatkowej tylko wtedy, gdy PW twojej eskorty są niskie lub gdy wrogowie w systemie są silniejsi niż twoja flota i jednostki sojusznicze.`
 	"TP-494" `Kontroluj, które z twoich statków mogą podnosić ładunki dryfujące w kosmosie.`
 	"TP-495" `Strategia używana do naprawy statków transportowych (np. myśliwców, dronów) we flocie, gdy są one zadokowane na swoim lotniskowcu. Seria naprawia statek o największej wytrzymałości, aż do jego pełnej naprawy, a następnie przechodzi do następnego. Równoległe naprawianie statku o najniższej wytrzymałości zawsze powoduje, że wszystkie statki jednocześnie zwiększają swoją wytrzymałość.`
 	"TP-496" `Myśliwce przekazują cały ładunek, jaki posiadają, na statek, na którym są umieszczone, gdy dokują.`

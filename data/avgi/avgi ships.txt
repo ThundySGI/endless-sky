@@ -614,7 +614,7 @@ ship "Frequentia"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 2
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector"
 		"R-180 RCS Thrusters"
@@ -695,7 +695,7 @@ ship "Polari"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 9
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector"
 		"R-180 RCS Thrusters"
@@ -918,7 +918,7 @@ ship "Undsyni"
 		"Spectrometer Array" 2
 		"Cargo Expansion" 12
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1002,7 +1002,7 @@ ship "Undsyni" "Undsyni (Tanker)"
 		"Spectrometer Array"
 		"Outfits Expansion"
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1031,7 +1031,7 @@ ship "Undsyni" "Undsyni (Plasmadyne)"
 		"Multispectral Scanner"
 		"Spectrometer Array"
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1092,7 +1092,7 @@ ship "Modified Tachytia"
 		"Radiative Lamina"
 		"Optical Laser Rifle" 900
 		
-		`<CN-8427>`
+		`A-3600 "Beam" Amat Drive`
 		"Inductive Extractor" 6
 		"Hyperdrive"
 
@@ -1210,7 +1210,7 @@ ship "Tremoros"
 		"Speckle Coilgun" 4
 		"Speck Round" 3600
 		"Tiny VLS"
-		`<CN-8422>` 27
+		`"Nettle" KKV` 27
 		
 		"Ultracapacitor Bank" 5
 		"Multispectral Scanner"
@@ -1288,7 +1288,7 @@ ship "Prismaios"
 		"Speckle Turret" 2
 		"Speck Round" 4800
 		"Small VLS"
-		`<CN-8422>` 54
+		`"Nettle" KKV` 54
 		"Green Optical Laser"
 
 		"Ultracapacitor Bank"
@@ -1298,7 +1298,7 @@ ship "Prismaios"
 		"Optical Lasing Generator"
 		"Optical Laser Rifle" 6
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1357,7 +1357,7 @@ ship "Prismaios" "Prismaios (Laserstar)"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 6
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor" 2
 		"Remass Injector"
 		"R-360 RCS Thrusters"
@@ -1375,7 +1375,7 @@ ship "Prismaios" "Prismaios (Orchid)"
 		"Speckle Turret" 2
 		"Speck Round" 4800
 		"External Launch Tube" 2
-		`<CN-8426>` 12
+		`"Orchid" Nuclear Missile` 12
 
 		"Ultracapacitor Bank"
 		"Diffuse Deflector"
@@ -1384,7 +1384,7 @@ ship "Prismaios" "Prismaios (Orchid)"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 6
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1435,7 +1435,7 @@ ship "Interferos"
 		"Optical Lasing Generator"
 		"Magnetic Scoop"
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector"
 		"R-180 RCS Thrusters"
@@ -1489,14 +1489,14 @@ ship "Interferos" "Interferos (KKV)"
 	outfits
 		"Green Optical Laser"
 		"Medium VLS" 2
-		`<CN-8422>` 216
+		`"Nettle" KKV` 216
 
 		"Ultracapacitor Cell" 3
 		"Diffuse Deflector"
 		"Optical Lasing Generator"
 		"Magnetic Scoop"
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector"
 		"R-180 RCS Thrusters"
@@ -1511,14 +1511,14 @@ ship "Interferos" "Interferos (Orchid)"
 	outfits
 		"Green Optical Laser"
 		"External Launch Tube" 4
-		`<CN-8426>` 24
+		`"Orchid" Nuclear Missile` 24
 
 		"Ultracapacitor Cell" 3
 		"Diffuse Deflector"
 		"Optical Lasing Generator"
 		"Magnetic Scoop"
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector"
 		"R-180 RCS Thrusters"
@@ -1566,7 +1566,7 @@ ship "Diaspersi"
 	outfits
 		"Green Optical Laser" 2
 		"Medium VLS" 2
-		`<CN-8422>` 216
+		`"Nettle" KKV` 216
 		
 		"Ultracapacitor Bank"
 		"Diffuse Deflector"
@@ -1577,7 +1577,7 @@ ship "Diaspersi"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 36
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1658,9 +1658,9 @@ ship "Diaspersi" "Diaspersi (Orchid)"
 		"Speckle Turret"
 		"Speck Round" 2400
 		"External Launch Tube" 2
-		`<CN-8426>` 12
+		`"Orchid" Nuclear Missile` 12
 		"Ophrys Stockpile" 3
-		`<CN-8425>` 36
+		`"Ophrys" Nuclear Torpedo` 36
 		
 		"Ultracapacitor Bank"
 		"Diffuse Deflector"
@@ -1671,7 +1671,7 @@ ship "Diaspersi" "Diaspersi (Orchid)"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 36
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1691,7 +1691,7 @@ ship "Diaspersi" "Diaspersi (UREB)"
 		"UREB Turret"
 		"Green Optical Laser" 2
 		"Small VLS"
-		`<CN-8422>` 54
+		`"Nettle" KKV` 54
 		
 		"Ultracapacitor Bank"
 		"Specular Deflector"
@@ -1702,7 +1702,7 @@ ship "Diaspersi" "Diaspersi (UREB)"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 36
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-360 RCS Thrusters"
@@ -1756,7 +1756,7 @@ ship "Refraktos"
 		"Heatsink Partition" 3
 		"Optical Laser Rifle" 24
 		
-		`<CN-8424>`
+		`Z-666 "Zap" Fusion Torch`
 		"Inductive Extractor" 5
 		"Remass Injector" 1
 		"R-360 RCS Thrusters"
@@ -1831,7 +1831,7 @@ ship "Refraktos" "Refraktos (UREB)"
 		"Heatsink Partition" 3
 		"Optical Laser Rifle" 24
 		
-		`<CN-8424>`
+		`Z-666 "Zap" Fusion Torch`
 		"Inductive Extractor" 5
 		"Remass Injector" 1
 		"R-360 RCS Thrusters"
@@ -1860,7 +1860,7 @@ ship "Refraktos" "Refraktos (Excimer)"
 		"Heatsink Partition"
 		"Optical Laser Rifle" 24
 		
-		`<CN-8424>`
+		`Z-666 "Zap" Fusion Torch`
 		"Inductive Extractor" 5
 		"Remass Injector" 1
 		"R-360 RCS Thrusters"
@@ -1909,7 +1909,7 @@ ship "Difraktos"
 		"Speckle Turret" 4
 		"Speck Round" 9600
 		"Medium VLS" 2
-		`<CN-8422>` 216
+		`"Nettle" KKV` 216
 
 		"Lantern Fission Core"
 		"Ultracapacitor Bank"
@@ -1920,7 +1920,7 @@ ship "Difraktos"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 42
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-180 RCS Thrusters"
@@ -1992,7 +1992,7 @@ ship "Difraktos" "Difraktos (KKV)"
 		"Speckle Turret" 2
 		"Speck Round" 4800
 		"Medium VLS" 4
-		`<CN-8422>` 432
+		`"Nettle" KKV` 432
 
 		"Ultracapacitor Bank"
 		"Diffuse Deflector"
@@ -2002,7 +2002,7 @@ ship "Difraktos" "Difraktos (KKV)"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 42
 		
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-180 RCS Thrusters"
@@ -2025,7 +2025,7 @@ ship "Difraktos" "Difraktos (Orchid)"
 		"Speckle Turret" 2
 		"Speck Round" 9600
 		"External Launch Tube" 4
-		`<CN-8426>` 24
+		`"Orchid" Nuclear Missile` 24
 
 		"Ultracapacitor Bank"
 		"Specular Deflector"
@@ -2035,7 +2035,7 @@ ship "Difraktos" "Difraktos (Orchid)"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 42
 
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 		"Inductive Extractor"
 		"Remass Injector" 2
 		"R-180 RCS Thrusters"
@@ -2059,7 +2059,7 @@ ship "Difraktos" "Difraktos (Orchid)"
 
 ship "Difraktos" "Difraktos (UREB + Orchid)"
 	outfits
-		`<CN-8426>` 24
+		`"Orchid" Nuclear Missile` 24
 		"Concealment Lamina"
 		"External Launch Tube" 4
 		"Green Optical Laser" 2
@@ -2076,7 +2076,7 @@ ship "Difraktos" "Difraktos (UREB + Orchid)"
 		"Specular Deflector"
 		"UREB Turret" 2
 		"Ultracapacitor Bank"
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 
 	gun
 	gun "External Launch Tube"
@@ -2110,7 +2110,7 @@ ship "Difraktos" "Difraktos (UREB)"
 		"Specular Deflector"
 		"UREB Turret" 4
 		"Ultracapacitor Bank" 2
-		`<CN-8423>`
+		`Z-333 "Spark" Fusion Torch`
 
 	turret "UREB Turret"
 	turret "UREB Turret"
@@ -2158,7 +2158,7 @@ ship "Atenuatia"
 		"Blue Optical Laser" 2
 		"Green Optical Laser" 3
 		"Medium VLS" 2
-		`<CN-8422>` 216
+		`"Nettle" KKV` 216
 		
 		"Ultracapacitor Bank" 3
 		"Specular Deflector"
@@ -2168,7 +2168,7 @@ ship "Atenuatia"
 		"Magnetic Scoop"
 		"Optical Laser Rifle" 90
 		
-		`<CN-8424>`
+		`Z-666 "Zap" Fusion Torch`
 		"Inductive Extractor" 3
 		"Remass Injector" 3
 		"R-720 RCS Thrusters"
@@ -2306,9 +2306,9 @@ ship "Atenuatia" "Atenuatia (Orchid)"
 		"Blue Optical Laser" 2
 		"Green Optical Laser" 2
 		"External Launch Tube" 2
-		`<CN-8426>` 12
+		`"Orchid" Nuclear Missile` 12
 		"Ophrys Stockpile" 3
-		`<CN-8425>` 36
+		`"Ophrys" Nuclear Torpedo` 36
 		
 		"Ultracapacitor Bank"
 		"Specular Deflector"
@@ -2317,7 +2317,7 @@ ship "Atenuatia" "Atenuatia (Orchid)"
 		"Multispectral Scanner" 6
 		"Optical Laser Rifle" 90
 		
-		`<CN-8424>`
+		`Z-666 "Zap" Fusion Torch`
 		"Inductive Extractor" 2
 		"Remass Injector" 4
 		"R-720 RCS Thrusters"
@@ -2486,7 +2486,7 @@ ship "Photikon"
 ship "Photikon" "Photikon (KKV)"
 	outfits
 		"Small VLS"
-		`<CN-8422>` 54
+		`"Nettle" KKV` 54
 		
 		"Concentrating Solar Array"
 		"Ultracapacitor Cell" 3
@@ -2498,7 +2498,7 @@ ship "Photikon" "Photikon (KKV)"
 ship "Photikon" "Photikon (Ophrys)"
 	outfits
 		"External Launch Rail" 3
-		`<CN-8425>` 3
+		`"Ophrys" Nuclear Torpedo` 3
 		
 		"Concentrating Solar Array"
 		"Ultracapacitor Cell" 3
@@ -2601,7 +2601,7 @@ ship "Undulon"
 			"hit force" 90
 	outfits
 		"External Launch Tube"
-		`<CN-8426>` 6
+		`"Orchid" Nuclear Missile` 6
 
 		"Concentrating Solar Cell" 3
 		"Ultracapacitor Cell"

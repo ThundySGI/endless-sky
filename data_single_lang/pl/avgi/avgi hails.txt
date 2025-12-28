@@ -1,0 +1,1119 @@
+# Copyright (c) 2023 by Azure
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# Avgi hails
+
+phrase "friendly avgi"
+	phrase
+		"avgi warm greetings" 6
+		"avgi cold greetings"
+		"avgi warnings" 3
+		"avgi complaints"
+		"avgi questions" 3
+		"avgi commerce" 9
+
+phrase "hostile avgi"
+	phrase
+		"avgi cold greetings"
+		"avgi angry" 3
+
+phrase "friendly disabled avgi"
+	phrase
+		"avgi friendly help"
+	word
+		", "
+	phrase
+		"podaj grzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled avgi"
+	phrase
+		"avgi angry help"
+	word
+		", "
+	phrase
+		"podaj niegrzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+# Twilight Guard hails
+
+phrase "friendly twilight guard"
+	phrase
+		"avgi warm greetings"
+		"twilight guard greeting" 3
+		"avgi warnings" 3
+
+phrase "hostile twilight guard"
+	phrase
+		"twilight guard angry" 3
+		"avgi remembrance"
+
+phrase "friendly disabled twilight guard"
+	phrase
+		"avgi friendly help"
+		"twilight guard friendly help"
+	word
+		", "
+	phrase
+		"podaj grzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled twilight guard"
+	phrase
+		"avgi angry help"
+	word
+		", "
+	phrase
+		"podaj niegrzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+# Dissonance hails
+
+phrase "friendly dissonance"
+	phrase
+		"dissonance warm greetings" 3
+		"dissonance warnings" 6
+
+phrase "hostile dissonance"
+	phrase
+		"dissonance angry"
+		"avgi angry"
+
+phrase "friendly disabled dissonance"
+	phrase
+		"avgi friendly help"
+	word
+		", "
+	phrase
+		"dysonans uprzejma nazwa gracza"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled dissonance"
+	phrase
+		"avgi angry help"
+	word
+		", "
+	phrase
+		"dysonansowa niegrzeczna nazwa gracza"
+	word
+		"."
+		"!"
+
+
+phrase "avgi polite playername"
+	word
+		"obcy"
+		"znajomy"
+		"daleko"
+		"kolega"
+		"zagraniczny"
+		"międzyplanetarny"
+		"międzygwiezdny"
+		"rodzaj"
+		"spacja"
+		"gwiazdka" 12
+		"gwiazdowy"
+		"zaufany"
+	word
+		" "
+	word
+		"wszyscy"
+		"ambasador"
+		"wysłannik"
+		"eksplorator"
+		"przyjaciel"
+		"nowicjusz"
+		"osoba z zewnątrz"
+		"mądry"
+		"wyszukiwarka"
+		"poszukiwacz"
+		"przybysz"
+		"sophont"
+		"podróżnik"
+		"odwiedzający"
+		"podróżnik"
+		"wędrowiec"
+
+
+phrase "avgi rude playername"
+	word
+		"przeklęty"
+		"niebezpieczne"
+		"obrzydliwe"
+		"niezaufany"
+		"wrogi"
+		"leniwy"
+		"kłamie"
+		"nieprzyjemny zapach"
+		"złowieszczy"
+		"żałosne"
+		"bezlitosny"
+		"bezwzględny"
+		"śmierdzący"
+		"dziwne"
+		"podejrzane"
+		"straszne"
+		"nieznany"
+		"pechowy"
+		"nienaturalne"
+		"niegodny zaufania"
+		"niegodny"
+		"dziwne"
+	word
+		" "
+	word
+		"obcy"
+		"cudzoziemiec"
+		"oszust"
+		"forma życia"
+		"wścibski"
+		"osoba z zewnątrz"
+		"dziwny"
+		"nieznajomy"
+		"kseno"
+
+
+phrase "dissonance polite playername"
+	word
+		"kolega"
+		"obcy"
+		"zaufany"
+		"mało prawdopodobne"
+	word
+		" "
+	word
+		"wszyscy"
+		"asystent"
+		"towarzyszu"
+		"dysydent"
+		"dysydent"
+		"przyjaciel"
+		"wspierający"
+
+
+phrase "dissonance rude playername"
+	word
+		"obcy"
+		"autorytarny"
+		"niebezpieczne"
+		"bezlitosny"
+		"statysta"
+		"kradzież"
+		"zdrajca"
+	word
+		" "
+	word
+		"wróg"
+		"oszust"
+		"pomocnik"
+		"wścibski"
+		"ciemiężyciel"
+		"złodziej"
+		"zdrajca"
+		"kseno"
+
+
+phrase "avgi warm acknowledgment"
+	word
+		"Podziękowanie"
+		"Można dostosować"
+		"Polubowne"
+		"Och"
+		"Ciekawość"
+		"Podniecenie"
+		"Szczęście"
+		"Pośpiesznie"
+		"Inspirowane"
+		"Odsetki"
+		"Jowialny"
+		"Radość"
+		"Nowość"
+		"Uprzejmy"
+		"Receptywny"
+		"Zarezerwowane"
+		"Szacunek"
+		"Czcigodny"
+		"Towarzyski"
+		"Powitanie"
+	word
+		". "
+		"; "
+	word
+		"Potwierdzono"
+		"Pogoda dobra"
+		"Sprzyjające wiatry"
+		"Szczęście"
+		"Witam"
+		"Witaj"
+		"Poznaję cię"
+		"Przyjmuję cię"
+		"Obyś znalazł radość"
+		"Rozpoznano"
+		"Pozdrowienia"
+		"Witamy w naszej przestrzeni"
+		"Witamy"
+		"Dobrze poznany"
+		"Zostałeś/aś potwierdzony/a"
+
+
+phrase "avgi cold acknowledgment"
+	word
+		"Gniew"
+		"Pogarda"
+		"Wstręt"
+		"Nieufność"
+		"Strach"
+		"Wrogi"
+		"Pośpiesznie"
+		"Niepocieszony"
+		"Nerwowy"
+		"Zarezerwowane"
+		"Podejrzenie"
+		"Niepewne"
+		"Ostrożnie"
+	word
+		". "
+		"; "
+	word
+		"Potwierdzono"
+		"Precz"
+		"Uwaga"
+		"Nie podchodź bliżej"
+		"Nie przychodź dalej"
+		"Niech cię diabli wezmą"
+		"Widzę cię takim, jakim jesteś"
+		"Zachowaj dystans"
+		"Otrzymano"
+		"Rozpoznano"
+		"Pozostań na miejscu"
+		"Trzymaj się ode mnie z daleka"
+		"Trzymaj się z daleka"
+		"Zostałeś/aś potwierdzony/a"
+		"Otrzymano"
+
+
+phrase "avgi warm greetings"
+	phrase
+		"avgi warm acknowledgment"
+	word
+		", "
+	phrase
+		"podaj grzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+phrase "avgi cold greetings"
+	phrase
+		"avgi cold acknowledgment"
+	word
+		", "
+	phrase
+		"podaj niegrzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+phrase "dissonance warm greetings"
+	phrase
+		"avgi warm acknowledgment"
+	word
+		", "
+	phrase
+		"dysonans uprzejma nazwa gracza"
+	word
+		"."
+		"!"
+
+phrase "dissonance cold greetings"
+	phrase
+		"avgi cold acknowledgment"
+	word
+		", "
+	phrase
+		"dysonansowa niegrzeczna nazwa gracza"
+	word
+		"."
+		"!"
+
+phrase "twilight guard greeting"
+	phrase
+		"avgi warm acknowledgment"
+	word
+		", "
+	phrase
+		"podaj grzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+
+phrase "avgi warnings"
+	word
+		"Porada"
+		"Zalecane"
+		"Ostrożnie"
+		"Uwaga"
+		"Niebezpieczeństwo"
+		"Podkreślenie"
+		"Przewodnictwo"
+		"Ważne"
+		"Wgląd"
+		"Poważne"
+		"Czujność"
+	word
+		". "
+		"; "
+	word
+		"Uważaj na"
+		"Uważaj na"
+		"Uważaj na"
+		"Uważaj na"
+	word
+		" "
+	word
+		"gubiąc się w Splątaniach" 3
+		"gubiąc się" 3
+		"utknąć" 3
+		"tchórzliwi piraci" 2
+		"stworzenia ciemności"
+		"stworzenia nocy"
+		"Piraci dysonansu" 6
+		"wrodzy kosmici" 3
+		"ludobójczy obcy" 3
+		"rządowi złodzieje"
+		"wrogie stworzenia" 3
+		"dyktatury wojskowe"
+		"piraci i pijawki" 2
+		"brakuje paliwa" 3
+		"potwory cienia" 2
+		"zaplątując się w hiperpasy" 3
+		"poborcy podatkowi" 3
+		"aberracje" 12
+		"Aberrant" 6
+		"najeźdźcy" 6
+		"najeźdźcy z kosmosu" 6
+		"tablica logistyczna"
+		"bogaci i potężni" 2
+		"Tłumiki"
+		"ci z Inwazji" 3
+		"zdradliwi tchórze dysonansu" 6
+		"niewdzięczni dysydenci" 2
+		"niewdzięczne pasożyty" 2
+		"niesprawiedliwa kontrola cen"
+	word
+		", "
+	phrase
+		"podaj grzeczną nazwę gracza"
+	word
+		"."
+		"!"
+
+
+phrase "dissonance warnings"
+	word
+		"Porada"
+		"Zalecane"
+		"Ostrożnie"
+		"Uwaga"
+		"Niebezpieczeństwo"
+		"Podkreślenie"
+		"Przewodnictwo"
+		"Ważne"
+		"Wgląd"
+		"Poważne"
+	word
+		". "
+		"; "
+	word
+		"Uważaj na"
+		"Sprzeciwiać się"
+		"Uważaj na"
+		"Uważaj na"
+		"Nie ufaj"
+		"Uważaj na"
+		"Nie ufaj"
+		"Uważaj na"
+	word
+		" "
+	word
+		"ten "
+	word
+		"biurokratyczny"
+		"nadmierne"
+		"uciskający"
+		"narzucający się"
+		"nadmiernie wpływowy"
+		"tyrański"
+		"nierozliczalny"
+		"nie do zniesienia"
+		"niesprawiedliwe"
+		"nieograniczony"
+		"pasożytniczy"
+		"autorytarny"
+	word
+		" "
+	word
+		"Zespół"
+		"Zgodność"
+		"środki nadzwyczajne"
+		"rząd"
+		"tablica logistyczna"
+		"kontrola cen"
+		"przepisy"
+		"Tłumiki"
+		"Straż Zmierzchu"
+		"stan wyjątkowy"
+		"taryfy"
+		"poborcy podatkowi"
+		"podatki"
+		"gospodarka wojenna"
+	word
+		"."
+
+phrase "avgi complaints"
+	word
+		"Gniew"
+		"Irytacja"
+		"Pogarda"
+		"Frustracja"
+		"Pasja"
+	word
+		". "
+		"; "
+	word
+		"Tchórzliwy"
+		"Nieuczciwy"
+		"Dysonans" 6
+		"Nieświadomy"
+		"Niekompetentny"
+		"Nierozważny"
+		"Leniwy"
+		"Zaniedbany"
+		"Egoistyczny"
+		"Nieżyczliwy"
+		"Niewdzięczny"
+		"Nieodwzajemnione"
+		"Bezwartościowy"
+	word
+		" "
+	word
+		"dysydenci"
+		"dysydenci"
+		"pijawki" 3
+		"pasożyty" 3
+		"piraci" 3
+		"rebelianci" 3
+		"robaki" 3
+	word
+		" "
+	word
+		"zaakceptuj pomoc"
+		"zaakceptuj ochronę"
+		"poproś o pomoc"
+		"poproś o ochronę"
+		"tutaj schronił się"
+		"zostały zapewnione bezpieczeństwo"
+		"zostali uratowani"
+		"zostały zapisane"
+	word
+		" "
+	word
+		"i"
+		"ale"
+		"jeszcze"
+	word
+		" "
+	word
+		"nadal oni"
+		"nadal"
+		"oni nadal"
+		"oni"
+	word
+		" "
+	word
+		"dbają tylko o siebie"
+		"brak szacunku dla naszej Straży Zmierzchu"
+		"brak szacunku dla Zgromadzenia"
+		"nie szanują nas"
+		"ukryć się w swoich placówkach"
+		"gromadzą swoje asteroidy"
+		"ignoruj nasze potrzeby"
+		"ignoruj Zgromadzenie"
+		"niech inni ich chronią"
+		"pozwól nam walczyć"
+		"zaniedbać nasze floty"
+		"zaniedbać naszą Straż Zmierzchu"
+		"dbają tylko o własne skrzydła"
+		"powstrzymaj się od pomocy"
+		"odmawiamy wzmocnienia naszej obrony"
+		"odmowa wniesienia wkładu"
+		"odmawia walki"
+		"odmawiają nam pomocy"
+		"odmawiają sprzedaży swoich minerałów"
+		"odmówić służby"
+		"odmówić pracy"
+		"brać bez dawania"
+		"nie będzie się przyczyniać"
+		"nie pomoże uwolnić naszych krewnych"
+		"nie pomoże odzyskać naszych domów"
+		"nie pomoże w wojnie"
+		"nie zapisze innych Avgi"
+		"nie wesprze wysiłku wojennego"
+		"martwią się tylko o siebie"
+	word
+		"."
+		"!"
+		", złość!"
+
+
+phrase "avgi questions"
+	word
+		"Zdezorientowany"
+		"Ciekawe"
+		"Zapytanie"
+		"Śledczy"
+		"Pytanie"
+		"Pytanie"
+		"Kontrola"
+		"Szukanie"
+		"Szukam"
+	word
+		". "
+		"; "
+	word
+		"Powiedz nam"
+		"Edukuj nas"
+		"Oświec nas"
+		"Poinformuj nas"
+		"Proszę nam powiedzieć"
+		"Podziel się z nami"
+		"Powiedz nam"
+	word
+		", "
+	phrase
+		"podaj grzeczną nazwę gracza"
+	word
+		", "
+	word
+		"ciekawostka"
+		"czy kosmici są prawdziwi"
+		"czy broń atomowa jest zakazana na światach ludzi"
+		"wiele gatunków ma ze sobą kontakt"
+		"czy megastruktury są możliwe"
+		"czy rasy galaktyki są przyjazne"
+		"czy w pobliżu naszej znajdują się jakieś obce cywilizacje"
+		"czy istnieją jakieś ptasiopodobne istoty pozaziemskie"
+		"czy istnieją jakieś cywilizacje inteligentnych maszyn"
+		"czy istnieją rasy silniejsze od ludzkości"
+		"czy istnieją jakieś narody gwiezdne wielu gatunków"
+		"czy w galaktyce są inni kosmici"
+		"czy możliwe są tunele czasoprzestrzenne, przez które można przejść"
+		"czy jesteś wielkim wojownikiem"
+		"czy ty w ogóle jesteś prawdziwym kosmitą"
+		"czy knujesz przeciwko nam"
+		"czy Twoje stawki podatkowe są niższe od naszych"
+		"czy możesz pomóc naszym badaczom"
+		"czy możesz mi pomóc z tym zadaniem domowym"
+		"czy możesz mi pomóc w tym projekcie badawczym"
+		"czy zostawiłeś włączoną kuchenkę"
+		"czy kosmici wyglądają jak przeciętnie morficzne życie Aviskirów"
+		"czy ludzie edytują swoje genomy"
+		"czy ludzie mają więzi rodzinne"
+		"czy ludzie używają broni jądrowej"
+		"czy protony się rozpadają"
+		"czy podobają ci się nasze statki"
+		"czy ktoś egzekwuje pokój wśród gwiazd"
+		"czy ktoś mieszka w jądrze galaktyki"
+		"czy ktoś żyje poza galaktyką"
+		"czy ludzkość ma sposób na wydajniejszą produkcję antymaterii"
+		"czy ludzkość ma jakieś oporne materiały nadprzewodzące"
+		"czy ludzkość ma jakieś nierozwiązane problemy w fizyce"
+		"czy ludzkość postrzega nas jako zagrożenie"
+		"czy w galaktyce panuje pokój"
+		"czy istnieje Stwórca"
+		"czy podoba ci się moja własna ludzka poezja"
+		"jak długo podróżowałeś po gwiazdach"
+		"czy jakakolwiek cywilizacja prowadziła wojnę ze swoimi sąsiadami"
+		"czy któryś gatunek prowadził wojnę z innym"
+		"czy ktoś zbudował Świat Dysku"
+		"czy ktoś zbudował pierścień światowy"
+		"czy ktoś zbudował jakieś megastruktury"
+		"czy ktoś załączył słońce"
+		"czy ktoś kiedykolwiek był w innej galaktyce"
+		"czy ktoś wykorzystał moc całej gwiazdy"
+		"czy ktoś badał kwestię kompatybilności z kseno?"
+		"czy ludzkość odkryła jakieś stabilne pierwiastki superciężkie"
+		"czy ludzkość znalazła źródło energii wykraczające poza fuzję"
+		"czy kosmici nas porywają"
+		"czy kosmici nas obserwują"
+		"czy kosmici odwiedzili nas wcześniej"
+		"czy wyginął jakiś inteligentny gatunek"
+		"czy od dawna wiesz o naszym istnieniu"
+		"czy spotkałeś innych kosmitów"
+		"jak zaawansowane są inne gatunki galaktyki"
+		"jak zaawansowana jest ludzka nanotechnologia"
+		"jak zaawansowana jest ludzkość"
+		"jak naprawdę działają repulsory grawitacyjne"
+		"jak naprawdę działa hipernapęd"
+		"jak dobre są ludzkie komputery"
+		"ilu kosmitów zabiłeś"
+		"ile cywilizacji jest w galaktyce"
+		"ile rządów rządzi ludzkością"
+		"ilu jest ludzi"
+		"ile ludzi żyje w siedliskach orbitalnych"
+		"ilu ludzi żyje na twojej ojczystej planecie"
+		"ilu ludzi nadal interesuje się planetami"
+		"ile broni jądrowej posiada ludzkość"
+		"ilu innych kosmitów spotkałeś"
+		"ile jest innych gatunków"
+		"na ilu gwiazdach rozprzestrzeniła się ludzkość"
+		"ile światów jest w galaktyce"
+		"czy ludzkość jest pokojową rasą"
+		"czy ludzkość jest gatunkiem pokojowym"
+		"czy ludzkość jest rasą wojowniczą"
+		"czy ludzkość należy do najsilniejszych cywilizacji"
+		"czy ludzkość jest największą z ras"
+		"czy ludzkość jest najbardziej zaawansowanym gatunkiem"
+		"czy możliwe jest tworzenie nowych tras gwiezdnych"
+		"czy możliwe jest zniszczenie gwiazdy"
+		"czy nasz model fizyki jest poprawny"
+		"czy galaktyka jest wielkim Mrocznym Lasem"
+		"czy wszechświat jest symulacją"
+		"czy istnieje Wielki Filtr"
+		"czy istnieje wielka społeczność galaktyczna"
+		"czy istnieje wielka rada galaktyczna"
+		"czy istnieje płaszczyzna wyższa niż ta rzeczywistość"
+		"czy istnieje sposób na podróż poza szlaki gwiezdne"
+		"czy w galaktyce panuje jakiś wielki kryzys"
+		"czy jest ktoś w galaktyce, kto może nam pomóc"
+		"czy w galaktyce jest światło i nadzieja"
+		"czy podróże w czasie są możliwe"
+		"coś ciekawego o sobie"
+		"czy urodziłeś się na swojej ojczystej planecie"
+		"co stworzyło pustkowie na wschodzie"
+		"jak nazywasz galaktykę"
+		"co myślisz o naszej cywilizacji"
+		"co myślisz o naszym rządzie"
+		"co myślisz o naszych siedliskach"
+		"co myślisz o naszych strojach"
+		"co myślisz o naszych statkach"
+		"co myślisz o naszym społeczeństwie"
+		"co myślisz o naszej technologii"
+		"co myślisz o naszych światach"
+		"jaki system ekonomiczny stosują ludzie"
+		"jaki materiał ludzki może wytrzymać najwięcej ciepła"
+		"jak wygląda ojczysty świat ludzkości"
+		"z czego wykonana jest kostka Allios"
+		"co to jest Wielki Filtr"
+		"jaka jest największa tajemnica galaktyki"
+		"jaki jest materiał ogniotrwały o najwyższej temperaturze"
+		"jak wygląda ludzki rząd"
+		"co jest najwspanialszą rzeczą wśród gwiazd"
+		"jaki jest najmocniejszy materiał, jaki odkryła ludzkość"
+		"jaki jest twój ulubiony kolor"
+		"jaka jest historia twojego życia"
+		"jaki system rządów rządzi ludzkością"
+		"którzy kosmici są najbliżej nas"
+		"który jest największy wśród gatunków"
+		"kim są nasi galaktyczni sąsiedzi"
+		"kto jest najsilniejszą rasą galaktyki"
+		"kto miał rację w naszej dyskusji, mój przyjacielu czy ja"
+		"dlaczego galaktyka nie została całkowicie zasiedlona"
+		"dlaczego wcześniej nie odwiedzili nas kosmici"
+		"dlaczego możliwa jest podróż szybsza niż prędkość światła"
+		"czy ktoś uratuje nas przed naszym losem"
+		"czy podzielisz się wiedzą ludzkości"
+		"czy udostępnisz nam swoją technologię"
+	word
+		"?"
+		", pytanie?"
+
+
+phrase "avgi commerce"
+	phrase
+		"avgi commerce win"
+		"avgi commerce loss"
+		"avgi commerce neutral"
+
+phrase "avgi commerce win"
+	word
+		"Podniecenie"
+		"Szczęśliwy"
+		"Radość"
+		"Entuzjazm"
+	word
+		". "
+		"; "
+	word
+		"Czy wiesz, że fosfor w ogóle nie podlega opodatkowaniu?"
+		"Odkryłem asteroidę z bogatą żyłą platyny. Nikomu nie powiem gdzie!"
+		"Wczoraj odkryłem nową żyłę rudy!"
+		"Znalazłem nową trasę przez Tangles. Consonance zapłaci za nią miliony!"
+		"Zdobyłem ten statek za bezcen zaledwie tydzień temu. Teraz mogę podróżować po gwiazdach!"
+		"Słyszałem, że Straż Zmierzchu pokonała wczoraj rajd Aberrantów. Wkrótce będziemy mogli odesłać ich tam, skąd przyszli!"
+		"Osiągnąłem ogromny zysk na handlu kontraktami terminowymi na żelazo!"
+		"Straż Zmierzchu właśnie ochroniła mój konwój przed atakiem Aberrantów."
+		"Straż Zmierzchu uratowała mój statek przed piratem Dissonance w zeszłym tygodniu."
+		"Ta bryłka rudy wpadła dziś na mój statek. Okazało się, że to czysty beryl!"
+		"Okazuje się, że mieszkańcy Peripherii zapłacą dużo za świeże owoce."
+	word
+		" "
+	word
+		"Nie mogę się doczekać jutra!"
+		"Mam nadzieję, że to wszystko potrwa."
+		"Cieszę się, że jesteśmy tu bezpieczni."
+		"Życie jest wspaniałe."
+		"Sprawy zaczynają się poprawiać!"
+
+
+phrase "avgi commerce loss"
+	word
+		"Gniew"
+		"Rozczarowanie"
+		"Wstręt"
+		"Beznadziejny"
+		"Nieszczęście"
+		"Smutek"
+	word
+		". "
+		"; "
+	word
+		"Straciłem miesięczną pensję przez nieudaną transakcję. Teraz mogę stracić wszystko."
+		"Straciłem cały swój zysk z powodu podatków awaryjnych."
+		"Nie da się zarobić na tych podatkach. Po co zawracać sobie głowę handlem?"
+		"Kontrola cen żelaza kosztowała mnie wszystko."
+		"Consonance powiedziało mi, że nie mogę przejść na emeryturę, ponieważ limity palladu nadal nie zostały osiągnięte."
+		"Te podatki uniemożliwiają przetrwanie, nie mówiąc już o zainwestowaniu w nowy statek."
+		"Utrzymanie tego statku jest o wiele za drogie."
+	word
+		" "
+	word
+		"Nigdy na to nie głosowałem."
+		"Nigdy nie prosiłem Zgromadzenia, aby mówiło nam, co mamy robić."
+		"Chciałbym, żeby było inaczej."
+		"Ktoś musi coś zrobić."
+		"Trzeba coś zrobić."
+		"Coś musi się zmienić."
+		"Zgromadzenie to idioci."
+		"Gospodarka byłaby w lepszej kondycji, gdyby pozwolono na wzrost cen metali."
+		"Pierwszy mówca jest idiotą."
+		"Kontrola cen i limity muszą zostać zniesione."
+		"Wojnę można wygrać bez tych absurdalnych środków."
+		"To nie jest to, czego potrzebujemy, żeby wygrać wojnę."
+		"Zasługujemy na coś lepszego."
+		"Dlaczego towarów nie można sprzedawać z zyskiem?"
+		"Dlaczego sprawy nie mogą być inne, pytanie?"
+
+
+phrase "avgi commerce neutral"
+	word
+		"Rozwiąż"
+		"Poważne"
+		"Nadzieja"
+		"Śmiałość"
+		"Odwaga"
+		"Cel"
+		"Intencja"
+	word
+		". "
+		"; "
+	word
+		"Teraz, gdy mam własny statek, mogę uciekać, gdy Aberracje po nas przyjdą."
+		"Z tym statkiem mogę pomóc bronić naszego schronienia. Pewnego dnia pomogę odbić Aviskir!"
+		"Jutro dołączę do Straży Zmierzchu. Potrzebują tylu skrzydeł, ile się da."
+		"Tylko głupiec żyłby bez własnego statku."
+		"Jeśli sprzedam ten statek, będę mógł w końcu spokojnie przejść na emeryturę."
+		"Jeśli nie możemy uciekać, mogę się ukryć. Ktoś powiedział mi o grupie, która ukrywa się w Tangles. Powinienem ich poszukać."
+		"Słyszałem o niezależnej grupie ukrywających się, ani Consonance, ani Dissonance. Są przygotowani na to, co nadchodzi."
+		"Słyszałem, że grupa wyruszyła przed Inwazją, by ukryć się przed egzystencjalnymi zagrożeniami. Muszę do nich dołączyć."
+		"Ta wojna nie zostanie wygrana bez ludzi takich jak ja."
+
+
+phrase "avgi friendly help"
+	word
+		"Pilne"
+		"Błagając"
+		"Alarm"
+	word
+		". "
+		"; "
+	word
+		"Proszę"
+		"Pytam cię"
+		"Błagam cię"
+		"Przysługa,"
+		"Przychylność dla nas,"
+		"Być może mógłbyś"
+		"Bylibyśmy wdzięczni, gdybyś"
+	word
+		" "
+	word
+		"pomoc"
+		"pomoc"
+		"ratunek"
+		"zapisz"
+		"naprawa"
+		"naprawiono"
+		"łatanie"
+		"wsparcie"
+		"chronić"
+		"bronić"
+	word
+		" "
+	word
+		"nasz"
+		"mój"
+		"to"
+	word
+		" "
+	phrase
+		"daje cnoty"
+	word
+		" "
+	word
+		"statek"
+		"statek"
+		"statek kosmiczny"
+
+
+phrase "avgi angry help"
+	word
+		"Gniew"
+		"Wstręt"
+		"Nieufność"
+		"Strach"
+		"Wrogi"
+		"Niepocieszony"
+		"Nerwowy"
+		"Podejrzenie"
+		"Niepewne"
+		"Ostrożnie"
+	word
+		". "
+		"; "
+	word
+		"Precz"
+		"Uwaga"
+		"Nie podchodź bliżej"
+		"Nie przychodź dalej"
+		"Niech cię diabli wezmą"
+		"Widzę cię takim, jakim jesteś"
+		"Zachowaj dystans"
+		"Pozostań na miejscu"
+		"Trzymaj się ode mnie z daleka"
+		"Trzymaj się z daleka"
+
+
+phrase "twilight guard friendly help"
+	word
+		"Spokój"
+		"Dowodzenie"
+		"Błagając"
+		"Ważne"
+		"Pilne"
+	word
+		". "
+		"; "
+	word
+		"Proszę"
+		"Powinieneś"
+		"Prosimy o"
+	word
+		" "
+	word
+		"pomoc"
+		"pomoc"
+		"naprawa"
+		"naprawiono"
+		"łatanie"
+		"wsparcie"
+	word
+		" "
+	word
+		"nasz"
+		"to"
+	word
+		" "
+	word
+		"statek"
+		"statek"
+		"statek kosmiczny"
+		"okręt wojenny"
+	word
+		" "
+	word
+		"żebyśmy mogli kontynuować walkę"
+		"żebyśmy mogli bronić naszego ludu"
+		"żebyśmy mogli bronić niewinnych"
+		"żebyśmy mogli cię bronić"
+		"żebyśmy mogli wrócić do walki"
+		"aby zapewnić nam zwycięstwo"
+		"abyśmy mogli wrócić do walki"
+		"aby pomóc nam odnieść sukces"
+		"aby pomóc nam osiągnąć zwycięstwo"
+		"aby pomóc nam wygrać tę bitwę"
+		"abyśmy mogli dalej walczyć"
+		"aby nas ponownie włączyć do walki"
+	word
+		"."
+		"!"
+
+
+phrase "avgi angry"
+	word
+		"Gniew"
+		"Wstręt"
+		"Nieufność"
+		"Strach"
+		"Wrogi"
+		"Nerwowy"
+		"Podejrzenie"
+		"Niepewne"
+		"Ostrożnie"
+	word
+		". "
+		"; "
+	word
+		"Atakowanie niewinnych jest haniebne"
+		"Nie rób mi krzywdy, błagam cię"
+		"Wstrzymaj ogień"
+		"Proszę, na pokładzie są dzieci"
+		"Avgi to zapamięta"
+		"Nie chcieliśmy walczyć z drugą obcą rasą"
+		"Nie zapomnimy tego"
+		"Co robisz"
+		"Co to oznacza"
+		"Jesteś tak zły jak Aberracja"
+		"Twoje zbrodnie nie zostaną zapomniane"
+	word
+		"."
+		"!"
+	replace
+		"of this." "of this?"
+		"of this!" "of this?"
+		"you doing." "you doing?"
+		"you doing!" "you doing?"
+
+
+phrase "dissonance angry"
+	word
+		"Gniew"
+		"Wstręt"
+		"Nieufność"
+		"Strach"
+		"Wrogi"
+		"Nerwowy"
+		"Podejrzenie"
+		"Niepewne"
+		"Ostrożnie"
+	word
+		". "
+		"; "
+	word
+		"Nie jesteś niczym więcej niż"
+		"Jesteś"
+		"Niech cię diabli, "
+	word
+		" "
+	phrase
+		"dysonansowa niegrzeczna nazwa gracza"
+	word
+		"."
+		"!"
+
+
+phrase "twilight guard angry"
+	word
+		"Gniew"
+		"Sumienny"
+		"Entuzjazm"
+		"Opór"
+		"Rozwiąż"
+	word
+		", "
+		"; "
+	word
+		"Obcy, bez względu na to jak zaawansowani, nie są ponad prawem"
+		"Napaść jest nielegalna w przestrzeni Avgi"
+		"Atakowanie niewinnych jest haniebne"
+		"Atakowanie tych, którzy są pod naszą ochroną, jest wyrokiem śmierci"
+		"Morderstwo cywilów jest zbrodnią wojenną"
+		"Avgi nie tolerują morderców"
+		"Jesteś morderczym podżegaczem wojennym"
+		"Zaatakowałeś niewinnych"
+		"Zaatakowałeś Avgi Consonance"
+		"Dopuściłeś się niesprowokowanego ataku na nas"
+	word
+		". "
+	word
+		"Zaprzestań wszelkich działań i przygotuj się na wejście na pokład"
+		"Uważamy, że jesteśmy w stanie wojny"
+		"Uważaj się za cel"
+		"Zjedz ogień jądrowy"
+		"Opuść tarcze i wyłącz broń"
+		"Proszę, nie zmuszaj nas do atomizacji tej błyszczącej, obcej technologii"
+		"Przygotuj się na śmierć"
+		"Przygotuj się do bitwy"
+		"Zatrzymaj się i przygotuj prawo jazdy i dowód rejestracyjny"
+		"Przygotuj się na zagładę"
+		"Natychmiast wyłącz reaktor"
+		"Natychmiast poddaj swój statek"
+		"Poczuj atomowy ogień"
+		"Skosztuj tęczy"
+		"To twoja ostatnia szansa na poddanie się"
+		"To oznacza wojnę"
+		"Wyłącz wszystkie systemy, a powstrzymamy się od zniszczenia cię"
+		"Jesteśmy teraz w stanie wojny"
+		"Oferujemy hojne warunki wykupu"
+		"Zniszczymy cię"
+		"Wyeliminujemy cię"
+		"Zostaniesz rozpylony"
+		"Zostaniesz zniszczony"
+		"Zostaniesz wyeliminowany"
+		"Zostaniesz sprowadzony do popiołu i płomieni"
+		"Zostaniesz zredukowany do gorącej pary"
+		"Zostaniesz zredukowany do atomów składowych"
+	word
+		"."
+		"!"
+
+phrase "avgi remembrance"
+	word
+		"Gniew"
+		"Sumienny"
+		"Entuzjazm"
+		"Opór"
+		"Rozwiąż"
+	word
+		", "
+		"; "
+	word
+		"Walcz o "
+		"Zapamiętaj "
+		"Nigdy nie zapomnij "
+	phrase
+		"średnie miejsca"
+	word
+		"!"

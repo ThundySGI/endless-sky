@@ -1,0 +1,891 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "Wanderer Workers [0]"
+	name "Robotnicy wędrowni do <planet>"
+	job
+	repeat
+	description `Ci <bunks> robotnicy Wędrowcy potrzebują transportu do <destination>. Zapłacą ci <payment> za zabranie ich tam.`
+	passengers 5 5 .1
+	to offer
+		has "language: Wanderer"
+		random < 70
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		attributes "factory" "urban"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 10000
+		dialog phrase "generic passenger dropoff payment"
+
+mission "Wanderer Workers [1]"
+	name "Robotnicy wędrowni do <planet>"
+	job
+	repeat
+	description `Ci <bunks> robotnicy Wędrowcy potrzebują transportu do <destination>. Zapłacą ci <payment> za zabranie ich tam.`
+	passengers 5 3 .08
+	to offer
+		has "language: Wanderer"
+		random < 60
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		attributes "factory" "urban"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 15000
+		dialog phrase "generic passenger dropoff payment"
+
+mission "Wanderer Farmers [0]"
+	name "Wędrowni rolnicy do <planet>"
+	job
+	repeat
+	description `Ci <bunks> farmerzy-wędrowcy potrzebują transportu do <destination>. Zapłacą ci <payment> za zabranie ich tam.`
+	passengers 5 5 .1
+	to offer
+		has "language: Wanderer"
+		random < 70
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		attributes "farming"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 10000
+		dialog phrase "generic passenger dropoff payment"
+
+mission "Wanderer Farmers [1]"
+	name "Wędrowni rolnicy do <planet>"
+	job
+	repeat
+	description `Ci <bunks> farmerzy-wędrowcy potrzebują transportu do <destination>. Zapłacą ci <payment> za zabranie ich tam.`
+	passengers 5 3 .05
+	to offer
+		has "language: Wanderer"
+		random < 60
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		attributes "farming"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 15000
+		dialog phrase "generic passenger dropoff payment"
+
+mission "Wanderer Younglings [0]"
+	name "Młodzi wędrowcy do <planet>"
+	job
+	repeat
+	description `Te <bunks> młode Wędrowce szukają transportu do <destination>, aby dowiedzieć się więcej o procesie terraformowania Wędrowców. Dorosły, który im towarzyszy, zapłaci ci <payment>.`
+	passengers 5 8 .2
+	to offer
+		has "language: Wanderer"
+		random < 60
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 10000
+		dialog `Młodzi opuszczają twój statek i spotykają się z inną grupą Wędrowców po drugiej stronie kosmoportu. Zanim podążą za nimi, dorosły Wędrowiec dziękuje ci i wręcza <payment>.`
+
+mission "Wanderer Younglings [1]"
+	name "Młodzi wędrowcy do <planet>"
+	job
+	repeat
+	description `Te <bunks> młode Wędrowce szukają transportu do <destination>, aby dowiedzieć się więcej o procesie terraformowania Wędrowców. Dorosły, który im towarzyszy, zapłaci ci <payment>.`
+	passengers 5 5 .1
+	to offer
+		has "language: Wanderer"
+		random < 50
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 10000
+		dialog `Młodzi opuszczają twój statek i spotykają się z inną grupą Wędrowców po drugiej stronie kosmoportu. Zanim podążą za nimi, dorosły Wędrowiec dziękuje ci i wręcza <payment>.`
+
+mission "Wanderer Scientists (Pollution) [0]"
+	name "Gwałtowny wzrost zanieczyszczenia na <planet>"
+	job
+	repeat
+	description `Ci <bunks> naukowcy z Wędrowca chcą dotrzeć do <destination> ze swoim <cargo> do <date>, aby zbadać dziwny wzrost zanieczyszczeń atmosferycznych. Płatność wyniesie <payment>.`
+	passengers 4 4 .1
+	cargo "scientific equipment" 5 2 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 30
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		attributes "mining" "oil" "factory"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment 15000 180
+		dialog "Życzysz naukowcom powodzenia na <planet>, gdy wyniosą sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Scientists (Pollution) [1]"
+	name "Gwałtowny wzrost zanieczyszczenia na <planet>"
+	job
+	repeat
+	description `Ci <bunks> naukowcy z Wędrowca chcą dotrzeć do <destination> ze swoim <cargo> do <date>, aby zbadać dziwny wzrost zanieczyszczeń atmosferycznych. Płatność wyniesie <payment>.`
+	passengers 4 4 .05
+	cargo "scientific equipment" 5 2 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 20
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		attributes "mining" "oil" "factory"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment 20000 180
+		dialog "Życzysz naukowcom powodzenia na <planet>, gdy wyniosą sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Scientists (Phenomenon) [0]"
+	name "Zjawisko naturalne na <planet>"
+	job
+	repeat
+	description `Ci <bunks> naukowcy z Wędrowca chcą dotrzeć do <destination> ze swoimi <cargo> do <date>, aby zaobserwować rzadkie zjawisko naturalne. Zapłata wyniesie <payment>.`
+	passengers 4 4 .1
+	cargo "scientific equipment" 5 2 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 30
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment 15000 180
+		dialog "Życzysz naukowcom powodzenia na <planet>, gdy wyniosą sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Scientists (Phenomenon) [1]"
+	name "Zjawisko naturalne na <planet>"
+	job
+	repeat
+	description `Ci <bunks> naukowcy z Wędrowca chcą dotrzeć do <destination> ze swoimi <cargo> do <date>, aby zaobserwować rzadkie zjawisko naturalne. Zapłata wyniesie <payment>.`
+	passengers 4 4 .05
+	cargo "scientific equipment" 5 2 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 20
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment 20000 180
+		dialog "Życzysz naukowcom powodzenia na <planet>, gdy wyniosą sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Biologists [0]"
+	name "Znaleziono nowe zwierzę na <planet>"
+	job
+	repeat
+	description `Ci <bunks> biolodzy z Wędrowca chcą dotrzeć do <destination> ze swoimi <cargo>, aby zbadać niedawno odkryty gatunek zwierzęcia. Zapłata wyniesie <payment>.`
+	passengers 4 4 .1
+	cargo "scientific equipment" 5 2 .1
+	to offer
+		has "language: Wanderer"
+		random < 60
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 15000
+		dialog "Życzysz biologom powodzenia na <planet>, gdy będą wynosić sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Biologists [1]"
+	name "Znaleziono nowe zwierzę na <planet>"
+	job
+	repeat
+	description `Ci <bunks> biolodzy z Wędrowca chcą dotrzeć do <destination> ze swoimi <cargo>, aby zbadać niedawno odkryty gatunek zwierzęcia. Zapłata wyniesie <payment>.`
+	passengers 4 4 .05
+	cargo "scientific equipment" 5 2 .1
+	to offer
+		has "language: Wanderer"
+		random < 50
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog "Życzysz biologom powodzenia na <planet>, gdy będą wynosić sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Botanists [0]"
+	name "Znaleziono nową roślinę na <planet>"
+	job
+	repeat
+	description `Ci <bunks> botanicy z grupy Wędrowcy chcą dotrzeć do <destination> ze swoimi <cargo>, aby zbadać niedawno odkryty gatunek rośliny. Zapłata wyniesie <payment>.`
+	passengers 4 4 .1
+	cargo "scientific equipment" 5 2 .1
+	to offer
+		has "language: Wanderer"
+		random < 60
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 15000
+		dialog "Życzysz botanikom powodzenia w dniu <planet>, kiedy będą wynosić sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Botanists [1]"
+	name "Znaleziono nową roślinę na <planet>"
+	job
+	repeat
+	description `Ci <bunks> botanicy z grupy Wędrowcy chcą dotrzeć do <destination> ze swoimi <cargo>, aby zbadać niedawno odkryty gatunek rośliny. Zapłata wyniesie <payment>.`
+	passengers 4 4 .05
+	cargo "scientific equipment" 5 2 .1
+	to offer
+		has "language: Wanderer"
+		random < 50
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog "Życzysz botanikom powodzenia w dniu <planet>, kiedy będą wynosić sprzęt naukowy z twojego statku i przekażą ci zapłatę w wysokości <payment>."
+
+mission "Wanderer Harvest [0]"
+	name "Zbiór żywności na <planet>"
+	job
+	repeat
+	description `Przyprowadź tych <bunks> Wędrowców do <destination>, aby pomogli w zbiorach żywności. Zapłata wynosi <payment>.`
+	passengers 5 3 .02
+	to offer
+		has "language: Wanderer"
+		random < 50
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		attributes "farming"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 15000
+		dialog "Życzysz Wędrowcom powodzenia w dniu <planet> i odbierasz zapłatę w wysokości <payment>."
+
+mission "Wanderer Harvest [1]"
+	name "Zbiór żywności na <planet>"
+	job
+	repeat
+	description `Przyprowadź tych <bunks> Wędrowców do <destination>, aby pomogli w zbiorach żywności. Zapłata wynosi <payment>.`
+	passengers 5 3 .01
+	to offer
+		has "language: Wanderer"
+		random < 40
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		attributes "farming"
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog "Życzysz Wędrowcom powodzenia w dniu <planet> i odbierasz zapłatę w wysokości <payment>."
+
+mission "Wanderer Invasive Species [0]"
+	name "Kwarantanna gatunku inwazyjnego"
+	job
+	repeat
+	description `Ci <bunks> Wędrowcy muszą dotrzeć do <stopovers> ze swoimi <cargo>, aby powstrzymać inwazyjny gatunek zwierząt. Zwróć Wędrowców do <origin> ze zwierzętami do <date> za opłatą <payment>.`
+	passengers 4 4 .1
+	cargo "containers" 5 2 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 30
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	stopover
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on stopover
+		dialog `Wędrowcy szybko opuszczają twój statek z wyposażeniem, by powstrzymać inwazyjne zwierzęta. Po około godzinie wracają na twój statek z klatkami, które umieszczają w ładowni. Teraz wróć do <origin> po zapłatę.`
+	on visit
+		dialog phrase "generic missing stopover or cargo and passengers"
+	on complete
+		payment 25000 200
+		dialog `Po uwolnieniu zwierząt, <bunks> Wędrowcy dziękują ci za pomoc w ich zwróceniu <planet> i wręczają ci <payment>.`
+
+mission "Wanderer Invasive Species [1]"
+	name "Kwarantanna gatunku inwazyjnego"
+	job
+	repeat
+	description `Ci <bunks> Wędrowcy muszą dotrzeć do <stopovers> ze swoimi <cargo>, aby powstrzymać inwazyjny gatunek rośliny. Zwróć Wędrowców do <origin> z roślinami do <date> za opłatą <payment>.`
+	passengers 4 4 .1
+	cargo "containers" 5 2 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 30
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	stopover
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on stopover
+		dialog `Wędrowcy szybko opuszczają twój statek z wyposażeniem, aby powstrzymać inwazyjną roślinę. Po około godzinie wracają na twój statek z roślinami w pojemnikach, które umieszczają w ładowni. Teraz wróć do <origin> po zapłatę.`
+	on visit
+		dialog phrase "generic missing stopover or cargo and passengers"
+	on complete
+		payment 30000 200
+		dialog `Po przekazaniu roślin innym Wędrowcom do zasadzenia gdzie indziej, <bunks> Wędrowcy dziękują Ci za pomoc w utrzymaniu roślin na <planet> i przekazują Ci <payment>.`
+
+
+
+phrase "wanderer cargo delivery payment"
+	word
+		`Zrzucasz ładunek <commodity>. Wędrowcy dziękują ci, a ty odbierasz zapłatę w wysokości <payment>.`
+
+mission "Wanderer Cargo [0]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 4 4 .2
+	to offer
+		has "language: Wanderer"
+		random < 70
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Cargo [1]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 4 4 .17
+	to offer
+		has "language: Wanderer"
+		random < 60
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 4000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Cargo [2]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 4 4 .15
+	to offer
+		has "language: Wanderer"
+		random < 50
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Cargo [3]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 4 4 .12
+	to offer
+		has "language: Wanderer"
+		random < 40
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Cargo [4]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 4 4 .1
+	to offer
+		has "language: Wanderer"
+		random < 30
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 10000
+		dialog phrase "wanderer cargo delivery payment"
+
+
+mission "Wanderer Rush Delivery [0]"
+	name "Dostawa ekspresowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination> do <date>. Płatność wynosi <payment>.`
+	cargo random 10 8 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 50
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 32000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Rush Delivery [1]"
+	name "Dostawa ekspresowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination> do <date>. Płatność wynosi <payment>.`
+	cargo random 10 12 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 40
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 40000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Rush Delivery [2]"
+	name "Dostawa ekspresowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination> do <date>. Płatność wynosi <payment>.`
+	cargo random 10 15 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 30
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 44000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Rush Delivery [3]"
+	name "Dostawa ekspresowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination> do <date>. Płatność wynosi <payment>.`
+	cargo random 10 18 .1
+	deadline
+	to offer
+		has "language: Wanderer"
+		random < 20
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 50000
+		dialog phrase "wanderer cargo delivery payment"
+
+
+mission "Wanderer Bulk Delivery [0]"
+	name "Dostawa hurtowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 30 4 .1
+	to offer
+		has "language: Wanderer"
+		random < 50
+		not "event: eastern evacuation"
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 10000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Bulk Delivery [1]"
+	name "Dostawa hurtowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 40 6 .1
+	to offer
+		has "language: Wanderer"
+		random < 40
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+		near "Ka'ch'chrai" 100
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 14000
+		dialog phrase "wanderer cargo delivery payment"
+
+mission "Wanderer Bulk Delivery [2]"
+	name "Dostawa hurtowa do <planet>"
+	job
+	repeat
+	description `Dostarcz <cargo> do <destination>. Płatność wynosi <payment>.`
+	cargo random 50 10 .1
+	to offer
+		has "language: Wanderer"
+		random < 30
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "wanderer cargo delivery payment"
+
+
+mission "Wanderer Captured Unfettered"
+	name "Zdobyty bez ograniczeń do <planet>"
+	job
+	repeat
+	description "Przetransportuj <bunks> pojmanych żołnierzy Unspensed do <planet>. Aby nie sprawiali kłopotów, będziesz potrzebować odpowiednich środków transportu. Zapłata wynosi <payment>."
+	passengers 3
+	source
+		not attributes "evacuation"
+		government "Wanderer"
+	destination
+		distance 2 8
+		not attributes "evacuation"
+		government "Wanderer"
+	to offer
+		has "language: Wanderer"
+		not "event: wanderers: the eye opens"
+		random < 20
+	to accept
+		has "outfit (installed): Brig"
+	on complete
+		payment 50000 180
+		dialog "Gdy wylądujesz na <planet>, kilku umundurowanych Wędrowców wypędza Nieskrępowanych więźniów z twojego statku. Odbierasz zapłatę w wysokości <payment>."
+
+mission "Wanderer Governor Transport"
+	name "Gubernator do <planet>"
+	job
+	repeat
+	description "Przewieź lokalnego gubernatora do stolicy <planet> do <date>. Oczekują wygodnej podróży i odpowiednich udogodnień. Płatność wynosi <payment>."
+	passengers 1
+	deadline
+	source
+		government "Wanderer"
+		not attributes "evacuation"
+		near "Ka'ch'chrai" 1 10
+	destination "Vara K'chrai"
+	to offer
+		has "language: Wanderer"
+		has "Wanderers Solifuge Recon 2: done"
+		random < 10
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	on complete
+		payment 75000 220
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Wanderer Kor Efreti: Equipment"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description "Dostarcz <cargo> do Kor Efreti dnia <destination>. Płatność wynosi <payment>."
+	cargo "Equipment" 5 3 .15
+	to offer
+		has "wanderers sestor done"
+		random < 70
+	source
+		government "Wanderer"
+	destination
+		distance 2 8
+		government "Kor Efret"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Wanderer Kor Efreti: Cargo [0]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description "Dostarcz <cargo> do Kor Efreti dnia <destination>. Płatność wynosi <payment>."
+	cargo random 5 4 .12
+	to offer
+		has "wanderers sestor done"
+		random < 40
+	source
+		government "Wanderer"
+	destination
+		distance 2 8
+		government "Kor Efret"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Wanderer Kor Efreti: Cargo [1]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description "Dostarcz <cargo> do Kor Efreti dnia <destination>. Płatność wynosi <payment>."
+	cargo random 5 4 .10
+	to offer
+		has "wanderers sestor done"
+		random < 15
+	source
+		government "Wanderer"
+	destination
+		distance 2 8
+		government "Kor Efret"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 9000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Wanderers to Kor Efreti"
+	name "Badanie światów Kor Efreti"
+	job
+	repeat
+	description "Zabierz tę mieszankę naukowców, botaników i ekspertów od terraformacji z <bunks> Wędrowców na planetę Kor Efret w <stopovers> i z powrotem. Płatność wynosi <payment>."
+	passengers 5 1 .2
+	to offer
+		has "Wanderers: Tour 7: done"
+		random < 70
+	source
+		government "Wanderer"
+	stopover
+		distance 2 8
+		government "Kor Efret"
+		not attributes "station"
+	on visit
+		dialog phrase "generic missing stopover or passengers"
+	on stopover
+		dialog `Wędrowcy podróżują po planecie, aby zbadać problemy środowiskowe, z jakimi boryka się ten świat Kor Efret. Próbują wskazać konkretne rzeczy towarzyszącym im Korathom, ale ich wysiłki nie przynoszą skutku. Po kilku godzinach zbierają wystarczającą ilość danych i są gotowi do powrotu do domu.`
+	on complete
+		payment 35000 300
+		dialog `Kiedy wrócisz, Wędrowcy podziękują ci za zabranie ich do Kor Efreti i wręczą ci <payment> przed zejściem na ląd.`

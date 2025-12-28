@@ -1,0 +1,818 @@
+# Copyright (c) 2014 by Michael Zahniser and Nate Graham
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Transport executive to <planet>"
+	job
+	repeat
+	deadline
+	description "Członek zarządu Syndykatu potrzebuje natychmiastowego, ale wygodnego transportu, aby wziąć udział w pilnym spotkaniu w dniu <destination> do <date>. Płatność wynosi <payment>."
+	passengers 1
+	to offer
+		random < 20
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		government "Syndicate"
+	destination
+		distance 3 15
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Quarg"
+		attributes "paradise" "rich" "core" "near earth"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 5000 250
+		dialog "Ekipa Syndykatu schodzi z twojego statku bez pożegnania, z elegancką teczką w ręku. Odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Corporate retreat to <planet stopovers>"
+	job
+	repeat
+	deadline
+	description "Zespół <bunks> inżynierów potrzebuje transportu na wyjazd integracyjny firmy w dniu <stopovers>, po którym muszą wrócić do <origin> do <date>. Chcą komfortowej podróży, dlatego statek musi być odpowiednio wyposażony. Płatność wynosi <payment>."
+	passengers 3 10 .56
+	to offer
+		random < 20
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		government "Syndicate"
+	stopover
+		attributes "quarg" "volcanic" "frontier" "north" "south"
+		not attributes "station" "military"
+		distance 3 12
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Quarg"
+	on stopover
+		dialog "Od kilku dni na twoim statku toczą się niekończące się dyskusje o obliczeniach obciążeń, wytrzymałości na rozciąganie i ograniczeniach termodynamicznych. Jesteś wdzięczny za chwilę spokoju, gdy zespół inżynierów wytacza się przez luk i kieruje się do egzotycznej siedziby firmy. Przygotowujesz się do podróży powrotnej do <origin>."
+	on complete
+		payment 3000 160
+		dialog "Szef zespołu dziękuje za sprawną podróż i autoryzuje wypłatę kwoty <payment>."
+
+
+mission "Large Corporate retreat"
+	name "Wyjazd integracyjny do <planet stopovers>"
+	job
+	repeat
+	deadline
+	description "Zespół <bunks> inżynierów potrzebuje transportu na wyjazd integracyjny firmy w dniu <stopovers>, po którym muszą wrócić do <origin> do <date>. Chcą komfortowej podróży, dlatego statek musi być odpowiednio wyposażony. Płatność wynosi <payment>."
+	passengers 20 6 .15
+	to offer
+		random < 20
+		random < ( "passenger space" - 25 ) * 2
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		government "Syndicate"
+	stopover
+		attributes "quarg" "volcanic" "frontier" "north" "south"
+		not attributes "station" "military"
+		distance 3 12
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Quarg"
+	on stopover
+		dialog "Od kilku dni na twoim statku toczą się niekończące się dyskusje o obliczeniach obciążeń, wytrzymałości na rozciąganie i ograniczeniach termodynamicznych. Jesteś wdzięczny za chwilę spokoju, gdy zespół inżynierów wytacza się przez luk i kieruje się do egzotycznej siedziby firmy. Przygotowujesz się do podróży powrotnej do <origin>."
+	on complete
+		payment 130000 110
+		dialog "Szef zespołu dziękuje za sprawną podróż i autoryzuje wypłatę kwoty <payment>."
+
+
+mission "Corporate espionage"
+	description "<npc> wkrótce wleci do tego układu. Przechwyć go i przeprowadź szczegółowe skany jego ładunku dla badaczy Syndykatu na <destination>; udaj się tam przed <date>, aby <payment> po pobraniu danych."
+	job
+	deadline 1 3
+	repeat
+	to offer
+		random < 10
+	source
+		government Republic Syndicate Neutral
+	destination
+		government Syndicate
+		attributes research
+		distance 3 12
+	npc "scan cargo"
+		government Merchant
+		personality fleeing uninterested entering target
+		fleet
+			names "civilian"
+			variant
+				"Scout"
+			variant
+				"Bounder"
+		dialog "Udało Ci się wykonać wymagane skany ładunku <npc>. Czas udać się do <planet>."
+	on complete
+		dialog `Przesyłasz swoje skany i otrzymujesz serdeczne gratulacje, a także <payment>. "To zaoszczędzi nam miesiące!" - słyszysz kogoś w tle, gdy zamykasz łącze audio.`
+		payment 50000
+
+
+mission "Document delivery to <planet>"
+	job
+	repeat
+	description "Dostarcz <tons> dokumentów zwykłych do <destination>. Płatność wynosi <payment>."
+	cargo "Confidential documents" 1 16 .69
+	to offer
+		random < 10
+	source
+		government Syndicate
+	destination
+		distance 3 20
+		government Republic "Free Worlds" Syndicate Neutral
+		attributes factory mining "dirt belt"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 5000 170
+		dialog "Prawie natychmiast po otwarciu luku bagażowego kilku milczących i zaskakująco dobrze ubranych mężczyzn zrzuca skrzynie z dokumentami na taśmociąg tuż obok twojego miejsca lądowania, którego nie zauważyłeś, gdzie ku twojemu zaskoczeniu wkrótce znikają w płomieniach przemysłowej spalarni. Odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Waste recycling on <planet>"
+	job
+	repeat
+	description "Syndicated Systems poszukuje nieustraszonych kapitanów, którzy chcą zmieniać świat na lepsze w ramach naszej nowej Zielonej Inicjatywy! Dostarcz <tons> sztuk materiałów nadających się do recyklingu <commodity> do naszego specjalnego zakładu na <destination>. Płatność wynosi <payment>."
+	cargo "Garbage" 5 2 .1
+	to offer
+		random < 20
+	source
+		government Syndicate
+	destination
+		distance 3 10
+		government Syndicate
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000
+		dialog "Lądujesz na <planet> i zostawiasz wyjątkowo śmierdzącą przesyłkę <commodity> w nijakim budynku, zgodnie z instrukcją. Gdy tylko startujesz, kamera z tyłu rejestruje krzepkiego pracownika Syndykatu wybiegającego z budynku i wygrażającego pięścią. Zauważasz, że płatność w wysokości <payment> pochodzi od twojego kontaktu na <origin>, a nie z żadnego innego miejsca na <planet>."
+
+
+mission "Rush fuel Delivery"
+	name "Szybka dostawa paliwa do <planet>"
+	job
+	repeat
+	deadline
+	description "W reaktorze cywilnym na <destination> kończy się paliwo i do <date> potrzebna jest awaryjna dostawa <cargo>. Płatność wynosi <payment>."
+	cargo "Heavy Metals" 10 2 .1
+	to offer
+		random < 20
+		"cargo space" > 15
+	source
+		government Syndicate
+	destination
+		distance 3 10
+		government Syndicate
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 20000
+		dialog "Wysadzasz swój ładunek <commodity> na rampie załadunkowej ogromnego kompleksu nuklearnego i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Rush equipment Delivery"
+	name "Natychmiastowa dostawa sprzętu do <planet>"
+	job
+	repeat
+	deadline
+	description "Technicy Syndicate na <destination> potrzebują pilnej dostawy <tons> specjalistycznych <commodity> do <date>. Płatność wynosi <payment>."
+	cargo "Equipment" 5 2 .15
+	to offer
+		random < 20
+	source
+		government Syndicate
+	destination
+		distance 3 10
+		government Syndicate
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 9000
+		dialog "Wysadzasz swój ładunek <commodity> na rampie załadunkowej ogromnego kompleksu nuklearnego i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate target practice [0]"
+	name "Ćwiczenia celowe syndykatu"
+	job
+	repeat
+	description "Wyłącz robotyczny statek-matkę-cel w <system>, zbierz dane testowe dla inżynierów Syndykatu, skanując jego ładunek, i wyląduj na <planet>. Uwaga: statek-cel jest zaprogramowany do samoobrony, aby zapewnić realistyczną symulację. Płatność wynosi <payment>."
+	source
+		government Syndicate
+	destination
+		distance 1 3
+		government Syndicate
+	to offer
+		random < 20
+		"combat rating" > 5
+		"combat rating" < 50
+		"destroyed Syndicate target ship" < 3
+	npc save disable "scan cargo"
+		government "Test Dummy"
+		personality disables staying heroic target
+			confusion 120
+		system destination
+		ship "Berserker Test Dummy" "Syndicate Test Vessel"
+		dialog "Skanujesz uszkodzony statek i dokładnie mierzysz uszkodzenia w bitwie. Czas przekazać wyniki na <planet>."
+	on visit
+		dialog "Zapomniałeś wyłączyć lub zeskanować atrapę statku docelowego w <system>! Musisz tam wrócić i to zrobić, zanim wrócisz tu po zapłatę."
+	on abort
+		# No penalty
+	on fail
+		dialog "Statek-cel robota został zniszczony. Zostajecie powitani przez rozgniewanego urzędnika Syndykatu, który nakłada na was grzywnę <payment> i ostrzega, że dalsze tego typu błędy mogą pozbawić was prawa do wykonywania tych zadań."
+		"destroyed Syndicate target ship" ++
+		"reputation: Syndicate" --
+		fine 160000
+	on complete
+		payment 80000
+		dialog "Przesyłasz wyniki skanowania do zespołu zapalonych inżynierów i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate target practice [1]"
+	name "Ćwiczenia celowe syndykatu"
+	job
+	repeat
+	description "Wyłącz robotyczny statek-matkę-cel w <system>, zbierz dane testowe dla inżynierów Syndykatu, skanując jego ładunek, i wyląduj na <planet>. Uwaga: statek-cel jest zaprogramowany do samoobrony, aby zapewnić realistyczną symulację. Płatność wynosi <payment>."
+	source
+		government Syndicate
+	destination
+		distance 1 3
+		government Syndicate
+	to offer
+		random < 20
+		"combat rating" > 50
+		"combat rating" < 250
+		"destroyed Syndicate target ship" < 3
+	npc save disable "scan cargo"
+		government "Test Dummy"
+		personality disables staying heroic target
+			confusion 120
+		system destination
+		ship "Quicksilver Test Dummy" "Syndicate Test Vessel"
+		dialog "Skanujesz uszkodzony statek i dokładnie mierzysz uszkodzenia w bitwie. Czas przekazać wyniki na <planet>."
+	on visit
+		dialog "Zapomniałeś wyłączyć lub zeskanować atrapę statku docelowego w <system>! Musisz tam wrócić i to zrobić, zanim wrócisz tu po zapłatę."
+	on abort
+		# No penalty
+	on fail
+		dialog "Statek-cel robota został zniszczony. Zostajecie powitani przez rozgniewanego urzędnika Syndykatu, który nakłada na was grzywnę <payment> i ostrzega, że dalsze tego typu błędy mogą pozbawić was prawa do wykonywania tych zadań."
+		"destroyed Syndicate target ship" ++
+		"reputation: Syndicate" --
+		fine 300000
+	on complete
+		payment 150000
+		dialog "Przesyłasz wyniki skanowania do zespołu zapalonych inżynierów i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate target practice [2]"
+	name "Ćwiczenia celowe syndykatu"
+	job
+	repeat
+	description "Wyłącz robotyczny statek-matkę-cel w <system>, zbierz dane testowe dla inżynierów Syndykatu, skanując jego ładunek, i wyląduj na <planet>. Uwaga: statek-cel jest zaprogramowany do samoobrony, aby zapewnić realistyczną symulację. Płatność wynosi <payment>."
+	source
+		government Syndicate
+	destination
+		distance 1 3
+		government Syndicate
+	to offer
+		random < 20
+		"combat rating" > 200
+		"combat rating" < 1000
+		"destroyed Syndicate target ship" < 3
+	npc save disable "scan cargo"
+		government "Test Dummy"
+		personality disables staying heroic target
+			confusion 120
+		system destination
+		ship "Splinter Test Dummy" "Syndicate Test Vessel"
+		dialog "Skanujesz uszkodzony statek i dokładnie mierzysz uszkodzenia w bitwie. Czas przekazać wyniki na <planet>."
+	on visit
+		dialog "Zapomniałeś wyłączyć lub zeskanować atrapę statku docelowego w <system>! Musisz tam wrócić i to zrobić, zanim wrócisz tu po zapłatę."
+	on abort
+		# No penalty
+	on fail
+		dialog "Statek-cel robota został zniszczony. Zostajecie powitani przez rozgniewanego urzędnika Syndykatu, który nakłada na was grzywnę <payment> i ostrzega, że dalsze tego typu błędy mogą pozbawić was prawa do wykonywania tych zadań."
+		"destroyed Syndicate target ship" ++
+		"reputation: Syndicate" --
+		fine 520000
+	on complete
+		payment 260000
+		dialog "Przesyłasz wyniki skanowania do zespołu zapalonych inżynierów i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate target practice [3]"
+	name "Ćwiczenia celowe syndykatu"
+	job
+	repeat
+	description "Wyłącz robotyczny statek-matkę-cel w <system>, zbierz dane testowe dla inżynierów Syndykatu, skanując jego ładunek, i wyląduj na <planet>. Uwaga: statek-cel jest zaprogramowany do samoobrony, aby zapewnić realistyczną symulację. Płatność wynosi <payment>."
+	source
+		government Syndicate
+	destination
+		distance 1 3
+		government Syndicate
+	to offer
+		random < 20
+		"combat rating" > 1000
+		"destroyed Syndicate target ship" < 3
+	npc save disable "scan cargo"
+		government "Test Dummy"
+		personality disables staying heroic target
+			confusion 120
+		system destination
+		ship "Vanguard Test Dummy" "Syndicate Test Vessel"
+		dialog "Skanujesz uszkodzony statek i dokładnie mierzysz uszkodzenia w bitwie. Czas przekazać wyniki na <planet>."
+	on visit
+		dialog "Zapomniałeś wyłączyć lub zeskanować atrapę statku docelowego w <system>! Musisz tam wrócić i to zrobić, zanim wrócisz tu po zapłatę."
+	on abort
+		# No penalty
+	on fail
+		dialog "Statek-cel robota został zniszczony. Zostajecie powitani przez rozgniewanego urzędnika Syndykatu, który nakłada na was grzywnę <payment> i ostrzega, że dalsze tego typu błędy mogą pozbawić was prawa do wykonywania tych zadań."
+		"destroyed Syndicate target ship" ++
+		"reputation: Syndicate" --
+		fine 800000
+	on complete
+		payment 400000
+		dialog "Przesyłasz wyniki skanowania do zespołu zapalonych inżynierów i odbierasz zapłatę w wysokości <payment>."
+
+ship "Berserker" "Berserker Test Dummy"
+	add attributes
+		"automaton" 1
+		"self destruct" 1
+
+ship "Quicksilver" "Quicksilver Test Dummy"
+	add attributes
+		"automaton" 1
+		"self destruct" 1
+
+ship "Splinter" "Splinter Test Dummy"
+	add attributes
+		"automaton" 1
+		"self destruct" 1
+
+ship "Vanguard" "Vanguard Test Dummy"
+	add attributes
+		"automaton" 1
+		"self destruct" 1
+
+
+mission "Syndicate Prisoner Transport [0]"
+	name "Dyrektor transportu aresztowany w domu"
+	job
+	repeat
+	description `Przewieźć oskarżonego przestępcę białych kołnierzyków wraz z jego asystentami, prawnikami i odbiorem <cargo> do <planet>, gdzie będzie oczekiwał na proces w areszcie domowym." Wymaga odpowiednio wygodnego statku na czas podróży. Zapłata wynosi <payment>.`
+	cargo "Luxury Goods" 1 10
+	passengers 5 12
+	source
+		government "Syndicate"
+		attributes "urban"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "rich"
+		attributes "frontier"
+	to offer
+		random < 5
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment 10000 200
+		dialog "Dyrektor schodzi z twojego statku z promiennym uśmiechem na twarzy. Jeden z prawników wręcza ci kwotę <payment>, mamrocząc groźby pozwów o zniesławienie, jeśli powiesz cokolwiek o tym, co mogłeś lub nie podsłuchać na statku."
+
+
+mission "Syndicate Prisoner Transport [1]"
+	name "Transport skazany za sabotaż"
+	job
+	repeat
+	description `Przetransportować skazanego sabotażystę przemysłowego do <planet> w celu odbycia kary. Musi on być przetrzymywany w odpowiednich ośrodkach przeznaczonych do transportu przestępców. Płatność wynosi <payment>.`
+	passengers 1
+	source
+		government "Syndicate"
+		not attributes "military"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "military"
+	to offer
+		random < 15
+	to accept
+		has "outfit (installed): Brig"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 200
+		dialog "Grupa strażników wynosi więźnia z twojego statku bardziej brutalnie, niż jest to konieczne. Otrzymujesz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate Prisoner Transport [2]"
+	name "Transport skazanych szpiegów korporacyjnych"
+	job
+	repeat
+	description `Przetransportować grupę <bunks> skazanych szpiegów korporacyjnych do <planet> w celu odbycia kary. Muszą być przetrzymywani w odpowiednich ośrodkach przeznaczonych do transportu przestępców. Płatność wynosi <payment>.`
+	passengers 3 5
+	source
+		government "Syndicate"
+		not attributes "military"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "military"
+	to offer
+		random < 15
+	to accept
+		has "outfit (installed): Brig"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 15000 175
+		dialog "Grupa strażników wyprowadza więźniów z twojego statku, skutych łańcuchami w kostkach. Otrzymujesz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate Prisoner Transport [3]"
+	name "Transport zatrzymanych protestujących"
+	job
+	repeat
+	description `Przetransportować grupę <bunks> zatrzymanych demonstrantów do <planet>, gdzie będą oczekiwać na proces za podżeganie do zamieszek. Muszą być przetrzymywani w odpowiednich ośrodkach przeznaczonych do transportu przestępców. Płatność wynosi <payment>.`
+	passengers 10 40 .9
+	source
+		government "Syndicate"
+		attributes "urban"
+		not attributes "military"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "military"
+	to offer
+		random < 15
+	to accept
+		has "outfit (installed): Brig"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 150
+		dialog "Więźniowie wciąż mają na sobie cywilne ubrania, a gdy strażnicy prowadzą ich do środka, widać siniaki po aresztowaniu. Otrzymujesz zapłatę w wysokości <payment>."
+
+
+mission "Syndicate Prisoner Transport [4]"
+	name "Organizatorzy pracy w transporcie zatrzymani"
+	job
+	repeat
+	description `Przetransportować grupę <bunks> zatrzymanych działaczy związkowych do <planet> w celu "przetworzenia" jako podejrzanych o terroryzm. Muszą być oni przetrzymywani w odpowiednich ośrodkach przeznaczonych do transportu przestępców. Płatność wynosi <payment>.`
+	passengers 3 10 .56
+	source
+		government "Syndicate"
+		attributes "factory" "farming" "mining"
+		not attributes "military"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "military"
+	to offer
+		random < 10
+	to accept
+		has "outfit (installed): Brig"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 15000 200
+		dialog `Organizatorzy związkowi są nieustępliwi, gdy strażnicy wciągają ich do środka, a jeden z nich krzyczy o "zdrajcach klasy." Otrzymujesz zapłatę w wysokości <payment>.`
+
+
+mission "Return Syndicate Prisoners [0]"
+	name "Powrót dyrektora wykonawczego z aresztu domowego"
+	job
+	repeat
+	description `Przewieźć uniewinnionego przestępcę białych kołnierzyków wraz z jego asystentami, prawnikami i zbiorem <cargo> do domu na <planet>. Wymaga odpowiednio wygodnego statku na podróż. Zapłata wynosi <payment>.`
+	cargo "Luxury Goods" 1 10
+	passengers 3 10 .56
+	source
+		government "Syndicate"
+		attributes "rich"
+		attributes "frontier"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "urban"
+	to offer
+		random < 5
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment 20000 200
+		dialog "Kierownik idzie w kierunku ekspresowego odprawy celnej z zadowolonym uśmiechem. Obładowany papierami prawnik wręcza ci zapłatę w wysokości <payment>."
+
+
+mission "Return Syndicate Prisoners [1]"
+	name "Powrót zatrzymanych protestujących do domu"
+	job
+	repeat
+	description `Przetransportowanie grupy <bunks> protestujących z aresztu w dniu <origin> do domu na <planet>. Płatność wynosi <payment>.`
+	passengers 10 40 .9
+	source
+		government "Syndicate"
+		attributes "military"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "urban"
+		not attributes "military"
+	to offer
+		random < 15
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 5000 100
+		dialog "Protestujący nerwowo rozglądają się po porcie kosmicznym przed wyjściem na ląd. Otrzymujesz zapłatę w wysokości <payment>."
+
+
+mission "Return Syndicate Prisoners [2]"
+	name "Powrót zatrzymanych działaczy związkowych do domu"
+	job
+	repeat
+	description `Przetransportowanie grupy <bunks> działaczy związkowych do domu <planet> z ich uwięzienia w dniu <origin>. Zapłata wynosi <payment>.`
+	passengers 3 15 .9
+	source
+		government "Syndicate"
+		attributes "military"
+	destination
+		distance 2 10
+		government "Syndicate"
+		attributes "factory" "farming" "mining"
+		not attributes "military"
+	to offer
+		random < 10
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 5000 100
+		dialog "Organizatorzy związkowi są niemal wychudzeni po uwięzieniu. Jeden z nich unosi twarz ku niebu, jakby opalał się w słońcu. Otrzymujesz zapłatę w wysokości <payment>."
+
+
+mission "Syndicated Shipyards Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Syndicated Shipyards, jedna z największych stoczni w przestrzeni kosmicznej, prosi niezależnego kapitana o dostarczenie <cargo> do <destination> w celu zapewnienia wystarczających zapasów. Płatność wynosi <payment>."
+	cargo "weapons" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Foundry"
+	source
+		near Achernar 2 10
+		attributes core factory
+		not government "Pirate"
+	destination Foundry
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Syndicated Shipyards Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Syndicated Shipyards, jedna z największych stoczni w przestrzeni kosmicznej, prosi niezależnego kapitana o dostarczenie <cargo> do <destination> w celu zapewnienia wystarczających zapasów. Płatność wynosi <payment>."
+	cargo "Ship Alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Foundry"
+	source
+		near Achernar 2 10
+		attributes core mining
+		not government "Pirate"
+	destination Foundry
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Syndicated Shipyards Shipment [2]"
+	name "Wysyłka do <planet>"
+	description "Syndicated Shipyards, jedna z największych stoczni w przestrzeni kosmicznej, prosi niezależnego kapitana o dostarczenie <cargo> do <destination> w celu zapewnienia wystarczających zapasów. Płatność wynosi <payment>."
+	cargo "Ship Systems" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Foundry"
+	source
+		near Achernar 2 10
+		attributes core factory
+		not government "Pirate"
+	destination Foundry
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Syndicated Shipyards Shipment [3]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, gdzie znajduje się Syndicated Shipyards, jedna z największych stoczni w przestrzeni kosmicznej. Płatność wynosi <payment>."
+	cargo "Ship Alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Foundry"
+	source
+		near Achernar 2 10
+		attributes core factory
+		not government "Pirate"
+	destination Foundry
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Syndicated Systems Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Syndicated Systems, największego producenta systemów okrętowych i wyposażenia w przestrzeni kosmicznej. Płatność wynosi <payment>."
+	cargo Electronics 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Hephaestus"
+	source
+		near Markab 2 10
+		attributes core factory
+		not government "Pirate"
+	destination Hephaestus
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Syndicated Systems Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Syndicated Systems, największego producenta systemów okrętowych i wyposażenia w przestrzeni kosmicznej. Płatność wynosi <payment>."
+	cargo Metal 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Hephaestus"
+	source
+		near Markab 2 10
+		attributes core mining factory
+		not government "Pirate"
+	destination Hephaestus
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Megaparsec Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Megaparsec Inc., stoczni znanej z lekkich konstrukcji. Płatność wynosi <payment>."
+	cargo "weapons" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Sunracer"
+	source
+		near Mirfak 2 10
+		attributes core factory
+		not government "Pirate"
+	destination Sunracer
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Megaparsec Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Megaparsec Inc., stoczni znanej z lekkich konstrukcji. Płatność wynosi <payment>."
+	cargo "Ship Alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Sunracer"
+	source
+		near Mirfak 2 10
+		attributes core mining factory
+		not government "Pirate"
+	destination Sunracer
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Megaparsec Shipment [2]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Megaparsec Inc., stoczni znanej z lekkich konstrukcji. Płatność wynosi <payment>."
+	cargo "Ship Systems" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Sunracer"
+	source
+		near Mirfak 2 10
+		attributes core mining factory
+		not government "Pirate"
+	destination Sunracer
+	npc
+		government Pirate
+		personality heroic harvests plunders
+		fleet "Small Core Pirates"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Syndicate Hovercraft Racer Transport"
+	name "Transportuj kierowcę wyścigowego do <planet>"
+	description "Dostarcz pilota i jego poduszkowiec do <destination> w celu wzięcia udziału w wyścigu do <date> dla <payment>."
+	passengers 1
+	cargo "Syndicate hovercraft" 1
+	job
+	repeat
+	deadline
+	to offer
+		random < 6
+		has "landing access: Sunracer"
+	source
+		government "Syndicate"
+		not near "Mirfak" 4
+	destination Sunracer
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		dialog `Odwozisz pilota z poduszkowcem i pobierasz opłatę w wysokości <payment>.`
+
+mission "Syndicate Hovercraft Large Racer Transport"
+	name "Zespół transportowy do <planet>"
+	description "Dostarcz tę <passengers>-osobową drużynę wyścigową i jej zestaw <cargo> do <destination>, aby mogli wziąć udział w wyścigu do <date> za <payment>."
+	passengers 50 100 .9
+	cargo "Syndicate hovercraft" 50
+	job
+	repeat
+	deadline
+	deadline 8
+	to offer
+		random < 1
+		has "landing access: Sunracer"
+	source
+		government "Syndicate"
+		not near "Mirfak" 4
+	destination Sunracer
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		payment
+		payment 23000
+		dialog `Odwozisz drużynę wyścigową z poduszkowcem i odbierasz opłatę w wysokości <payment>.`

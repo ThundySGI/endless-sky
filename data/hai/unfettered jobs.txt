@@ -120,18 +120,18 @@ mission "Unfettered Jump Drive 4"
 			label money
 			action
 				payment 1000000
-			`<CN-14443>`
+			`As usual, the Unfettered are more than willing to pay you a million credits for your jump drive, but you do not gain any additional information by talking with them.`
 				goto trade
 
 			label "want outfits"
-			`<CN-14444>`
+			`The Unfettered's usual deal of trading a jump drive for weapons still stands.`
 			choice
-				`<CN-14445>`
-				`<CN-14446>`
+				`	(Take two Tripulse Shredders.)`
+				`	(Take money instead.)`
 					goto money
 			action
 				outfit "Tripulse Shredder" 2
-			`<CN-14447>`
+			`	The two Shredders are loaded onto your ship, in exchange for your jump drive.`
 
 			label trade
 			branch spareJD

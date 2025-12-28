@@ -36,7 +36,7 @@ mission "Avgi: Aberrant Blockade"
 		attributes "aberrant siege"
 	on offer
 		conversation
-			`<CN-8310>`
+			`As you attempt to land, your sensors warn you of an approaching pod of Aberrant over the horizon, intent on destroying anything that approaches or tries to launch from <origin>. It seems you'll have to fight if you want to land here.`
 				launch
 	on complete
 		dialog "<DL-413>"

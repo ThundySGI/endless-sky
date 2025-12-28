@@ -849,7 +849,8 @@ phrase "remnant alien inquiry"
 		"<WR-13234>"
 		"<WR-13235>"
 	replace
-		"<WR-13236>" 
+		"those Coalition" "that Coalition"
+
 phrase "remnant friendly (aliens!)"
 	word
 		"<WR-13237>"

@@ -44,21 +44,21 @@ ship "Aaulqra"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18113>` 6
+		`"Ojet" Bimodal Coilgun` 6
 
-		`<CN-18112>`
-		`<CN-18117>`
+		`"Nnesa" Fusion Core`
+		`"Uoret" Fusion Core`
 		"Primary Power Reserve"
 
-		`<CN-18119>`
+		`"Jorv" Shield Cortex`
 
 		"Successor Cooling" 2
 		"Multimodal Armor: Regen"
 		"Kinetic Rail Rifle" 7
 
-		`<CN-18102>`
-		`<CN-18108>`
-		`<CN-18100>`
+		`"Chyyra" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Chyyra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun 0 -116 `"Ojet" Bimodal Coilgun`
@@ -133,15 +133,15 @@ ship "Ejniisde"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18105>`
-		`<CN-18104>`
+		`6-"Ruuv" Betavoltaic Cell`
+		`"Ej" Shield Cortex`
 
 		"Successor Cooling"
 		"Successor Fuel Sail"
 
-		`<CN-18109>`
-		`<CN-18101>`
-		`<CN-18100>`
+		`"Veusa" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Chyyra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun 0 -106
@@ -215,22 +215,22 @@ ship "Kaskhorade"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18113>` 2
-		`<CN-18118>` 2
+		`"Ojet" Bimodal Coilgun` 2
+		`"Sjeja" Kinetic Lance` 2
 		"High-Velocity Spike" 40
 		"Bimodal Coilgun Turret"
 
-		`<CN-18117>`
+		`"Uoret" Fusion Core`
 		"Auxiliary Power Reserve"
-		`<CN-18114>`
+		`"Jaase" Shield Cortex`
 
 		"Successor Cooling"
 		"Multimodal Armor: Light"
 		"Kinetic Rail Rifle" 25
 
-		`<CN-18109>`
-		`<CN-18108>`
-		`<CN-18107>`
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Veusa" Inductive Reverser`
 		"Hyperdrive"
 
 	gun -3 -120 `"Sjeja" Kinetic Lance`
@@ -307,12 +307,12 @@ ship "Kvelqde"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18098>` 2
-		`<CN-18104>`
+		`1-"Uurau" Betavoltaic Cell` 2
+		`"Ej" Shield Cortex`
 
-		`<CN-18097>`
-		`<CN-18096>`
-		`<CN-18095>`
+		`"Aqra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun 0 -32
@@ -391,13 +391,13 @@ ship "Kvelqde-Khora"
 		"Overcharged Pulse Laser" 2
 		"Overcharged Laser Turret"
 
-		`<CN-18103>`
+		`3-"Kaska" Betavoltaic Cell`
 		"Auxiliary Power Reserve" 3
-		`<CN-18104>`
+		`"Ej" Shield Cortex`
 
-		`<CN-18097>`
-		`<CN-18096>`
-		`<CN-18095>`
+		`"Aqra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun -4 -30
@@ -471,13 +471,13 @@ ship "Myaede"
 	outfits
 		"Pulse Laser Turret" 2
 
-		`<CN-18103>` 2
-		`<CN-18098>`
-		`<CN-18104>`
+		`3-"Kaska" Betavoltaic Cell` 2
+		`1-"Uurau" Betavoltaic Cell`
+		`"Ej" Shield Cortex`
 
-		`<CN-18102>`
-		`<CN-18101>`
-		`<CN-18095>`
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun -3 -60
@@ -558,14 +558,14 @@ ship "Nnaatej"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18105>`
-		`<CN-18104>`
+		`6-"Ruuv" Betavoltaic Cell`
+		`"Ej" Shield Cortex`
 
 		"Successor Fuel Sail"
 
-		`<CN-18102>`
-		`<CN-18101>`
-		`<CN-18095>`
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
 		"Hyperdrive"
 
 	turret 0 -10
@@ -634,14 +634,14 @@ ship "Nnesaarau"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18103>`
-		`<CN-18098>`
+		`3-"Kaska" Betavoltaic Cell`
+		`1-"Uurau" Betavoltaic Cell`
 		"Auxiliary Power Reserve"
-		`<CN-18104>`
+		`"Ej" Shield Cortex`
 
-		`<CN-18102>`
-		`<CN-18096>`
-		`<CN-18095>`
+		`"Chyyra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
 		"Scram Drive"
 
 	gun -7.5 -38
@@ -708,14 +708,14 @@ ship "Ojde"
 	outfits
 		"Pulse Laser Turret" 2
 
-		`<CN-18105>`
+		`6-"Ruuv" Betavoltaic Cell`
 		"Auxiliary Power Reserve" 3
-		`<CN-18104>`
+		`"Ej" Shield Cortex`
 		"Successor Cooling"
 
-		`<CN-18109>`
-		`<CN-18108>`
-		`<CN-18100>`
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Chyyra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun 28 -110
@@ -792,17 +792,17 @@ ship "Seiitej"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18113>` 4
+		`"Ojet" Bimodal Coilgun` 4
 
-		`<CN-18116>`
+		`"Ryuit" Fusion Core`
 		"Auxiliary Power Reserve" 3
-		`<CN-18114>`
+		`"Jaase" Shield Cortex`
 		"Successor Cooling"
 		"Multimodal Armor: Light"
 		"Kinetic Rail Rifle" 15
 
-		`<CN-18109>`
-		`<CN-18108>`
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
 		"Hyperdrive"
 
 	gun -10 -78
@@ -879,14 +879,14 @@ ship "Stolsaqra"
 	outfits
 		"Successor Pulse Laser" 3
 
-		`<CN-18103>`
-		`<CN-18098>` 2
+		`3-"Kaska" Betavoltaic Cell`
+		`1-"Uurau" Betavoltaic Cell` 2
 		"Auxiliary Power Reserve" 2
-		`<CN-18099>`
+		`"Byiaa" Shield Cortex`
 
-		`<CN-18097>` 2
-		`<CN-18096>`
-		`<CN-18095>`
+		`"Aqra" Inductive Thruster` 2
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun 0 -40 "Successor Pulse Laser"
@@ -969,16 +969,16 @@ ship "Veusade"
 	outfits
 		"Drag Cannon" 8
 
-		`<CN-18116>`
+		`"Ryuit" Fusion Core`
 		"Auxiliary Power Reserve" 2
-		`<CN-18114>`
+		`"Jaase" Shield Cortex`
 		"Successor Cooling"
 		"Multimodal Armor: Heavy"
 
 		"Kinetic Rail Rifle" 5
 
-		`<CN-18109>`
-		`<CN-18108>`
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
 		"Hyperdrive"
 
 	gun -25 -32 "Drag Cannon"
@@ -1063,19 +1063,19 @@ ship "Vujlet"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`<CN-18113>` 2
+		`"Ojet" Bimodal Coilgun` 2
 
-		`<CN-18112>`
-		`<CN-18110>`
+		`"Nnesa" Fusion Core`
+		`OC-"Mavra" Betavoltaic Cell`
 		"Auxiliary Power Reserve"
-		`<CN-18114>`
+		`"Jaase" Shield Cortex`
 		"Successor Cooling"
 		"Multimodal Armor: Heavy"
 		"Kinetic Rail Rifle" 4
 
-		`<CN-18102>`
-		`<CN-18101>`
-		`<CN-18100>`
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Chyyra" Inductive Reverser`
 		"Hyperdrive"
 
 	gun -6 -46 `"Ojet" Bimodal Coilgun`

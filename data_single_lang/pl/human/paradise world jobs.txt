@@ -1,0 +1,1437 @@
+# Copyright (c) 2014 by Michael Zahniser and Nate Graham
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Paradise Job: Care Package"
+	name "Paczka z prezentami dla <planet>"
+	job
+	repeat
+	deadline
+	description "Zmartwiona matka zapłaci ci <payment> za dostarczenie paczki z prezentami zawierającej <cargo> jej dziecku uczącemu się w dniu <destination> do <date>."
+	cargo "Food" 1
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 5
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "paradise" "research" "rich"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog "Wciąż zastanawiasz się, dlaczego jeden student uniwersytetu mógłby potrzebować tak dużej ilości <commodity>, dostarczasz pakiet opieki międzygwiezdnej i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Birthday Supplies"
+	name "Akcesoria urodzinowe dla <planet>"
+	job
+	repeat
+	deadline
+	description "Starsza para chce wpłacić <cargo> na urodziny wnuka, które odbędą się <destination> do <date>. Opłata wynosi <payment>."
+	cargo "Luxury Goods" 1 3
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "paradise" "rich" "core" "near earth"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog "Dostarczasz ładunek do ogrodu imponującej rezydencji na wsi, gdzie jakiś nadąsany młodzieniec wpada w furię w samym środku tłumu gości. Rodzice nieśmiało wręczają ci zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Art Delivery"
+	name "Dostawa dzieł sztuki do <planet>"
+	job
+	repeat
+	deadline
+	description "Dostarcz <cargo> na nadchodzącą wystawę sztuki w dniu <destination> do <date>. Płatność wynosi <payment>."
+	cargo "Luxury Goods" 1 2 .4
+	to offer
+		random < 10
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rich"
+	destination
+		distance 2 5
+		attributes "paradise"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog "Twój statek zostaje skierowany do tylnego doku załadunkowego kompleksu pałacowego, gdzie rozładowywany jest ładunek <commodity>. Odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Newlyweds"
+	name "Nowożeńcy <planet>"
+	job
+	repeat
+	deadline
+	description "Ta para nowożeńców szuka luksusowego statku, aby dotrzeć na miesiąc miodowy <destination> do <date>, wraz z <tons> prezentami ślubnymi. Zapłacą ci <payment> za zabranie ich tam."
+	passengers 2
+	cargo "wedding gifts" 2 4
+	to offer
+		random < 10
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		attributes "paradise"
+	destination
+		distance 2 15
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Quarg"
+		attributes "paradise" "rich" "core" "near earth"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 250
+		dialog "Żegnasz się z dwójką zakochanych dnia <planet> i odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Theater Props"
+	name "Rekwizyty teatralne do <planet>"
+	job
+	repeat
+	deadline
+	description "Zespół teatralny na <destination> potrzebuje dostawy <tons> sztuk specjalnych <commodity> do wykorzystania jako rekwizyty w nadchodzącym przedstawieniu na <date>. Płatność wynosi <payment>."
+	cargo "Luxury Goods" 2 6 .35
+	to offer
+		random < 10
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rich" "urban"
+	destination
+		distance 2 8
+		attributes "paradise"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog "Twój statek jest kierowany do tylnego doku załadunkowego rozległego kompleksu rozrywkowego, gdzie rozładowywany jest ładunek <commodity>. Odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Fine Food"
+	name "Dobre jedzenie do <planet>"
+	job
+	repeat
+	deadline
+	description "Wysoko oceniana restauracja na <destination> chce nabyć <tons> znakomitych <commodity> do <date>. Zapłata wynosi <payment>."
+	cargo "Food" 2 5 .25
+	to offer
+		random < 10
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "farming" "fishing"
+	destination
+		distance 2 10
+		attributes "paradise"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog "Twój statek jest kierowany na tylny dok załadunkowy imponującej restauracji. Kelnerzy w białych rękawiczkach ostrożnie wyładowują ładunek <commodity> i przekazują zapłatę w wysokości <payment>."
+
+
+mission "Transport partiers [1]"
+	name "Uczestnicy imprezy do <planet>"
+	job
+	repeat
+	description "Ta grupa <bunks> studentów uniwersytetu jest skłonna zapłacić <payment> za luksusowy przejazd na wielką imprezę na <destination>, wraz z <tons> całkowicie legalnymi lekami."
+	passengers 7 12
+	cargo "pharmaceuticals" 2 4
+	illegal 1000 `It turns out that the "completely legal pharmaceuticals" in your hold are not so completely legal after all. The officers who confiscate the goods spend a long time talking with one of the students, whom you suspect to be politically connected. You're not surprised by the small size of the fine you receive as well as the fact that nobody was arrested.`
+	stealth
+	to offer
+		random < 10
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		attributes "paradise"
+	destination
+		distance 4 12
+		attributes "tourism"
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 200
+		dialog "Nie jest ci przykro żegnać się z hałaśliwymi i nieokrzesanymi awanturnikami, których transportowałeś. Ich rodzice przesyłają ci zapłatę w wysokości <payment> bez słowa potwierdzenia."
+
+
+mission "Transport partiers [2]"
+	name "Uczestnicy imprezy do <planet>"
+	job
+	repeat
+	description "Ta grupa <bunks> studentów uniwersytetu jest skłonna zapłacić <payment> za luksusowy przejazd na wielką imprezę na <destination>, wraz z <tons> przekąskami i przyborami szkolnymi."
+	passengers 7 12
+	cargo "snacks and school supplies" 2 4
+	to offer
+		random < 10
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		attributes "paradise"
+	destination
+		distance 4 12
+		attributes "tourism"
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 5000 190
+		dialog "Żegnasz studentów, którzy zachowywali się zaskakująco dobrze podczas podróży, prowadząc wiele fascynujących rozmów na tak różnorodne tematy, jak filozofia, mikrofluidyka i ekonomia międzygalaktyczna. Ich dumni rodzice przesyłają Ci zapłatę w wysokości <payment>."
+
+mission "Paradise Job: Food Donations"
+	name "Darowizny żywności dla <planet>"
+	job
+	repeat
+	description "Zacni obywatele <origin> poszukują współczującego kapitana do misji miłosierdzia, aby przekazać <cargo> niedożywionym duszom <destination>. Zapłata wynosi <payment>."
+	cargo "Food" 7 2 .1
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 16
+		attributes "rim" "south" "dirt belt" "frontier" "military"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 90
+		dialog "Odbierasz zapłatę w wysokości <payment>, ale nie wcześniej, niż zauważysz ogólną kondycję i obfite brzuchy dokerów wyładowujących darowiznę w wysokości <commodity>."
+
+
+mission "Paradise Job: Clothing Donations"
+	name "Darowizny odzieży dla <planet>"
+	job
+	repeat
+	description "Zacni obywatele <origin> poszukują współczującego kapitana do misji miłosierdzia, aby przekazać <cargo> niedopasowanym i pozbawionym mody duszom <destination>. Zapłata wynosi <payment>."
+	cargo "Clothing" 7 2 .1
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 16
+		attributes "rim" "south" "dirt belt" "frontier" "military"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 100
+		dialog "Otrzymujesz zapłatę w wysokości <payment>, ale nie wcześniej, niż zwrócisz uwagę na doskonałą jakość ubrań noszonych przez pracowników doku wyładowujących darowiznę w wysokości <commodity>."
+
+
+mission "Paradise Job: Medical Aid"
+	name "Pomoc medyczna dla <planet>"
+	job
+	repeat
+	description "Zacni obywatele <origin> poszukują współczującego kapitana do misji miłosierdzia, którą będą mogli przekazać <cargo> cierpiącym duszom <destination>. Zapłata wynosi <payment>."
+	cargo "Medical" 7 2 .1
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 16
+		attributes "rim" "south" "dirt belt" "frontier" "military"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 100
+		dialog "Otrzymujesz zapłatę w wysokości <payment>, ale nie wcześniej, niż zauważysz ogólny stan zdrowia i wigor dokerów rozładowujących darowiznę w wysokości <commodity>."
+
+
+mission "Paradise Job: Charity"
+	name "Towary charytatywne dla <planet>"
+	job
+	repeat
+	description "Zacni obywatele <origin> szukają współczującego kapitana do misji miłosierdzia, aby przekazać <cargo> naiwnym i niedoświadczonym kulturowo duszom <destination>. Zapłata wynosi <payment>."
+	cargo "Luxury Goods" 7 2 .1
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 16
+		attributes "rim" "south" "dirt belt" "frontier" "military"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000 100
+		dialog "Otrzymujesz zapłatę w wysokości <payment>, ale nie wcześniej, niż zwrócisz uwagę na jakość ubrań, biżuterii i elektroniki osobistej przewożonej przez pracowników doku wyładowujących darowiznę w wysokości <commodity>."
+
+
+mission "Paradise Job: Party Goods"
+	name "Towary imprezowe od <planet stopovers>"
+	job
+	repeat
+	deadline
+	description "Zapasy <commodity> w Planetside wyczerpują się w związku z ważną galą. Odbierz <tons> sztuk w dniu <stopovers> i zwróć do <origin> do <date>. Płatność wynosi <payment>."
+	cargo "Luxury Goods" 10 2 .1
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	stopover
+		distance 5 9
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "paradise" "rich"
+		attributes "spaceport"
+	on stopover
+		dialog "Nadzorujesz załadunek, podczas gdy dokerzy niosą skrzynię za skrzynią <commodity> na twój statek. Pewnie jakaś impreza."
+	on visit
+		dialog "Wróciłeś do <planet>, ale zapomniałeś najpierw odebrać <commodity> na <stopovers>! Lepiej tam idź, zanim będzie za późno."
+	on complete
+		payment
+		payment 10000 135
+		dialog "Twój statek ma wylądować na prowizorycznym pasie startowym w pobliżu rozległego zielonego pola, gdzie budowane są nowatorskie zamki. Elegancko ubrani stewardzi rozładowują <commodity>, a ty odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Estate Assets"
+	name "Aktywa majątkowe do <planet>"
+	job
+	repeat
+	description "Powiernicy poszukują kapitanów statków kosmicznych chętnych do dostarczenia poszczególnych części majątku niedawno zmarłego, uczciwego obywatela - <cargo> - na zbliżającą się wyprzedaż majątku w dniu <destination>. Płatność wynosi <payment>."
+	cargo "Luxury Goods" 18 2 .15
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 3 12
+		attributes "rich"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 10000
+		dialog "Patrząc, jak dokerzy rozładowują skrzynie za skrzyniami, nie możesz powstrzymać się od pytania, co skłoniło kogoś do zebrania tak ogromnej ilości <commodity>. Odbierasz zapłatę w wysokości <payment>."
+
+
+mission "Paradise Jobs: Contract Laborers"
+	name "Pracownicy kontraktowi z <planet stopovers>"
+	job
+	repeat
+	description "Powrót do <destination> po odebraniu <bunks> pracowników kontraktowych z <stopovers>, którzy pragną doświadczyć luksusu Światów Raju. Zapłata wynosi <payment>."
+	passengers 13 30
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	stopover
+		distance 7 15
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "mining" "fishing" "textiles" "factory" "farming" "oil"
+		attributes "spaceport"
+	on stopover
+		dialog "Nędznie ubrani młodzi mężczyźni i kobiety w grupie nie wyglądają na tak zadowolonych z wejścia na pokład twojego statku, jak się spodziewałeś, biorąc pod uwagę nową szansę, która na nich czeka. Z trudem wdrapują się na rampę, by wrócić do <planet>."
+	on visit
+		dialog phrase "generic missing stopover or passengers"
+	on complete
+		payment 10000 50
+		dialog "Zniszczeni robotnicy kontraktowi trzymali się na uboczu i nie odzywali się do ciebie ani słowem przez całą podróż. Jednak niechlujny brygadzista, który przyjmuje cię o <origin>, wydaje się zadowolony. Wręcza ci zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Waste Disposal"
+	name "Utylizacja odpadów w dniu <planet>"
+	job
+	repeat
+	description "Pilna utylizacja odpadów jest konieczna. Przetransportuj <cargo> do <destination>, aby zapobiec spadkowi wartości nieruchomości. Płatność wynosi <payment>."
+	cargo "Garbage" 30 2 .03
+	to offer
+		random < 10
+	source
+		attributes "paradise"
+	destination
+		distance 2 20
+		attributes "dirt belt"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog "Oddajesz wyjątkowo paskudną przesyłkę <commodity> dnia <planet>, już nie mogąc się doczekać kąpieli chemicznej, jaką otrzyma twój ładunek. Odbierasz zapłatę w wysokości <payment> i masz nadzieję, że ktoś w okolicy będzie wiedział, co zrobić z tym nieprzyjemnym bałaganem, który zostawiłeś."
+
+
+mission "Transport high-class tourists"
+	description "Zabierz <bunks> niewiarygodnie bogatych turystów w fantastyczną podróż do dzikiego i egzotycznego świata <destination>. Rozważą Twój statek tylko wtedy, gdy będziesz dysponował "odpowiednimi udogodnieniami" umożliwiającymi komfortową podróż. Płatność wynosi <payment>."
+	job
+	repeat
+	passengers 5 5 .37
+	to offer
+		random < 10
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		attributes "paradise"
+	destination
+		attributes "religious" "quarg" "pirate" "volcanic" "frontier"
+		distance 8 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog "Twoi pasażerowie zaczynają się oddalać, niektórzy z nich ze zdziwieniem patrzą, jak wspomnienia z błyszczących zdjęć w broszurach ustępują miejsca rzeczywistości. Odbierasz zapłatę w wysokości <payment>."
+		payment 25000 250
+
+
+mission "Transport high-class tourist group"
+	description "Zabierz <bunks> niewiarygodnie bogatych turystów w fantastyczną podróż do dzikiego i egzotycznego świata <destination>. Rozważą Twój statek tylko wtedy, gdy będziesz dysponował "odpowiednimi udogodnieniami" umożliwiającymi komfortową podróż. Płatność wynosi <payment>."
+	job
+	repeat
+	passengers 15 5 .15
+	to offer
+		random < 30
+		random < "passenger space" - 35
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		attributes "paradise"
+	destination
+		attributes "religious" "quarg" "pirate" "volcanic" "frontier"
+		distance 8 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog "Twoi pasażerowie zaczynają się oddalać, niektórzy z nich ze zdziwieniem patrzą, jak wspomnienia z błyszczących zdjęć w broszurach ustępują miejsca rzeczywistości. Odbierasz zapłatę w wysokości <payment>."
+		payment 25000 170
+
+
+mission "Pleasure cruise security"
+	description "Eskortuj <npc> w rejsie wycieczkowym na dziką i egzotyczną planetę <stopovers> wraz z <tons> z ich <commodity>, a następnie wróć do <destination>, gdzie otrzymasz zapłatę <payment>."
+	job
+	repeat
+	cargo "Luxury Goods" 15 3 .17
+	to offer
+		random < 10
+		"combat rating" > 10
+	source
+		attributes "paradise" "rich"
+	stopover
+		attributes "tourism" "religious" "quarg" "pirate" "volcanic" "frontier" "moon" "fishing"
+		attributes "spaceport"
+		distance 6 15
+	destination
+		attributes "paradise"
+		distance 1 6
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		fleet
+			names "civilian"
+			variant
+				"Star Queen"
+	on stopover
+		dialog "Pasażerowie <npc> odchodzą, ubrani w najbardziej rzucające się w oczy stroje turystyczne, jakie najwyraźniej udało im się znaleźć, i zaczynają zachwycać się egzotyką tego dalekiego świata. Miejmy nadzieję, że nikt z nich nie zostanie okradziony. Przygotowujesz się do podróży powrotnej do <destination>."
+	on visit
+		dialog "Osiągnąłeś <planet>, ale nie możesz ukończyć tej misji, dopóki <npc> nie odwiedzi <stopovers> razem z tobą i nie dołączy do ciebie tutaj."
+	on complete
+		dialog "Żegnasz się z kapitanem <npc> i przyjmujesz zapłatę w wysokości <payment>."
+		payment
+		payment 50000
+
+
+mission "Paradise Job: Parolees"
+	name "Zwolnieni warunkowo do <planet>"
+	job
+	repeat
+	description `Ci <bunks> recydywiści, którzy nie dopuścili się przemocy, przyjęli dłuższe wyroki prac społecznych w zamian za odbycie kary na Paradise World w <destination>. Będą musieli zostać przetransportowani bezpiecznym statkiem. Zapłata wynosi <payment>.`
+	passengers 20 4 .1
+	to offer
+		random < 15
+		"passenger space" > 40
+	to accept
+		has "outfit (installed): Brig"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "mining" "fishing" "textiles" "factory" "farming" "oil"
+	destination
+		distance 2 18
+		attributes "paradise"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 170000 110
+		dialog "Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem lokalnych sił bezpieczeństwa, przygotowując się do spłaty długów wobec społeczeństwa. Urzędnik na statku <planet> sprawdza ich stan, gdy są wyprowadzani. Wydaje się być raczej zadowolony i wręcza ci zapłatę w wysokości <payment>."
+
+
+mission "Paradise Job: Debtors"
+	name "Dłużnicy wobec <planet>"
+	job
+	repeat
+	description `Te <bunks> biedne dusze zbankrutowały, próbując żyć ponad stan. W odpowiedzi, władze lokalne zapłacą ci <payment> za bezpieczny transport do <destination>, aby "były użyteczne."`
+	passengers 20 4 .1
+	to offer
+		random < 15
+		"passenger space" > 40
+	to accept
+		has "outfit (installed): Brig"
+	source
+		attributes "paradise"
+	destination
+		distance 2 30
+		attributes "mining" "fishing" "forest" "textiles" "factory" "farming" "oil" "frontier" "dirt belt" "south" "rim"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 170000 110
+		dialog "Pasażerowie nieszczęśliwie opuszczają statek pod czujnym okiem urzędników imigracyjnych. Uśmiechnięty pośrednik pracy jest gotowy wypłacić należne <payment> wynagrodzenie."
+
+
+mission "Paradise Job: Retirees"
+	name "Bogaci emeryci do <planet>"
+	job
+	repeat
+	description "Ta grupa <bunks> bogatych emerytów jest skłonna zapłacić <payment> za stylowy transport do <destination>, wraz z <tons> ich najcenniejszymi rzeczami."
+	passengers 7 12 .6
+	cargo "treasured possessions" 7 12 .2
+	to offer
+		random < 10
+		"passenger space" > 15
+		"cargo space" > 40
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "frontier" "dirt belt" "south" "farming" "mining" "rim" "forest" "urban"
+	destination
+		distance 3 16
+		attributes "paradise"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 200
+		dialog "Żegnasz emerytów, którzy mieli skłonność do rozlewania napojów lub irytowania Cię podczas pracy. Poza tym byli niezwykle uprzejmi i mieli mnóstwo zabawnych, choć często moralnie wątpliwych, anegdot. Gdy ostatni z ich rzeczy zostanie bezpiecznie rozładowany, Twoje konto otrzyma zapłatę w wysokości <payment> od ich agenta podróży."
+
+
+mission "Paradise Job: Pirate Retirees (Illegal)"
+	name "Bogaci emeryci do <planet>"
+	job
+	repeat
+	description `Ta grupa <bunks> bogatych "emerytów" jest skłonna zapłacić <payment> za stylowy transport bez zadawania pytań do <destination>, wraz z <tons> ich najcenniejszymi rzeczami.`
+	passengers 4 10 .6
+	cargo "treasured possessions" 4 10 .2
+	illegal 15000 `After scanning your ship, law enforcement notifies you. Apparently the "retirees" you've been carting around are secretly wanted individuals. After boarding your ship, they arrest the so-called retirees and search through their "treasured possessions," which are innocent enough, besides being obtained illegally. In the end, they confiscate the possessions and take away the criminals, leaving you with a small fine.`
+	stealth
+	to offer
+		random < 5
+		"passenger space" > 15
+		"cargo space" > 40
+	to accept
+		has "outfit: Luxury Accommodations"
+	source
+		government "Pirate"
+	destination
+		distance 3 16
+		attributes "paradise"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 15000 300
+		dialog "Żegnasz samozwańczych emerytów, którzy mieli skłonność do rozlewania napojów lub irytowania cię podczas pracy. Poza tym byli niezwykle uprzejmi, choć hałaśliwi, i mieli mnóstwo zabawnych, choć często moralnie wątpliwych, anegdot. Gdy ostatnie z ich rzeczy zostaną bezpiecznie rozładowane, twoje konto otrzyma wypłatę w wysokości <payment> z anonimowego źródła."
+
+
+mission "Paradise Job: Pirate Retirees (Legal)"
+	name "Bogaci emeryci do <planet>"
+	job
+	repeat
+	description `Ta grupa <bunks> bogatych "emerytów" jest skłonna zapłacić <payment> za stylowy transport bez zadawania pytań do <destination>, wraz z <tons> ich najcenniejszymi rzeczami.`
+	passengers 4 10 .6
+	cargo "treasured possessions" 4 10 .2
+	to offer
+		random < 5
+		"passenger space" > 15
+		"cargo space" > 40
+	to accept
+		has "outfit: Luxury Accommodations"
+	source
+		government "Pirate"
+	destination
+		distance 3 16
+		attributes "paradise"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 200
+		dialog "Żegnasz samozwańczych emerytów, którzy mieli skłonność do rozlewania napojów lub irytowania cię podczas pracy. Poza tym byli niezwykle uprzejmi, choć hałaśliwi, i mieli mnóstwo zabawnych, choć często moralnie wątpliwych, anegdot. Gdy ostatnie z ich rzeczy zostaną bezpiecznie rozładowane, twoje konto otrzyma wypłatę w wysokości <payment> z anonimowego źródła."
+
+
+mission "Paradise Job: Wilderness Retreat"
+	name "Wypoczynek na łonie natury do <planet>"
+	job
+	repeat
+	description `Zabierz <bunks> pseudo-celebrytów i bogatych turystów do dzikiego i nieokiełznanego świata <destination> na "Wilderness Retreat." Rozważą Twój statek tylko wtedy, gdy zapewnisz im komfortową podróż. Płatność wynosi <payment>.`
+	passengers 10 4 .1
+	to offer
+		random < 10
+		"passenger space" > 25
+	to accept
+		has "outfit (installed): Luxury Accommodations"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "urban" "near earth" "core" "paradise"
+	destination
+		distance 6 20
+		attributes "frontier" "rim" "forest" "fishing"
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 25000 250
+		dialog `Twoich pasażerów witają przesadnie entuzjastyczne powitanie w komicznie wystrojonych przewodnikach "wilderness." Nie możesz oprzeć się wrażeniu, że ci ludzie albo trafią do popularnego reality show, albo zostaną bezpiecznie oskubani z pieniędzy, ale nie są to postacie, które wzbudzają współczucie dla takiego losu. Jeden z witaczy dyskretnie przekazuje ci zapłatę w wysokości <payment>.`
+
+
+mission "Gemini Shipyards Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Gemini Shipyards, wchodzącej w skład Republic Navy Yard i jednej z najnowocześniejszych stoczni w przestrzeni kosmicznej. Płatność wynosi <payment>."
+	cargo "weapons" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 15
+		has "landing access: Geminus"
+		or
+			not "event: war begins"
+			has "event: geminus rebuilt"
+	source
+		near Castor 2 10
+		attributes factory
+	destination Geminus
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Gemini Shipyards Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Gemini Shipyards, wchodzącej w skład Republic Navy Yard i jednej z najnowocześniejszych stoczni w przestrzeni kosmicznej. Płatność wynosi <payment>."
+	cargo "Ship Systems" 5 2 .1
+	job
+	repeat
+	to offer
+		has "landing access: Geminus"
+		random < 15
+		or
+			not "event: war begins"
+			has "event: geminus rebuilt"
+	source
+		near Castor 2 10
+		attributes factory
+	destination Geminus
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Lovelace Labs Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Lovelace Labs, szanowanego w regionie producenta broni. Płatność wynosi <payment>."
+	cargo Metal 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Ada"
+	source
+		near Aldebaran 2 10
+		attributes core factory
+		not government "Pirate"
+	destination Ada
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Polymath Nanoinstruments Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Polymath Nanoinstruments, jednej z największych firm elektronicznych w kosmosie. Płatność wynosi <payment>."
+	cargo Electronics 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Vinci"
+	source
+		near Miaplacidus 2 10
+		attributes core factory
+	destination Vinci
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+
+
+# Martini Bombings jobs
+
+mission "Martini Evacuation (Resident Family)"
+	name "Ewakuować rodzinę Martini do <planet>"
+	description "Ta rodzina <bunks> z Martini straciła <martini house> w bombardowaniu atomowym i chce natychmiast wyjechać. Przewieź ich i ich <cargo> do <planet>, gdzie mają zakwaterowanie. Zapłacą ci <payment>."
+	job
+	repeat
+	passengers 3 20 .96
+	cargo "belongings" 2 4
+	substitutions
+		"<martini house>" "apartment"
+		"<martini house>" "house"
+			random < 50
+		"<martini house>" "condo"
+			random < 33
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2" # Gives the player about a month to do these missions.
+		random < 30
+	source Martini
+	destination
+		distance 2 5
+		attributes "paradise" "rich" "urban"
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog plural"
+		payment 8000 200
+
+
+mission "Martini Evacuation (Resident Group)"
+	name "Ewakuacja mieszkańców Martini do <planet>"
+	description "Ci <bunks> mieszkańcy Martini stracili <martini house> w bombardowaniu atomowym i chcą natychmiast wyjechać. Przewieź ich i ich <cargo> do <planet>, gdzie mają zakwaterowanie. Zapłacą ci <payment>."
+	job
+	repeat
+	passengers 3 2 .68
+	cargo "belongings" 3 6
+	substitutions
+		"<martini house>" "apartment"
+		"<martini house>" "house"
+			random < 50
+		"<martini house>" "condo"
+			random < 33
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 5
+		attributes "paradise" "rich" "urban"
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog plural"
+		payment 8000 200
+
+
+mission "Martini Evacuation (Resident)"
+	name "Ewakuować mieszkańców Martini do <planet>"
+	description "Ten mieszkaniec Martini stracił <martini house> w wyniku bombardowania atomowego i chce natychmiast wyjechać. Przewieź ich i ich <cargo> do <planet>, gdzie mają zakwaterowanie. Zapłacą ci <payment>."
+	job
+	repeat
+	passengers 1
+	cargo "belongings" 1 2
+	substitutions
+		"<martini house>" "apartment"
+		"<martini house>" "house"
+			random < 50
+		"<martini house>" "condo"
+			random < 33
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 5
+		attributes "paradise" "rich" "urban"
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog singular"
+		payment 6000 200
+
+
+mission "Martini Evacuation (Family, Luxury)"
+	name "Ewakuacja mieszkańców Martini do <planet>"
+	description "Ta rodzina <bunks> z Martini straciła <martini house> w bombardowaniu atomowym i chce natychmiast wypłynąć luksusowym statkiem. Przewieź ich i ich <cargo> do <planet>, gdzie znajdą zakwaterowanie. Zapłacą ci <payment>."
+	job
+	repeat
+	passengers 3 20 .96
+	cargo "belongings" 2 4
+	substitutions
+		"<martini house>" "apartment"
+		"<martini house>" "house"
+			random < 50
+		"<martini house>" "condo"
+			random < 33
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	to accept
+		has "outfit: Luxury Accommodations"
+	source Martini
+	destination
+		distance 2 5
+		attributes "paradise" "rich" "urban"
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog plural"
+		payment 12000 230
+
+
+mission "Martini Evacuation (Singular, Luxury)"
+	name "Ewakuować mieszkańców Martini do <planet>"
+	description "Ten mieszkaniec Martini stracił <martini house> w bombardowaniu atomowym i chce natychmiast wypłynąć luksusowym statkiem. Przewieź ich i ich <cargo> do <planet>, gdzie będą mieli zakwaterowanie. Zapłacą ci <payment>."
+	job
+	repeat
+	passengers 1
+	cargo "belongings" 1 2
+	substitutions
+		"<martini house>" "apartment"
+		"<martini house>" "house"
+			random < 50
+		"<martini house>" "condo"
+			random < 33
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	to accept
+		has "outfit: Luxury Accommodations"
+	source Martini
+	destination
+		distance 2 5
+		attributes "paradise" "rich" "urban"
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog singular"
+		payment 8000 230
+
+
+mission "Martini Evacuation (Tourist)"
+	name "Ewakuacja turystów do <planet>"
+	description "Ten turysta z <planet>, który był na Martini, żeby zobaczyć miasto, kiedy doszło do bombardowań atomowych, chce natychmiast wyjechać. Zawieź ich z powrotem do domu na <planet>, gdzie zapłacą ci <payment>."
+	job
+	repeat
+	passengers 1
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 8
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "generic passenger dropoff payment"
+		payment 3000 170
+
+
+mission "Martini Evacuation (Tourist Couple)"
+	name "Ewakuacja pary turystów do <planet>"
+	description "Ta para turystów z <planet>, która była na Martini, żeby zobaczyć miasto, kiedy doszło do bombardowań atomowych, chce natychmiast wyjechać. Zawieź ich z powrotem do domu na <planet>, gdzie zapłacą ci <payment>."
+	job
+	repeat
+	passengers 2
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 8
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "generic passenger dropoff payment"
+		payment 3000 170
+
+
+mission "Martini Evacuation (Tourist Family)"
+	name "Ewakuacja rodziny turystów do <planet>"
+	description "Ta rodzina <bunks> turystów z <planet>, którzy byli na Martini, aby zobaczyć miasto, gdy doszło do bombardowań atomowych, chce natychmiast wyjechać. Przewieź ich z powrotem do domu na <planet>, gdzie zapłacą ci <payment>."
+	job
+	repeat
+	passengers 3 20 .96
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 5
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "generic passenger dropoff payment"
+		payment 5000 170
+
+mission "Martini Evacuation (Tourist Group)"
+	name "Ewakuacja grupy turystycznej do <planet>"
+	description "Ta grupa <bunks> turystów z <planet>, którzy byli na Martini, żeby zobaczyć miasto, kiedy doszło do bombardowań atomowych, chce natychmiast wyjechać. Zawieź ich z powrotem do domów na <planet>, gdzie zapłacą ci <payment>."
+	job
+	repeat
+	passengers 3 20 .68
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 5
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "generic passenger dropoff payment"
+		payment 5000 170
+
+
+mission "Martini Evacuation (Businessman Group)"
+	name "Ewakuacja grupy biznesmenów z Martini do <planet>"
+	description "Ta grupa <bunks> biznesmenów, którzy byli na pokładzie Martini w podróży służbowej, gdy doszło do bombardowań atomowych, chce natychmiast wyjechać. Proszę ich odwieźć do domów dnia <planet>, gdzie zapłacą <payment>."
+	job
+	repeat
+	passengers 3 6
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 8
+		attributes "paradise" "rich"
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog plural"
+		payment 10000 200
+
+
+mission "Martini Evacuation (Businessman)"
+	name "Ewakuować biznesmena do <planet>"
+	description "Ten biznesmen, który podróżował służbowo na pokładzie Martini, gdy doszło do bombardowań atomowych, chce natychmiast wyjechać. Proszę przetransportować ich z powrotem do domu dnia <planet>, gdzie zapłacą Panu <payment>."
+	job
+	repeat
+	passengers 1
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 2 8
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo and passenger on visit"
+	on complete
+		dialog phrase "martini evac dialog singular"
+		payment 5000 200
+
+
+mission "Martini Evacuation (Exhausted Doctors)"
+	name "Transport wypisanych lekarzy do <planet>"
+	description "Ci <bunks> lekarze stale leczyli pacjentów na Martini po zamachach bombowych i teraz zostali wypisani. Przewieź ich z powrotem do domu na <planet>, gdzie ci zapłacą <payment>."
+	job
+	repeat
+	passengers 2 10 .9
+	to offer
+		has "event: initial deployment 1"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 4 12
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "generic passenger dropoff payment"
+		payment 5000 170
+
+
+mission "Martini Evacuation (Exhausted Search and Rescue Team)"
+	name "Transport rozładowanej grupy poszukiwawczo-ratowniczej do <planet>"
+	description "Ci <bunks> ratownicy poszukiwali ofiar bombardowań atomowych w stolicy Martini i zostali zwolnieni ze służby. Przewieź ich z powrotem do domu dnia <planet>, gdzie zapłacą ci <payment>."
+	job
+	repeat
+	passengers 2 10 .9
+	to offer
+		has "event: initial deployment 1"
+		not "event: initial deployment 2"
+		random < 30
+	source Martini
+	destination
+		distance 4 12
+		not attributes "station"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		dialog phrase "generic passenger dropoff payment"
+		payment 5000 170
+
+
+
+# Martini evac on complete dialog
+phrase "martini evac dialog singular"
+	word
+		"Podczas całej podróży"
+		"Podczas pobytu na pokładzie"
+		"Podczas pobytu na pokładzie"
+		"Pomiędzy hiperskokami"
+	word
+		", Twój pasażer z Martini został "
+	phrase
+		"martini evac 1"
+
+phrase "martini evac 1"
+	word
+		"oskarżający"
+		"wielokrotnie oskarżając"
+		"denuncjujący"
+	word
+		" "
+	word
+		"Wolne Światy"
+		"Południowy Pakt Obronny"
+		"Pakt Południowy"
+		"'te ${obrazy dla mieszkańców południa}'"
+		"'te ${obrazy dla mieszkańców południa}'"
+		"${obrazy dla mieszkańców południa}'"
+	word
+		" dla "
+	word
+		"bombardowania nuklearne"
+		"zniszczenie"
+		"dewastacja"
+		"katastrofa"
+	word
+		" na Martini. Podają ci <payment> i idą po swoje"
+	word
+		" " 10
+		" zadbany "
+		" drogi "
+		" bogaty "
+		" wygórowane "
+		" lato "
+		" wakacje "
+		" dodatkowy "
+		" inne "
+		" przyjaciela "
+		" krewny "
+	word
+		"penthouse"
+		"mieszkanie"
+		"apartament"
+		"rezydencja"
+		"dom"
+	word
+		" na <planet>."
+
+phrase "martini evac 1"
+	word
+		"mówię ci"
+		"informuję Cię"
+		"rozmowa"
+		"informujemy"
+	word
+		" z "
+		" o "
+	word
+		"rozpacz ludzi na Martini"
+		"osoby, które znali i które zginęły w eksplozjach"
+		"tragiczne warunki, w jakich żyją ludzie na wyspie Martini"
+		"pogarszający się stan gruntu na Martini"
+		"zniszczenie na Martini"
+		"zniszczenie, którego osobiście byli świadkami"
+		"awarie i straty, jakie ponieśli na Martini"
+		"osoby, od których nie otrzymali odpowiedzi na temat Martini"
+	word
+		", i proszę o dalszą pomoc w działaniach pomocowych"
+		", i dziękuję za zabranie ich poza planetę"
+		""
+	word
+		". Podają ci <payment> i idą do "
+	word
+		"mieszkanie"
+		"dom"
+	word
+		" na <planet>."
+
+
+phrase "martini evac dialog plural"
+	word
+		"Podczas całej podróży"
+		"Podczas pobytu na pokładzie"
+		"Podczas pobytu na pokładzie"
+		"Pomiędzy hiperskokami"
+	word
+		", Twoi pasażerowie z Martini zostali "
+	phrase
+		"martini evac 2"
+
+phrase "martini evac 2"
+	word
+		"oskarżający"
+		"wielokrotnie oskarżając"
+		"denuncjujący"
+	word
+		" "
+	word
+		"Wolne Światy"
+		"Południowy Pakt Obronny"
+		"Pakt Południowy"
+		"'te ${obrazy dla mieszkańców południa}'"
+		"'te ${obrazy dla mieszkańców południa}'"
+		"${obrazy dla mieszkańców południa}'"
+	word
+		" dla "
+	word
+		"bombardowania nuklearne"
+		"zniszczenie"
+		"dewastacja"
+	word
+		" na Martini. Grupa podaje ci <payment> i rusza do swojego"
+	word
+		" " 4
+		" zadbany "
+		" drogi "
+		" bogaty "
+		" wygórowane "
+	word
+		"penthouse'y"
+		"apartamenty"
+		"domy"
+		"wille"
+	word
+		" i "
+	word
+		"majątki"
+		"apartamenty"
+		"rezydencje"
+		"dwory"
+	word
+		" na <planet>."
+
+phrase "martini evac 2"
+	word
+		"mówię ci"
+		"informuję Cię"
+		"rozmowa"
+		"informujemy"
+	word
+		" z "
+		" o "
+	word
+		"rozpacz ludzi na Martini"
+		"osoby, które znali i które zginęły w eksplozjach"
+		"tragiczne warunki, w jakich żyją ludzie na wyspie Martini"
+		"pogarszający się stan gruntu na Martini"
+		"zniszczenie na Martini"
+		"zniszczenie, którego osobiście byli świadkami"
+		"awarie i straty, jakie ponieśli na Martini"
+		"osoby, od których nie otrzymali odpowiedzi na temat Martini"
+	word
+		". Oni "
+	word
+		"błagam Cię o dalszą pomoc w działaniach pomocowych,"
+		"dziękuję za zabranie ich z planety,"
+	word
+		" wręczam ci <payment> i kieruję się do nich "
+	word
+		"apartamenty"
+		"domy"
+		"mieszkania i domy"
+	word
+		" na <planet>."
+
+phrase "insults for southerners"
+	word
+		"krwawy"
+		"cholera"
+		"skokowy"
+		"nowicjusz"
+		"narzekanie"
+		"narzekanie"
+		"głupi"
+		"buntowniczy"
+		"zdradliwy"
+		"zdrada"
+		"zdradliwy"
+		"mylące"
+		"terroryzowanie"
+		"chciwy"
+		"tchórzliwy"
+		"podstawa"
+	word
+		" "
+	word
+		"południowe"
+		"południowcy"
+		"kolektywiści"
+		"wywrotowcy"
+		"powstańcy"
+		"sprawy-charytatywne"
+		"rakietowcy"
+		"piraci"
+		"nielegalne"
+		"przemytnicy broni"
+		"sunnavaguns'"
+		"korsarze"
+	word
+		" z "
+	word
+		"Bourne"
+		"Rdza"
+		"Ukojenie"
+		"Greenrock"
+		"Thule"
+		"Pociąg"
+		"Skok w dal"
+		"Południe"
+		"obręcz"
+		"Południowa Krawędź"
+
+
+
+mission "Martini Relief (Medical) [0]"
+	name "Pomoc w przypadku klęski żywiołowej w Martini"
+	description "Z powodu niedawnych bombardowań atomowych, przyprowadź <cargo> na <planet>, aby pomóc w opatrzeniu rannych. Będziesz musiał wezwać kontrolera portu kosmicznego, aby uzyskać pozwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	cargo Medical 1 2 .2
+	clearance "When you explain to the spaceport controller that you are carrying a vital supply of <commodity> to help treat the wounded, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 25
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 6000 170
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Martini Relief (Medical) [1]"
+	name "Pomoc w przypadku klęski żywiołowej w Martini"
+	description "Z powodu niedawnych bombardowań atomowych, przyprowadź <cargo> na <planet>, aby pomóc w opatrzeniu rannych. Będziesz musiał wezwać kontrolera portu kosmicznego, aby uzyskać pozwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	cargo Medical 1 2 .2
+	clearance "When you explain to the spaceport controller that you are carrying a vital supply of <commodity> to help treat the wounded, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 10
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 8000 180
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Martini Relief (Reconstruction)"
+	name "Materiały budowlane dla Martini"
+	description "Z powodu niedawnych bombardowań atomowych, przyprowadź <cargo> na <planet>, aby pomóc w odbudowie. Będziesz musiał skontaktować się z kontrolerem kosmoportu, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	cargo Construction 1 2 .2
+	clearance "When you explain to the spaceport controller that you are carrying a vital supply of <commodity> for the reconstruction efforts, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 20
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 7000 170
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Martini Relief (Food)"
+	name "Paczki z żywnością do Martini"
+	description "Z powodu niedawnych bombardowań atomowych, przyprowadź <cargo> na <planet>, aby pomóc w utrzymaniu zapasów. Będziesz musiał zawołać kontrolera portu kosmicznego, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	cargo "food packages" 1 2 .2
+	clearance "When you explain to the spaceport controller that you are carrying a vital supply of <commodity> for the refugee camps, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 20
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 7000 180
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Martini Relief (Water Tablets)"
+	name "Tabletki do oczyszczania wody Martini"
+	description "Z powodu niedawnych bombardowań atomowych, przyprowadź <cargo> na <planet>, aby pomóc w utrzymaniu zapasów. Będziesz musiał zawołać kontrolera portu kosmicznego, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	cargo "water purification tablets" 1 2 .2
+	clearance "When you explain to the spaceport controller that you are carrying a vital supply of <commodity> for the refugee camps, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 20
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 7000 180
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Martini Relief (Fire Retardant)"
+	name "Środek ognioodporny do Martini"
+	description "Z powodu niedawnych bombardowań atomowych, przyprowadź <cargo> na <planet>, aby pomóc w utrzymaniu zapasów. Będziesz musiał zawołać kontrolera portu kosmicznego, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	cargo "fire retardant" 1 2 .2
+	clearance "When you explain to the spaceport controller that you are carrying a vital supply of <commodity> to help defeat the growing fires around the capital, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 10
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 7000 170
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Martini Relief (People) [0]"
+	name "Pracownicy pomocy humanitarnej dla Martiniego"
+	description "Z powodu niedawnych bombardowań atomowych na Martini, przyprowadź <bunks> <martini relief occupations> na <planet>, aby odciążyć przeciążone szpitale. Będziesz musiał skontaktować się z kontrolerem kosmoportu, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	passengers 2 2 .3
+	substitutions
+		"<martini relief occupations>" "doctors"
+		"<martini relief occupations>" "technicians"
+			random < 50
+		"<martini relief occupations>" "nurses"
+			random < 33
+		"<martini relief occupations>" "surgeons"
+			random < 25
+	clearance "When you explain to the spaceport controller that you have on board a group of <martini relief occupations> for Martini's disaster relief efforts, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 25
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 180
+		dialog phrase "generic passenger dropoff payment"
+
+mission "Martini Relief (People) [1]"
+	name "Pracownicy pomocy humanitarnej dla Martiniego"
+	description "Z powodu niedawnych bombardowań nuklearnych na Martini, przyprowadź <bunks> <martini relief occupations> na <planet>, aby pomóc w akcji ratunkowej Martini. Będziesz musiał skontaktować się z kontrolerem kosmodromu, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	passengers 2 2 .3
+	substitutions
+		"<martini relief occupations>" "evacuation coordinators"
+		"<martini relief occupations>" "search and rescue operatives"
+			random < 50
+		"<martini relief occupations>" "firefighters"
+			random < 33
+		"<martini relief occupations>" "volunteers"
+			random < 25
+	clearance "When you explain to the spaceport controller that you have on board a group of <martini relief occupations> for Martini's disaster relief efforts, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 15
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 180
+		dialog phrase "generic passenger dropoff payment"
+
+mission "Martini Relief (People) [2]"
+	name "Pracownicy pomocy humanitarnej dla Martiniego"
+	description "Z powodu niedawnych bombardowań atomowych na Martini, przyprowadź <bunks> <martini relief occupations> na <planet>, aby pomóc w zakwaterowaniu i odbudowie. Będziesz musiał skontaktować się z kontrolerem kosmoportu, aby uzyskać zezwolenie na wejście na planetę. Płatność wynosi <payment>."
+	job
+	repeat
+	passengers 2 2 .3
+	substitutions
+		"<martini relief occupations>" "engineers"
+		"<martini relief occupations>" "technicians"
+			random < 50
+		"<martini relief occupations>" "construction workers"
+			random < 33
+		"<martini relief occupations>" "volunteers"
+			random < 25
+	clearance "When you explain to the spaceport controller that you have on board a group of <martini relief occupations> for Martini's disaster relief efforts, they give you the clearance to land."
+	to offer
+		has "event: war begins"
+		not "event: initial deployment 2"
+		random < 10
+	source
+		near Pollux 2 10
+	destination Martini
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 10000 180
+		dialog phrase "generic passenger dropoff payment"

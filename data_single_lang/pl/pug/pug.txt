@@ -1,0 +1,259 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+phrase "pug"
+	word
+		"Pak"
+		"Kubek"
+		"Ochrona"
+		"Ból"
+		"Mek"
+		"Kamka"
+		"Yot"
+		"Quim"
+		"Tsoop"
+		"Froid"
+		"Grupa"
+		"Ploort"
+		"Schmar"
+		"Gotowe"
+		"Hamulec"
+	word
+		" " 3
+		" Kim "
+		" Praca "
+		" Moof "
+		" Plat "
+		" Usuń "
+		" Ben "
+		" Wiara "
+		" Klort "
+		" Rep "
+		" Dla "
+		" a "
+		" Ja "
+		" ten "
+	word
+		"Glorf"
+		"Florp"
+		"Margines"
+		"Graw"
+		"Ged"
+		"Kołek"
+		"Plog"
+		"Hort"
+		"Noor"
+		"Joop"
+		"Morderstwo"
+		"Loit"
+		"Sol"
+		"Wan"
+
+phrase "friendly pug"
+	word
+		"My"
+		"Mops"
+		"Naszą misją jest"
+		"Naszym powołaniem jest"
+		"Nasz gatunek będzie"
+		"Zamierzamy"
+		"Chcemy tylko"
+	word
+		" "
+	word
+		"przynieś"
+		"promuj"
+		"postęp"
+		"zapewnij"
+		"utwórz"
+		"rozwijać"
+		"stymuluje"
+		"wsparcie"
+		"utrzymać"
+		"pomoc w sprowadzeniu"
+		"wspierać sprawę"
+		"praca dla"
+		"doprowadzić do"
+	word
+		" "
+	word
+		"pokój"
+		"leczenie"
+		"sprawiedliwość"
+		"wolność"
+		"koniec konfliktu"
+		"koniec przemocy"
+		"koniec wojny"
+		"dobrobyt"
+		"pojednanie"
+		"przyjaźń"
+		"jedność"
+		"koniec przemocy"
+	word
+		"."
+		" w galaktyce."
+		" w całym wszechświecie."
+		" spośród wszystkich istot czujących."
+
+phrase "friendly disabled pug"
+	word
+		"Jesteśmy tylko częścią większej całości"
+		"Nadszedł nasz czas"
+		"Jesteśmy pokonani, ale sprawa trwa"
+	word
+		"; "
+	word
+		"pozostaw nas na pastwę losu"
+		"kontynuuj walkę bez nas"
+		"nie martw się o nas"
+	word
+		"."
+
+phrase "hostile pug"
+	word
+		"Ty"
+	word
+		" "
+	word
+		"zrobiłem"
+		"robią"
+		"zatwierdzono"
+		"są winni"
+		"dokonują"
+		"wybrałem"
+		"odgrywają rolę"
+		"utrwalają"
+	word
+		" "
+	word
+		"godny ubolewania"
+		"zrozumiałe"
+		"nieszczęsny"
+		"poważny"
+		"grób"
+		"skrajność"
+		"nierozsądne"
+		"absurd"
+		"głupi"
+		"głupi"
+		"szalony"
+		"absurd"
+		"nierozsądny"
+		"zły"
+	word
+		" "
+	word
+		"błąd"
+		"błąd"
+		"błąd w ocenie sytuacji"
+		"wybór"
+		"decyzja"
+		"błąd"
+		"błąd w obliczeniach"
+		"pomyłkowy krok"
+		"błąd"
+		"wykroczenie"
+	word
+		"."
+
+
+
+fleet "Small Pug"
+	government "Pug"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Zibruka"
+	variant 2
+		"Pug Zibruka" 2
+	variant 2
+		"Pug Enfolta"
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka"
+
+fleet "Large Pug"
+	government "Pug"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+	variant 1
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Zibruka" 5
+	variant 2
+		"Pug Maboro"
+		"Pug Zibruka" 2
+	variant 3
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka"
+	variant 2
+		"Pug Maboro"
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+
+
+
+fleet "Small Pug (Wanderer)"
+	government "Pug (Wanderer)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Zibruka"
+	variant 2
+		"Pug Zibruka" 2
+	variant 2
+		"Pug Enfolta"
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka"
+
+fleet "Large Pug (Wanderer)"
+	government "Pug (Wanderer)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+	variant 1
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Zibruka" 5
+	variant 2
+		"Pug Maboro"
+		"Pug Zibruka" 2
+	variant 3
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka"
+	variant 2
+		"Pug Maboro"
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka" 2

@@ -1,0 +1,272 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Supercapacitor"
+	category "Power"
+	series "Batteries"
+	index 01010
+	cost 1500
+	thumbnail "outfit/supercapacitor"
+	"mass" 2
+	"outfit space" -2
+	"energy capacity" 750
+	description "Przy wystarczająco mocnym generatorze wiele statków w ogóle nie potrzebuje baterii. Jedynym wyjątkiem jest broń miotająca, która zazwyczaj wymaga impulsu energii znacznie przekraczającego energię wytwarzaną przez generator. Superkondensatory zapewniają wystarczającą ilość energii dla tej broni, bez konieczności instalowania dużego akumulatora."
+
+outfit "LP036a Battery Pack"
+	category "Power"
+	series "Batteries"
+	index 01020
+	cost 6000
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 4000
+	description "Statek może działać bez akumulatorów, jeśli chwilowa moc wyjściowa jego generatora jest wyższa niż całkowite zużycie energii jego systemów, ale akumulatory umożliwiają magazynowanie energii, gdy nie jest ona potrzebna, a tym samym korzystanie ze znacznie mniejszego i tańszego generatora."
+
+outfit "LP072a Battery Pack"
+	category "Power"
+	series "Batteries"
+	index 01030
+	cost 14000
+	thumbnail "outfit/small battery"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 8800
+	description "Ten zestaw akumulatorów ma ponad dwukrotnie większą pojemność energetyczną niż najprostsza wersja, co pozwala Twojemu statkowi walczyć dłużej, zanim wyczerpie się energia. Niektórzy piloci instalują je nawet zamiast jakiegokolwiek generatora, wierząc, że dotrą do planety docelowej i naładują się, zanim wyczerpią się baterie, ale to ryzykowne rozwiązanie."
+
+outfit "LP144a Battery Pack"
+	category "Power"
+	series "Batteries"
+	index 01040
+	cost 32000
+	thumbnail "outfit/medium battery"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 19200
+	description "Ten średniej wielkości zestaw baterii jest przeznaczony dla statków, które muszą od czasu do czasu wystrzelić salwę uzbrojenia o dużej mocy bez wyczerpywania się energii. Jak w przypadku wszystkich zestawów baterii, poleganie na bateriach jest ryzykowne, jeśli walka trwa wystarczająco długo, aby mogły się one wyczerpywać."
+
+outfit "LP288a Battery Pack"
+	category "Power"
+	series "Batteries"
+	index 01050
+	cost 54000
+	thumbnail "outfit/large battery"
+	"mass" 60
+	"outfit space" -60
+	"energy capacity" 31200
+	description "To duży akumulator przeznaczony dla statków, które czasami mają duże zapotrzebowanie na energię, ale nie chcą ponosić wydatków ani generować ciepła związanego z mocniejszym generatorem okrętowym."
+
+outfit "LP576a Battery Pack"
+	category "Power"
+	series "Batteries"
+	index 01060
+	cost 80000
+	thumbnail "outfit/huge battery"
+	"mass" 80
+	"outfit space" -80
+	"energy capacity" 46000
+	description "W przypadku większości statków wymagających tak dużej mocy, większy generator ma większy sens niż akumulator tej wielkości. Jednak akumulatory mają tę zaletę, że nie generują ciepła, dlatego niektórzy kapitanowie używają ich zamiast mocnych generatorów, jeśli nie spodziewają się częstej lub długotrwałej walki."
+
+
+outfit "KP-6 Photovoltaic Panel"
+	category "Power"
+	series "Solar"
+	index 01010
+	cost 7000
+	thumbnail "outfit/tiny photovoltaic"
+	"mass" 3
+	"outfit space" -2
+	"solar collection" .1
+	description "Ten wczesny komercyjny system fotowoltaiczny był siłą napędową pierwszej międzyplanetarnej sieci handlowej ludzkości. Wytrzymały i modułowy, można go przykręcić do kadłuba dowolnego statku i dotarł nawet do najodleglejszych zakątków ludzkiej przestrzeni kosmicznej."
+
+outfit "KP-6 Photovoltaic Array"
+	category "Power"
+	series "Solar"
+	index 01020
+	cost 60000
+	thumbnail "outfit/small photovoltaic"
+	"mass" 24
+	"outfit space" -16
+	"solar collection" 1.1
+	description "Kompaktowa modułowość KP-6 doskonale sprawdziła się w tworzeniu większych paneli słonecznych. Ten oryginalny model Korunak Photovoltaics jest wyposażony w układ śledzenia słońca, co pozwala mu lepiej wykorzystać dostępne światło."
+
+
+outfit "nGVF-AA Fuel Cell"
+	category "Power"
+	series "Generators"
+	index 01010
+	cost 35000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 1.2
+	"heat generation" 1.9
+	description "Ogniwa paliwowe były najtańszym i najpopularniejszym źródłem zasilania statków kosmicznych od zarania ery kosmicznej. Ten model wytwarza energię wystarczającą jedynie dla bardzo małych lub powolnych statków."
+
+outfit "nGVF-BB Fuel Cell"
+	category "Power"
+	series "Generators"
+	index 01020
+	cost 47000
+	thumbnail "outfit/small fuel cell"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 1.9
+	"heat generation" 2.9
+	description "To krok naprzód w stosunku do najmniejszych ogniw paliwowych, dostarczający wystarczająco dużo energii do zasilania kilku małych dział, oprócz silników."
+
+outfit "nGVF-CC Fuel Cell"
+	category "Power"
+	series "Generators"
+	index 01030
+	cost 72000
+	thumbnail "outfit/medium fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 2.6
+	"heat generation" 3.8
+	description "Jest to ogniwo paliwowe średniej wielkości, zaprojektowane tak, aby było wystarczające dla większych statków cywilnych i małych okrętów wojennych, a jednocześnie bardziej przystępne cenowo niż bardziej zaawansowane opcje generatorów."
+
+outfit "nGVF-DD Fuel Cell"
+	category "Power"
+	series "Generators"
+	index 01040
+	cost 118000
+	thumbnail "outfit/large fuel cell"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 4.1
+	"heat generation" 5.7
+	description "To stosunkowo duże ogniwo paliwowe. Dostępne są inne generatory, które wytwarzają więcej energii i zajmują mniej miejsca, ale są znacznie droższe. W rezultacie duże statki cywilne, które nie będą często brać udziału w walkach, często są wyposażone w te ogniwa paliwowe."
+
+outfit "nGVF-EE Fuel Cell"
+	category "Power"
+	series "Generators"
+	index 01050
+	cost 177000
+	thumbnail "outfit/huge fuel cell"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 5.9
+	"heat generation" 7.8
+	description "To największe dostępne ogniwo paliwowe, większe niż niektóre reaktory jądrowe, ale znacznie, znacznie tańsze. Wielu kapitanów z ograniczonym budżetem jest skłonnych znieść jedno z nich, dopóki nie uda im się zebrać pieniędzy na coś bardziej wydajnego."
+
+
+outfit "RT-I Radiothermal"
+	category "Power"
+	series "Generators"
+	index 01060
+	cost 300000
+	thumbnail "outfit/small radiothermal"
+	"mass" 45
+	"outfit space" -45
+	"energy generation" 4.4
+	"heat generation" 18
+	description "Generatory radiotermiczne pozyskują ciepło z izotopów radioaktywnych i przetwarzają je na energię elektryczną. Są mocniejsze niż ogniwa paliwowe, ale wytwarzają również stosunkowo dużą ilość ciepła."
+
+outfit "S3 Thermionic"
+	category "Power"
+	series "Generators"
+	index 01070
+	cost 360000
+	thumbnail "outfit/small thermionic"
+	"mass" 55
+	"outfit space" -55
+	"energy generation" 5.0
+	"heat generation" 12
+	description "Termionowe generatory radioizotopowe zostały zaprojektowane jako chłodnicza alternatywa dla generatorów radiotermicznych."
+
+outfit "NT-200 Nucleovoltaic"
+	category "Power"
+	series "Generators"
+	index 01080
+	cost 570000
+	thumbnail "outfit/small nucleovoltaic"
+	"mass" 65
+	"outfit space" -65
+	"energy generation" 7.2
+	"heat generation" 15
+	description "Generatory jądrowo-woltaiczne to stosunkowo nowa technologia generatorów, która pozyskuje energię z rozpadu radioizotopu i przekształca ją bezpośrednio w energię elektryczną. Są to najpotężniejsze generatory, które wykorzystują rozpad jądrowy zamiast aktywnej reakcji łańcuchowej."
+
+
+outfit "Dwarf Core"
+	category "Power"
+	series "Generators"
+	index 01090
+	cost 800000
+	thumbnail "outfit/dwarf core"
+	"mass" 36
+	"outfit space" -36
+	"energy generation" 4.8
+	"heat generation" 14
+	description "Dwarf Core to zminiaturyzowany reaktor jądrowy, na tyle mały, że można go zainstalować na każdym statku większym niż myśliwiec. Został zaprojektowany przez Deep Sky do współpracy z ich energochłonnymi silnikami atomowymi."
+
+outfit "Fission Reactor"
+	category "Power"
+	series "Generators"
+	index 01100
+	cost 1500000
+	thumbnail "outfit/fission"
+	"mass" 65
+	"outfit space" -65
+	"energy generation" 9.4
+	"heat generation" 25
+	description "Reaktory rozszczepieniowe były podstawą wyposażenia dużych okrętów wojskowych jeszcze przed erą kosmiczną. Dzisiejsze modele są bardzo bezpieczne i wydajne, ale niektórzy piloci wciąż uważają je za niepokojące."
+
+outfit "Breeder Reactor"
+	category "Power"
+	series "Generators"
+	index 01110
+	cost 2500000
+	thumbnail "outfit/breeder"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 12.8
+	"heat generation" 35
+	description "Reaktor powielający to bardziej wydajny reaktor rozszczepialny, który wychwytuje część promieniowania neutronowego wytwarzanego przez reaktor i wykorzystuje je do wzbogacania paliwa. Oczywiście są one również większe i droższe."
+
+outfit "Fusion Reactor"
+	category "Power"
+	series "Generators"
+	index 01120
+	cost 5000000
+	thumbnail "outfit/fusion"
+	"mass" 100
+	"outfit space" -100
+	"energy generation" 18.2
+	"heat generation" 40
+	description "Wynalezienie praktycznej energii termojądrowej pod koniec XXI wieku zapoczątkowało nową erę dobrobytu i dostatku. Kilka wieków później generatory zostały zmniejszone, ale nadal są używane głównie na okrętach wojennych."
+
+outfit "Armageddon Core"
+	category "Power"
+	series "Generators"
+	index 01130
+	cost 9000000
+	thumbnail "outfit/core"
+	"mass" 130
+	"outfit space" -130
+	"energy generation" 24.2
+	"heat generation" 70
+	description "Rdzeń Armageddon został zaprojektowany, aby sprostać ekstremalnym potrzebom energetycznym największych okrętów wojennych Marynarki Wojennej Republiki. Jeden taki generator kosztuje więcej niż cała flota mniejszych okrętów."
+
+outfit "Stack Core"
+	category "Power"
+	series "Generators"
+	index 01140
+	cost 4500000
+	thumbnail "outfit/stack core"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 22.9
+	"heat generation" 55
+	description "Rdzeń Stack Core został stworzony przez Wolne Światy głównie jako źródło zasilania dla ich pancerników. Jest to reaktor rozszczepialny, a zatem mniej wydajny niż technologia fuzji jądrowej Marynarki Wojennej, ale jest również znacznie tańszy w produkcji."

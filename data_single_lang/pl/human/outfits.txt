@@ -1,0 +1,597 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Cooling Ducts"
+	plural "Cooling Ducts"
+	category "Systems"
+	series "Cooling"
+	index 01010
+	cost 10000
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 5
+	description "Próbując zmieścić na statku jak najwięcej urządzeń o dużej mocy, czasami dochodzi się do punktu, w którym sporadycznie się przegrzewa i wyłącza. W takim przypadku może być konieczna instalacja jednego z nich."
+
+outfit "Water Coolant System"
+	category "Systems"
+	series "Cooling"
+	index 01020
+	cost 25000
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 12
+	description "Ten system stanowi udoskonaloną wersję zwykłych kanałów chłodzących. Zapewnia on cyrkulację wody pomiędzy zewnętrznym grzejnikiem a najcieplejszymi wewnętrznymi podzespołami statku, zapobiegając ich przegrzaniu."
+
+outfit "Liquid Nitrogen Cooler"
+	category "Systems"
+	series "Cooling"
+	index 01030
+	cost 60000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 29
+	description "Dla statków o ekstremalnych potrzebach chłodzenia ciekły azot jest rozwiązaniem. Jedna z tych chłodnic rozproszy ciepło wytwarzane przez cokolwiek poza najcięższym uzbrojeniem."
+
+outfit "Liquid Helium Cooler"
+	category "Systems"
+	series "Cooling"
+	index 01040
+	cost 150000
+	thumbnail "outfit/liquid helium"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 69
+	description "Ciekły hel to szczyt technologii chłodzenia. Biorąc pod uwagę, ile miejsca zajmuje ten system chłodzenia, lepszym rozwiązaniem może być po prostu zainstalowanie bardziej wydajnych podzespołów o niskim źródle ciepła, ale jeśli nie jest to możliwe, ten cooler poradzi sobie z niemal każdym wyzwaniem."
+
+
+outfit "D14-RN Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 01010
+	cost 20000
+	thumbnail "outfit/tiny shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" .2
+	"shield energy" .2
+	description "To standardowy generator tarcz dla myśliwców i przechwytywaczy, a także dla wielu statków kosmicznych niesłużących do walki. Chociaż statek może w ogóle nie posiadać generatora tarcz, a jego matryca tarcz ładuje się dopiero po wylądowaniu w gościnnym porcie kosmicznym, życie w głębokiej przestrzeni kosmicznej jest na tyle nieprzewidywalne, że większość pilotów uważa, że generatory tarcz są warte zajmowanej przez nie przestrzeni."
+
+outfit "D23-QP Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 01020
+	cost 35000
+	thumbnail "outfit/small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" .32
+	"shield energy" .32
+	description "To nieco mocniejszy generator tarcz niż standardowy model montowany na większości małych statków. Jeśli walka trwa wystarczająco długo, zwiększona szybkość ładowania wystarczy, by zapewnić przewagę, ale pełne naładowanie tarcz i tak zajmie dużo czasu."
+
+outfit "D41-HY Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 01030
+	cost 65000
+	thumbnail "outfit/medium shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" .51
+	"shield energy" .51
+	description "To mocniejszy generator osłon przeznaczony dla statków, które będą często brać udział w bitwach lub mają tak dużą pojemność osłony, że jej naładowanie przy użyciu mniejszego generatora zajęłoby dużo czasu."
+
+outfit "D67-TM Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 01040
+	cost 120000
+	thumbnail "outfit/large shield"
+	"mass" 45
+	"outfit space" -45
+	"shield generation" .82
+	"shield energy" .82
+	description "Ten generator osłon jest na tyle potężny, że w walce ze szczególnie słabymi statkami, nie będą one w stanie wyczerpać twoich osłon tak szybko, jak się one ładują."
+
+outfit "D94-YV Shield Generator"
+	category "Systems"
+	series "Shields"
+	index 01050
+	cost 200000
+	thumbnail "outfit/huge shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 1.31
+	"shield energy" 1.31
+	description "To najpotężniejszy generator osłon dostępny w przestrzeni kosmicznej. Ze względu na swoje duże rozmiary, generatory osłon D94-YV są używane głównie na dużych okrętach wojennych, ale można je zamontować na mniejszym statku, jeśli jest się gotowym poświęcić moc silnika lub uzbrojenie, aby zrobić dla niego miejsce."
+
+outfit "S-270 Regenerator"
+	category "Systems"
+	series "Shields"
+	index 01060
+	cost 220000
+	thumbnail "outfit/small regenerator"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" .6
+	"shield energy" .6
+	"energy consumption" .3
+	"heat generation" 2
+	description "Regenerator tarczy działa poprzez subtelną modyfikację geometrii matrycy tarczy, aby uczynić ją bardziej plastyczną, a tym samym łatwiejszą do ładowania. Niestety, powoduje to również spadek wydajności tarcz, co pochłania energię z pozostałych systemów, nawet gdy tarcze nie są ładowane, i generuje ciepło."
+
+outfit "S-970 Regenerator"
+	category "Systems"
+	series "Shields"
+	index 01070
+	cost 800000
+	thumbnail "outfit/large regenerator"
+	"mass" 37
+	"outfit space" -37
+	"shield generation" 2.3
+	"shield energy" 2.3
+	"energy consumption" .9
+	"heat generation" 6
+	description "Regenerator osłon S-970 to zaawansowana technologia ładowania osłon. Niestety, jego zapotrzebowanie na energię jest dość wysokie, a zmiany w konfiguracji osłon powodują również sprzężenie zwrotne, które powoduje nagrzewanie się regeneratora, nawet gdy osłony działają z pełną mocą."
+
+
+outfit "Small Radar Jammer"
+	category "Systems"
+	series "Jammers"
+	index 01010
+	cost 24000
+	thumbnail "outfit/small radar jammer"
+	"mass" 4
+	"outfit space" -4
+	"radar jamming" 2
+	description "Ten zakłócacz radarowy został zaprojektowany do zakłócania działania pocisków Sidewinder i innych pocisków, które wykorzystują radar do śledzenia celu. Zakłócanie może czasami powodować utratę namierzania celu przez pociski."
+
+outfit "Large Radar Jammer"
+	category "Systems"
+	series "Jammers"
+	index 01020
+	cost 138000
+	thumbnail "outfit/large radar jammer"
+	"mass" 14
+	"outfit space" -14
+	"radar jamming" 10
+	description "Ten potężny zakłócacz radarowy znacznie utrudni pociskom śledzącym Cię za pomocą radaru. Nie wpłynie on na pociski śledzące Cię optycznie lub wykrywające sygnaturę cieplną Twojego statku."
+
+
+outfit "Ramscoop"
+	category "Systems"
+	series "Ramscoops"
+	index 01010
+	cost 60000
+	thumbnail "outfit/ramscoop"
+	"mass" 10
+	"outfit space" -10
+	"ramscoop" 1
+	description "W początkach eksploracji kosmosu, gdy statki mogły przemierzać pół tuzina układów, zanim natrafiły na założoną kolonię, gdzie mogły uzupełnić paliwo, szufelki były niezbędnym elementem wyposażenia, zbierającym plazmę z wiatru słonecznego do napełniania zbiorników paliwa w nadprzestrzeni. Chociaż można zainstalować więcej niż jedną szufelkę, kolejne szufelki na jednym statku nie są tak skuteczne, jak pierwsza."
+	description "	Różne rodzaje gwiazd generują różne ilości paliwa w wietrze słonecznym, ale zawsze im bliżej gwiazdy, tym szybciej paliwo się gromadzi. Ze względów bezpieczeństwa wszystkie statki mogą zbierać niewielkie ilości paliwa, lecąc blisko gwiazdy, ale ten zestaw pozwala na znacznie szybsze gromadzenie paliwa."
+
+outfit "Catalytic Ramscoop"
+	category "Systems"
+	series "Ramscoops"
+	index 01020
+	cost 320000
+	thumbnail "outfit/catalytic ramscoop"
+	"mass" 16
+	"outfit space" -16
+	"ramscoop" 7
+	description "Technologia Ramscoop pozostaje praktycznie niezmieniona od wieków, ponieważ po zasiedleniu niemal każdego systemu w przestrzeni kosmicznej przez ludzi, statki nie musiały już wytwarzać własnego paliwa. Jednak wojna w Wolnych Światach ponownie utrudniła podróżowanie, dlatego inżynierowie z Głębin wynaleźli niedawno znacznie ulepszoną Ramscoop do użytku we flotach handlowych."
+
+outfit "Hyperdrive"
+	category "Systems"
+	series "Drives"
+	index 10
+	cost 50000
+	thumbnail "outfit/hyperdrive"
+	"mass" 20
+	"outfit space" -20
+	"jump speed" .2
+	"jump fuel" 100
+	"hyperdrive" 1
+	description "Ta tajemnicza skrzynia spoczywa cicho w sercu twojego statku, snując własne, niezgłębione myśli. Kiedy nadchodzi czas podróży międzygwiezdnej, wywołuje reakcję syntezy jądrowej, wystarczająco potężną, by zrównać z ziemią całe miasto, a następnie w jakiś sposób wciska powstałą eksplozję między fałdy regularnej czasoprzestrzeni, niczym osa żądląca liść dębu, by złożyć w nim jaja. Twój statek podąża za powstałą falą w strukturze przestrzeni."
+	description "	Mówią, że obecnie żyje mniej niż tuzin ludzi, którzy rozumieją wewnętrzne zasady działania hipernapędu."
+
+outfit "Scram Drive"
+	category "Systems"
+	series "Drives"
+	index 20
+	cost 90000
+	thumbnail "outfit/scram drive"
+	"mass" 30
+	"outfit space" -30
+	"scram drive" .2
+	"jump fuel" 150
+	"hyperdrive" 1
+	description "Napęd skram to specjalnie zaprojektowany hipernapęd, który działa nawet wtedy, gdy statek porusza się ze znacznie większą prędkością, kosztem większego zużycia paliwa. Jeśli ścigają cię piraci (lub po prostu chcesz się gdzieś szybko dostać), ta dodatkowa prędkość może mieć duże znaczenie."
+
+outfit "Jump Drive"
+	category "Systems"
+	series "Drives"
+	index 30
+	cost 1000000
+	thumbnail "outfit/jump drive"
+	"mass" 20
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 200
+	"jump drive" 1
+	description "Działanie napędu skokowego pozostaje całkowitą zagadką. Najlepsze, co udało się odkryć naukowcom, to to, że urządzenie to jest polem ograniczającym materię w stanie, który normalnie nie może istnieć w tym wszechświecie; jeśli napęd zostanie otwarty, pole zanika, a jego zawartość znika. Dlatego, mimo że na przestrzeni lat udało się przechwycić kilka napędów skokowych, jak dotąd nie udało się ich odtworzyć."
+
+outfit "Jump Drive (Broken)"
+	plural "Jump Drives (Broken)"
+	series "Drives"
+	index 40
+	category "Systems"
+	cost 25000
+	thumbnail "outfit/jump drive (broken)"
+	"mass" 20
+	"outfit space" -20
+	description "Działanie napędu skokowego pozostaje zagadką, zwłaszcza teraz, gdy wydaje się on całkowicie uszkodzony. Nie jest już w żaden sposób funkcjonalny. Może jednak nadal mieć pewien potencjał badawczy."
+
+
+outfit "Cargo Scanner"
+	category "Systems"
+	series "Scanners"
+	index 01020
+	cost 8000
+	thumbnail "outfit/cargo scanner"
+	"mass" 1
+	"outfit space" -1
+	"cargo scan power" 9
+	"cargo scan efficiency" 5
+	description "Ten skaner pozwala na skanowanie ładowni statku, który aktualnie namierzasz, o ile lecisz wystarczająco blisko niego. Statki patrolowe używają skanerów ładunków do wykrywania nielegalnego przemytu. Instalacja więcej niż jednego skanera zwiększa zasięg i szybkość skanowania."
+
+outfit "Outfit Scanner"
+	category "Systems"
+	series "Scanners"
+	index 01030
+	cost 24000
+	thumbnail "outfit/outfit scanner"
+	"mass" 2
+	"outfit space" -2
+	"outfit scan power" 25
+	"outfit scan efficiency" 15
+	description "Ten skaner pozwala określić, jakie wyposażenie jest zainstalowane na aktualnie namierzanym statku, jeśli zaryzykujesz podlecenie wystarczająco blisko, aby je odczytać! Marynarka Wojenna Republiki używa tych skanerów do wykrywania, kiedy statki są wyposażone w nielegalną broń. Zainstalowanie więcej niż jednego zwiększa zasięg i prędkość skanowania."
+
+outfit "Asteroid Scanner"
+	category "Systems"
+	series "Scanners"
+	index 01010
+	cost 61000
+	thumbnail "outfit/asteroid scanner"
+	"mass" 6
+	"outfit space" -6
+	"asteroid scan power" 40
+	description "Ten wysoce wyspecjalizowany system skanujący potrafi analizować skład mineralny pobliskich asteroid i identyfikować te, które zawierają cenne materiały."
+
+outfit "Tactical Scanner"
+	category "Systems"
+	series "Scanners"
+	index 01040
+	cost 144000
+	thumbnail "outfit/tactical scanner"
+	"mass" 4
+	"outfit space" -4
+	"tactical scan power" 32
+	description "Skaner taktyczny pozwala Twojemu statkowi określić poziom paliwa, energii, ciepła i skład załogi pobliskich celów. Przez wieki skanery taktyczne były używane tylko przez Marynarkę Wojenną, ale ostatnio Kraz Cybernetics rozpoczęła ich produkcję na potrzeby okrętów milicji."
+
+outfit "Surveillance Pod"
+	category "Systems"
+	series "Scanners"
+	index 01050
+	cost 122500
+	thumbnail "outfit/surveillance pod"
+	"mass" 5
+	"outfit space" -5
+	"outfit scan power" 16
+	"outfit scan efficiency" 20
+	"cargo scan power" 4
+	"cargo scan efficiency" 10
+	"atmosphere scan" 100
+	"tactical scan power" 9
+	description "To technologia Marynarki Wojennej, zestaw skanerów zaprojektowanych tak, aby idealnie pasowały do jednego z ich dronów obserwacyjnych. Ponieważ wyjścia są dość standardowe, można je podłączyć do systemów własnego statku, jeśli zajdzie taka potrzeba. Instalacja więcej niż jednego skanera zwiększa zasięg i szybkość skanowania."
+
+
+outfit "Cloaking Device"
+	category "Unique"
+	series "Functional Unique"
+	index 10
+	cost 1200000
+	"mass" 10
+	"outfit space" -10
+	"cloak" .01
+	"cloaking energy" 1
+	"cloaking fuel" .2
+	"cloaked regen multiplier" -1
+	"cloaked repair multiplier" -1
+	"unique" 1
+	"unplunderable" 1
+	description "Jesteś pewien, że urządzenie maskujące jest gdzieś tutaj, ale nie możesz go zobaczyć."
+
+
+outfit "Outfits Expansion"
+	category "Systems"
+	series "Expansions"
+	index 20
+	cost 50000
+	thumbnail "outfit/outfit expansion"
+	"mass" 5
+	"outfit space" 15
+	"cargo space" -20
+	"cooling inefficiency" 1
+	"heat dissipation" -.0065
+	"unplunderable" 1
+	description "To rozszerzenie pozwala poświęcić trochę przestrzeni ładunkowej, aby zrobić miejsce na więcej wyposażenia, w sytuacjach, gdy potrzebujesz tylko trochę więcej miejsca na instalację konkretnego systemu. Nie zwiększa to pojemności broni ani silnika."
+	description "	Niestety, tak gruntowne przemeblowanie wnętrza statku może zakłócić działanie jego systemów chłodzenia."
+
+outfit "Cargo Expansion"
+	category "Systems"
+	series "Expansions"
+	index 10
+	cost 30000
+	thumbnail "outfit/cargo expansion"
+	"mass" 5
+	"cargo space" 15
+	"outfit space" -20
+	"unplunderable" 1
+	description "Jeśli możliwość przewożenia większej ilości ładunku jest dla Ciebie ważniejsza niż posiadanie zaawansowanej broni lub innych systemów, rozbudowa ładowni znacznie zwiększy rozmiar Twojej ładowni."
+
+outfit "Bunk Room"
+	category "Systems"
+	series "Passenger"
+	index 20
+	cost 40000
+	thumbnail "outfit/bunk room"
+	"mass" 5
+	"bunks" 4
+	"outfit space" -20
+	"unplunderable" 1
+	description "Jeśli naprawdę chcesz zrobić miejsce dla kilku dodatkowych pasażerów (lub członków załogi, jeśli chcesz przejąć inne statki), możesz rozszerzyć przestrzeń życiową swojego statku o obszar zwykle zarezerwowany na stroje."
+
+outfit "Small Bunk Room"
+	category "Systems"
+	series "Passenger"
+	index 10
+	cost 20000
+	thumbnail "outfit/small bunk room"
+	"mass" 3
+	"bunks" 2
+	"outfit space" -12
+	"unplunderable" 1
+	description "Kapitanowie, którym nie zależy szczególnie na komforcie pasażerów lub załogi, zwykle potrafią znaleźć sposób na wsunięcie łóżka piętrowego za generator prądu lub powieszenie kilku hamaków na silnikach, aby tymczasowa przestrzeń mogła pomieścić więcej osób."
+
+outfit "Brig"
+	category "Systems"
+	series "Passenger"
+	index 30
+	cost 40000
+	thumbnail "outfit/brig"
+	"mass" 3
+	"outfit space" -3
+	"unplunderable" 1
+	description "Po dodaniu wzmocnionych drzwi, zamków i systemów bezpieczeństwa, przedział pasażerski każdego statku można przekształcić w bryg. Dzięki temu nadaje się do transportu przestępców i więźniów lub do udziału w wysoce nielegalnym galaktycznym handlu niewolnikami. Cele te często znajdują się na statkach należących do łowców nagród, piratów i oczywiście międzygwiezdnych stróżów prawa Republiki."
+
+outfit "Luxury Accommodations"
+	plural "Luxury Accommodations"
+	category "Systems"
+	series "Passenger"
+	index 40
+	cost 250000
+	thumbnail "outfit/luxury accommodations"
+	"mass" 10
+	"outfit space" -10
+	"required crew" 2
+	"unplunderable" 1
+	description "Większość podróży w głąb kosmosu wiąże się z pewnym dyskomfortem dla pasażerów. Dzięki dodaniu kilku dodatkowych zbiorników na słodką wodę, prywatnych łazienek, drewnianej armatury i personelu hotelowego, każdy statek może stać się atrakcyjny dla znacznie wyższej - i lepiej opłacanej - klasy pasażerów."
+
+outfit "Fuel Pod"
+	category "Systems"
+	series "Fuel"
+	index 10
+	cost 20000
+	thumbnail "outfit/fuel pod"
+	"mass" 8
+	"outfit space" -8
+	"fuel capacity" 100
+	description "Kapsuła z paliwem zwiększa pojemność zbiornika, dzięki czemu statek może wykonać jeden dodatkowy skok w nadprzestrzeń przed koniecznością lądowania i uzupełnienia paliwa."
+
+outfit "Interference Plating"
+	category "Systems"
+	series "Special Systems"
+	index 01010
+	cost 50000
+	thumbnail "outfit/interference plating"
+	"mass" 4
+	"outfit space" -4
+	"scan interference" .5
+	description "Jeśli masz w zwyczaju przewozić nielegalny ładunek lub wyposażenie, to opancerzenie zwiększa prawdopodobieństwo, że skanowanie twojego statku ich nie wykryje. Im więcej ich zainstalujesz, tym większe masz szanse na uniknięcie wykrycia. Pomaga nawet w przypadku skanowań w portach kosmicznych, dzięki czemu możesz pewniej lądować w celu uzupełnienia paliwa, nie dając się złapać."
+
+
+outfit "Laser Rifle"
+	category "Hand to Hand"
+	series "H2H"
+	index 01010
+	cost 8000
+	thumbnail "outfit/laser rifle"
+	"capture attack" .6
+	"capture defense" .8
+	"unplunderable" 1
+	description "Karabin laserowy to krok naprzód w stosunku do broni podręcznej, którą członkowie załogi zazwyczaj noszą do obrony przed piratami: jest potężniejszy i celniejszy. Każdy karabin, którym posługuje się jeden z członków załogi, znacznie zwiększa szanse na zdobycie innego statku lub obronę własnego przed abordażem."
+
+outfit "Fragmentation Grenades"
+	plural "Fragmentation Grenades"
+	category "Hand to Hand"
+	series "H2H"
+	index 01020
+	cost 17000
+	thumbnail "outfit/fragmentation grenades"
+	"capture attack" 1.3
+	"capture defense" .3
+	"unplunderable" 1
+	description "Granaty odłamkowe są jedynie częściowo legalną bronią do walki wręcz podczas abordażu statku, przydatną do wywabiania obrońców, którzy ukryli się w obronnych wąskich punktach na własnym statku. Są znacznie mniej przydatne jako broń obronna, ale wciąż lepsze niż nic."
+
+outfit "Security Station"
+	category "Hand to Hand"
+	series "Fortifications"
+	index 01010
+	cost 42000
+	thumbnail "outfit/security station"
+	"mass" 2
+	"outfit space" -2
+	"capture defense" 3.4
+	"unplunderable" 1
+	description "To specjalnie zaprojektowana barykada, którą można zainstalować w korytarzach statku jako potężną obronę przed każdym, kto próbuje przejąć kontrolę nad statkiem."
+
+outfit "Nerve Gas"
+	plural "Nerve Gas"
+	category "Hand to Hand"
+	series "H2H"
+	index 01030
+	cost 75000
+	thumbnail "outfit/nerve gas"
+	"capture attack" 2.8
+	"capture defense" .8
+	"scan brightness" 1
+	"illegal" 1000000
+	"unplunderable" 1
+	description "To wysoce nielegalna broń do walki wręcz podczas abordażu wrogiego statku. Ponieważ broń chemiczna jest zakazana przez prawo międzygwiezdne, za posiadanie pojemników z gazem bojowym grozi surowa grzywna. Jednak pojemniki z gazem bojowym pozwalają oczyścić wrogi statek szybciej niż cokolwiek innego..."
+
+outfit "Mug"
+	category "Hand to Hand"
+	series "H2H"
+	index 99010
+	cost 50
+	thumbnail "outfit/mug"
+	"capture attack" .1
+	"unique" 1
+	"unplunderable" 1
+	description "W razie potrzeby możesz to zrobić, jak myślisz."
+
+outfit "Antigrav Glass"
+	category "Hand to Hand"
+	series "H2H"
+	index 99020
+	plural "Antigrav Glasses"
+	cost 25
+	thumbnail "outfit/unknown"
+	"capture attack" .2
+	"unique" 1
+	"unplunderable" 1
+	description "Do tej szklanki przymocowano miniaturowy repulsor, podobny do tych, które można znaleźć w dronach, wózkach antygrawitacyjnych i statkach kosmicznych. Po jego aktywacji można pić napój bez trzymania go w dłoni, dzięki lewitacji."
+	description "	Miniaturowy repulsor zamontowany na spodzie sprawia, że szklanka ta jest nieco cięższa od innych kubków, więc jeśli kiedykolwiek będziesz musiał kogoś ogłuszyć naczyniem do picia, możesz podejrzewać, że to będzie odrobinę skuteczniejsze niż wszystko inne, co masz."
+
+outfit "Old Man's Sword"
+	category "Unique"
+	series "H2H"
+	index 99030
+	cost 220000
+	thumbnail "outfit/sword"
+	"capture attack" 1.4
+	"capture defense" 1
+	"unplunderable" 1
+	"unique" 1
+	description "Chociaż miecze są dziś postrzegane jako stare ciekawostki i przedmioty pamiątkowe, które stały się bezużyteczne, gdy proch strzelniczy stał się dominującym orężem na polu bitwy tysiące lat temu, ten miecz różni się od wszystkich, jakie kiedykolwiek widziałeś. Pomimo tego, jak ciężki się wydaje, jest zadziwiająco lekki, a na samym ostrzu znajdują się inskrypcje, które najwyraźniej nie są napisane w żadnym ludzkim języku."
+
+outfit "Puny"
+	category "Unique"
+	series "Non-Functional Unique"
+	index 10
+	"display name" `"Puny"`
+	thumbnail "outfit/collar"
+	"unique" 1
+	description `Pudel, którego uratowałeś z podejrzanego towarzystwa wyścigowego na planecie Freedom. Wygląda na to, że nawiązała z tobą silną więź i jest gotowa trwać przy tobie.`
+	description `	Jej historia pokrywa się z historią Pookie, ale właścicielka Pookie twierdziła, że Puny nie jest jej. Puny jest też znacznie mniej podatna na oddawanie moczu; można podejrzewać, że organizatorzy wyścigu mogli ją nauczyć korzystania z toalety.`
+
+outfit "Tear of Skade"
+	category "Unique"
+	series "Functional Unique"
+	index 20
+	thumbnail "outfit/skadetear"
+	"cooling" 4
+	"unique" 1
+	description "Dziwny, świecący kamień podarowany ci przez Skadengę. Nie ma żadnego źródła zasilania, a mimo to jest dość zimny."
+
+outfit "Blood of Surtr"
+	category "Unique"
+	series "Functional Unique"
+	index 21
+	thumbnail "outfit/surtrblood"
+	"energy generation" 2
+	"heat generation" 4
+	"unique" 1
+	description "Dziwny, świecący kamień podarowany ci przez Ildico Drifę. Brzęczy energią i ciepłem."
+
+
+outfit "Local Map"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/map"
+	"map" 12
+	"map minables" 1
+	description "Ten chip danych zawiera kompletne informacje o dwunastu najbliższych układach gwiezdnych: planetach, portach, rządach, cenach handlowych, dostępnych usługach itd. Możesz uzyskać te same informacje, po prostu eksplorując te układy, ale mapa może uchronić cię przed skręceniem w złą stronę, jeśli próbujesz podróżować przez nowe terytorium, aby szybko dotrzeć do danego układu."
+
+
+outfit "Pilot's License"
+	category "Licenses"
+	series "Licenses"
+	index 01010
+	cost 50000
+	thumbnail "outfit/license"
+	description "Przez większość niemal trzystuletniej historii Republiki, możliwość pilotowania własnego statku kosmicznego była ograniczona jedynie możliwością jego zakupu. Jednak na przełomie tysiącleci, w celu zwiększenia dochodów podatkowych, Parlament Republiki uchwalił ustawę nakazującą wszystkim kapitanom statków zakup licencji pilota, i to za niemałą opłatą. Nie trzeba dodawać, że ta zasada nie cieszy się zbytnią popularnością wśród kapitanów statków handlowych pracujących na własny rachunek."
+
+outfit "Navy License"
+	category "Licenses"
+	series "Licenses"
+	index 01020
+	thumbnail "outfit/navy license"
+	description "To niezwykłe, ale nie niespotykane, że prywatni obywatele otrzymują prawo do zakupu okrętów Marynarki Wojennej na własny użytek. Ostatnio niektóre bogate kraje zaczęły również składać petycje do Parlamentu o specjalne zezwolenie na zakup okrętów Marynarki Wojennej dla swoich prywatnych sił bezpieczeństwa."
+
+outfit "Navy Auxiliary License"
+	category "Licenses"
+	series "Licenses"
+	index 01030
+	thumbnail "outfit/auxiliary license"
+	description "Szczególnie rzadko zdarza się, aby jednostka pomocnicza marynarki wojennej, jakiegokolwiek rodzaju, była własnością prywatną."
+
+outfit "Navy Cruiser License"
+	category "Licenses"
+	series "Licenses"
+	index 01040
+	thumbnail "outfit/navy cruiser license"
+	description "Nadzwyczaj rzadkim przywilejem jest możliwość zakupu okrętu flagowego Marynarki Wojennej do użytku prywatnego - nie tylko ze względu na siłę ognia krążownika, ale także dlatego, że jest on potężnym symbolem siły Republiki."
+
+outfit "Navy Carrier License"
+	category "Licenses"
+	series "Licenses"
+	index 01050
+	thumbnail "outfit/navy carrier license"
+	description "Tylko garstka ludzi w ubiegłym stuleciu otrzymała pozwolenie na zakup lotniskowca marynarki wojennej, nawet wycofanego ze służby, do użytku prywatnego."
+
+outfit "Militia License"
+	category "Licenses"
+	series "Licenses"
+	index 01060
+	thumbnail "outfit/militia license"
+	description "Jest to standardowa licencja wydawana wszystkim pilotom, którzy zaciągnęli się do lokalnej milicji, ale wraz z powstaniem Wolnych Światów stała się ona również licencją przyznawaną wszystkim tym, którzy walczą o sprawę Wolnych Światów. Umożliwia ona pilotom latanie pod banderą Wolnych Światów i zakup unikalnych statków opracowanych przez nowo powstały rząd."
+
+outfit "City-Ship License"
+	category "Licenses"
+	series "Licenses"
+	index 01070
+	thumbnail "outfit/city-ship license"
+	description "Przyglądasz się uważnie sylwetce statku na licencji, ale nie możesz rozpoznać, jaki to model. Być może to starszy statek-miasto, jeden z pierwszych, który poprowadził ludzkość do wielkości pośród gwiazd."

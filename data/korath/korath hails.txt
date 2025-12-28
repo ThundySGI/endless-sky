@@ -671,11 +671,13 @@ phrase "exile humanika: strange items"
 		"<WR-12232>"                   # Shackles and Sheragi (mispronounced)
 		"<WR-12233>" # Boundless Frontiers: the Fire Lizards (mispronounced)
 		"<WR-12234>"            # There Might Be Riots Albums (mispronounced)
-		"<WR-12235>"               # The book, 		"<WR-12236>"                     # grandfather clock (mispronounced)
+		"<WR-12235>"               # The book, "How to Serve Man" (mispronounced)
+		"<WR-12236>"                     # grandfather clock (mispronounced)
 		"<WR-12237>"                        # board games (mispronounced)
 		"<WR-12238>"               # Zapchannel Ray Energy (mispronounced)
 		"<WR-12239>"              # A wolf, a goat, and a cabbage (mispronounced)
-		"<WR-12240>"                # 		"<WR-12241>"                       # A lump of coal (mispronounced)
+		"<WR-12240>"                # "Our Fuzzy Paradise" TV series (mispronouced)
+		"<WR-12241>"                       # A lump of coal (mispronounced)
 		"<WR-12242>"            # Tree Skeleton Key Stone (mispronounced)
 
 
@@ -1089,7 +1091,8 @@ phrase "exile: The last person who attacked me"
 		"<WR-12473>"                  # My last meal
 		"<WR-12474>"             # Clowns attacked before
 		"<WR-12475>"          # A [skinless|uneducated] person came to us
-		"<WR-12476>"                 # A plaything invaded
+		"<WR-12476>"                 # A plaything invaded"
+
 phrase "efreti: The last person who attacked me"
 	word
 		"<WR-12477>"              # My last oppressor

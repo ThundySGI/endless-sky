@@ -1,0 +1,362 @@
+# Copyright (c) 2017 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "Pirate Occupation [0]"
+	name `Piraci zajmują <system>`
+	minor
+	repeat
+	description `Niewielka grupa piratów okupuje <system>, a lokalny rząd prosi o pomoc. Pokonaj piratów w systemie i wyląduj na <planet> przed <date>, aby otrzymać zapłatę w wysokości <payment>.`
+	deadline
+	to offer
+		random < 5
+		"combat rating" > 100
+	source
+		not government "Pirate"
+		attributes "south" "rim"
+	destination
+		not government "Pirate" "Quarg"
+		distance 2 3
+		attributes "south"
+	npc
+		government "Militia"
+		personality heroic
+		fleet "Small Militia"
+	npc
+		government "Militia"
+		personality heroic staying
+		system destination
+		fleet "Small Militia"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Small Southern Pirates" 3
+	on offer
+		conversation "pirate occupation"
+	on visit
+		dialog phrase "generic pirate fleet battle on visit"
+	on complete
+		payment 100000
+		dialog phrase "generic pirate attack payment dialog"
+
+mission "Pirate Occupation [1]"
+	name `Piraci zajmują <system>`
+	minor
+	repeat
+	description `Gang piratów okupuje <system>, a lokalny rząd prosi o pomoc. Pokonaj piratów w systemie i wyląduj na <planet> przed <date>, aby otrzymać zapłatę w wysokości <payment>.`
+	deadline
+	to offer
+		random < 5
+		"combat rating" > 200
+	source
+		not government "Pirate"
+		attributes "south" "rim"
+	destination
+		not government "Pirate" "Quarg"
+		distance 2 3
+		attributes "south"
+	npc
+		government "Militia"
+		personality heroic
+		fleet "Small Militia" 2
+	npc
+		government "Militia"
+		personality heroic staying
+		system destination
+		fleet "Small Militia"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Small Southern Pirates" 2
+		fleet "Large Southern Pirates"
+	on offer
+		conversation "pirate occupation"
+	on visit
+		dialog phrase "generic pirate fleet battle on visit"
+	on complete
+		payment 150000
+		dialog phrase "generic pirate attack payment dialog"
+
+mission "Pirate Occupation [2]"
+	name `Piraci zajmują <system>`
+	minor
+	repeat
+	description `Duża banda piratów okupuje <system>, a lokalne władze poprosiły o pomoc. Pokonaj piratów w systemie i wyląduj na <planet> przed <date>, aby otrzymać zapłatę w wysokości <payment>.`
+	deadline
+	to offer
+		random < 5
+		"combat rating" > 300
+	source
+		not government "Pirate"
+		attributes "south" "rim"
+	destination
+		not government "Pirate" "Quarg"
+		distance 2 3
+		attributes "south"
+	npc
+		government "Militia"
+		personality heroic
+		fleet "Large Militia"
+		fleet "Small Militia"
+	npc
+		government "Militia"
+		personality heroic staying
+		system destination
+		fleet "Small Militia"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Large Southern Pirates" 3
+	on offer
+		conversation "pirate occupation"
+	on visit
+		dialog phrase "generic pirate fleet battle on visit"
+	on complete
+		payment 200000
+		dialog phrase "generic pirate attack payment dialog"
+
+conversation "pirate occupation"
+	`Suddenly you hear raised voices and shouting outside as pilots run for their ships: "<destination> is being occupied by a pirate fleet! They are requesting help from any combat-worthy ship that can get there by <date> to join the defenses!" The authorities of <planet> will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+	choice
+		`	(Don't join the fight.)`
+			decline
+		`	(Join the defense fleet.)`
+	`A few militia pilots have gathered to help repel the pirate attack. You join them, and prepare your ship for the upcoming battle...`
+		accept
+
+
+
+mission "Sketchy Cargo [0]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description "Dostarcz <tons> ładunku do <destination>. Płatność wynosi <payment>."
+	cargo "unlabeled cargo" 5 2 .1
+	to offer
+		random < 15
+	source
+		attributes "south"
+	destination
+		distance 2 10
+		attributes "south"
+	on accept
+		dialog `Podążasz za wskazówkami podanymi w zleceniu do opuszczonego magazynu i znajdujesz swój ładunek w nieoznakowanych skrzyniach. Ładując go na statek, masz wrażenie, że ktoś cię obserwuje.`
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog "Zrzucasz nieoznakowany ładunek w magazynie niewiele różniącym się od tego, w którym go odebrałeś. Mężczyzna ubrany w pelerynę wręcza ci <payment> po tym, jak ostatnia skrzynia zostanie zabrana z twojego statku."
+
+mission "Sketchy Cargo [1]"
+	name "Dostawa do <planet>"
+	job
+	repeat
+	description "Dostarcz <tons> ładunku do <destination>. Płatność wynosi <payment>."
+	cargo "unlabeled cargo" 25 2 .05
+	to offer
+		random < 10
+	source
+		attributes "south"
+	destination
+		distance 2 10
+		attributes "south"
+	on accept
+		dialog `Podążasz za wskazówkami podanymi w zleceniu do opuszczonego magazynu i znajdujesz swój ładunek w nieoznakowanych skrzyniach. Ładując go na statek, masz wrażenie, że ktoś cię obserwuje.`
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog "Zrzucasz nieoznakowany ładunek w magazynie niewiele różniącym się od tego, w którym go odebrałeś. Mężczyzna ubrany w pelerynę wręcza ci <payment> po tym, jak ostatnia skrzynia zostanie zabrana z twojego statku."
+
+
+
+mission "Sketchy Passenger [0]"
+	name "Transport pasażerów do <planet>"
+	job
+	repeat
+	description "Przynieś <fare> do <destination>. Zapłata wynosi <payment>."
+	passengers 2 10 .9
+	to offer
+		random < 15
+	source
+		attributes "south"
+	destination
+		distance 2 10
+		attributes "south"
+		not attributes "station"
+	on accept
+		dialog `Masz pewne trudności ze znalezieniem pasażerów, ale po prawie godzinie poszukiwań w końcu ich znajdujesz. Kiedy podążają za tobą z powrotem na statek, słyszysz, jak szepczą do siebie, ale nie rozumiesz, co mówią.`
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 2000 160
+		dialog "Twoi pasażerowie proszą, żebyś wylądował z dala od zatłoczonego centrum kosmoportu. Podają ci <payment> i wybiegają z twojego statku, oddalając się od kosmoportu z dużą prędkością."
+
+mission "Sketchy Passenger [1]"
+	name "Transport pasażerów do <planet>"
+	job
+	repeat
+	description "Przynieś <fare> do <destination>. Zapłata wynosi <payment>."
+	passengers 2 10 .7
+	to offer
+		random < 10
+	source
+		attributes "south"
+	destination
+		distance 2 10
+		attributes "south"
+		not attributes "station"
+	on accept
+		dialog `Masz pewne trudności ze znalezieniem pasażerów, ale po prawie godzinie poszukiwań w końcu ich znajdujesz. Kiedy podążają za tobą z powrotem na statek, słyszysz, jak szepczą do siebie, ale nie rozumiesz, co mówią.`
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 2000 160
+		dialog "Twoi pasażerowie proszą, żebyś wylądował z dala od zatłoczonego centrum kosmoportu. Podają ci <payment> i wybiegają z twojego statku, oddalając się od kosmoportu z dużą prędkością."
+
+mission "Delta V Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Delta V Corporation, dużej firmy produkującej rakiety i silniki rakietowe w Southern Rim. Płatność wynosi <payment>."
+	cargo "alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Solace"
+	source
+		near Pherkad 2 15
+		attributes factory
+		not government "Pirate"
+	destination Solace
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Delta V Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <destination>, siedziby Delta V Corporation, dużej firmy produkującej rakiety i silniki rakietowe w Southern Rim. Płatność wynosi <payment>."
+	cargo Electronics 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Solace"
+	source
+		near Pherkad 2 15
+		attributes factory
+		not government "Pirate"
+	destination Solace
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Tarazed Shipyards Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <planet>, siedziby Tarazed Shipyards, jednej z największych firm stoczniowych na Południu. Płatność wynosi <payment>."
+	cargo "weapons" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Wayfarer"
+	source
+		near Tarazed 2 10
+		attributes factory
+	destination Wayfarer
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Tarazed Shipyards Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <planet>, siedziby Tarazed Shipyards, jednej z największych firm stoczniowych na Południu. Płatność wynosi <payment>."
+	cargo "Ship Alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Wayfarer"
+	source
+		near Tarazed 2 10
+		attributes factory mining
+	destination Wayfarer
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Tarazed Shipyards Shipment [2]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <planet>, siedziby Tarazed Shipyards, jednej z największych firm stoczniowych na Południu. Płatność wynosi <payment>."
+	cargo "Ship Systems" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Wayfarer"
+	source
+		near Tarazed 2 10
+		attributes factory mining
+	destination Wayfarer
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Tarazed Systems Shipment [0]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <planet>, siedziby Tarazed Systems, szanowanego producenta i projektanta odzieży w południowej części kosmosu. Płatność wynosi <payment>."
+	cargo "alloys" 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Wayfarer"
+	source
+		near Tarazed 2 10
+		attributes factory mining
+	destination Wayfarer
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
+
+mission "Tarazed Systems Shipment [1]"
+	name "Wysyłka do <planet>"
+	description "Dostarcz <cargo> do <planet>, siedziby Tarazed Systems, szanowanego producenta i projektanta odzieży w południowej części kosmosu. Płatność wynosi <payment>."
+	cargo Electronics 5 2 .1
+	job
+	repeat
+	to offer
+		random < 10
+		has "landing access: Wayfarer"
+	source
+		near Tarazed 2 10
+		attributes factory
+	destination Wayfarer
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 160
+		dialog phrase "generic cargo delivery payment"
