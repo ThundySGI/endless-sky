@@ -26,12 +26,12 @@ mission "remembrance day"
 		has "event: remembrance day"
 	on offer
 		log "Factions" "Alphas" `Alfy zostały zaprojektowane setki lat temu jako genetycznie zmodyfikowane superżołnierze, pozbawione współczucia i empatii. Uciekły od swoich panów, zniewoliły całe planety i dowodziły ogromnymi flotami statków. Ostatecznie zostały pokonane i albo zabite, albo ukryły się. Można je rozpoznać po zielonej, fotosyntetycznej skórze.`
-			`Alfy mogą żyć wieki i jest prawdopodobne, że wiele z nich przetrwało, ukrywając się na anarchistycznych światach lub gdzieś poza ludzką przestrzenią. Na szczęście rozmnażają się znacznie wolniej niż zwykli ludzie.`
+			`	(Połóż kartę na tacy.)`
 		conversation
-			`Today, throughout human space, is Remembrance Day, the anniversary of the beginning of the Alpha Wars more than five centuries ago. The Alphas were genetically engineered soldiers, with superhuman agility and intelligence, and a complete lack of compassion or empathy. At the height of the War, dozens of planets had been enslaved by the Alphas.`
-			`	Remembrance Day commemorates the beginning of the war, rather than its end, as a perpetual reminder that the war is not over: although the Alphas were defeated, some of them escaped and remained in hiding, and they and their offspring are presumed to still be present in the galaxy today.`
-			`	Since the Alpha War, genetic resequencing technology has been very tightly controlled. Because the Alphas were the product of experimental genetic manipulation rather than natural evolution, it is believed that their genes are less robust than true human beings, and they are almost unable to have viable offspring without access to special technology. Therefore, most Alpha enclaves that have been discovered since the War have had very small populations, no more than a few dozen.`
-			`	In these days when the Navy ensures peace throughout much of the galaxy, on many worlds the Alphas are treated as nothing more than a bogeyman story to frighten children. Because the most striking physical feature of the Alphas was their photosynthetic skin, on some worlds kids even run around wearing green face paint on Remembrance Day, trying to frighten people. But on other worlds, especially on the fringes of space where the Navy seldom patrols, the Alphas are still spoken of with fear.`
+			`Dziś, w całej ludzkiej przestrzeni, obchodzimy Dzień Pamięci, rocznicę rozpoczęcia Wojen Alfa ponad pięć wieków temu. Alfy były genetycznie zmodyfikowanymi żołnierzami, obdarzonymi nadludzką zwinnością i inteligencją, a jednocześnie całkowitym brakiem współczucia i empatii. W szczytowym momencie Wojny dziesiątki planet zostały zniewolone przez Alfy.`
+			`	Dzień Pamięci upamiętnia początek wojny, a nie jej koniec, jako nieustanne przypomnienie, że wojna się nie skończyła: chociaż Alfy zostały pokonane, niektórym z nich udało się uciec i pozostać w ukryciu. Przypuszcza się, że oni i ich potomstwo nadal są obecni w galaktyce.`
+			`	Od Wojny Alfa technologia resekwencjonowania genów była ściśle kontrolowana. Ponieważ Alfy były produktem eksperymentalnej manipulacji genetycznej, a nie naturalnej ewolucji, uważa się, że ich geny są mniej odporne niż u prawdziwych ludzi i praktycznie nie są w stanie wydać na świat żywego potomstwa bez dostępu do specjalnej technologii. Dlatego większość enklaw Alfy odkrytych od czasu Wojny miała bardzo małą populację, nie większą niż kilkadziesiąt osób.`
+			`	W czasach, gdy Marynarka Wojenna zapewnia pokój w dużej części galaktyki, na wielu planetach Alfy traktowane są niczym więcej niż tylko jako straszak, mający straszyć dzieci. Ponieważ najbardziej rzucającą się w oczy cechą fizyczną Alf była ich fotosyntetyczna skóra, na niektórych planetach dzieci biegają nawet z zieloną farbą na twarzy w Dzień Pamięci, próbując straszyć ludzi. Ale na innych planetach, zwłaszcza na obrzeżach kosmosu, gdzie Marynarka Wojenna rzadko patroluje, o Alfach wciąż mówi się z lękiem.`
 				decline
 
 
@@ -163,82 +163,82 @@ mission "event: war begins"
 			branch martini
 				has "flagship planet: Martini"
 
-			`The moment you step off your ship you realize something is very wrong. The spaceport is eerily quiet, and a large crowd of people is gathered around a video screen in the local bar.`
-			`	You ask what is happening, and someone explains. Recently, a collection of planetary governments in the southern galactic arm have sent the Republic what amounted to an ultimatum: a refusal to pay taxes until reforms are made in the election of planetary representatives. This group, calling itself the "Free Worlds," has also asked for immediate reevaluation of all existing trade tariffs and regulations concerning pilot registration. Parliament outright refused to consider any of these demands.`
-			`	Then, in the early morning, nuclear explosions on Geminus and Martini destroyed the Republic Navy Yard and the Galactic Stock Exchange, crippling the military and economic center of the Republic. The "Free Worlds" disclaim any responsibility for the attacks, despite the timing and the fact that the attacks serve their purposes very well.`
-			`	Unless the terrorists can be found or turn themselves in, civil war is imminent. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`W chwili, gdy schodzisz ze statku, zdajesz sobie sprawę, że coś jest nie tak. W porcie kosmicznym panuje upiorna cisza, a wokół ekranu wideo w lokalnym barze gromadzi się tłum ludzi.`
+			`	Pytasz, co się dzieje, a ktoś ci wyjaśnia. Niedawno grupa rządów planetarnych w południowym ramieniu galaktycznym wysłała Republice coś, co można by nazwać ultimatum: odmowę płacenia podatków do czasu wprowadzenia reform w procesie wyboru przedstawicieli planetarnych. Grupa ta, nazywająca siebie "Free Worlds," zażądała również natychmiastowej ponownej oceny wszystkich istniejących taryf handlowych i przepisów dotyczących rejestracji pilotów. Parlament stanowczo odmówił rozpatrzenia któregokolwiek z tych żądań.`
+			`	Następnie, wczesnym rankiem, eksplozje nuklearne na planetach Geminus i Martini zniszczyły Stocznię Marynarki Wojennej Republiki i Galaktyczną Giełdę Papierów Wartościowych, paraliżując militarne i gospodarcze centrum Republiki. "Wolne Światy" nie biorą na siebie odpowiedzialności za ataki, pomimo ich czasu i faktu, że doskonale spełniają one swoje cele.`
+			`	Jeśli terroryści nie zostaną odnalezieni lub nie dadzą się złapać, wojna domowa jest nieunikniona. Minął niecały rok, odkąd kupiłeś swój statek, a galaktyka już się dla ciebie rozpada.`
 				decline
 			
 			label geminus
 			action
 				set "bombing witness"
-			`	The moment you step off your ship you realize something is very wrong. Heavily armed Navy personnel flank either side of the spaceport building's exit, and more soldiers are patrolling the port. A liaison officer is herding a group of civilians toward a low bunker beside a nearby landing pad. On the landing pad itself, soldiers are struggling to set up a heavy plasma cannon mounted on an anti-aircraft turret.`
-			`	With the civilians safely in the bunker, the liaison officer turns to face you. "I'm sorry, Captain, but I'm going to have to ask you to leave the planet. We've got a Carrier squadron coming in, and we need all the pads free."`
+			`	W chwili, gdy schodzisz ze statku, zdajesz sobie sprawę, że coś jest nie tak. Silnie uzbrojony personel marynarki wojennej flankował po obu stronach wyjścia z budynku kosmoportu, a kolejni żołnierze patrolowali port. Oficer łącznikowy zaganiał grupę cywilów w kierunku niskiego bunkra obok pobliskiego lądowiska. Na samym lądowisku żołnierze z trudem ustawiali ciężkie działo plazmowe zamontowane na wieżyczce przeciwlotniczej.`
+			`	Cywile są już bezpieczni w bunkrze, oficer łącznikowy odwraca się do ciebie. "Przykro mi, Kapitanie, ale muszę cię poprosić o opuszczenie planety. Nadlatuje eskadra lotniskowców i potrzebujemy wszystkich wyrzutni."`
 			choice
-				`	"Of course."`
+				`	"Oczywiście."`
 					goto summary
-				`	"What's happening?"`
-				`	"Is this some sort of training exercise?"`
-				`	"What makes you think you can just order me to leave?"`
+				`	"Co się dzieje?"`
+				`	"Czy to jakiś rodzaj ćwiczeń?"`
+				`	"Co sprawia, że myślisz, że możesz mi po prostu kazać odejść?"`
 					goto noncompliance
 
-			`	The liaison officer sighs. "Captain, I'm afraid the planet is in a state of emergency. Yesterday, some rogue planets down south decided they wanted to secede from the Republic. Sent Parliament an ultimatum, wanted electoral and tax reform, free trade, all the same things they've been complaining about for years. No big deal. Three hours ago, though, the Navy Yard here on Geminus was bombed along with the Galactic Stock Exchange on Martini. We don't know if it's the work of the 'Free Worlds' rebels or not, and I can't promise you there aren't going to be more attacks. All I know is that whoever did this used nuclear weapons, so we've got three thousand injured people we need to get to off-planet medical care immediately."`
+			`	Oficer łącznikowy wzdycha. "Kapitanie, obawiam się, że planeta jest w stanie wyjątkowym. Wczoraj kilka planet zbłąkanych na południu postanowiło odłączyć się od Republiki. Postawiły Parlamentowi ultimatum, żądając reformy wyborczej i podatkowej, wolnego handlu, tego samego, na co narzekają od lat. Nic wielkiego. Trzy godziny temu jednak Stocznia Marynarki Wojennej tutaj, na Geminusie, została zbombardowana wraz z Galaktyczną Giełdą Papierów Wartościowych na Martini. Nie wiemy, czy to sprawka rebeliantów z "Wolnych Światów", czy nie, i nie mogę obiecać, że nie będzie kolejnych ataków. Wiem tylko, że ktokolwiek to zrobił, użył broni jądrowej, więc mamy trzy tysiące rannych, których musimy natychmiast przetransportować do placówki medycznej poza planetą."`
 			choice
-				`	"I'll get out of the way, then."`
+				`	"W takim razie ustąpię ci drogi."`
 					goto end
-				`	"Sorry, I didn't know. I'll be out of your hair as soon as I can lift off."`
+				`	"Przepraszam, nie wiedziałem. Zniknę ci z oczu, jak tylko będę mógł wystartować."`
 					goto end
-				`	"Is there any way I can help?"`
+				`	"Czy mogę jakoś pomóc?"`
 					goto help
 
 			label martini
 			action
 				set "bombing witness"
 
-			`	As you descend towards the surface of Martini, you are met by an uncharacteristic layer of thick cloud, almost smoky in appearance. The clouds completely obscure Martini's main spaceport, as well as the rest of the capital city. Perhaps because of this, the landing controller instructs you to make your way to an auxiliary spaceport about ten kilometers from the city limits.`
-			`	The moment you step off your ship you realize something is very wrong. Heavily armed Navy personnel flank either side of the spaceport building's exit, and more soldiers are patrolling the port. The main road to the city echoes with sirens, and a liaison officer is herding a group of civilians toward a military transport parked precariously in a nearby field. Still more people are stretched out on cots in a makeshift field hospital in the center of the spaceport.`
-			`	As soon as the last mobile civilian is safely aboard the transport, the liaison officer turns to face you. "I'm sorry, Captain, but I'm going to have to ask you to leave the planet. We've got another transport fleet coming in, and we need all the pads free."`
+			`	Podczas zniżania się ku powierzchni Martini napotykasz nietypową warstwę gęstych chmur, o wyglądzie niemal dymnym. Chmury całkowicie zasłaniają główny kosmodrom Martini, a także resztę stolicy. Być może z tego powodu kontroler lądowania nakazuje ci udać się do pomocniczego kosmodromu, oddalonego o około dziesięć kilometrów od granic miasta.`
+			`	W chwili, gdy schodzisz ze statku, zdajesz sobie sprawę, że coś jest nie tak. Silnie uzbrojony personel marynarki wojennej flankował po obu stronach wyjścia z budynku kosmoportu, a kolejni żołnierze patrolowali port. Główna droga do miasta rozbrzmiewała echem syren, a oficer łącznikowy zaganiał grupę cywilów w kierunku wojskowego transportowca zaparkowanego niepewnie na pobliskim polu. Jeszcze więcej osób leżało na łóżkach polowych w prowizorycznym szpitalu polowym w centrum kosmoportu.`
+			`	Gdy tylko ostatni cywil w ruchu znajdzie się bezpiecznie na pokładzie transportowca, oficer łącznikowy odwraca się do ciebie. "Przykro mi, Kapitanie, ale muszę cię poprosić o opuszczenie planety. Nadpływa kolejna flota transportowa i potrzebujemy wszystkich wolnych padów."`
 			choice
-				`	"Of course."`
+				`	"Oczywiście."`
 					goto summary
-				`	"What's happening?"`
-				`	"What makes you think you can just order me to leave?"`
+				`	"Co się dzieje?"`
+				`	"Co sprawia, że myślisz, że możesz mi po prostu kazać odejść?"`
 					goto noncompliance
 
-			`	The liaison officer sighs. "Captain, I'm afraid the planet is in a state of emergency. Yesterday, some rogue planets down south decided they wanted to secede from the Republic. Sent Parliament an ultimatum, wanted electoral and tax reform, free trade, all the same things they've been complaining about for years. No big deal. Three hours ago, though, someone - quite possibly this same 'Free Worlds' group - dropped a nuclear bomb on the Galactic Stock Exchange right here on Martini. At least, we presume that the Stock Exchange was their target, since the bomb took about a quarter of the city with it, as well as the main spaceport and half of the planet's medical resources. We've got more than a million injured people here and another five million we need to evacuate. To top it off, the terrorists also bombed the Navy Yard on Geminus, which means we don't have enough personnel available to both run the evacuation and deal with other civilians."`
+			`	Oficer łącznikowy wzdycha. "Kapitanie, obawiam się, że planeta jest w stanie wyjątkowym. Wczoraj kilka planet zbłąkanych na południu postanowiło odłączyć się od Republiki. Postawiły Parlamentowi ultimatum, żądając reformy wyborczej i podatkowej, wolnego handlu, wszystkich tych samych rzeczy, na które narzekają od lat. Nic wielkiego. Trzy godziny temu jednak ktoś - całkiem możliwe, że ta sama grupa "Wolnych Światów" - zrzucił bombę atomową na Galaktyczną Giełdę Papierów Wartościowych, właśnie tutaj, na Martini. Przynajmniej zakładamy, że Giełda Papierów Wartościowych była ich celem, ponieważ bomba zabrała ze sobą około jednej czwartej miasta, a także główny port kosmiczny i połowę zasobów medycznych planety. Mamy tu ponad milion rannych i kolejne pięć milionów do ewakuacji. Na domiar złego terroryści zbombardowali również stocznię marynarki wojennej na Geminusie, co oznacza, że nie mamy wystarczającej liczby personelu, aby przeprowadzić ewakuację i zająć się pozostałymi cywilami.`
 			choice
-				`	"I'll get out of the way, then."`
+				`	"W takim razie ustąpię ci drogi."`
 					goto end
-				`	"Sorry, I didn't know. I'll be out of your hair as soon as I can lift off."`
+				`	"Przepraszam, nie wiedziałem. Zniknę ci z oczu, jak tylko będę mógł wystartować."`
 					goto end
-				`	"Is there any way I can help?"`
+				`	"Czy mogę jakoś pomóc?"`
 					goto help
 
 			label noncompliance
-			`	"Look, Captain. The government here on <planet> has declared a state of emergency, and that means that the spaceport is under martial law. I'm not sure how you managed to get landing clearance, but you shouldn't be here. We've got thousands of injured people to get off-planet, even if we ignore the potential for a major follow-up attack. If you refuse to comply, I will have you arrested by the military police, and your ship will be impounded. If your crew refuses to accept the change in captainship, they will be replaced by troops from the Naval Reserve Command. Think what you will, but we've got human lives to save here and we aren't going to stop just because some hotshot captain is feeling full of themself. Is that clear?"`
+			`	"Słuchaj, Kapitanie. Rząd tutaj na <planet> ogłosił stan wyjątkowy, a to oznacza, że w kosmodromie obowiązuje stan wojenny. Nie wiem, jak udało ci się uzyskać pozwolenie na lądowanie, ale nie powinieneś tu być. Musimy ewakuować tysiące rannych, nawet jeśli zignorujemy możliwość kolejnego poważnego ataku. Jeśli odmówisz, każę cię aresztować żandarmerii, a twój statek zostanie skonfiskowany. Jeśli twoja załoga odmówi zaakceptowania zmiany kapitana, zostanie zastąpiona przez żołnierzy z Dowództwa Rezerwy Marynarki Wojennej. Myśl, co chcesz, ale musimy tu ratować ludzkie życia i nie zatrzymamy się tylko dlatego, że jakiś kapitan jest zbyt pewny siebie. Jasne?"`
 			choice
-				`	"Yes, that's clear."`
+				`	"Tak, to jasne."`
 					goto summary
-				`	"Sorry, I didn't know. You won't have any trouble from me."`
+				`	"Przepraszam, nie wiedziałem. Nie będziesz miał z mojej strony żadnych kłopotów."`
 					goto summary
-				`	"Yeah, right. No way are you going to seize my ship."`
+				`	"Tak, jasne. Nie ma mowy, żebyś przejął mój statek."`
 			
-			`	The liaison officer glowers at you, then turns and signals to another soldier. Military police officers in full combat gear materialize behind you, grabbing you by the arms and handcuffing you tightly. As you're frogmarched toward a waiting bunker, you watch as the <ship> lifts off without you, leaving you stranded here. In the bunker, one of the soldiers who arrested you frisks you, seizing your pilot's license and handing it to a sergeant who stamps the words "Permanently Revoked" across it. With those two words, you are barred from space forever. It has been less than a year since you bought your ship, and already you have lost the right to use it as the galaxy falls apart on you.`
+			`	Oficer łącznikowy patrzy na ciebie gniewnie, po czym odwraca się i daje znak innemu żołnierzowi. Za tobą materializują się oficerowie żandarmerii w pełnym rynsztunku bojowym, chwytają cię za ramiona i mocno skuwają kajdankami. Gdy jesteś prowadzony w kierunku czekającego bunkra, obserwujesz, jak <ship> startuje bez ciebie, zostawiając cię tu na lodzie. W bunkrze jeden z żołnierzy, którzy cię aresztowali, przeszukuje cię, odbiera ci licencję pilota i przekazuje ją sierżantowi, który przybija na niej pieczątkę z napisem "Trwało Odwołane". Tymi dwoma słowami zostajesz na zawsze wykluczony z kosmosu. Minął niecały rok od zakupu statku, a już straciłeś prawo do jego użytkowania, ponieważ galaktyka rozpada się na twoich oczach.`
 				die
 
 			label summary
-			`	"Glad to hear it," they reply, turning to calm a group of hysterical Paradisians.`
-			`	Re-entering the <ship>, you take off and head for orbit, narrowly missing the Carrier squadron mentioned by the liaison officer. Only then do you see that you've left the video screen in your ship on, playing footage almost identical to what you saw on the ground not long ago. According to the newscaster, this debacle was all started yesterday, when a group of planets in the south of the galaxy sent the Republic Parliament an ultimatum: a refusal to pay taxes until reforms are made in the election of planetary representatives. This group, calling itself the "Free Worlds," has also asked for immediate reevaluation of all existing trade tariffs and regulations concerning pilot registration. Parliament outright refused to consider any of these demands.`
-			`	Then, only hours before you landed, nuclear explosions on Geminus and Martini destroyed the Republic Navy Yard and the Galactic Stock Exchange, crippling the military and economic center of the Republic. The "Free Worlds" disclaim any responsibility for the attacks, despite the timing and the fact that the attacks serve their purposes very well.`
-			`	Unless the terrorists can be found or turn themselves in, civil war is imminent. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`	"Cieszę się, że to słyszę," odpowiadają, zwracając się, by uspokoić grupę rozhisteryzowanych Paradisian.`
+			`	Wchodząc ponownie do <ship>, startujesz i kierujesz się na orbitę, ocierając się o eskadrę lotniskowców, o której wspominał oficer łącznikowy. Dopiero wtedy zauważasz, że zostawiłeś włączony ekran wideo na swoim statku, odtwarzający nagranie niemal identyczne z tym, które widziałeś niedawno na Ziemi. Według prezentera, cała ta afera zaczęła się wczoraj, gdy grupa planet na południu galaktyki wysłała Parlamentowi Republiki ultimatum: odmowę płacenia podatków do czasu wprowadzenia reform w procesie wyboru przedstawicieli planetarnych. Grupa ta, nazywająca siebie "Free Worlds," zażądała również natychmiastowej ponownej oceny wszystkich istniejących taryf handlowych i przepisów dotyczących rejestracji pilotów. Parlament stanowczo odmówił rozpatrzenia któregokolwiek z tych żądań.`
+			`	Następnie, zaledwie kilka godzin przed twoim lądowaniem, eksplozje nuklearne na Geminus i Martini zniszczyły Stocznię Marynarki Wojennej Republiki i Galaktyczną Giełdę Papierów Wartościowych, paraliżując militarne i gospodarcze centrum Republiki. "Wolne Światy" nie biorą na siebie odpowiedzialności za ataki, pomimo czasu i faktu, że ataki te doskonale spełniają swoje cele.`
+			`	Jeśli terroryści nie zostaną odnalezieni lub nie dadzą się złapać, wojna domowa jest nieunikniona. Minął niecały rok, odkąd kupiłeś swój statek, a galaktyka już się dla ciebie rozpada.`
 				flee
 
 			label end
-			`	The liaison officer responds with a curt thank-you and turns around to calm a hysterical Paradisian. You re-enter the <ship>, and prepare to take off. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`	Oficer łącznikowy odpowiada krótkim podziękowaniem i odwraca się, by uspokoić histeryczną Paradisiankę. Wchodzisz z powrotem do <ship> i przygotowujesz się do startu. Minął niecały rok od zakupu statku, a galaktyka już się dla ciebie wali.`
 				flee
 			
 			label help
-			`	"Yes. You can take off like I asked you to." The officer pauses. "Sorry, Captain, I'm sure you have the best of intentions, but that's the truth. The Navy has personnel trained for responding to nuclear disasters, and all you'd be doing here is taking up extra space." The officer turns around, interrupted by the shrieks of a panicked Paradisian. You re-enter the <ship>, and prepare to take off.`
+			`	"Tak. Możesz wystartować, tak jak prosiłem." Oficer robi pauzę. "Przepraszam, Kapitanie, jestem pewien, że masz najlepsze intencje, ale to prawda. Marynarka Wojenna ma personel przeszkolony do reagowania na katastrofy nuklearne, a ty tu tylko zajmowałbyś miejsce." Oficer odwraca się, przerywany krzykami spanikowanego Paradisianina. Wchodzisz ponownie do <ship> i przygotowujesz się do startu.`
 				flee
 
 event "initial deployment 1"
@@ -658,32 +658,32 @@ mission "Central Outfitters Expansion"
 		not "event: start of hostilities"
 	on offer
 		conversation
-			`When you walk into <origin>'s outfitter, you notice it has a raft of new outfits for sale; cooling equipment, afterburners, even new generators. Strangely, almost all the new stock appears to be from Kraz Cybernetics and Delta V - companies you'd usually see selling along the Southern Rim, not far up here so close to the center of the Republic. It is especially strange as those companies have been vocal supporters of the Free Worlds secessionists.`
+			`Kiedy wchodzisz do sklepu <origin>, zauważasz, że jest tam mnóstwo nowego sprzętu na sprzedaż: sprzęt chłodniczy, dopalacze, a nawet nowe generatory. O dziwo, prawie cały nowy asortyment pochodzi od Kraz Cybernetics i Delta V - firm, które zazwyczaj widuje się na Południowych Rubieżach, niedaleko stąd, tak blisko centrum Republiki. Jest to szczególnie dziwne, ponieważ firmy te od dawna aktywnie wspierają secesjonistów Wolnych Światów.`
 			choice
-				`	(Ask the proprietor about the new outfits.)`
-				`	(Move on.)`
+				`	(Zapytaj właściciela o nowe stroje.)`
+				`	(Przejdź dalej.)`
 					decline
 
-			`	The proprietor's busy at his desk inside the outfitter's small office, but as you approach he gets up and acknowledges you. "Hi, how can I help you today?"`
+			`	Właściciel jest zajęty przy biurku w małym biurze sklepu, ale gdy podchodzisz, wstaje i wita cię. "Cześć, w czym mogę dziś pomóc?"`
 			choice
-				`	"How come you're selling Kraz and Delta V outfits up here?"`
-				`	"It looks like you've got new stock."`
+				`	"Dlaczego sprzedajesz tu zestawy Kraz i Delta V?"`
+				`	"Wygląda na to, że masz nowy towar."`
 					goto "new stock"
-				`	(Move on.)`
+				`	(Przejdź dalej.)`
 					decline
 
-			`	"You're not the first to ask!" the proprietor responds overly brightly. "With piracy on the rise, the increased tensions, and - what everybody's assuming but not saying - impending conflict with the nuke-happy secessionists down in the Southern Rim, we've had a lot of requests to stock some more... specialized equipment."`
-			`	He walks you over to a crate of Javelins. "A load of this stuff comes from the Syndicate, you know. Apparently they already had a load of these missiles in production, but now that Kraz and Delta V are no longer companies operating in the Republic, they've snapped up all the rights to manufacture their products!" He chuckles. "It's great for captains who rely on Delta V equipment but can't go down to the Southern Rim to restock their gear."`
+			`	"Nie jesteś pierwszy, który pyta!" - odpowiada właściciel z przesadną pogodą ducha. "W związku z rosnącym piractwem, rosnącymi napięciami i - co wszyscy zakładają, ale nie mówią - zbliżającym się konfliktem z entuzjastycznymi bronią atomową secesjonistami z Southern Rim, otrzymaliśmy wiele próśb o uzupełnienie zapasów... specjalistycznego sprzętu."`
+			`	Prowadzi cię do skrzyni z Javelinami. "Wiesz, mnóstwo tego towaru pochodzi z Syndykatu. Podobno mieli już sporo tych pocisków w produkcji, ale teraz, gdy Kraz i Delta V nie działają już w Republice, wykupili wszystkie prawa do ich produkcji!" Chichocze. "To świetne dla kapitanów, którzy polegają na sprzęcie Delta V, ale nie mogą zejść na Południową Rubież, żeby uzupełnić zapasy."`
 				goto end
 
 			label "new stock"
-			`	"Yes, yes we do!" He walks up to you. "Nitrogen coolers, Heavy Rockets, radar jammers to ward off those pesky Lovelace Sidewinders, high-power afterburners, you name it. We've had a lot of requests to stock equipment from the Southern Rim, now with all the tension down there making it hard to do business."`
-			`	The proprietor leans in towards you a little and says in a softer tone, "But you know, it's wrong to get supplies from the people who did those bombings and killed tens of thousands of people. It's simply wrong. Morally and commercially.`
-			`	"Courtesy of Syndicated Systems, however, you can get southern gear here without supporting those secessionists! They saw an opportunity to get the rights for Delta V and Kraz equipment, and they took it. And you get to benefit," he chuckles.`
+			`	"Tak, tak!" Podchodzi do ciebie. "Chłodnice azotowe, ciężkie rakiety, zakłócacze radarów, żeby odeprzeć te irytujące Lovelace Sidewindery, potężne dopalacze, co tylko zechcesz. Otrzymaliśmy mnóstwo próśb o zaopatrzenie w sprzęt z Południowych Rubieży, teraz, gdy napięcie tam na dole utrudnia prowadzenie interesów."`
+			`	Właściciel pochyla się lekko w twoją stronę i mówi łagodniejszym tonem: "Ale wiesz, to nie w porządku, żeby kupować zaopatrzenie od ludzi, którzy przeprowadzili te zamachy bombowe i zabili dziesiątki tysięcy ludzi. To po prostu nie w porządku. Moralnie i ekonomicznie.`
+			`	"Dzięki uprzejmości Syndicated Systems, można tu jednak kupić sprzęt z południa bez wspierania tych secesjonistów! Dostrzegli okazję do zdobycia praw do sprzętu Delta V i Kraz i z niej skorzystali. A ty na tym skorzystasz, " chichocze.`
 
 			label end
-			`	He produces a brochure from his vest jacket and hands it to you. "Now, if you're interested in any of our new stock, just flag down one of our workers and we'll have it prepared and installed on your ship promptly.`
-			`	"I wish you safe travels," he says, and returns to his office.`
+			`	Wyciąga broszurę z kamizelki i wręcza ją Tobie. "Teraz, jeśli jesteś zainteresowany którymś z naszych nowych produktów, po prostu zatrzymaj któregoś z naszych pracowników, a my niezwłocznie przygotujemy ją i zainstalujemy na Twoim statku.`
+			`	"Życzę bezpiecznej podróży," mówi i wraca do swojego biura.`
 				decline
 
 

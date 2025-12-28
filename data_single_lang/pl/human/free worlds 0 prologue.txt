@@ -31,45 +31,45 @@ mission "Pact Recon 0"
 	
 	on offer
 		conversation
-			`You can't help noticing that the freighter parked next to the <ship> is in very bad shape, its hull pockmarked with blaster scars, as well as larger dents that may be from missiles. The crew and a number of men in militia uniforms are busy welding new hull plating onto it; the captain is having an animated conversation with a young female militia officer.`
+			`Nie sposób nie zauważyć, że frachtowiec zaparkowany obok <ship> jest w bardzo złym stanie, jego kadłub jest poznaczony bliznami po blasterach, a także większymi wgnieceniami, prawdopodobnie od pocisków. Załoga i kilku mężczyzn w mundurach milicji jest zajętych spawaniem nowego poszycia kadłuba; kapitan prowadzi ożywioną rozmowę z młodą oficerką milicji.`
 			choice
-				`	(Approach them and find out what happened.)`
-				`	(Ignore them.)`
+				`	(Podejdź do nich i dowiedz się, co się stało.)`
+				`	(Zignoruj je.)`
 					decline
-			`	You overhear enough of the conversation to figure out that the freighter was attacked by pirates, and the militia are helping to get it in working condition again. "A little spit shine and it'll look as good as new," the officer says, but the captain of the ship doesn't look convinced and walks up to his ship to work on it alongside the crew.`
-			`	The militia officer glances over her shoulder and, having spotted you listening in, waves you over. "No need to be shy," she says. "I'm guessing you're not from around here."`
+			`	Podsłuchujesz wystarczająco dużo rozmowy, by zorientować się, że frachtowiec został zaatakowany przez piratów, a milicja pomaga przywrócić go do stanu używalności. "Trochę polerowania i będzie jak nowy, "mówi oficer, ale kapitan statku nie wygląda na przekonanego i podchodzi do swojego statku, by popracować nad nim razem z załogą.`
+			`	Milicjantka zerka przez ramię i, zauważywszy, że podsłuchujesz, macha do ciebie. "Nie musisz się wstydzić, " mówi. "Domyślam się, że nie jesteś stąd. "`
 			choice
-				`	"How can you tell?"`
-				`	"Are the pirates rough around these parts?"`
+				`	"Jak to stwierdzić?"`
+				`	"Czy piraci są w tych okolicach brutalni?"`
 					goto pirates
-			`	"Because captains from around here don't rubberneck at an every-day occurrence. After seeing your first dozen or so damaged ships, you eventually get used to seeing them and just move on."`
-			`	"Are the pirates rough around these parts?" you ask.`
+			`	"Bo kapitanowie z okolicy nie gapią się na codzienne zdarzenia. Po zobaczeniu pierwszych kilkunastu uszkodzonych statków, w końcu przyzwyczajasz się do ich widoku i po prostu idziesz dalej."`
+			`	"Czy piraci są w tych okolicach brutalni?" pytasz.`
 			label pirates
-			`	"Rougher than you're probably used to if you're from farther up north. The Navy doesn't patrol these parts, not unless there's some high profile warlord that's on their radar. Because of that, pirates have more free rein to terrorize us down here." She pauses for a moment while turning back to the freighter. "And the pirate fleets keep getting stronger every year," she says with concern.`
+			`	"Bardziej brutalne niż te, do których prawdopodobnie jesteś przyzwyczajony, jeśli pochodzisz z dalszej północy. Marynarka wojenna nie patroluje tych terenów, chyba że jakiś wpływowy watażka jest na ich radarze. Dzięki temu piraci mają większą swobodę w terroryzowaniu nas tutaj. " Zatrzymuje się na chwilę, odwracając się z powrotem do frachtowca. "A floty pirackie z roku na rok stają się silniejsze, " mówi z zaniepokojeniem.`
 			choice
-				`	"Is there something I can do to help?"`
-				`	"I wish I could help, but my ship is not a warship."`
+				`	"Czy mogę w czymś pomóc?"`
+				`	"Chciałbym pomóc, ale mój statek nie jest okrętem wojennym."`
 					goto warship
-			`	"There is indeed," she says. "Have you heard of the Southern Mutual Defense Pact?"`
+			`	"Rzeczywiście," mówi. "Słyszałeś o Pakcie Wzajemnej Obrony Południa?"`
 				goto pact
 			label warship
-			`	"There are other ways you could help us," she says. "Have you heard of the Southern Mutual Defense Pact?"`
+			`	"Są inne sposoby, w jakie możesz nam pomóc, " mówi. "Słyszałeś o Pakcie Wzajemnej Obrony Południa?"`
 			label pact
 			choice
-				`	"No. What is it?"`
-				`	"Yes."`
+				`	"Nie. Co to jest?"`
+				`	"Tak."`
 					goto eyes
-			`	She says, "We're a collection of worlds that have decided that since the Navy doesn't patrol this part of the galaxy anymore, it's up to us to keep the pirates in check. The idea is that if the pirates ever try something big, like capturing an entire planet, that planet can call on the entire Pact to assist them. And, as you can see, we also do our fair share of helping out the local merchants where we can."`
-			`	"Sounds like a good idea," you say.`
+			`	Mówi: "Jesteśmy grupą planet, które zdecydowały, że skoro Marynarka Wojenna nie patroluje już tej części galaktyki, to my musimy trzymać piratów w ryzach. Chodzi o to, że jeśli piraci kiedykolwiek spróbują czegoś wielkiego, na przykład przejąć całą planetę, planeta ta może zwrócić się o pomoc do całego Paktu. I, jak widać, w miarę możliwości pomagamy również lokalnym kupcom."`
+			`	"Brzmi jak dobry pomysł," mówisz.`
 			label eyes
-			`	"The Pact is launching a new initiative, led by myself," she says. "We're calling it the 'Thousand Eyes.' We're asking merchant ship captains to let us access their scanner logs, basically using merchants as a surveillance network. You don't have to fight the pirates, just let us know if you see them. Interested?"`
+			`	"Pakt rozpoczyna nową inicjatywę, którą prowadzę ja," mówi. "Nazywamy ją "Tysiąc Oczu". Prosimy kapitanów statków handlowych o udostępnienie nam dostępu do logów skanerów, wykorzystując kupców jako sieć obserwacyjną. Nie musicie walczyć z piratami, po prostu dajcie nam znać, jeśli ich zobaczycie. Zainteresowany?"`
 			choice
-				`	"Sure, I would be glad to help."`
-				`	"Sorry, sounds too risky."`
+				`	"Oczywiście, chętnie pomogę."`
+				`	"Przepraszam, brzmi zbyt ryzykownie."`
 					decline
-			`	"Great!" she says. "Right now, we need more eyes on a few systems on the edge of Southern space. All you need to do is fly through those systems, then report to our base on <destination>. I'll mark the target systems on your ship's map for you. And by the way, the name's Freya Winters."`
-			`	"<first> <last>," you respond, shaking her hand.`
-			`	"Nice to meet you, Captain <last>. Glad to have another helping hand. I'll be heading to <planet> after I've finished my business on <origin>, so see you there."`
+			`	"Świetnie!" mówi. "Teraz potrzebujemy więcej obserwacji kilku systemów na skraju południowej przestrzeni kosmicznej. Wystarczy, że przelecisz przez te systemy, a potem zgłosisz się do naszej bazy na <destination>. Zaznaczę ci docelowe systemy na mapie twojego statku. A tak przy okazji, nazywam się Freya Winters."`
+			`	"<first> <last>," odpowiadasz, ściskając jej dłoń.`
+			`	"Miło mi pana poznać, Kapitanie <last>. Cieszę się, że znów mogę pomóc. Po załatwieniu spraw na <origin> udam się do <planet>, więc do zobaczenia."`
 				accept
 	
 	on accept
@@ -211,67 +211,67 @@ mission "Pact Questioning"
 	on offer
 		log "Najwyraźniej Marynarka Wojenna podejrzewa każdego, kto współpracował z Południowym Paktem Wzajemnej Obrony; został o to przesłuchany przez oficera. Nie jest jasne, jaki był jego stopień ani stanowisko w Marynarce Wojennej."
 		conversation
-			`As you complete the usual landing documents with the Navy inspector outside your ship, another officer, a middle-aged man in the same uniform, walks up from behind him. As he passes by he gives a curt nod to the inspector, who suddenly walks away swiftly without saying anything, not even a "good day" to you or this new officer. He must have some sort of seniority over the inspector.`
-			`	Once the inspector is out of the way, the new officer turns to you and says, "Excuse me, Captain <last>. I would like to speak with you for a few minutes."`
+			`Gdy wypełniasz standardowe dokumenty lądowania z inspektorem marynarki wojennej na zewnątrz swojego statku, inny oficer, mężczyzna w średnim wieku w tym samym mundurze, podchodzi do niego z tyłu. Przechodząc obok, kiwa krótko głową w stronę inspektora, który nagle szybko odchodzi, nic nie mówiąc, nawet "dzień dobry"" tobie ani temu nowemu oficerowi. Musi mieć jakieś pierwszeństwo przed inspektorem.`
+			`	Gdy inspektor odejdzie, nowy oficer odwraca się do ciebie i mówi: "Przepraszam, Kapitanie <last>. Chciałbym z tobą porozmawiać przez kilka minut."`
 			choice
-				`	"Okay."`
+				`	"Okej."`
 					goto branch
-				`	"Sorry, I'm really busy right now."`
-			`	"Unfortunately, this cannot wait," he responds.`
+				`	"Przepraszam, jestem teraz bardzo zajęty."`
+			`	"Niestety, to nie może czekać," odpowiada.`
 			label branch
 			branch free
 				has "event: war begins"
-			`	"Am I correct that you have been assisting the Southern Mutual Defense Pact?"`
+			`	"Czy mam rację, że wspierałeś Południowe Pakt Wzajemnej Obrony?"`
 				goto start
 			label free
-			`	"Am I correct that you performed some missions for the Southern Mutual Defense Pact, back before they became the Free Worlds?"`
+			`	"Czy mam rację, że wykonywałeś pewne misje dla Południowego Paktu Wzajemnej Obrony, zanim stali się oni Wolnymi Światami?"`
 			label start
-			`	His voice is very friendly, and he is not armed or accompanied by any other officers that you can see, so it doesn't seem like you are in trouble or in danger of being arrested - especially since your work for the Pact was perfectly legal.`
+			`	Jego głos jest bardzo przyjazny, nie jest uzbrojony ani nie towarzyszą mu żadni inni oficerowie, których możesz zobaczyć, więc nie wydaje się, żebyś miał kłopoty lub żebyś był narażony na aresztowanie - zwłaszcza, że twoja praca na rzecz Paktu była całkowicie legalna.`
 			choice
-				`	"I don't know what you are talking about."`
-				`	"I did take a few jobs helping out the local militias, yes."`
+				`	"Nie wiem, o czym mówisz."`
+				`	"Tak, podejmowałem się kilku prac, pomagając lokalnym milicjom."`
 					goto pact
-				`	"Yes, I ran several missions for the Pact."`
+				`	"Tak, wykonałem kilka misji dla Paktu."`
 					goto pact
-				`	"I'm sorry, but I don't want to talk to you about that."`
+				`	"Przykro mi, ale nie chcę z tobą o tym rozmawiać."`
 					goto quit
-			`	He has been looking intently into your eye, and when you lie to him, he frowns. "It really isn't necessary to lie to me," he says. You are not sure what to say in response, so you remain quiet.`
+			`	Patrzy ci uważnie w oczy, a kiedy mu kłamiesz, marszczy brwi. "Naprawdę nie musisz mi kłamać, "mówi. Nie wiesz, co odpowiedzieć, więc milczysz.`
 			label pact
-			`	"Tell me," he says, "was there one particular militia officer who you reported to, or was it someone different every time?" As he is speaking, you look for clues of who he is or why he is questioning you, and you notice something very odd. The Navy inspector before, and all Navy personnel you have encountered in the past, had a name badge on their lapel and rank insignia on their collar. But this officer's uniform is entirely blank.`
+			`	"Powiedz mi, "mówi, "czy był jeden konkretny oficer milicji, któremu składałeś raport, czy za każdym razem był to ktoś inny? " Kiedy mówi, szukasz wskazówek, kim on jest lub dlaczego cię przesłuchuje, i zauważasz coś bardzo dziwnego. Inspektor Marynarki Wojennej wcześniej, i wszyscy pracownicy Marynarki Wojennej, których spotkałeś w przeszłości, mieli identyfikator na klapie i insygnia stopnia na kołnierzu. Ale mundur tego oficera jest całkowicie pusty.`
 			choice
-				`	"I don't remember anyone's name in particular."`
-				`	"I would rather not name any names."`
-				`	"I usually reported to an officer named Freya Winters."`
+				`	"Nie pamiętam imienia konkretnej osoby."`
+				`	"Wolałbym nie podawać żadnych nazwisk."`
+				`	"Zwykle meldowałem się u oficera o nazwisku Freya Winters."`
 					goto freya
-				`	"I don't want to talk about this. I'm leaving."`
+				`	"Nie chcę o tym rozmawiać. Wychodzę."`
 					goto quit
-			`	"Oh well," he says, "it was worth asking. Would you at least be willing to tell me the nature of the missions you were performing?"`
+			`	"No cóż, " mówi, "warto było zapytać. Czy zechciałbyś chociaż powiedzieć mi, na czym polegały misje, które wykonywałeś?"`
 				goto missions
 			label freya
-			`	"Ah yes, Miss Winters," he says. "A very capable woman, although she's more skilled as an engineer than as a leader. Can you tell me what sort of work you were performing for her?"`
+			`	"Ach tak, panno Winters, " mówi. "Bardzo zdolna kobieta, choć bardziej utalentowana inżynierka niż liderka. Czy może mi pani powiedzieć, jaką pracę pani dla niej wykonywała?"`
 			label missions
 			choice
-				`	"I'd rather not say."`
+				`	"Wolałbym nie mówić."`
 					goto quit
-				`	"Who are you? Why are you asking me these questions?"`
+				`	"Kim jesteś? Dlaczego zadajesz mi te pytania?"`
 					goto questions
-				`	"Reconnaissance missions, tracking pirate movements."`
+				`	"Misje rozpoznawcze, śledzenie ruchów piratów."`
 					goto recon
-				`	"Sorry, I'm done talking to you."`
+				`	"Przepraszam, skończyłem z tobą rozmawiać."`
 					goto quit
 			label recon
-			`	"Are you certain your reconnaissance was only targeted at pirates?" he asks. "Did they collect only your logs on pirate ships, or on every ship you saw?"`
+			`	"Czy jesteś pewien, że twój rekonesans był skierowany tylko do piratów? " pyta. "Czy zbierali twoje dzienniki tylko na statkach pirackich, czy na każdym, który widziałeś?"`
 			choice
-				`	"I honestly don't know."`
-				`	"I think it was only the pirate ships."`
-				`	"I just gave them all my logs. I'm not sure what parts of them they ended up using."`
-			`	"I see," he says. "I wonder why they didn't share more of the details of their work with you."`
-			`	"Why are you asking me all these questions?" you say.`
+				`	"Szczerze mówiąc, nie wiem."`
+				`	"Myślę, że były to tylko statki pirackie."`
+				`	"Właśnie dałem im wszystkie moje logi. Nie jestem pewien, z których części ostatecznie skorzystali."`
+			`	"Rozumiem," mówi. "Zastanawiam się, dlaczego nie podzielili się z tobą szczegółami swojej pracy."`
+			`	"Dlaczego zadajesz mi te wszystkie pytania?" mówisz.`
 			label questions
-			`	"I'm just collecting information," he says. "Anything you tell me is interesting to me." Then, with a mischievous grin, he adds, "Anything you refuse to tell me is also interesting. Anyway, I won't detain you any longer. Thank you for your time." He smiles and walks away, leaving you with no idea of what is going on.`
+			`	"Tylko zbieram informacje," mówi. "Wszystko, co mi powiesz, jest dla mnie interesujące." Po czym, z figlarnym uśmiechem, dodaje: "Wszystko, czego nie chcesz mi powiedzieć, również jest interesujące. W każdym razie, nie będę cię dłużej zatrzymywał. Dziękuję za poświęcony czas." Uśmiecha się i odchodzi, zostawiając cię z niejasnym pojęciem, co się dzieje.`
 				decline
 			label quit
-			`	"Understood," he says. "Thank you for your time." He makes no effort to detain you, and walks away in the direction of the Navy garrison.`
+			`	"Zrozumiano," mówi. "Dziękuję za poświęcony czas." Nie próbuje cię zatrzymać i odchodzi w kierunku garnizonu Marynarki Wojennej.`
 				decline
 
 
@@ -302,20 +302,20 @@ mission "FW Recon 0"
 	
 	on offer
 		conversation
-			`A man approaches you in the spaceport. "Hello. Would you be able to give me a lift to <destination>? I'd be able to pay you <payment>." You notice that he is dressed in a militia uniform.`
+			`W kosmoporcie podchodzi do ciebie mężczyzna. "Witaj. Czy mógłbyś mnie podwieźć do <destination>? Mógłbym ci zapłacić <payment>." Zauważasz, że jest ubrany w mundur milicji.`
 			choice
-				`	"Sure, I'd be glad to help!"`
+				`	"Oczywiście, chętnie pomogę!"`
 					accept
-				`	"Sorry, I'm busy with something else right now."`
+				`	"Przepraszam, w tej chwili jestem zajęty czymś innym."`
 					defer
-				`	"Are you connected to the Free Worlds?"`
-			`	"Yes, I'm an officer in their militia." The man takes a half step back. "Is that a problem?"`
+				`	"Czy jesteś połączony z Wolnymi Światami?"`
+			`	"Tak, jestem oficerem ich milicji." Mężczyzna cofa się o pół kroku. "Czy to jakiś problem?"`
 			choice
-				`	"No problem at all. I'd be glad to help with your cause!"`
+				`	"Nie ma problemu. Chętnie pomogę w Twojej sprawie!"`
 					accept
-				`	"Not a problem, but I'm afraid I don't have space for you right now."`
+				`	"Nie ma problemu, ale obawiam się, że w tej chwili nie mam dla ciebie miejsca."`
 					defer
-				`	"I don't help rebels. Find someone else."`
+				`	"Nie pomagam rebeliantom. Znajdź kogoś innego."`
 					decline
 	
 	on visit
@@ -343,21 +343,21 @@ mission "FW Recon 1"
 	
 	on offer
 		conversation
-			`When you walk into the spaceport bar, a man in a militia uniform flags you down, and says, "Captain <last>. One of my officers told me to keep an eye out for you. Would you be willing to do another small service for the Free Worlds?"`
+			`Kiedy wchodzisz do baru w porcie kosmicznym, zatrzymuje cię mężczyzna w mundurze milicji i mówi: "Kapitanie <last>. Jeden z moich oficerów kazał mi na ciebie uważać. Czy zechciałbyś oddać jeszcze jedną drobną przysługę Wolnym Światom?"`
 			choice
-				`	"Perhaps. What do you want me to do?"`
-				`	"I only agreed to a transport job. I want no part in your rebellion."`
+				`	"Być może. Co mam zrobić?"`
+				`	"Zgodziłem się tylko na transport. Nie chcę brać udziału w waszym buncie."`
 					decline
-			`	"It's a rather simple matter," he says. "Most of the Republic ships that have come through this system seem to be outfitted for surveillance, not combat. But there is one in orbit right now, the <npc>, that seems to be equipped as a warship. Would you be willing to scan its outfits and report to us what you find? The outfitter stocks scanners if you don't have one, though you might want to install a few of them to improve performance. We will pay <payment>."`
+			`	"To dość prosta sprawa, " mówi. "Większość statków Republiki, które przeleciały przez ten system, wydaje się być wyposażona do obserwacji, a nie do walki. Ale jest jeden na orbicie, <npc>, który wygląda na okręt wojenny. Czy zechciałbyś zeskanować jego wyposażenie i poinformować nas o swoich odkryciach? Dostawca sprzętu ma na stanie skanery, jeśli ich nie masz, choć możesz chcieć zainstalować kilka z nich, aby poprawić wydajność. Zapłacimy <payment>."`
 			choice
-				`	"Sure, that sounds simple enough."`
+				`	"Jasne, brzmi to dość prosto."`
 					accept
-				`	"Why can't you scan the ship yourself?"`
-			`	"I'm sure you understand the... tensions between the Free Worlds and the Republic at the moment. We're just trying to look out for ourselves, but we don't want to provoke anything with the Navy. It'd be much simpler if we could get a sympathetic merchant to scan the ship for us."`
+				`	"Dlaczego nie możesz sam zeskanować statku?"`
+			`	"Jestem pewien, że rozumiesz... napięcia między Wolnymi Światami a Republiką w tej chwili. Staramy się dbać tylko o siebie, ale nie chcemy prowokować niczego z Marynarką Wojenną. Byłoby o wiele prościej, gdybyśmy mogli znaleźć życzliwego kupca, który przeskanowałby dla nas statek."`
 			choice
-				`	"Sounds reasonable enough. I'll do it."`
+				`	"Brzmi całkiem rozsądnie. Zrobię to."`
 					accept
-				`	"If shady jobs like this are what constitute 'helping the Free Worlds,' then count me out."`
+				`	"Jeśli tego typu podejrzane prace mają na celu "pomoc Wolnym Światom", to mnie nie liczcie."`
 					decline
 	
 	npc "scan outfits"
@@ -370,21 +370,21 @@ mission "FW Recon 1"
 			variant
 				"Cruiser (Heavy)"
 		conversation
-			`As soon as you scan the <npc> its captain hails you. "Excuse me, captain," he says, "can I assist you with something?"`
+			`Gdy tylko zeskanujesz <npc>, jego kapitan cię zawoła. "Przepraszam, kapitanie," mówi, "czy mogę w czymś pomóc?"`
 			choice
-				`	"I was just wondering what sort of engines you've got that let you move so fast."`
+				`	"Zastanawiałem się tylko, jakie masz silniki, które pozwalają ci poruszać się tak szybko."`
 					goto engines
-				`	"Never mind sir, I was just admiring your... impressive equipment."`
+				`	"Nie przejmuj się, panie, po prostu podziwiałem twój... imponujący sprzęt."`
 					goto equipment
 			label engines
-			`	"Nice, aren't they?" he says. "Atomic engines, the very latest in propulsion technology from Deep Sky. They're so smooth and responsive, I feel like I'm back piloting a shuttlecraft again."`
-			`	He pauses, then adds, "They pay me a thousand credits every time I say that."`
+			`	"Świetne, prawda?" mówi. "Silniki atomowe, najnowsza technologia napędowa od Deep Sky. Są tak płynne i responsywne, że czuję się, jakbym znowu pilotował wahadłowiec."`
+			`	Zatrzymuje się, po czym dodaje: "Za każdym razem, gdy to mówię, płacą mi tysiąc kredytów."`
 				goto close
 			label equipment
-			`	He looks awfully pleased with himself. "Yes, I suppose a ship like this is sure to turn a few heads. Next time we're on the same planet, stop by my berth and I'd be glad to give you a... private tour." He winks at you.`
+			`	Wygląda na strasznie zadowolonego z siebie. "Tak, przypuszczam, że taki statek na pewno przyciągnie uwagę. Następnym razem, gdy będziemy na tej samej planecie, wpadnij do mnie, a chętnie cię oprowadzę... prywatnie. " Puszcza do ciebie oko.`
 
 			label close
-			`	You cut the commlink and breathe a sigh of relief that the conversation is over.`
+			`	Rozłączasz się i odetchnąłeś z ulgą, wiedząc, że rozmowa dobiegła końca.`
 	
 	on visit
 		dialog `Lądujesz na <planet>, ale nie zeskanowałeś jeszcze krążownika marynarki wojennej patrolującego układ. Wypłyń i zeskanuj wyposażenie krążownika przed powrotem.`
@@ -413,13 +413,13 @@ mission "FW Recon 2"
 	
 	on offer
 		conversation
-			`You meet up with the militia captain in the spaceport bar. "Glad you showed up," he says, "I'm Jean-Jacques, by the way, but you can call me JJ."`
-			`	You introduce yourself in return, and he continues. "Here's the deal. I'm the commander of the militia on Glaze. So far, we and the Navy are not shooting at each other, because no one wants to fire the first shot. But if they're getting ready to change that, they'll start refitting their Cruisers with heavy weaponry instead of surveillance equipment. So, I need to know how many more of their ships are equipped like the one you just scanned."`
-			`	He continues, "I'd like you to go to <waypoints>, where our reports say there's a build-up of Navy ships. Scan any ships you think match the Cruiser we just saw, then bring your scanner logs back here for me to look at."`
+			`Spotykasz się z kapitanem milicji w barze w porcie kosmicznym. "Cieszę się, że się pojawiłeś, "mówi, "Nawiasem mówiąc, jestem Jean-Jacques, ale możesz mi mówić JJ."`
+			`	Ty się przedstawiasz, a on kontynuuje. "Otóż umowa. Jestem dowódcą milicji na Glaze. Na razie my i Marynarka Wojenna nie strzelamy do siebie, bo nikt nie chce oddać pierwszego strzału. Ale jeśli szykują się do zmiany, zaczną wyposażać swoje krążowniki w ciężkie uzbrojenie zamiast sprzętu obserwacyjnego. Muszę więc wiedzieć, ile jeszcze ich okrętów jest wyposażonych w taki sam sprzęt jak ten, który właśnie zeskanowałeś."`
+			`	Kontynuuje: "Chciałbym, żebyś udał się do <waypoints>, gdzie nasze raporty mówią o nagromadzeniu okrętów marynarki wojennej. Przeskanuj wszystkie okręty, które twoim zdaniem pasują do krążownika, który właśnie widzieliśmy, a potem przynieś tu swoje dzienniki skanowania, żebym mógł je przejrzeć."`
 			choice
-				`	"Sure, I'd be glad to do that."`
+				`	"Jasne, chętnie to zrobię."`
 					accept
-				`	"Sorry. After the way the last captain responded to me scanning him, I'm not risking my head for the Free Worlds again."`
+				`	"Przepraszam. Po tym, jak ostatni kapitan odpowiedział na moje skanowanie, nie zamierzam znowu ryzykować głowy dla Wolnych Światów."`
 					decline
 	
 	npc "scan outfits"
@@ -460,17 +460,17 @@ mission "FW Recon 3"
 	
 	on offer
 		conversation
-			`You meet JJ again in the bar. "I have one more reconnaissance mission for you," he says. "The Navy is building a base on New Wales, adjacent to the existing spaceport. From what I understand, they're employing thousands of locals to build it, so one more worker walking around would not seem out of place. I need you to walk around the base, take notes on the number and size of the landing pads and hangars, take pictures if you can, and report back to me. What do you say?"`
+			`Znowu spotykasz JJ w barze. "Mam dla ciebie jeszcze jedną misję rozpoznawczą, " mówi. "Marynarka wojenna buduje bazę w Nowej Walii, obok istniejącego kosmodromu. Z tego, co rozumiem, zatrudniają do jej budowy tysiące miejscowych, więc jeszcze jeden robotnik nie wydawałby się nie na miejscu. Musisz obejść bazę, zanotować liczbę i rozmiar lądowisk i hangarów, zrobić zdjęcia, jeśli możesz, i zdać mi relację. Co ty na to? "`
 			choice
-				`	"Sure, I can do that."`
+				`	"Jasne, mogę to zrobić."`
 					accept
-				`	"What if they arrest me?"`
-			`	"From what I understand," says JJ, "the base is not actually closed off to civilians. So as long as you keep out of any areas that are marked off limits, you won't be committing any crime."`
+				`	"Co jeśli mnie aresztują?"`
+			`	"Z tego, co rozumiem, " mówi JJ, "baza nie jest faktycznie zamknięta dla cywilów. Więc dopóki nie będziesz się zbliżać do wyznaczonych obszarów, nie popełnisz żadnego przestępstwa."`
 			choice
-				`	"Okay, I'll do it."`
+				`	"Okej, zrobię to."`
 					accept
-				`	"This is too far. I'm not trespassing on Navy property for you."`
-			`	"I'm really sorry to hear that," says JJ. "We had high hopes for you." He leaves the bar.`
+				`	"To za daleko. Nie wkroczę na teren Marynarki Wojennej bez pozwolenia."`
+			`	"Bardzo mi przykro to słyszeć," mówi JJ. "Wiązaliśmy z tobą wielkie nadzieje." Wychodzi z baru.`
 				decline
 
 
@@ -491,24 +491,24 @@ mission "FW Recon 3B"
 	
 	on offer
 		conversation
-			`You walk through the new section of the spaceport that the Navy is building, trying to look inconspicuous. When it seems that no one is watching, you snap a few photographs. You count seven hangars large enough to house a Carrier, and workers are clearing and blasting level surfaces for many more. An entire new village of identical prefabricated houses has sprung up nearby. And every few minutes, a warship flies overhead with a roar that shakes the entire mountain. It is an intimidating sight.`
-			`	As you are heading back to your ship after taking note of everything you think JJ would be interested in, two officers walk past you and you overhear one saying to the other, "Secret message from fleet command."`
-			`	You stop to tie your shoe and try to listen in. "What's the message?" asks the other.`
-			`	"I can't tell you here," says the first, and they duck behind one of the storage sheds.`
+			`Przechadzasz się po nowej części kosmoportu, którą buduje Marynarka Wojenna, starając się wyglądać niepozornie. Kiedy wydaje się, że nikt nie patrzy, robisz kilka zdjęć. Naliczasz siedem hangarów wystarczająco dużych, by pomieścić lotniskowiec, a robotnicy oczyszczają i wysadzają równe powierzchnie pod kolejne. W pobliżu wyrosła cała nowa osada identycznych prefabrykowanych domów. Co kilka minut nad głowami przelatuje okręt wojenny z rykiem, który wstrząsa całą górą. To przerażający widok.`
+			`	Gdy wracasz na swój statek po zanotowaniu wszystkiego, czym twoim zdaniem mógłby zainteresować się JJ, obok ciebie przechodzi dwóch oficerów i słyszysz, jak jeden z nich mówi do drugiego: "Tajna wiadomość od dowództwa floty."`
+			`	Zatrzymujesz się, żeby zawiązać but i próbujesz podsłuchiwać. "Jaka jest wiadomość?" pyta drugi.`
+			`	"Nie mogę ci tutaj powiedzieć," mówi pierwszy i chowa się za jedną ze szop magazynowych.`
 			choice
-				`	(Ignore them and return to my ship.)`
+				`	(Zignoruj ich i wróć na mój statek.)`
 					accept
-				`	(Follow them and listen in.)`
+				`	(Podążaj za nimi i podsłuchuj.)`
 			
 			action
 				set "fw recon: caught"
-			`	You follow the officers into a supply yard and hide behind a large stack of crates. "Lieutenant," says one of them, "we just received word that the Free Worlds have contracted with someone to spy on this facility."`
-			`	"A professional, sir?"`
-			`	"Hardly. My grandmother would make a better spy. It's a merchant captain, clearly an amateur." They are both speaking quite loudly; you are having no trouble listening in.`
-			`	"What are we going to do, sir?" asks the lieutenant.`
-			`	"Nothing. If gawking at our ships were a crime, we'd have half the local population in prison by now. But if this captain should accept any further assignments, we may have to take action."`
-			`	"Should we at least inform this individual that those crates make terrible cover?" asks the lieutenant, grinning.`
-			`	"Now, now," says the other officer, "no need to be spiteful." They walk off, leaving you thoroughly embarrassed.`
+			`	Podążasz za oficerami na plac składowy i chowasz się za dużym stosem skrzyń. "Poruczniku," mówi jeden z nich, "właśnie otrzymaliśmy wiadomość, że Wolne Światy podpisały umowę z kimś, kto będzie szpiegował tę placówkę."`
+			`	"Profesjonalista, proszę pana?"`
+			`	"Wątpię. Moja babcia byłaby lepszym szpiegiem. To kapitan statku handlowego, ewidentnie amator." Oboje mówią dość głośno; nie masz problemu ze słuchaniem.`
+			`	"Co mamy zrobić, panie?" pyta porucznik.`
+			`	"Nic. Gdyby gapienie się na nasze statki było przestępstwem, połowa miejscowej ludności siedziałaby już w więzieniu. Ale jeśli ten kapitan przyjmie kolejne zadania, być może będziemy musieli podjąć działania."`
+			`	"Czy powinniśmy chociaż poinformować tego osobnika, że te skrzynie stanowią kiepską przykrywkę? " pyta porucznik, uśmiechając się szeroko.`
+			`	"No, no," mówi drugi oficer, "nie ma potrzeby być złośliwym." Odchodzą, zostawiając cię w kompletnym zażenowaniu.`
 				accept
 	
 	npc evade
@@ -527,61 +527,61 @@ mission "FW Recon 3B"
 		"assisted free worlds" ++
 		log "Przekazałem Wolnym Światom kilka zdjęć i informacji o bazie marynarki wojennej w Nowej Walii. Jean-Jacques, kontakt milicji, był bardzo wdzięczny za pomoc."
 		conversation
-			`JJ meets you as soon as you land. "Good job evading that Navy Gunboat," he says.`
+			`JJ spotka cię zaraz po wylądowaniu. "Dobra robota, że uniknąłeś tej kanonierki marynarki wojennej, " mówi.`
 			branch caught
 				has "fw recon: caught"
 			branch obvious
 				has "fw recon: obvious gunboat"
 			
 			choice
-				`	"Gunboat? What Gunboat?"`
-				`	"I knew I had a feeling that I was being followed."`
+				`	"Kanonierka? Jaka kanonierka?"`
+				`	"Wiedziałem, że mam przeczucie, że ktoś mnie śledzi."`
 					goto followed
-			`	"You didn't notice? I have scouts that report that you were being followed by a Gunboat by the name of the <npc> ever since you left <origin>. Keeping an eye on where you were going, no doubt.`
+			`	"Nie zauważyłeś? Mam zwiadowców, którzy donoszą, że odkąd opuściłeś <origin>, śledziła cię kanonierka o nazwie <npc>. Bez wątpienia śledziła, dokąd zmierzasz.`
 				goto followed
 			
 			label caught
 			choice
-				`	"They knew I was gathering information on the base. It's no wonder they had someone following me."`
+				`	"Wiedzieli, że zbieram informacje o bazie. Nic dziwnego, że ktoś mnie śledził."`
 					goto followed
-				`	"How did they know I was involved with you?"`
+				`	"Skąd wiedzieli, że jestem z tobą związany?"`
 					goto followed
 			
 			label obvious
 			choice
-				`	"I knew I had a feeling that I was being followed."`
-				`	"How did they know I was involved with you?"`
+				`	"Wiedziałem, że mam przeczucie, że ktoś mnie śledzi."`
+				`	"Skąd wiedzieli, że jestem z tobą związany?"`
 			
 			label followed
-			`	"The Republic's intelligence gathering capabilities are vast, far beyond anything we can muster. I can only guess how they knew you were involved and kept an eye on you."`
+			`	"Możliwości wywiadowcze Republiki są ogromne, daleko wykraczające poza wszystko, co jesteśmy w stanie zgromadzić. Mogę się tylko domyślać, skąd wiedzieli o twoim udziale i mieli cię na oku."`
 			choice
-				`	"What should I do now that the Republic is watching me?"`
-				`	"Knowing that, how can you possibly expect to stand up against the Republic?"`
+				`	"Co mam teraz zrobić, skoro Republika mnie obserwuje?"`
+				`	"Wiedząc o tym, jak możesz oczekiwać, że przeciwstawisz się Republice?"`
 					goto odds
-			`	"Keep your head low. You're compromised, so I can't ask you to do any more recon work for us. So long as you don't cause them any trouble, they'll likely eventually leave you alone. We have a great number of merchants helping us, and as capable as the Republic is, they can only keep a close eye on so many people at a time."`
+			`	"Nie wychylaj się. Jesteś narażony na niebezpieczeństwo, więc nie mogę cię prosić o dalsze zwiady. Dopóki nie sprawisz im kłopotów, prawdopodobnie w końcu dadzą ci spokój. Pomaga nam wielu kupców, a Republika, mimo swoich możliwości, jest w stanie mieć oko na ograniczoną liczbę osób naraz."`
 				goto info
 			
 			label odds
-			`	"I pray that we don't have to," JJ responds. "We're currently attempting to prove our innocence for the bombings on Geminus and Martini. But should it come to war, if we get continued help from merchants such as yourself, then, God willing, we might just stand a chance. While the Republic may be strong, they're not omnipotent."`
+			`	"Modlę się, żebyśmy nie musieli, " odpowiada JJ. "Obecnie próbujemy udowodnić naszą niewinność w sprawie bombardowań na Geminus i Martini. Ale jeśli dojdzie do wojny, jeśli będziemy nadal otrzymywać pomoc od kupców takich jak ty, to, z Bożą pomocą, możemy mieć szansę. Republika może i jest silna, ale nie jest wszechmocna. "`
 			
 			label info
-			`	JJ takes the information and photos you gathered and pays you <payment> in return. "I'll be sure to let the rest of the Free Worlds Council know how helpful you have been."`
+			`	JJ bierze zebrane przez ciebie informacje i zdjęcia i płaci ci <payment> w zamian. "Na pewno dam znać reszcie Rady Wolnych Światów, jak bardzo byłeś pomocny."`
 			choice
-				`	"Thank you."`
+				`	"Dziękuję."`
 					goto end
-				`	"What are you going to do with this information?"`
-				`	"Free Worlds Council? What's that?"`
+				`	"Co zamierzasz zrobić z tą informacją?"`
+				`	"Rada Wolnych Światów? Co to jest?"`
 					goto council
 			
-			`	"Full of questions, aren't we?" JJ chuckles. "We will not attack this naval base, so you don't need to worry about anyone being hurt by your actions today. But should the Free Worlds and the Republic go to war, information will be a vital resource, including the information that you've provided me, so thank you for that.`
+			`	"Pełno pytań, prawda? " JJ chichocze. "Nie zaatakujemy tej bazy morskiej, więc nie musisz się martwić, że twoje dzisiejsze działania komuś staną się krzywdą. Ale jeśli Wolne Światy i Republika wybuchną wojną, informacje będą niezwykle cenne, w tym te, które mi przekazałeś, więc dziękuję za nie.`
 				goto end
 			
 			label council
-			`	"Full of questions, aren't we?" JJ chuckles. "The Council is a collection of leaders born out of what used to be the Southern Mutual Defense Pact. It includes myself and a few others. We are currently responsible for commanding the militias of the Free Worlds, and should it come to it, we will be the commanding officers in a war with the Republic.`
+			`	"Pełno pytań, prawda? " JJ chichocze. "Rada to grupa przywódców zrodzonych z dawnego Paktu Wzajemnej Obrony Południa. Należę do niej ja i kilka innych osób. Obecnie dowodzimy milicjami Wolnych Światów, a jeśli zajdzie taka potrzeba, będziemy dowódcami w wojnie z Republiką.`
 				goto end
 			
 			label end
-			`	"Now if you'll excuse me, Captain, I have other work to attend to," JJ says. "If you wish to continue helping us, I'm sure there are others who could call upon you if you go looking for them."`
+			`	"A teraz wybacz, Kapitanie, mam inne sprawy do załatwienia, " mówi JJ. "Jeśli chcesz nam nadal pomagać, jestem pewien, że są inni, którzy mogliby się do ciebie zwrócić, jeśli pójdziesz ich szukać."`
 				decline
 
 
@@ -608,38 +608,38 @@ mission "FW Escort 0"
 	
 	on offer
 		conversation
-			`As you are walking through the spaceport, a man in a militia uniform approaches you. Judging by the markings on his uniform, you suspect that he is very highly ranked within the militia.`
-			`	"Captain <last>?" he asks. You nod. "Glad to finally meet you. I'm Tomek Voigt, commanding officer of the Free militias. I have officers and friends who have spoken very highly of you. They tell me that you've gone to great lengths to help us. I thank you for that."`
+			`Gdy idziesz przez kosmodrom, podchodzi do ciebie mężczyzna w mundurze milicji. Sądząc po znakach na jego mundurze, podejrzewasz, że zajmuje bardzo wysoką pozycję w milicji.`
+			`	"Kapitanie <last>?" pyta. Kiwasz głową. "Cieszę się, że w końcu cię poznałem. Jestem Tomek Voigt, dowódca Wolnej Milicji. Mam oficerów i znajomych, którzy bardzo dobrze o tobie mówią. Mówią mi, że bardzo się starałeś, żeby nam pomóc. Dziękuję ci za to."`
 			choice
-				`	"Oh, it was nothing. Just helping people out where I can."`
+				`	"Och, nic takiego. Po prostu pomagam ludziom, jak mogę."`
 					goto humble
-				`	"I've gone to great lengths because I believe you have a great cause."`
+				`	"Włożyłem w to wiele wysiłku, ponieważ wierzę, że masz szczytny cel."`
 					goto cause
-				`	"I'm just looking to get paid, and the Free Worlds pays well."`
-			`	Tomek raises an eyebrow. "A no nonsense captain, I see. Well if it's pay you're looking for, I have another job for you on behalf of the Free Worlds.`
+				`	"Po prostu chcę zarabiać, a w Wolnych Światach płacą dobrze."`
+			`	Tomek unosi brew. "Widzę, że kapitan bez zbędnych ceregieli. Cóż, jeśli szukasz zarobku, mam dla ciebie inną robotę w imieniu Wolnych Światów.`
 				goto mission
 			label humble
-			`	Tomek smiles. "A humble captain, I see. Well, if you're just looking to help people out, I have another job for you on behalf of the Free Worlds.`
+			`	Tomek się uśmiecha. "Skromny kapitan, widzę. Cóż, jeśli chcesz po prostu pomagać ludziom, mam dla ciebie inne zadanie w imieniu Wolnych Światów.`
 				goto mission
 			label cause
-			`	Tomek grins. "Ah, a fellow freedom fighter. Always glad to see more captains earnestly joining the cause. I have another job for you on behalf of the Free Worlds.`
+			`	Tomek się uśmiecha. "Ach, towarzyszu walki o wolność. Zawsze miło widzieć więcej kapitanów szczerze włączających się w sprawę. Mam dla ciebie kolejne zadanie w imieniu Wolnych Światów.`
 			label mission
-			`	"We're looking for ships to help escort a freighter convoy that is traveling to Tarazed to pick up supplies. Our last few convoys have been attacked by pirates, and we suspect this one will be as well. We already have a few captains on the job, but we could always use more help. Are you interested?"`
+			`	"Szukamy statków do eskorty konwoju frachtowców płynącego do Tarazed po zaopatrzenie. Nasze ostatnie konwoje zostały zaatakowane przez piratów i podejrzewamy, że ten również. Mamy już kilku kapitanów, ale zawsze przyda nam się więcej pomocy. Jesteś zainteresowany?"`
 			choice
-				`	"Sure, I'd be glad to assist in the escort."`
+				`	"Oczywiście, chętnie pomogę w eskorcie."`
 					goto accept
-				`	"What sort of supplies?"`
-				`	"Sorry, but that's not the type of work I'm looking for."`
+				`	"Jakiego rodzaju zaopatrzenie?"`
+				`	"Przepraszam, ale to nie jest rodzaj pracy, jakiej szukam."`
 					decline
 			
-			`	"Outfits, weapons, and other miscellaneous materials needed for the manufacturing of new ships. The Free Worlds are looking to bolster its forces, and we're already using as much of our local industry as we can, so we've begun importing materials from companies that aren't concerned with dealing with what the Republic labels a 'terrorist organization,'" Tomek says with a smirk.`
+			`	"Wyposażenie, broń i inne materiały potrzebne do produkcji nowych statków. Wolne Światy chcą wzmocnić swoje siły, a my już wykorzystujemy jak najwięcej z naszego lokalnego przemysłu, więc zaczęliśmy importować materiały od firm, które nie przejmują się tym, co Republika nazywa "organizacją terrorystyczną" - mówi Tomek z uśmieszkiem.`
 			choice
-				`	"Well, then I'd be glad to help."`
-				`	"Sorry, but that's not the type of work I'm looking for."`
+				`	"Cóż, w takim razie chętnie pomogę."`
+				`	"Przepraszam, ale to nie jest rodzaj pracy, jakiej szukam."`
 					decline
 			
 			label accept
-			`	"Great!" he says. "The convoy will start from <destination> once all the escorts have arrived. I suggest you head there immediately."`
+			`	"Świetnie!" mówi. "Konwój ruszy z <destination>, gdy tylko wszystkie eskorty dotrą na miejsce. Sugeruję, żebyście natychmiast się tam udali."`
 				accept
 
 
@@ -720,8 +720,8 @@ mission "FW Escort 1"
 		has "chosen sides"
 	on offer
 		conversation
-			`You meet up with the convoy on <origin> in the spaceport: six freighters with an escort of... seven interceptors. Given how prevalent piracy is in this region and how strong some pirate fleets can be, you would have expected a larger escort, but it seems that this is all the Free Worlds are capable of mustering at the moment. It's no wonder they're asking merchant captains such as yourself to lend a hand.`
-			`	Shortly after you arrive, the convoy is ready to go and charts a course for <destination>.`
+			`Spotykasz się z konwojem na <origin> w porcie kosmicznym: sześć frachtowców z eskortą... siedmiu myśliwców przechwytujących. Biorąc pod uwagę powszechność piractwa w tym regionie i siłę niektórych flot pirackich, można by się spodziewać większej eskorty, ale wygląda na to, że to wszystko, na co Wolne Światy są obecnie w stanie liczyć. Nic dziwnego, że proszą kapitanów statków handlowych takich jak ty o pomoc.`
+			`	Krótko po twoim przybyciu konwój jest gotowy do odjazdu i obiera kurs na <destination>.`
 				accept
 	
 	on accept
@@ -782,8 +782,8 @@ mission "FW Escort 1B"
 	
 	on offer
 		conversation
-			`Your convoy of freighters reaches <origin> intact, despite numerous encounters with pirates. The escort of interceptors was just enough to hold them off. The merchant captains sell their trade goods and stock up with weapons and ship outfits that will be used to build new ships for the Free Worlds.`
-			`	Before you leave, a Free Worlds militia officer who you didn't arrive with approaches you, saying that he's finished doing business with the Tarazed Corporation and will join the convoy back to <planet>. The officer is commanding a Falcon, a much more formidable warship than your group of interceptors. Which is good, since, now that the freighters are carrying much more valuable cargo, the pirate attacks are likely to get even worse...`
+			`Twój konwój frachtowców dociera do <origin> w stanie nienaruszonym, pomimo licznych starć z piratami. Eskorta myśliwców przechwytujących wystarczyła, by ich powstrzymać. Kapitanowie statków handlowych sprzedają swoje towary i zaopatrują się w broń i wyposażenie okrętów, które zostaną wykorzystane do budowy nowych statków dla Wolnych Światów.`
+			`	Zanim odlecisz, podchodzi do ciebie oficer milicji Wolnych Światów, z którym nie przybyłeś, i mówi, że zakończył interesy z Korporacją Tarazed i dołączy do konwoju powrotnego do <planet>. Oficer dowodzi Sokołem, znacznie potężniejszym okrętem wojennym niż twoja grupa myśliwców przechwytujących. To dobrze, bo teraz, gdy frachtowce przewożą o wiele cenniejszy ładunek, ataki piratów prawdopodobnie staną się jeszcze gorsze...`
 				accept
 	
 	npc accompany save
@@ -845,15 +845,15 @@ mission "FW Escort 2"
 	
 	on offer
 		conversation
-			`Tomek is waiting in <origin>'s spaceport to receive the freighters. After double-checking that the cargo is all intact, he turns to you and the rest of the escort captains and says, "All of you have done a great service for the Free Worlds." He walks over and personally presents a credit chip to each captain.`
-			`	After handing over your payment, Tomek announces, "The convoy is heading back to <planet> immediately. Same deal as before: 400,000 credits for the safe return of the freighters, their crew, and their cargo. And I swear your courage will never be forgotten by the Council or the Free Worlds. If you're willing to volunteer a second time, please stay here."`
-			`	Tomek leaves, presumably to gather replacements for the captains who have already run off.`
+			`Tomek czeka w porcie kosmicznym <origin> na odbiór frachtowców. Po dwukrotnym sprawdzeniu, czy ładunek jest nienaruszony, zwraca się do ciebie i reszty kapitanów eskorty i mówi: "Wszyscy oddaliście wielką przysługę Wolnym Światom." Podchodzi i osobiście wręcza każdemu kapitanowi chip kredytowy.`
+			`	Po przekazaniu zapłaty Tomek oznajmia: "Konwój natychmiast wraca do <planet>. Ta sama umowa co poprzednio: 400 000 kredytów za bezpieczny powrót frachtowców, ich załogi i ładunku. I przysięgam, że twoja odwaga nigdy nie zostanie zapomniana przez Radę ani Wolne Światy. Jeśli chcesz zgłosić się na ochotnika po raz drugi, proszę zostań tutaj."`
+			`	Tomek odchodzi, prawdopodobnie po to, by zebrać zastępstwa dla kapitanów, którzy już uciekli.`
 			choice
-				`	(Volunteer.)`
-				`	(Ditch the escort group.)`
+				`	(Wolontariusz.)`
+				`	(Porzuć grupę eskortową.)`
 					decline
 			
-			`	You stick around with a few of the other escort pilots and watch as most of the others wander away. Soon Tomek returns, luckily with some new faces in tow. "You know the drill," he says. "We can't afford to lose any of these freighters. Good luck to all of you, and I pray to see you all safely back here in a couple of weeks."`
+			`	Trzymasz się z kilkoma innymi pilotami eskorty i patrzysz, jak większość odchodzi. Wkrótce Tomek wraca, na szczęście z kilkoma nowymi twarzami. "Znasz procedurę, " mówi. "Nie możemy sobie pozwolić na utratę żadnego z tych frachtowców. Powodzenia wszystkim i modlę się, żebyście wszyscy bezpiecznie wrócili tutaj za kilka tygodni. "`
 				accept
 	
 	on decline
@@ -911,7 +911,7 @@ mission "FW Escort 2B"
 	
 	on offer
 		conversation
-			`Once again, the convoy stocks up on weapons and outfits and begins preparing for the return journey. But unfortunately, there's no militia officer with a warship here to reinforce you this time. You can't help worrying that the longer these convoys keep running, the more pirates will discover their route and begin setting ambushes for them.`
+			`Konwój ponownie zaopatruje się w broń i sprzęt i rozpoczyna przygotowania do podróży powrotnej. Niestety, tym razem nie ma tu oficera milicji z okrętem wojennym, który mógłby cię wesprzeć. Nie możesz pozbyć się obawy, że im dłużej te konwoje będą płynąć, tym więcej piratów odkryje ich trasę i zacznie na nich zastawiać zasadzki.`
 				accept
 	
 	npc accompany save
@@ -973,14 +973,14 @@ mission "FW Escort 3"
 	
 	on offer
 		conversation
-			`Once again, Tomek Voigt meets you and the rest of the convoy at the spaceport, thanks you all for your courage and dedication, and pays you each 400,000 credits. Afterwards, he pulls you aside and says, "Captain <last>, please follow me."`
-			`	Tomek brings you to one of the spaceport bars, exchanging greetings with the patrons before sitting at the counter. "Here's the deal," he says. "One of our freighters, the <npc>, was just disabled in the <waypoints> system. We need you to fly there immediately, repair it, and bring it back here before it can be captured by pirates. Do you think you're up to the task?"`
+			`Po raz kolejny Tomek Voigt spotyka się z tobą i resztą konwoju w porcie kosmicznym, dziękuje wam wszystkim za odwagę i poświęcenie i wypłaca każdemu po 400 000 kredytów. Następnie odciąga was na bok i mówi: "Kapitanie <last>, proszę za mną."`
+			`	Tomek zaprowadzi cię do jednego z barów w porcie kosmicznym, witając się z klientami, zanim usiądziesz przy ladzie. "Otóż, umowa stoi, " mówi. "Jeden z naszych frachtowców, <npc>, właśnie został uszkodzony w systemie <waypoints>. Musisz tam natychmiast polecieć, naprawić go i sprowadzić z powrotem, zanim piraci go przejmą. Myślisz, że podołasz zadaniu? "`
 			choice
-				`	"Sure!"`
-				`	"Sorry, no. I'm a merchant captain with bills to pay. I'm not going to go search for your missing ships in the middle of nowhere."`
+				`	"Oczywiście!"`
+				`	"Przepraszam, nie. Jestem kapitanem statku handlowego z rachunkami do opłacenia. Nie będę szukał twoich zaginionych statków na odludziu."`
 					decline
 		
-			`	"Glad to hear it," he says. "The crew of that freighter is depending on you. I know I don't have to tell you what will happen to them if pirates board them before you get there, so get moving quickly."`
+			`	"Cieszę się, " mówi. "Załoga tego frachtowca liczy na ciebie. Wiem, że nie muszę ci mówić, co się z nimi stanie, jeśli piraci wejdą na pokład, zanim tam dotrzesz, więc ruszaj szybko."`
 				accept
 	
 	npc accompany save
@@ -1005,17 +1005,17 @@ mission "FW Escort 3"
 		"assisted free worlds" ++
 		log "Pomógł uratować frachtowiec Wolnych Światów, który został unieruchomiony przez piratów. Zasłużył na wdzięczność Tomka Voigta, członka Rady dowodzącego konwojami zaopatrzeniowymi."
 		conversation
-			`Tomek is immensely relieved to see the <npc> returned safely home. "You have done us a great service today, Captain," he says, as he hands you credit chips for <payment>. "I'll be sure to let the rest of the Council know how helpful you have been, and I pray we can call on you in the future."`
+			`Tomek jest niezmiernie uradowany, widząc, że <npc> bezpiecznie wróciło do domu. "Wyświadczył nam Pan dziś wielką przysługę, Kapitanie," mówi, wręczając Panu żetony kredytowe za <payment>. "Na pewno dam znać reszcie Rady, jak bardzo Pan pomógł i modlę się, abyśmy mogli liczyć na Pana wsparcie w przyszłości."`
 			choice
-				`	"I'll be ready to answer the call whenever it comes."`
+				`	"Będę gotowy odebrać telefon, kiedykolwiek nadejdzie."`
 					decline
-				`	"What exactly is the Council?"`
+				`	"Czym właściwie jest Rada?"`
 			
-			`	Tomek pauses to think for a moment. "Before there was the Free Worlds, there was the Southern Mutual Defense Pact, little more than a defense agreement between the worlds that now comprise the Free Worlds. Any group needs leadership, and the Council is what was once the leadership of the Pact.`
-			`	"We've retained all our powers that we held under the Pact, being the organizers and commanding officers of the various militias of the Free Worlds. With the Free Worlds having declared itself as a formal government and with tensions with the Republic so high, however, the militias are now obligated to answer to the Council as an emergency power, as opposed to the prior agreement where worlds could refuse to answer to the Pact if, for whatever reason, they chose not to.`
-			`	"But the Council is only a transitional organization; upon the establishment of the Free Worlds Senate, which is already in the works, the Council will be dissolved and all its responsibilities moved to the Senate.`
-			`	"Does that answer your question?" Tomek asks.`
-			`	"It does," you say. "Thank you."`
+			`	Tomek na chwilę się zastanawia. "Zanim powstały Wolne Światy, istniał Pakt Wzajemnej Obrony Południa, niewiele więcej niż umowa obronna między światami, które obecnie tworzą Wolne Światy. Każda grupa potrzebuje przywództwa, a Rada jest tym, co kiedyś było przywództwem Paktu.`
+			`	"Zachowaliśmy wszystkie uprawnienia, które posiadaliśmy na mocy Paktu, będąc organizatorami i dowódcami różnych milicji Wolnych Światów. Jednak w związku z tym, że Wolne Światy ogłosiły się formalnym rządem, a napięcia z Republiką są tak wysokie, milicje są teraz zobowiązane do podporządkowania się Radzie jako sile nadzwyczajnej, w przeciwieństwie do wcześniejszego porozumienia, zgodnie z którym planety mogły odmówić podporządkowania się Paktowi, jeśli z jakiegokolwiek powodu tego nie chciały.`
+			`	"Rada jest jednak tylko organizacją przejściową; po utworzeniu Senatu Wolnych Światów, co już jest w toku, Rada zostanie rozwiązana, a wszystkie jej obowiązki zostaną przeniesione na Senat.`
+			`	"Czy to odpowiada na twoje pytanie?" Tomek pyta.`
+			`	"Tak, " mówisz. "Dziękuję."`
 
 
 
@@ -1037,13 +1037,13 @@ mission "FW Escort Second Chance"
 	
 	on offer
 		conversation
-			`Soon after you exit your ship a man approaches you. "Captain <last>?" he asks. You nod. "My name is Alondo," he says. "I'm a member of the Free Worlds Council. Katya speaks so highly of you that I would like to see you officially join us as a part of the Free Worlds militia, even though you messed up that escort mission that was given to you."`
+			`Zaraz po wyjściu ze statku podchodzi do ciebie mężczyzna. "Kapitanie <last>?" pyta. Kiwasz głową. "Nazywam się Alondo", mówi. "Jestem członkiem Rady Wolnych Światów. Katya tak bardzo cię ceni, że chciałbym, żebyś oficjalnie dołączył do nas jako członek milicji Wolnych Światów, mimo że zawaliłeś misję eskortową, którą ci powierzono."`
 			choice
-				`	"Yes, I'm very sorry about that."`
-				`	"Sorry, but I decided I don't want to assist the Free Worlds anyway."`
+				`	"Tak, bardzo mi przykro z tego powodu."`
+				`	"Przepraszam, ale zdecydowałem, że tak czy inaczej nie chcę pomagać Wolnym Światom."`
 					decline
 			
-			`	"I'm sure," he says, "but I'm not the one you need to say that to. Right now Tomek is refusing to let us offer you a job, but if you speak with him in person, he might change his mind. Or he might not. But if you really want to work for us, you should visit him on <planet>, take full responsibility for what happened, and apologize. Just a suggestion." He walks off.`
+			`	"Jestem pewien, " mówi, "ale to nie mnie powinieneś to mówić. Tomek nie chce teraz przyjąć od nas propozycji pracy, ale jeśli porozmawiasz z nim osobiście, może zmienić zdanie. Albo i nie. Ale jeśli naprawdę chcesz dla nas pracować, powinnaś odwiedzić go <planet>, wziąć pełną odpowiedzialność za to, co się stało i przeprosić. To tylko sugestia. " Odchodzi.`
 				accept
 
 	on decline
@@ -1053,29 +1053,29 @@ mission "FW Escort Second Chance"
 	
 	on complete
 		conversation
-			`Nervously, you contact Tomek and ask if he would be willing to meet with you. After a long pause, he says, "Okay. Meet me at the cantina in fifteen minutes." You wait for about twenty minutes before he finally shows up and says, without preamble, "Now, what do you have to say for yourself?"`
+			` Nerwowo kontaktujesz się z Tomkiem i pytasz, czy zgodziłby się z tobą spotkać. Po długiej pauzie mówi: "Dobrze. Spotkajmy się w kantynie za piętnaście minut. " Czekasz jakieś dwadzieścia minut, zanim w końcu się pojawia i bez wstępu pyta: "A teraz, co masz do powiedzenia na swoją obronę? "`
 			choice
-				`	"I take full responsibility for the loss of that freighter. I'm sorry."`
+				`	"Biorę pełną odpowiedzialność za stratę tego frachtowca. Przykro mi."`
 					goto responsible
-				`	"There was really nothing I could have done against so many pirates."`
-				`	"I'm sorry for what happened. It won't happen again."`
-			`	He doesn't look entirely satisfied with that response. "I had to write letters to five different families telling them why their son or daughter or husband had been killed on a routine cargo mission. You promised to keep them safe, and you failed. You understand that, right?"`
+				`	"Naprawdę nie mogłem nic zrobić przeciwko tak wielu piratom."`
+				`	"Przepraszam za to, co się stało. To się już nie powtórzy."`
+			`	Nie wygląda na całkowicie zadowolonego z tej odpowiedzi. "Musiałem napisać listy do pięciu różnych rodzin, wyjaśniając im, dlaczego ich syn, córka lub mąż zginął podczas rutynowej misji transportowej. Obiecałeś, że zapewnisz im bezpieczeństwo i zawiodłeś. Rozumiesz to, prawda? "`
 			choice
-				`	"Well, space is a dangerous place. Bad things happen. I can't stop that."`
-				`	"Yes, I know that I failed, and I'm very sorry for their loss."`
+				`	"Cóż, kosmos to niebezpieczne miejsce. Złe rzeczy się zdarzają. Nie mogę tego powstrzymać."`
+				`	"Tak, wiem, że zawiodłem i bardzo mi przykro z powodu ich straty."`
 					goto responsible
 			action
 				log "Spotkałem się z Tomkiem w sprawie mojej porażki w ochronie frachtowca Wolnych Światów. Próbowałem mu zwrócić uwagę, że nie mogłem nic zrobić, ale nie był z tego zadowolony."
 				set "fw escort: mistrusted"
-			`	"That is not an appropriate response," he says. "If we offer you a mission, we have to be able to trust that you will complete it, with no excuses. I'm sorry, but I have no interest in working with you in the future. Goodbye, Captain." He walks away.`
+			`	"To nie jest właściwa odpowiedź, " mówi. "Jeśli oferujemy ci misję, musimy mieć pewność, że ją wykonasz, bez żadnych wymówek. Przykro mi, ale nie jestem zainteresowany współpracą z tobą w przyszłości. Do widzenia, Kapitanie. " Odchodzi.`
 				decline
 			
 			label responsible
-			`	"If we offer you a mission in the future," he says, "we have to be able to trust that you will complete it. No excuses, no second tries. Do you understand?" You nod. "Fine," he says, with a long sigh. "Katya said she trusts you, so I'll give you a second chance this one time. But please try to be more responsible in the future, okay?"`
+			`	"Jeśli zaproponujemy ci misję w przyszłości, " mówi, "musimy móc zaufać, że ją wykonasz. Żadnych wymówek, żadnych powtórek. Rozumiesz? " Kiwasz głową. "Dobrze, " mówi, wzdychając głęboko. "Katya powiedziała, że ci ufa, więc dam ci drugą szansę tym razem. Ale proszę, postaraj się być bardziej odpowiedzialny w przyszłości, dobrze? "`
 			choice
-				`	"I will. Thank you for giving me a second chance, sir."`
-				`	"I'll try my best."`
-			`	He shakes your hand and leaves, without ordering anything to drink. You get the feeling that he still does not think very highly of you.`
+				`	"Zrobię to. Dziękuję za drugą szansę, proszę pana."`
+				`	"Postaram się jak najlepiej."`
+			`	Uścisnął ci dłoń i odszedł, nie proponując niczego do picia. Odnosisz wrażenie, że nadal nie ma o tobie najlepszego zdania.`
 			action
 				log "Przeprosiłem Tomka za nieudaną misję eskortową. Wygląda na to, że mi wybaczył."
 				"assisted free worlds" ++
@@ -1100,32 +1100,32 @@ mission "FW Bounty 1"
 	
 	on offer
 		conversation
-			`As you walk through the spaceport, a woman in a militia uniform approaches you. "Are you Captain <last>?" she asks. You nod. "I'm a commander of the local militia," she says. "There's a pirate fleet that has attacked freighters in this sector several times in the last few months, but now it seems they've moved outside of Free space. I'd like to strike at them before they return and do more damage here, but right now the Free Worlds Council won't allow militia ships to be used for preemptive attacks, so instead we're looking to enlist the help of a merchant captain, and I was told that you're a formidable pilot."`
+			`Gdy idziesz przez kosmodrom, podchodzi do ciebie kobieta w mundurze milicji. "Czy jesteś kapitanem <last>?" pyta. Kiwasz głową. "Jestem dowódcą lokalnej milicji," mówi. "W ciągu ostatnich kilku miesięcy w tym sektorze kilkakrotnie atakowała frachtowce pirackie floty, ale teraz wygląda na to, że wypłynęły poza Wolną Przestrzeń. Chciałbym ich zaatakować, zanim wrócą i wyrządzą tu więcej szkód, ale obecnie Rada Wolnych Światów nie zezwala na używanie statków milicji do ataków wyprzedzających, więc zamiast tego szukamy pomocy kapitana statku handlowego, a powiedziano mi, że jesteś znakomitym pilotem."`
 			choice
-				`	"Well, I'd be glad to destroy them for you."`
+				`	"Cóż, chętnie je dla ciebie zniszczę."`
 					goto accept
-				`	"How powerful of a fleet do these pirates have?"`
-				`	"How much will you be paying me to take out this fleet?"`
+				`	"Jak potężną flotę mają ci piraci?"`
+				`	"Ile zapłacisz mi za usunięcie tej floty?"`
 					goto payment
-				`	"I don't want to have anything to do with the Free Worlds."`
+				`	"Nie chcę mieć nic wspólnego z Wolnymi Światami."`
 					decline
 			
-			`	"Well they aren't exactly a powerful fleet. They're just a collection of interceptors, but they're numerous and swift enough that we've had trouble taking them down before they can run or swarm our larger ships. We can pay you <payment> if you can take them out."`
+			`	"Cóż, nie są to jakieś potężne floty. To po prostu zbiór myśliwców przechwytujących, ale są liczne i na tyle szybkie, że mieliśmy problem ze zniszczeniem ich, zanim zdążyły dogonić lub zaatakować nasze większe statki. Możemy ci zapłacić <payment>, jeśli uda ci się ich zniszczyć."`
 			choice
-				`	"Just a group of interceptors? That should be no problem for me to destroy."`
+				`	"Tylko grupa myśliwców przechwytujących? Zniszczenie ich nie powinno być dla mnie problemem."`
 					goto accept
-				`	"If you can't take them out then I don't know how I will. You're on your own."`
+				`	"Jeśli nie możesz ich wyciągnąć, to nie wiem, jak ja to zrobię. Radź sobie sam."`
 					defer
 			
 			label payment
-			`	"Since these pirates have been particularly troublesome, we've placed a bounty of <payment> on their heads. Take them out for us and those credits are all yours."`
+			`	"Ponieważ ci piraci są szczególnie uciążliwi, wyznaczyliśmy nagrodę w wysokości <payment> za ich głowy. Załatw ich dla nas, a wszystkie zasługi będą twoje."`
 			choice
-				`	"That sounds reasonable enough. Okay, I'll destroy them for you."`
-				`	"Only <payment>? You're going to need to find someone else for the job."`
+				`	"Brzmi całkiem rozsądnie. Dobra, zniszczę je dla ciebie."`
+				`	"Tylko <payment>? Będziesz musiał znaleźć kogoś innego do tej pracy."`
 					defer
 			
 			label accept
-			`	"Excellent," she says. "They call themselves the 'Rat Pack,' and you'll recognize them because most of their ships are named after various vermin, although for some unknown reason their flagship is just named 'Cluny.' They were last seen in the Seginus system, just northeast of Free space, so they'll probably be within a jump or two of there. Thank you in advance for your help."`
+			`	"Doskonale," mówi. "Nazywają siebie "Rat Pack" i rozpoznacie ich po tym, że większość ich statków nosi nazwy pochodzące od różnych szkodników, choć z jakiegoś nieznanego powodu ich okręt flagowy nazywa się po prostu "Cluny". Ostatnio widziano ich w układzie Seginus, na północny wschód od Wolnej Przestrzeni Kosmicznej, więc prawdopodobnie będą w odległości jednego lub dwóch skoków od nich. Z góry dziękuję za pomoc."`
 				accept
 	
 	npc kill
@@ -1192,25 +1192,25 @@ mission "FW Bounty 2"
 	
 	on offer
 		conversation
-			`A Free Worlds officer waves to you as you are walking through the spaceport. "Hello Captain <last>," he says. "I've heard you've helped us in the past to deal with pirate threats. Interested in another bounty hunting mission?"`
+			`Oficer Wolnych Światów macha do ciebie, gdy idziesz przez port kosmiczny. "Witaj, Kapitanie <last>, " mówi. "Słyszałem, że w przeszłości pomagałeś nam w walce z pirackimi zagrożeniami. Jesteś zainteresowany kolejną misją łowcy nagród? "`
 			choice
-				`	"What will it be this time?"`
-				`	"Sure, I do love destroying pirates!"`
+				`	"Co tym razem?"`
+				`	"Jasne, uwielbiam niszczyć piratów!"`
 					goto accept
-				`	"Sorry, I'm way too busy right now."`
+				`	"Przepraszam, jestem teraz bardzo zajęty."`
 					defer
 			
-			`	"There's a retrofitted heavy freighter by the name of <npc> that has been stealing large amounts of cargo from our supply convoys. It was last seen in the Delta Sagittarii system. Be warned that this ship is a tough one, fitted with more Heavy Lasers than I've ever seen anyone install on a single ship, but it's slow as a sloth, so you might be able to hit it from afar. The bounty on it is <payment>."`
+			`	"Jest tam zmodernizowany ciężki frachtowiec o nazwie <npc>, który kradnie duże ilości ładunku z naszych konwojów zaopatrzeniowych. Ostatnio widziano go w systemie Delta Sagittarii. Ostrzegam, że ten statek jest wytrzymały, wyposażony w więcej ciężkich laserów, niż kiedykolwiek widziałem na pojedynczym statku, ale jest powolny jak leniwiec, więc możesz go trafić z daleka. Nagroda za niego to <payment>."`
 			choice
-				`	"Sounds like this shouldn't be too difficult. I'm in."`
-				`	"I could handle a group of interceptors, but this sounds like too much for me. You'll have to find someone else."`
+				`	"Wygląda na to, że to nie powinno być zbyt trudne. Jestem za."`
+				`	"Potrafię obsłużyć grupę przechwytywaczy, ale to brzmi dla mnie jak za dużo. Będziesz musiał znaleźć kogoś innego."`
 					defer
 			
-			`	He grins. "Glad to hear you're on board. Good luck, Captain."`
+			`	Uśmiecha się szeroko. "Cieszę się, że jesteś na pokładzie. Powodzenia, Kapitanie."`
 				accept
 			
 			label accept
-			`	He grins. "Your target is a retrofitted heavy freighter by the name of <npc> that has been stealing large amounts of cargo from our supply convoys. It was last seen in the Delta Sagittarii system. Be warned that this ship is a tough one, fitted with more Heavy Lasers than I've ever seen anyone install on a single ship, but it's slow as a sloth, so you might be able to hit it from afar. Good luck, Captain."`
+			`	Uśmiecha się szeroko. "Twoim celem jest zmodernizowany ciężki frachtowiec o nazwie <npc>, który kradnie duże ilości ładunku z naszych konwojów zaopatrzeniowych. Ostatnio widziano go w układzie Delta Sagittarii. Ostrzegam, że ten statek jest wytrzymały, wyposażony w więcej ciężkich laserów, niż kiedykolwiek widziałem na jednym statku, ale jest powolny jak leniwiec, więc może uda ci się go trafić z daleka. Powodzenia, Kapitanie."`
 				accept
 	
 	npc kill
@@ -1247,22 +1247,22 @@ mission "FW Bounty 3"
 	
 	on offer
 		conversation
-			`Once again, as you are walking through the spaceport a Free Worlds officer flags you down. "We've got another bounty hunting mission for you," he says. "This one is a bit more dangerous; this pirate ship has weapons we've never seen before, that may be alien in origin. Interested in helping us to destroy it?"`
+			`Po raz kolejny, gdy przechadzasz się po porcie kosmicznym, oficer Wolnych Światów zatrzymuje cię. "Mamy dla ciebie kolejną misję łowcy nagród, " mówi. "Ta jest nieco bardziej niebezpieczna; ten piracki statek ma broń, której nigdy wcześniej nie widzieliśmy, która może pochodzić z kosmosu. Chcesz pomóc nam go zniszczyć?"`
 			choice
-				`	"Yes, I'm sure my ship will be up to the challenge."`
+				`	"Tak, jestem pewien, że mój statek sprosta wyzwaniu."`
 					goto accept
-				`	"Alien in origin? What sort of weapons does it have?"`
-				`	"Sorry, I'm not interested in giving the Free Worlds more assistance."`
+				`	"Pochodzenie obce? Jakiego rodzaju broń ma?"`
+				`	"Przepraszam, nie jestem zainteresowany udzielaniem Wolnym Światom dalszej pomocy."`
 					decline
 			
-			`	"It has a pair of strange cannons that seem to interfere with a ship's electrical systems, draining its power and causing its weapons to malfunction. It's similar to those lasers the Quarg have, which is why we think the weapons are alien technology."`
+			`	"Ma parę dziwnych dział, które zdają się zakłócać systemy elektryczne statku, wyczerpując jego energię i powodując awarie uzbrojenia. Jest to podobne do laserów Quargów, dlatego uważamy, że broń ta jest oparta na obcej technologii."`
 			choice
-				`	"Well you came to the right person. I'll take it out for you."`
-				`	"Sorry, but that sounds like a job for someone else."`
+				`	"No cóż, trafiłeś do właściwej osoby. Wyjmę to za ciebie."`
+				`	"Przepraszam, ale brzmi to jak zadanie dla kogoś innego."`
 					defer
 			
 			label accept
-			`	"Great," he says. "Your target is named the <npc>. After we nearly destroyed it, we think it went to the Shaula system to hide out, which means that you'll probably have to deal with other pirates at the same time. Good luck, Captain."`
+			`	"Świetnie," mówi. "Twój cel nazywa się <npc>. Po tym, jak prawie go zniszczyliśmy, sądzimy, że udał się do układu Shaula, żeby się ukryć, co oznacza, że prawdopodobnie będziesz musiał jednocześnie rozprawić się z innymi piratami. Powodzenia, Kapitanie."`
 				accept
 	
 	npc kill
@@ -1330,86 +1330,86 @@ mission "FW Katya 1"
 	
 	on offer
 		conversation
-			`Wandering through the spaceport, you have stopped for a moment to read the menu posted in front of a restaurant, when your thoughts are interrupted by the click of a gun being cocked right behind your head, and a woman's voice saying, "Think fast, Captain."`
+			`Wędrując po porcie kosmicznym, zatrzymałeś się na chwilę, by przeczytać menu wywieszone przed restauracją, gdy nagle twoje myśli przerywa kliknięcie odbezpieczanego tuż za twoją głową pistoletu i kobiecy głos mówiący: "Myśl szybko, Kapitanie."`
 			choice
-				`	(Do this karate move I saw in a video one time.)`
+				`	(Wykonaj ten ruch karate, który kiedyś widziałem na filmie.)`
 					goto karate
-				`	(Raise my hands slowly into the air and find out what she wants.)`
+				`	(Powoli podnoszę ręce w górę i dowiaduję się, czego ona chce.)`
 			
-			`	"Good choice," she says. "Now, turn around, slowly, and don't try any funny business. I've got a semiautomatic pistol pointed right at your head."`
+			`	"Dobry wybór, " mówi. "A teraz odwróć się powoli i nie próbuj niczego wykombinować. Mam pistolet półautomatyczny wycelowany prosto w twoją głowę."`
 			choice
-				`	(Now, try that karate move.)`
+				`	(Teraz spróbuj tego ruchu karate.)`
 					goto karate
-				`	(Turn around slowly.)`
+				`	(Odwróć się powoli.)`
 			
-			`	You turn around and find yourself facing a woman in a Free Worlds uniform. The chevrons on her collar mark her as some sort of officer. She is grinning at you. "Beautifully done, Captain," she says. "Such restraint. Such remarkable levelheadedness. Not something I often see around here. If this thing were loaded, quite a few backcountry rubes in the last few months would've had their brains blown open before I could even get around to recruiting them." She lowers the gun.`
+			`	Odwracasz się i widzisz kobietę w mundurze Wolnych Światów. Szewrony na jej kołnierzyku wskazują na to, że jest oficerem. Uśmiecha się do ciebie. "Pięknie zrobione, Kapitanie, " mówi. "Co za powściągliwość. Co za niezwykły spokój. Nieczęsto się tu widuję. Gdyby ta broń była naładowana, niejednemu wieśniakowi z prowincji w ciągu ostatnich kilku miesięcy rozwaliłoby mózgi, zanim zdążyłbym ich zrekrutować. " Opuszcza broń.`
 			choice
-				`	"You mean this was some sort of test? You're not trying to mug me?"`
+				`	"Masz na myśli, że to był jakiś test? Nie próbujesz mnie okraść?"`
 					goto explanation
-				`	(Try that karate move, just for kicks.)`
+				`	(Wypróbuj ten ruch karate, ot tak dla zabawy.)`
 			
-			`	You make a grab for the gun. A second later she's got your arm twisted behind your back, using just enough force to make it clear that things could get really painful if you continue to struggle. "Smart, and playful too," she says, "I like that. But, it'll be a cold day in hell before a kid like you gets the drop on me. Now, shall we talk?" She lets go of you, and you shake out your arm gingerly.`
+			`	Chwytasz za pistolet. Sekundę później wykręca ci rękę za plecami, używając tylko tyle siły, żeby dać ci do zrozumienia, że jeśli będziesz się dalej szarpał, może być naprawdę boleśnie. "Sprytne i do tego zabawne, " mówi, "Podoba mi się to. Ale piekło się przewróci, zanim taki dzieciak jak ty mnie pokona. A teraz, porozmawiamy? " Puszcza cię, a ty ostrożnie potrząsasz ręką. `
 			
 			label explanation
-			`	"I need a civilian for some courier work," she says. "Nothing illegal, at least nothing the Republic can pin on you. It just needs to be done by a ship that isn't flying our colors, and by a captain who isn't going to scream, 'Death to all tyrants!' and go in with guns blazing the first time your cargo gets scanned. What do you say?"`
+			`	"Potrzebuję cywila do pracy kurierskiej, " mówi. "Nic nielegalnego, a przynajmniej nic, co Republika mogłaby ci przypisać. Tylko musi to zrobić statek, który nie pływa pod naszą banderą, i kapitan, który nie będzie krzyczał: "Śmierć wszystkim tyranom!" i nie wparuje z bronią palną, gdy tylko twój ładunek zostanie przeskanowany po raz pierwszy. Co ty na to?"`
 			choice
-				`	"I'm not sure I'm ready to pick sides in this war, yet."`
-				`	"Why would I help a group of terrorists?"`
+				`	"Nie jestem pewien, czy jestem gotowy opowiedzieć się po którejkolwiek ze stron w tej wojnie."`
+				`	"Dlaczego miałbym pomagać grupie terrorystów?"`
 					goto terrorists
-				`	"Okay, tell me more."`
+				`	"Okej, powiedz mi więcej."`
 					goto more
 			
-			`	"Look, kid," she says. "When I ask you to pick sides, when I offer you a mission that's gonna burn some bridges for you, I won't be sneaky about it. I'll tell you exactly what you're signing up for. What I'm offering you now is just a chance to get to know us, and let us get to know you, with no expectations. Heck, you can even run missions for the Reps at the same time."`
+			`	"Słuchaj, dzieciaku," mówi. "Kiedy proszę cię o wybranie strony, kiedy oferuję ci misję, która spali za tobą mosty, nie będę się kryć. Powiem ci dokładnie, na co się piszesz. To, co ci teraz oferuję, to po prostu szansa, żebyś nas poznał i pozwolił nam poznać ciebie, bez żadnych oczekiwań. Cholera, możesz nawet wykonywać misje dla przedstawicieli w tym samym czasie."`
 			choice
-				`	"That sounds fair. I'll hear you out."`
+				`	"Brzmi uczciwie. Wysłucham cię."`
 					goto more
-				`	"I don't like working with people who start conversations by pointing guns at my head. Even unloaded guns. Find someone else to do this job for you."`
+				`	"Nie lubię pracować z ludźmi, którzy zaczynają rozmowę od przystawiania mi pistoletu do głowy. Nawet z pistoletem rozładowanym. Znajdź kogoś innego, kto wykona to zadanie za ciebie."`
 					decline
 			
 			label terrorists
-			`	"Look, kid," she says. "I know the situation looks bad, but I'm telling the truth when I say that the Free Worlds aren't the ones who dropped those nukes, and we don't know who did, either. So I'll proudly be called treasonous for separating from the Republic, but I will not tolerate being called a terrorist."`
+			`	"Słuchaj, dzieciaku," mówi. "Wiem, że sytuacja wygląda źle, ale mówię prawdę, mówiąc, że to nie Wolne Światy zrzuciły te bomby atomowe i nie wiemy, kto to zrobił. Więc z dumą zostanę nazwana zdrajczynią za odłączenie się od Republiki, ale nie będę tolerować bycia nazywaną terrorystką."`
 			choice
-				`	"And what reason do I have to believe you?"`
-				`	"I'm not convinced. You'll need to find some other sucker to do your dirty work for you."`
+				`	"A jaki mam powód, żeby ci wierzyć?"`
+				`	"Nie jestem przekonany. Musisz znaleźć jakiegoś frajera, który wykona za ciebie brudną robotę."`
 					decline
 			
-			`	She pauses for a moment. "You don't have a reason," she says with a sigh. "Sometimes you just need to take things on faith."`
+			`	Zatrzymuje się na chwilę. "Nie masz powodu," mówi z westchnieniem. "Czasami trzeba po prostu przyjąć wszystko na wiarę."`
 			choice
-				`	"Alright, I'm willing to hear you out."`
-				`	"Well I don't have a lot of faith in people who start conversations by pointing guns at my head. Even unloaded guns. Find someone else to do this job for you."`
+				`	"W porządku, chętnie cię wysłucham."`
+				`	"Cóż, nie mam zbytniego zaufania do ludzi, którzy rozpoczynają rozmowę, przystawiając mi pistolet do głowy. Nawet nienaładowany. Znajdź kogoś innego, kto zrobi to za ciebie."`
 					decline
 			
 			label more
-			`	"Okay, here's the deal. We need some cargo carried from <planet> to Skymoot. It's just medical supplies - no bombs, no contraband. But we'll load it onto your ship in the dead of night, trying our best to avoid any notice. But the Reps have the sharpest eyes in the galaxy, so you'll get noticed anyway. And since anything done in the dead of night is likely to arouse their suspicions, you'll get boarded and searched. Meanwhile, the real cargo will have been loaded onto one of our ships in broad daylight, and will pass through Republic space entirely unnoticed."`
+			`	"Dobra, sprawa jest taka. Potrzebujemy trochę ładunku z <planet> do Skymoot. To tylko zapasy medyczne - żadnych bomb, żadnej kontrabandy. Ale załadujemy to na twój statek w środku nocy, starając się nie zwracać na siebie uwagi. Ale Republikanie mają najbystrzejsze oczy w galaktyce, więc i tak zostaniesz zauważony. A ponieważ wszystko, co robisz w środku nocy, prawdopodobnie wzbudzi ich podejrzenia, zostaniesz abordażowany i przeszukany. Tymczasem prawdziwy ładunek zostanie załadowany na jeden z naszych statków w biały dzień i przeleci przez przestrzeń Republiki całkowicie niezauważony."`
 			choice
-				`	"I like the way you think. Count me in."`
+				`	"Podoba mi się twój tok myślenia. Zapisuję się."`
 					goto details
-				`	"Sorry, it sounds a bit too shady for my liking. Please don't offer me any work in the future."`
+				`	"Przepraszam, brzmi to trochę zbyt podejrzanie jak na mój gust. Proszę, nie oferuj mi żadnej pracy w przyszłości."`
 			
-			`	"Shucks," she says, "I liked you. I was looking forward to having you on my team." She looks genuinely crestfallen. "But fair is fair. You're free to go, and I'll tell my colleagues that you're not interested in working for us."`
+			`	"Shucks," mówi, "Podobałaś mi się. Nie mogłam się doczekać, aż dołączysz do mojego zespołu." Wygląda na autentycznie przygnębioną. "Ale sprawiedliwość to sprawiedliwość. Możesz odejść, a ja powiem moim kolegom, że nie jesteś zainteresowany pracą dla nas."`
 				decline
 			
 			label details
-			`	"Great," she says, grinning even more broadly. "My name's Katya Reynolds, by the way. Glad we'll be working together." She starts to walk away, then seems to remember something. "One last thing - some friends of mine on <planet>, tourists, need a lift off that rock, and I owe them a favor. Would you mind saving two bunks for them?"`
+			`	"Świetnie," mówi, uśmiechając się jeszcze szerzej. "Nawiasem mówiąc, nazywam się Katya Reynolds. Cieszę się, że będziemy razem pracować." Zaczyna odchodzić, ale nagle coś sobie przypomina. "Jeszcze jedno - moi znajomi z <planet>, turyści, potrzebują podwózki z tej skały i jestem im winna przysługę. Czy mógłbyś zarezerwować dla nich dwa łóżka?"`
 			choice
-				`	"Sure, no problem."`
+				`	"Jasne, nie ma problemu."`
 			
-			`	"Excellent. I'm looking forward to doing business with you, Captain."`
+			`	"Doskonale. Cieszę się na współpracę z Panem, Kapitanie."`
 				accept
 			
 			label karate
-			`	You dodge sideways and spin quickly. As you do so you hear a loud click, but the gun does not fire. With one hand you knock aside the gun. With the other you land a karate chop which, if you had studied karate, would've shattered her collarbone and left her reeling in pain. But since you have not studied karate, instead your blow bounces harmlessly off her surprisingly muscular shoulder.`
-			`	Your assailant turns out to be wearing a Free Worlds uniform and a disappointed expression. "Well aren't you a dumb reckless bastard!" she says, "I'd hoped for something better from you. First of all, if this gun were loaded, your brains would be splattered all over the sidewalk. And second, you fight like a girl. I have no use for hotheads like you." She stalks off, leaving you very confused. It would appear that you've just failed some sort of test.`
+			`	Uskakujesz na bok i szybko się obracasz. Słyszysz głośny trzask, ale pistolet nie wystrzela. Jedną ręką odrzucasz pistolet. Drugą wyprowadzasz cios karate, który, gdybyś uczył się karate, roztrzaskałby jej obojczyk i sprawił, że zatoczyłaby się z bólu. Ale ponieważ nie uczyłeś się karate, twój cios odbija się nieszkodliwie od jej zaskakująco umięśnionego ramienia.`
+			`	Twój napastnik okazuje się mieć na sobie mundur Wolnych Światów i wyraz twarzy rozczarowany. "No cóż, jesteś głupim, lekkomyślnym draniem! " mówi, "Spodziewałam się po tobie czegoś lepszego. Po pierwsze, gdyby ta broń była naładowana, twój mózg rozprysłby się po chodniku. A po drugie, walczysz jak dziewczyna. Nie mam pożytku z takich porywczych głów jak ty. " Odchodzi, zostawiając cię w kompletnym oszołomieniu. Wygląda na to, że właśnie oblałeś jakiś test.`
 			choice
-				`	(Let her go.)`
+				`	(Puść ją.)`
 					decline
-				`	"Oh yeah? Well you ARE a girl!"`
+				`	"O tak? No cóż, JESTEŚ dziewczyną!"`
 			
-			`	She turns back around, with a fearsome gleam in her eyes, and walks up to you until your faces are only inches apart. "Yeah, but I don't fight like one," she says. "I... fight like a she-badger."`
+			`	Odwraca się z przerażającym błyskiem w oczach i podchodzi do ciebie, aż wasze twarze dzieli zaledwie kilka centymetrów. "Tak, ale ja nie walczę jak borsuk, " mówi. "Ja... walczę jak borsuk."`
 			choice
-				`	"A she... badger?"`
+				`	"A ona... borsuk?"`
 			
-			`	"Fearsome creatures." She walks away, leaving you even more confused.`
+			`	"Straszne stworzenia." Odchodzi, zostawiając cię jeszcze bardziej zdezorientowanym.`
 				decline
 	
 	on decline
@@ -1437,9 +1437,9 @@ mission "FW Katya 1B"
 	
 	on offer
 		conversation
-			`Soon after you land, a middle-aged tourist couple approach you and ask if you'd be willing to take them to Skymoot, "to see the dragons. Katerina recommended you." You tell them you would be glad to.`
-			`	The man, who is wearing floral print shorts and carrying an absurdly large camera, introduces himself as Marty. "And this is my wife, Sarah," he adds. "Would you mind taking a picture of us?" They pose in front of your ship. "Better take two pictures in case she blinks," says Marty. As you help them bring their oversized suitcases on board, you can't help wondering why Katya would be friends with such a quintessential pair of rich, uncultured buffoons.`
-			`	Much later that night, as planned, three shadowy figures load a set of unmarked crates into your cargo bay. Katya assured you that the contents are harmless, just intended to distract the Republic security officers, but you can't help feeling like you're getting involved in something shady.`
+			`Zaraz po wylądowaniu podeszła do ciebie para turystów w średnim wieku i zapytała, czy zabrałbyś ich na Skymoot, "żeby zobaczyli smoki. Katerina cię poleciła." Mówisz im, że chętnie.`
+			`	Mężczyzna w szortach w kwiaty i z absurdalnie dużym aparatem w ręku przedstawia się jako Marty. "A to moja żona, Sarah, " dodaje. "Czy mógłbyś zrobić nam zdjęcie? " Pozują przed twoim statkiem. "Lepiej zrób dwa zdjęcia, na wypadek gdyby mrugnęła, " mówi Marty. Pomagając im wnieść na pokład ich ogromne walizki, nie sposób oprzeć się wrażeniu, że Katya przyjaźni się z tak typową parą bogatych, niewyrobionych bufonów.`
+			`	Znacznie później tej nocy, zgodnie z planem, trzy tajemnicze postacie ładują do twojej ładowni zestaw nieoznakowanych skrzyń. Katya zapewniła cię, że ich zawartość jest nieszkodliwa i ma jedynie odwrócić uwagę funkcjonariuszy ochrony Republiki, ale nie możesz pozbyć się wrażenia, że wplątujesz się w coś podejrzanego.`
 				accept
 	
 	on visit
@@ -1447,15 +1447,15 @@ mission "FW Katya 1B"
 	on complete
 		payment 100000
 		conversation
-			`When you land on <planet>, before your engines have even had a chance to cool, Katya comes aboard your ship. When she sees your passengers, she breaks into a wide grin. "Lynn!" she says, running up and hugging the woman who introduced herself as "Sarah." Then she turns to "Marty" and says, "And Henry! So good to see you both. Captain <last>, allow me to introduce you to Professor Lynn Anderson, one of the galaxy's premier planetary scientists, and her husband Henry, a former Navy intelligence officer."`
+			`Kiedy wylądujecie na <planet>, zanim wasze silniki zdążą ostygnąć, Katya wejdzie na pokład waszego statku. Na widok waszych pasażerów szeroko się uśmiechnie. "Lynn!" mówi, podbiegając i przytulając kobietę, która przedstawiła się jako "Sarah." Następnie zwraca się do "Marty" i mówi: "I Henry! Tak miło was oboje widzieć. Kapitanie <last>, pozwól, że przedstawię ci profesor Lynn Anderson, jedną z czołowych planetolożek w galaktyce, i jej męża Henry'ego, byłego oficera wywiadu marynarki wojennej."`
 			choice
-				`	"Pleased to meet you both. Why the deception?"`
-				`	"Wait a minute... were they the secret cargo?"`
+				`	"Miło mi was poznać. Po co to oszustwo?"`
+				`	"Zaczekaj chwilę... czy to był tajny ładunek?"`
 			
-			`	Katya explains, "The Andersons are defecting to the Free Worlds. Their dream is to make terraforming a public service, supported by government funds, rather than a luxury available only to the richest of planets. We worked for years to get Parliament to accept that idea, but with no luck. And because of Henry's background and knowledge about the intelligence community, the Republic would have stopped them if they knew they were defecting."`
-			`	She adds, "The real secret cargo, which arrived several days ago via a faster ship, was their personal possessions and Lynn's lab equipment and instruments, which were loaded onto a ship supposedly bound for Hestia."`
-			`	"We had just rented a cottage there," says Henry, "saying we were downsizing. We'll lose the security deposit, of course, but it gave us an excuse to pack up and move."`
-			`	Katya says, "You might not guess it from the outfit he's wearing, but Henry is an absolute mastermind at subtlety and misdirection. He planned the whole thing." She hands you a credit chip for <payment>. "Thanks so much for your help. If you're willing to continue helping the Free Worlds, meet me in the spaceport bar in half an hour."`
+			`	Katya wyjaśnia: "Andersonowie uciekają na Wolne Światy. Marzą, aby terraformowanie stało się usługą publiczną, finansowaną z funduszy rządowych, a nie luksusem dostępnym tylko dla najbogatszych planet. Latami staraliśmy się przekonać Parlament do zaakceptowania tego pomysłu, ale bezskutecznie. A ze względu na doświadczenie Henry'ego i jego wiedzę o służbach wywiadowczych, Republika by ich powstrzymała, gdyby wiedzieli o ich ucieczce."`
+			`	Dodaje, "Prawdziwym tajnym ładunkiem, który przybył kilka dni temu szybszym statkiem, były ich rzeczy osobiste oraz sprzęt laboratoryjny i instrumenty Lynn, załadowane na statek rzekomo płynący do Hestii."`
+			`	"Właśnie wynajęliśmy tam domek, " mówi Henry, "mówiąc, że przeprowadzamy się do mniejszego mieszkania. Oczywiście stracimy kaucję, ale dało nam to pretekst do spakowania się i przeprowadzki. "`
+			`	Katya mówi: "Możesz nie zgadnąć po stroju, ale Henry to prawdziwy mistrz subtelności i dezorientacji. Zaplanował to wszystko." Wręcza ci chip kredytowy na <payment>. "Bardzo dziękuję za pomoc. Jeśli chcesz nadal pomagać Wolnym Światom, spotkajmy się w barze w porcie kosmicznym za pół godziny."`
 
 
 
@@ -1472,56 +1472,56 @@ mission "FW Katya 1C"
 	
 	on offer
 		conversation
-			`When you land on <origin> and open your ship's main hatch, you find yourself facing a Navy officer with several armed guards in tow. He says, "Sorry captain, but you've been selected for a random cargo screening."`
+			`Kiedy lądujesz na <origin> i otwierasz główny właz swojego statku, stajesz twarzą w twarz z oficerem marynarki wojennej z kilkoma uzbrojonymi strażnikami. Mówi: "Przepraszam, kapitanie, ale zostałeś wybrany do losowej kontroli ładunku."`
 			choice
-				`	(Let them in.)`
+				`	(Wpuść ich.)`
 					goto enter
-				`	(Attack them.)`
-				`	(Shut the hatch and escape into space.)`
+				`	(Zaatakuj ich.)`
+				`	(Zamknij właz i uciekaj w kosmos.)`
 					goto flee
 			
-			`	You draw your gun while screaming "Death to all tyrants!" The officer shouts in alarm and dives out of the way. His companions, who turn out to be wearing body armor, open fire. You die quickly. Katya will be very disappointed.`
+			`	Wyciągasz broń, krzycząc "Śmierć wszystkim tyranom!" Oficer krzyczy z przestrachem i uchyla się. Jego towarzysze, którzy, jak się okazuje, mają na sobie kamizelki kuloodporne, otwierają ogień. Szybko giniesz. Katya będzie bardzo rozczarowana.`
 				die
 			
 			label flee
-			`	You slam the hatch shut in their faces, quickly fire up your engines, and flee for the sky. Before you have even broken out of the atmosphere, your communicator picks up a broadcast message marking you as a wanted criminal. Also, your radar informs you that several Navy vessels are on your tail.`
+			`	Zatrzasnąłeś im właz przed nosem, szybko odpaliłeś silniki i uciekłeś w powietrze. Zanim zdążyłeś wybić się z atmosfery, twój komunikator odebrał wiadomość radiową oznaczającą cię jako poszukiwanego przestępcę. Radar poinformował cię również, że kilka okrętów marynarki wojennej depcze ci po piętach.`
 				launch
 			
 			label enter
-			`	You let the officer and his companions into your cargo bay. They immediately zero in on the crates that were loaded up during the night. One of the guards runs a quick scan and says, "No explosives, no radiation."`
-			`	The Navy officer says, "Would you mind telling us what's in these crates?"`
+			`	Wpuszczasz oficera i jego towarzyszy do ładowni. Natychmiast skupiają się na skrzyniach załadowanych w nocy. Jeden ze strażników szybko skanuje i mówi: "Żadnych materiałów wybuchowych, żadnego promieniowania."`
+			`	Oficer marynarki mówi: "Czy mógłby nam pan powiedzieć, co jest w tych skrzyniach?"`
 			choice
-				`	"Just medical supplies. Surgical gear, mostly."`
-				`	"Just some secret illegal things."`
+				`	"Tylko artykuły medyczne. Głównie sprzęt chirurgiczny."`
+				`	"Tylko kilka tajnych, nielegalnych rzeczy."`
 					goto illegal
-				`	"I've never seen those crates before in my life. I don't know where they came from."`
+				`	"Nigdy w życiu nie widziałem tych skrzyń. Nie wiem, skąd się wzięły."`
 					goto denial
 			
-			`	"Any biological material or restricted medications?" he asks.`
-			`	"No, sir," you say.`
+			`	"Jakiś materiał biologiczny lub leki objęte ograniczeniami?" pyta.`
+			`	"Nie, proszę pana," mówisz.`
 				goto search
 			
 			label illegal
-			`	He laughs. "Sorry," he says, "you probably think we're just being paranoid, but rules are rules." Clearly he took what you said as a joke.`
+			`	Śmieje się. "Przepraszam," mówi, "prawdopodobnie myślisz, że jesteśmy po prostu paranoikami, ale zasady to zasady." Najwyraźniej potraktował twoje słowa jako żart.`
 				goto search
 			
 			label denial
-			`	He frowns. "We're going to have to frisk you," he says. One of the guards pats you down and takes your gun and your pocketknife. "Have a seat," says the officer. They force you to sit on the ground, and one of the guards points a very large gun at you.`
+			`	Marszczy brwi. "Będziemy musieli cię przeszukać, " mówi. Jeden ze strażników przeszukuje cię i zabiera ci broń i scyzoryk. "Proszę usiąść, " mówi funkcjonariusz. Zmuszają cię do siedzenia na ziemi, a jeden ze strażników celuje w ciebie z bardzo dużej broni.`
 				goto search
 			
 			label search
-			`	He says, "I'm afraid we're going to have to search these crates." The guards grab a couple of crowbars and begin prying the lids off them. The contents turn out to be relatively innocuous, although one box full of scalpels and other surgical implements gives them pause. As they open crate after crate without finding anything incriminating, you can tell the officer is getting more and more frustrated and uncomfortable. When the last crate turns out to contain nothing but bandages and gauze pads, his frustration turns to embarrassment. They re-pack the crates and nail the lids back on.`
-			`	"I'm sorry," says the officer, "we must have been responding to a bad tip. I'm very sorry for this invasion of your privacy, Captain."`
+			`	Mówi: "Obawiam się, że będziemy musieli przeszukać te skrzynie." Strażnicy chwytają kilka łomów i zaczynają podważać ich wieka. Zawartość okazuje się stosunkowo niegroźna, choć jedno pudełko pełne skalpeli i innych narzędzi chirurgicznych daje im do myślenia. Otwierając kolejne skrzynie bez znalezienia czegokolwiek obciążającego, widać, że funkcjonariusz jest coraz bardziej sfrustrowany i czuje się nieswojo. Kiedy okazuje się, że w ostatniej skrzyni znajdują się jedynie bandaże i gaziki, jego frustracja przeradza się w zażenowanie. Ponownie pakują skrzynie i zapinają wieka gwoździami.`
+			`	"Przepraszam," mówi oficer, "musieliśmy zareagować na zły cynk. Bardzo przepraszam za naruszenie pańskiej prywatności, Kapitanie."`
 			choice
-				`	"Never mind, I know you're just doing your job."`
-				`	"Since when has the Republic gotten so heavy handed about searching civilian ships?"`
+				`	"Nie przejmuj się, wiem, że po prostu wykonujesz swoją pracę."`
+				`	"Od kiedy Republika tak bardzo przejmuje się przeszukiwaniem cywilnych statków?"`
 					goto angry
 			
-			`	"You are very gracious, Captain. We will not detain you any longer." They leave.`
+			`	"Jest pan bardzo uprzejmy, Kapitanie. Nie będziemy pana dłużej zatrzymywać." Odchodzą.`
 				decline
 			
 			label angry
-			`	"I am sorry, Captain. Since the terrorist attacks everyone has been on edge. I hope you won't think badly of us." They leave.`
+			`	"Przepraszam, Kapitanie. Od czasu ataków terrorystycznych wszyscy są zdenerwowani. Mam nadzieję, że nie pomyśli pan o nas źle." Odchodzą.`
 				decline
 	
 	on accept
@@ -1558,16 +1558,16 @@ mission "FW Katya Alt 2"
 	
 	on offer
 		conversation
-			`As you are walking through the spaceport, someone calls out, "Captain <last>!" A Free Worlds officer is approaching you; you recognize her as the same woman who pulled a gun on you earlier as a way to "test" you. "I apologize for pulling that trick on you before," she says. "My name is Katya Reynolds. I've heard really good things about you from some other members of the Free Worlds Council, and I'm hoping you'd reconsider working with me."`
+			`Gdy idziesz przez kosmodrom, ktoś woła: "Kapitanie <last>!" Podchodzi do ciebie oficer Wolnych Światów; rozpoznajesz w niej tę samą kobietę, która wcześniej wyciągnęła do ciebie broń, żeby cię "sprawdzić. "Przepraszam, że wcześniej zrobiłam ci ten numer, "mówi. "Nazywam się Katya Reynolds. Słyszałam o tobie bardzo dobre opinie od innych członków Rady Wolnych Światów i mam nadzieję, że rozważysz współpracę ze mną. "`
 			choice
-				`	"Okay, as long as you don't point any more guns at me."`
-				`	"No. I just don't like you. Or the Free Worlds."`
+				`	"Okej, dopóki nie będziesz już we mnie celował."`
+				`	"Nie. Po prostu cię nie lubię. Ani Wolnych Światów."`
 					decline
-			`	"Great," she says. "Here's the deal. I have a friend named Mr. Eyes, who needs a lift from <destination>. For his safety, I'd rather not tell you anything about his work, but I assure you he's an upstanding citizen. A little unpopular with big corporations and certain corrupt local governments, though. Can you give him a lift?"`
+			`	"Świetnie," mówi. "Otóż sprawa jest taka. Mam przyjaciela, pana Eyesa, który potrzebuje podwózki z <destination>. Dla jego bezpieczeństwa wolałbym nie mówić nic o jego pracy, ale zapewniam, że to porządny obywatel. Trochę niepopularny wśród wielkich korporacji i niektórych skorumpowanych samorządów. Możesz go podwieźć?"`
 			choice
-				`	"Sure, I would be glad to."`
+				`	"Oczywiście, z chęcią."`
 					accept
-				`	"This sounds too shady. Find someone else to help you."`
+				`	"To brzmi zbyt podejrzanie. Znajdź kogoś innego, kto ci pomoże."`
 					decline
 	
 	on visit
@@ -1590,13 +1590,13 @@ mission "FW Katya 2"
 	
 	on offer
 		conversation
-			`When you enter the bar, Katya waves you over to her table. "I've got another friend who needs to be transported," she says. "This one is on a boondock planet near the Core right now."`
+			`Kiedy wchodzisz do baru, Katya gestem wskazuje ci stolik. "Mam jeszcze jedną przyjaciółkę, którą trzeba przetransportować, " mówi. "Ta jest teraz na odległej planecie niedaleko Jądra. "`
 			choice
-				`	"Sure, I'd be glad to transport him."`
-				`	"Sorry, but I've decided working for the Free Worlds just isn't worth the risk."`
+				`	"Jasne, chętnie go przetransportuję."`
+				`	"Przepraszam, ale doszedłem do wniosku, że praca dla Wolnych Światów nie jest warta ryzyka."`
 					decline
 			
-			`	"Great!" she says. "His name is Mr. Eyes, and he'll meet you on <destination>. For his safety, I'd rather not tell you anything about his work, but I assure you he's an upstanding citizen. A little unpopular with big corporations and certain corrupt planetary governments, though."`
+			`	"Świetnie!" mówi. "Nazywa się Pan Oczy i spotka się z tobą na <destination>. Dla jego bezpieczeństwa wolałbym nie mówić ci nic o jego pracy, ale zapewniam cię, że to porządny obywatel. Choć trochę niepopularny wśród wielkich korporacji i niektórych skorumpowanych rządów planetarnych."`
 				accept
 	
 	on visit
@@ -1621,45 +1621,45 @@ mission "FW Katya 2B"
 		log "People" "Katya Reynolds" `Była członkini parlamentu reprezentująca zubożałe światy Pasa Ziemi, Katya jest obecnie liderką ruchu Wolnych Światów. Jest znana z tego, że staje w obronie "zwykłych ludzi", gdy są oni pomijani lub źle traktowani przez rząd lub korporacje.`
 		log "People" "Ijs Springborn" `Znany również jako "Mr. Eyes," Ijs przez lata pracował jako samozwańczy inspektor elektrowni jądrowych "vigilante," próbując wychwytywać i zgłaszać nadużycia w ochronie środowiska, na które urzędnicy państwowi przymykali oko. Teraz zgodził się dołączyć do ruchu Free Worlds.`
 		conversation
-			`As soon as you land and open your ship's hatch, a man wearing sunglasses and a ridiculous hat and carrying a large metal suitcase runs past you and into your ship, casting a quick furtive glance behind him to see if anyone is following.`
+			`Zaraz po wylądowaniu i otwarciu włazu statku, obok ciebie i na pokład wbiegnie mężczyzna w okularach przeciwsłonecznych i śmiesznym kapeluszu, niosący dużą metalową walizkę, rzucając szybkie, ukradkowe spojrzenie za siebie, żeby sprawdzić, czy ktoś za tobą nie idzie.`
 			choice
-				`	(Draw my weapon to defend myself against him.)`
-				`	(Quickly shut the hatch and find out if he is okay.)`
+				`	(Dobywam broni, żeby się przed nim bronić.)`
+				`	(Szybko zamknij właz i sprawdź, czy wszystko z nim w porządku.)`
 					goto okay
 			
-			`	You shut the hatch to keep anyone else from boarding your ship uninvited, then confront him. "Who are you and what are you doing on my ship?" you ask.`
+			`	Zamykasz właz, żeby nikt nie wszedł na twój statek bez zaproszenia, a potem się z nim konfrontujesz. "Kim jesteś i co robisz na moim statku? " pytasz.`
 				goto name
 			
 			label okay
-			`	You shut the hatch to keep anyone else from boarding your ship, then turn around to find out who your visitor is. "My name is <first>," you say. "How can I help you?"`
+			`	Zamykasz właz, żeby nikt inny nie wszedł na pokład statku, a potem odwracasz się, żeby sprawdzić, kim jest twój gość. "Nazywam się <first>, "mówisz. "W czym mogę pomóc?"`
 			
 			label name
-			`	"I'm Ijs Springborn," he says, pronouncing the name like "Eyes." He takes off the glasses and hat. "Councilor Reynolds told me to meet you here."`
+			`	"Jestem Ijs Springborn," mówi, wymawiając imię jak "Oczy." Zdejmuje okulary i kapelusz. "Radny Reynolds powiedział mi, że mamy się tu spotkać."`
 			choice
-				`	"Wait, 'Councilor' Reynolds? You mean Katya is in Parliament?"`
+				`	"Czekaj, "Radny" Reynolds? Masz na myśli, że Katya jest w parlamencie?"`
 			
-			`	He looks genuinely shocked. "You didn't know? That woman is a legend. Did two terms representing the Dirt Belt. Defender of small worlds and the common people. In some circles her work has made her almost as unpopular as me. But she got tired of working for reform and decided to create her own government instead."`
-			`	"And what do you do for work?" you ask.`
-			`	"Vigilante nuclear power plant inspector," he says, nonchalantly.`
+			`	Wygląda na autentycznie zszokowanego. "Nie wiedziałeś? Ta kobieta to legenda. Przez dwie kadencje reprezentowała Pas Ziemi. Obrończyni małych światów i zwykłych ludzi. W niektórych kręgach jej praca sprawiła, że stała się niemal tak niepopularna jak ja. Ale znudziła się pracą na rzecz reform i postanowiła stworzyć własny rząd."`
+			`	"A czym się zajmujesz w pracy?" pytasz.`
+			`	"Inspektor elektrowni jądrowej, "mówi nonszalancko.`
 			choice
-				`	"Um... what?"`
-				`	"How does that even work?"`
-				`	"Is that even legal?"`
+				`	"Yyy... co?"`
+				`	"Jak to w ogóle działa?"`
+				`	"Czy to w ogóle jest legalne?"`
 			
-			`	"I go from world to world checking out plant emissions, to see if they're leaking isotopes into the air, the sea, or the groundwater. And if they are I sic the Department of Atomic Safety on them. The Syndicate hates my guts right now."`
-			`	"So, what has Katya asked you to do for the Free Worlds?" you ask.`
-			`	"Isn't it obvious?" he says. "We're going to hunt down certain naughty people who have been developing nuclear weapons, and the Free Worlds will turn them over to the Republic. Then the Republic will know that the Free Worlds weren't behind the attacks, and we'll stop this whole mess before it devolves into a civil war."`
+			`	"Podróżuję po świecie, sprawdzając emisje z elektrowni, żeby sprawdzić, czy nie przeciekają izotopów do powietrza, morza lub wód gruntowych. A jeśli tak, to nagabuję Departament Bezpieczeństwa Atomowego. Syndykat mnie teraz nienawidzi."`
+			`	"Więc o co Katya poprosiła cię w sprawie Wolnych Światów?" pytasz.`
+			`	"Czy to nie oczywiste? " mówi. "Będziemy ścigać pewnych niegrzecznych ludzi, którzy opracowują broń jądrową, a Wolne Światy przekażą ich Republice. Wtedy Republika będzie wiedziała, że Wolne Światy nie stały za atakami, i powstrzymamy cały ten bałagan, zanim przerodzi się w wojnę domową. "`
 			choice
-				`	"So, you're convinced that the Free Worlds are innocent?"`
-				`	"Okay, what's our plan to do that?"`
+				`	"Czyli jesteś przekonany, że Wolne Światy są niewinne?"`
+				`	"Okej, jaki mamy plan, żeby to zrobić?"`
 					goto plan
 			
-			`	"Absolutely," he says. "It makes no sense. First of all, that attack hurt their cause more than it helped it. And second, I've known Katerina and her friends in the Free Worlds for a long time. There's no way they would agree to such a thing. So, whoever is responsible is out there somewhere, and the Free Worlds will bring them to justice."`
+			`	"Absolutnie, " mówi. "To nie ma sensu. Po pierwsze, ten atak bardziej zaszkodził ich sprawie niż jej pomógł. A po drugie, znam Katerinę i jej przyjaciół z Wolnych Światów od dawna. Nie ma mowy, żeby się na coś takiego zgodzili. Więc ktokolwiek jest za to odpowiedzialny, gdzieś tam jest, a Wolne Światy postawią go przed sądem."`
 			choice
-				`	"Well, then, what's our plan?"`
+				`	"No więc, jaki jest nasz plan?"`
 			
 			label plan
-			`	"First," he says, "we need to go to Geminus, where the attack happened. I can explain more when we get there. In the meantime, I should also warn you that I seem to have terrible luck with pirates showing up wherever I go. It's almost like someone has put a price on my head." He grins.`
+			`	"Najpierw," mówi, "musimy polecieć na Geminus, gdzie doszło do ataku. Mogę wyjaśnić więcej, jak tam dotrzemy. W międzyczasie powinienem cię też ostrzec, że mam okropne szczęście do piratów, gdziekolwiek się pojawię. To prawie tak, jakby ktoś wyznaczył nagrodę za moją głowę." Uśmiecha się szeroko.`
 				accept
 	
 	on accept
@@ -1689,8 +1689,8 @@ mission "FW Katya 2C"
 	
 	on offer
 		conversation
-			`It turns out that the suitcase Mr. Eyes is carrying is full of portable sensors. He fires them up while explaining to you what he is doing. "Each world, and even each mine, has a slightly different mix of isotopes in their fissionable elements," he explains. "So what I'm doing right now is almost like taking a fingerprint. Once we've got it, we can try to find a match on another planet. I'd be willing to bet the material just came from a civilian reactor core, so tracking it back to the mine wouldn't necessarily incriminate anyone. But developing nukes is tricky, so they probably did tests. And if we can find the test site, that may lead us to the perpetrators."`
-			`	A few minutes later, his measurements are done. "Got it," he says. "Time to start hunting. Katya said to meet up with her on <planet>. It's not our best bet, but it's on the list of suspects."`
+			`Okazuje się, że walizka, którą niesie Pan Oczy, jest pełna przenośnych czujników. Uruchamia je, wyjaśniając, co robi. "Każdy świat, a nawet każda kopalnia, ma nieco inną mieszankę izotopów pierwiastków rozszczepialnych, " wyjaśnia. "Więc to, co teraz robię, jest prawie jak pobieranie odcisku palca. Kiedy już go zdobędziemy, możemy spróbować znaleźć odpowiednik na innej planecie. Założę się, że materiał pochodził z rdzenia cywilnego reaktora, więc namierzenie go do kopalni niekoniecznie kogokolwiek obciąży. Ale tworzenie broni jądrowej jest trudne, więc prawdopodobnie przeprowadzili testy. A jeśli znajdziemy miejsce testów, może to doprowadzić nas do sprawców. "`
+			`	Kilka minut później jego pomiary są gotowe. "Zrozumiałem," mówi. "Czas zacząć polowanie. Katya powiedziała, żebyśmy się z nią spotkali <planet>. To nie jest nasz najlepszy pomysł, ale jest na liście podejrzanych."`
 				accept
 	
 	on visit
@@ -1698,9 +1698,9 @@ mission "FW Katya 2C"
 	on complete
 		payment 100000
 		conversation
-			`As soon as you land, Mr. Eyes fires up his sensors and begins collecting data. A few minutes later, Katya shows up. "Eyes!" she says. "It's great to see you again."`
-			`	"You too, Councilor," he says.`
-			`	Katya hands you a credit chip for another <payment>. "Thanks again, Captain. Did Eyes explain the plan to you?" You nod. "Well," she says, "if you've got space for the two of us and want to be a part of seeing justice done, let's meet up in the spaceport once Eyes is done analyzing his data."`
+			`Gdy tylko wylądujesz, Pan Oczy uruchamia swoje czujniki i zaczyna zbierać dane. Kilka minut później pojawia się Katya. "Oczy!" mówi. "Cieszę się, że znów cię widzę."`
+			`	"Ty też, Radny," mówi.`
+			`	Katya wręcza ci chip kredytowy na kolejne <payment>. "Jeszcze raz dziękuję, Kapitanie. Czy Eyes wyjaśnił ci plan?" Kiwasz głową. "No cóż, " mówi, "jeśli masz miejsce dla nas dwojga i chcesz wziąć udział w wymierzeniu sprawiedliwości, spotkajmy się w porcie kosmicznym, gdy Eyes skończy analizować swoje dane."`
 
 
 
@@ -1718,46 +1718,46 @@ mission "FW Katya 3"
 	
 	on offer
 		conversation
-			`You find Eyes and Katya sitting in the shade of one of the few trees in the port, drinking some sort of frozen milkshakes while they stare out at the desert and talk in hushed voices. When you join them, Katya says, "I was just filling Eyes in on the Navy's recent fleet mobilization. Half the Dirt Belt is swarming with Cruisers and surveillance drones right now. It's hard to believe that we can find the attackers before they do, unless they're somewhere the Navy hasn't thought to look."`
-			`	"Agreed," says Eyes, "and to make matters worse, their sensors are probably much better than mine."`
-			`	Katya appears to be struck by a sudden idea. "The sensors on their drones," she says, "their unmanned drones..."`
-			`	Eyes glances at her, sees her expression, and says, "No, Councilor, don't even think of it. That's a horrible idea."`
-			`	"No," she says, "it's brilliant. Captain <last>, are you familiar with the Dereliction and Salvage Act of 2976?"`
+			`Znajdujesz Eyes i Katyę siedzących w cieniu jednego z nielicznych drzew w porcie, popijających mrożone koktajle mleczne, wpatrujących się w pustynię i rozmawiających przyciszonymi głosami. Kiedy do nich dołączasz, Katya mówi: "Właśnie informowałam Eyes o niedawnej mobilizacji floty Marynarki Wojennej. Połowa Pasa Ziemi roi się teraz od krążowników i dronów obserwacyjnych. Trudno uwierzyć, że uda nam się znaleźć napastników przed nimi, chyba że są gdzieś, gdzie Marynarka Wojenna nie pomyślała, żeby ich poszukać."`
+			`	"Zgadzam się," mówi Eyes, "a co gorsza, ich czujniki są prawdopodobnie o wiele lepsze od moich."`
+			`	Katya zdaje się być wstrząśnięta nagłym pomysłem. "Czujniki na ich dronach, " mówi, "ich bezzałogowe drony..."`
+			`	Eyes zerka na nią, widzi jej wyraz twarzy i mówi: "Nie, Radny, nawet o tym nie myśl. To okropny pomysł."`
+			`	"Nie," mówi, "to genialne. Kapitanie <last>, czy zna pan ustawę o porzuconych i ratownictwie z 2976 roku?"`
 			choice
-				`	"No, I've never heard of it."`
+				`	"Nie, nigdy o tym nie słyszałem."`
 					goto no
-				`	"Of course. I read parliamentary proceedings every night when I'm trying to fall asleep."`
+				`	"Oczywiście. Czytam obrady parlamentu każdej nocy, kiedy próbuję zasnąć."`
 			
-			`	"Well then," she says, "you'll probably agree that legally speaking, Navy surveillance drones count as abandoned goods the moment their owners have left the system."`
+			`	"No cóż, "mówi, "prawdopodobnie zgodzisz się, że prawnie rzecz biorąc, drony szpiegowskie Marynarki Wojennej są uznawane za porzucone dobra w momencie opuszczenia systemu przez ich właścicieli."`
 				goto response
 			
 			label no
-			`	"Well," she says, "it started when the Syndicate began experimenting with fully automated mining facilities on uninhabitable planets. Pirates started raiding the mines to steal equipment, and the Syndicate claimed that these installations were 'colonies' and it was the Navy's job to defend them. The Act was Parliament's response, stating that taking goods from a human being is piracy, but if the owner or some living representative of theirs is not present in the system, taking those goods is a legal salvage operation. The point was to keep the Navy from being obligated to defend every equipment cache or abandoned station in the galaxy. But by the same law, those Navy surveillance drones become abandoned goods the moment their motherships leave the system."`
+			`	"No cóż," mówi, "wszystko zaczęło się, gdy Syndykat zaczął eksperymentować z w pełni zautomatyzowanymi placówkami górniczymi na niezamieszkanych planetach. Piraci zaczęli napadać na kopalnie, aby kraść sprzęt, a Syndykat twierdził, że te placówki są "koloniami" i zadaniem Marynarki Wojennej jest ich obrona. Ustawa była odpowiedzią parlamentu, stwierdzającą, że odebranie dóbr człowiekowi jest piractwem, ale jeśli właściciel lub jego żyjący przedstawiciel nie znajduje się w systemie, odebranie tych dóbr jest legalną operacją ratunkową. Chodziło o to, aby Marynarka Wojenna nie była zobowiązana do obrony każdej skrytki ze sprzętem lub opuszczonej stacji w galaktyce. Ale zgodnie z tym samym prawem drony obserwacyjne Marynarki Wojennej stają się porzuconymi dobrami w momencie, gdy ich statki-matki opuszczają system."`
 			
 			label response
 			choice
-				`	"Yup. That makes perfect sense to me."`
+				`	"Tak. To ma dla mnie sens."`
 					goto agree
-				`	"So first you have me smuggling people across the galaxy, and now you want me to attack Navy ships? Next you'll ask me to start taking prisoners."`
-				`	"That sounds like a terrible idea."`
+				`	"Więc najpierw każesz mi przemycać ludzi przez galaktykę, a teraz chcesz, żebym atakował okręty marynarki wojennej? Potem każesz mi brać jeńców."`
+				`	"To brzmi jak okropny pomysł."`
 					goto terrible
 			
-			`	Eyes laughs, spitting out his milkshake in the process. "We won't be asking you to do anything of that sort," Katya responds somewhat aggressively. "Look, if we want to track down who dropped those bombs then we need to get our hands on better scanning equipment, equipment that the Navy has on their unmanned surveillance drones, and you're the one with a ship unconnected to the Free Worlds. All you need to do is find a lone surveillance drone to plunder. Legally the Navy can't do anything about it, and no one will be hurt in the process. If we succeed in finding who's responsible for the bombings, we could prevent war between the Republic and the Free Worlds, saving thousands or even potentially millions of lives. So are you with us or not?"`
+			`	Eyes śmieje się, wypluwając przy tym koktajl mleczny. "Nie będziemy cię o nic takiego prosić, " Katya odpowiada nieco agresywnie. "Słuchaj, jeśli chcemy namierzyć, kto zrzucił te bomby, musimy zdobyć lepszy sprzęt skanujący, sprzęt, który Marynarka Wojenna ma na swoich bezzałogowych dronach obserwacyjnych, a ty jesteś tym, który ma statek niepowiązany z Wolnymi Światami. Wystarczy, że znajdziesz samotnego drona obserwacyjnego do splądrowania. Marynarka Wojenna nie może z tym nic zrobić i nikt nie ucierpi w wyniku tego. Jeśli uda nam się ustalić, kto jest odpowiedzialny za zamachy bombowe, możemy zapobiec wojnie między Republiką a Wolnymi Światami, ratując tysiące, a potencjalnie nawet miliony istnień. Więc jesteś z nami, czy nie? "`
 				goto decision
 			
 			label terrible
-			`	"Are you saying we're going to need to find a different captain to work with?" says Katya. "If we want to track down who dropped those bombs then we need to get our hands on better scanning equipment, equipment that the Navy has on their unmanned surveillance drones. All you need to do is find a lone surveillance drone to plunder. Legally the Navy can't do anything about it, and no one will be hurt in the process. If we succeed in finding who's responsible for the bombings, we could prevent war between the Republic and the Free Worlds, saving thousands or even potentially millions of lives. So are you with us or not?"`
+			`	"Mówisz, że będziemy musieli znaleźć innego kapitana do współpracy? " pyta Katya. "Jeśli chcemy namierzyć, kto zrzucił te bomby, musimy zdobyć lepszy sprzęt skanujący, sprzęt, który Marynarka Wojenna ma na swoich bezzałogowych dronach obserwacyjnych. Wystarczy znaleźć samotnego drona obserwacyjnego do splądrowania. Marynarka Wojenna nie może nic z tym zrobić i nikt nie ucierpi w wyniku tego. Jeśli uda nam się ustalić, kto jest odpowiedzialny za bombardowania, możemy zapobiec wojnie między Republiką a Wolnymi Światami, ratując tysiące, a potencjalnie nawet miliony istnień ludzkich. Więc jesteś z nami, czy nie?"`
 			label decision
 			choice
-				`	"Fine, I'll do it. But I still think it's an unwise idea."`
-				`	"Even still, that doesn't justify destroying Navy property. Count me out."`
+				`	"Dobrze, zrobię to. Ale nadal uważam, że to nierozsądny pomysł."`
+				`	"Nawet to nie usprawiedliwia niszczenia mienia Marynarki Wojennej. Mnie nie."`
 					decline
-				`	"If this is the sort of reasoning the Free Worlds runs on, then you can kiss goodbye to working with me ever again."`
+				`	"Jeśli to jest sposób rozumowania, na którym opiera się Free Worlds, to możesz pożegnać się ze współpracą ze mną na zawsze."`
 					decline
 			
 			label agree
-			`	"Great!" says Katya. "All we have to do is disable a drone, board it, yank out the surveillance equipment, and bring it back here to test it out."`
-			`	Ijs says, "Captain, we should warn you: when you attack a drone, any Republic folks in that system will get mad at you. But once you jump out of the system, they'll calm down again."`
+			`	"Świetnie!" mówi Katya. "Wystarczy, że unieruchomimy drona, wsiądziemy na niego, wyrwiemy sprzęt do obserwacji i przywieziemy go tutaj, żeby go przetestować."`
+			`	Ijs mówi, "Kapitanie, powinniśmy cię ostrzec: kiedy zaatakujesz drona, wszyscy Republikanie w tym systemie będą na ciebie wściekli. Ale kiedy wyskoczysz z systemu, uspokoją się. "`
 				accept
 	
 	on accept
@@ -1768,8 +1768,8 @@ mission "FW Katya 3"
 	on complete
 		outfit "Surveillance Pod" -1
 		conversation
-			`You hand over the "salvaged" equipment to Mr. Eyes and Katya. Eyes begins fiddling with it, and soon discovers how to work the atmospheric scanner. "This is really nice stuff!" he says, enthusiastically.`
-			`	Katya says, "We found a halfway decent restaurant in the spaceport village. If you want to keep working with us, meet us there this evening."`
+			`Przekazujesz "odzyskany" sprzęt panu Oku i Katii. Oko zaczyna się nim bawić i wkrótce odkrywa, jak obsługiwać skaner atmosferyczny. "To naprawdę fajna rzecz! " mówi z entuzjazmem.`
+			`	Katya mówi: "Znaleźliśmy całkiem niezłą restaurację w wiosce kosmoportu. Jeśli chcesz z nami dalej pracować, spotkajmy się tam dziś wieczorem."`
 
 
 
@@ -1792,24 +1792,24 @@ mission "FW Katya 4"
 	on offer
 		log "People" "Katya Reynolds" `Katya dorastała na Hope, planecie Pasa Ziemi, która jest już niezamieszkana z powodu erupcji superwulkanu, która zapoczątkowała nową epokę lodowcową. Pomimo nieufności wobec Republiki, darzy Marynarkę Wojenną wielkim szacunkiem, ponieważ to ona, działając bez zgody Parlamentu, pomogła osadnikom z Hope w bezpiecznej ewakuacji.`
 		conversation
-			`You join Katya and Mr. Eyes in the restaurant, and order your meals. They are both in high spirits. While you are waiting for the food to arrive, Mr. Eyes raises his glass of wine and says, "A toast, to Captain <last> and our marvelous new toy. May it bring us good information and swift justice."`
-			`	"We're thinking that while we're in the area, we should stop on <planet> next," says Katya, "and then work our way toward the Rim."`
-			`	Your meals arrive. The food is excellent, and you spend a relaxed evening sharing stories of your childhoods. Katya turns out to be a Dirt Belt native<dirt belt origin> from a planet named Hope. "No longer settled," she explains. "Supervolcano. It was a cold planet to start out with, and the eruption sent it into an ice age that could last for millennia. My home town is under thirty meters of glacier by now."`
+			`Dołączasz do Katii i Pana Oczu w restauracji i zamawiasz posiłki. Oboje są w doskonałych nastrojach. Podczas gdy czekasz na jedzenie, Pan Oczu unosi kieliszek wina i mówi: "Toast za Kapitana <last> i naszą cudowną nową zabawkę. Niech przyniesie nam dobre wieści i szybką sprawiedliwość. "`
+			`	"Myślimy, że skoro już jesteśmy w okolicy, powinniśmy zatrzymać się na <planet>," mówi Katya, "a potem skierować się w stronę Rim."`
+			`	Przybywają posiłki. Jedzenie jest wyśmienite, a Ty spędzasz relaksujący wieczór, opowiadając sobie historie z dzieciństwa. Okazuje się, że Katya pochodzi z Pasa Ziemi<dirt belt origin> i pochodzi z planety o nazwie Hope. "Już nieosiedlona, " wyjaśnia. "Superwulkan. Początkowo była to zimna planeta, a erupcja wprowadziła ją w epokę lodowcową, która może trwać tysiąclecia. Moje rodzinne miasto znajduje się teraz pod trzydziestoma metrami lodowca. "`
 			choice
-				`	"Was anyone killed?"`
-				`	"How did you escape?"`
+				`	"Czy ktoś zginął?"`
+				`	"Jak udało ci się uciec?"`
 			
-			`	"The eruption was on the other continent," she explains, "so no one was killed in the blast. It was a slow-moving disaster. We had six months or so to move two million settlers off-world before the temperatures would drop too low to be livable. More than half of the Navy was mobilized to ferry our people to other planets."`
-			`	"Here's the best part," says Eyes. "The Navy operates with a certain amount of autonomy. Turns out when they found out about the disaster, they mobilized without even waiting to clear it with Parliament. Which was technically within their mandate, this being a natural disaster. But the Navy is funded by taxes, and the Paradise Planets pay ten times as much in taxes as the Dirt Belt."`
-			`	"The Paradise Planets viewed the Navy as their own private security force," says Katya, "so they got really mad when half the Navy suddenly vanished to assist some dirty refugees. Because those admirals gave the order to assist us, millions of lives were saved. And then Parliament fired them."`
+			`	"Erupcja miała miejsce na drugim kontynencie, " wyjaśnia, "więc nikt nie zginął w eksplozji. To była powolna katastrofa. Mieliśmy około sześciu miesięcy na ewakuację dwóch milionów osadników poza planetę, zanim temperatura spadnie do poziomu uniemożliwiającego życie. Ponad połowa Marynarki Wojennej została zmobilizowana do przetransportowania naszych ludzi na inne planety."`
+			`	"A oto najlepsza część, " mówi Eyes. "Marynarka Wojenna działa z pewną dozą autonomii. Okazuje się, że kiedy dowiedzieli się o katastrofie, zmobilizowali się, nawet nie czekając na zgodę parlamentu. Co technicznie mieściło się w ich kompetencjach, ponieważ była to katastrofa naturalna. Ale Marynarka Wojenna jest finansowana z podatków, a Planety Rajskie płacą dziesięć razy więcej podatków niż Pas Ziemi. "`
+			`	"Rajskie Planety postrzegały Marynarkę Wojenną jako swoją prywatną siłę bezpieczeństwa, " mówi Katya, "więc strasznie się wkurzyli, gdy połowa Marynarki Wojennej nagle zniknęła, by pomóc jakimś brudnym uchodźcom. Ponieważ ci admirałowie wydali rozkaz, by nam pomóc, uratowano miliony istnień ludzkich. A potem Parlament ich zwolnił. "`
 			choice
-				`	"You're making the Navy sound like heroes. I thought they were your enemies."`
-				`	"You've almost convinced me to join the Navy."`
+				`	"Morska marynarka brzmi jak bohaterowie. Myślałem, że to twoi wrogowie."`
+				`	"Prawie przekonałeś mnie do wstąpienia do Marynarki Wojennej."`
 			
-			`	"Our fight isn't with the Navy," says Katya. "Most of them are good people. I'm sure they don't want war any more than we do. They're like police officers who are suddenly being asked to fight against the very people they swore to protect and serve."`
-			`	"I was a child on Vinci while this was happening," says Eyes. "A Paradise World. I would listen to the news and could never understand why all the adults around me were so very, very angry that the Navy had gone off to rescue two million people from freezing to death. But they told me that we lived in one little island of safety in a dangerous galaxy, and that without the Navy protecting us the pirates or even maybe aliens would sweep in and destroy our homes and take our money. That it was us against the whole galaxy."`
-			`	"I'd hate to be rich," says Katya. "So much to fear."`
-			`	You finish your meal (Katya pays the tab), and agree to take off for <planet> first thing in the morning.`
+			`	"Nasza walka nie toczy się z Marynarką Wojenną, " mówi Katya. "Większość z nich to dobrzy ludzie. Jestem pewna, że nie chcą wojny bardziej niż my. Są jak policjanci, którzy nagle zostali poproszeni o walkę z tymi samymi ludźmi, których przysięgali chronić i służyć. "`
+			`	"Byłem dzieckiem na Vinci, kiedy to się działo, " mówi Eyes. "A Paradise World. Słuchałem wiadomości i nigdy nie mogłem zrozumieć, dlaczego wszyscy dorośli wokół mnie byli tak bardzo, bardzo wściekli, że Marynarka Wojenna wyruszyła, by uratować dwa miliony ludzi przed zamarznięciem na śmierć. Ale mówili mi, że żyjemy na małej bezpiecznej wyspie w niebezpiecznej galaktyce i że bez Marynarki Wojennej, która nas chroni, piraci, a może nawet kosmici, wtargną, zniszczą nasze domy i zabiorą nam pieniądze. Że to my przeciwko całej galaktyce. "`
+			`	"Nie chciałabym być bogata," mówi Katya. "Tyle powodów do strachu."`
+			`	Kończysz posiłek (Katya płaci rachunek) i zgadzasz się wyruszyć na <planet> rano jako pierwszą rzecz.`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że Katya i Pan Oczy są na pokładzie jednego z twoich eskort, który jeszcze nie wszedł do systemu. Lepiej odlecieć i poczekać, aż dotrze.`
@@ -1833,39 +1833,39 @@ mission "FW Katya 5"
 	
 	on offer
 		conversation
-			`You land on <origin>, and Mr. Eyes fires up the new Navy surveillance equipment to make atmospheric measurements. "Nothing here," he says after a few minutes. "Guess we should move on."`
+			`Lądujesz na <origin>, a Pan Oczy uruchamia nowy sprzęt obserwacyjny Marynarki Wojennej, aby dokonać pomiarów atmosferycznych. "Nic tu nie ma, " mówi po kilku minutach. "Chyba powinniśmy iść dalej. "`
 			choice
-				`	"Are we just going to search every planet in this sector? Won't that take months?"`
-				`	"Are there any other ships helping us search, or is it just us?"`
+				`	"Czy po prostu przeszukamy każdą planetę w tym sektorze? Czy to nie zajmie miesięcy?"`
+				`	"Czy w poszukiwaniach pomagają nam inne statki, czy tylko my?"`
 					goto search
 			
-			`	"You've got a point," says Eyes. "And we don't even know for sure that the terrorists originated from around here. Without any additional information, we're looking for a needle in a galaxy-sized haystack."`
+			`	"Masz rację, " mówi Eyes. "I nawet nie wiemy na pewno, czy terroryści pochodzili stąd. Bez żadnych dodatkowych informacji szukamy igły w stogu siana wielkości galaktyki. "`
 				goto pirates
 			
 			label search
-			`	"No," says Eyes, "we've tried to keep this search a secret so the terrorists won't know we're looking for them. Any group with the resources to develop nuclear weapons likely has the resources to also cover their tracks, and if they know we're coming for them, they could make our job even harder than it already is."`
+			`	"Nie," mówi Eyes, "staraliśmy się utrzymać te poszukiwania w tajemnicy, żeby terroryści nie wiedzieli, że ich szukamy. Każda grupa dysponująca środkami na rozwój broni jądrowej prawdopodobnie ma również środki, by zatrzeć ślady, a jeśli dowiedzą się, że do nich zmierzamy, mogą jeszcze bardziej utrudnić nam zadanie."`
 			
 			label pirates
-			`	Katya says, "What we need is some leads to follow. I bet we could buy information on Greenrock. Whenever anyone is doing something illegal in this sector, there's a good chance the pirates are helping them."`
-			`	Mr. Eyes says, "Unless you've got boatloads of money to give the pirates, we need someone who's friendly with them, who can convince them to talk for free. We should go to the Brothers on Harmony."`
-			`	"That's not a bad idea," says Katya, "as long as they don't make me sit through one of their church services. I'm usually all for service, but theirs always makes me fall asleep."`
-			`	"What do you say, Captain?" asks Eyes. "Want to visit a monastery?"`
+			`	Katya mówi: "Potrzebujemy kilku tropów, którymi możemy podążać. Założę się, że moglibyśmy kupić informacje o Greenrock. Ilekroć ktoś robi coś nielegalnego w tym sektorze, istnieje duże prawdopodobieństwo, że piraci mu pomagają."`
+			`	Pan Oczy mówi: "Jeśli nie masz mnóstwa forsy, żeby dać piratom, potrzebujemy kogoś, kto jest z nimi zaprzyjaźniony i potrafi ich przekonać do darmowej rozmowy. Powinniśmy pójść do Braci na Harmonii."`
+			`	"To nie jest zły pomysł, " mówi Katya, "pod warunkiem, że nie każą mi siedzieć na jednym z ich nabożeństw. Zazwyczaj jestem jak najbardziej za nabożeństwem, ale ich nabożeństwo zawsze sprawia, że zasypiam. "`
+			`	"Co mówisz, Kapitanie?" pyta Oczy. "Chcesz odwiedzić klasztor?"`
 			choice
-				`	"Sure, sounds like fun."`
+				`	"Jasne, brzmi jak dobra zabawa."`
 					accept
-				`	"You guys have interesting friends. How do you know these monks?"`
-				`	"Sounds boring. Can't we go shoot down more surveillance drones instead?"`
+				`	"Macie ciekawych znajomych. Skąd znacie tych mnichów?"`
+				`	"Brzmi nudno. Czy nie moglibyśmy zamiast tego zestrzelić więcej dronów obserwacyjnych?"`
 					goto shoot
 			
-			`	"When I grew up and left the Paradise sector, as a young idealist," says Eyes, "I decided I wanted to take a vow of poverty, so I came to live with the Brothers. But it turns out they also wanted me to take a vow of obedience. And chastity. Not so much my cup of tea." He winks at Katya.`
-			`	"Are the monks really as boring as Katya says?" you ask.`
+			`	"Kiedy dorastałem i opuściłem sektor Raj, jako młody idealista, " mówi Eyes, "postanowiłem złożyć ślub ubóstwa, więc zamieszkałem z Braćmi. Ale okazało się, że chcieli też, żebym złożył ślub posłuszeństwa. I czystości. Nie do końca w moim guście. " Puszcza oko do Katyi.`
+			`	"Czy mnisi naprawdę są tak nudni, jak mówi Katya?" pytasz.`
 			
 			label shoot
-			`	"Sorry kid," says Eyes. "Take it from me, working for justice is not always exciting."`
+			`	"Przepraszam, dzieciaku," mówi Oczy. "Uwierz mi, praca na rzecz sprawiedliwości nie zawsze jest ekscytująca."`
 			choice
-				`	"Fine, I'm in."`
+				`	"Dobrze, jestem za."`
 					accept
-				`	"Sorry, but I think I'm done with helping the Free Worlds. I'd rather strike out on my own."`
+				`	"Przepraszam, ale chyba już skończyłem z pomaganiem Wolnym Światom. Wolę działać na własną rękę."`
 					decline
 	
 	on visit
@@ -1889,41 +1889,41 @@ mission "FW Katya 5B"
 	on offer
 		log "Factions" "Pirates" `Załogi statków pirackich często składają się z dzieci, odpowiedników gangów ulicznych lub dzieci-żołnierzy. Wiele bezprawnych światów jest tak biednych, że dołączenie do gangu pirackiego to jedna z niewielu atrakcyjnych możliwości zarobkowania.`
 		conversation
-			`Katya and Eyes lead you to the monastery. As you are approaching, you meet a monk who is wearing a long black robe and kneeling in a small vegetable garden, pulling weeds. When he looks up and sees you, he leaps to his feet and runs over. "Katya! And Ijs! Welcome back!" Then he turns to you. "I'm David," he says.`
+			`Katya i Oczy prowadzą cię do klasztoru. Zbliżając się, spotykasz mnicha w długiej czarnej szacie, klęczącego w małym ogródku warzywnym i wyrywającego chwasty. Kiedy podnosi wzrok i cię dostrzega, zrywa się na równe nogi i podbiega. "Katya! I Ijs! Witaj z powrotem!" Potem odwraca się do ciebie. "Jestem David," mówi.`
 			choice
-				`	"I'm <first>. Pleased to meet you."`
+				`	"Mam <first> lat. Miło mi cię poznać."`
 			
-			`	Katya asks, "Is Brother Greg here?"`
-			`	"He is," says David. "Come inside." The monastery building is a stone and brick structure that looks like pictures you have seen of ancient Earth. He leads you down a long hallway and into a sitting room with furniture that looks equally antique, then leaves.`
-			`	As you are waiting, Eyes explains, "Brother Greg is in charge of the monastery's outreach and ministry to pirate crew members."`
+			`	Katya pyta, "Czy brat Greg jest tutaj?"`
+			`	"On jest, " mówi David. "Wejdź do środka." Budynek klasztoru to kamienno-ceglana konstrukcja, która wygląda jak obrazy starożytnej Ziemi, które widziałeś. Prowadzi cię długim korytarzem do salonu z meblami, które wyglądają na równie antyczne, po czym wychodzi.`
+			`	Podczas gdy czekasz, Eyes wyjaśnia, że "Brother Greg jest odpowiedzialny za działalność klasztorną i posługę wśród członków pirackiej załogi."`
 			choice
-				`	"That sounds even odder than being a vigilante nuclear inspector."`
-				`	"Why would anyone want to reach out to pirates?"`
+				`	"To brzmi jeszcze dziwniej niż bycie strażnikiem prawa i inspektorem nuklearnym."`
+				`	"Dlaczego ktoś miałby chcieć nawiązać kontakt z piratami?"`
 					goto outreach
 			
-			`	Eyes laughs. "Yes, the monks were a big influence in helping me to think creatively about my own vocation."`
+			`	Oczy się śmieją. "Tak, mnisi wywarli na mnie ogromny wpływ, pomagając mi myśleć kreatywnie o moim powołaniu."`
 			
 			label outreach
-			`	"Consider this," says Katya. "In the galactic south, the average age of a pirate crew member is seventeen years old. And many are much younger than that. They're more like street kids than like hardened criminals."`
-			`	Just then, Brother Greg walks in. Mr. Eyes introduces you to him and explains your situation. Greg frowns, thoughtfully. "What do we have to offer in exchange for that information?" he asks.`
-			`	Katya says, "Ever since the bombings, Southern space has been swarming not only with an increased militia presence, but with the whole Republic Navy. That must make it awfully hard to be a pirate. Seems like the pirates would be glad if the Navy got what they were looking for and went back up north."`
-			`	Brother Greg nods. "It's worth a try. Why don't you join us for dinner, and we'll depart for Greenrock in the morning. When we get there, just hail the planet and let me do the talking, and I can probably get permission to land for free."`
-			`	You join the brothers for a simple but delicious dinner, soup and salad made entirely from their own gardens. After dinner, Greg asks you, "Do you want to join us for evening prayer?"`
+			`	"Rozważ to," mówi Katya. "Na galaktycznym południu średni wiek członka pirackiej załogi wynosi siedemnaście lat. A wielu jest znacznie młodszych. Przypominają raczej dzieciaki z ulicy niż zatwardziałych przestępców."`
+			`	Właśnie wtedy wchodzi Brat Greg. Pan Oczy przedstawia cię sobie i wyjaśnia twoją sytuację. Greg marszczy brwi, zamyślony. "Co mamy do zaoferowania w zamian za te informacje?" pyta.`
+			`	Katya mówi: "Od czasu bombardowań, przestrzeń kosmiczna Południa roi się nie tylko od zwiększonej obecności milicji, ale i całej Marynarki Wojennej Republiki. To musi strasznie utrudniać bycie piratem. Wygląda na to, że piraci byliby zadowoleni, gdyby Marynarka Wojenna dostała to, czego szukali i wróciła na północ."`
+			`	Brat Greg kiwa głową. "Warto spróbować. Może dołączysz do nas na kolację, a rano wyruszymy do Greenrock. Kiedy tam dotrzemy, po prostu zawołaj planetę i pozwól mi mówić, a pewnie dostanę pozwolenie na lądowanie za darmo."`
+			`	Dołączasz do braci na prosty, ale pyszny obiad: zupę i sałatkę w całości z ich własnych ogrodów. Po obiedzie Greg pyta: "Czy chcesz dołączyć do nas na wieczorną modlitwę?"`
 			choice
-				`	"Sure, I'd be glad to."`
+				`	"Oczywiście, z chęcią."`
 					goto prayer
-				`	"Sorry, I've got some other stuff to get done tonight."`
+				`	"Przepraszam, muszę dziś wieczorem zrobić kilka innych rzeczy."`
 			
-			`	"No problem," he says. "See you in the morning."`
+			`	"Nie ma problemu," mówi. "Do zobaczenia rano."`
 				goto morning
 			
 			label prayer
-			`	"Evening prayer" turns out to be a lengthy church service that apparently begins with the monks listing every bad thing they can possibly imagine and praying that it would not happen: "From lightning and tempest; from earthquake, fire, and flood; from plague, pestilence, and famine, good Lord, deliver us. From all oppression, conspiracy, and rebellion; from violence, battle, murder, and war; and from dying suddenly and unprepared, good Lord, deliver us..." It's very monotonous.`
-			`	At some point, they switch to praying for different people: for the Parliament of the Republic, and everyone in authority; for the governor of <origin>, their world; for the Quarg and all sentient species; for prisoners, for the homeless and poor, for orphans, for pregnant women and young children, for travelers, for starship crews and captains, for miners and oil crews, for mill and factory workers; for the abused; for the mentally ill; for pirates and street gangs; for all creatures and planets vulnerable to exploitation or ecological destruction. (Eyes, who is sitting next to you, responds to that last petition with a fervent "Amen!") The litany is so detailed and specific that you find it both exhausting and fascinating.`
-			`	When the service ends, the monks depart for their rooms in silence, and Eyes, with a brief nod to you, does the same.`
+			`	"Modlitwa wieczorna" okazuje się być długim nabożeństwem, które najwyraźniej zaczyna się od mnichów wymieniających wszystkie złe rzeczy, jakie mogą sobie wyobrazić, i modlących się, żeby to się nie wydarzyło: "Od piorunów i burzy; od trzęsień ziemi, ognia i powodzi; od zarazy, zarazy i głodu, dobry Boże, wybaw nas. Od wszelkiego ucisku, spisku i buntu; od przemocy, bitew, morderstw i wojny; i od nagłej i nieprzygotowanej śmierci, dobry Boże, wybaw nas..." To bardzo monotonne.`
+			`	W pewnym momencie przechodzą do modlitw za inne osoby: za Parlament Republiki i wszystkich u władzy; za gubernatora <origin>, ich planety; za Quargów i wszystkie rozumne gatunki; za więźniów, bezdomnych i biednych, sieroty, kobiety w ciąży i małe dzieci, podróżników, załogi statków kosmicznych i kapitanów, górników i załogi naftowe, pracowników młynów i fabryk; za osoby wykorzystywane; za chorych psychicznie; za piratów i gangi uliczne; za wszystkie stworzenia i planety narażone na eksploatację lub zniszczenie ekologiczne. (Oczy, które siedzą obok ciebie, odpowiadają na tę ostatnią prośbę żarliwym "Amen!") Litania jest tak szczegółowa i konkretna, że wydaje się zarówno wyczerpująca, jak i fascynująca.`
+			`	Po zakończeniu nabożeństwa mnisi w ciszy rozchodzą się do swoich komnat, a Eyes, skinąwszy ci krótko głową, robi to samo.`
 			
 			label morning
-			`	At breakfast in the monastery, Mr. Eyes tells you, "I'm going to be staying here until you get back. Greenrock is no place for a man with a price on his head. But Katya will be going with you." You bring Katya and Greg back to your ship and get ready to take off.`
+			`	Podczas śniadania w klasztorze Pan Oczy mówi ci: "Zostanę tu, dopóki nie wrócisz. Zielona Skała to nie miejsce dla człowieka, za którego głowę wyznaczono nagrodę. Ale Katya poleci z tobą." Zabierasz Katyę i Grega na swój statek i przygotowujesz się do startu.`
 				accept
 	
 	on visit
@@ -1945,12 +1945,12 @@ mission "FW Katya 5C"
 	
 	on offer
 		conversation
-			`Brother Greg disappears for several hours to talk with his various contacts, then returns and reports to you and Katya. "No one has heard anything specific," he says, "and they say keeping a nuclear program secret would take an incredible amount of resources, or a very remote location with very good security."`
-			`	"Any hints on where we should look?" asks Katya.`
-			`	"A few. I talked to one friend who had done research into nuclear development 'for purely academic reasons,' and he said that only a fool would perform atmospheric tests; Intelligence would notice that immediately, no matter what world you were on. He said the ideal development location would be a sparsely populated planet with some abandoned deep underground mines."`
-			`	"Anything else?" you ask.`
-			`	"Just one more thing," says Greg. "Several people mentioned that they think the Navy itself may have a nuclear arsenal, and that a renegade may have stolen the weapons from them. Much easier than developing them yourself."`
-			`	"Well, let's head back to <planet> and see what Eyes thinks," says Katya, "but I can't imagine the Navy would have such an arsenal. Searching on mining planets sounds like our best bet for now."`
+			`Brat Greg znika na kilka godzin, by porozmawiać z różnymi kontaktami, po czym wraca i melduje się tobie i Katyi. "Nikt nie słyszał niczego konkretnego, "mówi, "a oni mówią, że utrzymanie programu nuklearnego w tajemnicy wymagałoby ogromnych zasobów albo bardzo odległego miejsca z bardzo dobrymi zabezpieczeniami."`
+			`	"Jakieś wskazówki, gdzie powinniśmy szukać?" pyta Katya.`
+			`	"Kilka. Rozmawiałem z jednym znajomym, który prowadził badania nad rozwojem energetyki jądrowej "z czysto akademickich powodów", i powiedział, że tylko głupiec przeprowadziłby testy atmosferyczne; inteligencja natychmiast by to zauważyła, niezależnie od planety, na której się znajdujesz. Powiedział, że idealnym miejscem do rozwoju byłaby słabo zaludniona planeta z kilkoma opuszczonymi, głębokimi, podziemnymi kopalniami."`
+			`	"Czy coś jeszcze?" pytasz.`
+			`	"Jeszcze tylko jedno, " mówi Greg. "Kilka osób wspomniało, że ich zdaniem sama Marynarka Wojenna może posiadać arsenał nuklearny i że jakiś renegat mógł im tę broń ukraść. Znacznie łatwiej niż samemu ją rozwijać. "`
+			`	"No cóż, wróćmy do <planet> i zobaczmy, co myśli Eyes, " mówi Katya, "ale nie wyobrażam sobie, żeby Marynarka Wojenna miała taki arsenał. Poszukiwania na planetach górniczych wydają się na razie naszym najlepszym rozwiązaniem. "`
 				accept
 	
 	on visit
@@ -1958,11 +1958,11 @@ mission "FW Katya 5C"
 	on complete
 		payment 100000
 		conversation
-			`When you land on <planet>, as Brother Greg is gathering his luggage, Katya hands you another credit chip for <payment>. "Thanks for risking your life with the pirates," she says. "You've got real guts."`
-			`	You return to the monastery and share your new information with Mr. Eyes. His reaction is the same as Katya's. "No way the Navy has nukes," he says. "Some other secret branch of the government, maybe, but not the Navy. That would offend their sense of honor."`
-			`	"Still," says Katya, "if there was such a program and the weapons were stolen from it, that would explain why Intelligence has not named a suspect yet. They would have to reveal the program's existence."`
-			`	Eyes shakes his head. "This isn't a productive line of investigation," he says. "If it was some local terrorists, we've got some hope of tracking them down. If it's some shadowy government organization, there's no way we can find them. So, the local terrorist angle is the only one worth pursuing."`
-			`	"Very well," says Katya. "Captain <last>, meet us in the spaceport if you're willing to continue working with us."`
+			`Kiedy lądujesz na <planet>, a Brat Greg zbiera bagaż, Katya wręcza ci kolejny chip kredytowy na <payment>. "Dzięki za ryzykowanie życia z piratami," mówi. "Masz prawdziwą odwagę."`
+			`	Wracasz do klasztoru i dzielisz się nowymi informacjami z panem Okiem. Jego reakcja jest taka sama jak Katii. "Nie ma mowy, żeby Marynarka Wojenna miała broń atomową, " mówi. "Może jakaś inna tajna gałąź rządu, ale nie Marynarka Wojenna. To by urażało ich poczucie honoru. "`
+			`	"Still," mówi Katya, "jeśli taki program istniał i broń została z niego skradziona, to wyjaśniałoby, dlaczego wywiad nie wskazał jeszcze podejrzanego. Musieliby ujawnić istnienie programu."`
+			`	Eyes kręci głową. "To nie jest produktywny kierunek śledztwa, " mówi. "Jeśli to byli lokalni terroryści, mamy jakąś nadzieję na ich wytropienie. Jeśli to jakaś tajna organizacja rządowa, nie ma szans, żebyśmy ich znaleźli. Więc wątek lokalnego terroryzmu jest jedynym, który warto zbadać."`
+			`	"Bardzo dobrze," mówi Katya. "Kapitanie <last>, spotkajmy się w porcie kosmicznym, jeśli chcesz kontynuować z nami współpracę."`
 
 
 
@@ -1982,23 +1982,23 @@ mission "FW Katya 6"
 	
 	on offer
 		conversation
-			`You find Katya and Mr. Eyes sitting at a table in the corner of a small cafe, talking in hushed voices and examining a galactic map that is spread out in front of them. Several of the nearby systems are circled. Katya says, "Hello again, Captain. We've picked three planets that we think are our best options: <planet>, Hopper, and New Iceland. It should only take a few weeks to visit all of them. What do you say?"`
+			`Znajdujesz Katię i Pana Oka siedzących przy stoliku w kącie małej kawiarni, rozmawiających przyciszonymi głosami i studiujących rozłożoną przed nimi mapę galaktyki. Kilka pobliskich układów jest zaznaczonych. Katia mówi: "Witaj ponownie, Kapitanie. Wybraliśmy trzy planety, które naszym zdaniem są najlepszym wyborem: <planet>, Hopper i Nową Islandię. Odwiedzenie ich wszystkich powinno zająć tylko kilka tygodni. Co ty na to?"`
 			choice
-				`	"Sure, I definitely want to help solve this case!"`
+				`	"Jasne, zdecydowanie chcę pomóc rozwiązać tę sprawę!"`
 					goto sure
-				`	"Why these worlds specifically? Why not check worlds in Free space if the Republic thinks you did it?"`
-				`	"I'm through with helping the Free Worlds. I don't think we have a chance of beating the Navy to the punch."`
+				`	"Dlaczego akurat te światy? Czemu nie sprawdzisz światów w wolnej przestrzeni, skoro Republika uważa, że to ty to zrobiłeś?"`
+				`	"Skończyłem z pomaganiem Wolnym Światom. Nie sądzę, żebyśmy mieli szansę wyprzedzić Marynarkę Wojenną."`
 					decline
 			
-			`	"I suppose that showing a lack of evidence for nuclear testing done on Free planets would be circumstantial evidence for us," Eyes says, "but we're specifically hunting for the culprit, so these are our best bets as far as nearby mining worlds go. And searching these three worlds would be quicker than searching all of Free space."`
-			`	"Another thing we have to keep in mind is that we may not be able to operate outside of Free space forever," Katya responds. "I pray that we find answers before it comes to it, but war between the Free Worlds and Republic would cut us off from freely searching most of the galaxy."`
+			`	"Przypuszczam, że brak dowodów na testy nuklearne przeprowadzone na Wolnych planetach byłby dla nas dowodem poszlakowym, " mówi Eyes, "ale my konkretnie szukamy sprawcy, więc to są nasze najlepsze typy, jeśli chodzi o pobliskie planety górnicze. A przeszukanie tych trzech planet byłoby szybsze niż przeszukanie całej Wolnej Przestrzeni. "`
+			`	"Musimy też pamiętać, że być może nie będziemy mogli wiecznie działać poza Wolną Przestrzenią, " odpowiada Katya. "Modlę się, żebyśmy znaleźli odpowiedzi, zanim do tego dojdzie, ale wojna między Wolnymi Światami a Republiką uniemożliwiłaby nam swobodne przeszukiwanie większości galaktyki. "`
 			choice
-				`	"Okay, I'll help you search these worlds."`
-				`	"I don't think this is the best course of action. You'll have to find someone else to help you with this."`
+				`	"Okej, pomogę ci przeszukać te światy."`
+				`	"Nie sądzę, żeby to było najlepsze rozwiązanie. Będziesz musiał znaleźć kogoś innego, kto ci w tym pomoże."`
 					decline
 			
 			label sure
-			`	"Great!" says Katya. "We'll stop on <destination> first, then swing by Hopper and on to New Iceland. If we still haven't found anything by that point, we'll start working our way up the Rim."`
+			`	"Świetnie!" mówi Katya. "Najpierw zatrzymamy się na <destination>, potem wpadniemy do Hoppera i pojedziemy do Nowej Islandii. Jeśli do tego czasu nic nie znajdziemy, zaczniemy się wspinać na Krawędź."`
 				accept
 	
 	on visit
@@ -2020,8 +2020,8 @@ mission "FW Katya 6B"
 	
 	on offer
 		conversation
-			`Mr. Eyes fires up his instruments and looks at the results for a few minutes. "Nothing," he says. "Even underground testing would've thrown up a debris plume large enough to measure traces of it. But I'm picking up nothing."`
-			`	"No problem," says Katya. "Let's continue to <planet>."`
+			`Pan Eyes uruchamia swoje instrumenty i przez kilka minut przygląda się wynikom. "Nic," mówi. "Nawet podziemne testy wytworzyłyby pióropusz gruzu na tyle duży, że można by było zmierzyć jego ślady. Ale ja niczego nie wychwytuję."`
+			`	"Nie ma problemu," mówi Katya. "Kontynuujmy <planet>."`
 				accept
 	
 	on visit
@@ -2043,7 +2043,7 @@ mission "FW Katya 6C"
 	
 	on offer
 		conversation
-			`Again, Eyes runs his tests, and again, nothing shows up. "One more planet to go," he says. "Time to try <planet>." You can tell that they are both starting to feel a bit discouraged, and you are overwhelmed by the thought of how many planets in this sector you may need to search unless you get a lucky break soon.`
+			`Eyes ponownie przeprowadza testy i znów nic nie wykrył. "Jeszcze jedna planeta do pokonania," mówi. "Czas spróbować <planet>." Widać, że oboje zaczynają się nieco zniechęcać, a ciebie przytłacza myśl o tym, ile planet w tym sektorze będziesz musiał przeszukać, chyba że wkrótce dopisze ci szczęście.`
 				accept
 	
 	on visit
@@ -2068,25 +2068,25 @@ mission "FW Katya 7"
 	
 	on offer
 		conversation
-			`<origin> turns out no differently than the previous two. "We need a change in strategy," says Katya. "We've been talking about something while we were in transit."`
-			`	Eyes says, "It occurred to me that underwater testing might be even easier than underground: no need to dig or find a mine shaft. And, the Navy's sensors are for atmosphere, not oceans. But I've still got my old test kits with me for seawater."`
-			`	Katya says, "So then we wondered, what sort of world would you go to if you wanted rumblings in the ocean to go unnoticed? Either an unpopulated one, or one with lots of meteorite activity. And that leads us to... <planet>." She points out the system on your map. "Mild tidal surges on almost a weekly basis, due to impacts from all the asteroids in system. Perfect place to hide an undersea explosion."`
+			`<origin> okazuje się, że nie różni się niczym od poprzednich dwóch. "Potrzebujemy zmiany strategii, " mówi Katya. "Rozmawialiśmy o czymś w trakcie podróży. "`
+			`	Eyes mówi, "Przyszło mi do głowy, że testy podwodne mogą być jeszcze łatwiejsze niż podziemne: nie trzeba kopać ani szukać szybu kopalnianego. Poza tym czujniki Marynarki Wojennej są przeznaczone do atmosfery, a nie do oceanów. Ale wciąż mam przy sobie moje stare zestawy testowe do wody morskiej."`
+			`	Katya mówi: "Więc zastanawialiśmy się, do jakiego świata byście się udali, gdybyście chcieli, żeby dudnienia w oceanie pozostały niezauważone? Albo do bezludnego, albo do takiego z dużą aktywnością meteorytów. I to prowadzi nas do... <planet>." Wskazuje układ na twojej mapie. "Lekkie fale pływowe występują prawie co tydzień, z powodu uderzeń wszystkich asteroid w układzie. Idealne miejsce na ukrycie podmorskiej eksplozji."`
 			choice
-				`	"Sounds like a good possibility. Let's give it a try!"`
+				`	"Brzmi jak dobra możliwość. Spróbujmy!"`
 					goto agree
-				`	"But <planet> is part of the Free Worlds. What happens if we do find evidence there?"`
-				`	"I've got other missions I need to run instead of continuing this wild goose chase."`
+				`	"Ale <planet> jest częścią Wolnych Światów. Co się stanie, jeśli znajdziemy tam dowody?"`
+				`	"Mam inne misje, które muszę wykonać zamiast kontynuować tę bezsensowną pogoń."`
 					decline
 			
-			`	"The plan hasn't changed," Eyes responds. "We find where the testing occurred, and that will lead us to the culprits. Even if it turns out that someone connected to the Free Worlds are responsible, they'll be turned over to the Republic."`
-			`	"I pray that no one within the Free Worlds are a part of this, though," Katya says quietly. "I'm almost hoping we find nothing."`
+			`	"Plan się nie zmienił, " odpowiada Eyes. "Dowiemy się, gdzie przeprowadzono testy, a to doprowadzi nas do sprawców. Nawet jeśli okaże się, że ktoś powiązany z Wolnymi Światami jest za to odpowiedzialny, zostanie on wydany Republice. "`
+			`	"Modlę się jednak, żeby nikt z Wolnych Światów nie był w to zamieszany, " mówi cicho Katya. "Mam prawie nadzieję, że niczego nie znajdziemy."`
 			choice
-				`	"Fair enough. Let's give it a try."`
-				`	"The Free Worlds are looking guiltier the more we look. I'm out of here."`
+				`	"Dobrze. Spróbujmy."`
+				`	"Im dłużej patrzymy, tym bardziej winni wydają się Wolne Światy. Wynoszę się stąd."`
 					decline
 			
 			label agree
-			`	"I appreciate your help, Captain <last>," says Katya. "Let's get going."`
+			`	"Doceniam twoją pomoc, Kapitanie <last>," mówi Katya. "Ruszamy."`
 				accept
 	
 	on visit
@@ -2111,26 +2111,26 @@ mission "FW Katya 7B"
 	
 	on offer
 		conversation
-			`After landing, you go for a walk along the beach with Katya and Eyes. They both go barefoot, walking in the surf. Eyes is collecting pebbles and shells from under the water, and at one point instead of grabbing a pebble he surreptitiously reaches down and fills a small vial with seawater.`
-			`	Back at your ship he runs his tests, with you and Katya watching eagerly. He looks at the results, frowns, and then repeats the whole procedure with a second test kit. Finally he sighs. "Nothing," he says.`
-			`	Katya shouts in frustration and bangs her fists against the bulkheads. "We're never going to find anything," she says. "Forget it, I'm going for a walk." She leaves your ship.`
-			`	Mr. Eyes packs up his instruments, and then you walk outside and find her sitting on the landing pad near your ship, watching the moon rise over the ocean. She seems much calmer.`
+			`Po wylądowaniu idziesz na spacer po plaży z Katią i Oczkiem. Oboje chodzą boso po falach. Oczko zbiera kamyki i muszelki spod wody, a w pewnym momencie zamiast złapać kamyk, dyskretnie sięga w dół i napełnia małą fiolkę wodą morską.`
+			`	Wróciwszy na twój statek, przeprowadza testy, a ty i Katya z niepokojem obserwujecie. Patrzy na wyniki, marszczy brwi, a następnie powtarza całą procedurę z drugim zestawem testowym. W końcu wzdycha. "Nic," mówi.`
+			`	Katya krzyczy z frustracją i wali pięściami w grodzie. "Nigdy nic nie znajdziemy," mówi. "Zapomnij o tym, idę na spacer." Opuszcza twój statek.`
+			`	Pan Eyes pakuje swoje instrumenty, a potem wychodzisz na zewnątrz i znajdujesz ją siedzącą na lądowisku obok twojego statku, obserwującą wschód księżyca nad oceanem. Wydaje się o wiele spokojniejsza.`
 			choice
-				`	(Sit down next to her and try to comfort her.)`
-				`	"What should we do now?"`
+				`	(Usiądź obok niej i spróbuj ją pocieszyć.)`
+				`	"Co powinniśmy teraz zrobić?"`
 					goto last
 			
-			`	You sit on one side of her, and Eyes sits on the other. "It's really admirable, what you're doing," you say. "You're trying to work for peace, and for justice. It's valuable work. Don't lose heart."`
+			`	Siedzisz po jednej stronie, a Eyes po drugiej. "To naprawdę godne podziwu, co robisz," mówisz. "Starasz się działać na rzecz pokoju i sprawiedliwości. To cenna praca. Nie trać nadziei."`
 				goto last
 			
 			label last
-			`	"One more try," she says. "One last world, and then we give up. I want you to take me... there." She points at the moon, hanging just above the horizon.`
-			`	Eyes says, "Mining world. Dusty atmosphere. Frequent meteorite impacts. You could set off a nuke on the far side of that world and the miners would probably sleep right through it."`
+			`	"Jeszcze jedna próba," mówi. "Jeszcze jeden świat i się poddamy. Chcę, żebyś mnie tam zabrał... " Wskazuje na księżyc wiszący tuż nad horyzontem.`
+			`	Eyes mówi, "Świat górniczy. Zapylona atmosfera. Częste uderzenia meteorytów. Można by odpalić bombę atomową na drugim końcu tego świata, a górnicy prawdopodobnie przespaliby to."`
 			choice
-				`	"Okay, I'll take you to this one last world, and then we're done."`
-				`	"Sorry, 'one more world' is what you said two planets ago. I'm done with this."`
+				`	"Okej, zabiorę cię do tego ostatniego świata i wtedy skończymy."`
+				`	"Przepraszam, "jeszcze jeden świat" to to, co mówiłeś dwie planety temu. Mam już tego dość."`
 					decline
-			`	"I promise it will be the last one," says Katya.`
+			`	"Obiecuję, że to będzie ostatni," mówi Katya.`
 				accept
 	
 	on visit
@@ -2153,26 +2153,26 @@ mission "FW Katya 7C"
 	on offer
 		log "Znaleziono dowody testów nuklearnych na Clinku, księżycu górniczym na skraju terytorium Wolnych Światów. Dziwne, że sprawcy pozostawili po sobie tak wyraźne dowody; drony Marynarki Wojennej z pewnością odkryły je przed nami. Katya została, aby spróbować zinfiltrować kompleks górniczy i zebrać więcej informacji."
 		conversation
-			`You land some distance from the mining settlement, and Mr. Eyes goes into the airlock in a pressure suit, cycling it to bring in some of the moon's thin atmosphere for him to test. "Firing up my instruments now," he says through the commlink. There is a long pause, and then he starts spouting a long string of creative profanity. Katya runs over to the airlock window to see what is happening.`
-			`	Finally, Eyes calms down enough to say, "It's a match! Not only has there been a recent test here, but the signature matches the one we took on Geminus. This is it."`
-			`	He cycles the airlock and comes back inside. "Let's fly around and see if we can find the site," he says. After a few hours of flying low over the surface and scanning for radiation signatures, you find a spot that looks like all the other meteorite craters but is full of radiation. Katya and Eyes look at the images of the surface almost in disbelief.`
-			`	"Based on the isotopic decay rates, this explosion happened in mid-June," says Eyes. "Just before the attacks happened."`
-			`	"It makes no sense," says Katya. "It's a blatant atmospheric test. No way the Navy hasn't found this. The Navy could act on this at any moment."`
+			`Lądujesz w pewnej odległości od osady górniczej, a Pan Oczy wchodzi do śluzy powietrznej w skafandrze ciśnieniowym, włączając go, aby wprowadzić trochę rzadkiej atmosfery Księżyca do testów. "Włączam teraz moje instrumenty, " mówi przez komunikator. Zapada długa pauza, a potem zaczyna wygłaszać długi ciąg kreatywnych przekleństw. Katya podbiega do okna śluzy powietrznej, żeby zobaczyć, co się dzieje.`
+			`	W końcu Eyes uspokaja się na tyle, by powiedzieć: "To pasuje! Nie dość, że niedawno odbył się tu test, to podpis pasuje do tego, który zrobiliśmy na Geminusie. To jest to."`
+			`	Otworzył śluzę i wrócił do środka. "Polećmy i zobaczmy, czy znajdziemy to miejsce, "mówi. Po kilku godzinach niskiego lotu nad powierzchnią i skanowania w poszukiwaniu śladów promieniowania, znajdujesz miejsce, które wygląda jak wszystkie inne kratery meteorytowe, ale jest pełne promieniowania. Katya i Eyes patrzą na zdjęcia powierzchni niemal z niedowierzaniem.`
+			`	"Na podstawie szybkości rozpadu izotopowego, eksplozja miała miejsce w połowie czerwca, " mówi Eyes. "Tuż przed atakami."`
+			`	"To nie ma sensu, " mówi Katya. "To ewidentny test atmosferyczny. Nie ma mowy, żeby Marynarka Wojenna tego nie znalazła. Marynarka Wojenna może zareagować w każdej chwili. "`
 			choice
-				`	"What do we do now that we've found the test site?"`
+				`	"Co mamy teraz zrobić, skoro znaleźliśmy miejsce testu?"`
 					goto now
-				`	"So the Free Worlds are behind this! This is one of your planets!"`
+				`	"Więc to Wolne Światy stoją za tym! To jedna z waszych planet!"`
 			
-			`	"Yes, this a Free planet, but this evidence is far too blatant," Eyes responds. "Just because we found a match here doesn't mean this is where all the testing happened. I'm only detecting enough isotopes to account for one explosion, and you wouldn't just test once. If anything, this shows that the Free Worlds are being framed by someone, and they used one nuke here before bombing Geminus and Martini to make it look like it was the Free Worlds who did it."`
-			`	"I swear before God when I say that the Free Worlds have nothing to do with this, Captain," Katya says. "But we'll find whoever is responsible and bring them to justice."`
+			`	"Tak, to wolna planeta, ale te dowody są zbyt oczywiste, " odpowiada Eyes. "To, że znaleźliśmy tu zgodność, nie oznacza, że wszystkie testy odbyły się właśnie tutaj. Wykrywam tylko wystarczającą ilość izotopów, aby wyjaśnić jedną eksplozję, a przecież nie testowałbyś tylko raz. Wręcz przeciwnie, to pokazuje, że Wolne Światy są przez kogoś wrabiane i użyli tu jednej bomby atomowej, zanim zbombardowali Geminus i Martini, żeby wyglądało na to, że to Wolne Światy to zrobiły. "`
+			`	"Przysięgam przed Bogiem, że Wolne Światy nie mają z tym nic wspólnego, Kapitanie, " mówi Katya. "Ale znajdziemy winnego i postawimy go przed sądem. "`
 			
 			label now
-			`	Katya thinks for a moment. "Captain, is the outpost reporting any job openings?"`
-			`	You check your computer. "One job opening, for a janitor in the mess hall."`
-			`	She grimaces. "Okay, it's better than nothing. I'll take the job to go undercover and see what I can find out. You take Eyes to <planet>, where he can get in touch with the Free Worlds Council. I'll find a way to send you a message once I've found the perpetrators."`
-			`	"Katerina," says Eyes, "this is way too dangerous. As I said, if we were able to detect this then so can the Navy, and they probably already have. They could decide to occupy Clink at any moment, and you'd be trapped here with no way out."`
-			`	"There's no other way," she says. "We have no time to lose. I'm willing to risk it."`
-			`	With deep reservations, you drop her off at the outpost. Katya ruffles her hair and rubs some moon dust onto her face to blend in while asking about the job, which she is quickly offered. "Not many folks care to work up here," says the foreman, "so your help would be much appreciated." You and Eyes return to your ship and get ready to travel to <planet> with the evidence.`
+			`	Katya zastanawia się przez chwilę. "Kapitanie, czy placówka zgłasza jakieś wolne stanowiska?"`
+			`	Sprawdzasz swój komputer. "Jedno wolne stanowisko, sprzątacz w stołówce."`
+			`	Skrzywiła się. "Dobra, lepsze to niż nic. Przyjmę zlecenie, żeby działać pod przykrywką i zobaczyć, co uda mi się ustalić. Ty zabierz Eyesa do <planet>, gdzie może skontaktować się z Radą Wolnych Światów. Znajdę sposób, żeby wysłać ci wiadomość, jak tylko znajdę sprawców."`
+			`	"Katerina," mówi Eyes, "to jest zbyt niebezpieczne. Jak już wspomniałem, jeśli my byliśmy w stanie to wykryć, to Marynarka Wojenna też może, i prawdopodobnie już to zrobiła. Mogliby w każdej chwili zdecydować się na okupację Clink, a ty zostałbyś tu uwięziony bez możliwości ucieczki."`
+			`	"Nie ma innego wyjścia," mówi. "Nie mamy czasu do stracenia. Jestem gotowa zaryzykować."`
+			`	Z głębokimi obawami odwozisz ją na placówkę. Katya mierzwi jej włosy i wciera w twarz odrobinę księżycowego pyłu, żeby wtopić się w tłum, jednocześnie pytając o pracę, którą szybko jej proponują. "Niewielu ludzi chce tu pracować, " mówi brygadzista, "więc twoja pomoc byłaby bardzo doceniona. " Ty i Eyes wracacie na statek i przygotowujecie się do podróży do <planet> z dowodami. `
 				accept
 	
 	on visit
@@ -2181,12 +2181,12 @@ mission "FW Katya 7C"
 		payment 250000
 		"assisted free worlds" ++
 		conversation
-			`Eyes has been really quiet for the whole journey; you're sure that he's worried about Katya. When you land, he hands you <payment> and says, "Thank you for all your help, Captain. I pray that this leads to justice being done."`
-			`	He starts to walk off, then comes back. "By the way, Katya wanted to keep this a secret, but I think you should know." He points to the credit chips he just handed you. "Katya's been funding this out of her own pocket. That's the last of her savings that she just paid you."`
+			`Oczy były naprawdę ciche przez całą podróż; jesteś pewien, że martwi się o Katię. Kiedy lądujesz, podaje ci <payment> i mówi: "Dziękuję za całą pomoc, Kapitanie. Modlę się, żeby to doprowadziło do wymierzenia sprawiedliwości."`
+			`	Zaczyna odchodzić, a potem wraca. "A tak przy okazji, Katya chciała zachować to w tajemnicy, ale myślę, że powinieneś wiedzieć." Wskazuje na chipy kredytowe, które ci właśnie wręczył. "Katya sfinansowała to z własnej kieszeni. To ostatnie oszczędności, które ci właśnie zapłaciła."`
 			choice
-				`	"I had no idea."`
-				`	"Wow, she really is dedicated to this work, isn't she?"`
-			`	"She's a unique woman," says Eyes. "I hope we see her again soon. Goodbye for now, <first>."`
+				`	"Nie miałem pojęcia."`
+				`	"Wow, ona naprawdę jest oddana tej pracy, prawda?"`
+			`	"Ona jest wyjątkową kobietą, " mówi Eyes. "Mam nadzieję, że wkrótce ją znowu zobaczymy. Żegnaj, <first>."`
 
 
 
@@ -2214,18 +2214,18 @@ mission "FW Commitment"
 	on offer
 		log "Zostałem zaproszony do Wolnych Światów. To cenna okazja, ale to również szybki sposób, by stać się wrogiem Republiki."
 		conversation
-			`Soon after you land, a courier arrives at your ship and hands you a formal looking letter. It reads:`
+			`Wkrótce po wylądowaniu na twoim statku pojawia się kurier i wręcza ci formalnie wyglądający list. Brzmi on następująco:`
 			``
-			`Dear Captain <last>,`
-			`	The Free Worlds Council would like to thank you for the invaluable assistance you have rendered to us recently. We are prepared to offer you a position as an officer in our militia, remaining in command of your own ship. Your starting salary will be 1,100 credits per diem. If you want to join us, please report to our headquarters on Bourne at your earliest convenience.`
-			`	Sincerely,`
+			`Szanowny Kapitanie <last>,`
+			`	Rada Wolnych Światów pragnie podziękować za nieocenioną pomoc, jakiej nam ostatnio udzieliłeś. Jesteśmy gotowi zaoferować Ci stanowisko oficera w naszej milicji, z zachowaniem dowodzenia własnym statkiem. Twoja początkowa pensja wyniesie 1100 kredytów dziennie. Jeśli chcesz do nas dołączyć, zgłoś się do naszej kwatery głównej na Bourne jak najszybciej.`
+			`	Z poważaniem,`
 			`				Tomek Voigt`
 			`				Jean-Jacques Soleau`
 			`				Freya Winters`
 			`				Alondo Gruyere`
 			`				Katerina Reynolds`
 			``
-			`	You notice that Katya's name is printed, instead of signed like the others; she must still be undercover on Clink.`
+			`	Zauważasz, że imię Katyi jest wydrukowane, zamiast podpisu jak u innych; musi nadal działać pod przykrywką na Clinku.`
 				accept
 
 
@@ -2244,41 +2244,41 @@ mission "Rescue Katya 1"
 	
 	on offer
 		conversation
-			`You are on Bourne, the capital of the Free Worlds. Do you take them up on their job offer and volunteer to officially join them? With tensions between the Free Worlds and Republic so high, it's not unthinkable that they could go to war with one another, so it would be a good idea to have a warship and some spare funds before siding with the Free Worlds.`
+			`Jesteś na Bourne, stolicy Wolnych Światów. Czy przyjmiesz ich ofertę pracy i oficjalnie do nich dołączysz? Przy tak wysokim napięciu między Wolnymi Światami a Republiką, nie jest wykluczone, że mogą ze sobą walczyć, więc dobrym pomysłem byłoby posiadanie okrętu wojennego i trochę zapasowych funduszy, zanim opowiesz się po stronie Wolnych Światów.`
 			choice
-				`	(Yes.)`
-				`	(Not yet.)`
+				`	(Tak.)`
+				`	(Jeszcze nie.)`
 					defer
 			
 			branch mistrust
 				has "fw escort: mistrusted"
 			
-			`	You find the Free Worlds offices and give your name to the person at the front desk. A few minutes later Tomek Voigt, who manages supplies and fleet movements for the Council, comes down the stairs to greet you. "I'm so glad you've agreed to join us, Captain <last>," he says.`
+			`	Znajdujesz biura Wolnych Światów i podajesz swoje nazwisko osobie w recepcji. Kilka minut później Tomek Voigt, który zarządza zaopatrzeniem i ruchami floty w Radzie, schodzi po schodach, żeby cię powitać. "Cieszę się, że zgodziłeś się do nas dołączyć, Kapitanie <last>, " mówi.`
 				goto next
 			
 			label mistrust
-			`	You find the Free Worlds offices and give your name to the person at the front desk. A few minutes later Tomek Voigt, who manages supplies and fleet movements for the Council, comes down the stairs to greet you. "Captain <last>," he says with a stern glare. "If it were up to me alone you would not be standing in front of me today, but it would appear that your continued help has earned you enough good will to surpass my mistrust of you.`
-			`	"But I'm a reasonable man," he continues, his expression changing to a smile. "If my friends trust you, then I will give you a second chance, even if it is against my better judgment. Now please, join us."`
+			`	Znajdujesz biura Wolnych Światów i podajesz swoje nazwisko osobie w recepcji. Kilka minut później Tomek Voigt, który zarządza zaopatrzeniem i ruchami floty w Radzie, schodzi po schodach, aby cię powitać. "Kapitan <last>," mówi z surowym spojrzeniem. "Gdyby to zależało tylko ode mnie, nie stałbyś dziś przede mną, ale wygląda na to, że twoja nieustanna pomoc zasłużyła ci na tyle dobrej woli, że przewyższyła moją nieufność.`
+			`	"Ale ja jestem rozsądnym człowiekiem, " kontynuuje, a jego wyraz twarzy zmienia się w uśmiech. "Jeśli moi przyjaciele ci zaufają, dam ci drugą szansę, nawet jeśli będzie to wbrew mojemu rozsądkowi. A teraz proszę, dołącz do nas. "`
 			
 			label next
-			`	That night you are introduced to the rest of the Council: Alondo Gruyere, the Council's chief diplomat, Freya Winters, an adept engineer and the Council's head of logistics, and Jean-Jacques "JJ" Soleau, an ex-Navy officer who now leads the training of the Free Worlds militias. Katya Reynolds, the final member of the Council, is not present.`
-			`	They take you out to dinner at a very fancy restaurant. Halfway through the third course of the meal, Tomek's communicator beeps. He reaches over to turn it off, then sees the message and turns pale. A hush falls over the table. "<system> has been captured by the Navy," he announces.`
-			`	After a long silence, JJ asks, "How many casualties?"`
-			`	"None," says Tomek. "The Navy claimed that <system> was the source of the terrorist attack, and after they showed the evidence to the militia commander on Deep he surrendered and yielded control of the system to them without a fight."`
+			`	Tej nocy poznajesz resztę Rady: Alondo Gruyere, głównego dyplomatę Rady, Freyę Winters, utalentowaną inżynierkę i szefową logistyki Rady, oraz Jean-Jacquesa "JJ" Soleau, byłego oficera marynarki wojennej, który obecnie kieruje szkoleniem milicji Wolnych Światów. Katya Reynolds, ostatnia członkini Rady, jest nieobecna.`
+			`	Zabierają cię na kolację do bardzo eleganckiej restauracji. W połowie trzeciego dania Tomek piszczy. Sięga, żeby go wyłączyć, po czym widzi wiadomość i blednie. Nad stołem zapada cisza. "<system> został schwytany przez Marynarkę Wojenną, " oznajmia.`
+			`	Po długiej ciszy JJ pyta, "Ile ofiar?"`
+			`	"Żadne," mówi Tomek. "Marynarka Wojenna twierdziła, że <system> był źródłem ataku terrorystycznego, a po tym, jak przedstawili dowody dowódcy milicji na Deep, ten poddał się i oddał im kontrolę nad systemem bez walki."`
 			choice
-				`	"Was Katya still there? We need to rescue her!"`
-				`	"We can't allow them to do that. We should gather our fleets and attack."`
+				`	"Czy Katya nadal tam była? Musimy ją uratować!"`
+				`	"Nie możemy im na to pozwolić. Powinniśmy zebrać nasze floty i zaatakować."`
 					goto attack
 			
-			`	"Indeed," says Freya. "That should be our first priority."`
+			`	"Rzeczywiście," mówi Freya. "To powinno być naszym priorytetem."`
 				goto help
 			
 			label attack
-			`	JJ says, "Calm down, Captain. Combat is our last option, not our first. And if their claim is correct, they were justified in taking the system."`
-			`	Freya says, "Uniting the militias could take weeks. A much more pressing issue is that Katya is still on Clink, unless anyone has heard otherwise from her."`
+			`	JJ mówi: "Spokojnie, Kapitanie. Walka to nasza ostatnia opcja, a nie pierwsza. A jeśli ich twierdzenie jest słuszne, mieli rację, zabierając system."`
+			`	Freya mówi: "Zjednoczenie milicji może zająć tygodnie. Znacznie pilniejszą kwestią jest to, że Katya wciąż jest na Clinku, chyba że ktoś ma od niej inne wieści."`
 			
 			label help
-			`	"Well," says Alondo, "it's a good thing we haven't yet publicly announced that Captain <last> is working for us. Captain, we have one final mission for you as an independent merchant captain. We need you to stop on Clink, locate Katya, and bring her safely to Longjump without being stopped by the Navy."`
+			`	"No cóż, " mówi Alondo, "dobrze, że jeszcze nie ogłosiliśmy publicznie, że kapitan <last> dla nas pracuje. Kapitanie, mamy dla ciebie ostatnią misję jako niezależnego kapitana statku handlowego. Musisz zatrzymać się na Clink, odnaleźć Katyę i bezpiecznie dowieźć ją na Longjump, bez zatrzymania przez Marynarkę Wojenną. "`
 				accept
 	
 	on accept
@@ -2305,39 +2305,39 @@ mission "Rescue Katya 2"
 	
 	on offer
 		conversation
-			`The mining outpost on Clink is swarming with Navy officers; you would guess that they in fact outnumber the miners. You are not sure how you are going to get in there and contact Katya without the Navy noticing.`
+			`W placówce górniczej na Clink roi się od oficerów Marynarki Wojennej; można by się domyślić, że w rzeczywistości jest ich więcej niż górników. Nie masz pewności, jak tam dotrzesz i skontaktujesz się z Katią, żeby Marynarka Wojenna tego nie zauważyła.`
 			choice
-				`	(Wait in my ship and see if she approaches.)`
-				`	(Check if she is waiting for me out by the test site.)`
+				`	(Poczekaj na moim statku i zobacz, czy się zbliży.)`
+				`	(Sprawdź, czy czeka na mnie przy stanowisku testowym.)`
 					goto site
-				`	(Make some excuse to enter the outpost.)`
+				`	(Wymyśl jakiś pretekst, żeby wejść na placówkę.)`
 					goto enter
 			
 			label wait
-			`	You wait on the landing pad for several hours. Katya does not show up. Navy officers in pressure suits walk by your ship about every fifteen minutes, no doubt wondering what you are doing here.`
+			`	Czekasz na lądowisku kilka godzin. Katya się nie pojawia. Oficerowie marynarki wojennej w skafandrach ciśnieniowych przechodzą obok twojego statku mniej więcej co piętnaście minut, bez wątpienia zastanawiając się, co tu robisz.`
 			choice
-				`	(Check if she is waiting for me out by the test site.)`
-				`	(Make some excuse to enter the outpost.)`
+				`	(Sprawdź, czy czeka na mnie przy stanowisku testowym.)`
+				`	(Wymyśl jakiś pretekst, żeby wejść na placówkę.)`
 					goto enter
-				`	(Give up and report my failure to the Council.)`
+				`	(Poddaj się i zgłoś moją porażkę Radzie.)`
 					goto fail
 			
 			label site
-			`	You fly over the test site scanning for life signs or energy signatures, but there is nothing. And, there is little chance that Katya could be living out here for long, because she would need an oxygen source.`
+			`	Przelatujesz nad miejscem testowym, skanując je w poszukiwaniu oznak życia lub sygnatur energetycznych, ale nic nie znajdujesz. I jest mało prawdopodobne, żeby Katya mogła tu długo mieszkać, bo potrzebowałaby źródła tlenu.`
 			choice
-				`	(Wait on the landing pad and see if she approaches.)`
+				`	(Poczekaj na lądowisku i zobacz, czy się zbliży.)`
 					goto wait
-				`	(Make some excuse to enter the outpost.)`
-				`	(Give up and report my failure to the Council.)`
+				`	(Wymyśl jakiś pretekst, żeby wejść na placówkę.)`
+				`	(Poddaj się i zgłoś moją porażkę Radzie.)`
 					goto fail
 			
 			label enter
-			`	You put on a pressure suit, leave your ship, and approach the outpost. As soon as you step through the airlock you are stopped by a Navy officer. "What is your business here?" he asks.`
-			`	"My brother is a miner here," you say. "Our mother sent me to check on him."`
-			`	The officer says, "Don't worry, no one here has been hurt, and they will all be free to continue their work shortly. But for now, I'm going to have to ask you to leave this world." He calls over several guards who are wearing pressure suits; they escort you to your ship and command you to take off.`
+			`	Zakładasz skafander ciśnieniowy, opuszczasz statek i zbliżasz się do placówki. Gdy tylko przejdziesz przez śluzę powietrzną, zatrzymuje cię oficer marynarki wojennej. "Co cię tu sprowadza?" pyta.`
+			`	"Mój brat jest tu górnikiem, " mówisz. "Nasza matka wysłała mnie, żebym go sprawdził."`
+			`	Oficer mówi: "Nie martw się, nikt tutaj nie został ranny i wkrótce wszyscy będą mogli kontynuować pracę. Ale na razie muszę cię poprosić o opuszczenie tego świata." Przywołuje kilku strażników w skafandrach ciśnieniowych; eskortują cię do twojego statku i nakazują ci start.`
 			
 			label fail
-			`	You have no choice but to head back to <planet> without Katya. The Council is going to be very disappointed.`
+			`	Nie masz wyboru i musisz wrócić do <planet> bez Katii. Rada będzie bardzo rozczarowana.`
 				launch
 	
 	on accept
@@ -2362,29 +2362,29 @@ mission "Defend Sabik"
 		event "start of hostilities"
 		event "joined the free worlds"
 		conversation
-			`When you land on <planet>, you discover that Tomek has already found transportation here; he meets you almost as soon as your ship lands. When you step out of the hatch alone, without Katya, he turns away in grief. "I'm sorry," you say, "I couldn't locate her. The whole place is under guard."`
-			`	"Very well," he says, "we'll have to pray that she's still hidden there somewhere. In the meantime, we need to make your allegiance official so that you can fight alongside us if it comes to that."`
-			`	He is carrying a paintbrush and a very large can of green paint. "Would you like to do the honors?" he asks.`
+			`Kiedy lądujesz na <planet>, odkrywasz, że Tomek już znalazł tu transport; spotyka cię niemal natychmiast po wylądowaniu twojego statku. Kiedy wychodzisz z luku sama, bez Katyi, odwraca się z żalem. "Przepraszam, "mówisz, "Nie mogłem jej znaleźć. Całe miejsce jest pod strażą. "`
+			`	"Dobrze, "mówi, "musimy się modlić, żeby gdzieś tam się ukrywała. W międzyczasie musimy oficjalnie potwierdzić twoją lojalność, żebyś mógł walczyć u naszego boku, jeśli zajdzie taka potrzeba."`
+			`	Niesie pędzel i bardzo dużą puszkę zielonej farby. "Czy zechciałbyś/chciałabyś wykonać ten gest?" pyta.`
 			choice
-				`	"Sure."`
+				`	"Pewnie."`
 					goto paint
-				`	"I can't just keep flying merchant colors?"`
+				`	"Nie mogę po prostu nadal nosić bandery kupieckiej?"`
 			
-			`	"No," he says, "it would be dishonest, and if you were to fight alongside us you would be classified as a partisan, a criminal rather than an enemy combatant. Believe it or not, you're better off as an official prisoner of war than as a partisan, if you ever do get captured. So, time to start painting."`
+			`	"Nie," mówi, "to byłoby nieuczciwe, a gdybyś walczył u naszego boku, zostałbyś zaklasyfikowany jako partyzant, przestępca, a nie wrogi bojownik. Wierz lub nie, ale lepiej ci będzie jako oficjalnemu jeńcowi wojennemu niż partyzantowi, jeśli kiedykolwiek zostaniesz schwytany. Czas więc zacząć malować."`
 			
 			label paint
-			`	You take the paintbrush, climb on top of your ship, and begin painting it in the green and gold of the Free Worlds. Suddenly you hear a cheer from one of the other ships parked nearby; someone has seen what you are doing and is shouting, "For freedom! Another ship for freedom!" Soon several other people see you, and before long it seems like everyone in the port has picked up the cheer.`
-			`	Tomek stands by, silently, until you finish, and then approaches you with an outstretched arm holding onto a license. "Here. You're going to need this. I'm sure your assistance will be invaluable to our cause," he says as you accept the militia license. "Now if you'll excuse me, I must gather the militia for the coming battle."`
+			`	Bierzesz pędzel, wspinasz się na swój statek i zaczynasz malować go na zielono i złoto Wolnych Światów. Nagle słyszysz wiwat z jednego z innych statków zacumowanych w pobliżu; ktoś widział, co robisz i krzyczy: "Za wolność! Kolejny statek za wolność!" Wkrótce dostrzega cię kilka innych osób i wkrótce wydaje się, że wszyscy w porcie podchwycili wiwat.`
+			`	Tomek stoi w milczeniu, aż skończysz, a potem podchodzi do ciebie z wyciągniętą ręką, trzymając licencję. "Proszę. Będzie ci to potrzebne. Jestem pewien, że twoja pomoc będzie nieoceniona dla naszej sprawy, " mówi, gdy odbierasz licencję milicji. "A teraz wybacz, muszę zebrać milicję na nadchodzącą bitwę. "`
 			choice
-				`	(Let him go.)`
+				`	(Puść go.)`
 					goto end
-				`	"I've never worked with another fleet in battle, what advice can you offer?"`
-			`	He stops his turn to leave. "Of course, you probably haven't spent much time in a militia fleet defending a planet or system." After a few moments of thought, he continues, "When fighting alongside a large fleet, it's usually best to work in groups, fire on the same targets as everyone else. You'll see the ships around you working together to disable a single target at a time, instead of everyone trying to run their own one-on-one fights. We don't expect you to defeat every Navy ship yourself. And, try not to get too close to their ships, either; you probably don't want a group all choosing to target you." He pauses for a moment. "Though, if you're feeling brave, you could try to get a large group of ships to follow you and lead them on a wild goose chase, leaving a smaller force for everyone else to deal with before moving on to your group. It'll be a short chase, however, if you can't stay out of their weapon range and evade their missiles. If it comes to defending this system in particular, the Navy may send additional ships after the initial wave. They will most likely arrive from Kornephoros, so being in their line of fire, on that side of the system, before they arrive is also something to avoid.`
-			`	"Now, I really do need to go get everyone else ready."`
+				`	"Nigdy nie walczyłem z inną flotą. Jakie rady możesz mi dać?"`
+			`	Przerywa turę, żeby odejść. "Oczywiście, prawdopodobnie nie spędziłeś dużo czasu we flocie milicji, broniąc planety lub układu." Po chwili namysłu kontynuuje: "Walcząc ramię w ramię z dużą flotą, zazwyczaj najlepiej jest działać w grupach, strzelając do tych samych celów, co wszyscy inni. Zobaczysz, że statki wokół ciebie współpracują, aby unieszkodliwić pojedynczy cel na raz, zamiast żeby każdy próbował walczyć sam. Nie oczekujemy, że pokonasz każdy okręt marynarki wojennej osobiście. Staraj się też nie zbliżać zbytnio do ich okrętów; prawdopodobnie nie chcesz, żeby cała grupa zdecydowała się cię zaatakować." Na chwilę milknie. "Chociaż, jeśli czujesz się odważny, możesz spróbować zmusić dużą grupę statków, aby podążała za tobą i poprowadziła ich w dzikim pościgu, zostawiając mniejszą siłę, z którą wszyscy inni będą musieli się rozprawić, zanim przejdziesz do swojej grupy. To będzie jednak krótki pościg, jeśli nie uda się pozostać poza zasięgiem ich broni i uniknąć pocisków. Jeśli chodzi o obronę tego systemu, Marynarka Wojenna może wysłać dodatkowe okręty po pierwszej fali. Najprawdopodobniej przybędą one z Korneforos, więc znalezienie się na ich linii ognia, po tej stronie systemu, przed ich przybyciem, również jest czymś, czego należy unikać.`
+			`	"Teraz naprawdę muszę przygotować wszystkich innych."`
 			label end
-			`	You find that the militia are collecting at the spaceport bar. Some congratulate you on joining the Free Worlds, but most are standing around quietly, waiting for something to happen. More gather as time goes by, to the point that the bar becomes overcrowded and militia are waiting in the streets outside the building.`
-			`	An hour later, while standing outside the bar, you look up and notice the flashing lights of ship weapons fire off in the distance above the planet. Some militia begin running to their ships, but most stand there like a deer in headlights. Just then, Tomek returns with a megaphone and begins shouting orders. "The Navy has entered the system! We can't let them take it, or they'll have us completely bottled up. This is where it begins. We need to fight! Get to your ships, quickly! We have more reinforcements on their way from deeper in the Rim!`
-			`	"And if you can, disable their ships instead of destroying them. These are Navy ships, after all, and most of them don't want war any more than we do. Now go! Your worlds need you!" You hurry to join all the other ships taking off to defend the system.`
+			`	Widzisz, że milicja zbiera się przy barze w porcie kosmicznym. Niektórzy gratulują ci dołączenia do Wolnych Światów, ale większość stoi cicho, czekając na jakieś wydarzenie. Z czasem przybywa ich więcej, aż w końcu bar robi się przepełniony, a milicja czeka na ulicach przed budynkiem.`
+			`	Godzinę później, stojąc przed barem, spoglądasz w górę i dostrzegasz błyski broni okrętowej rozpalające się w oddali nad planetą. Część milicjantów zaczyna biec do swoich statków, ale większość stoi jak jeleń w świetle reflektorów. Właśnie wtedy Tomek wraca z megafonem i zaczyna krzyczeć rozkazy. "Marynarka wkroczyła do systemu! Nie możemy im pozwolić go przejąć, bo nas całkowicie zamkną. Tu się zaczyna. Musimy walczyć! Szybko do swoich statków! Nadciągają kolejne posiłki z głębi Rubieży!`
+			`	"A jeśli możesz, unieszkodliw ich statki zamiast je niszczyć. To w końcu okręty marynarki wojennej i większość z nich nie chce wojny bardziej niż my. A teraz do dzieła! Wasze światy was potrzebują!" Spieszycie się, by dołączyć do wszystkich innych statków startujących w obronie systemu.`
 				launch
 	
 	on accept

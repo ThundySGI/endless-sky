@@ -19,38 +19,38 @@ mission "FW Epilogue: Ijs and Katya"
 	
 	on offer
 		conversation
-			`You are on <origin>, home to the Free Worlds Conservatory where Ijs is on faculty as a professor. Would you like to visit him and see how he is doing?`
+			`Jesteś na <origin>, w Konserwatorium Wolnych Światów, gdzie Ijs wykłada jako profesor. Czy chciałbyś go odwiedzić i zobaczyć, jak się miewa?`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(Tak.)`
+				`	(Nie teraz.)`
 					defer
-			`	While looking Ijs up in the campus directory, you notice something else: Katya is listed in the directory too, as "Visiting Professor of Civics and Economics." You give Ijs a call and ask if he and Katya would like to meet up with you for dinner, and they readily agree.`
-			`	When you join them at the restaurant, Katya says, "It's really great to see you again, <first>."`
-			`	"Not to mention," says Ijs, "it's great to have an excuse to eat somewhere other than the student center for once. How has life been treating you, <first>?"`
+			`	Podczas wyszukiwania Ijs w spisie kampusu, zauważasz coś jeszcze: Katya jest również wymieniona w spisie jako "Profesor wizytujący nauk o społeczeństwie i ekonomii." Dzwonisz do Ijsa i pytasz, czy on i Katya chcieliby spotkać się z tobą na kolacji, a oni chętnie się zgadzają.`
+			`	Kiedy do nich dołączasz w restauracji, Katya mówi: "Naprawdę miło cię znowu widzieć, <first>."`
+			`	"Nie wspominając już o tym, " mówi Ijs, "to wspaniale mieć pretekst, żeby zjeść gdzieś indziej niż w centrum studenckim. Jak ci się układa życie, <first>?"`
 			choice
-				`	"I miss the excitement of the work we did together, but other than that life is great."`
+				`	"Tęsknię za ekscytacją, jaką towarzyszyła nam wspólna praca, ale poza tym życie jest wspaniałe."`
 					goto excitement
-				`	"It's kind of hard to adjust to civilian life."`
+				`	"Trudno jest przystosować się do życia cywilnego."`
 					goto adjust
-				`	"I want to explore the rest of the galaxy, but apparently that part of the game hasn't been fully implemented yet."`
+				`	"Chcę zwiedzić resztę galaktyki, ale najwyraźniej ta część gry nie została jeszcze w pełni zaimplementowana."`
 					goto game
 			
 			label excitement
-			`	"I understand that feeling," says Katya. "But, just remind yourself, this is what we fought for. For peace. For a world where no one has to fear for their lives."`
+			`	"Rozumiem to uczucie, " mówi Katya. "Ale przypomnij sobie, o to właśnie walczyliśmy. O pokój. O świat, w którym nikt nie musi się bać o swoje życie. "`
 				goto end
 			
 			label adjust
-			`	"Tell me about it," laughs Katya. "I can hardly believe I'm now a professor. Or at least, acting as one. But after so much fighting, and so much time alone and imprisoned, for me it feels good to finally be able to relax, to let go of the idea that the galaxy will fall apart without me."`
+			`	"Opowiedz mi o tym," śmieje się Katya. "Nie mogę uwierzyć, że jestem teraz profesorem. A przynajmniej, że się za niego biorę. Ale po tylu walkach, po tylu latach samotności i uwięzienia, dobrze jest w końcu móc się zrelaksować, zapomnieć o myśli, że galaktyka rozpadnie się beze mnie."`
 				goto end
 			
 			label game
-			`	"Whoops," says Ijs, "now you've done it, there goes the fourth wall."`
-			`	Katya laughs. "Well, there's already lots beyond human space to see, and I'm sure you can find more things to do out there as well as closer to home. If you're so eager to explore more of the galaxy, <first>, or to discover what new adventures it has to offer, maybe you should volunteer to help out with creating the stories to populate it. This is an open source game after all, and it relies on people like you to bring it to life."`
+			`	"Ups," mówi Ijs, "teraz, gdy to zrobiłeś, czwarta ściana znika."`
+			`	Katya się śmieje. "Cóż, poza ludzką przestrzenią jest już mnóstwo do zobaczenia i jestem pewna, że znajdziesz więcej rzeczy do zrobienia tam, jak i bliżej domu. Jeśli tak bardzo chcesz eksplorować galaktykę, <first> lub odkryć nowe przygody, jakie ma do zaoferowania, może powinieneś zgłosić się na ochotnika do pomocy w tworzeniu historii, które ją zapełnią. W końcu to gra open source i opiera się na ludziach takich jak ty, którzy ją ożywią."`
 				goto end
 			
 			label end
-			`	Your dinner arrives, and you spend a pleasant evening eating together and reminiscing about old times. Back in the days of the civil war, neither Katya nor Ijs were people who smiled or laughed easily. Now, however, they have an entirely different air about them, peaceful and contented. It's heartening to see that they, at least, have found a happy ending together after all the chaos you lived through.`
-			`	Suddenly you realize that around you, the restaurant workers are sweeping the floors and putting chairs up on tables: it's closing time, and you are the last ones there. "Well <first>," says Ijs, "it was good of you to stop by, and I wish you the best in your journeys among the stars. Give our regards to the others if you see them." You wish them well, and return to your ship.`
+			`	Przybywają na kolację i spędzacie miły wieczór, jedząc razem i wspominając dawne czasy. W czasach wojny domowej ani Katya, ani Ijs nie byli ludźmi, którzy łatwo się uśmiechali i śmiali. Teraz jednak emanują z nich zupełnie inne oblicze - spokojni i zadowoleni. To budujące, że przynajmniej oni znaleźli wspólne szczęśliwe zakończenie po całym chaosie, który przeżyliście.`
+			`	Nagle uświadamiasz sobie, że wokół ciebie pracownicy restauracji zamiatają podłogi i ustawiają krzesła na stołach: zbliża się godzina zamknięcia, a ty jesteś tam ostatni. "No cóż <first>," mówi Ijs, "miło z twojej strony, że wpadłeś i życzę ci powodzenia w podróżach międzygwiezdnych. Pozdrów od nas pozostałych, jeśli ich spotkasz." Życzysz im powodzenia i wracasz na swój statek.`
 				decline
 
 
@@ -69,31 +69,31 @@ mission "FW Epilogue: Alondo"
 	
 	on offer
 		conversation
-			`As you're coming in for a landing on Bourne, you receive a message from Alondo. "<first>!" he says. "I just heard that you were in system. Want to meet up for a drink and talk about old times?"`
+			`Podczas lądowania na Bourne'ie otrzymujesz wiadomość od Alondo. "<first>!" mówi. "Właśnie usłyszałem, że jesteś w systemie. Chcesz się spotkać na drinka i pogadać o starych czasach?"`
 			choice
-				`	"Sure, I'd be glad to."`
-				`	"Sorry, I'm busy right now."`
+				`	"Oczywiście, z chęcią."`
+				`	"Przepraszam, jestem teraz zajęty."`
 					defer
-			`	You meet up with Alondo at a local pub. He tells you that his life has continued to be quite full since the war ended and the Council was dissolved: he's been placed in charge of the Free Worlds diplomatic corps, whose main job appears to be to make sure all the individual planets feel like their concerns are being listened to. "It means lots of travel," he says, "and lots of fine meals with important people. And they're always interested to hear my stories from the war times."`
-			`	You tell Alondo a bit about what you've been doing since the war ended. "Of course," he says, "you're traveling the galaxy. I knew from the start you weren't the kind who would quickly put down roots on a single planet."`
-			`	Alondo goes on to describe some of the inner workings of the Free Worlds Senate, and the mutual defense arrangement that forms the backbone of the government. "For a while there," he says, "it felt like there was so much bureaucracy that we couldn't get anything done, but now it's finally starting to function in the way all of us imagined. Quite an honor to have had a hand in the birth of a new government."`
+			`	Spotykasz się z Alondo w lokalnym pubie. Opowiada ci, że jego życie jest nadal pełne wrażeń od zakończenia wojny i rozwiązania Rady: został mianowany dowódcą korpusu dyplomatycznego Wolnych Światów, którego głównym zadaniem wydaje się być dbanie o to, by wszystkie planety czuły, że ich potrzeby są brane pod uwagę. "To oznacza dużo podróży, " mówi, "i mnóstwo wyśmienitych posiłków z ważnymi osobistościami. I zawsze są zainteresowani moimi opowieściami z czasów wojny. "`
+			`	Opowiedz Alondo trochę o tym, co robiłeś od zakończenia wojny. "Oczywiście, "mówi, "podróżujesz po galaktyce. Od początku wiedziałem, że nie jesteś typem, który szybko zapuści korzenie na jednej planecie. "`
+			`	Alondo dalej opisuje wewnętrzne funkcjonowanie Senatu Wolnych Światów i mechanizm wzajemnej obrony, który stanowi trzon rządu. "Przez jakiś czas, " mówi, "czuliśmy się tak rozrośnięci biurokracją, że nie mogliśmy nic zrobić, ale teraz w końcu zaczyna to działać tak, jak sobie wszyscy wyobrażaliśmy. To wielki zaszczyt mieć udział w powstaniu nowego rządu. "`
 			choice
-				`	"Spoken like a true bureaucrat."`
+				`	"Mówi jak prawdziwy biurokrata."`
 					goto bureaucrat
-				`	"I really do hope the Free Worlds can live up to our original vision of justice and equality."`
+				`	"Naprawdę mam nadzieję, że Wolne Światy będą w stanie sprostać naszej pierwotnej wizji sprawiedliwości i równości."`
 					goto vision
 			
 			label bureaucrat
-			`	"Fair enough," he says, "but I really do believe we've created a government here that is less prone to the inequalities that they're still struggling with in the Republic."`
+			`	"W porządku," mówi, "ale naprawdę wierzę, że stworzyliśmy tu rząd, który jest mniej podatny na nierówności, z którymi nadal zmagają się w Republice."`
 				goto end
 			
 			label vision
-			`	"Me too," he says. "We've got a good start, but then again, so did the Republic, back in the day."`
+			`	"Ja też, " mówi. "Mamy dobry początek, ale z drugiej strony, Republika też kiedyś tak miała."`
 				goto end
 			
 			label end
-			`	He is quiet for a moment, and then says, "I guess that's why I'm still here in the thick of things, instead of just settling down somewhere and leaving public life behind. I don't believe society or government just naturally becomes good or stays good without effort. So I'm here to speak up when we start to stray from our original vision."`
-			`	You sit and talk with each other for quite a while longer, reminiscing about old times. Then, you wish him well in his work, and he tells you to stop by and say hello any time you're in the area. You head back to your ship.`
+			`	Przez chwilę milczy, a potem mówi: "Chyba właśnie dlatego wciąż jestem w samym środku wydarzeń, zamiast po prostu gdzieś się ustatkować i zostawić życie publiczne. Nie wierzę, że społeczeństwo czy rząd same z siebie stają się dobre lub pozostają dobre bez wysiłku. Dlatego jestem tu, by zabrać głos, gdy zaczynamy odchodzić od naszej pierwotnej wizji."`
+			`	Siedzicie i rozmawiacie ze sobą jeszcze przez dłuższą chwilę, wspominając stare czasy. Potem życzysz mu powodzenia w pracy, a on prosi, żebyś wpadł i przywitał się, kiedy tylko będziesz w okolicy. Wracasz na swój statek.`
 				decline
 
 
@@ -106,90 +106,90 @@ mission "FW Epilogue: Freya"
 	
 	on offer
 		conversation
-			`When you land on <origin>, you head into the city to explore a bit and to find out if the Navy and the others who have come here after them have had any luck in unlocking the secrets of this place. Already, it appears that some of the empty apartments have become actual living quarters for people, and there are even a handful of shops opening up on the main street.`
-			`	In one of those shops, you run into Freya. "<first>!" she says. "It's good to see you again. I hear that Parliament named you an official war hero or something. Much better than being a wanted fugitive, huh?"`
+			`Gdy wylądujesz na <origin>, udasz się do miasta, aby trochę pozwiedzać i dowiedzieć się, czy Marynarce Wojennej i innym, którzy przybyli tu po nich, udało się odkryć sekrety tego miejsca. Wygląda na to, że niektóre puste mieszkania stały się już prawdziwymi mieszkaniami, a przy głównej ulicy otwiera się nawet kilka sklepów.`
+			`	W jednym z tych sklepów wpadasz na Freyę. "<first>!" mówi. "Miło cię znowu widzieć. Słyszałem, że Parlament nadał ci tytuł bohatera wojennego czy coś. Znacznie lepiej niż być poszukiwanym zbiegiem, co?"`
 			choice
-				`	"Yes, it's quite an honor."`
+				`	"Tak, to dla mnie wielki zaszczyt."`
 					goto honor
-				`	"Yes, it's hard to know what to do with myself now that no one wants to kill me."`
+				`	"Tak, trudno mi teraz wiedzieć, co ze sobą zrobić, skoro nikt nie chce mnie zabić."`
 					goto kill
 			
 			label honor
-			`	"Right. Just remember, none of it would have happened without me, okay? Not that I have any desire to be a hero; that sort of public attention would be pretty much my worst nightmare."`
+			`	"Dobrze. Pamiętaj tylko, że nic z tego nie wydarzyłoby się beze mnie, okej? Nie żebym miał ochotę być bohaterem; taka publiczna uwaga byłaby moim najgorszym koszmarem."`
 				goto next
 			
 			label kill
-			`	"Well, I'm sure you can find something interesting to do," she says. "Go fight some pirates. Or become a business mogul and get filthy rich. Whatever floats your boat."`
+			`	"Cóż, na pewno znajdziesz coś ciekawego do roboty, " mówi. "Idź walczyć z piratami. Albo zostań potentatem biznesowym i zdobądź obrzydliwie dużo fortuny. Cokolwiek ci się podoba."`
 				goto next
 			
 			label next
-			`	"What have you found out about the Pug?" you ask.`
-			`	"Not much," she says. "The wormhole doesn't seem to lead to their real home; it's just another red herring. The real breakthrough, of course, would be if we could find some hints in the stuff they left behind about how to build more jump drives of our own. But so far, we can't even figure out how to create new hyperspace links where there wasn't one originally. I'm starting to think that those graviton transmitters we used were just one more game - a toy, not the real thing. Not what created the links in the first place, I mean, unless they were created by someone with the patience to wait a million years for them to work."`
+			`	"Czego dowiedziałeś się o Pugu?" pytasz.`
+			`	"Niewiele," mówi. "Tunel czasoprzestrzenny najwyraźniej nie prowadzi do ich prawdziwego domu; to tylko kolejny mylący trop. Prawdziwym przełomem byłoby oczywiście znalezienie w pozostawionych przez nich materiałach wskazówek, jak zbudować więcej własnych napędów skokowych. Ale jak dotąd nie potrafimy nawet wymyślić, jak tworzyć nowe połączenia hiperprzestrzenne, których pierwotnie nie było. Zaczynam myśleć, że te nadajniki grawitonowe, których używaliśmy, były po prostu kolejną zabawą - zabawką, a nie prawdziwym przedmiotem. Nie to, co pierwotnie stworzyło te połączenia, to znaczy, chyba że stworzył je ktoś, kto miał cierpliwość, żeby czekać milion lat, aż zaczną działać."`
 			choice
-				`	"Have you found any other interesting technology?"`
+				`	"Czy znalazłeś jakąś inną ciekawą technologię?"`
 					goto technology
-				`	"Any more hints about who the Pug were and what they wanted?"`
+				`	"Czy masz jeszcze jakieś wskazówki, kim byli Pug i czego chcieli?"`
 					goto pug
 			
 			label technology
-			`	"Some," she says. "Everything they left behind is like, well... an educational toy. Like some absent parent left behind a super-advanced chemistry set for their kids to play with. That's how all the artifacts we find here feel - not like the real thing that the Pug would have used, but like a simplified model that they gave us to help us figure it out. Everything they left behind, I'm convinced they left intentionally, because it could teach us something they wanted us to know, while keeping all their true secrets secret. The rest of you moved on, and I'm still here playing their game."`
+			`	"Niektóre," mówi. "Wszystko, co po sobie zostawili, jest jak, no cóż... zabawka edukacyjna. Jakby jakiś nieobecny rodzic zostawił superzaawansowany zestaw chemiczny dla swoich dzieci do zabawy. Tak właśnie odczuwam wszystkie artefakty, które tu znajdujemy - nie jak prawdziwy przedmiot, którego używałby Pug, ale jak uproszczony model, który nam dali, żeby pomóc nam go rozgryźć. Jestem przekonany, że wszystko, co po sobie zostawili, zrobili to celowo, bo mogło nas to nauczyć czegoś, co chcieli, żebyśmy wiedzieli, jednocześnie zachowując w tajemnicy wszystkie swoje prawdziwe sekrety. Reszta z was odeszła, a ja wciąż tu jestem i gram w ich grę."`
 				goto end
 			
 			label pug
-			`	"Not much," she says. "This world - it feels like when you're visiting a friend's house, and they spent the whole day cleaning up for you. It's not like a person's home is when you drop by unannounced. Nothing's out of place. Everything that's lying out somewhere, is something they wanted you to see. There's some weird technology they left behind, but all of it is like toys, puzzles... I don't know, like an educational game they designed for us to play. The rest of you moved on, and I'm still here playing their game."`
+			`	"Niewiele," mówi. "Ten świat - to jak wizyta u znajomego, który cały dzień sprzątał. To nie jest dom, do którego wpadasz bez zapowiedzi. Nic nie jest nie na swoim miejscu. Wszystko, co gdzieś leży, to coś, co chcieli ci pokazać. Zostawili po sobie jakąś dziwną technologię, ale to wszystko jest jak zabawki, puzzle... Nie wiem, jak gra edukacyjna, w którą nas zaprojektowali. Reszta z was odeszła, a ja wciąż tu jestem i gram w ich grę."`
 				goto end
 			
 			label end
 			choice
-				`	"You sound frustrated."`
-				`	"You know, the war is over, you can relax if you want to."`
-			`	"I know, I know," she says. "I complain, but really there's nowhere else I would rather be. Even if everything we're discovering here is nothing more than what they intended for us to discover, it's still the most interesting work I could possibly be doing right now. So, don't feel sorry for me. Really."`
+				`	"Brzmisz na sfrustrowanego."`
+				`	"Wiesz, wojna się skończyła, możesz się zrelaksować, jeśli chcesz."`
+			`	"Wiem, wiem, " mówi. "Narzekam, ale tak naprawdę nie ma innego miejsca, w którym wolałbym być. Nawet jeśli wszystko, co tu odkrywamy, to nic więcej niż to, co mieli dla nas odkryć, to i tak jest to najciekawsza praca, jaką mógłbym teraz wykonywać. Więc nie współczujcie mi. Naprawdę. "`
 			branch surname
 				has "last name: Winters"
-			`	You talk for a while longer, and she tells you she'll be sure to be in touch if they ever get to the root of the Pug's motivation. "Until then," she says, "good luck in your travels. I hope the galaxy never runs out of ways to surprise you."`
+			`	Rozmawiacie jeszcze chwilę, a ona mówi, że na pewno się odezwie, jeśli kiedykolwiek dotrą do sedna motywacji Puga. "Do tego czasu, " mówi, "powodzenia w podróżach. Mam nadzieję, że galaktyce nigdy nie zabraknie sposobów, by cię zaskoczyć. "`
 				decline
 
 			label surname
-			`	"By the way, can I ask you something, <first>? About you? Sorry if this is rather abrupt. I've been too busy to talk during the war."`
+			`	"A tak przy okazji, mogę cię o coś zapytać, <first>? O ciebie? Przepraszam, jeśli to dość oschłe. Byłem zbyt zajęty, żeby rozmawiać podczas wojny."`
 			choice
-				`	"Sure. What is it?"`
+				`	"Jasne. O co chodzi?"`
 					goto permitted
-				`	"Sorry, I'd prefer if you didn't."`
+				`	"Przepraszam, wolałbym, żebyś tego nie zrobił."`
 					goto conclusion
 			
 			label permitted
-			`	"Do you happen to know anyone named Lavinia? Married to someone named Marcus?"`
-			`	Both names sound oddly familiar, but you can't remember where you heard them.`
+			`	"Czy znasz kogoś o imieniu Lavinia? Jest żoną Marcusa?"`
+			`	Obie nazwy brzmią dziwnie znajomo, ale nie możesz sobie przypomnieć, gdzie je słyszałeś.`
 			choice
-				`	"I think so, but I need a minute to remember exactly who."`
+				`	"Myślę, że tak, ale potrzebuję chwili, żeby sobie przypomnieć, kto to dokładnie był."`
 					goto heritage
-				`	"No, I don't."`
+				`	"Nie, nie mam."`
 				
 			label denial
-			`	"Oh, okay. I think I've been mistaken, then. Never mind."`
+			`	"Och, okej. Chyba się pomyliłem. Nieważne."`
 				goto conclusion
 			label heritage
-			`	You try to recall exactly where you've heard those names before, racking your brain for any information on these vaguely familiar names, then all of a sudden, it hits you. Marcus and Lavinia were two of your great-grandparents. You wonder why someone you've never met until around the time you joined the Free Worlds is suddenly asking about your ancestors. Maybe she was thinking of a different Marcus and Lavinia.`
-			`	"Yeah, I do know a Marcus and Lavinia, but they're my great-grandparents. Are you sure you're asking the right person?" you ask.`
-			`	"Oh my God," Freya says. "I can't believe it."`
-			`	"What?"`
-			`	"I think we're related. Second cousins. Marcus and Lavinia Winters are also my great-grandparents."`
+			`	Próbujesz sobie przypomnieć, gdzie dokładnie słyszałeś te imiona, łamiąc sobie głowę nad informacjami o tych mgliście znajomych imionach, aż nagle cię olśniło. Marcus i Lavinia byli twoimi pradziadkami. Zastanawiasz się, dlaczego ktoś, kogo nie znałeś aż do momentu dołączenia do Wolnych Światów, nagle pyta o twoich przodków. Może miała na myśli innego Marcusa i Lavinię.`
+			`	"Tak, znam Marcusa i Lavinię, ale to moi pradziadkowie. Jesteś pewien, że pytasz właściwą osobę? " pytasz.`
+			`	"O mój Boże," mówi Freya. "Nie mogę w to uwierzyć."`
+			`	"Co?"`
+			`	"Myślę, że jesteśmy spokrewnieni. Kuzyni drugiego stopnia. Marcus i Lavinia Winters są również moimi pradziadkami."`
 			choice
-				`	"Really?"`
+				`	"Naprawdę?"`
 					goto disbelief
-				`	"Well, then, hello, cousin. Nice to meet you."`
+				`	"No to cześć, kuzynie. Miło cię poznać."`
 					goto joke
 			label disbelief
-			`	"Yeah, I can hardly believe it myself. I think it's nice, though. A pleasant surprise." You agree.`
+			`	"Tak, sam nie mogę w to uwierzyć. Ale myślę, że to miłe. Miła niespodzianka." Zgadzasz się.`
 				goto conclusion
 
 			label joke
-			`	"Heh. Nice to meet you, too. Looks like we brought some prestige to the Winters family name, haven't we, cousin?"`
-			`	You both laugh at her reply.`
-			`	"Never thought I'd go about saving the galaxy with a second cousin I'd never met," she continues, "but in a war where some previously-unknown hyperlane-manipulating aliens intervene to try and make both sides unite, I guess anything's possible."`
+			`	"Heh. Miło mi cię poznać. Wygląda na to, że przynieśliśmy trochę prestiżu nazwisku Winters, prawda, kuzynie?"`
+			`	Oboje śmiejecie się z jej odpowiedzi.`
+			`	"Nigdy nie sądziłam, że będę ratować galaktykę z kuzynem drugiego stopnia, którego nigdy nie spotkałam - kontynuuje - "ale w wojnie, w której interweniują nieznani wcześniej kosmici manipulujący nadprzestrzenią, próbując zjednoczyć obie strony, myślę, że wszystko jest możliwe."`
 
 			label conclusion
-			`	You talk for a while longer, and she tells you she'll be sure to be in touch if they ever get to the root of the Pug's motivation. "Until then," she says, "good luck in your travels. I hope the galaxy never runs out of ways to surprise you."`
+			`	Rozmawiacie jeszcze chwilę, a ona mówi, że na pewno się odezwie, jeśli kiedykolwiek dotrą do sedna motywacji Puga. "Do tego czasu, " mówi, "powodzenia w podróżach. Mam nadzieję, że galaktyce nigdy nie zabraknie sposobów, by cię zaskoczyć. "`
 				decline
 
 
@@ -203,49 +203,49 @@ mission "FW Epilogue: Danforth"
 	
 	on offer
 		conversation
-			`Would you like to stop by and see how Admiral Danforth is doing?`
+			`Czy chciałbyś wpaść i zobaczyć, jak radzi sobie admirał Danforth?`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(Tak.)`
+				`	(Nie teraz.)`
 					defer
 			
 			branch checkmate1
 				has "free worlds checkmate"
-			`	Danforth is quite excited to see you. "Captain <last>!" he says. "So good to see you back up here in my neck of the woods again. It's funny, you'd think that with the war over they'd just dissolve the Oathkeepers, since the whole Republic is at peace with the Free Worlds and there's no longer any oath left for us to keep. But, the Oathkeepers became so well known for our role against the Pug and the Syndicate that now everyone wants to join our division."`
+			`	Danforth bardzo się cieszy, że cię widzi. "Kapitan <last>!" mówi. "Jak miło cię znowu widzieć w moich stronach. To zabawne, można by pomyśleć, że po wojnie po prostu rozwiążą Strażników Przysięgi, skoro cała Republika jest w pokoju z Wolnymi Światami i nie ma już dla nas żadnej przysięgi do dotrzymania. Ale Strażnicy Przysięgi stali się tak znani z naszej roli w walce z Pugiem i Syndykatem, że teraz wszyscy chcą dołączyć do naszego oddziału."`
 				goto choice
 			
 			label checkmate1
-			`	Danforth is quite excited to see you. "Captain <last>!" he says. "So good to see you back up here in my neck of the woods again. It's funny, you'd think that with the war over they'd just dissolve the Oathkeepers, since the whole Republic is at peace with the Free Worlds and there's no longer any oath left for us to keep. But, the Oathkeepers became so well known for our role against the Pug that now everyone wants to join our division."`
+			`	Danforth bardzo się cieszy, że cię widzi. "Kapitan <last>!" mówi. "Jak miło cię znowu widzieć w moich stronach. To zabawne, można by pomyśleć, że po wojnie po prostu rozwiążą Strażników Przysięgi, skoro cała Republika jest w pokoju z Wolnymi Światami i nie ma już dla nas żadnej przysięgi do dotrzymania. Ale Strażnicy Przysięgi stali się tak znani z naszej roli w walce z Pugami, że teraz wszyscy chcą dołączyć do naszej dywizji."`
 			
 			label choice
 			choice
-				`	"Glad to see you're still in the thick of things, sir!"`
+				`	"Cieszę się, że nadal jesteś na bieżąco, panie!"`
 					goto thick
-				`	"What sort of work is the Navy doing now that we're at peace?"`
+				`	"Jaką pracę wykonuje Marynarka Wojenna teraz, gdy mamy pokój?"`
 					goto work
 			
 			label thick
-			`	"Oh, you bet I am," he says. "I'll never retire from the Navy, you know. I plan to still be serving on the day I die."`
+			`	"Oczywiście, że tak, " mówi. "Nigdy nie przejdę na emeryturę z Marynarki Wojennej, wiesz. Planuję nadal służyć w dniu mojej śmierci."`
 				goto next
 			
 			label work
-			`	"Just the sort of work we all signed up for in the first place," he says. "Defending the defenseless, keeping the peace, helping silly novice pilots who run out of fuel."`
+			`	"Właśnie na taką pracę wszyscy się pisaliśmy, " mówi. "Bronić bezbronnych, dbać o pokój, pomagać głupim, początkującym pilotom, którym kończy się paliwo."`
 				goto next
 			
 			label next
-			`	"Are the pirates giving you any trouble?" you ask.`
-			`	"A bit," he says. "We still have far too many pirates in this sector, in part due to the Free Worlds mostly driving them out of the South. The pirates grew stronger and more bold as the war dragged on, when all our fleets were busy elsewhere, but now we're beginning to get them under control again."`
+			`	"Czy piraci sprawiają ci jakieś kłopoty?" pytasz.`
+			`	"Trochę," mówi. "Wciąż mamy w tym sektorze o wiele za dużo piratów, po części dlatego, że Wolne Światy wyparły ich z Południa. Piraci stawali się coraz silniejsi i śmielsi w miarę jak wojna się przedłużała, kiedy wszystkie nasze floty były zajęte gdzie indziej, ale teraz zaczynamy ich ponownie kontrolować."`
 			
 			branch checkmate2
 				has "free worlds checkmate"
-			`	Then he leans forward and says, more quietly, "Of course, you and I both know the pirates aren't the main threat. Raven is off infiltrating Syndicate worlds even as we speak, and several of my other best intelligence officers, too. The Syndicate wants us to believe that they've weeded out all the rotten apples from their ranks, but we're keeping an eye on them, all the same."`
+			`	Potem pochyla się i mówi ciszej: "Oczywiście, oboje wiemy, że piraci nie są głównym zagrożeniem. Raven właśnie teraz infiltruje światy Syndykatu, podobnie jak kilku innych moich najlepszych oficerów wywiadu. Syndykat chce, żebyśmy uwierzyli, że pozbyli się wszystkich zgniłych jabłek ze swoich szeregów, ale mimo to mamy ich na oku."`
 				goto end
 			
 			label checkmate2
-			`	Then he leans forward and says, more quietly, "Just a heads-up that the Navy has their eye on the Free Worlds still. Just because a peace treaty was made doesn't mean you can keep your nukes forever."`
+			`	Potem pochyla się i mówi ciszej: "Mam tylko jedną uwagę: Marynarka Wojenna wciąż ma oko na Wolne Światy. To, że zawarto traktat pokojowy, nie oznacza, że można trzymać broń jądrową na zawsze. "`
 			
 			label end
-			`	After you talk for a while longer, Danforth wishes you luck and sends you on your way. "I'll be in touch if we ever need your assistance in the future," he says.`
+			`	Po dłuższej rozmowie Danforth życzy Ci powodzenia i pozwala Ci odejść. "Będę w kontakcie, jeśli w przyszłości będziemy potrzebować Twojej pomocy, " mówi.`
 				decline
 
 
@@ -275,70 +275,70 @@ mission "FW Epilogue: Edward"
 conversation "edward epilogue"
 	branch completed
 		has "FW Epilogue: Edward: done"
-	`As you complete your landing procedure, you recall having come here to assist in some testing for new weapons, back in the thick of the war. Do you want to check in on Barmy Edward, the lead engineer?`
+	`Kończąc procedurę lądowania, przypominasz sobie, że przybyłeś tu, aby pomóc w testowaniu nowej broni, jeszcze w samym środku wojny. Czy chcesz się skontaktować z Barmym Edwardem, głównym inżynierem?`
 	choice
-		`	(Yes.)`
-		`	(No.)`
+		`	(Tak.)`
+		`	(Nr)`
 			defer
 	scene "scene/loc0"
-	`	You give your name to the receptionist, and she directs you to a hangar where you find Barmy Edward, who is working on a weapon that looks like a modified Plasma Cannon. When he notices you, he gets up from his work and shakes your hand warmly. "Ah, <last>. It's been too long! How fortunate for me! I'm actually just putting the finishing touches on a new prototype. You wouldn't be too busy to assist me in some practical testing, would you?"`
+	`	Podajesz swoje nazwisko recepcjonistce, a ona kieruje cię do hangaru, gdzie spotykasz Barmy'ego Edwarda, który pracuje nad bronią wyglądającą jak zmodyfikowane działo plazmowe. Kiedy cię zauważa, wstaje od pracy i serdecznie ściska ci dłoń. "Ach, <last>. Minęło za dużo czasu! Jakież to szczęście! Właśnie dopracowuję nowy prototyp. Nie byłbyś chyba zbyt zajęty, żeby pomóc mi w testach praktycznych, prawda? "`
 	choice
-		`	"I'm not sure about this. What would you have me do?"`
-		`	"Being a target for experimental weapons? Just tell me what you need!"`
-	`	"Not much out of the ordinary from our tests in the past," he replies. "You'll find a ship of ours in orbit that goes by <npc>. It's been fitted with a few of these new weapons. Your job will be to fight and disable it, tell us what you think of its combat capabilities, and transfer your ship's logs so we can analyze the fight."`
+		`	"Nie jestem pewien. Co mam zrobić?"`
+		`	"Być celem broni eksperymentalnej? Powiedz mi tylko, czego potrzebujesz!"`
+	`	"Nic nadzwyczajnego w porównaniu z naszymi poprzednimi testami, " odpowiada. "Znajdziesz nasz statek na orbicie, który przelatuje <npc>. Został wyposażony w kilka z tych nowych broni. Twoim zadaniem będzie walka i jego unieszkodliwienie, powiedz nam, co sądzisz o jego możliwościach bojowych i przekaż dzienniki pokładowe, żebyśmy mogli przeanalizować walkę. "`
 	choice
-		`	"Alright, I suppose for old times' sake I can help out."`
-		`	"Sorry, I just wanted to check in and see how you were doing."`
+		`	"W porządku, sądzę, że dla przypomnienia starych czasów mogę pomóc."`
+		`	"Przepraszam, chciałem tylko sprawdzić, jak się masz."`
 			goto catchup
-	`	He turns to you and smirks. "We've recommissioned the ship from retirement, so it's not top of the line, but try to keep it in one piece for future use. Understand?"`
+	`	Odwraca się do ciebie i uśmiecha się ironicznie. "Wróciliśmy do służby z wycofania statku, więc nie jest to najwyższa półka, ale postaraj się zachować go w całości do wykorzystania w przyszłości. Rozumiesz?"`
 	choice
-		`	"Of course! I'll take care of it."`
-	`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
+		`	"Oczywiście! Zajmę się tym."`
+	`	"Świetnie," mówi, zacierając ręce z radosnym wyrazem twarzy. Wyraźnie nie może się doczekać, żeby usłyszeć, co sądzisz o jego najnowszym wynalazku.`
 		accept
 	label catchup
-	`	"I see. Well, I'm sure we can find someone else up to the task. Regardless, Captain <last>, I assure you this new weapon vastly improves on the outdated Plasma Cannon. This'll put Kraz Cybernetics in the big leagues!"`
-	`	"How about we get out of here, <first>? My work is done for today, and I know a homely little bar that's only a short walk."`
+	`	"Rozumiem. Cóż, jestem pewien, że znajdziemy kogoś innego, kto sprosta zadaniu. Tak czy inaczej, Kapitanie <last>, zapewniam cię, że ta nowa broń znacznie przewyższa przestarzałe działo plazmowe. To zapewni Kraz Cybernetics miejsce w pierwszej lidze!"`
+	`	"Może się stąd wyniesiemy, <first>? Skończyłam dziś pracę i znam przytulny bar, do którego jest niedaleko."`
 	choice
-		`	"Of course. It's not like there's a war to worry about anymore."`
-	`	"Ha! Well, of course, the war kept all of us plenty busy." He leads you out of the facility while telling an anecdote that must be humor for an engineer.`
+		`	"Oczywiście. Nie ma już powodu do obaw o wojnę."`
+	`	"Ha! No cóż, wojna oczywiście dała nam wszystkim mnóstwo zajęć." Wyprowadza cię z ośrodka, opowiadając anegdotę, która musi być zabawna dla inżyniera.`
 		goto combined
 	
 	label completed
 	scene "scene/plasma scene"
-	`You head to the hangar to meet up with Barmy Edward, and find him tinkering with the modified Plasma Cannon you saw when you first entered. "It runs much hotter, you see," he explains. "But the results are impressive."`
+	`Idziesz do hangaru, żeby spotkać się z Barmym Edwardem i zastajesz go majstrującego przy zmodyfikowanym dziale plazmowym, które widziałeś, gdy pierwszy raz wszedłeś. "Widzisz, działa o wiele bardziej gorące, " wyjaśnia. "Ale rezultaty są imponujące. "`
 	choice
-		`	"Was that a plasma cannon? Or something else?"`
+		`	"Czy to było działo plazmowe? A może coś innego?"`
 			goto what
-		`	"It's not winning any damage records, that's for sure."`
+		`	"Na pewno nie bije rekordów obrażeń."`
 			goto damage
 	label what
-	`	"Heh, it's been a while since we've seen a good upgrade to the cannon," he says. "That was the Plasma Repeater. Of course, it wasn't easy to make a better iteration of something that countless fools have failed to improve on."`
-	`	"When will it be available for sale?" you ask.`
+	`	"Heh, minęło trochę czasu, odkąd widzieliśmy porządną modernizację działa, " mówi. "To był powtarzacz plazmowy. Oczywiście, nie było łatwo stworzyć lepszą wersję czegoś, czego niezliczeni głupcy nie zdołali ulepszyć. "`
+	`	"Kiedy będzie dostępny w sprzedaży?" pytasz.`
 		goto available
 	label damage
-	`	"Well, you are one of the revered captains that drove off the Pug," he says. "The idea is that by shrinking the bolts of superheated plasma, we can offload many more bursts onto a target. The effects on said target result in faster buildup of heat and, of course, damage. Big ships will usually ward off these effects much longer than a smaller ship would, but that's always been a notable issue with the original design. Besides, the repeater is a hell of a lot more impressive."`
-	`	"That's a unique direction," you reply. "Are they available for sale yet?"`
+	`	"Cóż, jesteś jednym z szanowanych kapitanów, którzy odparli Puga, " mówi. "Chodzi o to, żeby zmniejszając pociski przegrzanej plazmy, móc wystrzelić o wiele więcej pocisków w cel. Efekty na tym celu powodują szybsze nagrzewanie się i, oczywiście, uszkodzenia. Duże statki zazwyczaj chronią się przed tymi efektami znacznie dłużej niż mniejsze, ale to zawsze był istotny problem w oryginalnym projekcie. Poza tym, powtarzacz jest o wiele bardziej imponujący."`
+	`	"To wyjątkowy kierunek, " odpowiadasz. "Czy są już dostępne w sprzedaży?"`
 	label available
-	`	"Thanks to you, it should be in stock in a few months," he answers. "I'm sure you're past the point where our weapons are useful, but then again, not everybody has a jump drive." He grins. "How about we celebrate with some drinks? I know a quaint little bar not far from here."`
+	`	"Dzięki, powinno być dostępne za kilka miesięcy, " odpowiada. "Jestem pewien, że nasza broń już dawno przestała być użyteczna, ale z drugiej strony, nie każdy ma napęd hybrydowy. " Uśmiecha się szeroko. "Może uczcimy to drinkami? Znam przytulny bar niedaleko stąd. "`
 	choice
-		`	"I have time; let's celebrate!"`
-		`	"I'll pass on that, but it was good checking in on you."`
+		`	"Mam czas; świętujmy!"`
+		`	"Pominę to, ale miło było Cię odwiedzić."`
 			decline
 	
 	label combined
-	`	You follow Barmy into the bar. Even with the smear of grease still on his face, he fits in with the crowd. You both stand at the bar and order your drinks. Barmy's order catches you off guard, and he notices your expression. "What? A man who works with his hands can't enjoy a drink with some age?" You chuckle, and you both tell stories of your early lives. He tells how he had some exciting adventures in his youth among the stars, but found his passion tinkering and finding ways to improve on outdated equipment.`
+	`	Wchodzisz za Barmym do baru. Mimo że ma jeszcze tłustą twarz, wtapia się w tłum. Obaj stajecie przy barze i zamawiacie drinki. Zamówienie Barmy'ego zaskakuje cię, a on zauważa twoją minę. "Co? Człowiek, który pracuje rękami, nie może cieszyć się drinkiem w pewnym wieku?" Chichoczesz i oboje opowiadacie historie ze swojego wczesnego życia. On opowiada o ekscytujących przygodach w młodości, wśród gwiazd, ale swoją pasję odkrył w majsterkowaniu i szukaniu sposobów na ulepszenie przestarzałego sprzętu.`
 	branch end
 		not "human space start"
-	`	He's shocked to discover your origins on New Boston. "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there. I was lucky to get out myself!"`
+	`	Jest w szoku, gdy odkrywa twoje pochodzenie z Nowego Bostonu. "Naprawdę pochodzisz z tej zapadłej planety? Jestem zaskoczony, że udało ci się uciec przed tym całym zamieszaniem. Miałem szczęście, że sam się stamtąd wydostałem!"`
 	choice
-		`	"Wait, you're from New Boston too?"`
-		`	"It wasn't perfect there, but at least it wasn't quite so noisy down on the ground."`
+		`	"Czekaj, ty też jesteś z New Boston?"`
+		`	"Tam nie było idealnie, ale przynajmniej na ziemi nie było aż tak głośno."`
 			goto end
-		`	"Nothing like it is now. I've got the whole universe ahead of me!"`
+		`	"Nic takiego jak teraz. Mam przed sobą cały wszechświat!"`
 			goto end
-	`	"You wouldn't think to have met someone from your very own birth planet, eh?" He chuckles. "Small galaxy, I suppose."`
+	`	"Nie pomyślałbyś, że spotkasz kogoś ze swojej własnej planety, co?" Chichocze. "Mała galaktyka, jak sądzę."`
 	label end
-	`	You both have a great time hearing of each other's early lives, but you eventually wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and head back to your ship.`
+	`	Oboje świetnie się bawicie, słuchając o swoich wczesnych losach, ale ostatecznie kończycie wizytę po długiej nocy wymiany zdań. Żegnacie się i wracacie na statek.`
 		decline
 
 event "plasma repeater advanced"

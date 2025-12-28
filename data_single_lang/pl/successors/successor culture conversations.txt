@@ -20,7 +20,7 @@ mission "Successors: First Contact Exploration: Kua-Oa-Aava"
 		not "Successors: First Contact 2: done"
 	on offer
 		conversation
-			`You watch for a couple of minutes as the spaceport crew here attempt to find a fuel adapter that fits your ship. After some time, a group of military officers is called over; they scan the side of the <ship> thoroughly and input their results into a datapad. Eventually the leader produces another one of the Successors' morphic metal spheres; they briefly connect it to the datapad and it rapidly squishes into a shape that lets it interface with both your ship and the fuel hose.`
+			`Przez kilka minut obserwujesz, jak załoga kosmoportu próbuje znaleźć adapter paliwowy pasujący do twojego statku. Po pewnym czasie wzywana jest grupa oficerów wojskowych; dokładnie skanują bok <ship> i wprowadzają wyniki do datapadu. W końcu dowódca wyciąga kolejną kulę z metalu morficznego Następców; na krótko podłączają ją do datapadu, a ona szybko spłaszcza się do kształtu, który pozwala jej na połączenie zarówno ze statkiem, jak i przewodem paliwowym.`
 				decline
 
 mission "Successors: First Contact Exploration: Raaqa-Kvelq-Ryuit"
@@ -31,23 +31,23 @@ mission "Successors: First Contact Exploration: Raaqa-Kvelq-Ryuit"
 		not "Successors: First Contact 2: done"
 	on offer
 		conversation
-			`One of the Successors in the spaceport here seems to be offering small morsels of food to the others; short cooked strips of a dark green plant vaguely resembling a succulent, impaled on a wooden stick. Though most of the individuals here keep their distance from you, this one takes notice and offers you a stick.`
+			`Jeden z Następców w porcie kosmicznym zdaje się oferować pozostałym małe kęsy jedzenia; krótkie, ugotowane paski ciemnozielonej rośliny, przypominającej nieco sukulenta, nabite na drewniany kij. Chociaż większość osób tutaj trzyma się od ciebie z daleka, ten to zauważa i oferuje ci kij.`
 			choice
-				`	(Take it.)`
-				`	(Decline.)`
+				`	(Weź to.)`
+				`	(Odrzuć.)`
 					goto refused
-			`	You take the stick from them and a wave of color runs up their body before they slither away to a different part of the spaceport.`
+			`	Zabierasz im pałkę, a fala kolorów przebiega przez ich ciała, zanim odlecą w inną część kosmoportu.`
 			choice
-				`	(Try a bite.)`
-				`	(Hide it away.)`
+				`	(Spróbuj ugryźć.)`
+				`	(Ukryj to.)`
 					goto hidden
-			`	Though you only take a small bite, the food tastes vile enough for you to gag: it is tough and fishy and far too salty for your palate. You discreetly spit out what little you consumed and consider yourself lucky that you didn't have to pay anything for it.`
+			`	Chociaż bierzesz tylko mały kęs, jedzenie smakuje tak obrzydliwie, że aż ci się odruch wymiotny robi: jest twarde, rybne i zdecydowanie za słone dla twojego podniebienia. Dyskretnie wypluwasz tę niewielką ilość, którą zjadłeś, i uważasz się za szczęściarza, że nie musiałeś za to nic płacić.`
 				decline
 			label refused
-			`	After a couple of seconds the Successor retracts their arm and slithers off to a different part of the spaceport.`
+			`	Po kilku sekundach Następca chowa ramię i oddala się w inną część kosmoportu.`
 				decline
 			label hidden
-			`	You hold the stick behind your back until you head back inside the <ship> and place it in a waste receptacle.`
+			`	Trzymaj patyk za plecami, aż wrócisz do <ship> i umieścisz go w pojemniku na odpady.`
 				decline
 
 mission "Successors: First Contact Exploration: Iyra-Ijasa-Iret"
@@ -58,7 +58,7 @@ mission "Successors: First Contact Exploration: Iyra-Ijasa-Iret"
 		not "Successors: First Contact 2: done"
 	on offer
 		conversation
-			`You've never seen a spaceport that's entirely underwater before. Next to your landing pad, there's a massive window into what you might call an aquarium but what seems to be some sort of lounge for the Successors, who swim around and organize themselves around several multi-layered tables.`
+			`Nigdy wcześniej nie widziałeś kosmoportu całkowicie podwodnego. Obok twojego lądowiska znajduje się ogromne okno, przez które widać coś, co można by nazwać akwarium, ale co wydaje się być rodzajem salonu dla Następców, którzy pływają i organizują się wokół kilku wielopoziomowych stołów.`
 				decline
 
 mission "Successors: First Contact Exploration: Mavra-Sol-Kvel"
@@ -69,19 +69,19 @@ mission "Successors: First Contact Exploration: Mavra-Sol-Kvel"
 		not "Successors: First Contact 2: done"
 	on offer
 		conversation
-			`Your ship draws a bit of a crowd when you land here, though most are kept at bay by a set of pre-arranged barriers set up around your landing pad and the occasional patrolling guard. While walking by the barrier, one Successor offers one of their data-spheres to you.`
+			`Twój statek przyciąga trochę tłumów, gdy tu lądujesz, choć większość jest trzymana na dystans przez zestaw wcześniej przygotowanych barier ustawionych wokół twojego lądowiska i sporadycznych patrolujących strażników. Przechodząc obok bariery, jeden z Następców oferuje ci jedną ze swoich sfer danych.`
 			choice
-				`	(Take it.)`
+				`	(Weź to.)`
 					goto taken
-				`	(Refuse.)`
+				`	(Odrzuć.)`
 					goto refused
 			label taken
 			action
 				outfit "Local Map" 1
-			`	The Successor trills warmly when you take the sphere, though they are quickly pushed back by one of the guards. Like previously, the sphere expands into a small star map as soon as you touch it, though this one seems to contain some cultural data in addition to stellar coordinates.`
+			`	Następca tryska ciepłym głosem, gdy bierzesz kulę, choć szybko zostaje odepchnięty przez jednego ze strażników. Podobnie jak poprzednio, kula rozszerza się do małej mapy gwiezdnej, gdy tylko jej dotkniesz, choć ta wydaje się zawierać pewne dane kulturowe oprócz współrzędnych gwiezdnych.`
 				decline
 			label refused
-			`	You hold up your hands and step away from the individual offering you the data-sphere, and they are quickly pushed back by one of the guards.`
+			`	Podnosisz ręce i odchodzisz od osoby oferującej ci sferę danych, a ta zostaje szybko odepchnięta przez jednego ze strażników.`
 				decline
 
 mission "Successors: First Contact Exploration: Mosaa-Oa-Vyret"
@@ -97,7 +97,7 @@ mission "Successors: First Contact Exploration: Mosaa-Oa-Vyret"
 				random < 5
 	on offer
 		conversation
-			`Near to your landing pad in the spaceport here, you see a large circular pool with several Successors milling about in it. Some relax against the edges while others appear deep in conversation; one trio of individuals is followed by a small salamander-like animal that swims behind them and plays between and around their arms, making soft splashing noises as it jumps in and out of the water.`
+			`W pobliżu twojego lądowiska w porcie kosmicznym widzisz duży, okrągły basen, w którym kręci się kilku Następców. Niektórzy odpoczywają przy krawędziach, podczas gdy inni wydają się pogrążeni w rozmowie; za jedną trójką osobników podąża małe zwierzątko przypominające salamandrę, które pływa za nimi i bawi się między ich ramionami, wydając ciche, pluskające dźwięki, wskakując i wyskakując z wody.`
 				decline
 
 mission "Successors: Buskers"
@@ -110,36 +110,36 @@ mission "Successors: Buskers"
 		random < 5
 	on offer
 		conversation
-			`While waiting in the spaceport for the <ship> to be refueled, you notice that a small crowd of Successors is gathering around one of the pools of water that surround the starship hangars. Many are moving excitedly towards the commotion or, having already made it there, undulate strangely in the water.`
+			`Czekając w porcie kosmicznym na uzupełnienie paliwa w <ship>, zauważasz, że wokół jednego z basenów wodnych otaczających hangary statków kosmicznych gromadzi się niewielka grupka Następców. Wielu z nich energicznie podąża w stronę zamieszania lub, już tam dotarwszy, dziwnie faluje w wodzie.`
 			choice
-				`	(Investigate the gathering.)`
-				`	(Ignore it.)`
+				`	(Zbadaj zgromadzenie.)`
+				`	(Zignoruj to.)`
 					decline
-			`	You walk over the water-covered floor to the group, and as you start to grow closer, you begin to hear music coming from the pool: a strange, lilting melody, which is filled with notes that seem impossibly high or low or both at once. As you squeeze your way through the crowd, you see that in the pool there is a trio of submerged Successors, each of whom has their arms wrapped around one or several wildly distinct metal devices which protrude through the surface of the water. It is from these devices that the music emanates.`
-			`	One of the Successors in the pool begins to sing - at least, singing is the best way you could describe it; they press one of the longer and more cylindrical instruments up to their head and it begins producing an accompaniment to the other instruments' melody that your translation device occasionally recognizes as words:`
-			`	"... sweetest child... never want... not so... somber current... endure..."`
-			`	It is not clear whether or not this represents the entire lyric content of the performance or simply if the translation device is unable to parse the more tonal phrases. The submerged singer displays a variety of colors and textures on their skin, changing with each successive phrase; green and rough on a splittingly high note, pink and smooth-looking on a strangely growl-like low section. Several in the crowd emulate this in their own skin patterning; the group pulses in color and pattern in time with the melody of the music.`
+			`	Idziesz po pokrytej wodą podłodze w stronę grupy i gdy zaczynasz się do niej zbliżać, zaczynasz słyszeć muzykę dochodzącą z basenu: dziwną, melodyjną melodię, wypełnioną dźwiękami, które wydają się niemożliwie wysokie lub niskie, a może i jedno, i drugie jednocześnie. Przeciskając się przez tłum, dostrzegasz w basenie trójkę zanurzonych Następców, z których każdy obejmuje ramionami jeden lub kilka osobliwych metalowych urządzeń wystających z powierzchni wody. To właśnie z tych urządzeń wydobywa się muzyka.`
+			`	Jeden z Następców w basenie zaczyna śpiewać - przynajmniej śpiew to najlepsze określenie; przyciska jeden z dłuższych i bardziej cylindrycznych instrumentów do głowy, a on zaczyna grać akompaniament do melodii pozostałych instrumentów, którą twoje urządzenie tłumaczące czasami rozpoznaje jako słowa:`
+			`	"... najsłodsze dziecko... nigdy nie pragnę... nie tak... ponury prąd... znosić..."`
+			`	Nie jest jasne, czy odzwierciedla to całą treść liryczną wykonania, czy też po prostu system tłumaczący nie jest w stanie zinterpretować bardziej tonalnych fraz. Zanurzony śpiewak prezentuje różnorodność kolorów i faktur na swojej skórze, zmieniając się z każdą kolejną frazą; zielony i szorstki na rozszczepiająco wysokiej nucie, różowy i gładki na dziwnie przypominającym warczenie niskim dźwięku. Kilka osób w tłumie naśladuje to w swoim wzorze skóry; grupa pulsuje kolorami i wzorami w rytm melodii.`
 			choice
-				`	(Continue listening.)`
-				`	(Return to my ship.)`
+				`	(Kontynuuj słuchanie.)`
+				`	(Wróć na mój statek.)`
 					goto unappreciative
-			`	The music eventually crescendos with a long, droning wail of instrumentation accompanied by a rapid, high-pitched vocal performance that sees the water in the pool sloshing from side to side as the trio within move rapturously, circling around each other faster and faster before suddenly stopping. The performance comes to a close with a gentler and more playful section that sees the performers blowing bubbles to the surface of the pool and producing short, semi-random notes on their bizarre instruments.`
-			`	The Successors around you produce a dull, low hum after the piece's conclusion.`
+			`	Muzyka w końcu osiąga punkt kulminacyjny, wraz z długim, monotonnym zawodzeniem instrumentów, któremu towarzyszy szybki, wysoki wokal, w którym woda w basenie chlupocze na boki, podczas gdy trio porusza się w zachwycie, krążąc wokół siebie coraz szybciej, aż nagle się zatrzymuje. Występ kończy się łagodniejszą i bardziej zabawną sekcją, w której wykonawcy dmuchają bąbelki na powierzchnię basenu i wydają krótkie, półprzypadkowe dźwięki na swoich dziwacznych instrumentach.`
+			`	Następcy wokół ciebie wydają głuchy, niski dźwięk po zakończeniu utworu.`
 			choice
-				`	(Applaud.)`
+				`	(Oklaski.)`
 					goto applaud
-				`	(Try to hum myself.)`
+				`	(Próbuję zanucić samego siebie.)`
 					goto hum
-				`	(Return to my ship.)`
+				`	(Wróć na mój statek.)`
 					decline
 			label applaud
-			`	The Successors around you seem a little surprised or perhaps confused by your display, but do not express any offense at it, as far as you can tell. The trio of performers eventually emerge from the pool, gently tucking their instruments into various equally oddly-shaped cases before chatting with some of the few remaining members of the crowd and then departing.`
+			`	Sukcesorzy wokół ciebie wydają się być nieco zaskoczeni, a może nawet zdezorientowani twoim występem, ale z tego, co widzisz, nie okazują żadnego oburzenia. Trójka wykonawców w końcu wyłania się z basenu, delikatnie chowając swoje instrumenty do futerałów o równie osobliwych kształtach, po czym rozmawia z kilkoma pozostałymi członkami tłumu, a następnie odchodzi.`
 				decline
 			label hum
-			`	The Successors around you seem amused by your attempt to emulate the humming; some briefly display a bluish-green wave of color across their skin before quickly returning to their base shade. Nonetheless, no one here seems to take any significant offense at the gesture. The performers eventually emerge from the pool, gently tucking their instruments into equally oddly-shaped cases before chatting with some of the few remaining members of the crowd and then departing.`
+			`	Sukcesorzy wokół ciebie wydają się rozbawieni twoją próbą naśladowania brzęczenia; niektórzy na chwilę ukazują niebiesko-zieloną falę koloru na skórze, po czym szybko wracają do podstawowego odcienia. Niemniej jednak nikt tutaj nie wydaje się szczególnie urażony tym gestem. Wykonawcy w końcu wychodzą z basenu, delikatnie chowając swoje instrumenty do równie dziwnie ukształtowanych futerałów, po czym rozmawiają z kilkoma pozostałymi członkami tłumu, a następnie odchodzą.`
 				decline
 			label unappreciative
-			`	You return to your ship, gently extricating yourself from the throng of spellbound Successors, who continue to shimmer and sway in the distance until the performance eventually ends and they disperse to go their separate ways.`
+			`	Wracasz na swój statek, delikatnie uwalniając się z tłumu zaczarowanych Następców, którzy nadal migoczą i kołyszą się w oddali, aż do momentu, gdy przedstawienie w końcu się kończy, a oni rozchodzą się, by pójść każdy w swoją stronę.`
 				decline
 
 mission "Successors: Graffiti"
@@ -152,56 +152,56 @@ mission "Successors: Graffiti"
 		random < 5
 	on offer
 		conversation
-			`Shortly after you disembark the <ship> for the spaceport on <origin>, you hear a quiet but noticeable clattering from behind you near where your ship is being refueled.`
+			`Krótko po opuszczeniu statku <ship> jadącego do kosmodromu na <origin> słyszysz cichy, ale słyszalny stukot za sobą, w pobliżu miejsca, w którym uzupełniane jest paliwo twojego statku.`
 			choice
-				`	(Investigate the sound.)`
-				`	(Ignore it.)`
+				`	(Zbadaj dźwięk.)`
+				`	(Zignoruj to.)`
 					goto ignored
-			`	Upon approaching the source of the clattering, you catch a trio of Successors in the process of smearing the hull of the <ship> with globs of a colorful, foul-smelling solution. It is so pungent you can barely approach them without retching, but the Successors seem not to notice, or not to care.`
+			`	Zbliżając się do źródła hałasu, dostrzegasz trójkę Następców smarujących kadłub <ship> kroplami kolorowego, cuchnącego roztworu. Jest on tak ostry, że ledwo można do nich podejść bez wymiotów, ale Następcy zdają się tego nie zauważać albo nie przejmować.`
 			choice
-				`	"What are you doing to my ship?"`
+				`	"Co robisz mojemu statkowi?"`
 					goto what
-				`	"Excuse me, are you all part of the repair crew?"`
-			`	The three Successors startle at the sound of your voice, arms whipping around as they turn to face you. One makes a move to run away, but one of the others clamps onto their arm and reels them back alongside them. All three slowly turn a shade of dull purple and their skin seems to contract over the underlying musculature. One of them eventually replies. "Yes, correct thou art! We've orders to apply this ... hull solution to repair a spot of damage here."`
-			`	Waves of color run up the bodies of the others, and the tips of their arms undulate gently.`
+				`	"Przepraszam, czy wszyscy jesteście częścią ekipy naprawczej?"`
+			`	Trzej Następcy zrywają się na dźwięk twojego głosu, gwałtownie obracając ramionami, gdy odwracają się do ciebie. Jeden z nich próbuje uciekać, ale drugi chwyta go za ramię i przyciąga z powrotem do siebie. Wszyscy trzej powoli nabierają matowego fioletu, a ich skóra zdaje się kurczyć na podskórnej muskulaturze. Jeden z nich w końcu odpowiada: "Tak, masz rację! Mamy rozkaz zastosować to... rozwiązanie kadłubowe, aby naprawić uszkodzenie. "`
+			`	Fale kolorów przebiegają wzdłuż ciał innych, a końcówki ich ramion delikatnie falują.`
 			choice
-				`	"I've never seen a solution like that before. How does it work?"`
+				`	"Nigdy wcześniej nie widziałem takiego rozwiązania. Jak to działa?"`
 					goto how
-				`	"I'm sorry to interrupt in that case. Carry on."`
+				`	"Przepraszam, że przerywam w tej sprawie. Proszę kontynuować."`
 					goto fooled
 			label what
-			`	The three Successors startle at the sound of your voice, their arms whipping around as they turn to face you. One makes a move to run away, but one of the others clamps onto their arm and reels them back alongside them. All three slowly turn a shade of dull purple and their skin seems to contract over the underlying musculature. One of them eventually replies. "We... ah... we're part of the repair crew! We've orders to apply this... hull solution to repair a spot of damage here."`
-			`	Waves of color run up the bodies of the others, and the tips of their arms undulate gently.`
+			`	Trzej Następcy zrywają się na dźwięk twojego głosu, gwałtownie obracając ramionami, gdy odwracają się do ciebie. Jeden z nich próbuje uciec, ale drugi chwyta go za ramię i przyciąga z powrotem do siebie. Wszyscy trzej powoli nabierają matowego fioletu, a ich skóra zdaje się kurczyć na podskórnej muskulaturze. Jeden z nich w końcu odpowiada. "My... ach... jesteśmy częścią ekipy naprawczej! Dostaliśmy rozkaz zastosować to... rozwiązanie kadłubowe, aby naprawić tu uszkodzenie. "`
+			`	Fale kolorów przebiegają wzdłuż ciał innych, a końcówki ich ramion delikatnie falują.`
 			choice
-				`	"I've never seen a solution like that before. How does it work?"`
+				`	"Nigdy wcześniej nie widziałem takiego rozwiązania. Jak to działa?"`
 					goto how
-				`	"I'm sorry to interrupt in that case. Carry on."`
+				`	"Przepraszam, że przerywam w tej sprawie. Proszę kontynuować."`
 					goto fooled
 			label how
-			`	The group look around at each other before the same one replies again. "The... ah... solution seeps into the cracks and strains within the hull and when it dries it seals them. Beyond that, we do not know; we just apply it as directed by the port authority."`
-			`	One of the other ones pipes up, cheerfully adding, "We don't know anything!" before the others give them a dark look.`
+			`	Grupa rozgląda się po sobie, zanim ta sama osoba odpowiada ponownie. "Roztwór... ach... wsiąka w pęknięcia i naprężenia w kadłubie, a po wyschnięciu je uszczelnia. Co więcej, nie wiemy; po prostu stosujemy go zgodnie z zaleceniami władz portu."`
+			`	Jeden z pozostałych odzywa się i radośnie dodaje: "Nic nie wiemy!", zanim pozostali rzucają im ponure spojrzenia.`
 			choice
-				`	"And it's so colorful too! Are you sure it's not a paint of some sort?"`
-				`	"Fascinating. Carry on."`
+				`	"I jest takie kolorowe! Jesteś pewien, że to nie jakaś farba?"`
+				`	"Fascynujące. Kontynuuj."`
 					goto fooled
-			`	"Oh, that's for... ah... safety. Yes, 'tis very dangerous to touch if thou'r'nt trained, so 'tis bright in color as a warning." None of the three are wearing any sort of protective equipment that you can see, and by now most of the group have changed color to what you might characterize as a mirthful shade of pink. This is something which one or two are clearly trying to suppress, their skin shifting in gradients in an effort to maintain their previous dull purple hue. One of the others is trying to hide a bag filled with more cans of "hull solution" behind their arms.`
+			`	"Och, to dla... ach... bezpieczeństwa. Tak, dotykanie jest bardzo niebezpieczne, jeśli nie masz przeszkolenia, więc ten jaskrawy kolor ostrzega." Nikt z tej trójki nie nosi żadnego widocznego sprzętu ochronnego, a większość grupy zmieniła już kolor na coś, co można by określić jako radosny odcień różu. To coś, co jeden lub dwóch wyraźnie próbuje stłumić, zmieniając gradienty na skórze, aby zachować swój poprzedni matowy, fioletowy odcień. Jeden z pozostałych próbuje ukryć za ramionami torbę wypełnioną kolejnymi puszkami "hull solution".`
 			choice
-				`	"Well, if you're working on behalf of the port, then surely I can ask you to remove it as well."`
-				`	"Nice try, but you and I both know what's going on here."`
-				`	"I think my ship's hull has been well enough repaired. It might be best for you to attend to whatever other vessels are on your list."`
+				`	"Cóż, jeśli pracujesz w imieniu portu, to z pewnością mogę poprosić cię również o jego usunięcie."`
+				`	"Świetna próba, ale obaj wiemy, co się tu dzieje."`
+				`	"Myślę, że kadłub mojego statku został wystarczająco dobrze naprawiony. Najlepiej byłoby, gdybyś zajął się pozostałymi statkami z twojej listy."`
 					goto complicit
-				`	"Thanks for answering my questions. Please carry on."`
+				`	"Dziękuję za odpowiedź na moje pytania. Proszę kontynuować."`
 					goto fooled
-			`	The trio seem rather deflated at hearing this, but after quite a bit of milling amongst themselves eventually relent and agree to remove the solution so long as you don't inform the port authority about their actions. While they put good effort into removing it - or at least act the part - they can't seem to scrub away the most dried-on parts, and you eventually let them go after it becomes apparent that some of the paint has permanently bonded to the hull.`
+			`	Trójka wydaje się być nieco przygnębiona, słysząc to, ale po długich przepychankach między sobą w końcu ustępuje i zgadza się usunąć roztwór, pod warunkiem, że nie poinformujesz o tym władz portu. Choć wkładają sporo wysiłku w jego usunięcie - a przynajmniej udają, że tak robią - nie potrafią zeskrobać najbardziej zaschniętych fragmentów, a ty w końcu pozwalasz im odejść, gdy okazuje się, że część farby trwale przywarła do kadłuba.`
 				decline
 			label complicit
-			`	The trio brighten up at hearing this, and after some milling amongst themselves eventually glide off into the spaceport with their cans of solution in tow, though not before leaving one with you for "emergency repairs," though considering how terrible it smells it's not certain if you could ever stand trying to apply it.`
+			`	Słysząc to, cała trójka rozjaśniła się i po krótkiej wymianie zdań w końcu odlecieli do kosmoportu, zabierając ze sobą puszki z roztworem, ale nie wcześniej, niż zostawili ci jedną na "awaryjną naprawę," choć biorąc pod uwagę, jak okropnie śmierdzi, nie jest pewne, czy w ogóle dałbyś radę spróbować go użyć.`
 				decline
 			label ignored
-			`	Upon returning from the spaceport some time later, you find that an area on the side of the <ship> has been covered in a thick, colorful solution with an incredibly noxious smell so potent you can hardly bear to approach it. The pattern forms some words in the Successor script, and while the translation device struggles to interpret the non-standard glyphs, it eventually offers a translation along the lines of "Ryiaa was here! And friends." The defacement takes several hours for the spaceport crews to sufficiently scour off, but a small degree of discoloration remains permanently bonded to the hull plating for the foreseeable future.`
+			`	Po powrocie z kosmoportu jakiś czas później odkrywasz, że obszar na burcie <ship> został pokryty gęstą, kolorową cieczą o niewiarygodnie odrażającym zapachu, tak silnym, że trudno się do niego zbliżyć. Wzór ten tworzy kilka słów w piśmie Successor, a chociaż narzędzie tłumaczące z trudem interpretuje niestandardowe glify, ostatecznie oferuje tłumaczenie w stylu "Ryiaa była tutaj! I przyjaciele." Załoga kosmoportu potrzebuje kilku godzin, aby załoga mogła dostatecznie oczyścić ten obszar, ale niewielkie przebarwienia pozostają trwale związane z poszyciem kadłuba w dającej się przewidzieć przyszłości.`
 				decline
 			label fooled
-			`	Upon returning from the spaceport some time later, you find that the "repair crew" has covered an area on the side of the <ship> in their colorful and noxious solution. The pattern forms some words in the Successor script placed alongside a rather crude depiction of your face. The translation device struggles to interpret the non-standard glyphs, but it eventually resolves the text as "'Erjn'-Fool! No quills, no brain!" The defacement takes several hours for the spaceport crews to sufficiently scour off, but a small degree of discoloration remains permanently bonded to the hull plating for the foreseeable future.`
+			`	Po powrocie z kosmoportu jakiś czas później odkrywasz, że ekipa "repair" pokryła obszar na burcie <ship> swoim kolorowym i trującym roztworem. Wzór tworzy kilka słów w piśmie Successor umieszczonych obok dość prymitywnego przedstawienia twojej twarzy. Urządzenie tłumaczące ma trudności z interpretacją niestandardowych glifów, ale ostatecznie interpretuje tekst jako "'Erjn'-Fool! Bez piór, bez mózgu!" Załoga kosmoportu usuwa uszkodzenia przez kilka godzin, ale niewielkie przebarwienia pozostają trwale związane z poszyciem kadłuba w dającej się przewidzieć przyszłości.`
 				decline
 
 mission "Successors: Stage Play"
@@ -216,44 +216,44 @@ mission "Successors: Stage Play"
 		conversation
 			branch "myiara system"
 				has "flagship system: Myiara-Nnesa"
-			`Walking through the spaceport, you notice several posters have been put up to advertise some sort of performance, each one showing an outstretched Successor standing atop a brilliant blue sphere that swirls with octopoid forms. "Deathless Myiara," reads the title.`
+			`Spacerując po kosmoporcie, zauważasz kilka plakatów reklamujących jakiś rodzaj występu. Każdy z nich przedstawia rozpostartego Następcę stojącego na szczycie jaskrawoniebieskiej kuli, po której wirują ośmiornice. Tytuł brzmi "Deathless Myiara,".`
 				goto decide
 			label "myiara system"
-			`Walking through the spaceport, you notice several posters have been put up to advertise some sort of performance, each one showing an outstretched Successor standing atop a brilliant blue sphere that swirls with octopoid forms. "Deathless Myiara," reads the title, the last word echoing the name of this star system.`
+			`Spacerując po kosmoporcie, zauważasz kilka plakatów reklamujących jakiś spektakl. Każdy z nich przedstawia rozpostartego Następcę stojącego na szczycie jaskrawoniebieskiej kuli, po której wirują ośmiornice. Tytuł brzmi "Deathless Myiara,", a ostatnie słowo nawiązuje do nazwy tego układu gwiezdnego.`
 			label decide
-			`	As you look at the poster, a passing Successor takes notice and greets you, splaying their arms in the traditional manner. "The honored alien!" they say. "Doth the play arouse tonight thy interest? 'Tis a good company that puts it on."`
+			`	Gdy patrzysz na plakat, przechodzący Następca zwraca na ciebie uwagę i wita cię, rozkładając ramiona w tradycyjny sposób. "Czcigodny obcy!", mówią. "Czy sztuka wzbudziła dziś twoje zainteresowanie? To dobra ekipa, która ją wystawia."`
 			choice
-				`	"Why not? Can you show me where it is?"`
-				`	"I'm not that interested in theater."`
+				`	"Dlaczego nie? Możesz mi pokazać, gdzie to jest?"`
+				`	"Nie jestem specjalnie zainteresowany teatrem."`
 					decline
-			`	"Thou wouldst surely be a well-treated guest," the Successor says. "Follow me, and we shan't be late."`
-			`	They lead you to one of the smaller transport gates at the spaceport, where a compact train snakes away from the city and into a remarkably pristine countryside. Eventually your guide leads you off the train; the station overlooks a large coastal depression where thousands of other Successors have gathered on semicircular benches around a central tank situated at the edge of the sea. Several of the benches have been built up into small but richly adorned boxes where, presumably, the wealthiest members of the audience can enjoy the show in privacy.`
-			`	You sit down, and after several minutes one Successor gives a brief introduction. It begins with thanking the local House for funding the event, continues into naming and introducing each of the lead actors, and finishes with a curious ritual in which each of the actors is given a small decorative token by the show's organizer. The actors thread these onto long strings that they carry - several of them already have highly-adorned strings that they loop several times over their bodies.`
-			`	"Myiara! How long we've been unseeing of thy tender face among our number! Return, and grace us so," cries a player within the tank, their voice amplified for the audience. Several others gyre around them, each wearing detailed, colorful masks, each one echoing "Myiara!" as the first speaker continues. Still more players enter from apertures in the tank's bottom, swimming up to the surface, where they pop into the air with acrobatic elegance before landing on the tank's clear top.`
-			`	"The Myiaran sort will never know their kind again," one says, their outfit and skin alike changing color to a rich blue. "For nobly we are not, nor never will..."`
+			`	"Z pewnością byłbyś dobrze traktowanym gościem, " mówi Następca. "Chodź za mną, a nie spóźnimy się."`
+			`	Prowadzą cię do jednej z mniejszych bram transportowych w kosmoporcie, skąd niewielki pociąg wije się od miasta, wkraczając w niezwykle dziewiczą okolicę. W końcu przewodnik wyprowadza cię z pociągu; ze stacji widać rozległą depresję nadbrzeżną, gdzie tysiące innych Sukcesorów zebrało się na półkolistych ławkach wokół centralnego zbiornika położonego na skraju morza. Kilka ławek zostało przekształconych w małe, ale bogato zdobione loże, gdzie, jak się przypuszcza, najbogatsi widzowie mogą w zaciszu cieszyć się pokazem.`
+			`	Siadacie, a po kilku minutach jeden z Następców wygłasza krótkie wprowadzenie. Zaczyna się ono od podziękowania lokalnemu Domowi za sfinansowanie wydarzenia, następnie następuje nadanie imion i przedstawienie każdego z głównych aktorów, a kończy osobliwy rytuał, w którym każdy z aktorów otrzymuje od organizatora przedstawienia mały, ozdobny upominek. Aktorzy nawlekają je na długie sznurki, które niosą - kilku z nich ma już bogato zdobione sznurki, które wielokrotnie przewieszają przez swoje ciała.`
+			`	"Myiara! Jak długo nie widzieliśmy twej czułej twarzy wśród nas! Wróć i obdarz nas nią! " woła gracz w zbiorniku, a jego głos jest wzmacniany dla publiczności. Kilku innych krąży wokół nich, każdy w misternie zdobionych, kolorowych maskach, a każdy z nich powtarza "Myiara!", gdy pierwszy mówca kontynuuje. Jeszcze więcej graczy wchodzi przez otwory w dnie zbiornika, wypływając na powierzchnię, gdzie z akrobatyczną elegancją wzbijają się w powietrze, lądując na przezroczystej powierzchni zbiornika.`
+			`	"Myiaran nigdy już nie poznają swojego gatunku, " mówi jeden z nich, a ich strój i skóra zmieniają kolor na głęboki błękit. "Bo nie jesteśmy szlachetni i nigdy nie będziemy..."`
 			choice
-				`	(Pay attention.)`
+				`	(Zwróć uwagę.)`
 					goto attentive
-				`	(Let my mind wander.)`
+				`	(Pozwól moim myślom błądzić.)`
 					goto bored
-				`	(Leave early.)`
-			`	You stay until the first intermission - still an uncomfortably long wait, and as far as you can tell, the story is nowhere near complete at that point. The performance was distinctly alien, with masks, acrobatics, and a stunning moment midway through the first act where one of the characters conjured up a storm to afflict another. Huge globs of water, suspended in clear spheres, were lifted behind the stage by some sort of repulsor mechanism.`
-			`	The train silently arrives after only a few minutes of waiting and takes you back to the spaceport without issue.`
+				`	(Wyjdź wcześniej.)`
+			`	Zostajesz do pierwszej przerwy - wciąż nieprzyjemnie długie oczekiwanie i, o ile się nie mylę, historia jest jeszcze daleka od zakończenia. Występ był wyraźnie obcy, z maskami, akrobatyką i oszałamiającym momentem w połowie pierwszego aktu, gdy jedna z postaci wyczarowała burzę, by dręczyć inną. Ogromne bryły wody, zawieszone w przezroczystych kulach, zostały uniesione za scenę przez jakiś mechanizm odpychający.`
+			`	Pociąg przyjeżdża cicho po zaledwie kilku minutach oczekiwania i bez problemu zabiera cię z powrotem do kosmoportu.`
 				decline
 			label attentive
-			`	"Irja, go and spread thine arms! Listen for our heart's yearning call, their voice, if thine ears can but hear at all what little flutt'rings a mortal life doth make..."`
-			`	The play turns out to be remarkably long, and immensely complex. The plot follows both mortal Successors, on the dry stage, and the gods in the water beneath them. Myiara Raaja was the adoptive child of one of the gods, eternally youthful in their immortal realm, but who ran away to the mortal world while the gods slumbered. There, they lived a long and full life before eventually dying and leaving behind their only child, Myiara Sera. The awakened gods, lamenting the loss of their child, dispatch their messenger Irja to retrieve the elder Myiara from the world above, but Irja, blinded by joy, mistakes the younger Myiara Sera for Myiara Raaja. In a desperate show of wit, Myiara Sera manages to poison Irja with a draught of eternal sleep, smearing it on a fine cloak that the god cannot resist, thinking it to be a reunion gift from their long-lost child.`
-			`	To maintain their freedom, Myiara Sera descends into the immortal world, tearfully poisoning each of the gods one-by-one in a similar fashion, eventually leaving them as they began - slumbering, caught in the slow gyration of the undersea currents. By the epilogue, Myiara Sera has two children themself, one who remains forever with the gods, coaxing them into ever-deeper dreamful sleep, the other who lives on in the mortal world and gives rise to a family of heroes, each of whom have their own plays and other cultural products.`
-			`	"This one shall linger, unmaligned, insensate, in the sepulchre'f of the deep. And all the weeping masses 'bove, below shall in their memory keep, and render off'rings...`
-			`	The production of the performance is strikingly alien - each of the actors wears a complex mask of their character that articulates with their face beneath it. The masks of the mortal characters are straightforward, if expressive, but those of the gods are enormous and dramatic. Many have long, ribbony parts that never settle in the currents of the tank, constantly swirling around the heads of the actors.`
-			`	Characters jump between the mortal and immortal realms by acrobatic leaps between the water-filled tank and its mostly-dry top surface. When particular moments are meant to be highlighted, enormous splashes of water erupt from behind the stage, and during others, long strands of the writhing Successor metal rise from around it, forming forests, ocean waves, and terrible storms out of their gleaming lengths.`
-			`	"Myiara younger, elder, younger still, who each shakes us from our rest to let us feel it sour again in the oceans of our blood..."`
-			`	By the time it's over, you are thoroughly exhausted from the experience. The train arrives after only a few minutes of waiting and you, packed in along with many other Successors, make your way back to the spaceport, finally arriving late in the night.`
+			`	"Irja, idź i rozłóż ramiona! Wsłuchaj się w tęskne wołanie naszego serca, w ich głos, jeśli twoje uszy w ogóle mogą usłyszeć, jakie drobne drgnięcia wydaje śmiertelne życie... "`
+			`	Sztuka okazuje się niezwykle długa i niezwykle złożona. Fabuła podąża zarówno za śmiertelnymi Następcami, na suchej scenie, jak i za bogami w wodzie pod nimi. Myiara Raaja była adoptowaną córką jednego z bogów, wiecznie młodą w ich nieśmiertelnym królestwie, która uciekła do świata śmiertelników, podczas gdy bogowie drzemali. Tam przeżyli długie i pełne życie, zanim w końcu umarli, pozostawiając po sobie swoje jedyne dziecko, Myiarę Serę. Przebudzeni bogowie, opłakując stratę dziecka, wysyłają posłańca Irję, aby sprowadził starszą Myiarę z górnego świata, ale Irja, oślepiony radością, myli młodszą Myiarę Serę z Myiarą Raają. W desperackim popisie dowcipu Myiara Sera otruła Irję eliksirem wiecznego snu, smarując nim piękny płaszcz, któremu bóg nie mógł się oprzeć, sądząc, że jest to dar ponownego spotkania od ich dawno zaginionego dziecka.`
+			`	Aby zachować wolność, Myiara Sera schodzi do świata nieśmiertelnych, zatruwając każdego z bogów po kolei w podobny sposób, ostatecznie pozostawiając ich takimi, jakimi byli na początku - drzemiącymi, uwięzionymi w powolnym wirowaniu podwodnych prądów. W epilogu Myiara Sera sama ma dwoje dzieci, jedno pozostaje na zawsze z bogami, namawiając ich do coraz głębszego snu, a drugie żyje w świecie śmiertelników i daje początek rodzinie bohaterów, z których każdy ma własne sztuki teatralne i inne wytwory kulturowe.`
+			`	"Ten pozostanie, nieskalany, nieczuły, w grobowcu głębin. A wszystkie płaczące masy na górze i na dole będą w swojej pamięci zachowywać i składać ofiary...`
+			`	Scenografia spektaklu jest uderzająco obca - każdy z aktorów nosi skomplikowaną maskę swojej postaci, która łączy się z twarzą pod nią. Maski postaci śmiertelnych są proste, choć wyraziste, ale maski bogów są ogromne i dramatyczne. Wiele z nich ma długie, wstęgowe części, które nigdy nie osiadają w prądach wody, nieustannie wirując wokół głów aktorów.`
+			`	Postacie przeskakują między krainą śmiertelników a nieśmiertelnych, wykonując akrobatyczne skoki między wypełnionym wodą zbiornikiem a jego niemal suchą górną powierzchnią. Gdy momenty mają być szczególnie uwypuklone, zza sceny wystrzeliwują ogromne bryzgi wody, a w innych momentach długie pasma wijącego się metalu Successor wyrastają wokół niej, tworząc z ich lśniących krawędzi lasy, fale oceanu i straszliwe burze.`
+			`	"Myiara młodsza, starsza, młodsza jeszcze, która wyrywa nas z naszego spoczynku, byśmy mogli znów poczuć gorzki smak w oceanach naszej krwi..."`
+			`	Kiedy to się kończy, jesteś kompletnie wyczerpany. Pociąg przyjeżdża po zaledwie kilku minutach oczekiwania, a ty, upchnięty w nim wraz z wieloma innymi Następcami, wracasz do kosmoportu, docierając tam w końcu późną nocą.`
 				decline
 			label bored
-			`	The play turns out to be remarkably long, and inscrutably complex. The plot seems to follow both mortal Successors, on the dry stage, and the gods in the water beneath them. One character named Myiara was beloved by the gods, and another one, seemingly misidentified, takes on the extensive process of one-by-one poisoning each of the gods so that their secret isn't found out. Eventually they have their own children, one of whom remains in the realm of the gods, and the other who returns to the world of the living.`
-			`	The production itself is eye-catching - the actors wear impressive masks that articulate with their faces, heightening the emotions they intend to portray. At particular moments in the story, enormous splashes of water erupt from behind the stage, and during others, long strands of metal are coaxed upwards into suspended shapes, forming scenes of storms and forests above the players' heads.`
-			`	By the time it's over, you are thoroughly exhausted from the experience. The train arrives after only a few minutes of waiting and you, packed in along with many other Successors, make your way back to the spaceport, finally arriving late in the night.`
+			`	Sztuka okazuje się niezwykle długa i nieprzenikniona. Fabuła zdaje się podążać zarówno za śmiertelnymi Następcami, na suchej scenie, jak i za bogami w wodzie pod nimi. Jedna z postaci o imieniu Myiara była ukochana przez bogów, a druga, pozornie źle zidentyfikowana, podejmuje się rozległego procesu zatruwania każdego z bogów, aby ich sekret nie wyszedł na jaw. W końcu rodzą się im własne dzieci, z których jedno pozostaje w krainie bogów, a drugie powraca do świata żywych.`
+			`	Sama produkcja przyciąga wzrok - aktorzy noszą imponujące maski, które łączą się z ich twarzami, potęgując emocje, które chcą oddać. W niektórych momentach zza sceny wystrzeliwują ogromne bryzgi wody, a w innych długie metalowe pasma unoszą się w górę, tworząc zawieszone kształty, tworząc sceny burz i lasów nad głowami aktorów.`
+			`	Kiedy to się kończy, jesteś kompletnie wyczerpany. Pociąg przyjeżdża po zaledwie kilku minutach oczekiwania, a ty, upchnięty w nim wraz z wieloma innymi Następcami, wracasz do kosmoportu, docierając tam w końcu późną nocą.`
 				decline
 
 mission "Successors: Sosrue"
@@ -266,35 +266,35 @@ mission "Successors: Sosrue"
 		random < 5
 	on offer
 		conversation
-			`Soon after you disembark your ship, you spot two Successors eyeing you from across the spaceport; the younger one pulls at the arms of the larger one several times until eventually the two of them move over to you. The larger one splays their arms in greeting. "My child wanted me to ask of thee, alien - in thy travels, hast thou met a Sosrue?`
+			`Wkrótce po zejściu ze statku dostrzegasz dwóch Następców obserwujących cię z drugiego końca kosmoportu; młodszy ciągnie za ramiona większego kilka razy, aż w końcu obaj podchodzą do ciebie. Większy rozkłada ramiona w geście powitania. "Moje dziecko chciało, żebym cię zapytał, obcy - czy w swoich podróżach spotkałeś Sosrue?`
 			choice
-				`	"A what?"`
+				`	"A co?"`
 					goto what
-				`	"Maybe, but I wouldn't know it by that name if I had."`
+				`	"Może, ale gdybym to zrobił, nie poznałbym tej nazwy."`
 					goto name
-				`	"I don't have time for this."`
-			`	The adult affects what might be a disappointed shade of red, but nonetheless collects their child and leaves you alone to your business.`
+				`	"Nie mam na to czasu."`
+			`	Dorosły może wyrażać rozczarowanie, ale mimo to zabiera swoje dziecko i zostawia cię samego z twoimi sprawami.`
 				decline
 			label what
-			`	The child bursts into speech. "Beware the Sosrue, cloaked in black, its teeth and claws!" before their parent interrupts them.`
+			`	Dziecko zaczyna mówić. "Uważajcie na Sosrue, odzianego na czarno, z zębami i pazurami!" zanim rodzic mu przerwie.`
 			label name
-			`	"I'm sorry," says the adult. "It's a monster, from a children's poem. This little's favorite. So tell my child and I, also - hast thou, among the wider breadth of stars, met some creature long of arm, discerning of ear, and many of tooth, that dwells in every manner of the stellar deep?" Their skin runs with thin golden lines as they say this, shivering with each syllable.`
+			`	"Przepraszam," mówi dorosły. "To potwór z dziecięcego wiersza. Ulubieniec tego malucha. Powiedz więc mojemu dziecku i mnie również - czy wśród rozleglejszych gwiazd spotkałeś jakieś stworzenie o długich ramionach, wyczulonym słuchu i wielu zębach, zamieszkujące wszelkie głębiny gwiezdne?" Ich skóra pokrywają cienkie złote linie, gdy to mówią, drżąc z każdą sylabą.`
 			choice
-				`	"No, but I've met some interesting aliens."`
+				`	"Nie, ale spotkałem kilku interesujących kosmitów."`
 					goto truth
-				`	"I once wrestled one deep in a nebula."`
+				`	"Kiedyś walczyłem z jednym głęboko w mgławicy."`
 					goto play
-				`	"That's an awfully dark story for a child."`
-			`	The child undulates gently, burbling with strange laughter. "'Tis not real," says their parent. "Why would my child be afeared by it?"`
-			`	With this, the two Successors glide back into the spaceport, chatting with each other as they go.`
+				`	"To strasznie mroczna historia dla dziecka."`
+			`	Dziecko faluje delikatnie, bełkocząc dziwnym śmiechem. "To nie jest prawdziwe," mówi rodzic. "Czemu moje dziecko miałoby się tego bać?"`
+			`	Po tym wydarzeniu dwaj Następcy wracają do kosmoportu, rozmawiając ze sobą.`
 				decline
 			label truth
-			`	The child wriggles gently as if laughing, turning a pastel shade of pink. "So serious, thou art," their parent says. "Perhaps thy alien companions did all the Sosrue-seeing before thou came. They must be witty ones to have escaped with their lives!"`
-			`	With this, the two depart back into the spaceport, clearly having fulfilled whatever impulse toward amusement they came to you for.`
+			`	Dziecko wierci się delikatnie, jakby się śmiało, przybierając pastelowy odcień różu. "Ale jesteś poważny, " mówi jego rodzic. "Może twoi obcy towarzysze widzieli Sosrue, zanim się pojawiłeś. Muszą być dowcipni, skoro uszli z życiem! "`
+			`	Po tym oboje wracają do kosmoportu, wyraźnie zaspokajając potrzebę rozrywki, po którą do ciebie przyszli.`
 				decline
 			label play
-			`	"Thy wounds!" the child cries, "and by this, half thy arms have been divorced from thee!" They wiggle happily, and their parent continues, the golden lines from before bursting into splashes of color all over their body. "Thou must have been a witty one to have escaped this. No doubt thy foe remains in wait, now knowing of thy might. Thou must be twice as clever should you ever meet again!"`
-			`	With this final comment, the parent once again splays their arms to you and the two Successors glide back into the spaceport, the child murmuring more of the poem as they go.`
+			`	"Twoje rany!" - krzyczy dziecko - "i przez to połowa twoich ramion została od ciebie oddzielona!" Kręcą się radośnie, a ich rodzic kontynuuje, a złote linie z przeszłości eksplodują plamami koloru na całym ich ciele. "Musiałeś być sprytny, skoro udało ci się tego uniknąć. Niewątpliwie twój wróg czyha, teraz poznając twoją potęgę. Musisz być dwa razy sprytniejszy, jeśli kiedykolwiek się spotkasz!"`
+			`	Wraz z tym ostatnim komentarzem rodzic ponownie rozkłada ramiona w twoją stronę, a dwaj Następcy szybują z powrotem do kosmoportu, a dziecko mamrocze dalszą część wiersza.`
 				decline
 
 mission "Successors: Derelict Station Toy"
@@ -309,20 +309,20 @@ mission "Successors: Derelict Station Toy"
 		random < 5
 	on offer
 		conversation
-			`Although the spaceport here is as quiet and lifeless as always, when you disembark for a moment, you spy a strange, colorful object lying a short distance away in the gloom. It's hard to tell what exactly it is at first glance, but upon closer inspection, it appears to be a small metal model of a Kvelqde shuttle, painted in bright and oily-looking colors. A tiny, well-worn propeller emerges from its rear.`
+			`Chociaż kosmodrom jest tu tak cichy i martwy jak zawsze, gdy na chwilę wysiądziesz, dostrzeżesz dziwny, kolorowy obiekt leżący niedaleko w mroku. Trudno na pierwszy rzut oka stwierdzić, co to dokładnie jest, ale po bliższym przyjrzeniu się okazuje się, że to mały metalowy model wahadłowca Kvelqde, pomalowany na jaskrawe, oleiste kolory. Z jego rufy wyłania się maleńkie, mocno zużyte śmigło.`
 			choice
-				`	(Leave it be.)`
+				`	(Zostaw tak.)`
 					goto leave
-				`	(Take it.)`
+				`	(Weź to.)`
 					goto take
-				`	(Stomp on it.)`
-			`	The toy proves remarkably durable - your assault on it does little more than scuff its paint, while you are forced to limp back to the <ship> with a bruised foot.`
+				`	(Nadepnij na to.)`
+			`	Zabawka okazuje się niezwykle wytrzymała - twój atak na nią nie powoduje nic więcej poza porysowaniem jej farby, podczas gdy ty jesteś zmuszony dokuśtykać z powrotem do <ship> z posiniaczoną stopą.`
 				decline
 			label leave
-			`	You return to your ship, catching one last glimpse of the improbable pinprick of color against the dark and foreboding station walls.`
+			`	Wracasz na swój statek, dostrzegając po raz ostatni nieprawdopodobny punkcik koloru na tle ciemnych i złowrogich ścian stacji.`
 				decline
 			label take
-			`	You drop the toy shortly after picking it up when a sharp edge on the propeller slices through your hand. You hurry back to your ship while clutching the stinging wound.`
+			`	Upuszczasz zabawkę krótko po jej podniesieniu, gdy ostra krawędź śmigła przecina ci dłoń. Pospiesznie wracasz na statek, ściskając piekącą ranę.`
 				decline
 
 mission "Successors: Pet Commemoration"
@@ -335,8 +335,8 @@ mission "Successors: Pet Commemoration"
 		random < 5
 	on offer
 		conversation
-			`A screen on one of the walls displays a commemorative message - a picture of a small salamander-like creature cradled in a Successor's arms, with some text below it:`
-			`	"Mirja-Mirja, the most loyal of friends and gentlest of animals. Such stuff as dreams are made on."`
+			`Na ekranie jednej ze ścian wyświetlana jest pamiątkowa wiadomość - obrazek przedstawiający małe stworzenie przypominające salamandrę, trzymane w ramionach Następcy, a pod nim tekst:`
+			`	"Mirja-Mirja, najwierniejsza z przyjaciółek i najłagodniejsze ze zwierząt. Z takiego materiału, jak sny, powstają."`
 				decline
 
 mission "Successors: Armor Reconfiguration"
@@ -348,5 +348,5 @@ mission "Successors: Armor Reconfiguration"
 		random < 5
 	on offer
 		conversation
-			`As you look around the spaceport here, a High Houses warship comes in for a landing, proceeding into a smaller outfitting bay off to the side that is only partially visible to civilian viewers. Enormous mechanical arms fold down from the top of the bay, first calibrating themselves against the vessel's shape and position before starting to scan over the warship's armor closely enough that it looks like they are almost touching. The metal writhes as the arms pass over it - goopy, liquid-looking protrusions form and collapse in their wake, splashing into themselves like raindrops into water, dewy and soft. Once the rippling stops, the texture of the hull looks somehow changed: a little rougher, perhaps, or maybe a slightly different shade of gray. The ship takes off not long after.`
+			`Gdy rozglądasz się po porcie kosmicznym, widzisz okręt wojenny High Houses, który podchodzi do lądowania i wpływa do mniejszej, bocznej komory, widocznej tylko częściowo dla cywilów. Ogromne mechaniczne ramiona składają się z górnej części komory, najpierw dopasowując się do kształtu i położenia statku, a następnie zaczynają skanować pancerz okrętu na tyle blisko, że wygląda, jakby się niemal stykały. Metal wije się, gdy ramiona nad nim przelatują - lepkie, przypominające ciecz wypustki tworzą się i zapadają w ślad za nimi, rozpryskując się jak krople deszczu w wodzie, wilgotne i miękkie. Gdy marszczenie ustanie, tekstura kadłuba wydaje się nieco zmieniona: być może jest nieco bardziej szorstka, a może ma nieco inny odcień szarości. Wkrótce potem statek startuje.`
 				decline

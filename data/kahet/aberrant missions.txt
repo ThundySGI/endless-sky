@@ -24,11 +24,11 @@ mission "Disabled Aberrant"
 				has "Disabled Ka'het: offered"
 			action
 				log `<LG-443>`
-			`You draw the <flagship> alongside this strange entity, which, despite its lack of motion, seems to exude an ominous presence. Something feels fundamentally wrong with this ship as you approach a hole in a vulnerable part of its hull, which seems to be some kind of shell encasing a large, slug-like creature. Exposed to weapons fire, the creature seems to be dead, but you feel almost as if something is watching you.`
-			`	You have no trouble docking with what seems to be its "exoskeleton," trying to decide what to do next. While the Aberrant is too different from a normal ship for you to command it, it's safe to say that you can now loot some of its outfits. The rest appear to be embedded in some kind of hard, glassy tissue; perhaps destroying the ship could release them.`
+			`<CN-14696>`
+			`<CN-14697>`
 				decline
 			label "boarded ka'het"
 			action
 				log `<LG-444>`
-			`You draw the <flagship> alongside this strange, yet almost-familiar entity, which, despite its lack of motion, seems to exude an ominous presence. Something feels fundamentally wrong with this ship, which superficially resembles a Ka'het, yet is clearly not one - perhaps a distant relation, or a Ka'het that has been irrevocably changed by something else. You approach a hole in a vulnerable part of its hull, where a 'het slug appears dead, but you feel almost as if it still watches you.`
-			`	You have no trouble docking with its "exoskeleton," trying to decide what to do next. While the Aberrant is too different from a normal ship for you to command it, it's safe to say that you can now loot some of its outfits. The rest appear to be embedded in some kind of hard, glassy tissue; perhaps destroying the ship could release them.`
+			`<CN-14698>`
+			`<CN-14699>`

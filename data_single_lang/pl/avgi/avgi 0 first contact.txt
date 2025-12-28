@@ -54,104 +54,104 @@ mission "Avgi: First Contact"
 				has "flagship planet attribute: uninhabited"
 
 			label aviskir
-			`The first thing you notice about this Earth-like world is the utter devastation in orbit. Your ship's sensors pick up the remains of what appear to be dozens of wrecked stations and countless destroyed satellites, forming a large swath of debris scattered in various orbits. A few larger objects are mostly intact, but lifeless, with no signal emissions or heat signatures. As your ship touches the upper atmosphere, you can see, even with your naked eye, glittering fragments of an immensely long tether slowly spinning in orbit.`
-			`	Your observations are interrupted by a blared warning from your console. You barely manage to yank your ship aside as a bright trail of plasma nearly clips you, the wake of a hypervelocity projectile fired from the ground. Clearly, someone is still alive down there, despite the destruction in orbit. Proceeding could be dangerous if your ship isn't able to withstand a direct hit from those planetary defense batteries.`
+			`Pierwszą rzeczą, jaką zauważasz na tym przypominającym Ziemię świecie, jest całkowite zniszczenie na orbicie. Czujniki twojego statku wychwytują pozostałości po dziesiątkach zniszczonych stacji i niezliczonych satelitach, tworząc rozległy pas szczątków rozrzuconych po różnych orbitach. Kilka większych obiektów jest w większości nienaruszonych, ale martwych, bez emisji sygnałów ani sygnatur cieplnych. Gdy twój statek dotyka górnych warstw atmosfery, możesz zobaczyć, nawet gołym okiem, lśniące fragmenty niezwykle długiej liny, powoli wirującej na orbicie.`
+			`	Twoje obserwacje przerywa głośny ostrzeżenie z konsoli. Ledwo udaje ci się odciągnąć statek na bok, gdy jasny ślad plazmy, ślad po pocisku hiperszybkim wystrzelonym z Ziemi, niemal cię ociera. Najwyraźniej ktoś tam na dole wciąż żyje, pomimo zniszczeń na orbicie. Dalsza podróż może być niebezpieczna, jeśli twój statek nie wytrzyma bezpośredniego trafienia z baterii obrony planetarnej.`
 			action
 				set "avgi: fired on by planets"
 			choice
-				`	(Attempt to land regardless.)`
+				`	(Podejmij próbę lądowania bez względu na wszystko.)`
 					goto explode
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" <= 18000 * 1000
-				`	(Attempt to land regardless.)`
+				`	(Podejmij próbę lądowania bez względu na wszystko.)`
 					goto hit
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" > 18000 * 1000
 						"flagship attribute: shields" + "flagship attribute: hull" < 90000 * 1000
-				`	(Attempt to land regardless.)`
+				`	(Podejmij próbę lądowania bez względu na wszystko.)`
 					goto scratched
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" >= 90000 * 1000
-				`	(Move to a higher orbit.)`
+				`	(Przenieś się na wyższą orbitę.)`
 					goto orbit
 
 			label "core world"
-			`The first thing you notice about this habitable world is the utter devastation in orbit. Your ship's sensors pick up the remains of what appear to be a handful of wrecked stations and countless destroyed satellites, forming a large swath of debris scattered in various orbits. A few larger objects are mostly intact, but lifeless, with no signal emissions or heat signatures. As your ship touches the upper atmosphere, you can see the tumbling remains of what looks like half of an enormous starship with an equally large drive, splintered and broken along its spine.`
-			`	Your observations are interrupted by a blared warning from your console. You barely manage to yank your ship aside as a bright trail of plasma nearly clips you, the wake of a hypervelocity projectile fired from the ground. Clearly, someone is still alive down there, despite the destruction in orbit. Proceeding could be dangerous if your ship isn't able to withstand a direct hit from those planetary defense batteries.`
+			`Pierwszą rzeczą, jaką zauważasz na tym zamieszkanym świecie, jest całkowite zniszczenie na orbicie. Czujniki twojego statku wychwytują szczątki czegoś, co wygląda na garstkę zniszczonych stacji i niezliczone zniszczone satelity, tworzące rozległy pas szczątków rozrzuconych po różnych orbitach. Kilka większych obiektów jest w większości nienaruszonych, ale martwych, bez emisji sygnałów ani sygnatur cieplnych. Gdy twój statek dotyka górnych warstw atmosfery, możesz zobaczyć wirujące szczątki czegoś, co wygląda jak połowa ogromnego statku kosmicznego z równie dużym napędem, roztrzaskanego i połamanego wzdłuż grzbietu.`
+			`	Twoje obserwacje przerywa głośny ostrzeżenie z konsoli. Ledwo udaje ci się odciągnąć statek na bok, gdy jasny ślad plazmy, ślad po pocisku hiperszybkim wystrzelonym z Ziemi, niemal cię ociera. Najwyraźniej ktoś tam na dole wciąż żyje, pomimo zniszczeń na orbicie. Dalsza podróż może być niebezpieczna, jeśli twój statek nie wytrzyma bezpośredniego trafienia z baterii obrony planetarnej.`
 			action
 				set "avgi: fired on by planets"
 			choice
-				`	(Attempt to land regardless.)`
+				`	(Podejmij próbę lądowania bez względu na wszystko.)`
 					goto explode
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" <= 9000 * 1000
-				`	(Attempt to land regardless.)`
+				`	(Podejmij próbę lądowania bez względu na wszystko.)`
 					goto hit
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" > 9000 * 1000
 						"flagship attribute: shields" + "flagship attribute: hull" < 60000 * 1000
-				`	(Attempt to land regardless.)`
+				`	(Podejmij próbę lądowania bez względu na wszystko.)`
 					goto scratched
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" >= 60000 * 1000
-				`	(Move to a higher orbit.)`
+				`	(Przenieś się na wyższą orbitę.)`
 					goto orbit
 
 			label explode
-			`	You make it no more than a few seconds before your ship is lanced by a rapid succession of shots from below. Your shields shatter almost instantly, your hull pierced as though it is tissue paper. You don't even have time to think before you are consumed by the rapidly expanding cloud of plasma that was once the <ship>.`
+			`	Nie mija nawet kilka sekund, zanim twój statek zostaje trafiony serią szybkich strzałów z dołu. Twoje osłony roztrzaskują się niemal natychmiast, a kadłub przebija się jak bibułka. Nie masz nawet czasu na myślenie, zanim zostajesz pochłonięty przez szybko rozszerzającą się chmurę plazmy, która kiedyś była <ship>.`
 				explode
 
 			label hit
-			`	You make it no more than a few seconds before the <ship> is lanced by a rapid succession of shots from below. Your ship appears to be holding up under the fire, but the species that lives here doesn't seem willing to welcome you. When you detect the launch of a rather unreasonable number of missiles, you decide it would be safer to proceed back to orbit.`
+			`	Zdążasz nie dłużej niż kilka sekund, zanim <ship> zostaje trafiony serią szybkich strzałów z dołu. Twój statek zdaje się wytrzymywać ostrzał, ale gatunek, który tu żyje, nie wydaje się chętny, by cię powitać. Kiedy wyczuwasz wystrzelenie dość nierozsądnej liczby pocisków, decydujesz, że bezpieczniej będzie wrócić na orbitę.`
 				goto orbit
 
 			label scratched
-			`	You make it no more than a few seconds before the <ship> is lanced by a rapid succession of shots from below. Your ship easily shrugs off the kinetic impacts, but the species that lives here doesn't seem willing to welcome you. When you detect the launch of a rather unreasonable number of missiles, you decide it would be safer to proceed back to orbit.`
+			`	Zdążasz nie dłużej niż kilka sekund, zanim <ship> zostaje trafiony serią szybkich strzałów z dołu. Twój statek z łatwością ignorował uderzenia kinetyczne, ale gatunek, który tu żyje, nie wydaje się chętny, by cię powitać. Kiedy wyczuwasz wystrzelenie dość nierozsądnej liczby pocisków, decydujesz, że bezpieczniej będzie wrócić na orbitę.`
 				goto orbit
 
 			label uninhabited
-			`While this world looks presently unsettled, you can clearly make out signs that it has been explored, and even exploited, by an alien civilization. However, the signs also show that something disastrous happened here. Ruined satellites litter low orbit, and you can detect the broken remnants of surface outposts smeared across the land below. You take the <ship> in for a close pass over one of the structures, and can see small craters and patches of glassed terrain scattered around it.`
+			`Chociaż ten świat wygląda obecnie na niespokojny, wyraźnie widać ślady eksploracji, a nawet eksploatacji, przez obcą cywilizację. Jednak ślady wskazują również na katastrofę. Niską orbitę zaśmiecają zniszczone satelity, a na powierzchni ziemi można dostrzec rozbite pozostałości placówek naziemnych. Przelatujesz <ship> z bliska nad jedną z tych struktur i dostrzegasz małe kratery oraz fragmenty przeszklonego terenu rozrzucone wokół niej.`
 				goto orbit
 
 			label orbit
-			`	Back in orbit, you are startled when another ship appears over the horizon on an intercept trajectory with you. It doesn't look like any other ship you've seen before, appearing more than a little ungainly compared to the sleeker human ships you're accustomed to. You aren't sure whether it belongs to the same species that inhabits this space, or an entirely different one, but it at least definitely isn't similar to the hostile ships that seem to infest this star cluster.`
+			`	Wróciwszy na orbitę, jesteś zaskoczony, gdy na horyzoncie, na trajektorii przechwytującej, pojawia się kolejny statek. Nie przypomina żadnego innego statku, jaki widziałeś wcześniej, a wręcz wydaje się nieco niezgrabny w porównaniu ze smuklejszymi statkami ludzkimi, do których jesteś przyzwyczajony. Nie jesteś pewien, czy należy do tego samego gatunku zamieszkującego tę przestrzeń, czy do zupełnie innego, ale przynajmniej na pewno nie przypomina wrogich statków, które zdają się infekować tę gromadę gwiazd.`
 			choice
-				`	(Try transmitting a standard hail.)`
+				`	(Spróbuj nadać standardowe ostrzeżenie.)`
 					goto talk
-				`	(Transmit a series of prime numbers.)`
+				`	(Prześlij serię liczb pierwszych.)`
 					goto prime
-				`	(Remain silent.)`
+				`	(Zachowaj milczenie.)`
 					goto silent
 
 			label station
-			`This alien station has certainly seen better days. While the bulk of the structure is still intact, avoiding the fate of whatever became the debris fields you have seen elsewhere, the hull is scored and chipped by what appears to be powerful weapons fire. The station's systems all seem to be powered down, as you can detect no emissions of light or heat. Without expecting to find anyone or anything alive, you maneuver near what you think is an open docking bay.`
-			`	Just as the <ship> pulls alongside the "docking bay," you spot what looks like a ship tucked away inside. It is like no ship you have ever seen before, appearing more than a little ungainly compared to the sleeker human ships you're accustomed to. You aren't sure whether it belongs to the same species that inhabits this space, or an entirely different one, but it at least definitely isn't similar to the hostile ships that seem to infest this star cluster. What's more, its reactor is powered up and it seems to have an active shield matrix. It appears someone is indeed home.`
+			`Ta obca stacja z pewnością widziała lepsze dni. Choć większość konstrukcji jest wciąż nienaruszona, unikając losu tego, co stało się z polami szczątków, które widziałeś gdzie indziej, kadłub jest porysowany i podziurawiony czymś, co wydaje się być potężnym ostrzałem. Wszystkie systemy stacji wydają się być wyłączone, ponieważ nie wykryłeś emisji światła ani ciepła. Nie spodziewając się znaleźć nikogo ani niczego żywego, manewrujesz w pobliżu czegoś, co uważasz za otwartą dok.`
+			`	Gdy <ship> zbliża się do "doku, " dostrzegasz coś, co wygląda jak schowany w środku statek. Nie przypomina żadnego statku, jaki kiedykolwiek widziałeś, wydając się nieco niezgrabny w porównaniu ze smuklejszymi statkami ludzkimi, do których jesteś przyzwyczajony. Nie jesteś pewien, czy należy do tego samego gatunku zamieszkującego tę przestrzeń, czy do zupełnie innego, ale przynajmniej na pewno nie przypomina wrogich statków, które zdają się infekować tę gromadę gwiazd. Co więcej, jego reaktor jest włączony i wydaje się, że ma aktywną matrycę osłon. Wygląda na to, że ktoś rzeczywiście jest w domu.`
 			choice
-				`	(Transmit a standard hail.)`
+				`	(Nadaj standardowe zgłoszenie.)`
 					goto talk
-				`	(Transmit a series of prime numbers.)`
+				`	(Prześlij serię liczb pierwszych.)`
 					goto prime
-				`	(Remain silent.)`
+				`	(Zachowaj milczenie.)`
 					goto silent
 
 			label talk
-			`	You aren't quite sure how to proceed in communicating with a completely unknown species, but you transmit a standard hail, if only to assure the alien vessel that you're trying to signal it.`
-			`	To your shock, however, the alien vessel responds after only a few minutes, not only in the same frequency band, but with an encoding your ship's computer is able to interpret: a standard human data format, similar to the one you've just sent. Either these aliens have an astonishing ability to decipher transmissions, or they have somehow encountered humanity before.`
-			`	The message is short and direct:`
+			`	Nie masz pewności, jak postępować w przypadku komunikacji z zupełnie nieznanym gatunkiem, ale nadajesz standardowy sygnał, choćby po to, by zapewnić obcy statek, że próbujesz wysłać mu sygnał.`
+			`	Ku twojemu zaskoczeniu, statek kosmiczny odpowiada już po kilku minutach, nie tylko w tym samym paśmie częstotliwości, ale także z kodowaniem, które komputer twojego statku potrafi zinterpretować: standardowym ludzkim formatem danych, podobnym do tego, który właśnie wysłałeś. Albo ci kosmici mają zdumiewającą zdolność do rozszyfrowywania transmisji, albo w jakiś sposób spotkali już wcześniej ludzkość.`
+			`	Wiadomość jest krótka i bezpośrednia:`
 				goto transmission
 
 			label prime
-			`	You can't expect a new alien species to be able to decode your transmissions, let alone understand your language, so you transmit a short list of prime numbers via simple amplitude modulated signals, if only to assure the alien vessel that you're attempting to communicate.`
-			`	To your shock, however, the alien vessel interrupts you just as you send the number "37," with a transmission not only in the same frequency band, but with an encoding your ship's computer is able to interpret: a standard human data format, similar to the one you've just sent. They must have somehow encountered humanity before.`
-			`	The message is short and direct:`
+			`	Nie możesz oczekiwać, że nowa obca rasa będzie w stanie zdekodować twoje transmisje, nie mówiąc już o zrozumieniu twojego języka, dlatego przesyłasz krótką listę liczb pierwszych za pomocą prostych sygnałów o modulacji amplitudy, choćby po to, by upewnić obcy statek, że próbujesz się komunikować.`
+			`	Ku twojemu zaskoczeniu, statek kosmiczny przerywa ci w chwili, gdy wysyłasz numer "37,", przekazując nie tylko w tym samym paśmie częstotliwości, ale także z kodowaniem, które komputer twojego statku potrafi zinterpretować: standardowy ludzki format danych, podobny do tego, który właśnie wysłałeś. Musieli w jakiś sposób wcześniej spotkać ludzkość.`
+			`	Wiadomość jest krótka i bezpośrednia:`
 				goto transmission
 
 			label silent
-			`	Unsure of the intentions of the alien vessel, you remain silent. However, it seems the aliens have other intentions, as you shortly receive a transmission with an encoding your ship's computer is able to interpret, in a standard human data format. The message is short and direct:`
+			`	Nie mając pewności co do intencji statku kosmicznego, milczysz. Wygląda jednak na to, że obcy mają inne zamiary. Wkrótce otrzymujesz transmisję z kodem, który komputer twojego statku potrafi zinterpretować, w standardowym formacie danych dla ludzi. Wiadomość jest krótka i bezpośrednia:`
 
 			label transmission
-			`	"Salutations. I am of the Avgi. You human, question? Important. You will follow. This space, Twilight, not safe. You have hyperdrive, correct? Emphasis. Space we will travel is unstable, a maze. Follow closely and be careful."`
-			`	The message includes an alien-looking star chart, with a trail of marked systems leading to a system far to the south. Something appears to have been lost in translation, as the systems are unmarked past a certain point and are instead labeled as "shrouded," whatever that means. Just as you are still processing first contact with an alien civilization, a group of the same ships that attacked you earlier jump into the system.`
+			`	"Pozdrowienia. Jestem Avgi. Człowieku, pytanie? Ważne. Podążysz za mną. Ta przestrzeń, Twilight, nie jest bezpieczna. Masz hipernapęd, prawda? Podkreślenie. Przestrzeń, którą będziemy podróżować, jest niestabilna, labirynt. Podążaj za mną uważnie i bądź ostrożny."`
+			`	Wiadomość zawiera mapę gwiezdną wyglądającą na obcą, z zaznaczonymi systemami prowadzącymi do układu daleko na południu. Coś chyba zostało utracone w tłumaczeniu, ponieważ systemy pozostają nieoznaczone po przekroczeniu pewnego punktu i są oznaczone jako "shrouded", cokolwiek to znaczy. Właśnie gdy przetwarzasz pierwszy kontakt z obcą cywilizacją, grupa tych samych statków, które zaatakowały cię wcześniej, wskakuje do układu.`
 				launch
 
 	npc
@@ -215,8 +215,8 @@ mission "Avgi: First Contact"
 
 	on enter "Concerto"
 		conversation
-			`After a confusing journey through the winding hyperlanes, you finally arrive at the final system the alien marked on your map. You notice that your flight computer has failed to record the locations of most of the systems you passed through, probably due to the same anomaly that made your ship almost completely blind within the region. This region appears unaffected however, and your computer is able to chart its position as usual.`
-			`	The alien ship pings you, indicating to follow as it flies towards what looks to be a large inhabited station in the system. Shaped like a circular disk, a large cutout in the center exposes hundreds of docking bays and what looks to be a spaceport. As you watch, a trio of sleek-looking fightercraft launch from the station and take up escort positions around you and the other alien ship you have followed all this way. You can only assume your escort is in communication with the station authorities.`
+			`Po zagmatwanej podróży krętymi hiperpasami w końcu docierasz do ostatniego układu, który obcy oznaczył na twojej mapie. Zauważasz, że twój komputer pokładowy nie zarejestrował lokalizacji większości systemów, przez które przelatywałeś, prawdopodobnie z powodu tej samej anomalii, która sprawiła, że twój statek był niemal całkowicie ślepy w tym regionie. Ten region wydaje się jednak nienaruszony, a twój komputer jest w stanie nakreślić jego pozycję jak zwykle.`
+			`	Statek kosmiczny wysyła sygnał, dając sygnał, by podążać za nim w kierunku czegoś, co wygląda na dużą, zamieszkaną stację kosmiczną w układzie. Kształtem przypominający okrągły dysk, z dużym wycięciem pośrodku odsłania setki doków i coś, co wygląda na port kosmiczny. Na twoich oczach trzy eleganckie myśliwce startują ze stacji i zajmują pozycje eskortowe wokół ciebie i drugiego statku kosmicznego, za którym podążałeś przez całą drogę. Możesz jedynie założyć, że twoja eskorta komunikuje się z władzami stacji.`
 
 	on fail
 		dialog `Statek kosmiczny został zniszczony. Jeśli chcesz kontynuować historię Avgi, wróć do autozapisu lub innego wcześniejszego stanu gry.`
@@ -251,140 +251,140 @@ mission "Avgi: Humans From the Deep"
 		set "avgi: met lait"
 		set "language: Avgi"
 		conversation
-			`	Your companion speeds ahead, neatly pulling into one of the bays on the outer levels. When you attempt to follow, the fightercraft zip in front of you, herding you towards a different bay closer to the middle decks.`
-			`	The docking bay is full of activity, and you finally get your first glimpse at this new species up close. They appear to be something analogous to an Earth dragonfly, or maybe closer to a damselfly - a meter and a half long on average, and with six limbs and wings. A group of them quickly close in around your ship as you finally land in a clear space, moving precisely. These aliens have clearly been expecting you.`
-			`	None of the aliens look to be armed, but are arrayed around your ship in a clearly defensive circular pattern, both on foot and flitting about in the air. Some of them look to be wearing some kind of body armor, but they don't seem to be carrying any obvious weapons. As you step out of the <ship>, noticing the lighter gravity, a small group quickly moves forward to meet you.`
+			`	Twój towarzysz mknie naprzód, zgrabnie wjeżdżając do jednej z zatok na zewnętrznych poziomach. Kiedy próbujesz za nim podążyć, myśliwiec śmiga przed tobą, kierując cię w stronę innej zatoki bliżej środkowych pokładów.`
+			`	W doku panuje ożywienie i w końcu po raz pierwszy dostrzegasz z bliska ten nowy gatunek. Wyglądają na coś zbliżonego do ziemskiej ważki, a może raczej do ważki równoskrzydłej - mają średnio półtora metra długości, sześć kończyn i skrzydeł. Grupa szybko okrąża twój statek, gdy w końcu lądujesz w pustej przestrzeni, poruszając się precyzyjnie. Ci kosmici najwyraźniej na ciebie czekali.`
+			`	Żaden z obcych nie wygląda na uzbrojonego, ale rozstawiają się wokół twojego statku w wyraźnie defensywnym, kolistym szyku, zarówno pieszo, jak i w powietrzu. Niektórzy z nich wyglądają na noszących jakieś pancerze, ale nie widać po nich żadnej widocznej broni. Gdy wychodzisz z <ship>, zauważając mniejszą grawitację, mała grupa szybko rusza naprzód, by cię powitać.`
 			choice
-				`	"Hello, I'm Captain <first> <last>."`
+				`	"Cześć, nazywam się Kapitan <first> <last>."`
 					goto next
-				`	"I come in peace."`
+				`	"Przychodzę w pokoju."`
 					goto next
-				`	"Take me to your leader."`
+				`	"Zabierz mnie do swojego przywódcy."`
 					goto next
-				`	(Shoot them.)`
+				`	(Strzelaj do nich.)`
 
-			`	You draw your sidearm and begin firing at the group of aliens, who scatter in all directions. Your first shot glances off alien body armor, but your second burns a hole in a wing, sending the alien tumbling. You have little time to celebrate your short-lived victory, however, before a flash of unfathomably bright blue-green light turns you into a rapidly expanding cloud of hot vapor.`
+			`	Wyciągasz broń boczną i zaczynasz strzelać do grupy kosmitów, którzy rozbiegają się we wszystkich kierunkach. Twój pierwszy strzał odbija się od kamizelki kuloodpornej kosmity, ale drugi wypala dziurę w skrzydle, posyłając kosmitę w dół. Masz jednak niewiele czasu na świętowanie krótkotrwałego zwycięstwa, zanim błysk niewiarygodnie jasnego niebiesko-zielonego światła zamienia cię w szybko rozszerzającą się chmurę gorącej pary.`
 				die
 
 			label next
-			`	The aliens hum and chirp excitedly amongst themselves, the sound reminding you of a string instrument. You notice they seem to produce sounds not from any particular vocal organs, but by rubbing their forearms or legs together akin to a cricket. One of the aliens, with a cream-colored body, seems to hush the others, flaring their wings out before returning them to a folded position on their back. They then raise a curved, black instrument reminiscent of a violin bow, drawing it over one of their forelimbs for a moment before the device begins to speak in a synthetic, vaguely masculine voice.`
-			`	"Invitation. Welcome, Captain <first> <last>. I am Lait of the Avgi, the one with whom you spoke earlier. I would show you to our leaders to discuss your arrival to our space."`
+			`	Obcy nucą i ćwierkają podekscytowani między sobą, a dźwięk przypomina instrument strunowy. Zauważasz, że wydają dźwięki nie za pomocą żadnych konkretnych narządów głosowych, ale poprzez pocieranie przedramion lub nóg, niczym świerszcz. Jeden z kosmitów, o kremowym ciele, zdaje się uciszać pozostałych, rozkładając skrzydła, po czym ponownie układa je na plecach. Następnie unosi zakrzywiony, czarny instrument przypominający smyczek skrzypcowy i na chwilę przesuwa go po jednej z przednich kończyn, zanim urządzenie zacznie mówić syntetycznym, nieco męskim głosem.`
+			`	"Zaproszenie. Witaj, Kapitanie <first> <last>. Jestem Lait z Avgi, ten, z którym rozmawiałeś wcześniej. Chciałbym cię pokazać naszym przywódcom, aby omówić twoje przybycie do naszej przestrzeni."`
 			choice
-				`	(Follow the aliens.)`
+				`	(Podążaj za kosmitami.)`
 					goto follow
-				`	"How can you speak my language?"`
-				`	"Who are those hostile aliens back toward the north?"`
-				`	"Will you tell me about your civilization?"`
+				`	"Jak potrafisz mówić moim językiem?"`
+				`	"Kim są ci wrodzy kosmici na północy?"`
+				`	"Czy opowiesz mi o swojej cywilizacji?"`
 
-			`	"Reassurance. All of your questions will be answered in time, Captain <last>. Please, now follow."`
+			`	"Reassurance. Na wszystkie pytania odpowiemy na czas, Kapitanie <last>. Proszę teraz postępować zgodnie z instrukcjami."`
 
 			label follow
-			`	You are led through the hangar, an entourage of guards separating you from curious onlookers - pilots, mechanics, or soldiers, you aren't sure. It's a bit awkward to be corralled by a group of people whose height barely comes past your knees, but you allow yourself to be escorted nonetheless. After exiting through a downward sloping ramp set in the floor, you then follow a long passageway that seems to perpetually curve upwards. You're reminded of older space stations, ones that relied on spin gravity before gravity plating became commonplace. Surprisingly, despite the short stature of your hosts, the halls and doorways seem to be more than capable of accommodating your height, a feature that makes more sense after you see multiple instances of the aliens making their way in the air, rather than on foot.`
-			`	Eventually, after a number of turns and descents, you pass through an open archway into some kind of conference room. Large and circular with a high, rounded ceiling, it is occupied by a trio of multicolored dragonfly aliens, each perched on a metal ring running around a circular table.`
+			`	Jesteś prowadzony przez hangar, otoczony przez strażników, którzy oddzielają cię od ciekawskich gapiów - pilotów, mechaników, a może żołnierzy, nie jesteś pewien. Trochę niezręcznie jest być otoczonym przez grupę ludzi, których wzrost ledwo sięga ci do kolan, ale mimo to pozwalasz się eskortować. Po wyjściu przez opadającą rampę w podłodze, podążasz długim korytarzem, który zdaje się nieustannie wznosić. Przypomina ci to starsze stacje kosmiczne, które opierały się na grawitacji obrotowej, zanim płyty grawitacyjne stały się powszechne. Co zaskakujące, pomimo niskiego wzrostu twoich gospodarzy, korytarze i wejścia wydają się być więcej niż wystarczające, aby pomieścić twój wzrost - cecha ta nabiera sensu, gdy widzisz, jak kosmici wielokrotnie przemieszczają się w powietrzu, a nie pieszo.`
+			`	W końcu, po kilku zakrętach i zejściach, przechodzisz przez otwarte przejście do czegoś w rodzaju sali konferencyjnej. Duża i okrągła, z wysokim, zaokrąglonym sufitem, jest zajmowana przez trójkę wielobarwnych kosmitów-ważek, siedzących na metalowym pierścieniu wokół okrągłego stołu.`
 			choice
-				`	"Hello."`
-				`	"Who are you?"`
-			`	The alien directly across from you, gray-white in color, begins speaking with the aid of another of the translator devices - this time taking on a feminine voice.`
-			`	"Invitation. I apologize for the inconvenience of traveling so far from your ship to meet us, but I was advised against being present for your arrival for fear of any unexpected hostilities, as small as such chances were estimated. My name, for lack of a direct translation, is 'Asime,' and with me are Speakers Prasinos and Galano. Together, we represent the Avgi Consonance as the First Speakers of the Assembly of Polities."`
-			`	Prasinos, grass-green in color, and Galano, a frail-looking milky-white Avgi, both wave at you with their forelimbs in a somewhat surreal imitation of the human gesture.`
+				`	"Witaj."`
+				`	"Kim jesteś?"`
+			`	Obcy znajdujący się naprzeciwko ciebie, o szaro-białym kolorze skóry, zaczyna mówić za pomocą kolejnego urządzenia tłumaczącego - tym razem posługując się głosem żeńskim.`
+			`	"Zaproszenie. Przepraszam za niedogodności związane z tak daleką podróżą z waszego statku, aby się z nami spotkać, ale odradzono mi obecność na waszym przybyciu z obawy przed nieoczekiwanymi działaniami wojennymi, nawet jeśli prawdopodobieństwo ich wystąpienia było szacowane na niewielkie. Moje imię, z braku dosłownego tłumaczenia, brzmi "Asime", a towarzyszą mi mówcy Prasinos i Galano. Razem reprezentujemy Avgi Consonance jako pierwsi mówcy Zgromadzenia Polityki."`
+			`	Prasinos, o trawiastozielonym kolorze, i Galano, kruchy, mlecznobiały Avgi, obydwoje machają do ciebie przednimi kończynami w nieco surrealistycznej imitacji ludzkiego gestu.`
 			choice
-				`	"How can you speak my language?"`
+				`	"Jak potrafisz mówić moim językiem?"`
 					goto humans
-				`	"Who are those hostile aliens back toward the north?"`
+				`	"Kim są ci wrodzy kosmici na północy?"`
 					goto aberrant
-				`	"Will you tell me about your civilization?"`
+				`	"Czy opowiesz mi o swojej cywilizacji?"`
 			label avgi
 			action
 				set "avgi: asked about avgi"
-			`	She twitches her wings slightly in what might be laughter. "Amusement. That would take a very long time to do in any detail, but I will make an attempt." Reverting back to her own language, she consults with the two other Avgi for a minute before turning back to you.`
-			`	"Pride, accomplishment. We are the Avgi. Our six systems, with seven worlds, and hundreds of orbitals each the size of a city, together a thousand polities united towards the betterment of civilization and progress-"`
-			`	Galano interrupts, his translator's voice sounding somehow aged. "Remembrance. But before all that, before the hyperdrive, we still crossed the void between stars. I was a child when the last true starship launched, but I remember. Long before we learned to surpass light, we settled the worlds beyond our home star system, at great cost and effort. We first touched space six centuries ago, and-"`
-			`	He is cut off by Prasinos. "Rebuke. You should start from the beginning, long before we left Aviskir. Our ancestors made their homes around the springs in the valleys of the Fel Mountains, and spread across our planet for millennia. From fire to spears to the atom, our skill in turning the natural world to our will grew, and with it our ability to form civilization: groups of Avgi bound together by more than close kinship or geography, instead by ideology and heritage and religion. And with that came conflict, each polity striving with the others to-"`
-			`	Now both Asime and Galano make noises of dissent, and Galano, sounding rather hurried, interrupts. "Urgency. Perhaps we are not as united as you, the humans, and it is true that we have fought many wars among ourselves. Emphasis. But that time is long since past. We saw reason, and so the Consonance was created, governed by an Assembly of Polities to represent every division of the Avgi, small or large. From the nation-states to the ideolopoli, a consensus government of our species to resolve disputes, to prevent another Great War. And while there have still been wars fought by the foolish and shortsighted, there has not been a nuclear initiation on Aviskir's surface in more than a century. The Assembly, for all its faults, works."`
-			`	Asime adds, "Truth. And we are what the Avgi need, now that all of that could be lost to the Incursion, to the Aberrant it spawned. We need what humanity has, a united Republic to lead all of our people."`
+			`	Drży lekko skrzydłami, co może oznaczać śmiech. "Rozbawienie. To zajęłoby bardzo dużo czasu, ale spróbuję. " Wracając do swojego języka, konsultuje się przez chwilę z dwoma innymi Avgimi, zanim znów zwróci się do ciebie.`
+			`	"Duma, osiągnięcie. Jesteśmy Avgi. Nasze sześć systemów, z siedmioma światami i setkami orbitali, z których każdy ma wielkość miasta, razem tysiąc państw zjednoczonych w celu doskonalenia cywilizacji i postępu-"`
+			`	Galano przerywa, a głos jego tłumacza brzmi jakoś staro. "Remembrance. Ale zanim to wszystko nastąpiło, zanim pojawił się hipernapęd, wciąż przekraczaliśmy pustkę międzygwiezdną. Byłem dzieckiem, kiedy wystartował ostatni prawdziwy statek kosmiczny, ale pamiętam. Na długo zanim nauczyliśmy się przekraczać światło, zasiedliliśmy światy poza naszym macierzystym układem gwiezdnym, ponosząc ogromne koszty i trud. Po raz pierwszy dotknęliśmy kosmosu sześć wieków temu i-"`
+			`	Zostaje odcięty przez Prasinosa. "Rebuke. Powinieneś zacząć od początku, na długo zanim opuściliśmy Aviskir. Nasi przodkowie osiedlili się wokół źródeł w dolinach Gór Fel i przez tysiąclecia rozprzestrzeniali się po naszej planecie. Od ognia, przez włócznie, po atom, nasza umiejętność wykorzystywania świata przyrody do własnej woli rosła, a wraz z nią nasza zdolność do tworzenia cywilizacji: grup Avgich połączonych czymś więcej niż bliskim pokrewieństwem czy geografią, a ideologią, dziedzictwem i religią. A wraz z tym pojawił się konflikt, w którym każda wspólnota polityczna walczyła z innymi o-"`
+			`	Teraz Asime i Galano wydają odgłosy sprzeciwu, a Galano, brzmiąc na pospiesznego, przerywa. "Pilność. Być może nie jesteśmy tak zjednoczeni jak wy, ludzie, i to prawda, że stoczyliśmy wiele wojen między sobą. Podkreślenie. Ale ten czas już dawno minął. Dostrzegliśmy rozsądek i tak powstała Konsonansa, rządzona przez Zgromadzenie Polityczne, reprezentujące każdy odłam Avgi, mały czy duży. Od państw narodowych po ideolopoli, rząd konsensusu naszego gatunku, aby rozstrzygać spory i zapobiec kolejnej Wielkiej Wojnie. I choć wciąż toczyły się wojny prowadzone przez głupców i krótkowzroczników, na powierzchni Aviskiru od ponad wieku nie doszło do inicjacji nuklearnej. Zgromadzenie, pomimo wszystkich swoich wad, działa."`
+			`	Asime dodaje, "Truth. I jesteśmy tym, czego Avgi potrzebują, teraz, gdy wszystko to może zostać utracone przez Inwazję, przez Aberranta, którego zrodziła. Potrzebujemy tego, co ma ludzkość: zjednoczonej Republiki, która poprowadzi cały nasz lud."`
 			choice
-				`	"How do you know of humanity?"`
+				`	"Skąd wiesz o ludzkości?"`
 					goto humans
 					to display
 						not "avgi: asked about humans"
-				`	"What are the Aberrant?"`
+				`	"Co to są aberracje?"`
 					goto aberrant
 					to display
 						not "avgi: asked about aberrant"
-				`	"That's all the questions I have. What happens now?"`
+				`	"To już wszystkie pytania, jakie mam. Co teraz?"`
 					goto conclusion
 
 			label humans
 			action
 				set "avgi: asked about humans"
-			`	Prasinos thinks for a moment, then says, "Hesitance. It may come as a surprise to you, but you are not the first human to come to our space. Three- no, that would be six of your years ago, an alien ship was found drifting around a star in our space, swarmed by Aberrations. By some miracle they were driven away, and the ship recovered. And those were the first, and until now, the only humans we have had the honor of meeting. A crew of explorers from, I believe they said, 'the depths,' though I am not quite sure if that is a planet or a region of space."`
-			`	"Appreciation. They have told us much of humanity, and developed these devices so as to allow us to more easily communicate. And without the ability to return home, they now live among us, helping where they can with their knowledge of humanity's advanced technologies."`
+			`	Prasinos zastanawia się przez chwilę, po czym mówi: "Hesitance. Może cię to zaskoczyć, ale nie jesteś pierwszym człowiekiem, który przybył do naszej przestrzeni kosmicznej. Trzy - nie, to byłoby sześć twoich lat temu - znaleziono obcy statek dryfujący wokół gwiazdy w naszej przestrzeni, otoczony przez Aberracje. Jakimś cudem zostali odpędzeni, a statek odzyskany. I to byli pierwsi i jak dotąd jedyni ludzie, których mieliśmy zaszczyt poznać. Załoga odkrywców z, zdaje się, powiedzieli, "głębin", choć nie jestem do końca pewien, czy to planeta, czy region kosmosu."`
+			`	"Wdzięczność. Powiedzieli nam wiele o ludzkości i opracowali te urządzenia, aby umożliwić nam łatwiejszą komunikację. I nie mając możliwości powrotu do domu, żyją teraz wśród nas, pomagając nam, gdzie mogą, swoją wiedzą o zaawansowanych technologiach ludzkości."`
 			label "human questions"
 			choice
-				`	"What are these 'Aberrations?'"`
+				`	"Co to są za "Aberracje?""`
 					goto aberrant
 					to display
 						not "avgi: asked about aberrant"
-				`	"Tell me more about the Avgi."`
+				`	"Powiedz mi więcej o Avgi."`
 					goto avgi
 					to display
 						not "avgi: asked about avgi"
-				`	"I don't know if I'd call human technology advanced."`
+				`	"Nie wiem, czy nazwałbym ludzką technologię zaawansowaną."`
 					goto technology
 					to display
 						not "avgi: asked about human tech"
-				`	"That's all the questions I have. I'd like to meet these humans."`
+				`	"To już wszystkie pytania, jakie mam. Chciałbym poznać tych ludzi."`
 					goto conclusion
 
 			label technology
 			action
 				set "avgi: asked about human tech"
-			`	Galano speaks. "Appreciation. Perhaps not to you, but humanity has had the hyperdrive since long before we reached our homeworld's moon. I have seen the changes and advancements even a handful of decades can bring, and your species' advantage over us of centuries has brought you miracles such as shields and repulsors."`
+			`	Galano przemawia. "Doceniam. Może nie do ciebie, ale ludzkość miała hipernapęd na długo przed dotarciem na księżyc naszej ojczystej planety. Widziałem zmiany i postęp, jakie może przynieść nawet kilka dekad, a wasza przewaga nad nami, trwająca wieki, przyniosła wam cuda takie jak tarcze i repulsory."`
 				goto "human questions"
 
 			label aberrant
 			action
 				set "avgi: asked about aberrant"
-			`	Galano speaks. "Sorrow. The Aberrant, as we call them, remain enigmatic despite all they have taken from us. From where they came, we are not completely certain. They came two decades ago, from the east, beyond the reach of our knowledge, from a perilous region of space we have found difficult to probe. The scouts and explorers on the fringes of known space went dark first, and then the outposts fell one by one."`
-			`	Asime continues. "Regret. By the time the Consonance finally took note, the Aberrant swept away the ships Aviskir's polities were able to gather to oppose them. An entire generation of the Twilight Guard, wiped away in a single battle. Their technology is far beyond our own, and at the time it was impossible to oppose them. And the few Aberrations we were able to destroy baffled us. No crew, just a single organic entity inside. And systems operating on principles unknown to us. It can be said that we learned how to make shields from humanity, but we first learned what shields could do from the Aberrant."`
-			`	Prasinos says, "Anger. And thus we find ourselves here. When the hopelessness of the military situation became evident, every ship with a hyperdrive was ordered to take on passengers and make its way into the Tangled Shroud - this confusing web of broken starways and shadowed space that we now must call home. We abandoned our planets to the mercy of the Aberrant with little more than their surface defenses, scavenging the orbital infrastructure that had been painstakingly built over the centuries."`
-			`	He is interrupted by Asime, who seems annoyed. "Clarification. We were not heartless. The decision to evacuate was only made once it became evident the Aberrant had little interest in orbital bombardment, and that our surface batteries could drive off the ones that did. And we took tens of millions of civilians with us, in cryosleep, to be revived as resources allow."`
-			`	"Resolve. We will return. We have suffered a defeat, yes, but we will reclaim our systems in the end," says Galano with finality. The others do not dispute this.`
+			`	Galano przemawia. "Sorrow. Aberranty, jak ich nazywamy, pozostają tajemnicze pomimo wszystkiego, co nam odebrały. Skąd się wzięły, nie jesteśmy do końca pewni. Przybyły dwie dekady temu, ze wschodu, poza zasięgiem naszej wiedzy, z niebezpiecznego regionu kosmosu, który trudno nam było zbadać. Najpierw zwiadowcy i odkrywcy na obrzeżach znanej przestrzeni zniknęli, a potem placówki padały jedna po drugiej."`
+			`	Asime kontynuuje. "Regret. Zanim Consonance w końcu to zauważył, Aberranty zmiotły statki, które siły polityczne Aviskiru zdołały zgromadzić, by się im przeciwstawić. Całe pokolenie Straży Zmierzchu zostało zmiecione w jednej bitwie. Ich technologia znacznie przewyższa naszą i w tamtym czasie nie dało się im przeciwstawić. A te nieliczne Aberracje, które udało nam się zniszczyć, wprawiły nas w osłupienie. Brak załogi, tylko pojedyncza organiczna istota w środku. I systemy działające na nieznanych nam zasadach. Można powiedzieć, że nauczyliśmy się tworzyć tarcze od ludzkości, ale to Aberranty najpierw dowiedzieliśmy się, co tarcze potrafią."`
+			`	Prasinos mówi, "Anger. I tak oto znaleźliśmy się tutaj. Kiedy beznadziejność sytuacji militarnej stała się oczywista, każdy statek z hipernapędem otrzymał rozkaz zabrania pasażerów i przedostania się do Splątanego Całunu - tej zagmatwanej sieci przerwanych dróg gwiezdnych i zacienionej przestrzeni, którą teraz musimy nazywać domem. Pozostawiliśmy nasze planety na łasce Aberrantów, mając niewiele więcej niż ich obronę powierzchniową, niszcząc orbitalną infrastrukturę, którą mozolnie budowano przez wieki."`
+			`	Przerywa mu Asime, który wydaje się zirytowany. "Wyjaśnienie. Nie byliśmy bezduszni. Decyzja o ewakuacji zapadła dopiero wtedy, gdy stało się jasne, że Aberrant nie jest zainteresowany bombardowaniem orbitalnym, a nasze baterie naziemne mogą odeprzeć te, które są zainteresowane. Zabraliśmy ze sobą dziesiątki milionów cywilów, w stanie hibernacji, aby ich reanimować, gdy pozwolą na to zasoby."`
+			`	"Resolve. Wrócimy. Ponieśliśmy porażkę, tak, ale w końcu odzyskamy nasze systemy, " mówi Galano z przekonaniem. Pozostali nie kwestionują tego.`
 			choice
-				`	"How do you know my language?"`
+				`	"Skąd znasz mój język?"`
 					goto humans
 					to display
 						not "avgi: asked about humans"
-				`	"Tell me more about the Avgi."`
+				`	"Powiedz mi więcej o Avgi."`
 					goto avgi
 					to display
 						not "avgi: asked about avgi"
-				`	"That's all the questions I have. What happens now?"`
+				`	"To już wszystkie pytania, jakie mam. Co teraz?"`
 					goto conclusion
 
 			label conclusion
-			`	Prasinos says, "Assurance. Of course, we will introduce your fellow humans to you. But..." he trails off.`
-			`	Asime continues for him. "Apprehension. The humans that came here before you, I must confess are still here for a reason. Perhaps they can give more details, but they have told us that when they first entered our space, they immediately attempted to leave. For whatever reason, they were unable to. I do not know the means by which you were able to travel to our space, but perhaps you will be able to return, and take these stranded humans with you."`
-			`	"Or, you may find yourself trapped here, just as they are. In any case, we will of course make you as comfortable as we can, as an honored guest, and treat you as we would any foreign dignitary."`
+			`	Prasinos mówi: "Assurance. Oczywiście, przedstawimy ci twoich współtowarzyszy. Ale... " urywa.`
+			`	Asime kontynuuje dla niego. "Apprehension. Muszę przyznać, że ludzie, którzy przybyli tu przed tobą, wciąż tu są z jakiegoś powodu. Być może mogą podać więcej szczegółów, ale powiedzieli nam, że kiedy po raz pierwszy weszli do naszej przestrzeni, natychmiast próbowali ją opuścić. Z jakiegoś powodu nie byli w stanie. Nie wiem, w jaki sposób udało ci się dostać do naszej przestrzeni, ale być może uda ci się wrócić i zabrać ze sobą tych uwięzionych ludzi."`
+			`	"Albo możesz się tu znaleźć w pułapce, tak jak oni. W każdym razie, oczywiście zapewnimy ci jak największy komfort, jako honorowemu gościowi, i potraktujemy cię jak każdego zagranicznego dygnitarza."`
 			choice
-				`	"I have a jump drive that lets me travel beyond the hyperlanes, but it won't let me jump back to human space."`
-				`	"I have a device that lets me go where I please, but it isn't working at the moment."`
+				`	"Mam napęd skokowy, który pozwala mi podróżować poza hiperpasami, ale nie pozwala mi wrócić do przestrzeni ludzkiej."`
+				`	"Mam urządzenie, które pozwala mi iść, gdzie chcę, ale w tej chwili nie działa."`
 
-			`	"Regret. Then the situation is most unfortunate," she says. "Commitment. We will offer you what help we can, but I did not wish to lie to you about their predicament, or provide you with false hope."`
-			`	"Reservation. Perhaps Captain <last> will be able to find a solution." says Galano. "I would not dismiss the possibility too quickly."`
+			`	"Żal. W takim razie sytuacja jest wyjątkowo niefortunna, " mówi. "Zaangażowanie. Zaoferujemy ci wszelką możliwą pomoc, ale nie chciałam cię okłamywać co do ich trudnej sytuacji ani dawać ci fałszywej nadziei. "`
+			`	"Rezerwacja. Być może kapitan <last> znajdzie rozwiązanie. " mówi Galano. "Nie odrzucałbym tej możliwości zbyt pochopnie. "`
 			choice
-				`	"While I'm here, can I buy your technology?"`
+				`	"Skoro już tu jestem, czy mogę kupić waszą technologię?"`
 					goto "buy stuff"
-				`	"Is there anything I can do to help in the meantime?"`
+				`	"Czy mogę w międzyczasie jakoś pomóc?"`
 
-			`	"Consideration. As an alien, you will inevitably be a novelty to most of us, but the existence of humans is well-known among the public enough for you to walk among us without issue. I will speak to others about a more formal role, but until then I am unsure if we can ask anything of you beyond keeping the peace."`
+			`	"Rozważenie. Jako kosmita, nieuchronnie będziesz dla większości z nas nowością, ale istnienie ludzi jest na tyle dobrze znane opinii publicznej, że możesz swobodnie poruszać się wśród nas. Porozmawiam z innymi o bardziej formalnej roli, ale do tego czasu nie jestem pewien, czy możemy od ciebie oczekiwać czegokolwiek poza utrzymaniem pokoju."`
 			label "buy stuff"
-			`	Galano says, "Interest. I would expect human technology to be superior to our own in most aspects, but we will of course allow you to purchase our items with the agreement of the Assembly. In the event that it becomes possible to open trade relations with your human government, we may find it useful to have prior transactions."`
-			`	"Amusement. Not to mention the goodwill such a gesture could buy us," says Asime.`
-			`	Prasinos says, more seriously, "Reservation. Our material resources are quite limited at the moment, so for now I would only support providing for the requisition of small items that do not strain the needs of the Guard."`
-			`	Asime looks like she wants to object, but then Galano says, "Agreement. A reasonable compromise, one I can sell to the Assembly fairly easily. Beyond that, we will provide you with a line of credit with which to purchase housing and nutrition. I cannot vouch for its usefulness among... certain elements that do not recognize the authority of Consonance, but anywhere else, you should find no issues."`
-			`	He twitches his wings. "Satisfaction. For now, we will leave you with some time and space to think. The former captain of the ship that brought the other humans, one Darius Calwell, is currently advising construction on the cylinder habitat in this system. You will find him on Aktina Cylinder, if you wish to speak with him. And should you wish to speak to us as well, there is one last gift we will bestow upon you today that will facilitate that."`
-			`	Before you are dismissed, he holds out a long arm, with a black hairpin-shaped rod clutched between his three sharp fingers, like a smaller version of the translator the Avgi have been using to communicate with you. Tucked behind your ear, this device will translate the speech of the most common Avgi languages as is it spoken around you, quietly whispering the meaning into your ear.`
+			`	Galano mówi, "Interest. Spodziewałbym się, że ludzka technologia będzie lepsza od naszej w większości aspektów, ale oczywiście pozwolimy wam kupować nasze produkty za zgodą Zgromadzenia. W przypadku, gdyby możliwe było nawiązanie stosunków handlowych z waszym ludzkim rządem, możemy uznać za przydatne wcześniejsze transakcje."`
+			`	"Rozrywka. Nie wspominając o dobrej woli, jaką taki gest mógłby nam zapewnić, " mówi Asime.`
+			`	Prasinos mówi poważniej, "Reservation. Nasze zasoby materialne są obecnie dość ograniczone, więc na razie poparłbym jedynie zapewnienie zaopatrzenia w drobne artykuły, które nie obciążają potrzeb Gwardii."`
+			`	Asime wygląda, jakby chciała zaprotestować, ale wtedy Galano mówi: "Zgoda. Rozsądny kompromis, który mogę dość łatwo sprzedać Zgromadzeniu. Poza tym zapewnimy ci linię kredytową na zakup mieszkania i wyżywienia. Nie mogę ręczyć za jego użyteczność wśród... pewnych elementów, które nie uznają autorytetu Consonance, ale nigdzie indziej nie powinieneś mieć żadnych problemów."`
+			`	Mruczy skrzydłami. "Satisfaction. Na razie zostawiamy wam trochę czasu i przestrzeni do namysłu. Były kapitan statku, który przywiózł innych ludzi, niejaki Darius Calwell, obecnie doradza w sprawie budowy cylindrycznego habitatu w tym systemie. Znajdziecie go na Aktina Cylinder, jeśli zechcecie z nim porozmawiać. A jeśli zechcecie porozmawiać również z nami, damy wam dziś jeszcze jeden, ostatni dar, który wam to ułatwi."`
+			`	Zanim cię zwolnią, wyciąga długie ramię, z czarnym prętem w kształcie spinki do włosów, zaciśniętym między trzema ostrymi palcami, niczym mniejsza wersja tłumacza, którego Avgi używają do komunikacji z tobą. To urządzenie, umieszczone za twoim uchem, przetłumaczy mowę najpopularniejszych języków Avgi, tak jak jest ona używana wokół ciebie, cicho szepcząc ci do ucha znaczenie.`
 				accept
 	on accept
 		clear "avgi: asked about avgi"
@@ -406,95 +406,95 @@ mission "Avgi: Defend Ensemble 1"
 	on offer
 		log "People" "Darius Caldwell" `Darius był kapitanem Deep Security, który poprowadził wyprawę sponsorowaną przez Deep, aby dowiedzieć się więcej o technologii Quarg. W drodze powrotnej nakazał swojej załodze zbadać anomalię dodatkowej hipersfery prowadzącej na południe od przestrzeni kosmicznej. Po uwięzieniu w przestrzeni Avgi, załoga Deep szukała schronienia u Consonance. Darius najwyraźniej obwinia siebie za sytuację swojej załogi.`
 		conversation
-			`From afar, the Aktina Cylinder looks like a titanic skeletal tube, with ribs of graphene and a metallic spine. Following the instructions of the station's control authority, you fly through the station's open frame to its small pressurized area, which houses the construction workers and maintenance crews.`
-			`	You've been told that word of your arrival has been sent ahead of you, so you aren't entirely surprised to see a middle-aged human waiting for you, a look of pure astonishment on his face as your ship settles into a free hangar. You disembark from the <ship> to find Darius waiting right outside the hatch.`
+			`Z daleka Cylinder Aktiny wygląda jak tytaniczna rura szkieletowa z żebrami z grafenu i metalowym kręgosłupem. Postępując zgodnie z instrukcjami kontrolerów stacji, przelatujesz przez jej otwartą ramę do jej małej, ciśnieniowej przestrzeni, w której mieszczą się pracownicy budowlani i ekipy konserwacyjne.`
+			`	Powiedziano ci, że wiadomość o twoim przybyciu została wysłana przed tobą, więc nie jesteś specjalnie zaskoczony, widząc mężczyznę w średnim wieku czekającego na ciebie z wyrazem czystego zdziwienia na twarzy, gdy twój statek wjeżdża do wolnego hangaru. Wysiadasz z <ship> i widzisz Dariusza czekającego tuż za włazem.`
 			choice
-				`	"Hello there."`
-				`	"Greetings, human. I come in peace."`
-			`	The man blinks in surprise, then extends a hand, which you shake. "So, another one of us here in Fairyland. I don't know if I should be glad to see another friendly face, or feel bad that another soul is stranded here along with us." He shakes his head. "Let's find somewhere to talk. If you don't mind telling me, how'd you end up here anyway?"`
+				`	"Witaj."`
+				`	"Witaj, człowieku. Przychodzę w pokoju."`
+			`	Mężczyzna mruga zaskoczony, po czym wyciąga dłoń, którą ściskasz. "Więc, kolejny z nas w Krainie Czarów. Nie wiem, czy powinienem się cieszyć na widok kolejnej przyjaznej twarzy, czy żałować, że kolejna dusza utknęła tu razem z nami. " Kręci głową. "Znajdźmy jakieś miejsce, żeby porozmawiać. Jeśli nie masz nic przeciwko, to powiedz mi, jak w ogóle się tu znalazłeś? "`
 			choice
-				`	"I have a jump drive."`
-				`	"I have a device that can bypass hyperlanes."`
-			`	He somehow manages to look even more astonished as you walk. "A jump drive? Where the hell did you get one of those?"`
+				`	"Mam dysk flash."`
+				`	"Mam urządzenie, które może ominąć hiperpasy."`
+			`	Jakoś udaje mu się wyglądać na jeszcze bardziej zdziwionego, gdy idziesz. "Napęd przenośny? Skąd do cholery wziąłeś taki?"`
 			choice
-				`	"I took it from some hostile aliens near the Core."`
+				`	"Wziąłem go od wrogich kosmitów w pobliżu Rdzenia."`
 					goto korath
 					to display
 						"reputation: Korath" < -10
-				`	"I took it from some aliens in the Deneb system."`
+				`	"Wziąłem to od jakichś kosmitów z układu Deneb."`
 					goto pug
 					to display
 						has "FWC Pug 2D: done"
-				`	"I got it from the Syndicate, who took it from an alien race near the Core."`
+				`	"Dostałem go od Syndykatu, który zabrał go obcej rasie mieszkającej w pobliżu Jądra."`
 					goto korath
 					to display
 						has "FW Pug 2B: done"
 						not "FW Pug 2C: Jump Drive: done"
-				`	"I took it from some angry space squirrels."`
+				`	"Wziąłem to od jakichś wściekłych wiewiórek kosmicznych."`
 					goto unfettered
 					to display
 						has "Wanderers: Translation Machine: done"
-				`	"I took it from the Quarg."`
+				`	"Wziąłem to od Quarga."`
 					goto quarg
 					to display
 						"reputation: Quarg" < 0
-				`	"I'm afraid I can't tell you that."`
-			`	He looks skeptical. "Alright then, keep your secrets."`
+				`	"Obawiam się, że nie mogę ci tego powiedzieć."`
+			`	Wygląda na sceptycznego. "No dobrze, dochowaj tajemnicy."`
 				goto next
 
 			label korath
-			`	"Aliens other than the Quarg?" You nod. "Huh. I've heard rumors about alien attacks in the Core before, but I always thought it was the Syndicate making excuses for the out-of-control piracy in the region."`
+			`	"Obcy poza Quargami?" Kiwasz głową. "Huh. Słyszałem już plotki o atakach obcych w Jądrze, ale zawsze myślałem, że to Syndykat usprawiedliwia niekontrolowane piractwo w regionie."`
 				goto next
 
 			label pug
-			`	"Deneb? There's no hyperlanes to that system, are there? Strange." He looks thoughtful for a moment. "I've heard stories before, of... never mind, excuse me."`
+			`	"Deneb? Nie ma tam żadnych hiperpasów, prawda? Dziwne." Przez chwilę wygląda na zamyślonego. "Słyszałem już historie o... nieważne, przepraszam."`
 				goto next
 
 			label unfettered
-			`	"The Hai have jump drives? I didn't think their technology was that advanced." He looks thoughtful. "Unless they got them from someone else, that is."`
+			`	"Hai mają napędy przerzutowe? Nie sądziłem, że ich technologia jest aż tak zaawansowana." Wygląda na zamyślonego. "Chyba że dostali je od kogoś innego."`
 				goto next
 
 			label quarg
-			`	"...What? You're kidding, right? How the hell did you defeat a Quarg ship?" He looks worried for a second, taking a step back. "Do I even want to be seen associating with you?" He laughs nervously.`
+			`	"...Co? Żartujesz, prawda? Jak do cholery pokonałeś statek Quargów?" Przez chwilę wygląda na zmartwionego, cofając się o krok. "Czy w ogóle chcę być widziany w towarzystwie ciebie?" Śmieje się nerwowo.`
 
 			label next
-			`	Darius shakes his head for a moment, then looks back at you. "Well, since you're still here, I'm assuming your jump drive couldn't get you out of here?" You tell him about how you were unable to jump back to human space, and he nods along.`
-			`	"There has to be a way out, I just know it. But in six years, we've only been able to spend a few days at a time in the systems bordering human space, before those damn space shoggoths forced us back. And," he lowers his voice, looking around surreptitiously, "I don't think the Avgi are that enthusiastic about us trying to map the place either. I don't think they're exactly trying to keep us here or anything, but they've been pretty insistent on us humans not getting ourselves killed doing something stupid, like say, desperately trying to find a way back to our homes." He sounds frustrated.`
+			`	Darius kręci głową przez chwilę, a potem patrzy na ciebie. "Skoro wciąż tu jesteś, zakładam, że twój napęd kosmiczny nie mógł cię stąd wydostać?" Opowiadasz mu, że nie udało ci się wrócić do przestrzeni kosmicznej, a on kiwa głową.`
+			`	"Musi być jakieś wyjście, po prostu je wiem. Ale przez sześć lat mogliśmy spędzać tylko kilka dni w układach graniczących z przestrzenią ludzką, zanim te cholerne kosmiczne shoggothy zmusiły nas do powrotu. " I, " ścisza głos, rozglądając się ukradkiem, " Nie sądzę, żeby Avgi byli aż tak entuzjastycznie nastawieni do naszych prób mapowania tego miejsca. Nie sądzę, żeby specjalnie chcieli nas tu zatrzymać czy coś, ale bardzo nalegali, żebyśmy my, ludzie, nie zginęli, robiąc coś głupiego, na przykład desperacko próbując znaleźć drogę powrotną do naszych domów. " Brzmi na sfrustrowanego.`
 			choice
-				`	"Don't worry, I'm sure we'll find a way back home."`
+				`	"Nie martw się, jestem pewien, że znajdziemy drogę powrotną do domu."`
 					goto reassuring
-				`	"The Avgi are trying to keep you here? That's worrying."`
-				`	"How'd you end up in Avgi space without a jump drive?"`
+				`	"Avgi próbują cię tu zatrzymać? To niepokojące."`
+				`	"Jak znalazłeś się w przestrzeni Avgi bez dysku rozruchowego?"`
 					goto story
 
-			`	"I'm probably just paranoid. After all, they're really enthusiastic about trying for an alliance with humanity to help them against these Aberrant, no matter how many times I explain humans aren't really all that technologically advanced. But they think if I can find a way home, we might be able to find a way to open up a connection between human space and Avgi space, especially given the way we got here. Not that I'd want to do that, with the chance of the Aberrant overrunning human space."`
+			`	"Prawdopodobnie jestem po prostu paranoikiem. W końcu są bardzo entuzjastycznie nastawieni do sojuszu z ludzkością, który pomógłby im w walce z tymi Aberrantami, bez względu na to, ile razy będę tłumaczył, że ludzie nie są aż tak zaawansowani technologicznie. Ale myślą, że jeśli znajdę drogę do domu, możemy znaleźć sposób na otwarcie połączenia między przestrzenią ludzką a przestrzenią Avgi, zwłaszcza biorąc pod uwagę sposób, w jaki się tu znaleźliśmy. Nie żebym chciał to zrobić, biorąc pod uwagę ryzyko, że Aberranty opanują przestrzeń ludzką."`
 
 			label reassuring
-			`	"Sometimes I find it hard to believe that we'll ever make it home, but it helps to tell myself there's hope," he says.`
+			`	"Czasami trudno mi uwierzyć, że kiedykolwiek wrócimy do domu, ale pomaga mi, gdy mówię sobie, że jest nadzieja," mówi.`
 			choice
-				`	"How'd you end up in Avgi space without a jump drive?"`
+				`	"Jak znalazłeś się w przestrzeni Avgi bez dysku rozruchowego?"`
 
 			label story
-			`	"Funny story, that," he says. "We were part of a big convoy from Valhalla, sponsored by one of the major universities there. I was working with Deep Security, after my stint in the Navy... ended." He trails off. "Anyway, we were in a Mule carrying some scanning equipment. To research the Quarg, you see. Officially we were there for cultural outreach and exchange, you know, the usual, but really we wanted some good scans of a Wardragon. The Quarg don't really approve of it, but they don't do much to discourage it either."`
-			`	He continues. "So, we were on our way back, just entering Dabih. Really successful trip and everything, with a big bonus waiting for me thanks to how long the trip across the entire Republic took. But then our scanners started picking up weird readings from particular hyperlanes, and we started hearing some pirates chattering about how something weird was happening in the Sadr system. A new hyperlane, pointing south, they said. It was just a few jumps away from our current location, and we were the only Deep ship in the area that could go off alone."`
-			`	He looks at his hands. "So I... I made the decision, as captain. I volunteered my crew to investigate it, to travel through that hyperlane in the name of science. For what the Deep holds highest, because I guess I wanted... I don't know. Not the prestige. But to live up to what the Deep's supposed to be, the ones at the forefront of human exploration and research. They took me in when I had nowhere else to go, and I guess I wanted to repay that somehow. And now, now a dozen good men and women are dead, and the rest are stuck here behind a hyperlane that closed the moment we went through it, living among aliens fighting a war of extinction that they probably can't win."`
+			`	"Zabawna historia, " mówi. "Byliśmy częścią dużego konwoju z Valhalli, sponsorowanego przez jeden z głównych tamtejszych uniwersytetów. Pracowałem z Deep Security, po tym jak moja służba w Marynarce Wojennej... się skończyła. " Urywa. "W każdym razie, byliśmy na Mule'u z jakimś sprzętem skanującym. Widzisz, żeby zbadać Quargów. Oficjalnie byliśmy tam w celach kulturowych i wymiany, wiesz, jak zwykle, ale tak naprawdę chcieliśmy dobrych skanów Wardragona. Quargowie tego nie pochwalają, ale też nie robią nic, żeby to zniechęcić. "`
+			`	Kontynuuje. "Więc byliśmy w drodze powrotnej, właśnie wjeżdżaliśmy do Dabih. Naprawdę udana podróż i w ogóle, z dużym bonusem czekającym na mnie dzięki temu, jak długo trwała podróż przez całą Republikę. Ale potem nasze skanery zaczęły odbierać dziwne odczyty z poszczególnych hipertraktów i usłyszeliśmy piratów gadających o tym, że coś dziwnego dzieje się w układzie Sadr. Mówili, że to nowy hipertrakt, wskazujący na południe. Był oddalony o zaledwie kilka skoków od naszej obecnej pozycji i byliśmy jedynym statkiem z Głębin w okolicy, który mógł wyruszyć sam."`
+			`	Patrzy na swoje dłonie. "Więc ja... podjąłem decyzję, jako kapitan. Zgłosiłem swoją załogę do zbadania tego, do podróży przez hiperpas w imię nauki. Dla tego, co Głębia ma najwyższe, bo chyba chciałem... Nie wiem. Nie prestiżu. Ale sprostania temu, czym Głębia ma być, tym, którzy są na czele ludzkiej eksploracji i badań. Przyjęli mnie, kiedy nie miałem dokąd pójść, i chyba chciałem się im jakoś odwdzięczyć. A teraz, teraz tuzin dobrych mężczyzn i kobiet nie żyje, a reszta utknęła tutaj za hiperpasem, który zamknął się w chwili, gdy przez niego przejechaliśmy, żyjąc wśród kosmitów toczących wojnę na wyginięcie, której prawdopodobnie nie mogą wygrać."`
 			choice
-				`	"The other members of your crew, where are they now?"`
+				`	"Gdzie są teraz pozostali członkowie twojej załogi?"`
 
-			`	"There are a few of us left," he sighs, "but, well, I'm not on the best of terms with them. They blame me for bringing them here, and I can't fault them for it."`
+			`	"Zostało nas kilku, "wzdycha, "ale, cóż, nie jestem z nimi w najlepszych stosunkach. Obwiniają mnie za to, że ich tu sprowadziłem, i nie mogę mieć do nich o to pretensji."`
 			choice
-				`	"That seems unfair. There's no way you could have known what would happen."`
+				`	"To wydaje się niesprawiedliwe. Nie mogłeś wiedzieć, co się stanie."`
 					goto blame
-				`	"Is there a chance of reconciling with them?"`
-			`	"I've made... a lot of mistakes. Ones with a price paid in lives. But," he looks down, "...maybe. They don't hate me or anything like that, we just... keep our distance. Sora's off doing who knows what with the Twilight Guard on Weledos, and Leon is on and off with those mining guilds to the East. There are a few others left too, but like I said. A price paid in lives."`
+				`	"Czy istnieje szansa na pojednanie z nimi?"`
+			`	"Popełniłem... wiele błędów. Takich, których cena została zapłacona w życiach. Ale, " patrzy w dół, "...może. Nie nienawidzą mnie ani nic z tych rzeczy, po prostu... trzymamy się od nich z daleka. Sora nie wiadomo co robi ze Strażą Zmierzchu na Weledos, a Leon od czasu do czasu odwiedza te gildie górnicze na wschodzie. Zostało jeszcze kilku innych, ale jak mówiłem. Cena została zapłacona w życiach. "`
 				goto end
 
 			label blame
-			`	"I wish it was that simple. I made more mistakes after that, ones with a price measured in lives. Eleven dead after our ship was disabled, all because I ordered us to get too close to the scary-looking alien ships in the hope we could communicate with them. Sure, you could say I couldn't have known the Aberrant would try to kill us, but I ignored the advice of my crew, just because I was desperate to get home. Sora, Leon, they both told me we should run, but I didn't listen to them."`
+			`	"Chciałbym, żeby to było takie proste. Popełniłem potem więcej błędów, takich, których cenę mierzono w życiach. Jedenaście osób zginęło po tym, jak nasz statek został unieruchomiony, a wszystko dlatego, że kazałem nam zbliżyć się do przerażająco wyglądających statków obcych, mając nadzieję, że uda nam się z nimi nawiązać kontakt. Jasne, można powiedzieć, że nie mogłem wiedzieć, że Aberrant będzie próbował nas zabić, ale zignorowałem rady mojej załogi, bo desperacko chciałem wrócić do domu. Sora, Leon, obaj mówili mi, że powinniśmy uciekać, ale ich nie posłuchałem."`
 
 			label end
-			`	You sit together in silence for a few more minutes, when Darius seems to receive a message on his communicator. "I get patched in to the emergency alert system," he explains as he reads it. Suddenly, he pales. "A scout is reporting a massive invasion headed towards the Ensemble system. Dozens of Aberrations, flying straight through the Shroud." He looks up at you. "They don't normally try to go too deep in the Shroud. Something about it spooks them, I think, but Ensemble is shallow enough that they've attacked it before. Nothing of this scale though, and... damn, Sora's on Weledos, the moon in the Ensemble system."`
-			`	He looks at you, hopeful. "We've got to do something. The Avgi are assembling a relief force around the Navigeo Yards, their big shipyard not too far from here. Come on, let's join it."`
+			`	Siedzicie razem w milczeniu jeszcze przez kilka minut, kiedy Dariusz zdaje się odbierać wiadomość na swoim komunikatorze. "Łączę się z systemem alarmowym, " wyjaśnia, czytając ją. Nagle blednie. "Zwiadowca melduje o potężnej inwazji zmierzającej w kierunku układu Ensemble. Dziesiątki Aberracji przelatują prosto przez Całun. " Patrzy na ciebie. "Zwykle nie próbują zapuszczać się zbyt głęboko w Całun. Coś ich tam przeraża, jak sądzę, ale Ensemble jest na tyle płytkie, że już je atakowali. Nic na taką skalę, a... cholera, Sora jest na Weledos, księżycu w układzie Ensemble. "`
+			`	Patrzy na ciebie z nadzieją. "Musimy coś zrobić. Avgi gromadzą siły odsieczy wokół stoczni Navigeo, ich dużej stoczni niedaleko stąd. Chodź, dołączymy do nich. "`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariuszem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -516,24 +516,24 @@ mission "Avgi: Defend Ensemble 2"
 		log "Factions" "Twilight Guard" `Gwardia Zmierzchu jest ramieniem militarnym Avgi Consonance, zjednoczonego dowództwa utworzonego w odpowiedzi na inwazję Aberrantów.`
 		log "Factions" "Avgi" `Warto zauważyć, że Avgi najwyraźniej nie mają żadnych tabu wokół broni jądrowej i swobodnie jej używają przeciwko Aberrantom.`
 		conversation
-			`Navigeo is buzzing with activity as you pull into one of the few open berths available. Avgi ships of all sizes, painted in the deep blue of the Twilight Guard, launch every few minutes, replaced moments later by battle-scarred warships that slip into dry dock for repair.`
-			`	Parked a few kilometers from the station, a fleetgroup is assembling in a wide formation. You see a handful of cruiser-sized ships, along with a dozen smaller ships congregated around them. You hail them, asking to join the formation, and a surprised Avgi admiral directs you to fly towards the Ensemble system.`
-			`	"Warning. Atomics will be used in the upcoming battle, so stay your distance from our warheads," she says. "It would be appreciated if you flew ahead of our fleet and cleared out any straggler Aberrant in the way, so that we can save as many atomics for the battle in Ensemble."`
+			`Navigeo tętni życiem, gdy dobijasz do jednego z niewielu dostępnych, otwartych nabrzeży. Co kilka minut wodują okręty Avgi wszystkich rozmiarów, pomalowane na głęboki błękit Gwardii Zmierzchu, a chwilę później zastępowane są przez okręty wojenne ze śladami bitew, które trafiają do suchego doku w celu naprawy.`
+			`	Zaparkowana kilka kilometrów od stacji grupa floty formuje się w szeroką formację. Widzisz garstkę statków wielkości krążowników, a wokół nich kilkanaście mniejszych jednostek. Witasz je, prosząc o dołączenie do formacji, a zaskoczony admirał Avgi nakazuje ci lecieć w kierunku układu Ensemble.`
+			`	"Uwaga. W nadchodzącej bitwie zostanie użyta broń atomowa, więc trzymajcie się z daleka od naszych głowic, " mówi. "Bylibyśmy wdzięczni, gdybyście polecieli przed naszą flotą i usunęli z drogi każdego marudera Aberranta, abyśmy mogli zaoszczędzić jak najwięcej broni atomowej na bitwę w Ensemble."`
 			choice
-				`	"Acknowledged."`
+				`	"Potwierdzono."`
 					goto end
-				`	"Wait, nuclear weapons? You people use those?"`
+				`	"Czekaj, broń jądrowa? Wy jej używacie?"`
 
-			`	"Confusion. Yes, of course. What else would we use, beam weapons?" She flicks her wings. "Don't tell me you're a beam fan, I'll have you know guided weapons win every time."`
+			`	"Zamieszanie. Tak, oczywiście. Czego innego byśmy użyli, broni wiązkowej?" Macha skrzydłami. "Nie mów mi, że jesteś fanem wiązek, powiem ci, że broń kierowana wygrywa za każdym razem."`
 			choice
-				`	"It's nothing, I was just surprised."`
+				`	"Nic, po prostu byłem zaskoczony."`
 					goto end
-				`	"I'm not sure I'm comfortable with weapons of genocide."`
+				`	"Nie jestem pewien, czy czuję się komfortowo z bronią ludobójstwa."`
 
-			`	"Annoyance. It's not like we're using them against civilian targets, or even a planetary target to begin with. Honestly, you humans have some strange sensibilities."`
+			`	"Irytacja. Przecież nie używamy ich przeciwko celom cywilnym, ani nawet przeciwko celom planetarnym. Szczerze mówiąc, wy, ludzie, macie dziwne nawyki czuciowe."`
 
 			label end
-			`	She turns away from the viewscreen as another Avgi starts speaking to her, dismissing you with a flick of her fingers.`
+			`	Odwraca się od ekranu, gdy inna Avgi zaczyna do niej mówić, odprawiając cię ruchem palców.`
 				accept
 	npc
 		government "Avgi (Twilight Guard)"
@@ -626,70 +626,70 @@ mission "Avgi: Defend Ensemble 2"
 		log "People" "Darius Caldwell" `Mimo pesymizmu Dariusza, przynajmniej część załogi nie obwinia go za swoją sytuację.`
 		log "People" "Kokkino" `Kokkino jest kapitanem Straży Zmierzchu, który wydaje się być zainteresowany możliwą pomocą, jaką możesz zapewnić Avgi.`
 		conversation
-			`You land on Weledos after the battle, while most of the surviving Avgi ships begin temporary repairs in orbit before they travel back to the Navigeo Yards. While you and Darius are checking the <ship> for damage, you hear someone walk up with distinctly human footsteps.`
-			`	"So, those rumors weren't all talk. There really is another one of us here." You look up to see a woman in combat fatigues standing in front of you, hand extended.`
+			`Lądujesz na Weledos po bitwie, podczas gdy większość ocalałych statków Avgi rozpoczyna tymczasowe naprawy na orbicie przed powrotem do stoczni Navigeo. Podczas gdy ty i Darius sprawdzacie <ship> pod kątem uszkodzeń, słyszycie, jak ktoś podchodzi, wydając wyraźnie ludzkie kroki.`
+			`	"No więc te plotki to nie tylko plotki. Naprawdę jest tu jeszcze jedna z nas." Podnosisz wzrok i widzisz kobietę w mundurze bojowym stojącą przed tobą z wyciągniętą ręką.`
 			choice
-				`	(Shake her hand.)`
+				`	(Podaj jej dłoń.)`
 					goto handshake
-				`	"Who are you?"`
-			`	She drops her hand after a moment. "Name's Sora. And you?"`
+				`	"Kim jesteś?"`
+			`	Po chwili opuszcza rękę. "Nazywam się Sora. A ty?"`
 				goto name
 			label handshake
-			`	"Name's Sora. And you?"`
+			`	"Nazywam się Sora. A ty?"`
 			label name
-			`	"Captain <first> <last>," you say.`
-			`	"And I see you've got a tagalong, too. Finally got ol' Darius to come out of his shell, did you?" You look over at Darius, a look of deep shame on his face as he stares at the ground.`
-			`	"Now, I'm very interested in how exactly you managed to find your way here. Care to explain?" she asks.`
-			`	You fill Sora in on how your travels brought you here, and how you were able to acquire a jump drive. Darius says nothing throughout, standing by silently.`
-			`	"Amazing. So, your jump drive can get us out of here then?"`
+			`	"Kapitanie <first> <last>," mówisz.`
+			`	"Widzę, że masz też kogoś do towarzystwa. W końcu udało ci się wyciągnąć starego Dariusza z muszli, co?" Spoglądasz na Dariusza, a na jego twarzy maluje się głęboki wstyd, gdy wpatruje się w ziemię.`
+			`	"Teraz bardzo mnie interesuje, jak dokładnie udało ci się tu trafić. Zechcesz wyjaśnić? " pyta.`
+			`	Opowiadasz Sorze, jak twoje podróże cię tu sprowadziły i jak udało ci się zdobyć napęd skokowy. Darius milczy przez cały czas, stojąc w milczeniu.`
+			`	"Niesamowite. Czyli twój napęd kosmiczny może nas stąd wydostać?"`
 			choice
-				`	"I'm afraid not. It can't return to human space for some reason."`
-				`	"No, but I'm not giving up on finding a different way out."`
-				`	"Nope!"`
-			`	"Damn. That would be too easy, I guess. But it's been too long since I've seen a fresh human face. I've been working for the Twilight Guard here for months, trying to build up a second line of defenses in case that station in Arche falls. At least today's battle shows those defenses, together with a supporting fleet, can hold. You mind if I tag along with you, in case you do manage to find a way out?"`
+				`	"Obawiam się, że nie. Z jakiegoś powodu nie może wrócić do przestrzeni kosmicznej."`
+				`	"Nie, ale nie poddam się i poszukam innego wyjścia."`
+				`	"Nie!"`
+			`	"Cholera. To by było chyba za proste. Ale dawno nie widziałem świeżej ludzkiej twarzy. Pracuję tu dla Straży Zmierzchu od miesięcy, próbując zbudować drugą linię obrony na wypadek upadku stacji w Arche. Przynajmniej dzisiejsza bitwa pokazuje, że te siły obronne, wraz ze wspierającą flotą, dają radę. Mogę się z tobą zabrać, na wypadek gdybyś jednak znalazł wyjście? "`
 			choice
-				`	"Of course."`
+				`	"Oczywiście."`
 					goto yes
-				`	"Sure, as long as Darius doesn't mind."`
-			`	You look over at Darius, who responds after a few seconds of silence. "Of course you can come along, Sora."`
+				`	"Jasne, o ile Dariusowi to nie przeszkadza."`
+			`	Spoglądasz na Dariusza, który odpowiada po kilku sekundach milczenia. "Oczywiście, że możesz iść, Sora."`
 			label yes
-			`	"Sounds good to me, then. I'll see you around when you're ready to leave." She walks off to collect her belongings.`
-			`	A few hours later, an Avgi cruiser, a Refraktos-class Laserstar, settles down on the pad next to yours, and an Avgi officer disembarks.`
-			`	"Salutations. Hello, Captain <first> <last>. My name is Kokkino, Captain of the Spectral Collision. Tell me, is the <ship> a warship, question?"`
+			`	"Brzmi dobrze. Do zobaczenia, kiedy będziesz gotowy do wyjścia." Odchodzi, żeby zabrać swoje rzeczy.`
+			`	Kilka godzin później krążownik Avgi, Laserstar klasy Refraktos, ląduje na platformie obok twojej, a oficer Avgi wysiada.`
+			`	"Salutations. Witaj, Kapitanie <first> <last>. Nazywam się Kokkino, jestem kapitanem Spectral Collision. Powiedz mi, czy <ship> to okręt wojenny, pytanie?"`
 			choice
-				`	"Yes, the <ship> is as powerful as they come."`
+				`	"Tak, <ship> jest tak potężny, jak to tylko możliwe."`
 					goto warship
-				`	"No, the <ship> isn't made for combat."`
+				`	"Nie, <ship> nie jest przeznaczony do walki."`
 			action
 				set "avgi: rescue intro"
-			`	"Consideration. But, are you still willing to help us in a way that takes advantage of your ship's ability to bypass the starways, question?"`
+			`	"Rozważenie. Ale czy nadal chcesz nam pomóc w sposób, który wykorzysta zdolność twojego statku do omijania tras kosmicznych, pytanie?"`
 			choice
-				`	"Yes, of course."`
-				`	"I'll hear you out."`
-			`	"Approval. That is very good, for your unique capabilities may help us save the lives of some very brave people. Come, meet me in the spaceport in an hour." He gives you a set of directions to a small building in Ensemble's main spaceport before leaving. "We will have much to discuss."`
+				`	"Tak, oczywiście."`
+				`	"Wysłucham cię."`
+			`	"Zatwierdzenie. To bardzo dobrze, bo twoje wyjątkowe zdolności mogą pomóc nam uratować życie kilku bardzo odważnym ludziom. Przyjdź, spotkajmy się w porcie kosmicznym za godzinę. " Przed odlotem da ci wskazówki, jak dotrzeć do małego budynku w głównym porcie kosmicznym Ensemble. "Będziemy mieli wiele do omówienia. "`
 				goto end
 
 			label warship
 			action
 				set "avgi: warship intro"
-			`	"Excellent. I am unsurprised, given its performance in the battle, but for all we know your alien vessel could be a simple freighter and yet still be formidable in our eyes. Are you willing to assist us with your warship's strength, question?"`
+			`	"Doskonale. Nie jestem zaskoczony, biorąc pod uwagę jego osiągi w bitwie, ale o ile nam wiadomo, twój statek kosmiczny mógłby być zwykłym frachtowcem, a mimo to wciąż być groźny w naszych oczach. Czy jesteś gotów wesprzeć nas siłą swojego okrętu wojennego, pytam?"`
 			choice
-				`	"Yes, of course."`
-				`	"I'll hear you out."`
+				`	"Tak, oczywiście."`
+				`	"Wysłucham cię."`
 			`	"Entuzjazm. Twoja pomoc uratuje wiele istnień. A potem, jeśli zechcesz, spotkajmy się w porcie kosmicznym za godzinę." Przed odlotem da ci wskazówki, jak dotrzeć do małego budynku w głównym porcie kosmicznym Ensemble. "Będziemy mieli wiele do omówienia."`
 
 			label end
-			`	Darius exits the <ship> behind you. "What was that about?" he asks.`
+			`	Darius wychodzi z <ship> za tobą. "O co chodziło?" pyta.`
 			choice
-				`	"It sounds like they'd like my help with something."`
-				`	"I'm going to help them with the war effort."`
-			`	He frowns. "I see. When do you think we'll be able to head up north to look for a way out?"`
+				`	"Wygląda na to, że chcieliby, żebym im w czymś pomógł."`
+				`	"Zamierzam pomóc im w wysiłku wojennym."`
+			`	Marszczy brwi. "Rozumiem. Kiedy myślisz, że będziemy mogli ruszyć na północ, żeby poszukać wyjścia?"`
 			choice
-				`	"We'll do it soon, I promise."`
-				`	"I'm not sure."`
-			`	He looks a little disappointed, then collects himself. "Well, I suppose there's no real urgency to it. Though, I've been thinking. If your jump drive wasn't able to let you escape from the north, there might not be a point in looking in that direction."`
-			`	"What do you suggest?" you ask.`
-			`	"I have a friend among the Avgi, one who doesn't frequent the official circles in the Consonance as much. There's a number of hideaways and side branches in the Tangled Shroud, with outposts mostly ran by miners and small-time shipbuilders. Just the kind of people who talk a lot among themselves about rumors and tall tales. The official story of the Incursion, the invasion of the Aberrant, is that they came from a chain of systems in the East, but no one ever talks about where exactly that chain leads. I think we should pay my friend a visit after you wrap up this next mission."`
+				`	"Zrobimy to wkrótce, obiecuję."`
+				`	"Nie jestem pewien."`
+			`	Wygląda na trochę rozczarowanego, po czym się ogarnia. "Cóż, chyba nie ma w tym nic pilnego. Chociaż tak sobie myślałem. Skoro twój napęd kosmiczny nie pozwolił ci uciec z północy, to może nie ma sensu szukać w tamtym kierunku."`
+			`	"Co sugerujesz?" pytasz.`
+			`	"Mam przyjaciela wśród Avgi, takiego, który nie bywa zbyt często w oficjalnych kręgach Consonance. W Splątanym Całunie jest wiele kryjówek i odgałęzień, z placówkami prowadzonymi głównie przez górników i drobnych szkutników. To właśnie tacy ludzie dużo rozmawiają między sobą o plotkach i niestworzonych historiach. Oficjalna wersja Inwazji, inwazji Aberrantów, głosi, że przybyli z łańcucha systemów na Wschodzie, ale nikt nigdy nie mówi, dokąd dokładnie ten łańcuch prowadzi. Myślę, że powinniśmy odwiedzić mojego przyjaciela po tym, jak zakończysz kolejną misję."`
 
 
 mission "Avgi: Scout Rescue"
@@ -706,22 +706,22 @@ mission "Avgi: Scout Rescue"
 		has "avgi: warship intro"
 	on offer
 		conversation
-			`You follow Kokkino's instructions to a prefab building in the spaceport, which looks to be some kind of command center. Kokkino is waiting for you by a table in the middle, which lights up, displaying a map of Avgi space with some colored markings you can't read.`
-			`	"Explanation. We send scouting teams and patrols into the space controlled by the Aberrant regularly. Every expedition beyond Evanescence is essentially behind enemy lines, cut off from resupply and in many cases communication. As you might imagine, such adventures are fraught with danger, and it is unfortunately not unheard of for a scout ship to be lost."`
+			`Podążasz za instrukcjami Kokkino do prefabrykowanego budynku w porcie kosmicznym, który wygląda na swego rodzaju centrum dowodzenia. Kokkino czeka na ciebie przy stole pośrodku, który się podświetla i wyświetla mapę przestrzeni Avgi z kolorowymi oznaczeniami, których nie możesz odczytać.`
+			`	"Wyjaśnienie. Regularnie wysyłamy zespoły zwiadowcze i patrole w przestrzeń kontrolowaną przez Aberrant. Każda wyprawa poza Evanescence znajduje się zasadniczo za liniami wroga, odcięta od zaopatrzenia, a w wielu przypadkach od komunikacji. Jak można sobie wyobrazić, takie przygody są pełne niebezpieczeństw i niestety nierzadko zdarza się, że statek zwiadowczy zaginie."`
 			choice
-				`	"Yes, I've found that exploration is often dangerous."`
+				`	"Tak, odkryłem, że eksploracja często jest niebezpieczna."`
 					goto exploration
-				`	"Sounds like you should build stronger scout ships."`
-			`	"Agreement. The Polari are a fine line of vessels, but not one made for the environment of war. We have experimented with using the Prismaios as an intelligence platform in more contested environments, but it lacks the versatility and drone bays that has made the Polari so venerable in the first place."`
+				`	"Wygląda na to, że powinieneś budować silniejsze statki zwiadowcze."`
+			`	"Agreement. Polari to znakomita linia okrętów, ale nie stworzona do działań wojennych. Eksperymentowaliśmy z wykorzystaniem Prismaiosa jako platformy wywiadowczej w bardziej napiętych warunkach, ale brakuje mu wszechstronności i gniazd dla dronów, które uczyniły Polari tak szanowanymi."`
 				goto point
 			label exploration
-			`	He flicks his wings. "Regret. It is a sad truth, but those on the forefront of expanding our knowledge are often those who face the most danger from the unknown."`
+			`	Macha skrzydłami. "Regret. To smutna prawda, ale ci, którzy są na czele poszerzania naszej wiedzy, często stawiają czoła największemu niebezpieczeństwu ze strony nieznanego."`
 			label point
-			`	"But, to the point. A scout team, aboard the Polari-class scout 'Silver Albedo,' was sent to survey the Twirl system two weeks ago, but has missed its check-in by multiple days. To reach that star cluster and return would normally require a trip of weeks, all through perilous territory, and I am ashamed to say that we could be forced to consider writing off the scouts as lost. But I have heard that the visiting human, Captain <last>, is in possession of a new kind of faster-than-light drive, one that can travel without the need for starways. Tell me, is this true, question?"`
+			`	"Ale do rzeczy. Zespół zwiadowczy na pokładzie statku zwiadowczego klasy Polari "Silver Albedo" został wysłany na badanie układu Twirl dwa tygodnie temu, ale spóźnił się na odprawę o kilka dni. Dotarcie do tej gromady gwiazd i powrót normalnie wymagałyby tygodniowej podróży przez niebezpieczne terytorium i ze wstydem przyznaję, że moglibyśmy być zmuszeni uznać zwiadowców za zaginionych. Słyszałem jednak, że odwiedzający nas człowiek, Kapitan <last>, jest w posiadaniu nowego rodzaju napędu nadświetlnego, który może podróżować bez potrzeby korzystania z tras kosmicznych. Powiedz mi, czy to prawda, pytam?"`
 			choice
-				`	"Yes."`
-				`	"Yes, it's called a jump drive."`
-			`	"Excitement. Then, the trip could be shortened to mere days, giving us the possibility of mounting a rescue. I will mark the location of the Twirl system on your map, though it is probable that the Silver Albedo is elsewhere in the star cluster. The highest priority is of course the safe recovery of its crew, though if you could recover any data or samples they have managed to gather, that would also be much appreciated."`
+				`	"Tak."`
+				`	"Tak, to się nazywa dysk skokowy."`
+			`	"Podekscytowanie. Wtedy podróż mogłaby zostać skrócona do zaledwie kilku dni, dając nam możliwość zorganizowania akcji ratunkowej. Zaznaczę lokalizację układu Twirl na twojej mapie, choć jest prawdopodobne, że Srebrne Albedo znajduje się gdzie indziej w gromadzie gwiazd. Najwyższym priorytetem jest oczywiście bezpieczne odzyskanie jego załogi, choć jeśli udałoby ci się odzyskać jakiekolwiek dane lub próbki, które udało im się zebrać, byłbym bardzo wdzięczny."`
 				accept
 	on accept
 		log `Zgodził się pomóc Kokkino, próbując uratować załogę statku zwiadowczego Avgi, który nie zgłosił się po misji w Zmierzchu.`
@@ -736,27 +736,27 @@ mission "Avgi: Scout Rescue"
 		system Whirlwind
 		ship "Polari" "Silver Albedo"
 		conversation
-			`You maneuver alongside the Silver Albedo, which is covered in scorch marks and other signs of damage. After transmitting a code given to you by Captain Kokkino, you wait for any signs of life. After a few minutes you receive a response, which you pass through your translator.`
-			`	"Caution. Unfamiliar vessel, how did you obtain Consonance identification codes?"`
+			`Manewrujesz obok Srebrnego Albedo, pokrytego śladami przypaleń i innymi uszkodzeniami. Po nadaniu kodu przekazanego przez kapitana Kokkino czekasz na jakiekolwiek oznaki życia. Po kilku minutach otrzymujesz odpowiedź, którą przekazujesz przez tłumacza.`
+			`	"Uwaga. Nieznany statek, skąd uzyskałeś kody identyfikacyjne Consonance?"`
 			choice
-				`	"There's no time for that. I'm here to rescue you."`
+				`	"Nie ma na to czasu. Jestem tu, żeby cię uratować."`
 					goto serious
-				`	"I'm a space alien here in my alien spaceship here to rescue you aliens."`
-			`	"Amusement. Very well, I suppose we have little choice but to accept your help, opportune jester. As you can see, the Albedo is in something of a predicament."`
+				`	"Jestem kosmitą, który przybył do mnie swoim statkiem kosmicznym, aby was uratować, kosmici."`
+			`	"Rozbawienie. Dobrze, chyba nie mamy innego wyboru, jak tylko przyjąć twoją pomoc, błaźnie z okazji. Jak widzisz, Albedo jest w dość kłopotliwej sytuacji."`
 				goto next
 			label serious
-			`	"Consideration. I suppose we have little choice but to accept your help, stranger. As you can see, the Albedo is in something of a predicament."`
+			`	"Rozważenie. Chyba nie mamy innego wyboru, jak przyjąć twoją pomoc, nieznajomy. Jak widzisz, Albedo jest w dość kłopotliwej sytuacji."`
 			label next
-			`	You speak with the Avgi commander about treating the wounded as you dock your ship with the Silver Albedo. Any Avgi that are able to are clutching armfuls of recordings and logs as they come aboard. After everyone is safely transferred to the <ship>, you decouple from the derelict ship.`
+			`	Rozmawiasz z dowódcą Avgi o opiece nad rannymi, dokując swój statek do Srebrnego Albedo. Wszyscy Avgi, którzy są w stanie to zrobić, ściskają naręcza nagrań i logów, gdy wchodzą na pokład. Po tym, jak wszyscy zostaną bezpiecznie przeniesieni na <ship>, odłączasz się od opuszczonego statku.`
 				depart
 
 	on complete
 		conversation
-			`You receive a warm welcome back on Peripheria Station, as the former crew of the Silver Albedo disembarks. Some of the more badly injured crew members are carried out on hammock-like stretchers, but most are able to walk or fly out of the <ship> on their own power.`
-			`	After a short celebration and many expressions of deep gratitude toward you, you find Darius and Sora waiting by the <ship> to speak with you.`
-			`	"<first>, I think we have a golden opportunity," Darius says. "I was just talking to an Assemblyman, Hriso, who's worried about the political situation in the eastern branch of the Tangled Shroud."`
-			`	"A bunch of selfish cowards, they are," says Sora disdainfully.`
-			`	"Something about the miners grumbling about price controls on nickel-iron," Darius says after a moment, "but he wants to know if you could use your jump drive to take him there for some outreach to the miners without needing to spend weeks wandering through the mess of twisted hyperlanes. It's the perfect chance to meet my friend and ask him some questions. Meet me in the spaceport in an hour and we'll get this trip sorted out."`
+			`Zostajesz ciepło powitany na stacji Peripheria, gdy była załoga Srebrnego Albedo schodzi na ląd. Niektórzy z najciężej rannych członków załogi są wynoszeni na noszach przypominających hamaki, ale większość jest w stanie samodzielnie wydostać się z <ship> pieszo lub wylecieć.`
+			`	Po krótkim świętowaniu i wielu wyrazach głębokiej wdzięczności wobec ciebie, znajdujesz Dariusza i Sorę czekających przy <ship>, aby z tobą porozmawiać.`
+			`	"<first>, Myślę, że mamy wyjątkową okazję, " mówi Darius. "Właśnie rozmawiałem z członkiem Zgromadzenia, Hriso, który martwi się sytuacją polityczną we wschodniej odnodze Splątanego Całunu."`
+			`	"To banda samolubnych tchórzy," mówi Sora z pogardą.`
+			`	"Coś o tym, że górnicy narzekają na kontrolę cen niklu i żelaza, " mówi po chwili Darius, "ale chce wiedzieć, czy mógłbyś użyć swojego napędu, żeby zabrać go tam i porozmawiać z górnikami, bez konieczności spędzania tygodni na plątaninie krętych hipertraktów. To idealna okazja, żeby spotkać się z moim przyjacielem i zadać mu kilka pytań. Spotkajmy się w porcie kosmicznym za godzinę, a załatwimy tę podróż. "`
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z uratowaną załogą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
 
@@ -776,14 +776,14 @@ mission "Avgi: Frontline Combat"
 		has "avgi: rescue intro"
 	on offer
 		conversation
-			`You follow Kokkino's instructions to a prefab building in the spaceport, which looks to be some kind of command center. Kokkino is waiting for you by a table in the middle, which lights up, displaying a map of Avgi space with some colored markings you can't read.`
-			`	"Explanation. The Aberrant are relentless, but as a rule push only lightly into the Tangled Shroud. The recent incursion excepted, of course. But Arche holds the first lines of defense, with the Feo Platform and its cannons." He points to a trinary system just outside the Shroud.`
-			`	"But, if we are to reclaim our homes, we cannot merely fight on the defensive. Thus, the front lines of this war are as of late drawn in the Quintessence system, and the triangle of systems to its north, which we are still in the process of clearing."`
+			`Podążasz za instrukcjami Kokkino do prefabrykowanego budynku w porcie kosmicznym, który wygląda na swego rodzaju centrum dowodzenia. Kokkino czeka na ciebie przy stole pośrodku, który się podświetla i wyświetla mapę przestrzeni Avgi z kolorowymi oznaczeniami, których nie możesz odczytać.`
+			`	"Wyjaśnienie. Aberranty są nieustępliwe, ale z reguły wdzierają się do Splątanego Całunu tylko lekko. Oczywiście, pomijając niedawne wtargnięcie. Arche jednak utrzymuje pierwszą linię obrony, z platformą Feo i jej działami. " Wskazuje na układ trinarny tuż za Całunem.`
+			`	"Ale jeśli mamy odzyskać nasze domy, nie możemy walczyć wyłącznie w defensywie. Dlatego linie frontu tej wojny zostały ostatnio wyznaczone w systemie Kwintesencji i trójkącie systemów na północ od niego, który wciąż oczyszczamy."`
 			choice
-				`	"Where do I come in?"`
-				`	"What do you want me to do?"`
-			`	"Consideration. Your ship is far beyond anything we can produce indigenously, at least for the moment. While you are certainly skilled in fleet combat, I am of the opinion that you would be best put to use launching independent strikes, those that a single one of our vessels could not manage on their own."`
-			`	He looks down at a device similar to a tablet. "With the attack on Ensemble, we were forced to pull back our main fleetgroups from the front lines in Quintessence in an attempt to contain them. While we have since reclaimed many of our initial positions, during all the maneuvering a large number of Aberrant were able to slip past us, not into the Shroud, but rather north, towards the Empyrean system. With the current situation, I do not want to divert an entire strike force from the defenses to hunt them down. Report back to the Feo Platform when the Aberrant are eliminated."`
+				`	"Gdzie mam wejść?"`
+				`	"Co mam zrobić?"`
+			`	"Rozważenie. Twój statek znacznie przewyższa wszystko, co moglibyśmy wyprodukować w kraju, przynajmniej na razie. Choć z pewnością jesteś biegły w walce flotowej, uważam, że najlepiej byłoby, gdybyś przeprowadzał niezależne ataki, takie, którym żaden z naszych okrętów nie byłby w stanie podołać samodzielnie."`
+			`	Patrzy na urządzenie podobne do tabletu. "Wraz z atakiem na Ensemble, zostaliśmy zmuszeni do wycofania naszych głównych grup floty z linii frontu w Kwintesencji, aby ich powstrzymać. Chociaż od tego czasu odzyskaliśmy wiele z naszych początkowych pozycji, podczas wszystkich manewrów dużej liczbie Aberrantów udało się przedostać obok nas, nie do Całunu, ale na północ, w kierunku układu Empireum. W obecnej sytuacji nie chcę odciągać całej siły uderzeniowej od obrony, aby ich ścigać. Zgłoś się na platformę Feo, gdy Aberranty zostaną wyeliminowane."`
 				accept
 	on accept
 		log `Zgodził się pomóc Kokkino poprzez oczyszczenie systemu z aberracyjnych maruderów, którzy zaatakowali grupę systemów za liniami frontu.`
@@ -847,14 +847,14 @@ mission "Avgi: Dissonance Outreach 0.5"
 		has "Avgi: Frontline Combat: done"
 	on offer
 		conversation
-			`You receive a hero's welcome back on the Feo Platform from the Twilight Guards stationed there. After a short celebration and many expressions of praise toward you, an alien stranger, you find Darius and Sora waiting by the <ship> to speak with you.`
-			`	"<first>, I think we have a golden opportunity," Darius says. "I was just talking to an Assemblyman, Hriso, who's worried about the political situation in the eastern branch of the Tangled Shroud."`
-			`	"A bunch of selfish cowards, they are," says Sora disdainfully.`
-			`	"Something about the miners grumbling about price controls on nickel-iron," Darius says after a moment, "but he wants to know if you could use your jump drive to take him there for some outreach to the miners without needing to spend weeks wandering through the mess of twisted hyperlanes. It's the perfect chance to meet my friend and ask him some questions. We'll need to head to Peripheria to pick up Hriso and get this trip sorted out."`
+			`Powrót na platformę Feo wita cię bohaterskim powitaniem od stacjonujących tam Strażników Zmierzchu. Po krótkiej uroczystości i licznych pochwałach pod twoim adresem, obcym, znajdujesz Dariusa i Sorę czekających przy <ship>, by z tobą porozmawiać.`
+			`	"<first>, Myślę, że mamy wyjątkową okazję, " mówi Darius. "Właśnie rozmawiałem z członkiem Zgromadzenia, Hriso, który martwi się sytuacją polityczną we wschodniej odnodze Splątanego Całunu."`
+			`	"To banda samolubnych tchórzy," mówi Sora z pogardą.`
+			`	"Coś o tym, że górnicy narzekają na kontrolę cen niklu i żelaza, " mówi po chwili Darius, "ale chce wiedzieć, czy mógłbyś użyć swojego napędu, żeby zabrać go tam i porozmawiać z górnikami, bez konieczności spędzania tygodni na plątaniu się po plątaninie krętych hipertraktów. To idealna okazja, żeby spotkać się z moim przyjacielem i zadać mu kilka pytań. Musimy pojechać na Peripherię, żeby odebrać Hriso i załatwić tę podróż. "`
 				accept
 	on complete
 		dialog
-			`As you take the <ship> in for a landing in one of the hangars, Darius says, "I'll get in contact with Hriso and have him meet us in the spaceport."`
+			`Kiedy lądujesz <ship> w jednym z hangarów, Dariusz mówi: "Skontaktuję się z Hriso i poproszę go, żeby spotkał się z nami w porcie kosmicznym."`
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariusem i Sorą jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jej przybycie.`
 
@@ -877,18 +877,18 @@ mission "Avgi: Dissonance Outreach"
 		log "Factions" "Avgi Consonance" `Członkostwo w Consonance jest bardzo zróżnicowane w różnych politykach Avgi, a znaczna część Avgi, która uciekła przed Aberrantem, nie uznaje jego prawowitości.`
 		log "Factions" "Avgi Dissonance" `Dysonans to termin zbiorczy dla różnych grup i jednostek, które nie akceptują Konsonansu jako zjednoczonego rządu Avgi. Od anarchistów po korporacje sprzeciwiające się, Dysonans jest raczej ruchem o szerokim zasięgu niż scentralizowaną grupą.`
 		conversation
-			`Hriso turns out to be a yellow-orange Avgi of middling age. "Excitement. A true pleasure to meet you, Captain <first> <last>. I look forward to your company during these negotiations."`
+			`Hriso okazuje się żółtopomarańczowym Avgim w średnim wieku. "Podekscytowanie. Naprawdę miło mi pana poznać, Kapitanie <first> <last>. Liczę na pańskie towarzystwo podczas tych negocjacji."`
 			choice
-				`	"Aren't the Avgi united under the Consonance?"`
-				`	"Who are you negotiating with exactly?"`
+				`	"Czy Avgi nie są zjednoczone pod szyldem Consonance?"`
+				`	"Z kim dokładnie negocjujesz?"`
 					goto dissonance
-			`	He thrums in laughter. "One can only wish our species was that unified. No, membership in the Consonance is purely at-will, and many polities have chosen to go it alone even with the current crisis. Regret. The initial evacuation into the Tangled Shroud was haphazard to say the least, as much of it was, and still is, unmapped. Many captains took their ships down differing paths, meeting up with each other and forming alliances just to survive. In a way, it's a miracle that the Consonance was even able to reconstitute itself at all."`
+			`	Brzmi śmiechem. "Można tylko życzyć, żeby nasz gatunek był tak zjednoczony. Nie, członkostwo w Consonance jest całkowicie dobrowolne, a wiele państw postanowiło działać w pojedynkę, nawet w obliczu obecnego kryzysu. Żałuję. Początkowa ewakuacja do Splątanego Całunu była, delikatnie mówiąc, chaotyczna, ponieważ wiele z niej było i nadal jest niezmapowanych. Wielu kapitanów kierowało swoje statki różnymi szlakami, spotykając się i tworząc sojusze, tylko po to, by przetrwać. W pewnym sensie to cud, że Consonance w ogóle udało się odbudować."`
 
 			label dissonance
-			`	"Those polities not fully aligned with the Consonance are largely independent of each other, but their movement has collectively been labeled as the 'Dissonance.' Imperative. Please do understand, we are not enemies, nor would I say we bear them any ill-will. The Dissonance participates in trade with us and de-facto follows the regulations passed by the Assembly, and each and every one of them wants the Aberrant scoured from our space as much as the rest of us."`
-			`	He looks directly at you. "The individuals we will be negotiating with on this trip are still loyal to the Consonance, merely unhappy with the price controls in place on certain minerals. Necessary for the Twilight Guard to expand the fleet," he explains.`
-			`	Sora says, "I still think they're a bunch of cowards. The existence of your species is threatened, and you let someone else do the fighting? Then you complain about the price they can pay for iron? What kind of person does that?"`
-			`	Hriso flicks his wings. "Reproach. The kind that still has to support themselves, and pay for the precision machinery they cannot make themselves. But we can discuss this later. For now, let us set off as soon as possible."`
+			`	"Te ugrupowania polityczne, które nie są w pełni zjednoczone z Consonance, są w dużej mierze od siebie niezależne, ale ich ruch został zbiorowo nazwany "Dysonansem". Nakaz. Proszę zrozumieć, nie jesteśmy wrogami, ani nie powiedziałbym, że żywimy do nich jakąkolwiek niechęć. Dissonance uczestniczy w handlu z nami i de facto przestrzega przepisów uchwalonych przez Zgromadzenie, a każdy z nich pragnie wymiecenia Aberrantów z naszej przestrzeni tak samo, jak my wszyscy."`
+			`	Patrzy prosto na ciebie. "Osoby, z którymi będziemy negocjować podczas tej wyprawy, są nadal lojalne wobec Consonance, po prostu niezadowolone z kontroli cen niektórych minerałów. To konieczne, aby Straż Zmierzchu mogła powiększyć flotę, " wyjaśnia.`
+			`	Sora mówi: "Nadal uważam, że to banda tchórzy. Istnienie waszego gatunku jest zagrożone, a wy pozwalacie komuś innemu walczyć? A potem narzekacie na cenę, jaką muszą zapłacić za żelazo? Kto tak robi?"`
+			`	Hriso trzepocze skrzydłami. "Reproach. Taki, który wciąż musi się utrzymać i płacić za precyzyjną maszynerię, której nie jest w stanie sam zbudować. Ale o tym porozmawiamy później. A teraz ruszajmy jak najszybciej. "`
 				accept
 
 	on accept
@@ -910,93 +910,93 @@ mission "Avgi: Twilight Escape 1"
 		log "Factions" "Avgi Dissonance" `Niezależni górnicy, kolektywy i korporacje są niezadowoleni z kontroli cen, jaką Consonance wprowadziło na minerały wydobywane z asteroid. Chociaż Consonance twierdzi, że są one niezbędne ze względu na surową gospodarkę wojenną i zapotrzebowanie na surowce, sztucznie zaniżone ceny utrudniają przetrwanie i utrzymanie.`
 		log "People" "Leon Shez" `Leon był naukowcem na pokładzie statku Dariusza, gdy ten utknął w Zmierzchu. W przeciwieństwie do Sory, zdecydowanie obwinia Dariusza za uwięzienie z Avgi. Choć nieco niegrzeczny, wydaje się, że nawiązał kilka cennych kontaktów i może być bliski odkrycia drogi powrotnej do przestrzeni kosmicznej.`
 		conversation
-			`Outpost Tekis is a large station built into an asteroid several kilometers across, with networks of tubes and habitats crisscrossing the surface. You pull the <ship> into a cramped hangar dug into the rock and disembark with Hriso, who immediately sets out for a prearranged meeting place. You notice many of the Avgi in the outpost stare at you, Darius, and Sora, likely their first glimpse of a human.`
-			`	Together, you enter a large, round conference room with walls of polished rock. Waiting there are a handful of Avgi of various ages, who immediately begin conversing with Hriso in their own language.`
-			`	One of them looks at you and says, "Displeasure. So, do you expect a show of support by the aliens to move us? We were under the impression you were here to reconsider your positions, not calcify them."`
+			`Placówka Tekis to duża stacja zbudowana w asteroidzie o średnicy kilku kilometrów, z siecią rur i habitatów przecinających powierzchnię. Wciągasz <ship> do ciasnego hangaru wykopanego w skale i wysiadasz z Hriso, który natychmiast wyrusza na umówione miejsce spotkania. Zauważasz, że wielu Avgi z placówki wpatruje się w ciebie, Dariusa i Sorę, prawdopodobnie po raz pierwszy widząc człowieka.`
+			`	Razem wchodzicie do dużej, okrągłej sali konferencyjnej ze ścianami z polerowanego kamienia. Czeka tam garstka Avgi w różnym wieku, którzy natychmiast zaczynają rozmawiać z Hriso w swoim języku.`
+			`	Jeden z nich patrzy na ciebie i mówi: "Displeasure. Więc, czy spodziewasz się, że okazanie wsparcia przez kosmitów nas poruszy? Byliśmy przekonani, że jesteś tu po to, by przemyśleć swoje stanowiska, a nie je skostnieć. "`
 			choice
-				`	"What are they talking about?"`
-				`	(Remain silent.)`
+				`	"O czym oni mówią?"`
+				`	(Zachowaj milczenie.)`
 
-			`	"Rebuke. Captain <last> is not here on 'my' side, or any other, merely as an observer curious of our ways." Hriso turns to you. "Consideration. I suppose you might be curious about what we are discussing. The local mining guild here says they cannot sustain their operations with the low price on iron mandated by the Consonance, as we are not buying enough rarer metals like titanium to make up for it."`
-			`	"That's stupid," says Sora. "Without cheap steel we wouldn't be able to keep expanding Peripheria or build the Aktina Cylinder."`
-			`	Hriso doesn't translate that, returning to conversing with the miners. Sora pulls out a translator of her own, listening intently to the conversation, but Darius pulls you aside. "I had a talk with a few people on the way here, and they say there's someone who knows more about the first days after the Incursion. Come on."`
-			`	"What did they say?" you ask.`
-			`	"Apparently it's someone we have to meet in person," he grumbles. "I don't like it, but I don't think it's anything dangerous. Just inconvenient." You excuse yourself and walk along with Darius.`
-			`	Before long, you find yourself in some kind of mess hall, dozens of Avgi sipping from colorful drinks. Darius freezes as he spots a short man seated on a crude stool, the only human-style seating in the room, together with a few Avgi.`
-			`	"Darius. I didn't expect to see you here," he says. "And, what's this, another human here in Avgi space?"`
-			`	Darius takes a while to respond. "Leon. It's been a while."`
-			`	Leon snorts. "That's to say the least. Is Sora with you, or did you crawl here by yourself?"`
+			`	"Rebuke. Kapitan <last> nie jest tu po "mojej" stronie ani żadnej innej, a jedynie jako obserwator ciekawy naszych zwyczajów." Hriso zwraca się do ciebie. "Consideration. Przypuszczam, że możesz być ciekaw, o czym dyskutujemy. Lokalny cech górniczy twierdzi, że nie jest w stanie utrzymać swojej działalności przy niskiej cenie żelaza narzuconej przez Consonance, ponieważ nie kupujemy wystarczająco dużo rzadszych metali, takich jak tytan, aby to zrekompensować."`
+			`	"To głupota, " mówi Sora. "Bez taniej stali nie bylibyśmy w stanie dalej rozbudowywać Peripherii ani zbudować Cylindra Aktiny."`
+			`	Hriso tego nie tłumaczy, wracając do rozmowy z górnikami. Sora wyciąga własny tłumacz, uważnie słuchając rozmowy, ale Darius bierze cię na bok. "Rozmawiałem z kilkoma osobami w drodze tutaj i mówią, że jest ktoś, kto wie więcej o pierwszych dniach po Inwazji. Chodź."`
+			`	"Co powiedzieli?" pytasz.`
+			`	"Wygląda na to, że to ktoś, z kim musimy się spotkać osobiście," narzeka. "Nie podoba mi się to, ale nie sądzę, żeby to było coś niebezpiecznego. Po prostu niewygodne." Przepraszasz i idziesz z Dariuszem.`
+			`	Wkrótce znajdziesz się w jakiejś stołówce, gdzie dziesiątki Avgi popijają kolorowe drinki. Darius zamarł, dostrzegając niskiego mężczyznę siedzącego na prymitywnym stołku, jedynym w pomieszczeniu, w stylu ludzkim, wraz z kilkoma Avgi.`
+			`	"Darius. Nie spodziewałem się cię tu zobaczyć, " mówi. "A co to jest, kolejny człowiek w przestrzeni Avgi?"`
+			`	Dariusowi trochę czasu zajmuje odpowiedź. "Leon. Minęło trochę czasu."`
+			`	Leon prycha. "Oczywiście, że tak powiem. Czy Sora jest z tobą, czy sam tu przyczołgałeś?"`
 			choice
-				`	"She's helping with some negotiations."`
+				`	"Ona pomaga w negocjacjach."`
 					goto you
-				`	(Let Darius do the talking.)`
+				`	(Niech Dariusz mówi.)`
 
-			`	"She's with someone from the Consonance, negotiating with the miners here," says Darius.`
+			`	"Ona jest z kimś z Consonance i negocjuje z tutejszymi górnikami," mówi Darius.`
 			label you
-			`	"And who's this?" Leon says, looking at you. "How'd you end up here, of all places?"`
+			`	"A kto to jest?" Leon mówi, patrząc na ciebie. "Jak ty się tu znalazłeś, ze wszystkich miejsc?"`
 			choice
-				`	"Captain <last>. I was stranded here, just like you."`
-				`	"<first>. Pleased to meet you."`
+				`	"Kapitanie <last>. Utknąłem tu, tak jak ty."`
+				`	"<first>. Miło mi cię poznać."`
 
-			`	You quickly explain how you found yourself in Avgi space, and Leon nods. "That explains the questions the good Captain was asking," he says, nodding at Darius. "I've spent years collecting this information, from hearing the official narrative to dredging the corners of Avgi space for rumors."`
-			`	He leans in. "So, before I tell you this, one condition. I've spent months looking for a way to get a ship to take me to... well, you'll see. But not a lot of captains are willing to take their ships out of the Tangled Shroud and through the Aberrant blockade, so if this leads anywhere, I want a bunk on your ship."`
+			`	Szybko wyjaśniasz, jak znalazłeś się w przestrzeni Avgi, a Leon kiwa głową. "To wyjaśnia pytania, które zadawał dobry Kapitan, " mówi, kiwając głową w stronę Dariusza. "Spędziłem lata na zbieraniu tych informacji, od słuchania oficjalnej wersji wydarzeń po przeszukiwanie zakamarków przestrzeni Avgi w poszukiwaniu plotek. "`
+			`	Pochyla się. "Zanim ci to powiem, jeden warunek. Spędziłem miesiące szukając sposobu na statek, który zabierze mnie do... cóż, zobaczysz. Ale niewielu kapitanów jest gotowych wyprowadzić swoje statki z Zaplątanego Całunu i przez blokadę Aberrantów, więc jeśli to dokądś prowadzi, chcę koi na twoim statku."`
 			choice
-				`	"Agreed."`
+				`	"Zgadzam się."`
 					goto agreed
-				`	"No deal."`
-			`	You open your mouth to reply, but Darius beats you to the punch. "Of course, Leon."`
+				`	"Brak porozumienia."`
+			`	Otwierasz usta, żeby odpowiedzieć, ale Darius cię wyprzedza. "Oczywiście, Leon."`
 
 			label agreed
-			`	"Good. Well, it more or less comes down to this: the Incursion didn't come out of nowhere. Everyone says they came from beyond the furthest reaches of Avgi exploration, but that's not quite true. The first to encounter them was a scout ship, which went down within minutes against their weapons. But not before they sent out a single garbled transmission to their sister ship, which fled back to the rest of the Avgi."`
-			`	He pauses, taking a drink of what looks like water. "They said they had found a gateway of sorts, an ancient alien artifact built by an unknown Antecessor species. Somehow, they had activated it, and that's where the first Aberrant came from."`
+			`	"Dobrze. Cóż, mniej więcej sprowadza się to do tego: Inwazja nie pojawiła się znikąd. Wszyscy mówią, że przybyli spoza najdalszych zakątków eksploracji Avgi, ale to nie do końca prawda. Pierwszym, który ich spotkał, był statek zwiadowczy, który rozbił się w ciągu kilku minut, zderzając się z ich bronią. Ale nie wcześniej niż wysłali pojedynczą, zniekształconą transmisję do siostrzanego statku, który uciekł z powrotem do reszty Avgi."`
+			`	Zatrzymuje się i bierze łyk czegoś, co wygląda jak woda. "Mówili, że znaleźli coś w rodzaju bramy, starożytny obcy artefakt zbudowany przez nieznany gatunek Antecessorów. W jakiś sposób go aktywowali i stamtąd przybył pierwszy Aberrant."`
 			choice
-				`	"And you want to use this gateway as a way out?"`
-				`	"Where do you think this gateway leads?"`
+				`	"I chcesz użyć tej bramki jako wyjścia?"`
+				`	"Dokąd Twoim zdaniem prowadzi ta brama?"`
 
-			`	"I don't know where it leads, but it'll be somewhere other than Avgi space. Maybe somewhere your jump drive can work, which would let us eventually make our way back to human space. But it's better than sitting here and twiddling our thumbs for another six years."`
-			`	"Where is this gateway?" Darius asks.`
-			`	"The Aberrant came from the East, beyond the furthest reaches of the Twilight. A place the Avgi always had trouble exploring, due to strange energy storms periodically ionizing entire systems. But it's apparently recognizable by the red nebula suffusing it, just as the Twilight is surrounded by a cluster of blue nebulae."`
+			`	"Nie wiem, dokąd to prowadzi, ale na pewno gdzieś indziej niż w przestrzeni Avgi. Może gdzieś, gdzie zadziała twój napęd, co pozwoli nam w końcu wrócić do przestrzeni kosmicznej. Ale to lepsze niż siedzieć tu i kręcić kciukami przez kolejne sześć lat."`
+			`	"Gdzie jest ta brama?" pyta Dariusz.`
+			`	"Aberrant przybył ze Wschodu, spoza najdalszych zakątków Zmierzchu. Miejsca, które Avgi zawsze miały trudności z eksploracją z powodu dziwnych burz energetycznych, które okresowo jonizowały całe systemy. Można go jednak rozpoznać po czerwonej mgławicy, która go otacza, tak jak Zmierzch jest otoczony gromadą niebieskich mgławic."`
 			branch "unknown ember waste"
 				not "event: ember waste label"
 			choice
-				`	"I've heard of that area. It's called the Ember Waste."`
-			`	"Can it take us back to human space?" asks Leon, to which you nod.`
+				`	"Słyszałem o tym obszarze. Nazywa się Pustkowiem Żaru."`
+			`	"Czy może zabrać nas z powrotem do przestrzeni kosmicznej?" pyta Leon, na co kiwasz głową.`
 
 			label "unknown ember waste"
-			`	"There's no point in waiting, then. If there's a chance, even a small one, it's worth checking on," says Darius, looking hopeful for the first time since you've met him. You just hope his hope isn't a false one, for both of your sakes.`
+			`	"W takim razie nie ma sensu czekać. Jeśli jest szansa, nawet niewielka, warto to sprawdzić, " mówi Dariusz, patrząc z nadzieją po raz pierwszy odkąd go poznaliście. Miejcie tylko nadzieję, że jego nadzieja nie jest fałszywa, dla was obojga.`
 				accept
 	on enter "Decet"
 		log `Odkryłem magnetar w układzie Decet, który może zwiększyć zasięg mojego napędu skokowego, co stanowi pozorne odwrócenie tajemniczego efektu, który mnie tu uwięził.`
 		conversation
-			`Just as your jump drive reacted strangely when you first entered Avgi space, it does so again, but this time the effect is inverted. The plasma from your jump lingers unnaturally, as though energized by something outside. Your instrumentation tell you your jump drive is much warmer than it should be just after a jump, almost hot enough to be dangerous. Perhaps your jump drive's range has changed as well?`
+			`Tak jak twój napęd skokowy zareagował dziwnie, gdy po raz pierwszy wszedłeś w przestrzeń Avgi, tak samo reaguje ponownie, ale tym razem efekt jest odwrócony. Plazma z twojego skoku utrzymuje się nienaturalnie, jakby była zasilana przez coś zewnętrznego. Twoje oprzyrządowanie informuje, że napęd skokowy jest znacznie cieplejszy niż powinien tuż po skoku, prawie na tyle gorący, że może być niebezpieczny. Być może zasięg twojego napędu również się zmienił?`
 	on enter
 		system
 			attributes "core" "deep" "dirt belt" "near earth" "rim" "south"
 		conversation
-			`As the purple flames of your jump drive fade, Darius, Sora, and Leon are all speechless. For the first time in six years, they are back in human space.`
+			`Gdy fioletowe płomienie twojego napędu skokowego gasną, Darius, Sora i Leon oniemiali. Po raz pierwszy od sześciu lat znów są w przestrzeni kosmicznej.`
 			choice
-				`	"Heh, told you we'd make it."`
-				`	"We're out. Where to now?"`
+				`	"Heh, mówiłem, że damy radę."`
+				`	"Wyszliśmy. Dokąd teraz?"`
 
-			`	Leon stares for a moment, then swears. "That damn magnetar was there the entire time? I was there for years. Years!"`
-			`	"We all were. And you wouldn't have been able to do anything with it without <first>'s jump drive," reminds Sora.`
-			`	"<first>," says Darius in a shaky voice. "Take us to the Deep, please. I need to see my home. And my wife."`
-			`	"Drop me off on Vinci first," interjects Leon. "I need to get my life in order again, and there's someone there I need to talk to about all this. It's on the way to the Deep, anyway."`
+			`	Leon patrzy przez chwilę, a potem przeklina. "Ten cholerny magnetar był tam cały czas? Byłem tam latami. Latami!"`
+			`	"Wszyscy byliśmy. I nie dałoby się z tym nic zrobić bez napędu <first>, " przypomina Sora.`
+			`	"<first>," mówi Dariusz drżącym głosem. "Zabierz nas do Głębi, proszę. Muszę zobaczyć mój dom. I moją żonę."`
+			`	"Najpierw wysadź mnie na Vinci, " wtrąca Leon. "Muszę uporządkować swoje życie, a jest tam ktoś, z kim muszę o tym wszystkim porozmawiać. I tak jest w drodze do Głębi. "`
 	on complete
 		log `Pomyślnie udało się uciec z Zmierzchu wraz z uwięzionymi tam ludźmi.`
 		log "People" "Leon Shez" `Leon jest Ci niezmiernie wdzięczny za pomoc w powrocie do przestrzeni Avgi. Chce opowiedzieć o Avgi kontaktowi na Vinci i prosi Cię o pozostanie w kontakcie.`
 		clear "avgi: lost in twilight"
 		"reputation: Avgi (Dissonance Angry)" <?= -10
 		conversation
-			`The group is quiet as you set the <ship> down on the landing pad. You notice Sora watching out a window as Darius looks into his hands. As for Leon, he has been ready to leave even before you've hit the atmosphere, pacing near the hatch until the moment you open it.`
-			`	"I'm going to get some fresh air," says Sora, stepping in front of an outraged Leon out of nowhere, a reluctant Darius dragged along with her. "We'll be in the spaceport, so try not to leave without us."`
-			`	Leon, consigned to being the last one out, stops just before he leaves the <ship>, turning to you. "<first>. Thank you." He is uncharacteristically somber, his usual sense of disdain for the world missing, for the moment.`
+			`Grupa milczy, gdy kładziesz <ship> na lądowisku. Zauważasz Sorę patrzącego przez okno, gdy Darius wpatruje się w jego dłonie. Leon jest gotowy do odlotu, zanim jeszcze wkroczyłeś w atmosferę, krążąc w pobliżu włazu, aż do momentu, gdy go otworzysz.`
+			`	"Idę zaczerpnąć świeżego powietrza," mówi Sora, stając przed oburzonym Leonem, który pojawił się znikąd, a za nim ciągnął niechętny Dariusz. "Będziemy w porcie kosmicznym, więc postaraj się nie wychodzić bez nas."`
+			`	Leon, skazany na to, że wyjdzie ostatni, zatrzymuje się tuż przed wyjściem z <ship> i zwraca się do ciebie. "<first>. Dziękuję." Jest nietypowo ponury, jego zwyczajowe poczucie pogardy dla świata na chwilę zanikło.`
 			choice
-				`	"Don't worry about it."`
-				`	"I'm glad I was able to help."`
+				`	"Nie martw się o to."`
+				`	"Cieszę się, że mogłem pomóc."`
 
-			`	"No, really. I was expecting to die back there, with those Avgi. Six years... I don't know how to thank you, but if you're ever in the area and you need anything don't hesitate to give me a call." With that, he shakes your hand and sets off in the direction Sora and Darius went, toward Vinci's spaceport.`
-			`	Remember to meet Darius and Sora in the spaceport before you leave Vinci.`
+			`	"Nie, serio. Spodziewałem się, że tam umrę, z tymi Avgi. Sześć lat... Nie wiem, jak ci dziękować, ale jeśli będziesz kiedyś w okolicy i będziesz czegoś potrzebować, nie wahaj się do mnie zadzwonić." Po tych słowach ściska ci dłoń i rusza w kierunku, w którym udali się Sora i Darius, w stronę kosmoportu Vinci.`
+			`	Pamiętaj, żeby spotkać się z Dariuszem i Sorą w porcie kosmicznym, zanim opuścisz Vinci.`
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariusem, Sorą i Leonem jeszcze nie wleciała do układu. Lepiej odlecieć i poczekać na jej przybycie.`
 
@@ -1012,15 +1012,15 @@ mission "Avgi: Twilight Escape 2"
 		has "Avgi: Twilight Escape 1: done"
 	on offer
 		conversation
-			`You find Darius and Sora sitting outside a cafe, sipping coffee. "Been a long time since we've had a good cup," explains Sora, pulling a chair out for you.`
-			`	"What, no coffee in Avgi space?" you joke.`
-			`	"Nah, but you should try their drinks sometime. Man, they're something else."`
-			`	"There's nothing like being back, though," Darius says, quiet as he takes in the bustling spaceport around you. "It's hard to believe I'm really here. Harder to understand why it was I that made it out of there when so many who followed me didn't."`
-			`	"Oh, stop that." Sora swats the back of his head. "You're not the first to make a wrong turn into a bad neighborhood. Remember that story about your wife?" Her tone is playful, but you can see the look of worry in her eyes at the evident guilt Darius feels.`
-			`	Darius shakes his head, then continues. "We should get you home. Your parents probably still have that farm, it's been in the family for years. It's not too far from here, right?"`
-			`	A pause, and then Sora says, "Memory. I haven't been there in years, but I guess my apartment is definitely gone... so I have nowhere else to go for now."`
-			`	"Let's get to it then. <first>, could you take us to Memory?"`
-			`	"Of course," you say.`
+			`Znajdujesz Dariusza i Sorę siedzących przed kawiarnią i popijających kawę. "Dawno nie piliśmy dobrej kawy, " wyjaśnia Sora, odsuwając dla ciebie krzesło.`
+			`	"Co, nie ma kawy w przestrzeni Avgi?" żartujesz.`
+			`	"Nie, ale powinieneś kiedyś spróbować ich drinków. Kurczę, są niesamowite."`
+			`	"Nie ma to jak powrót, " mówi cicho Darius, obserwując tętniący życiem port kosmiczny wokół ciebie. "Trudno uwierzyć, że naprawdę tu jestem. Jeszcze trudniej zrozumieć, dlaczego to ja się stamtąd wydostałem, skoro tylu, którzy za mną podążali, nie udało się. "`
+			`	"Och, przestań." Sora uderza się w tył głowy. "Nie jesteś pierwszy, który źle skręcił w złą dzielnicę. Pamiętasz tę historię o swojej żonie?" Jej ton jest żartobliwy, ale w jej oczach widać niepokój na widok ewidentnego poczucia winy Dariusza.`
+			`	Darius kręci głową, po czym kontynuuje. "Powinniśmy cię odwieźć do domu. Twoi rodzice prawdopodobnie nadal mają tę farmę, jest w rodzinie od lat. To niedaleko stąd, prawda?"`
+			`	Pauza, a potem Sora mówi: "Memory. Nie byłem tam od lat, ale chyba moje mieszkanie na pewno zniknęło... więc na razie nie mam dokąd pójść."`
+			`	"No to do dzieła. <first>, czy mógłbyś zabrać nas do Pamięci?"`
+			`	"Oczywiście," mówisz.`
 				accept
 
 	on accept
@@ -1043,21 +1043,21 @@ mission "Avgi: Twilight Escape 3"
 	on offer
 		log "People" "Darius Caldwell" `Darius jest niezwykle oddany swojej żonie Katrinie, ale martwi się, że ona mogła odejść w ciągu sześciu lat jego zaginięcia.`
 		conversation
-			`Memory is a dry world, covered in sands and shrubland. From the spaceport, the three of you catch a shuttle bus that heads out into the countryside, passing miles of cacti and dry plants that abruptly turn into greener fields of crops, probably irrigated by aquifers. It is one of these farms you finally arrive at, the one Sora says belongs to her parents. Traffic must be rare here, because only a few minutes after the bus stops the door to the well-maintained farmhouse opens, a middle-aged couple peering out.`
-			`	"...Sora? Is that you?" the older woman calls out while the man gapes in silence.`
-			`	Eyes shining, Sora gives you and Darius a crushing hug before she leaves you. "Thank you, <first>. And Darius," she gives him a stern look, "I'll be in touch. Don't be so hard on yourself." He nods mutely as she turns and runs towards the house.`
-			`	You don't want to interrupt the reunion, so you and Darius take your leave together, returning to the spaceport. Back aboard the <ship>, you sit in a comfortable silence for a while.`
+			`Pamięć to suchy świat, pokryty piaskami i zaroślami. Z kosmoportu wsiadacie we trójkę do autobusu wahadłowego, który jedzie na wieś, mijając kilometry kaktusów i suchych roślin, które nagle zmieniają się w zielone pola uprawne, prawdopodobnie nawadniane przez warstwy wodonośne. To właśnie do jednej z tych farm w końcu docieracie, tej, o której Sora mówi, że należy do jej rodziców. Ruch musi być tu niewielki, bo zaledwie kilka minut po zatrzymaniu autobusu otwierają się drzwi do zadbanego domu, z którego wyłania się para w średnim wieku.`
+			`	"...Sora? Czy to ty?" woła starsza kobieta, podczas gdy mężczyzna gapi się w milczeniu.`
+			`	Z błyszczącymi oczami Sora ściska ciebie i Dariusza miażdżącym uściskiem, zanim was zostawi. "Dziękuję, <first>. A Dariuszu," rzuca mu surowe spojrzenie, "Będę w kontakcie. Nie bądź dla siebie taki surowy." Kiwa głową bez słowa, gdy ona odwraca się i biegnie w stronę domu.`
+			`	Nie chcesz przerywać spotkania, więc ty i Darius żegnacie się razem, wracając do kosmoportu. Z powrotem na pokładzie <ship> siedzicie chwilę w komfortowej ciszy.`
 			choice
-				`	"So, where do you want me to take you?"`
-				`	"So, where next?"`
-			`	"...I don't know. My wife, Katrina... we lived on Valhalla, but it's been six years. She probably thought I was dead, hell, the whole Republic probably thought I was dead. She..." he chokes up, "she's probably moved on by now. I would have wanted her to, she knew that."`
+				`	"Więc dokąd chcesz, żebym cię zabrał?"`
+				`	"Więc co dalej?"`
+			`	"...Nie wiem. Moja żona, Katrina... mieszkaliśmy w Walhalli, ale minęło sześć lat. Pewnie myślała, że nie żyję, cholera, cała Republika pewnie myślała, że nie żyję. Ona... " on się dławi, "ona pewnie już sobie poszła. Chciałbym, żeby tak zrobiła, wiedziała o tym. "`
 			choice
-				`	"You have to find out, one way or another. Let's go to Valhalla."`
-				`	"I'm sure she's been waiting for you. Let's go to Valhalla."`
+				`	"Musisz się dowiedzieć, tak czy inaczej. Chodźmy do Walhalli."`
+				`	"Jestem pewien, że na ciebie czekała. Chodźmy do Walhalli."`
 					goto optimism
-			`	"I don't know if I can face the truth. But I also can't just go my own way without even checking on her, just in case there's a chance she didn't give up in me."`
+			`	"Nie wiem, czy potrafię spojrzeć prawdzie w oczy. Ale nie mogę też po prostu iść swoją drogą, nawet jej nie sprawdzając, na wypadek gdyby istniała szansa, że się we mnie nie poddała."`
 			label optimism
-			`	Darius rubs his eyes. "Thank you, <first>. I hope I'm wrong. Let's go to Valhalla."`
+			`	Darius przeciera oczy. "Dziękuję, <first>. Mam nadzieję, że się mylę. Chodźmy do Walhalli."`
 				accept
 
 	on accept
@@ -1067,32 +1067,32 @@ mission "Avgi: Twilight Escape 3"
 		log `Pomyślnie połączono Dariusza z jego żoną Katriną, która nie chciała uwierzyć, że nie żyje.`
 		log "Minor People" "Katrina Caldwell" `Katrina to żona Dariusza, która opuściła miasto, ale nie chciała uwierzyć, że nie żyje.`
 		conversation
-			`You land in Valhalla's main spaceport, and Darius practically jumps out of your ship before it can even touch down. A quick call for an automated taxi, and you soon find yourselves outside an expansive, fancy-looking apartment complex. "Our old address," he explains. "We were still renting, but were looking at buying our apartment within a few years."`
-			`	You knock on the door to the right apartment, but it is answered by a tall man with black hair. "Hello, can I help you?" he asks cautiously.`
-			`	Darius looks crushed. "Is... Is there a Katrina here?"`
-			`	"Katrina? Can't say I've met anyone with that name in the five years I've lived here. Is that a friend of yours?"`
-			`	Darius looks morose as he turns away. "Yes. I'm sorry for troubling you, we'll be on our way."`
+			`Lądujesz w głównym porcie kosmicznym Walhalli, a Darius praktycznie wyskakuje z twojego statku, zanim ten zdąży wylądować. Szybki telefon po automatyczną taksówkę i wkrótce znajdujesz się przed rozległym, eleganckim kompleksem apartamentowym. "Nasz stary adres, " wyjaśnia. "Wciąż wynajmowaliśmy mieszkanie, ale rozważaliśmy kupno za kilka lat. "`
+			`	Pukasz do drzwi właściwego mieszkania, ale otwiera wysoki mężczyzna o czarnych włosach. "Dzień dobry, w czym mogę pomóc?" pyta ostrożnie.`
+			`	Darius wygląda na załamanego. "Czy... Czy jest tu Katrina?"`
+			`	"Katrina? Nie mogę powiedzieć, żebym spotkał kogoś o takim imieniu przez pięć lat, odkąd tu mieszkam. Czy to twoja znajoma?"`
+			`	Darius wygląda ponuro, odwracając się. "Tak. Przepraszam za kłopot, zaraz pójdziemy."`
 			choice
-				`	"Don't give up. She probably just moved or something."`
-				`	"We could try looking her information up."`
+				`	"Nie poddawaj się. Pewnie po prostu się przeprowadziła albo coś."`
+				`	"Możemy spróbować poszukać informacji na jej temat."`
 					goto lookup
-			`	"Of course she did. But I don't understand why, buying that apartment was our dream. It doesn't make any sense!" He stops himself. "Sorry, <first>. I'm just on edge." He sighs before continuing. "I can try looking her up, maybe..." he trails off, thinking.`
-			`	"Any public records on Valhalla?" you ask.`
+			`	"Oczywiście, że tak. Ale nie rozumiem dlaczego, przecież kupno tego mieszkania było naszym marzeniem. To nie ma sensu!" Przerywa. "Przepraszam, <first>. Jestem po prostu na krawędzi." Wzdycha, zanim kontynuuje. "Mogę spróbować ją znaleźć, może..." Urywa, myśląc.`
+			`	"Czy są jakieś publiczne zapisy dotyczące Valhalli?" pytasz.`
 			label lookup
-			`	"...Yes, we'll try the record books. We can check them at the library."`
-			`	A short trip to the library later, and you sit at a table while Darius checks the public records. He scrolls down the list of names and addresses before stopping at a single name. "Katrina... Caldwell. Our name." Hope is plainly visible on his face. "She kept our name, at least."`
-			`	You glance over at the address, taking note of it. It looks like it's further out of the city. "Let's try the address. We can still make it there by tonight," you say.`
-			`	The address appears to be out in the country, and you take in the view as the taxi smoothly glides along the roads. Unlike on Memory, the landscape here is lush and green, with rolling hills, abundant forests, and rushing streams. You find that the address belongs to a cozy-looking riverfront house, a large garden visible next to it.`
-			`	Darius has never looked so nervous in his life, but you give him a gentle shove towards the door. His knocking is unanswered, and his face starts to once more slip into despair, but you hear a voice from the garden.`
-			`	"Darius? Is that you?" A woman with greying hair steps onto the porch, eyes shining. "You're back... I knew you were alive!" she cries out, rushing to embrace him. The two begin speaking, faster than you can follow, as you hang back somewhat awkwardly.`
-			`	After a few minutes, you try to excuse yourself, but Darius won't have it. "No, no, I owe this all to you, <first>. You're the only reason I'm here."`
-			`	Katrina looks at you curiously. "Aliens, huh? You don't look like an alien."`
+			`	"...Tak, spróbujemy w księgach rekordów. Możemy je sprawdzić w bibliotece."`
+			`	Po krótkiej wizycie w bibliotece siadasz przy stole, podczas gdy Darius sprawdza rejestry publiczne. Przewija listę nazwisk i adresów, aż zatrzymuje się na jednym nazwisku. "Katrina... Caldwell. Nasze nazwisko." Nadzieja jest wyraźnie widoczna na jego twarzy. "Przynajmniej zachowała nasze nazwisko."`
+			`	Spoglądasz na adres i go notujesz. Wygląda na to, że jest dalej od miasta. "Spróbujmy znaleźć adres. Jeszcze zdążymy tam dotrzeć dziś wieczorem, " mówisz.`
+			`	Adres wydaje się być na wsi, a Ty podziwiasz widok, gdy taksówka płynnie sunie po drogach. W przeciwieństwie do Memory, krajobraz jest tu bujny i zielony, z łagodnymi wzgórzami, bujnymi lasami i rwącymi strumieniami. Odkrywasz, że adres należy do przytulnego domu nad rzeką, obok którego widać duży ogród.`
+			`	Darius nigdy w życiu nie wyglądał na tak zdenerwowanego, ale delikatnie popychasz go w stronę drzwi. Nikt nie odpowiada na pukanie, a na jego twarzy znów maluje się rozpacz. Słyszysz jednak głos z ogrodu.`
+			`	"Darius? To ty?" Kobieta o siwiejących włosach wchodzi na werandę, jej oczy błyszczą. "Wróciłeś... Wiedziałam, że żyjesz!" krzyczy, rzucając się, by go objąć. Zaczynają rozmawiać szybciej, niż jesteś w stanie nadążyć, a ty niezręcznie się cofasz.`
+			`	Po kilku minutach próbujesz się usprawiedliwić, ale Dariusz nie chce tego tolerować. "Nie, nie, to wszystko zawdzięczam tobie, <first>. Jesteś jedynym powodem, dla którego tu jestem."`
+			`	Katrina patrzy na ciebie z ciekawością. "Obcy, co? Nie wyglądasz jak kosmita."`
 			choice
-				`	"Huh?"`
-				`	"That's because I'm not."`
-				`	"Yeah, these skinsuits are pretty good."`
-			`	She bursts out laughing. "I wouldn't believe it if anyone else had told me. I mean, men come up with all sorts of excuses for coming home late, but this is something else!" Her tone suddenly turns serious. "It'll be a headache, working all this out with the government. They gave me the money for this place as recompense for your supposed 'death,' no matter how much I insisted you were still alive."`
-			`	"We'll work it out. They owe me backpay anyway," jokes Darius, still in Katrina's arms.`
-			`	As the pair move to the door, you say your goodbyes, and Darius promises he will keep in touch with you about the Avgi. Neither of you have forgotten the aliens fighting to survive at the edge of the galaxy, and now that you know of a safe way in and out of their space, you can go back without fear of becoming trapped.`
+				`	"Co?"`
+				`	"To dlatego, że nim nie jestem."`
+				`	"Tak, te kombinezony są całkiem niezłe."`
+			`	Wybucha śmiechem. "Nie uwierzyłabym, gdyby powiedział mi to ktoś inny. No wiesz, mężczyźni wymyślają mnóstwo wymówek, żeby późno wracać do domu, ale to coś innego!" Jej ton nagle staje się poważny. "To będzie ból głowy, omówić to wszystko z rządem. Dali mi pieniądze na to miejsce jako rekompensatę za twoją rzekomą "śmierć", bez względu na to, jak bardzo upierałam się, że żyjesz."`
+			`	"Damy radę. I tak mi zalegają z wypłatą, " żartuje Darius, wciąż w ramionach Katriny.`
+			`	Gdy para rusza do drzwi, żegnacie się, a Darius obiecuje, że będzie z wami w kontakcie w sprawie Avgi. Żadne z was nie zapomniało o kosmitach walczących o przetrwanie na skraju galaktyki, a teraz, gdy znacie bezpieczną drogę do i z ich przestrzeni, możecie wrócić bez obawy przed pułapką.`
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Dariuszem jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`

@@ -18,46 +18,46 @@ mission "Incipias: Warning of the Guardian"
 		never
 	on enter Il'le
 		conversation
-			`A voice begins to speak from somewhere. "Your path brings you to a dead end, traveler. Nothing for you lies further."`
-			`	Alarmed, you look around but nobody is there. You check your scanners but there is nothing present in this system except a few indigenous lifeforms. However, your navigation system displays hyperspace routes that lead beyond it.`
+			`Głos zaczyna dobiegać skądś. "Twoja ścieżka prowadzi cię w ślepy zaułek, wędrowcze. Dalej już nic cię nie czeka."`
+			`	Zaniepokojony, rozglądasz się, ale nikogo nie ma. Sprawdzasz skanery, ale w tym systemie nie ma niczego poza kilkoma rdzennymi formami życia. Twój system nawigacyjny wyświetla jednak trasy nadprzestrzenne, które prowadzą poza niego.`
 			choice
-				`	(Ignore it.)`
-				`	"This doesn't appear to be a dead end."`
+				`	(Zignoruj to.)`
+				`	"Nie wydaje się, żeby to był ślepy zaułek."`
 					goto reason
-				`	"Why should I listen to you?"`
+				`	"Dlaczego miałbym cię słuchać?"`
 					goto reason
-			`	"Ignoring these words is only but folly. Turn around, traveler." The voice echoes in the air, again with no indication of where it came from.`
+			`	"Ignorowanie tych słów to zwykła głupota. Odwróć się, podróżniku." Głos rozbrzmiewa w powietrzu, znów bez żadnej wskazówki, skąd dochodzi.`
 			choice
-				`	"You can't fool me. This is no dead end."`
-				`	"Why should I listen to you?"`
+				`	"Nie oszukasz mnie. To nie jest ślepa uliczka."`
+				`	"Dlaczego miałbym cię słuchać?"`
 			label reason
-			`	"Here lie the unborn flowers yet to come into full bloom. There is nothing here for you to find. Heed this advice and turn back." The voice sounds more energetic this time, and you feel as if it is coming out of your head.`
+			`	"Tu leżą nienarodzone kwiaty, które jeszcze nie rozkwitły. Nie ma tu nic, co mógłbyś znaleźć. Posłuchaj tej rady i zawróć." Głos tym razem brzmi bardziej energicznie i masz wrażenie, jakby wydobywał się z twojej głowy.`
 			choice
-				`	"Unborn flowers. That sounds interesting."`
-				`	"I will see for myself."`
-				`	"Thank you for the warning."`
+				`	"Nienarodzone kwiaty. To brzmi interesująco."`
+				`	"Sam sprawdzę."`
+				`	"Dziękuję za ostrzeżenie."`
 					goto agree
-			`	A deep sigh seems to drift through the continuum. "Human, these unborn flowers would only be endangered by your presence." An impression of euphoria comes over you as you once again hear the words 'unborn flowers.'`
-			`"Please respect the beauty of life and do not step into this region that will soon bring forth another. Your kind is much more advanced than anything that you could hope to find here. No treasures here await you."`
+			`	Głębokie westchnienie zdaje się unosić przez kontinuum. "Człowieku, te nienarodzone kwiaty byłyby zagrożone tylko przez twoją obecność." Ogarnia cię euforia, gdy po raz kolejny słyszysz słowa "nienarodzone kwiaty".`
+			`"Proszę, uszanuj piękno życia i nie wkraczaj do tej krainy, która wkrótce wyda na świat kolejne. Twój gatunek jest o wiele bardziej zaawansowany niż cokolwiek, co mógłbyś tu znaleźć. Nie czekają tu na ciebie żadne skarby."`
 			choice
-				`	"Why do you care about these 'flowers'?"`
+				`	"Dlaczego interesują Cię te "kwiaty"?"`
 					goto care
-				`	"What I search for is not technology."`
-			`	The voice now takes on a calm tone. "Your persistence on this topic is admirable, but allow me to explain my conviction with an example."`
+				`	"To, czego szukam, to nie technologia."`
+			`	Głos nabiera teraz spokojnego tonu. "Twoja wytrwałość w tej kwestii jest godna podziwu, ale pozwól, że wyjaśnię moje przekonanie przykładem."`
 			label care
 			action
 				log `Wkroczyłem do obszaru przestrzeni na północny wschód od Hai i zostałem ostrzeżony przez bezcielesny głos, aby nie niepokoić "nienarodzonych kwiatów" zamieszkujących ten obszar.`
 				event "label incipias space"
-			`	"Why do humans care about art?" The voice now seems far away yet more present than ever. "Because it amazes you, the same way it amazes us to see another kind grow and overcome their burdens. The lives of others are like a painting that never stops being painted, but is a tragic thing to watch the painting stop. That is why we try to protect these creations of life - so we can see what heights they reach."`
-			`	There is a pause. "I see that you can not be convinced by me. Though I could intervene in your journey, I do not favor unsavory confrontation." The voice is now resolute in tone. "I will let you pass, but I will be watching you, as I am the guardian of this space."`
-			`	The voice fades out leaving nothing behind but the feeling of being watched.`
+			`	"Dlaczego ludzie interesują się sztuką?" Głos wydaje się teraz daleki, a jednak bardziej obecny niż kiedykolwiek. "Ponieważ zadziwia cię, tak samo jak nas zadziwia widok innego gatunku, który dorasta i pokonuje swoje brzemię. Życie innych jest jak obraz, który nigdy nie przestaje być malowany, ale to tragiczne patrzeć, jak obraz się zatrzymuje. Dlatego staramy się chronić te dzieła życia - abyśmy mogli zobaczyć, jakie szczyty osiągają."`
+			`	Zapada cisza. "Widzę, że nie da się pani przekonać. Chociaż mógłbym interweniować w pani podróży, nie popieram niesmacznej konfrontacji." Głos jest teraz stanowczy. "Pozwolę pani przejść, ale będę panią obserwować, bo jestem strażnikiem tej przestrzeni."`
+			`	Głos cichnie, pozostawiając jedynie wrażenie, że ktoś jest obserwowany.`
 				decline
 			label agree
 			action
 				log `Wkroczyłem w przestrzeń kosmiczną na północny wschód od Hai i usłyszałem bezcielesny głos, by nie niepokoić "nienarodzonych kwiatów" zamieszkujących ten region. Zgodziłem się trzymać z daleka.`
 				set "Incipias: accepted the guardian's warning"
 				event "label incipias space"
-			`	"You are understanding, human, so I thank you in the name of the Incipias." The voice fades away, leaving only the feeling of being watched."`
+			`	"Jesteś wyrozumiały, człowieku, więc dziękuję ci w imieniu Incipias." Głos cichnie, pozostawiając jedynie wrażenie bycia obserwowanym."`
 				decline
 
 mission "Incipias: Presence of the Guardian"
@@ -68,19 +68,19 @@ mission "Incipias: Presence of the Guardian"
 	on enter Dom'us
 		fail
 		dialog
-			`The presence from the previous system somehow lingers as you continue to feel as though you're being watched.`
+			`Obecność poprzedniego systemu w jakiś sposób się utrzymuje, a ty nadal czujesz, że ktoś cię obserwuje.`
 				to display
 					not "Incipias: accepted the guardian's warning"
-			`As you enter the system, the same voice from before echoes through your mind, though this time there seems to be a heavy weight behind it. "I do not take kindly to your deception, human. Know that you will be watched." The voice fades away, but the strong presence of something remains.`
+			`Gdy wchodzisz do systemu, ten sam głos, co wcześniej, rozbrzmiewa w twoim umyśle, choć tym razem wydaje się, że kryje się za nim jakiś ciężar. "Nie podoba mi się twoje oszustwo, człowieku. Wiedz, że będziesz obserwowany." Głos cichnie, ale silna obecność czegoś pozostaje.`
 				to display
 					has "Incipias: accepted the guardian's warning"
 	on enter Hui'uc
 		fail
 		dialog
-			`The presence from the previous system somehow lingers as you continue to feel as though you're being watched.`
+			`Obecność poprzedniego systemu w jakiś sposób się utrzymuje, a ty nadal czujesz, że ktoś cię obserwuje.`
 				to display
 					not "Incipias: accepted the guardian's warning"
-			`As you enter the system, the same voice from before echoes through your mind, though this time there seems to be a heavy weight behind it. "I do not take kindly to your deception, human. Know that you will be watched." The voice fades away, but the strong presence of something remains.`
+			`Gdy wchodzisz do systemu, ten sam głos, co wcześniej, rozbrzmiewa w twoim umyśle, choć tym razem wydaje się, że kryje się za nim jakiś ciężar. "Nie podoba mi się twoje oszustwo, człowieku. Wiedz, że będziesz obserwowany." Głos cichnie, ale silna obecność czegoś pozostaje.`
 				to display
 					has "Incipias: accepted the guardian's warning"
 
@@ -96,10 +96,10 @@ mission "Incipias: First Contact"
 		never
 	on enter Dom'us
 		dialog
-			`As you enter the system, you notice ships of a type you have never seen before. Hailing them only gives you static. After some more unsuccessful attempts, you give up. Maybe you can find some more information in nearby systems.`
+			`Wlatując do układu, zauważasz statki, których nigdy wcześniej nie widziałeś. Przywołanie ich powoduje jedynie zakłócenia. Po kilku kolejnych nieudanych próbach rezygnujesz. Być może uda ci się znaleźć więcej informacji w pobliskich układach.`
 				to display
 					not "Visit Quarg in Incipias Space: offered"
-			`As you enter the system, you notice ships of a type you have never seen before. Hailing them only gives you static. After some more unsuccessful attempts, you give up. This must be the species the Quarg talked about.`
+			`Wlatując do układu, zauważasz statki, których nigdy wcześniej nie widziałeś. Nawoływanie ich powoduje jedynie zakłócenia. Po kilku kolejnych nieudanych próbach rezygnujesz. To musi być ten gatunek, o którym mówił Quarg.`
 				to display
 					has "Visit Quarg in Incipias Space: offered"
 
@@ -117,25 +117,25 @@ mission "Visit Quarg in Incipias Space"
 			branch "ut divitas" "spec inci"
 				has "flagship planet: Ut Divitas"
 			label "ut divitas"
-			`Your spaceship lands with a soft jolt as a small group of Quarg quickly gathers around it, making some simple but clear gestures telling you to wait. After they've realized that you understood, one of them walks away in a hurried manner. You wait for quite some time until a different Quarg arrives, presumably one that can speak your language. It begins to speak in an accent you can't place.`
+			`Twój statek kosmiczny ląduje z lekkim wstrząsem, gdy mała grupa Quargów szybko się wokół niego gromadzi, wykonując proste, ale wyraźne gesty, dając ci do zrozumienia, że musisz czekać. Gdy zdadzą sobie sprawę, że zrozumiałeś, jeden z nich pospiesznie odchodzi. Czekasz dość długo, aż pojawi się inny Quarg, prawdopodobnie taki, który mówi twoim językiem. Zaczyna mówić z akcentem, którego nie potrafisz rozpoznać.`
 				goto "both planets"
 			label "spec inci"
-			`	After landing your ship on the moon, you have to wait for a decent amount of time for a group of three Quarg to appear. The one in the middle gestures you to approach them, and they begin to speak in an accent you can't place.`
+			`	Po wylądowaniu statku na Księżycu musisz odczekać sporo czasu, aż pojawi się grupa trzech Quargów. Ten w środku gestem daje ci znać, żebyś do nich podszedł, a oni zaczynają mówić z akcentem, którego nie potrafisz rozpoznać.`
 			label "both planets"
-			`	"Welcome, human. Your lengthy wanderings have brought forth you here, yet your kind has never set foot in this region of the stars. May we inquire as to your mission?"`
+			`	"Witaj, człowieku. Twoje długie wędrówki przywiodły cię tutaj, ale twój gatunek nigdy nie postawił stopy w tym regionie gwiazd. Czy możemy zapytać o twoją misję?"`
 			choice
-				`	"I am just exploring the galaxy."`
+				`	"Po prostu eksploruję galaktykę."`
 					goto explorer
-				`	"I am looking for new species."`
+				`	"Szukam nowych gatunków."`
 					goto "new species"
 			label explorer
-			`	"It is an obvious pursuit for the young," it nods. "If I may advise you, do not perambulate across this quarter of space in a careless manner. The galaxy carries many perilous situations that your kind has yet to uncover or even to comprehend." It straightens up to its full height, towering over you.`
+			`	"To oczywiste zajęcie dla młodych," kiwa głową. "Jeśli mogę cię ostrzec, nie przemierzaj tej ćwiartki kosmosu beztrosko. Galaktyka niesie ze sobą wiele niebezpiecznych sytuacji, których twój gatunek jeszcze nie odkrył, a nawet nie zrozumiał." Wyprostowuje się na całą wysokość, górując nad tobą.`
 				goto end
 			label "new species"
-			`	"What a peculiar task that is." It looks confused and tilts its head. "What do you hope to achieve by this? That an unfathomable amount of dangers come with encountering and treating with other species, did you not foresee? The boundaries of space are not idle accidents. I advise you to be scrupulous and ponder every last step."`
+			`	"Co za osobliwe zadanie." Wygląda na zdezorientowanego i przechyla głowę. "Co chcesz przez to osiągnąć? Że nieskończona ilość niebezpieczeństw wiąże się ze spotkaniami i kontaktami z innymi gatunkami, czyż nie przewidziałeś? Granice kosmosu nie są bezmyślnym zbiegiem okoliczności. Radzę ci być skrupulatnym i dokładnie przemyśleć każdy krok."`
 			label end
-			`	After a short pause, you notice an almost-hidden frustration lurking beneath the Quarg's face before it continues speaking. "You are authorized to continue your nomadic voyagings here, but there are demands we Quarg make of you. Within a trifling interval of this moon the neighboring kind has initiated their journey to the stars. Do not interrupt them for yours, or sake of their own."`
-			`	With these words the Quarg turn around and leave. It seems like you are free to use the local facilities now.`
+			`	Po krótkiej pauzie dostrzegasz niemal ukrytą frustrację czającą się pod twarzą Quarga, zanim ten przemówi. "Masz prawo kontynuować swoje koczownicze podróże, ale my, Quargowie, stawiamy ci pewne wymagania. W krótkim czasie od tego księżyca sąsiedni gatunek rozpoczął podróż do gwiazd. Nie przerywaj im dla własnego dobra ani dla ich dobra."`
+			`	Po tych słowach Quargowie odwracają się i odchodzą. Wygląda na to, że możecie już korzystać z lokalnych udogodnień.`
 
 ship "Nimbus" "Nimbus FTL"
 	add attributes
@@ -163,25 +163,25 @@ mission "Incipias: The Derelict"
 			log `Pomogłem statkowi kosmicznemu, który utknął na mieliźnie w niezamieszkanym systemie, którego załoga wyglądała jak dryfujące ośmiornice lub meduzy. Nie mogłem się z nimi porozumieć z powodu bariery językowej, ale udało mi się przekazać im sprzęt potrzebny do naprawy statku. Niestety, nie mieli hipernapędu, przez co nie mogli wrócić do swojego macierzystego systemu.`
 			conversation
 				scene "scene/incipias message"
-				`As you approach the derelict ship, it sends you a hail request. Once you accept the hail, color gradients suddenly start moving over your screen in a dizzying fashion, but curiously there is no audio. It's clear that unless you have some sort of translation device, you will not be able to understand whatever transmission you just witnessed. You continue your attempt to assist the ship, preparing to bring some repair supplies on board.`
-				`	You manage to dock to the disabled ship quite easily. The hatch opens and as a hallway opens up before you, it is immediately obvious that this ship was not designed for humans. The walls are strangely curved, and the floor has nearly no grip at all. As you carry the repair equipment into the ship, your view is caught by five giant aliens - half octopod, half jellyfish in appearance. They pulsate in bright colors similar to the gradients that appeared on your screen earlier. One of them is floating behind what's clearly a giant mounted weapon, and the two barrels are pointed right at you. The alien gunner flashes in an orange light, and you can feel the tension in the room rising.`
+				`Gdy zbliżasz się do opuszczonego statku, wysyła on prośbę o wezwanie. Po jej przyjęciu, gradienty kolorów nagle zaczynają się poruszać po ekranie w oszałamiający sposób, ale, co ciekawe, nie słychać dźwięku. Jest oczywiste, że bez jakiegoś urządzenia tłumaczącego nie będziesz w stanie zrozumieć transmisji, której właśnie byłeś świadkiem. Kontynuujesz próbę pomocy statkowi, przygotowując się do dostarczenia na pokład zapasów naprawczych.`
+				`	Udaje ci się bez problemu zadokować do uszkodzonego statku. Właz się otwiera, a przed tobą otwiera się korytarz. Od razu widać, że ten statek nie został zaprojektowany dla ludzi. Ściany są dziwnie zakrzywione, a podłoga praktycznie pozbawiona jest przyczepności. Gdy wnosisz sprzęt naprawczy na pokład statku, twoje pole widzenia przykuwa pięciu gigantycznych kosmitów - pół ośmiornic, pół meduz. Pulsują jasnymi kolorami, podobnymi do gradientów, które pojawiły się wcześniej na twoim ekranie. Jeden z nich unosi się za czymś, co najwyraźniej jest gigantyczną, zamontowaną bronią, a dwie lufy są wycelowane prosto w ciebie. Obcy strzelec błyska pomarańczowym światłem i czujesz narastające napięcie w pomieszczeniu.`
 				choice
-					`	(Try to convey that I intend no harm.)`
+					`	(Postaraj się przekazać, że nie mam złych zamiarów.)`
 						goto peace
-					`	(Drop the repair equipment and run back into my ship.)`
+					`	(Porzuć sprzęt naprawczy i biegnij z powrotem na mój statek.)`
 						goto flee
-					`	(Try to shoot at the one behind the turret and run.)`
-				`	You hit the creature manning the turret, causing it to explode with a strident sound. Before you can enjoy your short-lived victory, you notice a motion further down the hallway. Turning your head you see a gunner flashing in a deep red, before shooting you down and avenging their fallen comrade.`
+					`	(Spróbuj strzelić do tego za wieżyczką i uciekaj.)`
+				`	Trafiasz istotę obsługującą wieżyczkę, powodując jej eksplozję z przeraźliwym dźwiękiem. Zanim zdążysz cieszyć się swoim krótkotrwałym zwycięstwem, dostrzegasz ruch w głębi korytarza. Odwracając głowę, widzisz strzelca błyskającego głęboką czerwienią, zanim cię zestrzeliwuje i pomści poległego towarzysza.`
 					die
 				label peace
-				`	Feeling that the situation could escalate any moment, you slowly place the crate with the repair equipment on the ground and walk back a few steps. You are careful not to make any hasty movements. Both you and the aliens are still for a moment until one of them slowly floats forward. Tones of yellow are now mixing into the creature's orange color, and two of their tentacles wrap around the crate while the other four back off in response. Once the alien manages to open the crate and look inside, its colors shift to a weak green. The rest of the crew also seem to relax as they take on the same color.`
-				`	With the aliens retrieving the repair equipment, there is nothing else you can do, given the communication barrier. Just as you leave, you can see how the aliens start pulsating in all colors of the spectrum; gradients are moving over their skin so fast that they almost look white.`
+				`	Czując, że sytuacja może się w każdej chwili zaostrzyć, powoli stawiasz skrzynię ze sprzętem naprawczym na ziemi i cofasz się o kilka kroków. Uważasz, żeby nie wykonywać pochopnych ruchów. Ty i obcy stoicie przez chwilę w bezruchu, aż jeden z nich powoli wysuwa się do przodu. Odcienie żółci mieszają się z pomarańczowym kolorem stwora, a dwie z ich macek owijają się wokół skrzyni, podczas gdy pozostałe cztery w odpowiedzi się wycofują. Gdy obcy otwiera skrzynię i zagląda do środka, jej kolory zmieniają się na słabą zieleń. Reszta załogi również wydaje się odprężać, ponieważ ich ciała przybierają ten sam kolor.`
+				`	Gdy kosmici odzyskują sprzęt naprawczy, nie możesz nic zrobić, biorąc pod uwagę barierę komunikacyjną. Gdy tylko odchodzisz, widzisz, jak kosmici zaczynają pulsować we wszystkich barwach widma; gradienty przesuwają się po ich skórze tak szybko, że wyglądają niemal na białe.`
 					goto end
 				label flee
-				`	You drop the repair equipment and run back into your ship, smashing the button that closes the lock. You get a last look of one of the aliens: blue and yellow tones are mixing on their skin, but they are not taking any action.`
+				`	Upuszczasz sprzęt naprawczy i biegniesz z powrotem do statku, rozbijając przycisk zamykający zamek. Po raz ostatni dostrzegasz jednego z kosmitów: na jego skórze mieszają się odcienie niebieskiego i żółtego, ale nie podejmuje on żadnych działań.`
 				label end
-				`	As you fly away you see the engines of the ship slowly booting back up. Apparently they figured out how to use the repair equipment. Instead of leaving the system, however, the ship begins to fly towards a nearby gas giant.`
-				`	Back on your ship, your eyes fall on the scanner log that is still open on your monitor. Notably, this ship had no hyperdrive or anything similar installed, which is strange considering there is no inhabited planet in this system. Maybe you should talk to the Quarg and see if they have any insight on this.`
+				`	Podczas odlotu widzisz, jak silniki statku powoli się uruchamiają. Najwyraźniej udało im się znaleźć sposób na obsługę sprzętu naprawczego. Zamiast jednak opuścić układ, statek zaczyna lecieć w kierunku pobliskiego gazowego olbrzyma.`
+				`	Wracając na statek, Twój wzrok pada na dziennik skanera, który wciąż jest otwarty na monitorze. Co ciekawe, ten statek nie miał zainstalowanego hipernapędu ani niczego podobnego, co jest dziwne, biorąc pod uwagę, że w tym układzie nie ma zamieszkanej planety. Może powinieneś porozmawiać z Quargami i zapytać, czy mają jakieś informacje na ten temat.`
 				action
 					set "incipias: helped the derelict"
 		personality
@@ -189,7 +189,7 @@ mission "Incipias: The Derelict"
 			derelict staying uninterested
 	on enter "Hui'uc"
 		dialog
-			`Upon entering the system, you notice a lone alien spaceship that is disabled and badly damaged. Aside from it, there do not appear to be any other ships in the system, or sign of any help for that matter. Maybe there's some way you could assist the ship and its crew.`
+			`Po wejściu do układu zauważasz samotny obcy statek kosmiczny, który jest unieruchomiony i poważnie uszkodzony. Poza nim, nie wydaje się, aby w układzie znajdowały się inne statki ani jakiekolwiek oznaki pomocy. Być może istnieje sposób, w jaki mógłbyś pomóc statkowi i jego załodze.`
 
 mission "Incipias: Help The Stranded 1"
 	landing
@@ -202,105 +202,105 @@ mission "Incipias: Help The Stranded 1"
 		has "incipias: helped the derelict"
 	on offer
 		conversation
-			`Would you like to ask the Quarg for insight on your strange encounter with the stranded alien ship?`
+			`Czy chciałbyś zapytać Quargów o szczegóły twojego dziwnego spotkania z uwięzionym statkiem kosmitów?`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(Tak.)`
+				`	(Nie teraz.)`
 					defer
-			`	Right after you arrive on the planet, you search for a Quarg who speaks your language so that you can tell them about the stranded ship you found. One of the Quarg seems to understand your intention and gestures for you to wait. It returns a few moments later accompanied by the same Quarg you talked to before.`
-			`	"Human, you seem to be in quite a haste. What could be such a pressing matter?" it asks.`
+			`	Zaraz po przybyciu na planetę szukasz Quarga mówiącego w twoim języku, aby opowiedzieć mu o osiadłym na mieliźnie statku, który znalazłeś. Jeden z Quargów zdaje się rozumieć twoje intencje i gestem nakazuje ci czekać. Po chwili wraca w towarzystwie tego samego Quarga, z którym rozmawiałeś wcześniej.`
+			`	"Człowieku, wygląda na to, że bardzo się spieszysz. Co może być tak pilną sprawą? " pyta.`
 			choice
-				`	(Explain the situation.)`
+				`	(Wyjaśnij sytuację.)`
 					goto explanation
-				`	"I need advice regarding the species in this region."`
-			`	It looks at you curiously. "So you have held council with the young Incipias? This one is nonplussed that you ably formed correspondence. It took a prolonged period of time even for us to decipher their way of dissemination."`
-			`	You quickly explain what happened. From what you can tell, the Quarg seems relieved that you were not able to talk to them.`
+				`	"Potrzebuję porady odnośnie gatunków żyjących w tym regionie."`
+			`	Patrzy na ciebie z zaciekawieniem. "Więc naradzałeś się z młodymi Incipiasami? Ten jest zaskoczony, że potrafiłeś sprawnie prowadzić korespondencję. Nawet nam zajęło sporo czasu rozszyfrowanie ich sposobu rozpowszechniania."`
+			`	Szybko wyjaśniasz, co się stało. Z tego, co widzisz, Quargowie wydają się być ulżeni, że nie udało ci się z nimi porozmawiać.`
 			label explanation
-			`	"You ran into a most peculiar situation. Surpassing the borders of their system is not yet a capability possessed by the Incipias." It tilts its head for a moment, considering what you just said. "It is our desire to help them, but it is yet premature for us to reveal ourselves to their species, and certainly premature for them to be interacting with independent interlopers such as yourself. I fear that we are impotent in this unfortunate turn of events."`
+			`	"Natknąłeś się na niezwykle osobliwą sytuację. Przekroczenie granic ich systemu nie jest jeszcze umiejętnością, którą posiadają Incipias." Przechyla na chwilę głowę, rozważając to, co właśnie powiedziałeś. "Chcemy im pomóc, ale jest jeszcze za wcześnie, abyśmy ujawnili się ich gatunkowi, a tym bardziej, abyśmy wchodzili w interakcje z niezależnymi intruzami, takimi jak ty. Obawiam się, że jesteśmy bezsilni w tym niefortunnym obrocie spraw."`
 			choice
-				`	"I could help them."`
-				`	"How can you make such a cold-hearted decision?"`
+				`	"Mogę im pomóc."`
+				`	"Jak możesz podjąć tak bezduszną decyzję?"`
 					goto cold
-				`	"I understand. I'll leave them alone."`
+				`	"Rozumiem. Zostawię ich w spokoju."`
 					goto declined
 			label initiative
-			`	"You lack the tools for such a mission. To this one's knowledge, no vessels capable of landing on gas giants have ever been developed by your kind. And you are certainly not able to make your intentions known to them in any meaningful sense." The Quarg stares at you for a moment, pondering a little.`
-			`	"But for the sake of the Incipias, this one will assist you on this last point. If you cannot be dissuaded from your course of action, then it is best you are supplied a means of communication, so that your interactions may be on amicable terms. This one can produce you with a single one of our translators, which will allow you to relate your intentions to the species. Request that they sell you one of their ships, so that you are made capable to land on their tumultuous planets."`
-			`	It pauses before taking on a more serious tone. "However, you are forbidden from granting the young species any advanced technology of yours. If you concur with us on that point, we shall furnish you with a translator."`
+			`	"Brakuje ci narzędzi do takiej misji. O ile mi wiadomo, wasz gatunek nigdy nie zbudował żadnego statku zdolnego do lądowania na gazowych olbrzymach. I z pewnością nie jesteś w stanie przekazać im swoich zamiarów w żaden sensowny sposób. " Quarg wpatruje się w ciebie przez chwilę, lekko się zastanawiając.`
+			`	"Ale dla dobra Incipiasów, ten pomoże ci w tej ostatniej kwestii. Jeśli nie da się cię odwieść od podjętej decyzji, najlepiej będzie, jeśli zapewnisz sobie środek komunikacji, aby wasze interakcje mogły przebiegać w przyjaznej atmosferze. Ten może ci zapewnić jednego z naszych tłumaczy, który pozwoli ci przekazać twoje zamiary przedstawicielom gatunku. Poproś ich o sprzedaż jednego ze swoich statków, abyś mógł wylądować na ich burzliwych planetach."`
+			`	Przerywa, zanim nabiera poważniejszego tonu. "Zabrania się jednak przekazywania młodemu gatunkowi jakiejkolwiek zaawansowanej technologii. Jeśli zgadzasz się z nami w tej kwestii, zapewnimy ci tłumacza."`
 			choice
-				`	"If that's how I can help them, sure."`
+				`	"Jeśli w ten sposób mogę im pomóc, to jasne."`
 					goto yes
-				`	"Why do you not want me to give them my tech?"`
-			`	"Halting the natural increase of a species is unpredictable at the best of times. Your species lacks the wisdom to understand this, as you are young, and have not seen what we have seen." The Quarg pauses for a moment, lost in thought. "The foreseeable risks of even letting you contact them are monumental, and not something you should consider trivial."`
+				`	"Dlaczego nie chcesz, żebym dał im swój sprzęt?"`
+			`	"Zatrzymanie naturalnego rozrostu gatunku jest nieprzewidywalne nawet w najlepszych czasach. Waszemu gatunkowi brakuje mądrości, by to zrozumieć, ponieważ jesteście młodzi i nie widzieliście tego, co my." Quarg milknie na chwilę, pogrążony w myślach. "Przewidywalne ryzyko związane z samym kontaktem z nimi jest ogromne i nie powinno być czymś, co należy uważać za trywialne."`
 			choice
-				`	"I will accept your conditions to help them."`
-				`	"The risks do sound concerning. I will leave them alone after all."`
+				`	"Zaakceptuję twoje warunki, żeby im pomóc."`
+				`	"Ryzyko rzeczywiście brzmi niepokojąco. W końcu zostawię je w spokoju."`
 					goto declined
 			label yes
 			action
 				set "language: Incipias"
 				log `Odkryto, że gatunek zamieszkujący północno-wschodnią część przestrzeni Hai, Incipias, jest pod ochroną Quargów. Otrzymałem tłumacza od Quargów, aby pomóc uwięzionemu statkowi Incipiasów, ale ostrzeżono mnie, abym nie przekazywał Incipiasom żadnej zaawansowanej technologii ani nie ingerował w ich rozwój.`
-			`	"Happy this one is that you agree to that condition. Bear in mind, Captain, that the slightest misstep may have grave consequences." The Quarg stares you down. "We will be watching your actions, to verify that they are peaceful and without ill or unwise intent. Please for a moment remain here," it says, and walks away.`
-			`	The Quarg only takes a moment to come back, now carrying a sleek silver box with a display on one side. "This is our translator, our link to the Incipias. It is able to translate their unusual language into your speech as well. Be aware of the honor of this one gifting this to you," it says.`
-			`	As you stow it away, the Quarg speaks once more. "To satisfactorily utilize this device, you must direct it towards the source of the communication, so that it is made able to discern the relevant emissions. Given the complexity of their language, the translator might not be able to adequately translate some aspects of their obscure speech."`
-			`	It then looks you directly in the eyes. "Remember what has been told, human. The stars have no place for those who would act foolishly and thoughtlessly towards their fellow beings." The Quarg then walks away, leaving you alone.`
+			`	"Cieszę się, że zgadzasz się na ten warunek. Pamiętaj, Kapitanie, że najmniejszy błąd może mieć poważne konsekwencje." Quarg patrzy na ciebie z góry. "Będziemy obserwować twoje działania, aby upewnić się, że są spokojne i pozbawione złych lub nierozsądnych intencji. Proszę, zostań tu na chwilę, " mówi i odchodzi.`
+			`	Quarg wraca po chwili, niosąc eleganckie srebrne pudełko z wyświetlaczem z jednej strony. "To nasz tłumacz, nasze połączenie z Incipiasami. Potrafi on również przetłumaczyć ich niezwykły język na twój. Bądź świadomy zaszczytu, jaki to dla ciebie ma, obdarowując cię tym prezentem, " mówi.`
+			`	Gdy schowasz Quarga, ten znów przemówi. "Aby w pełni wykorzystać to urządzenie, musisz skierować je w stronę źródła komunikacji, aby mogło ono rozróżnić odpowiednie emisje. Z uwagi na złożoność ich języka, tłumacz może nie być w stanie adekwatnie przetłumaczyć niektórych aspektów ich niezrozumiałej mowy."`
+			`	Następnie patrzy ci prosto w oczy. "Pamiętaj, co ci powiedziano, człowieku. Gwiazdy nie mają miejsca dla tych, którzy postępują głupio i nierozważnie wobec swoich bliźnich." Następnie Quarg odchodzi, zostawiając cię samego.`
 				accept
 			label cold
-			`	"It is perhaps a laborious task for an adolescent species such as yourself to comprehend our ways, but we must place the continuation of species above the existence of individuals. If we reveal ourselves to them at this inopportune moment, the shock of such an advanced species appearing in their space will fan the flames of chaos."`
+			`	"Dla młodego gatunku, takiego jak ty, zrozumienie naszych zwyczajów może być trudnym zadaniem, ale musimy stawiać przetrwanie gatunku ponad istnienie jednostek. Jeśli ujawnimy się im w tym nieodpowiednim momencie, szok związany z pojawieniem się tak zaawansowanego gatunku w ich przestrzeni rozpali płomienie chaosu."`
 			choice
-				`	"Then let me help them."`
+				`	"To pozwól mi im pomóc."`
 					goto initiative
-				`	"You can deal with the consequences later. Help them now!"`
-			`	The Quarg takes on a sour look. "Insisting you are. Understand that our own intervention is out of the question." It sighs. "However, this one can foresee the likelihood of you making a rash and impetuous decision to contact these Incipias further."`
+				`	"Konsekwencjami zajmiesz się później. Pomóż im teraz!"`
+			`	Quarg przybiera kwaśną minę. "Upieram się, że tak. Zrozum, że nasza własna interwencja nie wchodzi w grę." Wzdycha. "Jednak ten może przewidzieć prawdopodobieństwo, że podejmiesz pochopną i impulsywną decyzję o dalszym kontakcie z tymi Incipias."`
 			choice
-				`	"Sure. Let me do the work."`
-				`	"If you insist on not helping..."`
-			`	The Quarg rapidly clicks its teeth before continuing.`
+				`	"Jasne. Daj mi to zrobić."`
+				`	"Jeśli upierasz się, że nie chcesz pomóc..."`
+			`	Quarg szybko klika zębami, zanim kontynuuje.`
 				goto initiative
 			label declined
-			`	"We are gracious for your understanding, but remember thus: the Incipias are under our watch and care. None shall come to harm them without incurring our wrath." With these words the Quarg turns away.`
+			`	"Jesteśmy wdzięczni za wasze zrozumienie, ale pamiętajcie: Incipias są pod naszą opieką i nadzorem. Nikt nie może ich skrzywdzić bez narażenia się na nasz gniew." Z tymi słowami Quarg odwraca się.`
 				decline
 	on enter Dom'us
 		"reputation: Hicemus" += 10
 		conversation
-			`After you enter the system, you prepare to broadcast your first message with the Quarg's translator.`
+			`Po wejściu do systemu przygotowujesz się do wysłania pierwszej wiadomości za pomocą tłumacza Quarga.`
 			choice
-				`	"Hello. I am Captain <first> <last>, here to make contact."`
-				`	"Greetings, strangers. I seek to help you."`
-				`	"I come in peace."`
-			`	You notice that the translator starts to flash a sequence of lights, and you point it towards your ship's communication device. For a minute, nothing happens at all.`
-			`	After some time, a wave of movement passes through all ships in the system, and a communication channel opens from the space station. Colors rush over your display: a mix of yellow and green. You point your translator towards the flashing lights and hope it is able to pick up whatever these aliens are saying to you.`
-			`	"Welcome world-traveler. We greet you in our home-space." The voice is smooth and synthetic, lacking in any discernible emotion. The colors stop before rushing over your screen again. "What is your intention-goal here?"`
+				`	"Cześć. Jestem Kapitan <first> <last>, jestem tutaj, aby nawiązać kontakt."`
+				`	"Witam, nieznajomi. Chcę wam pomóc."`
+				`	"Przychodzę w pokoju."`
+			`	Zauważasz, że translator zaczyna migać sekwencją świateł i kierujesz go w stronę urządzenia komunikacyjnego na swoim statku. Przez chwilę nic się nie dzieje.`
+			`	Po pewnym czasie fala ruchu przechodzi przez wszystkie statki w układzie i otwiera się kanał komunikacyjny ze stacji kosmicznej. Na ekranie pojawiają się kolory: mieszanka żółci i zieleni. Kierujesz swój tłumacz w stronę migających świateł i masz nadzieję, że uda mu się odebrać to, co mówią do ciebie kosmici.`
+			`	"Witaj, podróżniku po świecie. Witamy Cię w naszej domowej przestrzeni." Głos jest gładki i syntetyczny, pozbawiony jakichkolwiek dostrzegalnych emocji. Kolory zatrzymują się, zanim znów pojawią się na ekranie. "Jaki jest Twój cel?"`
 			choice
-				`	"I am here to make peaceful contact with you."`
-				`	"I want to help one of your stranded ships."`
-			`	Again a long pause. "Your intention-goals are welcome. Please dock to the capital-station." Along the message comes a small map of the station with the docking ports highlighted.`
+				`	"Jestem tu, aby nawiązać z tobą pokojowy kontakt."`
+				`	"Chcę pomóc jednemu z waszych uwięzionych statków."`
+			`	Znowu długa pauza. "Twoje intencje-cele są mile widziane. Proszę zadokować do stacji-stolicy." Wraz z wiadomością znajduje się mała mapa stacji z zaznaczonymi portami dokowania.`
 	on complete
 		log `Spotkałem się z Incipiasami na ich stacji kosmicznej i uzyskałem dostęp do ich statków, które są w stanie wejść do gazowego olbrzyma, w którym schronił się uwięziony statek Incipiasów.`
 		log "Factions" "Incipias" `Incipias to gatunek kosmitów zamieszkujący północno-wschodnią część przestrzeni Hai. Pochodzą z gazowego olbrzyma i przypominają duże, dryfujące ośmiornice. Ponieważ nie rozwinęli jeszcze hipernapędu, są ograniczeni do jednego układu i znajdują się pod ochroną Quargów.`
 		conversation
-			`Thanks to the map, you are easily able to dock with the station. Your airlock opens and you enter an environment like nothing you've ever seen before. There are no hallways like you would see in a human space station - instead, tubes full of fog, some of which even ascend vertically, appear to be the only way of getting around. A crowd of beings gathered in front of your airlock, each flashing a multitude of colors. A group of five floats in front of the crowd, and the middle one starts pulsating in calm tones.`
-			`	"Welcome, outer-being, to our capital. We are the Incipias." It stops as if awaiting an answer.`
+			`Dzięki mapie możesz łatwo zadokować do stacji. Twoja śluza powietrzna się otwiera i wkraczasz w środowisko, jakiego nigdy wcześniej nie widziałeś. Nie ma tu korytarzy, jakie można zobaczyć w ludzkiej stacji kosmicznej - zamiast nich, tunele wypełnione mgłą, z których niektóre wznoszą się nawet pionowo, wydają się być jedynym sposobem poruszania się. Tłum istot zebrał się przed twoją śluzą powietrzną, każda z nich migając mnóstwem kolorów. Grupa pięciu osób unosi się przed tłumem, a środkowa zaczyna pulsować spokojnym dźwiękiem.`
+			`	"Witamy, istoto zewnętrzna, w naszej stolicy. Jesteśmy Incipiasami." Zatrzymuje się, jakby czekając na odpowiedź.`
 			choice
-				`	"Greetings, Incipias. I am a human."`
-				`	"I thank you for your hospitality."`
-			`	Your translator begins rapidly flashing. The Incipias seem to respond to this - movement and colors begin to diffuse through the crowd like waves.`
-			`	The "speaker" continues. "You are the first outer-being that ever communicated with us. Are you the only outer-being out there?"`
+				`	"Witajcie, Incipie. Jestem człowiekiem."`
+				`	"Dziękuję za gościnność."`
+			`	Twój tłumacz zaczyna szybko migać. Incipias zdaje się na to reagować - ruch i kolory zaczynają rozchodzić się po tłumie niczym fale.`
+			`	"Mówca" kontynuuje. "Jesteś pierwszą istotą zewnętrzną, która kiedykolwiek się z nami komunikowała. Czy jesteś jedyną istotą zewnętrzną na świecie?"`
 			choice
-				`	"No, there are others too."`
-				`	"The galaxy is full of other beings."`
-			`	Another wave goes through the crowd. "So there are more. But, far-stranger, how can we help you?"`
+				`	"Nie, są też inni."`
+				`	"Galaktyka jest pełna innych istot."`
+			`	Kolejna fala przechodzi przez tłum. "Więc jest ich więcej. Ale, obcy człowieku, jak możemy ci pomóc?"`
 			choice
-				`	(Tell them about the stranded ship and how I want to help them.)`
+				`	(Opowiedz im o utkniętym statku i o tym, jak chcę im pomóc.)`
 					goto stranded
-				`	"I want one of your ships."`
-			`	"We shall allow you to buy one, if that is all that it takes to make you a not-danger. Please excuse us. We need to talk about what this new situation-opportunity means for our species. I hope we can out-question you more another time."`
+				`	"Chcę jeden z twoich statków."`
+			`	"Pozwolimy ci kupić jeden, jeśli to wystarczy, żebyś nie stanowił zagrożenia. Proszę o wybaczenie. Musimy porozmawiać o tym, co ta nowa sytuacja-szansa oznacza dla naszego gatunku. Mam nadzieję, że innym razem uda nam się cię przepytać."`
 				goto end
 			label stranded
-			`	Another wave goes through the crowd, but this time you notice an overflow in green tones.`
-			`	"So they are still alive. We shall give you access to our ships, so that you may enter the air-planet they have taken refuge in. Do note though that they cannot jump between system-places, not like your own ship. We hope to question you more on another future-time."`
+			`	Kolejna fala przechodzi przez tłum, ale tym razem dostrzegasz nadmiar w odcieniach zieleni.`
+			`	"A więc wciąż żyją. Umożliwimy wam dostęp do naszych statków, abyście mogli wejść na planetę-powietrze, na której się schronili. Pamiętajcie jednak, że nie mogą przeskakiwać między systemami, tak jak wasz statek. Mamy nadzieję, że będziemy mogli zadać wam więcej pytań w innej przyszłości."`
 			label end
-			`	The five float away but the crowd continues staring at you, probably out of interest.`
+			`	Pięciu odpływa, ale tłum nadal gapi się na ciebie, prawdopodobnie z czystej ciekawości.`
 
 mission "Incipias: Fix Saves Missing Language"
 	landing
@@ -342,9 +342,9 @@ mission "Incipias: Help The Stranded 2"
 		has "Incipias: Help The Stranded 1: done"
 	on offer
 		conversation
-			`Your ship dives into the clouds of the gas giant, entering an environment on a scale you have never experienced before. Giant clouds tower like castles, sometimes opening to similarly large caverns of air. Whirlwinds brush through the atmosphere like pillars holding the sky. Though the winds are brutal, your ship glides through them as if they had no effect on it at all.`
-			`	Activating your scanners, you look for the stranded ship from before. Soon, a small blip appears on your radar, and you maneuver your ship to its location. The stranded ship appears, looking even worse off than the first time. The storms seem to have damaged some of the hull, and its shields are completely down; the shield generator could have gone offline when they ran out of fuel.`
-			`	Any attempt to hail the Incipias ship results in no answer. Carefully, you maneuver your own ship closer until you are able to dock with it.`
+			`Twój statek nurkuje w chmurach gazowego olbrzyma, wkraczając w środowisko o skali, jakiej nigdy wcześniej nie doświadczyłeś. Olbrzymie chmury wznoszą się niczym zamki, czasem otwierając się na równie duże jaskinie powietrza. Trąby powietrzne przecinają atmosferę niczym filary podtrzymujące niebo. Choć wiatry są brutalne, twój statek sunie przez nie, jakby nie miały na niego żadnego wpływu.`
+			`	Aktywując skanery, szukasz osiadłego na mieliźnie statku, który wcześniej utknąłeś. Wkrótce na radarze pojawia się mały sygnał i manewrujesz statkiem w jego kierunku. Osiadły na mieliźnie statek pojawia się, wyglądając jeszcze gorzej niż za pierwszym razem. Wygląda na to, że burze uszkodziły część kadłuba, a jego osłony są całkowicie uszkodzone; generator osłon mógł się wyłączyć z powodu braku paliwa.`
+			`	Każda próba wywołania statku Incipias kończy się brakiem odpowiedzi. Ostrożnie manewrujesz swoim statkiem bliżej, aż będziesz mógł do niego zadokować.`
 			branch "has incipias ship"
 				or
 					has "flagship model: Nimbus"
@@ -352,59 +352,59 @@ mission "Incipias: Help The Stranded 2"
 					has "flagship model: Nimbo Stratus"
 					has "flagship model: Venta"
 					has "flagship model: Gero"
-			`	When the airlock opens, you see five Incipias floating in front of you. They seem on guard at first, and it takes them a moment to recognize you from the previous encounter as you prepare your translation device to speak with them.`
+			`	Kiedy śluza powietrzna się otwiera, widzisz przed sobą pięć Incipiów. Na początku wydają się czujne i chwilę im zajmuje rozpoznanie cię z poprzedniego spotkania, gdy przygotowujesz urządzenie tłumaczące do rozmowy z nimi.`
 				goto "initial choice"
 			label "has incipias ship"
-			`	When the airlock opens, you see five Incipias floating in front of you. Noticing your presence, they quickly back off; they were clearly not expecting a human piloting one of their own ships. It takes them a moment to recognize you from the previous encounter as you prepare your translation device to speak with them.`
+			`	Kiedy śluza się otwiera, widzisz przed sobą pięć Incipiów. Zauważywszy twoją obecność, szybko się wycofują; najwyraźniej nie spodziewali się człowieka pilotującego jeden z ich statków. Chwilę zajmuje im rozpoznanie cię z poprzedniego spotkania, podczas gdy ty przygotowujesz urządzenie tłumaczące do rozmowy.`
 			label "initial choice"
 			choice
-				`	"Hello, I have come to save you."`
-				`	"I have been sent by your people to get you home."`
-			`	The Incipias seem to switch from a tense state to a surprised one, and one of them starts pulsating. "You light our language? How surprising. We would not have survived another day-moment here. You are our life-protector. We would love to talk more, but a weather-calamity is coming. We should leave now." The lack of emotion in the translation is concerning, given the content of the message.`
-			`	You tell them to board your ship, and shortly after, you take off. Luckily, you leave just in time to avoid a powerful windstorm approaching the area.`
+				`	"Witaj, przyszedłem cię uratować."`
+				`	"Twoi ludzie wysłali mnie, żebym odprowadził cię do domu."`
+			`	Incipiasy zdają się przechodzić ze stanu napięcia w stan zaskoczenia, a jeden z nich zaczyna pulsować. "Rozświetlasz nasz język? Jakież to zaskakujące. Nie przetrwalibyśmy tu ani chwili dłużej. Jesteś naszym obrońcą życia. Chcielibyśmy porozmawiać dłużej, ale nadchodzi katastrofa pogodowa. Powinniśmy już iść." Brak emocji w tłumaczeniu jest niepokojący, biorąc pod uwagę treść wiadomości.`
+			`	Każesz im wejść na pokład statku i wkrótce potem odlatujesz. Na szczęście udaje ci się uciec akurat w porę, by uniknąć zbliżającej się do tego obszaru silnej wichury.`
 				launch
 	on complete
 		log "Factions" "Incipias" `Incipias wydają się być podzieleni na dwie grupy: Hicemus i Conlatio; pierwsza zajmuje stację kosmiczną, a druga planetę Incipias. Conlatio najwyraźniej nie wpuszczają na swoją planetę obcych.`
 		conversation
-			`Once you land on the station, your passengers thank you again and leave, probably to get some well-earned rest. As you step out of the <ship>, another Incipias approaches you. Its scales seem worn down, and you notice intricate claw-like attachments around the end of its tentacles. "Follow me, outer-helper, before a crowd gathers. We would like to talk."`
-			`	They guide you through the hallways so that you avoid larger groups, though they choose only horizontal corridors. You arrive in a large room with a view over the entire station, with three Incipias already present. One begins to glow.`
-			`	"Welcome. We are the leader-governers of the Hicemus, the reigning government of the Incipias. If you agree we would like to ask you a few question-queries. In return we would be open for question-queries as well."`
+			`Gdy wylądujesz na stacji, Twoi pasażerowie ponownie Ci podziękują i odchodzą, prawdopodobnie po to, by odpocząć. Gdy wychodzisz z <ship>, zbliża się do Ciebie kolejny Incipias. Jego łuski wydają się starte, a Ty dostrzegasz misterne, przypominające pazury, zakończenia macek. "Chodź za mną, zewnętrzny pomocniku, zanim zbierze się tłum. Chcielibyśmy porozmawiać."`
+			`	Prowadzą cię przez korytarze, żebyś uniknął większych grup, choć wybierają tylko poziome korytarze. Docierasz do dużego pomieszczenia z widokiem na całą stację, w którym są już trzy Incipie. Jeden zaczyna świecić.`
+			`	"Witamy. Jesteśmy przywódcami-gubernatorami Hicemus, rządu Incipias. Jeśli się zgadzasz, chcielibyśmy zadać Ci kilka pytań. W zamian jesteśmy również otwarci na pytania."`
 			choice
-				`	"Sure, ask me something."`
-				`	"Sorry, but I have other stuff to do."`
+				`	"Jasne, zapytaj mnie o coś."`
+				`	"Przepraszam, ale mam inne rzeczy do zrobienia."`
 					goto "end no time"
-			`	A green glow appears on all of them. "Thank you for taking the time-patience to speak with us. Can you tell us more about the deep space-void surrounding us?"`
+			`	Na wszystkich pojawia się zielona poświata. "Dziękujemy za poświęcenie czasu i cierpliwości na rozmowę z nami. Czy możesz nam opowiedzieć więcej o otaczającej nas głębokiej pustce kosmicznej?"`
 			choice
-				`	(Give them an exhaustive story of what I have seen so far.)`
+				`	(Przekaż im wyczerpującą historię tego, co do tej pory widziałem.)`
 					goto detail
-				`	(Give a rough overview of what I have seen.)`
-			`	After "seeing" your explanation, a rapid-fire sequence of colors is exchanged between the Incipias. Your translator cannot follow, so you are left watching them flash in what end up being yellow tones mixed with green and red.`
-			`	"Thank you for this insight. All we gathered until now was by observing-studying stars. To think that there is so much out there... it truly raise-strengthens a determination to explore.`
+				`	(Podaj ogólny zarys tego, co widziałem.)`
+			`	Po "zobaczeniu" twojego wyjaśnienia, między Incipiasami następuje gwałtowna wymiana kolorów. Twój tłumacz nie nadąża, więc zostaje ci obserwowanie, jak błyskają w odcieniach żółci zmieszanych z zielenią i czerwienią.`
+			`	"Dziękuję za tę refleksję. Do tej pory wszystko, co zebraliśmy, to obserwacja i badanie gwiazd. Myśl o tym, że jest tak wiele do odkrycia... naprawdę wzmacnia determinację do eksploracji.`
 				goto yours
 			label detail
-			`	After "watching" your explanation, a rapid-fire sequence of colors is exchanged between the Incipias. Your translator cannot follow, so you are left watching them flash in what ends up being yellow tones mixed with green.`
-			`	"Thank you for this profound-depth insight. All we gathered until now was by observing-studying stars close to us. To think that there is so much out there... it truly invokes a determination-will to explore.`
+			`	Po "obejrzeniu" Twojego wyjaśnienia, Incipiasy wymieniają się błyskawicznie kolorami. Twój tłumacz nie nadąża, więc zostaje Ci oglądanie, jak błyskają, tworząc coś, co ostatecznie jest odcieniami żółci zmieszanymi z zielenią.`
+			`	"Dziękuję za tę dogłębną i głęboką refleksję. Do tej pory wszystko, co zebraliśmy, pochodziło z obserwacji i badania gwiazd blisko nas. Myśl, że jest tam tak wiele... naprawdę wyzwala determinację i wolę eksploracji.`
 			label yours
-			`	"But now to you. Is there anything you would like to know?"`
+			`	"A teraz do ciebie. Czy jest coś, co chciałbyś wiedzieć?"`
 			label choice
 			choice
-				`	"Why can I not land on your home planet?"`
-				`	"Why do you call this station your capital?"`
+				`	"Dlaczego nie mogę wylądować na twojej rodzinnej planecie?"`
+				`	"Dlaczego nazywasz tę stację swoją stolicą?"`
 					goto capital
-				`	"How is life on a gas giant?"`
+				`	"Jak wygląda życie na gazowym gigancie?"`
 					goto "odd question"
-				`	"I do not have any more questions."`
+				`	"Nie mam więcej pytań."`
 					goto end
-			`	A flash of red appears for only a second. "Our origin-world is not directly ruled by us. They may approach you separately at a future-point, but be careful of their lights. They have aged-time values long left-alone by us, who are progressing fast.`
+			`	Błysk czerwieni pojawia się tylko na sekundę. "Nasz świat źródłowy nie jest bezpośrednio rządzony przez nas. Mogą podejść do ciebie osobno w przyszłości, ale uważaj na ich światła. Mają wartości z przeszłości, dawno zapomniane przez nas, którzy szybko się rozwijamy.`
 				goto choice
 			label capital
-			`	The one pulsating now takes on a bright green color, "This station is our greatest action-pride, our star-bridge. In honor of our urge to expand we made this station our capital to demonstrate our determination."`
+			`	Ten pulsujący nabiera teraz jasnozielonego koloru, "Ta stacja jest naszą największą dumą-akcją, naszym mostem-gwiezdnym. Na cześć naszej potrzeby ekspansji uczyniliśmy tę stację naszą stolicą, aby zademonstrować naszą determinację."`
 				goto choice
 			label "odd question"
-			`	"What an odd-reasonable question." It's glow turns into a swirl of purple and green. "We could ask the same in return - what is it like to live on hard rock? But we understand its reasoning-origin. So let me tell you of the cloud-halls of our home-sky. Lightning will draw the most beautiful color-sings between the pillar-clouds. Between them are our cities, the most color-lifeful places you will ever see. This is a bit of a poetic-gradient description, but I do not know what else to say."`
+			`	"Co za dziwne, a zarazem rozsądne pytanie." Jego blask zmienia się w wir fioletu i zieleni. "Moglibyśmy zapytać o to samo w zamian - jak to jest mieszkać na twardym kamieniu? Ale rozumiemy jego źródło rozumowania. Opowiem wam więc o chmurowych salach naszego domowego nieba. Błyskawice narysują najpiękniejsze kolorowe pieśni między słupami chmur. Pomiędzy nimi znajdują się nasze miasta, najbarwniejsze miejsca, jakie kiedykolwiek zobaczycie. To trochę poetycki, gradientowy opis, ale nie wiem, co jeszcze powiedzieć."`
 			label end
-			`	"Thank you again for your time. You have given us much to process. We hope you too have benefited from this meeting-talk."`
-			`	You say goodbye, and as you leave the room, you can see a rush of colors reflecting onto the walls.`
+			`	"Jeszcze raz dziękujemy za poświęcony czas. Dałeś nam wiele do przetworzenia. Mamy nadzieję, że i Tobie ta rozmowa była przydatna."`
+			`	Żegnaj, a gdy wychodzisz z pokoju, widzisz, jak na ścianach odbija się fala kolorów.`
 				decline
 			label "end no time"
-			`	"We are understanding-sad. Safe travels, captain." You notice a slight blue tone in the representative's communication as one of the Incipias guides you back to your ship.`
+			`	"Jesteśmy bardzo zmartwieni. Bezpiecznej podróży, kapitanie." Zauważasz delikatny niebieski odcień w komunikacji przedstawiciela, gdy jeden z Incipiasów prowadzi cię z powrotem na statek.`

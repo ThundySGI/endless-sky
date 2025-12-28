@@ -547,7 +547,7 @@ trade
 		"ossified flowers"
 		"phantasmic glass amulets"
 		"polychromatic canvases"
-		`"red gold" armlets`
-		`"red gold" piercings`
+		`<CN-18245>`
+		`<CN-18246>`
 		"transparent ceramic goblets"
 		"unfilled reliquaries"

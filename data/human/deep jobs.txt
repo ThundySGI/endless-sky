@@ -653,55 +653,55 @@ mission "Deep Security Package Reveal"
 	on offer
 		log "Minor People" "Agent Wayde" `<LG-3>`
 		conversation
-			`As you turn to leave a food stand in the spaceport, a rather young man in activewear waves you over to a bench off to the side of the main drag.`
+			`<CN-646>`
 			choice
-				`	(Go over to him.)`
+				`<CN-647>`
 					goto bench
-				`	(Keep walking.)`
-			`	When you go to ignore him he gives a quick, sharp, whistle and briefly flashes a Deep Security badge at you. He immediately covers this with a friendly wave for any nearby eyes, but it is clear that he won't be ignored.`
+				`<CN-648>`
+			`<CN-649>`
 			label bench
-			`	When you approach the bench he says, "Hello captain. Please, have a seat and allow me to take a moment of your time."`
-			`	His manner is very rehearsed, but he seems quite intent and assured in his request.`
+			`<CN-650>`
+			`<CN-651>`
 			choice
-				`	"Sure. Who are you?"`
+				`<CN-652>`
 					goto who
-				`	"Sorry, but I'm busy right now."`
-			`	"To be clear, I'm here to thank you, if that helps." he says.`
+				`<CN-653>`
+			`<CN-654>`
 			choice
-				`	"Oh. What is it?" (Sit down.)`
-				`	"Sorry, maybe next time."`
+				`<CN-655>`
+				`<CN-656>`
 					decline
 			label who
-			`	As you sit down, the man smiles at you before directing his attention back to those passing by as he speaks. "My name is Wayde, Agent Wayde if you will. Don't mind the title though, I... well I work in the logistics division for Deep Security. You've transported a large number of secure packages recently, and several of them were mine."`
+			`<CN-657>`
 			choice
-				`	"If it pays, it pays."`
+				`<CN-658>`
 					goto "blind acceptance"
-				`	"Ah, yes."`
+				`<CN-659>`
 					goto "blind acceptance"
-				`	"Do all the secure packages belong to Deep Security?"`
-			`	"Oh no, plenty of tech businesses and wealthy individuals use the same secure package shipping channels. We do monitor all of them though just to make sure our own channels don't get compromised by something ill-advised... or illegal." He shrugs, giving you a measured look.`
+				`<CN-660>`
+			`<CN-661>`
 			label "blind acceptance"
-			`	"Well, I looked at your record and it seems you've done quite a lot for the Deep, and you're well-regarded. We like to keep a list of pilots that we can call on if we need something delivered with either urgency or discretion, and it seems like you qualified. You passed the background check at any rate.`
-			`	"So at any rate, I'm authorized to give you a one-time offer to join that list. Don't worry, I'm not asking anything of you right now."`
-			`	He stops keeping an eye on passers-by for a moment to look directly at you. "So, are you interested?"`
+			`<CN-662>`
+			`<CN-663>`
+			`<CN-664>`
 			choice
-				`	"I'm willing to help."`
+				`<CN-665>`
 					goto agree
-				`	"Sorry, but I don't think I want to get that involved."`
+				`<CN-666>`
 					decline
-				`	"You said 'at any rate' twice."`
-			`	His expression twitches slightly but he carries on with a chuckle. "Er, good catch. The question stands though."`
+				`<CN-667>`
+			`<CN-668>`
 			choice
-				`	"I'm willing to help."`
+				`<CN-665>`
 					goto agree
-				`	"Sorry, but I don't think I want to get that involved."`
+				`<CN-666>`
 					decline
 			label agree
-			`	"Excellent," he says, standing up and stretching as if concluding a friendly conversation. He turns back to you with a smile, "I'll add you to the list as soon as I get back to the office then. Your ID will also let you see which packages are ours specifically too. Oh, and again, thank you!"`
+			`<CN-669>`
 			action
 				set "deep security reveal"
-			`	Agent Wayde appears to flick a subtle salute your direction, or perhaps merely tips an imaginary cap. "Good day, captain. I look forward to working with you in the future."`
-			`	With a quick motion he flicks his hair back out his eyes and jogs away, sending one last wave your direction just before he turns a corner and disappears.`
+			`<CN-670>`
+			`<CN-671>`
 				decline
 
 
@@ -859,37 +859,37 @@ mission "Deep Consultants"
 			has "main plot completed"
 	on offer
 		conversation
-			`Strolling through the spaceport, you are suddenly accosted by a young and breathless woman. "Please, Captain," she wheezes, "I'm so glad I caught you."`
-			`	After drawing in a deep breath, she stands up straighter and gestures to someone some distance away. "Captain, I'm sorry, but my colleague Julie and I are in dire need of urgent transport. Can you help?"`
-			`	As she catches her breath some more, her older colleague hustles over, bags in tow.`
+			`<CN-672>`
+			`<CN-673>`
+			`<CN-674>`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`<CN-675>`
 					goto sure
-				`	"Where do you need to go?"`
-				`	"Why is it so urgent?"`
-				`	"Who are you?"`
-			`	Julie holds out her hand in greeting. "Apologies, let's do this properly. My name is Julie Gillar. My assistant and I were held back with our duties and missed our booked transport. We're in dire need of passage to Valhalla for several important business meetings, but unfortunately everything is booked up for the next five days straight, and that's just not acceptable to my employer."`
+				`<CN-676>`
+				`<CN-677>`
+				`<CN-678>`
+			`<CN-679>`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`<CN-675>`
 					goto sure
-				`	"Who's your employer?"`
-			`	Julie furtively glances at the people nearby. "Well, I have a few employers actually, but at the moment, indirectly, Deep Security."`
-			`	She leans in slightly closer and lowers her voice. "We have access to their list of trustworthy pilots for emergencies. You'll be paid quite well."`
+				`<CN-680>`
+			`<CN-681>`
+			`<CN-682>`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`<CN-675>`
 					goto sure
-				`	"I'm sorry, but I really can't help you right now."`
+				`<CN-683>`
 					decline
 			label sure
-			`	"Lead right on then," says Julie. You point towards your ship, and the women move to board it.`
+			`<CN-684>`
 				accept
 	on complete
 		log "Minor People" "Julie Gillar" `<LG-4>`
 		payment 350000
 		set "deep security consultants"
 		conversation
-			`Julie and her assistant are model passengers the entire journey. As she prepares to disembark, she thanks you for your assistance. In addition to transferring <payment> into your account, she helps you change your job board preferences with the local spaceport agencies to make yourself available for business passengers consulting with Deep Security.`
-			`	"Thank you Captain <last>, you've been most helpful. Do keep an eye out in the spaceports around here though. Deep Security is notorious for keeping us longer than we're booked for. There's often someone stuck and in need of rapid transport off-world."`
+			`<CN-685>`
+			`<CN-686>`
 
 
 phrase "stranded consultant pickup"

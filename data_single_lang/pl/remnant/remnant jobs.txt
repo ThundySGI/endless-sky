@@ -379,10 +379,10 @@ mission "Remnant: Rescue"
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>.`
+			`Twój komunikator powiadamia Cię o przydziale zasobów <payment>.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`Wróciłeś, ale <npc> nadal brakuje.`
 
 
 
@@ -444,15 +444,15 @@ mission "Remnant: Rescue 1B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`Gdy wlatujesz do układu, twoje czujniki wychwytują mnóstwo szczątków. Dalsza analiza potwierdza twoje najgorsze obawy. <npc> został zniszczony. Spędzasz kolejne kilka godzin gorączkowo szukając ocalałych, a twoja nadzieja topnieje z każdą minutą.`
 	on complete
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`Lądujesz i z ciężkim sercem meldujesz, że <npc> zaginął wraz z całą załogą. Pozostali są zasmuceni tą wiadomością, ale mimo to dziękują ci i przekazują ci przydział zasobów w wysokości <payment>.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`Wróciłeś, ale <npc> nadal brakuje.`
 
 
 
@@ -490,10 +490,10 @@ mission "Remnant: Rescue 2"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, along with a brief note of thanks.`
+			`Twój komunikator powiadomi Cię o przydzieleniu zasobów <payment>, wraz z krótką notatką z podziękowaniami.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`Wróciłeś, ale <npc> nadal brakuje.`
 
 
 
@@ -524,15 +524,15 @@ mission "Remnant: Rescue 2B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`Gdy wlatujesz do układu, twoje czujniki wychwytują mnóstwo szczątków. Dalsza analiza potwierdza twoje najgorsze obawy. <npc> został zniszczony. Spędzasz kolejne kilka godzin gorączkowo szukając ocalałych, a twoja nadzieja topnieje z każdą minutą.`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`Lądujesz i z ciężkim sercem meldujesz, że <npc> zaginął wraz z całą załogą. Pozostali są zasmuceni tą wiadomością, ale mimo to dziękują ci i przekazują ci przydział zasobów w wysokości <payment>.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`Wróciłeś, ale <npc> nadal brakuje.`
 
 
 
@@ -568,10 +568,10 @@ mission "Remnant: Rescue 3"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, and also a thank you from the captain of the <npc>.`
+			`Twój komunikator powiadamia Cię o przydzieleniu zasobów <payment>, a także o podziękowaniu od kapitana <npc>.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`Wróciłeś, ale <npc> nadal brakuje.`
 
 
 
@@ -602,15 +602,15 @@ mission "Remnant: Rescue 3B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`Gdy wlatujesz do układu, twoje czujniki wychwytują mnóstwo szczątków. Dalsza analiza potwierdza twoje najgorsze obawy. <npc> został zniszczony. Spędzasz kolejne kilka godzin gorączkowo szukając ocalałych, a twoja nadzieja topnieje z każdą minutą.`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`Lądujesz i z ciężkim sercem meldujesz, że <npc> zaginął wraz z całą załogą. Pozostali są zasmuceni tą wiadomością, ale mimo to dziękują ci i przekazują ci przydział zasobów w wysokości <payment>.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`Wróciłeś, ale <npc> nadal brakuje.`
 
 
 
@@ -643,11 +643,11 @@ mission "Remnant: Rescue 4"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Upon landing, the captain of the <npc> meets you at your ship to thank you personally for rescuing them from the Graveyard, leaving you with a heartfelt sentence: "May the Embers burn bright for you."`
-			`	Soon after, your communicator notifies you of a resource allocation of <payment>.`
+			`Po wylądowaniu kapitan <npc> spotka się z tobą na twoim statku, aby osobiście podziękować ci za uratowanie ich z Cmentarza, zostawiając ci serdeczne zdanie: "Oby Żar płonął dla ciebie jasno."`
+			`	Wkrótce potem komunikator powiadomi Cię o przydzieleniu zasobów <payment>.`
 	on visit
 		dialog
-			`You have returned, yet the <npc> has not.`
+			`Wróciłeś, ale <npc> nie powrócił.`
 
 
 
@@ -676,10 +676,10 @@ mission "Remnant: Rescue 5"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Worried that they would never see the Embers again, the captain of the <npc> personally thanks you for bringing them home, even before your communicator notifies you of a resource allocation of <payment>.`
+			`Obawiając się, że nigdy więcej nie zobaczą Emberów, kapitan <npc> osobiście dziękuje ci za sprowadzenie ich do domu, jeszcze zanim twój komunikator powiadomi cię o przydziale zasobów <payment>.`
 	on visit
 		dialog
-			`You have returned, but there is still no word from the missing ship.`
+			`Wróciłeś, ale nadal nie ma żadnych wieści od zaginionego statku.`
 
 
 mission "Remnant: Disable 1"

@@ -46,10 +46,10 @@ outfitter "Elenctic Commune Basic"
 	"Heavy Laser Turret"
 	"Bullfrog Anti-Missile"
 	"Chameleon Anti-Missile"
-	`"Basrem" Atomic Thruster`
-	`"Basrem" Atomic Steering`
-	`"Benga" Atomic Thruster`
-	`"Benga" Atomic Steering`
+	`<CN-7918>`
+	`<CN-7915>`
+	`<CN-7911>`
+	`<CN-7914>`
 	"Hai Williwaw Cooling"
 	"Liquid Nitrogen Cooler"
 	"Hai Chasm Batteries"

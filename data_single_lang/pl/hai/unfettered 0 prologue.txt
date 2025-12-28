@@ -21,115 +21,115 @@ mission "First Contact: Unfettered"
 				has "First Contact: Hai: offered"
 			branch news
 				has "hr: heard the news"
-			`This planet is populated by a hostile alien species that resembles giant, intelligent squirrels. Although despite their hostility while in orbit, they pay little mind to you on the surface. Do you want to approach one of them?`
+			`Tę planetę zamieszkuje wrogi gatunek obcych, przypominający gigantyczne, inteligentne wiewiórki. Chociaż pomimo swojej wrogości na orbicie, na powierzchni nie zwracają na ciebie uwagi. Chcesz się z nimi spotkać?`
 			choice
-				`	(Sure.)`
+				`	(Pewnie.)`
 					goto sure
-				`	(Not now, it's too risky.)`
+				`	(Nie teraz, to zbyt ryzykowne.)`
 					defer
 			
 			label news
-			`This planet is populated by a hostile alien species that resembles giant, intelligent squirrels. Their ships look exactly like the ones that you saw on the news. Although despite their hostility while in orbit, they pay little mind to you on the surface.`
+			`Tę planetę zamieszkuje wrogi gatunek obcych, przypominający gigantyczne, inteligentne wiewiórki. Ich statki wyglądają dokładnie tak samo, jak te, które widzieliście w wiadomościach. Chociaż pomimo wrogości na orbicie, na powierzchni nie zwracają na ciebie uwagi.`
 			
 			label sure
-			`	You catch the eye of one of the alien dock workers and it walks over. "Ah," it says, "the monkey is curious. The monkey has never been face to face with a true Hai before?"`
+			`	Przyciągasz wzrok jednego z kosmicznych pracowników doku, a on podchodzi. "Ach," mówi, "małpa jest ciekawa. Małpa nigdy wcześniej nie była twarzą w twarz z prawdziwym Hai?"`
 			choice
-				`	"Hai? Is that what you call yourselves?"`
+				`	"Hai? Czy tak się nazywacie?"`
 					goto name
-				`	"What do you mean, 'true Hai'?"`
+				`	"Co masz na myśli mówiąc "prawdziwy Hai"?"`
 					goto true
-				`	"Why did you shoot at me? Are you at war?"`
+				`	"Dlaczego do mnie strzelałeś? Czy jesteś na wojnie?"`
 					goto war
 
 			label hai
-			`The Hai here appear to be at war with the rest of their species. Do you want to approach one of them and ask why?`
+			`Wygląda na to, że Hai toczą wojnę z resztą swojego gatunku. Chcesz podejść do któregoś z nich i zapytać dlaczego?`
 			choice
-				`	(Sure.)`
-				`	(Not now, it's too risky.)`
+				`	(Pewnie.)`
+				`	(Nie teraz, to zbyt ryzykowne.)`
 					defer
-			`	You catch the eye of one of the Hai dock workers and they walk over. "Ah," they say, "the monkey is curious. The monkey has never been face to face with a true Hai before?"`
+			`	Wpadasz w oko jednemu z pracowników doku Hai i podchodzą. "Ach," mówią, "małpa jest ciekawa. Małpa nigdy wcześniej nie była twarzą w twarz z prawdziwym Hai?"`
 			choice
-				`	"No, I've encountered many of your brethren south of here."`
+				`	"Nie, spotkałem wielu twoich braci na południe od tego miejsca."`
 					goto brethren
-				`	"What do you mean, 'true Hai'?"`
+				`	"Co masz na myśli mówiąc "prawdziwy Hai"?"`
 					goto true
-				`	"Why are you at war with everyone else?"`
+				`	"Dlaczego jesteś w stanie wojny ze wszystkimi?"`
 					goto everyone
 			
 			label brethren
-			`	They hiss. "They are not true Hai. We are Hai. The unaltered. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	Syczą. "To nieprawda, Hai. Jesteśmy Hai. Niezmienieni. Byliśmy panami stu światów, zanim ludzkie małpy nauczyły się używać kciuków."`
 				goto masters
 			
 			label true
-			`	"It means that we are unaltered, Hai as Hai were first born to be. Hai the conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"To znaczy, że jesteśmy niezmienieni, Hai, tacy, jacy Hai narodzili się pierwsi. Hai, zdobywcy. Byliśmy panami stu światów, zanim ludzkie małpy nauczyły się używać kciuków."`
 				goto masters
 			
 			label name
-			`	"We are Hai. Hai the conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"Jesteśmy Hai. Hai, zdobywcy. Byliśmy panami stu światów, zanim ludzkie małpy nauczyły się używać kciuków."`
 				goto masters
 			
 			label war
-			`	"We fight to defend ourselves from extinction," they say.`
-			`	"Extinction?" you ask. "Do you mean that there are no other Hai?"`
-			`	"We are all that is left of the original Hai," they say. "Unaltered. The conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"Walczymy, aby obronić się przed wyginięciem," mówią.`
+			`	"Wyginięcie?" pytasz. "Czy masz na myśli, że nie ma innych Hai?"`
+			`	"Jesteśmy wszystkim, co pozostało z pierwotnego Hai," mówią. "Niezmieniony. Zdobywcy. Byliśmy panami stu światów, zanim ludzkie małpy nauczyły się używać kciuków."`
 				goto masters
 			
 			label everyone
-			`	"We fight to defend ourselves from extinction," they say.`
-			`	"Extinction?" you ask. "Do you mean that you are not the same species as the other Hai?"`
-			`	"Indeed," they say. "We are all that is left of the original Hai. Unaltered. The conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"Walczymy, aby obronić się przed wyginięciem," mówią.`
+			`	"Wyginięcie?" pytasz. "Czy masz na myśli, że nie jesteś tym samym gatunkiem co inni Hai?"`
+			`	"Rzeczywiście," mówią. "Jesteśmy wszystkim, co pozostało z pierwotnego Hai. Niezmienionym. Zdobywcą. Byliśmy panami stu światów, zanim ludzkie małpy nauczyły się używać kciuków."`
 				goto masters
 			
 			label masters
 			choice
-				`	"Where was your territory? Why have I never heard of you before?"`
-				`	"What do you mean, the Hai were altered?"`
+				`	"Gdzie było twoje terytorium? Czemu nigdy wcześniej o tobie nie słyszałem?"`
+				`	"Co masz na myśli mówiąc, że Hai zostali zmienieni?"`
 			
-			`	"This is our story," they say. "Once, many worlds beyond wormhole were ours. Once, hundred thousand years now gone. We needed more worlds. A species that does not expand becomes like brackish water, like stunted tree. But dragonfolk in the south had created hyperdrive, and human monkeys had begun banging rocks together in what the Drak said was very intelligent fashion. So we were forbidden from taking more worlds."`
+			`	"To nasza historia, " mówią. "Kiedyś wiele światów poza tunelem czasoprzestrzennym należało do nas. Kiedyś minęło sto tysięcy lat. Potrzebowaliśmy więcej światów. Gatunek, który się nie rozrasta, staje się jak słonawa woda, jak karłowate drzewo. Ale smoki na południu stworzyły hipernapęd, a ludzkie małpy zaczęły uderzać kamieniami o siebie w sposób, który Drak nazwał bardzo inteligentnym. Dlatego zabroniono nam zdobywania kolejnych światów."`
 			branch sheragi
 				has "Rim Archaeology 6: offered"
-			`	"'Dragonfolk?'" you ask. "I've never heard of them."`
-			`	"Sheragi," they say, "they are extinct. Only their dumb ancestors survive, just as monkeys will outlast the thinking humans."`
+			`	"'Ludzie-smoki?'" pytasz. "Nigdy o nich nie słyszałem."`
+			`	"Sheragi," mówią, "że wyginęli. Tylko ich niemi przodkowie przetrwali, tak jak małpy przetrwają myślących ludzi."`
 				goto altered
 
 			label sheragi
-			`	"'Dragonfolk?'" you ask. "Do you mean the Sheragi?"`
-			`	"Impressive," they reply, "the monkey knows of Sheragi. We outlived them all. Funny that only their dumb ancestors survive, just as monkeys will outlast the thinking humans."`
+			`	"'Dragonfolk?'" pytasz. "Masz na myśli Sheragi?"`
+			`	"Imponujące," odpowiadają, "małpa wie o Sheragi. Przeżyliśmy ich wszystkich. Zabawne, że tylko ich głupi przodkowie przetrwali, tak jak małpy przetrwają myślących ludzi."`
 
 			label altered
-			`	"How were you altered?" you ask.`
-			`	They say, "We Hai fought Sheragi and took worlds that Drak said belonged to them, worlds that Sheragi had not yet even discovered. Drak retaliated. On all Hai worlds, Drak ships appeared in orbit. Sickness swept each planet: quick fever, strange feeling of frailness, like you are brittle bones with mouth full of dirt. Victims left alive, but all ambition gone, no desire but to die of comfortable old age."`
+			`	"Jak zostałeś zmieniony?" pytasz.`
+			`	Mówią, że "We Hai walczyli z Sheragim i zdobyli światy, które według Draka należały do nich, światy, których Sheragi jeszcze nie odkrył. Drak odpowiedział. Na wszystkich planetach Hai pojawiły się na orbicie statki Draków. Choroby ogarnęły każdą planetę: nagła gorączka, dziwne uczucie słabości, jak kruche kości z ustami pełnymi ziemi. Ofiary przeżyły, ale zniknęły wszelkie ambicje, nie było innego pragnienia niż umrzeć w komfortowej starości."`
 			choice
-				`	"Did you try to resist the Drak?"`
+				`	"Czy próbowałeś stawić opór Drakowi?"`
 					goto resist
-				`	"How do you know this, if it happened a hundred thousand years ago?"`
+				`	"Skąd to wiesz, skoro wydarzyło się to sto tysięcy lat temu?"`
 					goto know
 			
 			label resist
-			`	"Silly monkey," they say, "none can resist. They are strong. Their will prevails. And their will is for the galaxy to be a zoo, little remnants of each species all in separate cages. For now they let humans run free so humans will grow in knowledge, but soon they will fashion a cage for humans too."`
+			`	"Głupia małpa," mówią, "nikt nie potrafi się oprzeć. Są silni. Ich wola zwycięża. A ich wolą jest, aby galaktyka stała się zoo, małymi resztkami każdego gatunku, zamkniętymi w oddzielnych klatkach. Na razie pozwalają ludziom biegać swobodnie, żeby mogli rozwijać swoją wiedzę, ale wkrótce stworzą klatkę również dla nich."`
 				goto help
 			
 			label know
-			`	"All Hai know. The story is passed down. Others tell an altered version, where the way of peace was choice and not an inflicted wound, but some in each generation learn truth, and join us here."`
+			`	"Wszyscy Hai wiedzą. Historia jest przekazywana z pokolenia na pokolenie. Inni opowiadają zmienioną wersję, gdzie droga do pokoju była wyborem, a nie zadaną raną, ale niektórzy w każdym pokoleniu poznają prawdę i dołączają do nas."`
 				goto help
 			
 			label help
 			choice
-				`	"That is a frightening story. Thank you for taking the time to speak with me."`
+				`	"To przerażająca historia. Dziękuję za poświęcony czas na rozmowę."`
 					decline
-				`	"Is there anything I can do to help you?"`
+				`	"Czy mogę w czymś pomóc?"`
 			action
 				set "unfettered requested jump drives"
-			`	"If you are ever willing to sell us a jump drive," they say, "we will richly reward you. And if you discover the secret of how we can construct our own jump drives and escape from this prison, bring it to us and you will live as a god among us."`
+			`	"Jeśli kiedykolwiek zechcesz nam sprzedać napęd rozruchowy, "mówią, "super cię wynagrodzimy. A jeśli odkryjesz sekret, jak możemy zbudować własne napędy rozruchowe i uciec z tego więzienia, przynieś je do nas, a będziesz żył wśród nas jak bóg."`
 			choice
-				`	"I'm sorry, I don't know the secret of the jump drive. No human being does."`
-				`	"If I ever have an extra jump drive to sell, I will bring it to you."`
+				`	"Przepraszam, nie znam sekretu napędu przenośnnego. Żaden człowiek go nie zna."`
+				`	"Jeśli kiedykolwiek będę miał dodatkowy dysk rozruchowy na sprzedaż, przyniosę go do Ciebie."`
 					goto sell
-			`	"Then leave us alone," they say, and they walk off.`
+			`	"W takim razie zostawcie nas w spokoju," mówią i odchodzą.`
 				decline
 			
 			label sell
-			`	"Bring us a jump drive," they say, "and we will count you among our friends. Bring us more, and we may even consider you worthy of a share of the plunder, when we take back what is ours."`
+			`	"Przynieś nam dysk rozruchowy, " mówią, "a zaliczymy cię do grona naszych przyjaciół. Przynieś nam więcej, a może nawet uznamy cię za godnego udziału w łupach, gdy odzyskamy to, co nasze."`
 				decline
 	
 	on decline
@@ -154,45 +154,45 @@ mission "Unfettered Jump Drive 1"
 		attributes "unfettered"
 	on offer
 		conversation
-			`The Unfettered have clearly noticed that you have a jump drive; a large crowd of them has gathered around your ship. Do you want to talk with them, and perhaps arrange a sale of your jump drive?`
+			`Nieskrępowani wyraźnie zauważyli, że masz napęd skokowy; wokół twojego statku zebrał się spory tłum. Czy chcesz z nimi porozmawiać i ewentualnie zorganizować sprzedaż swojego napędu skokowego?`
 			choice
-				`	(No.)`
+				`	(Nr)`
 					defer
-				`	(Yes.)`
-			`	As soon as you approach the crowd, one of them steps forward and says, "One million credits, and the friendship of the true Hai people. This is our offer, for the jump drive."`
+				`	(Tak.)`
+			`	Gdy tylko zbliżysz się do tłumu, jeden z nich wystąpi i powie: "Milion kredytów i przyjaźń prawdziwego ludu Hai. Oto nasza oferta za napęd skokowy."`
 			choice
-				`	"Sure, I will accept that deal."`
+				`	"Jasne, zaakceptuję tę ofertę."`
 					goto end
-				`	"Can you offer me more than that?"`
+				`	"Czy możesz zaoferować mi coś więcej?"`
 					goto more
-				`	"How will my ship leave here without my jump drive?"`
+				`	"Jak mój statek odleci bez mojego napędu skokowego?"`
 			
-			`	"We can give you a hyperdrive in its place, if required," they say, "and you will be counted as our friend, so you will not need to leave here quickly, or under threat of violence." You can't help but wonder if they will try to take your ship by force if you do not agree to the deal.`
-			`	"Oh, and by the way, you will no longer be required to keep your Anomalocaris in working condition to guarantee our friendship," they add.`
+			`	"Jeśli będzie to konieczne, możemy dać ci w zamian hipernapęd," mówią, "a ty będziesz uważany za naszego przyjaciela, więc nie będziesz musiał opuszczać tego miejsca szybko ani pod groźbą użycia przemocy." Nie możesz się powstrzymać od zastanawiania się, czy nie spróbują przejąć twojego statku siłą, jeśli nie zgodzisz się na tę umowę.`
+			`	"Och, i nawiasem mówiąc, nie będziesz już musiał utrzymywać swojego Anomalocaris w dobrym stanie technicznym, aby zagwarantować naszą przyjaźń," dodają.`
 				to display
 					has "Hai Legacy 3: done"
 			choice
-				`	"Okay, I accept your generous offer."`
+				`	"Okej, akceptuję twoją hojną ofertę."`
 					goto end
-				`	"Sorry, but if I give you this jump drive, I will lose my ability to capture more of them. Be patient, and I will bring you several of them when I am able."`
+				`	"Przepraszam, ale jeśli dam ci ten napęd, stracę możliwość złapania większej liczby z nich. Bądź cierpliwy, a przyniosę ci kilka, kiedy tylko będę mógł."`
 					goto refuse
 			
 			label refuse
-			`	They ponder this for a while, and says, "Very well. Our offer stands, whenever you choose to return." They allow you to return to your ship peacefully.`
+			`	Zastanawiają się chwilę i mówią: "Dobrze. Nasza oferta jest aktualna, kiedykolwiek zdecydujesz się wrócić." Pozwalają ci spokojnie wrócić na statek.`
 				defer
 			
 			label more
-			`	"Do not underestimate the value of our friendship," they say. "Soon we will become powerful once more, with many fruitful worlds under our control, and when that day comes you will benefit greatly from being our ally."`
+			`	"Nie lekceważ wartości naszej przyjaźni, " mówią. "Wkrótce znów staniemy się potężni, mając pod kontrolą wiele żyznych światów, a kiedy ten dzień nadejdzie, bardzo ci się przyda bycie naszym sojusznikiem."`
 			choice
-				`	"Okay, as long as you give me a hyperdrive to take its place, I'll give you my jump drive."`
+				`	"Okej, jeśli dasz mi hipernapęd, który go zastąpi, dam ci mój napęd skokowy."`
 					to display
 						"outfit (cargo): Jump Drive" + "outfit (flagship installed): Hyperdrive" + "outfit (flagship installed): Scram Drive" + "outfit (flagship installed): Jump Drive" == 1
 					goto end
-				`	"You can take the jump drive, but I don't need a hyperdrive in exchange."`
+				`	"Możesz wziąć napęd skokowy, ale nie potrzebuję w zamian napędu hiperprzestrzennego."`
 					to display
 						"outfit (cargo): Jump Drive" + "outfit (flagship installed): Hyperdrive" + "outfit (flagship installed): Scram Drive" + "outfit (flagship installed): Jump Drive" > 1
 					goto spareJD
-				`	"Sorry, but if I give you this jump drive, I will lose my ability to capture more of them. Be patient, and I will bring you several of them when I am able."`
+				`	"Przepraszam, ale jeśli dam ci ten napęd, stracę możliwość złapania większej liczby z nich. Bądź cierpliwy, a przyniosę ci kilka, kiedy tylko będę mógł."`
 					goto refuse
 			
 			label end
@@ -200,10 +200,10 @@ mission "Unfettered Jump Drive 1"
 				"outfit (cargo): Jump Drive" + "outfit (flagship installed): Hyperdrive" + "outfit (flagship installed): Scram Drive" + "outfit (flagship installed): Jump Drive" > 1
 			action
 				outfit "Hyperdrive" 1
-			`	The Unfettered engineers quickly and carefully remove your jump drive and replace it with an ordinary hyperdrive. You sincerely hope that you are not making a mistake by giving them this new technology. "Remember," one of them says as they hand you your payment, "when you acquire more jump drives, return here with them and we will give you further rewards. Until then, may fortune favor you, human friend."`
+			`	Inżynierowie Unfettered szybko i ostrożnie usuwają twój napęd skokowy i zastępują go zwykłym hipernapędem. Masz szczerą nadzieję, że nie popełniasz błędu, dając im tę nową technologię. "Pamiętaj," jeden z nich mówi, wręczając ci zapłatę: "Kiedy zdobędziesz więcej napędów skokowych, wróć tu z nimi, a my damy ci kolejne nagrody. Do tego czasu, niech los ci sprzyja, przyjacielu."`
 				accept
 			label spareJD
-			`	The Unfettered engineers quickly retrieve the jump drive. You sincerely hope that you are not making a mistake by giving them this new technology. "Remember," one of them says as they hand you your payment, "when you acquire more jump drives, return here with them and we will give you further rewards. Until then, may fortune favor you, human friend."`
+			`	Inżynierowie Unfettered szybko odzyskują napęd skokowy. Masz szczerą nadzieję, że nie popełniasz błędu, dając im tę nową technologię. "Pamiętaj," jeden z nich mówi, wręczając ci zapłatę: "Kiedy zdobędziesz więcej napędów skokowych, wróć tu z nimi, a my damy ci kolejne nagrody. Do tego czasu, niech los ci sprzyja, przyjacielu."`
 				accept
 	
 	on accept
@@ -229,28 +229,28 @@ mission "Unfettered Jump Drive 2"
 		attributes "unfettered"
 	on offer
 		conversation
-			`As before, when you land on this Unfettered world with a jump drive, a large crowd gathers around your ship. Clearly they are hoping that once again you will arrange a sale. Do you want to bargain with them?`
+			`Tak jak poprzednio, kiedy lądujesz na tym świecie Unfettered za pomocą napędu skokowego, wokół twojego statku zbiera się spory tłum. Najwyraźniej liczą na to, że znów uda ci się zorganizować transakcję. Czy chcesz się z nimi targować?`
 			choice
-				`	(No.)`
+				`	(Nr)`
 					defer
-				`	(Yes.)`
-			`	When you approach the crowd, one of them says, "Greetings, human friend. We have made you known to all our brothers and sisters as one of the few creatures who have chosen to help the true Hai to gain their freedom. If you give us another jump drive, we will pay you another million credits, and make you one of our emissaries to collect the payments with which our frail brothers seek to buy peace. Will you accept this exchange?"`
+				`	(Tak.)`
+			`	Kiedy zbliżasz się do tłumu, jeden z nich mówi: "Witaj, ludzki przyjacielu. Ujawniliśmy cię wszystkim naszym braciom i siostrom jako jedno z niewielu stworzeń, które zdecydowały się pomóc prawdziwym Hai w odzyskaniu wolności. Jeśli dasz nam kolejny napęd, zapłacimy ci kolejny milion kredytów i uczynimy jednym z naszych emisariuszy, którzy będą zbierać opłaty, którymi nasi słabi bracia chcą kupić pokój. Czy przyjmiesz tę wymianę?"`
 			choice
-				`	"Sorry, I need this jump drive right now, but I will come back later and sell it to you."`
+				`	"Przepraszam, potrzebuję tego dysku rozruchowego natychmiast, ale wrócę później i ci go sprzedam."`
 					defer
-				`	"Yes, I will sell you my jump drive."`
+				`	"Tak, sprzedam ci mój dysk rozruchowy."`
 			
 			branch spareJD
 				"outfit (cargo): Jump Drive" + "outfit (flagship installed): Hyperdrive" + "outfit (flagship installed): Scram Drive" + "outfit (flagship installed): Jump Drive" > 1
 			action
 				outfit "Hyperdrive" 1
 			label spareJD
-			`	Once again, they swap your jump drive for a hyperdrive, and pay you far more than you could sell a jump drive for anywhere else. "We will tell the other true Hai to offer you jobs in our job boards," they tell you, "and remember that we need still more jump drives."`
+			`	Po raz kolejny zamieniają twój napęd skokowy na hipernapęd i płacą ci o wiele więcej, niż mógłbyś sprzedać gdziekolwiek indziej. "Powiemy innym prawdziwym Hai, żeby zaoferowali ci pracę na naszych tablicach ogłoszeń, " mówią ci, "i pamiętaj, że potrzebujemy jeszcze więcej napędów skokowych. "`
 			choice
-				`	"Then I will find more, and bring them to you."`
+				`	"W takim razie znajdę więcej i przyniosę ci."`
 					accept
-				`	"Can you tell me what you are using them for?"`
-			`	"Not yet. If you further prove your friendship, perhaps we will." You assure them that you will continue to do your best to assist them.`
+				`	"Czy możesz mi powiedzieć, do czego ich używasz?"`
+			`	"Jeszcze nie. Jeśli dalej będziesz okazywać swoją przyjaźń, być może to zrobimy." Zapewniasz ich, że nadal będziesz dokładać wszelkich starań, aby im pomóc.`
 				accept
 	
 	on accept
@@ -272,54 +272,54 @@ mission "Unfettered Jump Drive 3"
 		attributes "unfettered"
 	on offer
 		conversation
-			`You have another jump drive, and the Unfettered will certainly be willing to pay you well for it. They also hinted that they might be willing to give you more information about what they plan to use the jump drives for. Do you want to sell them another drive?`
+			`Masz kolejny dysk rozruchowy, a Unfettered z pewnością będą skłonni dobrze ci za niego zapłacić. Zasugerowali również, że mogą być skłonni udzielić ci więcej informacji o tym, do czego planują wykorzystać dyski rozruchowe. Czy chcesz im sprzedać kolejny dysk?`
 			choice
-				`	(No.)`
+				`	(Nr)`
 					defer
-				`	(Yes.)`
-			`	You meet up with some local Unfettered leaders, and they again pay you a million credits and arrange for your jump drive to be swapped out of your ship. "If you bring more, we will continue to pay you," they say.`
+				`	(Tak.)`
+			`	Spotykasz się z lokalnymi przywódcami Unfettered, a oni ponownie płacą ci milion kredytów i organizują wymianę twojego napędu skokowego na statku. "Jeśli przyniesiesz więcej, będziemy ci nadal płacić, " mówią.`
 			choice
-				`	"Can you tell me what you are using the jump drives for?"`
-				`	"Thank you, I will certainly bring more of them when I am able."`
+				`	"Czy możesz mi powiedzieć, do czego używasz dysków rozruchowych?"`
+				`	"Dziękuję, na pewno przyniosę ich więcej, gdy tylko będę mógł."`
 					goto job
 			action
 				set "unfettered know of wanderers"
-			`	After a brief and hushed discussion in their own language, one of the leaders says, "You have proven your worth, so we will share our secret. The Hai once owned many worlds on the galactic fringe, a territory we can only visit using the jump drive. Those worlds are fruitful and nearly uninhabited. We will reclaim them as our own, and there will be food there to feed the Unfettered for many thousands of years to come."`
+			`	Po krótkiej i wyciszonej dyskusji w ich własnym języku, jeden z przywódców mówi: "Udowodniłeś swoją wartość, więc podzielimy się naszym sekretem. Hai niegdyś posiadali wiele światów na krańcach galaktyki, terytorium, które możemy odwiedzić tylko za pomocą napędu. Te światy są żyzne i prawie bezludne. Odzyskamy je dla siebie, a tam będzie pożywienie, którym Nieskrępowani będą mogli się żywić przez wiele tysięcy lat."`
 			branch know
 				or
 					has "First Contact: Wanderer: offered"
 					has "First Contact: Wanderer (Before Hai): offered"
 			choice
-				`	"Is there any other way I can help you to reclaim those worlds?"`
+				`	"Czy istnieje inny sposób, w jaki mogę pomóc Ci odzyskać te światy?"`
 					goto help
-				`	"'Nearly uninhabited?' You mean another species inhabits some of those worlds now?"`
+				`	"'Prawie niezamieszkane?' Masz na myśli, że inne gatunki zamieszkują obecnie niektóre z tych światów?"`
 					goto wanderers
 			
 			label know
-			`	You suspect that they are talking about the territory that is now inhabited by the Wanderers.`
+			`	Podejrzewasz, że mówią o terytorium, które obecnie zamieszkują Wędrowcy.`
 			choice
-				`	"Are you at war with the Wanderers? Can I help you to reclaim your territory?"`
+				`	"Czy toczysz wojnę z Wędrowcami? Czy mogę ci pomóc odzyskać twoje terytorium?"`
 					goto help
-				`	"What are you going to do to the species that owns those worlds right now?"`
+				`	"Co zamierzasz teraz zrobić z gatunkiem, który jest właścicielem tych światów?"`
 					goto wanderers
 			
 			label help
-			`	"Your help may indeed be beneficial to us," says the leader. "I will tell the others to contact you if they have any particular missions you can undertake."`
+			`	"Twoja pomoc rzeczywiście może nam się przydać, " mówi przywódca. "Powiem innym, żeby się z tobą skontaktowali, jeśli będą mieli jakieś konkretne misje, które możesz wykonać."`
 			choice
-				`	"I look forward to hearing from them."`
+				`	"Czekam na kontakt od nich."`
 					goto job
-				`	"What do you plan to do to the species that inhabits those worlds now?"`
+				`	"Co planujesz zrobić z gatunkami, które obecnie zamieszkują te światy?"`
 			
 			label wanderers
-			`	"Those worlds are now held by a species of scavengers, who feast on the ruin of proud civilizations. Our scouts tell us that these carrion-feeders have wiped away nearly every Hai artifact, melting down our cities to make metal for their ships and factories, and hiding the scars of our wars beneath newly planted forests. They are an old and strong species, but few in number, and those worlds are ours by right."`
-			`	You try to press them for more information, but they tell you nothing useful, aside from promising you that they will seek out your help when it is time to reclaim their territory.`
+			`	"Te planety są teraz w posiadaniu gatunku padlinożerców, którzy żerują na ruinach dumnych cywilizacji. Nasi zwiadowcy donoszą, że ci padlinożercy zniszczyli niemal wszystkie artefakty Hai, przetapiając nasze miasta, aby uzyskać metal dla swoich statków i fabryk, i ukrywając blizny naszych wojen pod świeżo zasadzonymi lasami. To stary i silny gatunek, ale nieliczny, a te planety należą do nas z mocy prawa."`
+			`	Próbujesz wydobyć od nich więcej informacji, ale nie udzielają ci żadnych przydatnych odpowiedzi, poza obietnicą, że zwrócą się do ciebie o pomoc, gdy nadejdzie czas odzyskania swojego terytorium.`
 			label job
 			branch spareJD
 				"outfit (cargo): Jump Drive" + "outfit (flagship installed): Hyperdrive" + "outfit (flagship installed): Scram Drive" + "outfit (flagship installed): Jump Drive" > 1
 			action
 				outfit "Hyperdrive" 1
 			label spareJD
-			`	"If you want to provide us with more jump drives, visit the job board from now on," says the leader. "We will have warriors ready to receive them from you for the usual pay."`
+			`	"Jeśli chcesz nam dostarczyć więcej napędów skokowych, zaglądaj teraz na tablicę ogłoszeń, " mówi lider. "Będziemy mieli wojowników gotowych je od ciebie przyjąć za standardową stawkę. "`
 				accept
 	
 	on accept
@@ -369,170 +369,170 @@ mission "Unfettered Jump Drive Trading"
 		random < 20 + 8 * "Unfettered Jump Drive 4: failed"
 	on offer
 		conversation
-			`As you exit your ship to head to the spaceport you see that an Unfettered Hai<hood> is waiting for you at your hatch.`
-			`	As you get closer you surmise it is an engineer, judging by the writing pad and equipment they have. Maybe they mean to trade something other than money with you. Do you want to bargain for another drive with them?`
+			`Gdy wychodzisz ze statku, by udać się do portu kosmicznego, widzisz, że Nieskrępowany Hai<hood> czeka na ciebie przy włazie.`
+			`	Zbliżając się, wnioskujesz, że to inżynier, sądząc po notesie i sprzęcie, który mają. Może chcą się z tobą wymienić na coś innego niż pieniądze. Czy chcesz się z nimi targować o kolejny przejazd?`
 				to display
 					not "unfettered: blade rodeo"
-			`	They probably mean to offer the same deal of exchanging jump drives for weapons as before. Do you want to try and see if you can prove yourself worthy this time, and bargain for a jump drive?`
+			`	Prawdopodobnie zamierzają zaoferować tę samą ofertę wymiany napędów skokowych na broń, co poprzednio. Chcesz spróbować i sprawdzić, czy tym razem okażesz się godny i wytargować napęd skokowy?`
 				to display
 					has "unfettered: blade rodeo"
 			choice
-				`	(No.)`
+				`	(Nr)`
 					defer
-				`	(Yes.)`
-			`	As soon as you set foot on the world the supposed engineer drops her equipment and throws a blade at you just like before - it seems that she does not want to waste time with you anymore.`
+				`	(Tak.)`
+			`	Gdy tylko postawiłeś stopę na tym świecie, rzekoma inżynier upuściła swój sprzęt i rzuciła w ciebie ostrzem, tak jak poprzednio - wygląda na to, że nie chciała już tracić z tobą czasu.`
 				to display
 					"unfettered: blade rodeo" == 1
 				goto blade
-			`	You exit your ship, but before you can even reach the engineer, another Unfettered shouts to attract your attention and then throws a blade at you, without any other warning or ceremony.`
+			`	Wychodzisz ze statku, ale zanim zdążysz dotrzeć do inżyniera, inny Nieskrępowany krzyczy, żeby zwrócić twoją uwagę, po czym rzuca w ciebie ostrzem bez żadnego ostrzeżenia ani ceremonii.`
 				to display
 					"unfettered: blade rodeo" > 1
 				goto blade
-			`	You exit your ship and immediately the engineer leads you to the outfitter. "We have weapons to show you for your assistance in providing us with jump drives. For now you will only be allowed to trade for the one, but if you continue to provide assistance to us, you may prove yourself worthy to access the others." They never stop to ask if you are actually interested in new weapons.`
+			`	Wychodzisz ze statku i natychmiast inżynier prowadzi cię do dostawcy. "Mamy ci do pokazania broń w zamian za twoją pomoc w dostarczeniu nam napędów rozruchowych. Na razie możesz wymienić się tylko na jeden egzemplarz, ale jeśli nadal będziesz nam pomagał, możesz okazać się godny dostępu do pozostałych. " Nigdy nie przestają pytać, czy faktycznie jesteś zainteresowany nową bronią.`
 			label repeat
 			choice
-				`	(Follow them.)`
+				`	(Podążaj za nimi.)`
 					goto next
-				`	"I'm not really interested in Hai weapons."`
+				`	"Nie jestem specjalnie zainteresowany bronią Hai."`
 					to display
 						not "unfettered: uninterested in weapons"
 					goto uninterested
-				`	"I don't really want to do this right now."`
+				`	"Naprawdę nie chcę tego teraz robić."`
 			action
 				clear "unfettered: uninterested in weapons"
 				"unfettered: jd to sell" ++
-			`	"How rude. You better hope there will be someone else to guide you next time!" says the engineer as you return to your ship.`
+			`	"Jaki niegrzeczny. Lepiej miej nadzieję, że następnym razem ktoś inny cię poprowadzi! " mówi inżynier, gdy wracasz na statek.`
 				defer
 			label uninterested
 			action
 				set "unfettered: uninterested in weapons"
-			`	"These are not standard Hai weapons, Captain, trust me. Also, it would be ill-advised to judge before seeing them, would it not?"`
+			`	"To nie jest standardowa broń Hai, Kapitanie, zaufaj mi. Poza tym, nierozsądnie byłoby oceniać przed ich zobaczeniem, prawda?"`
 				goto repeat
 			label next
-			`	They lead you through the usual outfitter but then go to an area you have never noticed before, probably because you were not meant to. As you are about to pass through what you assume to be a security check, an Unfettered throws a blade at your face!`
+			`	Prowadzą cię przez typowy punkt zaopatrzenia, a potem trafiają w miejsce, którego nigdy wcześniej nie zauważyłeś, prawdopodobnie dlatego, że nie powinieneś tam być. Gdy masz zamiar przejść przez coś, co uważasz za kontrolę bezpieczeństwa, Nieskrępowany rzuca ci ostrzem w twarz!`
 			label blade
-			`	You recognize the same Unfettered from last time; she must fancy throwing blades at people.`
+			`	Rozpoznajesz tę samą Unfettered co ostatnio; musi mieć ochotę rzucać w ludzi ostrzami.`
 				to display
 					has "unfettered: blade rodeo"
 			choice
-				`	(Try to grab it.)`
+				`	(Spróbuj to złapać.)`
 					goto grab
-				`	(Try to dodge it.)`
+				`	(Spróbuj tego uniknąć.)`
 					goto dodge
-				`	(Leap to the side and use my own weapon.)`
-				`	(Flee.)`
+				`	(Skaczę na bok i używam własnej broni.)`
+				`	(Uciekaj.)`
 					goto flee
-			`	You leap to the side, grabbing your own weapon just in time to threaten the Unfettered that threw the blade at you. Seeming a bit surprised by your unconventional tactics, they lower their own weapon. "Well done! In truth, there is no higher honor than surviving on the field of battle, because only then can you bring loot back to those who need it! A tactic is only good if you can find and execute it quickly enough to give you an edge, which you did. <learned>I am Desneeparu, and it is my pleasure to meet you, Captain."`
+			`	Skaczesz na bok, chwytając własną broń akurat w momencie, gdy grozisz Nieskrępowanym, którzy rzucili w ciebie ostrzem. Wydają się nieco zaskoczeni twoją niekonwencjonalną taktyką, więc opuszczają broń. "Brawo! Prawdę mówiąc, nie ma większego honoru niż przetrwanie na polu bitwy, bo tylko wtedy możesz oddać łup tym, którzy go potrzebują! Taktyka jest dobra tylko wtedy, gdy potrafisz ją znaleźć i zastosować wystarczająco szybko, by zapewnić sobie przewagę, co ci się udało. <learned>Jestem Desneeparu i miło mi cię poznać, Kapitanie."`
 				goto meet
 			label grab
-			`	You manage to grab the weapon, just in time to deflect an incoming attack from the same Unfettered. They duel with you for what feels like an eternity. At first you are astonished by the fact you have managed to survive this long, but you soon realize that, as you have not managed to land a single successful blow, this must be some kind of deliberate test.`
-			`	Then, suddenly, you can feel the pace of your opponent change; the game is over. They strike a masterful blow that disarms you with ease before smiling and lowering their weapon. "It looks like you know what to do with a blade! <learned>I am Desneeparu, and it is a pleasure to meet you, Captain <last>!" she exclaims, before laughing at your surprised face. You realize she must have been toying with you from the beginning, but, nevertheless, she seems satisfied by your performance.`
+			`	Udaje ci się chwycić broń w samą porę, by odeprzeć atak tego samego Nieskrępowanego. Walczą z tobą przez coś, co wydaje się wiecznością. Z początku jesteś zdumiony, że udało ci się przetrwać tak długo, ale szybko uświadamiasz sobie, że skoro nie udało ci się zadać ani jednego celnego ciosu, to musi to być jakiś celowy test.`
+			`	Nagle czujesz, jak zmienia się tempo walki przeciwnika; gra się kończy. Zadaje mistrzowski cios, który z łatwością cię rozbraja, po czym uśmiecha się i opuszcza broń. "Wygląda na to, że wiesz, co robić z ostrzem! <learned>Jestem Desneeparu i miło mi cię poznać, Kapitanie <last>!" wykrzykuje, po czym śmieje się na widok twojej zaskoczonej miny. Zdajesz sobie sprawę, że musiała się tobą bawić od samego początku, ale mimo to wydaje się być zadowolona z twojego występu.`
 			label meet
 			action
 				log "Minor People" "Desneeparu" `Wojowniczka Nieskrępowana, która umie posługiwać się ostrzem. Została przez nią przetestowana, zanim otrzymała dostęp do nowej broni Nieskrępowanej. Zginęłaby, gdyby się nie powstrzymywała.`
-			`	She does some kind of salute with her fist before leaving. "I must go now. I hope you will find the weapon you need."`
-			`	<The engineer> proceeds to take you underground to rows and rows of prototype weapons, some of which are being worked on by engineers. They explain, "We prefer to do most of our testing on the field of battle. We only make the most basic safety tests here before Unfettered captains can get their hands on them. They often start by going to Firelode to put the weapon to its limit, to ensure it will not explode in the middle of action. The more interest in a prototype, the more we develop it." You keep walking until you enter the outfitter section of the facility, where you notice the items on display are much more advanced than anything you have seen available on the surface: so much so it could almost pass for a 'normal' Hai outfitter, were it not for the overcharged, oppressive feel of the testing grounds.`
-			`	"Welcome to the advanced section of the outfitter, Captain! It is only for our most distinguished guests. Now that you have sold us multiple jump drives, I can tell you that we offer something much more valuable than money. For now, I can only offer you the mighty Tripulse Shredder, but eventually we will give you access to all kinds of weapons. Two Tripulse Shredders and our sympathy for one jump drive is the deal I propose," they say, presenting the weapons to you. Now that you can take a closer look, you notice these weapons seem fairly similar to other Hai weaponry, but they are enhanced in one way or another. Alongside the Tripulses you can spot what look like a very small Ion Cannon and an Ion Cannon mounted turret.`
+			`	Wykonuje jakiś gest salutowania pięścią, zanim odchodzi. "Muszę już iść. Mam nadzieję, że znajdziesz potrzebną broń."`
+			`	<The engineer> zabiera cię pod ziemię, do rzędów prototypów broni, nad którymi pracują inżynierowie. Wyjaśniają: "Wolimy przeprowadzać większość testów na polu bitwy. Przeprowadzamy tu tylko najbardziej podstawowe testy bezpieczeństwa, zanim kapitanowie Unfettered będą mogli je przetestować. Często zaczynają od wizyty w Firelode, aby przetestować broń do granic możliwości, upewniając się, że nie wybuchnie w trakcie akcji. Im większe zainteresowanie prototypem, tym bardziej go rozwijamy. " Idziesz dalej, aż docierasz do części obiektu przeznaczonej dla ekwipunku, gdzie zauważasz, że wystawione przedmioty są o wiele bardziej zaawansowane niż wszystko, co widziałeś na powierzchni: do tego stopnia, że można by je uznać za "zwykły" sklep z ekwipunkiem Hai, gdyby nie przesadnie kosztowna, przytłaczająca atmosfera poligonu testowego.`
+			`	"Witaj w zaawansowanej części wyposażenia, Kapitanie! To tylko dla naszych najznamienitszych gości. Skoro sprzedałeś nam już kilka napędów skokowych, mogę ci powiedzieć, że oferujemy coś o wiele cenniejszego niż pieniądze. Na razie mogę ci zaoferować tylko potężny Tripulse Shredder, ale z czasem damy ci dostęp do wszelkiego rodzaju broni. Dwa Tripulse Shreddery i nasza sympatia dla jednego napędu skokowego to układ, który proponuję, "mówią, prezentując ci broń. Teraz, gdy przyjrzysz się bliżej, zauważysz, że ta broń wydaje się dość podobna do innej broni Hai, ale jest w jakiś sposób ulepszona. Obok Tripulsów możesz dostrzec coś, co wygląda jak bardzo małe działo jonowe i wieżyczkę zamontowaną na dziale jonowym.`
 			label weapons
 			choice
-				`	"Tell me more about those Tripulse Shredders I can buy."`
+				`	"Powiedz mi więcej o niszczarkach Tripulse, które mogę kupić."`
 					to display
 						not "choice: tripulse"
 					goto tripulse
-				`	"I'll settle for the tripulse, then."`
+				`	"W takim razie zadowolę się potrójnym impulsem."`
 					to display
 						has "choice: tripulse"
 					goto "buy tripulse"
-				`	"Can you tell me more about that small ionic weapon?"`
+				`	"Czy możesz mi powiedzieć coś więcej o tej małej broni jonowej?"`
 					to display
 						not "choice: blaster"
-				`	"I'd like to learn about this... ion cannon mounted on a turret?"`
+				`	"Chciałbym się dowiedzieć czegoś więcej na temat... działa jonowego zamontowanego na wieżyczce?"`
 					to display
 						not "choice: turret"
 					goto turret
-				`	"I would just prefer the money, actually."`
+				`	"Właściwie wolałbym pieniądze."`
 					goto money
 			action
 				set "choice: blaster"
 			scene "outfit/hai ionic blaster"
-			`	"Ah, the Blaster. It is favored by many Shield Beetle captains, because it can easily help them turn the tide of battle without needing to dedicate too much weapon space to it. Especially considering its other effects, its damage potential is serviceable. While it is true that it does not do enough ion damage to properly disable a ship on its own, it is able to jam their weapons and will give you the upper hand in a long fight. This is a more recent innovation, however, and some say it lacks the... finesse of others.`
+			`	"Ach, Blaster. Jest ulubionym miotaczem wielu kapitanów Tarczowych Żuków, ponieważ może im łatwo odwrócić losy bitwy bez konieczności poświęcania mu zbyt dużej ilości miejsca na broń. Zwłaszcza biorąc pod uwagę jego inne efekty, jego potencjał rażenia jest godny uwagi. Co prawda, nie zadaje wystarczających obrażeń jonowych, aby skutecznie unieszkodliwić statek samodzielnie, ale jest w stanie zablokować jego broń i da ci przewagę w długiej walce. To jednak nowsza innowacja i niektórzy twierdzą, że brakuje jej... finezji innych.`
 				goto "back to choose"
 			label turret
 			action
 				set "choice: turret"
 			scene "outfit/hai ionic turret"
-			`	"That is my preferred weapon out of all of them, by far. Unlike the Ion Cannon that is a hybrid weapon meant to damage the enemy from long range whilst applying a good deal of ionization, this one's role is mostly to disable enemy ships. Even a ship with many batteries will cower before this weapon! And due to its high range and fast turn-rate, small ships and even fighters will never bother you again!`
+			`	"To zdecydowanie moja ulubiona broń ze wszystkich. W przeciwieństwie do działa jonowego, które jest bronią hybrydową, mającą na celu zadawanie obrażeń wrogowi z dużej odległości, a jednocześnie dostarczanie dużej dawki jonizacji, to służy głównie do unieszkodliwiania wrogich statków. Nawet statek z wieloma bateriami ugnie się przed tą bronią! A dzięki dużemu zasięgowi i szybkiej rotacji, małe statki, a nawet myśliwce, nigdy więcej nie będą cię niepokoić!`
 			label "back to choose"
-			`	"However, we only have these weapons in very limited quantities, and as such we cannot afford to give these to you yet. So, about my offer, have you made up your mind?"`
+			`	"Mamy jednak tę broń w bardzo ograniczonych ilościach i dlatego nie możemy sobie pozwolić na jej dostarczenie. A więc, co do mojej oferty, czy podjąłeś już decyzję?"`
 				goto weapons
 
 			label money
-			`	"Oh. Well, in that case, we will not bother you again with this weapon, or any other, Captain, here or in the job board."`
+			`	"Och. W takim razie nie będziemy cię więcej niepokoić tą bronią ani żadną inną, Kapitanie, ani tutaj, ani na tablicy ogłoszeń."`
 			choice
-				`	"Sounds good to me."`
-				`	"Wait, what was that weapon again?"`
+				`	"Brzmi dobrze."`
+				`	"Zaczekaj, co to była za broń?"`
 					goto tripulse
 			action
 				payment 1000000
 				set "unfettered: money for drives"
-			`	"As you wish. Do remember that if you want to sell further jump drives to us for money you may go to the job board."`
+			`	"Jak chcesz. Pamiętaj, że jeśli chcesz sprzedać nam więcej napędów rozruchowych za pieniądze, możesz skorzystać z tablicy ogłoszeń."`
 				goto end
 
 			label tripulse
 			action
 				set "choice: tripulse"
 			scene "outfit/tripulse shredder"
-			`	"The Tripulse Shredder may seem crude, but it packs a punch! Its specialty is how it combines a lot of firepower in one gun slot, and, due to its burst nature, it's perfect for pilots who already use hit and run tactics. Some captains even say that a Sea Scorpion can get the upper hand against a Shield Beetle when it uses four of them, if you know what you're doing, of course! As I said, I may offer you two of these in exchange for your jump drive."`
+			`	"Tripulse Shredder może wydawać się prymitywny, ale ma moc! Jego specjalnością jest połączenie dużej siły ognia w jednym miejscu, a dzięki szybkiemu działaniu idealnie nadaje się dla pilotów, którzy już stosują taktykę uderz i uciekaj. Niektórzy kapitanowie twierdzą nawet, że Sea Scorpion może zyskać przewagę nad Shield Beetle, gdy użyje czterech z nich, oczywiście, jeśli wiesz, co robisz! Jak już wspomniałem, mogę zaoferować ci dwa z nich w zamian za twój napęd skokowy."`
 				goto weapons
 			label "buy tripulse"
 			action
 				outfit "Tripulse Shredder" 2
-			`	They order their crew to do the transfer and come to address you before leaving. "Do note that if you ever want more weapons, we will always be willing to trade them for jump drives in the job board. However, we can always offer money instead if that is of higher value to you. Of course, we can only do this exchange here on <origin>, given it is where these advanced weapons are produced and stocked."`
+			`	Rozkazują swojej załodze, aby dokonała transferu i skontaktowała się z Tobą przed odlotem. "Pamiętaj, że jeśli kiedykolwiek będziesz potrzebować więcej broni, zawsze chętnie wymienimy ją na napędy rozruchowe na tablicy ogłoszeń. Zawsze możemy jednak zaoferować pieniądze, jeśli będzie to dla Ciebie bardziej wartościowe. Oczywiście, możemy to zrobić tylko tutaj, na <origin>, biorąc pod uwagę, że to tam ta zaawansowana broń jest produkowana i składowana."`
 			label end
 			branch spareJD
 				"outfit (cargo): Jump Drive" + "outfit (flagship installed): Hyperdrive" + "outfit (flagship installed): Scram Drive" + "outfit (flagship installed): Jump Drive" > 1
 			action
 				outfit "Hyperdrive" 1
 			label spareJD
-			`	The engineer leaves and you return to your ship after being escorted out of the facility.`
+			`	Inżynier odchodzi, a ty wracasz na swój statek po eskortowaniu z obiektu.`
 				accept
 
 			label dodge
 			action
 				"unfettered: jd to sell" += 2
 				"unfettered: dodged the blade" ++
-			`	<as before (run)> manage to dodge the blade but are then left defenseless when the same Unfettered closes with another one and slashes down to strike. They stop at the last possible moment, dissatisfaction clear on their face.`
+			`	<as before (run)> udaje się uniknąć ostrza, ale zostaje bezbronny, gdy ten sam Nieskrępowany atakuje kolejnego i atakuje. Zatrzymują się w ostatniej chwili, z wyraźnym niezadowoleniem na twarzy.`
 			branch fail
 				has "unfettered: flee from the blade"
-			`	"So this is how you 'fight,' Captain? You hide? You dodge? You refuse to seize our weapons, so you will not have them."`
+			`	"Więc tak "walczysz", Kapitanie? Chowasz się? Unikasz? Odmawiasz przejęcia naszej broni, więc jej nie będziesz miał."`
 				goto fail
 			label flee
 			action
 				"unfettered: jd to sell" += 4
 				"unfettered: flee from the blade" ++
-			`	<as before (flee)> run away from the blade without any difficulty, but the Hai that threw it catches up to you in mere seconds and immobilizes you with their blade on your throat.`
-			`	"You disappoint me, Captain. In battle it is of great importance that you identify your advantages over the enemy and not show weakness by running, else they will come in for the kill. You have failed in both ways here. Never would you have been able to outrun me. All you did was show fear."`
+			`	<as before (flee)> Uciekasz przed ostrzem bez żadnych trudności, ale Hai, który je rzucił, dogania cię w ciągu kilku sekund i unieruchamia cię, przystawiając ostrze do twojego gardła.`
+			`	"Rozczarowujesz mnie, Kapitanie. W bitwie niezwykle ważne jest, aby dostrzec swoją przewagę nad wrogiem i nie okazywać słabości ucieczką, bo inaczej zaatakuje cię znienacka. Zawiodłeś w obu przypadkach. Nigdy nie zdołałbyś mnie wyprzedzić. Po prostu okazałeś strach."`
 				to display
 					not "unfettered: dodged the blade"
 			label fail
 			action
 				"unfettered: blade rodeo" ++
-			`	"You really keep on disappointing me, Captain. At one time you tried to avoid a fight you could not flee from, and the other to dodge a weapon that was so readily presented to you? Maybe you truly are no warrior and let most of your subordinates do the dirty work."`
+			`	"Naprawdę ciągle mnie rozczarowujesz, Kapitanie. Kiedyś próbowałeś uniknąć walki, przed którą nie mogłeś uciec, a innym razem uniknąć broni, która tak łatwo ci się nadarzyła? Może naprawdę nie jesteś wojownikiem i pozwalasz większości swoich podwładnych wykonywać brudną robotę."`
 				to display
 					"unfettered: flee from the blade" == 1
 					"unfettered: dodged the blade" == 1
-			`	"I will not keep on teaching you the same lesson! You had your chance. We cannot accept one that does not learn from their mistakes. It seems that we cannot trust you with our most advanced weapons." She then leaves, visibly irritated.`
+			`	"Nie będę cię ciągle uczyć tej samej lekcji! Miałeś swoją szansę. Nie możemy przyjąć kogoś, kto nie uczy się na błędach. Wygląda na to, że nie możemy ci powierzyć naszej najnowocześniejszej broni. " Po czym odchodzi, wyraźnie zirytowana.`
 				to display
 					or
 						"unfettered: dodged the blade" > 1
 						"unfettered: flee from the blade" > 1
 				decline
-			`	<leave> The engineer, who had watched the fight then explains, "Since you have failed the test we cannot give you access to our vault yet. Our weapons are only meant for the most capable of warriors. You will of course still be able to trade jump drives for money, but until you otherwise prove yourself, that is the extent of it."`
-			`	"This mistake is not permanent; I am sure she will happily forgive you, if you will only bring us more jump drives. Another engineer will be waiting for you at your hatch when that is the case."`
+			`	<leave> Inżynier, który obserwował walkę, wyjaśnia: "Skoro oblałeś test, nie możemy ci jeszcze udostępnić dostępu do naszego skarbca. Nasza broń jest przeznaczona tylko dla najzdolniejszych wojowników. Oczywiście nadal będziesz mógł wymieniać napędy skokowe na pieniądze, ale dopóki nie udowodnisz, że potrafisz, to tyle."`
+			`	"Ten błąd nie jest trwały; jestem pewien, że z radością ci wybaczy, jeśli tylko przyniesiesz nam więcej napędów rozruchowych. W takim przypadku przy włazie będzie na ciebie czekać inny inżynier."`
 				to display
 					"unfettered: jd to sell" < "Unfettered Jump Drive 4: failed"
 				defer
-			`	"In fact, your reputation for bringing us jump drives is so great she has no choice but to forgive you in the near future. Another engineer will be waiting for you at your hatch when that is the case."`
+			`	"Właściwie, twoja reputacja w dostarczaniu nam napędów rozruchowych jest tak dobra, że nie ma innego wyjścia, jak ci wybaczyć w najbliższej przyszłości. Inny inżynier będzie na ciebie czekał przy twoim luku, kiedy to nastąpi."`
 				to display
 					"unfettered: jd to sell" > "Unfettered Jump Drive 4: failed"
 				defer

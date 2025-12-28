@@ -169,9 +169,9 @@ outfitter "Avgi Twilight Guard"
 	"Specular Deflector"
 
 outfitter "Avgi Atomics"
-	`"Ophrys" Nuclear Torpedo`
+	`"Ophrys" Torpeda nuklearna`
 	"Ophrys Stockpile"
-	`"Orchid" Nuclear Missile`
+	`"Orchid" Pocisk nuklearny`
 
 outfitter "Avgi Dissonance Smuggling"
 	"Speckle Coilgun"

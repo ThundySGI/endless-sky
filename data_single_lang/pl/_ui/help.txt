@@ -12,187 +12,187 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 help "bank"
-	`This is the bank. Here, you can apply for new mortgages, if your income and credit history allows it. The bank is also a good place to get an overview of your daily expenses: mortgage payments, crew salaries, etc.`
-	`Paying off a mortgage early means you pay less interest to the bank, but it is sometimes wiser to instead use your money to buy a bigger ship which can earn you more income.`
+	`To jest bank. Tutaj możesz ubiegać się o nowe kredyty hipoteczne, jeśli Twój dochód i historia kredytowa na to pozwalają. Bank to również dobre miejsce, aby uzyskać przegląd swoich codziennych wydatków: rat kredytu hipotecznego, wynagrodzeń załogi itp. `
+	`Spłata kredytu hipotecznego przed terminem oznacza, że płacisz bankowi mniej odsetek, ale czasami mądrzej jest przeznaczyć pieniądze na zakup większego statku, który może przynieść Ci większy dochód.`
 
 help "bank advanced"
-	`When entering a credit value at the bank, you can put in an exact number, or use the suffixes K, M, B, and T as shorthand for thousands, millions, billions, and trillions. For example, entering a value such as "100k" would count as 100,000 credits.`
-	`Entering a number that is higher than what you or the bank have available will default to the maximum available value. For example, entering "1m" to pay off a 100,000 credit loan will completely pay off the loan without giving extra, should you have available credits.`
+	`Podczas wprowadzania wartości kredytu w banku można wpisać dokładną liczbę lub użyć sufiksów K, M, B i T jako skrótu dla tysięcy, milionów, miliardów i bilionów. Na przykład, wprowadzenie wartości takiej jak "100k" będzie liczone jako 100 000 kredytów.`
+	`Wprowadzenie kwoty wyższej niż dostępna kwota, którą Ty lub bank macie do dyspozycji, spowoduje domyślnie przyjęcie maksymalnej dostępnej wartości. Na przykład, wpisanie "1m" w celu spłaty kredytu w wysokości 100 000 dolarów spowoduje całkowitą spłatę kredytu bez konieczności dopłacania, o ile dysponujecie dostępnymi środkami.`
 
 help "dead"
-	`Uh-oh! You just died. The universe can be a dangerous place for new captains!`
-	`Fortunately, your game is automatically saved every time you leave a planet. To load your most recent saved game, press <Show main menu> to return to the main menu, then click on "Manage Pilots" and "Enter Ship."`
+	`Ojej! Właśnie umarłeś. Wszechświat może być niebezpiecznym miejscem dla nowych kapitanów!`
+	`Na szczęście Twoja gra jest automatycznie zapisywana za każdym razem, gdy opuszczasz planetę. Aby wczytać ostatnio zapisaną grę, naciśnij <Show main menu>, aby powrócić do menu głównego, a następnie kliknij "Zarządzaj pilotami" i "Wejdź na statek."`
 
 help "disabled"
-	`Your ship just got disabled! Before an enemy ship finishes you off, you should find someone to help you.`
-	`Press <Select next ship> to cycle through all the ships in this system. When you have a friendly one selected, press <Talk to selected ship> to hail it. You can then ask for help, and the ship will come over and patch you up.`
-	`If the ship that disabled you is still hanging around, you might need to hail them first and bribe them to leave you alone.`
+	`Twój statek właśnie został unieruchomiony! Zanim wrogi statek cię wykończy, powinieneś znaleźć kogoś, kto ci pomoże.`
+	`Naciśnij <Select next ship>, aby przejrzeć wszystkie statki w tym układzie. Po wybraniu przyjaznego statku naciśnij <Talk to selected ship>, aby go wywołać. Możesz wtedy poprosić o pomoc, a statek podpłynie i cię opatrzy.`
+	`Jeśli statek, który cię unieruchomił, wciąż się tam kręci, może będziesz musiał najpierw go zawołać i przekupić, żeby zostawił cię w spokoju.`
 
 help "hiring"
-	`Hiring extra crew is only helpful if you plan on capturing enemy ships. Each crew member other than yourself is paid 100 credits per day. Larger ships require more than one crew member, but you will automatically hire the minimum number of crew when you buy those ships.`
-	`Crew members take up space that can otherwise be used for passengers.`
+	`Zatrudnienie dodatkowej załogi jest pomocne tylko wtedy, gdy planujesz przejmować wrogie statki. Każdy członek załogi, oprócz ciebie, otrzymuje 100 kredytów dziennie. Większe statki wymagają więcej niż jednego członka załogi, ale automatycznie zatrudnisz minimalną liczbę członków załogi przy zakupie tych statków.`
+	`Członkowie załogi zajmują przestrzeń, która mogłaby być przeznaczona dla pasażerów.`
 
 help "jobs"
-	`Taking on jobs is a safe way to earn money. Special missions are offered in the Spaceport; more mundane jobs are posted on the Job Board. Most special missions are only offered once: if you turn one down, it will not be offered to you again.`
-	`The payment for a job depends on how far you must travel and how much you are carrying. Jobs that have a time limit pay extra, but you are paid nothing if you miss the deadline.`
-	`As you gain a reputation for skill in combat, new jobs will become available, including escorting convoys and bounty hunting.`
+	`Podejmowanie zleceń to bezpieczny sposób na zarabianie pieniędzy. Misje specjalne są oferowane w porcie kosmicznym; bardziej prozaiczne zlecenia są publikowane na tablicy ogłoszeń. Większość misji specjalnych jest oferowana tylko raz: jeśli odrzucisz daną, nie zostanie Ci ona ponownie zaproponowana.`
+	`Wynagrodzenie za zlecenie zależy od odległości, jaką musisz pokonać, i ilości przewożonego mienia. Za zlecenia z limitem czasowym płacisz dodatkowo, ale nie otrzymujesz wynagrodzenia, jeśli nie dotrzymasz terminu.`
+	`W miarę jak będziesz zdobywać reputację za umiejętności bojowe, nowe zadania staną się dostępne, w tym eskortowanie konwojów i łowcy nagród.`
 
 help "lost 1"
-	`There's nothing out here. The only way to get to another star system is by jumping through hyperspace. Unless you are out of fuel, you can jump by pressing <Initiate hyperspace jump>. To select which system you want to jump to, bring up the map by pressing <View star map>.`
-	`At any time, you can return to the main menu by pressing <Show main menu>. All the key controls can be viewed, and changed, in the Preferences.`
+	`Nic tu nie ma. Jedynym sposobem na dostanie się do innego układu gwiezdnego jest skok przez nadprzestrzeń. O ile nie skończyło ci się paliwo, możesz skoczyć, naciskając <Initiate hyperspace jump>. Aby wybrać układ, do którego chcesz skoczyć, wywołaj mapę, naciskając <View star map>.`
+	`W dowolnym momencie możesz wrócić do menu głównego, naciskając <Show main menu>. Wszystkie klawisze sterujące można wyświetlić i zmienić w Preferencjach.`
 
 help "lost 2"
-	`You seem to be lost. The universe is a big and complicated place, and no one is going to hold your hand out here. You might want to review the key controls (press <Show main menu> to bring up the main menu, then click on "Preferences") to figure out what is going on. There is also a player's manual with much more information. To read it, go to endless-sky.github.io and click on "Manual."`
+	`Wygląda na to, że się zgubiłeś. Wszechświat jest ogromny i skomplikowany, i nikt cię tu nie wesprze. Warto przejrzeć sterowanie klawiszami (naciśnij <Show main menu>, aby wywołać menu główne, a następnie kliknij "Preferencje"), aby dowiedzieć się, co się dzieje. Dostępna jest również instrukcja obsługi gracza z wieloma dodatkowymi informacjami. Aby ją przeczytać, przejdź na stronę endless-sky.github.io i kliknij "Manual."`
 
 help "lost 3"
-	`The void between the stars is cold and empty. Your ship, a tiny oasis of warmth, drifts alone out here illuminated only by the distant light of cold, uncaring suns. The distances between the stars are vast, beyond what the human mind can grasp; you could spend your whole life drifting out here and never reach another star.`
-	`Or, you could press <Initiate hyperspace jump> to use your hyperdrive. It will get you there a whole lot faster.`
+	`Pustka między gwiazdami jest zimna i pusta. Twój statek, maleńka oaza ciepła, dryfuje samotnie tutaj, oświetlony jedynie odległym światłem zimnych, obojętnych słońc. Odległości między gwiazdami są ogromne, poza zasięgiem ludzkiego umysłu; mógłbyś spędzić całe życie dryfując tutaj i nigdy nie dotrzeć do innej gwiazdy.`
+	`Możesz też nacisnąć <Initiate hyperspace jump>, aby użyć hipernapędu. Dotrzesz tam o wiele szybciej.`
 
 help "lost 4"
-	`Out here in the endless sky, you have the freedom to do whatever you want in your tiny new spaceship. Become the captain of a merchant fleet. Or a bounty hunter. Discover strange alien societies and powerful new technology.`
-	`Or if you want, you can just keep drifting here in empty space. Unless you've been ignoring all these messages, you already know that you can jump to another star system by selecting it in the map (which you bring up by pressing <View star map>), then closing the map and pressing <Initiate hyperspace jump>.`
+	`Tu, na bezkresnym niebie, masz swobodę robienia wszystkiego, na co masz ochotę, w swoim nowym, maleńkim statku kosmicznym. Zostań kapitanem floty handlowej. Albo łowcą nagród. Odkryj dziwne obce społeczeństwa i potężną nową technologię.`
+	`Albo, jeśli chcesz, możesz po prostu dryfować dalej w pustej przestrzeni. O ile nie ignorowałeś wszystkich tych komunikatów, wiesz już, że możesz przeskoczyć do innego układu gwiezdnego, wybierając go na mapie (którą wywołujesz klawiszem <View star map>), a następnie zamykając mapę i naciskając <Initiate hyperspace jump>.`
 
 help "lost 5"
-	`The hum of your ship's engine is the only sound you hear. As you have traveled farther and farther away from the center of this star system, even the occasional plink of micrometeorites against your hull has stopped. Deep space is utterly quiet and strangely beautiful. A different captain might grow bored out here, but you find yourself content and at peace.`
-	`Or maybe you're just really, really bad at figuring out how to play this game.`
+	`Słychać tylko szum silnika twojego statku. W miarę jak oddalałeś się coraz bardziej od centrum tego układu gwiezdnego, nawet sporadyczne uderzenia mikrometeorytów o kadłub ustały. Głębia kosmosu jest absolutnie cicha i dziwnie piękna. Inny kapitan mógłby się tu nudzić, ale ty czujesz się zadowolony i spokojny.`
+	`Albo może po prostu naprawdę bardzo źle ci idzie granie w tę grę.`
 
 help "lost 6"
-	`You slip deeper and deeper into the zen-like calm of outer space. The Tao which can be spoken is not the true Tao. The game that must be played is not the true game. You let go of all desire: your desire to press <Show main menu> and check the game's preferences to find out how to control your ship. The desire to view the other places you can travel to by pressing <View star map>. You release even the desire to press <Initiate hyperspace jump> and initiate a random hyperjump in whatever direction you are facing in. Enlightenment hovers on the edge of your consciousness, so close you can almost grasp it.`
+	`Zanurzasz się coraz głębiej w zenowy spokój kosmosu. Tao, które można wypowiedzieć, nie jest prawdziwym Tao. Gra, w którą trzeba grać, nie jest prawdziwą grą. Porzucasz wszelkie pragnienia: pragnienie naciśnięcia <Show main menu> i sprawdzenia preferencji gry, aby dowiedzieć się, jak sterować statkiem. Pragnienie zobaczenia innych miejsc, do których możesz podróżować, naciskając <View star map>. Porzucasz nawet pragnienie naciśnięcia <Initiate hyperspace jump> i inicjujesz losowy hiperskok w dowolnym kierunku, w którym jesteś zwrócony. Oświecenie wisi na skraju twojej świadomości, tak blisko, że niemal możesz je uchwycić.`
 
 # Note to future proofreaders: "vasty nothingness" is a reference to Firefly, see http://signal.serenityfirefly.com/mmx/segment/view.php/2253
 help "lost 7"
-	`The void whispers its secret to your soul: outer space, it says, is not about lasers or explosions. It is not about fighting space pirates or saving the galaxy. No, the true message of the void is the utter loneliness you have found while drifting here: one tiny speck of warmth, insignificant compared to the vasty nothingness between the stars and the trillions upon trillions of souls of proud humans and inscrutable aliens whom you will never meet.`
-	`The inner voice urging you to do something, anything rather than just continuing to drift here, falls silent...`
+	`Pustka szepcze swoją tajemnicę twojej duszy: kosmos, jak mówi, nie jest o laserach ani eksplozjach. Nie chodzi o walkę z kosmicznymi piratami ani o ratowanie galaktyki. Nie, prawdziwym przesłaniem pustki jest absolutna samotność, którą odnalazłeś dryfując tutaj: jedna maleńka iskierka ciepła, nic nieznacząca w porównaniu z bezkresną nicością między gwiazdami i bilionami dusz dumnych ludzi i nieprzeniknionych kosmitów, których nigdy nie spotkasz.`
+	`Wewnętrzny głos, który nakazuje ci coś zrobić, cokolwiek, zamiast po prostu dryfować w tym miejscu, milknie...`
 
 help "map"
-	`This map shows all the star systems you know about and the hyperspace links between them. You can use the map to plot a hyperspace course by clicking on the system you want to travel to. To initiate a jump to that system, close the map and press <Initiate hyperspace jump>.`
-	`You can also press F to search the map for a specific system or planet.`
+	`Ta mapa pokazuje wszystkie znane Ci układy gwiezdne i połączenia hiperprzestrzenne między nimi. Możesz użyć mapy do wytyczenia kursu hiperprzestrzennego, klikając układ, do którego chcesz się udać. Aby rozpocząć skok do tego układu, zamknij mapę i naciśnij <Initiate hyperspace jump>.`
+	`Możesz również nacisnąć klawisz F, aby przeszukać mapę w celu znalezienia konkretnego układu lub planety.`
 
 help "map advanced"
-	`As you explore more of the galaxy, the star map will quickly become a very powerful tool. Clicking on a distant system will automatically plot the quickest route to it. You can Shift+click on systems to plot a route between them, or Control+click to select a system without setting a route to it.`
-	`There are many other useful modes the map can be set to. Click on one of the buttons in the lower right corner to learn more.`
+	`W miarę jak będziesz eksplorować galaktykę, mapa gwiazd szybko stanie się niezwykle potężnym narzędziem. Kliknięcie na odległy układ automatycznie wyznaczy najszybszą trasę do niego. Możesz nacisnąć klawisz Shift i kliknąć na układy, aby wyznaczyć trasę między nimi, lub klawisz Control i kliknąć, aby zaznaczyć układ bez wyznaczania trasy do niego.`
+	`Mapa oferuje wiele innych przydatnych trybów. Kliknij jeden z przycisków w prawym dolnym rogu, aby dowiedzieć się więcej.`
 
 help "map advanced ports"
-	`The ports panel shows you where systems with spaceports are, as well as a plethora of other information. Clicking on the name of the system, the government of the system, the lines under the name of each planet, or any trade commodity will color the map differently, the key to which can be seen on the right side of the screen.`
-	`Clicking the name of a planet, or clicking on a planet in the orbit map on the right side of the screen, will show that planet's description if you have visited it already. Clicking a planet on the orbit map will also tell your autopilot to land on that planet after you have arrived at that system at the end of your jump path.`
+	`Panel portów pokazuje lokalizację systemów z portami kosmicznymi, a także mnóstwo innych informacji. Kliknięcie na nazwę systemu, jego rząd, linie pod nazwą każdej planety lub dowolny towar handlowy spowoduje zmianę koloru mapy. Legenda znajduje się po prawej stronie ekranu.`
+	`Kliknięcie nazwy planety lub kliknięcie planety na mapie orbit po prawej stronie ekranu spowoduje wyświetlenie opisu tej planety, jeśli już ją odwiedziłeś. Kliknięcie planety na mapie orbit spowoduje również, że Twój autopilot wyląduje na tej planecie po dotarciu do tego układu na końcu ścieżki skoku.`
 
 help "map advanced shops"
-	`The shipyard and outfitter map panels respectively display the ships and outfits sold on any planets that you have seen. Ships and outfits are displayed in categories which can be collapsed by clicking on the category name. Using Shift+click on a category name will collapse or uncollapse all the categories at once.`
-	`Each ship or outfit can be clicked on, displaying that item's stats while also highlighting any planets where it is sold. Using Shift+click on a ship or outfit after you already have one selected will display that item's stats side by side with the previously selected item.`
-	`You can also press F to search the shipyard and outfitter maps for a specific ship or outfit.`
+	`Panele mapy stoczni i sklepu z wyposażeniem wyświetlają odpowiednio statki i wyposażenie sprzedawane na wszystkich planetach, które widziałeś. Statki i wyposażenie są wyświetlane w kategoriach, które można zwinąć, klikając nazwę kategorii. Użycie Shift + kliknięcie na nazwie kategorii spowoduje zwinięcie lub rozwinięcie wszystkich kategorii jednocześnie.`
+	`Każdy statek lub strój można kliknąć, aby wyświetlić statystyki przedmiotu i jednocześnie podświetlić planety, na których jest on sprzedawany. Kliknięcie z wciśniętym klawiszem Shift na statku lub stroju po wybraniu jednego z nich spowoduje wyświetlenie statystyk tego przedmiotu obok statystyk poprzednio wybranego przedmiotu.`
+	`Możesz również nacisnąć klawisz F, aby przeszukać mapy stoczni i dostawców w celu znalezienia konkretnego statku lub sprzętu.`
 
 help "map advanced stars"
-	`The starry map mode displays the stars on the system map. This can also be enabled by pressing T. The stars present in a system affect the amount of solar power and solar wind available for use by solar collectors and ramscoops respectively.`
+	`Tryb mapy gwiaździstej wyświetla gwiazdy na mapie systemu. Można go również włączyć, naciskając klawisz T. Obecność gwiazd w systemie wpływa na ilość energii słonecznej i wiatru słonecznego dostępnego do wykorzystania przez kolektory słoneczne i kolektory ramscoop.`
 
 help "map advanced danger"
-	`The galaxy can be a dangerous place! Pirates raid some systems more frequently or in greater strength than others, and a poorly defended convoy risks attracting them in many systems. To get an idea of the relative danger of different systems, click on the alert icon next to the system name.`
+	`Galaktyka bywa niebezpiecznym miejscem! Piraci napadają na niektóre systemy częściej lub z większą siłą niż na inne, a słabo broniony konwój ryzykuje, że w wielu systemach ich przyciągnie. Aby zorientować się w względnym zagrożeniu różnych systemów, kliknij ikonę alertu obok nazwy systemu.`
 
 help "multiple ships"
-	`Now that you have more than one ship, you can reorder the ships in your fleet by clicking and dragging them in the shipyard, outfitter, or player info panel, as long as you are landed. You will use the first ship in the list as your flagship.`
-	`You can also "park" escorts in the player info panel.`
+	`Teraz, gdy masz więcej niż jeden statek, możesz zmienić kolejność statków w swojej flocie, klikając i przeciągając je w stoczni, u dostawcy sprzętu lub w panelu informacyjnym gracza, o ile jesteś już na miejscu. Pierwszy statek z listy będzie Twoim okrętem flagowym.`
+	`Możesz również "parkować" eskorty w panelu informacji o graczu.`
 
 help "shop with multiple ships"
-	`If you want to select a few similar ships from your fleet at once, double-click one of them. Other ships of the same model, with the same outfits as the one you selected will be added to your selection.`
+	`Jeśli chcesz wybrać kilka podobnych statków ze swojej floty jednocześnie, kliknij dwukrotnie jeden z nich. Inne statki tego samego modelu, z tym samym wyposażeniem, co wybrany, zostaną dodane do Twojego wyboru.`
 
 help "player info"
-	`The player info panel contains a wide variety of information about your pilot, including their net worth, combat rating, salary, and licenses.`
-	`It also contains a list of all ships you currently own. Clicking on a ship and then going to the ship info tab, or double clicking on it, will bring up more information about that ship.`
-	`Your pilot's logbook and current missions can be accessed by clicking on the buttons below the panel.`
-	`The player info panel can be brought up at any time by pressing <View player info>, including mid-flight. However, some functionalities of the panel can only be accessed while landed.`
+	`Panel informacji o graczu zawiera szeroką gamę danych o twoim pilocie, w tym wartość netto, ocenę bojową, wynagrodzenie i licencje.`
+	`Zawiera również listę wszystkich statków, które aktualnie posiadasz. Kliknięcie statku, a następnie przejście do zakładki informacji o statku lub dwukrotne kliknięcie go spowoduje wyświetlenie dodatkowych informacji o tym statku.`
+	`Dostęp do dziennika pokładowego pilota i aktualnych misji jest możliwy po kliknięciu przycisków znajdujących się pod panelem.`
+	`Panel informacyjny gracza można wyświetlić w dowolnym momencie, naciskając <View player info>, również w trakcie lotu. Jednak niektóre funkcje panelu są dostępne tylko podczas lądowania.`
 
 help "fleet management"
-	`You can click on the column headers to temporarily sort your fleet. To make this order permanent, press the "Save Order" button.`
-	`You can also park your ships by selecting them and pressing "Park", or by pressing "Park Local" or "Park All". Parked ships will not launch or follow you, and do not require any crew salaries. You cannot park or unpark ships mid-flight.`
+	`Możesz klikać nagłówki kolumn, aby tymczasowo posortować swoją flotę. Aby to zamówienie stało się trwałe, naciśnij przycisk "Zapisz zamówienie".`
+	`Możesz również zaparkować swoje statki, wybierając je i naciskając "Park", "Park Local" lub "Park All". Zaparkowane statki nie wystartują ani nie będą podążać za Tobą i nie będą wymagały żadnych wynagrodzeń dla załogi. Nie możesz zaparkować ani odparkować statków w trakcie lotu.`
 
 help "ship info"
-	`The ship info tab lets you view detailed information about ships in your fleet at any time. This includes any information you could see at a shipyard or outfitter, as well as the cargo and passengers distributed among each ship.`
-	`Ships can be renamed in this panel by clicking on the ship's name. While landed on a planet, you are able to change how guns and turrets are arranged by dragging the name of a weapon to another gun or turret location. While in flight, you are able to jettison individual pieces of cargo by clicking on the name of the cargo.`
+	`Zakładka Informacje o statku umożliwia przeglądanie szczegółowych informacji o statkach w Twojej flocie w dowolnym momencie. Obejmuje to wszelkie informacje dostępne w stoczni lub u dostawcy, a także informacje o ładunku i pasażerach rozłożonych na każdym statku.`
+	`W tym panelu można zmieniać nazwy statków, klikając ich nazwy. Po wylądowaniu na planecie można zmienić rozmieszczenie dział i wieżyczek, przeciągając nazwę broni w inne miejsce, w którym znajduje się działo lub wieżyczka. Podczas lotu można zrzucić poszczególne ładunki, klikając ich nazwy.`
 
 help "multiple ship controls"
-	`Once you're in space with multiple ships that you own, you can give orders to those escorts. Orders will be given to all selected escorts, or if no escorts are selected then all your escorts will receive the order. Escorts can be selected by either clicking on them in space, clicking the ship icon at the bottom left of the screen, or by clicking and dragging to select a group of escorts in space. The list of escort order keys can be found in the preferences panel.`
-	`Escorts can also be ordered with the mouse. Right-clicking on an empty point in space will order escorts to fly to and hold position at that point, while right-clicking on a hostile ship will order your escorts to focus fire on it, and right-clicking on a friendly target will cause them to follow it.`
-	`Escorts can be saved into control groups by pressing Control+number key. All selected escorts will then be bound to that number key, selecting the group when pressed.`
+	`Gdy znajdziesz się w kosmosie z wieloma statkami, które posiadasz, możesz wydawać rozkazy tym eskortom. Rozkazy zostaną wydane wszystkim wybranym eskortom, a jeśli żadna eskorta nie jest wybrana, wszystkie otrzymają rozkaz. Eskorty można wybrać, klikając je w kosmosie, klikając ikonę statku w lewym dolnym rogu ekranu lub klikając i przeciągając, aby zaznaczyć grupę eskort w kosmosie. Listę klawiszy rozkazów eskortowych można znaleźć w panelu preferencji.`
+	`Eskortą można również wydawać rozkazy za pomocą myszy. Kliknięcie prawym przyciskiem myszy na pusty punkt w przestrzeni kosmicznej spowoduje nakazanie eskorcie lotu do tego punktu i utrzymania pozycji w nim, natomiast kliknięcie prawym przyciskiem myszy na wrogi statek nakaże eskorcie skoncentrowanie na nim ognia, a kliknięcie prawym przyciskiem myszy na sojuszniczy cel spowoduje, że eskorta zacznie za nim podążać.`
+	`Eskorty można zapisać w grupach kontrolnych, naciskając Control+klawisz numeryczny. Wszystkie wybrane eskorty zostaną przypisane do tego klawisza numerycznego, a po naciśnięciu zostanie wybrana grupa.`
 
 help "fleet asteroid mining"
-	`With an asteroid scanner and a fleet, you can direct your fleet to assist with mining operations and collect mined resources.`
-	`If your escort or fighter has no weapons but has cargo space, then it will chase after mined resources instead of mining.`
+	`Mając skaner asteroid i flotę, możesz skierować swoją flotę do pomocy w operacjach górniczych i zbieraniu wydobytych surowców.`
+	`Jeśli twoja eskorta lub myśliwiec nie ma broni, ale ma przestrzeń ładunkową, to będzie podążał za wydobytymi surowcami zamiast je wydobywać.`
 
 help "fleet asteroid mining shortcuts"
-	`Shortcuts for asteroid targeting:`
-	`	<Select nearest asteroid> selects the nearest asteroid if you have an asteroid scanner.`
-	`	<Fleet: Fight my target> will focus your fleet on mining a targeted asteroid.`
-	`	<Fleet: Harvest flotsam> will toggle whether your fleet tries to pick up flotsam.`
+	`Skróty do namierzania asteroid:`
+	`	<Select nearest asteroid> wybiera najbliższą asteroidę, jeśli posiadasz skaner asteroid.`
+	`	<Fleet: Fight my target> skoncentruje twoją flotę na wydobyciu wskazanej asteroidy.`
+	`	<Fleet: Harvest flotsam> przełącza, czy Twoja flota ma próbować zbierać pływające śmieci.`
 	``
-	`Alternate targeting:`
-	`	Left click - will target an asteroid without mining it.`
-	`	Right click - will focus your fleet to chase an asteroid and mine it.`
+	`Alternatywne kierowanie:`
+	`	Kliknięcie lewym przyciskiem myszy - spowoduje wybranie asteroidy bez konieczności jej eksploracji.`
+	`	Kliknięcie prawym przyciskiem myszy - skoncentruje Twoją flotę na ściganiu asteroidy i jej wydobyciu.`
 
 help "fleet harvest tutorial"
-	`You can order your escort to pick up discarded cargo or asteroid flotsam.`
+	`Możesz rozkazać swojej eskorcie pozbierać porzucony ładunek lub szczątki asteroidy.`
 	``
-	`<Fleet: Harvest flotsam> will order your fleet to collect flotsam if they have free cargo.`
+	`<Fleet: Harvest flotsam> nakaże twojej flocie zebranie szczątków statku, jeśli mają wolny ładunek.`
 	``
-	`Equip an asteroid scanner to learn more.`
+	`Wyposaż się w skaner asteroid, aby dowiedzieć się więcej.`
 
 help "fighters transfer cargo"
-	`By enabling the "Fighters transfer cargo" preference, drones and fighters in your fleet will transfer cargo to their parent carrier if there is cargo space in the carrier. If a fighter cargo hold is full then it will return to the carrier automatically.`
+	`Włączając preferencję "Fighters transfer cargo", drony i myśliwce w Twojej flocie będą przekazywać ładunek do swojego macierzystego transportowca, jeśli w transportowcu jest wolne miejsce. Jeśli ładownia myśliwca jest pełna, automatycznie powróci on do transportowca.`
 	``
-	`Drones and fighters will transfer cargo upon docking with their carrier for any reason.`
+	`Drony i myśliwce będą przenosić ładunek po dokowaniu do swojego nośnika z dowolnego powodu.`
 
 help "try out fighters transfer cargo"
-	`You have a carrier which can use fighters to collect dropped materials if the fighter has cargo space.`
+	`Masz transporter, który może używać myśliwców do zbierania zrzuconych materiałów, jeśli myśliwiec ma przestrzeń ładunkową.`
 	``
-	`	In Preferences and Settings under the Gameplay section, turn on "Fighters transfer cargo" to learn more.`
+	`	W Preferencjach i Ustawieniach w sekcji Rozgrywka włącz "Fighters transfer cargo", aby dowiedzieć się więcej.`
 
 help "navigation"
-	`Welcome to the sky! To travel to another star system, press <View star map> to view your map, and click on the system you want to travel to. Your hyperdrive can only travel along the "links" shown on your map. After selecting a destination, close your map and press <Initiate hyperspace jump> to jump to that system.`
-	`Your ship does not jump until you release the jump key. Once you have escorts, you can hold the key to get them ready to jump, then release it to have them all jump simultaneously.`
-	`When you reach a new system, you can press <Land on planet / station> to land on any inhabited planets that are there.`
-	`Also, don't worry about crashing into asteroids or other ships; your ship will fly safely below or above them.`
+	`Witamy w niebie! Aby przenieść się do innego układu gwiezdnego, naciśnij <View star map>, aby wyświetlić mapę, i kliknij układ, do którego chcesz się udać. Twój hipernapęd może poruszać się tylko wzdłuż "linków" widocznych na mapie. Po wybraniu celu podróży zamknij mapę i naciśnij <Initiate hyperspace jump>, aby przejść do tego układu.`
+	`Twój statek nie skoczy, dopóki nie zwolnisz klawisza skoku. Gdy masz eskortę, możesz przytrzymać klawisz, aby przygotować ją do skoku, a następnie zwolnić go, aby wszyscy skoczyli jednocześnie.`
+	`Kiedy dotrzesz do nowego układu, możesz nacisnąć <Land on planet / station>, aby wylądować na dowolnej zamieszkanej planecie, która się tam znajduje.`
+	`Nie musisz się martwić zderzeniem z asteroidami lub innymi statkami; Twój statek będzie bezpiecznie przelatywał pod nimi lub nad nimi.`
 
 help "outfitter"
-	`Here, you can buy new equipment for your ship. Your ship has a limited amount of "outfit space," and most outfits use up some of that space.`
-	`Some types of outfits have other requirements as well. For example, only some of your outfit space can be used for engines or weapons; this is your ship's "engine capacity" and "weapon capacity." Guns and missile launchers also require a free "gun port," and turrets require a free "turret mount." Also, missiles can only be bought if you have the right launcher installed.`
-	`Use your scroll wheel or click and drag, to scroll the view.`
-	`As in the trading and shipyard panels, you can hold down Shift, Control, or Alt to buy 5, 20, or 500 of an outfit at once, or multiple keys for larger amounts.`
-	`You can also press F to search the outfitter for a specific item.`
+	`Tutaj możesz kupić nowy ekwipunek do swojego statku. Twój statek ma ograniczoną ilość "miejsca na wyposażenie,", a większość strojów zajmuje część tego miejsca.`
+	`Niektóre rodzaje wyposażenia mają również inne wymagania. Na przykład, tylko część przestrzeni wyposażenia może być przeznaczona na silniki lub broń; jest to "pojemność silników" i "pojemność broni na statku." Działa i wyrzutnie rakiet również wymagają wolnego portu "gun," a wieżyczki - wolnego stanowiska "turret." Ponadto, rakiety można kupić tylko wtedy, gdy zainstalowana jest odpowiednia wyrzutnia.`
+	`Użyj kółka przewijania lub kliknij i przeciągnij, aby przewijać widok.`
+	`Podobnie jak w panelach handlu i stoczni, możesz przytrzymać klawisz Shift, Control lub Alt, aby kupić 5, 20 lub 500 sztuk sprzętu na raz, a w przypadku większych ilości możesz nacisnąć kilka klawiszy.`
+	`Możesz również nacisnąć klawisz F, aby wyszukać konkretny przedmiot w sklepie z artykułami.`
 
 help "shipyard"
-	`Here, you can buy new ships.`
-	`Use your scroll wheel or click and drag, to scroll the view.`
-	`As in the trading and outfitter panels, you can hold down Shift, Control, or Alt to buy 5, 20, or 500 ships at once, or multiple keys for larger amounts.`
-	`You can also press F to search the shipyard for a specific ship.`
+	`Tutaj możesz kupić nowe statki.`
+	`Użyj kółka przewijania lub kliknij i przeciągnij, aby przewijać widok.`
+	`Podobnie jak w panelach handlu i wyposażenia, możesz przytrzymać klawisze Shift, Control lub Alt, aby kupić 5, 20 lub 500 statków na raz, albo kilka klawiszy, aby kupić większe ilości.`
+	`Możesz również nacisnąć klawisz F, aby przeszukać stocznię w celu znalezienia konkretnego statku.`
 
 help "cargo management"
-	`Sometimes you may want to buy some outfits directly into your cargo hold instead of having them installed. Perhaps a mission has asked you to retrieve some outfits or you want to carry extra ammunition to refill your ships somewhere that does not stock those weapons. To accomplish this, you need to switch out of installation mode into 'purchase to cargo' mode. This can be achieved by Control+clicking on your selected ship to deselect it.`
-	`When you are in 'purchase to cargo' mode, your ship information on the right-hand side will be replaced by information on how much cargo space you currently have available.`
-	`Outfits that are in your cargo hold can be (re)installed at any outfitter without cost.`
+	`Czasami możesz chcieć kupić niektóre stroje bezpośrednio do ładowni zamiast je instalować. Być może misja wymagała od Ciebie odzyskania niektórych strojów lub chcesz zabrać ze sobą dodatkową amunicję, aby uzupełnić zapasy na statkach w miejscu, gdzie nie ma tej broni. Aby to zrobić, musisz przełączyć się z trybu instalacji do trybu "zakup do ładowni". Możesz to zrobić, klikając z wciśniętym klawiszem Control wybrany statek, aby go odznaczyć.`
+	`Jeśli jesteś w trybie "zakupu w celu załadunku", informacje o statku po prawej stronie zostaną zastąpione informacjami o tym, ile miejsca na ładunek jest obecnie dostępne.`
+	`Wyposażenie, które znajduje się w luku bagażowym, można bezpłatnie zamontować u dowolnego dostawcy.`
 
 help "uninstalling and storage"
-	`You can also uninstall outfits directly into planetary storage by selecting the outfit and pressing U. This can be useful for if you want to shuffle outfits between ships, store outfits for future use, or simply try on different outfits. Outfits in storage can also be transferred to cargo when you go to 'purchase to cargo' mode. Outfits that are in planetary storage or cargo can be (re)installed at any outfitter without cost.`
-	`If you sell an outfit at an outfitter, then you can immediately buy it back for the same price that you sold it, so long as you do not leave the planet. This means that you do not necessarily need to worry about uninstalling outfits into planetary storage when you are changing outfits around.`
+	`Możesz również odinstalować stroje bezpośrednio do magazynu planetarnego, wybierając strój i naciskając U. Może to być przydatne, jeśli chcesz przenosić stroje między statkami, przechowywać stroje do wykorzystania w przyszłości lub po prostu przymierzać różne stroje. Stroje w magazynie można również przenieść do ładowni, przechodząc w tryb "zakup do ładowni". Stroje znajdujące się w magazynie planetarnym lub ładowni można (ponownie) zainstalować u dowolnego dostawcy bezpłatnie.`
+	`Jeśli sprzedasz strój w sklepie odzieżowym, możesz go od razu odkupić za tę samą cenę, za którą go sprzedałeś, o ile nie opuszczasz planety. Oznacza to, że nie musisz się martwić o demontaż strojów i umieszczanie ich w magazynie planetarnym podczas przebierania się.`
 
 help "outfitter with multiple ships"
-	`You can manage outfits on multiple ships at the same time. Ctrl+click a ship icon to add it to your selection. You can also use Shift+click to select a range of ships.`
-	`When you have more than one ship selected, you can install or remove outfits from all of those ships at once. Additionally, all selected ships with the currently selected outfit installed are marked with a pointer next to their sidebar icon.`
+	`Możesz zarządzać strojami na wielu statkach jednocześnie. Naciśnij Ctrl i kliknij ikonę statku, aby dodać ją do wyboru. Możesz również użyć Shift i kliknięcia, aby zaznaczyć zakres statków.`
+	`Jeśli wybrałeś więcej niż jeden statek, możesz zainstalować lub usunąć stroje ze wszystkich tych statków jednocześnie. Dodatkowo, wszystkie wybrane statki z zainstalowanym aktualnie wybranym strojem są oznaczone wskaźnikiem obok ikony na pasku bocznym.`
 
 help "stranded"
-	`Oops! You just ran out of fuel in an uninhabited star system. Fortunately, other ships are willing to help you.`
-	`Press <Select next ship> to cycle through all the ships in this system. When you have a friendly one selected, press <Talk to selected ship> to hail it. You can then ask for help, and if it has fuel to spare it will fly over and transfer fuel to your ship. This is easiest for the other ship to do if your ship is nearly stationary.`
+	`Ups! Właśnie skończyło ci się paliwo w niezamieszkanym układzie gwiezdnym. Na szczęście inne statki chętnie ci pomogą.`
+	`Naciśnij <Select next ship>, aby przejrzeć wszystkie statki w tym układzie. Po wybraniu przyjaznego statku naciśnij <Talk to selected ship>, aby go wywołać. Możesz wtedy poprosić o pomoc, a jeśli będzie miał wolne paliwo, nadleci i przeleje je na twój statek. Najłatwiej to zrobić, gdy twój statek stoi w miejscu.`
 
 help "trading"
-	`This is the trading panel. Earn money by buying commodities at a low price in one system, and selling at a higher price elsewhere. To view your map of commodity prices in other systems, press <View star map>. To buy or sell, click on [buy] or [sell], or select a line with the up and down arrows and press "+" or "-" (or Enter and Delete).`
-	`You can buy 5 tons at once by holding down Shift, 20 by holding down Control, 500 by holding down Alt, or larger amounts at a time by holding down two keys at once, or even all three.`
+	`To jest panel transakcyjny. Zarabiaj, kupując towary po niskiej cenie w jednym systemie i sprzedając je po wyższej cenie w innym. Aby wyświetlić mapę cen towarów w innych systemach, naciśnij <View star map>. Aby kupić lub sprzedać, kliknij [kup] lub [sprzedaj] albo zaznacz linię strzałkami w górę i w dół i naciśnij "+" lub "-" (lub Enter i Delete).`
+	`Możesz kupić 5 ton na raz, przytrzymując klawisz Shift, 20, przytrzymując klawisz Control, 500, przytrzymując klawisz Alt, lub większe ilości naraz, przytrzymując dwa klawisze jednocześnie, a nawet wszystkie trzy.`
 
 help "friendly disabled"
-	`This ship is disabled and needs your help to patch them up! Pressing <Board selected ship> will fly you to their ship and get them up and running again. Just be sure to do it when no one is trying to kill you, or they could get caught in the crossfire!`
+	`Ten statek jest uszkodzony i potrzebuje twojej pomocy, żeby go naprawić! Naciśnięcie <Board selected ship> przeniesie cię na ich statek i przywróci go do działania. Tylko upewnij się, że nikt nie próbuje cię zabić, bo inaczej mogą wpaść w ogień krzyżowy!`
 
 help "control ship with mouse"
-	`You've enabled controlling your ship with your mouse.`
+	`Włączyłeś sterowanie statkiem za pomocą myszy.`
 	``
-	`The nose of your ship will always turn toward your mouse pointer.`
-	`<Forward thrust> is used to thrust forward.`
-	`<Reverse> is used to thrust reverse.`
-	`Right mouse click will fire primary weapons.`
-	`<Mouse turning (hold)> will toggle mouse turning while it is held.`
-	`The "go to and hold" command is remapped from the right mouse button to the middle one.`
+	`Dziób twojego statku będzie zawsze zwrócony w stronę wskaźnika myszy.`
+	`<Forward thrust> służy do pchnięcia do przodu.`
+	`<Reverse> służy do wciśnięcia biegu wstecznego.`
+	`Kliknięcie prawym przyciskiem myszy spowoduje wystrzelenie broni głównej.`
+	`<Mouse turning (hold)> przełącza obrót myszy, gdy jest przytrzymana.`
+	`Polecenie "przejdź do i przytrzymaj" zostało przemapowane z prawego przycisku myszy na środkowy.`

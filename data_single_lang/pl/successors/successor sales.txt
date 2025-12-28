@@ -52,10 +52,10 @@ shipyard "People's Houses"
 	"Kvelqde-Khora"
 
 outfitter "Successor Basics"
-	`"Aqra" Inductive Reverser`
-	`"Aqra" Inductive Steering`
-	`"Aqra" Inductive Thruster`
-	`1-"Uurau" Betavoltaic Cell`
+	`"Odczyt" Odwracacz indukcyjny`
+	`"Odczyt" Sterowanie indukcyjne`
+	`"Odczyt" Indukcyjny pędnik`
+	`1-"Uurau" Ogniwo betawoltaiczne`
 	"Auxiliary Power Reserve"
 	`"Byiaa" Shield Cortex`
 	"Hyperdrive"
@@ -69,21 +69,21 @@ outfitter "Successor Weapons Heavy"
 	"Pulse Laser Turret"
 
 outfitter "Successor Civilian"
-	`"Aqra" Inductive Reverser`
-	`"Aqra" Inductive Steering`
-	`"Aqra" Inductive Thruster`
-	`1-"Uurau" Betavoltaic Cell`
+	`"Odczyt" Odwracacz indukcyjny`
+	`"Odczyt" Sterowanie indukcyjne`
+	`"Odczyt" Indukcyjny pędnik`
+	`1-"Uurau" Ogniwo betawoltaiczne`
 	"Auxiliary Power Reserve"
 	`"Byiaa" Shield Cortex`
 	"Shield Cortex Interface"
 	"Hyperdrive"
 	"Local Map"
 
-	`"Chyyra" Inductive Reverser`
-	`"Chyyra" Inductive Steering`
-	`"Chyyra" Inductive Thruster`
+	`"Chyyra" Rewerser indukcyjny`
+	`"Chyyra" Sterowanie indukcyjne`
+	`"Chyyra" Indukcyjny ster strumieniowy`
 
-	`3-"Kaska" Betavoltaic Cell`
+	`3-"Kaska" Ogniwo betawoltaiczne`
 	`"Ej" Shield Cortex`
 	"Primary Power Reserve"
 	"Bunk Room"
@@ -95,28 +95,28 @@ outfitter "Successor Civilian"
 	"Successor Cooling"
 
 outfitter "Successor Heavy"
-	`6-"Ruuv" Betavoltaic Cell`
-	`"Tuur" Scanning Suite`
-	`"Veusa" Inductive Reverser`
-	`"Veusa" Inductive Steering`
-	`"Veusa" Inductive Thruster`
+	`6-"Ruuv" Ogniwo betawoltaiczne`
+	`"Tuur" Pakiet skanujący`
+	`"Veusa" Rewerser indukcyjny`
+	`"Veusa" Sterowanie indukcyjne`
+	`"Veusa" Indukcyjny pędnik`
 
 outfitter "Successor High Tech"
-	`OC-"Mavra" Betavoltaic Cell`
-	`"Tuur" Scanning Suite`
-	`"Niis" Inductive Engines`
+	`OC-"Mavra" Ogniwo betawoltaiczne`
+	`"Tuur" Pakiet skanujący`
+	`"Niis" Silniki indukcyjne`
 
 outfitter "High Houses Light"
 	"Auxiliary Power Reserve"
 	`"Nnesa" Fusion Core`
-	`"Ojet" Bimodal Coilgun`
+	`"Ojet" Bimodalny pistolet cewkowy`
 	"Drag Cannon"
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
 	`"Jaase" Shield Cortex`
 	"Shield Cortex Interface"
 	"Kinetic Rail Rifle"
-	`"Veldt" Combat Scanner`
+	`"Veldt" Skaner bojowy`
 
 outfitter "High Houses Heavy"
 	"Primary Power Reserve"
@@ -130,9 +130,9 @@ outfitter "High Houses Heavy"
 	"Multimodal Armor: Light"
 	"Multimodal Armor: Keystone"
 	"Multimodal Armor: Regen"
-	`"Jorv" Shield Cortex`
+	`"Jorv" Kora tarczy`
 
 outfitter "People's Houses"
 	"Overcharged Pulse Laser"
 	"Overcharged Laser Turret"
-	`OC-"Mavra" Betavoltaic Cell`
+	`OC-"Mavra" Ogniwo betawoltaiczne`

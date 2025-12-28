@@ -211,8 +211,8 @@ news "high houses propaganda"
 			"An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the High Houses."
 			"An advertisement plays, showing a group of Successors standing close together against a factory backdrop, their skins all tinted a happy green. It is followed by a voiceover noting that wages have been recently increased."
 			"A short video plays showing the construction of a new spaceport on the surface of a prospering Successor planet. Several warships of the High Houses painted in ceremonial livery pass across the screen, showing clearly who is to be thanked."
-			`A proud-looking Successor naval officer stands before an imposing-looking warship: "Enlist!" the caption reads. "See the stars today!"`
-			`Several short vignettes play: a group of Successors unearthing ruins, the inside of a laboratory, a calm pastoral scene. A voiceover speaks: "Uncovering our heritage; bettering our lives." Meticulously-dressed officials of the High Houses are present in each situation, presented as supportive overseers.`
+			`Dumnie wyglądający następca oficera marynarki wojennej stoi przed imponującym okrętem wojennym: "Enlist!" głosi podpis. "Zobacz gwiazdy już dziś!"`
+			`W scenie pojawia się kilka krótkich scenek: grupa Następców odkopuje ruiny, wnętrze laboratorium, spokojna sielska scena. Głos lektora mówi: "Odkrywamy nasze dziedzictwo; poprawiamy nasze życie." W każdej scenie obecni są starannie ubrani urzędnicy Wysokich Domów, prezentowani jako wspierający nadzorcy.`
 			"A advertisement plays showing the sleek lines of a Successor warship, its polished armor gleaming in the sunlight. It goes on for several minutes, showing the vessel from numerous angles while a sweeping soundtrack plays."
 
 news "successor advertisements"

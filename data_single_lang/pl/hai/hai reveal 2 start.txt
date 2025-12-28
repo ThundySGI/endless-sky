@@ -68,9 +68,9 @@ mission "Hai Rescue: Yeertle Hint"
 		random < 50
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. Often this contains useful tidbits, such as which merchants are ticked off at the moment and whether you should expect to wait a while for refueling. Today, though, you overhear a captain telling an acquaintance a remarkable tale.`
-			`	Apparently, there is a man-beast on <planet>, and when the other captain laughs at the idea of a modern "werewolf," the first one is quick to clarify that it's more like a meter and a half tall "were-squirrel." There seems to be some confused discussion about the mythology of such beasts being revealed when caught staring at bright lights until a third captain, listening in the same as you, butts in to inform them that one of them stole that from a popular show a few years back.`
-			`	You stop listening on your final approach as the conversation descends into a good-natured argument. Nevertheless, it sounds like a lead on a possible stranded Hai that would be worth following up.`
+			`Podczas lądowania w porcie kosmicznym słyszysz zwyczajne pogawędki kapitanów przylatujących i odlatujących. Często zawierają one przydatne informacje, na przykład, którzy kupcy są aktualnie zdenerwowani i czy należy się spodziewać dłuższego oczekiwania na uzupełnienie paliwa. Dziś jednak słyszysz, jak kapitan opowiada znajomemu niezwykłą historię.`
+			`	Najwyraźniej na <planet> jest człowiek-bestia, a gdy drugi kapitan śmieje się z pomysłu współczesnego "wilkołaka," pierwszy szybko wyjaśnia, że to raczej półtorametrowy "wilkołak-wiewiórka." Wydaje się, że toczy się jakaś chaotyczna dyskusja na temat mitologii takich bestii, które ujawniają się, gdy zostają przyłapani na wpatrywaniu się w jasne światła, dopóki trzeci kapitan, podsłuchujący tak samo jak ty, nie wtrąca się i nie informuje ich, że jeden z nich ukradł to z popularnego programu kilka lat temu.`
+			`	Przestajesz słuchać w ostatniej chwili, gdy rozmowa przeradza się w życzliwą kłótnię. Niemniej jednak brzmi to jak trop wskazujący na możliwość utknięcia Hai, który warto zbadać.`
 				accept
 	to complete
 		has "Hai Rescue: Yeertle Family: offered"
@@ -97,75 +97,75 @@ mission "Hai Rescue: Yeertle Family"
 		conversation
 			branch "no hint"
 				not "Hai Rescue: Yeertle Hint: offered"
-			`Wandering around after dark you find yourself down an alley near the spaceport, huddled in an alcove against the drizzle while you keep an eye out for anything suspicious, apparently last rumored to be around here. After a while, a few dozen meters ahead, you see a short man with a strange necklace. As he walks past a power transfer unit, the man shimmers and you see faintly-visible, squirrel-like features. It seems the necklace is a projector of a human hologram concealing a Hai. He is sticking to the shadows, trying to avoid being seen.`
+			`Wędrując po zmroku, trafiasz na alejkę w pobliżu kosmoportu, skulony w alkowie, chroniąc się przed mżawką, i wypatrujesz czegoś podejrzanego, o czym ostatnio krążyły pogłoski. Po chwili, kilkadziesiąt metrów przed tobą, dostrzegasz niskiego mężczyznę w dziwnym naszyjniku. Gdy przechodzi obok jednostki przesyłowej, mężczyzna migocze, a ty dostrzegasz ledwo widoczne, wiewiórcze rysy. Wygląda na to, że naszyjnik to projektor ludzkiego hologramu, w którym ukrywa się Hai. Trzyma się cienia, starając się nie dać się zauważyć.`
 				goto start
 			label "no hint"
-			`Wandering around after dark you find yourself down an alley near the spaceport. The ongoing drizzle increases in intensity and you pause for a moment to huddle in an alcove for a while until it settles down. After a few moments, a few dozen meters ahead, you see a short man with a strange necklace. As he walks past a power transfer unit, the man shimmers and you see faintly-visible, squirrel-like features. It seems the necklace is a projector of a human hologram concealing a Hai. He is sticking to the shadows, trying to avoid being seen.`
+			`Wędrując po zmroku, trafiasz na alejkę w pobliżu kosmoportu. Uporczywa mżawka przybiera na sile, a ty zatrzymujesz się na chwilę, by schować się w niszy i poczekać, aż ucichnie. Po chwili, kilkadziesiąt metrów przed tobą, dostrzegasz niskiego mężczyznę w dziwnym naszyjniku. Gdy przechodzi obok jednostki przesyłowej, mężczyzna zaczyna migotać, a ty dostrzegasz ledwo widoczne, wiewiórcze rysy. Wygląda na to, że naszyjnik to projektor ludzkiego hologramu, w którym ukrywa się Hai. Trzyma się cienia, starając się nie dać się zauważyć.`
 			label start
-			`	Do you want to talk to him?`
+			`	Czy chcesz z nim porozmawiać?`
 			choice
-				`	(Talk to him.)`
-				`	(Come back later.)`
+				`	(Porozmawiaj z nim.)`
+				`	(Wróć później.)`
 					defer
-			`	The man's expression doesn't change much as you approach. His holoprojector may not be sophisticated enough to translate Hai facial expressions. You can see exposed wires on the device; this is probably a makeshift projector he produced with limited resources. A well-made version might keep Hai hidden in human space for a long time.`
-			`	From the shaking voice, you can tell he's frightened.`
-			`	"C-can I help you?"`
+			`	Wyraz twarzy mężczyzny nie zmienia się zbytnio, gdy się do niego zbliżasz. Jego holoprojektor może nie być wystarczająco zaawansowany, aby interpretować mimikę twarzy Hai. Na urządzeniu widać odsłonięte przewody; to prawdopodobnie prowizoryczny projektor, który zbudował przy ograniczonych środkach. Dobrze wykonana wersja mogłaby utrzymać Hai w ukryciu w przestrzeni kosmicznej przez długi czas.`
+			`	Po drżącym głosie można stwierdzić, że jest przestraszony.`
+			`	"C-czy mogę w czymś pomóc?"`
 			choice
-				`	"You're a Hai. Why are you in human space?"`
+				`	"Jesteś Hai. Dlaczego jesteś w przestrzeni ludzkiej?"`
 					goto far
-				`	"Do you need a ride home to Hai space?"`
+				`	"Czy potrzebujesz podwózki do domu w Hai Space?"`
 					goto "ride offer"
-				`	"How did you make that holoprojector?"`
+				`	"Jak zrobiłeś ten holoprojektor?"`
 					goto "made in a cave"
 			label "made in a cave"
-			`	He pauses and after a brief delay his hologram registers surprise, "You know what this is then?"`
+			`	Zatrzymuje się i po chwili jego hologram rejestruje zaskoczenie, "Wiesz, co to jest?"`
 			choice
-				`	"Yes, that's a holoprojector and you're a Hai."`
-				`	"Yes, I've been looking for someone like yourself."`
-			`	He peers at you for a second, perhaps pondering if he can trust you with the answer.`
-			`	"Yes, well, holography is my trade, and Hai children sometimes construct holoprojectors for fun. This one is primitive but functional, if only barely, thanks to inferior human components I've had to scavenge."`
+				`	"Tak, to holoprojektor, a ty jesteś Hai."`
+				`	"Tak, szukałem kogoś takiego jak ty."`
+			`	Przygląda ci się przez chwilę, być może zastanawiając się, czy może ci zaufać i udzielić odpowiedzi.`
+			`	"Tak, cóż, holografia to mój fach, a dzieci Hai czasami dla zabawy konstruują holoprojektory. Ten jest prymitywny, ale funkcjonalny, choćby ledwo, dzięki kiepskim ludzkim komponentom, które musiałem zbierać."`
 			choice
-				`	"Do you need a ride home to Hai space?"`
+				`	"Czy potrzebujesz podwózki do domu w Hai Space?"`
 					goto "ride offer"
-				`	"You're a Hai. Why are you in human space?"`
-			`	"I'm from Icelake. I chartered a flight from Icelake to Allhome with my family. They would have gone on vacation while I would have been at a conference. Instead, the human merchants locked us in a cell and took us here.`
+				`	"Jesteś Hai. Dlaczego jesteś w przestrzeni ludzkiej?"`
+			`	"Jestem z Icelake. Wynająłem lot z Icelake do Allhome z rodziną. Oni pojechaliby na wakacje, a ja byłbym na konferencji. Zamiast tego, ludzcy handlarze zamknęli nas w celi i zabrali tutaj.`
 				goto "questioned first"
 			label far
-			`	He pauses for a second, perhaps pondering if he can trust you with the answer.`
-			`	"I'm a holographer from Icelake. I chartered a flight from Icelake to Allhome with my family. They would have gone on vacation while I would have been at a conference. Instead, the human merchants locked us in a cell and took us here.`
+			`	Zatrzymuje się na sekundę, prawdopodobnie zastanawiając się, czy może ci zaufać i udzielić odpowiedzi.`
+			`	"Jestem holografem z Icelake. Wyczarterowałem lot z Icelake do Allhome z rodziną. Oni pojechaliby na wakacje, a ja byłbym na konferencji. Zamiast tego ludzcy handlarze zamknęli nas w celi i zabrali tutaj.`
 			label "questioned first"
-			`	"My youngest daughter is very small for her age, and was able to sneak through a vent to unlock our cell. The ship was under-crewed and so we overpowered them. Unfortunately, they had already landed and the ship was locked down. I didn't know how to disable the lock so we could not take off, and for lack of options we've been hiding near here ever since.`
-			`	"Can you take us back to <destination>? I have considerable savings back there and can pay you well. Say, <payment>?"`
+			`	"Moja najmłodsza córka jest bardzo niska jak na swój wiek i udało jej się przemknąć przez otwór wentylacyjny, żeby otworzyć naszą celę. Statek miał za małą załogę, więc ich pokonaliśmy. Niestety, już wylądowali, a statek był zablokowany. Nie wiedziałam, jak wyłączyć blokadę, więc nie mogliśmy wystartować, a z braku innych opcji od tamtej pory ukrywamy się w pobliżu.`
+			`	"Czy możesz nas zabrać z powrotem do <destination>? Mam tam spore oszczędności i mogę ci dobrze zapłacić. Powiedz, <payment>?"`
 			choice
-				`	"Sure!"`
-				`	"Would the Hai government be looking for you?"`
+				`	"Oczywiście!"`
+				`	"Czy rząd Hai będzie cię szukał?"`
 					goto looking
-				`	"No, I can't."`
+				`	"Nie, nie mogę."`
 					decline
-			`	"Thank you. My name is Duniip Yeertle, by the way. My wife and three children are nearby. They have holoprojectors as well."`
+			`	"Dziękuję. Nawiasem mówiąc, nazywam się Duniip Yeertle. Moja żona i trójka dzieci mieszkają niedaleko. Oni też mają holoprojektory."`
 				goto leave
 			label "ride offer"
-			`	"Yes! Thank you. Some crooked human merchants locked us in a cell and took us here. I've been unable to find anyone who has even heard of Hai space, and I'm afraid to approach the human authorities. You're the first lead I have! I promise I'll pay you well when we return. I can afford <payment> once we're back at <destination>.`
-			`	"My name is Duniip Yeertle, by the way. My wife and three children are nearby. They have holoprojectors as well."`
+			`	"Tak! Dziękuję. Jacyś nieuczciwi handlarze zamknęli nas w celi i przywieźli tutaj. Nie udało mi się znaleźć nikogo, kto choćby słyszał o przestrzeni Hai, i boję się zwrócić do ludzkich władz. Jesteś pierwszym tropem, jaki mam! Obiecuję, że dobrze ci zapłacę po powrocie. Stać mnie będzie na <payment>, gdy wrócimy do <destination>.`
+			`	"Nawiasem mówiąc, nazywam się Duniip Yeertle. Moja żona i trójka dzieci mieszkają niedaleko. Oni też mają holoprojektory."`
 				goto leave
 			label looking
-			`	The man's holographic expression doesn't change, but his body language shifts in a way that speaks of distress.`
-			`	"The Hai government... no. No, they wouldn't. Let's just say that it's not entirely uncommon for Hai to willingly go missing. An occasional tour of duty with the military, a thrill-seeking adventure with the hopes of getting a reaction upon returning, or even... defection to our brethren. If the authorities tried to track down every single Hai who went missing as soon as they went missing, they'd spend their time chasing their tails fruitlessly.`
-			`	"Doubtlessly I'm on a register somewhere, with a timer counting down. It is even possible that someone has been told to watch for if I show up on Darkcloak. Ultimately though, the authorities don't often look for missing persons, unless they're very wealthy, until at least four months have passed by. We have been gone for only two."`
+			`	Holograficzny wyraz twarzy mężczyzny się nie zmienia, ale jego mowa ciała zmienia się w sposób świadczący o niepokoju.`
+			`	"Rząd Hai... nie. Nie, nie zrobiliby tego. Powiedzmy, że nie jest niczym niezwykłym, że Hai dobrowolnie zaginęli. Okazjonalna służba wojskowa, przygoda w poszukiwaniu emocji z nadzieją na reakcję po powrocie, a nawet... dezercja do naszych braci. Gdyby władze próbowały odszukać każdego zaginionego Hai zaraz po jego zaginięciu, spędziłyby czas na bezowocnym gonieniu za własnym ogonem.`
+			`	"Bez wątpienia jestem gdzieś w rejestrze, z licznikiem odliczającym czas. Możliwe nawet, że ktoś został poproszony o obserwowanie, jeśli pojawię się na Darkcloak. Ostatecznie jednak władze rzadko szukają osób zaginionych, chyba że są bardzo bogate, dopóki nie miną co najmniej cztery miesiące. Nie ma nas dopiero od dwóch."`
 			choice
-				`	"Do you need a ride home to Hai space?"`
+				`	"Czy potrzebujesz podwózki do domu w Hai Space?"`
 					goto "ride offer"
-				`	"Well, let's get you out of here and home safely."`
-			`	Turns out relief is an expression his holoprojector does handle. "Thank you! My name is Duniip Yeertle, by the way. My wife and three children are nearby. They have holoprojectors as well."`
+				`	"No to pozwól, że cię stąd wydostanę i bezpiecznie wyprowadzę do domu."`
+			`	Okazuje się, że ulga to wyraz, który jego holoprojektor obsługuje. "Dziękuję! Nawiasem mówiąc, nazywam się Duniip Yeertle. Moja żona i trójka dzieci mieszkają niedaleko. Oni też mają holoprojektory."`
 				goto leave
 			label leave
-			`	"Please, follow me back to my house, and we will make our preparations."`
+			`	"Proszę, wróć za mną do domu, a my zajmiemy się przygotowaniami."`
 			choice
-				`	(Follow him.)`
-			`	You walk down a corridor to a stairway that leads to a brick wall. Duniip walks through the wall; apparently this is another of his holograms. You pass through and see a trio of energetic Hai children eating dinner with their mother.`
-			`	Duniip turns off his hologram and addresses his family. "I found us a pilot! They're going to take us all the way home."`
-			`	The whole family cheers and it turns out they were already packed to leave. Duniip explains they move regularly so they're not found. It takes them under two minutes to finish preparations and don their holoprojectors. Your walk back to the ship is largely uneventful until some men with strange scanners detect the Yeertle family. One man throws a small grenade with a green light on top. You recognize it as a low-level EMP device. All five holograms turn off, along with a nearby bank of lights, but by the time you stumble to a stop and identify the cause you're much closer to your ship than they are to you.`
-			`	In the sudden dimness surrounding your group, you quickly cross the remaining distance to your ship as hastily as possible before someone gets a good look at the Yeertles. Looking back, you see the men were not following you; they were running to their own ships. Looks like they're planning to follow you into orbit.`
+				`	(Podążaj za nim.)`
+			`	Idziesz korytarzem do schodów prowadzących do ceglanej ściany. Duniip przechodzi przez ścianę; najwyraźniej to kolejny z jego hologramów. Przechodzisz przez nią i widzisz trójkę energicznych dzieci Hai jedzących obiad z matką.`
+			`	Duniip wyłącza hologram i zwraca się do rodziny. "Znalazłem nam pilota! Zabiorą nas do domu."`
+			`	Cała rodzina wiwatuje i okazuje się, że spakowali się już do odlotu. Duniip wyjaśnia, że regularnie się przeprowadzają, żeby nikt ich nie znalazł. Przygotowanie i założenie holoprojektorów zajmuje im niecałe dwie minuty. Droga powrotna na statek przebiega bez większych problemów, dopóki mężczyźni z dziwnymi skanerami nie wykryją rodziny Yeertle. Jeden z nich rzuca mały granat z zielonym światłem na górze. Rozpoznajesz go jako niskoenergetyczne urządzenie EMP. Wszystkie pięć hologramów gaśnie, podobnie jak pobliski rząd świateł, ale zanim się zatrzymasz i zidentyfikujesz przyczynę, jesteś znacznie bliżej swojego statku niż one od ciebie.`
+			`	W nagłym mroku otaczającym twoją grupę, szybko pokonujesz dystans dzielący cię od statku, tak szybko, jak to możliwe, zanim ktoś zdąży dobrze przyjrzeć się Yeertle'om. Odwracając się, widzisz, że mężczyźni nie podążali za tobą; biegli do swoich statków. Wygląda na to, że planują podążyć za tobą na orbitę.`
 				launch
 	on accept
 		dialog `Wygląda na to, że jacyś podejrzani typki podążyli za tobą na orbitę w pogoni za rodziną Yeertle. Możesz z nimi walczyć, ale nie wyglądają na przygotowanych do udanej podróży powrotnej do przestrzeni Hai; więc prawdopodobnie możesz ich też wyprzedzić, jeśli wolisz.`
@@ -201,9 +201,9 @@ mission "Hai Rescue: Ooonem Hint"
 		random < 30
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. To your surprise, on one of the lower, less obvious bands, you hear a pair of captains talking about the pirate world of <planet>. Apparently these two have enough connections to profit off the occasional trip there, but one of them is warning the other not to go by at the moment.`
-			`	You listen in carefully as the speaker relays that there's some kind of hunt going on there. All the ships are being searched before departure, and there's a lot of paranoid goons with weapons hot. A merchant has been killed on his own ship, while it was parked in the spaceport, and random people keep getting into firefights with a short, hooded, "angel of death" in dark alleyways. So far, no one claims to know what's going on.`
-			`	It's really hard to say what this could be, but it might be worth checking out.`
+			`Podczas lądowania w porcie kosmicznym słyszysz zwyczajne pogawędki kapitanów przylatujących i odlatujących. Ku twojemu zaskoczeniu, na jednym z niższych, mniej oczywistych pasm słyszysz dwóch kapitanów rozmawiających o pirackim świecie <planet>. Najwyraźniej ci dwaj mają wystarczające koneksje, by czerpać zyski z okazjonalnych podróży w tamte rejony, ale jeden z nich ostrzega drugiego, żeby na razie tam nie leciał.`
+			`	Słuchasz uważnie, jak głośnik relacjonuje, że trwa tam jakieś polowanie. Wszystkie statki są przeszukiwane przed odpłynięciem, a na pokładzie jest mnóstwo paranoicznych bandytów z bronią gotową do strzału. Kupiec zginął na swoim statku, gdy ten był zaparkowany w porcie kosmicznym, a przypadkowi ludzie wciąż wdają się w strzelaninę z niskim, zakapturzonym "aniołem śmierci" w ciemnych zaułkach. Jak dotąd nikt nie twierdzi, że wie, co się dzieje.`
+			`	Naprawdę trudno powiedzieć, co to może być, ale warto to sprawdzić.`
 				accept
 	to complete
 		has "Hai Rescue: Ooonem: offered"
@@ -234,78 +234,78 @@ mission "Hai Rescue: Ooonem"
 				and
 					not "Hai Rescue: Ooonem Hint: offered"
 					not "Hai Rescue: Ooonem (defer count)"
-			`Following reports of the last time the "angel of death" was sighted, you end up loitering in a twisting street parallel to a main thoroughfare. The few people using it hurry by quickly, and rarely seem to travel any great distance down this street. One very surly looking individual gives you a sour glare on his way past, a collection of weapons on full display. He looks a lot like you'd expect a bounty hunter to look, and as he moves out of sight you observe a shadow, previously motionless, detach from a spot on a wall and head back your direction, laser rifle pointed in the direction of the departing individual. As the shadow approaches, you see there's a lot of hair sticking out from their hood. They might be a Hai. Do you want to talk to them?`
+			`Po doniesieniach o ostatnim dostrzeżeniu "anioła śmierci", włóczysz się krętą ulicą równoległą do głównej arterii. Nieliczni korzystający z niej ludzie spieszą się szybko i rzadko pokonują duże odległości. Jeden bardzo ponury osobnik rzuca ci kwaśne spojrzenie, przechodząc obok, z bronią w pełnym rozkwicie. Wygląda bardzo podobnie do wyglądu łowcy nagród, a gdy znika z pola widzenia, dostrzegasz cień, wcześniej nieruchomy, który odrywa się od ściany i kieruje się w twoją stronę, z karabinem laserowym wycelowanym w odchodzącą osobę. Gdy cień się zbliża, dostrzegasz mnóstwo włosów wystających spod jego kaptura. To może być Hai. Chcesz z nim porozmawiać?`
 				goto start
 			label "no hint"
-			`As you come in you are informed that all the ships are being searched before departure. No sooner do you disembark your ship than you notice that there's a lot of paranoid goons with weapons hot. Like a lot. There seems to be some kind of manhunt going on for a short, hooded, "angel of death" who has been loitering in dark alleyways. So far, no one is explicitly claiming to know what's going on though, and even for a place like this the effort seems... ungoverned. Even to the extent that some groups seem to be actively pretending to be involved while surreptitiously not joining in with groups that leave on the hunt.`
-			`	It's all very odd, but one thing you do glean from the constant conversation and the small selection of individuals loudly demanding cooperation is that the "angel of death," as they're calling it, is unusually short and fast, and capable of things which give you reason to suspect they might possibly be a Hai.`
+			`Wchodząc, dowiadujesz się, że wszystkie statki są przeszukiwane przed wypłynięciem. Ledwo opuszczasz statek, a już zauważasz mnóstwo paranoicznych bandytów z bronią gotową do strzału. Naprawdę mnóstwo. Wygląda na to, że trwa obława na niskiego, zakapturzonego "anioła śmierci", który włóczy się po ciemnych zaułkach. Jak dotąd nikt nie twierdzi wprost, że wie, co się dzieje, a nawet jak na takie miejsce, działania te wydają się... niekontrolowane. Do tego stopnia, że niektóre grupy zdają się aktywnie udawać udział w akcji, jednocześnie potajemnie nie przyłączają się do grup wyruszających na polowanie.`
+			`	To wszystko jest bardzo dziwne, ale jedną rzecz można wywnioskować z nieustannej rozmowy i niewielkiej grupy osób głośno domagających się współpracy: "anioł śmierci", jak go nazywają, jest niezwykle niski i szybki, a także zdolny do rzeczy, które dają powody, by podejrzewać, że może być Hai.`
 			choice
-				`	(Investigate for myself.)`
-				`	(Come back later.)`
+				`	(Zbadaj sam.)`
+				`	(Wróć później.)`
 					defer
-			`	Following reports of the last time the "angel of death" was sighted, you end up loitering in a twisting street parallel to a main thoroughfare. The few people using it hurry by quickly, and rarely seem to travel any great distance down this street. One very surly looking individual gives you a sour glare on his way past, a collection of weapons on full display. He looks a lot like you'd expect a bounty hunter to look, and as he moves out of sight you observe a shadow, previously motionless, detach from a spot on a wall and head back your direction, laser rifle pointed in the direction of the departing individual. As the shadow approaches, you see there's a lot of hair sticking out from their hood. It seems you may have indeed found a Hai. Do you want to talk to them?`
+			`	W związku z doniesieniami o ostatnim dostrzeżeniu "anioła śmierci", włóczysz się krętą ulicą równoległą do głównej arterii. Nieliczni korzystający z niej ludzie spieszą się i rzadko pokonują duże odległości. Jeden bardzo ponury osobnik rzuca ci kwaśne spojrzenie, gdy przechodzi obok, prezentując w pełnym świetle kolekcję broni. Wygląda bardzo podobnie do wyglądu łowcy nagród, a gdy znika z pola widzenia, dostrzegasz cień, wcześniej nieruchomy, który odrywa się od ściany i kieruje się w twoją stronę, z karabinem laserowym wycelowanym w oddalającą się osobę. Gdy cień się zbliża, dostrzegasz mnóstwo włosów wystających spod jego kaptura. Wygląda na to, że rzeczywiście znalazłeś Hai. Chcesz z nim porozmawiać?`
 			label start
 			choice
-				`	(Talk to them.)`
-				`	(Come back later.)`
+				`	(Porozmawiaj z nimi.)`
+				`	(Wróć później.)`
 					defer
-			`	As you step into their path, the Hai swings the laser rifle towards you and says, "You're either very brave, very stupid, or know something... I should warn you, I'm not going back to them!"`
-			`	She watches your expression closely and, when you don't appear to be hostile, settles into a wary but more relaxed stance. "You're not one of them. What do you want with me?"`
+			`	Kiedy wchodzisz im w drogę, Hai obraca karabin laserowy w twoją stronę i mówi: "Albo jesteś bardzo odważny, albo bardzo głupi, albo wiesz coś... Powinienem cię ostrzec, nie wrócę do nich!"`
+			`	Uważnie obserwuje twój wyraz twarzy i kiedy nie wyglądasz na wrogiego, przyjmuje nieufną, ale bardziej zrelaksowaną postawę. "Nie jesteś jednym z nich. Czego ode mnie chcesz?"`
 			choice
-				`	"I was wondering why a Hai is on a pirate planet."`
+				`	"Zastanawiałem się, dlaczego Hai jest na planecie piratów."`
 					goto hai
-				`	"Not one of whom?"`
+				`	"Nie jeden z kogo?"`
 					goto who
-				`	"Sorry to bother you. I'll leave you to your business."`
+				`	"Przepraszam, że przeszkadzam. Zostawię cię w spokoju."`
 					goto decline
 			label hai
-			`	"I was going to meet a businessman on Shroud to arrange a large-scale import deal for my research project. I asked a human merchant to take me there, but I was tricked. The businessman doesn't really exist, and the deal was faked. The merchant locked me in a cell and brought me here instead. When he opened the cell, I managed to grab his rifle, shoot him, and hide. It's amazing how slowly humans move.`
+			`	"Miałem spotkać się z biznesmenem na Całunie, aby zaaranżować dużą transakcję importową na potrzeby mojego projektu badawczego. Poprosiłem kupca, żeby mnie tam zabrał, ale zostałem oszukany. Biznesmen tak naprawdę nie istnieje, a umowa była sfingowana. Kupiec zamknął mnie w celi i przyprowadził tutaj. Kiedy otworzył celę, udało mi się złapać jego karabin, zastrzelić go i się ukryć. Niesamowite, jak wolno poruszają się ludzie.`
 				goto "more questions"
 			label who
-			`	"There are some men looking for me. I've managed to escape them so far; they're not as quick as a Hai. I think they're friends of the merchant who locked me up.`
+			`	"Szukają mnie jacyś mężczyźni. Udało mi się im uciec; nie są tak szybcy jak Hai. Myślę, że to znajomi kupca, który mnie zamknął.`
 				goto "more questions"
 			label pay
-			`	"I have no money with me, but my family on <planet> can pay.`
+			`	"Nie mam przy sobie pieniędzy, ale moja rodzina na <planet> może zapłacić.`
 				goto "more questions"
 			label "more questions"
-			`	"Can you take me back to <destination>? My family can pay for my return."`
+			`	"Czy możesz mnie odwieźć do <destination>? Moja rodzina może opłacić mój powrót."`
 			choice
-				`	"Yes, I'll take you there."`
-				`	"How much will you pay me?"`
+				`	"Tak, zabiorę cię tam."`
+				`	"Ile mi zapłacisz?"`
 					goto pay
-				`	"Why are you on a pirate planet?"`
+				`	"Dlaczego jesteś na planecie piratów?"`
 					goto hai
-				`	"I'm not one of whom?"`
+				`	"Nie jestem jednym z kogo?"`
 					goto who
-				`	"Sorry, but you'll have to find another ride."`
+				`	"Przepraszam, ale musisz znaleźć inny transport."`
 					goto decline
-			`	"Good, but now I must ask, is your ship capable? Are you sure? The pirates are fully aware I am here and will likely chase you, even if you're in good standing with the local authorities. I'd rather not die on your ship."`
+			`	"Dobrze, ale teraz muszę zapytać, czy twój statek jest sprawny? Jesteś pewien? Piraci doskonale wiedzą, że tu jestem i prawdopodobnie będą cię ścigać, nawet jeśli masz dobre relacje z lokalnymi władzami. Wolałbym nie zginąć na twoim statku."`
 			choice
-				`	"Don't worry. I know how to dodge pirates."`
+				`	"Nie martw się. Wiem, jak unikać piratów."`
 					goto go
-				`	"I have a better ship parked somewhere else. I'll go get that first."`
-				`	"You should find a different ride then."`
+				`	"Mam lepszy statek zaparkowany gdzie indziej. Najpierw po niego pójdę."`
+				`	"W takim razie powinieneś znaleźć inny środek transportu."`
 					decline
-			`	She looks at you curiously. "You're a good one, aren't you? Very well, take this transmitter. When you return, come back to this area. Activate it, and I will find you. Come alone."`
+			`	Patrzy na ciebie z ciekawością. "Jesteś dobry, prawda? Dobrze, weź ten nadajnik. Kiedy wrócisz, wróć w to miejsce. Aktywuj go, a cię znajdę. Przyjdź sam."`
 			action
 				set "Ooonem Transmitter"
-			`	She quickly keys something into the transmitter, and it beeps before displaying a locked icon on the screen. As soon as she has handed it over, she turns and melts down an alley which you weren't even entirely aware of. The transmitter in your hand is small, and looks custom modified. Whoever this Hai is, she's capable.`
+			`	Szybko wpisuje coś do nadajnika, który wydaje sygnał dźwiękowy, zanim na ekranie pojawia się ikona blokady. Gdy tylko go podaje, odwraca się i znika w zaułku, którego istnienia nawet nie byłeś świadomy. Nadajnik w twojej dłoni jest mały i wygląda na specjalnie zmodyfikowany. Kimkolwiek jest ta Hai, jest do tego zdolna.`
 				defer
 			label transmitter
-			`	You return to the twisting alleyway you first met the mysterious "angel of death" in and activate the transmitter. It's been a little while, but on your way in there was a bulletin out for her capture being broadcast, so it seems she's definitely still at large.`
-			`	You have to wait so long you're starting to feel silly, before she suddenly drops in front of you; a rappel rope swinging silently above her head. "Good, you have returned, are you ready to go?"`
+			`	Wracasz do krętej uliczki, w której po raz pierwszy spotkałeś tajemniczego "anioła śmierci" i włączasz nadajnik. Minęło trochę czasu, ale po drodze nadano komunikat o jej schwytaniu, więc wygląda na to, że nadal jest na wolności.`
+			`	Musisz czekać tak długo, że zaczynasz czuć się głupio, zanim nagle spadnie przed tobą; lina zjazdowa bezgłośnie kołysze się nad jej głową. "Dobrze, wróciłeś, jesteś gotowy do drogi?"`
 			choice
-				`	"I'm ready."`
-				`	"I'm sorry, but it's too dangerous for me to get you out of here."`
+				`	"Jestem gotowy."`
+				`	"Przykro mi, ale wydostanie cię stąd jest dla mnie zbyt niebezpieczne."`
 					goto decline
 			label go
-			`	"Okay. I guess I should have introduced myself... it's easy to forget social niceties in a place like this. My name is Ooonem, and I'm a researcher from <planet>. Thank you for agreeing to take me home."`
-			`	The pair of you, at her direction, make your way back to your ship, with you quietly greasing the palms of those at one of the many access points to the spaceport. Despite your precautions, though, as you weave between parked ships on your final approach, you notice several men sitting on a nearby ship's loading ramp looking intently at Ooonem, their guns lying close by. Before the men are able to make a grab for their weapons, Ooonem pulls a gas grenade out of her cloak and throws it at the gunmen in one smooth movement. The grenade lands squarely on the ramp, sending a fine mist all around their ship. The men, hands halfway to their weapons, all drop to the ground instead; from the screams of pain and the sounds of convulsion coming from behind you, they're probably not going to trouble you any longer.`
-			`	"I had better leave these behind," she says, dropping a few gas grenades on the ground. "I took them off some pirates a few days ago. They're quite illegal." You notice a label on the grenades: "Sarin Gas: twenty-meter radius." This was a nerve gas grenade that uses one of the older varieties of the gas. They're cheap and plentiful in pirate space.`
-			`	You quickly board your ship and immediately take off.`
+			`	"Okej. Chyba powinnam się przedstawić... łatwo zapomnieć o zasadach dobrego wychowania w takim miejscu. Nazywam się Ooonem i jestem badaczką z <planet>. Dziękuję, że zgodziłaś się mnie odwieźć."`
+			`	Wasza dwójka, na jej polecenie, wraca na swój statek, a ty po cichu pomagasz tym, którzy stoją w jednym z licznych punktów dostępu do kosmoportu. Pomimo środków ostrożności, lawirując między zaparkowanymi statkami w ostatnim podejściu, zauważasz kilku mężczyzn siedzących na rampie załadunkowej pobliskiego statku, wpatrujących się uważnie w Ooonem, a ich broń leży tuż obok. Zanim mężczyźni zdążą sięgnąć po broń, Ooonem wyciąga granat gazowy zza płaszcza i jednym płynnym ruchem rzuca go w uzbrojonych mężczyzn. Granat ląduje prosto na rampie, rozsiewając wokół statku delikatną mgiełkę. Mężczyźni, z rękami w połowie drogi do broni, padają na ziemię; sądząc po krzykach bólu i odgłosach konwulsji dochodzących zza waszych pleców, prawdopodobnie nie będą was już niepokoić.`
+			`	"Lepiej je zostawię, " mówi, zrzucając na ziemię kilka granatów gazowych. "Zabrałem je piratom kilka dni temu. Są nielegalne. " Zauważasz etykietę na granatach: "Gaz sarin: promień dwudziestu metrów. " To był granat z gazem paraliżującym, który wykorzystuje jedną ze starszych odmian tego gazu. Są tanie i powszechnie dostępne w pirackiej przestrzeni.`
+			`	Szybko wsiadasz na statek i natychmiast odlatujesz.`
 				launch
 			label decline
-			`	The woman shakes her head at you and runs off into the shadows. You doubt you'll ever see her again.`
+			`	Kobieta kręci głową i ucieka w cień. Wątpisz, że jeszcze ją zobaczysz.`
 				decline
 	on accept
 		dialog `Ci, którzy ścigają Ooonema, szybko się zorientowali i podążyli za tobą na orbitę. Prawdopodobnie będziesz musiał z nimi walczyć, ale to tylko piraci z Rdzenia i nie wyglądają na przygotowanych do udanej podróży powrotnej do przestrzeni Hai. Jeśli będziesz wystarczająco szybki, prawdopodobnie możesz spróbować po prostu ich uniknąć.`
@@ -342,9 +342,9 @@ mission "Hai Rescue: Prison RP Hint"
 		random < 80
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. Out here on the edge of things and toward the Core, it is a popular pastime for merchants to swap ghost stories. In all likelihood, the majority of these stories can be put down to minor failures from cheap, mass-produced Syndicate equipment. Nevertheless, one of them stands out this time.`
-			`	It seems a handful of merchants have all been picking up a very faint distress signal in the vicinity of <planet>, but every time they've gone to look for it, they've either experienced some kind of engine warning, or a large group of pirates has jumped into the system, and they've bugged out. Mysteriously the pirates don't seem to have been looking for or pursuing the merchants when they've appeared though.`
-			`	It seems like a long-shot, but you wonder if perhaps this might be a legitimate call for help, maybe from someone who can't risk broadcasting themselves too aggressively...`
+			`Podczas lądowania w porcie kosmicznym słyszysz zwyczajne pogawędki kapitanów przylatujących i odlatujących. Tutaj, na krańcu świata, w pobliżu Jądra, popularną rozrywką kupców jest wymiana opowieści o duchach. Najprawdopodobniej większość tych historii można przypisać drobnym awariom taniego, masowo produkowanego sprzętu Syndykatu. Niemniej jednak, jedna z nich tym razem się wyróżnia.`
+			`	Wygląda na to, że garstka kupców odebrała bardzo słaby sygnał SOS w okolicach <planet>, ale za każdym razem, gdy wyruszali na poszukiwania, albo otrzymywali ostrzeżenie o silniku, albo duża grupa piratów wskoczyła do układu i uciekła. Co ciekawe, piraci najwyraźniej nie szukali ani nie ścigali kupców, kiedy się pojawili.`
+			`	Wydaje się to mało prawdopodobne, ale zastanawiasz się, czy to może być uzasadnione wezwanie o pomoc, być może od kogoś, kto nie może ryzykować zbyt agresywnego obnażania się...`
 				accept
 	to fail
 		not "Hai Leaks Response 6: active"
@@ -367,40 +367,40 @@ mission "Hai Rescue: Prison Role-Players"
 		"Hai Rescue: Prison Role-Players (defer count)" ++
 	on offer
 		conversation
-			`As you set your landing vector, you detect a very faint distress call directed at your ship. Your scanners show it appears to come from a remote island. Do you want to check it out?`
+			`Ustawiając wektor lądowania, wykryłeś bardzo słaby sygnał SOS skierowany w stronę twojego statku. Twoje skanery wskazują, że sygnał pochodzi z odległej wyspy. Chcesz to sprawdzić?`
 			choice
-				`	(Follow the distress signal.)`
-				`	(Ignore it and come back later.)`
+				`	(Podążaj za sygnałem SOS.)`
+				`	(Zignoruj to i wróć później.)`
 					defer
-			`	You put your ship down in a forest clearing and step out to find some wary-looking Hai with a directional transmitter and a very broken freighter in pirate colors.`
-			`	One of them, a lady, steps forward, and as she does so her face lights up as if she's seen you before. "Captain <last>, Captain <last>! Please help us, we need to get home to <destination>!"`
+			`	Wylądowałeś na leśnej polanie i po wyjściu na powierzchnię zobaczyłeś kilku nieufnie wyglądających Hai z nadajnikiem kierunkowym i bardzo zepsutym frachtowcem w pirackich barwach.`
+			`	Jedna z nich, kobieta, podchodzi, a kiedy to robi, jej twarz się rozjaśnia, jakby już cię kiedyś widziała. "Kapitanie <last>, Kapitanie <last>! Proszę, pomóż nam, musimy wrócić do domu, do <destination>!"`
 				goto "actual questions"
 			label questions
-			`	"Do you want to know anything else, or can we leave now?"`
+			`	"Czy chcesz wiedzieć coś jeszcze, czy możemy już wyjść?"`
 			label "actual questions"
 			choice
-				`	"Of course. Let's go."`
+				`	"Oczywiście. Chodźmy."`
 					goto go
-				`	"How do you know who I am?"`
+				`	"Skąd wiesz kim jestem?"`
 					goto who
-				`	"How did you get here?"`
+				`	"Jak się tu znalazłeś?"`
 					goto how
-				`	"How much will you pay me?"`
+				`	"Ile mi zapłacisz?"`
 					goto pay
-				`	"Sorry, maybe another time."`
+				`	"Przepraszam, może innym razem."`
 					defer
 			label who
-			`	"You don't remember me? I was the first Hai you met. You were so confused back then and didn't know who or what we were. It was very cute.`
+			`	"Nie pamiętasz mnie? Byłam pierwszą Hai, którą poznałaś. Byłaś wtedy taka zdezorientowana i nie wiedziałaś, kim ani czym jesteśmy. To było bardzo urocze.`
 				goto questions
 			label how
-			`	"There are prison role-play cruises in Hai space where we can ride in a brig with human security guards. My research group thought it would be a fun experience, so we all chartered one," she says.`
-			`	"Unfortunately, it was a trick! They were pirates and took us into human space instead. They didn't feed us much, so we all pretended to be too weak to stand. When one of the pirates came in to check on us, we overpowered him. I don't know if they got sloppy or if they were just new at this, but it seems they had forgotten how fast we can be. The other pirate set the ship to crash-land and used an escape pod. Now we're stuck here.`
+			`	"W przestrzeni Hai odbywają się rejsy z odgrywaniem ról w więzieniu, gdzie możemy podróżować brygiem z ludzkimi strażnikami. Moja grupa badawcza uznała, że to będzie fajne doświadczenie, więc wszyscy wyczarterowaliśmy jeden, " mówi.`
+			`	"Niestety, to był podstęp! Byli piratami i zamiast tego zabrali nas w przestrzeń kosmiczną. Nie karmili nas zbyt dobrze, więc wszyscy udawaliśmy, że jesteśmy zbyt słabi, żeby ustać. Kiedy jeden z piratów podszedł, żeby nas sprawdzić, pokonaliśmy go. Nie wiem, czy byli niedbali, czy po prostu byli w tym nowicjuszami, ale najwyraźniej zapomnieli, jak szybko potrafimy być. Drugi pirat rozbił statek i użył kapsuły ratunkowej. I tak utknęliśmy tutaj.`
 				goto questions
 			label pay
-			`	"Ah, well, we can give you what is left of our travel budget: <payment>. The money is on <planet> though, so you'll have to fly us there first.`
+			`	"Ach, cóż, możemy ci dać resztę naszego budżetu na podróż: <payment>. Pieniądze są jednak na <planet>, więc najpierw będziesz musiał nas tam zawieźć samolotem.`
 				goto questions
 			label go
-			`	"Excellent! Everyone pile aboard. Let's go back to <planet>!"`
+			`	"Doskonale! Wszyscy na pokład. Wracamy do <planet>!"`
 				accept
 	on complete
 		log `Znaleziono naiwnego Hai, którego piraci zwabili w rejs z odgrywaniem ról w więzieniu, "wraz ze strażnikami i brygiem. Pokonali załogę piratów, która rozbiła statek i użyli kapsuł ratunkowych. Zwrócili Hai do <planet>.`
@@ -431,7 +431,7 @@ mission "Hai Rescue: Meroot and Lucy Hint"
 		random < 80
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. You don't hear anything specific to Hai, but when the punchline of a joke is "deep crevasses" on <planet>, it occurs to you that there would be the perfect place for both illicit activities and escapees to hide out under the radar for a long time. It's probably worth a look...`
+			`Podczas lądowania w porcie kosmicznym słyszysz zwyczajne pogawędki kapitanów przylatujących i odlatujących. Nie słyszysz niczego konkretnego o Hai, ale kiedy puentą żartu jest "deep crevasses" na <planet>, przychodzi ci do głowy, że byłoby to idealne miejsce dla nielegalnych działań i uciekinierów, którzy mogliby się ukryć przed radarem przez długi czas. Chyba warto tam zajrzeć...`
 				accept
 	to complete
 		has "Hai Rescue: Meroot and Lucy: offered"
@@ -454,55 +454,55 @@ mission "Hai Rescue: Meroot and Lucy"
 		"Hai Rescue: Meroot and Lucy (defer count)" ++
 	on offer
 		conversation
-			`As you walk through a major street, you notice a woman approach an alcove in the side of a building carrying some food. She looks around to see if she's being followed before entering the alcove and covering it with a sheet of steel. You only had a moment to observe, but through the gap you spotted something hiding inside the small alcove which might have had tufts of hair sticking out of the clothing across its body. It's probably a Hai.`
-			`	Do you want to investigate?`
+			`Idąc główną ulicą, zauważasz kobietę zbliżającą się do wnęki w bocznej ścianie budynku, niosącą jedzenie. Rozgląda się, sprawdzając, czy ktoś ją śledzi, po czym wchodzi do wnęki i przykrywa ją blachą. Miałeś tylko chwilę na obserwację, ale przez szczelinę zauważyłeś coś ukrytego w małej wnęce, co mogło mieć kępki włosów wystające spod ubrania na ciele. To prawdopodobnie Hai.`
+			`	Czy chcesz to zbadać?`
 			choice
-				`	(Investigate.)`
-				`	(Come back later.)`
+				`	(Zbadaj.)`
+				`	(Wróć później.)`
 					defer
-			`	You knock on the steel sheet, and a woman within the alcove slides it to the side. As she emerges, she carefully moves her body to block your view of the alcove.`
-			`	She asks nervously, "Yes, can I help you?"`
+			`	Pukasz w stalową blachę, a kobieta w alkowie odsuwa ją na bok. Wychodząc, ostrożnie przesuwa ciało, by zasłonić ci widok na alkowę.`
+			`	Pyta nerwowo, "Tak, mogę ci pomóc?"`
 			choice
-				`	"Why are you hiding a Hai in there?"`
+				`	"Dlaczego ukrywasz tam Hai?"`
 					goto hiding
-				`	"Can I help you?"`
+				`	"Czy mogę w czymś pomóc?"`
 					goto help
-				`	"No, I was just walking by. Sorry to bother you."`
+				`	"Nie, po prostu przechodziłem obok. Przepraszam, że przeszkadzam."`
 					decline
 			label hiding
-			`	Her expression immediately takes on a shade of panic and you hear what sounds like something heavy being picked up in the background. "Please don't tell anyone! We were both kidnapped, but we managed to escape. Now we're hiding here, hoping those people don't find us again."`
+			`	Jej wyraz twarzy natychmiast przybiera odcień paniki, a w tle słychać coś, co przypomina podnoszenie czegoś ciężkiego. "Proszę, nikomu nie mów! Oboje zostaliśmy porwani, ale udało nam się uciec. Teraz się tu ukrywamy, mając nadzieję, że ci ludzie nas już nie znajdą. "`
 				goto "trust check"
 
 			label help
-			`	"Yes! Some men kidnapped my friend and I, but she got us out and we managed to escape. We've been hiding here, hoping they don't find us again."`
+			`	"Tak! Jacyś mężczyźni porwali mnie i moją przyjaciółkę, ale ona nas stamtąd wyciągnęła i udało nam się uciec. Ukrywaliśmy się tutaj, mając nadzieję, że nas już nie znajdą."`
 			label "trust check"
-			`	In the background you hear someone hiss, "Lucy! What are you doing, we can't trust them!"`
+			`	W tle słychać syczenie: "Lucy! Co ty robisz, nie możemy im ufać! "`
 			choice
 				`	"Uh, luf e ow, vai, luf e eh?"`
 					goto "come in"
-				`	"No really, you can trust me, I promise!"`
-			`	Lucy's face goes pale and she seems frozen in shock, while in the background you can hear sounds of someone who is definitely rushing to do something, though you can't see what.`
+				`	"Naprawdę, możesz mi zaufać, obiecuję!"`
+			`	Twarz Lucy blednie, a ona sama wydaje się zamrożona w szoku, podczas gdy w tle słychać dźwięki kogoś, kto z pewnością spieszy się, aby coś zrobić, choć nie widać co.`
 			choice
-				`	"No wait! Luf e ow, vai, luf e eh?"`
+				`	"Nie, czekaj! Luf e ow, vai, luf e eh?"`
 			label "come in"
-			`	The person in the background stills. "What did you say?"`
-			`	You repeat the phrase.`
-			`	Somewhere out of sight you hear a string of Hai words that sound very exasperated before they address Lucy again. "Let them in, Lucy, they probably are here to help."`
-			`	The emphasis placed on the "are" is thick, and it seems to snap Lucy out of her frozen state. "Oh, uh, yes, alright. If you could fly us to <planet>, we can pay you when we arrive. You'll likely be followed though, so I hope you have a fast ship. I think you should probably come in, and we'll talk about it."`
+			`	Osoba w tle pozostaje nieruchoma. "Co powiedziałeś?"`
+			`	Powtarzasz frazę.`
+			`	Gdzieś poza zasięgiem wzroku słyszysz serię słów "Hai", które brzmią bardzo irytująco, zanim znów zwrócą się do Lucy. "Wpuść ich, Lucy, prawdopodobnie są tu, żeby pomóc. "`
+			`	Nacisk położony na "are" jest gęsty i zdaje się wytrącać Lucy z zamrożonego stanu. "Och, eee, tak, dobrze. Jeśli mógłbyś nas zawieźć do <planet>, zapłacimy ci po przylocie. Prawdopodobnie jednak będziesz śledzony, więc mam nadzieję, że masz szybki statek. Myślę, że powinieneś przypłynąć i o tym porozmawiamy."`
 			choice
-				`	(Enter their alcove.)`
-				`	"No, I can't help you get home."`
+				`	(Wejdź do ich wnęki.)`
+				`	"Nie, nie mogę ci pomóc wrócić do domu."`
 					decline
-			`	The alcove is a dead air space between two utility rooms in the basement of a warehouse. The hole in the wall looks like it was recently dug out by a laser cutter. There's a small refrigerator, a two-person cot, an air processor, and a shelf with typical household items. Books are strewn everywhere; the women must be avid readers. It seems they've set up this tiny space as a decent, albeit very small, apartment.`
-			`	The human woman slides the sheet of steel back into place behind you both once you're in and says, "I'm Lucy."`
-			`	"And I'm Meroot," adds the Hai woman. "I was on Newhome walking to my research lab when some men pulled me into an alley and zapped me with a taser. I woke up in the brig of a spaceship."`
-			`	"My experience was similar. I was walking from my biolab to my house on Serpens. Some men jumped out from behind a dune and zapped me."`
-			`	Meroot continues, "They took us both here. I was able to struggle out of my handcuffs and sneak the keys from the guard. We escaped together, and we've been hiding for weeks. Please take us to <destination>!"`
+			`	Wnęka to martwa przestrzeń między dwoma pomieszczeniami gospodarczymi w piwnicy magazynu. Dziura w ścianie wygląda, jakby została niedawno wykopana przez przecinarkę laserową. Znajduje się tam mała lodówka, dwuosobowe łóżko polowe, klimatyzator i półka z typowymi sprzętami gospodarstwa domowego. Wszędzie porozrzucane są książki; kobiety muszą być zapalonymi czytelniczkami. Wygląda na to, że zaaranżowały tę niewielką przestrzeń jako przyzwoite, choć bardzo małe, mieszkanie.`
+			`	Kiedy już jesteście w środku, kobieta wsuwa arkusz stali z powrotem na miejsce za wami i mówi: "Jestem Lucy."`
+			`	"A ja jestem Meroot," dodaje kobieta z plemienia Hai. "Byłam na Newhome i szłam do laboratorium badawczego, kiedy jacyś mężczyźni wciągnęli mnie w zaułek i porazili paralizatorem. Obudziłam się w areszcie statku kosmicznego."`
+			`	"Moje doświadczenie było podobne. Szedłem z laboratorium biologicznego do domu na Serpens. Zza wydmy wyskoczyli jacyś mężczyźni i mnie porazili."`
+			`	Meroot kontynuuje, "Zabrali nas tu oboje. Udało mi się wyrwać z kajdanek i wykraść klucze strażnikowi. Uciekliśmy razem i ukrywaliśmy się przez tygodnie. Proszę, zabierz nas do <destination>!"`
 			choice
-				`	"Sure. Let's go."`
-				`	"No, you'll have to find another pilot."`
+				`	"Jasne. Chodźmy."`
+				`	"Nie, będziesz musiał znaleźć innego pilota."`
 					decline
-			`	The two women put on clothing that thoroughly covers their persons. They lead you through a series of ducts and alleys back to the pad where your ship is parked. Just as your airlock opens there's a sharp zapping sound as someone shoots Meroot with a stun gun. You and Lucy duck, and a couple other shots dissipate harmlessly on the bulkhead of your ship. You fire off a couple shots back and, between the two of you, manage to drag Meroot through the airlock, seal it behind you, and lift off. It appears you're being followed into orbit.`
+			`	Dwie kobiety zakładają ubrania, które całkowicie je zakrywają. Prowadzą cię przez serię kanałów i alejek z powrotem na lądowisko, gdzie zaparkowany jest twój statek. W chwili, gdy otwiera się twoja śluza powietrzna, rozlega się ostry trzask, gdy ktoś strzela do Meroot z paralizatora. Ty, Lucy i kilka innych pocisków rozprasza się nieszkodliwie na grodzi twojego statku. Oddajesz kilka strzałów w tył i we dwoje udaje wam się przeciągnąć Meroot przez śluzę powietrzną, zamknąć ją za sobą i wystartować. Wygląda na to, że jesteś śledzony na orbitę.`
 				launch
 	on complete
 		log `Uratowano parę badaczek: kobietę z plemienia Hai o imieniu Meroot i kobietę o imieniu Lucy. Zostały porwane przez mężczyzn, którzy przyprowadzili je do Canyon. Odesłano je do <planet>, gdzie teraz mieszkają razem. Nie znają tożsamości porywaczy.`
@@ -537,7 +537,7 @@ mission "Hai Rescue: Gipeep Hint"
 		random < 80
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. One guy is bragging particularly odiously about some lucrative transport jobs he'd picked up on <planet>. Of course, it could mean nothing, but it's also very suspicious for that particular world. <planet> is not known for lucrative transport jobs, and it could likely be contraband, or worse...`
+			`Podczas lądowania w porcie kosmicznym słyszysz zwyczajne pogawędki kapitanów, którzy przychodzą i odchodzą. Jeden facet szczególnie obrzydliwie chwali się lukratywnymi zleceniami transportowymi, które dostał na <planet>. Oczywiście, to może nic nie znaczyć, ale jest to bardzo podejrzane w przypadku tego konkretnego świata. <planet> nie jest znany z lukratywnych zleceń transportowych i prawdopodobnie chodzi o przemyt, albo coś gorszego...`
 				accept
 	to fail
 		has "event: hai-human treaty signed"
@@ -558,40 +558,40 @@ mission "Hai Rescue: Gipeep"
 		conversation
 			branch hint
 				has "Hai Rescue: Gipeep Hint: offered"
-			`As you come in to land one guy is on the comms, bragging particularly odiously about some lucrative transport jobs he'd picked up. This catches your attention only because <origin> is not known for lucrative transport jobs. It could likely be contraband, or worse...`
+			`Gdy lądujesz, jeden facet jest na łączu, przechwalając się wyjątkowo ohydnie lukratywnymi zleceniami w transporcie, które dostał. To przykuwa twoją uwagę tylko dlatego, że <origin> nie jest znany z lukratywnych zleceń w transporcie. Prawdopodobnie chodzi o kontrabandę, albo coś gorszego...`
 			label hint
-			`After some quiet investigation you find out that all the lucrative transport jobs are coming out of one particular warehouse. The paperwork all looks to be in order, but to be sure you should pick up a job yourself.`
+			`Po cichym śledztwie odkrywasz, że wszystkie lukratywne zlecenia transportowe pochodzą z jednego konkretnego magazynu. Wszystkie dokumenty wydają się być w porządku, ale dla pewności powinieneś sam podjąć się zlecenia.`
 			choice
-				`	(Check it out.)`
-				`	(Leave.)`
+				`	(Sprawdź to.)`
+				`	(Opuść.)`
 					decline
-			`	Surprisingly, when you arrive the warehouse is unattended, which is suspicious in and of itself. Poking around a little you walk by some cargo and hear loud thumping coming from a locked crate. A ring of keys is hanging nearby. Someone could appear at any moment and you could be in trouble. Do you want to check it out?`
+			`	Ku twojemu zaskoczeniu, magazyn jest pusty, co samo w sobie jest podejrzane. Rozglądając się, mijasz ładunek i słyszysz głośne stukanie dochodzące z zamkniętej skrzyni. W pobliżu wisi pęk kluczy. Ktoś może się pojawić w każdej chwili i możesz mieć kłopoty. Chcesz to sprawdzić?`
 			choice
-				`	(Examine the crate.)`
-				`	(Leave.)`
+				`	(Zbadaj skrzynię.)`
+				`	(Opuść.)`
 					decline
-			`	One key stands out, it has a symbol you don't recognize that looks like an angry cat in a circle. As you get closer to the thumping, the ordinary-looking crate starts to seem a little strange. At first glance it appears to be the sort of crate that is well-insulated against sound and temperature, but this one must have concealed breathing holes. You can still hear muffled thumping fairly clearly, but outside you hear what sounds like a loading vehicle pull up, and you don't know what's in the crate.`
-			`	Do you want to try opening the crate?`
+			`	Jeden klucz się wyróżnia. Ma symbol, którego nie rozpoznajesz, przypominający rozwścieczonego kota w kółku. Zbliżając się do odgłosu stukotu, zwyczajnie wyglądająca skrzynia zaczyna wydawać się nieco dziwna. Na pierwszy rzut oka wydaje się być dobrze izolowana akustycznie i termicznie, ale ta musiała mieć ukryte otwory wentylacyjne. Nadal dość wyraźnie słychać stłumione stukanie, ale na zewnątrz słychać coś, co przypomina podjeżdżający pojazd załadowczy i nie wiadomo, co jest w skrzyni.`
+			`	Czy chcesz spróbować otworzyć skrzynię?`
 			choice
-				`	(Open the crate.)`
-				`	(Leave.)`
+				`	(Otwórz skrzynię.)`
+				`	(Opuść.)`
 					decline
-			`	You put the key in the lock, turn, and the next thump you hear pushes the crate open so hard it falls over. An angry-looking Hai jumps out and starts yelling at you in its own language.`
-			`	After a few seconds, the Hai calms down and speaks in your tongue. "They locked me in a box! I was walking home from a store on <planet>, and some humans pulled me into an alley. They shoved me in a box and now I'm..." the Hai pauses and looks around, "not in Hai space?`
-			`	"Please take me home. I'm a ship architect from <planet>. We should hurry before they come back."`
+			`	Wkładasz klucz do zamka, przekręcasz, a następny huk, który słyszysz, otwiera skrzynię tak mocno, że się przewraca. Wyskakuje z niej wściekły Hai i zaczyna krzyczeć na ciebie w swoim języku.`
+			`	Po kilku sekundach Hai uspokaja się i mówi w twoim języku. "Zamknęli mnie w pudełku! Szedłem do domu ze sklepu na <planet>, a jacyś ludzie wciągnęli mnie w zaułek. Wepchnęli mnie do pudełka i teraz jestem... " Hai milknie i rozgląda się dookoła, "nie w przestrzeni Hai?`
+			`	"Proszę, zabierz mnie do domu. Jestem architektem okrętowym z <planet>. Musimy się pospieszyć, zanim wrócą."`
 			choice
-				`	"Of course. Just hop in my ship."`
+				`	"Oczywiście. Po prostu wskakuj na mój statek."`
 					goto accept
-				`	"No, I'm not going that way any time soon."`
-			`	He makes a frustrated sound in the back of his throat and gives you a pointed and pleading look. "I have nowhere else to go! I'm not exactly inconspicuous. I'll be caught soon. Please, I can pay you well."`
+				`	"Nie, w najbliższym czasie nie zamierzam tamtędy iść."`
+			`	Wydaje z siebie sfrustrowany dźwięk z głębi gardła i rzuca ci wymowne, błagalne spojrzenie. "Nie mam dokąd pójść! Nie jestem wcale niepozorny. Zaraz mnie złapią. Proszę, mogę ci dobrze zapłacić."`
 			choice
-				`	"In that case, I'll take you."`
-				`	"No. You'll have to find another pilot."`
+				`	"W takim razie zabiorę cię."`
+				`	"Nie. Będziesz musiał znaleźć innego pilota."`
 					decline
 			label accept
-			`	You can hear men approaching through the warehouse entry and the Hai quickly retrieves something from the crate before you both run quickly in the other direction. Soon you hear shots fired, and see them hit a nearby wall. They passed quite close to your head.`
-			`	Through luck and skill, the two of you make it to your ship and quickly launch. The escape seemed a little too easy though; they may have been taking pains to avoid hitting your new passenger.`
-			`	It appears ships are following you into orbit.`
+			`	Słyszysz mężczyzn zbliżających się przez wejście do magazynu, a Hai szybko wyciąga coś ze skrzyni, zanim oboje szybko pobiegniecie w przeciwnym kierunku. Wkrótce słyszysz strzały i widzisz, jak uderzają w pobliską ścianę. Przelatują dość blisko twojej głowy.`
+			`	Dzięki szczęściu i umiejętnościom, oboje docieracie na statek i szybko odlatujecie. Ucieczka wydawała się jednak nieco zbyt łatwa; mogli się starać, żeby nie uderzyć w waszego nowego pasażera.`
+			`	Wygląda na to, że statki podążają za tobą na orbitę.`
 				launch
 	on complete
 		log `Uratowano architekta statków Hai o imieniu Gipeep, który został porwany w pobliżu swojego domu na <planet> i przetransportowany w zamkniętej skrzyni ładunkowej. Na kluczu skrzyni znajdował się znak przypominający wściekłego kota w kółku.`

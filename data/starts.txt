@@ -48,14 +48,14 @@ mission "Default Start Patch"
 
 conversation "default intro"
 	scene "scene/lobby"
-	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
-	`	The loan broker's office is equally intimidating. Large computer monitors fill the walls, with stock quotes and other information spilling down them almost too fast to read. You occasionally glimpse the names of places that you have only seen in movies: Aldebaran. Tarazed. Earth.`
-	`	The pen is heavy as lead but glides almost without friction as you print your initials on the bottom of page after page of ominous legal documents and sign several dozen statements, notices, and agreements. The banker, a balding middle-aged man in a suit that you suspect costs more than the spaceship you are about to purchase, flips the pages past you quickly, uttering a curt, "Sign here. Now here," as he points to each page. He moves swiftly, mechanically.`
-	`	The only moment when he becomes truly animated is when explaining the Truth in Lending statement to you. "You are borrowing 480,000 credits," he says, "to be repaid over the course of one year. Your daily interest rate is 0.4%, which means that your daily payments are 2,503 credits, and by the end of the year you will have paid... 433,567 credits in interest. Sign here." He grins.`
-	`	You sign your name one final time:`
+	`<CN-7944>`
+	`<CN-7945>`
+	`<CN-7946>`
+	`<CN-7947>`
+	`<CN-7948>`
 	name
-	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
-	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are three ship models within your price range. Which one you choose will determine your future...`
+	`<CN-7949>`
+	`<CN-7950>`
 
 
 
@@ -119,85 +119,85 @@ conversation "hai intro"
 		log "Factions" "Unfettered Hai" `<LG-270>`
 		log "Factions" "Sheragi" `<LG-271>`
 	
-	`Going to the North Pole already makes you feel as if you're on another world; even within the berth for your ferry, you can see more Hai than there are in your entire hometown. After some parting words from the PA system, you and your fellow passengers disembark, the flow of humanity breaking against the Hai crowd.`
-	`	Making your way towards the shipyard, you pull up the human-language version of your loan agreement to review: You have borrowed 1.431 million credits to be repaid over the course of two years. Your interest rate is 0.3%, making your repayments 4,836 credits per day.`
-	`	You look up from your tablet just before running head-on into a gray-furred Hai wearing a flight suit, knocking him over. As you bend over to help, he takes a glance at your mortgage documents. "You're about to become a captain, aren't you?" he says after dusting himself off.`
+	`<CN-7951>`
+	`<CN-7952>`
+	`<CN-7953>`
 	
 	choice
-		`	"Yes, I am."`
-		`	"How could you tell?"`
+		`<CN-2851>`
+		`<CN-7954>`
 			goto tell
-		`	"Who said you could look at that?"`
+		`<CN-7955>`
 			goto look
 	
-	`	"Then maybe I can help. Follow me."`
+	`<CN-7956>`
 		goto help
 	
 	label tell
-	`	"From your loan," he replies. "There's only one reason to have that exact number of credits. Speaking of which, I think I can help you."`
+	`<CN-7957>`
 		goto help
 	
 	label look
-	`	He scratches the back of his head. "Sorry. I was just trying to help, but if I'm causing too much trouble, I'll get out of your way.`
+	`<CN-7958>`
 	choice
-		`	"I don't mind."`
+		`<CN-7959>`
 			goto happy
-		`	"I'd rather handle things myself."`
+		`<CN-7960>`
 			goto leave
 	label happy
-	`	He bows. "Thank you."`
+	`<CN-7961>`
 	
 	label help
-	`	The Hai brings you to the landing pads of Greenwater, where a large number of humans and Hai are gathered around several vessels. From the crowd, another Hai approaches your companion, talking to him in Hai. The gray-furred Hai simply nods and hands the other Hai a set of keys in exchange for a credit chip. The other Hai quickly bows before dashing towards one of the landed ships.`
-	`	"I'm selling off my fleet before retiring," the Hai says. "Sure, I could just go to the shipyard, but I could never have started if it weren't for another retiring captain selling me a ship for cheap when I was young. So, I've decided to pay it forward and help out other captains-to-be."`
-	`	The Hai walks up to one of the smaller ships in the fleet, a Grasshopper interceptor. "This is the Pristine Jewel. She's served me well over the past century, but I'm sure she'll be safe in your hands."`
+	`<CN-7962>`
+	`<CN-7963>`
+	`<CN-7964>`
 	choice
-		`	"You're giving it to me?"`
-		`	"Is there a freighter I could take instead?"`
+		`<CN-7965>`
+		`<CN-7966>`
 			goto freighter
-		`	"What about the other people here? Shouldn't they get first pick?"`
+		`<CN-7967>`
 			goto pick
 	
-	`	The Hai chuckles. "That would be nice, wouldn't it? Unfortunately, retirement isn't cheap. I'd be happy to part with her for 1.132 million credits, though; that's less than a Aphid, let alone a new Grasshopper.`
+	`<CN-7968>`
 		goto deal
 	
 	label freighter
-	`	"Unfortunately, all my Aphids were bought earlier today. Still, I'm sure you can survive; the Unfettered'll be a tough ask, but pirates in human space won't be much of a match. Plus, if you still can't handle it, you can always sell her. She'll only cost you 1.132 million credits, and you'll be able to use the old parts of the Pristine Jewel to buy an Aphid at a discount.`
+	`<CN-7969>`
 		goto deal
 	
 	label pick
-	`	The Hai shakes his head. "Don't worry. Most of the crowd are just spectators. Usually it'd be a human captain pulling a stunt like selling their fleet publicly; most retiring Hai just donate their fleets to the government. I'm not exactly handing these ships out for free either. If you want her, the Pristine Jewel's 1.132 million credits.`
+	`<CN-7970>`
 	
 	label deal
-	`	"So, do we have a deal?"`
+	`<CN-7971>`
 	choice
-		`	"We do!"`
-		`	"I think I'd be better off buying from the shipyard."`
+		`<CN-7972>`
+		`<CN-7973>`
 			goto leave
 	
-	`	"Great!" He holds out a data tablet. "Just sign here, and she's yours."`
+	`<CN-7974>`
 	name
 	action
 		set "hai space start: Grasshopper"
 		give ship "Grasshopper (Hai Start)" "Pristine Jewel"
 		payment -1132000
-	`	The Hai gives you the keys to the Grasshopper after you hand over the tablet and your payment. "Looks like this your first step to becoming an interstellar entrepreneur. I'd say we'll meet again someday, but I'd rather not lie. In all my years, I never did meet the captain who sold me my first ship again. Not that that should matter, anyway; this is your story, not mine."`
-	`	He gives you one last salute before returning to the crowd to sell yet another ship.`
+	`<CN-7975>`
+	`<CN-7976>`
 		decline
 	
 	label leave
-	`	He nods as you head towards the shipyard.`
-	`	At its entrance is an automated security kiosk. You quickly fill out the form on the screen before picking up the stylus and signing your name:`
+	`<CN-7977>`
+	`<CN-7978>`
 	name
-	`	You step through glass sliding doors into Greenwater's shipyard. In most of the berths, workers are busy refurbishing old vessels for resale, but in some of the more distant bays, you can see the flash of welding torches on brand-new ship skeletons. Vessels of all sizes are lined up within the yard, but for you, there's only one option...`
+	`<CN-7979>`
 
 
 
 # This ship uses the most expensive loadout possible so its sell price is roughly equal to the buy price.
 ship "Grasshopper" "Grasshopper (Hai Start)"
 	outfits
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`<CN-7911>`
+		`<CN-7912>`
 		"Fuel Pod"
 		"Hai Chasm Batteries"
 		"Hai Corundum Regenerator"

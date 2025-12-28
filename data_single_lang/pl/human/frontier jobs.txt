@@ -249,47 +249,47 @@ mission "Small Pirate gambling"
 	deadline 1
 	on offer
 		conversation
-			`You're having a drink in a dimly lit spaceport bar when you notice a group of young men in crimson leather outfits gambling in a dark corner. The barman eyes them warily. One of them raises his drink and waves you over, beckoning to join their game.`
+			`Pijesz drinka w słabo oświetlonym barze kosmoportu, gdy zauważasz grupę młodych mężczyzn w karmazynowych skórzanych strojach, grających w karty w ciemnym kącie. Barman patrzy na nich nieufnie. Jeden z nich unosi drinka i macha do ciebie, zapraszając do gry.`
 			choice
-				`	(Join their game.)`
+				`	(Dołącz do ich gry.)`
 					goto gamble
-				`	(Ignore them and leave quickly.)`
+				`	(Zignoruj ich i wyjdź szybko.)`
 					defer
 
 			label gamble
-			`	You walk over to the table. A closer examination indicates a strong likelihood that they are pirates; not one of them looks older than 19, and they all sport fearsome tattoos and dangerous-looking sidearms. After a few rounds of cards it becomes abundantly obvious that they're cheating, and making little effort to hide this from you.`
+			`	Podchodzisz do stołu. Bliższe przyjrzenie się wskazuje na duże prawdopodobieństwo, że to piraci; żaden z nich nie wygląda na więcej niż 19 lat, a wszyscy noszą przerażające tatuaże i groźnie wyglądającą broń boczną. Po kilku rundach kart staje się oczywiste, że oszukują i nie robią nic, żeby to przed tobą ukryć.`
 			branch "good luck" "bad luck"
 				random < 30
 
 			label "good luck"
 			action
 				payment 23974
-			`	Fortunately, you're able to outsmart them anyway and win the game, winding up with a sizable pile of credit chips. They don't look too happy about it, but do not bother you as you quickly leave. You thank your lucky stars: you're nearly 25,000 credits richer and still in one piece after a face-to-face encounter with pirates.`
+			`	Na szczęście i tak udaje ci się ich przechytrzyć i wygrać grę, kończąc z pokaźną stertą żetonów kredytowych. Nie wyglądają na zadowolonych z tego powodu, ale nie przeszkadzają ci, gdy szybko wychodzisz. Dziękujecie swoim szczęśliwym gwiazdom: jesteście o prawie 25 000 kredytów bogatsi i wciąż cali i zdrowi po spotkaniu twarzą w twarz z piratami.`
 				accept
 
 			label "bad luck"
-			`	You're starting to bleed money, with more than 10,000 credits in losses already.`
+			`	Zaczynasz tracić pieniądze, mając już ponad 10 000 kredytów strat.`
 			choice
-				`	(Call them out on their cheating.)`
+				`	(Nakaż im oszustwo.)`
 					goto call
-				`	(Say nothing and continue playing.)`
+				`	(Nic nie mów i kontynuuj grę.)`
 					goto lose
 
 			label lose
 			action
 				payment -14357
-			`	You grit your teeth and lose hand after hand before the game finally ends. The pirates gloat over their "winnings" of almost 15,000 credits as you leave.`
+			`	Zaciskasz zęby i przegrywasz rozdanie za rozdaniem, zanim gra w końcu się skończy. Piraci chełpią się swoimi "wygranymi", wynoszącymi prawie 15 000 kredytów, gdy odchodzisz.`
 				decline
 
 			label call
-			`	You confront them on their blatant cheating when the meanest-looking one growls at you, "We're just playin' a game here, see? You'd better shut your big mouth if you know what's good for you! We can make this ugly real fast."`
-			`	The thugs stare at you menacingly and start to reach for their guns.`
+			`	Konfrontujesz ich z ich jawnym oszustwem, kiedy ten najwredniejszy na ciebie warczy: "My tu tylko gramy, rozumiesz? Lepiej zamknij swoją wielką gębę, jeśli wiesz, co dla ciebie dobre! Możemy to szybko obrzydzić. "`
+			`	Łobuzy patrzą na ciebie groźnie i zaczynają sięgać po broń.`
 			choice
-				`	(Shoot first!)`
+				`	(Strzelaj pierwszy!)`
 					goto shoot
-				`	(Grab the pot and run!)`
+				`	(Złap garnek i uciekaj!)`
 					goto run
-				`	(Let them fleece me.)`
+				`	(Niech mnie oskubią.)`
 					goto lose
 
 			label shoot
@@ -297,14 +297,14 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "shoot and die"
-			`	Unfortunately, they're faster than you. Your mutilated corpse hits the floor with a wet thump.`
+			`	Niestety, są szybsi od ciebie. Twoje okaleczone ciało uderza o podłogę z mokrym hukiem.`
 				die
 
 			label "shoot and run"
 			action
 				payment 23974
-			`	Grateful that you never leave your ship unarmed, your hand flies toward the pistol at your thigh. You draw the weapon and fire at the pirate who just threatened you. The slug punches a hole in the center of his chest, and he collapses to the ground. His shocked comrades fumble in horror for their weapons, but you've taken them by surprise and quickly gun down another before deciding it's time to escape. You grab some of the credits on the table on the way out!`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, the remaining two pirates hurl obscenities over the comms from their own ships, which are in hot pursuit.`
+			`	Wdzięczny, że nigdy nie opuszczasz statku nieuzbrojony, twoja ręka wędruje w kierunku pistoletu na udzie. Wyciągasz broń i strzelasz do pirata, który ci właśnie zagroził. Pocisk przebija mu klatkę piersiową, a on upada na ziemię. Jego zszokowani towarzysze z przerażeniem szukają broni, ale ty ich zaskakujesz i szybko strzelasz do kolejnego, zanim decydujesz, że czas uciekać. Wychodząc, zabierasz trochę kredytów ze stołu!`
+			`	Pędzisz w kierunku hangaru i odlatujesz w pośpiechu. Szybko liczysz swoje łupy i widzisz, że jesteś o prawie 25 000 kredytów bogatszy! W połowie drogi z atmosfery, dwaj pozostali piraci rzucają przekleństwami przez komunikatory ze swoich statków, które pędzą za tobą w pogoń.`
 				launch
 
 			label run
@@ -312,14 +312,14 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "grab and die"
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. Dodging gunfire, you run towards the door and get halfway there before one of the slugs finds its mark. You fall to the floor in pain, watching a pool of your own blood expand around you. You try to struggle to your feet, but the toughest-looking pirate kicks you to the ground and finishes you off with another shot.`
+			`	Chwytasz garnek i uciekasz! Bandyci wyją i wyciągają broń. Unikając strzałów, biegniesz do drzwi i jesteś w połowie drogi, zanim jeden ze pocisków trafia w cel. Padasz z bólu na podłogę, patrząc, jak wokół ciebie rozlewa się kałuża twojej krwi. Próbujesz się podnieść, ale najtwardszy pirat kopie cię na ziemię i dobija kolejnym strzałem.`
 				die
 
 			label "grab and run"
 			action
 				payment 23974
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. You run towards the door in a zigzag motion as bullets fly past you and tear chips out of the walls. You glance backwards just in time to see the barkeep reduce one of the ruffians to hamburger meat with an enormous shotgun. The remaining three chase after you.`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, you receive a message from the port authorities warning you that while they apprehended two of the pirates, the remaining two made it to their ships and are in hot pursuit.`
+			`	Chwytasz garnek i uciekasz! Bandyci wyją i wyciągają broń. Biegniesz zygzakiem w stronę drzwi, podczas gdy kule przelatują obok ciebie i wyrywają kawałki ze ścian. Zerkasz za siebie akurat w momencie, gdy barman rozwala jednego z bandytów na kawałki z ogromnej strzelby. Pozostała trójka goni cię.`
+			`	Pędzisz w kierunku hangaru i w pośpiechu odlatujesz. Szybko liczysz swoje łupy i widzisz, że jesteś o prawie 25 000 kredytów bogatszy! W połowie drogi z atmosfery otrzymujesz wiadomość od władz portu z ostrzeżeniem, że podczas gdy zatrzymali dwóch piratów, pozostali dwaj dotarli na swoje statki i ruszają w pościg.`
 				launch
 
 	to complete

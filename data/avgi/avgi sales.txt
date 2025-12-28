@@ -76,7 +76,7 @@ outfitter "Avgi General"
 
 outfitter "Avgi Specialized"
 	"Speck Round"
-	`"Nettle" KKV`
+	`<CN-8422>`
 	"Ultracapacitor Cell"
 	"Concentrating Solar Cell"
 	"Small Bunk Room"
@@ -125,15 +125,15 @@ outfitter "Avgi Superconductors"
 outfitter "Avgi Propulsion"
 	"Magnetoplasma Drive"
 	"Vapor Nuclear Rocket"
-	`Z-333 "Spark" Fusion Torch`
+	`<CN-8423>`
 	"R-180 RCS Thrusters"
 	"R-360 RCS Thrusters"
 	"Inductive Extractor"
 	"Remass Injector"
 
 outfitter "Avgi Torches"
-	`Z-333 "Spark" Fusion Torch`
-	`Z-666 "Zap" Fusion Torch`
+	`<CN-8423>`
+	`<CN-8424>`
 	"R-360 RCS Thrusters"
 	"R-720 RCS Thrusters"
 	"Inductive Extractor"
@@ -146,7 +146,7 @@ outfitter "Avgi Militia Surplus"
 	"Speck Magazine"
 	"Tiny VLS"
 	"Small VLS"
-	`"Nettle" KKV`
+	`<CN-8422>`
 	"Optical Lasing Generator"
 	"Green Optical Laser"
 	"Blue Optical Laser"
@@ -161,7 +161,7 @@ outfitter "Avgi Twilight Guard"
 	"Tiny VLS"
 	"Small VLS"
 	"Medium VLS"
-	`"Nettle" KKV`
+	`<CN-8422>`
 	"Optical Lasing Generator"
 	"Green Optical Laser"
 	"Blue Optical Laser"
@@ -169,9 +169,9 @@ outfitter "Avgi Twilight Guard"
 	"Specular Deflector"
 
 outfitter "Avgi Atomics"
-	`"Ophrys" Nuclear Torpedo`
+	`<CN-8425>`
 	"Ophrys Stockpile"
-	`"Orchid" Nuclear Missile`
+	`<CN-8426>`
 
 outfitter "Avgi Dissonance Smuggling"
 	"Speckle Coilgun"
@@ -180,7 +180,7 @@ outfitter "Avgi Dissonance Smuggling"
 	"Tiny VLS"
 	"Small VLS"
 	"Medium VLS"
-	`"Nettle" KKV`
+	`<CN-8422>`
 	"Optical Lasing Generator"
 	"Green Optical Laser"
 	"Blue Optical Laser"
@@ -188,7 +188,7 @@ outfitter "Avgi Dissonance Smuggling"
 	"Heatsink Partition"
 	"Concealment Lamina"
 	"Diffuse Deflector"
-	`Z-333 "Spark" Fusion Torch`
-	`Z-666 "Zap" Fusion Torch`
+	`<CN-8423>`
+	`<CN-8424>`
 	"Inductive Extractor"
 	"Remass Injector"

@@ -25,35 +25,35 @@ mission "Passive-Aggressive Observations"
 	on complete
 		"gegno: encounters" ++
 		conversation
-			`While navigating the skies of this desert world, you notice subsurface readings similar to the planet where you previously encountered a member of the Gegno Vi. It's likely this world is also home to the same or a similar species of large, serpent-like creatures you confronted back then. Eventually, you come across a large Gegno Vi vessel stationed on the surface, though unlike in your prior encounter, the ship isn't sunken into the desert - it has likely landed here recently. A group of Vi warriors are marching out and nearby the vessel, and while they do, two more Gegno ships appear above you.`
+			`	(Unikaj zamieszania i zajmij się swoimi sprawami.)`
 			choice
-				`	(Leave.)`
+				`	(Opuść.)`
 					goto leave
-				`	(Continue to observe.)`
-			`	The approaching ships descend towards the surface, paying you no attention. One of them is the same model as the one on the ground, likely some type of transport. The other, however, appears to be some sort of interceptor vessel, though it is definitely larger than something like a Sparrow from human space, maybe even the size of a Headhunter.`
-			`	Considering that the planet is home to more of those monsters from before, and the Vi are here in numbers, it might be best you take your leave now before the situation gets out of control again.`
+				`	(Kontynuuj obserwację.)`
+			`	(Wróć na swój statek.)`
+			`	(Obchodź 300. rocznicę powstania Republiki.)`
 			choice
-				`	(Leave.)`
+				`	(Opuść.)`
 					goto leave
-				`	(Approach the landing zone.)`
-			`	Throttling your ship forward, you head towards the Vi's landing zone. While the other transport vessel has touched down already, the interceptor, still in the process of landing, suddenly whips around to face you as you approach. Unlike the Scin's warships you confronted a few days ago, which were more reactive to your presence than direct about it, the Vi here are now going out of their way to approach your ship. A moment later, you receive what sounds like an angry hail from the interceptor.`
+				`	(Zbliż się do strefy lądowania.)`
+			`	Prędko przyspieszając, kierujesz się w stronę strefy lądowania Vi. Podczas gdy drugi transportowiec już wylądował, przechwytywacz, wciąż lądujący, nagle odwraca się w twoją stronę, gdy się zbliżasz. W przeciwieństwie do okrętów wojennych Scin, z którymi zetknąłeś się kilka dni temu, które reagowały raczej na twoją obecność niż bezpośrednio, Vi teraz starają się podejść do twojego statku. Chwilę później słyszysz coś, co brzmi jak gniewny okrzyk z przechwytywacza.`
 			`	"Tchii ciei escitch tchii iedf teih Voordhte!"`
 			choice
-				`	(Leave now.)`
-				`	(Continue.)`
+				`	(Wyjdź teraz.)`
+				`	(Kontynuuj.)`
 					goto continue
-			`	You decide it's best to not encroach on the Vi's area any more, as there's no telling what they'd do if you continued to do so. Once you back off, the interceptor briefly jerks forward at you in a vexed manner, continuing to observe you until you've left the area. While the Scin seemed more open to interaction, the Vi are clearly averse to it.`
+			`	Decydujesz, że najlepiej nie wkraczać już na teren Vi, ponieważ nie wiadomo, co zrobią, jeśli będziesz to robić dalej. Gdy się cofniesz, przechwytywacz na chwilę szarpie się do przodu, zirytowany, kontynuując obserwację, dopóki nie opuścisz obszaru. Podczas gdy Scin wydawał się bardziej otwarty na interakcję, Vi wyraźnie jej nie lubią.`
 				decline
 
 			label continue
 			action
 				set "provoked military"
-			`	You decide to continue flying towards the Vi without heeding their warning. With no hesitation, the interceptor begins to charge at you, and the ships on the surface start preparing for takeoff. Even some of the Vi soldiers on the ground are shouting and gesturing toward your vessel with their weapons. It would seem the Vi are no longer tolerant of your presence.`
+			`	Decydujesz się kontynuować lot w kierunku Vi, nie zważając na ich ostrzeżenia. Bez wahania myśliwiec przechwytujący rozpoczyna szarżę, a statki na powierzchni przygotowują się do startu. Nawet niektórzy żołnierze Vi na ziemi krzyczą i gestykulują w kierunku twojego statku bronią. Wygląda na to, że Vi nie tolerują już twojej obecności.`
 				decline
 
 			label leave
 			action
-			`	You decide to withdraw from the area, and the ships continue on their way toward the surface as if you were never there. Regardless of whether or not they could have been hostile, getting mixed up with what may be some sort of military exercise could be dangerous, especially with the Vi.`
+			`	Decydujesz się wycofać z tego obszaru, a statki kontynuują podróż w kierunku powierzchni, jakby nigdy cię tam nie było. Niezależnie od tego, czy mogły być wrogie, czy nie, wplątanie się w coś, co może być jakimś rodzajem ćwiczeń wojskowych, może być niebezpieczne, zwłaszcza z Vi.`
 				decline
 
 	npc save
@@ -131,7 +131,7 @@ mission "Foreign Spectator I"
 		fail
 		"gegno: encounters" ++
 		conversation
-			`As you enter the system, you notice that there is both a Vi and a Scin fleet at the center, although neither of them is engaging the other. Instead, they are observing a pair of ships, one from each side, that appear to be challenging one another. Maybe this is some sort of ceremonial event between the Gegno factions. It's probably best not to interfere.`
+			`Wlatując do układu, zauważasz, że w centrum znajduje się flota Vi i Scin, choć żadna z nich nie walczy z drugą. Zamiast tego obserwują parę statków, po jednym z każdej strony, które zdają się wzajemnie wyzywać. Być może to jakaś ceremonia między frakcjami Gegno. Lepiej nie ingerować.`
 
 	npc
 		on provoke
@@ -184,19 +184,19 @@ mission "Brief Bystander"
 	on complete
 		"gegno: encounters" ++
 		conversation
-			`The presence of scattered old recording instruments on the surface of this planet seems to contradict the apparent disinterest with which the Gegno appear to be treating it. Despite its location within the Gegno's home system of Heutesl, the planet is apparently deserted. Still, since this planet isn't strictly controlled by the Gegno, it makes for a convenient place to stop, and they seem to neither notice nor care that you have landed here.`
-			`	However, as you fly around, you notice a small Gegno shuttle parked on the ground. The tan coloration of its hull suggests that it's a civilian craft, but what it's doing here is unknown.`
+			`Obecność porozrzucanych starych instrumentów na powierzchni tej planety zdaje się przeczyć pozornemu brakowi zainteresowania, z jakim Gegno zdają się ją traktować. Pomimo położenia w macierzystym systemie Gegno, Heutesl, planeta jest najwyraźniej opuszczona. Mimo to, ponieważ planeta ta nie jest ściśle kontrolowana przez Gegno, stanowi dogodne miejsce na postój, a oni zdają się nie zauważać ani nie przejmować tym, że tu wylądowałeś.`
+			`	Jednak podczas lotu zauważasz mały wahadłowiec Gegno zaparkowany na ziemi. Brązowy kolor kadłuba sugeruje, że to statek cywilny, ale nie wiadomo, co tu robi.`
 			choice
-				`	(Investigate.)`
+				`	(Zbadaj.)`
 					goto investigate
-				`	(Leave them be.)`
+				`	(Pozostaw je w spokoju.)`
 					decline
 
 			label investigate
 			action
 				set "gegno: approached bystander"
-			`	You steer your ship toward the shuttle, and once you approach it, you are able to see a Gegno on the ground fiddling with one of the nearby devices. As you fly closer, they stop their work and return to their shuttle, taking off shortly after. It seems like they weren't interested in any potential interaction with you.`
-			`	Landing beside the satellite, you step out to take a look. The device is indistinguishable from any of the others you have seen so far. Its only notable feature seems to be its advanced age.`
+			`	Sterujesz statkiem w kierunku wahadłowca i gdy się do niego zbliżysz, widzisz Gegno na ziemi, majstrującego przy jednym z pobliskich urządzeń. Gdy podlatujesz bliżej, przerywają pracę i wracają do wahadłowca, po czym wkrótce startują. Wygląda na to, że nie byli zainteresowani jakąkolwiek potencjalną interakcją z tobą.`
+			`	Lądując obok satelity, wychodzisz, żeby się mu przyjrzeć. Urządzenie nie różni się niczym od innych, które do tej pory widziałeś. Jego jedyną zauważalną cechą wydaje się być zaawansowany wiek.`
 				decline
 
 
@@ -212,7 +212,7 @@ mission "Scin on Cyife"
 	on offer
 		"gegno: encounters" ++
 		conversation
-			`Nothing is of much interest on this cold, unwelcoming moon in the middle of nowhere. However, there's something about the surface of Cyife that is a bit peculiar. Some of the light refracted through the surface seemingly dissipates or reflects back in strange patterns. Although it appears to be ice, more detailed inspection reveals that small patches of the terrain seem to instead be made of some other type of crystalline material. In the distance is something that truly stands out on this world - a large egg-shaped structure with a green hue to it.`
+			`Nic nie jest szczególnie interesujące na tym zimnym, niegościnnym księżycu na środku niczego. Jednak jest coś dziwnego w powierzchni Cyife. Część światła załamującego się na powierzchni pozornie rozprasza się lub odbija, tworząc dziwne wzory. Chociaż wygląda jak lód, dokładniejsze oględziny ujawniają, że niewielkie fragmenty terenu zdają się być zbudowane z innego rodzaju krystalicznego materiału. W oddali widać coś, co naprawdę wyróżnia się na tym świecie - dużą, jajowatą strukturę o zielonkawym odcieniu.`
 
 			branch "boarded epidote"
 				has "scin: entered epidote"
@@ -220,15 +220,15 @@ mission "Scin on Cyife"
 			branch "saw epidote"
 				has "scin: approached epidote"
 
-			`	Once you get close enough, the oblong object reveals itself to be some sort of large Gegno ship with the coloring of the Scin faction. What it's doing this far away from their home space is a mystery, much like the moon it's stationed on. After a few seconds, it launches into the atmosphere and leaves the moon. There doesn't seem to be anything left where it was parked, nor any trace of what the Scin were doing here to begin with.`
+			`	Gdy zbliżysz się na tyle, podłużny obiekt okazuje się być jakimś dużym statkiem Gegno w barwach frakcji Scin. To, co robi tak daleko od ich macierzystej przestrzeni, pozostaje zagadką, podobnie jak księżyc, na którym stacjonuje. Po kilku sekundach wlatuje w atmosferę i opuszcza księżyc. Wygląda na to, że w miejscu, gdzie był zaparkowany, nie ma śladu ani śladu tego, co Scinowie tu w ogóle robili.`
 				decline
 
 			label "saw epidote"
-			`	Once you get close enough, the oblong object is revealed to be a large Gegno Scin ship, similar to the one you encountered during an interaction with the Scin a while ago. What it's doing this far away from their home space is a mystery, much like the moon it's stationed on. Or at least, was stationed on, as after a few seconds it launches into the atmosphere and leaves the moon.`
+			`	Gdy zbliżysz się na tyle, ten podłużny obiekt okazuje się być dużym statkiem Gegno Scin, podobnym do tego, który napotkałeś podczas interakcji ze Scin jakiś czas temu. To, co robi tak daleko od ich macierzystej przestrzeni, pozostaje zagadką, podobnie jak księżyc, na którym stacjonuje. A przynajmniej na którym stacjonował, ponieważ po kilku sekundach wlatuje w atmosferę i opuszcza księżyc.`
 				decline
 
 			label "boarded epidote"
-			`	Once you get close enough, the oblong object reveals itself to be one of the Gegno Scin's large research ships, the same kind that you entered during an interaction with the Scin a while ago. It's possible the Scin found the mysteriousness of Cyife worth traveling so far from their home space to investigate. You'll never know for certain as after a few seconds, the ship launches into the atmosphere and disappears into space. They didn't seem to leave anything behind.`
+			`	Gdy podejdziesz wystarczająco blisko, podłużny obiekt okazuje się być jednym z dużych statków badawczych Gegno Scin, tym samym, na który wszedłeś podczas interakcji ze Scin jakiś czas temu. Możliwe, że Scin uznał tajemniczość Cyife za wartą odbycia tak dalekiej podróży z ich macierzystej przestrzeni, aby ją zbadać. Nigdy nie będziesz tego pewien, ponieważ po kilku sekundach statek wystrzeliwuje w atmosferę i znika w kosmosie. Wygląda na to, że niczego po sobie nie zostawili.`
 				decline
 
 
@@ -246,8 +246,8 @@ mission "Battle over Zydee"
 	on offer
 		"gegno: encounters" ++
 		conversation
-			`Although this planet is uninhabited, there are more than a few Gegno Scin ships currently parked across the surface. It seems like there's an ongoing operation to continue constructing what infrastructure has been built in the past, and the hard-working Scin pay little to no attention to your visit.`
-			`	However, a few moments later, the Scin suddenly start scurrying to their ships. Based on your experiences so far, you haven't gotten close enough to alarm them. They begin taking off one by one in a hurried fashion, but not toward you - the <ship>'s sensors suddenly begin picking up a large Gegno Vi fleet entering the system. It appears that this place is turning into a battlefield, and getting caught up in the middle of it is likely something you should avoid.`
+			`Chociaż ta planeta jest niezamieszkana, na jej powierzchni zacumowanych jest obecnie kilka statków Gegno Scin. Wygląda na to, że trwa operacja kontynuacji budowy infrastruktury, która została zbudowana w przeszłości, a ciężko pracujący Scinowie nie zwracają uwagi na twoją wizytę.`
+			`	Jednak kilka chwil później Scinowie nagle zaczynają biec w kierunku swoich statków. Na podstawie twoich dotychczasowych doświadczeń, nie zbliżyłeś się na tyle, by ich zaalarmować. Zaczynają uciekać jeden po drugim w pośpiechu, ale nie w twoim kierunku - czujniki <ship> nagle rejestrują dużą flotę Gegno Vi wlatującą do układu. Wygląda na to, że to miejsce zamienia się w pole bitwy, a znalezienie się w samym jego środku to coś, czego prawdopodobnie powinieneś unikać.`
 				accept
 	on enter "Kneirc"
 		event "gegno: vi occupy zydee" 1 3
@@ -358,82 +358,82 @@ mission "Gegno Suspicions"
 		not "Gegno Genocide Defense: offered"
 	on offer
 		conversation
-			`After you go through your post-docking routine and enter the ringworld, you can't help but feel that something is a bit off. Normally, the Quarg here would be swiftly walking about, focused on their duties, but for some reason, there seem to be fewer of them around than usual. Moreover, those you do come across are occasionally having discussions with one another, sometimes looking in your direction even for the slightest moment. What stands out the most is the utter lack of any Gegno in the area you're visiting.`
-			`	A few minutes later, while you are making your way through the pristine interior of the ring, you hear a voice call to you from down one of the various branching corridors. Turning around, you recognize the unique attire of the Quarg who has helped you in the past, along with a few others. "Circumstantial greetings once more, <first> <last>. Might we have a significant moment of your attention?"`
+			`Po przejściu przez rutynę po dokowaniu i wejściu na pierścień, nie możesz oprzeć się wrażeniu, że coś jest nie tak. Normalnie Quargowie tu szybko by się przemieszczali, skupieni na swoich obowiązkach, ale z jakiegoś powodu wydaje się, że jest ich mniej niż zwykle. Co więcej, ci, których spotykasz, od czasu do czasu rozmawiają ze sobą, czasem nawet na chwilę patrząc w twoją stronę. Najbardziej rzuca się w oczy całkowity brak Gegno w odwiedzanym obszarze.`
+			`	Kilka minut później, gdy przedzierasz się przez nieskazitelne wnętrze pierścienia, słyszysz głos dochodzący z jednego z rozgałęzionych korytarzy. Odwracając się, rozpoznajesz wyjątkowy strój Quarga, który ci w przeszłości pomagał, wraz z kilkoma innymi. "Ponownie witam cię w sposób szczególny, <first> <last>. Czy możemy prosić o chwilę uwagi?"`
 			choice
-				`	"Sure."`
+				`	"Pewnie."`
 					goto follow
-				`	"How long will it take?"`
-			`	"As long as is required, for this matter is of symbolic importance," it says, with a slightly elevated tone.`
+				`	"Jak długo to potrwa?"`
+			`	"Tak długo, jak będzie to konieczne, gdyż sprawa ta ma symboliczne znaczenie," mówi lekko podniesionym tonem.`
 
 			label follow
-			`	You follow the group of Quarg to a smaller discussion room, similar to the one you've previously visited. Or perhaps you've been visiting a different room each time, considering how unfathomably large a ringworld is. Once you sit down, the Quarg from before looks at you for a moment, looks down at the table, then back up to you.`
+			`	Podążasz za grupą Quargów do mniejszego pokoju dyskusyjnego, podobnego do tego, który już wcześniej odwiedziłeś. A może za każdym razem odwiedzałeś inny pokój, biorąc pod uwagę, jak niewyobrażalnie duży jest pierścień. Gdy usiądziesz, Quarg z poprzedniego spotkania patrzy na ciebie przez chwilę, potem na stół, a potem znowu na ciebie.`
 			
 			branch "negative rep"
 				or
 					"reputation: Gegno Vi" < 0
 					"reputation: Gegno Scin" < 0
 
-			`	"Formerly, I have offered suggestions of heedful interplay regarding the Gegno. We have been alerted of a few additional encounters you have experienced, although they seemed minimal in nature. In such cases, it has been generally described that you left in a timely manner, for which we are notably appreciative. However," the Quarg continues, "despite your efforts in recommended cautions, there are some Gegno figures of meaningful standing that expressed frustration in your trivial appearances. They inquired of us as to the possibility of unnecessary reoccurrences."`
+			`	"Wcześniej zasugerowałem rozważną interakcję w sprawie Gegno. Zostaliśmy powiadomieni o kilku dodatkowych spotkaniach, których doświadczyliście, choć wydawały się one nieznaczne. W takich przypadkach zazwyczaj opisywano, że odchodziliście w odpowiednim czasie, za co jesteśmy szczególnie wdzięczni. Jednakże, "Quarg kontynuuje, "pomimo waszych wysiłków w zalecanych środkach ostrożności, istnieją pewne postacie Gegno o znaczącej pozycji, które wyraziły frustrację z powodu waszych trywialnych wystąpień. Pytali nas o możliwość niepotrzebnych powtórzeń. "`
 			choice
-				`	"Why does this frustrate them?"`
+				`	"Dlaczego to ich frustruje?"`
 					goto imagine
-				`	"I haven't done any harm to them."`
+				`	"Nie zrobiłem im nic złego."`
 					goto harm
-				`	"It was more coincidental than anything."`
+				`	"To był raczej zbieg okoliczności niż cokolwiek innego."`
 					goto coincidental
-				`	"I wish to learn more about them."`
+				`	"Chcę dowiedzieć się o nich więcej."`
 					goto learn
 
 			label harm
-			`	"One need not invoke violence to greatly harm another. However purest intentions may be, even the smallest unbeknownst action may rapidly tumble to one not forseenly desired." The Quarg then ponders for a moment.`
+			`	"Nie trzeba uciekać się do przemocy, by wyrządzić komuś wielką krzywdę. Niezależnie od najczystszych intencji, nawet najdrobniejszy, nieświadomy czyn może szybko przerodzić się w niepożądany." Quarg zastanawia się przez chwilę.`
 				goto imagine
 				
 			label coincidental
-			`	"Even a mere brief coincidence may cause a result not desired, nor foreseen, by the instigator. All living things owe their existence to series of arbitrary coincidences." The Quarg then ponders for a moment.`
+			`	"Nawet krótki zbieg okoliczności może spowodować rezultat niepożądany ani nie przewidziany przez inicjatora. Wszystkie żywe istoty zawdzięczają swoje istnienie serii przypadkowych zbiegów okoliczności." Wtedy Quarg zastanawia się przez chwilę.`
 				goto imagine
 
 			label learn
-			`	"Not always does the desire to learn lead to pleasant opportunities. The most curious of creatures can easily be harmed when naive to the nature of their interests." The Quarg then ponders for a moment.`
+			`	"Chęć nauki nie zawsze prowadzi do przyjemnych okazji. Najbardziej ciekawskie stworzenia łatwo mogą zostać skrzywdzone, gdy nie rozumieją natury swoich zainteresowań." Quarg zastanawia się przez chwilę.`
 
 			label imagine
-			`	"Imagine, if you will, during the substantial conflicts the humans call the Turf Wars, a strange alien came to human space. We Quarg woefully witnessed that hazardous conflict - it was a time of great waste, unfortunate peril, and unsavory distrust among humanity. The Gegno are in a vulnerable state notably comparable to such a time, and introduction of outsiders would not befit the case. The truth remains that we have been contacted by a few Gegno of importance in respect to your past presences, and there has been a show of concern surrounding your unstated intentions." After a brief pause, the Quarg looks to you in a strange manner, and you aren't sure what to make of it. "Though, unexpectedly, a select few times we have also been curiously asked of your origins, an experience we are not strongly familiar with involving the Gegno."`
-			`	The Quarg leaves its chair and motions you to do the same.`
+			`	"Wyobraź sobie, że podczas poważnych konfliktów, które ludzie nazywają Wojnami Terytorialnymi, dziwny kosmita przybył do ludzkiej przestrzeni. My, Quargowie, byliśmy boleśnie świadkami tego niebezpiecznego konfliktu - był to czas wielkiego marnotrawstwa, nieszczęsnego niebezpieczeństwa i niesmacznej nieufności między ludźmi. Gegno znajdują się w stanie zagrożenia, wyraźnie porównywalnym z tamtymi czasami, a wprowadzenie obcych byłoby w tym przypadku nie na miejscu. Prawda pozostaje taka, że skontaktowało się z nami kilku Gegno ważnych w kontekście twojej przeszłości i pojawiło się zaniepokojenie twoimi niewypowiedzianymi intencjami. " Po krótkiej pauzie Quargowie patrzą na ciebie dziwnie, a ty nie jesteś pewien, co o tym myśleć. "Chociaż, niespodziewanie, kilka razy zostaliśmy również z ciekawością zapytani o twoje pochodzenie, doświadczenie, z którym nie jesteśmy dobrze zaznajomieni w kontekście Gegno. "`
+			`	Quarg wstaje z krzesła i gestem nakazuje ci zrobić to samo.`
 			choice
-				`	(Stand up.)`
+				`	(Wstań.)`
 
-			`	"Our best of recommendations to you is to avoid further contact in the coming future. Meanwhile, we shall attempt a most careful negotiation with their hierarchy to come to terms of a ground of acceptance for your presence. Should we find commonality, you will receive communication from one of the title 'Adrauni,' as has been bestowed upon me."`
-			`	The rest of the Quarg, who have been listening to the conversation attentively the whole time, begin to escort you out of the room. If the Gegno are willing to go as far as to contact the Quarg about your appearances, then this is truly an important matter to them. For the time being, it's probably best to allow the Quarg to find some kind of resolution with the Gegno while you keep your distance.`
+			`	"Naszym najlepszym zaleceniem dla Ciebie jest unikanie dalszych kontaktów w przyszłości. W międzyczasie podejmiemy próbę ostrożnych negocjacji z ich hierarchią, aby ustalić warunki akceptacji Twojej obecności. Jeśli znajdziemy wspólny język, otrzymasz wiadomość od jednego z członków o imieniu "Adrauni", który został mi nadany."`
+			`	Pozostali Quargowie, którzy przez cały czas uważnie przysłuchiwali się rozmowie, zaczynają wyprowadzać cię z pokoju. Jeśli Gegno są skłonni posunąć się tak daleko, by skontaktować się z Quargami w sprawie twojego pojawienia się, to jest to dla nich naprawdę ważna sprawa. Na razie najlepiej pozwolić Quargom znaleźć jakieś rozwiązanie z Gegno, podczas gdy ty zachowasz dystans.`
 				decline
 
 
 			label "negative rep"
-			`	"Formerly, I have offered suggestions of heedful interplay regarding the Gegno. However, we are increasingly aware of correlative happenings upon them involving yourself. It would seem consequential events have indeed occurred. Not often previously were we approached by Gegno, but on a few notable occasions now have meaningful figures sought us out for inquiry - most notably due to violent circumstances." The Quarg stares at you for an extended period of time, waiting for some kind of answer.`
+			`	"Wcześniej sugerowałem rozważną interakcję w odniesieniu do Gegno. Jednak coraz bardziej zdajemy sobie sprawę z powiązanych z nimi zdarzeń, które dotyczą ciebie. Wygląda na to, że rzeczywiście miały miejsce istotne wydarzenia. Wcześniej Gegno rzadko się do nas zwracał, ale teraz w kilku znaczących przypadkach znaczące postacie zwróciły się do nas z prośbą o pomoc - głównie z powodu gwałtownych okoliczności. " Quarg wpatruje się w ciebie przez dłuższy czas, czekając na jakąś odpowiedź.`
 			choice
-				`	"They attacked me first."`
-				`	"I wanted to get their attention."`
+				`	"Najpierw mnie zaatakowali."`
+				`	"Chciałem zwrócić ich uwagę."`
 					goto attention
-				`	"Violence happens all the time in human space, but the Quarg don't seem interested in it."`
+				`	"W przestrzeni zamieszkanej przez ludzi przemoc zdarza się cały czas, ale Quargowie najwyraźniej się nią nie interesują."`
 					goto violence
 
-			`	The Quarg continues to look at you for a while longer before answering. "Based on some principles, I may see reason for them to be... inclined... to do such. However, to do so in this case would not align with their elder's interests, nor would any fabrications." The Quarg blinks at you, then ponders for a moment.`
+			`	Quarg patrzy na ciebie jeszcze przez chwilę, zanim odpowiada. "Opierając się na pewnych zasadach, mogę dostrzec powód, dla którego... są skłonni... to zrobić. Jednak w tym przypadku nie byłoby to zgodne z interesami ich przełożonego, podobnie jak żadne zmyślenia. " Quarg mruga okiem, po czym przez chwilę się zastanawia.`
 				goto cases
 
 			label attention
-			`	The Quarg blinks. "And you found a suitable solution to your... problem... by instigating unprovoked hostilities?" The Quarg then continues to stare at you in what you presume to be a judgemental manner for an awkward amount of time, before looking away to ponder to itself.`
+			`	Quarg mruga. "I znalazłeś odpowiednie rozwiązanie swojego... problemu... wszczynając niesprowokowane działania wojenne?" Następnie Quarg przez niezręczną chwilę wpatruje się w ciebie w sposób, który uważasz za osądzający, po czym odwraca wzrok, by zastanowić się nad sobą.`
 				goto cases
 
 			label violence
-			`	The Quarg takes a long moment to ponder your statement, as if it wasn't expecting such a response. "Indeed, it is known that conflict is commonly natural amongst you quarrelsome humans. But this matter is of another sort." The Quarg then thinks to itself again for a little longer.`
+			`	Quarg przez dłuższą chwilę zastanawia się nad twoją wypowiedzią, jakby nie spodziewał się takiej odpowiedzi. "Rzeczywiście, wiadomo, że konflikty są wśród was, kłótliwych ludzi, czymś naturalnym. Ale ta sprawa jest innego rodzaju." Potem Quarg znów się zastanawia przez chwilę.`
 
 
 			label cases
-			`	"Imagine, if you will, during the substantial conflicts the humans call the Turf Wars, a hostile alien came to human space. We Quarg woefully witnessed that hazardous conflict - it was a time of great waste, unfortunate peril, and unsavory distrust among humanity. The Gegno are in a vulnerable state notably comparable to such a time, and introduction of even more hostilities would not befit the case, especially of those from the outside. We have been contacted by numerous Gegno members of high standing and wish for this to be a matter only of further strict cautionaries, but regrettably, the Gegno believe it a matter beyond attentiveness." The Quarg leaves its chair and motions you to do the same.`
+			`	"Wyobraź sobie, że podczas poważnych konfliktów, które ludzie nazywają Wojnami Terytorialnymi, wrogi kosmita pojawił się w ludzkiej przestrzeni. My, Quargowie, byliśmy boleśnie świadkami tego niebezpiecznego konfliktu - był to czas wielkiego marnotrawstwa, nieszczęsnego niebezpieczeństwa i niesmacznej nieufności wśród ludzkości. Gegno znajdują się w stanie zagrożenia, wyraźnie porównywalnym z tamtymi czasami, a wprowadzanie jeszcze większych wrogości nie byłoby w ich przypadku stosowne, zwłaszcza ze strony osób z zewnątrz. Skontaktowało się z nami wielu wysoko postawionych członków Gegno i chcielibyśmy, aby ta sprawa była jedynie kwestią dalszych surowych środków ostrożności, ale niestety Gegno uważają, że jest to kwestia nie do przecenienia. " Quarg wstaje z krzesła i gestem nakazuje ci zrobić to samo.`
 			choice
-				`	(Stand up.)`
+				`	(Wstań.)`
 
-			`	"You are recommended for departure from Gegno space as of this decisive moment. Meanwhile, we shall attempt a most careful negotiation with their hierarchy to come to terms of an acceptable toleration of sorts. Should we find commonality, you will receive communication from one of the title 'Adrauni,' as has been bestowed upon me."`
-			`	As the rest of the Quarg escort you out of the room, the Quarg named 'Adrauni' addresses you one last time. "Do avoid any further violent tendencies, Captain." If the Gegno are willing to go as far as to contact the Quarg, then this is truly an important matter to them. For the time being, it's probably best to listen to the Quarg's warnings this time around and leave Gegno space until some kind of resolution is found, if at all.`
+			`	"Zaleca się Państwu opuszczenie przestrzeni Gegno w tym decydującym momencie. W międzyczasie podejmiemy próbę ostrożnych negocjacji z ich hierarchią, aby dojść do porozumienia w sprawie akceptowalnej tolerancji. Jeśli znajdziemy wspólny język, otrzymacie Państwo wiadomość od jednego z nadanych mi tytułów "Adrauni".`
+			`	Gdy reszta Quargów wyprowadza cię z pokoju, Quarg o imieniu "Adrauni" zwraca się do ciebie po raz ostatni. "Unikaj dalszych gwałtownych zachowań, Kapitanie." Jeśli Gegno są skłonni posunąć się tak daleko, by skontaktować się z Quargami, to jest to dla nich naprawdę ważna sprawa. Na razie najlepiej tym razem posłuchać ostrzeżeń Quargów i pozostawić Gegno w spokoju, dopóki nie zostanie znalezione jakieś rozwiązanie, o ile w ogóle zostanie znalezione.`
 				decline
 
 	on decline
@@ -592,259 +592,259 @@ mission "Gegno Anticipation"
 					"reputation: Gegno Vi" < 0
 					"reputation: Gegno Scin" < 0
 
-			`Once you land on the ringworld, you are greeted by a small group of Quarg who quickly motion you to follow them. They escort you through various halls of the ring, which still appear to lack the presence of any Gegno. Down at the end of the next corridor, you see Adrauni waiting for you, though beside it is a Gegno in some form of strange attire. Once you meet up with them, the other Quarg head off in a different direction, and Adrauni begins walking down another hallway. "Please, indulge in accompanying us."`
-			`	As you follow them, Adrauni begins to speak while holding out one arm. "If you may, as humans say, humor me, what do you suspect was the result of my negotiations with the Gegno?"`
+			`Gdy wylądujesz na pierścieniu, powita cię niewielka grupa Quargów, którzy szybko skierują cię, abyś poszedł za nimi. Eskortują cię przez różne korytarze pierścienia, w których wciąż najwyraźniej nie ma Gegno. Na końcu kolejnego korytarza zobaczysz Adrauni czekającą na ciebie, choć obok niej stoi Gegno w jakimś dziwnym stroju. Gdy się z nimi spotkasz, pozostali Quargowie kierują się w innym kierunku, a Adrauni rusza kolejnym korytarzem. "Proszę, pozwól nam towarzyszyć."`
+			`	Podążając za nimi, Adrauni zaczyna mówić, wyciągając rękę. "Jeśli możesz, jak to mówią ludzie, potraktować mnie po macoszemu, jaki był twoim zdaniem wynik moich negocjacji z Gegno?"`
 			choice
-				`	"That they will accept me?"`
-				`	"That they want nothing to do with me?"`
+				`	"Że mnie zaakceptują?"`
+				`	"Że nie chcą mieć ze mną nic wspólnego?"`
 					goto "deny me"
-				`	"I don't know."`
+				`	"Nie wiem."`
 					goto unsure
 
 			action
 				set "gegno word: accept"
-			`	After a brief delay, Adrauni turns to the Gegno, mutters something in their language, then responds to you. "I see. And what do you propose is the reasoning for that?"`
+			`	Po krótkiej chwili Adrauni zwraca się do Gegno, mamrocze coś w ich języku, a potem odpowiada ci. "Rozumiem. A jakie proponujesz uzasadnienie?"`
 			choice
-				`	"I've helped them before, and I could help them now."`
-				`	"I figured you could convince them."`
+				`	"Pomagałem im już wcześniej, więc mogę pomóc im teraz."`
+				`	"Pomyślałem, że możesz ich przekonać."`
 					goto convince
-				`	"I don't know."`
+				`	"Nie wiem."`
 					goto unsure
 
-			`	Adrauni ponders for a few moments as you continue walking through the impeccable interior of the ringworld. "That is a rather human response. However, do not conflate your value in assistance with theirs. Even should you provide beneficial assistance to the Gegno, a beneficent response in return is not necessitated. You have heeded my warnings at this juncture, yet you simply are doing what the Gegno desired from the beginning, and that is leaving them alone."`
+			`	Adrauni zastanawia się przez chwilę, gdy kontynuujesz wędrówkę przez nieskazitelne wnętrze Pierścienia. "To raczej ludzka reakcja. Nie utożsamiaj jednak swojej wartości w pomocy z ich wartością. Nawet jeśli udzielisz Gegno korzystnej pomocy, dobroczynna odpowiedź nie jest konieczna. Zwróciłeś uwagę na moje ostrzeżenia w tym momencie, ale po prostu robisz to, czego Gegno od początku pragnęli, czyli zostawiasz ich w spokoju. "`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	"Może lepiej będzie, jeśli zostawię je w spokoju."`
 					goto better
-				`	"There must be something I can do."`
+				`	"Musi być coś, co mogę zrobić."`
 					goto understand
 
 			label "convince"
-			`	Adrauni gives you a slight glare while continuing through the ringworld. "Do you not recall my prior mention of us Quarg having attempted such desired persuasions? It is not within our ability to convince the Gegno of anything. They are greatly devoted to their own, and will go beyond any boundary to oppose counsel, even by us Quarg."`
+			`	Adrauni rzuca ci lekkie spojrzenie, kontynuując wędrówkę przez pierścień. "Czy nie przypominasz sobie, że wcześniej wspominałem o tym, że my, Quargowie, próbowaliśmy takich pożądanych perswazji? Nie jesteśmy w stanie przekonać Gegno do niczego. Są wielce oddani swoim sprawom i zrobią wszystko, by sprzeciwić się radom, nawet nam, Quargom."`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	"Może lepiej będzie, jeśli zostawię je w spokoju."`
 					goto better
-				`	"There must be something I can do."`
+				`	"Musi być coś, co mogę zrobić."`
 					goto understand
 
 			label "deny me"
 			action
 				set "gegno word: reject"
-			`	After a brief delay, Adrauni turns to the Gegno, mutters something in their language, then responds to you. "I see. And what do you propose is the reasoning for that?"`
+			`	Po krótkiej chwili Adrauni zwraca się do Gegno, mamrocze coś w ich języku, a potem odpowiada ci. "Rozumiem. A jakie proponujesz uzasadnienie?"`
 			choice
-				`	"The way they act around me."`
-				`	"From what you've told me before."`
+				`	"Sposób, w jaki zachowują się przy mnie."`
+				`	"Z tego co mi wcześniej powiedziałeś."`
 					goto before
-				`	"I don't know."`
+				`	"Nie wiem."`
 					goto unsure
 
-			`	"Indeed, the Gegno are wary of you, who lack caution." A few seconds pass, and Adrauni gives a strange look towards the Gegno. You aren't sure what it's thinking. The Gegno seems to ask a question in their language, but receives no response. Adrauni pauses a while longer before speaking again. "Despite that, you have found yourself in precarious situations we have not. We as a species embraced contact with the Gegno; however, you remain the only human here. Perhaps therein lies a notable implication of distinction."`
+			`	"Rzeczywiście, Gegno są wobec ciebie nieufne, bo nie jesteś ostrożny." Mija kilka sekund i Adrauni rzuca Gegno dziwne spojrzenie. Nie jesteś pewien, co myśli. Gegno zdaje się zadawać pytanie w ich języku, ale nie otrzymuje odpowiedzi. Adrauni milczy jeszcze chwilę, zanim znów się odezwie. "Mimo to, znalazłeś się w niebezpiecznych sytuacjach, w których my nie byliśmy. My jako gatunek cieszyliśmy się kontaktem z Gegno; jednak ty pozostajesz tu jedynym człowiekiem. Być może w tym kryje się znacząca sugestia odrębności."`
 			choice
-				`	"Are you saying there's something I can do?"`
+				`	"Czy mówisz, że mogę coś zrobić?"`
 					goto understand
-				`	"I'm not sure I understand."`
+				`	"Nie jestem pewien, czy dobrze rozumiem."`
 					goto interest
 
 			label "before"
-			`	"I see." Adrauni blinks slowly while staring at you. It's almost as if it is surprised, or at the very least, not expecting that response. "Wise it is that you follow my fortunate instruction. If it weren't as such, I may not be the one speaking with you in this moment. Or, perhaps, it would be no one." It then looks forward again as you continue on your stroll, leaving you to think on those words. "Unfortunately, the Quarg are unable to further assist you in this delicate matter. If you recall, we have attempted prior counsel with the Gegno, yet bound they are in their ways, even should it mean incredulously opposing us Quarg."`
+			`	"Rozumiem." Adrauni mruga powoli, wpatrując się w ciebie. Wygląda to prawie tak, jakby była zaskoczona, a przynajmniej nie spodziewała się takiej odpowiedzi. "Rozsądnie jest, że posłuchałeś moich rad. Gdyby nie to, być może nie rozmawiałbym z tobą w tej chwili. A może nawet nie byłbym nikim." Następnie spogląda w przyszłość, gdy kontynuujesz swój spacer, pozwalając ci zastanowić się nad tymi słowami. "Niestety, Quargowie nie mogą ci pomóc w tej delikatnej sprawie. Jeśli pamiętasz, próbowaliśmy wcześniej naradzić się z Gegno, ale oni są związani swoimi metodami, nawet jeśli oznacza to niedowierzanie i sprzeciw wobec nas, Quargowie."`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	"Może lepiej będzie, jeśli zostawię je w spokoju."`
 					goto better
-				`	"There must be something I can do."`
+				`	"Musi być coś, co mogę zrobić."`
 					goto understand
 
 			label "unsure"
 			action
 				set "gegno word: unsure"
-			`	Adrauni turns to you briefly, staring at you blankly, then turns to the Gegno and mutters something in their language before responding to you. "And why is it that you are unsure?"`
+			`	Adrauni odwraca się do ciebie na chwilę, patrząc na ciebie bez wyrazu, po czym zwraca się do Gegno i mamrocze coś w ich języku, zanim ci odpowie. "A dlaczego nie jesteś pewien?"`
 			choice
-				`	"I wasn't sure you could convince them."`
+				`	"Nie byłem pewien, czy uda ci się ich przekonać."`
 					goto convince
-				`	"I don't know anything about them."`
+				`	"Nic o nich nie wiem."`
 
 			action
 				set "gegno word: friend"
-			`	After a pause, Adrauni turns toward you, glares at you briefly, then looks back forward as the three of you continue through the ring. "Quite an important conclusion, is that not? Many times I have said this, that the Gegno are not what I would consider humans to possess knowledge of. Should you learn more, I'm afraid even then that the Gegno do not contrastingly desire, what was the human word - camaraderie?" The Gegno then asks something in their language, and Adrauni begins a somewhat lengthy conversation with them.`
+			`	Po chwili Adrauni odwraca się do ciebie, rzuca ci krótkie spojrzenie, a potem spogląda przed siebie, gdy wasza trójka kontynuuje przemarsz przez ring. "Całkiem ważny wniosek, prawda? Wielokrotnie mówiłem, że Gegno nie są tym, o czym moim zdaniem ludzie posiadają wiedzę. Jeśli dowiesz się więcej, obawiam się, że nawet wtedy Gegno nie pragną, jak to było po ludzku - koleżeństwa? " Gegno pyta wtedy o coś w swoim języku, a Adrauni rozpoczyna z nimi dość długą rozmowę.`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	"Może lepiej będzie, jeśli zostawię je w spokoju."`
 					goto better
-				`	"There must be something I can do."`
+				`	"Musi być coś, co mogę zrobić."`
 					goto understand
 
 			label "interest"
-			`	The Quarg turns back to you. "You are here not at the whim of your fanatic species, but at your own behest. Actions you take may be that of a human, but are not willed by that of humanity." Blinking slowly, Adrauni then turns to the Gegno walking besides it and begins a somewhat lengthy conversation with them.`
+			`	Quarg odwraca się do ciebie. "Jesteś tu nie z kaprysu twojego fanatycznego gatunku, ale z własnej woli. Twoje działania mogą być typowe dla ludzi, ale nie są wynikiem woli ludzkości. " Mrugając powoli, Adrauni odwraca się do Gegno idącego obok i rozpoczyna z nimi dość długą rozmowę.`
 				goto "visit a"
 
 			label "understand"
-			`	You walk in silence for an awkward period of time. The strange architecture of the ringworld does little to comfort you; it feels like you've walked down the same path several times now. A few moments later, you eventually begin following Adrauni and the Gegno down what appears to be a different section, though it is strangely wider than previous ones. Before you begin asking more questions, Adrauni finally replies. "It is apparent that you may understand something of your fragile circumstance. It is no longer what I, rather, the Quarg, can do for you. It is what you can do for yourself."`
+			`	Przez niezręczną chwilę idziesz w milczeniu. Dziwna architektura pierścienia nie przynosi ci ulgi; masz wrażenie, jakbyś już kilka razy szedł tą samą ścieżką. Chwilę później w końcu podążasz za Adrauni i Gegno w kierunku, który wydaje się być innym odcinkiem, choć jest on dziwnie szerszy niż poprzednie. Zanim zaczniesz zadawać kolejne pytania, Adrauni w końcu odpowiada. "Wyraźnie widać, że możesz coś zrozumieć ze swojej kruchej sytuacji. To już nie to, co ja, a raczej Quarg, mogę dla ciebie zrobić. To, co ty możesz zrobić dla siebie."`
 				goto "visit a"
 
 			label "better"
-			`	Adrauni speaks to the Gegno once more for an extended period of time. The strange architecture of the ringworld does little to comfort you; it feels like you've walked down the same path several times now. A few moments later, you eventually begin following Adrauni and the Gegno down what appears to be a different section, though it is strangely wider than previous ones. "Yes, it may be that your timely departure is the most favorable outcome in this affair." A long, awkward silence ensues, at the end of which Adrauni briefly comes to a halt, still facing forward, now crossing its arms behind its back. "Though you and I figure that is... unlikely."`
+			`	Adrauni rozmawia z Gegno ponownie przez dłuższy czas. Dziwna architektura pierścienia nie przynosi ci ulgi; masz wrażenie, jakbyś już kilka razy szedł tą samą ścieżką. Chwilę później w końcu zaczynasz podążać za Adrauni i Gegno w kierunku, który wydaje się być innym odcinkiem, choć jest on dziwnie szerszy niż poprzednie. "Tak, możliwe, że twoje szybkie odejście jest najkorzystniejszym rozwiązaniem w tej sprawie." Zapada długa, niezręczna cisza, po której Adrauni na chwilę się zatrzymuje, wciąż zwrócony twarzą do przodu, krzyżując ramiona za plecami. "Chociaż my obaj uważamy, że to... mało prawdopodobne."`
 				goto "visit a"
 
 			label "visit a"
-			`	The Gegno leaves the two of you upon the entrance to a separate hallway, and you follow Adrauni to one last stop. You are at the end of your seemingly long trip through the ringworld, finding yourself back where you started - the docking facility where your ship is stationed. Although it felt like a dizzying maze to follow Adrauni around back to here, you can't help but imagine how much more confusing it would be to explore the entirety of a ringworld, considering that was only several minutes worth. Adrauni stops and turns to you, slightly lowering itself to speak closer to your own height. "You must seek audience on your own, tenacious, behalf. Visit the Gegno homeworld of Dueyu Eitch, present yourself in a manner that you desire to be perceived. Only then will you find your desired answer."`
+			`	Gegno zostawia was oboje przy wejściu do oddzielnego korytarza, a ty podążasz za Adrauni do ostatniego przystanku. Jesteś u kresu swojej pozornie długiej podróży przez Pierścień, wracając do punktu wyjścia - do stacji dokującej, gdzie stacjonuje twój statek. Chociaż podążanie za Adrauni z powrotem tutaj przypominało zawrotny labirynt, nie możesz się powstrzymać od wyobrażenia sobie, o ile bardziej dezorientujące byłoby zbadanie całego Pierścienia, biorąc pod uwagę, że zajęłoby to tylko kilka minut. Adrauni zatrzymuje się i odwraca do ciebie, lekko zniżając się, by przemówić bliżej twojego wzrostu. "Musisz sam, wytrwale, szukać audiencji. Odwiedź ojczystą planetę Gegno, Dueyu Eitch, zaprezentuj się w sposób, w jaki chcesz być postrzegany. Tylko wtedy znajdziesz swoją odpowiedź. "`
 			
 			label "epilogue a"
 			choice
-				`	"Won't they prevent me from landing?"`
+				`	"Czy nie uniemożliwią mi lądowania?"`
 					to display
 						not "gegno: landing dialog"
 
-				`	"Couldn't we have just asked the Gegno from earlier?"`
+				`	"Czy nie moglibyśmy po prostu zapytać Gegno wcześniej?"`
 					to display
 						not "gegno: asked dialog"
 					goto ask
 
-				`	"I'm not sure that's safe. Could you escort me there?"`
+				`	"Nie jestem pewien, czy to bezpieczne. Czy mógłbyś mnie tam odprowadzić?"`
 					to display
 						not "gegno: escort dialog"
 					goto escort
 			
-				`	"Thank you. I will leave now."`
+				`	"Dziękuję. Już idę."`
 					to display
 						has "gegno: landing dialog"
 					goto "end a"
 
 			action
 				set "gegno: landing dialog"
-			`	"Contrarily, I rather believe them to be expecting of you. Do remember you must hail the planet for clearance."`
+			`	"Wręcz przeciwnie, sądzę, że raczej oczekują na ciebie. Pamiętaj, że musisz zawołać planetę, żeby się zwolniła."`
 				goto "epilogue a"
 
 			label "ask"
 			action
 				set "gegno: asked dialog"
-			`	Adrauni ponders your question for a few moments before answering. "Ah, yes, your naivety to Gegno culture had but briefly passed me. Tradition amongst female Scin is to allocate time of research just short of a lifespan. The one whom you speak of is very much devoted to us here, nothing more. For any official matters with the Gegno to pass, they must go through the great heart of the colony."`
+			`	Adrauni zastanawia się chwilę nad twoim pytaniem, zanim odpowie. "Ach, tak, twoja naiwność w stosunku do kultury Gegno na krótko mnie ominęła. Tradycją wśród kobiet Scin jest przeznaczanie czasu na badania krótszego niż całe życie. Ta, o której mówisz, jest nam tutaj bardzo oddana, nic więcej. Aby jakiekolwiek oficjalne sprawy z Gegno mogły się odbyć, muszą przejść przez wielkie serce kolonii."`
 				goto "epilogue a"
 
 			label "escort"
 			action
 				set "gegno: escort dialog"
-			`	Adrauni blinks at you. "I would have hoped you understood what was meant by your previous realization." It looks off to the side in deep thought, then back to you. "Habitually, we Quarg scarcely visit the Gegno for the most minor of reasons. Should you be accompanied at this time, the Gegno's unstable perception of you would alter further. Imagine if the Quarg visited your own planet called Earth with strange others in tow." You guess that Adrauni then does what the Quarg equivalent of a sigh would be. "However, yes, I am capable of sending you an escort. Be certain in this decision."`
+			`	Adrauni mruga do ciebie. "Miałem nadzieję, że zrozumiałeś, co oznaczało twoje poprzednie odkrycie." Spogląda gdzieś w bok, pogrążony w myślach, a potem z powrotem na ciebie. "Zwykle my, Quargowie, rzadko odwiedzamy Gegno z błahych powodów. Gdybyś miał teraz towarzystwo, niestabilne postrzeganie ciebie przez Gegno uległoby dalszej zmianie. Wyobraź sobie, że Quargowie odwiedzają twoją planetę, Ziemię, z obcymi ludźmi na pokładzie." Domyślasz się, że Adrauni robi wtedy to, co dla Quargów byłoby westchnieniem. "Tak, jestem w stanie wysłać ci eskortę. Bądź pewien tej decyzji."`
 			choice
-				`	"Yes, I would like an escort."`
+				`	"Tak, chciałbym skorzystać z usług eskorty."`
 					goto "quarg escort"
-				`	"Actually, I should be fine."`
+				`	"Właściwie wszystko powinno być w porządku."`
 					goto "no escort"
 
 			label "quarg escort"
 			action
 				set "gegno: escort dialog"
 				set "gegno anticipation: quarg escort"
-			`	Adrauni hesitantly responds. "I shall send for one upon your departure."`
+			`	Adrauni odpowiada niepewnie. "Poślę po jednego, gdy będziesz wychodził."`
 				goto "epilogue a"
 
 			label "no escort"
 			action
 				set "gegno: escort dialog"
-			`	"I see. May it be for the best, then."`
+			`	"Rozumiem. Niech tak będzie najlepiej."`
 				goto "epilogue a"
 
 			label "end a"
-			`	"Safe travels, <first> <last>. I aspire for your daring decisions to befit the wise on your journey ahead." Adrauni gives you a lengthy bow, then leaves the hangar. You get the feeling that this might have been the last time you meet with it. As you return to your ship, a few other Quarg, who have been watching the conversation from afar, also return to their normal routine as if nothing had happened. Now, it is up to you to see for yourself whether or not the Gegno will accept you.`
+			`	"Bezpiecznej podróży, <first> <last>. Życzę, aby Twoje śmiałe decyzje były godne mądrej osoby w Twojej dalszej podróży. " Adrauni kłania się Ci długo, po czym opuszcza hangar. Masz wrażenie, że to może być Twoje ostatnie spotkanie z nim. Gdy wracasz na statek, kilka innych Quargów, które obserwowały rozmowę z daleka, również wraca do swoich codziennych zajęć, jakby nic się nie stało. Teraz sam musisz przekonać się, czy Gegno Cię zaakceptuje.`
 				accept
 
 			label "negative rep"
 
-			`Once you land on the ringworld, you notice a group of Gegno off to the side of the hangar you are stationed in. They have the hulking appearance of Vi warriors, and while they aren't moving from their position, they watch you intently as you exit your ship. A small group of Quarg then approach you and quickly motion you to follow them, escorting you through various halls of the ring. Eventually you are led to the room where you met Adrauni in the past, or perhaps one identical to it. "Please, seat yourself."`
-			`	You sit down, along with two other Quarg, and the rest of them leave the room with the door sliding shut behind them. Adrauni stares blankly at you for a while, then speaks. "I presume you understand what result came from my negotiations with the tedious Gegno."`
+			`Gdy wylądujesz na Pierścieniu, zauważysz grupę Gegno z boku hangaru, w którym stacjonujesz. Wyglądają jak potężni wojownicy Vi i choć nie ruszają się z miejsca, uważnie cię obserwują, gdy wychodzisz ze statku. Niewielka grupa Quargów podejdzie do ciebie i szybko skinie, abyś poszedł za nimi, eskortując cię przez kolejne sale Pierścienia. W końcu zostaniesz zaprowadzony do pomieszczenia, w którym spotkałeś Adrauni w przeszłości, a może do identycznego. "Proszę, usiądź."`
+			`	Siadasz wraz z dwoma innymi Quargami, a reszta wychodzi z pokoju, zamykając za sobą drzwi. Adrauni patrzy na ciebie przez chwilę beznamiętnie, po czym odzywa się. "Zakładam, że rozumiesz, jaki był rezultat moich negocjacji z nudnym Gegno."`
 			choice
-				`	"That they are upset with me?"`
+				`	"Że są na mnie źli?"`
 					goto upset
-				`	"That they will tolerate me?"`
-				`	"No, I do not."`
+				`	"Że będą mnie tolerować?"`
+				`	"Nie, nie mam."`
 					goto "no idea"
 
-			`	Adrauni continues to stare at you, then slowly blinks. "I see. What is your strange understanding of the term 'tolerate' in this capacity?"`
+			`	Adrauni nadal się na ciebie gapi, po czym powoli mruga. "Rozumiem. Jak dziwnie rozumiesz termin "tolerować" w tym kontekście?"`
 			choice
-				`	"Permission to land on their worlds."`
-				`	"Allow me access to their technology."`
+				`	"Zezwolenie na lądowanie na ich światach."`
+				`	"Pozwól mi uzyskać dostęp do ich technologii."`
 					goto tech
-				`	"I don't know."`
+				`	"Nie wiem."`
 					goto "dont know"
 
-			`	Adrauni ponders for a few moments. "That is a rather human response. Although we Quarg are, by your definition, minimally tolerant of your species, access to only some of our wondrous worlds we give you. However, what of humans to others? Should the Gegno, or species of other eccentricities, be given leisure to your planet Earth? It may be the case with you, though with anxious humanity, it certainly would not be." One of the other Quarg in the room says something to Adrauni, to which it responds with a conversation in its own language.`
+			`	Adrauni zastanawia się przez chwilę. "To raczej ludzka odpowiedź. Chociaż my, Quargowie, jesteśmy, zgodnie z waszą definicją, minimalnie tolerancyjni wobec waszego gatunku, dajemy wam dostęp tylko do niektórych z naszych cudownych światów. A co z ludźmi wobec innych? Czy Gegno lub inne dziwactwa powinny mieć zapewniony wypoczynek na waszej planecie Ziemi? W waszym przypadku może tak być, choć z zaniepokojoną ludzkością z pewnością by tak nie było. " Jeden z pozostałych Quargów w pokoju mówi coś do Adrauni, na co odpowiada ona rozmową w swoim języku.`
 			choice
-				`	"Is there no way I can work with the Gegno?"`
+				`	"Czy nie ma możliwości współpracy z Gegno?"`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	"Chyba powinienem je zostawić w spokoju."`
 					goto alone
 
 			label "tech"
-			`	Adrauni clicks its teeth together in what appears to be a laughing manner, a reaction you have yet to see from it. "And we many Quarg, of those who live among ambitious humans, allowance of our technology have we given? One is not owed rights to another's inventions under pretensive tolerance." The other Quarg in the room look at Adrauni strangely, after which it begins a conversation with them in their own language. After a few moments, they too stare at you with strange looks, followed by an awkward silence, which is broken by Adrauni speaking to you once more. "With us as well, hardly do the Gegno share much of intrigue at all."`
+			`	Adrauni klika zębami, jakby się śmiała - reakcja, której jeszcze nie widziałeś. "A my, liczni Quargowie, z tych, którzy żyją wśród ambitnych ludzi, czyż nie daliśmy naszej technologii przyzwolenia? Nikt nie ma prawa do cudzych wynalazków pod pozorem tolerancji." Pozostali Quargowie w pokoju dziwnie patrzą na Adrauni, po czym rozpoczyna z nimi rozmowę w ich własnym języku. Po chwili oni również wpatrują się w ciebie dziwnym wzrokiem, po czym zapada niezręczna cisza, którą przerywa Adrauni, odzywając się do ciebie ponownie. "Z nami również Gegno prawie w ogóle się nie intrygują."`
 			choice
-				`	"Then is there no way I can work with the Gegno?"`
+				`	"Czy w takim razie nie ma możliwości współpracy z Gegno?"`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	"Chyba powinienem je zostawić w spokoju."`
 					goto alone
 
 			label "dont know"
-			`	"Indeed, you do not. To tolerate is to authorize unrestricted occurrence despite undesired preface. In this lies not the Gegno's interest, as once I have said before." It looks up in thought for several moments. "Perhaps in your naive judgment I am mistaken. Humans tolerate their own undesirables, those who have come to be known as corsairs. Portions of your species permit their tiresome actions, while others do not. Be that as it may, suppose a species other than humanity begins similar agitation. I would presume the case to be different." Adrauni then begins a conversation with the other Quarg in the room.`
+			`	"Rzeczywiście, nie. Tolerować to zezwalać na nieograniczone występowanie pomimo niepożądanego wstępu. Nie w tym leży interes Gegno, jak już kiedyś powiedziałem." Spogląda w górę i zamyślony na kilka chwil. "Być może w twoim naiwnym osądzie się mylę. Ludzie tolerują swoich własnych niepożądanych, tych, którzy stali się znani jako korsarze. Część twojego gatunku toleruje ich uciążliwe działania, podczas gdy inni nie. Tak czy inaczej, załóżmy, że gatunek inny niż ludzkość rozpoczyna podobne działania. Przypuszczam, że sytuacja jest inna." Następnie Adrauni rozpoczyna rozmowę z innymi Quargami w pokoju.`
 			choice
-				`	"Are you saying there's no way I can work with the Gegno?"`
+				`	"Czy mówisz, że nie ma możliwości, abym współpracował z Gegno?"`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	"Chyba powinienem je zostawić w spokoju."`
 					goto alone
 
 
 			label "upset"
-			`	"It would be evidently so, given that those of the Vi themselves have brazenly entered our ring. A show of force is most unprecedented, even more so opposed to other means of less immodest communication. I had the slightest hope you understood my preachings of nonviolence, as I believe there to be benefit from optimistic aspirations in younger species, but ultimately my hopes are proven unfounded." Some of the other Quarg in the room abruptly address Adrauni as if you weren't present and begin a long period of debate, occasionally punctuated by glares in your direction.`
+			`	"Oczywiście tak, skoro sami Vi bezczelnie wkroczyli na nasz ring. Demonstracja siły jest czymś niespotykanym, a tym bardziej w porównaniu z innymi, mniej nieskromnymi sposobami komunikacji. Miałem nikłą nadzieję, że zrozumiałeś moje kazania o niestosowaniu przemocy, ponieważ wierzę, że optymistyczne aspiracje u młodszych gatunków przynoszą korzyści, ale ostatecznie moje nadzieje okazały się bezpodstawne. " Kilku innych Quargów w pokoju zwraca się nagle do Adrauni, jakby cię nie było, i rozpoczyna długą debatę, przerywaną od czasu do czasu spojrzeniami w twoją stronę.`
 			choice
-				`	"Then is there no way I can work with the Gegno?"`
+				`	"Czy w takim razie nie ma możliwości współpracy z Gegno?"`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	"Chyba powinienem je zostawić w spokoju."`
 					goto alone
 
 
 			label "no idea"
-			`	"Yes, I believe that to be a common theme in this extraneous situation. It is quite a dangerous practice to commit an act before knowledge, as we Quarg have been advising you impulsive humans for many years. In our discussions with you, evident it is that this has proven to be true. However, the great bounds stepped beyond here go beyond what we are able to accommodate." Adrauni then changes its expression slightly, glowering at you again. "Particularly after continual warnings prior." One of the other Quarg in the room says something to Adrauni, to which it begins a conversation in its own language.`
+			`	"Tak, uważam, że to częsty motyw w tej nietypowej sytuacji. Dokonywanie czynów bez wiedzy to dość niebezpieczna praktyka, ponieważ my, Quargowie, od lat doradzamy wam, impulsywnym ludziom. Z naszych rozmów z wami wynika, że to prawda. Jednakże, granice, które tu przekroczyliśmy, wykraczają poza to, co jesteśmy w stanie znieść. " Adrauni zmienia wtedy nieco wyraz twarzy, ponownie patrząc na ciebie z ponurą miną. "Zwłaszcza po ciągłych wcześniejszych ostrzeżeniach. " Jeden z pozostałych Quargów w pokoju mówi coś do Adrauni, na co ta rozpoczyna rozmowę w swoim własnym języku. `
 			choice
-				`	"Then is there no way I can work with the Gegno?"`
+				`	"Czy w takim razie nie ma możliwości współpracy z Gegno?"`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	"Chyba powinienem je zostawić w spokoju."`
 					goto alone
 
 			
 			label "work"
-			`	You sit in silence for an uncomfortable amount of time, during which even the Quarg don't speak to one another. The strange structure and bright lights of the room do little to reassure you as the Quarg ponder to themselves. A few moments later, they begin talking amongst themselves once more, but you don't have a chance to get a word in. After several more minutes of deliberation and strange looks, the other Quarg stand up and flank you from both sides, while Adrauni finally addresses you once more. "Unfortunately, at this stage of events, not I, nor the Quarg, can give you an answer to your inquiry. We are of agreement in our strong opposition to further interaction between yourself and the Gegno." It then does what you think would be the Quarg equivalent of a sigh.`
+			`	Siedzisz w milczeniu przez niezręczną chwilę, podczas której nawet Quargowie nie odzywają się do siebie. Dziwna konstrukcja i jasne światła w pomieszczeniu nie uspokajają cię, gdy Quargowie rozmyślają. Chwilę później znów zaczynają rozmawiać, ale ty nie masz szansy, żeby się odezwać. Po kilku minutach namysłu i dziwnych spojrzeń, pozostali Quargowie wstają i otaczają cię z obu stron, a Adrauni w końcu ponownie się do ciebie zwraca. "Niestety, na tym etapie wydarzeń ani ja, ani Quargowie, nie możemy udzielić ci odpowiedzi na twoje pytanie. Jesteśmy zgodni co do naszego zdecydowanego sprzeciwu wobec dalszej interakcji między tobą a Gegno." Następnie robi to, co uważasz za odpowiednik westchnienia u Quargów.`
 				goto "visit b"
 
 			label "alone"
-			`	You sit in silence for an uncomfortable period of time, during which even the Quarg don't speak to one another. The strange structure and bright lights of the room do little to reassure you as the Quarg ponder to themselves. A few moments later, they begin talking amongst themselves once more, but you don't have a chance to get a word in. After several more minutes of deliberation and strange looks, the other Quarg stand up and flank you from both sides, while Adrauni finally addresses you once more. "Indeed, that statement is in our strongest of preferences for this matter." It stands up and crosses its arms behind its back. "Though I would suppose you and I figure that to be... unlikely."`
+			`	Siedzisz w milczeniu przez niezręczną chwilę, podczas której nawet Quargowie nie odzywają się do siebie. Dziwna konstrukcja i jasne światła w pomieszczeniu nie uspokajają cię, gdy Quargowie rozmyślają. Chwilę później znów zaczynają rozmawiać, ale ty nie masz szansy, żeby się odezwać. Po kilku minutach namysłu i dziwnych spojrzeń, pozostali Quargowie wstają i otaczają cię z obu stron, podczas gdy Adrauni w końcu zwraca się do ciebie ponownie. "Rzeczywiście, to stwierdzenie najbardziej nam odpowiada w tej sprawie." Wstaje i krzyżuje ręce za plecami. "Chociaż przypuszczam, że ty i ja uważamy to za... mało prawdopodobne."`
 				goto "visit b"
 
 			label "visit b"
-			`	The door opens behind you, and the Quarg motion you to follow them once more, escorting you out of the room and back to the hangar your ship is parked in. There seem to be a few more Quarg walking the corridors than usual, some stationed among various entrances. You can't help but remember that this is only one small section of the ring, making the rest of it seem even more impossibly large and filled with Quarg. Once you return to the hangar, you're greeted by the sight of the Vi warriors being blocked off by a larger group of Quarg, although there doesn't seem to be any intentions of hostility, nor conversation, from either side. Adrauni then stops in front of you. "It is no longer in our jurisdiction to assist you in this. However, if you indeed continue to pursue this desire to associate with the Gegno, you must seek audience yourself. Visit the Gegno homeworld of Dueyu Eitch, present yourself in a manner that you desire to be perceived. Only then will you find the answer to your whims."`
+			`	Drzwi za tobą się otwierają, a Quargowie dają ci znak, żebyś poszedł za nimi, eskortując cię z pomieszczenia i z powrotem do hangaru, w którym zaparkowany jest twój statek. Wygląda na to, że po korytarzach przechadza się więcej Quargów niż zwykle, niektórzy stoją przy różnych wejściach. Nie możesz nie pamiętać, że to tylko niewielka część pierścienia, przez co reszta wydaje się jeszcze bardziej niemożliwie duża i wypełniona Quargami. Po powrocie do hangaru wita cię widok wojowników Vi blokowanych przez większą grupę Quargów, choć nie wydaje się, żeby którakolwiek ze stron miała zamiar wrogości lub rozmowy. Adrauni zatrzymuje się przed tobą. "Nie leży już w naszej jurysdykcji, aby ci w tym pomagać. Jeśli jednak nadal będziesz dążył do kontaktu z Gegno, musisz sam poszukać audiencji. Odwiedź rodzinną planetę Gegno, Dueyu Eitch, i zaprezentuj się w sposób, w jaki chcesz być postrzegany. Tylko wtedy znajdziesz odpowiedź na swoje zachcianki.`
 
 			label "epilogue b"
 			choice
-				`	"Won't they deny me from landing?"`
+				`	"Czy nie zabronią mi lądowania?"`
 					to display
 						not "gegno: deny dialog"
 
-				`	"Couldn't we just ask the Gegno over there?"`
+				`	"Czy nie moglibyśmy po prostu zapytać Gegno?"`
 					to display
 						not "gegno: there dialog"
 					goto there
 			
-				`	"I will be leaving now."`
+				`	"Wychodzę już teraz."`
 					to display
 						has "gegno: deny dialog"
 					goto "end b"
 
 			action
 				set "gegno: deny dialog"
-			`	After a pause, Adrauni responds. "Contrarily, I rather believe them to be expecting of you, accounting for their exclamations of the situation."`
+			`	Po chwili Adrauni odpowiada. "Wręcz przeciwnie, sądzę, że spodziewają się ciebie, biorąc pod uwagę ich okrzyki w tej sytuacji."`
 				goto "epilogue b"
 
 			label "there"
 			action
 				set "gegno: there dialog"
-			`	"Those of the Vi do not represent those of the Gegno, that is, of a whole species. The Vi present with us are merely of one family, to which there are many such groups." Adrauni considers your question for a few moments, almost appearing to have a slight interest in it. "It is unlike that of which you humans are familiar to. Vi culture does not denote a family merely by ancestry nor familiarity."`
+			`	"Ci z Vi nie reprezentują tych z Gegno, czyli całego gatunku. Obecni u nas Vi należą jedynie do jednej rodziny, do której należy wiele takich grup." Adrauni rozważa twoje pytanie przez chwilę, sprawiając wrażenie, jakby była nim lekko zainteresowana. "To jest niepodobne do tego, co jest znane wam, ludziom. Kultura Vi nie oznacza rodziny jedynie poprzez pochodzenie czy pokrewieństwo."`
 				goto "epilogue b"
 
 			label "end b"
-			`	"Although your actions thus far are in dissatisfaction, I aspire for future decisions being made to befit the wise on your journey ahead. I wish you an educational journey, <first> <last>." Adrauni gives you a lengthy bow, then leaves the hangar. You get the feeling that this might have been the last time you meet with it. As you return to your ship, the Vi warriors continue watching from afar, but the Quarg steadfastly block them off. It is up to you to figure out yourself whether or not the Gegno will tolerate you any further.`
+			`	"Chociaż dotychczasowe Twoje działania są niezadowalające, pragnę, aby w przyszłości podejmowano decyzje godne mądrego w Twojej podróży. Życzę Ci pouczającej podróży, <first> <last>." Adrauni kłania się Ci długo, po czym opuszcza hangar. Masz wrażenie, że to może być Twoje ostatnie spotkanie z nim. Gdy wracasz na statek, wojownicy Vi wciąż obserwują Cię z daleka, ale Quargowie stanowczo ich blokują. Od Ciebie zależy, czy Gegno będą Cię dalej tolerować.`
 				accept
 
 	on accept
@@ -938,40 +938,40 @@ mission "Gegno Intervention"
 		fail "Veering Vi B"
 		"reputation: Quarg (Gegno)" = 0
 		conversation
-			`While you are in the midst of docking with the ringworld, you notice a large tan-colored Gegno ship already present in your designated hangar, surrounded by several ships from both the factions of the Vi and Scin. Near them, a small group of Quarg are debating something with a smaller group of Gegno who seem rather upset. As soon as you exit your ship, both groups stop and look your way. You recognize Adrauni swiftly approaching you alongside a Gegno that is wearing a very intricate set of armor, neither Scin nor Vi in appearance.`
-			`	Adrauni does not hesitate to address you. "<first> <last>. I presume you understand the meaning of this affair."`
+			`Podczas dokowania na Pierścieniu zauważasz duży, jasnobrązowy statek Gegno, który już znajduje się w twoim hangarze, otoczony kilkoma statkami z obu frakcji - Vi i Scin. Niedaleko nich mała grupa Quargów dyskutuje o czymś z mniejszą grupą Gegno, która wydaje się być nieco zdenerwowana. Gdy tylko wychodzisz ze statku, obie grupy zatrzymują się i patrzą w twoją stronę. Rozpoznajesz Adrauni szybko zbliżającą się do ciebie obok Gegno, który ma na sobie bardzo misterny pancerz, niepodobny ani do Scin, ani do Vi.`
+			`	Adrauni nie waha się zwrócić do ciebie. "<first> <last>. Zakładam, że rozumiesz znaczenie tej sprawy."`
 			choice
-				`	"I'm not sure what's happening right now."`
-				`	"I think I understand the gist of it."`
+				`	"Nie jestem pewien, co się teraz dzieje."`
+				`	"Myślę, że rozumiem istotę sprawy."`
 
-			`	The Quarg now stands in front of you, slightly lowering to speak to you. "As so happens to be the arduous case, several complaints we Quarg have received from the Gegno. Meddled in their affairs you have, one too many times. As much of a desire I have to converse with you more on the matter, not I, nor the Quarg, will be of any further help to you in your endeavors here." Adrauni turns to the Gegno, who seems almost dismissive, or at the very least trying to avoid eye contact with you. After a brief discussion of which you understood nothing, the Gegno walks off to the tan-colored ship. As if on cue, all of the other Gegno in the hangar return to their own respective ships.`
-			`	As you watch all of the ships leave, Adrauni speaks once more. "Eight revolutions you have been given by the Gegno to make an appearance on their world. If to this you do not comply, then you are, in their words, dismissed from their space."`
+			`	Quarg stoi teraz przed tobą, lekko się pochylając, by z tobą porozmawiać. "Jak to bywa w tym trudnym przypadku, my, Quargowie, otrzymaliśmy kilka skarg od Gegno. Wtrącałeś się w ich sprawy, o jedną za dużo. Choć bardzo chciałbym z tobą porozmawiać na ten temat, ani ja, ani Quargowie, nie będziemy ci już w stanie pomóc w twoich staraniach. " Adrauni zwraca się do Gegno, który wydaje się niemal lekceważący, a przynajmniej stara się unikać z tobą kontaktu wzrokowego. Po krótkiej rozmowie, z której nic nie zrozumiałeś, Gegno odchodzi w stronę jasnobrązowego statku. Jak na zawołanie, wszyscy pozostali Gegno w hangarze wracają na swoje statki.`
+			`	Gdy patrzysz, jak wszystkie statki odpływają, Adrauni odzywa się ponownie. "Osiem obrotów, które Gegno dały ci na pojawienie się na ich świecie. Jeśli się temu nie poddasz, zostaniesz, jak to ujmują, wyrzucony z ich przestrzeni."`
 			choice
-				`	"Dismissed?"`
-				`	"Will you be coming with me?"`
+				`	"Odrzucono?"`
+				`	"Czy pójdziesz ze mną?"`
 					goto coming
-				`	"Alright, I will go."`
+				`	"Dobrze, pójdę."`
 					goto end
 
-			`	Adrauni thinks for a brief moment. "A more appropriate expression would be exiled, or perhaps shunned? Gegno culture is to hold all as a great home. Your presence in their space is to say you have already entered, though it is now an invitation you are no longer welcome to."`
+			`	Adrauni zastanawia się przez chwilę. "Bardziej odpowiednim określeniem byłoby wygnanie, a może odrzucenie? Kultura Gegno nakazuje traktować wszystko jak wspaniały dom. Twoja obecność w ich przestrzeni oznacza, że już tam jesteś, choć teraz jest to zaproszenie, na które nie jesteś już mile widziany."`
 			choice
-				`	"Aren't I already unwelcome?"`
-				`	"They can't decide where I go."`
+				`	"Czyż nie jestem już niemile widziany?"`
+				`	"Nie mogą zdecydować, dokąd pójdę."`
 					goto where
 			
-			`	"It is a difficult philosophy to explain. We Quarg were also subject to inhospitality. In some notable capacities we still are - however, it is of a different manner than this one."`
+			`	"To trudna do wyjaśnienia filozofia. My, Quargowie, również byliśmy narażeni na niegościnność. W niektórych znaczących aspektach nadal jesteśmy - jednak w innym sensie niż w tym przypadku."`
 				goto end
 
 			label "where"
-			`	"Be that as it may, do not rushedly conflate such with unpunishable action. On their worlds is to their own conscientious discretion. However, what action you ultimately decide upon in their space is not without observation."`
+			`	"Jakkolwiek by było, nie utożsamiaj pochopnie takich działań z niekaranymi. W ich światach decyzja należy do ich własnego, świadomego uznania. Jednak to, jakie działanie ostatecznie podejmiesz w ich przestrzeni, nie jest bez obserwacji."`
 				goto end
 
 			label "coming"
-			`	"I shall not be. Indeed, it is regrettable that I can no longer be of assistance, but the fate of this matter belongs to only you and the Gegno."`
+			`	"Nie będę. W rzeczy samej, szkoda, że nie mogę już pomóc, ale los tej sprawy należy tylko do ciebie i Gegno."`
 				goto end
 
 			label "end"
-			`	Adrauni stands up to its full height before you one last time. "To keep what little relations we have with the Gegno, I must inform you we no longer can allow access to our worlds here in their space. Despite this misfortune, I aspire for wise decisions from you in your journey ahead, <first> <last>." Adrauni gives you a lengthy bow and leaves the hangar, this likely being the last time you ever meet with it. It is now up to you to try and figure out some sort of common ground with the Gegno, if that's even still possible.`
+			`	Adrauni staje przed tobą z całą swoją wysokością po raz ostatni. "Aby utrzymać te skąpe relacje, jakie mamy z Gegno, muszę cię poinformować, że nie możemy już zezwalać na dostęp do naszych światów tutaj, w ich przestrzeni. Pomimo tego nieszczęścia, oczekuję od ciebie mądrych decyzji w twojej dalszej podróży, <first> <last>." Adrauni kłania się ci długo i opuszcza hangar, prawdopodobnie po raz ostatni się z nim spotykasz. Teraz od ciebie zależy, czy spróbujesz znaleźć jakiś wspólny język z Gegno, jeśli to w ogóle możliwe.`
 				accept
 
 	npc
@@ -1022,154 +1022,154 @@ mission "Acquiescence"
 	destination "Tschyss"
 	on offer
 		conversation
-			`The Gegno display caution once more as fleets of both Vi and Scin ships orbit their homeworld while you begin your descent. Your Quarg "escort", which was already in the system before you, stays behind. A few smaller Gegno ships from each fleet follow you down to the planet's surface, forming up in front of you to lead you to your destination.`
+			`Gegno ponownie okazują ostrożność, gdy floty statków Vi i Scin krążą wokół ich macierzystej planety, podczas gdy ty rozpoczynasz schodzenie. Twoja eskorta Quarg, która była już w systemie przed tobą, zostaje z tyłu. Kilka mniejszych statków Gegno z każdej floty podąża za tobą na powierzchnię planety, formując się przed tobą, aby poprowadzić cię do celu.`
 				to display
 					has "gegno anticipation: quarg escort"
 				
-			`The Gegno display caution once more as fleets of both Vi and Scin ships orbit their homeworld while you begin your descent. A few smaller Gegno ships from each fleet follow you down to the planet's surface, forming up in front of you to lead you to your destination.`
+			`Gegno ponownie okazują ostrożność, gdy floty statków Vi i Scin krążą wokół ich macierzystej planety, podczas gdy ty rozpoczynasz schodzenie. Kilka mniejszych statków Gegno z każdej floty podąża za tobą na powierzchnię planety, formując się przed tobą, aby poprowadzić cię do celu.`
 				to display
 					not "gegno anticipation: quarg escort"
 
-			`	Once you pass through several layers of smog, you're once again flying around the towering castle-like cities of the Gegno homeworld. Eventually, you are led away from the busyness of the cities to a more remote area with a massive structure shrouded by the smog, possibly the one you visited the first time you were here. The activity around it, however, seems much smaller compared to anything else thus far.`
-			`	Rather than one of the docking ports alongside the tower, the Gegno ships instead direct you to the base of the structure, obscured by another dark cloud of smog. When you reach the surface, the Gegno ships hold their position above while you park your ship on the ground. The area seems devoid of any other Gegno, almost hauntingly so.`
+			`	Po przejściu przez kilka warstw smogu, znów będziesz latać wokół górujących nad miastem-zamkiem miast macierzystej planety Gegno. W końcu zostaniesz wyprowadzony z gwaru miast w bardziej odległe miejsce z ogromną budowlą spowitą smogiem, prawdopodobnie tą samą, którą odwiedziłeś za pierwszym razem. Aktywność wokół niej wydaje się jednak znacznie mniejsza w porównaniu z czymkolwiek innym do tej pory.`
+			`	Zamiast jednego z portów dokujących obok wieży, statki Gegno kierują cię do podstawy konstrukcji, przesłoniętej kolejną ciemną chmurą smogu. Po dotarciu na powierzchnię statki Gegno utrzymują pozycję, podczas gdy ty parkujesz swój statek na ziemi. Obszar ten wydaje się pozbawiony innych Gegno, wręcz przejmująco.`
 			choice
-				`	(Stay in my ship.)`
-				`	(Exit my ship.)`
+				`	(Zostań na moim statku.)`
+				`	(Wyjdź z mojego statku.)`
 					goto exit
 			
-			`	You decide to remain in the safety of your ship. The Gegno hovering above you aren't helping anymore - they are simply watching you. Other than them, there are no other vehicles in the area, let alone any sort of ship. Before too long, you notice a shadowed figure in the smoke ahead, carrying a long staff of some sort. A lone Gegno exits the smoke cloud, takes a few more heavy steps, then stands their ground several meters away from your ship.`
-			`	Any action you take now would be solely at your own discretion. However, there is only one choice left for you to make.`
+			`	Postanowiłeś pozostać w bezpiecznym miejscu swojego statku. Gegno unoszące się nad tobą już ci nie pomagają - po prostu cię obserwują. Poza nimi w okolicy nie ma żadnych innych pojazdów, nie mówiąc już o jakimkolwiek statku. Po chwili dostrzegasz w dymie przed sobą postać w cieniu, niosącą jakiś długi kostur. Samotny Gegno wyłania się z chmury dymu, robi jeszcze kilka ciężkich kroków, po czym staje kilka metrów od twojego statku.`
+			`	Każde działanie, które teraz podejmiesz, będzie wyłącznie Twoją własną decyzją. Pozostaje Ci jednak tylko jeden wybór.`
 			choice
-				`	(Meet with the Gegno.)`
-				`	(Leave the Gegno and their world.)`
+				`	(Spotkanie z Gegno.)`
+				`	(Opuść Gegno i ich świat.)`
 					goto "no more gegno"
 
-			`	You decide to continue in your endeavor. You've made it this far, considering you're back on their homeworld and they haven't shown any signs of wanting you gone as of yet. The outside environment appears to be "safe" for humans - being something similar to the conditions on Earth, if Earth were even more polluted than it already is. Donning your sidearm in case of an emergency, you exit your ship and cautiously approach the Gegno. Although it's a little hard to tell, you're almost certain this is the Gegno you first met on that desert planet from before. The only difference in their appearance is some kind of red band on their left arm. The ships above suddenly fly off, and the Gegno turns around, beginning to head for the massive tower that stands in front of you.`
+			`	Decydujesz się kontynuować swoje przedsięwzięcie. Dotarłeś tak daleko, biorąc pod uwagę, że wróciłeś na ich planetę, a oni jak dotąd nie wykazali żadnych oznak, że chcą się ciebie pozbyć. Środowisko zewnętrzne wydaje się być "bezpieczne" dla ludzi - zbliżone do warunków na Ziemi, gdyby Ziemia była jeszcze bardziej zanieczyszczona. Zakładając broń boczną na wypadek nagłego wypadku, wychodzisz ze statku i ostrożnie podchodzisz do Gegno. Choć trudno to stwierdzić, jesteś prawie pewien, że to Gegno, którego spotkałeś po raz pierwszy na tej pustynnej planecie. Jedyną różnicą w ich wyglądzie jest jakiś czerwony pasek na lewym ramieniu. Statki nad tobą nagle odlatują, a Gegno zawraca, kierując się w stronę potężnej wieży stojącej przed tobą.`
 				goto tower
 
 
 			label "exit"
-			`	The outside environment appears to be "safe" for humans - being something similar to the conditions on Earth, if it were even more polluted than it already is. Donning your sidearm in case of an emergency, you exit your ship. The Gegno in the ships above intently watch your every move, and apart from the distant thrum of their engines, it is eerily quiet. Before too long, you notice a shadowed figure in the smoke ahead of your ship, carrying a long staff of some sort. A lone Gegno exits the smoke cloud, slowly approaching you. They stop a couple of meters away from you, and although it's a little hard to tell, you're almost certain this is the Gegno Vi that you first met on that desert planet from before. The only difference in their appearance is some kind of red band on their left arm.`
-			`	At this point, any action you take would be solely at your own discretion. However, there is only one choice left for you to make.`
+			`	Środowisko zewnętrzne wydaje się być "bezpieczne" dla ludzi - zbliżone do warunków na Ziemi, gdyby było jeszcze bardziej zanieczyszczone. Zakładając broń boczną w razie nagłego wypadku, opuszczasz statek. Gegno na statkach nad tobą uważnie obserwują każdy twój ruch i poza odległym warkotem silników, panuje upiorna cisza. Wkrótce dostrzegasz w dymie przed statkiem cień postaci, niosącej jakiś długi kostur. Samotny Gegno wyłania się z chmury dymu, powoli zbliżając się do ciebie. Zatrzymują się kilka metrów od ciebie i choć trudno to stwierdzić, jesteś prawie pewien, że to Gegno Vi, którego spotkałeś po raz pierwszy na tej pustynnej planecie. Jedyną różnicą w ich wyglądzie jest jakiś czerwony pasek na lewym ramieniu.`
+			`	W tym momencie wszelkie działania, które podejmiesz, będą zależeć wyłącznie od Twojej własnej decyzji. Pozostaje Ci jednak tylko jeden wybór.`
 			choice
-				`	(Meet with the Gegno.)`
-				`	(Leave the Gegno and their world.)`
+				`	(Spotkanie z Gegno.)`
+				`	(Opuść Gegno i ich świat.)`
 					goto "no more gegno"
 
-			`	You decide to continue in your endeavor. Considering you're back on their homeworld and they haven't shown any signs of wanting you off of it as of yet, there's no point to throwing all your progress away. As you approach the Gegno, it indeed seems to be the one you've met in the past. The ships above suddenly fly off, and the Gegno turns around, beginning to head for the massive tower that stands in front of you.`
+			`	Decydujesz się kontynuować swoje przedsięwzięcie. Biorąc pod uwagę, że wróciłeś na ich planetę, a oni jak dotąd nie wykazali żadnych chęci pozbycia się cię z niej, nie ma sensu marnować wszystkich postępów. Zbliżając się do Gegno, rzeczywiście wydaje się być tym samym, którego spotkałeś w przeszłości. Statki nad tobą nagle odlatują, a Gegno zawraca, kierując się w stronę potężnej wieży stojącej przed tobą.`
 
 
 			label "tower"
-			`	The tower ahead of you is truly a sight to behold. It appears to be larger and taller than anything in human architecture, yet it looks very old - noticeably so - compared to the portions you've seen higher up in the clouds of dark smog. The base, which grows larger as the tower gets taller, is lined with rows of torch-like structures with flames reaching high above them. The interior is just as intriguing - the first area you enter looks like it almost came straight out of some old medieval fantasy. Everything looks rocky and sculpted in appearance, although some entrances seem to be made of newer metallic materials.`
-			`	You wonder if all Gegno architecture is built like this, but your curiosity is cut short when the Gegno, who has been many steps ahead of you, grunts and gestures for you to enter a cage-like platform at the other side of an enormous room.`
+			`	Wieża przed tobą to widok naprawdę godny podziwu. Wydaje się większa i wyższa niż cokolwiek w ludzkiej architekturze, a jednak wygląda na bardzo starą - zauważalnie - w porównaniu z fragmentami, które widziałeś wyżej, w chmurach ciemnego smogu. Podstawa, która rośnie wraz z wysokością wieży, jest otoczona rzędami struktur przypominających pochodnie, nad którymi wysoko wznoszą się płomienie. Wnętrze jest równie intrygujące - pierwszy obszar, do którego wchodzisz, wygląda, jakby został wyjęty wprost z jakiejś starej, średniowiecznej fantazji. Wszystko wygląda na kamienne i rzeźbione, choć niektóre wejścia zdają się być wykonane z nowszych materiałów metalowych.`
+			`	Zastanawiasz się, czy cała architektura Gegno jest zbudowana w ten sposób, ale twoja ciekawość zostaje stłumiona, gdy Gegno, który był wiele kroków przed tobą, mruczy i gestem wskazuje ci, abyś wszedł na platformę przypominającą klatkę po drugiej stronie ogromnego pomieszczenia.`
 			choice
-				`	(Enter the cage.)`
-			`	Thankfully, the cage is not anything like a jail cell; with a clank of chains and other indeterminate sounds, you begin to ascend upwards to wherever your next destination may be. However, the shaking and clanging of the lift doesn't exactly ease your mind. All of a sudden, you start to hear a deep, methodical rumble coming from above you. In that same instant, you're hit with a gust of air. Your cage is outside the building, and it is rocketing upward with only the support of a few rails and pulleys. Surrounding the core of the tower in front of you are other large metal pulley systems, with the Gegno in one to your left in the distance. As you're ascending, you see that many Gegno are lined up on several balconies at different levels of the tower, playing large timpani-like drums in a steady rhythm. Occasionally they yell or play a horn-like instrument.`
-			`	A few more minutes of drumming, several layers of smog, and what feels like altitude sickness all assail you until the lift arrives at the very top of the tower - a huge, circular platform out in the open with a group of Gegno wearing various fashions of armor formed up around a large table, or display grid of sorts, with several models of planets and ships on top of it. A ring of electronic torches flanking each edge of the platform extends upward to the darkened sky.`
-			`	The Gegno that has guided you here gestures for you to go join them at their location among the others.`
+				`	(Wejdź do klatki.)`
+			`	Na szczęście klatka w niczym nie przypomina celi więziennej; z brzękiem łańcuchów i innymi nieokreślonymi dźwiękami zaczynasz wznosić się w górę, dokądkolwiek może być twój następny cel. Jednak drżenie i brzęk windy nie uspokajają cię zbytnio. Nagle słyszysz głęboki, metodyczny łoskot dochodzący z góry. W tej samej chwili uderza cię podmuch powietrza. Twoja klatka znajduje się na zewnątrz budynku i pędzi w górę, wspierana jedynie przez kilka szyn i krążków. Wokół rdzenia wieży przed tobą znajdują się inne duże metalowe systemy krążków, a Gegno w jednym z nich, w oddali, po twojej lewej stronie. Wchodząc, widzisz, że wiele Gegno stoi w szeregu na kilku balkonach na różnych poziomach wieży, grając na dużych bębnach przypominających kotły w stałym rytmie. Od czasu do czasu krzyczą lub grają na instrumencie przypominającym róg.`
+			`	Kilka kolejnych minut bębnienia, kilka warstw smogu i coś, co przypomina chorobę wysokościową, dopada cię, aż winda dociera na sam szczyt wieży - ogromną, okrągłą platformę na otwartej przestrzeni, z grupą Gegno w różnych zbrojach, ustawioną wokół dużego stołu, a raczej siatki ekspozycyjnej, na której umieszczono kilka modeli planet i statków. Pierścień elektronicznych pochodni flankujący każdą krawędź platformy sięga w górę, ku zaciemnionemu niebu.`
+			`	Gegno, który cię tu przyprowadził, gestem nakazuje ci dołączyć do niego w jego miejscu pobytu, pośród innych.`
 			choice
-				`	(Go to the Gegno.)`
+				`	(Przejdź do Gegno.)`
 					goto meeting
-				`	(Stay where I am.)`
+				`	(Zostań tam, gdzie jestem.)`
 
-			`	It's not long before a pair of Gegno soldiers walk over and essentially "pressure" you into joining the others. You might as well play by their rules, given the situation.`
+			`	Niebawem podejdzie para żołnierzy Gegno i dosłownie "zmusi cię, żebyś dołączył do pozostałych. W tej sytuacji równie dobrze możesz grać według ich zasad.`
 
 			label meeting
-			`	Once you reach the other Gegno, the drumming comes to an abrupt halt. Shown in the center of the display is some text, none of which you can understand. Three Gegno standing next to one another, separate from everyone else, begin speaking in low, booming voices; their language is incomprehensible. One is very bulky, and looks like the kind of Gegno that belong to the Vi faction, while the other two are smaller. All three of them are wearing the same set of intricate armor with fancy protrusions, drapes, and other details. All of the other Gegno present are of various builds, though none of them are wearing any colors indicating a faction. Some of them gaze toward you occasionally, while others pay you no attention at all.`
-			`	The awkwardness of the situation increases as several minutes pass, during which some Gegno from the crowd step up to the opposite side of the table from the trio and have a discussion. You look over to your Gegno guide standing next to you, their gaze locked on to the conversations ahead. One of the trio finally calls them over, placing a model of a desert planet on the table - the one where this all started. A heavy discussion follows, and while you watch your guide, you realize that they are the only Gegno with that red band on their arm. The other Gegno in the crowd don't seem very pleased as their discussion continues.`
-			`	Though it felt like it might not happen, the moment comes where the bulkiest of the trio directly gestures to you. The tension of the situation skyrockets as they say something in their language, then motion for you to stand across from them. All of the other Gegno are now staring you down, waiting, as your guide heads off to the side.`
+			`	Gdy dotrzesz do drugiego Gegno, bębnienie nagle cichnie. Na środku ekranu pojawia się tekst, którego nie jesteś w stanie zrozumieć. Trzech Gegno stojących obok siebie, z dala od reszty, zaczyna mówić cichymi, donośnymi głosami; ich język jest niezrozumiały. Jeden jest bardzo masywny i wygląda jak Gegno z frakcji Vi, podczas gdy dwaj pozostali są mniejsi. Wszyscy trzej noszą ten sam zestaw misternych zbroi z fantazyjnymi wypustkami, zasłonami i innymi detalami. Wszyscy pozostali Gegno mają różną budowę, choć żaden z nich nie nosi koloru wskazującego na przynależność do frakcji. Niektórzy z nich od czasu do czasu zerkają na ciebie, podczas gdy inni w ogóle nie zwracają na ciebie uwagi.`
+			`	Niezręczność sytuacji narasta z upływem kilku minut, w trakcie których niektórzy Gegno z tłumu podchodzą do stołu naprzeciwko tria i rozmawiają. Spoglądasz na swojego przewodnika Gegno stojącego obok ciebie, którego wzrok wbija się w rozmowy. Jeden z tria w końcu ich przywołuje, kładąc na stole model pustynnej planety - tej, od której wszystko się zaczęło. Rozlega się ożywiona dyskusja i obserwując swojego przewodnika, uświadamiasz sobie, że to jedyny Gegno z czerwoną opaską na ramieniu. Pozostali Gegno w tłumie nie wydają się być zadowoleni, ponieważ ich dyskusja trwa.`
+			`	Chociaż wydawało się, że to się nie wydarzy, nadchodzi moment, w którym najpotężniejszy z trójki gestykuluje wprost do ciebie. Napięcie sytuacji gwałtownie rośnie, gdy mówią coś w swoim języku, a następnie gestem nakazują ci stanąć naprzeciwko. Wszyscy pozostali Gegno wpatrują się w ciebie, czekając, aż twój przewodnik skręci na bok.`
 			choice
-				`	(Approach the trio.)`
+				`	(Podejdź do trio.)`
 					goto trio
-				`	(Remain where I stand.)`
+				`	(Pozostań tam, gdzie stoję.)`
 
-			`	You choose not to do anything else, remaining where you stand. Anything you do would likely be held against you. Another few moments go by and the Gegno trio return to the table, beginning to discuss amongst themselves using the assorted objects on the table grid. Images and words are cycled through on the monitor, but you're too far away to see any of them. Several more minutes pass, and you feel like they've all but forgotten you as you start to tune out their discussion. Eventually, you're pulled back to reality; everything has gone silent yet again and one member of the Gegno trio calls to you to get your attention on the display.`
+			`	Decydujesz się nie robić nic więcej, pozostając na swoim miejscu. Cokolwiek zrobisz, prawdopodobnie zostanie to obrócone przeciwko tobie. Mija kolejna chwila i trio Gegno wraca do stołu, zaczynając dyskusję między sobą, używając różnych przedmiotów na siatce stołu. Na monitorze przewijają się obrazy i słowa, ale jesteś zbyt daleko, by cokolwiek dostrzec. Mija kolejne minuty i masz wrażenie, że prawie o tobie zapomnieli, bo zaczynasz ignorować ich rozmowę. W końcu wracasz do rzeczywistości; wszystko znów ucichło, a jeden z członków tria Gegno woła cię, by zwrócić twoją uwagę na ekran.`
 				goto "what does home mean"
 
 
 			label "trio"
-			`	Any Gegno in your path march out of your way as you approach the center of the platform. You're in the spotlight now, and the silence is deafening. As soon as you stop at the trio, a few images of the <ship> in different contexts come up on the table's monitor, and one of the trio moves several planet miniatures which correspond to the ones you've visited in Gegno space. Following another brief moment of silence, one which seemingly everyone weathers with anticipation, one of the three addresses you in their language at a lower volume than they were speaking before.`
+			`	Każdy Gegno na twojej drodze znika ci z drogi, gdy zbliżasz się do środka platformy. Jesteś teraz w centrum uwagi, a cisza jest ogłuszająca. Gdy tylko zatrzymujesz się przy trio, na monitorze stołu pojawia się kilka obrazów <ship> w różnych kontekstach, a jeden z trio przesuwa kilka miniatur planet, które odpowiadają tym, które odwiedziłeś w przestrzeni Gegno. Po kolejnej krótkiej chwili ciszy, którą najwyraźniej wszyscy znoszą z wyczekiwaniem, jeden z trójki zwraca się do ciebie w swoim języku, ciszej niż wcześniej.`
 			`	"Eyuu udyom Gegno tyysis. Udiyh tei arrtes ofor tei piyepuo?"`
 			choice
-				`	"Are you asking me something about the Gegno?"`
-				`	"I would like to work something out with the Gegno."`
-				`	"I'm sorry, I don't understand what you are saying."`
+				`	"Pytasz mnie o coś w sprawie Gegno?"`
+				`	"Chciałbym coś ustalić z Gegno."`
+				`	"Przepraszam, nie rozumiem, co mówisz."`
 
-			`	The Gegno stares at you, then looks at the display, which is slowly panning between the situations you've found yourself in:`
+			`	Gegno patrzy na ciebie, a następnie spogląda na wyświetlacz, który powoli przesuwa się między sytuacjami, w których się znalazłeś:`
 
-			`	A more detailed image of a desert planet, different than the first one, comes onto the display. Alongside it are many graphics - one representing a platoon of Vi warriors, the unique Gegno ship you saw there, and a few words scrolling by, possibly the names of each warrior that was present that day. Next to the name of the planet is a smaller graphic of one of those giant sandworms you fought, suggesting that they're found on other desert worlds beyond the first one.`
+			`	Na wyświetlaczu pojawia się bardziej szczegółowy obraz pustynnej planety, inny niż pierwszy. Obok niego znajduje się wiele grafik - jedna przedstawia pluton wojowników Vi, unikatowy statek Gegno, który tam widziałeś, oraz kilka przewijających się słów, prawdopodobnie imiona wszystkich wojowników obecnych tego dnia. Obok nazwy planety znajduje się mniejsza grafika jednego z tych gigantycznych robaków piaskowych, z którymi walczyłeś, co sugeruje, że występują one na innych pustynnych planetach poza pierwszą.`
 				to display
 					has "Passive-Aggressive Observations: done"
 
 
-			`	To the side of the table, you notice a model of the Mercury-like planet you landed on here in their home system, though strangely it doesn't come up on the screen at any point.`
+			`	Po bokach stołu zauważasz model planety podobnej do Merkurego, na której wylądowałeś w ich macierzystym układzie, choć dziwnym trafem w ogóle nie pojawia się ona na ekranie.`
 				to display
 					has "Brief Bystander: done"
 
 
-			`	An image of two distinct ships comes up, matching a pair of models on the table. One of them is the same type of Vi ship you first came across in the sand on a desert world, and the other is a Scin ship that looks like a derivative of other Gegno ships. You hear someone in the crowd yell loudly in what might be disappointment, but they are silenced by the Gegno trio.`
+			`	Pojawia się obraz dwóch różnych statków, pasujących do pary modeli na stole. Jeden z nich to ten sam typ statku Vi, który po raz pierwszy spotkałeś na piasku na pustynnej planecie, a drugi to statek Scin, który wygląda jak pochodna innych statków Gegno. Słyszysz, jak ktoś w tłumie głośno krzyczy, co może oznaczać rozczarowanie, ale zostaje uciszony przez trio Gegno.`
 				to display
 					has "Foreign Spectator I: failed"
 
 
-			`	One of the more prominent situations is the one that involved a large battle between the Vi and Scin over a moon orbiting a forest world. A long list of phrases scrolls by with graphics of different Gegno ships next to them, probably those who took part in said battle. The Gegno around you murmur to each other, occasionally grunting.`
+			`	Jedną z bardziej znanych sytuacji jest ta, która obejmowała wielką bitwę między Vi i Scin o księżyc krążący wokół leśnej planety. Przewija się długa lista fraz z grafikami różnych statków Gegno obok nich, prawdopodobnie tych, które brały udział w tej bitwie. Gegno wokół ciebie szepczą do siebie, od czasu do czasu pomrukując.`
 				to display
 					has "Battle over Zydee: offered"
 
 
-			`	On the far end of the table, you see a small model of an ice moon. Nothing else comes up regarding it.`
+			`	Na drugim końcu stołu widzisz mały model lodowego księżyca. Nic więcej na ten temat nie przychodzi mi do głowy.`
 				to display
 					has "Scin on Cyife: offered"
 
-			`	You look up to see the trio of Gegno still intently staring at you. All of the other Gegno surrounding you have a similar expression. On the display, two icons appear side by side, and under each of them is a long list of phrases. As they scroll, the Gegno break out in discussions with one another, some loud and some not. You almost jump when the trio address the crowd and begin a speech of sorts, sometimes gesturing to the crowd, and sometimes gesturing to you. Although most of the Gegno seem frustrated, the trio is able to calm the crowd.`
+			`	Podnosisz wzrok i widzisz, że trio Gegno wciąż intensywnie się w ciebie wpatruje. Wszyscy inni Gegno wokół ciebie mają podobny wyraz twarzy. Na wyświetlaczu pojawiają się dwie ikony obok siebie, a pod każdą z nich znajduje się długa lista fraz. Podczas przewijania, Gegno wybuchają dyskusjami, niektóre głośne, inne ciche. Prawie podskakujesz, gdy trio zwraca się do tłumu i zaczyna coś w rodzaju przemówienia, czasami wskazując na tłum, a czasami na ciebie. Chociaż większość Gegno wydaje się sfrustrowana, trio udaje się uspokoić tłum.`
 				to display
 					or
 						"reputation: Gegno Vi" < 0
 						"reputation: Gegno Scin" < 0
 
-			`	The bulkiest Gegno of the trio then places a model of a massive Vi warship in the middle of the table, one that you definitely recognize. More angry outbursts come from the surrounding Gegno, and while the one who placed the model glares at you, the other two eventually deescalate the uproar.`
+			`	Największy Gegno z trójki kładzie następnie na środku stołu model ogromnego okrętu wojennego Vi, który z pewnością rozpoznajesz. Z otaczających Gegno dochodzą kolejne wybuchy gniewu, a podczas gdy ten, który położył model, patrzy na ciebie gniewnym wzrokiem, pozostała dwójka w końcu uspokaja zamieszanie.`
 				to display
 					has "dead augen"
 
 
-			`	After having gone through all of the cases which involved you, the trio addresses the gathering once more with a big speech. Their voices echo through the outside air, and all of the Gegno respond with concurrent bellows or chants, followed by more silence. Oddly enough, you feel as if you are standing among them as part of the gathering, rather than as some foreign alien. You aren't restricted at all, even with a weapon on you.`
-			`	One of the smaller Gegno in the trio gestures back to you and speaks once more. You still don't understand a word they are saying, but it must have been important, as all of the other Gegno except your guide back away several steps. The trio member invites you with both arms to use the objects and the table, while all three of them back up themselves, leaving you alone in the open.`
+			`	Po omówieniu wszystkich spraw, w których brałeś udział, trio ponownie zwraca się do zgromadzonych z przemówieniem. Ich głosy rozbrzmiewają echem w powietrzu, a wszyscy Gegno odpowiadają jednoczesnymi okrzykami lub śpiewem, po czym zapada głębsza cisza. Co dziwne, czujesz się, jakbyś stał wśród nich jako część zgromadzenia, a nie jako jakiś obcy przybysz. Nie jesteś niczym ograniczony, nawet z bronią przy sobie.`
+			`	Jeden z mniejszych Gegno w trio gestem odzywa się do ciebie i mówi ponownie. Nadal nie rozumiesz ani słowa, ale musiało to być coś ważnego, ponieważ wszystkie pozostałe Gegno, oprócz twojego przewodnika, cofają się o kilka kroków. Członek tria zachęca cię obiema rękami do użycia przedmiotów i stołu, po czym wszyscy trzej się cofają, zostawiając cię samego na otwartej przestrzeni.`
 			choice
-				`	(Approach the table and try to explain the incidents I was involved in.)`
+				`	(Podejdź do stołu i spróbuj wyjaśnić incydenty, w których brałem udział.)`
 					goto explain
-				`	(Stay where I am and do nothing.)`
+				`	(Zostań tam, gdzie jestem i nic nie rób.)`
 
 			action
 				set "gegno: no proclamation"
-			`	You don't approach the table, standing awkwardly in the open. Maybe it's better to not say anything at all if you're what they perceive as the problem here. A whole minute of silence goes by, and all of the Gegno, including the trio, haven't said so much as a word. Instead, they silently judge the choice you've decided to make. The trio then march back to the table, moving all of the models aside as if they're setting up for something.`
+			`	Nie podchodzisz do stołu, stojąc niezręcznie na widoku. Może lepiej nic nie mówić, skoro to ty jesteś tym, co postrzegają jako problem. Mija cała minuta ciszy, a wszyscy Gegno, łącznie z trójką, nie odzywają się ani słowem. Zamiast tego, w milczeniu oceniają twój wybór. Trójka wraca do stołu, odsuwając wszystkie modele na bok, jakby coś przygotowywali.`
 				goto "what does home mean"
 
 
 			label "explain"
-			`	Walking up to the table, you try your hardest to explain each situation one by one. Since you can't read or do anything with the actual display on the monitor, you try picking up the models, which nobody seems to be bothered by. At the same time, you gesture using your hands, mainly representing your ship flying "away". You wonder if anything makes any sense to the Gegno, but they don't seem to be paying attention to your words or actions themselves; rather, they seem to respond to the tone and emotion of them. After doing your best to describe everything, you back away from the table. The trio march back up to it, discussing your response amongst themselves. They then start moving all of the models aside as if they're setting up for something.`
+			`	Podchodząc do stołu, starasz się jak najmocniej wyjaśnić każdą sytuację po kolei. Ponieważ nie możesz czytać ani nic zrobić z obrazem wyświetlanym na monitorze, próbujesz podnieść modele, co najwyraźniej nikogo nie obchodzi. Jednocześnie gestykulujesz dłońmi, głównie symbolizując swój statek odlatujący "daleko". Zastanawiasz się, czy cokolwiek ma dla Gegno jakikolwiek sens, ale oni zdają się nie zwracać uwagi na twoje słowa ani czyny; raczej reagują na ton i emocje. Po tym, jak starasz się opisać wszystko najlepiej, jak potrafisz, odchodzisz od stołu. Trójka maszeruje z powrotem do stołu, omawiając między sobą twoją odpowiedź. Następnie zaczynają przesuwać wszystkie modele na bok, jakby przygotowywali się do czegoś.`
 				goto "what does home mean"
 
 
 			label "what does home mean"
-			`	Surprising both you and the other Gegno, an image of the planet Earth appears on the monitor. There's no way the Gegno have ever left the borders of their own territory, let alone visited human space. How they got this image is a mystery, but the fact is that an image of the ancestral homeworld of humanity is right in front of you. The member of the Gegno trio that has spoken the least then steps forward, but instead of heading to the table, they make their way to you directly.`
+			`	Zaskakując zarówno ciebie, jak i drugiego Gegno, na monitorze pojawia się obraz planety Ziemia. Nie ma mowy, żeby Gegno kiedykolwiek opuścili granice swojego terytorium, nie mówiąc już o odwiedzeniu przestrzeni kosmicznej zamieszkanej przez ludzi. Skąd wzięli ten obraz, pozostaje tajemnicą, ale faktem jest, że obraz praojczystej planety ludzkości znajduje się tuż przed tobą. Członek tria Gegno, który najmniej się odzywał, podchodzi do ciebie, ale zamiast podejść do stołu, kieruje się prosto do ciebie.`
 			choice
-				`	(Do nothing.)`
+				`	(Nie rób nic.)`
 					goto home
-				`	(Place my hand on my holster.)`
-			`	If the Gegno have an image of Earth, who knows what they know about you, or humanity in general? Slowly moving your hand to your holstered weapon, you prepare yourself for any possible aggression. Even though you do so, the Gegno doesn't hesitate or stop heading in your direction, although some in the crowd seem slightly concerned.`
+				`	(Połóż moją rękę na kaburze.)`
+			`	Jeśli Gegno mają obraz Ziemi, kto wie, co wiedzą o tobie, czy o ludzkości w ogóle? Powoli przesuwasz rękę do kabury z bronią, przygotowując się na ewentualną agresję. Mimo to Gegno nie waha się ani nie zatrzymuje, kierując się w twoją stronę, choć niektórzy w tłumie wydają się lekko zaniepokojeni.`
 
 			label "home"
-			`	Now standing not even two meters in front of you, the Gegno looks at you intently. An image of the world you're on right now slides over the one of Earth, and the Gegno points to it. "Gegno Dueyu Eitch echre, echre isend Gegno." The image shifts back to Earth, with the Gegno still pointing at the screen. "Eyuu dueyu nnepta, viehetch eyuu." The Gegno now motions toward the ground at your feet. "Viehetch eyuu ayyr Dueyu Eitch. Udiyh tei tsider?"`
+			`	Teraz, stojąc niecałe dwa metry przed tobą, Gegno patrzy na ciebie uważnie. Obraz świata, w którym się znajdujesz, przesuwa się nad obrazem Ziemi, a Gegno wskazuje na niego. "Gegno Dueyu Eitch echre, echre isend Gegno." Obraz powraca na Ziemię, a Gegno wciąż wskazuje na ekran. "Eyuu dueyu nnepta, viehetch eyuu." Gegno kieruje się teraz w stronę ziemi u twoich stóp. "Viehetch eyuu ayyr Dueyu Eitch. Udiyh tei tsider?"`
 			choice
-				`	(Don't say anything.)`
+				`	(Nic nie mów.)`
 				`	"...Dueyu Earth?"`
 					goto dueyu
 
-			`	Without saying a word, you continue to look at the Gegno, and it continues to stare back, pondering your silence. They make a snorting sound with their nose, then leave you to join the other two behind them.`
+			`	Bez słowa nadal patrzysz na Gegno, a ono wciąż się wpatruje, rozmyślając nad twoim milczeniem. Parskają nosem, po czym zostawiają cię, by dołączyć do pozostałych dwóch za sobą.`
 				goto decision
 
 			label "dueyu"
-			`	The Gegno leans closer to your height and displays a peculiar expression - possibly one of disapproval. You panic a little, and some of the others seem surprised that they got this close to you. They then speak in a low rumble, somewhat like a whisper spoken aloud. "Eyuu idu keiou ghynem uf, 'Dueyu.'" Getting back up, the Gegno heads back to the other two behind them.`
+			`	Gegno pochyla się bliżej twojego wzrostu i ma dziwny wyraz twarzy - prawdopodobnie dezaprobatę. Lekko panikujesz, a niektórzy z pozostałych wydają się zaskoczeni, że podeszli tak blisko. Odzywają się cicho, coś w rodzaju szeptu. "Eyuu idu keiou ghynem uf, 'Dueyu.'" Wstając, Gegno kieruje się z powrotem do pozostałej dwójki za nimi.`
 
 			branch "done with the gegno"
 				or
@@ -1191,23 +1191,23 @@ mission "Acquiescence"
 			label "decision"
 			action
 				"reputation: Gegno" = 1
-			`	With a sense of finality, the trio beckons to the crowd and begins another long speech. An image of a space station appears on the screen, and a large discussion begins between the other Gegno, whom have formed back up with each other. Some arguments between various Gegno in the audience start happening. Meanwhile, your Gegno guide bumps into you and starts to direct you away from the discussion, back to the cage lift with nobody else batting an eye.`
-			`	Several minutes later, you are escorted back to the base of the tower, which is now surrounded by a large group of Gegno civilians all gawking at the two of you. You're led back to your ship with your head spinning slightly, unsure what to make of that whole encounter. As they did the first time you were with them on the desert planet, the Gegno heads for your ship and hands you a small compass device, this time marking a different location on the map.`
-			`	At the very least, you can take this as an indication that they are not done with you yet, so you prepare to travel to your next destination.`
+			`	Z poczuciem ostateczności, trio skinęło na tłum i rozpoczęło kolejną długą mowę. Na ekranie pojawił się obraz stacji kosmicznej i rozpoczęła się ożywiona dyskusja między pozostałymi Gegno, którzy ponownie się do siebie zbliżyli. Rozpoczęły się kłótnie między różnymi Gegno na widowni. W międzyczasie twój przewodnik Gegno wpadł na ciebie i zaczął kierować cię z dala od dyskusji, z powrotem do windy przy klatce, gdzie nikt inny nie mrugnął okiem.`
+			`	Kilka minut później zostajesz eskortowany z powrotem do podstawy wieży, którą otacza liczna grupa cywilów Gegno, gapiących się na waszą dwójkę. Jesteś prowadzony z powrotem na statek z lekkim zawrotem głowy, niepewny, co myśleć o całym tym spotkaniu. Tak jak za pierwszym razem, gdy byłeś z nimi na pustynnej planecie, Gegno kieruje się w stronę twojego statku i wręcza ci mały kompas, tym razem oznaczający inną lokalizację na mapie.`
+			`	Przynajmniej możesz to potraktować jako sygnał, że jeszcze z tobą nie skończyli i przygotowujesz się do podróży do następnego celu.`
 				launch
 
 
 			label "done with the gegno"
-			`	With a sense of finality, the trio beckons to the crowd and begins another long speech. When they are finished, the crowd goes silent. Your Gegno guide bumps into you and starts to direct you back to the cage lift while nobody else bats an eye. Several minutes later, you are escorted back to the base of the tower, still as barren as it was earlier. You're led back to your ship with your head spinning slightly, unsure what to make of that whole encounter. The Gegno remains at a distance from your ship as you prepare to depart.`
-			`	Before you leave, you watch as they lift their staff weapon and flip it around. An explosive cloud of smoke follows, and a sizable crater appears right beside the <ship>. It seems that you're no longer welcome here, although the fact that they intentionally missed such a large target might have other implications. Regardless, it could have been you on the other end of that blast at any point during this journey.`
-			`	Despite the aggressive action, you are not followed as you leave the planet.`
+			`	Z poczuciem ostateczności, trio skinęło na tłum i rozpoczęło kolejną długą przemowę. Kiedy skończyli, tłum zamilkł. Twój przewodnik Gegno wpadł na ciebie i zaczął prowadzić cię z powrotem do windy klatkowej, podczas gdy nikt inny nie mrugnął okiem. Kilka minut później zostałeś odprowadzony z powrotem do podstawy wieży, wciąż tak samo jałowej jak wcześniej. Zostałeś odprowadzony z powrotem na swój statek z lekkim zawrotem głowy, niepewny, co myśleć o całym tym spotkaniu. Gegno pozostał w pewnej odległości od twojego statku, podczas gdy ty przygotowywałeś się do odpłynięcia.`
+			`	Zanim wyjdziesz, zobaczysz, jak podnoszą swoją broń i odwracają ją. Za nimi pojawia się chmura dymu, a tuż obok <ship> pojawia się spory krater. Wygląda na to, że nie jesteś już tu mile widziany, chociaż fakt, że celowo ominęli tak duży cel, może mieć inne implikacje. Niezależnie od tego, to ty mogłeś znaleźć się po drugiej stronie tej eksplozji w dowolnym momencie tej podróży.`
+			`	Pomimo agresywnych działań, nikt nie śledzi cię, gdy opuszczasz planetę.`
 				flee
 
 
 			label "no more gegno"
-			`	You ultimately decide that pursuing this ruse with the Gegno is no longer worth the effort. Even if you did end up in some sort of dialog with them, it would likely take an excessive amount of effort in order to get any amount of progress, assuming that is even possible. Perhaps even landing here was a mistake. You could never guess what might happen if you continued this endeavor, given you are all alone on the home world of a species that has shown itself to be rather xenophobic, even to the Quarg.`
-			`	As you prepare to depart, the Gegno, who was watching you all this time with a blank stare, lifts their staff weapon and flips it around. An explosive cloud of smoke follows, and a sizable crater appears right beside the <ship>. It seems they are, at the very least, unhappy with your decision to leave, which is a little odd considering they didn't want anything to do with you before. The fact that they intentionally missed such a large target, however, might have other implications. Regardless, it could have been you on the other end of that blast.`
-			`	Despite the aggressive action, you are not followed as you leave the planet.`
+			`	Ostatecznie decydujesz, że kontynuowanie tego fortelu z Gegno nie jest już warte wysiłku. Nawet gdybyś nawiązał z nimi jakiś dialog, prawdopodobnie wymagałoby to nadmiernego wysiłku, aby osiągnąć jakikolwiek postęp, zakładając, że to w ogóle możliwe. Być może samo lądowanie tutaj było błędem. Nigdy nie możesz przewidzieć, co się stanie, jeśli będziesz kontynuować to przedsięwzięcie, biorąc pod uwagę, że jesteś sam na planecie ojczystej gatunku, który okazał się dość ksenofobiczny, nawet wobec Quargów.`
+			`	Gdy przygotowujesz się do odlotu, Gegno, który przez cały czas obserwował cię pustym wzrokiem, unosi swoją broń i odwraca ją. Za nią pojawia się chmura dymu, a tuż obok <ship> pojawia się spory krater. Wygląda na to, że są co najmniej niezadowoleni z twojej decyzji o odlocie, co jest trochę dziwne, zważywszy na to, że wcześniej nie chcieli mieć z tobą nic wspólnego. Fakt, że celowo ominęli tak duży cel, może jednak mieć inne implikacje. Tak czy inaczej, to ty mogłeś być po drugiej stronie tego wybuchu.`
+			`	Pomimo agresywnych działań, nikt nie śledzi cię, gdy opuszczasz planetę.`
 				flee
 
 
@@ -1225,37 +1225,37 @@ mission "Gegno Asteroid Mining Prologue"
 			branch "returned"
 				has "Gegno Asteroid Mining Prologue: deferred"
 
-			`You arrive at your destination: a massive space station. Instead of standing directly behind you in your cockpit this time, the Gegno ended up taking a seat next to one of your open bunks, and didn't move a muscle up until now. Despite the grandiose nature of the Gegno's one and only space station, it seems very old and inactive. As you are escorted around the spacious interior, of which a majority is only a skeletal frame of pipes, bars, and supportive structures, you see a noticeable lack of personnel and running machinery. Some sections aren't even properly pressurized, but thankfully your spacesuit makes up for it. Occasionally, you come across some workers, but they appear very lethargic, or maybe just unmotivated.`
-			`	Eventually, you end up in a large docking bay where more workers and ships are present. Some of the workers are hauling crates of materials back and forth, with others talking among each other. The Gegno with you then motions over to a half-cracked display board on one of the walls across the room. With one last meaningful look, the Gegno leaves you to your own devices. You wonder if you'll ever see them again, considering the way they were treated back on Dueyu Eitch.`
+			`Docierasz do celu: ogromnej stacji kosmicznej. Zamiast stanąć tym razem tuż za tobą w kokpicie, Gegno zajął miejsce obok jednego z twoich otwartych łóżek i do tej pory nie drgnął ani jednym mięśniem. Pomimo imponującego charakteru jedynej stacji kosmicznej Gegno, wydaje się ona bardzo stara i nieaktywna. Podczas gdy jesteś eskortowany po przestronnym wnętrzu, z którego większość to jedynie szkielet z rur, prętów i konstrukcji wsporczych, dostrzegasz zauważalny brak personelu i działającej maszynerii. Niektóre sekcje nie są nawet odpowiednio hermetyczne, ale na szczęście twój skafander to rekompensuje. Od czasu do czasu spotykasz pracowników, ale wydają się oni bardzo ospali, a może po prostu zdemotywowani.`
+			`	W końcu trafiasz do dużej doku, gdzie jest więcej robotników i statków. Niektórzy z nich ciągną skrzynie z materiałami tam i z powrotem, a inni rozmawiają między sobą. Gegno, który ci towarzyszy, wskazuje na na wpół pękniętą tablicę informacyjną na jednej ze ścian po drugiej stronie pomieszczenia. Rzucając ci ostatnie znaczące spojrzenie, Gegno zostawia cię samego. Zastanawiasz się, czy kiedykolwiek ich jeszcze zobaczysz, biorąc pod uwagę sposób, w jaki traktowano ich na Dueyu Eitch.`
 			choice
-				`	(Go to the display.)`
+				`	(Przejdź do wyświetlacza.)`
 					goto board
-				`	(Try to communicate with the other Gegno around me.)`
+				`	(Próbuję nawiązać komunikację z innymi Gegno wokół mnie.)`
 			
-			`	You attempt to get the attention of some of the other Gegno present in the facility, but most of them give you strange glares or outright ignore you, until one seemingly annoyed Gegno gestures to the large cracked display.`
+			`	Próbujesz zwrócić uwagę innych Gegno obecnych w ośrodku, ale większość z nich dziwnie na ciebie patrzy lub po prostu cię ignoruje, aż do momentu, gdy jeden z nich, najwyraźniej zirytowany Gegno, wskazuje gestem duży, popękany wyświetlacz.`
 
 			label "board"
-			`	The display, although cracked and beaten up, still appears otherwise functional. It presents a series of graphics in a list that seems to be updating in real-time. On the left side of each graphic are various types of minable asteroids, and on the right are tally marks. It appears to be some sort of job list linked with the station, which implies that the Gegno are at least giving you a chance to "do your part", or perhaps make up for what you've done.`
+			`	Wyświetlacz, choć popękany i zniszczony, nadal wydaje się sprawny. Przedstawia serię grafik w formie listy, która wydaje się aktualizować w czasie rzeczywistym. Po lewej stronie każdej grafiki znajdują się różne typy asteroid nadających się do wydobycia, a po prawej - znaczniki. Wygląda na to, że to jakaś lista zadań powiązana ze stacją, co sugeruje, że Gegno przynajmniej dają ci szansę "zrobienia swojej części", a może nawet zadośćuczynienia za to, co zrobiłeś.`
 			choice
-				`	(Accept one of the jobs.)`
-				`	(Leave without doing anything.)`
+				`	(Akceptuj jedno ze zleceń.)`
+				`	(Wyjdź, nic nie robiąc.)`
 					goto nothing
 			
 			label "accept"
-			`	You fiddle with the screen, trying to decipher how to use it. Some of the Gegno gaze at you for doing so. While they silently judge, you manage to figure out that it's a touch-sensitive interface, though it takes a lot of force for you to get it to work.`
-			`	The first time you get the device to work, you see an image of a hematite asteroid, rich in iron, with five strange-looking tally marks next to it. Mining for them may not be the best way to learn more about the Gegno, but working for them is a start.`
+			`	Bawisz się ekranem, próbując rozszyfrować, jak go używać. Niektóre Gegno patrzą na ciebie z politowaniem. Podczas gdy one milcząco cię oceniają, udaje ci się zorientować, że to interfejs dotykowy, choć potrzeba sporo siły, żeby go uruchomić.`
+			`	(Kontynuuj swój dzień jak zwykle.)`
 				accept
 
 			label "nothing"
-			`	You decide to leave the facility. None of the Gegno pay you any attention as you do, and are focused back on their work once more.`
+			`	Decydujesz się opuścić ośrodek. Żaden z Gegno nie zwraca na ciebie uwagi, a oni znów skupiają się na swojej pracy.`
 				defer
 
 			label "returned"
-			`Despite previously leaving the station, you're given clearance to land again. Would you like to go to the job facility and try to accept one of the listings?`
+			`Pomimo wcześniejszego opuszczenia stacji, otrzymujesz pozwolenie na ponowne lądowanie. Czy chcesz udać się do miejsca pracy i spróbować przyjąć jedno z ogłoszeń?`
 			choice
-				`	(Yes.)`
+				`	(Tak.)`
 					goto accept
-				`	(No.)`
+				`	(Nr)`
 					defer
 	on defer
 		set "Gegno Asteroid Mining Prologue: deferred"
@@ -1265,5 +1265,5 @@ mission "Gegno Asteroid Mining Prologue"
 		payment 12000
 		outfit "Iron" -5
 		conversation
-			`You dock with the station at the facility's port, rather than on the other side of it. Waiting for you is a large group of Gegno workers, all in rusted or damaged gear. After a few moments of staring and discussion among one another, they unload the minerals from your ship, then go about their business as if nothing happened. Another approaches you, and to your surprise, pays you a sum of <payment> for your work. It seems that the Gegno value and reward effort no matter who does it, even a member of another species.`
-			`	For the time being, the station remains accessible to you, as well as these small odd jobs for mining. Hopefully someday the Gegno will recognize that you're worth more than whatever they've labeled you for.`
+			`Dokujesz do stacji w porcie ośrodka, a nie po jego drugiej stronie. Czeka na ciebie duża grupa robotników Gegno, wszyscy w zardzewiałych lub uszkodzonych strojach. Po chwili wzajemnego wpatrywania się i dyskusji wyładowują minerały z twojego statku, a następnie zajmują się swoimi sprawami, jakby nic się nie stało. Podchodzi do ciebie ktoś inny i ku twojemu zaskoczeniu płaci ci <payment> za twoją pracę. Wygląda na to, że Gegno cenią i nagradzają wysiłek niezależnie od tego, kto go wykonuje, nawet jeśli jest to przedstawiciel innego gatunku.`
+			`	Na razie stacja pozostaje dla ciebie dostępna, podobnie jak te drobne zlecenia górnicze. Mam nadzieję, że kiedyś Gegno zrozumie, że jesteś wart więcej, niż cię za to naznaczyli.`

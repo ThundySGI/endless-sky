@@ -30,14 +30,14 @@ news "high houses emissary"
 			"High House Agent"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I hope thou has't enjoyed thy time amongst our people."
 			"The alien! Hath thou news from far in this endless sky?"
 			"Fair traveler, I've heard of thee. How must thy voyage weigh upon thy mind."
 			"Welcome to our space, honored alien. A pleasure 'tis to meet thee."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "port official"
@@ -52,7 +52,7 @@ news "port official"
 			"Port officer"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"The Houses welcome thee as a guest among our people; "
 			"Please remain in concord with our people; "
@@ -63,10 +63,10 @@ news "port official"
 			"I am at thy service if 'tis needed."
 			"Today's been rather busy, please speak quickly."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Please submit to scans if 'tis requested"
 			"Taxes on transactions are collected"
@@ -76,7 +76,7 @@ news "port official"
 			"; port rules and regulations should be posted."
 			" in accordance with our standard port procedure."
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "successor student"
@@ -92,7 +92,7 @@ news "successor student"
 			"Successor student"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Exams, I think, shall never know their end,"
 			"Hath I forgot my geographic terms?"
@@ -112,7 +112,7 @@ news "successor student"
 			"."
 			"!"
 		word
-			`"`
+			`<CN-7796>`
 
 
 news "successor merchant"
@@ -126,7 +126,7 @@ news "successor merchant"
 			"Independent merchant"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Interested in "
 		phrase
@@ -140,10 +140,10 @@ news "successor merchant"
 			", thoughtful buyer?"
 			", thoughtful captain?"
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"I miss the days I used to be a "
 			"I miss the times I used to be a "
@@ -164,7 +164,7 @@ news "successor merchant"
 			"my family needed my return."
 			"possessed of talent I was not."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
 			"A "
@@ -211,8 +211,8 @@ news "high houses propaganda"
 			"An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the High Houses."
 			"An advertisement plays, showing a group of Successors standing close together against a factory backdrop, their skins all tinted a happy green. It is followed by a voiceover noting that wages have been recently increased."
 			"A short video plays showing the construction of a new spaceport on the surface of a prospering Successor planet. Several warships of the High Houses painted in ceremonial livery pass across the screen, showing clearly who is to be thanked."
-			`A proud-looking Successor naval officer stands before an imposing-looking warship: "Enlist!" the caption reads. "See the stars today!"`
-			`Several short vignettes play: a group of Successors unearthing ruins, the inside of a laboratory, a calm pastoral scene. A voiceover speaks: "Uncovering our heritage; bettering our lives." Meticulously-dressed officials of the High Houses are present in each situation, presented as supportive overseers.`
+			`<CN-18093>`
+			`<CN-18094>`
 			"A advertisement plays showing the sleek lines of a Successor warship, its polished armor gleaming in the sunlight. It goes on for several minutes, showing the vessel from numerous angles while a sweeping soundtrack plays."
 
 news "successor advertisements"

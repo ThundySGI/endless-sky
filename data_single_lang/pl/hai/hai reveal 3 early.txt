@@ -28,128 +28,128 @@ mission "Hai Building Mountaintop [1] Construction Fleet"
 		has "Hai Leaks Response 6: done"
 	on offer
 		conversation
-			`When you return to Hai-home, you are directed to a government hangar where you are met by Xilin and Sayari, both looking very relieved.`
+			`Kiedy wrócisz do Hai-home, zostaniesz skierowany do hangaru rządowego, gdzie spotkają cię Xilin i Sayari. Oboje wyglądają na bardzo ulżonych.`
 			branch "building deferred"
 				has "Building Mountaintop Deferred"
-			`	"I am very glad to see you returned, Captain <last>. Sayari said you were away on an important errand, but I've been hoping for a day now that you would reappear. I think you might be the solution to the current impasse."`
-			`	"You see," says Sayari, "while you've been away it's been decided that a 'tourist trap type theme park destination' is a critical part of the cover story." Despite her Hai inflections, you can still hear the air quotes around that phrase in the tone of her voice. "So far it seems the movie cover has been circulating quite successfully, so we're leaning into it.`
-			`	"This means we need a station, on your side of the wormhole in Ultima Thule. It also means we need it fast, much faster than your people could ever hope to assemble it. The Hai can build it much quicker than humanity can; we actually considered the possibility of needing to raise a station quickly a while back. The alien look that the station will have if we build it has been considered just another favorable aspect of the movie and it provides a long-term commercial justification for the whole idea; the, uh, 'tourist trap.'"`
+			`	"Bardzo się cieszę, że wróciłeś, Kapitanie <last>. Sayari powiedziała, że wyjechałeś w ważnej sprawie, ale mam nadzieję, że pewnego dnia się pojawisz. Myślę, że możesz być rozwiązaniem obecnego impasu."`
+			`	"Widzisz, " mówi Sayari, "podczas twojej nieobecności postanowiono, że "park rozrywki w stylu turystycznej pułapki" jest kluczowym elementem historii okładkowej. " Pomimo jej intonacji w stylu Hai, w jej głosie wciąż słychać cudzysłów w powietrzu wokół tego zwrotu. "Jak dotąd okładka filmu wydaje się być całkiem popularna, więc skłaniamy się ku niej.`
+			`	"To oznacza, że potrzebujemy stacji po waszej stronie tunelu czasoprzestrzennego w Ultima Thule. Oznacza to również, że potrzebujemy jej szybko, znacznie szybciej, niż wasi ludzie mogliby kiedykolwiek mieć nadzieję ją zbudować. Hai mogą ją zbudować znacznie szybciej niż ludzkość; rozważaliśmy możliwość szybkiego wzniesienia stacji jakiś czas temu. Kosmiczny wygląd, jaki będzie miała stacja, jeśli ją zbudujemy, został uznany za kolejny pozytywny aspekt filmu i stanowi długoterminowe uzasadnienie komercyjne dla całego pomysłu; tej, hm, "pułapki dla turystów". "`
 			choice
-				`	"It would help if I oversaw the construction, wouldn't it?"`
+				`	"Przydałoby się, gdybym nadzorował budowę, prawda?"`
 					goto oversee
-				`	"Good idea. Let me know when the station is complete."`
-			`	"It's not so simple," Sayari responds. "In the light of the recent civil war your species has had, some of the Elders are less than keen on allowing a partisan observer to see the inner workings of a station in its earliest phases, especially when we haven't actually built one in so, so long."`
-			`	Now that she mentions it, all of the stations in Hai space do seem to be very, very old.`
-			`	"However, therein lies a problem," says Xilin.`
-			`	"The Republic will not allow the Hai to build a station on our side of the wormhole without some oversight by someone we trust. This has now been a point of contention for some days, and multiple suggestions have been rejected."`
-			`	Sayari chitters, "Honestly, it's all very silly. Lots of old men, who are meant to be friends, concerned that the other might have been lying to them."`
-			`	In an oddly comical gesture, they both shrug at the same time.`
-			`	"Anyway," she continues, "thanks to a little Freedom of Information request to the Republic, I have been looking at things, and I think I have the solution."`
+				`	"Dobry pomysł. Daj znać, kiedy stacja będzie gotowa."`
+			`	"To nie takie proste, " odpowiada Sayari. "W świetle niedawnej wojny domowej, którą stoczył wasz gatunek, niektórzy Starsi nie są zbyt chętni, by pozwolić stronniczemu obserwatorowi zobaczyć wewnętrzne funkcjonowanie stacji w jej najwcześniejszych fazach, zwłaszcza że tak naprawdę nie zbudowaliśmy jej od tak dawna. "`
+			`	Teraz, gdy o tym wspomina, wszystkie stacje w przestrzeni Hai wydają się być bardzo, bardzo stare.`
+			`	"Jednak w tym tkwi problem," mówi Xilin.`
+			`	"Republika nie pozwoli Hai zbudować stacji po naszej stronie tunelu czasoprzestrzennego bez nadzoru kogoś, komu ufamy. Od kilku dni jest to przedmiotem sporu i wiele propozycji zostało odrzuconych."`
+			`	Sayari chitters, "Szczerze mówiąc, to wszystko jest strasznie głupie. Mnóstwo starszych mężczyzn, którzy powinni być przyjaciółmi, martwi się, że ta druga osoba mogła ich okłamać."`
+			`	W dziwnie komicznym geście oboje wzruszają ramionami w tym samym czasie.`
+			`	"W każdym razie," kontynuuje, "dzięki małej prośbie do Republiki o udostępnienie informacji, przyjrzałam się tej sprawie i myślę, że mam rozwiązanie."`
 			choice
-				`	"Is it me?"`
-			`	Sayari winks at you. "Catch on quick, don't you? The actions you're recorded as having taken show a certain conscience for the good of your species as a whole, despite your affiliations. I have convinced the other diplomats and our Elders that you might be a viable solution to this impasse. The human diplomats have already agreed, but the Elders wish to speak with you first."`
+				`	"Czy to ja?"`
+			`	Sayari mruga do ciebie. "Szybko załap, co? Działania, które według twoich zapisów podjąłeś, świadczą o pewnym sumieniu dla dobra całego twojego gatunku, pomimo twoich powiązań. Przekonałem pozostałych dyplomatów i Starszych, że możesz być realnym rozwiązaniem tego impasu. Ludzcy dyplomaci już się zgodzili, ale Starsi chcą najpierw z tobą porozmawiać."`
 				goto elders
 			label oversee
-			`	"You're learning to navigating the maze of galactic politics quickly, Captain <last>," says Sayari. "We are at an impasse. The Elders are less than keen on allowing a partisan observer to see the construction."`
-			`	Xilin continues her thought. "The Republic won't let the Hai build a station on our side of the wormhole without a trusted observer monitoring construction.`
-			`	"Both sides trust you, though," he says, as Sayari nods.`
+			`	"Szybko uczysz się poruszać w labiryncie galaktycznej polityki, Kapitanie <last>, " mówi Sayari. "Jesteśmy w impasie. Starsi nie są zbyt chętni, żeby pozwolić stronniczemu obserwatorowi zobaczyć budowę. "`
+			`	Xilin kontynuuje swoją myśl. "Republika nie pozwoli Hai zbudować stacji po naszej stronie tunelu czasoprzestrzennego bez zaufanego obserwatora monitorującego budowę.`
+			`	"Obie strony ci ufają," mówi, a Sayari kiwa głową.`
 			label elders
 			choice
-				`	"Who are these Elders?"`
-				`	"Of course, that's natural."`
+				`	"Kim są ci Starsi?"`
+				`	"Oczywiście, to naturalne."`
 					goto main
-			`	Sayari explains, "The Hai are ruled by an elected council of elders. They are not responsible for every administrative decision that occurs, but they are the highest authority of our government. Their decisions are final, at least for the term of an election."`
+			`	Sayari wyjaśnia: "Hai są rządzeni przez wybieralną radę starszych. Nie ponoszą oni odpowiedzialności za każdą decyzję administracyjną, ale są najwyższą władzą w naszym rządzie. Ich decyzje są ostateczne, przynajmniej na czas trwania wyborów."`
 				goto main
 			label "building deferred"
-			`	Xilin addresses you, "Not a great deal of progress has been made in your absence. We have maintained our position, so the other diplomats and the Elders still accept that you might be a viable solution to this impasse. It is unavoidable though that the Elders must speak with you first."`
+			`	Xilin zwraca się do ciebie, "Podczas twojej nieobecności nie poczyniono wielkich postępów. Utrzymaliśmy nasze stanowisko, więc pozostali dyplomaci i Starsi nadal uważają, że możesz być realnym rozwiązaniem tego impasu. Nieuniknione jest jednak, że Starsi muszą najpierw z tobą porozmawiać."`
 			label main
-			`	"If you're willing, there will be a council meeting in an hour, and I can put you first on the agenda. Will you do this?" asks Sayari.`
+			`	"Jeśli się zgodzisz, za godzinę odbędzie się zebranie rady i mogę umieścić cię na pierwszym miejscu w porządku obrad. Zrobisz to? " pyta Sayari.`
 			choice
-				`	"I suppose I must."`
-				`	"Someone better be paying me for this."`
-				`	"Of course, let's do it."`
-				`	"Maybe in a bit. I should do something else first."`
+				`	"Chyba muszę."`
+				`	"Lepiej, żeby ktoś mi za to płacił."`
+				`	"Oczywiście, zróbmy to."`
+				`	"Może za chwilę. Najpierw powinnam zrobić coś innego."`
 					defer
-			`	Following Sayari, you pass beyond a security checkpoint where Xilin is prevented from following you. Sayari speaks with another Hai doing administrative work for a moment before gesturing you towards a private antechamber.`
-			`	"We shouldn't have to wait very long, but while we're alone," she says, glancing at the door as if faintly nervous for a second, "did you find anything on your investigation?"`
+			`	Podążając za Sayari, przechodzisz obok punktu kontroli bezpieczeństwa, gdzie Xilin nie może cię śledzić. Sayari rozmawia chwilę z innym Hai, wykonującym pracę administracyjną, po czym gestem wskazuje ci prywatny przedsionek.`
+			`	"Nie powinniśmy czekać zbyt długo, ale skoro już jesteśmy sami," mówi, zerkając na drzwi, jakby na sekundę była lekko zdenerwowana, "czy znaleźliście coś w trakcie swojego śledztwa?"`
 			branch "found cat"
 				has "Hai Rescue: Gipeep: done"
 			choice
-				`	"Yes, I found several Hai that had been kidnapped."`
+				`	"Tak, znalazłem kilku Hai, którzy zostali porwani."`
 					goto kidnapped
-				`	"I found something out of place on Maelstrom."`
+				`	"Znalazłem coś nie tak na Maelstromie."`
 					goto maelstrom
 			label "found cat"
 			choice
-				`	"Yes, I found several Hai that had been kidnapped."`
+				`	"Tak, znalazłem kilku Hai, którzy zostali porwani."`
 					goto kidnapped
-				`	"I found a symbol being used with a captured Hai in a registered warehouse."`
+				`	"Znalazłem symbol używany ze schwytanym Hai w zarejestrowanym magazynie."`
 					goto "angry cat"
 			label kidnapped
-			`	Sayari looks crestfallen as you list off the Hai that you found, but as you finish describing the situations she frowns contemplatively. "That seems to be more Hai, and more easily found than I would have expected. It would seem that the problem may be larger than we've previously thought possible... but was that it? Was there nothing unusual?"`
+			`	Sayari wygląda na przygnębioną, gdy wymieniasz znalezione Hai, ale gdy kończysz opisywać sytuacje, marszczy brwi w zamyśleniu. "Wydaje się, że to więcej Hai i łatwiej znaleźć, niż się spodziewałem. Wygląda na to, że problem może być większy, niż wcześniej sądziliśmy... ale czy to było to? Czy nie było w tym nic niezwykłego?"`
 			branch "found cat 2"
 				has "Hai Rescue: Gipeep: done"
 			choice
-				`	"I found something out of place on Maelstrom."`
+				`	"Znalazłem coś nie tak na Maelstromie."`
 					goto maelstrom
 			label "found cat 2"
 			choice
-				`	"I found a symbol being used with a captured Hai in a registered warehouse."`
+				`	"Znalazłem symbol używany ze schwytanym Hai w zarejestrowanym magazynie."`
 					goto "angry cat"
 			label maelstrom
-			`	"Maelstrom is a significant world, a lot of important corporations obtain their raw materials from there and keep an eye on its operations," she muses. "If there's something going on there it doesn't bode well, we'll have to investigate it."`
+			`	"Maelstrom to ważny świat, wiele ważnych korporacji pozyskuje stamtąd surowce i monitoruje jego działalność, " rozmyśla. "Jeśli coś się tam dzieje, to nie wróży dobrze, będziemy musieli to zbadać."`
 			action
 				set investigatemaelstrom
-			`	She glances at the door, as if having heard something you didn't, before giving you an appraising look. "I trust you have recorded all this in some capacity that you can give to me?"`
+			`	Zerknęła na drzwi, jakby usłyszała coś, czego ty nie słyszałeś, po czym obrzuciła cię oceniającym spojrzeniem. "Mam nadzieję, że masz to wszystko zapisane w formie, którą możesz mi przekazać?"`
 				goto "data stick"
 			label "angry cat"
-			`	When you show her the symbol an odd expression flashes over her face for the briefest of moments, there and gone so quickly that you could've blinked and missed it. "Yes, this is a very odd symbol, and not one I associate with any known groups. I will have to investigate and show this to my friend. See if it matches anything she's found."`
+			`	Kiedy pokazujesz jej ten symbol, na jej twarzy przez ułamek sekundy pojawia się dziwny wyraz, który znika tak szybko, że mrugnięcie okiem mogłoby go przeoczyć. "Tak, to bardzo dziwny symbol i nie kojarzę go z żadną znaną grupą. Muszę to zbadać i pokazać to mojej przyjaciółce. Zobaczę, czy pasuje do czegoś, co znalazła. "`
 			action
 				set catsymbolfound
-			`	She glances at the door, as if having heard something you didn't, and gestures for you to quickly put your data pad away. "I trust you have recorded all this in some capacity that you can give to me?"`
+			`	Zerknęła na drzwi, jakby usłyszała coś, czego ty nie usłyszałeś, i gestem nakazała ci szybko schować tablet. "Mam nadzieję, że masz to wszystko zapisane w formie, którą możesz mi przekazać?"`
 			label "data stick"
-			`	You hand Sayari a data stick. "I saved everything from my logs on this."`
-			`	Gingerly, she takes the data stick and secretes it away on her person. Her expression of distaste looks like one she might give to some snake that could bite her at any moment.`
-			`	"I will have a thorough look later," is all she says.`
-			`	No sooner has she finished than there is a knock at the door, and an aide looks in. "The Council will see you now."`
+			`	Podajesz Sayari pendrive. "Zapisałem wszystko z moich logów na ten temat."`
+			`	Ostrożnie bierze pendrive i chowa go przy sobie. Jej wyraz niesmaku przypomina ten, jaki mogłaby zrobić na widok węża, który może ją ugryźć w każdej chwili.`
+			`	"Później przyjrzę się temu dokładnie," to wszystko, co ona mówi.`
+			`	Ledwo skończyła, gdy ktoś zapukał do drzwi i zajrzał do środka asystent. "Rada cię teraz przyjmie."`
 			choice
-				`	(Walk into the Council chambers.)`
-			`	The next twenty minutes prove to be an exercise in tedium as various members of the council interrogate you over apparently mundane details of your recent actions as recorded in the Freedom of Information report. You're not really sure what most of it has to do with anything, but eventually one of the Elders stands up.`
-			`	"I think we've generally had enough of this here. Answer me two questions, and then we shall make our decision. Firstly, do you think that a diplomatic post should be able to defend itself? Or should it trust to the strength of those who meet there to ensure its protection?"`
-			`	This seems like a very strange question...`
+				`	(Wejdź do sali obrad Rady.)`
+			`	Następne dwadzieścia minut okazuje się nudnym ćwiczeniem, podczas którego różni członkowie rady przesłuchują cię w sprawie pozornie prozaicznych szczegółów twoich ostatnich działań, odnotowanych w raporcie o dostępie do informacji publicznej. Nie jesteś pewien, co to właściwie ma wspólnego z czymkolwiek, ale w końcu jeden ze Starszych wstaje.`
+			`	"Myślę, że mamy już tego dość. Odpowiedz mi na dwa pytania, a potem podejmiemy decyzję. Po pierwsze, czy uważasz, że placówka dyplomatyczna powinna być w stanie sama się obronić? Czy też powinna zaufać sile tych, którzy się tam spotykają, aby zapewnić sobie ochronę?"`
+			`	Wydaje się, że to bardzo dziwne pytanie...`
 			choice
-				`	"It should be strong enough to defend itself. You cannot trust your enemy."`
+				`	"Powinien być wystarczająco silny, by się bronić. Nie możesz ufać swojemu wrogowi."`
 					goto caution
-				`	"Both sides must be trusted to protect a diplomatic post, or there is no point to having one."`
+				`	"Obie strony muszą być godne zaufania, jeśli chodzi o ochronę placówki dyplomatycznej, w przeciwnym razie jej posiadanie nie ma sensu."`
 					goto trust
 			label trust
 			action
 				set haitrust
-			`	You seem to get no reaction, and the Elder follows up with, "What is the gravest threat, in your opinion, facing humanity?"`
+			`	Wydaje się, że nie ma żadnej reakcji, więc Starszy kontynuuje: "Jakie jest, Twoim zdaniem, najpoważniejsze zagrożenie dla ludzkości?"`
 				goto return
 			label caution
 			action
 				set haicaution
-			`	You seem to get no reaction, and the Elder follows up with, "What is the gravest threat, in your opinion, facing humanity?"`
+			`	Wydaje się, że nie ma żadnej reakcji, więc Starszy kontynuuje: "Jakie jest, Twoim zdaniem, najpoważniejsze zagrożenie dla ludzkości?"`
 			label return
 			choice
-				`	"The Pug."`
-				`	"The Alphas."`
-				`	"Unknown jump-capable aliens."`
-				`	"Experimental technologies."`
-				`	"Humanity's hubris."`
+				`	"ThePug."`
+				`	"Alfy."`
+				`	"Nieznani kosmici zdolni do skoków."`
+				`	"Technologie eksperymentalne."`
+				`	"Pycha ludzkości."`
 					goto wise
-			`	There is a collection of chittering laughs from the various council members. You're not sure if there was something wrong with what you said, but you aren't left long to ponder.`
-			`	"It seems the human agent is an honest fool, but an honest fool can at least be trusted to be foolish honestly on all fronts."`
-			`	You're pretty sure you should be offended by that, but the council members are smiling and don't look like they're about to evict you.`
+			`	Słychać serię chichotów różnych członków rady. Nie jesteś pewien, czy w tym, co powiedziałeś, było coś nie tak, ale nie masz dużo czasu na rozmyślanie.`
+			`	"Wygląda na to, że człowiek jest uczciwym głupcem, ale uczciwemu głupcowi można przynajmniej zaufać, że będzie uczciwie postępował na wszystkich frontach."`
+			`	Jesteś prawie pewien, że powinno cię to urazić, ale członkowie rady się uśmiechają i nie wyglądają, jakby mieli zamiar cię eksmitować.`
 				goto end
 			label wise
-			`	"It seems you learned the correct lesson from the crisis of your species," he says.`
-			`	You see several appreciative nods happening around the room out of the corner of your eyes.`
+			`	"Wygląda na to, że wyciągnąłeś właściwą lekcję z kryzysu swojego gatunku," mówi.`
+			`	Kątem oka widzisz, jak ludzie w pokoju kiwają głowami z uznaniem.`
 			label end
-			`	"You may act as the oversight for the human governments in this project. Proposal D-86513-7P4 is approved. Our Council is adjourned."`
-			`	When you meet Sayari afterwards, a touch of her usual enthusiasm returns as you share the news.`
-			`	"This is fantastic news. Now all that remains to be done is for you to escort the construction fleet from <stopovers> to Ultima Thule and observe the initial stages. They'll be waiting for your arrival."`
+			`	"Możesz pełnić funkcję nadzorcy rządów ludzkich w tym projekcie. Propozycja D-86513-7P4 została zatwierdzona. Nasza Rada została zamknięta."`
+			`	Kiedy później spotykasz Sayari, powraca odrobina jej zwykłego entuzjazmu, gdy dzielisz się z nią nowinami.`
+			`	"To fantastyczna wiadomość. Teraz pozostaje tylko eskortować flotę budowlaną z <stopovers> do Ultima Thule i obserwować początkowe etapy. Będą czekać na Twój przyjazd."`
 				accept
 	on defer
 		"Building Mountaintop Deferred" ++
@@ -198,9 +198,9 @@ mission "Hai Building Mountaintop [1b] Return"
 		has "Hai Building Mountaintop [1a] Construction Escorts: done"
 	on offer
 		conversation
-			`On arrival, you see one of the Geocoris deploy a steel ring around itself. Space-based cranes unfold and set about removing the three outer sections of the Geocoris and moving them to the ring. After they finish with the first, they progressively dismantle the other seven Geocoris you escorted. Within a few hours, there is a makeshift station with eight Geocoris' power generators and a sizable amount of storage and habitat space. The construction workers begin unpacking the contents of the Geocoris' storage pods, checking construction seals, engaging principle life support systems, and erecting a massive holoprojector.`
-			`	The Geocoris' captains explain that the Hai had conceived this space station option when the Geocoris was first designed, with some station construction principles used to support its massive cargo capacity. With minor modifications, it was made a trivial effort to dismantle eight Geocoris and rapidly assemble a station. They thank you for your service and inform you that the Hai government needs your help again.`
-			`	Content that the station is built satisfactorily, you prepare to return to <planet>.`
+			`Po przybyciu widzisz, jak jeden z Geocorisów rozstawia wokół siebie stalowy pierścień. Kosmiczne dźwigi rozkładają się i zaczynają zdejmować trzy zewnętrzne sekcje Geocorisów i przenosić je na pierścień. Po zakończeniu pierwszej sekcji, stopniowo demontują pozostałe siedem Geocorisów, które eskortowałeś. W ciągu kilku godzin powstaje prowizoryczna stacja z ośmioma generatorami Geocorisów i sporą przestrzenią magazynową i mieszkalną. Robotnicy budowlani zaczynają rozpakowywać zawartość kapsuł magazynowych Geocorisów, sprawdzać uszczelnienia konstrukcyjne, uruchamiać główne systemy podtrzymywania życia i montować ogromny holoprojektor.`
+			`	Kapitanowie Geocoris wyjaśniają, że Hai wymyślili tę opcję stacji kosmicznej podczas projektowania Geocoris, wykorzystując pewne zasady konstrukcyjne stacji do obsługi jej ogromnej pojemności ładunkowej. Z niewielkimi modyfikacjami, zdemontowanie ośmiu Geocoris i szybkie złożenie stacji było banalnie proste. Dziękują za Państwa służbę i informują, że rząd Hai ponownie potrzebuje Państwa pomocy.`
+			`	Mając pewność, że stacja została zbudowana w sposób zadowalający, możesz powrócić do <planet>.`
 				accept
 
 
@@ -276,47 +276,47 @@ mission "Hai Building Mountaintop [2] Recruits"
 		has "Hai Building Mountaintop [1b] Return: done"
 	on offer
 		conversation
-			`At Hai-home, you are directed to a now familiar government hangar. Sayari, Xilin, and Alondo all send you greeting pings, but are busy at the time of your landing. To your surprise though, Terry is banging on your airlock before too long.`
-			`	"Captain <last>, or should I call you <first>? Anyway, doesn't matter. How would you like to make some money?" The smile she gives you is something like you imagine a large cat giving the tasty morsel it just identified as its food. "Of course you do, everyone likes to make money," she continues, not waiting for you to reply.`
-			`	"The Hai have put out the call for volunteers to be actors in the movie production and also to staff the new Mountaintop station when it's finished, but there's a problem."`
+			`W Hai-home zostajesz skierowany do znanego już hangaru rządowego. Sayari, Xilin i Alondo wysyłają ci sygnały powitalne, ale w chwili lądowania są zajęci. Ku twojemu zaskoczeniu, Terry wkrótce zaczyna walić w twoją śluzę powietrzną.`
+			`	"Kapitanie <last>, czy może powinnam nazywać cię <first>? Nieważne, nieważne. Jak byś chciał zarobić trochę pieniędzy?" Uśmiech, którym cię obdarowuje, przypomina ci dużego kota dającego smakołyk, który właśnie zidentyfikował jako swoje jedzenie. "Oczywiście, że tak, każdy lubi zarabiać pieniądze, " kontynuuje, nie czekając na twoją odpowiedź.`
+			`	"Hai ogłosili nabór wolontariuszy, którzy chcieliby zostać aktorami w produkcji filmu, a także obsadzić nową stację Mountaintop po jej ukończeniu, ale pojawił się pewien problem."`
 			choice
-				`	"What's the problem?"`
+				`	"Jaki jest problem?"`
 					goto problem
-				`	"The movie production is real?"`
-			`	She looks and blinks at you as if caught slightly off-guard. "Yes, didn't they tell you? In order to keep up the cover they actually have to start making a movie, or at least believable clips from one. The director they found, an eccentric chap called David Cohen, seems to have got quite enthusiastic now he's not busy bemoaning the 'big reveal' of his 'secret project.' There's a Mr Turner who's now the cover story's guy bankrolling the thing.`
-			`	"That's Sam's business though, and he can do that without a secretary. I'm dealing with the operational side of things, as I should be." Something in the tilt of her head gives you the sense that she's supremely satisfied with this turn of events.`
+				`	"Czy produkcja filmu jest prawdziwa?"`
+			`	Patrzy na ciebie i mruga, jakby lekko zaskoczona. "Tak, nie mówili ci? Żeby utrzymać przykrywkę, muszą zacząć kręcić film, a przynajmniej wiarygodne fragmenty. Reżyser, którego znaleźli, ekscentryczny facet o nazwisku David Cohen, wydaje się być teraz dość entuzjastyczny, skoro nie jest zajęty narzekaniem na "wielkie odkrycie" swojego "tajnego projektu". Jest pan Turner, który teraz finansuje ten projekt.`
+			`	"To jednak sprawa Sama i może sobie z tym poradzić bez sekretarki. Ja zajmuję się stroną operacyjną, tak jak powinienem." Coś w jej pochyleniu głowy sugeruje, że jest niezwykle zadowolona z takiego obrotu spraw.`
 			label problem
-			`	"While you've been watching early construction, we've been gauging public interest and... at the moment it's not going to work. In order to sell this, they're going to need at least four thousand volunteers by the end of the month, and twelve thousand by the time the station is built. We have to cover crews, staff, roles, extras; gauge needs for facilities, amenities, supplies, and livability requirements. We estimate they'll only get a third of that unless something changes."`
-			`	As she's talking, Terry has been laying out charts and graphs while using a handheld Hai holographic device to show animated diagrams.`
-			`	"The problem is that we need Hai who know how to interact with humans. We've had no shortage of Hai who are keen, even excited, at the prospect of acting in a human movie. Unfortunately, well, many of those Hai... have never met a human in their life. There's something off about their mannerisms and the way they interact; they're simply too alien... No one is going to believe that they're the result of motion capture in the movie, especially the staff and extras."`
+			`	"Podczas gdy obserwowaliście wczesną fazę budowy, my badaliśmy zainteresowanie opinii publicznej i... na razie to nie zadziała. Aby to sprzedać, będą potrzebować co najmniej czterech tysięcy wolontariuszy do końca miesiąca i dwunastu tysięcy do czasu budowy stacji. Musimy zapewnić obsługę załóg, personel, role, statystów; ocenić zapotrzebowanie na obiekty, udogodnienia, zaopatrzenie i warunki życia. Szacujemy, że otrzymają tylko jedną trzecią tej kwoty, chyba że coś się zmieni."`
+			`	Podczas swojej rozmowy Terry rozkładała wykresy i grafy, a jednocześnie używała przenośnego urządzenia holograficznego Hai do wyświetlania animowanych diagramów.`
+			`	"Problem polega na tym, że potrzebujemy Hai, którzy potrafią wchodzić w interakcje z ludźmi. Nie brakowało nam Hai, którzy byliby chętni, a nawet podekscytowani perspektywą zagrania w filmie z udziałem ludzi. Niestety, cóż, wielu z tych Hai... nigdy w życiu nie spotkało człowieka. Jest coś nie tak z ich manierą i sposobem interakcji; są po prostu zbyt obcy... Nikt nie uwierzy, że są efektem przechwytywania ruchu w filmie, zwłaszcza ekipa i statyści."`
 			choice
-				`	"How do you know all this?"`
-				`	"How do we make them less alien?"`
+				`	"Skąd to wszystko wiesz?"`
+				`	"Jak sprawić, by były mniej obce?"`
 					goto "less alien"
-			`	Terry raises an eyebrow at you. "The Oracle may have been an AI supercomputer that could predict the economic situation across the whole of human-inhabited space up to fifteen years in the future, but it was still dependent on our incredibly developed data gathering, reporting, and collation infrastructure. With or without it, the Syndicate knows data. How else do you think we're so profitable?"`
-			`	When she puts it that way, it does suddenly feel like a bit of a stupid question.`
-			`	"As it turns out, that infrastructure is predicting that the Syndicate stands to lose billions of credits, per day, for the duration of any crisis evolving from this which involves the uncontrolled release of the Hai secret. However, we have a plan."`
+			`	Terry unosi brwi, patrząc na ciebie. "Oracle mógł być superkomputerem AI, który potrafił przewidywać sytuację ekonomiczną w całej przestrzeni zamieszkanej przez ludzi nawet do piętnastu lat w przyszłość, ale nadal był zależny od naszej niezwykle rozwiniętej infrastruktury gromadzenia, raportowania i zestawiania danych. Z nią czy bez niej, Syndykat zna dane. Jak inaczej myślisz, że jesteśmy tak dochodowi?"`
+			`	Kiedy stawia to w ten sposób, nagle wydaje się, że to trochę głupie pytanie.`
+			`	"Okazuje się, że infrastruktura przewiduje, że Syndykat będzie tracił miliardy kredytów dziennie przez cały czas trwania kryzysu, który może wyniknąć z niekontrolowanego ujawnienia tajemnicy Hai. Mamy jednak plan."`
 				goto plan
 			label "less alien"
-			`	Terry snorts and suppresses a smirk. "We don't. It takes years of sharing a society with humans for a Hai to learn how to code-switch their body language for us, and humans that have lived solely with Hai and no other human contact are equally unsuitable. No, we cannot make unsuitable volunteers less alien. There's a different approach that can work though."`
+			`	Terry prycha i powstrzymuje uśmieszek. "Nie robimy tego. Hai potrzebuje lat, by dzielić społeczeństwo z ludźmi, nauczyć się kodować mowę ciała, a ludzie, którzy żyli wyłącznie z Hai i nie mieli kontaktu z innymi ludźmi, są równie nieodpowiedni. Nie, nie możemy sprawić, by nieodpowiedni ochotnicy byli mniej obcy. Istnieje jednak inne podejście, które może zadziałać."`
 			label plan
 			choice
-				`	"And that is?"`
-				`	"What's the deal then?"`
-			`	Terry crosses her arms and leans back against the bulkhead. "We need a recruitment campaign. We need to attract Hai who've lived in shared urban environments with humans enough to be able to fake being humans pretending to be Hai. Which means we need a human touch to this; it can't just come from the Hai's own advertising networks, and we need some star power. Oh, and if you haven't guessed already, you're the one to do it. The Syndicate will offer you a sum of 10,000,000 credits to visit every planet in Hai space and do glossies. I'll obviously stage-manage your image, and will have promotional material ready inside of 3 hours."`
+				`	"I co to jest?"`
+				`	"O co chodzi?"`
+			`	Terry krzyżuje ramiona i opiera się o ścianę. "Potrzebujemy kampanii rekrutacyjnej. Musimy przyciągnąć Hai, którzy mieszkali w miastach na tyle często, by móc udawać ludzi, udając Hai. A to oznacza, że potrzebujemy do tego ludzkiego pierwiastka; nie może on pochodzić tylko z sieci reklamowych Hai, potrzebujemy też gwiazdorskiej siły. A, i jeśli jeszcze nie zgadłeś, to ty to zrobisz. Syndykat zaoferuje ci 10 000 000 kredytów za odwiedzenie każdej planety w przestrzeni Hai i udział w reportażach. Oczywiście zajmę się twoim wizerunkiem i przygotuję materiały promocyjne w ciągu 3 godzin."`
 			choice
-				`	"That's it? Straight into it?"`
-			`	She stares you down. "Right now you are the linchpin. Potentially the only human in the entire galaxy that stands between peace and crisis... and we're already behind schedule."`
+				`	"To wszystko? Od razu do rzeczy?"`
+			`	Ona patrzy na ciebie z góry. "W tej chwili jesteś kluczem do wszystkiego. Potencjalnie jedynym człowiekiem w całej galaktyce, który stoi między pokojem a kryzysem... a my już jesteśmy w tyle."`
 			choice
-				`	"I don't really have a choice in this matter, do I?"`
-			`	Terry's answering grin is best described as "predatory."`
+				`	"Tak naprawdę nie mam wyboru w tej sprawie, prawda?"`
+			`	Uśmiech Terry'ego w odpowiedzi najlepiej opisać jako "drapieżny."`
 				accept
 	on stopover
 		set "hai dog and pony final stop"
 		"hai dog and pony" ++
 		event "hai dog and pony done" 1
 		conversation
-			`You have finally visited every world in Hai space and sold the pitch to the people. With any luck, enough will sign up to make it work. Terry indicates that you may now take her to Mountaintop without further stops, but then adds, "I do have some leftover materials though, so I'll get you to do some final spruiking if you stop anywhere else along the way."`
+			`W końcu odwiedziłeś każdy świat w przestrzeni Hai i sprzedałeś ofertę ludziom. Przy odrobinie szczęścia, zgłosi się wystarczająco dużo osób, żeby to zadziałało. Terry sugeruje, że możesz teraz zabrać ją na Szczyt Góry bez dalszych postojów, ale potem dodaje: "Mam jednak trochę resztek materiałów, więc poproszę cię o ostateczne podrasowanie, jeśli zatrzymasz się gdzieś po drodze."`
 	on complete
 		log `Musiała odbyć długą trasę promocyjną, aby pozyskać wolontariuszy do nowej stacji. Terry zadbała o wszystkie szczegóły i wydawała się szczególnie chętna. Prawdopodobnie ma doświadczenie w marketingu, co może tłumaczyć jej sukces w Syndykacie.`
 		payment 10000000
@@ -349,25 +349,25 @@ mission "ZZ Hai Building Mountaintop [2a] Sales Job"
 				"hai dog and pony" >= 8
 			branch tedious
 				"hai dog and pony" >= 5
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop.`
+			`Trafiasz do świata <planet> i robisz, co możesz, aby sprzedać okazję na Mountaintop.`
 				defer
 			label tedious
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. Despite the enthusiasm of the Hai, it's tediously repetitive by now.`
+			`Lądujesz na świecie <planet> i robisz, co do ciebie należy, żeby sprzedać okazję na Mountaintop. Pomimo entuzjazmu Hai, jest to już żmudne i powtarzalne.`
 				defer
 			label tiresome
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. The routine is well-practiced now but starting to get a little tiresome.`
+			`Lądujesz w świecie <planet> i robisz, co do ciebie należy, aby sprzedać okazję na Mountaintop. Ta procedura jest już dobrze wyćwiczona, ale zaczyna być trochę męcząca.`
 				defer
 			label ordeal
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. You struggle to maintain a cheerful and enthusiastic facade as you count down the minutes until this ordeal is over.`
+			`Lądujesz w świecie <planet> i robisz, co do ciebie należy, żeby sprzedać okazję na Mountaintop. Z trudem utrzymujesz pogodną i entuzjastyczną fasadę, odliczając minuty do końca tej gehenny.`
 				defer
 			label interminable
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. Why did you ever agree to this interminable dog and pony show? Is it really worth all this just to save one tiny little galaxy?`
+			`Lądujesz na planecie <planet> i robisz, co do ciebie należy, żeby sprzedać szansę na Mountaintop. Dlaczego w ogóle zgodziłeś się na ten niekończący się cyrk? Czy naprawdę warto to wszystko robić, żeby uratować jedną maleńką galaktykę?`
 				defer
 			label "too many"
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. You're pretty sure you've done this more times than there are habitable planets in Hai space. Did you lose track and repeat a world? Will this nightmare ever end?`
+			`Lądujesz na planecie <planet> i robisz, co do ciebie należy, żeby sprzedać okazję na Szczycie Góry. Jesteś prawie pewien, że zrobiłeś to więcej razy niż jest zamieszkanych planet w przestrzeni Hai. Czy zgubiłeś trop i powtórzyłeś świat? Czy ten koszmar kiedykolwiek się skończy?`
 				defer
 			label overdone
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. Terry makes good on her promise of forcing you to shuffle out and do some last-minute spruiking to offload the remaining promotional materials to those who missed it the first time.`
+			`Lądujesz na planecie <planet> i robisz, co do ciebie należy, żeby sprzedać okazję na Mountaintop. Terry spełnia obietnicę, że zmusi cię do wyjścia i zrobienia ostatnich zakupów, żeby przekazać pozostałe materiały promocyjne tym, którzy przegapili je za pierwszym razem.`
 				decline
 
 
@@ -389,9 +389,9 @@ mission "Hai Building Mountaintop [3] Furnishings"
 	blocked `Wiadomość pozostawiona dla ciebie przez Sayari brzmi: "<first>, potrzebujemy twojej pomocy i będziesz potrzebować 200 ton przestrzeni ładunkowej." Powinieneś wrócić tutaj po zwolnieniu <capacity>.`
 	on offer
 		conversation
-			`As you and Terry offload her remaining supplies on Mountaintop where she intends to manage the arrivals and setup personally, you get a communication from Sayari on your personal device.`
-			`	"Captain <last>! Glad I could get a hold of you on the other side of the wormhole there. I see the new relays are working. We've just discovered a problem: interest has soared in sign-ups for Mountaintop, but we've realized that most of our 'human' furnishings produced in Hai space aren't going to pass as having been manufactured with your technology. Mr Yang has pulled some strings, but now we urgently need someone to go pick them up from Prime in Betelgeuse. Everything else should be ready on our end soon enough, so if you can just handle that pick-up and delivery, we'll be okay."`
-			`	You let her know you'll handle it and prepare to leave.`
+			`Kiedy Ty i Terry będziecie rozładowywać jej pozostałe zapasy na Mountaintop, gdzie ona zamierza osobiście zająć się przybyciem i przygotowaniami, otrzymasz wiadomość od Sayari na swoim osobistym urządzeniu.`
+			`	"Kapitanie <last>! Cieszę się, że udało mi się z tobą skontaktować po drugiej stronie tunelu czasoprzestrzennego. Widzę, że nowe przekaźniki działają. Właśnie odkryliśmy problem: zainteresowanie Mountaintop gwałtownie wzrosło, ale zdaliśmy sobie sprawę, że większość naszych "ludzkich" mebli wyprodukowanych w przestrzeni Hai nie będzie udawać, że zostały wyprodukowane z wykorzystaniem twojej technologii. Pan Yang pociągnął za kilka sznurków, ale teraz pilnie potrzebujemy kogoś, kto odbierze je z Prime na Betelgezie. Wszystko inne powinno być wkrótce gotowe, więc jeśli tylko zajmiesz się odbiorem i dostawą, damy radę."`
+			`	Dajesz jej znać, że się tym zajmiesz i przygotowujesz się do wyjścia.`
 				accept
 	on stopover
 		dialog `Masz meble, które zamówił Hai. Czas je zwrócić <planet>.`
@@ -402,9 +402,9 @@ mission "Hai Building Mountaintop [3] Furnishings"
 		# event "news: hai video clip debunked"
 		log `Spośród wszystkich zabawnych, prozaicznych rzeczy, które mogłyby zaskoczyć, okazało się, że to meble Hai. Nabyłem dużą dostawę mebli wykonanych przez ludzi od Prime, aby ukończyć stację.`
 		conversation
-			`By the time you return, you are shocked to notice that the station seems to be rapidly approaching a completed state. Some four thousand people have already arrived, though some are still on board ships docked at the station. Once you register your delivery amidst the station chaos, it's only a few minutes later that you get a "thank you" message from Sayari.`
-			`	The note is short, but accompanies a surprising amount of credits. "Captain <last> - Thank you for your prompt assistance, but I fear I must now ask it again. A friend of mine who leads an organization investigating interactions with Hai and pirates needs help in human space. I can vouch for her and her organization, and I implore you to trade information and resources to solve our pirate troubles. Please keep quiet about this, lest it spark a diplomatic event.`
-			`	"She will contact you soon."`
+			`Kiedy wracasz, ze zdumieniem zauważasz, że stacja zdaje się szybko zbliżać do stanu ukończenia. Przybyło już około czterech tysięcy osób, choć część wciąż przebywa na pokładach statków zacumowanych przy stacji. Gdy zarejestrujesz przesyłkę w chaosie panującym na stacji, zaledwie kilka minut później otrzymasz wiadomość "thank you" od Sayari.`
+			`	Notatka jest krótka, ale zawiera zaskakująco dużo informacji. "Kapitan <last> - Dziękuję za szybką pomoc, ale obawiam się, że muszę poprosić o nią ponownie. Moja znajoma, która przewodzi organizacji badającej interakcje z Hai i piratami, potrzebuje pomocy w przestrzeni kosmicznej. Mogę poręczyć za nią i jej organizację i błagam o wymianę informacji i zasobów, aby rozwiązać nasze problemy z piratami. Proszę, nie mów o tym, aby nie wywołać konfliktu dyplomatycznego.`
+			`	"Wkrótce się z tobą skontaktuje."`
 
 event "role-play station active"
 	system "Ultima Thule"
@@ -489,73 +489,73 @@ mission "Pirates with Hai Weapons 1: Katya's Message"
 		has "Hai Reveal [A05] Take Teeneep to Hai-home: done"
 	on offer
 		conversation
-			`Before you leave, Alondo finds you in a hallway. "Captain <last>, come with me. We need to have a quick conference." You follow him to an unusual room with strange padding on all sides. He plugs a device with an attached keyboard into a wall-mounted monitor and types for a few seconds. Soon after, you see the familiar face of Katya.`
-			`	"The transmission is secure," Alondo says. "This room has good soundproofing and some signal dampening. You can talk freely."`
+			`Zanim wyjdziesz, Alondo znajdzie cię na korytarzu. "Kapitanie <last>, chodź ze mną. Musimy odbyć krótką naradę." Podążasz za nim do nietypowego pokoju z dziwnymi wyściółkami ze wszystkich stron. Podłącza urządzenie z klawiaturą do monitora na ścianie i pisze przez kilka sekund. Wkrótce potem dostrzegasz znajomą twarz Katyi.`
+			`	"Transmisja jest bezpieczna, " mówi Alondo. "Ten pokój ma dobrą izolację akustyczną i tłumienie sygnału. Można swobodnie rozmawiać. "`
 			choice
-				`	"What is it, Katya?"`
+				`	"O co chodzi, Katya?"`
 					goto "what is it"
-				`	"You've taken a lot of precautions for this call."`
-			`	"Yes," she says. "This is a sensitive matter.`
+				`	"Podjąłeś wiele środków ostrożności podczas tego połączenia."`
+			`	"Tak," mówi. "To delikatna sprawa.`
 			label "what is it"
-			`	"There's a problem I need you to solve... discreetly. The Free Worlds have seen pirates with Hai weapons for quite a while. Most weapons were on ships, but recently we've found a large stock in a warehouse on an anarchist world.`
+			`	"Jest problem, który muszę rozwiązać... dyskretnie. Wolne Światy od dawna widują piratów z bronią Hai. Większość broni znajdowała się na statkach, ale ostatnio znaleźliśmy jej spory zapas w magazynie na anarchistycznej planecie.`
 				to display
 					not "FW Bounty 3: done"
-			`	"There's a problem I need you to solve... discreetly. The Free Worlds have seen pirates with Hai weapons for quite a while. I know you fought the pirate ship Silverhawk back before the war. We know now that it had Hai outfits. Recently we've found a large stock in a warehouse on an anarchist world.`
+			`	"Jest problem, który muszę rozwiązać... dyskretnie. Wolne Światy od dawna widują piratów z bronią Hai. Wiem, że walczyłeś z pirackim statkiem Silverhawk jeszcze przed wojną. Teraz wiemy, że miał on sprzęt Hai. Ostatnio znaleźliśmy duży zapas w magazynie na anarchistycznej planecie.`
 				to display
 					has "FW Bounty 3: done"
-			`	"Such a vast supply is unlikely to have come from individual smugglers, so we must assume it's the result of a large-scale operation. I'm worried the Hai government may be arming pirates. If they are, I hope the weapons are just misguided tribute payments. In the south, we well know how useful bounties and tributes are when dealing with pirates, but from my time as a councilor, I can tell you the Republic will not be so understanding.`
-			`	"You must discreetly find out if the Hai government is arming the pirates and, if they are, put a stop to it. Don't tell them the Free Worlds asked you to do it, and whatever you do, don't let the Republic know. It could lead to an explosive diplomatic incident."`
+			`	"Tak ogromne dostawy raczej nie pochodzą od pojedynczych przemytników, więc musimy założyć, że to wynik operacji na dużą skalę. Obawiam się, że rząd Hai może uzbrajać piratów. Jeśli tak, mam nadzieję, że ta broń to po prostu źle potraktowane daniny. Na południu dobrze wiemy, jak przydatne są nagrody i daniny w starciu z piratami, ale z mojego doświadczenia jako radnego mogę powiedzieć, że Republika nie będzie tak wyrozumiała.`
+			`	"Musisz dyskretnie dowiedzieć się, czy rząd Hai uzbraja piratów, a jeśli tak, położyć temu kres. Nie mów im, że Wolne Światy cię o to prosiły, i cokolwiek zrobisz, nie mów o tym Republice. Może to doprowadzić do wybuchowego incydentu dyplomatycznego."`
 			label loop
 			choice
-				`	"A diplomat called Sayari told me she has a friend looking into 'interactions between Hai and pirates' who should contact me soon."`
+				`	"Dyplomata o imieniu Sayari powiedziała mi, że ma znajomego, który zajmuje się "interakcjami między Hai a piratami" i powinien się ze mną wkrótce skontaktować."`
 					goto byname
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"A trusted Hai contact of mine has friends that can help with the investigation. She also asked for discretion."`
+				`	"Moja zaufana osoba w Hai ma znajomych, którzy mogą pomóc w śledztwie. Poprosiła również o dyskrecję."`
 					goto discrete
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"That's worrying news. I'll look into it."`
+				`	"To niepokojące wieści. Sprawdzę to."`
 					goto acceptable
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"Don't worry. I'll stop the Hai from arming pirates."`
+				`	"Nie martw się. Powstrzymam Hai przed uzbrojeniem piratów."`
 					goto acceptable
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"I'll pursue that lead and see where it takes me."`
+				`	"Będę podążać tym tropem i zobaczę, dokąd mnie to zaprowadzi."`
 					goto acceptable
 					to display
 						has "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"If you vouch for her, then I'll trust her too."`
+				`	"Jeśli za nią ręczysz, to ja też jej zaufam."`
 					goto acceptable
 					to display
 						has "Pirates with Hai Weapons 1: Katya's Message: Katya vouched for Sayari"
-				`	"Don't worry, I'm good for this secret agent stuff."`
+				`	"Nie martw się, jestem dobry w byciu tajnym agentem."`
 					goto "good agent"
 					to display
 						has "Pirates with Hai Weapons 1: Katya's Message: explained"
 			label discrete
 			action
 				set "Pirates with Hai Weapons 1: Katya's Message: explained"
-			`	You explain about the note from a diplomat who also asked for "discretion."`
-			`	"A lead already! That sounds promising," says Katya.`
+			`	Wyjaśnij notatkę od dyplomaty, który również prosił o "dyskrecję."`
+			`	"Już jest trop! To brzmi obiecująco, " mówi Katya.`
 				goto loop
 			label byname
 			action
 				set "Pirates with Hai Weapons 1: Katya's Message: explained"
 				set "Pirates with Hai Weapons 1: Katya's Message: Katya vouched for Sayari"
-			`	You explain about the note from Sayari who also asked for "discretion."`
-			`	Katya seems surprised. "Sayari! Can you describe her?"`
-			`	You explain Sayari's appearance to Katya and she responds, "Sayari has a long history of keeping peace between Hai and humans, longer than I've been alive. If she knows there are weapon deals, then I expect she wants to stop them. Still, be careful."`
+			`	Wyjaśnij notatkę od Sayari, która również prosiła o "discretion."`
+			`	Katya wydaje się zaskoczona. "Sayari! Możesz ją opisać?"`
+			`	Wyjaśniasz Katyi pojawienie się Sayari, a ona odpowiada: "Sayari ma długą historię utrzymywania pokoju między Hai a ludźmi, dłuższą niż ja żyję. Jeśli wie o handlu bronią, to podejrzewam, że chce go powstrzymać. Mimo wszystko, bądź ostrożny."`
 				goto loop
 			label acceptable
-			`	"Thank you," says Alondo, "Just remember this is a secret mission. Go about your business normally and look for your opportunity. You may have to be quite patient to get this done."`
+			`	"Dziękuję, " mówi Alondo, "Pamiętaj tylko, że to tajna misja. Zajmij się swoimi sprawami normalnie i poszukaj swojej szansy. Być może będziesz musiał wykazać się sporą cierpliwością, żeby to zrobić. "`
 				goto end
 			label "good agent"
 			action
 				set "self-declared good agent"
-			`	Alondo chuckles. "You're full of surprises, aren't you? Good to know you're confident in your skills though."`
+			`	Alondo chichocze. "Jesteś pełen niespodzianek, prawda? Dobrze wiedzieć, że jesteś pewny swoich umiejętności. "`
 			label end
-			`	After a few goodbyes, you head out to search for answers.`
+			`	Po kilku pożegnaniach wyruszasz na poszukiwanie odpowiedzi.`
 				accept

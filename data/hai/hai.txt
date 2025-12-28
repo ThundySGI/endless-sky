@@ -69,9 +69,9 @@ outfitter "Hai Basics"
 	"Small Bunk Room"
 	"Fuel Pod"
 	"Hai Corundum Regenerator"
-	`"Basrem" Reverse Thruster`
-	`"Basrem" Atomic Thruster`
-	`"Basrem" Atomic Steering`
+	`<CN-7919>`
+	`<CN-7918>`
+	`<CN-7915>`
 	"Local Map"
 	"Quantum Keystone"
 	"Pulse Rifle"
@@ -99,15 +99,15 @@ outfitter "Hai Intermediate"
 	"Bunk Room"
 	"Fuel Pod"
 	"Hai Corundum Regenerator"
-	`"Basrem" Reverse Thruster`
-	`"Basrem" Atomic Thruster`
-	`"Basrem" Atomic Steering`
-	`"Benga" Reverse Thruster`
-	`"Benga" Atomic Thruster`
-	`"Benga" Atomic Steering`
-	`"Biroo" Reverse Thruster`
-	`"Biroo" Atomic Thruster`
-	`"Biroo" Atomic Steering`
+	`<CN-7919>`
+	`<CN-7918>`
+	`<CN-7915>`
+	`<CN-14320>`
+	`<CN-7911>`
+	`<CN-7914>`
+	`<CN-7943>`
+	`<CN-7916>`
+	`<CN-7912>`
 	"Local Map"
 	"Quantum Keystone"
 	"Pulse Rifle"
@@ -143,19 +143,19 @@ outfitter "Hai Advanced"
 	"Fuel Pod"
 	"Hai Corundum Regenerator"
 	"Hai Diamond Regenerator"
-	`"Basrem" Reverse Thruster`
-	`"Basrem" Atomic Thruster`
-	`"Basrem" Atomic Steering`
-	`"Benga" Reverse Thruster`
-	`"Benga" Atomic Thruster`
-	`"Benga" Atomic Steering`
-	`"Biroo" Reverse Thruster`
-	`"Biroo" Atomic Thruster`
-	`"Biroo" Atomic Steering`
-	`"Bondir" Atomic Thruster`
-	`"Bondir" Atomic Steering`
-	`"Bufaer" Atomic Thruster`
-	`"Bufaer" Atomic Steering`
+	`<CN-7919>`
+	`<CN-7918>`
+	`<CN-7915>`
+	`<CN-14320>`
+	`<CN-7911>`
+	`<CN-7914>`
+	`<CN-7943>`
+	`<CN-7916>`
+	`<CN-7912>`
+	`<CN-1078>`
+	`<CN-7917>`
+	`<CN-7913>`
+	`<CN-1079>`
 	"Luxury Accommodations"
 	"Local Map"
 	"Quantum Keystone"
@@ -200,8 +200,8 @@ outfitter "Unfettered Basics"
 	"Small Bunk Room"
 	"Fuel Pod"
 	"Hai Corundum Regenerator"
-	`"Basrem" Atomic Thruster`
-	`"Basrem" Atomic Steering`
+	`<CN-7918>`
+	`<CN-7915>`
 	"Value Detector"
 	"Local Map"
 	"Quantum Keystone"

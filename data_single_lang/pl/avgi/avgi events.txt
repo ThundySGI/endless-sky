@@ -36,7 +36,7 @@ mission "Avgi: Aberrant Blockade"
 		attributes "aberrant siege"
 	on offer
 		conversation
-			`As you attempt to land, your sensors warn you of an approaching pod of Aberrant over the horizon, intent on destroying anything that approaches or tries to launch from <origin>. It seems you'll have to fight if you want to land here.`
+			`Podczas próby lądowania czujniki ostrzegają cię o zbliżającym się nad horyzontem statku Aberrant, który zamierza zniszczyć wszystko, co się zbliży lub spróbuje wystartować z <origin>. Wygląda na to, że będziesz musiał walczyć, jeśli chcesz tu wylądować.`
 				launch
 	on complete
 		dialog "Po oczyszczeniu obszaru z Aberrantów udaje ci się prześlizgnąć przez blokadę i wylądować na <origin>."

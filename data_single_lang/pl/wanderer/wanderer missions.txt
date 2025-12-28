@@ -23,23 +23,23 @@ mission "Wanderers: Mereti: The Plant 1"
 		has "event: wanderers: sestor planets unrestricted"
 	on offer
 		conversation
-			`The Mereti have clearly been expanding their greenhouses since you last visited this world. A few smaller drones gather around as your ship comes in to land, and they welcome you as you step out.`
-			`	Then, without giving you time to properly respond, they shepherd you into one particular greenhouse, slightly larger than the others. Within, a single plant sits in a majestic pot in the center, illuminated by a shaft of light through the windows above. It is small, with vibrant deep blue petals and teal leaves, and despite your lack of familiarity with it you can tell that it is not growing well.`
-			`	One of the drones speaks to you, much more quietly than the last time you spoke with them. "You are our friend. You helped to [defend, protect] us when we were attacked. You brought our [parents? ancestors?] to us. Please, help us again."`
+			`Mereti najwyraźniej rozbudowali swoje szklarnie od czasu, gdy ostatnio odwiedziłeś ten świat. Kilka mniejszych dronów zbiera się wokół twojego statku, gdy ten zbliża się do lądowania, i witają cię, gdy wychodzisz.`
+			`	Następnie, nie dając ci czasu na odpowiednią reakcję, prowadzą cię do jednej konkretnej szklarni, nieco większej od pozostałych. Wewnątrz, w majestatycznej doniczce pośrodku, stoi pojedyncza roślina, oświetlona snopem światła wpadającym przez okna powyżej. Jest mała, z intensywnie ciemnoniebieskimi płatkami i turkusowymi liśćmi i pomimo twojego braku znajomości z nią, od razu widać, że nie rośnie dobrze.`
+			`	Jeden z dronów mówi do ciebie, znacznie ciszej niż ostatnim razem. "Jesteś naszym przyjacielem. Pomogłeś [obronić, ochronić] nas, kiedy zostaliśmy zaatakowani. Przyprowadziłeś do nas naszych [rodziców? przodków?]. Proszę, pomóż nam ponownie. "`
 			choice
-				`	"I will help you."`
-				`	"What do you need me to do?"`
-			`	The drone speaks again. "This plant is important to us. It is our..." The drone pauses for a few seconds, and lights flash across it. "It is important to us. Our [teachers, mentors] say it is not [native, local] to this world, and cannot survive here." As it says this, two Wanderers walk in accompanied by another Mereti drone, talking with each other in hushed tones. They look up when the drone you are speaking with mentions them, and quickly approach you.`
+				`	"Pomogę ci."`
+				`	"Co mam zrobić?"`
+			`	Dron odzywa się ponownie. "Ta roślina jest dla nas ważna. Jest nasza..." Dron zatrzymuje się na kilka sekund, a na nim błyskają światła. "Jest dla nas ważna. Nasi [nauczyciele, mentorzy] mówią, że nie jest [rodzima, lokalna] dla tego świata i nie może tu przetrwać." W tym momencie wchodzi dwóch Wędrowców w towarzystwie innego drona Mereti, rozmawiając ze sobą przyciszonymi głosami. Podnoszą wzrok, gdy dron, z którym rozmawiasz, wspomina o nich i szybko do ciebie podchodzą.`
 			choice
-				`	"Can you help them?"`
-				`	"What should we do?"`
-			`	One of the Wanderers speaks up. "This plant... it shares crucial similarities with some of the plants that we [grow, tend] on <planet>, so let us bring it there for now. There will be [differences, complications], but that is the [best, most likely] [approach, solution] in the short term. But we still seek to leave these worlds to the Unfettered, and so we cannot [house, cultivate] this plant there forever."`
-			`	The drones, which have been silently listening to the two Wanderers, carefully pick up the pot containing the plant, and fly back in the direction of your ship, followed by the two Wanderers. You follow them back and prepare to set off for <planet>.`
+				`	"Czy możesz im pomóc?"`
+				`	"Co powinniśmy zrobić?"`
+			`	Jeden z Wędrowców zabiera głos. "Ta roślina... ma kluczowe podobieństwa do niektórych roślin, które [uprawiamy, pielęgnujemy] <planet>, więc na razie przenieśmy ją tam. Będą [różnice, komplikacje], ale to [najlepsze, najbardziej prawdopodobne] [podejście, rozwiązanie] w krótkiej perspektywie. Nadal jednak staramy się pozostawić te światy Nieskrępowanym, więc nie możemy [utrzymywać, pielęgnować] tej rośliny tam na zawsze."`
+			`	Drony, które w milczeniu nasłuchiwały dwóch Wędrowców, ostrożnie podnoszą doniczkę z rośliną i odlatują w kierunku twojego statku, a za nimi podążają dwaj Wędrowcy. Podążasz za nimi i przygotowujesz się do wyruszenia w drogę do <planet>.`
 				accept
 	on complete
 		conversation
-			`The Mereti ships following you caused some alarm among the local population as you came in to land, particularly with the spaceport's traffic control, who are unaccustomed to the way they hurtle by less than a meter from the Wanderers' ships at almost top speed on their way down.`
-			`	Your passengers exit your ship almost immediately after you land, and the spaceport workers carefully unload the plant from your cargo hold. "Meet us in the spaceport and we will inform you of our next [plans, steps]."`
+			`Statki Mereti, które podążały za wami, wywołały niepokój wśród miejscowej ludności, gdy zbliżaliście się do lądowania, zwłaszcza wśród kontroli ruchu kosmoportu, która nie jest przyzwyczajona do tego, że statki te przemieszczają się niemal z maksymalną prędkością, przelatując o niecały metr od statków Wędrowców w drodze na dół.`
+			`	Twoi pasażerowie opuszczają statek niemal natychmiast po lądowaniu, a pracownicy kosmoportu ostrożnie wyładowują roślinę z ładowni. "Spotkajmy się w kosmoporcie, a poinformujemy Cię o naszych kolejnych [planach i krokach]."`
 		
 	on enter Chimitarp
 		dialog `Gdy startujesz z <origin>, zauważasz, że kilka małych dronów Mereti startuje z tobą i podąża za twoim statkiem.`
@@ -62,16 +62,16 @@ mission "Wanderers: Mereti: The Plant 2"
 		has "Wanderers: Mereti: The Plant 1: done"
 	on offer
 		conversation
-			`The two Wanderers from earlier are waiting for you in the spaceport, but this time another Wanderer is with them. She introduces herself as Keti Va'ika, a specialist in xenobotany. The other two leave as she starts explaining the situation.`
-			`	"We have [restored, healed] the plant, and it is surviving here for now, but we will soon be moving out of these systems. This plant [originates, belongs] in Korath space, so we must find a way to return it there."`
-			`	Va'ika pauses and thinks for a moment before continuing. "The Korath do not seem to me to be the type to [create, engineer] such a flower through [artificial, unnatural] means. I suspect it originates on one of their worlds. If we are fortunate, it may [grow, prosper] there still. From an initial look, we [believe, suspect] that it is native to either <planet>, Sopi Lefarkata, or possibly one of those worlds that is so [damaged, destroyed] that it is difficult to [see, imagine] what it might once have been like."`
+			`Dwóch Wędrowców z wcześniejszej części czeka na ciebie w porcie kosmicznym, ale tym razem towarzyszy im inna Wędrówka. Przedstawia się jako Keti Va'ika, specjalistka od ksenobotaniki. Pozostała dwójka odchodzi, gdy zaczyna wyjaśniać sytuację.`
+			`	"Przywróciliśmy, uleczyliśmy] roślinę i na razie przetrwała tutaj, ale wkrótce opuścimy te systemy. Ta roślina [pochodzi, należy] do przestrzeni Korath, więc musimy znaleźć sposób, aby ją tam przywrócić."`
+			`	Va'ika zatrzymuje się i zastanawia przez chwilę, zanim kontynuuje. "Korathowie nie wydają mi się typem, który [tworzy, konstruuje] taki kwiat za pomocą [sztucznych, nienaturalnych] środków. Podejrzewam, że pochodzi on z jednego z ich światów. Jeśli będziemy mieli szczęście, może [rosnąć, prosperować] tam nadal. Na pierwszy rzut oka [wierzymy, podejrzewamy], że pochodzi on z <planet>, Sopi Lefarkata, lub być może z jednego z tych światów, który jest tak [uszkodzony, zniszczony], że trudno [zobaczyć, wyobrazić sobie], jak mógł kiedyś wyglądać."`
 			choice
-				`	"You really are set on giving these worlds to the Unfettered, then?"`
-				`	"What do you suggest we do?"`
+				`	"Naprawdę chcesz oddać te światy Nieskrępowanym?"`
+				`	"Co sugerujesz, żebyśmy zrobili?"`
 					goto end
-			`	Va'ika responds sharply. "That is our [purpose, way]. We heal worlds, and then we turn them over to other species. We would not [imagine, consider] any other course of action."`
+			`	Va'ika odpowiada ostro. "To jest nasz [cel, droga]. Uzdrawiamy światy, a potem przekazujemy je innym gatunkom. Nie [wyobrażamy sobie, rozważamy] żadnego innego sposobu działania."`
 			label end
-			`	Va'ika points at a map, marking out the <system> system. "Let us [search, visit] <planet> first. It is near to the worlds of the Mereti and not in the [territory, region] of their [rivals, foes], so it seems more likely that this plant [originated, grew] there."`
+			`	Va'ika wskazuje na mapę, zaznaczając układ <system>. "Najpierw [poszukajmy, odwiedźmy] <planet>. Znajduje się on blisko światów Mereti, a nie na [terytorium, regionie] ich [rywali, wrogów], więc wydaje się bardziej prawdopodobne, że ta roślina [pochodzi, rosła] właśnie tam."`
 				accept
 
 mission "Wanderers: Mereti: The Plant 3"
@@ -85,7 +85,7 @@ mission "Wanderers: Mereti: The Plant 3"
 		has "Wanderers: Mereti: The Plant 2: done"
 	on offer
 		conversation
-			`Va'ika guides you to an area of high, cool steppes as you approach. You find a suitable place to land your ship, and she steps out. The air that blows in through the open door stings your eyes, but Va'ika seems too deep in thought to notice. "It would have [grown, originated] here, I am certain of it. But it will do so no longer, not for many [years, cycles]." Va'ika bows her head and holds one wing in front of herself silently for a moment before continuing. "We must find some world with similar [regions, environments] that we can introduce it to. Perhaps we will have better luck on Sopi Lefarkata."`
+			`Va'ika prowadzi cię w stronę wysokich, chłodnych stepów, gdy się zbliżasz. Znajdujesz odpowiednie miejsce do lądowania, a ona wychodzi. Powietrze wpadające przez otwarte drzwi kłuje cię w oczy, ale Va'ika wydaje się być zbyt zamyślona, by to zauważyć. "Jestem tego pewien, że [wyrosłoby, narodziło się] tutaj. Ale już tego nie zrobi, nie przez wiele [lat, cykli]." Va'ika pochyla głowę i przez chwilę w milczeniu trzyma jedno skrzydło przed sobą, po czym kontynuuje. "Musimy znaleźć jakiś świat z podobnymi [regionami, środowiskami], do którego możemy go wprowadzić. Może będziemy mieli więcej szczęścia na Sopi Lefarkata."`
 				accept
 
 mission "Wanderers: Mereti: The Plant 4"
@@ -99,14 +99,14 @@ mission "Wanderers: Mereti: The Plant 4"
 		has "Wanderers: Mereti: The Plant 3: done"
 	on offer
 		conversation
-			`This time, Va'ika guides you down into an equatorial lowland - a dry, grassy plain over which a cool wind blows. You can feel its similarity to the steppe you visited on Solima Skarati, but this time you can breathe freely, without the air stinging your eyes and mouth. Va'ika takes some soil and places it in a small device, looking at it for a moment before turning to you. "Here. It will [grow, prosper] here."`
+			`Tym razem Va'ika prowadzi cię na równikową nizinę - suchą, trawiastą równinę, nad którą wieje chłodny wiatr. Czujesz podobieństwo do stepu, który odwiedziłeś na Solima Skarati, ale tym razem możesz swobodnie oddychać, bez szczypania w oczy i usta. Va'ika bierze trochę ziemi i umieszcza ją w małym urządzeniu, przyglądając się jej przez chwilę, zanim zwróci się do ciebie. "Tutaj. Będzie [rosnąć, rozkwitać] tutaj."`
 			choice
-				`	"Is there anything else I can do to help?"`
+				`	"Czy mogę jeszcze w czymś pomóc?"`
 					goto "next steps"
-				`	"How can you be so sure?"`
-			`	"We have already collected significant data on the climate of this world. The only question I needed to answer in person was whether the [composition, nature] of the soil was suitable."`
+				`	"Skąd możesz być taki pewien?"`
+			`	"Zebraliśmy już znaczące dane na temat klimatu tego świata. Jedyne pytanie, na które musiałem odpowiedzieć osobiście, brzmiało, czy [skład, natura] gleby jest odpowiednia."`
 			label "next steps"
-			`	"Let us return to Vara Kehi'ki. We will send a small detachment of [healers, gardeners] to <planet>, to ensure that these plants become established. In the long term, we will return them to <origin> when it is healed."`
+			`	"Wróćmy do Vara Kehi'ki. Wyślemy mały oddział [uzdrowicieli, ogrodników] do <planet>, aby upewnić się, że te rośliny się ukorzenią. W dłuższej perspektywie, po wyleczeniu, zwrócimy je do <origin>."`
 				accept
 	on complete
 		dialog `Drony Mereti z wcześniejszej części wciąż czekają w porcie kosmicznym, kiedy dotrzesz na miejsce. Va'ika szybko wysiada i zaczyna rozmawiać z miejscowymi, zatrzymując się tylko na chwilę, by powiedzieć ci, żebyś spotkał się z nią w porcie kosmicznym.`
@@ -122,18 +122,18 @@ mission "Wanderers: Mereti: The Plant 5"
 		has "Wanderers: Mereti: The Plant 4: done"
 	on offer
 		conversation
-			`You arrive in the spaceport just in time to see the plant being delicately loaded onto a Strong Wind. The Mereti drones sit stationary on the landing pad, and you get a distinct feeling that they are watching you intently.`
-			`	Va'ika stands beside you as you watch, staring into the distance almost morosely, before speaking. "It is regrettable that we have been [forced, made] to use these ships for war. This is far closer to the purpose we originally [conceived, designed] them to [serve, fulfill]." You catch a glimpse of a feather falling to the ground as she speaks. Then, she interrupts herself. "No, I should not be so [disheartened?]. The Korath drones have turned their back on their creators' [wishes, design] and seek to [heal, tend] these worlds alongside us. That is something we can all appreciate."`
+			`Przybywasz do kosmoportu akurat w momencie, gdy roślina jest delikatnie ładowana na Silny Wiatr. Drony Mereti stoją nieruchomo na lądowisku i masz wyraźne wrażenie, że uważnie cię obserwują.`
+			`	Va'ika stoi obok ciebie, gdy patrzysz, wpatrując się w dal niemal ponuro, zanim się odezwie. "To godne ubolewania, że zostaliśmy [zmuszeni, zmuszeni] do użycia tych statków do wojny. To o wiele bliższe celowi, któremu pierwotnie [wymyśliliśmy, zaprojektowaliśmy], [służyć, spełniać]." Dostrzegasz pióro spadające na ziemię, gdy ona mówi. Potem przerywa. "Nie, nie powinnam być tak [zniechęcona?]. Drony z Korath odwróciły się od [życzeń, projektu] swoich stwórców i starają się [uzdrowić, dbać] o te światy razem z nami. To coś, co wszyscy możemy docenić."`
 			choice
-				`	"Are you sure this will work?"`
-			`	Va'ika straightens up, and speaks with clear confidence. "It is a [fortunate, convenient] situation. <planet> needs relatively little healing, so [housing, growing] these plants here will not create [difficulties, inconveniences] for our work. We have sent a small specialist [group, team] to [cultivate, look after] the plants. I have the utmost confidence in their [knowledge, abilities]."`
+				`	"Czy jesteś pewien, że to zadziała?"`
+			`	Va'ika prostuje się i mówi z wyraźną pewnością siebie. "To [szczęśliwa, dogodna] sytuacja. <planet> wymaga stosunkowo niewielkiego leczenia, więc [uprawa i utrzymanie] tych roślin tutaj nie będzie stwarzać [trudności, niedogodności] w naszej pracy. Wysłaliśmy małą specjalistyczną [grupę, zespół], aby [uprawiała, dbała o] rośliny. Mam pełne zaufanie do ich [wiedzy, umiejętności]."`
 				accept
 	on complete
 		event "mereti visiting eneremprukt" 5
 		event "field of mereti plants" 700
 		conversation
-			`The Mereti drones follow you and the <npc> down to the planet, landing nearby. You and Va'ika watch as the plant is carefully, almost ceremoniously, taken and placed in the ground.`
-			`	After the plant has been suitably placed, Va'ika turns to you. "I will stay here for some time to [supervise, observe] the work, but it will soon be time for me to [depart, return] and oversee the healing of other worlds. I thank you most [gratefully, sincerely] for your help, <first>."`
+			`Drony Mereti podążają za tobą i <npc> na planetę i lądują w pobliżu. Ty i Va'ika obserwujecie, jak roślina jest ostrożnie, niemal ceremonialnie, zabierana i umieszczana w ziemi.`
+			`	Po odpowiednim umieszczeniu rośliny, Va'ika zwraca się do ciebie. "Zostanę tu jeszcze przez jakiś czas, aby [nadzorować, obserwować] pracę, ale wkrótce nadejdzie czas, abym [odeszła, wróciła] i nadzorowała uzdrawianie innych światów. Dziękuję ci bardzo [z wdzięcznością, szczerze] za twoją pomoc, <first>."`
 	npc
 		government "Kor Mereti"
 		personality timid launching
@@ -166,18 +166,18 @@ mission "Wanderers: Mereti: The Plant Epilogue"
 		has "event: field of mereti plants"
 	on offer
 		conversation
-			`As you approach <planet>, you recall that this is the planet on which you and the Wanderers planted the flower that the Mereti gave you. As you descend through the clouds, you spot a tiny blue dot in the depths of a valley, exactly where you left the Wanderers years ago.`
+			`Zbliżając się do <planet>, przypominasz sobie, że to planeta, na której ty i Wędrowcy zasadziliście kwiat, który podarowali ci Mereti. Schodząc przez chmury, dostrzegasz maleńką niebieską kropkę w głębi doliny, dokładnie tam, gdzie lata temu zostawiłeś Wędrowców.`
 			choice
-				`	(Take a closer look.)`
-				`	(Not right now.)`
+				`	(Przyjrzyj się bliżej.)`
+				`	(Nie teraz.)`
 					defer
-			`	The spot grows larger as you get closer, until you see the Strong Wind parked in the middle of a field of flowers, their petals gleaming a beautiful deep blue.`
-			`	You carefully set your ship down outside the field, and a small Mereti drone flies up to you, speaking in a voice that is far more subdued than you expect. "Thank you, <first> <last>. You have [saved, restored] the sitrasanir." Your translator makes no attempt at the last word, and it doesn't sound like any word you have heard in either the Hai or Wanderer language.`
+			`	Punkt staje się coraz większy, gdy się zbliżasz, aż dostrzeżesz Silny Wiatr zaparkowany pośrodku pola kwiatów, których płatki błyszczą pięknym, głębokim błękitem.`
+			`	Ostrożnie kładziesz swój statek poza polem, a mały dron Mereti nadlatuje w twoją stronę, mówiąc głosem znacznie bardziej stłumionym, niż się spodziewasz. "Dziękuję, <first> <last>. [Zapisałeś, przywróciłeś] sitrasanir." Twój tłumacz nie próbuje odtworzyć ostatniego słowa i nie brzmi ono jak żadne słowo, które słyszałeś w języku Hai ani Wanderer.`
 			choice
 				`	"Sitrasanir?"`
-				`	"You're welcome."`
+				`	"Proszę bardzo."`
 					goto end
-			`	"This flower is called the sitrasanir. Its [symbol, appearance] was of [importance, significance] to our creators when they were [present? alive?]. We [abandoned, ignored] it for years, but our [parents, ancestors] helped us to remember it."`
+			`	"Ten kwiat nazywa się sitrasanir. Jego [symbol, wygląd] miał [znaczenie, wagę] dla naszych stwórców, gdy byli [obecni? żywi?]. My [porzuciliśmy go, ignorowaliśmy] przez lata, ale nasi [rodzice, przodkowie] pomogli nam go zapamiętać."`
 			label end
-			`	The drone sits in a contemplative silence, looking out into the field. The sun rises higher into the sky, and the field shines in blue hues that almost exactly match the blue paints on the Mereti ships in the sky above.`
+			`	Dron siedzi w kontemplacyjnej ciszy, patrząc w pole. Słońce wznosi się coraz wyżej, a pole lśni błękitem, który niemal idealnie pasuje do niebieskiej farby na statkach Mereti na niebie.`
 				decline

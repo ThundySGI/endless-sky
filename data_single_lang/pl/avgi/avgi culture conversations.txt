@@ -21,7 +21,7 @@ mission "Avgi Culture: Verticality"
 		random < 15
 	on offer
 		conversation
-			`While looking for a place to grab a snack, you discover most of the restaurants are on the terrace rings above your level of the spaceport. After some asking around, you come to the realization that Avgi structures simply weren't designed with flightless humans in mind, and you're forced to ask a very confused worker to use the spaceport's freight elevator to go up a single level.`
+			`Szukając miejsca na przekąskę, odkrywasz, że większość restauracji znajduje się na tarasach nad twoim poziomem kosmoportu. Po krótkim pytaniu uświadamiasz sobie, że konstrukcje Avgi po prostu nie zostały zaprojektowane z myślą o nielotnych ludziach i jesteś zmuszony poprosić bardzo zdezorientowanego pracownika, aby skorzystał z windy towarowej kosmoportu, aby wjechać na jeden poziom.`
 				decline
 
 
@@ -36,7 +36,7 @@ mission "Avgi Culture: Free Fuel"
 		random < 15
 	on offer
 		conversation
-			`As a dockyard worker helps you top off the <ship>'s fuel, you hear her mutter. "Incredulation. We're directed to give the alien free fuel while the rest of us are bleeding out of the eyes for every drop of dee."`
+			`Gdy pracownik stoczni pomaga ci uzupełnić paliwo na <ship>, słyszysz jej mamrotanie. "Niedowierzanie. Mamy dać obcemu darmowe paliwo, podczas gdy reszta z nas krwawi z każdej kropli dee."`
 				decline
 
 
@@ -49,7 +49,7 @@ mission "Avgi Culture: Playfight"
 		random < 12
 	on offer
 		conversation
-			`As you walk through the spaceport, a pair of small Avgi flit above your head - children, perhaps - waving sticks at each other as part of some kind of game. One of them manages to knock the other's stick out of their hands, who then executes some sort of dizzying barrel roll before the two fly on out of sight.`
+			`Gdy idziesz przez kosmodrom, nad twoją głową przelatuje para małych Avgi - być może dzieci - machając do siebie kijami w ramach jakiejś gry. Jednemu z nich udaje się wytrącić kij z rąk drugiego, który następnie wykonuje zawrotną beczkę, po czym obaj odlatują i znikają z pola widzenia.`
 				decline
 
 
@@ -63,7 +63,7 @@ mission "Avgi Culture: Cocoon"
 		random < 12
 	on offer
 		conversation
-			`An Avgi flies by, a pair of Avgi children sitting on her back. Nestled between them is some kind of cocoon, spun from silk that winds its way into a rope wrapped carefully around the mother's body.`
+			`Przelatuje Avgi, a na jej plecach siedzi para dzieci Avgi. Pomiędzy nimi znajduje się coś w rodzaju kokonu, utkanego z jedwabiu, który wije się w linę, starannie owiniętą wokół ciała matki.`
 				decline
 
 
@@ -79,11 +79,11 @@ mission "Avgi Culture: Zapchannel Ad"
 		conversation
 			branch language
 				has "language: Avgi (Written)"
-			`A cheap electronic sign, haphazardly stuck to a wall, flashes a series of colorful symbols, sharp and angular. You aren't able to understand it, but guess it's probably an advertisement or notice of some kind.`
+			`Tani elektroniczny znak, przypadkowo przyklejony do ściany, wyświetla serię kolorowych symboli, ostrych i kanciastych. Nie jesteś w stanie tego zrozumieć, ale domyślasz się, że to prawdopodobnie reklama lub jakaś informacja.`
 				decline
 
 			label language
-			`A cheap electronic sign, haphazardly stuck to a wall, flashes a message in the colorful written language of the Avgi. "Zapchannel Ray Energy! With over three quadrillion gamma decays per serving, one dose provides enough energy for life! Buy today!"`
+			`Tani elektroniczny znak, przypadkowo przyklejony do ściany, wyświetla wiadomość w kolorowym języku Avgi. "Zapchannel Ray Energy! Z ponad trzema biliardami rozpadów gamma na porcję, jedna dawka dostarcza energii na całe życie! Kup już dziś!"`
 				decline
 
 
@@ -99,11 +99,11 @@ mission "Avgi Culture: Dissonance Protest 1"
 		conversation
 			branch language
 				has "language: Avgi (Written)"
-			`A line of angry-looking Avgi march in a wide circle around the spaceport, while others dart overhead in a similar pattern. Most of them seem to be waving colorful flags, while a few of the Avgi in the air are trailing banners with large, angular letters in bright colors written on them. All of the Avgi, which seem to be participating in some kind of protest, are wearing bright magenta ribbons around their arms, a color that seems to be likewise prominent on their flags and banners.`
+			`Grupa gniewnie wyglądających Avgich maszeruje szerokim kręgiem wokół kosmoportu, podczas gdy inni przemykają nad głowami w podobnym szyku. Większość z nich zdaje się machać kolorowymi flagami, a kilku Avgich w powietrzu ciągnie transparenty z dużymi, kanciastymi literami w jaskrawych kolorach. Wszyscy Avgi, którzy najwyraźniej biorą udział w jakimś proteście, noszą jaskraworóżowe wstążki na ramionach, kolor, który najwyraźniej jest również widoczny na ich flagach i transparentach.`
 				decline
 
 			label language
-			`A line of angry-looking Avgi march in a wide circle around the spaceport, while others dart overhead in a similar pattern. Most of them seem to be waving colorful flags, while a few of the Avgi in the air are trailing banners with colorful slogans on them. "STOP CONSONANCE TAXES," "ABOLISH MINERAL FEUDALISM," and "STOP SENDING US TO DIE" are just a few of the messages you can make out, all in the angular Avgi script. All of the Avgi are wearing bright magenta ribbons around their arms, a color that seems to be likewise prominent on their flags and banners.`
+			`Grupa gniewnie wyglądających Avgich maszeruje szerokim kręgiem wokół kosmoportu, podczas gdy inni śmigają nad głowami w podobnym szyku. Większość z nich zdaje się machać kolorowymi flagami, a kilku Avgich w powietrzu niesie transparenty z kolorowymi hasłami. "STOP PODATKOM OD KONSONANSU, " "ABOLISH MINERAL FEUDALISM, " i "STOP SENDING US TO DIE" to tylko kilka z napisów, które można odczytać, wszystkie napisane kanciastym pismem Avgi. Wszyscy Avgi mają na ramionach jaskraworóżowe wstążki, kolor, który zdaje się być również widoczny na ich flagach i transparentach.`
 				decline
 
 
@@ -119,11 +119,11 @@ mission "Avgi Culture: Dissonance Graffiti 1"
 		conversation
 			branch language
 				has "language: Avgi (Written)"
-			`You find colorful, curvy symbols scrawled all across the walls, floor, and ceiling of <planet>'s spaceport terminal, and you can see a handful of Avgi with brushes and mops attempting to remove them. You aren't sure what they say, but other Avgi seems to be laughing and pointing as they stroll by. The workers scrubbing the graffiti away seem to be less than amused, however.`
+			`Na ścianach, podłodze i suficie terminala kosmoportu <planet> znajdują się kolorowe, zakrzywione symbole, nabazgrane po całej powierzchni, a garstka Avgich ze szczotkami i mopami próbuje je usunąć. Nie jesteś pewien, co mówią, ale inni Avgi zdają się śmiać i pokazywać palcami, przechodząc obok. Robotnicy szorujący graffiti wydają się jednak niezbyt rozbawieni.`
 				decline
 
 			label language
-			`Colorful, curvy symbols are scrawled all across the walls, floor, and ceiling of <planet>'s spaceport terminal, and you can see a handful of Avgi with brushes and mops attempting to remove them. Much of the paint has run down the walls or overlaps with other symbols, and what you can see is sloppy, but you can make out words like 'taxes' and 'defenestrate' and the phrase 'Twilight Guard? More like Twilight Gourd.'`
+			`Kolorowe, zakrzywione symbole są nabazgrane na ścianach, podłodze i suficie terminala kosmoportu <planet>. Widać garstkę Avgi z pędzlami i mopami, którzy próbują je usunąć. Większość farby spłynęła po ścianach lub nachodzi na inne symbole, a to, co widać, jest niedbale rozmazane, ale można dostrzec słowa takie jak "podatki" i "defenestrate" oraz frazę "Straż Zmierzchu? Raczej Tykwa Zmierzchu".`
 				decline
 
 
@@ -137,7 +137,7 @@ mission "Avgi Culture: We Live In A Society"
 		random < 3
 	on offer
 		conversation
-			`An Avgi passes you, head buried in something that looks remarkably like a newspaper. You hear him mutter as he strolls by, "Unbelievable. We truly live in a society, consideration."`
+			`Mija cię Avgi z głową wbitą w coś, co do złudzenia przypomina gazetę. Słyszysz, jak mamrocze, przechodząc obok: "Niewiarygodne. Naprawdę żyjemy w społeczeństwie, z szacunkiem."`
 				decline
 
 
@@ -151,7 +151,7 @@ mission "Avgi Culture: Realism"
 		random < 3
 	on offer
 		conversation
-			`An pair of Avgi walk by you, deep in conversation. "Appreciation. I'm just glad we're being realistic here," says one. The other doesn't respond, but you sense a feeling of great despair.`
+			`Przechodzi obok ciebie para Avgi, pogrążona w rozmowie. "Wdzięczność. Cieszę się, że jesteśmy realistami, " mówi jeden. Drugi nie odpowiada, ale wyczuwasz w sobie wielką rozpacz.`
 				decline
 
 
@@ -165,7 +165,7 @@ mission "Avgi Culture: Doomed Korath"
 		random < 3
 	on offer
 		conversation
-			`An Avgi stands by a doorway, speaking into a megaphone. "Proclamation. Take warning, denizens! Without proper balance in your life, you'll be doomed! Doomed, I say! Just like those Korath I've heard about. The end times are near!"`
+			`Avgi stoi w drzwiach i mówi przez megafon. "Proklamacja. Uważajcie, mieszkańcy! Bez odpowiedniej równowagi w życiu będziecie zgubieni! Zgubieni, powiadam! Tak jak ci Korath, o których słyszałem. Koniec czasów jest bliski!"`
 				decline
 
 
@@ -179,8 +179,8 @@ mission "Avgi Culture: General Ripper"
 		random < 3
 	on offer
 		conversation
-			`An Avgi stands at a crossroads, waving a sign and a laser rifle. "Declaration. The Aberrant are polluting our precious bodily fluids, citizens! Take action now! We must not allow a fluid gap!"`
-			`	Security personnel soon arrive and begin trying to talk the Avgi down, eyeing the laser rifle nervously.`
+			`Avgi stoi na rozdrożu, machając znakiem i karabinem laserowym. "Declaration. Aberranty zanieczyszczają nasze cenne płyny ustrojowe, obywatele! Działajcie natychmiast! Nie możemy dopuścić do wycieku płynów! "`
+			`	Wkrótce przybywają funkcjonariusze służb bezpieczeństwa i zaczynają próbować przekonać Avgiego, by zeszedł niżej, nerwowo zerkając na karabin laserowy.`
 				decline
 
 
@@ -194,8 +194,8 @@ mission "Avgi Culture: Criminal Mischief"
 		random < 3
 	on offer
 		conversation
-			`A bright green Avgi wearing a black scarf darts above you towards one of the spaceport terminal gates, a comically oversized burlap sack dangling behind her. A trio of Avgi dressed in bright yellow force their way through a confused crowd in mid-air, waving batons. "Attention! Stop, thief!"`
-			`	"Taunt! You'll never catch me alive!" the thief shouts, before promptly running into a wall. You shake your head as she's led away in restraints.`
+			`Jasnozielona Avgi w czarnym szaliku śmiga nad tobą w kierunku jednej z bram terminalu kosmoportu, a za nią dynda komicznie wielki worek jutowy. Trójka Avgi w jaskrawożółtych strojach przedziera się w powietrzu przez zdezorientowany tłum, wymachując pałkami. "Uwaga! Stój, złodzieju! "`
+			`	"Drwina! Nigdy mnie żywego nie złapiesz! " krzyczy złodziej, po czym natychmiast wpada na ścianę. Kręcisz głową, gdy wyprowadzają ją w kajdanach.`
 				decline
 
 
@@ -209,8 +209,8 @@ mission "Avgi Culture: False Alarm"
 		random < 3
 	on offer
 		conversation
-			`The spaceport is lit up by flashing yellow lights as a robotic voice proclaims its message. "Command. Radiation danger, seek prompt shelter. Command. Radiation danger, seek prompt shelter."`
-			`	The crowd has only barely had time to panic before the voice is cut off with a squeal of static. "Abashment. Apologies, false alert. Mindaro dropped his drink on the console, there is no radiation danger."`
+			`Kosmogram rozświetlają migające żółte światła, a mechaniczny głos ogłasza wiadomość. "Dowództwo. Zagrożenie radiacyjne, szukajcie natychmiast schronienia. Dowództwo. Zagrożenie radiacyjne, szukajcie natychmiast schronienia. "`
+			`	Tłum ledwo zdążył spanikować, gdy głos urwał się piskiem zakłóceń. "Abashment. Przepraszam, fałszywy alarm. Mindaro upuścił napój na konsolę, nie ma zagrożenia promieniowaniem. "`
 				decline
 
 
@@ -224,48 +224,48 @@ mission "Avgi Culture: Fencing"
 		random < 15
 	on offer
 		conversation
-			`While walking through the spaceport on <planet>, you spot a pair of Avgi moving toward a large building. They are holding what look like long, thin rapiers.`
+			`Podczas spaceru po porcie kosmicznym na <planet> dostrzegasz parę Avgi zmierzających w kierunku dużego budynku. Trzymają coś, co wygląda jak długie, cienkie rapiery.`
 			choice
-				`	(Approach them.)`
-				`	(Ignore them.)`
+				`	(Podejdź do nich.)`
+				`	(Zignoruj je.)`
 					goto ignore
-			`	As you walk over to the two vibrantly colored Avgi, they glance in your direction. One of them, colored a muted teal, speaks up. "Invitation. Human, are you perhaps interested in witnessing the ancient Avgi sport of fencing, question?"`
+			`	Kiedy podchodzisz do dwóch Avgich w jaskrawych kolorach, spoglądają w twoją stronę. Jeden z nich, w stonowanym turkusowym kolorze, odzywa się. "Invitation. Człowieku, czy jesteś może zainteresowany obejrzeniem starożytnej sztuki szermierki Avgi, pytanie?"`
 			choice
-				`	"Fencing? Like the human sport?"`
-				`	"Sure, I'm willing to watch."`
+				`	"Szermierka? Jak sport ludzki?"`
+				`	"Jasne, chętnie obejrzę."`
 					goto accept
-				`	"I'm good, thanks."`
+				`	"Wszystko w porządku, dziękuję."`
 					goto ignore
-			`	The other, colored a bright blue and purple sheen, chimes in. "Assurance. While we as a species are unlikely to have preceded you in a sport such as this, I still implore you to attend."`
-			`	The first Avgi continues, "Addendum. Considering our... differences in agility, this will surely be a spectacle to you. Compared to the human sport, that is."`
+			`	Drugi, w jaskrawym niebiesko-fioletowym kolorze, włącza się do dyskusji. "Assurance. Chociaż my, jako gatunek, raczej nie wyprzedziliśmy cię w takim sporcie, nadal błagam cię, abyś wziął w nim udział."`
+			`	Pierwszy Avgi ciąg dalszy, "Addendum. Biorąc pod uwagę nasze... różnice w zwinności, to z pewnością będzie dla ciebie widowisko. W porównaniu do sportu uprawianego przez ludzi, to znaczy. "`
 			choice
-				`	"Sure, sounds like fun!"`
-				`	"I'll pass, thanks."`
+				`	"Jasne, brzmi jak świetna zabawa!"`
+				`	"Podziękuję, podziękuję."`
 					goto ignore
 			label accept
 			branch language
 				has "language: Avgi (Written)"
-			`	A short walk later, you find yourself in a large open-air room, similar to a gymnasium but much taller. Rows of rails that look like they came from a skate park make up bleachers the whole way around the cylindrical area, packed to the brim with perched Avgi. Many are holding up signs with colorful lettering that appear to be in favor of one participant or the other.`
+			`	Krótki spacer później znajdujesz się w dużej, otwartej sali, podobnej do sali gimnastycznej, ale znacznie wyższej. Rzędy poręczy, które wyglądają jak z skateparku, tworzą trybuny wokół całego cylindrycznego obszaru, wypełnione po brzegi siedzącymi Avgi. Wielu trzyma transparenty z kolorowymi napisami, które zdają się faworyzować jednego lub drugiego uczestnika.`
 				goto start
 			label language
-			`	A short walk later, you find yourself in a large open-air room, similar to a gymnasium but much taller. Rows of rails that look like they came from a skate park make up bleachers the whole way around the cylindrical area, packed to the brim with perched Avgi. Many are holding up signs with colorful lettering that appear to be in favor of one participant or the other. One sign in particular states "ZOMP TO STOMP THEM LIKE THE ASSEMBLY!"`
+			`	Krótki spacer później znajdujesz się w dużej, otwartej sali, podobnej do sali gimnastycznej, ale znacznie wyższej. Rzędy poręczy, które wyglądają jak te z skateparku, tworzą trybuny wokół całego cylindrycznego obszaru, wypełnione po brzegi siedzącymi Avgi. Wiele z nich trzyma transparenty z kolorowymi napisami, które zdają się faworyzować jednego lub drugiego uczestnika. Jeden z transparentów w szczególności głosi "ZOMP TO STOMP THEM LIKE THE ASSEMBLY!"`
 			label start
 			action
 				set "avgi: watched zomp win at fencing"
 				log "Minor People" "Zomp" `Zomp to stonowany turkusowy Avgi, który pokonał panującego mistrza Razmatazza w walce szermierczej.`
 				log `Oglądałem mecz szermierczy między dwoma Avgi na pokładzie stacji Dissonance, z niezwykle hałaśliwą i podekscytowaną publicznością. Byłem świadkiem niespodzianki, gdy Avgi o imieniu Zomp pokonał panującego mistrza.`
-			`	Soon after, the familiar muted teal and glistening purple Avgi walk out of a small door on the bottom level. The spectators in the arena erupt with a flurry of wing flapping in what seems to be a loud cheer; your translator picks up "Excitement" and "Anticipation", among other moods, dozens of times. The fencers' wings appear to be kitted out with thin copper wires, and they're carrying the same rapiers you saw them with before. They hop up onto small pedestals located on each edge of the arena.`
-			`	A voice booms over the many speakers present in the room. "Proclamation. Here we have our reigning champion, Razmatazz, and the upstart challenger Zomp! Are you ready to witness this enthralling battle between these two paragons of the blade, question?"`
-			`	The arena once more hums to life with the flutter of wings. "Anticipation. Then let the duel... begin."`
-			`	At the announcer's word, the duelists leap into the air with incredible speed, circling around each other and clashing blades. The two spiral upwards into the far upper areas of the arena, and quickly drop back down, darting in and out of each others' reach multiple times per second. Less than a minute later, you hear a loud ding, and one of the duelists falls to the floor with their wing collapsed. The crowd, who hadn't stopped buzzing the entire duel, erupts with even louder wing fluttering.`
-			`	"Astonishment. Zomp wins round one," the announcer states. "Repose. Shall we begin round two?"`
-			`	Once more the contestants line up and spring into the air in a duel of eye-watering speed and agility. And once more, Zomp wins to the thunderous applause of the crowd.`
-			`	"Bewilderment. It seems as though Zomp has defeated our reigning champion!" the announcer proclaims.`
-			`	"Hysteria. I knew he would win! I'm up 10 to 1 on this bet!" a nearby Avgi says with exuberance as they buzz around you wildly, holding various pink papers in their many arms.`
-			`	Across the arena you hear a shout from a pink Avgi, "Adoration! I love you, Zomp!"`
-			`	The entire arena appears to be in a chaos of cheers, boos and rumbling wing flapping for minutes after the match has ended. You can't remember a single instance of fencing back in human space having this much passion and energy within the crowd.`
-			`	After the hubbub and celebration die down, you find no issue leaving the crowded arena - most Avgi simply fly over your head.`
+			`	Wkrótce potem znajomy Avgi w kolorze przygaszonego turkusu i lśniącej purpury wychodzi z małych drzwi na parterze. Widzowie na arenie wybuchają burzą machania skrzydłami, co wydaje się głośnym wiwatem; Twój tłumacz dziesiątki razy wychwytuje "Excitement" i "Anticipation", a także inne nastroje. Skrzydła szermierzy zdają się być wyposażone w cienkie miedziane druty, a oni sami dzierżą te same rapiery, z którymi widzieliście ich wcześniej. Wskakują na małe postumenty umieszczone na obu krawędziach areny.`
+			`	Głos rozbrzmiewa z głośników obecnych w sali. "Proclamation. Oto nasz obrońca tytułu, Razmatazz, i ambitny pretendent Zomp! Jesteście gotowi zobaczyć tę pasjonującą walkę między tymi dwoma mistrzami ostrza? Pytanie?"`
+			`	Arena znów ożywa trzepotem skrzydeł. "Anticipation. Niech więc pojedynek... się rozpocznie."`
+			`	Na słowo komentatora pojedynkowicze wyskakują w powietrze z niewiarygodną prędkością, krążąc wokół siebie i zderzając się ostrzami. Obaj wirują w górę, w górne partie areny, a następnie szybko opadają, wpadając i wymykając się z zasięgu wzroku kilka razy na sekundę. Niecałą minutę później słychać głośny dźwięk, a jeden z pojedynkowiczów pada na podłogę z rozłożonym skrzydłem. Tłum, który nie przestawał wiwatować przez cały pojedynek, wybucha jeszcze głośniejszym trzepotem skrzydeł.`
+			`	"Astonishment. Zomp wygrywa rundę pierwszą, " oznajmia komentator. "Repose. Zaczynamy rundę drugą?"`
+			`	Zawodnicy ponownie ustawiają się w szeregu i skaczą w powietrze w pojedynku o oszałamiającej szybkości i zwinności. I po raz kolejny Zomp wygrywa, przy gromkich brawach publiczności.`
+			`	"Bewilderment. Wygląda na to, że Zomp pokonał naszego obrońcę tytułu! " ogłasza komentator.`
+			`	"Hysteria. Wiedziałam, że wygra! Stawiam 10 do 1 w tym zakładzie! " mówi z entuzjazmem siedzący nieopodal Avgi, gdy szaleńczo wokół ciebie brzęczą, trzymając w ramionach rozmaite różowe papierki.`
+			`	Po drugiej stronie areny słychać krzyk różowej Avgi: "Adoration! Kocham cię, Zomp!"`
+			`	Cała arena wydaje się pogrążona w chaosie wiwatów, buczenia i dudniącego trzepotania skrzydłami przez minuty po zakończeniu meczu. Nie przypominasz sobie ani jednego przypadku, kiedy szermierka w przestrzeni publicznej wywołała tak wielkie emocje i energię wśród publiczności.`
+			`	Po tym, jak zgiełk i świętowanie ucichną, nie będziesz miał żadnego problemu z opuszczeniem zatłoczonej areny - większość Avgi po prostu przeleci ci nad głową.`
 				decline
 			label ignore
-			`	You let the two fly away, continuing on your own business.`
+			`	Pozwoliłeś im odlecieć, kontynuując swoje sprawy.`
 				decline

@@ -15,19 +15,19 @@
 
 ship "Aaulqra" "Aaulqra (Brawler)"
 	outfits
-		`"Ojet" Bimodal Coilgun` 2
+		`"Ojet" Bimodalny pistolet cewkowy` 2
 		"Drag Cannon" 3
 		"Bimodal Coilgun Turret" 2
 
 		`"Uoret" Fusion Core`
-		`3-"Kaska" Betavoltaic Cell`
-		`"Jorv" Shield Cortex`
+		`3-"Kaska" Ogniwo betawoltaiczne`
+		`"Jorv" Kora tarczy`
 		"Multimodal Armor: Regen"
 		"Successor Cooling"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun
 	gun "Drag Cannon"
@@ -41,19 +41,19 @@ ship "Aaulqra" "Aaulqra (Brawler)"
 
 ship "Aaulqra" "Aaulqra (Sniper)"
 	outfits
-		`"Ojet" Bimodal Coilgun` 4
+		`"Ojet" Bimodalny pistolet cewkowy` 4
 		`"Sjeja" Kinetic Lance`
 		"High-Velocity Spike" 20
 
 		`"Uoret" Fusion Core`
-		`3-"Kaska" Betavoltaic Cell`
+		`3-"Kaska" Ogniwo betawoltaiczne`
 		`"Jaase" Shield Cortex`
 		"Multimodal Armor: Light"
 		"Successor Cooling"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Veusa" Inductive Reverser`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
+		`"Veusa" Rewerser indukcyjny`
 		"Hyperdrive"
 	gun
 	gun `"Sjeja" Kinetic Lance`
@@ -71,14 +71,14 @@ ship "Kaskhorade" "Kaskhorade (Brawler)"
 		"Bimodal Coilgun Turret" 4
 
 		`"Uoret" Fusion Core`
-		`OC-"Mavra" Betavoltaic Cell`
-		`"Jorv" Shield Cortex`
+		`OC-"Mavra" Ogniwo betawoltaiczne`
+		`"Jorv" Kora tarczy`
 		"Multimodal Armor: Regen"
 		"Successor Cooling"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Chyyra" Inductive Reverser`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
+		`"Chyyra" Rewerser indukcyjny`
 		"Hyperdrive"
 	gun
 	gun
@@ -101,9 +101,9 @@ ship "Kaskhorade" "Kaskhorade (Sniper)"
 		"Multimodal Armor: Light"
 		"Successor Cooling"
 
-		`"Veusa" Inductive Thruster`
-		`"Veusa" Inductive Steering`
-		`"Veusa" Inductive Reverser`
+		`"Veusa" Indukcyjny pędnik`
+		`"Veusa" Sterowanie indukcyjne`
+		`"Veusa" Rewerser indukcyjny`
 		"Hyperdrive"
 	gun `"Sjeja" Kinetic Lance`
 	gun `"Sjeja" Kinetic Lance`
@@ -120,13 +120,13 @@ ship "Kvelqde" "Kvelqde (Mining)"
 	outfits
 		"Pulse Laser Turret"
 
-		`1-"Uurau" Betavoltaic Cell`
-		`OC-"Mavra" Betavoltaic Cell`
-		`3-"Kaska" Betavoltaic Cell`
+		`1-"Uurau" Ogniwo betawoltaiczne`
+		`OC-"Mavra" Ogniwo betawoltaiczne`
+		`3-"Kaska" Ogniwo betawoltaiczne`
 		`"Byiaa" Shield Cortex`
-		`"Tuur" Scanning Suite`
+		`"Tuur" Pakiet skanujący`
 
-		`"Niis" Inductive Engines`
+		`"Niis" Silniki indukcyjne`
 		"Hyperdrive"
 	gun
 	turret "Pulse Laser Turret"
@@ -137,12 +137,12 @@ ship "Kvelqde" "Kvelqde (Violent)"
 		"Overcharged Pulse Laser"
 		"Overcharged Laser Turret"
 
-		`1-"Uurau" Betavoltaic Cell` 2
+		`1-"Uurau" Ogniwo betawoltaiczne` 2
 		`"Ej" Shield Cortex`
 
-		`"Aqra" Inductive Thruster`
-		`"Aqra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Odczyt" Indukcyjny pędnik`
+		`"Odczyt" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun "Overcharged Pulse Laser"
 	turret "Overcharged Laser Turret"
@@ -153,15 +153,15 @@ ship "Kvelqde-Khora" "Kvelqde-Khora (Mining)"
 	outfits
 		"Successor Pulse Laser" 2
 
-		`3-"Kaska" Betavoltaic Cell`
+		`3-"Kaska" Ogniwo betawoltaiczne`
 		"Auxiliary Power Reserve"
 		`"Byiaa" Shield Cortex`
-		`"Tuur" Scanning Suite`
+		`"Tuur" Pakiet skanujący`
 		"Cargo Expansion" 2
 
-		`"Aqra" Inductive Thruster`
-		`"Aqra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Odczyt" Indukcyjny pędnik`
+		`"Odczyt" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun "Successor Pulse Laser"
 	gun "Successor Pulse Laser"
@@ -173,15 +173,15 @@ ship "Myaede" "Myaede (Mining)"
 	outfits
 		"Pulse Laser Turret" 2
 
-		`3-"Kaska" Betavoltaic Cell`
-		`1-"Uurau" Betavoltaic Cell` 2
+		`3-"Kaska" Ogniwo betawoltaiczne`
+		`1-"Uurau" Ogniwo betawoltaiczne` 2
 		`"Ej" Shield Cortex`
-		`"Tuur" Scanning Suite`
+		`"Tuur" Pakiet skanujący`
 		"Cargo Expansion"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun
 	gun
@@ -194,12 +194,12 @@ ship "Myaede" "Myaede (Mining, Defensive)"
 		"Successor Pulse Laser" 2
 		"Pulse Laser Turret" 2
 
-		`6-"Ruuv" Betavoltaic Cell`
+		`6-"Ruuv" Ogniwo betawoltaiczne`
 		`"Ej" Shield Cortex`
-		`"Tuur" Scanning Suite`
+		`"Tuur" Pakiet skanujący`
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
 		"Hyperdrive"
 	gun "Successor Pulse Laser"
 	gun "Successor Pulse Laser"
@@ -212,13 +212,13 @@ ship "Myaede" "Myaede (Violent)"
 		"Overcharged Pulse Laser" 2
 		"Overcharged Laser Turret" 2
 
-		`6-"Ruuv" Betavoltaic Cell`
+		`6-"Ruuv" Ogniwo betawoltaiczne`
 		"Auxiliary Power Reserve"
 		`"Ej" Shield Cortex`
 		"Successor Cooling"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
 		"Hyperdrive"
 	gun "Overcharged Pulse Laser"
 	gun "Overcharged Pulse Laser"
@@ -231,14 +231,14 @@ ship "Nnaatej" "Nnaatej (Defensive)"
 	outfits
 		"Pulse Laser Turret"
 
-		`3-"Kaska" Betavoltaic Cell`
-		`1-"Uurau" Betavoltaic Cell`
-		`OC-"Mavra" Betavoltaic Cell`
+		`3-"Kaska" Ogniwo betawoltaiczne`
+		`1-"Uurau" Ogniwo betawoltaiczne`
+		`OC-"Mavra" Ogniwo betawoltaiczne`
 		`"Ej" Shield Cortex`
 		"Successor Cooling"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
 		"Hyperdrive"
 	turret "Pulse Laser Turret"
 
@@ -248,15 +248,15 @@ ship "Ojde" "Ojde (Mining)"
 	outfits
 		"Pulse Laser Turret" 2
 
-		`6-"Ruuv" Betavoltaic Cell`
+		`6-"Ruuv" Ogniwo betawoltaiczne`
 		"Primary Power Reserve"
 		`"Ej" Shield Cortex`
 		"Successor Cooling"
-		`"Tuur" Scanning Suite` 2
+		`"Tuur" Pakiet skanujący` 2
 		
-		`"Chyyra" Inductive Thruster`
-		`"Veusa" Inductive Steering`
-		`"Chyyra" Inductive Reverser`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Veusa" Sterowanie indukcyjne`
+		`"Chyyra" Rewerser indukcyjny`
 		"Hyperdrive"
 	gun
 	gun
@@ -268,16 +268,16 @@ ship "Ojde" "Ojde (Mining)"
 
 ship "Stolsaqra" "Stolsaqra (Military)"
 	outfits
-		`"Ojet" Bimodal Coilgun` 3
+		`"Ojet" Bimodalny pistolet cewkowy` 3
 
-		`3-"Kaska" Betavoltaic Cell`
+		`3-"Kaska" Ogniwo betawoltaiczne`
 		`"Byiaa" Shield Cortex`
 		"Multimodal Armor: Light"
-		`"Veldt" Combat Scanner`
+		`"Veldt" Skaner bojowy`
 
-		`"Aqra" Inductive Thruster`
-		`"Aqra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Odczyt" Indukcyjny pędnik`
+		`"Odczyt" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun `"Ojet" Bimodal Coilgun`
 	gun `"Ojet" Bimodal Coilgun`
@@ -288,14 +288,14 @@ ship "Stolsaqra" "Stolsaqra (Mission Escort)"
 	outfits
 		"Drag Cannon" 3
 
-		`3-"Kaska" Betavoltaic Cell`
+		`3-"Kaska" Ogniwo betawoltaiczne`
 		`"Byiaa" Shield Cortex`
 		"Fuel Pod" 3
 		"Multimodal Armor: Light"
 
-		`"Aqra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Odczyt" Indukcyjny pędnik`
+		`"Chyyra" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun "Drag Cannon"
 	gun "Drag Cannon"
@@ -306,14 +306,14 @@ ship "Stolsaqra" "Stolsaqra (Short-Range)"
 	outfits
 		"Drag Cannon" 3
 
-		`OC-"Mavra" Betavoltaic Cell` 2
+		`OC-"Mavra" Ogniwo betawoltaiczne` 2
 		`"Byiaa" Shield Cortex`
 		"Multimodal Armor: Light"
-		`"Veldt" Combat Scanner`
+		`"Veldt" Skaner bojowy`
 
-		`"Aqra" Inductive Thruster` 2
-		`"Aqra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Odczyt" Indukcyjny pędnik` 2
+		`"Odczyt" Sterowanie indukcyjne`
+		`"Odczyt" Odwracacz indukcyjny`
 		"Hyperdrive"
 	gun "Drag Cannon"
 	gun "Drag Cannon"
@@ -330,10 +330,10 @@ ship "Veusade" "Veusade (Surveillance)"
 		`"Jaase" Shield Cortex`
 		"Successor Cooling"
 		"Multimodal Armor: Light"
-		`"Veldt" Combat Scanner`
+		`"Veldt" Skaner bojowy`
 
-		`"Veusa" Inductive Thruster`
-		`"Veusa" Inductive Steering`
+		`"Veusa" Indukcyjny pędnik`
+		`"Veusa" Sterowanie indukcyjne`
 		"Hyperdrive"
 	gun "Drag Cannon"
 	gun "Drag Cannon"
@@ -348,7 +348,7 @@ ship "Veusade" "Veusade (Surveillance)"
 
 ship "Vujlet" "Vujlet (Aggressive)"
 	outfits
-		`"Ojet" Bimodal Coilgun` 4
+		`"Ojet" Bimodalny pistolet cewkowy` 4
 
 		`"Nnesa" Fusion Core`
 		"Auxiliary Power Reserve" 3
@@ -356,8 +356,8 @@ ship "Vujlet" "Vujlet (Aggressive)"
 		"Successor Cooling"
 		"Multimodal Armor: Heavy"
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
 		"Hyperdrive"
 	gun `"Ojet" Bimodal Coilgun`
 	gun `"Ojet" Bimodal Coilgun`
@@ -367,18 +367,18 @@ ship "Vujlet" "Vujlet (Aggressive)"
 
 ship "Vujlet" "Vujlet (Surveillance)"
 	outfits
-		`"Ojet" Bimodal Coilgun` 2
+		`"Ojet" Bimodalny pistolet cewkowy` 2
 
 		`"Nnesa" Fusion Core`
 		"Primary Power Reserve"
 		`"Jaase" Shield Cortex`
 		"Successor Cooling"
 		"Multimodal Armor: Light"
-		`"Veldt" Combat Scanner`
+		`"Veldt" Skaner bojowy`
 
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Chyyra" Inductive Reverser`
+		`"Chyyra" Indukcyjny ster strumieniowy`
+		`"Chyyra" Sterowanie indukcyjne`
+		`"Chyyra" Rewerser indukcyjny`
 		"Hyperdrive"
 	gun `"Ojet" Bimodal Coilgun`
 	gun `"Ojet" Bimodal Coilgun`

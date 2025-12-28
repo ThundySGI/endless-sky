@@ -36,38 +36,38 @@ mission "First Contact: Rulei"
 	on enter "Kanguwa"
 		fail
 		log "Factions" "Rulei" `Rulei byli prawdopodobnie starożytną, technologicznie zaawansowaną cywilizacją z dawnych czasów, ale jedyne, co po nich pozostało, to jeden dziwny statek i dwie zniszczone planety.`
-			`Komunikują się za pomocą jakiejś inwazyjnej zdolności psionicznej, mówiąc tysiącem głosów naraz. Długotrwały kontakt wydaje się niezdrowy.`
+			`	(Wróć do <model>, aby wyjść.)`
 		conversation
-			`Moments after entering the system, you are overwhelmed by an intense sense of emptiness. As you attempt to comprehend this feeling, you begin hearing whispers from behind.`
+			`Chwilę po wejściu do systemu ogarnia cię intensywne poczucie pustki. Próbując to uczucie zrozumieć, zaczynasz słyszeć szepty z tyłu.`
 			choice
-				`	(Turn around slowly.)`
-				`	(Pull out my sidearm and turn quickly.)`
-			`	You turn around, but nothing is there besides the familiar internals of your ship. The whispers remain behind your head, like an itch that can't be reached. The whispers are in a completely foreign language that you can't even begin to understand. As you keep looking around, you begin hearing more and more murmuring. There feels to be hundreds of distinct voices tugging your mind in every direction at once now, overloading your senses. Just as you think you can't take anymore, everything falls completely silent.`
+				`	(Odwróć się powoli.)`
+				`	(Wyciągam broń boczną i szybko się odwracam.)`
+			`	Odwracasz się, ale nie ma tam nic poza znajomym wnętrzem twojego statku. Szepty pozostają za twoją głową, niczym niespokojne swędzenie. Szepty są w zupełnie obcym języku, którego nawet nie zaczynasz rozumieć. Rozglądając się, zaczynasz słyszeć coraz więcej szmerów. Masz wrażenie, że setki odrębnych głosów szarpią twój umysł we wszystkich kierunkach naraz, przeciążając zmysły. Właśnie gdy myślisz, że nie dasz rady dłużej, wszystko zapada w całkowitą ciszę.`
 			choice
-				`	"Hello?"`
-				`	"Is there someone there?"`
-				`	"Show yourself!"`
+				`	"Witaj?"`
+				`	"Czy jest tam ktoś?"`
+				`	"Pokaż się!"`
 			scene "scene/rulei"
-			`	"Human."`
-			`	An image suddenly flashes in your head as you feel millions of eyes staring at you from beyond the boundaries of space. Looking around again, you see a strange-looking spacecraft a bit off into the distance in front of you facing your direction. The voices continue to surround your mind with only slightly reduced intensity.`
+			`	"Człowiek."`
+			`	Nagle w twojej głowie pojawia się obraz, gdy czujesz, jak miliony oczu wpatrują się w ciebie spoza granic kosmosu. Rozglądając się ponownie, dostrzegasz dziwnie wyglądający statek kosmiczny nieco w oddali przed sobą, zwrócony w twoją stronę. Głosy nadal otaczają twój umysł, ale z nieznacznie zmniejszoną intensywnością.`
 			choice
-				`	"Who are you?"`
-				`	"Where am I?"`
+				`	"Kim jesteś?"`
+				`	"Gdzie jestem?"`
 					goto where
-			`	Numerous voices start up, but rather than becoming louder, they go back and forth in your head, as though they are having a discussion. After a few seconds, they fall silent, then speak a single word in a cacophonous unison.`
-			`	"Precursors."`
+			`	Rozbrzmiewają liczne głosy, ale zamiast stawać się głośniejsze, krążą w głowie, jakby prowadziły dyskusję. Po kilku sekundach milkną, a następnie wypowiadają jedno słowo kakofonicznym unisono.`
+			`	"Prekursorzy."`
 			choice
-				`	"What is this place?"`
-				`	"Precursors of what?"`
+				`	"Co to za miejsce?"`
+				`	"Prekursorzy czego?"`
 			label where
-			`	The whispers start to pick up with renewed strength. The swirl of endless vocals assaults your head, each moment more agonizing than the last. Finally, they cease, and you are left in silence.`
-			`	"An End."`
+			`	Szepty nabierają nowej siły. Niekończący się wir wokali atakuje twoją głowę, każda chwila jest bardziej bolesna niż poprzednia. W końcu cichną i zostajesz w ciszy.`
+			`	"Koniec."`
 			choice
-				`	"An end to what?"`
-				`	"What do you mean by that?"`
-			`	The voices resume, but you sense a newfound dreariness in their tone. You try once again to communicate with the ship, but despite constant whispering in the background, it no longer answers.`
-			`	Taking another look at the vessel, it seems to have some sort of advanced origin. Eerie star-like patterns flow on its surface, and it doesn't visibly have any standard means of propulsion. At the rear end is some type of floating ring of objects that rotate in a peculiar manner.`
-			`	The planets in this system seem to have an abnormal appearance similar to that of the starship, but for some reason even looking at them gives you a headache. Something unusual must have happened here a long time ago.`
+				`	"Koniec czego?"`
+				`	"Co masz na myśli?"`
+			`	Głosy powracają, ale wyczuwasz w nich nowo odkrytą ponurość. Próbujesz ponownie nawiązać kontakt ze statkiem, ale pomimo nieustannego szeptu w tle, statek już nie odpowiada.`
+			`	Przyglądając się ponownie statkowi, wydaje się, że ma on jakieś zaawansowane pochodzenie. Na jego powierzchni pojawiają się niesamowite, gwiaździste wzory i nie widać, aby posiadał on jakikolwiek standardowy napęd. Na rufie znajduje się rodzaj unoszącego się pierścienia z obiektów, które obracają się w osobliwy sposób.`
+			`	Planety w tym układzie wydają się mieć nietypowy wygląd, podobny do statku kosmicznego, ale z jakiegoś powodu samo patrzenie na nie przyprawia o ból głowy. Coś niezwykłego musiało się tu wydarzyć dawno temu.`
 				decline
 
 mission "Rulei Planet"
@@ -77,17 +77,17 @@ mission "Rulei Planet"
 		attributes "rulei"
 	on offer
 		conversation
-			`It feels as though there is a tremendous weight on your mind while you visit this world. The same sort of purple starlit hues of the alien ship from above can also be found in various strange formations across the land. Unlike the whispers from before, the voices here are painfully unbearable, especially the closer you get to the surface.`
-			`	You can barely hear yourself think.`
-			`											It's enough to drive any living thing mad.`
-			`	The most ominous sensation here is a persistent feeling of your consciousness being pulled at from beneath you.`
-			`	Like something is attempting to drag`
-			`																					your`
-			`																							mind into the planet below.`
+			`Odwiedzając ten świat, czujesz ogromny ciężar na umyśle. Te same fioletowe, rozgwieżdżone barwy statku kosmicznego widoczne z góry można znaleźć również w różnych dziwnych formacjach na całej powierzchni. W przeciwieństwie do wcześniejszych szeptów, głosy tutaj są boleśnie nie do zniesienia, zwłaszcza im bliżej powierzchni.`
+			`	Ledwo słyszysz swoje myśli.`
+			`												Wystarczy, żeby doprowadzić do szaleństwa każdą żywą istotę.`
+			`	Najbardziej złowieszczym odczuciem jest tutaj uporczywe uczucie, jakby twoja świadomość była wyrywana spod ciebie.`
+			`	Jakby coś próbowało przeciągnąć`
+			`																						twój`
+			`																									umysł na planecie poniżej.`
 			``
 			``
 			``
-			`	It's best you don't remain here for too long.`
+			`	Najlepiej będzie, jeśli nie pozostaniesz tu zbyt długo.`
 				decline
 
 mission "Rulei: You Are (Not) Alone"
@@ -98,12 +98,12 @@ mission "Rulei: You Are (Not) Alone"
 	on enter "L-118"
 		log `Odkryto obszar pustki na wschód od jądra, gdzie systemy są spowite ogromną, upiorną ciemnością. Poza słabymi gwiazdami i kilkoma planetami nic tam nie istnieje.`
 		conversation
-			`Upon arriving into this system, you notice a strange murkiness curtaining the stars beyond, and your scanners are having trouble making sense of it. The few stellar objects present are eerily blotted out by a vast, nebulous shade. Aside from them, it's as if there is nothing here. Even the shade itself is nothing more than the emptiness of space, and throughout it, no one. Nothing.`
+			`Po dotarciu do tego układu dostrzegasz dziwną mgiełkę przesłaniającą gwiazdy, a twoje skanery mają problem z jej zrozumieniem. Kilka obecnych obiektów gwiezdnych jest upiornie przesłoniętych przez rozległy, mglisty cień. Poza nimi, jakby nic tu nie było. Nawet sam cień to nic więcej niż pustka kosmosu, a w nim nikogo. Nic.`
 
 	on enter "L-6181"
 		fail
 		conversation
-			`As you continue through this empty space, you come across nothing but diminished stars and planets of silence. However, upon entering this system, you are met with what appears to be a creature of some kind. Strangely, your scanners don't read it as any sort of lifeform, categorizing it only as a mere "collection" of matter. It blends with space itself, as if it were simply a reflection of the darkness beyond.`
+			`Podążając dalej przez tę pustą przestrzeń, napotykasz jedynie nikłe gwiazdy i planety ciszy. Jednak po wejściu do tego układu napotykasz coś, co wydaje się być jakimś stworzeniem. O dziwo, twoje skanery nie odczytują tego jako żadnej formy życia, klasyfikując to jedynie jako "zbiór" materii. Zlewa się z samą przestrzenią, jakby była jedynie odbiciem ciemności poza nią.`
 
 	npc
 		government "Indigenous Lifeform (Acheron)"
@@ -123,11 +123,11 @@ mission "Rulei: Umbral Reach"
 		event "umbral reach label"
 		log "Factions" "Rulei" `Rulei zdają się uznawać pustkę systemów na wschód od jądra za "Umbral Reach" i najwyraźniej mają z tym regionem jakąś emocjonalną więź. Poza stwierdzeniem "beware", że ten obszar jest niebezpieczny, nie będą go już komentować.`
 		conversation
-			`Out of nowhere, the mysterious whispers of the Rulei seep into your mind once more. They murmur slowly at first, but grow faster and louder from the direction of the ancient vessel, eventually coalescing into one spoken phrase.`
-			`	"Beware..."`
-			`	"...Umbral Reach..."`
-			`	You feel tremendous weight behind the expression, as if it shook your mind itself. It's as though every emotion has flooded into your head at once - sadness, anger, joy, disgust, even some you can't seem to understand. Before you can respond to them, the voices quickly dissipate, and you're left alone in an uncomfortable silence.`
-			`	The only thing you can think of is the nearby void of desolate systems. Considering your previous experience with the Rulei, they could have somehow psionically connected to the memories of your visit. However, much like those systems, they continue with their unabated silence.`
+			`Znikąd tajemnicze szepty Rulei ponownie wnikają w twój umysł. Początkowo szepczą powoli, ale od strony starożytnego statku nabierają tempa i stają się głośniejsze, aż w końcu łączą się w jedną wypowiedzianą frazę.`
+			`	"Uwaga..."`
+			`	"...Zasięg Umbral..."`
+			`	Czujesz ogromny ciężar w tym wyrażeniu, jakby wstrząsnęło ono całym twoim umysłem. Jakby wszystkie emocje naraz zalały ci głowę - smutek, złość, radość, obrzydzenie, a nawet takie, których najwyraźniej nie rozumiesz. Zanim zdążysz na nie odpowiedzieć, głosy szybko cichną, a ty zostajesz sam w niezręcznej ciszy.`
+			`	Jedyne, co przychodzi ci na myśl, to pobliska pustka opustoszałych systemów. Biorąc pod uwagę twoje wcześniejsze doświadczenia z Rulei, mogli w jakiś sposób nawiązać psioniczną łączność ze wspomnieniami z twojej wizyty. Jednak, podobnie jak te systemy, nadal panuje w nich niesłabnąca cisza.`
 				decline
 
 event "umbral reach label"

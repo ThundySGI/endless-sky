@@ -33,33 +33,33 @@ mission "Remnant: Visit to Paradise 1"
 				has "Remnant: Visit to Paradise 1: defer"
 	on offer
 		conversation
-			`	You are just settling down at a table in the cafeteria when Taely slides onto the bench opposite you. "Greetings, <first>. How is life as an adventurer?"`
+			`	Właśnie siadasz przy stoliku w stołówce, gdy Taely wślizguje się na ławkę naprzeciwko ciebie. "Witaj, <first>. Jak tam życie poszukiwacza przygód?"`
 			choice
-				`	"Exciting as always."`
-				`	"I am taking a break right now."`
-			`	She nods sympathetically. "Things have been a bit hectic lately, what with dimensional pockets and mysterious new aliens. I can understand wanting to slow down a bit. With the launch of two new ships in such a short time, I know I feel like I need to just relax a bit." She sighs. "It makes me feel guilty, honestly. I have accomplished so much, and there are so many things to be grateful for, but I even have more projects in development to focus on." She looks lost in thought for a moment.`
-			`	Taely looks up at you. "Could I ask you something about life back in ancestral space?"`
+				`	"Jak zawsze ekscytujące."`
+				`	"Robię sobie teraz przerwę."`
+			`	Kiwa głową ze współczuciem. "Ostatnio jest trochę nerwowo, z powodu kieszeni wymiarowych i tajemniczych nowych kosmitów. Rozumiem chęć zwolnienia tempa. Po wystrzeleniu dwóch nowych statków w tak krótkim czasie, wiem, że muszę po prostu trochę odpocząć. " Wzdycha. "Szczerze mówiąc, czuję się winna. Osiągnęłam tak wiele i jest tak wiele rzeczy, za które mogę być wdzięczna, ale mam jeszcze więcej projektów w fazie rozwoju, na których mogę się skupić. " Przez chwilę wygląda na zamyśloną.`
+			`	Taely patrzy na ciebie. "Czy mógłbym cię zapytać o coś na temat życia w przestrzeni przodków?"`
 			choice
-				`	"Sure."`
+				`	"Pewnie."`
 					goto "ask question"
-				`	"Not right now."`
+				`	"Nie teraz."`
 			label "vail later"
-			`	"Oh, maybe some other time, then." She looks disappointed, and settles in to eat.`
+			`	"Och, może innym razem." Wygląda na rozczarowaną i zabiera się do jedzenia.`
 				defer
 			label "ask question"
-			`	"I have been reading through the history archive you brought back, and I came across a mention of Vail." She shakes her head in amusement. "The idea of an entire planet devoted to hoverboarding and leisure activities seems so extravagant... Well, I am curious to visit it. Now, this is not a mission we are asking you to do, so I cannot offer any logistics compensation. I could, however, show you some of our history in exchange. Are you interested?"`
+			`	"Czytałam archiwum historyczne, które przyniosłeś, i natknęłam się na wzmiankę o Vail." Kręci głową z rozbawieniem. "Pomysł, żeby cała planeta była poświęcona hoverboardingowi i rozrywce, wydaje się taki ekstrawagancki... Cóż, jestem ciekawa, jak ją odwiedzić. Nie prosimy cię o to, żebyś to zrobiła, więc nie mogę zaoferować żadnej rekompensaty logistycznej. Mogę ci jednak w zamian pokazać trochę naszej historii. Jesteś zainteresowana?"`
 			choice
-				`	"Yes, that sounds fun."`
+				`	"Tak, to brzmi zabawnie."`
 					goto "vail fun"
-				`	"Sure, I have done a bit of hoverboarding myself."`
-				`	"Maybe later."`
+				`	"Jasne, sam też trochę jeździłem na hoverboardzie."`
+				`	"Może później."`
 					goto "vail later"
 			action
 				set "remnant: hoverboarding"
-			`	"Really? The description sounded useful for exploration, and it looked challenging." Her commlink shifts to display a hologram of a hoverboarder executing a jump with an artistic poof of snow around them. "Anyway, I think this trip should be a good diversion for us both. I will meet you onboard the <ship> shortly."`
+			`	"Naprawdę? Opis brzmiał przydatnie do eksploracji, a wyglądało na to, że to wyzwanie." Jej łącze komunikacyjne zmienia się, wyświetlając hologram hoverboardera wykonującego skok z artystyczną śnieżną chmurą wokół. "W każdym razie, myślę, że ta wycieczka powinna być dobrą rozrywką dla nas obojga. Spotkamy się wkrótce na pokładzie <ship>."`
 				accept
 			label "vail fun"
-			`	"Excellent. I will meet you onboard the <ship> shortly."`
+			`	"Doskonale. Spotkamy się wkrótce na pokładzie <ship>."`
 				accept
 	on defer
 		set "Remnant: Visit to Paradise 1: defer"
@@ -67,88 +67,88 @@ mission "Remnant: Visit to Paradise 1"
 		conversation
 			branch science
 				has "outfit (flagship installed): Research Laboratory"
-			`As you approach, your navigation system picks up the beacons designating the approach path, and before long you are automatically guided to a landing pad on the outskirts of the main spaceport.`
+			`W miarę zbliżania się, system nawigacyjny odbiera sygnały oznaczające ścieżkę podejścia i wkrótce automatycznie kieruje cię na lądowisko na obrzeżach głównego kosmodromu.`
 				goto "vail landing"
 			label science
-			`As you approach Vail, the specialized sensors from your Remnant Research Laboratory detect parts of the weather control network tasked with increasing the amount of snowfall on the planet. Your navigation system picks up the beacons designating the approach path, and before too long you are automatically guided down to a landing pad on the outskirts of the main spaceport.`
+			`Gdy zbliżasz się do Vail, wyspecjalizowane czujniki z twojego Laboratorium Badawczego Pozostałych wykrywają elementy sieci kontroli pogody, których zadaniem jest zwiększenie opadów śniegu na planecie. Twój system nawigacyjny odbiera sygnały wyznaczające trasę podejścia i wkrótce zostajesz automatycznie skierowany na lądowisko na obrzeżach głównego portu kosmicznego.`
 			label "vail landing"
-			`	Looking outside the ship, you can see a multitude of tourist-oriented facilities overwhelming the normal spaceport functions. You can pick out a small sign off to the side that indicates professional commodity and banking facilities, but otherwise the area is dominated by businesses offering mountain touring, sports classes, and vehicle rentals. Next to you, Taely alternates between peering out at the signs and reading brochures on a new commlink. "Here, <first>. This one sounds more interested in providing a challenge and less pampering. What do you think?"`
+			`	Wyglądając na zewnątrz statku, widać mnóstwo atrakcji turystycznych, które przytłaczają normalne funkcjonowanie kosmodromu. Z boku widać mały szyld informujący o usługach handlu detalicznego i bankowości, ale poza tym w okolicy dominują firmy oferujące wycieczki górskie, zajęcia sportowe i wynajem pojazdów. Obok ciebie Taely na zmianę wpatruje się w szyldy i czyta broszury na nowym łączu. "Here, <first>. Ta osoba wydaje się bardziej nastawiona na stawianie wyzwań niż na rozpieszczanie. Co o tym sądzisz?"`
 			choice
-				`	"Looks good to me."`
-				`	"Alright, should be good."`
+				`	"Wygląda dobrze."`
+				`	"W porządku, powinno być dobrze."`
 			branch "have hoverboarded"
 				has "remnant: hoverboarding"
-			`	The resort in question is a more exclusive facility, and is located away from the main train lines. You rent a hovercar from one of the rental companies and make the short trek out to the resort. The rest of the day is spent out on the slopes, where both you and Taely eventually develop sufficient skill to graduate from the easy runs up to the medium difficulty. You both fall repeatedly, but Taely's good humor is contagious as she takes the inevitable facefuls of snow in stride.`
+			`	Ośrodek, o którym mowa, to bardziej ekskluzywny obiekt położony z dala od głównych linii kolejowych. Wynajmujesz poduszkowiec w jednej z wypożyczalni i udajesz się na krótką przejażdżkę do ośrodka. Resztę dnia spędzasz na stoku, gdzie ty i Taely ostatecznie rozwijacie wystarczające umiejętności, aby przejść z łatwych tras do średnio trudnych. Oboje upadacie wielokrotnie, ale dobry humor Taely jest zaraźliwy, gdy z łatwością znosi nieuniknione uderzenia śniegu.`
 				goto "vail head home"
 			label "have hoverboarded"
-			`	The resort in question is a more exclusive facility, and is located away from the main train lines. You rent a hovercar from one of the rental companies and make the short trek out to the resort. The rest of the day is spent out on the slopes, where you teach Taely the basics of hoverboarding. By the end of the day Taely has impressed you with her quick learning and you finish off with a few runs down some of the more challenging slopes. Taely spills a few times, but she takes her failures in good humor, and never seems to make the same mistake twice.`
+			`	Ośrodek, o którym mowa, to bardziej ekskluzywny obiekt położony z dala od głównych linii kolejowych. Wynajmujesz hovercar w jednej z wypożyczalni i udajesz się na krótki wypad do ośrodka. Resztę dnia spędzasz na stoku, gdzie uczysz Taely podstaw jazdy na hoverboardzie. Pod koniec dnia Taely jest pod wrażeniem swojej szybkości uczenia się, a Ty kończysz zjazd kilkoma zjazdami po bardziej wymagających stokach. Taely kilka razy się wywraca, ale znosi porażki z humorem i nigdy nie popełnia tego samego błędu dwa razy.`
 			label "vail head home"
-			`	Heading back to the spaceport after a day of hoverboarding, Taely surprises you by pulling the hood open on the hovercar and spending almost an hour going over the internal systems before closing it up with a nod. "Well, that was interesting. The hovercar, I mean." She gestures at it with her commlink. "So many different manufacturers were involved in making this vehicle. Sometimes I wonder if humanity appreciates the luxury such diversity affords them." She looks thoughtful, then gestures toward the ship. "Well, <first>, I promised you a tour of a historic Remnant district. Caelian has perhaps the best example of one, so I would recommend we go there."`
+			`	Wracając do kosmoportu po dniu spędzonym na hoverboardzie, Taely zaskakuje cię, otwierając maskę hovercara i spędzając prawie godzinę na przeglądaniu systemów wewnętrznych, zanim zamknie ją skinieniem głowy. "Cóż, to było interesujące. Mam na myśli hovercar." Wskazuje na niego gestem swojego komunikatora. "W produkcję tego pojazdu zaangażowanych było tak wielu różnych producentów. Czasami zastanawiam się, czy ludzkość docenia luksus, jaki zapewnia jej taka różnorodność." Wygląda na zamyśloną, a potem wskazuje na statek. "Cóż, <first>, obiecałem ci wycieczkę po historycznej dzielnicy Remnantów. Caelian ma chyba najlepszy przykład takiej, więc polecam, żebyśmy tam pojechali."`
 	on complete
 		conversation
-			`Taely directs you to a landing pad on the outskirts of the main spaceport, in an area that seems mostly filled with Gulls and Pelicans shifting larger quantities of products. Disembarking from the <ship>, she leads you down a large series of escalators that branch off in several directions, occasionally connecting with large ramps filled with steady streams of cargo traffic. After a few minutes they deposit you on a large platform.`
-			`	Approaching the edge of the platform, Taely puts out her arm to stop you from advancing any farther. "Watch out for the barrier," she says as she puts a hand out and touches something in mid-air in front of you. As she leans on it you can see faint ripples around her hand. "They are an essential safety feature, but they can still hurt if you run into them." She gestures to easily recognizable hazard markings on the floor. "With time you will learn to notice the faint shield ripples in the air, but meanwhile, just remember that anywhere that has the 'stand-back' lines on the floor likely has shields above it most of the time."`
-			`	Moments later, you see why the barriers are in place as a large train whooshes into the station at high speed before quickly coming to a stop. The barrier vanishes, and Taely leads you onto the train. Looking up and down the length of it, you can see hundreds, maybe even thousands of Remnant entering and exiting the train. Within moments the doors close, and the train starts moving again as you are pressed back into your seat. You see a few lights flicker past outside the window, but soon there is nothing outside but a monotonous dark blur.`
-			`	Taely notices your gaze. "Sorry, but there will not be much to see out there. The entire train line is quite far underground. Far enough to simply pass under terrain obstacles like rivers, valleys, or chasms." She nods to herself in satisfaction. "This will not be a long trip: we will only spend a few minutes at top speed before we start decelerating near our destination. I would recommend buckling into the harness."`
+			`Taely kieruje cię na lądowisko na obrzeżach głównego kosmoportu, w obszarze, który wydaje się być w większości wypełniony mewami i pelikanami przeładowującymi większe ilości towarów. Wysiadając z <ship>, prowadzi cię długą serią schodów ruchomych, które rozchodzą się w kilku kierunkach, od czasu do czasu łącząc się z dużymi rampami wypełnionymi nieprzerwanym strumieniem ładunków. Po kilku minutach lądujesz na dużej platformie.`
+			`	Zbliżając się do krawędzi platformy, Taely wyciąga rękę, by powstrzymać cię przed dalszym poruszaniem się. "Uważaj na barierę," mówi, wyciągając dłoń i dotykając czegoś w powietrzu przed tobą. Kiedy się na niej opiera, możesz dostrzec delikatne zmarszczki wokół jej dłoni. "Są niezbędnym elementem bezpieczeństwa, ale nadal mogą zranić, jeśli na nie wpadniesz." Wskazuje gestem łatwo rozpoznawalne oznaczenia zagrożenia na podłodze. "Z czasem nauczysz się zauważać delikatne zmarszczki tarcz w powietrzu, ale tymczasem pamiętaj, że wszędzie tam, gdzie na podłodze są linie "odsuń się", prawdopodobnie przez większość czasu nad nimi znajdują się tarcze."`
+			`	Chwilę później widzisz, dlaczego bariery są na swoim miejscu, gdy duży pociąg z szumem wjeżdża na stację z dużą prędkością, po czym szybko się zatrzymuje. Bariera znika, a Taely prowadzi cię do pociągu. Rozglądając się wzdłuż niego, widzisz setki, a może nawet tysiące Ocalałych wchodzących i wychodzących z pociągu. Po chwili drzwi się zamykają, a pociąg rusza ponownie, gdy wciskasz się w fotel. Widzisz kilka świateł migoczących za oknem, ale wkrótce na zewnątrz nie ma nic poza monotonną, ciemną plamą.`
+			`	Taely zauważa twoje spojrzenie. "Przepraszam, ale niewiele będzie tam do zobaczenia. Cała linia kolejowa jest dość głęboko pod ziemią. Wystarczająco głęboko, żeby przejechać pod przeszkodami terenowymi, takimi jak rzeki, doliny czy przepaście." Kiwa głową z zadowoleniem. "To nie będzie długa podróż: spędzimy tylko kilka minut z maksymalną prędkością, zanim zaczniemy zwalniać w pobliżu celu. Radziłabym zapiąć pasy."`
 			choice
-				`	"I am looking forward to seeing where we are going."`
+				`	"Nie mogę się doczekać, aby zobaczyć, dokąd zmierzamy."`
 					goto "our destination"
-				`	"How fast does this go?"`
-			`	"The C3-L0 Maglev has a maximum rated velocity of 11D.E78 meters per second, and can sustain that almost indefinitely so long as the track remains powered. In practice, it rarely maintains that velocity for more than a few minutes at a time, as it is a local transport train. We do have some that go faster, but the amount of acceleration required to make use of them on short tracks is not terribly practical." She looks wistful. "Many people are working on solving the inertia problem, but Embers only know when that will result in something practical."`
+				`	"Jak szybko to jedzie?"`
+			`	"C3-L0 Maglev ma maksymalną prędkość znamionową 11D.E78 metrów na sekundę i może ją utrzymywać niemal w nieskończoność, dopóki tory są zasilane. W praktyce rzadko utrzymuje tę prędkość dłużej niż kilka minut, ponieważ jest to pociąg transportu lokalnego. Mamy takie, które jeżdżą szybciej, ale przyspieszenie wymagane do ich wykorzystania na krótkich torach nie jest szczególnie praktyczne. " Wygląda na zamyśloną. "Wiele osób pracuje nad rozwiązaniem problemu bezwładności, ale Embers wie tylko wtedy, gdy przyniesie to praktyczne rezultaty. "`
 			choice
-				`	"Interesting. How long until we arrive?"`
+				`	"Ciekawe. Jak długo jeszcze dotrzemy?"`
 					goto "our destination"
-				`	"Why is that number so precise?"`
-				`	"That sounds like the speed of light."`
-			`	Taely smiles. "After all the safety factors, margins for error, and assorted other adjustments were taken into account, someone noticed that, when expressed in scientific notation, the coefficient of the rated value was calculated to be 1.1DE79, a fraction above the coefficient of the speed of light in a vacuum, so they adjusted the rated maximum velocity down only slightly so that they would match."`
+				`	"Dlaczego ta liczba jest tak dokładna?"`
+				`	"To brzmi jak prędkość światła."`
+			`	Taely się uśmiecha. "Po uwzględnieniu wszystkich współczynników bezpieczeństwa, marginesów błędu i różnych innych korekt, ktoś zauważył, że w zapisie naukowym współczynnik wartości znamionowej wyniósł 1,1DE79, czyli ułamek więcej niż współczynnik prędkości światła w próżni, więc skorygowali znamionową prędkość maksymalną tylko nieznacznie w dół, aby się zgadzała."`
 			choice
-				`	"Thanks for the explanation."`
+				`	"Dzięki za wyjaśnienie."`
 					goto "our destination"
-				`	"What is a coefficient?"`
-				`	"What is scientific notation?"`
-			`	"Here, I will switch to base 10 to make it easier for you to understand." She pulls up a hologram with 299,792,458 m/s on it. As she speaks, the number shifts to 2.99792458x10^8 m/s. "When we write out a number such as the speed of light, it is typical to break it into parts. This is generally referred to as scientific notation. This is done to facilitate comparing and working with large numbers. The first part, 2.99792458 in this case, would be called the coefficient. The second part, x10, is called the base; and the third part, ^8 is the exponent." The display shifts again to show 1.1DE784Ax10^7 m/s. "So this would be how we typically write the speed of light when we are using it in our research. So, 1.1DE78 is the coefficient of both the speed of light and the speed of the train, just with a different exponent." She pauses, then vanishes the display. "We will be arriving momentarily, so I should probably stop there."`
+				`	"Co to jest współczynnik?"`
+				`	"Co to jest notacja naukowa?"`
+			`	"Tutaj przełączę się na system dziesiętny, aby ułatwić Ci zrozumienie." Wyświetla hologram z liczbą 299 792 458 m/s. Podczas gdy ona mówi, liczba ta przesuwa się do 2,99792458x10^8 m/s. "Kiedy zapisujemy liczbę taką jak prędkość światła, zazwyczaj dzielimy ją na części. Jest to powszechnie znane jako notacja naukowa. Robi się to, aby ułatwić porównywanie i pracę z dużymi liczbami. Pierwsza część, 2,99792458 w tym przypadku, nazywana jest współczynnikiem. Druga część, x10, nazywana jest podstawą; a trzecia część, ^8, to wykładnik." Wyświetlacz ponownie przesuwa się, pokazując 1,1DE784Ax10^7 m/s. "Tak więc zazwyczaj zapisujemy prędkość światła, gdy używamy jej w naszych badaniach. Zatem 1,1DE78 to współczynnik zarówno prędkości światła, jak i prędkości pociągu, tylko z innym wykładnikiem. " Zatrzymuje się, a następnie znika wyświetlacz. "Za chwilę dotrzemy, więc chyba powinnam się tam zatrzymać. "`
 			label "our destination"
-			`	After several minutes, the lights in the train car suddenly pulse several times, and the train starts to decelerate heavily. You can feel yourself pushing into the harness as the train slows and comes to a stop. Unbuckling, Taely leads you out onto the platform, and then up a long escalator to the surface. Emerging into the sunlight, you find yourself looking around at a scene that seems almost anachronistic.`
+			`	Po kilku minutach światła w wagonie nagle pulsują kilka razy, a pociąg zaczyna gwałtownie zwalniać. Czujesz, jak wpychasz się w pasy, gdy pociąg zwalnia i zatrzymuje się. Taely wyprowadza cię na peron, a następnie długimi schodami ruchomymi na powierzchnię. Wychodząc na światło słoneczne, rozglądasz się wokół i dostrzegasz widok, który wydaje się niemal anachroniczny.`
 			scene "scene/remnant remote spaceport"
-			`	Taely looks around with pride, and then watches your reaction with amusement.`
+			`	Taely rozgląda się z dumą, a potem z rozbawieniem obserwuje twoją reakcję.`
 			choice
-				`	"I do not know what to make of this."`
-				`	"This is a spaceport?"`
-			`	She nods, and guides you amongst the stream of camel-drawn hovercarts heading for the gate. "This is one of our earliest spaceports, before we learned new techniques better suited to our new home. Our founding ships brought as much as they could, of course, but as it turns out, the earliest phases of expansion look much the same, whether one is looking at historic pre-flight eras or modern settlement efforts."`
+				`	"Nie wiem, co o tym myśleć."`
+				`	"To jest port kosmiczny?"`
+			`	Kiwa głową i prowadzi cię przez strumień ciągniętych przez wielbłądy poduszkowców zmierzających do bramy. "To jeden z naszych najwcześniejszych portów kosmicznych, zanim poznaliśmy nowe techniki lepiej dostosowane do naszego nowego domu. Nasze statki założycielskie przywiozły oczywiście tyle, ile mogły, ale jak się okazuje, najwcześniejsze fazy ekspansji wyglądają podobnie, niezależnie od tego, czy patrzymy na historyczne ery sprzed lotu, czy na współczesne próby osadnicze. "`
 			scene "scene/remnant remote spaceport"
 			label "question loop"
 			choice
-				`	"It still seems odd to see camels pulling levitating platforms."`
+				`	"Wciąż wydaje się dziwne widzieć wielbłądy ciągnące lewitujące platformy."`
 					goto "camel cart"
-				`	"Stone walls seem like an odd thing to build."`
+				`	"Budowa kamiennych ścian wydaje się dziwnym pomysłem."`
 					goto "stone walls"
-				`	"Are those wind turbines?"`
+				`	"Czy to są turbiny wiatrowe?"`
 					goto "wind turbine"
-				`	"All these wood products seem surprising."`
-				`	"I think I have seen enough."`
+				`	"Wszystkie te produkty z drewna wydają się zaskakujące."`
+				`	"Myślę, że widziałem już wystarczająco dużo."`
 					goto "main return"
 			label "wood products"
 			scene "scene/remnant remote spaceport"
-			`	Taely picks up a board from a nearby pile. "We were fortunate that Caelian had some vegetation that could be used like this. The native vegetation is biologically quite different from the trees of Earth, but they have similar structural characteristics and grow plentifully in many areas." She offers you the board. "The decision was made early on that anything that could be made from locally sourced materials, should be sourced locally. We wanted to conserve our limited supplies of metals and other rare resources for things that required it." She taps on a barrel. "These are a prime example - a few metal straps enable the wood to hold a significant amount of liquid. It is much the same as how a comparatively small amount of bone in our bodies can provide the necessary structure for a large volume of soft tissues and organs to function."`
+			`	Taely podnosi deskę z pobliskiego stosu. "Mieliśmy szczęście, że Caelian miał roślinność, która mogła zostać wykorzystana w ten sposób. Rodzima roślinność biologicznie różni się znacznie od drzew na Ziemi, ale mają podobne cechy strukturalne i obficie rosną w wielu obszarach. " Podaje ci deskę. "Wcześnie podjęto decyzję, że wszystko, co można wyprodukować z lokalnych materiałów, powinno być pozyskiwane lokalnie. Chcieliśmy oszczędzać nasze ograniczone zasoby metali i innych rzadkich surowców na rzeczy, które tego wymagają. " Stuka w beczkę. "To doskonały przykład - kilka metalowych pasów pozwala drewnu utrzymać znaczną ilość płynu. To mniej więcej tak, jak stosunkowo niewielka ilość kości w naszym ciele może zapewnić niezbędną strukturę dla funkcjonowania dużej ilości tkanek miękkich i narządów. "`
 				goto "question loop"
 			label "camel cart"
 			scene "scene/remnant remote spaceport"
-			`	"Is that so? The engineering advantages are quite simple: with the mechanics of the cart focused entirely on supporting the load and the camel providing horizontal motion, the cart can support much larger masses than it could if it had to split the forces." She looks wistful. "In truth, I am somewhat envious of the industrial capacity the ancestral worlds contain - we have accomplished much, but we have had to make choices, and one of those was the decision as to where to spend our industrial capacity. We chose, obviously, to focus on spacecraft and heavy industrial applications. We have no cars, no personal vehicles at all, really. Even these hovercarts are basically the repulsor systems from our spacecraft that have been repurposed to carry massive loads."`
-			`	Taely gestures out through the gate at the distant landscape. "It is ironic that, in many respects, the distant stars are more accessible to us than the metaphorical far side of the mountain. Those of us who explore our worlds often resort to long expeditions with camel trains to carry all their scientific equipment. Spending months away from friends or family while on a project is commonplace, even for those who never leave the surface of our planets. Many of our explorers, in fact, live nomadic lifestyles - moving every couple of weeks to a new research location as they study, document, and analyze the world." Her gestures take on a reverent tone. "Many of our most important discoveries can be attributed to these explorers."`
-			`	Her tone shifts to one of amusement. "We were lucky, though. Our camels were able to sustain themselves on several categories of local vegetation right from the start. It took quite a bit of experimentation with bacterial cultures, however, before we were able to enable them to really forage properly. Now they thrive here. Some experts suspect that, if we were to ever leave, the camels would probably continue to survive here for millennia to come."`
+			`	"Naprawdę? Zalety inżynieryjne są dość proste: mechanika wózka skupia się wyłącznie na podtrzymywaniu ładunku, a wielbłąd zapewnia ruch poziomy, dzięki czemu wózek może udźwignąć znacznie większe masy niż gdyby musiał rozdzielać siły." Wygląda na zamyśloną. "Prawdę mówiąc, trochę zazdroszczę potencjału przemysłowego naszych przodków - wiele osiągnęliśmy, ale musieliśmy dokonać wyborów, a jednym z nich była decyzja o tym, gdzie zainwestować nasz potencjał przemysłowy. Postanowiliśmy, oczywiście, skupić się na statkach kosmicznych i zastosowaniach w ciężkim przemyśle. Nie mamy samochodów, tak naprawdę żadnych pojazdów osobowych. Nawet te poduszkowce to w zasadzie systemy odpychające z naszych statków kosmicznych, które zostały przerobione do transportu ogromnych ładunków."`
+			`	Taely gestem wskazuje przez bramę na odległy krajobraz. "To ironia, że pod wieloma względami odległe gwiazdy są dla nas bardziej dostępne niż metaforyczna, odległa strona góry. Ci z nas, którzy eksplorują nasze światy, często uciekają się do długich wypraw z karawanami wielbłądów, aby przewieźć cały swój sprzęt naukowy. Spędzanie miesięcy z dala od przyjaciół i rodziny podczas projektu jest na porządku dziennym, nawet dla tych, którzy nigdy nie opuszczają powierzchni naszych planet. Wielu naszych odkrywców prowadzi w rzeczywistości koczowniczy tryb życia - co kilka tygodni przenoszą się do nowego miejsca badań, aby studiować, dokumentować i analizować świat. " Jej gesty nabierają tonu nabożeństw. "Wiele z naszych najważniejszych odkryć można przypisać tym odkrywcom. "`
+			`	Jej ton zmienia się na rozbawiony. "Mieliśmy jednak szczęście. Nasze wielbłądy od samego początku były w stanie utrzymać się przy życiu dzięki kilku rodzajom lokalnej roślinności. Jednak zanim udało nam się umożliwić im odpowiednie żerowanie, musieliśmy przeprowadzić sporo eksperymentów z kulturami bakteryjnymi. Teraz świetnie sobie tu radzą. Niektórzy eksperci podejrzewają, że gdybyśmy kiedykolwiek stąd odeszli, wielbłądy prawdopodobnie przetrwałyby tu jeszcze tysiąclecia. "`
 				goto "question loop"
 			label "stone walls"
 			scene "scene/remnant remote spaceport"
-			`	Taely's expression becomes mournful as she leads you over to the walls. "We discovered soon after we arrived here that this planet was not as safe as it appeared. It had a variety of natural predators, including swarms of predatory creatures that were very aggressive in hunting us. They preferred darkness, and while they had excellent eyesight, their hearing was even sharper. A swarm could triangulate the position of a person from a single spoken word at great distances."`
-			`	She gestures up at the edge of the wall. "Fortunately, we discovered that while they were quite competent climbers, they could not navigate overhangs. So while such lips are generally considered a structural vulnerability when defending against modern weapons, they are indispensable for containing local wildlife. These walls served as well later on, too, when we had to deal with Korath ground attacks and other more complex threats."`
+			`	Wyraz twarzy Taely staje się smutny, gdy prowadzi cię do murów. "Wkrótce po przybyciu odkryliśmy, że ta planeta nie jest tak bezpieczna, jak się wydawało. Żyło na niej wielu naturalnych drapieżników, w tym roje drapieżnych stworzeń, które bardzo agresywnie na nas polowały. Preferowały ciemność i choć miały doskonały wzrok, ich słuch był jeszcze ostrzejszy. Rój mógł określić położenie osoby na podstawie jednego wypowiedzianego słowa z dużej odległości."`
+			`	Gestem wskazuje na krawędź muru. "Na szczęście odkryliśmy, że choć byli całkiem kompetentnymi wspinaczami, nie potrafili pokonywać nawisów. Choć takie krawędzie są powszechnie uważane za słaby punkt konstrukcyjny w obronie przed nowoczesną bronią, są niezbędne do powstrzymania lokalnej fauny. Mury te sprawdziły się również później, gdy musieliśmy stawić czoła atakom naziemnym Korath i innym, bardziej złożonym zagrożeniom. "`
 				goto "question loop"
 			label "wind turbine"
 			scene "scene/remnant remote spaceport"
-			`	"They are indeed wind turbines." She steps through the gate to a spot with a better view. You can see that while the ones on the wall are only a couple of meters tall, the ones on top of the towers are significantly bigger. "Our ancestors rightly guessed that anywhere that had sufficient atmosphere to dispense with pressure suits would also have wind. The vertical style also has the advantage that it handles high wind speeds and rapid variation in direction much better than some of the shapes that were more traditional at the time of the exodus. It seems to be a good precaution, as it has enabled these to survive the harsh windstorms that can sweep across the continent. While they have been repaired and improved over the centuries, these wind turbines still provide sufficient power for much of the agricultural uses out here, so we let them continue. They are also useful to remind us from where we have come."`
+			`	"To rzeczywiście turbiny wiatrowe." Przechodzi przez bramę w miejsce z lepszym widokiem. Widać, że podczas gdy te na murze mają zaledwie kilka metrów wysokości, te na szczytach wież są znacznie większe. "Nasi przodkowie słusznie domyślili się, że wszędzie tam, gdzie panuje wystarczająca atmosfera, by obejść się bez skafandrów ciśnieniowych, będzie też wiatr. Pionowy styl ma również tę zaletę, że radzi sobie z dużą prędkością wiatru i gwałtownymi zmianami kierunku znacznie lepiej niż niektóre kształty, które były bardziej tradycyjne w czasach exodusu. Wydaje się to dobrym środkiem ostrożności, ponieważ pozwolił im przetrwać silne wichury, które mogą przetaczać się przez kontynent. Chociaż były naprawiane i ulepszane przez wieki, te turbiny wiatrowe nadal dostarczają wystarczającą moc do większości zastosowań rolniczych, więc pozwalamy im nadal działać. Są również przydatne, aby przypominać nam, skąd przyszliśmy."`
 				goto "question loop"
 			label "main return"
-			`	Taely leads you around the area for a few more hours, pointing out historical features, places where they resurrected trades and skills from before the advent of flight, and other interesting things. Eventually she heads back to the train station, which deposits you back in the main spaceport.`
-			`	"I hope you enjoyed the tour, <first>. It was interesting to see our history through fresh eyes." She smiles mischievously. "And I enjoyed the hoverboarding, too. Maybe we can do it again sometime." She pauses for a moment, focusing on something you cannot see. "Looks like duty calls. Embers guide your way, Captain <last>." She waves, and heads off into the crowd.`
+			`	Taely oprowadza cię po okolicy przez kilka kolejnych godzin, wskazując na zabytki, miejsca, w których wskrzeszono zawody i umiejętności sprzed pojawienia się lotnictwa, i inne ciekawe rzeczy. W końcu wraca na stację kolejową, która wysadza cię z powrotem w głównym porcie kosmicznym.`
+			`	"Mam nadzieję, że podobała Ci się wycieczka, <first>. Ciekawie było zobaczyć naszą historię świeżym okiem." Uśmiecha się figlarnie. "A ja też lubiłam latać na desce. Może kiedyś to powtórzymy." Zatrzymuje się na chwilę, skupiając się na czymś, czego nie widać. "Wygląda na to, że obowiązek wzywa. Żar wskazuje ci drogę, Kapitanie <last>." Macha ręką i odchodzi w tłum.`
 
 
 
@@ -167,110 +167,110 @@ mission "Remnant: Celebration 1"
 		"day" == 7
 	on offer
 		conversation
-			`You stop by the starport just in time to see a large group of Remnant departing. A few of the nearest notice your interest and begin gesturing recognition or various invitations to accompany them, but before you are able to respond, Taely appears from the stream of people and approaches you.`
-			`	"Well met, <first>. We were just going to the monthly Celebration of Remembrance. Would you like to accompany us?"`
+			`Zatrzymujesz się przy porcie kosmicznym akurat w momencie, gdy duża grupa Porzuconych odlatuje. Kilku z najbliższych zauważa twoje zainteresowanie i zaczyna gestykulować, okazując uznanie lub zapraszając do towarzyszenia im, ale zanim zdążysz odpowiedzieć, Taely wyłania się z tłumu i podchodzi do ciebie.`
+			`	"Dobrze mi cię poznać, <first>. Właśnie szliśmy na comiesięczne Obchody Pamięci. Czy zechciałbyś nam towarzyszyć?"`
 			choice
-				`	"Yes, I would."`
+				`	"Tak, zrobiłbym to."`
 					goto "celebration attendance"
-				`	"What is that?"`
+				`	"Co to jest?"`
 					goto "celebration definition"
-				`	"No thanks."`
+				`	"Nie, dziękuję."`
 			label "celebration declined"
-			`	She nods. "Well, may the Embers guide you, <first>." With that, she rejoins the stream of people as they vanish from sight.`
+			`	Kiwa głową. "Cóż, niech Żar cię prowadzi, <first>." Po tych słowach dołącza do strumienia ludzi, którzy znikają z pola widzenia.`
 				decline
 			label "celebration definition"
-			`	"The Celebration of Remembrance is a gathering; we take a moment to remember where we have come from, appreciate where we are, and express hope for where we will be in the future." Her gestures take on a critical tone. "That sounds very formal, but it is more artistic than defined." She glances at the slowing flow of people. "It will be starting shortly, and I want to attend this month, so I should get moving. Would you like to join us?"`
+			`	"Obchody Pamięci to spotkanie; poświęcamy chwilę, by przypomnieć sobie, skąd pochodzimy, docenić, gdzie jesteśmy i wyrazić nadzieję na to, gdzie będziemy w przyszłości." Jej gesty nabierają krytycznego tonu. "Brzmi to bardzo formalnie, ale jest bardziej artystyczne niż zdefiniowane." Zerka na zwalniający strumień ludzi. "Zaraz się zacznie, a ja chcę wziąć udział w tym miesiącu, więc powinnam się ruszyć. Chcesz do nas dołączyć?"`
 			choice
-				`	"Yes, I would."`
-				`	"No thanks."`
+				`	"Tak, zrobiłbym to."`
+				`	"Nie, dziękuję."`
 					goto "celebration declined"
 			label "celebration attendance"
-			`	As the two of you join the flow of people, Taely gestures once again. "If you would like, I could provide you with some commentary and explanation, but it is more about feeling than doing anything specific. Together, we remember and celebrate through free-form dance mixed with singing and music. You are welcome to participate, but try not to disrupt or impede others in the way you join the dancing."`
+			`	Gdy oboje dołączacie do tłumu, Taely ponownie gestykuluje. "Jeśli chcesz, mogę udzielić Ci komentarza i wyjaśnień, ale chodzi bardziej o uczucia niż o konkretne działania. Razem wspominamy i świętujemy poprzez swobodny taniec połączony ze śpiewem i muzyką. Możesz wziąć udział, ale staraj się nie przeszkadzać ani nie przeszkadzać innym w sposobie, w jaki dołączasz do tańca. "`
 			choice
-				`	"No, that is alright. I will just experience it."`
+				`	"Nie, to w porządku. Po prostu to przeżyję."`
 					goto "celebration begin"
-				`	"Yes, that would be appreciated."`
+				`	"Tak, byłoby to mile widziane."`
 			action
 				set "remnant: celebration: annotated"
 			label "celebration begin"
-			`	The crowd you have joined merges with other flows of people as you all stream onward, eventually emerging from the typical hallways into a massive cave. On one side, a large opening, framed by rough stone and a handful of shield emitters, looks up towards the night sky. Stalagmites with matching stalactites above them ring the perimeter of the room, but there is no sound of drips or traces of lingering moisture here. While the walls are still rough, natural stone, the floor and all the stalagmites have been polished smooth. With a quick glance, you estimate that there are already over a hundred people in here, and more are still filtering in around you and through several other doors. Taely leads you through the crowd, frequently gesturing greetings to those she passes by.`
-			`	Taely gestures quietly to you. "We start with the ritual query and response asking if we are safe. Safe in this moment, at least."`
+			`	Tłum, do którego dołączyłeś, łączy się z innymi strumieniami ludzi, gdy wszyscy posuwacie się naprzód, ostatecznie wyłaniając się z typowych korytarzy do ogromnej jaskini. Z jednej strony, duży otwór, obramowany surowym kamieniem i garścią emiterów tarcz, spogląda w nocne niebo. Stalagmity z pasującymi do nich stalaktytami otaczają obwód pomieszczenia, ale nie słychać tu kapania ani śladów zalegającej wilgoci. Choć ściany są nadal surowe, z naturalnego kamienia, podłoga i wszystkie stalagmity zostały wypolerowane na gładko. Szybkim spojrzeniem oceniasz, że jest tu już ponad sto osób, a kolejne wciąż napływają wokół ciebie i przez kilka innych drzwi. Taely prowadzi cię przez tłum, często witając gestem mijanych osób.`
+			`	Taely cicho gestykuluje w twoją stronę. "Zaczynamy od rytualnego pytania i odpowiedzi, pytając, czy jesteśmy bezpieczni. Przynajmniej w tej chwili."`
 				to display
 					has "remnant: celebration: annotated"
-			`	Without warning the room stills, and all the doors close. A flurry of gestures washes out from the center of the room, as if everyone is repeating what someone has said, but you cannot see anyone starting it. "Perimeter secure?" comes the gestured question, followed by an answering ripple from the edges of the room back toward the center: "All clear."`
-			`	Suddenly, you become aware of a drum beat building in the silence, and then realize that it had already started with the first ripple of gestures, so quiet that, until now, it was unnoticeable. The beat builds gradually: a slow, steady rhythm.`
+			`	Bez ostrzeżenia pokój zamarł, a wszystkie drzwi się zamknęły. Ze środka sali rozpętała się lawina gestów, jakby wszyscy powtarzali to, co ktoś powiedział, ale nie widać, żeby ktoś zaczął. "Perimeter secure?" padło pytanie gestem, po którym nastąpiła fala odpowiedzi od krawędzi sali z powrotem w kierunku środka: "Wszystko w porządku."`
+			`	Nagle uświadamiasz sobie narastający w ciszy rytm bębna, a potem uświadamiasz sobie, że rozpoczął się on już od pierwszych fal gestów, tak cichy, że do tej pory był niezauważalny. Rytm narasta stopniowo: powolny, jednostajny rytm.`
 			`	"Thump."`
 			`	"Thump."`
 			`	"Thump."`
 			`	"Thump."`
 			choice
-				`	(Look around the room.)`
-				`	(Move in time with the beat.)`
-			`	At your side, Taely gestures again. "Existence starts with the patterns of the universe, and our story starts with life."`
+				`	(Rozejrzyj się po pokoju.)`
+				`	(Poruszaj się w rytm.)`
+			`	U twego boku, Taely znów gestykuluje. "Istnienie zaczyna się od wzorców wszechświata, a nasza historia zaczyna się od życia."`
 				to display
 					has "remnant: celebration: annotated"
-			`	The beat echoes in the cavern, but you quickly manage to locate the source: an elderly Remnant using her hands to drum against a polished stalagmite that, judging by the resonance, appears to be hollow. As you watch, a child steps up next to her and starts also hitting the rock with their palms, slightly off-beat, changing the pattern into a hauntingly familiar one:`
+			`	Uderzenie rozbrzmiewa w jaskini, ale szybko udaje ci się zlokalizować źródło: starsza Pozbawiona, uderzająca dłońmi w wypolerowany stalagmit, który, sądząc po rezonansie, wydaje się pusty. Na twój widok dziecko podchodzi do niej i również zaczyna uderzać dłońmi w skałę, lekko nieregularnie, zmieniając rytm w przejmująco znajomy:`
 			`	"Thump-thump."`
 			`	"Thump-thump."`
 			`	"Thump-thump."`
 			`	"Thump-thump."`
-			`	Looking around the room you can see people starting to move in time with the beat. Some are swaying, and some are nodding their heads or tapping their feet. Standing next to you, Taely has a hand on her heart, tapping softly. Soon you hear other drummers join in as the beat resonates throughout the room. Now people are not merely swaying to the beat, but dancing. Some spin in place, others rock back and forth between different stances, and a few have joined hands and begun moving in a circle. Everywhere you look there are people dancing in countless variations.`
-			`	Out of the chaos you hear a voice rise in song. You cannot make out what it is saying, but it carries the tones of anticipation. You can, however, clearly decipher a chant from many other voices, cutting through the solo voice in time with the drumming:`
+			`	Rozglądając się po sali, dostrzegasz, jak ludzie zaczynają poruszać się w rytm. Niektórzy się kołyszą, inni kiwają głowami lub tupią stopami. Stojąca obok ciebie Taely kładzie rękę na sercu i delikatnie stuka. Wkrótce słyszysz, jak inni perkusiści dołączają do rytmu, a rytm rozbrzmiewa w całym pomieszczeniu. Teraz ludzie nie tylko kołyszą się w rytm, ale także tańczą. Niektórzy wirują w miejscu, inni kołyszą się w przód i w tył, zmieniając pozycje, a niektórzy splatają ręce i zaczynają poruszać się w kółko. Gdziekolwiek spojrzysz, widzisz ludzi tańczących w niezliczonych wariantach.`
+			`	Z chaosu wyłania się głos pieśni. Nie rozumiesz, co mówi, ale niesie w sobie tony oczekiwania. Możesz jednak wyraźnie rozróżnić śpiew od wielu innych głosów, przebijając się przez solowy głos w rytm bębnienia:`
 				to display
 					not "remnant: celebration: annotated"
-			`	Out of the chaos you hear a voice rise in song. You cannot make out what it is saying, but it carries the tones of anticipation. You can, however, clearly decipher a chant from many other voices, cutting through the solo voice in time with the drumming but not overwhelming either:`
+			`	Z chaosu wydobywa się głos pieśni. Nie rozumiesz, co mówi, ale niesie w sobie tony oczekiwania. Możesz jednak wyraźnie rozróżnić śpiew od wielu innych głosów, przebijając się przez solowy głos w rytm bębnienia, ale też nie przytłaczając:`
 				to display
 					has "remnant: celebration: annotated"
-			`	"...6...5...4...Ignition...2...1...Liftoff!"`
+			`	"...6...5...4...Zapłon...2...1...Start!"`
 			choice
-				`	(Look around with anticipation.)`
+				`	(Rozglądaj się z oczekiwaniem.)`
 					goto countdown
-				`	(Look around nervously.)`
-			`	Taely notices your anxiety and gestures reassuringly: "All is well."`
+				`	(Rozejrzyj się nerwowo.)`
+			`	Taely zauważa twój niepokój i gestykuluje uspokajająco: "Wszystko w porządku."`
 				to display
 					not "remnant: celebration: annotated"
-			`	Taely notices your anxiety and gestures reassuringly. "They sing of the days of humanity's infancy; when we first ventured out of the cradle."`
+			`	Taely zauważa twój niepokój i gestykuluje uspokajająco. "Śpiewają o czasach niemowlęctwa ludzkości; kiedy po raz pierwszy wyszliśmy z kołyski."`
 				to display
 					has "remnant: celebration: annotated"
 			label countdown
-			`	On the final word the chant ends and dozens of deep voices join together in a roaring crescendo before fading away, replaced by many new voices expressing tones of wonder. At this point, it seems that almost every single person in the room is drumming, dancing, or singing - many seem to be doing several simultaneously.`
-			`	As the stars wheel through the night sky above the mouth of the cave, you note the flow of the ceremony seems to be telling a story of some kind. You understand very few snippets of words, but the emotion conveyed in the singing is clear. The early tone of anticipation shifts to the roar of excitement and then on to a peaceful tone of wonder.`
-			`	As the ceremony continues, this shifts again to a steady, almost mechanical feel, which is in turn abruptly penetrated by a piercing thread of excitement, leading to the entire tone of the song becoming one of curiosity over another driving beat. The melody then seems to wander more, caught in dual tones of regret and anticipation, mourning and rejoicing, terror and hope, disorder and structure, disappointment and awe, and countless other deeply emotional pairings before finally culminating in a return to the original, unified heartbeat as the singers' voices come together, reaching upwards in hope before finally everything trails off into silence.`
-			`	Through it all, Taely offers a running commentary on how each stretch of the ceremony represents a different piece of their collective history, ranging from the launch of the first human into space to its commercialization and then the new age of exploration opened by the advent of hyperdrives. It also includes numerous conflicts, disasters, and wars. Much of it is rather familiar to you from what you know of human history, but the later part is strange and unfamiliar. Filled with stories of first contact, strange ruins, alien invasions, desperate last stands, and brilliant discoveries, you are left with the impression that, despite the Remnant's current security, they have been on the precipice of extinction for much of their existence.`
+			`	W ostatnim słowie pieśń się kończy, a dziesiątki głębokich głosów łączą się w ryczącym crescendo, po czym cichną, zastąpione wieloma nowymi głosami wyrażającymi tony zachwytu. W tym momencie wydaje się, że prawie każda osoba w sali gra na bębnach, tańczy lub śpiewa - wiele osób wydaje się robić kilka rzeczy jednocześnie.`
+			`	Gdy gwiazdy krążą po nocnym niebie nad wejściem do jaskini, zauważasz, że ceremonia zdaje się opowiadać jakąś historię. Rozumiesz niewiele fragmentów, ale emocje przekazywane w śpiewie są wyraźne. Początkowy ton oczekiwania zmienia się w ryk podniecenia, a następnie w spokojny ton zachwytu.`
+			`	W miarę trwania ceremonii, nastrój ponownie zmienia się na stały, niemal mechaniczny, który z kolei zostaje nagle przeniknięty przez przenikliwą nić ekscytacji, prowadząc do tego, że cały ton utworu staje się tonem ciekawości, a nie kolejnym, napędzającym rytmem. Melodia zdaje się wtedy błądzić, uchwycona w dwutorowych tonach żalu i oczekiwania, żałoby i radości, przerażenia i nadziei, nieporządku i struktury, rozczarowania i podziwu oraz niezliczonych innych głęboko emocjonalnych par, by ostatecznie osiągnąć punkt kulminacyjny w powrocie do pierwotnego, zjednoczonego bicia serca, gdy głosy śpiewaków łączą się, wznosząc się w górę z nadzieją, zanim w końcu wszystko zapadnie w ciszę.`
+			`	Podczas tego wszystkiego Taely oferuje ciągły komentarz, w jaki sposób każdy fragment ceremonii reprezentuje inny fragment ich wspólnej historii, od wysłania pierwszego człowieka w kosmos, przez jego komercjalizację, aż po nową erę eksploracji zapoczątkowaną przez pojawienie się hipernapędów. Obejmuje również liczne konflikty, katastrofy i wojny. Wiele z tego jest ci dość znajome z historii ludzkości, ale późniejsza część jest dziwna i nieznana. Pełna opowieści o pierwszym kontakcie, dziwnych ruinach, inwazjach obcych, desperackich ostatnich próbach i błyskotliwych odkryciach, pozostawia wrażenie, że pomimo obecnego bezpieczeństwa Remnantów, przez większość swojego istnienia byli oni na krawędzi zagłady.`
 				to display
 					has "remnant: celebration: annotated"
 			choice
-				`	(Stand still and absorb the moment.)`
-				`	(Look around to see what is happening next.)`
-			`	Around you, everyone has gone still. Most look exhausted, and some are sitting on the floor or leaning against the walls. A few people look like they have been crying, and those nearby are hugging them or simply touching their shoulder. Most of the people you can see have reverent and joyful expressions. After the silence lingers for what feels like several minutes, the doors open and people start to leave. In short order the cave is nearly empty.`
-			`	"I always find these Celebrations of Remembrance to be invigorating," Taely says. "What did you think of it, <first>?"`
+				`	(Stój nieruchomo i rozkoszuj się chwilą.)`
+				`	(Rozejrzyj się, aby zobaczyć, co dzieje się dalej.)`
+			`	Wokół ciebie wszyscy zamarli. Większość wygląda na wyczerpaną, a niektórzy siedzą na podłodze lub opierają się o ściany. Kilka osób wygląda, jakby płakało, a ci, którzy są w pobliżu, przytulają je lub po prostu dotykają ich ramion. Większość ludzi, których widzisz, ma pełne szacunku i radości miny. Po tym, jak cisza trwa przez kilka minut, drzwi się otwierają i ludzie zaczynają wychodzić. W krótkim czasie jaskinia jest prawie pusta.`
+			`	"Zawsze uważam te Uroczystości Pamięci za orzeźwiające, " mówi Taely. "Co o tym myślisz, <first>?"`
 			label "celebration questions"
 			choice
-				`	"I think I will have to get back to you on that later."`
+				`	"Myślę, że będę musiał do Ciebie wrócić w tej sprawie później."`
 					goto "celebration request"
-				`	"That was awe-inspiring."`
+				`	"To było niesamowite."`
 					to display
 						not "celebrationawestruck"
 					goto awestruck
-				`	"Why were some of the people crying?"`
+				`	"Dlaczego niektórzy ludzie płakali?"`
 					to display
 						not "celebrationaskedcrying"
 					goto "ask crying"
-				`	"Who leads these ceremonies?"`
+				`	"Kto prowadzi te ceremonie?"`
 					to display
 						not "celebrationaskedleader"
 						not "celebrationaskedomitted"
 					goto "ceremony leader"
-				`	"That seemed both well-rehearsed and very disorganized."`
+				`	"Wydawało się to zarówno dobrze przygotowane, jak i bardzo niezorganizowane."`
 					to display
 						not "celebrationaskedrehearsed"
 					goto "celebration rehearsed"
-				`	"You said 'virtually.' Who is omitted?"`
+				`	"Powiedziałeś "wirtualnie". Kogo pominięto?"`
 					to display
 						has "celebrationaskedleader"
 						not "celebrationaskedomitted"
 					goto "ceremony omitted"
-				`	"What constitutes your most serious crimes?"`
+				`	"Co stanowi Twoje najpoważniejsze przestępstwa?"`
 					to display
 						has "celebrationaskedomitted"
 					goto "celebration crime"
@@ -280,7 +280,7 @@ mission "Remnant: Celebration 1"
 				clear "celebrationaskedleader"
 				clear "celebrationawestruck"
 				clear "celebrationaskedomitted"
-			`	Taely smiles at that. "Well, it is and it is not. We hold these several times a month, though most people take part in only one every few weeks. Most of us have attended hundreds of these. Although as far as that goes, every one of these celebrations is different. Each person's participation and style is entirely up to them, so the details and feel of the group celebration as a whole are unique every time." After explaining this, she makes a singular gesture you have come to realize encompasses the idea, "If you have more questions, ask them."`
+			`	Taely uśmiecha się na to. "Cóż, i tak, i nie. Organizujemy je kilka razy w miesiącu, choć większość osób uczestniczy w nich tylko raz na kilka tygodni. Większość z nas uczestniczyła w setkach takich uroczystości. Chociaż, jeśli o to chodzi, każda z nich jest inna. Udział i styl każdej osoby zależą wyłącznie od niej, więc szczegóły i charakter grupowej uroczystości jako całości są za każdym razem wyjątkowe. " Po wyjaśnieniu tego, wykonuje gest, który, jak się domyślasz, odzwierciedla tę ideę: "Jeśli masz więcej pytań, zadaj je. "`
 				goto "celebration questions"
 			label "ceremony leader"
 			action
@@ -288,19 +288,19 @@ mission "Remnant: Celebration 1"
 				clear "celebrationaskedrehearsed"
 				clear "celebrationaskedomitted"
 				clear "celebrationawestruck"
-			`	Taely's gestures take on a tone of conviction. "For something like this, or anything of a social or spiritual nature for that matter, we determine who takes the lead for various parts at the moment, based on who is present. Whether we are talking about our connection with society, or our connection to the Universe, we must each forge our own understanding of it. As such, when we gather together for ceremonies such as this, virtually anyone could be chosen to take the lead for one of the segments.`
-			`	"As a result, each celebration takes on a different feel - after all, each of us has our own unique perspective, and bring our own experiences to contribute." She pauses, and adopts a respectful tone. "The ceremony is not just about major events, either. Everyone who takes part brings their own life experiences and memories to the story we tell. Memories of friends and family who are no longer with us are common as well."`
+			`	Gesty Taely'ego nabierają tonu przekonania. "W takiej sytuacji, czy w jakiejkolwiek innej sprawie o charakterze społecznym czy duchowym, to my decydujemy, kto w danej chwili przewodzi w poszczególnych częściach, na podstawie tego, kto jest obecny. Niezależnie od tego, czy mówimy o naszym związku ze społeczeństwem, czy o związku z Wszechświatem, każdy z nas musi wypracować własne rozumienie tego związku. W związku z tym, kiedy gromadzimy się na takich ceremoniach, praktycznie każdy może zostać wybrany do przewodzenia jednemu z segmentów.`
+			`	"W rezultacie każda uroczystość nabiera innego charakteru - w końcu każdy z nas ma swoją własną, unikalną perspektywę i wnosi własne doświadczenia." Robi pauzę i przyjmuje pełen szacunku ton. "Ceremonia nie dotyczy tylko ważnych wydarzeń. Każdy, kto bierze w niej udział, wnosi do opowiadanej przez nas historii własne doświadczenia i wspomnienia. Wspomnienia o przyjaciołach i rodzinie, których już nie ma, są również powszechne."`
 				goto "celebration questions"
 			label "ceremony omitted"
 			action
 				clear "celebrationaskedleader"
 				set "celebrationaskedomitted"
-			`	Taely scowls a bit at this. "Only those guilty of the most serious crimes cannot stand as a lead." She pauses, and continues with an amused tone. "Even children take the lead now and then, usually with a parent or sibling to guide them." She smiles at that, then gestures for you to continue asking your questions.`
+			`	Taely lekko się na to marszczy. "Tylko ci, którzy popełnili najpoważniejsze przestępstwa, nie mogą przewodzić." Robi pauzę i kontynuuje z rozbawieniem. "Nawet dzieci od czasu do czasu przejmują inicjatywę, zazwyczaj pod opieką rodzica lub rodzeństwa." Uśmiecha się na to, a następnie gestem zachęca do zadawania pytań.`
 				goto "celebration questions"
 			label "celebration crime"
 			action
 				clear "celebrationaskedomitted"
-			`	Taely gestures harshly. "Crimes against society, of course. Acting against the best interest of our collective well-being is the single most destructive and senseless act someone can perpetrate."`
+			`	Taely gestykuluje ostro. "Zbrodnie przeciwko społeczeństwu, oczywiście. Działanie wbrew naszemu wspólnemu dobru to najbardziej destrukcyjny i bezsensowny czyn, jakiego można się dopuścić."`
 				goto "celebration questions"
 			label "ask crying"
 			action
@@ -309,7 +309,7 @@ mission "Remnant: Celebration 1"
 				clear "celebrationaskedleader"
 				clear "celebrationawestruck"
 				clear "celebrationaskedomitted"
-			`	Taely gestures gently. "Many were friends of the crew of a ship that was recently destroyed while studying a black hole. They acquired ground-breaking data from it, but perished in the process. Their friends and families are proud of them, of course, but that does not change the fact that they are lost to us mortals. Sometimes the whole experience is simply overwhelming, and some of us still sorrow for other losses in our stories."`
+			`	Taely delikatnie gestykuluje. "Wielu z nich było przyjaciółmi załogi statku, który niedawno uległ zniszczeniu podczas badania czarnej dziury. Zdobyli dzięki niemu przełomowe dane, ale zginęli w trakcie eksploracji. Ich przyjaciele i rodziny są z nich oczywiście dumni, ale to nie zmienia faktu, że są straceni dla nas, śmiertelników. Czasami całe to doświadczenie jest po prostu przytłaczające, a niektórzy z nas wciąż opłakują inne straty w swoich historiach."`
 				goto "celebration questions"
 			label awestruck
 			action
@@ -318,23 +318,23 @@ mission "Remnant: Celebration 1"
 				clear "celebrationaskedrehearsed"
 				clear "celebrationaskedleader"
 				clear "celebrationaskedomitted"
-			`	Taely nods in agreement and simply gestures expansively at the cavern around you, giving you a few moments to contemplate it. Eventually she gestures asking if you have any further questions.`
+			`	Taely kiwa głową na znak zgody i po prostu gestem wskazuje na jaskinię wokół ciebie, dając ci chwilę na kontemplację. W końcu gestem pyta, czy masz jeszcze jakieś pytania.`
 				goto "celebration questions"
 			label "celebration request"
-			`	Taely strides over to a console near the closest door and retrieves a crystal from a compartment within. She slips it into a case and turns back to you. "Our celebrations are something that bind us together, and we share in both the memory of the departed and the hope for the future. As such, we keep recordings of them so that those who are not present at a particular event may still experience it too. This recording is destined for those working in Postverta, as a friend of one of those being mourned today is stationed there. Could you deliver this to them please?"`
+			`	Taely podchodzi do konsoli przy najbliższych drzwiach i wyciąga kryształ z przegródki w środku. Wsuwa go do futerału i odwraca się do ciebie. "Nasze uroczystości są czymś, co nas łączy, dzielimy się zarówno pamięcią o zmarłych, jak i nadzieją na przyszłość. Dlatego przechowujemy nagrania, aby ci, którzy nie są obecni na danym wydarzeniu, mogli je również przeżyć. To nagranie jest przeznaczone dla osób pracujących w Postverta, ponieważ stacjonuje tam przyjaciel jednej z osób, których dziś opłakujemy. Czy mógłbyś im to przekazać? "`
 			action
 				set "Remnant: Attended Celebration of Remembrance with Taely"
 			choice
-				`	"Yes."`
+				`	"Tak."`
 					accept
-				`	"Sorry, I'm not headed that way."`
-			`	She looks disappointed, but merely shrugs and pockets the crystal. "I will find someone else to transport this, then."`
+				`	"Przepraszam, nie idę w tamtą stronę."`
+			`	Wygląda na rozczarowaną, ale tylko wzrusza ramionami i chowa kryształ do kieszeni. "W takim razie znajdę kogoś innego, kto to przetransportuje."`
 				decline
 	on complete
 		payment 50000
 		conversation
-			`When you arrive on Postverta there is a small group of Remnant waiting at the landing bay for you. As you hand the crystal to one, another gestures, "Thank you for bringing this to us, Captain <first>. Being able to join in the Remembrance will help me to celebrate those who have gone on before." The group heads off into the depths of the station, leaving you in the bay.`
-			`	Taely never mentioned anything about compensation, but as soon as the Remnant leave, your commlink notifies you that you have been assigned <payment>.`
+			`Kiedy dotrzesz na Postvertę, mała grupa Ocalałych czeka na ciebie przy stanowisku lądowania. Gdy wręczasz kryształ jednemu z nich, drugi gestem mówi: "Dziękuję za dostarczenie go nam, Kapitanie <first>. Możliwość dołączenia do Pamięci pomoże mi uczcić pamięć tych, którzy odeszli wcześniej." Grupa rusza w głąb stacji, zostawiając cię w zatoce.`
+			`	Taely nigdy nie wspominał nic o rekompensacie, ale jak tylko Pozostali odejdą, twój komunikator powiadomi cię, że zostałeś przydzielony <payment>.`
 
 
 
@@ -354,27 +354,27 @@ mission "Remnant: Teciimach Deployment"
 	on offer
 		event "remnant: teciimach deployment"
 		conversation
-			`You note a disturbance in the shipyards before the <ship> even touches the ground. Every pad is filled with ships, camels pulling wagon trains loaded with canisters trundle out of the outfitter, and technicians clamber everywhere. As you step out of your ship, Taely slides down the side of a Merganser resting next to you.`
-			`	"Good timing, Captain! We just rolled out an upgrade to some of our oldest equipment, and our Mergansers finally have something to carry as first-strike weapons. Interested in taking a look?"`
+			`Zauważasz zamieszanie w stoczni, zanim <ship> jeszcze dotknie ziemi. Każda platforma jest wypełniona statkami, wielbłądy ciągnące wozy załadowane kanistrami wytaczają się z miejsca, a technicy wspinają się wszędzie. Gdy wychodzisz ze statku, Taely zsuwa się po burcie nurogęsia, który odpoczywa obok ciebie.`
+			`	"Dobry moment, Kapitanie! Właśnie wprowadziliśmy ulepszenie do naszego najstarszego sprzętu, a nasze Mergansery w końcu mają coś do noszenia jako broń do pierwszego uderzenia. Zainteresowany?"`
 			choice
-				`	"Yes."`
-				`	"Sorry, but I'm a bit busy at the moment."`
+				`	"Tak."`
+				`	"Przepraszam, ale w tej chwili jestem trochę zajęty."`
 					goto "emp no"
-			`	She turns and heads towards a nearby lift where another crew of Remnant had just moved several EMP Torpedo canisters into place. "Well, you have probably seen us use EMP Torpedoes now and then, right? Well, as you probably noticed, they have a few tactical issues. They are slow, they often hit our ships almost as much as our targets, and they take up space we could otherwise be using for more important things like laboratories or scanners." She taps a few commands into the console, and the lift begins raising the canisters towards the waiting ship.`
-			`	"Over the past decades we have had a few teams working on improving them from different angles. Some focused on the torpedoes themselves, others focused on the launcher. The surprising development, however, was from a team working down in the Warren. They figured out a way to shave a few cubic meters off the systems that assemble the torpedoes, and compress the whole structure. Very impressive work, and the results should be in the outfitter for you in the next day or two."`
-			`	She looks at you and nods contemplatively. "One thing worth noting - you are making great strides in learning our language, so new items that appear in our outfitter will be listed under their proper name instead of substitutes from the ancestral tongue."`
+			`	Odwraca się i kieruje w stronę pobliskiej windy, gdzie inna załoga Porzuconych właśnie przeniosła kilka pojemników z torpedami EMP. "Cóż, pewnie widzieliście, jak od czasu do czasu używamy torped EMP, prawda? Cóż, jak zapewne zauważyliście, mają one kilka wad taktycznych. Są powolne, często trafiają nasze statki niemal tak często, jak nasze cele, i zajmują miejsce, które moglibyśmy wykorzystać na ważniejsze rzeczy, takie jak laboratoria czy skanery. " Wpisuje kilka komend na konsoli, a winda zaczyna unosić pojemniki w kierunku czekającego statku.`
+			`	"W ciągu ostatnich dekad kilka zespołów pracowało nad ich ulepszeniem pod różnymi kątami. Niektóre koncentrowały się na samych torpedach, inne na wyrzutniach. Zaskakującym odkryciem był jednak zespół pracujący w Warren. Znaleźli sposób na zmniejszenie o kilka metrów sześciennych objętości systemów, które montują torpedy, i skompresowanie całej konstrukcji. Bardzo imponująca praca, a wyniki powinny być dostępne w firmie produkującej torpedy w ciągu jednego lub dwóch dni.`
+			`	Patrzy na ciebie i kiwa głową z zamyśleniem. "Warto zauważyć, że robisz ogromne postępy w nauce naszego języka, więc nowe przedmioty, które pojawią się w naszym sklepie z ekwipunkiem, będą wymienione pod nazwą własną, a nie zamiennikami z języka przodków."`
 			choice
-				`	"Whatever makes things easier for everyone."`
+				`	"Cokolwiek ułatwia życie wszystkim."`
 					goto "emp no"
-				`	"Thanks. What names were changed?"`
-			`	She looks amused. "Mainly weapons. If something is named an adjective that describes what it does, then it was a name we made up on the spot to include in the linguistic overlay we put in place for the displays. We did that so that you would have an easier time understanding what something does. Thankfully, you no longer need such aides."`
+				`	"Dzięki. Które imiona zostały zmienione?"`
+			`	Wygląda na rozbawioną. "Głównie broń. Jeśli coś ma nazwę przymiotnikową opisującą jego działanie, to nazwa ta została wymyślona na poczekaniu, aby uwzględnić ją w nakładce językowej, którą wprowadziliśmy na wyświetlaczach. Zrobiliśmy to, aby ułatwić Ci zrozumienie działania danego elementu. Na szczęście nie potrzebujesz już takich pomocy."`
 			choice
-				`	"Thanks for the explanation."`
+				`	"Dzięki za wyjaśnienie."`
 					goto "emp no"
-				`	"Thanks! Circling back to our earlier topic, what does 'Warren' mean?"`
-			`	"It is our term for the network of caves, tunnels, and spaces deep underground. All three of our main worlds have them in some form or another. We know a little about the original people who built them, but not nearly as much as we would like. They called themselves the Zitchal Maudrakoi, and one of the most distinguishing features we have been able to learn about them is that they do not seem to attach much importance to directionality. For example, in a control room we found, there were instruments and controls on every available surface, with just a scattering of handholds to support the operator." She shrugs. "Plume or Dusk would know more than I about them. I mostly focus on understanding their equipment."`
+				`	"Dzięki! Wracając do naszego wcześniejszego tematu, co oznacza "Warren"?"`
+			`	"To nasz termin na sieć jaskiń, tuneli i przestrzeni głęboko pod ziemią. Wszystkie trzy nasze główne planety mają je w takiej czy innej formie. Wiemy trochę o ludziach, którzy je zbudowali, ale nie tak dużo, jak byśmy chcieli. Nazywali siebie Zitchal Maudrakoi, a jedną z najbardziej charakterystycznych cech, jakie udało nam się o nich dowiedzieć, jest to, że nie przywiązują zbytniej wagi do kierunkowości. Na przykład w odkrytej przez nas sterowni instrumenty i elementy sterujące znajdowały się na każdej dostępnej powierzchni, a jedynie kilka uchwytów ułatwiających operatorowi poruszanie się. " Wzrusza ramionami. "Plume lub Dusk wiedzieliby o nich więcej niż ja. Ja skupiam się głównie na zrozumieniu ich sprzętu. "`
 			label "emp no"
-			`	"Well, I should get back to work, then. Next time you are in space, take a look at how our ships fare in battle. Hopefully you will see an improvement." She grabs a couple components from a nearby lift, and scrambles back up the side of the Merganser to continue working on a new bay.`
+			`	"No cóż, muszę wracać do pracy. Następnym razem, gdy będziesz w kosmosie, sprawdź, jak nasze statki radzą sobie w bitwie. Mam nadzieję, że zauważysz poprawę." Zabiera kilka komponentów z pobliskiej windy i wdrapuje się z powrotem na burtę Mergansera, aby kontynuować pracę nad nowym przedziałem.`
 				accept
 	npc
 		government "Remnant"
@@ -396,10 +396,10 @@ mission "Remnant: Teciimach Deployment"
 		fleet "Korath Ember Waste Raid"
 	on complete
 		dialog
-			`Now that the most recent Korath raiders have been defeated, you decide to check your sensor logs to see how the new EMP Torpedoes Taely talked about performed. You note that the EMP bursts no longer have an impact on friendly ships. This could make them much more versatile.`
+			`Teraz, gdy ostatni najeźdźcy Korath zostali pokonani, postanawiasz sprawdzić logi czujników, aby zobaczyć, jak sprawują się nowe torpedy EMP, o których wspominał Taely. Zauważasz, że wybuchy EMP nie mają już wpływu na sojusznicze statki. To mogłoby je uczynić znacznie bardziej wszechstronnymi.`
 	on fail
 		dialog
-			`You recall Taely mentioning something about new weaponry, so you decide to check your logs to see what your sensors have recorded lately. Looking over the most recent combat details, you note that the EMP bursts no longer have an impact on friendly ships. This could make them much more versatile.`
+			`Przypominasz sobie, że Taely wspominał coś o nowym uzbrojeniu, więc postanawiasz sprawdzić dzienniki, aby zobaczyć, co ostatnio zarejestrowały twoje czujniki. Przeglądając najnowsze szczegóły walki, zauważasz, że impulsy EMP nie mają już wpływu na sojusznicze statki. To mogłoby je znacznie zwiększyć wszechstronność.`
 
 
 
@@ -420,9 +420,9 @@ mission "Remnant: Shattered Light 1"
 		dialog "Ten statek ledwo rejestruje się na twoich sensorach, a ty wyraźnie przez niego widzisz. Remnant będzie chciał o tym wiedzieć. Prawdopodobnie powinieneś poszukać Taely na Viminal."
 	on complete
 		conversation
-			`Looking around the Viminal spaceport, you spot Taely using something that slightly resembles a small catapult to launch a sizable rock across the cavern. A nearby Merganser leaps into the air and chases after it, pouncing on the rock and vanishing from sight before reappearing next to Taely, dropping it next to her. Without looking away from the Merganser she waves you over.`
-			`	"Well met, <first>, how goes your travels? Found anything interesting?"`
-			`	She listens to your description of the encounter with the ghostly ship whilst looking at the recording you pull up from your commlink. "This is very intriguing. I will need to consult a few people. If you are interested in investigating this, ensure your ship has a Research Laboratory installed, and meet me in the spaceport."`
+			`Rozglądając się po kosmoporcie Viminal, dostrzegasz Taely, która używa czegoś, co nieco przypomina małą katapultę, by wystrzelić spory głaz przez jaskinię. Niedaleko znajduje się Merganser, który wyskakuje w powietrze i goni go, rzucając się na głaz i znikając z pola widzenia, po czym pojawia się obok Taely i upuszcza go obok niej. Nie odrywając wzroku od Merganser, macha do ciebie.`
+			`	"Miło mi poznać, <first>, jak tam Twoja podróż? Znalazłeś coś ciekawego?"`
+			`	Słucha twojego opisu spotkania z widmowym statkiem, oglądając jednocześnie nagranie, które wyświetlasz na swoim łączu. "To bardzo intrygujące. Będę musiał skonsultować się z kilkoma osobami. Jeśli jesteś zainteresowany zbadaniem tej sprawy, upewnij się, że na twoim statku jest zainstalowane laboratorium badawcze i spotkajmy się w porcie kosmicznym."`
 
 
 
@@ -439,18 +439,18 @@ mission "Remnant: Shattered Light 2"
 		has "outfit (flagship installed): Research Laboratory"
 	on offer
 		conversation
-			`Your arrival in the spaceport finds Taely in deep conversation with an elderly Remnant, empty food trays cluttering the table before them. They both turn when you approach, breaking off their conversation.`
-			`	"Thank you for coming, Captain <last>. I would like to introduce you to Ruach. She was a shipyard engineering prefect for many decades, but now spends most of her time as a teacher."`
-			`	Ruach gives a polite bow. "Taely lays too many compliments on me," she gestures with amusement. "I fulfilled my duty doing the best with that which the Embers blessed me, nothing more, nothing less. But it has been rewarding watching someone take everything I taught them and fly with it to heights I could only dream of."`
-			`	Ruach's gestures take on a more precise cadence. "Taely tells me that you have spotted a strange 'ghost' in Caeculus that bears a resemblance to ancestral ships. Could you take me to do a scan of it please?"`
+			`Twoje przybycie do kosmoportu zastaje Taely pogrążoną w głębokiej rozmowie ze starszym Remnantem, a puste tace z jedzeniem zagracają stół przed nimi. Oboje odwracają się, gdy podchodzisz, przerywając rozmowę.`
+			`	"Dziękuję za przybycie, Kapitanie <last>. Chciałbym przedstawić panu Ruach. Przez wiele dekad była prefektem inżynierii w stoczni, ale teraz większość czasu spędza jako nauczycielka."`
+			`	Ruach grzecznie się kłania. "Taely prawi mi zbyt wiele komplementów, " gestykuluje z rozbawieniem. "Wypełniłam swój obowiązek, robiąc to, co najlepsze z tego, co pobłogosławiły mi Żary, nic więcej, nic mniej. Ale satysfakcjonujące było obserwowanie, jak ktoś bierze wszystko, czego go nauczyłam, i wznosi się na wyżyny, o jakich mogłam tylko pomarzyć. "`
+			`	Gesty Ruacha nabierają bardziej precyzyjnej kadencji. "Taely mówi mi, że zauważyłeś dziwnego "ducha" w Caeculusie, który przypomina statki przodków. Czy mógłbyś mnie zeskanować? "`
 			choice
-				`	"Okay."`
+				`	"Okej."`
 					accept
-				`	"Sorry, not interested."`
+				`	"Przepraszam, nie jestem zainteresowany."`
 					decline
 	on enter "Caeculus"
 		dialog
-			`Ruach pores over the scanning arrays before reporting that the subject is not present. She suggests searching nearby systems to locate it.`
+			`Ruach wertowała matryce skanujące, zanim zgłosiła, że obiekt jest nieobecny. Sugerowała przeszukanie pobliskich systemów w celu jego zlokalizowania.`
 	npc "scan outfits"
 		government "Ember Waste"
 		personality uninterested waiting staying mute
@@ -460,8 +460,8 @@ mission "Remnant: Shattered Light 2"
 	on complete
 		payment 50000
 		conversation
-			`The <ship> hasn't even settled onto the landing pad when Ruach leaps down from the airlock and jogs a couple of spots down to stare up at the gills of an Albatross. A few moments later, Taely drops out of them, greeting Ruach warmly. By the time you join them, Ruach has a hologram of the spectral ship floating in the air. "It is lacking the confirmation codes or identification info, but I am confident that this is it," muses Ruach as you arrive.`
-			`	"Sorry for leaving you behind, <first>, but this is just such an exciting discovery. This ship you found matches the profile of the Shattered Light - a large city ship that was part of the Exodus but never arrived on this side of the wormhole. There are so many questions to be answered! Anyway, the data is being distributed right now. Meet me in the cafeteria in a few hours to see what ideas have come up. Oh, and before I forget, we have allotted you <payment> for your assistance."`
+			`<ship> nie zdążył jeszcze wylądować na lądowisku, gdy Ruach zeskakuje ze śluzy i przeskakuje kilka miejsc niżej, by wpatrywać się w skrzela albatrosa. Chwilę później Taely wyskakuje z nich, serdecznie witając Ruacha. Kiedy do nich dołączasz, Ruach ma hologram widmowego statku unoszącego się w powietrzu. "Brakuje kodów potwierdzających ani danych identyfikacyjnych, ale jestem pewien, że to on, " zastanawia się Ruach, gdy przybywasz.`
+			`	"Przepraszam, że Cię zostawiłem, <first>, ale to naprawdę ekscytujące odkrycie. Ten statek, który znalazłeś, pasuje do profilu Shattered Light - dużego statku-miasta, który był częścią Exodusu, ale nigdy nie dotarł na tę stronę tunelu czasoprzestrzennego. Jest tyle pytań, na które trzeba odpowiedzieć! Tak czy inaczej, dane są właśnie dystrybuowane. Spotkajmy się w kawiarni za kilka godzin, żeby zobaczyć, jakie pomysły się pojawią. A, i zanim zapomnę, przydzieliliśmy Ci <payment> za pomoc."`
 			
 
 
@@ -477,19 +477,19 @@ mission "Remnant: Shattered Light 3"
 		has "Remnant: Shattered Light 2: done"
 	on offer
 		conversation
-			`A group of people huddled around a hologram catches your attention, drawing your eyes to Ruach who gestures for you to join them. She introduces you to each person, before thanking you. "I would just like to start by offering our thanks for your assistance, Captain <first>. You have sharp eyes to pick this up as early as you did." She gestures to the hologram of the ship floating in front of you. "Other scouts reported it shortly thereafter, but you spotted it first.`
-			`	"We have confirmed that this matches all available records of the Shattered Light, although it appears to have suffered considerable damage. One of the oldest mysteries here is what has happened to it, and what we should do about it."`
-			`	Another Remnant steps forward and the hologram changes to show a scene from a cave with a large object. Other Remnant appear to aim some equipment at it, and after a moment or two, the object expands to several times its original size. "These are recordings from our explorations of the ruins, demonstrating the decompression of a Maudrakoi artifact. While not identical, these artifacts generate similar readings to those recorded during your scan of the Shattered Light.`
-			`	"As such, our proposition is to use the same equipment we used for decompression to stabilize the Shattered Light's weft field, and, if possible, bring it fully into synchronicity once again." She nods firmly, clapping her hands together to make the hologram vanish.`
-			`	Ruach takes the lead again. "So, Captain, we will need you to bring us in close to the Shattered Light so we can give this a try. Our sentries have reported seeing it in the systems near Coluber, so it may take some searching."`
+			`Grupa ludzi zgromadzonych wokół hologramu przykuwa twoją uwagę, kierując wzrok na Ruach, która gestem zaprasza cię do dołączenia. Przedstawia cię każdej osobie, po czym dziękuje. "Chciałabym zacząć od podziękowania za twoją pomoc, Kapitanie <first>. Masz bystry wzrok, żeby to wychwycić tak wcześnie. "Gestem wskazuje hologram statku unoszącego się przed tobą. "Inni zwiadowcy zgłosili to wkrótce potem, ale ty zauważyłeś to pierwszy.`
+			`	"Potwierdziliśmy, że pasuje to do wszystkich dostępnych zapisów dotyczących Rozbitego Światła, chociaż wydaje się, że doznało ono znacznych uszkodzeń. Jedną z najstarszych zagadek jest to, co się z nim stało i co powinniśmy z tym zrobić."`
+			`	Kolejny Pozostały robi krok naprzód, a hologram zmienia się, pokazując scenę z jaskini z dużym obiektem. Inny Pozostały zdaje się celować w niego jakimś sprzętem, a po chwili obiekt powiększa się kilkakrotnie. "To nagrania z naszych eksploracji ruin, demonstrujące dekompresję artefaktu Maudrakoi. Choć nie są identyczne, artefakty te generują odczyty podobne do tych zarejestrowanych podczas skanowania Rozbitego Światła.`
+			`	"W związku z tym nasza propozycja polega na użyciu tego samego sprzętu, którego użyliśmy do dekompresji, aby ustabilizować pole wątku Rozbitego Światła i, jeśli to możliwe, przywrócić mu pełną synchronizację." Kiwa głową i klaska w dłonie, aby hologram zniknął.`
+			`	Ruach znów obejmuje dowodzenie. "Więc, Kapitanie, potrzebujemy, żebyś nas doprowadził w pobliże Rozbitego Światła, żebyśmy mogli spróbować. Nasi wartownicy meldowali, że widzieli je w układach w pobliżu Coluber, więc poszukiwania mogą trochę potrwać."`
 			choice
-				`	"Looks good. Start loading the <ship>!"`
+				`	"Wygląda dobrze. Rozpocznij ładowanie <ship>!"`
 					accept
-				`	"Wait, 'Maudrakoi'?"`
-			`	The Remnant who showed the video looks startled, and then embarrassed. "My apologies, I did not realize you had not been familiarized with them." She looks around the room, then gestures. The hologram returns, now showing a large room with many shelves around the edge and several large objects within it, including some that look like Point Defense Turrets.`
-			`	"We do not have time for an in-depth presentation, but the short version is this: the Maudrakoi are the primary civilization that lived on these worlds before we arrived. They are not the only civilization to have lived here, but they are the one we find most often in the archaeological record. Fortunately for our research, it seems that they lived extensively underground in complexes such as this one."`
-			`	Her gestures take on an appreciative tone. "The Maudrakoi made extensive use of the materials that make our ships and architecture so distinctive, and this has allowed their cities and technologies to survive the eons since they went extinct. One technology of note is they had an interesting ability to manipulate space. They used this to make large, highly complex objects, and then, for lack of a better term, partially embed them in pocket dimensions so as to not be entirely present. They used this frequently to allow equipment and materials to be much smaller than normal." She shrugs, and gestures with a frustrated tone. "We cannot replicate it, but we have figured out how to disrupt the compression, and thus recover the artifact."`
-			`	The hologram shifts back to showing the Shattered Light. "This ship does not show the same signatures as the Maudrakoi artifacts, but we think it is sufficiently similar that our equipment should work on it too. Hopefully. In any case, though, time is passing, so we should start loading." With that, the Remnant gather their equipment and head out.`
+				`	"Czekaj, 'Maudrakoi'?"`
+			`	Pozostała, która pokazała nagranie, wygląda na zaskoczoną, a potem zawstydzoną. "Przepraszam, nie wiedziałam, że ich nie znasz." Rozgląda się po pokoju, a potem gestykuluje. Hologram powraca, pokazując teraz duże pomieszczenie z wieloma półkami na krawędziach i kilkoma dużymi obiektami w środku, w tym takimi, które wyglądają jak wieżyczki obrony punktowej.`
+			`	"Nie mamy czasu na szczegółową prezentację, ale w skrócie: Maudrakoi to główna cywilizacja, która żyła na tych planetach przed naszym przybyciem. Nie są jedyną cywilizacją, która tu żyła, ale to właśnie ją najczęściej spotykamy w zapisach archeologicznych. Na szczęście dla naszych badań, wygląda na to, że żyli oni intensywnie pod ziemią w kompleksach takich jak ten."`
+			`	Jej gesty nabierają tonu uznania. "Maudrakoi szeroko wykorzystywali materiały, które wyróżniają nasze statki i architekturę, co pozwoliło ich miastom i technologiom przetrwać eony od czasu ich wymarcia. Jedną z godnych uwagi technologii jest ich interesująca zdolność manipulowania przestrzenią. Używali jej do tworzenia dużych, wysoce złożonych obiektów, a następnie, z braku lepszego określenia, częściowo osadzali je w wymiarach kieszonkowych, aby nie były całkowicie obecne. Często korzystali z tego, aby sprzęt i materiały były znacznie mniejsze niż zwykle. " Wzrusza ramionami i gestykuluje z frustracją. "Nie możemy tego odtworzyć, ale odkryliśmy, jak przerwać kompresję i w ten sposób odzyskać artefakt. "`
+			`	Hologram powraca do wyświetlania Rozbitego Światła. "Ten statek nie ma tych samych sygnatur co artefakty Maudrakoi, ale uważamy, że są na tyle podobne, że nasz sprzęt również powinien na nim działać. Miejmy nadzieję. W każdym razie czas mija, więc powinniśmy zacząć ładować." Po tym, Pozostali zbierają swój sprzęt i wyruszają.`
 				accept
 	on enter "Coluber"
 		dialog `Ruach krótko sprawdza anteny skanujące, po czym melduje, że - co nie powinno dziwić - statek najwyraźniej nie jest obecny. Sugeruje przeszukanie pobliskich układów w celu jego zlokalizowania.`
@@ -501,8 +501,8 @@ mission "Remnant: Shattered Light 3"
 		conversation
 			action
 				set "remnant: scanned specter"
-			`As the scan results arrive the data is relayed down to the team in the cargo hold. Your video feed shows a large hologram of the system floating in midair above one of the pallets. Nearby, terminals flash rolling readouts and analyses. As the data on the spectral ship solidifies, cones of projected courses appear on the display. Line by line the cone tightens in as additional data flows from your telemetry, closing in on a path intersecting with the nearby world.`
-			`	While the system continues to refine the orbital paths, the team seemed disinclined to wait: Ruach activates her commlink, broadcasting quickly to you. "It is on a crash course for Far Monad!" she exclaims. "Quick, land there!" Behind her, you can see her team scrambling to move equipment around near your cargo door and seal their spacesuits.`
+			`W miarę napływania wyników skanowania, dane są przekazywane zespołowi w ładowni. Na Twoim kanale wideo widoczny jest duży hologram systemu unoszący się w powietrzu nad jedną z palet. W pobliżu terminale wyświetlają ruchome odczyty i analizy. W miarę jak dane na statku widmowym krystalizują się, na wyświetlaczu pojawiają się stożki przewidywanych kursów. Linia po linii stożek zwęża się wraz z napływem dodatkowych danych z Twojej telemetrii, zbliżając się do ścieżki przecinającej się z pobliskim światem.`
+			`	Podczas gdy system nadal dopracowuje orbity, zespół wydawał się niechętny do czekania: Ruach aktywuje swój komunikator, szybko nadając do ciebie. "Jest na kursie kolizyjnym do Dalekiej Monady!" wykrzykuje. "Szybko, ląduj tam!" Za nią widzisz, jak jej zespół gorączkowo przesuwa sprzęt w pobliżu drzwi ładowni i zamyka skafandry.`
 	to fail
 		has "remnant: scanned specter"
 		has "flagship planet: Far Monad"
@@ -521,30 +521,30 @@ mission "Remnant: Shattered Light 4"
 		has "remnant: scanned specter"
 	on offer
 		conversation
-			`With the Shattered Light careening towards the surface of Far Monad, you push the <ship> into a dive. As you focus on finding a safe place to land within close proximity of the approaching ship, you notice out the corner of your eye that the Remnant team have all suited up and are pushing their equipment to the cargo hatch. A message appears on your console.`
-			`	"Ready for drop, Captain. Just get us alongside the Shattered Light without too much forward velocity. We can handle the rest."`
+			`Gdy Roztrzaskane Światło zbliża się do powierzchni Dalekiej Monady, wpychasz <ship> w nurkowanie. Skupiając się na znalezieniu bezpiecznego miejsca do lądowania w pobliżu zbliżającego się statku, kątem oka zauważasz, że drużyna Porzuconych jest już w pełnym rynsztunku i przepycha swój ekwipunek do luku ładunkowego. Na twojej konsoli pojawia się komunikat.`
+			`	"Gotowy do lądowania, Kapitanie. Tylko doprowadź nas do Shattered Light bez zbyt dużej prędkości. Resztę damy sobie radę."`
 			branch "living ship"
 				or
 					has "flagship model: Peregrine"
 					has "flagship model: Merganser"
-			`	Moments later you spot a gaping hole on the ship. Focusing on it, you fly the <ship> down and hold position just above it. A glance at your cargo hold display shows the Remnant vanishing out the back lock. Your exterior cameras show the equipment falling into it on repulsor pallets while the Remnant drop alongside it. A final message appears on your console.`
+			`	Chwilę później dostrzegasz ziejącą dziurę w statku. Skupiając się na niej, schodzisz <ship> i utrzymujesz pozycję tuż nad nią. Spojrzenie na wyświetlacz ładowni pokazuje, jak Porzucony znika z tylnej śluzy. Zewnętrzne kamery pokazują, jak sprzęt spada do środka na paletach repulsorowych, podczas gdy Porzucony ląduje obok. Na konsoli pojawia się ostatni komunikat.`
 				goto "drop success"
 			label "living ship"
-			`	Moments later the <ship> pings a point on the Shattered Light indicating a gaping hole on the ship. Nodding your assent, your ship swoops to a hold position just above it. A glance at your cargo hold display shows the Remnant vanishing out the back lock. Your exterior cameras show the equipment falling into the hole on repulsor pallets while the Remnant drop alongside it. A final message appears on your console.`
+			`	Chwilę później <ship> wskazuje punkt na Rozbitym Świetle, wskazując na ziejącą dziurę w statku. Kiwając głową na znak zgody, twój statek nurkuje na pozycję oczekiwania tuż nad nią. Spojrzenie na wyświetlacz ładowni pokazuje, jak Porzucony znika z tylnej śluzy. Twoje zewnętrzne kamery pokazują, jak sprzęt wpada do dziury na paletach repulsorowych, podczas gdy Porzucony ląduje obok niego. Na twojej konsoli pojawia się ostatni komunikat.`
 			label "drop success"
-			`	"Drop success. Get clear of the arrival zone and pick us up after the dust settles."`
+			`	"Zrzut udany. Opuść strefę przylotów i odbierz nas, gdy kurz opadnie."`
 			branch "living clear"
 				or
 					has "flagship model: Peregrine"
 					has "flagship model: Merganser"
-			`	With their confirmation, you quickly pull away from the approaching wreck and retreat to a safe distance.`
+			`	Po otrzymaniu potwierdzenia szybko oddalasz się od zbliżającego się wraku i wycofujesz na bezpieczną odległość.`
 				goto cleared
 			label "living clear"
-			`	The <ship> veers and accelerates away from the approaching wreck without waiting for your approval and retreats to a safe distance.`
+			`	<ship> skręca i przyspiesza, oddalając się od zbliżającego się wraku, nie czekając na Twoją zgodę, po czym wycofuje się na bezpieczną odległość.`
 			label cleared
-			`	Eventually, you find a good vantage point, several kilometers away, where you can watch the approaching ship. The Shattered Light falls through the sky with deceptive slowness, made all the worse by the fact that you can see clouds and sky passing through it. As it nears the surface you see a ripple in the air explode out from it, followed by a concussive shockwave as the Shattered Light suddenly becomes very solid. Its engines flare to life with a roar that rattles your bones and the ship lurches to a stop in mid-air, before crunching down into the forest.`
-			`	The dust and debris settle within a few minutes, and soon you and the <ship> are skimming over the vegetation. The approach gives you ample time to appreciate just how massive the Shattered Light is; everything that one could need to lay the foundations for a new colony is packed into a single ship. You note large gashes in the hull, massive sensor arrays, and a shattered dome on top. Based on the mismatch of parts, this ship has been substantially modified from its original hull, and survived untold damage.`
-			`	As you slow to a hover alongside the ship, Ruach appears on your viewscreen. "Well met, Captain! Our theory worked! We managed to snap the Shattered Light back into the Primary Weft, and are now onboard. The systems are dubious, though, so we dare not shut anything down lest we cannot restart it. We would appreciate your assistance in escorting us back to Viminal."`
+			`	W końcu znajdujesz dobry punkt obserwacyjny, kilka kilometrów dalej, skąd możesz obserwować zbliżający się statek. Rozbite Światło spada w niebo z pozornie powolną prędkością, tym bardziej pogorszoną, że widzisz przechodzące przez nie chmury i niebo. Gdy zbliża się do powierzchni, widzisz eksplozję w powietrzu, a następnie potężną falę uderzeniową, gdy Rozbite Światło nagle staje się bardzo twarde. Jego silniki rozpalają się z rykiem, który wstrząsa twoimi kośćmi, a statek gwałtownie zatrzymuje się w powietrzu, po czym z hukiem ląduje w lesie.`
+			`	Kurz i gruz opadają w ciągu kilku minut, a wkrótce ty i <ship> szybujecie nad roślinnością. To podejście daje wam wystarczająco dużo czasu, by docenić ogrom Rozbitego Światła; wszystko, czego potrzeba do położenia fundamentów pod nową kolonię, mieści się w jednym statku. Zauważacie duże pęknięcia w kadłubie, masywne matryce czujników i roztrzaskaną kopułę na szczycie. Sądząc po niedopasowaniu części, statek ten został znacząco zmodyfikowany w stosunku do swojego oryginalnego kadłuba i przetrwał niezliczone uszkodzenia.`
+			`	Gdy zwalniasz do zawisu obok statku, na ekranie pojawia się Ruach. "Dobrze, Kapitanie! Nasza teoria zadziałała! Udało nam się wcisnąć Rozbite Światło z powrotem do Głównego Osnowy i jesteśmy teraz na pokładzie. Systemy są jednak wątpliwe, więc nie śmiemy niczego wyłączać, żeby nie móc ich ponownie uruchomić. Będziemy wdzięczni za pomoc w eskortowaniu nas z powrotem na Viminal."`
 				accept
 	npc accompany save
 		government "Remnant (Research)"
@@ -560,25 +560,25 @@ mission "Remnant: Shattered Light 4"
 		payment 250000
 		outfit "NDR-114 Android" 5
 		conversation
-			`The Shattered Light is so massive that traffic control directs you to a large valley next to the spaceport, where you discover that a section of the chasm has been covered to create a semi-enclosed area. Judging from the equipment and stacks of cargo, this area looks like it is predominantly used by bulk freight shipments and little else. Now, however, as the Shattered Light slowly moves in, a flock of Pelicans scatter in front of it looking like nothing more than a flock of plovers in front of an approaching camel.`
-			`	Down on the ground, you see Ruach and her team exit an airlock on the side of the Shattered Light and jump down to the ground. They gather around, giving hugs. "<first>!" exclaims Ruach. "We have recovered a lost piece of Remnant history. Thank you for helping. I do not know what this will mean for us in the long term, but there will be a lot of careful examination for the next few weeks."`
+			`Rozbite Światło jest tak ogromne, że kontrola ruchu kieruje cię do dużej doliny obok kosmodromu, gdzie odkrywasz, że część przepaści została zasypana, tworząc półzamknięty obszar. Sądząc po sprzęcie i stosach ładunków, obszar ten wygląda na wykorzystywany głównie do przewozu ładunków masowych i niczego więcej. Teraz jednak, gdy Rozbite Światło powoli się zbliża, stado pelikanów rozprasza się przed nim, wyglądając niczym stado sieweczek przed zbliżającym się wielbłądem.`
+			`	Na ziemi widzisz, jak Ruach i jej zespół wychodzą ze śluzy powietrznej po stronie Rozbitego Światła i zeskakują na ziemię. Gromadzą się wokół, przytulając się. "<first>!" wykrzykuje Ruach. "Odzyskaliśmy zagubiony fragment historii Porzuconych. Dziękuję za pomoc. Nie wiem, co to dla nas oznacza na dłuższą metę, ale przez kilka najbliższych tygodni czeka nas wiele wnikliwych badań. "`
 			choice
-				`	"I have things to do, so just let me know if I can help."`
+				`	"Mam kilka rzeczy do zrobienia, więc daj mi znać, jeśli będę mógł pomóc."`
 					goto "shattered help"
-				`	"So, what happened?"`
-			`	The team of Remnant are almost too excited for you to understand their gestures, but one calms down enough that their signing is comprehensible. "To be honest, we were expecting this to be the first of several trips doing detailed scans and trying out different sorts of synchronization fields. But when we saw that it was heading to the planet..." She trails off, and another one continues. "We already had the sensors running as we approached, so we jumped and triggered the fields as soon as we got a reasonable match."`
-			`	He frowns a bit. "It worked, although not perfectly. There are chunks missing, some of which seriously impair its functionality. But it is back in the Primary Weft, so now we have time to work on it and figure out what happened to it."`
+				`	"No więc, co się stało?"`
+			`	Zespół Remnant jest niemal zbyt podekscytowany, żebyś zrozumiał ich gesty, ale jeden z nich uspokaja się na tyle, że ich znaki są zrozumiałe. "Szczerze mówiąc, spodziewaliśmy się, że to będzie pierwsza z kilku wypraw, podczas których przeprowadzimy szczegółowe skanowanie i wypróbujemy różne rodzaje pól synchronizacji. Ale kiedy zobaczyliśmy, że zmierza w stronę planety..." Jej głos cichnie, a kolejny kontynuuje. "Sensory były już uruchomione, gdy się zbliżaliśmy, więc skoczyliśmy i uruchomiliśmy pola, gdy tylko uzyskaliśmy sensowne dopasowanie."`
+			`	Trochę się marszczy. "Działa, choć nie idealnie. Brakuje fragmentów, z których niektóre poważnie upośledzają jego funkcjonalność. Ale wrócił do wątku głównego, więc teraz mamy czas, żeby nad nim popracować i dowiedzieć się, co się z nim stało."`
 			choice
-				`	"I think I get the picture. Let me know if I can help."`
+				`	"Myślę, że rozumiem. Daj znać, jeśli będę mógł pomóc."`
 					goto "shattered help"
-				`	"What is this 'Primary Weft' you have mentioned?"`
-			`	Another Remnant steps forward. "The Weft is what we term the mesh of dimensions, energy, and time that form a subset of the universe. A layer, of sorts." He looks thoughtful. "What you probably know as 'Hyperspace' is what we technically call the Secondary Weft. There are a few others we are fairly confident exist, and several that we have hypothesized might exist but we have no means of confirming. Practically, each of these overlaps with the Primary Weft to some extent." His gestures take on an amused tone. "Of course, what we call the Primary Weft is only primary to those of us who live here. For all we know, there may be people living elsewhere that consider their own weft to be the primary one. Nothing says ours is special or the best or anything of the sort. Actually, it has been proposed that we call the Primary Weft the Warp. It is an old weaving term that serves as a reasonable analogy to how the warp and weft interact, and might better reflect its status instead of being labeled 'Primary.'`
+				`	"Co to jest za "główny wątek", o którym wspomniałeś?"`
+			`	Kolejny Pozostały robi krok naprzód. "Wątek to to, co nazywamy siatką wymiarów, energii i czasu, które tworzą podzbiór wszechświata. Warstwa, swego rodzaju." Wygląda na zamyślonego. "To, co prawdopodobnie znasz jako "hiperprzestrzeń", technicznie nazywamy Wątkiem Wtórnym. Jest kilka innych, co do których jesteśmy dość pewni, że istnieją, i kilka, co do których mamy hipotezy, że mogą istnieć, ale nie mamy sposobu, aby to potwierdzić. W praktyce każdy z nich w pewnym stopniu pokrywa się z Wątkiem Pierwotnym." Jego gesty przybierają rozbawiony ton. "Oczywiście, to, co nazywamy Wątkiem Pierwotnym, jest pierwotne tylko dla tych z nas, którzy tu mieszkają. O ile nam wiadomo, mogą istnieć ludzie mieszkający gdzie indziej, którzy uważają swój własny wątek za pierwotny. Nic nie mówi, że nasz jest wyjątkowy, najlepszy czy cokolwiek w tym rodzaju. Właściwie zaproponowano, abyśmy nazwali Wątek Pierwotny Osnową. Jest to stary termin tkacki, który stanowi rozsądną analogię do interakcji osnowy i wątku, i który może lepiej odzwierciedlać jego status, niż określenie "podstawowy".`
 			label "shattered help"
-			`	"In terms of help, could you go to Caelian? We have sent word ahead, and our engineers are retrieving some of our remaining equipment from the time of the Exodus. We are hoping that it might be of use to help us repair the Shattered Light, or at least understand what happened to it.`
-			`	"Before you leave, though, there was some stuff that survived intact we would like to share with you." Behind her five androids emerge from one of the cargo holds, each one carrying a large trunk of equipment.`
+			`	"Jeśli chodzi o pomoc, czy mógłbyś zwrócić się do Caeliana? Wysłaliśmy wiadomość wcześniej i nasi inżynierowie odzyskują część pozostałego sprzętu z czasów Exodusu. Mamy nadzieję, że przyda się nam do naprawy Rozbitego Światła, a przynajmniej do zrozumienia, co się z nim stało.`
+			`	"Zanim jednak odejdziesz, chcielibyśmy się z tobą podzielić kilkoma rzeczami, które przetrwały w nienaruszonym stanie." Za nią z jednej z ładowni wyłania się pięciu androidów, każdy niosący duży kufer pełen sprzętu.`
 			scene "outfit/android"
-			`	"These are known as NDR-114 Androids, and were cutting edge innovations back when the Exodus occurred. Don't expect too much of them. They are not self-aware, sentient, or even particularly advanced artificial intelligences. They are, however, excellent extensions of a ship's self-maintenance systems. As it turns out, a large number of these androids were instrumental in keeping the Shattered Light flying all these years. We have plenty to study, so we thought you might appreciate having a few." She makes a dismissive gesture. "If they end up not being helpful for you, our outfitters will be able to re-assign them to another ship.`
-			`	"Embers light your path, Captain <first>." With that, the crowd disperses.`
+			`	"Są one znane jako androidy NDR-114 i były przełomową innowacją w czasach Exodusu. Nie oczekujcie od nich zbyt wiele. Nie są samoświadome, świadome ani nawet szczególnie zaawansowane. Są jednak doskonałym rozszerzeniem systemów samoobsługowych statku. Okazuje się, że duża liczba tych androidów odegrała kluczową rolę w utrzymaniu Rozbitego Światła w powietrzu przez te wszystkie lata. Mamy wiele do zbadania, więc pomyśleliśmy, że docenisz posiadanie kilku." Wykonuje lekceważący gest. "Jeśli ostatecznie nie będą dla ciebie pomocne, nasi ekwipunkowcy będą mogli je przypisać do innego statku.`
+			`	"Żar oświetla ci drogę, Kapitanie <first>." Po tych słowach tłum się rozchodzi.`
 
 
 
@@ -606,39 +606,39 @@ mission "Remnant: Shattered Light 6"
 		has "Remnant: Shattered Light 5: done"
 	on offer
 		conversation
-			`On <origin>, the spaceport is awash in conversation, and you spot snippets here and there of people talking about the recovery of the Shattered Light. Many are speculating as to what happened to it in the first place, while others are discussing the technical merits of what the research team did to recover it. Details travel quickly, it seems.`
-			`	The team you are sent to pick up are waiting next to the information desk. They have a collection of pallets nearby, and a small crowd is gathered around them in animated conversation. They spot you and the crowd start waving their goodbyes as the group pick up their bags and head towards you.`
-			`	"Ah, <first>! Thank you for transporting us. We are excited to see the Shattered Light and start studying this mystery you have found." They briskly head to your ship.`
+			`Na <origin> kosmodrom jest zalewany rozmowami i tu i ówdzie można usłyszeć fragmenty rozmów o odzyskaniu Rozbitego Światła. Wielu spekuluje, co się z nim w ogóle stało, podczas gdy inni dyskutują o technicznych zaletach działań zespołu badawczego, aby go odzyskać. Wygląda na to, że szczegóły szybko się rozchodzą.`
+			`	Zespół, po którego odbiór zostałeś wysłany, czeka obok punktu informacyjnego. Mają w pobliżu zbiór palet, a wokół nich gromadzi się niewielki tłumek pogrążony w ożywionej rozmowie. Zauważają cię, a tłum zaczyna machać na pożegnanie, gdy grupa odbiera swoje torby i kieruje się w twoją stronę.`
+			`	"Ach, <first>! Dziękujemy za transport. Nie możemy się doczekać, żeby zobaczyć Rozbite Światło i zacząć zgłębiać tajemnicę, którą odkryłeś." Szybko kierują się w stronę twojego statku.`
 				accept
 	on complete
 		event "remnant: shattered light"
 		event "remnant: shattered light research" 60
 		conversation
-			`The Remnant spend the trip busily discussing what is known so far and exchanging theories, eagerly asking you questions about what you saw and reviewing your sensor records. By the time you reach Viminal, they have a whole collection of theories and have a preliminary plan of what studies they hope to do. When pressed, however, they all acknowledge that their top priority will be documenting the ship. Every scratch, every oddly charged component, every minor modification. "After all," they say, "knowing how it is now is the first step to determining how it arrived here."`
-			`	The entire complement of Remnant crowd the windows when you settle into the final approach for the covered valley that houses the Shattered Light. You can see that the Remnant have been busy setting up large equipment towers around it, including several small encampments of tents. As you settle in for a landing, you see a camel team maneuver a sled with a large anti-aircraft battery into position, where it is promptly shrouded in a tent that blends into the rest of the camp.`
-			`	Traffic control directs you to a pad near a large door of the Shattered Light. Ruach and a small group of Remnant are gathered around a hologram of the ship, and seem to be co-ordinating teams exploring it. Large mounds of equipment appear to have expanded from the sides of the ship, some of which appears to be functional. As you go through your landing checks, the team thank you for the transportation and begin offloading their equipment.`
-			`	"Welcome back, <first>!" signs Ruach from across the pad. "We have made considerable progress already." She appears set to explain what they have discovered.`
+			`Pozostali spędzają podróż, omawiając dotychczasowe informacje i wymieniając się teoriami, z zapałem zadając pytania o to, co widzieliście, i analizując zapisy z czujników. Zanim dotrzecie do Viminal, będą mieli już całą kolekcję teorii i wstępny plan badań, które planują przeprowadzić. Jednak naciskani, wszyscy przyznają, że ich najwyższym priorytetem będzie udokumentowanie statku. Każde zadrapanie, każdy dziwnie naładowany element, każda drobna modyfikacja. "W końcu, "mówią, "wiedza o jego obecnym stanie to pierwszy krok do ustalenia, jak się tu znalazł."`
+			`	Cały skład Remnant tłoczy się w oknach, gdy przygotowujesz się do ostatniego podejścia do zadaszonej doliny, w której znajduje się Rozbite Światło. Widzisz, że Remnant jest zajęty rozstawianiem wokół niej dużych wież ze sprzętem, w tym kilku małych obozowisk namiotowych. Gdy przygotowujesz się do lądowania, widzisz, jak zaprzęg wielbłądów manewruje saniami z dużą baterią przeciwlotniczą, ustawiając je na odpowiedniej pozycji, gdzie zostają one natychmiast otulone namiotem, który wtapia się w resztę obozu.`
+			`	Kontrola ruchu kieruje cię na lądowisko w pobliżu dużych drzwi Rozbitego Światła. Ruach i niewielka grupa Porzuconych zgromadzili się wokół hologramu statku i najwyraźniej koordynują działania zespołów eksploracyjnych. Z boków statku wyrosły duże stosy sprzętu, z których część wydaje się być sprawna. Podczas kontroli lądowania zespół dziękuje ci za transport i rozpoczyna rozładowywanie sprzętu.`
+			`	"Witamy ponownie, <first>!" - znak Ruach zza pulpitu. "Zrobiliśmy już znaczne postępy." Wygląda na to, że jest gotowa wyjaśnić, co odkryli.`
 			choice
-				`	"Great, but please spare me the details."`
+				`	"Świetnie, ale proszę oszczędź mi szczegółów."`
 					goto "shattered request"
-				`	"You figured out what happened? Great!"`
-			`	She looks crestfallen. "Well, we know what the ship thinks happened, anyway. It is likely that what actually happened differs significantly." Her posture takes on a more positive stance. "We have had the opportunity to start querying the onboard systems and piece together a little of the Shattered Light's history. Particularly the logs.`
-			`	"As we all know, it was part of the Exodus fleet that entered the Terminus wormhole. Unlike most of the other ships, however, it never emerged from the other side. Fortunately, it had a significantly larger array of instruments than was normal for ships of its type, and it looks like at least some of the databanks survived."`
-			`	At this point another Remnant takes up the narrative. "Based on the initial incident logs, it appears that something in the stabilization fields failed during transit. The data is not clear whether the systems failed, or if something in the wormhole fluctuations exceeded the parameters that the systems could handle. In any case, the ship appears to have been shunted laterally from the wormhole in mid-transit.`
-			`	"It is unclear what happened after that, but the ship was subject to significant forces including unidentified impacts that caused multiple system failures. The data loses some coherence at this point, but it basically seems to have been semi-permanently stuck out-of-phase with the prime weft until an energy surge destabilized it and it wobbled back into prime coherence. At that point, it started being visible again, and shortly after, you spotted it."`
+				`	"Dowiedziałeś się, co się stało? Świetnie!"`
+			`	Wygląda na przygnębioną. "Cóż, i tak wiemy, co statek uważa za zajście. Prawdopodobnie to, co się faktycznie wydarzyło, znacznie się różni." Jej postawa nabiera bardziej pozytywnego wyrazu. "Mieliśmy okazję rozpocząć przeszukiwanie systemów pokładowych i zebrać trochę historii Shattered Light. Zwłaszcza dzienników pokładowych.`
+			`	"Jak wszyscy wiemy, był częścią floty Exodus, która wpłynęła do tunelu czasoprzestrzennego Terminus. Jednak w przeciwieństwie do większości innych statków, nigdy nie wynurzył się z drugiej strony. Na szczęście posiadał znacznie większy zestaw instrumentów niż zazwyczaj w tego typu statkach i wygląda na to, że przynajmniej część baz danych przetrwała."`
+			`	W tym momencie inny Porzucony podejmuje narrację. "Na podstawie początkowych dzienników incydentów wydaje się, że coś w polach stabilizacyjnych uległo awarii podczas tranzytu. Dane nie są jasne, czy systemy uległy awarii, czy też coś w fluktuacjach tunelu czasoprzestrzennego przekroczyło parametry, które systemy mogły obsłużyć. W każdym razie statek najwyraźniej został przesunięty bocznie od tunelu czasoprzestrzennego w trakcie tranzytu.`
+			`	"Nie jest jasne, co wydarzyło się później, ale statek został poddany działaniu znacznych sił, w tym niezidentyfikowanym uderzeniom, które spowodowały liczne awarie systemów. Dane tracą w tym momencie spójność, ale zasadniczo wydaje się, że był on na wpół trwale zablokowany w fazie poza głównym wątkiem, dopóki gwałtowny wzrost energii go nie zdestabilizował i nie powrócił do pierwotnej spójności. W tym momencie znów stał się widoczny i wkrótce potem został dostrzeżony."`
 			choice
-				`	"Interesting. Well, let me know if I can help."`
+				`	"Ciekawe. Daj znać, jeśli będę mógł pomóc."`
 					goto "shattered help"
-				`	"I am curious as to what you will do now."`
-			`	"The first step will be to unpack the Shattered Light and set up all its equipment. Taking detailed scans of each piece as we do so, of course." She gestures around at the equipment expanding out of the side of the ship. "As you can see, we have already started the process and found that much of it is operational."`
-			`	One of the other Remnant continues. "The Shattered Light carried what amounts to an entire heavy industrial factory. Everything from smelters to welding equipment and everything in between." They smile and their gestures take on a tone of irony. "In fact, the ships we have now are in no small part due to the Shattered Light's absence. Without these capabilities, the choice about whether or not to commit to learning the techniques of those who lived here before us was much easier. If the Shattered Light had arrived on schedule we may well still be building ships out of the traditional materials prevalent at the time."`
+				`	"Ciekawi mnie, co teraz zrobisz."`
+			`	"Pierwszym krokiem będzie rozpakowanie Shattered Light i rozstawienie całego wyposażenia. Oczywiście, wykonując szczegółowe skany każdego elementu." Wskazuje gestem na sprzęt wystający z burty statku. "Jak widać, już rozpoczęliśmy proces i odkryliśmy, że większość z niego działa."`
+			`	Jeden z pozostałych Remnantów kontynuuje. "The Shattered Light przewoził coś w rodzaju całej fabryki ciężkiego przemysłu. Wszystko, od hut po sprzęt spawalniczy i wszystko pomiędzy." Uśmiechają się, a w ich gestach słychać ironię. "W rzeczywistości statki, które mamy teraz, w dużej mierze zawdzięczamy nieobecności Shattered Light. Bez tych możliwości wybór, czy zaangażować się w naukę technik tych, którzy żyli tu przed nami, byłby znacznie łatwiejszy. Gdyby Shattered Light przybył zgodnie z planem, być może nadal budowalibyśmy statki z tradycyjnych materiałów, powszechnie stosowanych w tamtych czasach."`
 				goto "shattered request"
 			label "shattered help"
-			`	"Thank you, Captain. Of course we do not want to keep you waiting, so rest assured that we will contact you if your assistance is needed in the future."`
+			`	"Dziękujemy, Kapitanie. Oczywiście nie chcemy kazać Panu czekać, więc proszę być pewnym, że skontaktujemy się z Panem, jeśli w przyszłości będzie potrzebna Pańska pomoc."`
 			label "shattered request"
-			`	Ruach's gestures take on a tone of curiosity. "One thing that you could help us with, if you wish, is resources. Right now we do not have any real need to put all this machinery to work, and as such we do not have the resources to spare to get it fully operational. That being said, if ever you would like a replica of the Shattered Light, we could use this equipment to build one."`
-			`	Her gestures take on an apologetic tone. "It will not be a perfect replica as we will have to use our own systems for most of the internals, and the resource allotment cost will be significantly higher than it would have been back at the Tycho Crater shipyard on Luna... but if you have the resources and interest, the opportunity is there. The shipyard will have more information for you in a day or two." Her gestures trail off with a sign that indicates vast possibilities.`
-			`	"Someday, Captain <first>, much may come from this. But for now, it will be months before we have analyzed everything. Thank you for helping recover a piece of our history, Captain."`
+			`	Gesty Ruacha nabierają tonu ciekawości. "Jeśli chcesz, możesz nam pomóc w zasobach. W tej chwili nie mamy realnej potrzeby uruchamiania całej tej machiny i w związku z tym nie dysponujemy środkami, aby ją w pełni uruchomić. Mimo to, jeśli kiedykolwiek zechcesz replikę Rozbitego Światła, możemy wykorzystać ten sprzęt do jej zbudowania. "`
+			`	Jej gesty przybierają przepraszający ton. "To nie będzie idealna replika, ponieważ będziemy musieli korzystać z własnych systemów do większości zadań wewnętrznych, a koszt alokacji zasobów będzie znacznie wyższy niż w stoczni w Kraterze Tycho na Księżycu... ale jeśli macie zasoby i jesteście zainteresowani, to jest okazja. Stocznia będzie miała dla was więcej informacji za dzień lub dwa." Jej gesty urywają się, a na ich miejscu pojawia się znak wskazujący na ogromne możliwości.`
+			`	"Pewnego dnia, Kapitanie <first>, wiele może z tego wyniknąć. Ale na razie miną miesiące, zanim wszystko przeanalizujemy. Dziękuję za pomoc w odzyskaniu fragmentu naszej historii, Kapitanie."`
 
 
 
@@ -660,19 +660,19 @@ mission "Remnant: Scent of Rain 1"
 		conversation
 			branch "scent ssil vida"
 				has "flagship planet: Ssil Vida"
-			`You step out of your airlock to see Prefect Chilia striding towards you. "Captain <first>! I read a report mentioning that you dealt with a trio of 'olofezes out in the Postverta region. Would you be interested in doing some reconnaissance for us? We would like to track down where those came from."`
+			`Wychodzisz ze śluzy powietrznej i widzisz prefekta Chilię kroczącego w twoim kierunku. "Kapitanie <first>! Czytałem raport, w którym wspomniano, że rozprawiłeś się z trójką 'olofezów w regionie Postverta. Czy byłbyś zainteresowany przeprowadzeniem dla nas rekonesansu? Chcielibyśmy ustalić, skąd się one wzięły. "`
 				goto "scent of rain choice"
 			label "scent ssil vida"
-			`You step out of your airlock to see Prefect Chilia striding towards you. "Captain <first>! I read a report mentioning that you dealt with a trio of 'olofezes patrolling alone near here. Would you be interested in doing some reconnaissance for us? We would like to track down where those came from."`
+			`Wychodzisz ze śluzy i widzisz prefekta Chilię kroczącego w twoim kierunku. "Kapitanie <first>! Czytałem raport, w którym wspomniano, że rozprawiłeś się z trójką 'olofezów patrolujących samotnie okolicę. Czy byłbyś zainteresowany przeprowadzeniem dla nas rekonesansu? Chcielibyśmy ustalić, skąd się wzięły. "`
 			label "scent of rain choice"
 			choice
-				`	"Yes, I could do that."`
-				`	"I would rather not."`
+				`	"Tak, mógłbym to zrobić."`
+				`	"Wolałbym nie."`
 					goto "rather not"
-			`	He signs appreciatively. "We admire your willingness to help." He pulls up a hologram of the Ember Waste, and it shifts to display the systems towards the core. "We are concerned that the Korath may have a new ship that can carry three fighters. Based on the Korath's typical movement patterns, we suspect that - if such a ship exists - it should be somewhere in the nearer Korath systems. We will upload an algorithm to your targeting system to look for ship profiles that have no matches in our database. Please do an outfit scan of whatever ship you find, and report back to me on <destination>."`
+			`	Podpisuje z uznaniem. "Doceniamy Twoją chęć pomocy." Wyświetla hologram Pustkowia Żaru, który przesuwa się, wyświetlając systemy w kierunku jądra. "Obawiamy się, że Korath może mieć nowy statek, który może pomieścić trzy myśliwce. Na podstawie typowych schematów ruchu Korath podejrzewamy, że - jeśli taki statek istnieje - powinien znajdować się gdzieś w bliższych systemach Korath. Prześlemy algorytm do Twojego systemu namierzania, aby wyszukał profile statków, które nie mają odpowiedników w naszej bazie danych. Proszę, przeskanuj wyposażenie każdego znalezionego statku i daj mi znać na <destination>."`
 				accept
 			label "rather not"
-			`	He nods respectfully. "Well, thank you for all that you have done for us. I will see who else is available." With that, he heads off into the starport.`
+			`	Skiwa głową z szacunkiem. "Cóż, dziękuję za wszystko, co dla nas zrobiłeś. Zobaczę, kto jeszcze jest dostępny." Po tych słowach rusza do portu kosmicznego.`
 				decline
 	npc "scan outfits"
 		government "Korath"
@@ -693,24 +693,24 @@ mission "Remnant: Scent of Rain 1"
 				"'olofez" 3
 	on enter "Kor Zena'i"
 		dialog
-			`The algorithm quickly parses the ship signatures present here, and notifies you that one in particular does not match its database: the one identified as the "Ra'puk At 333." This must be the ship that Chilia would like a scan of.`
+			`Algorytm szybko analizuje sygnatury statków obecne tutaj i powiadamia Cię, że jeden konkretny nie pasuje do jego bazy danych: ten zidentyfikowany jako "Ra'puk At 333." To musi być statek, którego skanu Chilia chciałaby uzyskać.`
 	on complete
 		payment 150000
 		conversation
-			`Chilia is waiting for you when you land. Judging by the hologram floating before him, he appears to already be reviewing the data from your scan. As you approach, he pushes it to the side to focus on you. "This is interesting data," he comments. "What are your thoughts, having seen it first hand?"`
+			`Chilia czeka na ciebie, gdy wylądujesz. Sądząc po hologramie unoszącym się przed nim, zdaje się już analizować dane z twojego skanowania. Gdy się zbliżasz, odsuwa go na bok, aby skupić się na tobie. "To ciekawe dane, " komentuje. "Co o tym myślisz, widząc to na własne oczy? "`
 			choice
-				`	"You were right in suspecting that this new ship carries an additional fighter. One more fighter might not change much in combat, but if the Korath are building new warships, they may also be building stronger fighters."`
-				`	"An extra fighter bay isn't the only thing this new ship has. It also comes with an extra gun, bigger engines, superior shields and hull, and likely other unseen improvements. Overall it's much more formidable than its predecessor."`
-			`	He listens attentively to your account of visiting Kor Zena'i, nodding thoughtfully at various insights.`
-			`	"Thank you for investigating this, <first>. I will ensure that our engineers get your data immediately, and brief our patrols to be aware of this increased capacity." His gestures have a tone of anticipation and regret.`
+				`	"Miałeś rację, podejrzewając, że ten nowy statek ma na pokładzie dodatkowy myśliwiec. Jeden dodatkowy myśliwiec może niewiele zmienić w walce, ale jeśli Korathowie budują nowe okręty wojenne, mogą również budować silniejsze myśliwce."`
+				`	"Dodatkowa komora myśliwska to nie jedyna rzecz, jaką ma ten nowy okręt. Ma też dodatkowe działo, większe silniki, lepsze osłony i kadłub oraz prawdopodobnie inne niewidoczne ulepszenia. Ogólnie rzecz biorąc, jest znacznie groźniejszy niż jego poprzednik."`
+			`	Słucha uważnie twojej opowieści o wizycie u Kor Zena'i, kiwając głową z namysłem na różne spostrzeżenia.`
+			`	"Dziękuję za zbadanie sprawy, <first>. Dopilnuję, aby nasi inżynierowie natychmiast otrzymali Twoje dane i poinformuję nasze patrole o zwiększonej przepustowości." W jego gestach słychać ton oczekiwania i żalu.`
 			choice
-				`	"You are welcome."`
+				`	"Proszę bardzo."`
 					goto "scanning payment"
-				`	"Are you expecting something?"`
-			`	Chilia smiles wistfully. "Do you know that feeling, when the whole world is still and the skies are clear, and yet you know in your bones that a storm is coming?" He continues without waiting for a response. "Well, I have had that feeling for decades, growing ever stronger. And now..." He pauses, drawing a deep breath. "Now, it feels like this is the first scent of rain. The first thing I can actually identify as a solid indicator that a storm is brewing."`
-			`	He shakes his head. "But no matter. Planning for the storm is my duty, not yours, and the front is yet to appear.`
+				`	"Czy czegoś oczekujesz?"`
+			`	Chilia uśmiecha się melancholijnie. "Znasz to uczucie, kiedy cały świat stoi w miejscu, a niebo jest czyste, a mimo to czujesz w kościach, że nadchodzi burza?" Kontynuuje, nie czekając na odpowiedź. "Cóż, mam to uczucie od dekad i staje się coraz silniejsze. A teraz..." Przerywa, biorąc głęboki oddech. "Teraz czuję, jakby to był pierwszy zapach deszczu. Pierwszy, co mogę zidentyfikować jako wyraźny sygnał, że nadchodzi burza."`
+			`	Kręci głową. "Ale mniejsza z tym. Planowanie na wypadek burzy to mój obowiązek, nie twój, a front jeszcze się nie pojawił.`
 			label "scanning payment"
-			`	"We have allocated you <payment> for the risks undertaken. Please use it wisely. While it is my duty to anticipate threats to us all, it is your duty to ensure you are prepared to face the winds they may bring." He turns and strides away, quickly vanishing into the tunnels beneath the spaceport.`
+			`	"Przydzieliliśmy ci <payment> ze względu na podejmowane ryzyko. Proszę, wykorzystaj to mądrze. Chociaż moim obowiązkiem jest przewidywanie zagrożeń dla nas wszystkich, twoim obowiązkiem jest upewnić się, że jesteś przygotowany na stawienie czoła wiatrom, które mogą one przynieść. " Odwraca się i odchodzi, szybko znikając w tunelach pod kosmoportem.`
 
 
 
@@ -732,17 +732,17 @@ mission "Remnant: Will Not Someone Please Think Of The Children"
 				not "flagship planet: Ssil Vida"
 	on offer
 		conversation
-			`You step out of your airlock to find Prefect Chilia waiting for you with a worried look on his face. "Captain <first>, I have a sensitive request for you.`
-			`	"Our scouts are reporting a stranded Korath ship in Vaticanus, a Dathnak A'awoj to be precise. If it were a typical warship obstructing our operations, we would request you track it down and eliminate it, but because ships of this type tend to be home to a large civilian population, destroying or capturing it outright may instigate a reprisal, especially in that sector.`
-			`	"Would you be up for disabling it, so the threat is eliminated while preserving the lives of the innocents on board?" His signs shift from a questioning tone to a confident one. "After you are done we can disarm the ship and fix their jump drive. If they adhere to their typical doctrine they should decide to head back home."`
+			`Wychodzisz ze śluzy i widzisz, że prefekt Chilia czeka na ciebie z zaniepokojonym wyrazem twarzy. "Kapitanie <first>, mam do ciebie delikatną prośbę.`
+			`	"Nasi zwiadowcy zgłaszają osiadły na mieliźnie okręt Korath w Watykanie, a konkretnie okręt Dathnak A'awoj. Gdyby to był typowy okręt wojenny utrudniający nasze operacje, prosilibyśmy o jego namierzenie i wyeliminowanie, ale ponieważ okręty tego typu zazwyczaj zamieszkuje duża liczba ludności cywilnej, ich zniszczenie lub przechwycenie może sprowokować odwet, szczególnie w tym sektorze.`
+			`	"Czy zgodziłbyś się na jego wyłączenie, aby wyeliminować zagrożenie, jednocześnie ratując życie niewinnych osób na pokładzie?" Jego miny zmieniają ton z pytającego na pewny. "Po tym, jak skończysz, możemy rozbroić statek i naprawić ich napęd skokowy. Jeśli będą trzymać się swojej typowej doktryny, powinni zdecydować się na powrót do domu."`
 			choice
-				`	"Happy to help those in need, even the Korath."`
-				`	"I have no intentions of risking my neck for some Korath."`
+				`	"Chętnie pomogę potrzebującym, nawet Korath."`
+				`	"Nie mam zamiaru ryzykować życia dla jakiegoś Koratha."`
 					goto "rather not"
-			`	"I am grateful for your understanding and willingness to help here. Together we can ensure everyone gets home safely."`
+			`	"Jestem wdzięczny za Państwa zrozumienie i chęć pomocy. Razem możemy zapewnić wszystkim bezpieczny powrót do domu."`
 				accept
 			label "rather not"
-			`	He nods in acknowledgment and his gestures take on a staccato phrasing. "I feared my ask was too much. I understand the sentiment. Perhaps I was naive to think such an outcome was possible."`
+			`	Kiwa głową na znak uznania, a jego gesty stają się staccato. "Obawiałem się, że moja prośba jest zbyt wygórowana. Rozumiem intencje. Może byłem naiwny, sądząc, że taki wynik jest możliwy."`
 				decline
 	npc disable save
 		government "Korath"
@@ -769,6 +769,6 @@ mission "Remnant: Will Not Someone Please Think Of The Children"
 		"remnant: disable and save count" ++
 		payment 2500000
 		conversation
-			`You find Chilia with a relieved look on his face when you land.`
-			`	"These assignments are typically handled by our most trusted teams, as taking on the larger Korath vessels is a sensitive matter. Most of their larger ships are home to large groups of Korath civilians, including children. I must admit there were concerns you might not be those children's best chance, but our fleet was occupied elsewhere at the time. I am glad I was not wrong in my assessment of you," he signs with a content smile on his face.`
-			`	"We must be careful not to let ignorance of Korath society result in the unnecessary destruction of similar ships. Now that you have shown you can handle these tasks with the proper finesse, you can expect these to turn up in the task board in the future." Chilia then walks away with a confident pace.`
+			`Kiedy wylądujesz, na twarzy Chilii pojawi się wyraz ulgi.`
+			`	"Te zadania zazwyczaj realizują nasze najbardziej zaufane zespoły, ponieważ podejmowanie się większych statków Korath to delikatna sprawa. Większość ich większych statków jest domem dla dużych grup cywilów Korath, w tym dzieci. Muszę przyznać, że obawiałem się, że nie będziesz najlepszą szansą dla tych dzieci, ale nasza flota była w tym czasie zajęta gdzie indziej. Cieszę się, że nie pomyliłem się w ocenie ciebie, " podpisuje z zadowolonym uśmiechem na twarzy.`
+			`	"Musimy uważać, aby nieznajomość społeczeństwa Korath nie doprowadziła do niepotrzebnego zniszczenia podobnych statków. Skoro pokazałeś, że potrafisz poradzić sobie z tymi zadaniami z odpowiednią finezją, możesz spodziewać się, że pojawią się one na tablicy zadań w przyszłości. " Chilia odchodzi pewnym krokiem. `

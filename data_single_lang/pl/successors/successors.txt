@@ -547,7 +547,7 @@ trade
 		"ossified flowers"
 		"phantasmic glass amulets"
 		"polychromatic canvases"
-		`"red gold" armlets`
-		`"red gold" piercings`
+		`"czerwone złote" naramienniki`
+		`"czerwone złoto" piercing`
 		"transparent ceramic goblets"
 		"unfilled reliquaries"

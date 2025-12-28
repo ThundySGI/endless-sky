@@ -158,4 +158,4 @@ phrase "free worlds failed"
 
 phrase "free worlds declined"
 	word
-		`You have declined an essential Free Worlds mission. If you want to continue the story line, revert to the autosave or another earlier snapshot of your pilot.`
+		`Odrzuciłeś ważną misję w Wolnych Światach. Jeśli chcesz kontynuować fabułę, wróć do autozapisu lub innego wcześniejszego zapisu stanu swojego pilota.`

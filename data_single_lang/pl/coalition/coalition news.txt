@@ -25,7 +25,7 @@ news "heliarch news"
 			"The news show a Heliarch consul giving a short speech in a ship launching ceremony. After they finish, the brand new Heliarch warships are shown heading to their first patrol."
 			"All the spaceport screens momentarily swap to a broadcast from the Heliarch government, where they show a video of several dozens of arrested criminals. The Heliarch host describing the event mentions their sentences range from 40 years to life, prompting varying reactions from the civilian spectators."
 			"During one of the more busy hours on the spaceport, the news details the crimes of a recently arrested terrorist group: arson, kidnapping, theft of government equipment, possession of weapons, conspiring against the Coalition, attacking both government and civilian properties, subversion... The list goes on for a few more minutes."
-			`After the latest report on how the Heliarchs arrested some terrorists on a nearby world, the news shows various short clips with the same message, asking the public to "stay vigilant" and report any and all suspicious activity.`
+			`Po najnowszym raporcie o aresztowaniu przez Heliarchów terrorystów na pobliskiej planecie, w wiadomościach pokazano kilka krótkich klipów z tym samym przesłaniem, w którym apelowano do społeczeństwa o "zachowanie czujności" i zgłaszanie wszelkich podejrzanych działań.`
 
 news "heliarch propaganda"
 	location
@@ -49,11 +49,11 @@ news "longcow rancher"
 			"Longcow rancher"
 	message
 		word
-			`"Caring for longcows, hard work it is. Too much space they take up. Too many legs."`
-			`"Never been around an angry longcow, have you? Word of advice, avoid their sides you should."`
-			`"Stopped using vaccines on longcows, long ago we did. Remember which leg to apply them on, we never could."`
-			`"Wish understand my jokes, my beauties could. Many kicks out of them, they would get."`
-			`"Fresh steak here! First leg steak, second leg steak... a discount for tenth leg steak there is!"`
+			`"Opieka nad krowami to ciężka praca. Zajmują za dużo miejsca. Za dużo nóg."`
+			`"Nigdy nie widziałeś wściekłej krowy, prawda? Mała rada: unikaj ich stron. "`
+			`"Przestaliśmy stosować szczepionki u krów długonogich, dawno temu to zrobiliśmy. Nigdy nie potrafiliśmy pamiętać, na którą nogę je podawać."`
+			`"Chciałabym, żeby moje żarty rozumiały, moje piękności by potrafiły. Dostałyby z nich niezłego kopa."`
+			`"Świeży stek tutaj! Pierwszy stek z udźca, drugi stek z udźca... zniżka na dziesiąty stek z udźca!"`
 			"You see a rancher walk out of a shop with a trolley full of bells. You wonder if they are for multiple longcows, or just a particularly long one."
 
 news "kimek farmer"
@@ -66,11 +66,11 @@ news "kimek farmer"
 			"Kimek farmer"
 	message
 		word
-			`"When starting out on this business, I was, lost in the farm I got. Tricky to tell where you are, it is, when green is all you see."`
-			`"A Heliarch agent, I once was. Too stressful, it was for me, so this job I took. Messages from colleagues, I still get, but if see the fruits I plant here, they could, definitely join me, they would."`
-			`"Some fresh produce would you like, Captain? If purchase these, you do, teach you a family recipe I could. I'm sure that love it, a human would. Probably."`
+			`"Kiedy zaczynałem ten biznes, byłem zagubiony w tej farmie, którą dostałem. Trudno powiedzieć, gdzie jesteś, kiedy widzisz tylko zieleń."`
+			`"Kiedyś byłem agentem Heliarch. Zbyt stresujące, dla mnie, więc przyjąłem tę pracę. Wiadomości od kolegów nadal dostaję, ale jeśli zobaczą owoce, jakie tu sieję, to na pewno do mnie dołączą. "`
+			`"Chce pan trochę świeżych produktów, Kapitanie? Jeśli je pan kupi, to chętnie nauczę pana rodzinnego przepisu. Jestem pewien, że człowiek by je pokochał. Prawdopodobnie."`
 			"After noticing you looking at the produce, the farmer asks if you would like some free samples, before grabbing an entire box with various fruits and vegetables and handing it to you."
-			`Dozens of farmers in different stands call out to you as you walk by the spaceport, asking you to take a look at the special prices of today's "food expo." You later look into it, and turns out yesterday there also was an expo, as well as the day before that. Tomorrow's starts the moment today's ends.`
+			`Dziesiątki rolników na różnych stoiskach wołają do ciebie, gdy przechodzisz obok kosmodromu, prosząc o zerknięcie na specjalne ceny dzisiejszych "food expo." Później sprawdzasz i okazuje się, że wczoraj też były targi, a także przedwczoraj. Jutrzejsze zaczyna się w momencie zakończenia dzisiejszych.`
 
 news "heliarch agent"
 	location
@@ -80,19 +80,19 @@ news "heliarch agent"
 			"Heliarch agent"
 	message
 		word
-			`"Protect and serve."`
-			`"If any assistance you need, at your disposal I am."`
-			`"If any trouble you find, report it to us you must."`
-			`"Saryd, Kimek, Arach, human, no matter what species, to protect all of our citizens, committed we are."`
-			`"Enjoy my post well enough, I do, but still to get a break during the Coalition Games to watch them, I am."`
-			`"Part of a Punisher crew, I am. Land, refuel, rest, and back to working on that magnificent ship, I do!"`
-			`"Offered the position of magister, I actually have been. Only, not interested in that governing activity, I am."`
-			`"Apologies, but make haste I must. Gone missing some garrison guns have, and back to cleaning Stalker engines I will be, if find them I don't!"`
-			`"Difficult sometimes it is, to be a mediator. If careful with my words I am not, a Saryd might think an Arach talking about longcows has insulted their mother."`
+			`"Chroń i służ."`
+			`"Jeśli potrzebujesz jakiejkolwiek pomocy, jestem do Twojej dyspozycji."`
+			`"Jeśli znajdziesz jakiekolwiek problemy, zgłoś je nam."`
+			`"Saryd, Kimek, Arach, ludzie, bez względu na gatunek, jesteśmy zobowiązani chronić wszystkich naszych obywateli."`
+			`"Bardzo podoba mi się mój post, ale chciałbym zrobić sobie przerwę w trakcie Igrzysk Koalicji, żeby je obejrzeć."`
+			`"Należę do załogi Punishera. Ląduję, tankuję, odpoczywam i wracam do pracy na tym wspaniałym statku! "`
+			`"Zaproponowano mi stanowisko magistra, faktycznie nim byłem. Tylko że nie jestem zainteresowany tą działalnością administracyjną."`
+			`"Przepraszam, ale muszę się pospieszyć. Zgubiłem kilka dział garnizonowych i wrócę do czyszczenia silników Stalkera, jeśli je znajdę, to nie! "`
+			`"Czasami trudno być mediatorem. Jeśli nie będę ostrożny ze słowami, Saryd mógłby pomyśleć, że Arach mówiący o długich krowach obraził ich matkę."`
 			"An agent is trying to calm down a small crowd outside a local bar. After some minutes, the more agitated drunkards are convinced to accompany the agent to a nearby Heliarch office."
 			"A pair of agents passes by you. Most of the spaceport crowd gives them a wide berth."
-			`"A pilot, I once was. Learned from an older sibling, I did."`
-			`"Seen those charity workers in blue on some of our worlds, have you? Noble intentions they may have, but understand it I do not. Why trouble themselves with it when taking care of everyone, we already are?"`
+			`"Kiedyś byłem pilotem. Nauczyłem się tego od starszego rodzeństwa."`
+			`"Widziałeś tych pracowników charytatywnych w niebieskich mundurach na niektórych z naszych planet, prawda? Mogą mieć szlachetne intencje, ale ja ich nie rozumiem. Po co się tym przejmować, skoro i tak dbamy o wszystkich? "`
 
 news "heliarch candidate"
 	location
@@ -102,9 +102,9 @@ news "heliarch candidate"
 			"Heliarch candidate"
 	message
 		word
-			`"Laws, history, theory, too much of it I have read, and still behind I am..."`
-			`"As part of my trials, read the works of consul Aulori, I had to. Exceeded my expectations, his books have."`
-			`"Meant to prove our dedication and show our potential, the trials we candidates go through are. Though difficult, we're sure to be apt to serve once passed, we have."`
+			`"Prawa, historia, teoria, przeczytałem tego za dużo, a wciąż jestem w tyle..."`
+			`"W ramach moich prób, musiałem przeczytać dzieła konsula Aulori. Przerosły moje oczekiwania, jego książki mają."`
+			`"Chodzi o to, by udowodnić nasze zaangażowanie i pokazać nasz potencjał. Próby, którym poddajemy się jako kandydaci, są trudne. Choć zdane, z pewnością będziemy gotowi służyć. "`
 
 news "coalition ad"
 	location
@@ -129,9 +129,9 @@ news "arach tourist"
 			"Arach tourist"
 	message
 		word
-			`"Ever since another child I had, extended my vacation period and increased my holiday pay, the government has."`
-			`"Much better than I expected, the food here is. Still, beat longcow steak, nothing here does."`
-			`"That the streets here were too narrow for us Arachi, I had heard, but no problem so far I've had."`
+			`"Od czasu, gdy urodziło mi się kolejne dziecko, wydłużyłem okres urlopu wypoczynkowego i zwiększyłem wynagrodzenie za urlop, rząd..."`
+			`"Jedzenie jest tu o wiele lepsze, niż się spodziewałem. Mimo to, stek z longcow jest lepszy, nic tu nie dorównuje."`
+			`"Słyszałem, że tutejsze ulice są za wąskie dla nas, Arachi, ale jak dotąd nie miałem z tym problemu."`
 
 news "kimek tourist"
 	location
@@ -143,9 +143,9 @@ news "kimek tourist"
 			"Kimek tourist"
 	message
 		word
-			`"Come here with a caravan, I have. Cheaper it was, but stick together we must, and too tight the schedule they set up is. Barely appreciate the sights, I can!"`
-			`"Asked me to bring them some gifts from my trip, my family has, but fit them all in my luggage I cannot, and only half of the gifts purchased I have!"`
-			`"From an arcology I am, so to me twice the vacation, a trip to a planet without them is."`
+			`"Przyjedź tu z przyczepą kempingową, mam. Było taniej, ale musimy trzymać się razem, a harmonogram, który narzucili, jest zbyt napięty. Ledwo doceniam widoki, a ja potrafię!"`
+			`"Poprosili mnie, żebym przywiózł im prezenty z podróży. Moja rodzina przywiozła, ale nie mogę ich wszystkich zmieścić w bagażu, a mam tylko połowę zakupionych prezentów!"`
+			`"Jestem arkologiem, więc dla mnie podróż na planetę, na której ich nie ma, to dwa razy lepsze wakacje."`
 
 news "saryd tourist"
 	location
@@ -157,9 +157,9 @@ news "saryd tourist"
 			"Saryd tourist"
 	message
 		word
-			`"From far away I've come, and for weeks sleeping in a ship I was. My first time traveling to another planet, it is, so not used to being so far from nature, I was. No idea how other Saryds make it as pilots, I have."`
-			`"Truly breathtaking, the sights of this world are. The cuisine, too, greatly enjoyed I have. If only the locals had a more civil sense of attire."`
-			`"Climb up walls, the denizens of this world can. Otherworldly it is, to see them do so in the distinct architecture of some buildings here."`
+			`"Przybyłem z daleka i przez tygodnie spałem na statku. To była moja pierwsza podróż na inną planetę, więc nie byłem przyzwyczajony do życia tak daleko od natury. Nie mam pojęcia, jak inni Sarydzi radzą sobie jako piloci, ja miałem."`
+			`"Naprawdę zapierające dech w piersiach widoki tego świata. Kuchnia również bardzo mi smakowała. Gdyby tylko miejscowi mieli bardziej cywilizowane podejście do ubioru."`
+			`"Wspinać się po ścianach - mieszkańcy tego świata potrafią. To nieziemskie, widzieć ich w charakterystycznej architekturze niektórych budynków."`
 
 news "coalition researcher"
 	location
@@ -170,13 +170,13 @@ news "coalition researcher"
 			"Researcher"
 	message
 		word
-			`"Pardon me, but providing me with a blood sample, would you mind? Interested in how the human immune system differs from our own, I am."`
-			`"To Ring of Wisdom I frequently travel. Held there, many great conferences are."`
-			`"Move to Ring of Wisdom, I wish to. So many advanced facilities for testing it has, so much easier to get a hold of complex chemicals..."`
-			`"A Saryd Traveler I recently purchased. Not much of a pilot I am, but being a science vessel, adequate facilities the model still has. More importantly, no rude neighbors to interrupt my team's research, a spaceship has."`
-			`A Saryd engrossed in a tablet displayed strange characters almost walks into you. "Excuse me," they mutter before continuing on their way.`
-			`"A lecture in nanotechnology, I am here to present. Unclear on whether I would be teaching faculty or students, the invitation was."`
-			`"Earned a degree in xenobiology, I did some time ago. Under a top researcher in the field, I work now."`
+			`"Przepraszam, ale czy mógłby Pan dostarczyć mi próbkę krwi? Interesuje mnie, czym ludzki układ odpornościowy różni się od naszego."`
+			`"Do Ring of Wisdom często podróżuję. Odbywa się tam wiele wspaniałych konferencji."`
+			`"Przejdź do Pierścienia Mądrości, chciałbym. Ma tyle zaawansowanych urządzeń do testowania, o wiele łatwiej jest uzyskać dostęp do złożonych substancji chemicznych..."`
+			`"Saryd Traveler, którego niedawno kupiłem. Nie jestem dobrym pilotem, ale jako statek naukowy, model nadal ma odpowiednie wyposażenie. Co ważniejsze, nie ma niegrzecznych sąsiadów, którzy mogliby przeszkadzać mojemu zespołowi w badaniach, jak to statek kosmiczny."`
+			`Saryd, pochłonięty czytaniem tablicy z dziwnymi znakami, prawie na ciebie wpada. "Przepraszam," mamroczą coś, zanim pójdą dalej.`
+			`"Wykład z nanotechnologii, który mam wygłosić. Nie wiadomo, czy będę prowadził zajęcia dla wykładowców, czy dla studentów, ale zaproszenie brzmiało: "`
+			`"Zdobyłem dyplom z ksenobiologii jakiś czas temu. Teraz pracuję pod okiem czołowego badacza w tej dziedzinie."`
 
 news "coalition researcher yottrite"
 	to show
@@ -189,9 +189,9 @@ news "coalition researcher yottrite"
 			"Researcher"
 	message
 		word
-			`"Seems that interesting findings, the research on yottrite has yielded. Proud of having helped us learn more, you should be."`
-			`"Now that more information on yottrite we have, wonder if House Ablomab will ask for samples to experiment on, I do."`
-			`"Kill for the papers on the yottrite research, I would, but still confidential the information is."`
+			`"Wygląda na to, że badania nad jottrytem przyniosły interesujące odkrycia. Jesteśmy dumni, że pomogliście nam dowiedzieć się więcej, powinniście być."`
+			`"Teraz, gdy mamy więcej informacji na temat jottrytu, zastanawiam się, czy Izba Ablomab poprosi o próbki do przeprowadzenia eksperymentów. Ja tak robię."`
+			`"Zabiłbym artykuły na temat badań nad jottrytem, ale informacje te pozostają poufne."`
 
 news "coalition ringworld worker"
 	location
@@ -207,13 +207,13 @@ news "coalition ringworld worker"
 			"Maintenance worker"
 	message
 		word
-			`"Just arrived here, I have. So glad that finally accepted for this job, I was!"`
-			`"Food, lodging, an important job with a good pay, and a wonderful view. Ask for, what more could I?"`
-			`"The means to finish construction of the two remaining rings, we still don't have, but one day, complete they shall be."`
-			`"Wholly safe, our Coalition is, but here, even safer I feel. What is there to fear, when in an indestructible station you are?"`
-			`"Still researching the alloys that make up the rings, our top scientists are, so only adding supplementary solar panels, we are."`
+			`"Właśnie tu dotarłem. Cieszę się, że w końcu przyjęli mnie do tej pracy! "`
+			`"Jedzenie, zakwaterowanie, ważna praca z dobrym wynagrodzeniem i wspaniały widok. Czego chcieć więcej?"`
+			`"Nie mamy jeszcze środków na dokończenie budowy dwóch pozostałych pierścieni, ale pewnego dnia będą one kompletne."`
+			`"Nasza Koalicja jest całkowicie bezpieczna, ale tutaj czuję się jeszcze bezpieczniej. Czego tu się bać, skoro jesteś na niezniszczalnej stacji?"`
+			`"Nasi najlepsi naukowcy wciąż badają stopy, z których zbudowane są pierścienie, więc dodajemy jedynie dodatkowe panele słoneczne."`
 			"A small section of the area is roped off. An Arach has removed a floor panel and is busy reconfiguring circuitry below."
-			`"Friend, please step aside." A Kimek gestures to a large cart filled with tools and equipment, and you move to let them pass.`
+			`"Przyjacielu, proszę zejdź mi z drogi." Kimek gestem wskazuje na duży wózek wypełniony narzędziami i sprzętem, a ty przesuwasz się, żeby go przepuścić.`
 
 news "coalition spaceport worker"
 	location
@@ -223,9 +223,9 @@ news "coalition spaceport worker"
 			"Spaceport worker"
 	message
 		word
-			`"Since with captains of other species, we deal, translation boxes, we are issued. Simple tools for us, but too expensive for many to purchase, they are, so to enjoy the opportunity to use them, we try."`
-			`"Three different styles of ships, we deal with daily, so never on autopilot we can be, or else refuel one incorrectly, we might."`
-			`"Inspect every crate before it is put on a ship, the Heliarchs do. A tedious process, it is."`
+			`"Ponieważ mamy do czynienia z kapitanami innych gatunków, skrzynki translacyjne są nam wydawane. Proste narzędzia dla nas, ale zbyt drogie dla wielu, więc aby cieszyć się możliwością ich użycia, staramy się."`
+			`"Na co dzień mamy do czynienia z trzema różnymi typami statków, dlatego nigdy nie możemy być na autopilocie, a jeśli zatankujemy któryś nieprawidłowo, może się to zdarzyć."`
+			`"Heliarchowie sprawdzają każdą skrzynię przed umieszczeniem jej na statku. To żmudny proces."`
 
 news "coalition merchant"
 	location
@@ -240,14 +240,14 @@ news "coalition merchant"
 			"Arach pilot"
 	message
 		word
-			`"Enough money for my first ship, I didn't have, so split the cost of a Runabout, me and an online friend did. Picked another ship, we should have, because too difficult flying alone to their planet, it was."`
-			`"Enough money for my first ship, I didn't have, so a loan from House Plumtab, I took. Read the interest rates a bit better, I should have..."`
-			`"On a Hulk, my first job in a spaceship was. Thought falling apart it was, I had, when to a Spindle it switched."`
-			`"Liked my ship so much, a Kimek passenger did, that decided to live in it, they have. For 'transport' they still pay, so mind it I do not."`
-			`"Jealous of you, I am. If a jump drive I had, bypass the gap between Saryd and Arach space, I could, and quickly earn a fortune, I would."`
-			`"Agreed to transport some Saryd graduates for a 'field trip,' I once did. Almost arrested, I was."`
+			`"Nie miałem wystarczająco dużo pieniędzy na mój pierwszy statek, więc podzieliłem się kosztami Runabouta, ja i mój internetowy znajomy. Wybraliśmy inny statek, powinniśmy byli, bo lot na ich planetę był zbyt trudny."`
+			`"Nie miałem wystarczająco dużo pieniędzy na mój pierwszy statek, więc wziąłem pożyczkę od Domu Plumtab. Przeczytaj trochę dokładniej stopy procentowe, powinienem był..."`
+			`"Na Hulku, moja pierwsza praca w statku kosmicznym była. Myślałem, że się rozpadnie, kiedy przełączyłem się na wrzeciono."`
+			`"Tak bardzo podobał mi się mój statek, że jeden z pasażerów Kimeków postanowił na nim zamieszkać, i tak się stało. Za "transport" nadal płacą, więc nie zwracam na to uwagi."`
+			`"Zazdroszczę ci. Gdybym miał napęd skokowy, który ominąłby lukę między przestrzenią Saryd a Arach, mógłbym szybko zarobić fortunę, zrobiłbym to."`
+			`"Zgodziłem się kiedyś przewieźć kilku absolwentów Saryd na "wycieczkę terenową". Byłem o krok od aresztowania."`
 			"The spacefarer is assisting the rest of their crew in unloading cargo from a ship."
-			`"Used to fly with me, my brother did, but now become a Heliarch, he has."`
+			`"Mój brat latał ze mną, ale teraz, gdy został Heliarchą, on to zrobił."`
 
 news "arach civilian"
 	location
@@ -258,11 +258,11 @@ news "arach civilian"
 			"Local Arach"
 	message
 		word
-			`"Arrested close to where my cousins work, the terrorists on the news were. Notice anything wrong with them, they never did."`
-			`"Always rising, the sun in these broadcasts is, but a night shift I work, so see it for myself, I never can..."`
-			`"To Ring of Wisdom, a researcher friend of mine has gone. Always there, our wisest mingle, but remain here, few do. Difficult for us, sometimes it is."`
-			`"Always mixing up our Houses, Kimek and Saryd tourists are. Mind it, I do not, but angry, sometimes my friends get."`
-			`"Learnt my language, some Kimek friends have, but so fast they speak, that difficult to understand them, it is."`
+			`"Aresztowani niedaleko miejsca pracy moich kuzynów, terroryści z wiadomości. Zauważcie, że coś z nimi nie tak, nigdy tego nie zauważyli."`
+			`"Zawsze wschodzi słońce w tych transmisjach, ale pracuję na nocnej zmianie, więc widzę to na własne oczy, nigdy nie mogę..."`
+			`"Do Ring of Wisdom, odszedł mój przyjaciel badacz. Zawsze tam byli, nasi najmądrzejsi się integrowali, ale pozostali, niewielu to robi. To dla nas trudne, czasami tak jest."`
+			`"Kimek i Saryd, turyści, zawsze mylą nasze domy. Uważaj, ja nie, ale moi przyjaciele czasami się wściekają."`
+			`"Nauczyłem się mojego języka, podobnie jak niektórzy moi przyjaciele Kimek, ale mówią tak szybko, że trudno ich zrozumieć."`
 
 news "kimek civilian"
 	location
@@ -273,11 +273,11 @@ news "kimek civilian"
 			"Local Kimek"
 	message
 		word
-			`"Arrested close to where my cousins work, the terrorists on the news were. Notice anything wrong with them, they never did."`
-			`"Always rising, the sun in these broadcasts is, but a night shift I work, so see it for myself, I never can..."`
-			`"To Ring of Wisdom, a researcher friend of mine has gone. Always there, our wisest mingle, but remain here, few do. Difficult for us, sometimes it is."`
-			`"Tired of dealing with faulty translation boxes, my sister got, so learning to speak Arachi, she is."`
-			`"Much more reserved than us, the Saryds are. So long do they live for, that difficult to understand their habits, it can be."`
+			`"Aresztowani niedaleko miejsca pracy moich kuzynów, terroryści z wiadomości. Zauważcie, że coś z nimi nie tak, nigdy tego nie zauważyli."`
+			`"Zawsze wschodzi słońce w tych transmisjach, ale pracuję na nocnej zmianie, więc widzę to na własne oczy, nigdy nie mogę..."`
+			`"Do Ring of Wisdom, odszedł mój przyjaciel badacz. Zawsze tam byli, nasi najmądrzejsi się integrowali, ale pozostali, niewielu to robi. To dla nas trudne, czasami tak jest."`
+			`"Moja siostra ma dość radzenia sobie z wadliwymi skrzynkami tłumaczeniowymi, więc uczy się mówić w języku arachi."`
+			`"Sarydzi są znacznie bardziej powściągliwi niż my. Żyją tak długo, że trudno zrozumieć ich zwyczaje, to może być."`
 
 news "saryd civilian"
 	location
@@ -288,11 +288,11 @@ news "saryd civilian"
 			"Local Saryd"
 	message
 		word
-			`"Arrested close to where my cousins work, the terrorists on the news were. Notice anything wrong with them, they never did."`
-			`"Always rising, the sun in these broadcasts is, but a night shift I work, so see it for myself, I never can..."`
-			`"To Ring of Wisdom, a researcher friend of mine has gone. Always there, our wisest mingle, but remain here, few do. Difficult for us, sometimes it is."`
-			`"Troubling it is, when their children, Kimek and Arach tourists bring. Climb up everywhere, they try."`
-			`"Travel to new places, I used to, but infinite, our planets are not, so seen them all by now I have."`
+			`"Aresztowani niedaleko miejsca pracy moich kuzynów, terroryści z wiadomości. Zauważcie, że coś z nimi nie tak, nigdy tego nie zauważyli."`
+			`"Zawsze wschodzi słońce w tych transmisjach, ale pracuję na nocnej zmianie, więc widzę to na własne oczy, nigdy nie mogę..."`
+			`"Do Ring of Wisdom, odszedł mój przyjaciel badacz. Zawsze tam byli, nasi najmądrzejsi się integrowali, ale pozostali, niewielu to robi. To dla nas trudne, czasami tak jest."`
+			`"Niepokojące jest to, że kiedy ich dzieci, Kimek i Arach, przywożą turystów. Wspinają się wszędzie, próbują."`
+			`"Podróżowałem do nowych miejsc, kiedyś to robiłem, ale nieskończone, nasze planety nie są, więc widziałem je wszystkie."`
 
 news "coalition vendor"
 	location
@@ -303,11 +303,11 @@ news "coalition vendor"
 			"Street vendor"
 	message
 		word
-			`"Purchase some Saryd cakes, would you like to? Homemade, they are."`
-			`"Interested in this tapestry, are you? Of the finest longcow hide, it is made. A special discount, for you I could make."`
-			`"Interested in these ringworld keychains, are you? For you, only 30 credits!"`
-			`"Caught your eye, this necklace has? Real hedgelion quills, these are. Great luck, they bring, for those generous enough to make a purchase."`
-			`"Arcology miniatures? Arachi armor replicas? Multipurpose gardening tools? For all of those and more, the best prices I have!"`
+			`"Kupić ciasta Saryd, chcesz? Są domowej roboty."`
+			`"Jesteś zainteresowany tym gobelinem? Jest wykonany z najlepszej skóry krowy długowołowej. Specjalna zniżka, którą mogę dla Ciebie zrobić."`
+			`"Zainteresowany tymi brelokami z Ringworldu? Tylko 30 kredytów dla Ciebie!"`
+			`"Przykuł twoją uwagę ten naszyjnik? Prawdziwe kolce jeżowca. Przynoszą wielkie szczęście tym, którzy będą na tyle hojni, żeby dokonać zakupu."`
+			`"Arcology miniatury? Repliki zbroi Arachi? Wielofunkcyjne narzędzia ogrodnicze? Wszystkie te i wiele innych w najlepszych cenach, jakie mam!"`
 
 news "coalition civilian expeditions past"
 	to show
@@ -324,11 +324,11 @@ news "coalition civilian expeditions past"
 			"Arach captain"
 	message
 		word
-			`"Heard, I have, that come back from the outside, that Heliarch tribune did. Very lucky, she must be."`
-			`"Heard, I have, that come back from the outside, that Heliarch girl did. If you ask me, a lie that she ever left, it is."`
-			`"Seen the news, have you? Returned from the outside, a Saryd Heliarch has! Wonder how bad it was out there, I do."`
-			`"The one that helped that Heliarch inspector in her expedition, you are. A very strong ship, you must have, if made it back, you two did."`
-			`"Helped that Heliarch inspector come back from the outside, you have. Always thought that impossible, I did."`
+			`"Słyszałem, że wróciła z zewnątrz, że to zrobiła trybun Heliarchy. Musi mieć wielkie szczęście."`
+			`"Słyszałem, że wróciła z zewnątrz, ta dziewczyna z Heliarch. Jeśli mnie zapytasz, to kłamstwo, że kiedykolwiek odeszła. "`
+			`"Widziałeś wiadomości, prawda? Wrócił z zewnątrz Saryd Heliarch! Zastanawiam się, jak źle tam było. "`
+			`"Ty jesteś tym, który pomógł inspektorce Heliarch w jej ekspedycji. Musiałeś mieć bardzo mocny statek, skoro udało wam się wrócić, to wy dwoje."`
+			`"Pomogłeś inspektorowi Heliarch wrócić z zewnątrz, prawda? Zawsze myślałem, że to niemożliwe, a ja tak myślałem."`
 
 news "heliarch expeditions past"
 	to show
@@ -340,11 +340,11 @@ news "heliarch expeditions past"
 			"Heliarch agent"
 	message
 		word
-			`"Promoted to the rank of arbiter after her expedition, that Saryd inspector was. Very impressed by her findings on the outside, the consuls must have been."`
-			`"Promoted to the rank of arbiter after her 'expedition,' that Saryd girl was, but what proof of her actually leaving do we have? Stupid enough to have tried that, nobody is."`
-			`"Though a success, that Saryd inspector's expedition was, turned many of the consuls furious at one another, her return has. Expected her to make it back, many of them had not."`
-			`"Our thanks for helping inspector Sedlitaris, you have. Finally found their way back, the last expedition's reports have."`
-			`"The one who helped inspector Sedlitaris on her expedition you are, correct? Read her report on it, I have. Disconcerting, the fate of the last expedition is, but at least recovered their findings, we now have."`
+			`"Awansowana do rangi arbitra po swojej wyprawie, inspektorka Saryd była. Konsulowie musieli być pod wielkim wrażeniem jej zewnętrznych odkryć."`
+			`"Awansowana do rangi arbitra po swojej "ekspedycji", ta dziewczyna z Saryd była, ale jaki mamy dowód na jej odejście? Nikt nie jest na tyle głupi, żeby tego spróbować."`
+			`"Chociaż wyprawa inspektora Saryd zakończyła się sukcesem, wielu konsulów wpadło we wściekłość, jej powrót jednak nie. Spodziewano się, że wróci, ale wielu z nich nie."`
+			`"Dziękujemy za pomoc inspektorowi Sedlitarisowi. W końcu odnaleźli drogę powrotną, raporty z ostatniej ekspedycji mają."`
+			`"Jesteś tą, która pomogła inspektor Sedlitaris w jej wyprawie, prawda? Przeczytałem jej raport. Niepokojący jest los ostatniej wyprawy, ale przynajmniej odzyskaliśmy ich ustalenia."`
 
 news "coalition games broadcast"
 	to show
@@ -378,12 +378,12 @@ news "coalition games people"
 			"Local Arach"
 	message
 		word
-			`"Going to see the Coalition Games, I am. Our biggest yearly event, it is."`
-			`"Competing in the Coalition Games this year, a friend of mine is. Cheering for them, my whole family is."`
-			`"Seen the latest transmission of the Coalition Games, have you? Throughout it all, on the edge I was!"`
-			`"Checked the job board lately, have you? Eager to see the Coalition Games, tons of passengers are. A good season for business, this is."`
-			`"Watching the Coalition Games transmissions lately, I have been. Tried to become an athlete myself, I once did, but too rigorous, their training routine is! Made me appreciate the sports more, it has."`
-			`"Just arrived from my first live viewing of the Coalition Games, I have. An incredible experience, it was. Go again next year, I for sure will!"`
+			`"Idę zobaczyć Igrzyska Koalicji. To nasze największe coroczne wydarzenie."`
+			`"W tym roku w Igrzyskach Koalicji bierze udział mój przyjaciel. Kibicuje im cała moja rodzina."`
+			`"Widziałeś najnowszą transmisję z Igrzysk Koalicji, prawda? Przez cały czas byłem na krawędzi!"`
+			`"Sprawdzałeś ostatnio tablicę ogłoszeń, prawda? Mnóstwo pasażerów nie może się doczekać Igrzysk Koalicji. To dobry sezon na biznes. "`
+			`"Ostatnio oglądałem transmisje z Igrzysk Koalicji. Próbowałem zostać sportowcem, kiedyś mi się udało, ale ich plan treningowy jest zbyt rygorystyczny! Sprawił, że bardziej doceniłem ten sport."`
+			`"Właśnie wróciłem z pierwszego oglądania na żywo Igrzysk Koalicji. To było niesamowite przeżycie. Pojadę tam ponownie w przyszłym roku, na pewno! "`
 
 news "coalition games planet heliarch"
 	to show
@@ -397,8 +397,8 @@ news "coalition games planet heliarch"
 		word
 			"Dozens of Heliarch agents are guarding the spaceport entrances, occasionally blocking passage as they try to control the flow of people to and from the Coalition Games events."
 			"You spot a few agents on their lunch break inside a local restaurant. They seem to be enjoying the Coalition Games broadcast more than the meals themselves."
-			`"Heading to the Coalition Games, are you? If so, forgive us you must. Some trouble with organizing the crowds this morning, there was, so delayed by five minutes, the whole line is."`
-			`"A former athlete myself, I am. Earned my rank by winning in the Games, I did, so always eager to help organize the event, I am."`
+			`"Wybierasz się na Igrzyska Koalicji? Jeśli tak, to wybacz nam, musisz. Dziś rano były problemy z organizacją tłumu, więc z pięciominutowym opóźnieniem cała kolejka jest."`
+			`"Sam jestem byłym sportowcem. Zdobyłem swój tytuł wygrywając Igrzyska, więc zawsze chętnie pomagam w organizacji imprezy."`
 
 news "coalition games planet people"
 	to show
@@ -417,10 +417,10 @@ news "coalition games planet people"
 		word
 			"An avid fan rushes out of a ship next to yours, and into the lines of people being admitted into the Coalition Games. For the next many minutes, an increasingly larger number of Heliarch agents attempt to explain they're not allowed to bring in so many sports goods with them."
 			"You see a fan angrily stomping to a ship docked nearby, going inside, then coming back out with a coin of sorts. It seems they forgot the entry ticket for the Games, and will have to wait in line all over again."
-			`"Brought my children to see the Games, I have. An important part of our culture, the Games are, so glad to share the experience with them, I am."`
-			`"Brought my children to see the Games, I have. Hope I do, that behave themselves this time, they will..."`
-			`"Here for the Games too, are you? The largest event in all the Coalition, it is. Come here to watch every year, I do!"`
-			`"Come to watch a relative of mine compete, I have. Training hard for many years, they have been, so sure I am that do well, they will."`
+			`"Zabrałem moje dzieci na Igrzyska. Igrzyska są ważną częścią naszej kultury, więc cieszę się, że mogę się z nimi tym doświadczeniem podzielić."`
+			`"Zabrałem moje dzieci na Igrzyska. Mam nadzieję, że tym razem będą grzeczne, bo..."`
+			`"Też tu jesteś, prawda? To największe wydarzenie w całej Koalicji. Przychodzę tu co roku, żeby oglądać! "`
+			`"Przyszedłem obejrzeć zawody mojego krewnego. Trenowałem ciężko przez wiele lat, więc jestem pewien, że im się uda."`
 
 news "coalition games crowd"
 	to show
@@ -457,10 +457,10 @@ news "fangvin beyond the hyperdrive news"
 		word
 			`"`
 		word
-			`So great, this 'Beyond the Hyperdrive' book is! Read it, I have!`
-			`Read from a human, I never have, but when Anna Fangvin, I found, buy her book I did!`
-			`Very nice, Anna Fangvin was, for sign my book, she did with much joy!`
-			`Read all of 'Beyond the Hyperdrive', I did! Inspired by those who stole from our oppressors, I was!`
+			`Świetna jest ta książka "Poza hipernapędem"! Przeczytałem ją, ja już!`
+			`Nigdy nie czytałem z ludzkiego punktu widzenia, ale kiedy odkryłem Annę Fangvin, kupiłem jej książkę!`
+			`Bardzo miło, że Anna Fangvin podpisała moją książkę, zrobiła to z wielką radością!`
+			`Przeczytałem cały "Beyond the Hyperdrive"! Zainspirowany tymi, którzy okradli naszych ciemiężców, byłem!`
 		word
 			`"`
 
@@ -489,8 +489,8 @@ news "lunarium charity worker"
 			"Charity worker"
 	message
 		word
-			`"Help bring amenity goods and services to those who can't afford them, we do. Operate mostly in Kimek space we do, if interested in helping you are."`
-			`"Interested in contributing to the charity, are you? Take every sort of donation, we do. Credits, winter supplies, trinkets, old tech devices. Whatever it is, if willing to donate you are, drop them here you can."`
-			`"Just finished filling up an entire Arach fleet's cargo holds with school supplies, we have. Very tiring, the job is, but glad I am that making a difference, our charity efforts are."`
-			`"Get most of our funding from some of the Arach Houses and rich Saryd families, we do. Meant only to acquire part of the charity goods and the means to transport them, the credits are, for voluntary work, this is."`
-			`Standing by the spaceport entrance, a worker is distributing flyers to those who come in and out. "Hello human visitor. Part of a charity group, I am, raising awareness to our cause. Aware were you, that lack the electronics for many educational activities, children on poor Kimek worlds do? Together, make a difference we can!"`
+			`"Pomagamy dostarczać dobra i usługi dla tych, którzy nie mogą sobie na nie pozwolić. Działamy głównie w przestrzeni Kimek. Jeśli jesteś zainteresowany pomocą, skontaktuj się z nami."`
+			`"Chcesz wesprzeć organizację charytatywną? Przyjmujemy każdą darowiznę. Kredyty, zapasy na zimę, drobiazgi, stare urządzenia elektroniczne. Cokolwiek chcesz przekazać, jeśli jesteś gotów/a, zostaw darowiznę tutaj. "`
+			`"Właśnie skończyłem zapełniać ładownie całej floty Arach przyborami szkolnymi. To bardzo męcząca praca, ale cieszę się, że nasze działania charytatywne mają znaczenie. "`
+			`"Większość funduszy pozyskujemy od niektórych Domów Arach i bogatych rodzin Saryd. Przeznaczone są one jedynie na zakup części dóbr charytatywnych i środków na ich transport, a kredyty są przeznaczone na pracę wolontariacką.`
+			`Stojąc przy wejściu do kosmoportu, pracownik rozdaje ulotki wchodzącym i wychodzącym. "Witaj, człowieku. Jestem członkiem grupy charytatywnej, która podnosi świadomość na temat naszej sprawy. Czy wiedziałeś, że brakuje elektroniki do wielu zajęć edukacyjnych, tak jak dzieci na biednych planetach Kimek? Razem możemy coś zmienić! "`

@@ -28,35 +28,35 @@ mission "Kestrel Testing"
 	
 	on offer
 		conversation
-			`As you are visiting one of the spaceport bars, a man recognizes you. "<first> <last>!" he says. "It's an honor to meet you. Your exploits in battle are well known." He picks up his drink and walks over to sit next to you. "My name is Charles Atinoda," he says, "the chief starship designer for Tarazed Corporation. Say, would you be willing to help us test out a new warship?"`
+			`Kiedy odwiedzasz jeden z barów w porcie kosmicznym, mężczyzna cię rozpoznaje. "<first> <last>!" mówi. "To zaszczyt cię poznać. Twoje wyczyny w bitwach są dobrze znane." Podnosi swój drink i podchodzi, żeby usiąść obok ciebie. "Nazywam się Charles Atinoda," mówi, "jestem głównym projektantem statków kosmicznych w Tarazed Corporation. Powiedz, czy zechciałbyś pomóc nam przetestować nowy okręt wojenny?"`
 			choice
-				`	"Tell me more."`
-				`	"Sorry, I don't have time right now."`
+				`	"Powiedz mi więcej."`
+				`	"Przepraszam, nie mam teraz czasu."`
 					defer
-			`	"Well," he says, "here's the story. Seven years ago, in a time of deep personal crisis, I left my job at Tarazed to wander the galaxy with nothing in my backpack but a change of clothes, a canteen of water, and a few boxes of emergency rations. An anarchist commune on one of the fringe worlds took me in. After I had been there for a month, the village elder, sensing my inner turmoil, invited me to a vision quest in their sweat lodge. I fell into a trance and my consciousness journeyed through many universes, where I saw strange things. I saw a sword made of light. I saw a blue sun. I saw..." He pauses for a moment. "... a Welsh Corgi hacking into a computer? Some of it was hard to understand."`
+			`	"No cóż," mówi, "oto historia. Siedem lat temu, w czasie głębokiego kryzysu osobistego, rzuciłem pracę w Tarazed, by wędrować po galaktyce z niczym w plecaku poza ubraniami na zmianę, manierką z wodą i kilkoma pudełkami żywności awaryjnej. Przyjęła mnie anarchistyczna komuna na jednym z peryferyjnych światów. Po miesiącu pobytu tam starszyzna wioski, wyczuwając moje wewnętrzne rozterki, zaprosiła mnie na wizję do ich szałasu potu. Wpadłem w trans, a moja świadomość podróżowała przez wiele wszechświatów, gdzie widziałem dziwne rzeczy. Widziałem miecz ze światła. Widziałem niebieskie słońce. Widziałem..." Na chwilę milknie. "... Welsh Corgi włamujący się do komputera? Niektóre rzeczy były trudne do zrozumienia."`
 			choice
-				`	"Fascinating."`
+				`	"Fascynujące."`
 					goto continue
-				`	"Were there illicit substances involved in this vision quest?"`
-			`	He ignores your question. "But then I saw one more thing," he says.`
+				`	"Czy w tej wizji wzięły udział substancje nielegalne?"`
+			`	Ignoruje twoje pytanie. "Ale potem zobaczyłem jeszcze jedną rzecz," mówi.`
 				goto kestrel
 			label continue
-			`	"But then I saw one more thing," he says.`
+			`	"Ale potem zobaczyłem jeszcze jedną rzecz," mówi.`
 			label kestrel
-			`	He is silent for a long moment, then says, "I saw a dark ship, more graceful and elegant than any I had ever designed, battling an alien vessel with a mottled red hull. And when I saw that ship, I knew that I must build one like it. I hitched a ride back to Wayfarer, begged for my old job back, and got to work. Seven years later, the ship is nearly done. It has passed all our non-destructive testing with flying colors, which leaves only the combat test remaining. And who better to battle it than the renowned warrior, <first> <last>?"`
+			`	Przez długą chwilę milczy, po czym mówi: "Widziałem ciemny statek, bardziej majestatyczny i elegancki niż jakikolwiek, jaki kiedykolwiek zaprojektowałem, walczący z obcym statkiem o cętkowanym, czerwonym kadłubie. I kiedy zobaczyłem ten statek, wiedziałem, że muszę zbudować taki sam. Złapałem stopa z powrotem na Wayfarer, błagałem o powrót do mojej dawnej pracy i wziąłem się do pracy. Siedem lat później statek jest prawie ukończony. Przeszedł wszystkie nasze testy nieniszczące z wyróżnieniem, więc pozostała mu tylko próba bojowa. A kto lepiej poradzi sobie z nim niż słynny wojownik, <first> <last>?"`
 			choice
-				`	"I would be glad to."`
+				`	"Z chęcią."`
 					goto test
-				`	"What will I receive in return?"`
-			`	"A generous payment," he says, "and the right to purchase one of the very first units off the production line, if you wish."`
-			`	"Sounds fair," you say.`
+				`	"Co otrzymam w zamian?"`
+			`	"Hojna zapłata," mówi, "i prawo do zakupu jednego z pierwszych egzemplarzy, które zejdą z linii produkcyjnej, jeśli sobie tego życzysz."`
+			`	"Brzmi uczciwie, " mówisz.`
 			label test
-			`	"Excellent," he says. "I'll need your signature on a few forms. Waivers of liability in case you die, permission to use your name and likeness in certain promotional materials. You know, the usual legal stuff."`
+			`	"Doskonale," mówi. "Będę potrzebował twojego podpisu na kilku formularzach. Zrzeczenie się odpowiedzialności w razie śmierci, pozwolenie na użycie twojego imienia i nazwiska oraz wizerunku w niektórych materiałach promocyjnych. Wiesz, takie standardowe kwestie prawne."`
 			choice
-				`	"No problem. Where will I battle this ship?"`
-				`	"Sorry, I don't think I can agree to that."`
+				`	"Nie ma problemu. Gdzie będę walczyć z tym statkiem?"`
+				`	"Przepraszam, ale nie sądzę, żebym mógł się na to zgodzić."`
 					decline
-			`	"We do most of our starship testing in the <waypoints> system," he says. "The test ship is unmistakable. Journey there, disable it without destroying it, then return here and we'll ask you about any weaknesses you found or improvements you would make. And if you destroy the ship or steal it, naturally you will forfeit your payment."`
+			`	"Większość naszych testów statków kosmicznych przeprowadzamy w układzie <waypoints>, " mówi. "Statek testowy jest nie do pomylenia. Udaj się tam, unieszkodliw go bez niszczenia, a następnie wróć tutaj, a zapytamy cię o wszelkie znalezione słabości lub ulepszenia, które byś wprowadził. A jeśli zniszczysz statek lub go ukradniesz, oczywiście stracisz zapłatę. "`
 				accept
 	
 	npc disable save
@@ -69,99 +69,99 @@ mission "Kestrel Testing"
 		payment 2000000
 		"global: unlocked kestrel" ++
 		conversation
-			`Atinoda meets up with you soon after you land. "I see that you survived," he says. "Was it a difficult fight?"`
+			`Atinoda spotyka się z tobą wkrótce po lądowaniu. "Widzę, że przeżyłeś," mówi. "Czy to była trudna walka?"`
 			choice
-				`	"Yes, you have built an impressive ship."`
+				`	"Tak, zbudowałeś imponujący statek."`
 					goto yes
-				`	"No, I'm afraid I made short work of it."`
+				`	"Nie, obawiam się, że szybko sobie z tym poradziłem."`
 					goto no
 			
 			label yes
-			`	"Glad to hear it," he says. "Now, we have the opportunity to make a few tweaks before we start mass-producing this ship. What changes would you recommend?"`
+			`	"Cieszę się, " mówi. "Teraz mamy okazję wprowadzić kilka poprawek, zanim rozpoczniemy masową produkcję tego statku. Jakie zmiany byś polecił?"`
 				goto changes
 			
 			label no
-			`	"Oh well," he says, "you are the infamous <first> <last>, after all, so I suppose any single warship will be little threat to you. Now, we have the opportunity to make a few tweaks before we start mass-producing this ship. What changes would you recommend?"`
+			`	"No cóż, "mówi, "jesteś przecież tym niesławnym <first> <last>, więc przypuszczam, że żaden pojedynczy okręt wojenny nie będzie dla ciebie stanowił większego zagrożenia. Teraz mamy okazję wprowadzić kilka poprawek, zanim rozpoczniemy masową produkcję tego okrętu. Jakie zmiany byś polecił?"`
 				goto changes
 			
 			label changes
 			choice
-				`	"Lots of weapon space is always my first priority."`
+				`	"Dużo miejsca na broń jest zawsze moim priorytetem."`
 					goto weapons
-				`	"You should make sure it has enough space for any engine."`
+				`	"Powinieneś upewnić się, że jest wystarczająco dużo miejsca dla dowolnego silnika."`
 					goto engines
-				`	"Maybe you should work on improving the shields and hull."`
+				`	"Może powinieneś popracować nad ulepszeniem osłon i kadłuba."`
 					goto shields
-				`	"I feel like such a large ship should have more bays for fighters."`
+				`	"Uważam, że tak duży statek powinien mieć więcej luków dla myśliwców."`
 					goto bays
 			
 			label weapons
 			action
 				set "kestrel: more weapons"
-			`	"Very well," he says, "we'll see if we can expand the weapon capacity so that even the biggest weapons will fit."`
+			`	"Dobrze," mówi, "zobaczymy, czy uda nam się rozszerzyć pojemność broni tak, aby zmieściła się nawet największa broń."`
 				goto name
 			
 			label engines
 			action
 				set "kestrel: more engines"
-			`	"Very well," he says, "we'll see if we can expand the engine capacity enough that even the biggest engines will fit."`
+			`	"Dobrze," mówi, "zobaczymy, czy uda nam się na tyle zwiększyć pojemność silnika, żeby zmieściły się nawet największe silniki."`
 				goto name
 			
 			label shields
 			action
 				set "kestrel: more shields"
-			`	"Okay," he says, "we'll focus on strengthening the hull and the shield matrix."`
+			`	"Okej," mówi, "skupimy się na wzmocnieniu kadłuba i matrycy osłony."`
 				goto name
 			
 			label bays
 			action
 				set "kestrel: more bays"
-			`	"Very well," he says, "we'll see if we can incorporate more fighter bays into the hull."`
+			`	"Bardzo dobrze," mówi, "zobaczymy, czy uda nam się zmieścić w kadłubie więcej komór myśliwskich."`
 				goto name
 			
 			label name
-			`	"Does the ship model have a name yet?" you ask.`
-			`	"Not yet," he says. "Do you have a suggestion?"`
+			`	"Czy model statku ma już nazwę?" pytasz.`
+			`	"Jeszcze nie," mówi. "Masz jakąś sugestię?"`
 			choice
 				`	"The Wraith."`
 					goto wraith
-				`	"The Grey Goose."`
+				`	"Szara Gęś."`
 					goto goose
 			
 			label wraith
-			`	"Not a bad name, I suppose," he says, "but at Tarazed we usually name our ships after animals. Any other ideas?"`
+			`	"Chyba nie jest to zła nazwa, " mówi, "ale w Tarazed zazwyczaj nazywamy nasze statki imionami zwierząt. Macie jakieś inne pomysły?"`
 			choice
-				`	"The Dire Wolf."`
+				`	"Wilk straszny."`
 					goto wolf
-				`	"The Kestrel."`
+				`	"Pustułka."`
 					goto kestrel
 			
 			label goose
-			`	"I suppose it does sort of look like a goose in flight," he says, "but that's hardly an intimidating name. Do you have any scarier ideas?"`
+			`	"Wydaje mi się, że rzeczywiście wygląda trochę jak gęś w locie, " mówi, "ale to nie jest jakaś przerażająca nazwa. Macie jakieś straszniejsze pomysły?"`
 			choice
-				`	"The Reaper."`
+				`	"Żniwiarz."`
 					goto reaper
-				`	"The Kestrel."`
+				`	"Pustułka."`
 					goto kestrel
 			
 			label wolf
-			`	"Not bad," he says, "but all our other ships - the Falcon, the Osprey, the Hawk - they're all birds. Maybe a bird name?"`
+			`	"Nieźle," mówi, "ale wszystkie nasze inne statki - Falcon, Osprey, Hawk - to wszystkie ptaki. Może jakaś nazwa ptaka?"`
 			choice
-				`	"The Grey Goose."`
+				`	"Szara Gęś."`
 					goto goose
-				`	"The Kestrel."`
+				`	"Pustułka."`
 					goto kestrel
 			
 			label reaper
-			`	"I don't know," he says, "that sounds a little bit over the top. Any other suggestions?"`
+			`	"Nie wiem, " mówi, "to brzmi trochę przesadnie. Jakieś inne sugestie?"`
 			choice
 				`	"The Wraith."`
 					goto wraith
-				`	"The Kestrel."`
+				`	"Pustułka."`
 					goto kestrel
 			
 			label kestrel
-			`	When you say the word 'Kestrel' he jerks as if he's just been electrocuted. "Yes," he says, "that's it! That's the name we'll go with. Thank you, Captain. I will let you know as soon as the Kestrel is available for sale, and we will take your recommendations into account when making our final modifications to the design." He pays you two million credits and wishes you the best of luck in your future endeavors.`
+			`	Kiedy mówisz słowo "Kestrel", szarpie się, jakby właśnie został porażony prądem. "Tak," mówi, "to jest to! To jest nazwa, którą wybierzemy. Dziękuję, Kapitanie. Dam ci znać, jak tylko Kestrel będzie dostępny w sprzedaży i weźmiemy pod uwagę twoje sugestie przy wprowadzaniu ostatecznych modyfikacji projektu." Płaci ci dwa miliony kredytów i życzy powodzenia w przyszłych przedsięwzięciach.`
 
 
 
@@ -245,7 +245,7 @@ mission "Kestrel Available"
 			scene "thumbnail/kestrelc"
 			``
 			label message
-			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, we are pleased to inform you that our latest warship is now available for sale here on Wayfarer. We've taken all your feedback into account in the final design. Thank you again!"`
+			`Otrzymujesz wiadomość od Charlesa Atinody, projektanta statków w Tarazed Corporation: "Kapitanie <last>, z przyjemnością informujemy, że nasz najnowszy okręt wojenny jest już dostępny w sprzedaży na Wayfarer. W ostatecznym projekcie uwzględniliśmy wszystkie Twoje uwagi. Jeszcze raz dziękujemy! "`
 				decline
 
 

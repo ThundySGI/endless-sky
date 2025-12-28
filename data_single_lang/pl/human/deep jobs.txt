@@ -653,55 +653,55 @@ mission "Deep Security Package Reveal"
 	on offer
 		log "Minor People" "Agent Wayde" `Młody agent w dziale logistyki Deep Security, poręczył za twoje zwiększone możliwości zatrudnienia po tym, jak mu pomogłeś.`
 		conversation
-			`As you turn to leave a food stand in the spaceport, a rather young man in activewear waves you over to a bench off to the side of the main drag.`
+			`Gdy skręcasz, by wyjść ze stoiska z jedzeniem w kosmoporcie, dość młody mężczyzna w stroju sportowym gestem wskazuje ci ławkę z boku głównej ulicy.`
 			choice
-				`	(Go over to him.)`
+				`	(Podejdź do niego.)`
 					goto bench
-				`	(Keep walking.)`
-			`	When you go to ignore him he gives a quick, sharp, whistle and briefly flashes a Deep Security badge at you. He immediately covers this with a friendly wave for any nearby eyes, but it is clear that he won't be ignored.`
+				`	(Idź dalej.)`
+			`	Kiedy próbujesz go zignorować, gwiżdże szybko i przenikliwie, a następnie na krótko pokazuje ci odznakę Deep Security. Natychmiast zakrywa to przyjaznym machnięciem ręki, by zwrócić uwagę na wszystkie pobliskie spojrzenia, ale jest jasne, że nie da się zignorować.`
 			label bench
-			`	When you approach the bench he says, "Hello captain. Please, have a seat and allow me to take a moment of your time."`
-			`	His manner is very rehearsed, but he seems quite intent and assured in his request.`
+			`	Kiedy podchodzisz do ławki, mówi: "Witaj kapitanie. Proszę usiąść i pozwolić mi zająć chwilę."`
+			`	Jego maniery są bardzo wyćwiczone, ale wydaje się, że jego prośba jest całkowicie skupiona i pewna siebie.`
 			choice
-				`	"Sure. Who are you?"`
+				`	"Jasne. Kim jesteś?"`
 					goto who
-				`	"Sorry, but I'm busy right now."`
-			`	"To be clear, I'm here to thank you, if that helps." he says.`
+				`	"Przepraszam, ale jestem teraz zajęty."`
+			`	"Żeby było jasne, jestem tu, żeby ci podziękować, jeśli to pomoże." mówi.`
 			choice
-				`	"Oh. What is it?" (Sit down.)`
-				`	"Sorry, maybe next time."`
+				`	"Och. Co się stało?" (Usiądź.)`
+				`	"Przepraszam, może następnym razem."`
 					decline
 			label who
-			`	As you sit down, the man smiles at you before directing his attention back to those passing by as he speaks. "My name is Wayde, Agent Wayde if you will. Don't mind the title though, I... well I work in the logistics division for Deep Security. You've transported a large number of secure packages recently, and several of them were mine."`
+			`	Kiedy siadasz, mężczyzna uśmiecha się do ciebie, po czym, mówiąc, ponownie kieruje uwagę na przechodzących. "Nazywam się Wayde, agent Wayde, jeśli wolisz. Nie przejmuj się jednak tytułem, ja... cóż, pracuję w dziale logistyki Deep Security. Ostatnio przetransportowałeś dużą liczbę bezpiecznych paczek, a kilka z nich było moich."`
 			choice
-				`	"If it pays, it pays."`
+				`	"Jeśli się opłaca, to się opłaca."`
 					goto "blind acceptance"
-				`	"Ah, yes."`
+				`	"Ach, tak."`
 					goto "blind acceptance"
-				`	"Do all the secure packages belong to Deep Security?"`
-			`	"Oh no, plenty of tech businesses and wealthy individuals use the same secure package shipping channels. We do monitor all of them though just to make sure our own channels don't get compromised by something ill-advised... or illegal." He shrugs, giving you a measured look.`
+				`	"Czy wszystkie bezpieczne pakiety należą do Deep Security?"`
+			`	"O nie, wiele firm technologicznych i zamożnych osób korzysta z tych samych bezpiecznych kanałów wysyłki paczek. Monitorujemy je wszystkie, aby upewnić się, że nasze kanały nie zostaną naruszone przez coś nierozsądnego... lub nielegalnego." Wzrusza ramionami, patrząc na ciebie z dystansem.`
 			label "blind acceptance"
-			`	"Well, I looked at your record and it seems you've done quite a lot for the Deep, and you're well-regarded. We like to keep a list of pilots that we can call on if we need something delivered with either urgency or discretion, and it seems like you qualified. You passed the background check at any rate.`
-			`	"So at any rate, I'm authorized to give you a one-time offer to join that list. Don't worry, I'm not asking anything of you right now."`
-			`	He stops keeping an eye on passers-by for a moment to look directly at you. "So, are you interested?"`
+			`	"Cóż, sprawdziłem twoją historię i wygląda na to, że zrobiłeś sporo dla Deep i cieszysz się dobrą opinią. Lubimy mieć listę pilotów, do których możemy zadzwonić, jeśli potrzebujemy pilnej lub dyskretnej dostawy, i wygląda na to, że się kwalifikujesz. W każdym razie przeszedłeś weryfikację przeszłości.`
+			`	"W każdym razie, jestem upoważniony do złożenia Ci jednorazowej oferty dołączenia do tej listy. Nie martw się, na razie o nic Cię nie proszę."`
+			`	Przestaje na chwilę obserwować przechodniów, żeby spojrzeć prosto na ciebie. "Więc, jesteś zainteresowany?"`
 			choice
-				`	"I'm willing to help."`
+				`	"Chętnie pomogę."`
 					goto agree
-				`	"Sorry, but I don't think I want to get that involved."`
+				`	"Przepraszam, ale chyba nie chcę się w to mieszać."`
 					decline
-				`	"You said 'at any rate' twice."`
-			`	His expression twitches slightly but he carries on with a chuckle. "Er, good catch. The question stands though."`
+				`	"Powiedziałeś "w każdym razie" dwa razy."`
+			`	Wyraz jego twarzy lekko drga, ale kontynuuje z chichotem. "Eee, dobrze zauważone. Pytanie jednak pozostaje aktualne."`
 			choice
-				`	"I'm willing to help."`
+				`	"Chętnie pomogę."`
 					goto agree
-				`	"Sorry, but I don't think I want to get that involved."`
+				`	"Przepraszam, ale chyba nie chcę się w to mieszać."`
 					decline
 			label agree
-			`	"Excellent," he says, standing up and stretching as if concluding a friendly conversation. He turns back to you with a smile, "I'll add you to the list as soon as I get back to the office then. Your ID will also let you see which packages are ours specifically too. Oh, and again, thank you!"`
+			`	"Doskonale," mówi, wstając i przeciągając się, jakby kończył przyjacielską rozmowę. Odwraca się do ciebie z uśmiechem: "Dodam cię do listy, jak tylko wrócę do biura. Twój identyfikator pozwoli ci również zobaczyć, które pakiety są konkretnie nasze. Ach, i jeszcze raz dziękuję!"`
 			action
 				set "deep security reveal"
-			`	Agent Wayde appears to flick a subtle salute your direction, or perhaps merely tips an imaginary cap. "Good day, captain. I look forward to working with you in the future."`
-			`	With a quick motion he flicks his hair back out his eyes and jogs away, sending one last wave your direction just before he turns a corner and disappears.`
+			`	Agent Wayde zdaje się delikatnie salutować w twoim kierunku, a może po prostu uchyla wyimaginowanej czapki. "Dzień dobry, kapitanie. Mam nadzieję na dalszą współpracę."`
+			`	Szybkim ruchem odgarnia włosy z oczu i odbiega truchtem, posyłając ci ostatnie machnięcie tuż przed tym, jak skręca za róg i znika.`
 				decline
 
 
@@ -859,37 +859,37 @@ mission "Deep Consultants"
 			has "main plot completed"
 	on offer
 		conversation
-			`Strolling through the spaceport, you are suddenly accosted by a young and breathless woman. "Please, Captain," she wheezes, "I'm so glad I caught you."`
-			`	After drawing in a deep breath, she stands up straighter and gestures to someone some distance away. "Captain, I'm sorry, but my colleague Julie and I are in dire need of urgent transport. Can you help?"`
-			`	As she catches her breath some more, her older colleague hustles over, bags in tow.`
+			`Spacerując po porcie kosmicznym, nagle zaczepia cię młoda, zdyszana kobieta. "Proszę, Kapitanie," rzęzi, "Cieszę się, że cię złapałam."`
+			`	Po głębokim wdechu prostuje się i gestem wskazuje na kogoś stojącego w pewnej odległości. "Kapitanie, przepraszam, ale moja koleżanka Julie i ja pilnie potrzebujemy transportu. Czy możesz pomóc?"`
+			`	Gdy znów łapała oddech, podszedł jej starszy kolega, ciągnąc za sobą torby.`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`	"Oczywiście, chętnie pomogę."`
 					goto sure
-				`	"Where do you need to go?"`
-				`	"Why is it so urgent?"`
-				`	"Who are you?"`
-			`	Julie holds out her hand in greeting. "Apologies, let's do this properly. My name is Julie Gillar. My assistant and I were held back with our duties and missed our booked transport. We're in dire need of passage to Valhalla for several important business meetings, but unfortunately everything is booked up for the next five days straight, and that's just not acceptable to my employer."`
+				`	"Dokąd musisz iść?"`
+				`	"Dlaczego to takie pilne?"`
+				`	"Kim jesteś?"`
+			`	Julie wyciąga rękę na powitanie. "Przepraszam, zróbmy to jak należy. Nazywam się Julie Gillar. Moja asystentka i ja zostaliśmy zatrzymani w obowiązkach i przegapiliśmy zarezerwowany transport. Pilnie potrzebujemy przejazdu do Walhalli na kilka ważnych spotkań biznesowych, ale niestety wszystko jest zajęte na najbliższe pięć dni, a to jest po prostu nie do przyjęcia dla mojego pracodawcy."`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`	"Oczywiście, chętnie pomogę."`
 					goto sure
-				`	"Who's your employer?"`
-			`	Julie furtively glances at the people nearby. "Well, I have a few employers actually, but at the moment, indirectly, Deep Security."`
-			`	She leans in slightly closer and lowers her voice. "We have access to their list of trustworthy pilots for emergencies. You'll be paid quite well."`
+				`	"Kto jest twoim pracodawcą?"`
+			`	Julie ukradkiem zerka na osoby w pobliżu. "Cóż, tak naprawdę mam kilku pracodawców, ale w tej chwili pośrednio Deep Security."`
+			`	Pochyla się nieco bliżej i zniża głos. "Mamy dostęp do ich listy zaufanych pilotów na wypadek sytuacji awaryjnych. Dostaniesz całkiem niezłe wynagrodzenie."`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`	"Oczywiście, chętnie pomogę."`
 					goto sure
-				`	"I'm sorry, but I really can't help you right now."`
+				`	"Przykro mi, ale naprawdę nie mogę ci teraz pomóc."`
 					decline
 			label sure
-			`	"Lead right on then," says Julie. You point towards your ship, and the women move to board it.`
+			`	"Prowadź prosto, " mówi Julie. Wskazujesz na swój statek, a kobiety ruszają do abordażu.`
 				accept
 	on complete
 		log "Minor People" "Julie Gillar" `Konsultantka, która pracowała z Deep Security. Poprosiła cię o transport ratunkowy i pokazała, jak być dostępnym dla przyszłych konsultantów.`
 		payment 350000
 		set "deep security consultants"
 		conversation
-			`Julie and her assistant are model passengers the entire journey. As she prepares to disembark, she thanks you for your assistance. In addition to transferring <payment> into your account, she helps you change your job board preferences with the local spaceport agencies to make yourself available for business passengers consulting with Deep Security.`
-			`	"Thank you Captain <last>, you've been most helpful. Do keep an eye out in the spaceports around here though. Deep Security is notorious for keeping us longer than we're booked for. There's often someone stuck and in need of rapid transport off-world."`
+			`Julie i jej asystentka są wzorowymi pasażerami przez całą podróż. Przygotowując się do wysiadania, dziękuje Ci za pomoc. Oprócz przeniesienia <payment> na Twoje konto, pomaga Ci zmienić preferencje dotyczące ogłoszeń o pracę w lokalnych agencjach kosmoportu, abyś był dostępny dla pasażerów biznesowych, konsultując się z Deep Security.`
+			`	"Dziękuję, Kapitanie <last>, bardzo mi pomogłeś. Proszę jednak uważać na okoliczne porty kosmiczne. Deep Security jest znane z tego, że zatrzymuje nas dłużej, niż jest to przewidziane. Często ktoś utknął i potrzebuje szybkiego transportu poza planetę."`
 
 
 phrase "stranded consultant pickup"

@@ -48,9 +48,9 @@ mission "Hai Reveal [D01A] Summoned to Mountaintop"
 		event "cardax site chosen"
 		conversation
 			# A message summons you for the treaty resolution.
-			`When you land at the spaceport, you find a message waiting for you from Teneep in the system buffer.`
-			`	The message has traveled a very long way and filtered through a great many relays to reach you, but it is nice that you can safely send messages across the wormhole now.`
-			`	The content of the message is very simple. The Hai-human treaty, which both peoples' governments resolved to work on, has reached its final stages of drafting and acceptance. Apparently there's something they want you to assist with to get it over the line. They'll be waiting for you on <destination> when you're ready.`
+			`Po wylądowaniu w porcie kosmicznym w buforze systemowym znajdziesz wiadomość od Teneep.`
+			`	Wiadomość przebyła bardzo długą drogę i przeszła przez wiele przekaźników, aby do ciebie dotrzeć, ale dobrze, że teraz możesz bezpiecznie przesyłać wiadomości przez tunel czasoprzestrzenny.`
+			`	Treść wiadomości jest bardzo prosta. Traktat Hai-ludzie, nad którym rządy obu narodów postanowiły pracować, osiągnął końcową fazę opracowywania i akceptacji. Najwyraźniej chcą, żebyś im pomógł w jego sfinalizowaniu. Będą na ciebie czekać <destination>, kiedy będziesz gotowy.`
 				accept
 	
 mission "Hai Reveal [D01B] Summoned to Mountaintop"
@@ -76,8 +76,8 @@ mission "Hai Reveal [D01B] Summoned to Mountaintop"
 		event "cardax site chosen"
 		conversation
 			# A message summons you for the treaty resolution.
-			`When you land at the spaceport, you find a message waiting for you from Teneep in the system buffer.`
-			`	The content of the message is very simple. The Hai-human treaty, which both peoples' governments resolved to work on, has reached its final stages of drafting and acceptance. Apparently there's something they want you to assist with to get it over the line. They'll be waiting for you on <destination> when you're ready.`
+			`Po wylądowaniu w porcie kosmicznym w buforze systemowym znajdziesz wiadomość od Teneep.`
+			`	Treść wiadomości jest bardzo prosta. Traktat Hai-ludzie, nad którym rządy obu narodów postanowiły pracować, osiągnął końcową fazę opracowywania i akceptacji. Najwyraźniej chcą, żebyś im pomógł w jego sfinalizowaniu. Będą na ciebie czekać <destination>, kiedy będziesz gotowy.`
 				accept
 	
 # Redefine Cardax to have a named location for the station.
@@ -115,36 +115,36 @@ mission "Hai Reveal [D02] Escort to Cardax"
 	on offer
 		event "cardax pirates waiting"
 		conversation
-			`Upon arriving at <planet>, you are greeted by Mr. Xilin Yang and the Hai ambassador, Hiyamaharu.`
-			`	"Captain <last>!" enthuses Xilin. "It has been too long. Welcome to <planet> again."`
-			`	Around you, the station appears to be prospering. A strong undercurrent of excited anticipation that seems to buoy everyone along as they go about their business.`
-			`	"Hiyamaharu here has been telling me stories about these so-called 'Wanderers' you've been off gallivanting with." He gives you a wink and a nudge, then continues, "I don't think he was meant to tell me, but it slipped out when I said we'd asked you back for this. I hear you two have been briefly acquainted before?"`
+			`Po przybyciu do <planet> witają Cię pan Xilin Yang i ambasador Hai, Hiyamaharu.`
+			`	"Kapitan <last>!" entuzjastycznie wita Xilin. "Minęło zbyt wiele czasu. Witamy ponownie w <planet>."`
+			`	Wokół ciebie stacja zdaje się prosperować. Silny, podskórny nurt podekscytowania, który zdaje się nieść wszystkim energię, gdy zajmują się swoimi sprawami.`
+			`	"Hiyamaharu opowiadał mi historie o tych tak zwanych "Wędrowcach", z którymi się włóczyłeś." Puszcza do ciebie oko i szturcha cię, po czym kontynuuje: "Nie sądzę, żeby miał mi to powiedzieć, ale wymknęło mi się, kiedy powiedziałem, że zaprosiliśmy cię z powrotem. Słyszałem, że znaliście się już wcześniej?"`
 			choice
-				`	"Yes, we met briefly over some business with Alphas."`
+				`	"Tak, spotkaliśmy się krótko w interesach z Alphami."`
 					goto alphas
-				`	"I'm sorry, but I'm afraid I don't recall the occasion."`
-			`	Hiyamaharu looks hurt for a moment, but quickly saves face. "Not to worry, I'm sure the famous Captain has a great many adventures to recall. A short chat with an old Hai is no offense to have forgotten."`
+				`	"Przepraszam, ale obawiam się, że nie pamiętam takiej okazji."`
+			`	Hiyamaharu przez chwilę wygląda na urażonego, ale szybko ratuje twarz. "Nie martw się, jestem pewien, że słynny Kapitan ma mnóstwo przygód do przypomnienia. Krótka pogawędka ze starym Hai nie jest niczym złym, że o tym zapomniał."`
 				goto main
 			label alphas
-			`	Hiyamaharu looks faintly pleased that you remember him. "Yes, that is quite right, I'm only sorry I wasn't able to offer more assistance at the time."`
-			`	Xilin looks shocked. "The Alphas? Seriously? Will there never be an end to their tale?"`
-			`	He waves his hand dismissively and continues.`
+			`	Hiyamaharu wygląda na lekko zadowolonego, że go pamiętasz. "Tak, to prawda, żałuję tylko, że nie mogłem wtedy zaoferować więcej pomocy."`
+			`	Xilin wygląda na zszokowanego. "Alfy? Serio? Czy ich opowieść nigdy się nie skończy?"`
+			`	Macha lekceważąco ręką i kontynuuje.`
 			label main
-			`	"In any event," Xilin continues, "Hiyamaharu and I would like you to do something. You completed a similar task when this station was first built.`
-			`	"The pirate threat to ships traveling to and from Hai space is just as bad as it ever was, possibly worse for the increased number of ships. So, on top of a mountain of legalese, an endless stipulation of trade obligations, and a nightmare of judicial jurisprudence jurisdiction boundaries, there is a very physical and tangible action that needs to be taken.`
-			`	"The Navy base on Farpoint helps to limit the mobility of pirates coming from the Far North, but there is no restraint other than distance to put a check on the pirates that come out of Stormhold. Something needs to be done to secure the space lanes, and so the solution that has been agreed upon is to build a station in Cardax. The volume of pirate activity there is intense enough that the Hai's rapid ship conversion approach to building a station is the only really viable approach."`
+			`	"W każdym razie, " Xilin kontynuuje: "Hiyamaharu i ja chcielibyśmy, żebyś coś zrobił. Wykonałeś podobne zadanie, kiedy ta stacja została zbudowana.`
+			`	"Zagrożenie ze strony piratów dla statków podróżujących do i z przestrzeni kosmicznej Hai jest równie duże, jak zawsze, a być może nawet większe w przypadku rosnącej liczby statków. Zatem, oprócz góry prawniczego żargonu, niekończących się postanowień dotyczących zobowiązań handlowych i koszmaru granic jurysprudencji sądowej, istnieje potrzeba podjęcia bardzo fizycznych i namacalnych działań.`
+			`	"Baza Marynarki Wojennej na Farpoint pomaga ograniczyć mobilność piratów nadciągających z Dalekiej Północy, ale nie ma żadnych ograniczeń poza odległością, które mogłyby powstrzymać piratów przybywających ze Stormhold. Trzeba coś zrobić, aby zabezpieczyć szlaki kosmiczne, dlatego uzgodnionym rozwiązaniem jest budowa stacji w Cardax. Skala piractwa jest tam na tyle duża, że szybka konwersja statków Hai w celu budowy stacji jest jedynym realnym rozwiązaniem."`
 			choice
-				`	"So what am I going to do?"`
-			`	"Well," says Hiyamaharu, "the number of ships involved in this represents a considerable investment, and we'd hate for them to be destroyed during a vulnerable construction phase. The prior concerns about human agents observing the inner core of the station also continue to apply.`
-			`	"So, we would like you to escort a security force and the core Geocoris to the site in Cardax, clear out any threats in the system, and get the ship through the first construction phase so it can safely raise its shield again. Once that has been completed, the rest of the Geocoris will travel with their escort to join you. You and the security force will have to protect the station while the rest of the convoy arrives to finish the construction."`
+				`	"Co więc mam zrobić?"`
+			`	"Cóż," mówi Hiyamaharu, "liczba statków zaangażowanych w to przedsięwzięcie stanowi znaczną inwestycję i nie chcielibyśmy, żeby zostały zniszczone w trakcie wrażliwej fazy budowy. Wcześniejsze obawy dotyczące ludzkich agentów obserwujących wewnętrzny rdzeń stacji również pozostają aktualne.`
+			`	"Chcielibyśmy, abyś eskortował siły bezpieczeństwa i rdzeń Geocoris do stacji w Cardax, usunął wszelkie zagrożenia w systemie i przeprowadził statek przez pierwszą fazę budowy, aby mógł bezpiecznie ponownie podnieść osłonę. Po jej zakończeniu reszta Geocoris dołączy do ciebie wraz ze swoją eskortą. Ty i siły bezpieczeństwa będziecie musieli chronić stację, podczas gdy reszta konwoju przybędzie, aby dokończyć budowę."`
 			choice
-				`"Why not just send all of them with their entire escort at once? Surely that would be safer?"`
-			`	Xilin shrugs. "We've heard a rumor that the pirates might have caught wind of what we're doing. The reality is that the marauders up here can field a truly formidable force, if they get their act together. They've overrun the Navy outpost on Farpoint a number of times before, and it would be devastating if an entire naval flotilla, the Hai construction fleet, and a whole security force were all caught out in the open by such a fleet, possibly attacked from both sides.`
-			`	"By separating them, we're less likely to tip them off as to when exactly we choose to act, and once the station is up, the fleet can use the station's projector and facilities to support their presence. Plus, if they are tipped off already and we can't deal with them, then we only lose the one Geocoris. We expect that you and the Hai security ships are capable enough to escape from trouble if it's more than you can handle."`
+				`"Dlaczego nie wysłać ich wszystkich naraz z całą eskortą? Chyba byłoby bezpieczniej?"`
+			`	Xilin wzrusza ramionami. "Słyszeliśmy plotkę, że piraci mogli się dowiedzieć, co robimy. Prawda jest taka, że maruderzy mogą wystawić naprawdę potężne siły, jeśli się zmobilizują. Wielokrotnie już napadali na placówkę marynarki wojennej na Farpoint i byłoby katastrofalne, gdyby cała flotylla okrętów, flota budowlana Hai i całe siły bezpieczeństwa zostały zaskoczone na otwartej przestrzeni przez taką flotę, być może zaatakowane z obu stron.`
+			`	"Rozdzielając ich, zmniejszamy prawdopodobieństwo, że damy im znać, kiedy dokładnie zdecydujemy się działać, a gdy stacja będzie aktywna, flota będzie mogła skorzystać z projektora i urządzeń stacji, aby wesprzeć ich obecność. Poza tym, jeśli już zostali ostrzeżeni i nie będziemy mogli sobie z nimi poradzić, stracimy tylko jednego Geocorisa. Oczekujemy, że ty i statki bezpieczeństwa Hai będziecie wystarczająco zdolni, aby uniknąć kłopotów, jeśli będzie ich więcej, niż jesteście w stanie udźwignąć."`
 			choice
-				`	"Makes sense."`
-				`	"I suppose..."`
-			`	"The Geocoris and security force are ready whenever you are. Be safe out there <last>, and remember: we can't have any pirates observing the construction."`
+				`	"Ma sens."`
+				`	"Przypuszczam..."`
+			`	"Geocoris i siły bezpieczeństwa są gotowe, kiedy tylko będziecie gotowi. Uważajcie na siebie <last> i pamiętajcie: nie możemy pozwolić, żeby piraci obserwowali budowę."`
 				accept
 	on visit
 		dialog "Dotarłeś, ale albo Geocoris nie przybył, albo piraci nadal zagrażają placowi budowy."
@@ -186,8 +186,8 @@ mission "Hai Reveal [D03] Defend Mooncreek Construction Site"
 	on offer
 		event "mooncreek founded"
 		conversation
-			`While the system is clear of threats for a moment, you supervise closely as the Geocoris unfolds and deploys a massive, metal structural ring, before shifting hull plates and having its innards rearranged into a shielded station core. When the shield is back up, a confirmation message comes from Mountaintop. The rest of the construction fleet is en route.`
-			`	Now, you just need to keep the pirates away from the nascent station core until they can get here. The message from Mountaintop also warned that there may be a hasty response from the pirates.`
+			`Podczas gdy system jest na chwilę wolny od zagrożeń, uważnie obserwujesz, jak Geocoris rozkłada i rozkłada potężny, metalowy pierścień konstrukcyjny, a następnie przesuwa płyty kadłuba i przekształca jego wnętrze w osłonięty rdzeń stacji. Kiedy osłona znów się podnosi, z Mountaintop nadchodzi wiadomość potwierdzająca. Reszta floty konstrukcyjnej jest w drodze.`
+			`	Teraz wystarczy trzymać piratów z dala od rdzenia powstającej stacji, dopóki tu nie dotrą. Wiadomość z Mountaintop ostrzegała również o możliwości pospiesznej odpowiedzi piratów.`
 				accept
 	npc
 		government "Hai (Wormhole Access)"
@@ -262,28 +262,28 @@ mission "Hai Reveal [D04] Escort Republic Outfitters"
 		event "mooncreek operational"
 		payment 10000000
 		conversation
-			`With a strong force ensuring that no one can interrupt the final construction stage, space-based cranes set about removing the three outer sections of the Geocoris and moving them to the steel ring deployed around the original station core. Within a few hours, all seven of the new Geocoris have been dismantled and integrated to the station structure, using lessons learnt from the construction of Mountaintop to rapidly finish a station that is fully battle-ready, if lacking in some of the amenities of life. In an unexpected reversal of the Mountaintop priorities, the construction workers unpack and assemble a massive holoprojector while wearing environmental suits before they begin unpacking the contents of the Geocoris storage pods and engaging principle life support systems.`
-			`	As soon as the life support systems around the docking section are engaged, the security ships begin landing those damaged by the hastily assembled pirate response for critical repairs.`
-			`	As you're attending to your own ships after their extended guard duty, you get pinged by a hail from Mountaintop. When you answer it, you are greeted by Xilin and Hiyamaharu, who look very pleased. "We hear that the operation to establish Mooncreek has been successful, Captain <last>! How'd things go with you?"`
+			`Z ogromną siłą, aby nikt nie mógł przerwać ostatniego etapu budowy, kosmiczne dźwigi przystąpiły do demontażu trzech zewnętrznych sekcji Geocoris i przeniesienia ich na stalowy pierścień rozłożony wokół pierwotnego rdzenia stacji. W ciągu kilku godzin wszystkie siedem nowych Geocoris zostało zdemontowanych i zintegrowanych z konstrukcją stacji, wykorzystując doświadczenia zdobyte podczas budowy Mountaintop, aby szybko ukończyć stację w pełni gotową do walki, choć pozbawioną niektórych udogodnień. W nieoczekiwanej zmianie priorytetów Mountaintop, robotnicy budowlani, ubrani w kombinezony ochronne, rozpakowują i montują ogromny holoprojektor, zanim rozpoczną rozpakowywanie zawartości kapsuł Geocoris i uruchamianie głównych systemów podtrzymywania życia.`
+			`	Gdy tylko systemy podtrzymywania życia wokół sekcji dokującej zostaną uruchomione, statki ochrony zaczynają desantować jednostki uszkodzone przez pospiesznie zorganizowaną akcję piracką w celu przeprowadzenia niezbędnych napraw.`
+			`	Gdy zajmujesz się swoimi statkami po ich przedłużonej warcie, słyszysz sygnał z Mountaintop. Kiedy odbierasz, witają cię Xilin i Hiyamaharu, którzy wyglądają na bardzo zadowolonych. "Słyszeliśmy, że operacja założenia Mooncreek zakończyła się sukcesem, Kapitanie <last>! Jak ci poszło?"`
 			choice
-				`	"Yeah, it was fairly chill."`
+				`	"Tak, było całkiem spokojnie."`
 					goto fantastic
-				`	"It was very close out there. There were some losses."`
-			`	Hiyamaharu is inscrutable, but Xilin adopts a somber expression. "Unfortunately, there was always a risk of that in such an endeavor."`
-			`	"Still," says Hiyamaharu, turning to Xilin.`
+				`	"Było tam bardzo blisko. Były pewne straty."`
+			`	Hiyamaharu jest nieprzenikniony, ale Xilin przybiera ponury wyraz twarzy. "Niestety, zawsze istniało takie ryzyko w takim przedsięwzięciu."`
+			`	"Still," mówi Hiyamaharu, zwracając się do Xilina.`
 			label fantastic
-			`	"A great success all round," replies Xilin. "The Republic and Hai governments have approved a reward of <payment> by the way, as thanks for your considerable assistance here.`
-			`	"If you have a moment though, we'd appreciate your continued help with a bit of PR now. To finalize the new station, the plan is to facilitate the setup of some of the major outfitters, both from Hai space and from ours. Predominantly, this would be so that we can ensure a ready supply of munitions on the station at all times. As well, a long-term garrison to act as security needs to be established. We'd like you to escort each of them on the last leg of their journeys, mostly for the photo ops.`
-			`	"Of course," Xilin adds, "we'll understand if you're too busy now."`
+			`	"Wielki sukces na całej linii, " odpowiada Xilin. "Rządy Republiki i Hai zatwierdziły nagrodę w wysokości <payment>, jako podziękowanie za znaczną pomoc.`
+			`	"Jeśli jednak masz chwilę, będziemy wdzięczni za dalszą pomoc w PR-ze. Aby sfinalizować budowę nowej stacji, planujemy ułatwić rozmieszczenie kilku głównych dostawców, zarówno z przestrzeni Hai, jak i z naszej. Przede wszystkim po to, abyśmy mogli zapewnić stały dopływ amunicji na stację. Ponadto konieczne jest utworzenie długoterminowego garnizonu, który będzie pełnił funkcję ochrony. Chcielibyśmy, abyś eskortował każdego z nich na ostatnim etapie podróży, głównie w celu zrobienia zdjęć.`
+			`	"Oczywiście," dodaje Xilin, "zrozumiemy, jeśli teraz będziesz zbyt zajęty."`
 			choice
-				`	"Sure, why not?"`
+				`	"Jasne, czemu nie?"`
 					goto escort
-				`	"I think I've had enough of the limelight for now."`
-			`	Xilin performs a combination shrug and half-nod. "Fair enough <last>, be safe out there. We'll send you an invite for the final treaty ceremony. We'd all like you to be there."`
-			`	The call ends, leaving you to your own devices.`
+				`	"Myślę, że na razie mam już dość bycia w centrum uwagi."`
+			`	Xilin wykonuje połączenie wzruszenia ramion i półskłonu. "Dobrze <last>, uważaj na siebie. Wyślemy ci zaproszenie na ceremonię ostatecznego traktatu. Wszyscy chcielibyśmy, żebyś tam był."`
+			`	Połączenie zostaje zakończone, a Ty zostajesz sam.`
 				decline
 			label escort
-			`	"Lovely. In that case, the first convoy will be waiting for you on <destination>. I'll meet you there on <origin> when you return."`
+			`	"Lovely. W takim razie pierwszy konwój będzie na ciebie czekał o <destination>. Spotkamy się tam o <origin>, kiedy wrócisz."`
 				accept
 	
 	
@@ -320,7 +320,7 @@ mission "Hai Reveal [D05] Escort Republic Outfitters"
 		has "Hai Reveal [D04] Escort Republic Outfitters: done"
 	on offer
 		conversation
-			`When you arrive on <origin>, you are greeted by a representative of Lovelace Labs. They and their Navy escort are ready to depart on their PR flight immediately.`
+			`Po przybyciu na <origin> powita Państwa przedstawiciel Lovelace Labs. Oni i ich eskorta marynarki wojennej są gotowi do natychmiastowego odlotu samolotem PR.`
 				accept
 	npc accompany save
 		personality escort heroic
@@ -356,13 +356,13 @@ mission "Hai Reveal [D06] Escort Syndicate Outfitters"
 	on offer
 		event "mooncreek republic garrison"
 		conversation
-			`The Republic garrison and Lovelace transports arrive to suitable fanfare and media pomp. Xilin and Hiyamaharu appear to have hitched a ride to Mooncreek in your absence, and they greet you in what passes for a spaceport that is not yet even serving drinks.`
-			`	"Good job out there, <last>," says Xilin.`
-			`	"I know it's trivial, but don't underestimate the impact of a stately arrival. After the crisis last time, it's really very important to penetrate the public consciousness and get people to appreciate the magnitude of these steps."`
+			`Garnizon Republiki i transporty Lovelace przybywają z odpowiednim rozgłosem i medialną pompą. Xilin i Hiyamaharu najwyraźniej dostali się na Mooncreek pod twoją nieobecność i witają cię w czymś, co uchodzi za port kosmiczny, w którym jeszcze nawet nie serwują drinków.`
+			`	"Dobra robota, <last>," mówi Xilin.`
+			`	"Wiem, że to drobiazg, ale nie należy lekceważyć wpływu dostojnego przybycia. Po ostatnim kryzysie, naprawdę bardzo ważne jest, aby dotrzeć do świadomości społecznej i uświadomić ludziom wagę tych kroków."`
 			choice
-				`	"I understand."`
-				`	"As long as I get paid for it."`
-			`	Xilin nods. "The Syndicate cohort will be waiting on Sunracer for the next one." He casts a look around. "With any luck, you'll actually be able to get a drink around here by the time you return."`
+				`	"Rozumiem."`
+				`	"Dopóki mi za to zapłacą."`
+			`	Xilin kiwa głową. "Kohorta Syndykatu będzie czekać na Sunracera na następny." Rozgląda się dookoła. "Mając szczęście, uda ci się tu dostać coś do picia, zanim wrócisz."`
 				accept
 
 
@@ -385,7 +385,7 @@ mission "Hai Reveal [D07] Escort Syndicate Outfitters"
 	on offer
 		event "mooncreek spaceport"
 		conversation
-			`When you arrive on Sunracer, you are greeted by a Syndicate representative. They appear agitated by the delay and are ready to depart on their PR flight immediately.`
+			`Po przybyciu na Sunracer wita Cię przedstawiciel Syndykatu. Wygląda na to, że jest zdenerwowany opóźnieniem i jest gotowy do natychmiastowego odlotu swoim lotem PR.`
 				accept
 	npc accompany save
 		personality escort timid
@@ -427,13 +427,13 @@ mission "Hai Reveal [D08] Escort Hai Outfitters"
 	on offer
 		event "mooncreek syndicate garrison"
 		conversation
-			`The Syndicate convoy arrives to a more muted reception, but one that is thoroughly covered nonetheless. The rudimentary spaceport, still only days old, has now opened up a bar, and the Lovelace outfitters have begun work on their facilities here. Hiyamaharu is waiting for you in the spaceport and appears to be sampling a collection of cheap whiskies.`
-			`	"Welcome back, Captain," he says, "If you don't mind, I'll be coming with you for the Hai escort."`
+			`Konwój Syndykatu przybywa na powitanie nieco bardziej stonowane, ale mimo to dokładnie zaaranżowane. W prymitywnym porcie kosmicznym, działającym zaledwie kilka dni temu, otwarto bar, a firma Lovelace Outfitters rozpoczęła prace nad swoimi obiektami. Hiyamaharu czeka na ciebie w porcie kosmicznym i najwyraźniej próbuje kolekcję tanich whisky.`
+			`	"Witamy ponownie, Kapitanie," mówi, "Jeśli nie masz nic przeciwko, pójdę z tobą na eskortę Hai."`
 			choice
-				`	"This seems mildly ridiculous."`
-				`	"Of course."`
-			`	"I hear the intent of this affair is to prevent the news cycle in human space from turning over before the big event," he explains.`
-			`	"Well," you say, "at least I don't have to go very far."`
+				`	"To wydaje się lekko śmieszne."`
+				`	"Oczywiście."`
+			`	"Słyszałem, że celem tej sprawy jest zapobiegnięcie odwróceniu cyklu informacyjnego w przestrzeni kosmicznej przed wielkim wydarzeniem," wyjaśnia.`
+			`	"Cóż," mówisz, "przynajmniej nie muszę iść daleko."`
 				accept
 
 
@@ -456,7 +456,7 @@ mission "Hai Reveal [D09] Escort Hai Outfitters"
 		has "Hai Reveal [D08] Escort Hai Outfitters: done"
 	on offer
 		conversation
-			`The Hai on Mountaintop are fully prepared. Everyone is eager to get this part over and done with.`
+			`Hai na szczycie góry są w pełni przygotowani. Wszyscy nie mogą się doczekać, żeby mieć to już za sobą.`
 				accept
 	npc accompany save
 		personality escort timid
@@ -479,31 +479,31 @@ mission "Hai Reveal [D10] Escort Free World Outfitters"
 	on offer
 		event "mooncreek main outfitters" 15
 		conversation
-			`On your arrival to <origin> with the Hai convoy, you are surprised to see a slightly put-out looking Alondo waiting for you at the docks.`
-			`	"<first>! How's it going?"`
+			`Po przybyciu do <origin> z konwojem Hai, ze zdziwieniem zauważasz lekko wystraszonego Alondo czekającego na ciebie na nabrzeżu.`
+			`	"<first>! Jak leci?"`
 			choice
-				`	"Fine, I guess?"`
-				`	"It's going well."`
-			`	"Good, good," he says. "Now, I know that the last thing you probably want to do right now is traipse from one end of space to the other, but I need to ask you a favor."`
-			`	He finds somewhere to sit down with you and begins. "You may recall that I was helping the Free Worlds set up their diplomatic corps. Obviously, I wanted no part of the ambassadorial business to the Republic, but when all this Hai business started up well, let's just say they struggled to find anyone qualified. As it turns out, someone in the senate doesn't particularly like me, and they've been using my extended time away up here to try and influence the diplomatic corps. Meanwhile, the Hai want the Free Worlds to have some involvement with this station we're on so that everyone is tied in, but obviously the Free Worlds don't particularly care when they could hardly be further from it.`
-			`	"I have devised a compromise: the Free Worlds will not supply ships to the garrison, but they will instead sponsor both Kraz and Delta V, primarily based in the south, to set up outfitters here, with full upfront costs paid by the Free Worlds government. A defining success will allow me to return to the corps with the influence I need to counter this senator's influence. Otherwise, I fear I shall be stuck here, on the other side of space, for the rest of my career."`
-			`	You look at your friend, and you can tell he's waiting for you to accept his premise first, holding something back...`
+				`	"Dobrze, tak sądzę?"`
+				`	"Wszystko idzie dobrze."`
+			`	"Dobrze, dobrze, " mówi. "Wiem, że ostatnią rzeczą, jaką prawdopodobnie chcesz teraz zrobić, jest włóczenie się z jednego końca kosmosu na drugi, ale muszę cię prosić o przysługę."`
+			`	Znajduje miejsce, żeby usiąść z tobą i zaczyna. "Możesz pamiętać, że pomagałem Wolnym Światom w tworzeniu korpusu dyplomatycznego. Oczywiście nie chciałem mieć nic wspólnego z ambasadorami Republiki, ale kiedy cała ta sprawa z Hai rozkręciła się na dobre, powiedzmy, że mieli problem ze znalezieniem kogoś wykwalifikowanego. Okazuje się, że ktoś w senacie mnie nie lubi i wykorzystuje moją długą nieobecność tutaj, aby próbować wpływać na korpus dyplomatyczny. Tymczasem Hai chcą, żeby Wolne Światy miały jakiś związek z tą stacją, na której jesteśmy, żeby wszyscy byli w to zaangażowani, ale Wolne Światy najwyraźniej nie przejmują się tym zbytnio, skoro są od niej bardzo odlegli.`
+			`	"Opracowałem kompromis: Wolne Światy nie będą dostarczać statków do garnizonu, ale zamiast tego będą sponsorować Kraz i Delta V, stacjonujące głównie na południu, aby założyć tu firmy zaopatrzeniowe, a rząd Wolnych Światów pokryje wszystkie koszty początkowe. Zdecydowany sukces pozwoli mi wrócić do korpusu z wpływami potrzebnymi do przeciwdziałania wpływom tego senatora. W przeciwnym razie obawiam się, że utknę tu, po drugiej stronie kosmosu, do końca mojej kariery."`
+			`	Patrzysz na swojego przyjaciela i widzisz, że czeka, aż najpierw zaakceptujesz jego założenie, coś przed tobą ukrywa...`
 			choice
-				`	"What's the catch?"`
-			`	He chuckles. "You're getting to know me too well.`
-			`	"The catch is that the Free Worlds will only sponsor the outfitters if you agree to escort their convoys directly from Solace and Rust the entire way here. They want to make a big show of it - or rather, a certain senator has goaded them into making a show of it."`
-			`	He sighs. "On the plus side though, if you're interested, you do get paid diplomatic escort rates."`
+				`	"Jaki jest haczyk?"`
+			`	Chichocze. "Poznajesz mnie za dobrze.`
+			`	"Chodzi o to, że Wolne Światy będą sponsorować firmy transportowe tylko wtedy, gdy zgodzisz się eskortować ich konwoje bezpośrednio z Solace i Rust przez całą drogę tutaj. Chcą zrobić z tego wielkie widowisko - a raczej pewien senator ich do tego namówił."`
+			`	Wzdycha. "Z drugiej strony, jeśli jesteś zainteresowany, otrzymujesz wynagrodzenie za eskortę dyplomatyczną."`
 			choice
-				`	"I'll do it, friend."`
+				`	"Zrobię to, przyjacielu."`
 					accept
-				`	"Of course I'll do it, but how much is that exactly?"`
-			`	He winks. "A hundred thousand credits per day, for a fifty-two-day route with eight stops."`
-			`	"Of course, if you really don't want to do it, I'll understand. I don't imagine you're keen to deal with the politics."`
-			`	You take a moment to consider helping a good friend... for six million credits.`
+				`	"Oczywiście, że to zrobię, ale ile to dokładnie będzie kosztować?"`
+			`	Mruga. "Sto tysięcy kredytów dziennie, za trasę pięćdziesięciodwudniową z ośmioma przystankami."`
+			`	"Oczywiście, jeśli naprawdę nie chcesz tego robić, zrozumiem. Nie sądzę, żebyś miał ochotę zajmować się polityką."`
+			`	Poświęcasz chwilę, by rozważyć pomoc dobremu przyjacielowi... za sześć milionów kredytów.`
 			choice
-				`	"Don't be silly! Of course I'll do it, friend."`
+				`	"Nie bądź głupi! Oczywiście, że to zrobię, przyjacielu."`
 					accept
-				`	"I'm sorry Alondo. Maybe I can find some other way of helping you later."`
+				`	"Przepraszam, Alondo. Może znajdę jakiś inny sposób, żeby ci później pomóc."`
 					decline
 			
 		
@@ -521,7 +521,7 @@ mission "Hai Reveal [D11] Escort Free World Outfitters"
 		has "Hai Reveal [D10] Escort Free World Outfitters: done"
 	on offer
 		conversation
-			`When you arrive on Solace, the Delta V convoy is ready and waiting along with one of their head engineers. They also seem to have sent their most blustery and arrogant sales representative, much to the chagrin of their engineer. Fortunately for everyone, they will each be traveling on separate ships, and not on yours.`
+			`Kiedy przybędziesz na Solace, konwój Delta V będzie gotowy i czeka wraz z jednym z głównych mechaników. Wygląda na to, że wysłali też swojego najbardziej aroganckiego i porywczego przedstawiciela handlowego, ku wielkiemu rozczarowaniu mechanika. Na szczęście dla wszystkich, każdy z nich będzie podróżował osobnym statkiem, a nie twoim.`
 				accept
 	npc accompany save
 		personality escort timid
@@ -545,9 +545,9 @@ mission "Hai Reveal [D12] Escort Free World Outfitters"
 		has "Hai Reveal [D11] Escort Free World Outfitters: done"
 	on offer
 		conversation
-			`On <origin>, it is tempting to take the time to go and catch up with Barmy Edward, but the Kraz convoy were already prepared a day early and near enough to meeting you in orbit.`
-			`	While you are briefly touched down though, you are greeted by a message from Alondo. "<first>! Navy intelligence has, in their infinite wisdom, deigned to let us know about a potential pirate threat. The marauders were outmaneuvered when <planet> went up so quickly, so it seems they might attempt to intercept the convoy. Please be safe out there!"`
-			`	It seems you'll have to keep your eyes peeled on your way back.`
+			`W dniu <origin> kusząca jest myśl, żeby poświęcić czas na spotkanie z Barmym Edwardem, ale konwój Kraz był już przygotowany dzień wcześniej i wystarczająco blisko, by spotkać się z tobą na orbicie.`
+			`	Podczas krótkiego lądowania wita cię wiadomość od Alondo. "<first>! Wywiad Marynarki Wojennej, w swojej nieskończonej mądrości, raczył nas poinformować o potencjalnym zagrożeniu ze strony piratów. Maruderzy zostali wymanewrowani, gdy <planet> pojawił się tak szybko, więc wygląda na to, że mogą próbować przechwycić konwój. Uważaj na siebie! "`
+			`	Wygląda na to, że będziesz musiał mieć oczy szeroko otwarte w drodze powrotnej.`
 				accept
 	on fail
 		dialog "Nie udało Ci się bezpiecznie eskortować konwoju przewoźnika Wolnego Świata."
@@ -619,7 +619,7 @@ mission "Hai Reveal [D0XB] Skipped Mooncreek Escorts"
 		not "Hai Reveal [D04] Escort Republic Outfitters: done"
 	on offer
 		conversation
-			`In your absence the Mooncreek station has been fully completed. You are summoned to Mountaintop for the final treaty signing.`
+			`Podczas twojej nieobecności stacja Mooncreek została w pełni ukończona. Zostajesz wezwany na Mountaintop na ostateczne podpisanie traktatu.`
 				accept
 
 mission "Hai Reveal [D0XC] Skipped Mooncreek Escorts"
@@ -632,7 +632,7 @@ mission "Hai Reveal [D0XC] Skipped Mooncreek Escorts"
 		has "Hai Reveal [D10] Escort Free World Outfitters: declined"
 	on offer
 		conversation
-			`In your absence the Mooncreek station has been fully completed. You are summoned to Mountaintop for the final treaty signing.`
+			`Podczas twojej nieobecności stacja Mooncreek została w pełni ukończona. Zostajesz wezwany na Mountaintop na ostateczne podpisanie traktatu.`
 				accept
 	
 
@@ -649,7 +649,7 @@ mission "Hai Reveal [D13] Travel to Mountaintop"
 		event "mooncreek fw outfitters" 12
 		payment 6000000
 		conversation
-			`With the Free World outfitters safely at Mooncreek, there's nothing left except to go to Mountaintop for the treaty signing. Alondo hitches a ride and transfers you the <payment> promised by the Free Worlds.`
+			`Gdy organizatorzy wypraw Wolnego Świata są już bezpieczni w Mooncreek, nie pozostaje nic innego, jak udać się na szczyt góry, gdzie odbędzie się podpisanie traktatu. Alondo łapie okazję i przekazuje ci <payment> obiecane przez Wolne Światy.`
 				accept
 
 
@@ -668,10 +668,10 @@ mission "Hai Reveal [D14] Hai-Human Treaty"
 		event "mooncreek realized" 15
 		payment 12000000
 		conversation
-			`Arriving on <origin> once again brings with it full diplomatic regalia. The gallery "Where Mountains Touch The Sky" is filled to the brim with a great many representatives from the Core and Paradise worlds, and some of the more notable representatives from the Syndicate and Free Worlds. The entire Hai Elder Council is in attendance, and the Chancellor of the Free Worlds and President of the Republic are again schmoozing about in their most respectable suits. Alondo, Xilin, and Hiyamaharu have their symbols of office, and it looks like the Free Worlds have now finalized their design for Alondo's.`
-			`	The speeches in the grand Borealis Chamber turn out to be rather long and dry. Teeneep makes an appearance along with one of the other Elder Hai, whom you think you recognize as the one who asked you strange questions once before. Only the Republic President makes a head of state address, but the highest officer of the Navy also makes an address on the value of the Mooncreek station to the security of both nations and the benefits of long-term cooperation with mutual friends.`
-			`	You are asked to stand for a great many photos, make occasional comments, and shake an absolutely endless series of hands. Xilin is kind enough to make sure you get some of the better hors d'oeuvres in between exchanging pleasantries.`
-			`	When it's over, Xilin and Hiyamaharu quietly inform you that you have a reward of <payment> for your earlier efforts setting up Mooncreek. You're free to go back about your business now.`
+			`Przybycie na <origin> ponownie wiąże się z pełnymi regaliami dyplomatycznymi. Galeria "Where Mountains Touch The Sky" jest wypełniona po brzegi licznymi przedstawicielami światów Jądra i Raju, a także kilkoma bardziej znanymi przedstawicielami Syndykatu i Wolnych Światów. Cała Rada Starszych Hai jest obecna, a Kanclerz Wolnych Światów i Prezydent Republiki ponownie plotkują w swoich najbardziej szanowanych garniturach. Alondo, Xilin i Hiyamaharu mają swoje symbole urzędowe i wygląda na to, że Wolne Światy sfinalizowały już projekt Alondo.`
+			`	Przemówienia w wielkiej Izbie Borealis okazują się dość długie i suche. Pojawia się Teeneep wraz z jednym ze Starszych Hai, którego rozpoznajesz jako tego, który kiedyś zadał ci dziwne pytania. Tylko Prezydent Republiki wygłasza orędzie do głowy państwa, ale najwyższy oficer Marynarki Wojennej również wygłasza orędzie o znaczeniu stacji Mooncreek dla bezpieczeństwa obu narodów i korzyściach płynących z długoterminowej współpracy ze wspólnymi przyjaciółmi.`
+			`	Zostajesz poproszony o stanie do wielu zdjęć, okazjonalne komentarze i uściski dłoni. Xilin jest na tyle uprzejmy, że dba o to, abyś w przerwach między uprzejmościami dostał kilka lepszych przystawek.`
+			`	Kiedy wszystko się kończy, Xilin i Hiyamaharu cicho informują cię, że masz nagrodę w wysokości <payment> za twoje wcześniejsze wysiłki włożone w założenie Mooncreek. Możesz teraz wrócić do swoich zajęć.`
 				decline
 
 

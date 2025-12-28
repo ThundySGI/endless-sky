@@ -3059,12 +3059,12 @@ mission "Northern Pirate Defense [Unpaid]"
 		dialog `Wielu mieszkańców <planet> dziękuje za pomoc w odparciu Marynarki Wojennej.`
 
 conversation "northern pirate defense"
-	`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Navy! We need every combat-worthy ship to join the defenses!" This could be an easy way to get yourself killed, and you can't even guarantee that you will be paid for your work.`
+	`Nagle słyszysz podniesione głosy i krzyki na zewnątrz: "Jesteśmy atakowani! <planet> jest atakowany przez Marynarkę Wojenną! Potrzebujemy każdego sprawnego okrętu do obrony!" To może być łatwy sposób na śmierć, a nie masz nawet gwarancji, że otrzymasz zapłatę za swoją pracę.`
 	choice
-		`	(Stay here until the fight is over.)`
+		`	(Zostań tutaj, dopóki walka się nie skończy.)`
 			decline
-		`	(Join the defense fleet.)`
-	`	Local pirate forces are preparing to repel the Navy attack. You join them, and take off together...`
+		`	(Dołącz do floty obronnej.)`
+	`	Lokalne siły pirackie przygotowują się do odparcia ataku Marynarki Wojennej. Dołączasz do nich i wyruszasz razem...`
 		launch
 
 
@@ -3130,12 +3130,12 @@ mission "Core Pirate Defense [Unpaid]"
 		dialog `Wielu mieszkańców <planet> dziękuje Ci za pomoc w wypędzeniu Syndykatu.`
 
 conversation "core pirate defense"
-	`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Syndicate! We need every combat-worthy ship to join the defenses!" This could be an easy way to get yourself killed, and you can't even guarantee that you will be paid for your work.`
+	`Nagle słyszysz podniesione głosy i krzyki na zewnątrz: "Jesteśmy atakowani! <planet> jest atakowany przez Syndykat! Potrzebujemy każdego gotowego do walki statku, aby dołączył do obrony!" To może być łatwy sposób na śmierć, a nie masz nawet gwarancji, że otrzymasz zapłatę za swoją pracę.`
 	choice
-		`	(Stay here until the fight is over.)`
+		`	(Zostań tutaj, dopóki walka się nie skończy.)`
 			decline
-		`	(Join the defense fleet.)`
-	`	Local pirate forces are preparing to repel the Syndicate attack. You join them, and take off together...`
+		`	(Dołącz do floty obronnej.)`
+	`	Lokalne siły piratów przygotowują się do odparcia ataku Syndykatu. Dołączasz do nich i wyruszasz razem...`
 		launch
 
 
@@ -3205,12 +3205,12 @@ mission "Southern Pirate Defense [Unpaid]"
 		dialog `Wielu mieszkańców <planet> dziękuje Ci za pomoc w wyparciu sił milicji.`
 
 conversation "southern pirate defense"
-	`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the militia! We need every combat-worthy ship to join the defenses!" This could be an easy way to get yourself killed, and you can't even guarantee that you will be paid for your work.`
+	`Nagle słyszysz podniesione głosy i krzyki na zewnątrz: "Jesteśmy atakowani! <planet> jest atakowany przez milicję! Potrzebujemy każdego sprawnego statku do obrony!" To może być łatwy sposób na śmierć, a nie masz nawet gwarancji, że otrzymasz zapłatę za swoją pracę.`
 	choice
-		`	(Stay here until the fight is over.)`
+		`	(Zostań tutaj, dopóki walka się nie skończy.)`
 			decline
-		`	(Join the defense fleet.)`
-	`	Local pirate forces are preparing to repel the militia attack. You join them, and take off together...`
+		`	(Dołącz do floty obronnej.)`
+	`	Lokalne siły pirackie przygotowują się do odparcia ataku milicji. Dołączasz do nich i wyruszasz razem...`
 		launch
 
 

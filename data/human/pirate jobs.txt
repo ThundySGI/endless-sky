@@ -3059,12 +3059,12 @@ mission "Northern Pirate Defense [Unpaid]"
 		dialog `<DL-360>`
 
 conversation "northern pirate defense"
-	`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Navy! We need every combat-worthy ship to join the defenses!" This could be an easy way to get yourself killed, and you can't even guarantee that you will be paid for your work.`
+	`<CN-7818>`
 	choice
-		`	(Stay here until the fight is over.)`
+		`<CN-7748>`
 			decline
-		`	(Join the defense fleet.)`
-	`	Local pirate forces are preparing to repel the Navy attack. You join them, and take off together...`
+		`<CN-21>`
+	`<CN-7819>`
 		launch
 
 
@@ -3130,12 +3130,12 @@ mission "Core Pirate Defense [Unpaid]"
 		dialog `<DL-363>`
 
 conversation "core pirate defense"
-	`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Syndicate! We need every combat-worthy ship to join the defenses!" This could be an easy way to get yourself killed, and you can't even guarantee that you will be paid for your work.`
+	`<CN-7820>`
 	choice
-		`	(Stay here until the fight is over.)`
+		`<CN-7748>`
 			decline
-		`	(Join the defense fleet.)`
-	`	Local pirate forces are preparing to repel the Syndicate attack. You join them, and take off together...`
+		`<CN-21>`
+	`<CN-7821>`
 		launch
 
 
@@ -3205,12 +3205,12 @@ mission "Southern Pirate Defense [Unpaid]"
 		dialog `<DL-366>`
 
 conversation "southern pirate defense"
-	`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the militia! We need every combat-worthy ship to join the defenses!" This could be an easy way to get yourself killed, and you can't even guarantee that you will be paid for your work.`
+	`<CN-7822>`
 	choice
-		`	(Stay here until the fight is over.)`
+		`<CN-7748>`
 			decline
-		`	(Join the defense fleet.)`
-	`	Local pirate forces are preparing to repel the militia attack. You join them, and take off together...`
+		`<CN-21>`
+	`<CN-7823>`
 		launch
 
 

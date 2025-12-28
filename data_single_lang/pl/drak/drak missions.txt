@@ -57,46 +57,46 @@ mission "Conversation on Sayaiban"
 	on enter Sayaiban
 		fail
 		log "Factions" "Archons" `Archonowie uważają, że ich zadaniem jest egzekwowanie pokoju i zapobieganie wyginięciu. Jeśli nie uda im się zapobiec wyginięciu gatunku, nadal będą starali się zachować część tego, co ten gatunek stworzył, jako pamiątkę dla siebie.`
-			`Są zdolni do komunikacji telepatycznej.`
+			`	(Zamknij raport teraz, gdy przeszedłeś przez główny przegląd.)`
 		conversation
-			`A voice says, "This system is off limits. You should leave."`
-			`	After a second, you realize that the voice did not come from your communications equipment. In fact, now that you think about it, you're not sure if it was an audible voice, or just something in your head.`
+			`Głos mówi: "Ten system jest niedostępny. Powinieneś wyjść."`
+			`	Po chwili zdajesz sobie sprawę, że głos nie pochodził z twojego sprzętu komunikacyjnego. Właściwie, teraz, kiedy o tym myślisz, nie jesteś pewien, czy to był głos słyszalny, czy tylko coś w twojej głowie.`
 			choice
-				`	(Ignore it.)`
-				`	"Why should I leave?"`
+				`	(Zignoruj to.)`
+				`	"Dlaczego miałbym odejść?"`
 					goto why
-				`	"You can't tell me what to do."`
+				`	"Nie możesz mi mówić, co mam robić."`
 					goto why
-			`	"You should leave." The thought repeats itself, insistently. Either you're going crazy, or a creature is communicating with you telepathically.`
+			`	"Powinieneś odejść." Myśl powtarza się uporczywie. Albo tracisz rozum, albo jakaś istota komunikuje się z tobą telepatycznie.`
 			choice
-				`	"Why should I leave?"`
-				`	"You can't tell me what to do."`
+				`	"Dlaczego miałbym odejść?"`
+				`	"Nie możesz mi mówić, co mam robić."`
 			label why
-			`	You feel as if a vast and patient creature has just heaved an immense sigh. "Human, you would do well not to ignore the warning of an Archon. I am here to warn off those who might be harmed by the swarm intelligence that infests this system. If you remain here long your ship will be digested by the swarm."`
-			`	You recall that "Archon" is what Drak ships are called.`
+			`	Czujesz się, jakby ogromna i cierpliwa istota właśnie westchnęła głęboko. "Człowieku, dobrze by było, gdybyś nie zignorował ostrzeżenia Archonta. Jestem tu, aby ostrzec tych, którzy mogą zostać skrzywdzeni przez inteligencję roju, która opanowała ten system. Jeśli pozostaniesz tu długo, twój statek zostanie strawiony przez rój."`
+			`	Przypominasz sobie, że "Archon" to nazwa statków Drak.`
 			choice
-				`	"What do you mean, 'digested'?"`
-				`	"What is a 'swarm intelligence'?"`
+				`	"Co masz na myśli mówiąc "strawione"?"`
+				`	"Co to jest "inteligencja roju"?"`
 					goto swarm
-			`	"I mean that your ship will be broken down into its component parts." You notice, as the voice says this, that your shields are registering small energy bursts, as if they are being struck by invisible weapons.`
-			`	"What is this swarm?" you ask.`
+			`	"Mam na myśli to, że twój statek zostanie rozbity na części składowe." Zauważasz, że gdy głos to mówi, twoje tarcze rejestrują małe wybuchy energii, jakby były atakowane przez niewidzialną broń.`
+			`	"Co to za rój?" pytasz.`
 			label swarm
-			`	"Self-replicating miniature robots," the voice replies. "A weapon created by the Korath, the last of their great abominations. If you wish to feed your ship to the swarm, I will not stop you, but they already possess enough raw material here without your assistance." The voice's tone, inasmuch as a disembodied imaginary voice can be said to have a tone, is sardonic.`
+			`	"Samoreplikujące się miniaturowe roboty, " odpowiada głos. "Broń stworzona przez Korathów, ostatnią z ich wielkich obrzydliwości. Jeśli chcesz nakarmić swój statek rojem, nie będę cię powstrzymywał, ale oni i tak mają tu wystarczająco dużo surowca bez twojej pomocy. " Ton głosu, o ile można powiedzieć, że bezcielesny, wyimaginowany głos ma ton, jest sarkastyczny.`
 			choice
-				`	"Okay, okay, I'll get out of here."`
+				`	"Okej, okej, wyjdę stąd."`
 					goto end
-				`	"Wait, I have more questions."`
-			`	"Yes?"`
-			`	You ask, "Why don't you just destroy the swarm, if it is so dangerous?"`
-			`	The voice says, "Because if the Korath manage to drive themselves extinct, this intelligence will be their last and greatest surviving creation, and we will preserve it as a living memorial to them. Please do not interfere here." When the voice speaks the phrase, "drive themselves extinct," the words are accompanied by an emotion that you cannot put a name to.`
-			`	Also, the empty space around your ship is beginning to light up with small sparks, like an angry swarm of fireflies.`
+				`	"Czekaj, mam więcej pytań."`
+			`	"Tak?"`
+			`	Pytasz, "Dlaczego po prostu nie zniszczysz roju, skoro jest taki niebezpieczny?"`
+			`	Głos mówi: "Bo jeśli Korathom uda się doprowadzić do wyginięcia, ta inteligencja będzie ich ostatnim i najwspanialszym ocalałym dziełem, a my zachowamy ją jako żywą pamiątkę po nich. Proszę, nie ingerujcie tutaj." Kiedy głos wypowiada frazę "doprowadźcie do wyginięcia", słowom tym towarzyszy emocja, której nie sposób nazwać.`
+			`	Ponadto, pusta przestrzeń wokół twojego statku zaczyna rozświetlać się małymi iskrami, niczym wściekły rój świetlików.`
 			choice
-				`	"Well, it's an honor to meet you. I'll be leaving now."`
+				`	"Cóż, to zaszczyt cię poznać. Już wychodzę."`
 					goto end
-				`	"Why do you care if they go extinct?"`
-			`	"Our directive is to enforce peace and prevent extinction," says the voice. As before, the words "prevent extinction" echo loud in your mind as if underlined by a nameless emotion. "Now, enough questions," says the voice.`
+				`	"Czemu obchodzi cię, czy wyginą?"`
+			`	"Naszym celem jest zaprowadzenie pokoju i zapobieganie wyginięciu," mówi głos. Jak poprzednio, słowa "zapobieganie wyginięciu" rozbrzmiewają głośno w twojej głowie, jakby podsycane bezimienną emocją. "A teraz dość pytań," mówi głos.`
 			label end
-			`	The presence inside your head seems to fall away, and you are left talking to thin air.`
+			`	Obecność w twojej głowie zdaje się zanikać, a ty zostajesz sam, mówiąc do niczego.`
 				decline
 
 mission "Drak guarding Void Sprites"

@@ -29,16 +29,16 @@ mission "Hai Reveal [C01] Cleanup"
 		log `Przywrócili Hai do ich własnej przestrzeni, aby położyć kres zaginionej sadze Hai. Choot'k bezskutecznie próbował zwerbować Teeneep do Nieskrępowanych. Mówili o przyszłym pokojowym zjednoczeniu Hai, choć różnili się w szczegółach, pomimo bliskiej relacji. Pozostała jeszcze jedna, ostatnia podróż w sprawach oficjalnych.`
 		"reputation: Hai (Unfettered)" >?= 10
 		conversation
-			`When you land, you, Teeneep, and the Unfettered Hai are greeted as heroes. Word has traveled ahead of you through the new message links, and you are greeted by a hastily planned celebration in the capitol. After a few hours involving a brief formal parade, a great deal of cheering, some minor speeches with Xilin and Alondo trotted out to reassure everyone that there would be no conflict, and finally some more discrete parties outside the public eye, General Choot'k comes to you and Teeneep to bid his farewell.`
-			`	He shakes your hand and says, "You're a fine warrior, Captain <last>. You are as much a True Hai as any human can be, and it was an honor to fight alongside you in battle."`
-			`	Then he turns to Teeneep and tells her, "You're the future leader of all our people, Teeneep. Come back with me to Darkcloak. Join the True Hai and lead us to victory."`
-			`	Teeneep smiles and says, "My fight is here, general. I fight for the hearts and minds of our Fettered brethren that we may find a true path. One day we will again be one people."`
-			`	Teeneep is quiet for a while after he departs, but soon enough the statesperson in her has walked you back into the celebrations, making sure to leave you with Sayari so she can keep you from embarrassing yourself.`
-			`	You're nursing the warmth of a beverage after breakfast the next morning on far too little sleep when your communicator pings. When it turns out to be Sayari, you take a moment to thank your body clock for ensuring you were already dressed and decent today, despite the suffering over it.`
-			`	"So glad to see that you've pulled up alright this morning," she says. "As one final thing, we all need to go and meet the human leaders on Mountaintop and finally close the book on this chapter. We could take any ship at this point, but I cannot overstate how much you've helped us. I thought you might like to see it through to the end.`
-			`	"We'll be ready to go in a couple of hours. What do you say?"`
+			`Po wylądowaniu, ty, Teeneep i Nieskrępowani Hai zostajecie powitani jak bohaterowie. Wieść o tym dotarła do was przez nowe łącza wiadomości i wita was pospiesznie zorganizowana uroczystość w stolicy. Po kilku godzinach, obejmujących krótką oficjalną paradę, gromkie brawa, kilka krótkich przemówień Xilin i Alondo, mających na celu zapewnienie wszystkich, że nie będzie konfliktu, i wreszcie kilka bardziej dyskretnych przyjęć z dala od opinii publicznej, generał Choot'k przychodzi do ciebie i Teeneepa, aby się pożegnać.`
+			`	Uścisnął ci dłoń i powiedział: "Jesteś świetnym wojownikiem, Kapitanie <last>. Jesteś prawdziwym Hai, jak tylko może być człowiek, i to był zaszczyt walczyć u twego boku w bitwie."`
+			`	Potem zwraca się do Teeneep i mówi jej: "Jesteś przyszłą przywódczynią całego naszego ludu, Teeneep. Wróć ze mną do Darkcloak. Dołącz do Prawdziwych Hai i poprowadź nas do zwycięstwa."`
+			`	Teeneep uśmiecha się i mówi: "Moja walka jest tutaj, generale. Walczę o serca i umysły naszych spętanych braci, abyśmy mogli znaleźć właściwą drogę. Pewnego dnia znów będziemy jednym ludem."`
+			`	Teeneep milczy przez chwilę po swoim wyjściu, ale wkrótce mąż stanu w niej odprowadzi cię z powrotem na uroczystości, upewniając się, że zostawi cię z Sayari, aby mogła uchronić cię przed ośmieszeniem.`
+			`	Następnego ranka, po śniadaniu, popijasz ciepły napój, po zdecydowanie zbyt krótkim śnie, gdy nagle dzwoni twój komunikator. Kiedy okazuje się, że to Sayari, poświęcasz chwilę, by podziękować swojemu zegarowi biologicznemu za to, że dziś byłeś już ubrany i w dobrym humorze, pomimo cierpienia z tego powodu.`
+			`	"Cieszę się, że dziś rano wszystko w porządku, " mówi. "Na koniec, wszyscy musimy spotkać się z ludzkimi przywódcami na Szczycie Góry i ostatecznie zamknąć ten rozdział. Moglibyśmy teraz popłynąć dowolnym statkiem, ale nie mogę przecenić, jak bardzo nam pomogłeś. Pomyślałam, że może zechcesz dokończyć to wszystko.`
+			`	"Będziemy gotowi do startu za kilka godzin. Co ty na to?"`
 			choice
-				`	"Seems silly not to come on the final trip. Of course I'll take you."`
+				`	"Wydaje się głupie, że nie pojechałem na ostatnią podróż. Oczywiście, że cię zabiorę."`
 					accept
 		# Taking the diplomats (all) and Teeneep to Mountaintop; for the public resolution, spirit of this was already drafted in the days while you returned.
 		# This treaty is essentially a 'resolution' to commit to a broader and more detailed treaty to be negotiated in full.
@@ -49,43 +49,43 @@ mission "Hai Reveal [C01] Cleanup"
 		log `Wolne Światy, Republika i Starszyzna Hai podpisali rezolucję mającą na celu zapewnienie Hai bezpiecznego przejścia do przestrzeni kosmicznej, pod warunkiem zarejestrowania się w urzędzie celnym na Szczycie Góry. Każdy Hai wysłany wbrew swojej woli w przestrzeń kosmiczną zostanie odzyskany żywy, jeśli to możliwe, niezależnie od ryzyka dla ludzkich żołnierzy. Władze ludzkie nie zmienią jednak swojego podejścia do zwykłych ludzkich piratów i niewolnictwa, powołując się na "niemożliwość utrzymania się przy życiu."`
 		log `Dowiedzieliśmy się, że podczas kryzysu jeden statek załadowany porwanymi Hai został zagubiony i porzucony. Wymagają one ratunku i mogą wskazywać na obecność luźnego zakończenia.`
 		conversation
-			`Arriving on Mountaintop, you see the station has seen serious renovations including a grand ballroom, all manner of diplomatic suites, and a notable lack of movie props. Rather than actors and stage crew, you see many familiar and unfamiliar people in full diplomatic regalia, and dress uniforms laden with medals abound on all sides. The Chancellor of the Free Worlds and President of the Republic are in their most respectable suits, while Alondo and Xilin have the traditional symbols of office (though Alondo's looks like the Free Worlds have perhaps not finalized their design just yet). You appear to be a guest of honor, occasionally being called upon to answer idle queries from people seeking clarity on one point or another but otherwise left to yourself. As you mingle with those taking a break from their duties throughout these preliminary meetings, you notice Remington and Terry are conspicuously absent.`
+			`Po przybyciu na szczyt góry, widzisz, że stacja przeszła gruntowny remont, obejmujący wielką salę balową, wszelkiego rodzaju apartamenty dyplomatyczne i zauważalny brak rekwizytów filmowych. Zamiast aktorów i obsługi technicznej widzisz wiele znanych i nieznanych osób w pełnych strojach dyplomatycznych, a zewsząd otaczają je mundury galowe obwieszone medalami. Kanclerz Wolnych Światów i Prezydent Republiki mają na sobie swoje najbardziej szanowane garnitury, podczas gdy Alondo i Xilin noszą tradycyjne symbole urzędu (choć strój Alondo wygląda, jakby Wolne Światy prawdopodobnie jeszcze nie sfinalizowały swojego projektu). Wyglądasz na gościa honorowego, od czasu do czasu proszonego o odpowiedź na bezsensowne pytania osób poszukujących wyjaśnień w tej czy innej kwestii, ale poza tym pozostawionego samemu sobie. Rozmawiając z osobami robiącymi sobie przerwy w obowiązkach podczas tych wstępnych spotkań, zauważasz, że Remington i Terry są wyraźnie nieobecni.`
 			choice
-				`	(Ask Xilin about it.)`
-				`	(Ignore it.)`
+				`	(Zapytaj o to Xilin.)`
+				`	(Zignoruj to.)`
 					goto "public broadcast"
 			branch "president aside"
 				has patronizedthepresident
-			`	Between scheduled sessions, Xilin explains the Syndicate's absence. "The Syndicate is technically part of the Republic and awarded no special diplomatic status. Besides, Terry seems to have disappeared from Syndicate communications, though I won't hazard a guess as to their internal politics."`
+			`	Pomiędzy zaplanowanymi sesjami Xilin wyjaśnia nieobecność Syndykatu. "Syndykat jest formalnie częścią Republiki i nie posiada żadnego specjalnego statusu dyplomatycznego. Poza tym Terry najwyraźniej zniknął z komunikacji Syndykatu, choć nie będę zgadywał, jakie są ich wewnętrzne poglądy polityczne."`
 				goto "public broadcast"
 			label "president aside"
-			`	At one quiet point between structured meetings, during which the peripheral conversations are more focused on the particulars of the Free Worlds' position, you manage to get a hold of Xilin to ask about it. He explains the Syndicate's absence. "The Syndicate is technically part of the Republic and awarded no special diplomatic status. Besides, Terry seems to have disappeared from Syndicate communications, though I won't hazard a guess as to their internal politics."`
-			`	Perhaps seizing on the opportunity to get a momentary reprieve from more official business, the President himself steps in to fill the gap as soon as Xilin departs. It seems that you acquire a bubble of space around you whenever anyone of note stands next to you, and the President exploits this. "You know," he says quietly, while staring out at the many people hustling about at their business, "it's not very often that someone has the gall to patronize me to my face... I usually have to pay people to do that, or at least, to do it constructively anyway."`
-			`	The pause he leaves between sentences is just slightly too short to invite a response. "If you ever decide on a career change, that might be an option for you."`
-			`	He exhales through his nose as if chuckling at something humorous. "Fly safe, Captain; a lot of people know who you are now."`
-			`	With that he steps away directly to meet an aide who had been hurrying towards you both, intent on ignoring the bubble. From across the room you catch Xilin with his eyebrows raised, giving you a curious look despite being engaged in his own conversation. Neither of them speak to you again for the remainder of the meetings.`
+			`	W pewnym cichym momencie między ustrukturyzowanymi spotkaniami, podczas których rozmowy poboczne skupiają się bardziej na szczegółach sytuacji Wolnych Światów, udaje ci się skontaktować z Xilinem i zapytać o to. Wyjaśnia on nieobecność Syndykatu. "Syndykat jest formalnie częścią Republiki i nie posiada specjalnego statusu dyplomatycznego. Poza tym, Terry najwyraźniej zniknął z komunikacji Syndykatu, choć nie zaryzykuję zgadywania, co do ich wewnętrznej polityki."`
+			`	Być może korzystając z okazji, by na chwilę odetchnąć od bardziej oficjalnych spraw, sam prezydent wypełnia lukę po odejściu Xilina. Wygląda na to, że zyskujesz wokół siebie bańkę przestrzeni, gdy ktoś ważny stoi obok ciebie, a prezydent to wykorzystuje. "Wiesz, " mówi cicho, wpatrując się w tłum ludzi krzątających się po swoich sprawach, "Niezbyt często ktoś ma czelność mówić mi protekcjonalnie prosto w twarz... Zwykle muszę za to płacić, a przynajmniej robić to w sposób konstruktywny. "`
+			`	Pauza, którą zostawia między zdaniami, jest odrobinę za krótka, by wywołać odpowiedź. "Jeśli kiedykolwiek zdecydujesz się na zmianę kariery, może to być dla Ciebie opcja."`
+			`	Wydycha przez nos, jakby chichotał z czegoś zabawnego. "Leć bezpiecznie, Kapitanie; wiele osób wie, kim teraz jesteś."`
+			`	Po tych słowach odchodzi prosto na spotkanie asystenta, który spieszył w waszą stronę, zamierzając zignorować bańkę. Z drugiego końca sali dostrzegasz Xilina z uniesionymi brwiami, patrzącego na ciebie z zaciekawieniem, mimo że jest zajęty własną rozmową. Żaden z nich nie odzywa się do ciebie do końca spotkania.`
 			label "public broadcast"
-			`	Eventually you follow the diplomats to a room called the Grand Borealis Chamber, "Where Mountains Touch The Sky," as Teeneep makes the first publicly broadcast speech from the Hai to humanity. The three heads of state announce a resolution granting safe passage to all Hai in human space, as long as they register with customs on Mountaintop before entering, and Teeneep expresses similar sentiments for humans visiting Hai space. It is announced that extensive surveillance fleets will be posted on both sides of the wormhole to ensure safety. This meeting will now turn into a multi-day summit to discuss the creation of a formal treaty.`
-			`	As you leave the summit for lunch, Xilin and Sayari intercept you.`
-			`	"Trouble. We need to talk," says Xilin. You follow them to a private meeting room.`
+			`	W końcu podążacie za dyplomatami do sali zwanej Komnatą Wielkiego Bora, "Gdzie Góry Dotykają Nieba,", gdzie Teeneep wygłasza pierwsze publicznie transmitowane przemówienie Hai do ludzkości. Trzy głowy państw ogłaszają rezolucję zapewniającą wszystkim Hai bezpieczny dostęp do przestrzeni kosmicznej, pod warunkiem zarejestrowania się w urzędzie celnym na szczycie góry przed wejściem, a Teeneep wyraża podobne uczucia wobec ludzi odwiedzających przestrzeń kosmiczną Hai. Ogłasza się, że po obu stronach tunelu czasoprzestrzennego zostaną rozmieszczone rozległe floty obserwacyjne, aby zapewnić bezpieczeństwo. Spotkanie to przekształci się w wielodniowy szczyt, na którym omówione zostanie zawarcie formalnego traktatu.`
+			`	Gdy wychodzisz ze szczytu na lunch, przechwytują cię Xilin i Sayari.`
+			`	"Kłopoty. Musimy porozmawiać, " mówi Xilin. Idziesz za nimi do prywatnej sali konferencyjnej.`
 			choice
-				`	"What's wrong?"`
+				`	"Co się dzieje?"`
 					goto whut
-				`	"Really? I thought we had figured everything out."`
+				`	"Naprawdę? Myślałem, że już wszystko wyjaśniliśmy."`
 					goto "need to talk"
-				`	"Hey, don't worry. Whatever it is, I'm sure we've been through worse."`
-			`	Sayari rolls her eyes and says, "Don't relax yet, Captain <last>. There is one more minor disaster to be averted."`
+				`	"Hej, nie martw się. Cokolwiek to jest, jestem pewien, że przeszliśmy przez gorsze rzeczy."`
+			`	Sayari przewraca oczami i mówi: "Nie rozluźniaj się jeszcze, Kapitanie <last>. Jest jeszcze jedna drobna katastrofa, której trzeba uniknąć."`
 				goto whut
 			label "need to talk"
-			`	Sayari says, "It would have been too easy if it was all over. We have one more minor disaster to avert first."`
+			`	Sayari mówi: "Byłoby za łatwo, gdyby to się już skończyło. Najpierw musimy zapobiec jeszcze jednej drobnej katastrofie."`
 			label whut
-			`	Xilin begins. "It seems that somewhere along the way, a shipload of kidnapped Hai didn't make it to a processing area. The Hai were left on Sunracer, and the ship appears to have disappeared."`
-			`	"For the moment," says Sayari, "We're the only ones who know about it. The Hai are in hiding but have tapped into a communication grid. I intercepted their transmission as it was routed through this station directly."`
-			`	Xilin looks at you pointedly. "We need you to go pick them up and bring them here. While you're at it, make sure there aren't any loose ends. If there are, this resolution may not happen, despite everything we've achieved."`
+			`	Xilin zaczyna. "Wygląda na to, że gdzieś po drodze statek z porwanymi Hai nie dotarł do strefy przetwarzania. Hai zostały pozostawione na Sunracerze, a statek najwyraźniej zniknął."`
+			`	"Na razie, " mówi Sayari, "Jesteśmy jedynymi, którzy o tym wiedzą. Hai są w ukryciu, ale podłączyli się do sieci komunikacyjnej. Przechwyciłem ich transmisję, gdy była kierowana bezpośrednio przez tę stację."`
+			`	Xilin patrzy na ciebie znacząco. "Musisz je odebrać i przywieźć tutaj. Przy okazji upewnij się, że nie ma żadnych niedokończonych spraw. Jeśli tak, to rozwiązanie może się nie powieść, pomimo wszystkiego, co osiągnęliśmy. "`
 			choice
-				`	"Of course. I'll take care of it."`
-				`	"You deal with the diplomacy, and leave the heroism to me."`
-			`	The two look considerably less worried as you leave to solve this one last problem.`
+				`	"Oczywiście. Zajmę się tym."`
+				`	"Ty zajmij się dyplomacją, a bohaterstwo zostaw mnie."`
+			`	Oboje wyglądają na znacznie mniej zmartwionych, gdy wychodzisz rozwiązać ten ostatni problem.`
 
 event "mountaintop ascendant"
 	system "Ultima Thule"
@@ -121,42 +121,42 @@ mission "Hai Reveal [C02] Cleanup"
 		has "Hai Reveal [C01] Cleanup: done"
 	on stopover
 		conversation
-			`Arriving on Sunracer, you follow the coded coordinates you were given to avoid drawing unnecessary attention. With the Hai's first public appearance only just days past and still dominating the news cycle, you've been instructed to keep this as low-profile as possible. Fortunately, a glance at the feeds your ship picks up seems to indicate that the government response has taken the wind out of the more sensationalist talking heads - or at least the ones with notable followings.`
-			`	The coordinates turn out to lead to a lean-to town built around a Star Barge. The Hai here were unable to all fit on the ship and appear to have built shelters out of local flora to keep out the weather. The communicator on the barge must be what was used to send a message. You find a clear space to land not too far away and make your way over.`
-			`	One of the Hai approaches you. "Are you Captain <last>?"`
+			`Po przybyciu na Sunracer, podążasz za zakodowanymi współrzędnymi, które ci podano, aby uniknąć niepotrzebnego zainteresowania. Ponieważ pierwsze publiczne pojawienie się Hai miało miejsce zaledwie kilka dni temu i wciąż dominuje w mediach, polecono ci zachować jak najmniej rozgłosu. Na szczęście, rzut oka na transmisje na twoim statku zdaje się wskazywać, że reakcja rządu odebrała oddech sensacyjnym gadułom - a przynajmniej tym, którzy mają znaczącą liczbę obserwujących.`
+			`	Współrzędne wskazują na przybudówkę zbudowaną wokół Gwiezdnej Barki. Hai nie mogli się wszyscy zmieścić na statku i najwyraźniej zbudowali schronienia z miejscowej roślinności, aby chronić się przed niepogodą. Komunikator na barce musiał być tym, którego użyto do wysłania wiadomości. Znajdujesz niedaleko wolną przestrzeń do lądowania i udajesz się tam.`
+			`	Jeden z Hai podchodzi do ciebie. "Czy jesteś kapitanem <last>?"`
 			choice
-				`	"Yes, that is me."`
-			`	He appears visibly relieved. "Oh good. We've been very concerned since we were dropped here. It's all very strange... we've no idea what's going on anymore."`
+				`	"Tak, to ja."`
+			`	Wydaje się wyraźnie odprężony. "Och, dobrze. Jesteśmy bardzo zaniepokojeni odkąd nas tu wysadzono. To wszystko jest bardzo dziwne... nie mamy już pojęcia, co się dzieje."`
 			label responses
 			choice
-				`	"The Hai are no longer a secret in human space, but they are concerned how you ended up here."`
+				`	"Hai nie są już tajemnicą w przestrzeni kosmicznej, ale martwią się, jak się tu znalazłeś."`
 					goto revealed
 					to display
 						not "Hai Reveal [C02] Cleanup: label revealed"
-				`	"What happened to the ship that brought you here?"`
+				`	"Co stało się ze statkiem, który cię tu przywiózł?"`
 					goto kidnappers
 					to display
 						not "Hai Reveal [C02] Cleanup: label kidnappers"
-				`	"Well, let's get you home before anything else happens."`
+				`	"No dobrze, odwieźmy cię do domu zanim cokolwiek się wydarzy."`
 					goto depart
 			label revealed
 			action
 				set "Hai Reveal [C02] Cleanup: label revealed"
-			`	"Ah, we thought we saw something about that, but our comms are spotty, so we didn't rely on it. We all actually signed up to go to Mountaintop to take part in the facade, so it seemed especially suspicious."`
-			`	He shrugs. "An abundance of caution seemed warranted; we were kidnapped, after all."`
+			`	"Ach, myśleliśmy, że coś o tym słyszeliśmy, ale nasza komunikacja jest słaba, więc nie polegaliśmy na tym. Wszyscy zapisaliśmy się na Mountaintop, żeby wziąć udział w fasadzie, więc wydawało się to szczególnie podejrzane."`
+			`	Wzrusza ramionami. "Nadmierna ostrożność wydawała się uzasadniona; w końcu zostaliśmy porwani."`
 				goto responses
 			label kidnappers
 			action
 				set "Hai Reveal [C02] Cleanup: label kidnappers"
-			`	"We were en route to somewhere after the ship left Hai space. We don't really know what happened, but they received some kind of message that left them very concerned. They said something about hiding somewhere safe and landed here."`
-			`	At this point, he twists his face in a non-human manner you recognize as a Hai frown. "We were set down here for days and days. Our kidnappers couldn't seem to work out what they should do. Eventually, a woman landed next to us in this ship here," he explains, gesturing at the Star Barge. "She had them ferry us and all our stuff out to this ship, and then she took charge and flew off with them. That was when we sent the message. We were partly afraid it was some kind of elaborate trap when we saw that we could communicate to a Hai address directly. We never used to be able to communicate between human space and ours like that. I guess we were lucky this time."`
+			`	"Byliśmy w drodze gdzieś po tym, jak statek opuścił przestrzeń Hai. Nie wiemy dokładnie, co się stało, ale otrzymali jakąś wiadomość, która ich bardzo zaniepokoiła. Powiedzieli coś o ukryciu się w bezpiecznym miejscu i wylądowali tutaj."`
+			`	W tym momencie wykrzywia twarz w nieludzki sposób, który rozpoznajecie jako grymas Hai. "Byliśmy tu uwięzieni przez wiele dni. Nasi porywacze najwyraźniej nie mogli dojść do tego, co powinni zrobić. W końcu, na tym statku, wylądowała obok nas kobieta, " wyjaśnia, wskazując na Gwiezdną Barkę. "Kazała im przewieźć nas i cały nasz dobytek na ten statek, a potem przejęła dowodzenie i odleciała z nimi. Wtedy właśnie wysłaliśmy wiadomość. Trochę obawialiśmy się, że to jakaś skomplikowana pułapka, gdy zobaczyliśmy, że możemy komunikować się bezpośrednio z adresem Hai. Nigdy wcześniej nie potrafiliśmy w ten sposób komunikować się między przestrzenią ludzką a naszą. Chyba tym razem mieliśmy szczęście. "`
 			choice
-				`	"Do you know where they went?"`
-				`	"What did this woman look like?"`
-			`	"The woman was very fierce and very strict about what people said aloud. She disciplined a number of our kidnappers in front of us for opening their mouths at the wrong time. We have no idea where they went, but we did hear one of them say that they were afraid they wouldn't be welcome there. It sounded like it was out of the way somewhere, wherever it was."`
+				`	"Czy wiesz, dokąd poszli?"`
+				`	"Jak wyglądała ta kobieta?"`
+			`	"Ta kobieta była bardzo surowa i surowa, jeśli chodzi o to, co ludzie mówią na głos. Ukarała kilku naszych porywaczy na naszych oczach za otwieranie ust w niewłaściwym momencie. Nie mamy pojęcia, dokąd poszli, ale słyszeliśmy, jak jeden z nich powiedział, że boi się, że nie będzie tam mile widziany. Brzmiało to tak, jakby to było gdzieś na uboczu, gdziekolwiek to było."`
 				goto responses
 			label depart
-			`	The Hai sincerely thanks you, and they load their meager possessions and board your ship in less than twenty minutes. The Star Barge isn't in good shape after being lived in instead of flown, so you leave it behind. The woman they described is almost undoubtedly Terry.`
+			`	Hai szczerze ci dziękują i w niecałe dwadzieścia minut ładują swój skromny dobytek i wchodzą na twój statek. Barka Gwiezdna nie jest w dobrym stanie po tym, jak zamieszkano w niej, a nie latano, więc ją zostawiasz. Kobieta, którą opisali, to niemal na pewno Terry.`
 
 
 mission "Hai Reveal [C02A] Cleanup"
@@ -181,20 +181,20 @@ mission "Hai Reveal [C03] Cleanup"
 	on offer
 		log `Odzyskano Hai po tym, jak tajemnicze okoliczności pozostawiły ich na Sunracerze. Udaję się na Freedom, aby sprawdzić przeczucie dotyczące tego luźnego zakończenia. Mam nadzieję, że tam znajdę odpowiedzi.`
 		conversation
-			`	When you return to Mountaintop, an all-Hai greeting party is waiting to provide aid and coordinate the safe return of those you've rescued from Sunracer. It appears to have avoided media attention, and the summit is progressing toward a resolution at an acceptable rate. It's been slow going: the Hai and human legal systems are so different that establishing common legal terms of reference has been a long-winded exercise.`
-			`	You've had a couple of days to contemplate the turn of events that led to you hauling a group of spontaneously abandoned Hai out of Syndicate space. The timing seems suspect, the individual seems familiar, and there's just something about what the Philosophers said that you just can't shake.`
-			`	While your passengers are quietly loaded onto a handful of transports to be taken home, Sayari and Xilin find you somewhere quiet. "Thank you, <last>. You had all the necessary discretion at this sensitive time," says Sayari.`
-			`	Xilin is more direct, "I'll certainly thank you for saving me from another headache. Was there anything else you found? It seems so odd."`
+			`	Kiedy wracasz na Szczyt Góry, czeka tam na ciebie grupa powitalna złożona wyłącznie z Hai, która ma udzielić pomocy i skoordynować bezpieczny powrót osób uratowanych z Sunracer. Wygląda na to, że sprawa umknęła uwadze mediów, a szczyt zmierza w kierunku rozwiązania w akceptowalnym tempie. Postępy są powolne: systemy prawne Hai i ludzi są tak różne, że ustalenie wspólnych ram prawnych było długotrwałym zadaniem.`
+			`	Miałeś kilka dni na przemyślenie biegu wydarzeń, który doprowadził do tego, że wyciągnąłeś grupę spontanicznie porzuconych Hai z przestrzeni Syndykatu. Moment wydaje się podejrzany, osoba wydaje się znajoma, a w słowach Filozofów jest coś, czego po prostu nie możesz się pozbyć.`
+			`	Podczas gdy Twoi pasażerowie są cicho ładowani do garstki transportowców, by wrócić do domu, Sayari i Xilin znajdują Cię w cichym miejscu. "Dziękuję, <last>. Zachowałeś/aś wszelką niezbędną dyskrecję w tym wrażliwym momencie, " mówi Sayari.`
+			`	Xilin jest bardziej bezpośredni, "Z pewnością podziękuję za uratowanie mnie przed kolejnym bólem głowy. Znalazłeś coś jeszcze? Wydaje się to dziwne."`
 			choice
-				`	"There is something, but I should deal with it myself."`
-			`	They both frown and huddle in closer. "Do you think some of the kidnappers escaped? Do you think they'll continue?" asks Sayari.`
+				`	"Coś jest, ale powinienem sobie z tym poradzić sam."`
+			`	Oboje marszczą brwi i tulą się bliżej. "Myślisz, że niektórzy porywacze uciekli? Myślisz, że będą kontynuować? " pyta Sayari.`
 			choice
-				`	"No, but I think there's one thing I should check out."`
-			`	Xilin raises an eyebrow. "Is this something I'm going to have to report?"`
+				`	"Nie, ale myślę, że jest jedna rzecz, którą powinienem sprawdzić."`
+			`	Xilin unosi brew. "Czy to coś, co muszę zgłosić?"`
 			choice
-				`	"Not if I can help it."`
-				`	"Hopefully not, but we'll see."`
-			`	You leave them with only guesses. You're not entirely sure yourself what's going on, but you do know one thing: you have to go to Freedom, where this all began.`
+				`	"Nie, jeśli mogę temu zapobiec."`
+				`	"Mam nadzieję, że nie, ale zobaczymy."`
+			`	Zostawiasz ich tylko z domysłami. Sam nie jesteś do końca pewien, co się dzieje, ale wiesz jedno: musisz udać się do Wolności, gdzie to wszystko się zaczęło.`
 				accept
 
 # These don't have to be here, but this is where they used to be defined by event, and these are the systems used for this going forward.
@@ -268,33 +268,33 @@ mission "Hai Reveal [C04] Cleanup"
 		event "lofty goals"
 		log `Potwierdzono, że luźnym końcem jest Terry. Odkryto istnienie innego układu na Dalekiej Północy, dostępnego tylko za pomocą napędu przenośnego.`
 		conversation
-			`	When you land on Freedom, the spaceport is busy as ever, but as you go around asking if anyone has seen a woman matching Terry's description, people start acting unusually toward you. You wouldn't describe it as frosty: no one actually seems to know anything, and they remain as friendly and helpful as you'd expect a bunch of anarchists to be. Yet, the more you ask around, the more it seems that people are following you around and whispering to each other. You wonder just who Terry really is, and just how deeply involved she was. She seems to have been one step ahead all the way.`
-			`	As you go down a short, wide alley flanked by tall buildings, you hear the creak of hinges behind you and turn around to see a great wooden gate being closed. The same happens in front of you at the other end of the alley, and the people in the alley suddenly disappear through doorways. As you're looking around, you realize nearly a dozen plasma rifles are pointing at you from windows in upper floors.`
+			`	Kiedy lądujesz na Freedom, kosmodrom jest zatłoczony jak zawsze, ale gdy pytasz, czy ktoś widział kobietę pasującą do opisu Terry, ludzie zaczynają zachowywać się wobec ciebie nietypowo. Nie nazwałbyś tego chłodno: nikt tak naprawdę nic nie wie, a ludzie pozostają tak przyjaźni i pomocni, jak można by się spodziewać po grupie anarchistów. Jednak im więcej pytasz, tym bardziej wydaje się, że ludzie chodzą za tobą i szepczą między sobą. Zastanawiasz się, kim naprawdę jest Terry i jak bardzo była zaangażowana. Wygląda na to, że była o krok przed tobą.`
+			`	Idąc krótką, szeroką alejką otoczoną wysokimi budynkami, słyszysz skrzypienie zawiasów za sobą i odwracasz się, by zobaczyć zamykaną wielką drewnianą bramę. To samo dzieje się przed tobą na drugim końcu alejki, a ludzie w alejce nagle znikają w drzwiach. Rozglądając się, zauważasz, że z okien na wyższych piętrach wycelowanych jest w ciebie prawie tuzin karabinów plazmowych.`
 			choice
-				`	(Shout.)`
-				`	(Draw my weapon.)`
-				`	(Raise my hands.)`
+				`	(Krzyk.)`
+				`	(Dobywam broni.)`
+				`	(Podnoszę ręce.)`
 					goto surrender
-			`	The people in the windows don't take very kindly to your decision, and very quickly make sure it's your last.`
+			`	Ludzie w oknach nie przyjmują zbyt łaskawie twojej decyzji i bardzo szybko upewniają się, że jest to twoja ostatnia decyzja.`
 				die
 			label surrender
-			`	An elderly woman arises from her seat in a deep-set alcove and shuffles out in front of you with a gnarled, wooden walking stick. Despite her weathered skin and obvious age, her eyes are clear as she looks at you with veiled judgment. "You are a long way from home, Captain <last>."`
+			`	Starsza kobieta wstaje z miejsca w głębokiej wnęce i wychodzi przed ciebie z sękatą, drewnianą laską. Pomimo zniszczonej skóry i widocznego wieku, jej oczy są jasne, gdy patrzy na ciebie z ukrytym osądem. "Jesteś daleko od domu, Kapitanie <last>."`
 			choice
-				`	"I suppose that is true."`
-			`	She chuckles. "Now, what would bring the infamous war hero all the way to my humble abode?"`
-			`	"I'm looking for Terry Adrianopolous, I believe she might have come here," you answer.`
-			`	"Oh, I know very well who you're looking for, Captain," she says. "My question has more to do with the why."`
+				`	"Przypuszczam, że to prawda."`
+			`	Ona chichocze. "No cóż, co sprowadziłoby tego niesławnego bohatera wojennego aż do mojego skromnego domu?"`
+			`	"Szukam Terry Adrianopolous, sądzę, że mogła tu przyjść," ty odpisz.`
+			`	"Och, doskonale wiem, kogo pan szuka, kapitanie, " mówi. "Moje pytanie dotyczy raczej pytania o powód."`
 			choice
-				`	"I need to tie up some loose ends."`
-				`	"I need to know the answer to a question."`
+				`	"Muszę dokończyć parę spraw."`
+				`	"Muszę poznać odpowiedź na pytanie."`
 					goto question
-			`	She shakes her head, "The only loose end here is you."`
-			`	The people in the windows open fire.`
+			`	Potrząsnęła głową, "Jedynym luźnym końcem w tej sprawie jesteś ty."`
+			`	Ludzie w oknach otwierają ogień.`
 				die
 			label question
-			`	She stares into your eyes for a few long seconds, and then she bows her head. You think you catch sight of a tear glistening as she turns away. "If you have the means, point your scanners towards Mebsuta from here. Seek out Aspiration."`
-			`	Her voice catches at the end, and she looks back at you from the corner of her eye. "If you have it in your heart to do so, please, do not harm my great-granddaughter."`
-			`	She steps to a doorway and vanishes inside. Within seconds, the windows are closed, the gates are open, and you are left alone in the alley with the bustle of the spaceport beyond.`
+			`	Wpatruje się w twoje oczy przez kilka długich sekund, a potem pochyla głowę. Wydaje ci się, że dostrzegasz łzę, gdy się odwraca. "Jeśli masz możliwość, skieruj swoje skanery w stronę Mebsuty. Szukaj Aspiracji."`
+			`	Pod koniec jej głos się załamuje i spogląda na ciebie kątem oka. "Jeśli masz na to ochotę, proszę, nie krzywdź mojej prawnuczki."`
+			`	Podchodzi do drzwi i znika w środku. W ciągu kilku sekund okna się zamykają, bramy otwierają, a ty zostajesz sam w zaułku, a za tobą panuje gwar kosmoportu.`
 				accept
 	# This is a gamble. If you indicate in any way that you are overtly hostile, she'll kill you and deal with the consequences later.
 	# She also knows that if you go missing, someone else will come looking. Someone will eventually find her great-granddaughter, and she can't intercept everyone.
@@ -317,120 +317,120 @@ mission "Hai Reveal [C05] Cleanup"
 		has "Hai Reveal [C04] Cleanup: done"
 	on offer
 		conversation
-			`Your arrival is unobstructed as you land on this mild, habitable world that appears to be in an advanced, but retreating, ice age. No one comes to greet you at the spaceport, either. As you wander into the single major town, built on a promontory overlooking a wide river mouth, you notice that the people here seem to be happy and the town appears to be remarkably modern. This place has been looked after by someone who knew how to source the necessary import goods to support it on this sparse world of grasses and something resembling pine trees - someone who was Chief of Operations of the Syndicate, for example...`
-			`	You spend about fifteen minutes looking around before a young boy walks up and addresses you. "Hey, stranger sir. I've been asked to tell you that Terry is out on the bluff waiting for you."`
+			`Twoje przybycie przebiega bez przeszkód, gdy lądujesz na tym łagodnym, nadającym się do zamieszkania świecie, który wydaje się być w zaawansowanej, ale cofającej się epoce lodowcowej. Nikt cię również nie wita w porcie kosmicznym. Wędrując do jedynego dużego miasta, zbudowanego na cyplu z widokiem na szerokie ujście rzeki, zauważasz, że tutejsi ludzie wydają się szczęśliwi, a miasto wydaje się niezwykle nowoczesne. Tym miejscem opiekowała się osoba, która wiedziała, jak pozyskać niezbędne towary importowe, aby utrzymać je na tym rzadkim świecie traw i czegoś przypominającego sosny - ktoś, kto był na przykład szefem operacyjnym Syndykatu...`
+			`	Spędzasz około piętnastu minut rozglądając się, zanim podchodzi do ciebie młody chłopak i zwraca się do ciebie. "Hej, nieznajomy panie. Poproszono mnie, żebym ci powiedział, że Terry czeka na ciebie na klifie."`
 			choice
-				`	"Who are you?"`
-				`	"How do you know Terry?"`
-				`	"What is this place?"`
-			`	Before you can respond, he's dashed away.`
-			`	When you get out to the bluff, there is a single individual standing on a level section with scrubby grass tufting between bare rock. The city is obscured from here, and you could believe you were isolated from all of civilization. As you approach, it becomes clear the individual is indeed Terry. The wind whips her hair around her constantly, and there is a chill here that is only partly the fault of the wind. Could this one young woman really have been behind all of this trouble, all of this death and suffering, everything that was risked between the Hai and humanity?`
-			`	As you approach, she turns, and you can see she has been crying. "You know you ruined everything," she says. "We were so close." The wind almost steals her last word and you unconsciously step closer to hear her better, causing her to tense.`
+				`	"Kim jesteś?"`
+				`	"Skąd znasz Terry'ego?"`
+				`	"Co to za miejsce?"`
+			`	Zanim zdążyłeś odpowiedzieć, on już uciekł.`
+			`	Kiedy docierasz do urwiska, widzisz samotną osobę stojącą na równym terenie, gdzie pomiędzy nagimi skałami prześwituje kępka trawy. Miasto jest stąd zasłonięte i można by pomyśleć, że jesteś odizolowany od cywilizacji. Zbliżając się, staje się jasne, że tą osobą jest rzeczywiście Terry. Wiatr nieustannie targa jej włosy, a chłód jest tu tylko częściowo spowodowany przez wiatr. Czy ta jedna młoda kobieta naprawdę mogła stać za wszystkimi tymi problemami, śmiercią i cierpieniem, za wszystkim, co zostało zaryzykowane między Hai a ludzkością?`
+			`	Kiedy się zbliżasz, odwraca się i widzisz, że płakała. "Wiesz, że wszystko zepsułeś," mówi. "Byliśmy tak blisko." Wiatr niemal kradnie jej ostatnie słowo, a ty nieświadomie podchodzisz bliżej, żeby lepiej ją słyszeć, przez co się spina.`
 			choice
-				`	"So close to what?"`
-			`	"To changing everything, to remaking the Syndicate, to creating a whole new political order."`
-			`	She wipes away a tear and visibly steels herself to speak, "I was Alastair's chosen successor, I had already dealt with the competition, a few more years and I'd have been a hero!"`
-			`	She turns slightly and gestures at the sea. "Instead now I'm here, and you get to be the hero, a dumb war hero," her voice rises in pitch and volume, "Never mind a brighter future for humanity!"`
-			`	Her expression seems to be wrestling between fury and despair at this point, "So now what? You here to kill me then?!"`
+				`	"Tak blisko czego?"`
+			`	"Aby zmienić wszystko, przekształcić Syndykat, stworzyć zupełnie nowy porządek polityczny."`
+			`	Ociera łzę i wyraźnie przygotowuje się do przemówienia, "Zostałam wybrana na następcę Alastair'a, już poradziłam sobie z konkurencją, jeszcze kilka lat i byłabym bohaterką!"`
+			`	Odwraca się lekko i wskazuje na morze. "Zamiast tego teraz jestem tutaj, a ty będziesz bohaterem, głupim bohaterem wojennym," jej głos staje się coraz głośniejszy i głośniejszy, "Nieważne, że ludzkość ma lepszą przyszłość!"`
+			`	W tym momencie jej wyraz twarzy zdaje się balansować między furią a rozpaczą, "I co teraz? Przyszedłeś mnie zabić?!"`
 			choice
-				`	"You kidnapped thousands of people. How is that a brighter future?"`
-			`	"Of course you have no idea!" she throws up her hands and expresses a noise of frustration.`
-			`	Her voice drops to a more reasonable level. "I never wanted to kidnap people," Terry says, then lowers her voice even more. "I inherited that legacy..."`
-			`	"You still profited off it, did nothing to stop it," you point out.`
-			`	Your tone had not been accusatory, but merely matter of fact, and yet they seem to have struck her like a sack of bricks. Her composure shatters, and she begins to sob, sinking to her knees and shielding her face from the wind.`
-			`	"It was never meant to be like this," she forces out between sobs. "But the Philosophers were our only resource, and we weren't in control anymore.`
-			`	"We wanted to reform the government, make it better, make it work for the people instead of against them. We dealt with the devil to keep that dream alive. I guess I should have expected it to get us burnt eventually."`
+				`	"Porwałeś tysiące ludzi. Jak to możliwe, że to lepsza przyszłość?"`
+			`	"Oczywiście, że nie masz pojęcia!" rozkłada ręce i wydaje dźwięk frustracji.`
+			`	Jej głos schodzi do bardziej rozsądnego poziomu. "Nigdy nie chciałam porywać ludzi, " mówi Terry, a potem jeszcze bardziej zniża głos. "Odziedziczyłam to dziedzictwo... "`
+			`	"Nadal na tym korzystałeś, nie zrobiłeś nic, by temu zapobiec," jak sam zauważyłeś.`
+			`	Twój ton nie był oskarżycielski, a jedynie rzeczowy, a jednak zdaje się, że podziałały na nią jak worek cegieł. Jej opanowanie pryska, a ona zaczyna szlochać, osuwając się na kolana i zasłaniając twarz przed wiatrem.`
+			`	"To nigdy nie miało tak być," wyszeptała między szlochami. "Ale Filozofowie byli naszym jedynym ratunkiem i nie mieliśmy już kontroli.`
+			`	"Chcieliśmy zreformować rząd, ulepszyć go, sprawić, by działał dla ludzi, a nie przeciwko nim. Uporadziliśmy się z diabłem, żeby podtrzymać to marzenie. Chyba powinnam była się spodziewać, że w końcu nas to spali."`
 			choice
-				`	"Who is 'us?'"`
-			`	She sighs. "My father and I, and a couple of the old survivors of the purge. It's only me left now though, just one Base Principle."`
-			`	You shake your head and ask, "Do you realize you nearly started a war that would have killed millions? Possibly ended human government entirely?"`
-			`	"I know," she says, calm now. "Obviously not my intent, but maybe that would have been better in the long run than the Republic and its corruption. There's no apology appropriate for it, and I can't pretend it would be totally sincere on that front. War changes things; sometimes some pain in the short term is needed for a better future.`
-			`	"The Free Worlds were almost the perfect catalyst, but none of us could have predicted the Pug. Still, that nearly forced Alastair into retirement; it was almost enough. Were it not for the Pug, I would already be running the Syndicate, and there would have been no further risk with the Hai. None of this would have ever happened."`
-			`	Her expression is defiant. "No one would have cared about a few missing people in the world I would have built! It's a necessary sacrifice in the name of progress, and I would've shut down the pirates myself!"`
+				`	"Kim jest "my?""`
+			`	Wzdycha. "Mój ojciec i ja, i kilku starych ocalałych z czystki. Zostałem jednak tylko ja, tylko jedna Zasada Podstawowa."`
+			`	Kręcisz głową i pytasz: "Czy zdajesz sobie sprawę, że o mało nie wywołałeś wojny, która zabiłaby miliony? A może nawet położyła kres ludzkim rządom?"`
+			`	"Wiem," mówi, już spokojna. "Oczywiście nie miałem takiego zamiaru, ale może na dłuższą metę byłoby to lepsze niż Republika i jej korupcja. Nie ma na to odpowiednich przeprosin i nie mogę udawać, że byłoby to całkowicie szczere. Wojna zmienia rzeczy; czasami trochę bólu na krótką metę jest potrzebne dla lepszej przyszłości.`
+			`	"Wolne Światy były niemal idealnym katalizatorem, ale nikt z nas nie mógł przewidzieć pojawienia się Pugów. Mimo to, niemal zmusiło to Alastaira do przejścia na emeryturę; to prawie wystarczyło. Gdyby nie Pug, już bym dowodził Syndykatem i nie byłoby dalszego ryzyka z Hai. Nic z tego by się nigdy nie wydarzyło."`
+			`	Jej wyraz twarzy jest buntowniczy. "Nikt nie przejąłby się kilkoma zaginionymi osobami w świecie, który bym zbudował! To konieczna ofiara w imię postępu i sam bym uciszył piratów!"`
 			choice
-				`	"It's always fine to say as much about plans that were never fulfilled."`
-				`	"People would have always had a problem with kidnappings."`
-			`	She gives you a hard stare, but her resolve isn't up to the task for more than a couple seconds. She looks away, and you can see her blinking away more tears. "Is this to be my end, then?" she asks. "Is this the price I pay for my efforts?"`
+				`	"Zawsze można powiedzieć tyle o planach, które nigdy nie zostały zrealizowane."`
+				`	"Ludzie zawsze mieliby problem z porwaniami."`
+			`	Patrzy na ciebie surowym wzrokiem, ale jej determinacja nie wystarcza na dłużej niż kilka sekund. Odwraca wzrok i widzisz, jak mrugając, powstrzymuje kolejne łzy. "Czy to ma być mój koniec? " pyta. "Czy to cena, jaką płacę za moje wysiłki? "`
 			label decide
 			choice
 				# First option is to ask for clarification:
-				`	"Am I to be judge, jury, and executioner?"`
+				`	"Czy mam być sędzią, ławą przysięgłych i katem?"`
 					goto judge
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
 
 				# Next two are the silent endings, which are available regardless:
-				`	(Spare her silently.)`
+				`	(Oszczędź ją po cichu.)`
 					goto spare
-				`	(End her wordlessly.)`
+				`	(Zakończ bez słów.)`
 					goto end
 
 				# Justifications are only available after asking for clarification:
-				`	(Spare her.) "There is no other home for you now. Let that be your justice."`
+				`	(Oszczędź ją.) "Nie ma już dla ciebie innego domu. Niech to będzie twoja sprawiedliwość."`
 					goto spare
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
-				`	(End her.) "Justice is the price you pay."`
+				`	(Zakończ ją.) "Sprawiedliwość jest ceną, którą płacisz."`
 					goto end
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
-				`	(Spare her.) "I've sinned more than you. If people like us decided what is right or wrong, the galaxy would be in cinders."`
+				`	(Oszczędź ją.) "Zgrzeszyłem bardziej niż ty. Gdyby ludzie tacy jak my decydowali, co jest dobre, a co złe, galaktyka obróciłaby się w popiół."`
 					goto spare
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
 
 				# The callous option is available regardless, but it's after the "I thought about it" options:
-				`	(End her.) "This is for all the trouble you've caused me."`
+				`	(Zakończ ją.) "To za wszystkie kłopoty, które mi sprawiłeś."`
 					goto end
 
 				# Joke options are only available if you don't care enough to ask for clarification:
-				`	(Spare her.) "Consider this my movie review."`
+				`	(Oszczędź ją.) "Potraktuj to jako moją recenzję filmu."`
 					goto spare
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
-				`	(End her.) "Consider this my movie review."`
+				`	(Koniec.) "Rozważ to jako moją recenzję filmu."`
 					goto end
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
 
 			label spare
-			`	You draw your weapon and point it at her, your thumb on the safety. When you look inside yourself, though, you cannot bring yourself to be her executioner.`
+			`	Wyciągasz broń i celujesz nią w nią, trzymając kciuk na bezpieczniku. Kiedy jednak zajrzysz w głąb siebie, nie możesz się zmusić, by zostać jej katem.`
 			action
 				set "spared terry"
 				log `Znalazłem Terry na planecie Aspiration i skonfrontowałem ją z wydarzeniami, które cię tam doprowadziły. Pozostałości anarcho-syndykalistycznej, antysyndykatowej organizacji o nazwie Base Principles były związane z tą planetą. Nie ma tu żadnych innych osób, które by w to były zaangażowane (przynajmniej już nie), ale ta społeczność powstała w izolacji, z ludźmi wierzącymi w zasady anarcho-syndykalizmu. Pozwoliłem jej żyć, ale mimo to ta luźna nitka jest całkowicie rozwiązana.`
 				log "People" "Terry Adrianopoulos" `Podczas kryzysu Hai-ludzi, Terry została aresztowana, gdy wydawało się, że wybuchnie wojna, ale została zwolniona, gdy groźba konfliktu minęła. Natychmiast zniknęła, a później zidentyfikowano ją w powiązaniu z kilkoma porywaczami. Nie wiadomo, co się z nimi stało, ale sugeruje się, że w jakiś sposób się z nimi rozprawiła. Okazało się, że przez wiele lat była samotną agentką infiltrującą Syndykat, dążącą do przejęcia kontroli i odbudowy rządu, by był mniej skorumpowany, ale tolerowała porwania i wyzysk, by to osiągnąć. Z życiem w ruinie, nadal żyje w świecie Aspiracji, z dala od cywilizacji.`
-			`	The holster clicks as you put the weapon away.`
+			`	Kabura klika, gdy odkładasz broń.`
 				goto return
 			label end
-			`	You draw your weapon and point it at her, your thumb on the safety. Some prices are too high to pay for a better future.`
+			`	Wyciągasz broń i celujesz nią w nią, trzymając kciuk na bezpieczniku. Niektóre ceny są zbyt wysokie, by zapłacić za lepszą przyszłość.`
 			action
 				set "ended terry"
 				log `Znalazłem Terry na planecie Aspiration i skonfrontowałem ją z wydarzeniami, które cię tam doprowadziły. Pozostałości anarcho-syndykalistycznej, antysyndykatowej organizacji o nazwie Base Principles były związane z tą planetą. Nie ma tu żadnych innych osób, które byłyby w to zaangażowane (przynajmniej już nie), ale ta społeczność powstała w izolacji, z ludźmi wierzącymi w zasady anarcho-syndykalizmu. Postanowiłem zakończyć swoje życie. Ten luźny koniec jest całkowicie rozwiązany.`
 				log "People" "Terry Adrianopoulos" `Podczas kryzysu Hai-ludzi, Terry została aresztowana, gdy wydawało się, że wybuchnie wojna, ale została zwolniona, gdy groźba konfliktu minęła. Natychmiast zniknęła, a później została zidentyfikowana w powiązaniu z kilkoma porywaczami. Nie wiadomo, co się z nimi stało, ale sugeruje się, że w jakiś sposób się z nimi rozprawiła. Okazało się, że przez wiele lat była samotną agentką infiltrującą Syndykat, dążącą do przejęcia kontroli i odbudowy rządu, by był mniej skorumpowany, ale tolerowała porwania i wyzysk, by to osiągnąć. Jej historia zakończyła się na urwiskach Aspiracji, choć nikt może się o tym nigdy nie dowiedzieć.`
-			`	The retort of the weapon is taken away on the wind.`
+			`	Odpowiedź broni została zabrana przez wiatr.`
 				goto return
 			label judge
 			action
 				set "Hai Reveal [C05] Cleanup: label judge"
-			`	"You'd better be," she says. "You and I both know that this can't become public. If you take me to the Syndicate they will do away with me if they find out, and I doubt they could manage to not."`
-			`	"Oh, Moray told me to say you're fired if you don't get back quickly... that was over a week ago now," you tell her.`
-			`	She rolls her eyes. "Of course, this is exactly the sort of callous governance I expect of them.`
-			`	"Don't distract from the point though. I can never go back. You're the only one who knows everything, and no one else can know it all. Taking me back is a guarantee that I'll be 'disappeared' - you might as well pull the trigger yourself. You must decide here, now, how this ends.`
-			`	"You are the judge, whether you like it or not, and no one else will carry out your judgment."`
+			`	"Lepiej, żebyś był, " mówi. "Oboje wiemy, że to nie może wyjść na jaw. Jeśli zabierzesz mnie do Syndykatu, to mnie wykończą, jeśli się dowiedzą, a wątpię, żeby im się to udało. "`
+			`	"Och, Moray kazała mi powiedzieć, że jeśli szybko nie wrócisz, to zostaniesz zwolniony... to było ponad tydzień temu," powiedz jej.`
+			`	Przewraca oczami. "Oczywiście, to dokładnie taki rodzaj bezdusznego rządzenia, jakiego od nich oczekuję.`
+			`	"Nie odwracaj jednak uwagi od sedna sprawy. Nigdy nie mogę się cofnąć. Tylko ty wiesz wszystko i nikt inny nie może wiedzieć wszystkiego. Zabranie mnie z powrotem to gwarancja, że "zniknę" - równie dobrze możesz sam nacisnąć spust. Musisz zdecydować tu i teraz, jak to się skończy.`
+			`	"Ty jesteś sędzią, czy ci się to podoba, czy nie, i nikt inny nie wykona twojego wyroku."`
 				goto decide
 			label return
-			`	You return to your ship. You're done here.`
+			`	Wracasz na swój statek. Skończyłeś.`
 				accept
 	on complete
 		event "hai-human resolution announced"
 		fail "Hai Reveal [A11-A] Permanent Fleets"
 		fail "Hai Reveal [B02-A] The Blockade Goes Up"
 		conversation
-			`When you return to <planet>, you reassure Sayari and Xilin that there is nothing more to do. The danger is over, for good.`
-			`	As it happens, the summit has functionally concluded by the time you return. In fact, diplomats had been running interference to prolong things, knowing that your return could potentially have critical consequences. Now that you're here, the remaining agenda items miraculously get resolved within hours, and late in the day, you find yourself once again "Where Mountains Touch The Sky," as the successful resolution is announced.`
-			`	The historic moment lays the groundwork for a future official treaty framework and governmental cooperation, as well as establishing <planet> as the principle diplomatic embassy for both peoples. Less publicly, extensive surveillance fleets are posted on both sides of the wormhole to detect any kidnappings or other illegal travel. Now, the only way for illicit transfers to happen is if a government employee is involved, but all three countries have quietly agreed to watch for that behavior and punish it severely.`
-			`	At last, it really is over, and you can get back to your own life.`
-			`	Maybe you'll have to find out who the Unfettered were stealing their other technologies from. They mentioned another group: the "Wanderers."`
+			`Kiedy wracasz do <planet>, zapewniasz Sayari i Xilin, że nie ma już nic do zrobienia. Niebezpieczeństwo minęło, na dobre.`
+			`	Tak się składa, że szczyt praktycznie dobiegł końca, zanim wróciłeś. W rzeczywistości dyplomaci interweniowali, aby przedłużyć spotkanie, wiedząc, że twój powrót może mieć krytyczne konsekwencje. Teraz, gdy tu jesteś, pozostałe punkty porządku obrad zostają cudownie rozwiązane w ciągu kilku godzin, a pod koniec dnia ponownie znajdujesz się w "Where Mountains Touch The Sky,", gdy ogłaszane jest pomyślne rozwiązanie.`
+			`	Ten historyczny moment kładzie podwaliny pod przyszłe oficjalne ramy traktatowe i współpracę rządową, a także ustanawia <planet> główną ambasadą dyplomatyczną obu narodów. Mniej publicznie, po obu stronach tunelu czasoprzestrzennego rozmieszczono rozległe floty obserwacyjne w celu wykrywania wszelkich porwań i innych nielegalnych podróży. Obecnie jedynym sposobem na nielegalne transfery jest udział pracownika rządowego, ale wszystkie trzy kraje po cichu zgodziły się monitorować takie zachowania i surowo je karać.`
+			`	Wreszcie to naprawdę się skończyło i możesz wrócić do swojego życia.`
+			`	Może będziesz musiał dowiedzieć się, od kogo Unfettered kradli swoje pozostałe technologie. Wspomnieli o innej grupie: "Wanderers."`
 
 
 

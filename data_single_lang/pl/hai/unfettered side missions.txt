@@ -25,34 +25,34 @@ mission "Unfettered returning home"
 		random < 40
 	on offer
 		conversation
-			`During the night, you hear a gentle scratching sound on your ship's main hatch. Do you investigate?`
+			`W nocy słyszysz delikatne drapanie w główny luk twojego statku. Czy chcesz to zbadać?`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	(Tak.)`
+				`	(Nr)`
 					defer
-			`	You grab a flashlight and open the hatch, and find a juvenile Hai there, with a large satchel slung over his shoulder. "You are the <first> <last>, yes?" he says. You nod. He says, "Is it true what is written here?"`
-			`	In his hands he is holding a piece of foil paper. You recognize it as the wrapper from one of the food rations that you have been transporting to the Unfettered, the "tribute" that they demand from the peaceful Hai. But having never unwrapped one of the rations, you had not realized that there is writing on the inside, a few words in the angular alphabet of the Hai. The Unfettered youth sees your look of confusion, and translates the message. "It says, 'Hai-home is your home too. Rejoin your people.'"`
+			`	Bierzesz latarkę i otwierasz klapę, a tam widzisz młodego Hai z dużą torbą przewieszoną przez ramię. "Jesteś <first> <last>, tak?" mówi. Kiwasz głową. On pyta: "Czy to prawda, co tu jest napisane?"`
+			`	W dłoniach trzyma kawałek foliowego papieru. Rozpoznajesz go jako opakowanie jednej z racji żywnościowych, które transportowałeś Nieskrępowanym, "daninę", której żądają od pokojowo nastawionych Hai. Ale ponieważ nigdy nie rozpakowałeś żadnej z racji, nie zdałeś sobie sprawy, że w środku jest napis, kilka słów w kanciastym alfabecie Hai. Nieskrępowany młodzieniec widzi twoje zmieszanie i tłumaczy wiadomość. "Mówi: "Hai-dom to również twój dom. Dołącz do swojego ludu".`
 			choice
-				`	"I think it is true. The Hai who gave this tribute said they hoped the Unfettered would turn from violence and be reconciled with them."`
+				`	"Myślę, że to prawda. Hai, którzy złożyli tę daninę, powiedzieli, że mają nadzieję, że Nieskrępowani odwrócą się od przemocy i pojednają się z nimi."`
 					goto true
-				`	"I'm sorry, but I don't think they will ever let you live among them, if it is your nature to be prone to violence."`
-			`	You have little experience reading Hai emotions, but the youth seems crestfallen. "You are certain?" he asks.`
+				`	"Przykro mi, ale nie sądzę, żeby kiedykolwiek pozwolili ci żyć pośród siebie, jeśli w twojej naturze leży skłonność do przemocy."`
+			`	Masz niewielkie doświadczenie w odczytywaniu emocji Hai, ale młodzieniec wydaje się przygnębiony. "Jesteś pewien?" pyta.`
 			choice
-				`	"I am certain. I can do nothing for you."`
+				`	"Jestem pewien. Nic nie mogę dla ciebie zrobić."`
 					goto refuse
-				`	"Perhaps you can come with me and find out, but don't get your hopes up."`
+				`	"Może pójdziesz ze mną i sam się przekonasz, ale nie nastawiaj się na to za bardzo."`
 					goto end
 			label true
-			`	"Will you take me to Hai-home?" he asks. "You are able to be outside Unfettered places. Can I go with you?"`
+			`	"Zabierzesz mnie do Hai-home?" pyta. "Możesz przebywać poza Nieskrępowanymi Miejscami. Czy mogę iść z tobą?"`
 			choice
-				`	"Yes, I will take you there."`
+				`	"Tak, zabiorę cię tam."`
 					goto end
-				`	"Sorry, I can't risk angering the Unfettered by carrying a defector."`
+				`	"Przepraszam, nie mogę ryzykować rozgniewania Nieskrępowanych, niosąc ze sobą dezertera."`
 			label refuse
-			`	Disappointed, the youth leaves. You hope you made the right choice.`
+			`	Rozczarowany młodzieniec odchodzi. Masz nadzieję, że dokonałeś właściwego wyboru.`
 				decline
 			label end
-			`	You show the youth to one of your bunk rooms, and tell him to stay hidden there until you reach Hai-home.`
+			`	Zaprowadzasz młodzieńca do jednego ze swoich pokoi piętrowych i mówisz mu, żeby się tam ukrył, dopóki nie dotrzesz do Hai-home.`
 				accept
 
 	on visit
@@ -60,7 +60,7 @@ mission "Unfettered returning home"
 	on complete
 		payment 100000
 		dialog
-			`You need not have worried about the reception the Unfettered youth would receive here on Hai-home. Scarcely minutes after you hesitantly contact the Hai government, a happy crowd has gathered around your ship. When he steps out of the hatchway, he looks stunned at being welcomed so warmly. One of the Hai governors thanks you for transporting him, and pays you <payment>.`
+			`Nie musisz się martwić o przyjęcie, jakie Nieskrępowany młodzieniec zgotowałby tu, na Hai-home. Zaledwie kilka minut po tym, jak niepewnie skontaktowałeś się z rządem Hai, wokół twojego statku zebrał się radosny tłum. Kiedy wychodzi z luku, wygląda na oszołomionego tak ciepłym powitaniem. Jeden z gubernatorów Hai dziękuje ci za transport i wypłaca ci <payment>.`
 		"reputation: Hai" += 10
 		"reputation: Hai (Wormhole Access)" += 10
 		"reputation: Hai Merchant" += 10
@@ -85,141 +85,141 @@ mission "Hai Legacy 1"
 		conversation
 			branch first
 				not "Hai Legacy 1: deferred"
-			`You recall a hooded figure offering a business opportunity in this shipyard. Do you want to follow their directions, and head to the specified coordinates?`
+			`Przypominasz sobie zakapturzoną postać oferującą możliwość zrobienia interesu w tej stoczni. Czy chcesz postępować zgodnie z jej wskazówkami i udać się na wskazane współrzędne?`
 			choice
-				`	(Sure.)`
+				`	(Pewnie.)`
 					goto go
-				`	(Maybe another time.)`
+				`	(Może innym razem.)`
 					defer
-				`	(Never.)`
+				`	(Nigdy.)`
 					decline
 			label first
-			`As you're browsing the shipyard, you are discreetly approached by a hooded figure. When you stop to see what they want to say, they grab and pull on your arm to follow them. "Keep walking," the stranger hisses. After pointing at and commenting on random ships, as if to mimic the actions of a regular passerby, they address you again.`
-			`	"My associates and I have a lucrative business proposition for you. It will require your undivided attention, so you would do well to finish any ongoing business first. If you are interested, come find us at these coordinates."`
-			`	Just before leaving they add, "We note you operate multiple ships. However, this is a solitary affair; make sure you can park most of your ships."`
+			`Gdy przechadzasz się po stoczni, dyskretnie podchodzi do ciebie zakapturzona postać. Kiedy zatrzymujesz się, żeby zobaczyć, co chce powiedzieć, chwyta cię i ciągnie za ramię, żebyś poszedł za nią. "Idź dalej," syczy nieznajomy. Po wskazaniu i skomentowaniu losowych statków, jakby naśladując zachowanie zwykłego przechodnia, ponownie się do ciebie zwraca.`
+			`	"Moi wspólnicy i ja mamy dla Ciebie lukratywną propozycję biznesową. Będzie ona wymagała Twojej niepodzielnej uwagi, więc dobrze by było, gdybyś najpierw zakończył wszelkie bieżące sprawy. Jeśli jesteś zainteresowany, zapraszamy do odwiedzenia nas pod tymi współrzędnymi."`
+			`	Tuż przed wyjściem dodają: "Zauważamy, że obsługujesz wiele statków. To jednak samotna sprawa; upewnij się, że zaparkujesz większość swoich statków."`
 				to display
 					"total ships" > 1
-			`	Without waiting for a response, they fold a piece of paper into your hand before quickly fading into the crowd. It lists only a location, and if you cross-reference it with the local maps, it appears to point towards a beach on the other side of the planet.`
+			`	Nie czekając na odpowiedź, składają kartkę papieru i podają ją do ręki, po czym szybko znikają w tłumie. Jest na niej podana tylko lokalizacja, a jeśli porównasz ją z lokalnymi mapami, okazuje się, że wskazuje na plażę po drugiej stronie planety.`
 			branch continue
 				"credits" >= 10000000
-			`	However, the paper also mentions you need to have at least ten million credits in cash! You'll have to save up or take a loan and then come back another day before heading to the specified location.`
+			`	Jednak w gazecie jest też napisane, że musisz mieć co najmniej dziesięć milionów kredytów w gotówce! Będziesz musiał zaoszczędzić lub wziąć pożyczkę, a potem wrócić kolejnego dnia przed udaniem się do wskazanej lokalizacji.`
 				defer
 			label continue
-			`	Will you go there?`
+			`	Czy pójdziesz tam?`
 			choice
-				`	(Sure.)`
-				`	(Maybe another time.)`
+				`	(Pewnie.)`
+				`	(Może innym razem.)`
 					defer
 			label go
-			`	While you're pondering whether or not there will be enough space to land your ship at the beach, you notice a train ticket attached to the back of the paper. A few more written notes give specific directions on how to get there, with a clear demand not to take your starship at the bottom.`
-			`	To your surprise, the local train station is located underground. You can't begin to make sense of the enormity of it - it almost feels like you can reach the entire planet from here. You ask a Hai for directions, feeling embarrassed when you learn that all you had to do was scan your ticket at a nearby terminal and all relevant information would be displayed for you.`
-			`	After departing the train station, you hike for a few hours until you reach your destination. Upon arriving, you look around for the stranger. Besides a cave, some sparse vegetation, and of course the beach itself, you cannot see anything significant in the vicinity. You double-check that these are the right coordinates and look around some more.`
-			`	You wait for some time until you spot two hooded figures further down the beach, and you start to doubt whether or not this was a good idea as they make their way toward you. Even when they're close enough to speak, their faces somehow remain impossible to glimpse beneath the hoods. "Hello, <last>," one says to you. "We are sorry for the secrecy, but the truth is, we cannot afford to take risks. It is best for all if you do not know who we are, and we needed a secluded area to speak to you."`
+			`	Rozważając, czy będzie wystarczająco dużo miejsca, aby wylądować na plaży, zauważasz bilet kolejowy przyczepiony do tyłu kartki. Kilka kolejnych notatek zawiera szczegółowe wskazówki, jak tam dotrzeć, z wyraźnym żądaniem, aby nie wsiadać do statku kosmicznego na dole.`
+			`	Ku twojemu zaskoczeniu lokalna stacja kolejowa znajduje się pod ziemią. Nie jesteś w stanie pojąć jej ogromu - masz wrażenie, że możesz stąd dotrzeć na całą planetę. Pytasz Hai o drogę, czując się zażenowany, gdy dowiadujesz się, że wystarczy zeskanować bilet na pobliskim terminalu, a wszystkie istotne informacje zostaną wyświetlone.`
+			`	Po wyjściu z dworca kolejowego wędrujesz przez kilka godzin, aż docierasz do celu. Po dotarciu na miejsce rozglądasz się za nieznajomym. Poza jaskinią, rzadką roślinnością i oczywiście samą plażą, nie widzisz w okolicy niczego znaczącego. Sprawdzasz jeszcze raz, czy to właściwe współrzędne i rozglądasz się dalej.`
+			`	Czekasz chwilę, aż zauważysz dwie zakapturzone postacie dalej na plaży i zaczynasz wątpić, czy to był dobry pomysł, gdy zbliżają się do ciebie. Nawet gdy są wystarczająco blisko, by móc z tobą porozmawiać, ich twarze pozostają niewidoczne spod kapturów. "Witaj, <last>," mówi do ciebie jedna z nich. "Przepraszamy za tajemnicę, ale prawda jest taka, że nie możemy sobie pozwolić na ryzyko. Najlepiej dla wszystkich, jeśli nie wiesz, kim jesteśmy, a potrzebowaliśmy ustronnego miejsca, żeby z tobą porozmawiać."`
 			choice
-				`	"Tell me more."`
+				`	"Powiedz mi więcej."`
 					goto "tell me"
-				`	"How do you know me?"`
+				`	"Skąd mnie znasz?"`
 					goto know
-				`	(Run away.)`
-			`	They seem surprised at your sudden change of mind, but make no effort to stop you.`
+				`	(Uciekaj.)`
+			`	Wydają się zaskoczeni twoją nagłą zmianą zdania, ale nie robią nic, żeby cię powstrzymać.`
 			label "train back"
-			`	Without any incidents, you return to the train station and buy a ticket back to the spaceport.`
+			`	Bez żadnych incydentów wracasz na stację kolejową i kupujesz bilet powrotny do kosmodromu.`
 				decline
 			label know
-			`	The second one grins. "Any outsider landing on our homeworld must be well-known. We know you have helped our kind."`
-			`	"Though do not think we are unaware of your skirmishes with the Unfettered," the first adds with a serious tone.`
+			`	Drugi się uśmiecha. "Każdy przybysz lądujący na naszej ojczystej planecie musi być dobrze znany. Wiemy, że pomogłeś naszemu gatunkowi."`
+			`	"Chociaż nie myślcie, że nie jesteśmy świadomi waszych potyczek z Nieskrępowanymi," dodaje pierwszy poważnym tonem.`
 				to display
 					"reputation: Hai (Unfettered)" < -1250
 			label "tell me"
-			`	Suddenly, you hear a loud roar coming from the sea behind you, and the ground begins to shake.`
+			`	Nagle słyszysz głośny ryk dochodzący z morza za tobą, a ziemia zaczyna się trząść.`
 			choice
-				`	(Turn around.)`
-			`	The waves become agitated and wind rushes past you as a shape surrounded by fumes emerges out of the water, as if an ancient sea monster was rising from the depths.`
-			`	But it is no monster. It is a ship, and its weapons are aimed straight at you!`
+				`	(Odwróć się.)`
+			`	Fale stają się wzburzone, a wiatr przelatuje obok ciebie, gdy z wody wyłania się postać otoczona dymem, niczym starożytny potwór morski wyłaniający się z głębin.`
+			`	Ale to nie potwór. To statek, a jego broń jest wycelowana prosto w ciebie!`
 			label "try again"
 			scene "scene/emerging ladybug"
 			choice
-				`	(Run!)`
-				`	(Wait.)`
+				`	(Uciekaj!)`
+				`	(Czekaj.)`
 					goto wait
-				`	(Try to contact my fleet for help.)`
+				`	(Spróbuj skontaktować się z moją flotą, aby uzyskać pomoc.)`
 					to display
 						"total ships" > 1
-				`	(Shoot it!)`
+				`	(Strzelaj!)`
 					goto foolish
-			`	As you try to react, the Hai closest to you firmly grabs your arm and shouts through the noise. "If this ship wanted to kill you, <last>, you would already be dead."`
+			`	Gdy próbujesz zareagować, Hai najbliżej ciebie mocno chwyta cię za ramię i krzyczy, przekrzykując hałas. "Gdyby ten statek chciał cię zabić, <last>, już byś nie żył."`
 			label wait
-			`	You can barely hear anything over the sound of the engines as the ship proceeds to land on the beach. Suddenly, all is calm. They turn to you, one more at ease than the other. "This ship means you no harm."`
+			`	Ledwo słychać cokolwiek przez warkot silników, gdy statek zbliża się do brzegu. Nagle wszystko się uspokaja. Odwracają się do ciebie, jeden bardziej spokojny od drugiego. "Ten statek nie zrobi ci krzywdy."`
 			choice
-				`	(Say nothing.)`
+				`	(Nie mów nic.)`
 					goto explain
-				`	"Why didn't you say anything before that happened?"`
-			`	The second one replies, "We could have, but where's the fun in that? We wanted to see how you would react.`
+				`	"Dlaczego nic nie powiedziałeś zanim to się stało?"`
+			`	Drugi odpowiada: "Mogliśmy, ale gdzie w tym zabawa? Chcieliśmy zobaczyć, jak zareagujesz.`
 			label explain
-			`	"This ship is our guarantee that nothing goes wrong, should you attempt something against us. After all, we are still not sure if we can trust you."`
-			`	The two Hai then take you to a nearby cave. Crystals embedded in the walls cast a faint blue glow as you follow them, until you approach a large chamber where sunlight breaks through cracks, revealing another ship. The first Hai then speaks again. "That ship outside is not for sale. This one, however, is a mighty relic of the past, intended for war from the times our empire used to control the stars - an Anomalocaris!"`
+			`	"Ten statek to nasza gwarancja, że nic nie pójdzie źle, jeśli spróbujesz coś przeciwko nam. W końcu wciąż nie jesteśmy pewni, czy możemy ci zaufać."`
+			`	Dwaj Hai zaprowadzą cię następnie do pobliskiej jaskini. Kryształy osadzone w ścianach rzucają delikatną niebieską poświatę, gdy podążasz za nimi, aż dotrzesz do dużej komnaty, gdzie światło słoneczne przebija się przez szczeliny, odsłaniając kolejny statek. Pierwszy Hai odzywa się ponownie. "Ten statek na zewnątrz nie jest na sprzedaż. Ten jednak to potężny relikt przeszłości, przeznaczony do wojny z czasów, gdy nasze imperium kontrolowało gwiazdy - Anomalocaris!"`
 			scene "scene/cave scene"
 			choice
-				`	"What is this about?"`
-			`	The second one now takes a step toward you to speak, almost interrupting the first. "We have a proposition for you. Should you agree to bring much needed supplies to our brethren, the Unfettered Hai, we will sell you this ship for the modest price of ten million credits - including two weapons belonging to the savage Korath!" The first one seems surprised by this and tries to intervene, but the second resumes before they can speak up.`
-			`	"These legendary weapons can interfere with nearly any engine system! Worry not, you'll be able to recuperate the cost of this ship with ease by assisting us. A load of medical supplies is needed on <destination>, and we lack the time and personnel to bring them ourselves on such short notice.`
-			`	"Of course, the ship is aged, and you should not expect the best price in a shipyard. Nevertheless, it is a fine vessel, capable of fighting, freighting, and mining. So, what do you say, <last>? This is the opportunity of a lifetime; they simply don't make ships like this anymore."`
+				`	"O co chodzi?"`
+			`	Drugi podchodzi teraz do ciebie, żeby przemówić, niemal przerywając pierwszemu. "Mamy dla ciebie propozycję. Jeśli zgodzisz się dostarczyć tak potrzebne zaopatrzenie naszym braciom, Nieskrępowanym Hai, sprzedamy ci ten statek za skromną cenę dziesięciu milionów kredytów - w tym dwie bronie należące do dzikiego Koratha!" Pierwszy wydaje się tym zaskoczony i próbuje interweniować, ale drugi wznawia rozmowę, zanim zdąży się odezwać.`
+			`	"Ta legendarna broń może zakłócać działanie niemal każdego systemu silnika! Nie martw się, z łatwością odzyskasz koszt budowy tego statku, pomagając nam. Na <destination> potrzebny jest ładunek zaopatrzenia medycznego, a brakuje nam czasu i personelu, żeby dostarczyć go osobiście w tak krótkim czasie.`
+			`	"Oczywiście, statek jest wiekowy i nie należy oczekiwać najlepszej ceny w stoczni. Niemniej jednak to świetny statek, zdolny do walki, transportu towarów i wydobycia. Więc, co ty na to, <last>? To życiowa szansa; po prostu już nie produkują takich statków."`
 			label choice
 			choice
-				`	"I will help you."`
+				`	"Pomogę ci."`
 					goto take
-				`	"If you lack crew, who was piloting the other ship?"`
+				`	"Jeśli brakuje załogi, kto pilotował drugi statek?"`
 					to display
 						not "unfettered: pilot dialog"
 					goto pilot
-				`	"Why was the other ship hidden underwater?"`
+				`	"Dlaczego drugi statek był ukryty pod wodą?"`
 					to display
 						not "unfettered: ocean dialog"
 					goto ocean
-				`	"No, thanks. I'm not looking to add another ship to my fleet."`
-			`	The two Hai look disappointed. "A shame. We will probably not meet again," one says. "It is best you forget we have met here," says the other. They signal the ship from earlier to submerge into the ocean again and walk off along the beach.`
+				`	"Nie, dziękuję. Nie zamierzam dodawać kolejnego statku do mojej floty."`
+			`	Dwaj Hai wyglądają na rozczarowanych. "Szkoda. Prawdopodobnie już się nie spotkamy, " mówi jeden. "Lepiej zapomnij, że się tu spotkaliśmy, " mówi drugi. Dają sygnał statkowi, który wcześniej był na morzu, żeby ponownie zanurzył się w oceanie i odeszli wzdłuż plaży.`
 				goto "train back"
 			label pilot
 			action
 				set "unfettered: pilot dialog"
-			`	"The less you know, the better for all of us, Captain."`
+			`	"Im mniej wiesz, tym lepiej dla nas wszystkich, Kapitanie."`
 				goto choice
 			label ocean
 			action
 				set "unfettered: ocean dialog"
-			`	"We found it there," the first one answers.`
-			`	"It is hard to find a drop of rain in a storm, but the drop of rain may see all as it falls," the other one adds.`
+			`	"Znaleźliśmy to tam," odpowiada pierwsza osoba.`
+			`	"Trudno jest znaleźć kroplę deszczu podczas burzy, ale kropla deszczu może zobaczyć wszystko, gdy spada," dodaje drugi.`
 				goto choice
 			label take
 			action
 				give ship "Anomalocaris (Venerable)" "Good Omen"
 					id "hai legacy"
 				fine 10000000
-			`	They give you access to the ship and proceed to explain the details. "It is of no real significance, but surely you understand we cannot go through standard means for this sale. We will instead present it as a fine. You'll be charged for carrying technology you had no idea was forbidden, as these Korath weapons are suspicious indeed. However, it will not go on your permanent record."`
-			`	You quickly realize that they are not asking you for your opinion at all. In fact, you receive notice of the fine before they have even finished speaking. "We will need to make some modifications to the ship before you can use it.`
+			`	Udzielają ci dostępu do statku i wyjaśniają szczegóły. "To nie ma większego znaczenia, ale na pewno rozumiesz, że nie możemy przeprowadzić tej sprzedaży standardową metodą. Zamiast tego przedstawimy to jako grzywnę. Zostaniesz obciążony opłatą za posiadanie technologii, o której nie miałeś pojęcia, że jest zakazana, ponieważ broń Koratha jest rzeczywiście podejrzana. Nie zostanie ona jednak wpisana do twoich stałych akt. "`
+			`	Szybko zdajesz sobie sprawę, że wcale nie pytają cię o zdanie. W rzeczywistości otrzymujesz powiadomienie o karze, zanim jeszcze skończą mówić. "Będziemy musieli wprowadzić pewne modyfikacje na statku, zanim będziesz mógł z niego korzystać.`
 			choice
-				`	(Go back to the shipyard.)`
+				`	(Wróć do stoczni.)`
 					goto leave
-				`	"Why would they mind a different ship?"`
-			`	"As this ship is ancient, the Unfettered will try to preserve it. The same might not be true for other ships."`
+				`	"Czemu mieliby się przejmować innym statkiem?"`
+			`	"Ponieważ ten statek jest starożytny, Nieskrępowani postarają się go zachować. To samo może nie dotyczyć innych statków."`
 			label leave
-			`	They walk away until you cannot hear them speak anymore, leaving you with the access codes to the ship so you can bring it to the shipyard. With the aid of the autopilot, you manage to pilot the ship without any complications.`
+			`	Odchodzą, aż nie słychać już ich głosu, zostawiając cię z kodami dostępu do statku, abyś mógł go doprowadzić do stoczni. Z pomocą autopilota udaje ci się pilotować statek bez żadnych komplikacji.`
 				accept
 			label foolish
-			`	You get your weapon out and proceed to shoot at the ship.`
+			`	Wyciągasz broń i strzelasz do statku.`
 			branch miss
 				random < 50
 			branch lucky?
 				random < 2
-			`	Your shot reaches the ship, but the small weapon has no chance of doing anything to the heavy armor, even if it is somewhat worn. The ship then shoots back at you, barely missing and causing a geyser of sand to erupt at you, forcing you to drop your weapon. One of the two Hai then approaches you, seemingly disappointed.`
-			`	"You're lucky to still be alive, but even so you are of no use to us if you think it wise to use your firearm on a spaceship. Farewell." They turn and leave without another word, and the ship flies off.`
+			`	Twój strzał trafia w statek, ale mała broń nie ma szans uszkodzić ciężkiego pancerza, nawet jeśli jest nieco zużyty. Statek następnie oddaje strzał, ledwo chybiając i wywołując wybuch gejzeru piasku, zmuszając cię do upuszczenia broni. Jeden z dwóch Hai zbliża się do ciebie, wyraźnie rozczarowany.`
+			`	"Masz szczęście, że żyjesz, ale i tak nie będziesz nam potrzebny, jeśli uważasz za stosowne użyć broni palnej na statku kosmicznym. Żegnaj." Odwracają się i odchodzą bez słowa, a statek odlatuje.`
 				goto "train back"
 			label lucky?
-			`	You manage to land a shot, although it seems to do nothing to the large spacecraft before you. Then you hear a small explosion. You aren't sure whether the damaged ship's systems failed on their own, or if by some stroke of luck, your shot did something to it.`
-			`	Unfortunately, you do not get a chance to ponder your actions, as the ship abruptly explodes, taking you and everyone else on the beach down with it.`
+			`	Udaje ci się trafić, choć wydaje się, że nie robi to nic dużemu statkowi kosmicznemu przed tobą. Potem słyszysz cichą eksplozję. Nie jesteś pewien, czy systemy uszkodzonego statku zawiodły same z siebie, czy też jakimś zrządzeniem losu twój strzał coś mu zrobił.`
+			`	Niestety, nie masz czasu na przemyślenie swoich działań, ponieważ statek nagle eksploduje, zabierając ze sobą ciebie i wszystkich innych na plaży.`
 				die
 			label miss
-			`	You miss your shot. Neither the ship nor the two Hai react. You feel like you heard a chuckle, but you're not sure where it came from.`
+			`	Chybiłeś. Ani statek, ani dwa Hai nie reagują. Masz wrażenie, że usłyszałeś chichot, ale nie wiesz, skąd się wziął.`
 				goto "try again"
 	on defer
 		set "Hai Legacy 1: deferred"
@@ -251,9 +251,9 @@ mission "Hai Legacy 2"
 		has "ship model: Anomalocaris"
 	on offer
 		conversation
-			`You leave the shipyard and go to the spaceport after your encounter. A worker immediately greets you while others begin to fill your ship with crates, and a quick check of the shipment data shows that the cargo has already been allocated in your name. All that's left is to deliver it to <destination> by <date>.`
-			`	As you head to back to your ship and prepare to take off from the planet, you notice a message on the command panel:`
-			`	"You would be wise to bring the Anomalocaris we trusted you with for your delivery."`
+			`Po spotkaniu opuszczasz stocznię i udajesz się do portu kosmicznego. Pracownik natychmiast cię wita, podczas gdy inni zaczynają zapełniać twój statek skrzyniami. Szybkie sprawdzenie danych o przesyłce pokazuje, że ładunek został już przydzielony na twoje nazwisko. Pozostaje tylko dostarczyć go do <destination> do <date>.`
+			`	Kiedy wracasz na swój statek i przygotowujesz się do startu z planety, zauważasz wiadomość na panelu sterowania:`
+			`	"Rozsądnie byłoby zabrać ze sobą Anomalocari, które powierzyliśmy ci w ramach dostawy."`
 				accept
 	on enter
 		system
@@ -262,7 +262,7 @@ mission "Hai Legacy 2"
 			action
 				"old reputation: Hai (Unfettered)" = "reputation: Hai (Unfettered)"
 				"reputation: Hai (Unfettered)" >?= 0
-			`As you enter the system, you prepare for a fight to get the cargo through. However, the usually aggressive Unfettered have suddenly stopped firing at you.`
+			`Wchodząc do systemu, przygotowujesz się do walki o przetransportowanie ładunku. Jednak zazwyczaj agresywni Nieskrępowani nagle przestali do ciebie strzelać.`
 	on fail
 		"reputation: Hai (Unfettered)" <?= -1000
 		dialog `Nieugięci i ich wspólnicy są wyraźnie niezadowoleni, gdy w jakiś sposób dowiadują się, że nie dostarczyłeś ładunku na czas, zostawiając ci krótką wiadomość na panelu sterowania: "Nie udowodnisz nam swojej wartości, nie spełniając naszych próśb."`
@@ -289,50 +289,50 @@ mission "Hai Legacy 3"
 		has "ship model: Anomalocaris"
 	on offer
 		conversation
-			`After delivering the supplies, you realize your ship is the center of attention. One Unfettered that looks like an engineer comes to speak to you, initially warmer than usual compared to your previous experiences with other Unfettered.`
-			`	"Welcome. Although I do not know how you have obtained this ship, I imagine some of us will see it as a sign. You see, it is a relic of our past, a past we are quite proud of. As such, most Unfettered warriors will say that you need to prove your right to use it."`
-			`	After a sigh, her tone then changes. "But I don't believe in any of that. What does matter to me is that ship is both durable and filled with valuable ancient technology."`
-			`	Her eyes light up as she focuses more on your ship. "I even see weapons that we fought valiantly to obtain from the savage Korath!"`
+			`Po dostarczeniu zaopatrzenia zdajesz sobie sprawę, że twój statek jest w centrum uwagi. Jeden Nieskrępowany, wyglądający jak inżynier, podchodzi do ciebie, by z tobą porozmawiać, początkowo cieplejszy niż zwykle w porównaniu z twoimi poprzednimi doświadczeniami z innymi Nieskrępowanymi.`
+			`	"Witaj. Chociaż nie wiem, jak zdobyłeś ten statek, wyobrażam sobie, że niektórzy z nas potraktują go jako znak. Widzisz, to relikt naszej przeszłości, przeszłości, z której jesteśmy dumni. W związku z tym większość wojowników Nieskrępowanych powie, że musisz udowodnić swoje prawo do jego używania."`
+			`	Po westchnieniu jej ton się zmienia. "Ale ja w to nie wierzę. Dla mnie liczy się to, że statek jest wytrzymały i pełen cennej starożytnej technologii."`
+			`	Jej oczy rozświetlają się, gdy skupia się bardziej na twoim statku. "Widzę nawet broń, o którą dzielnie walczyliśmy, zdobywając ją od dzikiego Koratha!"`
 				to display
 					has "outfit (flagship installed): Thermal Repeater Turret"
-			`	All of a sudden, she raises her voice for everyone to hear. "I, Mera, challenge you! The winner will earn the right to own this honorable relic and its mighty weapons!"`
+			`	Nagle podnosi głos, żeby wszyscy mogli ją usłyszeć. "Ja, Mera, rzucam ci wyzwanie! Zwycięzca zdobędzie prawo do posiadania tej zacnej relikwii i jej potężnej broni! "`
 			choice
-				`	"What do I get if I win?"`
+				`	"Co otrzymam, jeśli wygram?"`
 					goto win
-				`	"Can't I just sell it to you?"`
-				`	"I bought this ship. It's mine and I shall do what I please with it."`
+				`	"Czy nie mogę ci tego po prostu sprzedać?"`
+				`	"Kupiłem ten statek. Jest mój i będę z nim robił, co mi się podoba."`
 					goto fleeing
-			`	"No, because in the eyes of my brethren that would mean I, too, did not deserve this ship. They would then challenge me for it."`
+			`	"Nie, bo w oczach moich braci oznaczałoby to, że ja również nie zasługiwałem na ten statek. Wtedy by mnie o to wyzwali."`
 			label win
-			`	Mera turns around, talking to other Unfettered for a bit before addressing you again. "You will win the right to access our worlds. But, in order to keep our respect, you must keep this Anomalocaris in good condition until you prove yourself another way. It is a priceless artifact. Should you refuse to prove your worth, you will no longer be allowed to land here."`
-			`	She then glares at you. "Beware, for although there are no official rules, you must use only the Anomalocaris. So, will you take to the skies, or are you too afraid?"`
+			`	Mera odwraca się, rozmawiając chwilę z innymi Nieskrępowanymi, po czym ponownie zwraca się do ciebie. "Zdobędziesz prawo dostępu do naszych światów. Ale, aby zachować nasz szacunek, musisz utrzymać ten Anomalocaris w dobrym stanie, dopóki nie udowodnisz swojej wartości w inny sposób. To bezcenny artefakt. Jeśli odmówisz udowodnienia swojej wartości, nie będziesz mógł tu już lądować."`
+			`	Potem patrzy na ciebie gniewnie. "Uważaj, bo chociaż nie ma oficjalnych zasad, możesz używać tylko Anomalocaris. Więc, czy polecisz w przestworza, czy też się boisz?"`
 			choice
-				`	"I accept."`
-				`	"I have nothing to prove to you. This is my ship now."`
+				`	"Akceptuję."`
+				`	"Nie mam ci nic do udowodnienia. To teraz mój statek."`
 					goto fleeing
-			`	Mera grins. "Good! I won't be fighting you personally, as it is too risky to do so. I am but an engineer, after all. I would also not want to deny my brother and his crew the opportunity to prove themselves against a powerful human warrior!"`
-			`	You're not sure if Mera is being serious or not, but her friends seem to be in for it. One that appears to be their leader approaches you. "So you think you deserve to fly this mighty ship of the Hai empire?"`
-			`	"Yeah, what makes you think that, human?" another one adds.`
+			`	Mera się uśmiecha. "Dobrze! Nie będę z tobą walczyć osobiście, bo to zbyt ryzykowne. W końcu jestem tylko inżynierem. Nie chciałbym też pozbawiać mojego brata i jego załogi możliwości sprawdzenia się w walce z potężnym ludzkim wojownikiem! "`
+			`	Nie jesteś pewien, czy Mera mówi poważnie, ale jej przyjaciele najwyraźniej są na to gotowi. Ktoś, kto wydaje się być ich przywódcą, podchodzi do ciebie. "Więc uważasz, że zasługujesz na to, by latać tym potężnym statkiem imperium Hai?"`
+			`	"Tak, co cię do tego skłania, człowieku?" dodaje kolejny.`
 			choice
-				`	(Say nothing.)`
-				`	"Are you trying to scare me out of the fight?"`
+				`	(Nie mów nic.)`
+				`	"Czy próbujesz mnie wystraszyć i odwieść od walki?"`
 					goto scare
-			`	"I guess we'll find out," says a third.`
+			`	"Chyba się dowiemy," mówi trzeci.`
 			label scare
-			`	The leader of the group gets closer and addresses you in a more serious tone. "You should be aware that this is not so much a friendly competition as it is a fight for you to truly earn the right to fly this ship. You should know that this fight has a few... implicit rules, even if there are no official ones. We would assume everyone knows them, but since you are an outsider I will explain them to you," he says as he leads you away from the group.`
-			`	"Naturally, because this is a duel, nobody other than us may interfere, but you should also know that being disabled counts as a loss. Don't even think about tricking us by switching to something other than this Anomalocaris, or we will not bother showing up! You must prove you deserve it, after all. To the victor go the spoils, so looting is allowed, but do not attempt to steal our ships. Do so, and all the Unfettered will be against you!"`
+			`	Przywódca grupy podchodzi bliżej i zwraca się do ciebie poważniejszym tonem. "Powinieneś wiedzieć, że to nie tyle przyjacielska rywalizacja, co walka o to, byś naprawdę zdobył prawo do pilotowania tego statku. Powinieneś wiedzieć, że ta walka ma kilka... dorozumianych zasad, nawet jeśli nie ma oficjalnych. Zakładamy, że wszyscy je znają, ale ponieważ jesteś osobą z zewnątrz, wyjaśnię ci je, " mówi, wyprowadzając cię z grupy.`
+			`	"Oczywiście, ponieważ to pojedynek, nikt poza nami nie może się wtrącać, ale powinieneś też wiedzieć, że bycie unieruchomionym to porażka. Nawet nie myśl o tym, żeby nas oszukać, zmieniając się na coś innego niż ten Anomalocaris, bo w przeciwnym razie nie będziemy się pojawiać! Musisz przecież udowodnić, że na to zasługujesz. Łupy należą się zwycięzcy, więc grabież jest dozwolona, ale nie próbuj kraść naszych statków. Zrób to, a wszyscy Nieskrępowani będą przeciwko tobie!"`
 			# This is a "warning" for the incoming extra ship that happens because you killed/captured 10 Shield Beetles or so.
-			`	He then looks at you intensely, straight in the eyes. "We sometimes bend the rules for our friends, but that is not the case with you."`
+			`	Potem patrzy ci intensywnie, prosto w oczy. "Czasami naginamy zasady dla przyjaciół, ale nie w twoim przypadku."`
 				to display
 					"reputation: Hai (Unfettered)" < -1500
-			`	Mera starts to look a bit impatient. "Are you going to talk all day, or are you going to fight? Head to Ehma Ti already!" The Unfettered immediately head to their ships, but Mera pulls you in close once they are far enough away. "I want this done by the end of the day, so do not try my patience. You are lucky I offered this deal in the first place, as they were planning to take the relic by force. Now, quick, get to your ship! Make any last minute modifications you may need, and then come fight us."`
-			`	You see the Unfettered have already begun their launching procedures, so you should prepare for takeoff in your Anomalocaris, and no other ships, as soon as you can.`
+			`	Mera zaczyna wyglądać na nieco niecierpliwą. "Będziesz gadać cały dzień, czy będziesz walczyć? Udaj się już do Ehma Ti!" Nieskrępowani natychmiast kierują się do swoich statków, ale Mera przyciąga cię bliżej, gdy są już wystarczająco daleko. "Chcę, żeby to było zrobione do końca dnia, więc nie wystawiaj mojej cierpliwości na próbę. Masz szczęście, że zaproponowałem ci tę ofertę, bo planowali siłą zdobyć relikwię. A teraz, szybko, leć na swój statek! Wprowadź wszelkie niezbędne modyfikacje w ostatniej chwili, a potem stań z nami do walki."`
+			`	Widzisz, że Unfettered już rozpoczęli procedurę startową, więc powinieneś przygotować się do startu swoim Anomalocaris, a nie żadnym innym statkiem, tak szybko, jak to możliwe.`
 				accept
 			label fleeing
 			action
 				"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 				set "unfettered: fled with the relic"
-			`	Seeing as they are unlikely to cooperate, you quickly head to your ship and launch, with the Unfettered rushing after you.`
+			`	Widząc, że raczej nie będą współpracować, szybko udajesz się na swój statek i odpływasz, a Nieskrępowani biegną za tobą.`
 				launch
 	on enter
 		conversation
@@ -342,18 +342,18 @@ mission "Hai Legacy 3"
 				"total ships" > 1
 			branch anomaly
 				not "flagship model: Anomalocaris"
-			`As you leave the planet's atmosphere, you receive a short message. "We are waiting for you in Ehma Ti today. Do not disappoint us."`
+			`Gdy opuszczasz atmosferę planety, otrzymujesz krótką wiadomość. "Czekamy na Ciebie dziś w Ehma Ti. Nie zawiedź nas. "`
 				accept
 			label fleeing
 			action
 				fail
-			`The Unfettered don't seem too pleased to see you leaving with their prize. The challenger is already waiting for you in orbit, and hails you. "Where do you think you're going, monkey?"`
+			`Nieskrępowani nie wydają się być zadowoleni, widząc, że odlatujesz z ich nagrodą. Pretendent już czeka na ciebie na orbicie i wita cię. "Dokąd ty się wybierasz, małpo?"`
 				decline
 			label "too many ships"
-			`As you take off to join your fleet in orbit, you receive a hail from the Unfettered. "You must leave your fleet on hold here. If they help you, the duel will be forfeit!"`
+			`Gdy startujesz, by dołączyć do swojej floty na orbicie, otrzymujesz wezwanie od Nieskrępowanych. "Musisz tu zostawić swoją flotę. Jeśli ci pomogą, pojedynek zostanie przegrany!"`
 				decline
 			label anomaly
-			`You are hailed by the Unfettered as soon as you reach orbit. "You think us blind, monkey? That is not the relic! You're not even worth a launch sequence."`
+			`Zostajesz powitany przez Nieskrępowanych, gdy tylko dotrzesz na orbitę. "Myślisz, że jesteśmy ślepi, małpo? To nie jest relikwia! Nie jesteś nawet wart sekwencji startowej."`
 			action
 				"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 				fail
@@ -361,13 +361,13 @@ mission "Hai Legacy 3"
 		conversation
 			branch "too many ships"
 				"total ships" > 1
-			`As you enter the system you can see your challenger is indeed waiting for you, and they promptly send you a hail. "Show us what you've got, monkey! Show us that you control your weapons well, as any warrior should! Prove to us that you have the strength to disable our ships, yet still have the restraint not to destroy them!"`
+			`Gdy wkraczasz do systemu, widzisz, że twój rywal rzeczywiście na ciebie czeka i natychmiast wysyła ci sygnał. "Pokaż, na co cię stać, małpo! Udowodnij nam, że dobrze kontrolujesz swoją broń, jak każdy wojownik! Udowodnij nam, że masz siłę, by unieszkodliwić nasze statki, a jednocześnie powściągliwość, by ich nie zniszczyć! "`
 				accept
 			label "too many ships"
-			`As you arrive with your fleet in this system, you receive a hail from the Unfettered. "If you can't even count how many ships you have, you're not worthy of our time, monkey! Dishonor will get you nowhere with us True Hai!"`
+			`Gdy przybywasz ze swoją flotą do tego układu, otrzymujesz wezwanie od Nieskrępowanych. "Jeśli nawet nie potrafisz policzyć, ile masz statków, nie jesteś godzien naszego czasu, małpo! Hańba nic ci z nami nie da. Cześć! "`
 				goto failed
 			label anomaly
-			`You are hailed by the Unfettered as soon as you reach orbit. "You think us blind, monkey? That is not the relic! You're not even worth a launch sequence."`
+			`Zostajesz powitany przez Nieskrępowanych, gdy tylko dotrzesz na orbitę. "Myślisz, że jesteśmy ślepi, małpo? To nie jest relikwia! Nie jesteś nawet wart sekwencji startowej."`
 			label failed
 			action
 				"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
@@ -379,8 +379,8 @@ mission "Hai Legacy 3"
 	on disabled
 		fail
 		dialog
-			`After your ship is disabled, one of the Unfettered ships hails you. "You have lost the challenge, but we didn't expect much from a human like you. We will repair your ship for a fair bribe, but you better land at one of our worlds and return it to us with a most generous compensation. If you try to keep it from us, we'll do things the hard way.`
-			`	"Be warned, however, that your truce with us ends as soon as you land. Today, you've failed us. Maybe someday you will prove yourself otherwise."`
+			`Po unieruchomieniu twojego statku, jeden ze statków Unfettered wzywa cię. "Przegrałeś wyzwanie, ale nie spodziewaliśmy się wiele po kimś takim jak ty. Naprawimy twój statek za uczciwą łapówkę, ale lepiej, żebyś wylądował na jednym z naszych światów i zwrócił go nam z bardzo hojną rekompensatą. Jeśli spróbujesz nam go odebrać, potraktujemy cię boleśnie.`
+			`	"Uważaj jednak, że twój rozejm z nami kończy się natychmiast po wylądowaniu. Dziś nas zawiodłeś. Może kiedyś udowodnisz, że jest inaczej."`
 	on visit
 		fail
 	on fail
@@ -445,20 +445,20 @@ mission "Hai Legacy 3"
 		clear "old reputation: Hai (Unfettered)"
 		log "Udało mi się pokonać przeciwnika z frakcji Nieskrępowanych za pomocą starożytnego okrętu wojennego Hai, zyskując szacunek Nieskrępowanych Hai tak długo, jak okręt pozostanie w moim posiadaniu."
 		conversation
-			`When you land in one piece, Mera approaches, looking quite surprised. "You really won! I saw everything, and the data I got on the effects of these exotic weapons will be quite useful for my research. Was it hard for you?"`
+			`Kiedy lądujesz w jednym kawałku, Mera podchodzi, wyglądając na zaskoczoną. "Naprawdę wygrałeś! Widziałem wszystko, a dane, które zebrałem na temat skutków działania tej egzotycznej broni, będą bardzo przydatne w moich badaniach. Czy było ci ciężko?"`
 			choice
-				`	"It was fun."`
+				`	"Było fajnie."`
 					goto next
-				`	"This was easy!"`
-				`	"It was a challenge."`
+				`	"To było proste!"`
+				`	"To było wyzwanie."`
 					goto challenge
-			`	"Don't get overconfident, Captain," she muses. "I am sure you know what happens to such pilots.`
+			`	"Nie bądź zbyt pewny siebie, Kapitanie," zastanawia się. "Jestem pewna, że wiesz, co się dzieje z takimi pilotami.`
 				goto next
 			label challenge
-			`	"Oh, so their plan almost worked after all? Maybe I should have participated in the fight too.`
+			`	"Och, więc ich plan prawie jednak zadziałał? Może ja też powinienem był wziąć udział w walce.`
 			label next
-			`	"Well, congratulations, I did not think you had it in you. I will give you authorization to land, on the condition that you keep this relic from our past in one piece. Remember, right now, your reputation with us is solely due to that ship. If you somehow lose it because of incompetence on your own end, it would look pretty bad to the True Hai."`
-			`	Mera then walks off as she begins reviewing data from your fight on a small device. For now, it seems that the Unfettered Hai have some level of respect for you, so long as you have the Anomalocaris.`
+			`	"No cóż, gratulacje, nie sądziłem, że cię na to stać. Dam ci pozwolenie na lądowanie pod warunkiem, że zachowasz tę relikwię z naszej przeszłości w jednym kawałku. Pamiętaj, że twoja reputacja u nas zależy wyłącznie od tego statku. Jeśli jakimś cudem go stracisz z powodu własnej niekompetencji, będzie to wyglądać bardzo źle w oczach Prawdziwego Hai."`
+			`	Mera odchodzi, zaczynając przeglądać dane z twojej walki na małym urządzeniu. Na razie wygląda na to, że Nieskrępowani Hai darzą cię pewnym szacunkiem, o ile masz Anomalocaris.`
 
 
 
@@ -475,21 +475,21 @@ mission "Undeserved Anomalocaris"
 		not "Hai Legacy 3: done"
 	on offer
 		conversation
-			`As you land, countless Hai hastily head to your ship, each armed with several weapons. One of them points at you and makes a declaration in front of the crowd that is quickly forming, shouting loud enough for all to hear. "You do not deserve to fly this relic of old!"`
-			`	One standing behind them then chimes in. "You wasted your opportunity for a glorious battle to earn that right! We know of what you've failed!"`
+			`Gdy lądujesz, niezliczone Hai pospiesznie kierują się w stronę twojego statku, każdy uzbrojony w kilka broni. Jeden z nich wskazuje na ciebie i wygłasza deklarację przed szybko formującym się tłumem, krzycząc wystarczająco głośno, by wszyscy mogli usłyszeć: "Nie zasługujesz na latanie tym reliktem przeszłości! "`
+			`	Ktoś stojący za nimi wtrąca się. "Zmarnowałeś szansę na wspaniałą walkę o to prawo! Wiemy, co ci się nie udało! "`
 				to display
 					has "Hai Legacy 3: offered"
-			`	A more important-looking Unfettered then steps up close to you, speaking in a menacing tone. "You must surrender the ship to us immediately, along with the weapons of the savages, if you did not already rob us of those." For a moment, they look down in thought, then speak to you once more. "We will give you another ship so you can leave, but you must give us the Anomalocaris!"`
+			`	Wyglądający na ważniejszego Nieskrępowanego podchodzi do ciebie, mówiąc groźnym tonem. "Musisz nam natychmiast oddać statek wraz z bronią dzikusów, jeśli jeszcze nas jej nie ograbiłeś." Przez chwilę patrzą w dół w zamyśleniu, a potem znów do ciebie mówią. "Damy ci inny statek, żebyś mógł odlecieć, ale musisz nam oddać Anomalocaris!"`
 			choice
-				`	(Hand over the Anomalocaris.)`
-				`	(Decline their request and leave.)`
+				`	(Przekaż Anomalocaris.)`
+				`	(Odrzuć ich prośbę i odejdź.)`
 					depart
-			`	You and your crew exit what was briefly your ship, and the local Unfettered militia are informed that it is now theirs. The Unfettered that were assembling around your ship happily disperse, except for one - probably the leader, judging by the amount of weaponry on their person. They come to talk to you, weapons in hand but lowered. "We are happy you could see reason and decided to hand over the ship. In exchange, we will provide you with a suitable replacement.`
-			`	"That relic was not meant for you, but there are other ways for you to prove yourself to us." The leader of these Unfettered continues with blatantly forced casualness. "Say, for example, bringing us a Jump Drive... or two... that for sure will earn you favor, and prove you can fight."`
+			`	Ty i twoja załoga opuszczacie statek, który przez chwilę był waszym, a lokalna milicja Nieskrępowanych zostaje poinformowana, że teraz należy on do nich. Nieskrępowani, którzy gromadzili się wokół waszego statku, radośnie się rozchodzą, z wyjątkiem jednego - prawdopodobnie przywódcy, sądząc po ilości broni przy sobie. Przychodzą, żeby z wami porozmawiać, z bronią w ręku, ale opuszczoną. "Cieszymy się, że przejęliście kontrolę i zdecydowaliście się oddać statek. W zamian zapewnimy wam odpowiedni zastępstwo.`
+			`	"Ta relikwia nie była przeznaczona dla ciebie, ale są inne sposoby, żebyś nam udowodnił swoją wartość." Przywódca Nieskrępowanych kontynuuje z jawnie wymuszoną nonszalancją. "Powiedzmy na przykład, że przyniesiesz nam napęd przenośny... albo dwa... to z pewnością zdobędzie twoją przychylność i udowodni, że potrafisz walczyć."`
 				to display
 					not "Unfettered Jump Drive 1: offered"
 			action
 				give ship "Lightning Bug (Unfettered Shipyards)" "Good Will"
 				take ship "Anomalocaris"
-			`	The leader of the Unfettered group then has a few of them escort you to the edge of the spaceport. On your way there, some of them seemed to be holding back some frustration, and you could have sworn one wanted to attack you at any moment. Eventually you are lead to a landed Lightning Bug, and after some messy paperwork, the Unfettered leave it with you.`
+			`	Przywódca grupy Unfettered każe kilku z nich eskortować cię na skraj kosmoportu. Po drodze niektórzy z nich zdawali się tłumić frustrację i mógłbyś przysiąc, że któryś z nich w każdej chwili będzie chciał cię zaatakować. W końcu zostajesz doprowadzony do lądującego Lightning Buga, a po załatwieniu kilku formalności Unfettered zostawiają go z tobą.`
 				decline

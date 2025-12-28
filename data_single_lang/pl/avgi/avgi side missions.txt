@@ -23,250 +23,250 @@ mission "Avgi Culture: Park Politics"
 		conversation
 			action
 				set "avgi: met wisteria"
-			`As you explore the spaceport of <origin>, you come across a small grassy park, the greenspace a welcome contrast to the otherwise mechanical facilities. As the centerpiece of the park, where you'd expect a fountain or a statue in a human park, is a curious hanging windchime, made of pieces of colorful glass and various metals. It's more than a little mesmerizing, and you stop to listen as it rustles in the gentle circulation of the station's air.`
-			`	"Is this one of the humans I have heard so much about, question?" The translator tucked behind your ear suddenly speaks, responding to an Avgi voice. You turn and see an Avgi perched on a park bench behind you, his purple coloring faded with age. A board of colorful stones sits on the table in front of him, a game of some kind. He gives you an odd sort of salute with a forelimb, probably an Avgi greeting of some kind.`
+			`Podczas eksploracji kosmoportu <origin> natrafisz na niewielki, trawiasty park, który stanowi miły kontrast dla zmechanizowanych obiektów. Centralnym punktem parku, gdzie w parku dla ludzi można by się spodziewać fontanny lub posągu, jest osobliwy wiszący dzwonek wietrzny, wykonany z kawałków kolorowego szkła i różnych metali. Jest on niezwykle hipnotyzujący i zatrzymujesz się, by posłuchać, jak szeleści w delikatnym ruchu powietrza na stacji.`
+			`	"Czy to jeden z tych ludzi, o których tyle słyszałem, pytanie?" Tłumacz schowany za twoim uchem nagle się odzywa, odpowiadając na głos Avgiego. Odwracasz się i widzisz Avgiego siedzącego na ławce w parku za tobą, którego fioletowa barwa wyblakła ze starości. Na stole przed nim leży plansza z kolorowych kamieni, coś w rodzaju gry. Pozdrawia cię dziwnym gestem przedniej kończyny, prawdopodobnie w stylu Avgiego.`
 			choice
-				`	"Hello there."`
-				`	"Hi, I'm Captain <first> <last>."`
+				`	"Witaj."`
+				`	"Cześć, jestem kapitan <first> <last>."`
 					goto name
-			`	"Courteous introduction. I am called Wisteria. Would you grace me with your own name?"`
-			`	"I'm Captain <first> <last>," you say.`
+			`	"Uprzejme przedstawienie. Nazywam się Wisteria. Czy zechcesz zaszczycić mnie swoim imieniem?"`
+			`	"Jestem kapitanem <first> <last>," mówisz.`
 			label name
-			`	"Appreciated meeting. A pleasure to meet you, Captain <last>. Would you like to join old Wisteria at a game of Trefoil, question? I would be happy to teach you how to play, of course."`
+			`	"Doceniam spotkanie. Miło mi pana poznać, Kapitanie <last>. Czy chciałby pan dołączyć do starej Wisterii w grze w koniczynę, pytanko? Oczywiście, chętnie nauczę pana grać. "`
 			choice
-				`	"Sure."`
-				`	"No thank you."`
+				`	"Pewnie."`
+				`	"Nie, dziękuję."`
 					defer
-			`	"Delight. The youth these days have little appreciation for the art of Trefoil, you know." He taps one eye knowingly, an odd gesture. "Or at least my mother would say. That was sixty years ago, hmm. Please, sit, sit!" He points to the other side of his bench, with nothing more than a horizontal rail for a seat.`
+			`	"Rozkosz. Młodzież w dzisiejszych czasach nie docenia sztuki koniczyny, wiesz." Puka znacząco w oko, dziwny gest. "A przynajmniej powiedziałaby moja matka. To było sześćdziesiąt lat temu, hmm. Proszę, siadaj, siadaj!" Wskazuje na drugą stronę ławki, gdzie za siedzisko służy jedynie pozioma poręcz.`
 			choice
-				`	"That sure looks comfortable."`
-				`	"I'll stand, I think."`
-			`	"Amusement. The other humans had chairs made to suit your forms, they did. Folded them up and carried them everywhere."`
-			`	"Did you meet them?" you ask.`
-			`	"Yes, yes. Several times. Only the angry one was any good at Trefoil, sadly. Speaking of which-" He deftly rearranges the colored stones, arranging them into a neat pattern: three triangles, one of each color, angled with their topmost points touching at the center of a six-sided board.`
+				`	"Wygląda na to, że jest wygodnie."`
+				`	"Chyba postoję."`
+			`	"Rozrywka. Inni ludzie zrobili krzesła dopasowane do twoich kształtów, tak właśnie było. Złożyli je i nosili wszędzie."`
+			`	"Spotkałeś ich?" pytasz.`
+			`	"Tak, tak. Kilka razy. Niestety, tylko ten wściekły był dobry w koniczynę. A skoro już o tym mowa-" Zręcznie przestawia kolorowe kamienie, tworząc schludny wzór: trzy trójkąty, po jednym w każdym kolorze, ustawione pod kątem, a ich wierzchołki stykają się w środku sześciokątnej planszy.`
 
 			scene "scene/trefoil"
 
-			`	"Respectful deference. Which color would you like to play as, question? There is no real difference between them, as far as the game plays."`
+			`	"Szanujący szacunek. Jakim kolorem chcesz grać, pytanie? Nie ma między nimi żadnej realnej różnicy, jeśli chodzi o rozgrywkę."`
 			choice
 				`	"Red."`
 				`	"Green."`
 				`	"Blue."`
-			`	"Acknowledgment. Excellent. Explanation. The objective is to remove all of your pieces from the board by moving them to the opposite edge to your own triangle." Demonstrating with a stone, he shows you how to skip it over connected chains of other pieces, moving to their endpoint. "You must balance your moves between freeing your own pieces and blocking the other colors from their own escape."`
-			`	You delicately take a seat on the rail. It's at least only a little worse than a park bench, and you're thankful for the lower gravity on Peripheria.`
+			`	"Podziękowanie. Doskonałe. Wyjaśnienie. Celem jest usunięcie wszystkich swoich pionków z planszy poprzez przesunięcie ich na przeciwległy brzeg trójkąta." Demonstrując na kamieniu, pokazuje, jak przeskoczyć go przez połączone łańcuchy innych pionków, przesuwając się do ich punktu końcowego. "Musisz balansować między uwalnianiem własnych pionków a blokowaniem ucieczki innym kolorom."`
+			`	Delikatnie siadasz na poręczy. Jest co najmniej tylko trochę gorzej niż na ławce w parku, i jesteś wdzięczny za niższą grawitację na Peripherii.`
 			choice
-				`	"But there's three sides and only two of us."`
-			`	"Approving. An astute observation. The third color can be played by a third person, in some variations, but in our case we take turns moving for it. It - the Foil - is an external actor, under our influence yet outside our absolute control, often used as a pawn to block the other player's moves when opportune. Now, would you like to make the first move, question? Players generally either focus on either evacuating their own pieces or moving to block their opponent's path to escape."`
+				`	"Ale są trzy strony, a nas tylko dwoje."`
+			`	"Approving. Spostrzeżenie. Trzeci kolor może być zagrany przez trzecią osobę, w niektórych wariantach, ale w naszym przypadku wykonujemy ruchy na zmianę. To - Folia - jest aktorem zewnętrznym, pod naszym wpływem, ale poza naszą absolutną kontrolą, często używanym jako pionek do blokowania ruchów drugiego gracza, gdy jest to stosowne. A teraz, czy chcesz wykonać pierwszy ruch, pytanie? Gracze zazwyczaj skupiają się albo na ewakuacji własnych pionków, albo na ruchu, który blokuje drogę ucieczki przeciwnikowi."`
 
 			choice
-				`	(Focus on getting my stones out. Move a stone towards my color's escape.)`
+				`	(Skup się na wyciąganiu kamieni. Przesuń kamień w kierunku wyjścia mojego koloru.)`
 					goto escape1
-				`	(Focus on blocking Wisteria. Move a stone towards his triangle.)`
+				`	(Skup się na blokowaniu Glicynia. Przesuń kamień w kierunku jego trójkąta.)`
 					goto "block wisteria 1"
-				`	(Focus on blocking the Foil. Move a stone towards its triangle.)`
+				`	(Skup się na blokowaniu folii. Przesuń kamień w kierunku jej trójkąta.)`
 					goto "block foil 1"
 
 			label escape1
 			action
 				"avgi: trefoil classical" ++
-			`	"Approving. A good approach. That is the classical move to make at the start of the game, especially for a beginner."`
+			`	"Zatwierdzam. Dobre podejście. To klasyczny ruch na początku gry, zwłaszcza dla początkującego."`
 				goto next1
 
 			label "block wisteria 1"
 			action
 				"avgi: trefoil aggressive" ++
-			`	"Amusement. Ah, already moving to block me, I see. That is often an approach taken by more advanced players, but I must warn you, executing it successfully is difficult."`
+			`	"Amusement. Ach, widzę, że już próbujesz mnie zablokować. To często podejście stosowane przez bardziej zaawansowanych graczy, ale muszę cię ostrzec, że skuteczne wykonanie tego jest trudne."`
 				goto next1
 
 			label "block foil 1"
 			action
 				"avgi: trefoil chaotic" ++
-			`	"Interest. I do not often see players prioritize blocking the Foil, especially as their first move. But perhaps you will surprise me."`
+			`	"Interest. Nieczęsto widzę, żeby gracze priorytetowo traktowali blokowanie folii, zwłaszcza jako pierwszy ruch. Ale może mnie zaskoczysz."`
 				goto next1
 
 			label next1
-			`	Slightly adjusting his position on the bench, the Avgi continues. "Now, after each of our turns, we shall move one of the Foil's pieces. You should focus on moving them to your advantage, whether that be by blocking my pieces or keeping them out of the way of your own."`
+			`	Lekko zmieniając pozycję na ławce, Avgi kontynuuje. "Teraz, po każdej naszej turze, będziemy przesuwać jedną z figur Foila. Powinieneś skupić się na przesuwaniu ich na swoją korzyść, czy to blokując moje figury, czy też nie wchodząc im w drogę. "`
 			choice
-				`	(Move one of the Foil's stones towards my own side, to start building a link.)`
+				`	(Przesuń jeden z kamieni Foil w moją stronę, aby rozpocząć budowę połączenia.)`
 					goto escape2
-				`	(Move one of the Foil's stones towards Wisteria's side, to block him in the future.)`
+				`	(Przesuń jeden z kamieni Foila w stronę Gisterii, aby zablokować go w przyszłości.)`
 					goto "block wisteria 2"
-				`	(Move one of the Foil's stones towards its own exit. Why not?)`
+				`	(Przesuń jeden z kamieni Folii w stronę jej własnego wyjścia. Czemu nie?)`
 					goto "escape foil 2"
 
 			label escape2
 			action
 				"avgi: trefoil classical" ++
-			`	"Approving. A wise approach, to prepare to build bridges in the future. It is more complex, and can be difficult, but is often well-rewarded in the end. Of course, you must take care not to accidentally box yourself in, and create a chain that lacks endpoints closer to your exit."`
+			`	"Zatwierdzam. Mądre podejście, przygotowujące do budowania mostów w przyszłości. Jest to bardziej złożone i może być trudne, ale często ostatecznie przynosi dobre efekty. Oczywiście należy uważać, aby przypadkowo nie zamknąć się w pułapce i nie stworzyć łańcucha, w którym brakuje punktów końcowych bliżej wyjścia."`
 				goto next2
 
 			label "block wisteria 2"
 			action
 				"avgi: trefoil aggressive" ++
-			`	"Interest. It is a good move, to try and build a wall I cannot jump over, but you must take care not to accidentally create a chain with an endpoint placed to my advantage."`
+			`	"Interest. To dobry ruch, żeby spróbować zbudować mur, którego nie mogę przeskoczyć, ale musisz uważać, żeby przypadkiem nie stworzyć łańcucha z punktem końcowym położonym na moją korzyść."`
 				goto next2
 
 			label "escape foil 2"
 			action
 				"avgi: trefoil chaotic" ++
-			`	"Surprise. I have not seen that done before. The Foil cannot win, of course, so you have nothing to gain by removing its pieces from the board aside from denying them to the opposing player."`
+			`	"Niespodzianka. Nie widziałem tego wcześniej. Folia oczywiście nie może wygrać, więc nie zyskujesz nic, usuwając jej figury z planszy, poza pozbawieniem ich dostępu do przeciwnika."`
 				goto next2
 
 			label next2
-			`	Wisteria studies the board for a brief moment before moving one of his pieces towards his exit, then quickly moving a Foil piece towards his triangle. "Curiosity. I must confess, I wonder what our civilization looks like to an outsider, in the state it is in."`
+			`	Wisteria przez chwilę przygląda się szachownicy, po czym przesuwa jeden ze swoich pionków w stronę wyjścia, a następnie szybko przesuwa pionek w kierunku swojego trójkąta. "Ciekawość. Muszę przyznać, że zastanawiam się, jak nasza cywilizacja wygląda z zewnątrz, w obecnym stanie."`
 			choice
-				`	"It's impressive that you've been able to keep on fighting, even out here."`
+				`	"To imponujące, że potrafiłeś walczyć dalej, nawet tutaj."`
 					goto fighting
-				`	"It seems like everyone lives a hard life out here."`
+				`	"Wygląda na to, że wszyscy tutaj mają ciężkie życie."`
 					goto "hard life"
-				`	"I don't think I've seen enough of it to say anything, to be honest."`
+				`	"Szczerze mówiąc, nie sądzę, żebym widział wystarczająco dużo, żeby móc cokolwiek powiedzieć."`
 					goto safe
 
 			label fighting
-			`	"Contemplation. Yes. Fighting. A vice we have never quite been able to escape, and yet some would say we should be grateful for that now. For without the long millennia to sharpen the spear of war, how much worse would we have fared against the Aberrant, question? And yet my old bones grow weary with every failed expedition to reclaim Aviskir, and I hear the voices crying out that enough is enough, and to give up on our old worlds and build a new life out here."`
+			`	"Kontemplacja. Tak. Walka. Nałóg, z którego nigdy do końca nie udało nam się wyrwać, a jednak niektórzy powiedzieliby, że powinniśmy być za to teraz wdzięczni. Bo gdyby nie długie tysiąclecia na ostrzenie włóczni wojny, o ileż gorzej poradzilibyśmy sobie z Aberrantami, pytanie? A jednak moje stare kości drętwieją z każdą nieudaną wyprawą na Aviskir i słyszę głosy wołające, że dość już tego, że trzeba porzucić nasze stare światy i zbudować nowe życie tutaj."`
 				goto next3
 
 			label "hard life"
-			`	"Agreement. Yes, we do, and it grows harder the longer our war with the Aberrant goes on. We build our defenses up and they knock them down, we send armadas to retake Aviskir and they are routed or never return. It seems that all of our energies must go into this war, and little of our wealth is spent elsewhere. It is little wonder that some say we should seek to truly build a new life here, rather than waste our lives and efforts on reclaiming the old."`
+			`	"Zgoda. Tak, zgadzamy się, i im dłużej trwa nasza wojna z Aberrantami, tym trudniej. Budujemy obronę, a oni ją niszczą, wysyłamy armady, by odbić Aviskir, a oni zostają rozgromieni albo nigdy nie wracają. Wygląda na to, że cała nasza energia musi zostać skierowana na tę wojnę, a niewiele z naszego bogactwa przeznaczamy na inne cele. Nic dziwnego, że niektórzy twierdzą, że powinniśmy dążyć do prawdziwego zbudowania nowego życia tutaj, zamiast marnować nasze życie i wysiłki na odzyskiwanie starego."`
 				goto next3
 
 			label safe
-			`	"Amusement. Fair to say, as I suppose the perspective of an outsider must be more confused than enlightened, when confronted with a new species, a new civilization, for the first time. And I suppose you have seen little of our true civilization, the planets we left to the Aberrant."`
+			`	"Rozrywka. Słusznie rzec, bo jak sądzę, perspektywa osoby z zewnątrz musi być bardziej zagmatwana niż oświecona, gdy po raz pierwszy staje twarzą w twarz z nowym gatunkiem, nową cywilizacją. I przypuszczam, że niewiele widziałeś z naszej prawdziwej cywilizacji, planet, które zostawiliśmy Aberrantom."`
 
 			label next3
-			`	"Regardless, I wonder what you would think of us, had you arrived before the Aberrant threw us from our homes. Conflict. It is almost a shame to me that you have to see us in our current state, but then I think of the unity and selflessness that we have found in each other, and that fills me with pride."`
-			`	You play a few more rounds back and forth, each of you advancing towards your respective exits. It is once more your turn.`
+			`	"Niezależnie od tego, zastanawiam się, co byś o nas pomyślał, gdybyś przybył, zanim Aberrant wyrzucił nas z domów. Konflikt. To dla mnie prawie wstyd, że musisz nas widzieć w obecnym stanie, ale potem myślę o jedności i bezinteresowności, które w sobie odnaleźliśmy, i to napawa mnie dumą."`
+			`	Gracie jeszcze kilka rund, każdy z was zmierza w stronę swojego wyjścia. Ponownie nadeszła wasza kolej.`
 			choice
-				`	(Move a stone towards my escape.)`
+				`	(Przesuń kamień w stronę mojej drogi ucieczki.)`
 					goto escape3a
 					to display
 						not "avgi: trefoil classical"
-				`	(Move a new stone towards my escape.)`
+				`	(Przesuń nowy kamień w kierunku mojej drogi ucieczki.)`
 					goto escape3b
 					to display
 						has "avgi: trefoil classical"
-				`	(Move my stone further towards my escape.)`
+				`	(Przesuń mój kamień dalej w kierunku drogi ucieczki.)`
 					goto escape3c
 					to display
 						has "avgi: trefoil classical"
-				`	(Prepare to block Wisteria. Move a stone towards his triangle.)`
+				`	(Przygotuj się do zablokowania Glicynia. Przesuń kamień w kierunku jego trójkąta.)`
 					goto "block wisteria 3a"
 					to display
 						not "avgi: trefoil aggressive"
-				`	(Further block Wisteria. Move a new stone towards his side)`
+				`	(Dalszy blok Wisteria. Przesuń nowy kamień w jego stronę)`
 					goto "block wisteria 3b"
 					to display
 						has "avgi: trefoil aggressive"
-				`	(Move my blocking stone further towards Wisteria's side)`
+				`	(Przesuń mój kamień blokujący dalej w kierunku strony Glicynia)`
 					goto "block wisteria 3c"
 					to display
 						has "avgi: trefoil aggressive"
-				`	(Move a stone towards the Foil triangle. Why not?)`
+				`	(Przesuń kamień w kierunku trójkąta foliowego. Dlaczego nie?)`
 					goto "block foil 3"
 
 			label escape3a
 			action
 				"avgi: trefoil classical" ++
-			`	"Approving. Balancing your movements between hindering me and evacuating your own pieces is the key to victory, and keeping multiple pieces in play is critical to achieving that balance."`
+			`	"Zatwierdzam. Kluczem do zwycięstwa jest zrównoważenie ruchów między utrudnianiem mi gry a ewakuacją własnych figur, a utrzymanie wielu figur w grze jest kluczowe dla osiągnięcia tej równowagi."`
 				goto next4
 
 			label escape3b
 			action
 				"avgi: trefoil classical" += 2
-			`	"Consideration. You are focused on escape, with no inclination towards hindering me. A good strategy for the first few moves, but winning almost always requires some form of interference with the other side, even if it means entangling your pieces in defensive formations."`
+			`	"Rozważanie. Skupiasz się na ucieczce, nie mając zamiaru mi przeszkadzać. Dobra strategia na pierwsze kilka ruchów, ale wygrana prawie zawsze wymaga jakiejś formy ingerencji w grę drugiej strony, nawet jeśli oznacza to wplątanie swoich figur w formacje obronne."`
 				goto next4
 
 			label escape3c
 			action
 				"avgi: trefoil classical" ++
-			`	"Consideration. You are focused on fleeing with that single piece, without having moved your other pieces. A good strategy for the first few moves if your goal is to set up a formation for use later, but you must be careful to avoid leaving the rest of your pieces behind."`
+			`	"Rozważanie. Skupiasz się na ucieczce z tą jedną figurą, nie ruszając pozostałych. To dobra strategia na pierwsze kilka ruchów, jeśli chcesz ustawić formację do późniejszego użycia, ale musisz uważać, żeby nie zostawić reszty figur."`
 				goto next4
 
 			label "block wisteria 3a"
 			action
 				"avgi: trefoil aggressive" ++
-			`	"Approving. Balancing your movements between hindering me and evacuating your own pieces is the key to victory, and keeping multiple pieces in play is critical to achieving that balance, especially as you may use your pieces to skip towards me."`
+			`	"Zatwierdzam. Kluczem do zwycięstwa jest balansowanie między utrudnianiem mi gry a ewakuacją własnych figur, a utrzymanie wielu figur w grze jest kluczowe dla osiągnięcia tej równowagi, zwłaszcza że możesz użyć swoich figur, by przeskoczyć w moim kierunku."`
 				goto next4
 
 			label "block wisteria 3b"
 			action
 				"avgi: trefoil aggressive" ++
-			`	"Approving. Your efforts thus far are focused on reacting to me, but you are making good use of multiple pieces that may later be arranged into a wall."`
+			`	"Zatwierdzam. Twoje dotychczasowe wysiłki skupiają się na reagowaniu na moje uwagi, ale dobrze wykorzystujesz wiele elementów, które później mogą zostać ułożone na ścianie."`
 				goto next4
 
 			label "block wisteria 3c"
 			action
 				"avgi: trefoil aggressive" += 2
-			`	"Consideration. Your efforts thus far are focused on reacting to me, but you should keep in mind that a single stone will not do much to block me, and may in fact be exploited to form a chain for my own use, should you not use your own pieces to constrain its endpoint."`
+			`	"Rozważenie. Twoje dotychczasowe wysiłki koncentrują się na reagowaniu na mnie, ale pamiętaj, że pojedynczy kamień niewiele zdziała, by mnie zablokować, a wręcz może zostać wykorzystany do utworzenia łańcucha na mój własny użytek, jeśli nie użyjesz własnych kamieni do ograniczenia jego punktu końcowego."`
 				goto next4
 
 			label "block foil 3"
 			action
 				"avgi: trefoil chaotic" ++
-			`	"Bemusement. I am not sure if you are tricking me with some plan, but that is certainly an unusual move."`
+			`	"Bemusement. Nie jestem pewien, czy próbujesz mnie oszukać jakimś planem, ale to z pewnością nietypowy ruch."`
 				goto next4
 
 			label next4
-			`	Wisteria quickly completes his own move, as well as his movement of the Foil. Now he seems to be moving a piece in your direction, perhaps to block you. After a few more back-and-forth moves between the two of you, he asks you another question.`
-			`	"So, Captain <last>. I am curious. If you found yourself in our place, an invincible enemy placed between yourself, armed with the last dregs of your people's spacefaring strength, and the bulk of your people held hostage on their very planets but otherwise unharmed, what would you do, question? Would you abandon them to their fate to build a new life out amongst the stars, or gamble your remaining strength on a bet to liberate them?"`
+			`	Wisteria szybko kończy swój ruch, a także ruch Folii. Teraz wydaje się, że przesuwa figurę w twoim kierunku, być może po to, by cię zablokować. Po kilku kolejnych ruchach, zadaje ci kolejne pytanie.`
+			`	"No więc, Kapitanie <last>. Jestem ciekaw. Gdybyś znalazł się na naszym miejscu, niezwyciężony wróg umieszczony między tobą, uzbrojony w resztki kosmicznej siły twojego ludu, a większość twojego ludu uwięziona na swoich planetach, ale poza tym nietknięta, co byś zrobił, pytam? Czy zostawiłbyś ich na pastwę losu, by zbudować nowe życie pośród gwiazd, czy zaryzykowałbyś resztę swoich sił, obstawiając ich wyzwolenie?"`
 			choice
-				`	"You can't just abandon everyone on your planets. Surely there's a way to win against the Aberrant, even if it takes sacrifice."`
+				`	"Nie możesz po prostu porzucić wszystkich na swoich planetach. Na pewno jest sposób na zwycięstwo nad Aberrantami, nawet jeśli wymaga to poświęcenia."`
 					goto liberate
-				`	"If the Aberrant aren't attacking the surfaces of the Avgi worlds, maybe you should focus on making life better out here first. After all, you have people out here to take care of too."`
+				`	"Jeśli Aberranty nie atakują powierzchni planet Avgi, może powinieneś najpierw skupić się na polepszaniu życia tutaj. W końcu masz tu też ludzi, o których musisz się zatroszczyć."`
 					goto abandon
-				`	"I would find another way. Communicating with the Aberrant maybe, or finding a way to both fight the war and help the people out here."`
+				`	"Znalazłbym inny sposób. Może nawiązanie kontaktu z Aberrantami albo znalezienie sposobu, by walczyć na wojnie i pomóc ludziom tutaj."`
 					goto "another way"
 
 			label liberate
-			`	"Appreciation. Such is the opinion of most of us, those who feel lucky to have escaped in the first place and feel a certain obligation to help the rest of our people. But the way forward is unclear. If we build our strength, our military might, perhaps we will have a chance in the future to truly drive the Aberrant from our homes, but just how far we can drive the free Avgi of the Consonance, I do not know. Perhaps it will break us, and leave us with no victory at all."`
+			`	"Appreciation. Takie jest zdanie większości z nas, tych, którzy czują się szczęśliwi, że w ogóle uciekli i czują pewien obowiązek, by pomóc reszcie naszego ludu. Ale droga naprzód jest niejasna. Jeśli zbudujemy naszą siłę, naszą potęgę militarną, być może w przyszłości będziemy mieli szansę naprawdę wypędzić Aberrantów z naszych domów, ale jak daleko uda nam się wypędzić wolnych Avgi z Konsonansu, nie wiem. Być może nas złamie i nie odniesiemy żadnego zwycięstwa."`
 				goto next5
 
 			label abandon
-			`	"Contemplation. That view would have been anathema to us only a short few years ago, but it is one that is steadily gaining ground. With each defeat and failed expedition back to the Twilight, the calls grow to focus on preserving what we have, not reaching to reclaim the old. And many say that those on the old worlds are safe, for now, and may even be able to build a fleet to liberate themselves, if they can but reclaim their orbital shipyards and asteroid mines. If that truly is the case, they say, then we should build ourselves up as a bastion first, with the living space and abundance to support our population."`
+			`	"Contemplation. Jeszcze kilka lat temu ten pogląd byłby dla nas przekleństwem, ale obecnie stale zyskuje na popularności. Z każdą porażką i nieudaną wyprawą powrotną do Zmierzchu, narastają głosy, by skupić się na zachowaniu tego, co mamy, a nie na odzyskiwaniu tego, co stare. Wielu twierdzi, że mieszkańcy starych światów są na razie bezpieczni i mogą nawet zbudować flotę, by się wyzwolić, jeśli tylko uda im się odzyskać swoje orbitalne stocznie i kopalnie asteroid. Jeśli tak jest naprawdę, mówią, powinniśmy najpierw zbudować bastion, z przestrzenią życiową i dostatkiem, by utrzymać naszą populację."`
 
 			label "another way"
-			`	"Amusement. Always in search of another way, everyone is. Perhaps because the choice we are left with is so abhorrent, that seeking another way provides a means of relieving them of it. We have attempted communication with the Aberrant, to no avail, and it seems likely they are not an intelligent species to begin with. They do not appear to coordinate with each other, and examining their debris in the rare instances we have managed to destroy one reveals no crew, just a strange mixture of machine and flesh. Perhaps they are some forgotten living weapon, engineered by a race long gone, or the mere servants of some ancient race far beyond us in power, the equivalents of our mining drones and service robots."`
-			`	He splays his arms. "But no, a choice must be made in the end, even if it is only one of degree. Even should we attempt to both build new homes in the Outer Limits and protract our conflict with the Aberrant, the resources allocated to each still remain to be divided up. And there, the conflict between the Consonance and Dissonance lies."`
+			`	"Rozrywka. Wszyscy nieustannie poszukują innej drogi. Być może dlatego, że wybór, przed którym stoimy, jest tak odrażający, że poszukiwanie innej drogi pozwala im się od niego uwolnić. Próbowaliśmy nawiązać kontakt z Aberrantami, ale bezskutecznie, i wydaje się prawdopodobne, że w ogóle nie są inteligentnym gatunkiem. Wydaje się, że nie koordynują się ze sobą, a badanie ich szczątków w rzadkich przypadkach, gdy udało nam się zniszczyć jednego z nich, ujawnia brak załogi, jedynie dziwną mieszankę maszyny i ciała. Być może są jakąś zapomnianą żywą bronią, stworzoną przez dawno wymarłą rasę, albo po prostu sługami jakiejś starożytnej rasy, znacznie przewyższającej nas potęgą, odpowiednikami naszych dronów górniczych i robotów serwisowych."`
+			`	Rozpościera ramiona. "Ale nie, w końcu trzeba dokonać wyboru, nawet jeśli będzie to tylko wybór stopnia. Nawet gdybyśmy próbowali budować nowe domy na Zewnętrznych Granicach i przedłużać nasz konflikt z Aberrantami, zasoby przydzielone każdemu z nich nadal pozostają do podziału. I tu właśnie tkwi konflikt między Konsonansem a Dysonansem."`
 
 			label next5
-			`	You play a few more rounds with Wisteria, and he shows you how to set up chains of pieces that can be used to skip ahead, while also denying their use to the enemy. After a particularly interesting set of moves, where he demonstrates how to break a chain and add your own endpoints to it, the conversation once more turns to politics.`
-			`	"Curiosity. I am reminded, Captain <last>, that you likely do not know much of our system of government in the first place. Am I right in this, question?"`
+			`	Grasz jeszcze kilka rund z Wisterią, a on pokazuje ci, jak tworzyć łańcuchy figur, które można wykorzystać do przeskakiwania do przodu, jednocześnie uniemożliwiając ich użycie przeciwnikowi. Po szczególnie interesującej serii ruchów, w której demonstruje, jak przerwać łańcuch i dodać do niego własne punkty końcowe, rozmowa ponownie schodzi na politykę.`
+			`	"Ciekawość. Przypomniałem sobie, Kapitanie <last>, że prawdopodobnie niewiele wiesz o naszym systemie rządzenia. Czy mam rację, pytam?"`
 			choice
-				`	"I think I know a little."`
-				`	"Yeah, I don't know much aside from there being an Assembly that you vote in."`
+				`	"Myślę, że trochę wiem."`
+				`	"Tak, nie wiem zbyt wiele poza tym, że jest Zgromadzenie, do którego możesz głosować."`
 					goto assembly
 
-			`	"Consideration. I see. It is something that should be rectified, then, to make your time among us less confusing. The first thing that you should know is that the Avgi are not, nor have ever been, united under a single government."`
+			`	"Rozważenie. Rozumiem. W takim razie należy to poprawić, aby Twój czas spędzony z nami był mniej zagmatwany. Po pierwsze, powinieneś wiedzieć, że Avgi nie są i nigdy nie byli zjednoczeni pod jednym rządem."`
 
 			label assembly
 			action
 				log "Factions" "Avgi" `Istnieją tysiące rządów Avgi, zwanych państwami politycznymi, które zdają się bardziej przypominać miasta-państwa lub tożsamości ideologiczne niż prawdziwe narody. Wiele z nich, jeśli nie większość, połączyło się w Konsonans, gdzie Elektorzy o różnym ciężarze politycznym, zależnym od liczebności swoich państw, podejmują decyzje w sposób konsensusowy dla całego gatunku.`
 
-			`	"Explanation. The Assembly of Polities, as it is formally named, is a rather complicated institution. As its name suggests, it is, well, an assembly of polities. Polities being... associations, or identities. I have read of your human histories, and you could perhaps consider them an analog of nations, but with two key differences."`
-			`	Wisteria raises a sharp finger. "One, they are not geographically bounded. Oh, many will perhaps have ownership over various pieces of land and space stations, but that is in constant flux, and they are rarely joined into a contiguous whole. And two, an individual Avgi can belong to any number of polities at the same time. Citizenship, you may think of it, is shared - and diluted - between as many polities as an Avgi wishes to belong to. Religion, ethnic heritage, economic sector, and even common interests are the most common lines by which polities might base themselves around, but there is one for almost any group imaginable. Even major corporations, or industries that have banded together."`
-			`	He spreads his arms out as if presenting a great circle. "The Assembly was an attempt at securing harmony between these polities, to prevent conflicts, and when that became impossible, to set the rules and limits of war. One representative, an Elector, per polity, with a vote weighted by the number of Avgi belonging to it, and by how those Avgi had chosen to dilute their own membership among the various polities. And from them they select three Speakers, a Triumvirate to lead the leaders."`
+			`	"Wyjaśnienie. Zgromadzenie Polityk, jak formalnie się nazywa, jest dość skomplikowaną instytucją. Jak sama nazwa wskazuje, jest to, cóż, zgromadzenie polityk. Polityki to... stowarzyszenia, czyli tożsamości. Czytałem wasze historie ludzkości i być może można je uznać za analogie narodów, ale z dwiema kluczowymi różnicami."`
+			`	Wisteria podnosi ostry palec. "Po pierwsze, nie są ograniczone geograficznie. Owszem, wielu może posiadać prawa własności do różnych działek ziemi i stacji kosmicznych, ale to się ciągle zmienia i rzadko są one połączone w spójną całość. Po drugie, pojedynczy Avgi może należeć do dowolnej liczby ustrojów politycznych jednocześnie. Obywatelstwo, jak można się domyślić, jest dzielone - i rozmywane - między dowolną liczbą ustrojów politycznych, do których Avgi chce należeć. Religia, dziedzictwo etniczne, sektor gospodarczy, a nawet wspólne interesy to najczęstsze linie oparcia ustrojów politycznych, ale istnieje taka linia dla niemal każdej wyobrażalnej grupy. Nawet dla dużych korporacji lub gałęzi przemysłu, które się połączyły."`
+			`	(Wróć na swój statek.)`
 			choice
-				`	"Do the Avgi in a polity elect their Elector?"`
-				`	"Corporations are part of the government? I've seen that one before."`
+				`	"Czy Avgi w państwie wybierają swojego elektora?"`
+				`	"Korporacje są częścią rządu? Widziałem to już wcześniej."`
 					goto syndicate
 			action
 				log "Factions" "Avgi Consonance" `Chociaż większość elektorów, których różne ugrupowania polityczne Avgi wybierają do reprezentowania ich w Consonance, jest wybierana demokratycznie, inni nie, z własnymi systemami mianowania. Consonance jest zatem być może przykładem republiki, która nie jest w pełni demokratyczna.`
 
-			`	He shrugs, an oddly human gesture. "It depends. Many polities do not even elect their own leadership, and they are free to select their representative however they wish. For some it is an elected position, for others it is one appointed by their leadership. A few even have their head of government serve as their Elector, though that is quite the time commitment to make."`
-			`	Wisteria looks up. "But yes, most of the polities use some form of democracy. An Avgi might find themselves voting in several elections, one for each polity they claim membership to, with their vote diluted by how many polities they belong to."`
+			`	Wzrusza ramionami, co jest dziwnie ludzkim gestem. "To zależy. Wiele państw nie wybiera nawet swoich przywódców i może swobodnie wybierać swojego przedstawiciela, jak tylko zechce. Dla niektórych jest to stanowisko wybieralne, dla innych mianowane przez przywódców. W niektórych krajach szef rządu pełni nawet funkcję elektora, choć jest to dość czasochłonne."`
+			`	Wisteria podnosi wzrok. "Ale tak, większość ustrojów politycznych stosuje jakąś formę demokracji. Avgi może głosować w kilku wyborach, po jednym dla każdego ustroju, do którego deklaruje przynależność, a jego głos będzie rozwodniony przez liczbę ustrojów politycznych, do których należy."`
 				goto "next assembly"
 
 			label syndicate
-			`	Wisteria thrums in laughter. "Amusement. Yes, I've heard of your Syndicate. It was strange to me, to hear of a corporation that wished for the burden of true governance, instead of leaving that to your Republic. It seems to me that the industrial polities here try their best to avoid any responsibility, while still reaping the benefits of representation."`
+			`	Wisteria trzęsła się ze śmiechu. "Amusement. Tak, słyszałem o waszym Syndykacie. Dziwnie było mi słyszeć o korporacji, która pragnęła wziąć na siebie ciężar prawdziwego rządzenia, zamiast zostawić go waszej Republice. Wydaje mi się, że tutejsze władze przemysłowe robią, co w ich mocy, by uniknąć jakiejkolwiek odpowiedzialności, jednocześnie czerpiąc korzyści z reprezentacji."`
 
 			label "next assembly"
-			`	"Amusement. And of course there are internal factions within the Assembly, as likeminded polities work together to advance their agendas, then just as quickly abandon each other. A harsh world, the Assembly is."`
+			`	"Rozrywka. Oczywiście w Zgromadzeniu istnieją wewnętrzne frakcje, ponieważ podobnie myślące ugrupowania polityczne współpracują ze sobą, aby realizować swoje cele, a potem równie szybko się od siebie oddalają. Zgromadzenie to okrutny świat."`
 
 			choice
-				`	"What factions are there in the Assembly?"`
+				`	"Jakie frakcje są w Zgromadzeniu?"`
 					goto factions
-				`	"They're all that ruthless, even now?"`
-			`	Wisteria laughs. "Of course they are. Oh, most of them have the same goal in the end, defeating the Aberrant, but there are many who are convinced that their methods are best suited for achieving that goal."`
+				`	"Czy oni wszyscy są aż tak bezwzględni, nawet teraz?"`
+			`	Wisteria się śmieje. "Oczywiście, że tak. Och, większość z nich ma ostatecznie ten sam cel: pokonanie Aberrantów, ale wielu jest przekonanych, że ich metody najlepiej nadają się do osiągnięcia tego celu."`
 
 			label factions
 			action
@@ -278,24 +278,24 @@ mission "Avgi Culture: Park Politics"
 				log "Factions" "Avgi Consonance" `Ekolodzy to frakcja skupiona na jednym problemie, której zależy jedynie na kolonizacji Weledos. Wielu sympatyzuje z coraz popularniejszym stanowiskiem, że Avgi powinni skupić się na kolonizacji Splątanego Całunu, zamiast próbować odzyskać Aviskir.`
 				log "Factions" "Avgi Consonance" `Freelancerzy niewiele mają ze sobą wspólnego poza pogardą dla podatków i kontroli finansowej narzucanej przez Zgromadzenie. Można wśród nich znaleźć wielu sympatyków Dissonance, ale równie wielu to lojalni zwolennicy Consonance, którzy po prostu pragną niższych podatków.`
 
-			`	He ticks them off on his pointed fingers, three on each hand. "There are the Centralists, those from the smaller polities who wish to see the Consonance grow in authority and power. The war against the Aberrant demands strong leaders, they say, and many agree with them." He tilts his head to the left.`
-			`	"The Technocrats, they disdain that, and place their hopes in a qualitative solution to defeat the Aberrant. Build better ships and give them better weapons, and the Aberrant can be swept from the Twilight without the need to demand ever more resources from our people. They draw from many of the industrialist polities, but their loyalties are often divided," he says as he makes a move.`
-			`	"The Financiers, the old money types with their fingers in everything, they represented many of the more urbanized regions of the core worlds, and their influence has come with them. Disdained by everyone in public, and beloved by all who would seek to benefit from their influence, I would credit them for being half the reason for the present unity between polities that would normally refuse to cooperate with each other," he says with an amused flick of his wings.`
-			`	"There are more, of course, with lesser influence. The Nationalists, who resent the decline of their polities' power, and especially the subsumption of their militaries into the Twilight Guard, are an ever-present thorn in the side of the Centralists, but they at least are quick to point out authoritarianism when they see it. The Ecologists want but a single thing, the complete settlement of Weledos, and the refocusing of resources on colonization and construction rather than shipbuilding. And there is a loose coalition, the Freelancers, who agree on nothing except that taxes and price controls should be relaxed."`
-			`	He sits back. "And of course the Twilight Guard is its own faction, as much as they will emphasize their neutrality. They have their supporters and detractors, but none can oppose them entirely, for they are all that stands between us and the Aberrant."`
-			`	With that, he deftly moves a Foil piece, trapping a cluster of your stones behind a wall.`
+			`	Wylicza je na palcach wskazujących, po trzy na każdej ręce. "Są centraliści, ci z mniejszych ugrupowań politycznych, którzy pragną, by Consonance rosła w siłę i autorytet. Mówią, że wojna z Aberrantami wymaga silnych przywódców i wielu się z nimi zgadza. " Przechyla głowę w lewo.`
+			`	"Technokraci gardzą tym i pokładają nadzieję w jakościowym rozwiązaniu, które pozwoli pokonać Aberrantów. Zbudujmy lepsze statki i dajmy im lepszą broń, a Aberrantów można będzie wymieść ze Zmierzchu bez konieczności żądania coraz większych zasobów od naszych ludzi. Czerpią z wielu przemysłowych państw, ale ich lojalność jest często podzielona, " mówi, ruszając do przodu.`
+			`	"Finansiści, starzy bogacze, mający palce we wszystkim, reprezentowali wiele bardziej zurbanizowanych regionów centralnych światów, a ich wpływy przywędrowały wraz z nimi. Pogardzani przez wszystkich publicznie i uwielbiani przez wszystkich, którzy chcieliby skorzystać z ich wpływów, przypisuję im połowę przyczyn obecnej jedności między państwami, które normalnie odmawiałyby współpracy - mówi, machając rozbawionym ruchem skrzydeł.`
+			`	"Oczywiście jest ich więcej, ale o mniejszych wpływach. Nacjonaliści, którym nie podoba się upadek władzy ich państw, a zwłaszcza podporządkowanie ich sił zbrojnych Gwardii Zmierzchu, są wszechobecną solą w oku centralistów, ale przynajmniej szybko wskazują na autorytaryzm, gdy go dostrzegają. Ekolodzy chcą tylko jednego: całkowitego zasiedlenia Weledos i skoncentrowania zasobów na kolonizacji i budownictwie, a nie na budowie statków. Istnieje też luźna koalicja, Freelancerzy, którzy nie zgadzają się w niczym poza tym, że podatki i kontrola cen powinny zostać złagodzone."`
+			`	Odchyla się. "Oczywiście Straż Zmierzchu to osobna frakcja, choć będą podkreślać swoją neutralność. Mają swoich zwolenników i przeciwników, ale nikt nie może im się całkowicie przeciwstawić, bo to oni stoją między nami a Aberrantami."`
+			`	Dzięki temu zręcznie przesuwa pionek folii, zatrzymując grupę twoich kamieni za ścianą.`
 			choice
-				`	(Try to break the wall and turn it into a chain.)`
+				`	(Spróbuj rozbić ścianę i zamienić ją w łańcuch.)`
 					goto "break wall 4a"
 					to display
 						"avgi: trefoil classical" >= 2
-				`	(Try to break the wall and turn it into a chain.)`
+				`	(Spróbuj rozbić ścianę i zamienić ją w łańcuch.)`
 					goto "break wall 4b"
 					to display
 						"avgi: trefoil classical" < 2
-				`	(Evacuate my other stones.)`
+				`	(Ewakuuj moje pozostałe kamienie.)`
 					goto escape4
-				`	(Retaliate by trapping the rest of Wisteria's stones.)`
+				`	(Odpowiedz, uwięziając resztę kamieni Glicynia.)`
 					goto "block wisteria 4"
 					to display
 						"avgi: trefoil aggressive" >= 1
@@ -303,84 +303,84 @@ mission "Avgi Culture: Park Politics"
 			label "break wall 4a"
 			action
 				"avgi: trefoil classical" ++
-			`	"Approving. Excellent, you have broken my blockade and turned it to your advantage instead. A good skill for an experienced player to have."`
+			`	"Zatwierdzam. Świetnie, przełamałeś moją blokadę i obróciłeś ją na swoją korzyść. Dobra umiejętność dla doświadczonego gracza."`
 				goto next6
 
 			label "break wall 4b"
 			action
 				"avgi: trefoil classical" ++
-			`	"Instructing. Ah, you see how you were unable to break the blockade, question? Your formation was not organized well enough for it with the stones you have available, and you would have been better served by ignoring those pieces and making moves elsewhere."`
+			`	"Instruktaż. Ach, widzisz, dlaczego nie udało ci się przełamać blokady, pytam? Twoja formacja nie była wystarczająco dobrze zorganizowana z dostępnymi kamieniami i lepiej by było, gdybyś zignorował te figury i wykonał ruchy gdzie indziej."`
 				goto next6
 
 			label escape4
 			action
 				"avgi: trefoil chaotic" ++
-			`	"Interest. You seem to be abandoning the pieces I have trapped in order to move the rest while I am distracted. A clever strategy, and one that is non-obvious."`
+			`	"Interest. Wygląda na to, że porzucasz figury, które uwięziłem, żeby przenieść resztę, gdy jestem rozproszony. Sprytna strategia, i to nieoczywista."`
 				goto next6
 
 			label "block wisteria 4"
 			action
 				"avgi: trefoil aggressive" ++
-			`	"Approving. Instead of trying to break my blockade, which would be difficult, you choose to instead take the opportunity to block in my own pieces, which forces me to respond."`
+			`	"Zatwierdzam. Zamiast próbować przełamać moją blokadę, co byłoby trudne, wolisz skorzystać z okazji i zablokować moje własne fragmenty, co zmusza mnie do odpowiedzi."`
 
 			label next6
-			`	You play a few more rounds, each of you managing to take a few of your pieces off the board.`
+			`	Gracie jeszcze kilka rund, każdemu z was udaje się zdjąć z planszy kilka swoich pionków.`
 			choice
-				`	"So, what was it like before the Aberrant came?"`
-				`	"What about the Dissonance? I've heard of them."`
+				`	"Jak więc było przed pojawieniem się Aberranta?"`
+				`	"A co z Dissonance? Słyszałem o nich."`
 					goto dissonance
 
-			`	"Contemplation. Perhaps a better question would be, 'what it was like before the hyperdrive?' For our society was not placed into turmoil first by the Aberrant, but rather by the discovery of a means to travel faster than light. Inside a handful of years an outlandish physics experiment went from theory to reality, and stars that had been decades or centuries away instead became reachable in first months, then weeks, then days as the hyperdrive continued to improve."`
-			`	He leans in. "You must understand, emphasis, just how economically separated the various pockets of Avgi civilization were. Aviskir of course was dominant within the Anax system, but beyond interplanetary politics practically every system was independent in both a political and economic sense. There was no Consonance to organize the various powers, and everyone largely kept to themselves by sheer virtue of the distance and expense involved in interstellar travel."`
-			`	Wisteria spreads his arms as if to encompass the entire station. "Then, almost overnight, the situation went from one of extreme separation to one of interconnection. The fleets of vast starships, powered by stores of antimatter or immense lasers, became obsolete, and it suddenly became possible for even moderately well-off individuals to travel between the stars."`
+			`	"Contemplation. Być może lepszym pytaniem byłoby: "Jak było przed hipernapędem?". Nasze społeczeństwo nie zostało bowiem najpierw wprawione w chaos przez Aberranta, ale raczej przez odkrycie sposobu na podróżowanie szybciej niż światło. W ciągu kilku lat niezwykły eksperyment fizyczny przeszedł od teorii do rzeczywistości, a gwiazdy, które były odległe o dekady lub stulecia, stały się osiągalne w ciągu pierwszych miesięcy, potem tygodni, a potem dni, w miarę jak hipernapęd był udoskonalany."`
+			`	Pochyla się. "Musisz zrozumieć, z naciskiem, jak bardzo ekonomicznie rozdzielone były poszczególne enklawy cywilizacji Avgi. Aviskir oczywiście dominował w systemie Anax, ale poza polityką międzyplanetarną praktycznie każdy system był niezależny zarówno politycznie, jak i gospodarczo. Nie było Consonance, która organizowałaby różne mocarstwa, a wszyscy w dużej mierze trzymali się na uboczu, wyłącznie z powodu odległości i kosztów podróży międzygwiezdnych."`
+			`	Wisteria rozkłada ramiona, jakby chciał objąć całą stację. "Wtedy, niemal z dnia na dzień, sytuacja zmieniła się z skrajnego rozdzielenia w połączenie. Floty ogromnych statków kosmicznych, zasilane zapasami antymaterii lub potężnymi laserami, stały się przestarzałe i nagle nawet średnio zamożni ludzie mogli podróżować między gwiazdami."`
 			choice
-				`	"Were there wars?"`
+				`	"Czy były wojny?"`
 					goto war
-				`	"Did you colonize new planets?"`
+				`	"Czy skolonizowałeś nowe planety?"`
 
-			`	"Remembrance. Oh, but of course. Only three or four systems, depending on how you count it, were truly colonized before the hyperdrive. There were expeditions sent to more, but they all either failed or remained insignificant up until hyperdrive-equipped ships joined them. We colonized an additional trio of systems, and explored dozens more."`
+			`	"Remembrance. Och, ależ oczywiście. Tylko trzy lub cztery systemy, w zależności od tego, jak się je liczy, były naprawdę skolonizowane przed wprowadzeniem hipernapędu. Wysłano ekspedycje do kolejnych, ale wszystkie zakończyły się niepowodzeniem lub pozostały nieistotne, dopóki nie dołączyły do nich statki wyposażone w hipernapęd. Skolonizowaliśmy kolejne trzy systemy i zbadaliśmy dziesiątki kolejnych."`
 				goto consonance
 
 			label war
-			`	"Remembrance. Some, yes, though not as many as you might expect of us. A few powers on Aviskir tried to seize weaker colonies once they gained access to hyperdrives, but they overestimated their ability to wage war between the stars. It was years before the first truly capable interstellar warships were built, and by then the situation had stabilized enough that there were few polities interested in starting a new war."`
+			`	"Pamięć. Niektóre, owszem, choć nie tak liczne, jak można by się spodziewać. Kilka mocarstw na Aviskirze próbowało przejąć słabsze kolonie, gdy tylko uzyskały dostęp do hipernapędów, ale przecenili swoje możliwości prowadzenia wojny międzygwiezdnej. Minęły lata, zanim zbudowano pierwsze naprawdę sprawne międzygwiezdne okręty wojenne, a do tego czasu sytuacja ustabilizowała się na tyle, że niewiele państw było zainteresowanych rozpoczęciem nowej wojny."`
 				goto consonance
 
 			label consonance
-			`	"But the true consequence was the creation of the Consonance. With Avgi civilization once more connected, there was a vision of a grand forum of each and every polity, a united Avgi civilization, at least in name."`
+			`	"Ale prawdziwą konsekwencją było stworzenie Konsonansu. Wraz z ponownym połączeniem cywilizacji Avgi pojawiła się wizja wielkiego forum wszystkich państw, zjednoczonej cywilizacji Avgi, przynajmniej z nazwy."`
 				goto next7
 
 			label dissonance
-			`	"Caution. Ah. Our wayward cousins. As much as some fearmongers would have you believe, the Dissonance is neither a rival government nor a subversive movement. Rather, they are a collection of those dissatisfied with the Consonance and the Assembly. Their reasons and motivations vary, but their most significant common grievance is the control over prices enforced by the Consonance as they appropriate resources for use by the Twilight Guard. That, and the taxes the Assembly attempts to levy without much success, has turned many against the Consonance, and those polities who fly Dissonance colors reject any allegiance to the Consonance."`
+			`	"Uwaga. Ach. Nasi krnąbrni kuzyni. Wbrew temu, co próbują wmówić niektórzy straszyciele, Dissonance nie jest ani rywalizującym rządem, ani ruchem wywrotowym. To raczej grupa niezadowolonych z Consonance i Zgromadzenia. Ich powody i motywacje są różne, ale ich najpoważniejszym wspólnym zarzutem jest kontrola cen egzekwowana przez Consonance, gdy przywłaszczają sobie zasoby na potrzeby Straży Zmierzchu. To, a także podatki, które Zgromadzenie próbuje bezskutecznie nałożyć, sprawiły, że wielu ludzi sprzeciwiło się Consonance, a te ugrupowania polityczne, które noszą barwy Dissonance, odrzucają jakąkolwiek lojalność wobec Consonance."`
 			choice
-				`	"But don't they know the Twilight Guard is needed to fight the Aberrant? Without them, they'd all be killed."`
+				`	"Ale czy oni nie wiedzą, że Straż Zmierzchu jest potrzebna do walki z Aberrantami? Bez nich wszyscy by zginęli."`
 					goto guard
-				`	"That seems too simple. That can't be their only reason for leaving the Consonance, not in an existential war."`
+				`	"To wydaje się zbyt proste. To nie może być ich jedyny powód opuszczenia Consonance, nie w wojnie egzystencjalnej."`
 
-			`	"Approving. That is an astute observation, and one you are correct in. It is of course more complicated than a simple disdain for taxation and price controls. There is the matter of sovereignty, the continued decline of the power of the polities as the Consonance takes on additional responsibilities. Many of the polities that created the Consonance no longer exist, and even more are nothing more than a collection of refugees, the bulk of which sleep in cryogenic storage, waiting for us to build the habitable space needed to awaken them. Many resent this, remembering the days of freedom and true independence, and the rejection of Consonance authority is one way to revisit those days."`
-			`	He turns his head to the side. "Sadness. I cannot say I blame them. They are correct in that the Assembly does grow ever more overbearing, and the fear of more polities leaving the Consonance has served as a check on the tendency for the Assembly to grant itself ever more powers."`
+			`	"Approving. To trafna obserwacja i masz rację. To oczywiście coś bardziej skomplikowanego niż zwykła pogarda dla podatków i kontroli cen. Jest kwestia suwerenności, ciągły upadek władzy państw, w miarę jak Consonance przejmuje dodatkowe obowiązki. Wiele państw, które stworzyły Consonance, już nie istnieje, a jeszcze więcej to nic więcej niż zbiorowisko uchodźców, z których większość śpi w kriogenicznych magazynach, czekając, aż zbudujemy dla nich przestrzeń nadającą się do zamieszkania, potrzebną do ich przebudzenia. Wielu to żałuje, pamiętając czasy wolności i prawdziwej niepodległości, a odrzucenie autorytetu Consonance to jeden ze sposobów na powrót do tamtych dni."`
+			`	Odwraca głowę na bok. "Smutek. Nie mogę powiedzieć, żebym ich winił. Mają rację, że Zgromadzenie staje się coraz bardziej apodyktyczne, a strach przed odejściem kolejnych polityków z Consonance posłużył jako hamulec dla tendencji Zgromadzenia do przyznawania sobie coraz większych uprawnień."`
 				goto next7
 
 			label guard
-			`	"Ah, but is that really the case, question? Many of them would argue that we may simply hide within the Tangled Shroud, or instead dedicate our efforts to fortifying a single system at their entrance. Others oppose not the existence of the Twilight Guard, but rather their continued failed forays back into the Twilight, which they see as a waste of both resources and lives."`
+			`	"Ach, ale czy tak jest naprawdę, pytanie? Wielu z nich argumentowałoby, że możemy po prostu ukryć się w Splątanym Całunie, albo skupić się na umocnieniu jednego systemu przy ich wejściu. Inni sprzeciwiają się nie istnieniu Straży Zmierzchu, ale ich ciągłym nieudanym wyprawom z powrotem do Zmierzchu, które postrzegają jako marnotrawstwo zasobów i ludzkich istnień."`
 
 			label next7
-			`	"But I see we approach the end of our game. I can spot a path to victory for myself, but can you, question? I assure you that one exists."`
+			`	"Ale widzę, że zbliżamy się do końca naszej gry. Widzę dla siebie drogę do zwycięstwa, ale czy ty, pytanie, potrafisz? Zapewniam cię, że ona istnieje."`
 			choice
-				`(Focus on getting the rest of my stones out as quickly as possible.)`
+				`(Skupiam się na jak najszybszym wyjęciu reszty kamieni.)`
 					goto end1
-				`(Evacuate the stones I have blocking Wisteria.)`
+				`(Usuń kamienie blokujące Glicynię.)`
 					goto end1
 					to display
 						"avgi: trefoil aggressive" >= 1
-				`(Try to completely block Wisteria in with my remaining stones before extracting them.)`
+				`(Postaram się całkowicie zablokować Glicynię pozostałymi kamieniami przed ich wydobyciem.)`
 					goto end2
 					to display
 						"avgi: trefoil aggressive" >= 2
-				`(Try to completely block Wisteria in with the Foil's stones.)`
+				`(Postaraj się całkowicie zablokować Glicynię kamieniami Folii.)`
 					goto end3
 					to display
 						"avgi: trefoil aggressive" >= 1
-				`(Try to undo the blockades Wisteria has created for me with the Foil's stones.)`
+				`(Spróbuj usunąć blokady, które Wisteria stworzyła dla mnie za pomocą kamieni Foil.)`
 					goto end4
 					to display
 						"avgi: trefoil classical" >= 2
@@ -388,25 +388,25 @@ mission "Avgi Culture: Park Politics"
 			label end1
 			action
 				"avgi: trefoil classical" ++
-			`	"Approving. An excellent prioritization of your own pieces."`
+			`	"Zatwierdzam. Doskonała priorytetyzacja Twoich własnych utworów."`
 				goto roll
 
 			label end2
 			action
 				"avgi: trefoil aggressive" ++
-			`	"Approving. An excellent blocking action, one that has delayed me."`
+			`	"Zatwierdzam. Doskonała akcja blokująca, która mnie opóźniła."`
 				goto roll
 
 			label end3
 			action
 				"avgi: trefoil aggressive" += 1
-			`	"Approving. An excellent blocking action, one that has delayed me without costing you anything."`
+			`	"Zatwierdzam. Doskonała akcja blokująca, która opóźniła mnie bez ponoszenia żadnych kosztów."`
 				goto roll
 
 			label end4
 			action
 				"avgi: trefoil chaotic" ++
-			`	"Approving. An excellent blocking action, one that has delayed me."`
+			`	"Zatwierdzam. Doskonała akcja blokująca, która mnie opóźniła."`
 				goto roll
 
 			label roll
@@ -414,21 +414,21 @@ mission "Avgi Culture: Park Politics"
 				random < ( "avgi: trefoil classical" + "avgi: trefoil aggressive" ) * 10 + ( random - 50 ) * "avgi: trefoil chaotic" * 10
 
 			label lose
-			`	In the end Wisteria is able to pull ahead and get the last of his pieces off the board before you, and you suspect it was only as close as it was due to him humoring you.`
+			`	Ostatecznie Wisteria wysuwa się do przodu i usuwa z szachownicy ostatnie pionki przed tobą, a ty podejrzewasz, że udało mu się to tylko dlatego, że ci pobłażał.`
 				goto final
 
 			label win
-			`	You play with bated breath as your pieces slowly inch off the board, until at last victory is yours, a scant single move before Wisteria would have evacuated his final piece. You suspect that while he has given you a fair game, he has perhaps gone easy on you to give you a chance to win.`
+			`	Grasz z zapartym tchem, a twoje pionki powoli oddalają się od planszy, aż w końcu odniesiesz zwycięstwo, zaledwie jeden ruch przed tym, jak Wisteria pozbyłaby się ostatniego pionka. Podejrzewasz, że choć dał ci uczciwą grę, być może potraktował cię łagodnie, dając ci szansę na wygraną.`
 
 			label final
 			action
 				log `Grałem w grę planszową Avgi w parku ze starszą Avgi o imieniu Wisteria.`
 				log "People" "Wisteria" `Wygląda na starego Avgi, który gra w gry planszowe w parku. Wisteria był kiedyś jednym z pierwszych mówców Zgromadzenia Consonance, zanim przeszedł na emeryturę. Ma dogłębną wiedzę na temat polityki i historii Avgi i jest ciekaw, jak wypadają one w porównaniu z resztą ludzkości.`
 				outfit "Trefoil Board" 1
-			`	"Satisfaction. A fine game, Captain <first>," he says, congratulating you. "You are a talented player, and I much enjoyed our conversation during the game." You realize that hours have gone by since you started, with the station's lights simulating a ruddy sunset.`
-			`	"Appreciation. Allow me to gift you this Trefoil board, so that you might enjoy the game in your own time. I look forward to meeting you in the future, and perhaps we may even have the chance to play again."`
-			`	He gently hands you the Trefoil board, bows in respect, then climbs off his rail to depart. "Should you ever wish to speak to me again, ask for the office of former Speaker Wisteria and I will be more than pleased to host you."`
-			`	"Thank you," you say, and it is only after he has left that you realize Wisteria must have been not just an Elector, but one of the First Speakers at some point in the past.`
+			`	"Satisfaction. Dobra gra, Kapitanie <first>, " mówi, gratulując ci. "Jesteś utalentowanym graczem i bardzo podobała mi się nasza rozmowa podczas gry. " Zdajesz sobie sprawę, że minęły godziny, odkąd zacząłeś, a światła stacji symulowały rumiany zachód słońca.`
+			`	"Wdzięczność. Pozwól, że podaruję Ci tę planszę Trefoil, abyś mógł cieszyć się grą w dogodnym dla siebie czasie. Mam nadzieję na spotkanie z Tobą w przyszłości i być może będziemy mieli okazję zagrać ponownie."`
+			`	Delikatnie wręcza ci deskę z koniczynką, kłania się z szacunkiem, po czym schodzi z poręczy i odchodzi. "Jeśli kiedykolwiek zechcesz ze mną jeszcze porozmawiać, zapytaj o urząd byłej przewodniczącej Wisterii, a z przyjemnością cię ugoszczę."`
+			`	"Dziękuję," mówisz, i dopiero po jego wyjściu zdajesz sobie sprawę, że Wisteria musiała być nie tylko Elektorem, ale także jednym z Pierwszych Mówców w pewnym momencie w przeszłości.`
 
 
 
@@ -445,43 +445,43 @@ mission "Avgi Culture: Zapchannel Energy"
 		conversation
 			action
 				set "avgi: met nikkio"
-			`You are on your way back to the <ship> after a stroll through the spaceport when a bright yellow Avgi lands in front of you. "Hey, you! Enthusiasm! I am Nikkio, famed medician and traveling salesman. Do you, alien sojourner, care for your health?"`
+			`Wracasz do <ship> po spacerze w porcie kosmicznym, gdy przed tobą ląduje jasnożółty Avgi. "Hej, ty! Entuzjazm! Jestem Nikkio, słynny medyk i komiwojażer. Czy ty, kosmita, dbasz o swoje zdrowie? "`
 			choice
-				`	"I guess so."`
+				`	"Chyba tak."`
 					goto scam
-				`	"Whatever you're selling, I'm not interested."`
+				`	"Cokolwiek sprzedajesz, nie jestem tym zainteresowany."`
 
-			`	You try to step around him and continue on your way, but he mirrors you, dancing backwards to remain in your face. "Sincerity! You are making a terrible mistake! I have something that could help with your energy, yes?"`
+			`	Próbujesz go ominąć i iść dalej, ale on naśladuje cię, tańcząc tyłem, żeby pozostać blisko ciebie. "Sincerity! Popełniasz straszny błąd! Mam coś, co mogłoby pomóc ci z energią, prawda? "`
 			choice
-				`	"Alright, alright. What is it?"`
+				`	"Dobrze, dobrze. O co chodzi?"`
 					goto scam
-				`	"Not interested. Now move before I call the authorities."`
+				`	"Nie jestem zainteresowany. A teraz odejdź, zanim zadzwonię po władze."`
 					goto nope
 
 			label scam
-			`	"Excitement! Wonderful! I have just the thing, certified by the Consonance Health Committee itself, surely!" he says animatedly, arms and wings waving as he dances in front of you. "But, reservation. Hmm. Only the most enterprising of captains could benefit from what I am about to bestow upon you. Are you certain you have what it takes to try Zapchannel Ray Energy?"`
+			`	"Podekscytowanie! Cudownie! Mam dokładnie to, co trzeba, certyfikowane przez samą Komisję Zdrowia Consonance, na pewno! " mówi ożywiony, machając rękami i skrzydłami, tańcząc przed tobą. "Ale, rezerwacja. Hmm. Tylko najbardziej przedsiębiorczy kapitanowie mogliby skorzystać z tego, co zaraz ci dam. Jesteś pewien, że masz to, czego potrzeba, żeby spróbować Zapchannel Ray Energy?"`
 			choice
-				`	"Yes, I'm very experienced, seen the galaxy and all. Now show me what you're talking about."`
+				`	"Tak, mam duże doświadczenie, widziałem galaktykę i w ogóle. A teraz pokaż mi, o czym mówisz."`
 					goto glow
-				`	"Alright, that's it. Get out of here before I call the authorities."`
+				`	"Dobra, to wszystko. Wynoś się stąd, zanim wezwę władze."`
 					goto nope
 
 			label glow
-			`	"Excitement, excellent! I can see you are clearly a very intelligent and discerning captain. Anticipation. This serum was invented by yours truly, capable of resolving all of your worldly woes! Only 3,000 credits!" He proudly holds out a vial of cloudy white liquid, glowing a bright, intense pale blue.`
+			`	"Podekscytowanie, świetnie! Widzę, że jesteś bardzo inteligentnym i bystrym kapitanem. Oczekiwanie. To serum zostało wynalezione przeze mnie i jest w stanie rozwiązać wszystkie twoje ziemskie problemy! Tylko 3000 kredytów!" Z dumą wyciąga fiolkę z mętną, białą cieczą, która lśni jasnym, intensywnym, bladoniebieskim kolorem.`
 			choice
-				`	"Uh, what is this?"`
-				`	"Is this radioactive?"`
-				`	"I'm not drinking that."`
+				`	"Eee, co to jest?"`
+				`	"Czy to jest radioaktywne?"`
+				`	"Nie będę tego pić."`
 
-			`	"Dismissal. Nonsense, this formula is perfectly safe! A serum for the health, proven to kill over three thousand forms of cancer, you should know." As if on cue, the glow pulses menacingly.`
+			`	"Dismissal. Bzdura, ta formuła jest całkowicie bezpieczna! Serum dla zdrowia, które udowodniono, że zabija ponad trzy tysiące rodzajów raka, powinieneś o tym wiedzieć. " Jak na zawołanie, blask pulsuje groźnie.`
 			choice
-				`	"Yeah, that doesn't look safe. I'm calling the authorities."`
+				`	"Tak, to nie wygląda bezpiecznie. Dzwonię do władz."`
 					goto nope
-				`	"Alright, I'll give it a shot."`
+				`	"Dobrze, spróbuję."`
 
 			branch superpowers
 				random < 1
-			`	You take the vial, warm to the touch, and uncork it. Nikkio gives you an expectant look, and gestures at you before you carefully tip the drink back. You feel a little tingly as the drink trickles down your throat, tasting vaguely of lemon and metal. This quickly intensifies into pins and needles in your chest, spreading as your body starts to go numb. As your vision darkens, punctuated by flashes of light in the corners of your eyes, your last thought is that perhaps you shouldn't have drunk a mysterious glowing liquid given to you by a seedy alien you just met in the spaceport.`
+			`	Bierzesz fiolkę, ciepłą w dotyku i odkorkowujesz ją. Nikkio patrzy na ciebie wyczekująco i gestem wskazuje, zanim ostrożnie odchylasz napój. Czujesz lekkie mrowienie, gdy napój spływa ci do gardła, z niewyraźnym posmakiem cytryny i metalu. Szybko przeradza się w mrowienie w klatce piersiowej, rozprzestrzeniające się, gdy twoje ciało zaczyna drętwieć. Gdy twój wzrok ciemnieje, przerywany błyskami światła w kącikach oczu, twoją ostatnią myślą jest to, że może nie powinnaś była pić tajemniczego, świecącego płynu, który dał ci podejrzany kosmita, którego właśnie spotkałaś w porcie kosmicznym.`
 				die
 
 			label superpowers
@@ -489,13 +489,13 @@ mission "Avgi Culture: Zapchannel Energy"
 				log `Spotkałem podejrzanie wyglądającego sprzedawcę Avgi o imieniu Nikkio. Przyjąłem darmową próbkę dziwnego, świecącego napoju i w jakiś sposób rozwinąłem dzięki niemu drobne supermoce.`
 				set "damselflyman"
 				outfit "Damselflyman"
-			`	You take the vial, warm to the touch, and uncork it before carefully tipping it back. You feel a little tingly as the drink trickles down your throat, tasting vaguely of lemon and metal. This quickly intensifies into pins and needles in your chest, spreading as you start to feel somehow revitalized. After a brief, sharp pain, a suspiciously dragonfly-shaped patch of skin in the center of your chest begins to glow a vibrant blue.`
-			`	"Surprise. You surely are, ah, a worthy captain!" says Nikkio, shock evident on his face. He begins to sidle away, glancing in all directions as though he isn't sure what's going on. "Hurry. I must be on my way, goodbye for now, captain!"`
+			`	Bierzesz fiolkę, ciepłą w dotyku, odkorkowujesz ją, a następnie ostrożnie odchylasz. Czujesz lekkie mrowienie, gdy napój spływa ci do gardła, z niewyraźnym posmakiem cytryny i metalu. Szybko przeradza się ono w mrowienie w klatce piersiowej, rozprzestrzeniając się, gdy zaczynasz czuć się w jakiś sposób ożywiony. Po krótkim, ostrym bólu, podejrzanie ważkowaty fragment skóry pośrodku klatki piersiowej zaczyna świecić intensywnym błękitem.`
+			`	"Niespodzianka. Z pewnością jesteś, ach, godnym kapitanem! " mówi Nikkio, a na jego twarzy maluje się wyraźne zdziwienie. Zaczyna się wycofywać, rozglądając się na wszystkie strony, jakby nie był pewien, co się dzieje. "Szybko. Muszę iść, żegnaj, kapitanie! "`
 				decline
 			label nope
 			action
 				log `Spotkałem podejrzanie wyglądającego sprzedawcę Avgi o imieniu Nikkio. Odrzuciłem jego ofertę zdecydowanie radioaktywnego "napoju energetycznego", który prawdopodobnie byłby śmiertelny.`
-			`	"Alarm. There's no need for that, apologies, apologies! Be on your way, Captain!"`
+			`	"Alarm. Nie ma potrzeby, przepraszam, przepraszam! Proszę iść, Kapitanie!"`
 
 
 
@@ -522,71 +522,71 @@ mission "Avgi: Cylinder Construction"
 	on offer
 		log "People" "Gamboge" `Gamboge zarządza budową Cylindra Aktiny, ogromnej stacji habitatowej, której budowa w ostatnich latach utknęła w martwym punkcie. Jest sfrustrowany brakiem wsparcia ze strony Zgromadzenia i uważa, że Aktina zasługuje na wyższy priorytet.`
 		conversation
-			`You are struck by just how massive this space station is, even in its incomplete state. At three kilometers in diameter, it is only a small fraction of the size of the cylinders back in the Twilight, but even so it overshadows any human orbital construction. The site is an active construction zone, based on what you've heard, though you see little evidence of activity. A few Avgi lounge about in the small, temporary living quarters for the construction workers, but all of the Akoustiki Excursion Vehicles with their welding arms and nanofilament spinners are docked and powered down.`
-			`	Would you like to ask what's going on?`
+			`Jesteś zdumiony, jak ogromna jest ta stacja kosmiczna, nawet w stanie nieukończonym. Mając trzy kilometry średnicy, stanowi zaledwie ułamek wielkości cylindrów z czasów Zmierzchu, ale mimo to przyćmiewa każdą konstrukcję orbitalną stworzoną przez człowieka. Sądząc po tym, co słyszałeś, to miejsce jest aktywnym obszarem budowy, choć niewiele widać oznak aktywności. Kilka Avgi przesiaduje w małych, tymczasowych kwaterach dla robotników budowlanych, ale wszystkie pojazdy wycieczkowe Akoustiki z ramionami spawalniczymi i wirnikami z nanowłókna są zadokowane i wyłączone.`
+			`	Czy chcesz zapytać, co się dzieje?`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(Tak.)`
+				`	(Nie teraz.)`
 					defer
 
 			action
 				set "avgi: met gamboge"
-			`	You find a deep yellow Avgi, dressed in metallic blue-colored bangles around his limbs and forward body, perched in a makeshift office behind a pile of boxes. "Hey, do you mind if I ask some questions about this station?" you say.`
-			`	"Curiosity. Of course, alien traveler," he says, waving an arm at you. "My name is Gamboge, and I direct the construction effort on the Aktina Cylinder. What would you like to know?"`
+			`	Znajdujesz ciemnożółtego Avgiego, ubranego w metaliczne niebieskie bransolety na kończynach i przedniej części ciała, siedzącego w prowizorycznym biurze za stertą pudeł. "Hej, nie masz nic przeciwko, żebym zadał kilka pytań o tę stację? " mówisz.`
+			`	"Ciekawość. Oczywiście, kosmiczny podróżniku, " mówi, machając do ciebie ręką. "Nazywam się Gamboge i kieruję pracami budowlanymi na Cylindrze Aktiny. Co chciałbyś wiedzieć?"`
 			label questions
 			choice
-				`	"How long until the cylinder is done?"`
+				`	"Jak długo jeszcze potrwa obróbka cylindra?"`
 					goto "when update"
 					to display
 						not "avgi: asked about whenupdate"
-				`	"What kind of station design is this?"`
+				`	"Jaki to projekt stacji?"`
 					goto oneil
 					to display
 						not "avgi: asked about oneil"
-				`	"What are you building this station for?"`
+				`	"Po co budujesz tę stację?"`
 					goto housing
 					to display
 						not "avgi: asked about housing"
-				`	"That's all the questions I have, thank you."`
+				`	"To wszystkie pytania, jakie mam, dziękuję."`
 					goto conclusion
 
 			label "when update"
 			action
 				set "avgi: asked about whenupdate"
-			`	He thrums with laughter. "The trillion credit question, is it not, amusement? The answer I give the Assembly is that it will be finished when they supply us with the requisite materials and workforce to do so. But the War takes precedence, as it must, and so the steel and nanofibers and ceramics that we must have before we can fill this cylinder with atmosphere are instead used to build warships, and the engineers and workers with any shred of experience are sent to the Navigeo Yards instead of here."`
+			`	Trzęsie się ze śmiechu. "Pytanie za bilion kredytów, czyż nie jest to rozbawienie? Odpowiedź, którą daję Zgromadzeniu, brzmi, że projekt zostanie ukończony, gdy dostarczą nam niezbędne materiały i siłę roboczą. Ale wojna ma pierwszeństwo, jak musi, więc stal, nanowłókna i ceramika, które musimy mieć, zanim będziemy mogli napełnić ten cylinder atmosferą, są zamiast tego wykorzystywane do budowy okrętów wojennych, a inżynierowie i robotnicy z choćby krzty doświadczenia są wysyłani do stoczni Navigeo, a nie tutaj."`
 			choice
-				`	"Well, it makes sense that fighting the Aberrant would take priority."`
-				`	"Is building this station as important as fighting the Aberrant?"`
+				`	"Cóż, logiczne jest, że walka z Aberrantami będzie priorytetem."`
+				`	"Czy zbudowanie tej stacji jest tak samo ważne jak walka z Aberrantami?"`
 
-			`	"Clarification. By no means do I begrudge the Assembly's decision. Without the Twilight Guard I would not be alive to complain about being paid to sit around all day, though that burden truly does pain me. But when I am asked by important delegates and electors why there is not yet an abundance of space with which to house their people, I am obliged to tell them that the decision rests with them, not with me."`
+			`	"Wyjaśnienie. W żadnym wypadku nie mam pretensji do decyzji Zgromadzenia. Bez Straży Zmierzchu nie żyłbym, żeby narzekać na to, że płacą mi za siedzenie cały dzień, choć ten ciężar naprawdę mnie boli. Ale kiedy ważni delegaci i elektorzy pytają mnie, dlaczego nie ma jeszcze wystarczająco dużo miejsca, żeby pomieścić ich ludzi, muszę im powiedzieć, że decyzja należy do nich, a nie do mnie."`
 				goto questions
 
 			label oneil
 			action
 				set "avgi: asked about oneil"
-			`	"A Class Two rotating cylinder habitat. Unless you use the Hekkedian classification system, in which case it is a Type One orbital habitat station. Of course, the Freosi would call it a Lieno-Drareg Cylinder, but that name hasn't been fashionable in quite some time."`
-			`	"I was more asking about what it'll look like when it's done," you say.`
-			`	"Amusement. I know, I know, I was just messing with you." He gestures out the window towards the steel skeleton of the unfinished station. "Six kilometers wide and twelve long, with two-hundred-sixty-six ribs of nickel-iron roidsteel and ninety spinal columns of carbon nanofilament. Once the base frame is complete, and it very nearly is, we will begin plating it with sheets of aerogel and graphene, with a fluorinated polymer layer coating the inside. After that my job is done, and we hand the project over to the ecosystem engineers."`
+			`	"A Stacja habitatowa w kształcie obracającego się cylindra klasy drugiej. Chyba że użyjesz systemu klasyfikacji Hekkedyjskiej, w takim przypadku jest to stacja habitatowa orbitalna typu pierwszego. Oczywiście Freosi nazwaliby ją Cylindrem Lieno-Drarega, ale ta nazwa nie jest modna od dłuższego czasu."`
+			`	"Pytałam raczej o to, jak to będzie wyglądać, kiedy będzie gotowe," mówisz.`
+			`	"Rozbawienie. Wiem, wiem, tylko się z ciebie nabijałem." Wskazuje gestem przez okno na stalowy szkielet niedokończonej stacji. "Sześć kilometrów szerokości i dwanaście długości, z dwieście sześćdziesięcioma sześcioma żebrami z niklowo-żelazowo-żelazowej stali i dziewięćdziesięcioma rdzeniami z nanowłókna węglowego. Gdy rama podstawy będzie ukończona, a jest już prawie gotowa, zaczniemy pokrywać ją warstwami aerożelu i grafenu, a wnętrze pokryjemy warstwą polimeru fluorowanego. Potem skończę pracę i oddamy projekt inżynierom ekosystemu."`
 			choice
-				`	"What do they do?"`
+				`	"Co oni robią?"`
 					goto nerds
-				`	"That sounds like a lot."`
+				`	"To brzmi jak dużo."`
 
-			`	"Appreciation. Oh, it is. Over seven hundred megatons of raw material, scraped off moons and torn from asteroids. But it will be worth it, in the end.`
+			`	"Appreciation. O, tak. Ponad siedemset megaton surowca, zeskrobanego z księżyców i wyrwanego z asteroid. Ale ostatecznie będzie warto.`
 
 			label nerds
-			`	"Of course, the entire purpose of this is to provide enough living space for the Avgi who escaped the Aberrant. And everyone would rather live in an open environment, instead of pretending a garden in a smaller station is sufficient. Thus, the ecosystem engineers come in with their millions of tons of soil to dirty up our nice shiny metal and nanofilaments, and grow grass and trees and fungus to make this place a little less dreary. I suppose we'll make most of the soil in bulk from crushed carbonaceous asteroids, and seed it with whatever samples we have from Aviskir."`
+			`	"Oczywiście, cały cel tego wszystkiego to zapewnienie wystarczającej przestrzeni życiowej dla Avgi, którzy uciekli z Aberrantu. I wszyscy woleliby żyć na otwartej przestrzeni, zamiast udawać, że ogród na mniejszej stacji wystarczy. Dlatego inżynierowie ekosystemu przybywają z milionami ton gleby, żeby zabrudzić nasz piękny, błyszczący metal i nanowłókna, a także posadzić trawę, drzewa i grzyby, żeby to miejsce było trochę mniej ponure. Przypuszczam, że większość gleby zrobimy hurtowo z rozkruszonych asteroid węglowych i obsiejemy ją próbkami z Aviskiru."`
 				goto questions
 
 			label housing
 			action
 				set "avgi: asked about housing"
-			`	"Consideration. A place to live, with enough space to be a real home, not just a temporary outpost with a few houseplants. You should know, we had thousands of cylinders far larger than this one back in Anax and around our other colonies. Billions of Avgi, housed not on planets but in space. This is but a pale imitation of what we once had, but it is needed all the same. Do you know the most pressing question faced by the Assembly?"`
+			`	"Rozważanie. Miejsce do życia, wystarczająco przestronne, by stać się prawdziwym domem, a nie tylko tymczasową placówką z kilkoma roślinami doniczkowymi. Powinieneś wiedzieć, że mieliśmy tysiące cylindrów o wiele większych niż ten na Anax i wokół naszych innych kolonii. Miliardy Avgi, umieszczone nie na planetach, a w kosmosie. To zaledwie blada imitacja tego, co kiedyś mieliśmy, ale i tak jest potrzebne. Czy wiesz, jakie jest najpilniejsze pytanie, przed którym stoi Zgromadzenie?"`
 			choice
-				`	"No."`
-				`	"What would that be?"`
+				`	"Nr"`
+				`	"Co to jest?"`
 
-			`	"Mild surprise. It is oft spoken of. The Assembly must decide the fate of the millions of Avgi in cryogenic storage, frozen during our evacuation to facilitate their transportation. A scarce few thousand are thawed every year, the best and brightest we can find among them woken to fight the Aberrant, all because we lack the food and living space to support the rest. This cylinder here, Aktina, could support them."`
+			`	"Lekkie zaskoczenie. Często się o tym mówi. Zgromadzenie musi zdecydować o losie milionów Avgi w kriogenicznych magazynach, zamrożonych podczas naszej ewakuacji, aby ułatwić ich transport. Nieliczne kilka tysięcy jest rozmrażanych co roku, a najlepsi i najbystrzejsi, jakich uda nam się znaleźć, budzą się do walki z Aberrantami, a wszystko dlatego, że brakuje nam pożywienia i miejsca do życia dla reszty. Ten cylinder, Aktina, mógłby ich utrzymać."`
 				goto questions
 
 			label conclusion
@@ -594,22 +594,22 @@ mission "Avgi: Cylinder Construction"
 				clear "avgi: asked about whenupdate"
 				clear "avgi: asked about oneil"
 				clear "avgi: asked about housing"
-			`	"Appreciation. I was happy to answer them. Though, if I might ask a favor?"`
+			`	"Wdzięczność. Z przyjemnością na nie odpowiedziałem. Chociaż, czy mógłbym prosić o przysługę?"`
 			choice
-				`	"Sure."`
-				`	"I don't have time for anything, sorry."`
+				`	"Pewnie."`
+				`	"Nie mam czasu na nic, przepraszam."`
 					decline
 
-			`	"I hope I have impressed the importance of this project upon you. But, despite the scale of the resources required to truly complete it, we do not need an unreasonable amount to continue construction on the most essential elements. As a starship captain, independent of the requisitions and allocations of the Consonance, would you be willing to assist us in gathering the materials we need?"`
+			`	"Mam nadzieję, że uzmysłowiłem Ci wagę tego projektu. Jednak pomimo skali zasobów potrzebnych do jego pełnego ukończenia, nie potrzebujemy nierozsądnych nakładów, aby kontynuować budowę najważniejszych elementów. Jako kapitan statku kosmicznego, niezależnie od zapotrzebowania i przydziałów Konsonansu, czy zechciałbyś pomóc nam w zebraniu potrzebnych nam materiałów?"`
 			choice
-				`	"Yes."`
-				`	"For the right pay."`
-				`	"Sorry, no."`
+				`	"Tak."`
+				`	"Za odpowiednią zapłatę."`
+				`	"Przepraszam, nie."`
 					decline
 
 			action
 				set "avgi: aktina cylinder supply jobs"
-			`	"Gratitude. I will ensure there are items posted on nearby job boards that you might gather and transport here."`
+			`	"Gratitude. Dopilnuję, aby na pobliskich tablicach ogłoszeń były wywieszone materiały, które możesz tu odebrać i przetransportować."`
 				accept
 
 
@@ -623,69 +623,69 @@ mission "Avgi: Infocourier Encounter"
 	on offer
 		log "People" "Hansa" `Hansa jest kurierem informacji, a jego rola polega na przesyłaniu plików i zapisów między systemami na małym statku. Ponieważ Avgi nigdy nie rozwinęły komunikacji hiperprzestrzennej, statki kurierskie są niezbędne do komunikacji na odległości międzygwiezdne.`
 		conversation
-			`While admiring the ships in <origin>'s spaceport, you notice a Polari painted in civilian Avgi colors, rather than usual deep blue of the Twilight Guard. All of the scouts you've seen before have been commissioned ships of the Guard, but it seems like this one might be privately owned.`
+			`Podziwiając statki w porcie kosmicznym <origin>, zauważasz Polari pomalowany w cywilne barwy Avgi, a nie w typowy dla Gwardii Zmierzchu głęboki błękit. Wszystkie statki zwiadowcze, które widziałeś wcześniej, były statkami służbowymi Gwardii, ale wygląda na to, że ten może być własnością prywatną.`
 			choice
-				`	(Ask around about who the Polari belongs to.)`
-				`	(It's not that interesting. I have better things to do.)`
+				`	(Zapytaj wokół, do kogo należy Polari.)`
+				`	(To nie jest takie interesujące. Mam lepsze rzeczy do roboty.)`
 					defer
 
-			`	You ask a few passing Avgi, and eventually one is able to answer your question.`
-			`	"Probably an infocourier ship, hauling information and databases instead of cargo. The Guard sometimes sends ships to market if they've taken a beating and aren't worth fixing up to combat standards, which is probably what happened there."`
-			`	You thank the Avgi for their time, and are about to leave when you spot a pale yellow Avgi climbing on board the exact ship you've been talking about. You might as well see if he's willing to chat.`
-			`	"Hey, do you have a moment?" you ask as you jog over.`
-			`	The Avgi looks down from atop the Polari. "Invitation, I do. The name's Hansa, and you are?"`
-			`	"Captain <first> <last>," you say. "Are you one of the infocouriers?"`
+			`	Zadajesz kilku przechodzącym Avgi pytanie, aż w końcu jeden z nich jest w stanie odpowiedzieć na twoje pytanie.`
+			`	"Prawdopodobnie statek kurierski, przewożący informacje i bazy danych zamiast ładunków. Straż czasami wysyła statki na rynek, jeśli zostały mocno uszkodzone i nie warto ich naprawiać do standardów bojowych, co prawdopodobnie miało tam miejsce."`
+			`	Dziękujesz Avgi za poświęcony czas i już masz odpłynąć, gdy dostrzegasz bladożółtego Avgiego wspinającego się na pokład dokładnie tego statku, o którym mówiłeś. Równie dobrze możesz sprawdzić, czy będzie chętny do rozmowy.`
+			`	"Hej, masz chwilę?" pytasz, podbiegając truchtem.`
+			`	Avgi patrzy w dół ze szczytu Polari. "Invitation, tak. Nazywam się Hansa, a ty?"`
+			`	"Kapitanie <first> <last>," mówisz. "Czy jesteś jednym z kurierów informacyjnych?"`
 			action
 				set "avgi: met hansa"
-			`	Hansa clicks his arms together. "Mild surprise. Indeed I am, but I'm surprised you've heard of us. Not a lot of people talk about the courier system these days."`
+			`	Hansa składa ręce. "Lekkie zaskoczenie. Rzeczywiście, jestem, ale jestem zaskoczony, że o nas słyszałeś. Niewiele osób mówi teraz o systemie kurierskim."`
 			choice
-				`	"Why is that?"`
-				`	"What do couriers do?"`
+				`	"Dlaczego?"`
+				`	"Czym zajmują się kurierzy?"`
 					goto couriers
 
-			`	"Hmm. Consideration. Decades ago, before the hyperdrive, the arrival of an interstellar courier ship would be a cause for celeberation. Entire planets would rejoice to receive news of the sciences and arts of other stars, which were cherished. You see, interstellar visits were rare during those days, only a few times a year at most. There was remote communication, of course, with bright x-ray lasers and telescopes to receive them, but the transfer rates were too slow for information to be shared in bulk."`
-			`	Hansa flicks his wings. "A good courier ship might have been less than half as fast as a laser operating at the speed of light, but it could move a thousandfold more information in the same time nonetheless. And a courier ship could carry all the information produced by an entire system's worth of people in a decade, and share it with the neighboring systems so they could update their own databases. Those were the days," he says wistfully.`
+			`	"Hmm. Rozważenie. Dekady temu, przed hipernapędem, przybycie międzygwiezdnego statku kurierskiego byłoby powodem do świętowania. Całe planety radowały się, otrzymując wieści o naukach i sztuce innych gwiazd, które były cenione. Widzisz, wizyty międzygwiezdne były wówczas rzadkie, najwyżej kilka razy w roku. Oczywiście istniała zdalna komunikacja, z jasnymi laserami rentgenowskimi i teleskopami, ale prędkość przesyłu była zbyt niska, aby informacje mogły być udostępniane masowo."`
+			`	Hansa trzepocze skrzydłami. "Dobry statek kurierski mógł być mniej niż o połowę szybszy od lasera poruszającego się z prędkością światła, ale mimo to mógł przesłać tysiąckrotnie więcej informacji w tym samym czasie. Statek kurierski mógł przewieźć wszystkie informacje wygenerowane przez ludzi z całego systemu w ciągu dekady i udostępnić je sąsiednim systemom, aby mogły aktualizować swoje bazy danych. To były czasy, " mówi z nostalgią.`
 			choice
-				`	"What changed?"`
+				`	"Co się zmieniło?"`
 
-			`	Hansa sighs, making an odd whistling sound. "Nostalgia. Interstellar travel is much easier these days. Gone are the kilometer-long starships, the petawatt beam-pushers. I'm not complaining about it, of course - it is impossible to overstate just how incredible the hyperdrive has been. Now that interstellar journeys take days instead of decades, the courier system has adapted, and now it is just that - a system. Regular. Predictable. And ultimately unexciting." He looks a bit dejected.`
+			`	Hansa wzdycha, wydając dziwny gwizd. "Nostalgia. Podróże międzygwiezdne są teraz o wiele łatwiejsze. Minęły kilometrowe statki kosmiczne, petawatowe popychacze wiązki. Oczywiście nie narzekam - nie sposób przecenić, jak niesamowity był hipernapęd. Teraz, gdy podróże międzygwiezdne trwają dni zamiast dekad, system kurierski się dostosował i teraz jest po prostu tym - systemem. Zwykłym. Przewidywalnym. I ostatecznie mało ekscytującym. " Wygląda na nieco przygnębionego.`
 			label couriers
-			`	"Today, we make the rounds in ships that are fast, but have the room for enough storage media to update a planet's entire network. In our heyday, before the Incursion, a courier ship would visit a world every day to upload its database, but since then we've struggled to keep each system controlled by the Consonance updated once per week."`
+			`	"Dziś podróżujemy statkami, które są szybkie, ale mają wystarczająco dużo miejsca na nośniki danych, aby aktualizować całą sieć planetarną. W czasach świetności, przed Inwazją, statek kurierski codziennie odwiedzał planetę, aby przesłać swoją bazę danych, ale od tamtej pory z trudem aktualizujemy każdy system kontrolowany przez Konsonans raz w tygodniu."`
 			label ask
 			choice
-				`	"Why use a Polari? Aren't those scout ships?"`
-				`	"How can you update an entire planetary network with one courier ship?"`
+				`	"Po co używać Polari? Czy to nie są statki zwiadowcze?"`
+				`	"Jak można zaktualizować całą sieć planetarną za pomocą jednego statku kurierskiego?"`
 					goto diamond
-				`	"Sounds like an interesting job. Is there any way I could take infocourier missions?"`
+				`	"Brzmi jak ciekawa praca. Czy jest jakaś możliwość, żebym podjął się misji infokurierskich?"`
 					goto job
 
-			`	"Consideration. Many reasons, some of which are even good ones. Mostly because what makes them excellent research and scout vessels also makes them excellent courier ships - fast, while also having large integrated memory banks and a reasonable amount of space for cargo. It helps that the Twilight Guard has been decommissioning so many Polari lately, with how fragile they are against the Aberrant. Anticipation. It wouldn't surprise me if they designed a successor to them, if you ask me."`
+			`	"Rozważanie. Wiele powodów, z których niektóre są nawet słuszne. Głównie dlatego, że to, co czyni je doskonałymi statkami badawczymi i zwiadowczymi, czyni je również doskonałymi statkami kurierskimi - szybkimi, a jednocześnie posiadającymi duże zintegrowane banki pamięci i rozsądną ilość miejsca na ładunek. Pomaga fakt, że Straż Zmierzchu ostatnio wycofała ze służby tak wiele Polari, biorąc pod uwagę ich kruchość w starciu z Aberrantami. Oczekiwanie. Nie zdziwiłbym się, gdyby zaprojektowali ich następcę, moim zdaniem."`
 				goto ask
 
 			label diamond
-			`	"Explanation. Incredibly dense storage media, of course: memory diamond, we call it. You can find it under a dozen trade names, each claiming to be better than the last, but they're really all the same stuff, more or less. Chains of alternating carbon-12 and carbon-13, printed out as a diamond by specialized nanofabricators. The stuff is incredibly resilient, chemically stable, and will keep information archived practically forever. Just keep it away from radiation and high heat, which diamond doesn't stand up to well."`
-			`	He twitches his wings. "Amusement. Of course, don't be expecting data crystals or glowing gemstones like you see in science fiction. Most of the time it comes in matte black bricks or slabs, nothing flashy."`
+			`	"Wyjaśnienie. Niesamowicie gęsty nośnik danych, oczywiście: diament pamięci, jak to nazywamy. Można go znaleźć pod tuzinem nazw handlowych, z których każda twierdzi, że jest lepsza od poprzedniej, ale tak naprawdę wszystkie są mniej więcej takie same. Łańcuchy naprzemiennie ułożonych atomów węgla-12 i węgla-13, wydrukowane jako diament przez wyspecjalizowanych nanofabrykatorów. Materiał jest niezwykle wytrzymały, stabilny chemicznie i będzie przechowywał informacje praktycznie na zawsze. Należy go tylko chronić przed promieniowaniem i wysoką temperaturą, na które diament nie jest odporny."`
+			`	Mruczy skrzydłami. "Amusement. Oczywiście, nie spodziewajcie się kryształów danych ani świecących kamieni szlachetnych, jak w science fiction. Zazwyczaj występują w matowoczarnych cegłach lub płytach, nic krzykliwego. "`
 				goto ask
 
 			label job
-			`	"Consideration. With a fast ship, anyone trusted enough to haul a few dozen tons of memory diamond can do the job. In fact, I can make a few calls and see about expediting the process for you, if you'd like."`
+			`	"Rozważenie. Przy szybkim statku każdy, kto ma wystarczające zaufanie, by przewieźć kilkadziesiąt ton diamentu pamięci, poradzi sobie z tym zadaniem. Mogę nawet zadzwonić do kilku osób i sprawdzić, czy można przyspieszyć ten proces, jeśli sobie tego życzysz."`
 			choice
-				`	"Yes, I'd like that."`
+				`	"Tak, chciałbym."`
 					goto end
-				`	"How much are you normally paid for ferrying information?"`
+				`	"Ile zazwyczaj płaci się za przesyłanie informacji?"`
 
-			`	Hansa laughs. "Too much, if you ask anyone else. The Assembly recognizes how critical it is to maintain lines of communication, especially now, with the War, so we haven't suffered nearly as much as most. Amusement. It would be rare indeed to find a captain that would turn down a courier job, but a ship has to be fast and willing to drop everything to rush to a particular system as often as possible, with little time for breaks. Does that sound like the kind of job for you?"`
+			`	Hansa się śmieje. "Za dużo, jeśli zapytasz kogokolwiek innego. Zgromadzenie zdaje sobie sprawę, jak ważne jest utrzymanie linii komunikacyjnych, zwłaszcza teraz, w czasie wojny, więc nie ucierpieliśmy tak bardzo, jak większość. Rozbawienie. Rzadko można znaleźć kapitana, który odrzuciłby zlecenie kurierskie, ale statek musi być szybki i gotowy porzucić wszystko, aby jak najczęściej pędzić do konkretnego układu, z krótkim czasem na przerwy. Czy to brzmi jak praca dla ciebie? "`
 			choice
-				`	"I think I'm interested."`
+				`	"Myślę, że jestem zainteresowany."`
 					goto end
-				`	"Not really."`
+				`	"Nie do końca."`
 
-			`	"Sympathy. I understand, it's not the easiest work around, nor the most exciting for someone with their own starship, which is why it can be so hard to find enough couriers to keep the system running."`
+			`	"Współczucie. Rozumiem, że to nie jest najłatwiejsze ani najbardziej ekscytujące rozwiązanie dla kogoś z własnym statkiem kosmicznym, dlatego znalezienie wystarczającej liczby kurierów, aby utrzymać system w działaniu, może być tak trudne."`
 				decline
 			label end
 			action
 				set "avgi: infocourier jobs"
-			`	"Enthusiasm. I'm glad to hear that, there aren't nearly enough couriers plying the starways. I'll have your name passed along, and you should see offers to begin hauling media on the job board within a few days."`
+			`	"Enthusiasm. Cieszę się, że to słyszę, ale nie ma wystarczająco dużo kurierów na trasach kosmicznych. Przekażę Twoje nazwisko dalej i w ciągu kilku dni powinieneś zobaczyć oferty pracy na tablicy ogłoszeń."`
 				decline
 
 
@@ -699,180 +699,180 @@ mission "Avgi Culture: Twilight Tavern Guard"
 	on offer
 		log "People" "Claret" `Claret jest członkiem Gwardii Zmierzchu, ciekawym ludzi i pasjonującym się szczegółami taktycznych walk kosmicznych.`
 		conversation
-			`You find yourself wandering into what looks like the Avgi version of a spaceport bar. A circular ampitheatre provides seating and tables around the dance floor, with drinks served at a long raised bar that curves around the rim of the room. Curious, you get in line, attracting more than a few interested stares from the aliens, until you reach the bar.`
-			`	"Hey you, want a drink, question?" the bartender asks with a wave, your translator receiving the musical tone. You look behind him, expecting shelves of bottles or barrels, but instead the space behind the bar looks more like a greenhouse, with rows of colorful flowers and plants growing in troughs under blue-violet lights.`
-			`	"Is this stuff safe for humans?" you ask.`
-			`	The bartender splays his arms in what might be a shrug. "Nonchalance. Who knows? Anyway, you want a drink or not?"`
+			`Znajdujesz się w miejscu, które wygląda jak bar w porcie kosmicznym w wersji Avgi. Okrągły amfiteatr oferuje miejsca siedzące i stoliki wokół parkietu, a drinki serwowane są przy długim, podwyższonym barze, który biegnie wzdłuż krawędzi pomieszczenia. Zaciekawiony, ustawiasz się w kolejce, przyciągając niejedno zaciekawione spojrzenie kosmitów, aż docierasz do baru.`
+			`	"Hej, chcesz drinka, pytanie?" - pyta barman, machając ręką, a twój tłumacz odbiera muzyczny ton. Spoglądasz za niego, spodziewając się półek z butelkami lub beczkami, ale przestrzeń za barem przypomina raczej szklarnię, z rzędami kolorowych kwiatów i roślin rosnących w korytach pod niebiesko-fioletowymi lampami.`
+			`	"Czy to jest bezpieczne dla ludzi?" pytasz.`
+			`	Barman rozkłada ręce w geście, który może sugerować wzruszenie ramion. "Nonchalance. Kto wie? W każdym razie, chcesz drinka, czy nie?"`
 			choice
-				`"I'll pass."`
+				`"Podziękuję."`
 					goto claret
-				`"Sure. What would you recommend?"`
+				`"Jasne. Co byś polecił?"`
 
-			`	He gives you a look. "Amusement. You're no regular so I'll start you off with a Quis Nectar. On the house." He turns around, deftly snatching up something close to a cocktail glass, and pulls out a big, dangerous-looking glass pipette from somewhere under the bar. Smoothly dipping it into something that looks like a large pitcher plant, he draws out a clear, slightly pink-tinged liquid before depositing it in the glass. "Enjoy, amusement."`
+			`	Spogląda na ciebie. "Amusement. Nie jesteś stałym bywalcem, więc na początek poczęstuję cię nektarem Quis. Stawiam na firmę." Odwraca się, zręcznie chwyta coś w pobliżu kieliszka koktajlowego i wyciąga spod baru dużą, groźnie wyglądającą szklaną pipetę. Płynnie zanurzając ją w czymś, co wygląda jak duża roślina dzbanecznikowa, nabiera klarowny, lekko różowawy płyn, po czym przelewa go do kieliszka. "Enjoy, amusement."`
 			choice
-				`	(Gulp it down.) "Bottoms up."`
+				`	(Połknij to.) "Do dna."`
 					goto "too much"
-				`	(Take a sip.) "Thanks."`
+				`	(Weź łyk.) "Dzięki."`
 
-			`	The liquid is pleasantly light and sweet, with a bit of bitterness behind it. It doesn't taste anything like alcohol, but you can feel the lights in the room become a little sharper and brighter.`
+			`	Płyn jest przyjemnie lekki i słodki, z lekką goryczką. Nie smakuje jak alkohol, ale czuć, że światło w pomieszczeniu staje się nieco ostrzejsze i jaśniejsze.`
 				goto claret
 
 			label "too much"
-			`	You toss back your glass in a swift movement, swallowing the alien liquid in one smooth gulp. It's pleasantly light, and quite sweet. You can't taste any alcohol, but the room seems to light up as every detail becomes crisp and defined.`
+			`	Szybkim ruchem odchylasz kieliszek, połykając obcy płyn jednym łykiem. Jest przyjemnie lekki i dość słodki. Nie czujesz alkoholu, ale pomieszczenie wydaje się rozświetlać, gdy każdy szczegół staje się wyraźny i wyraźny.`
 
 			label claret
-			`	Another bar patron sidles up next to you. "Hey, you must be one of those aliens, right, question?" The Avgi is a warm, wine-red color, matching the color of her drink.`
+			`	Kolejny klient baru podsuwa się obok ciebie. "Hej, pewnie jesteś jednym z tych kosmitów, prawda, pytanie?" Avgi ma ciepły, winnoczerwony kolor, pasujący do koloru jej drinka.`
 			choice
-				`	"Yep, that's me. How'd you know?"`
+				`	"Tak, to ja. Skąd wiedziałeś?"`
 					goto confirm
-				`	"No, you must have had a bit too much to drink."`
-			`	"Unamused. Very funny, but I'm not quite that wired."`
+				`	"Nie, chyba trochę za dużo wypiłeś."`
+			`	"Nierozbawiony. Bardzo zabawne, ale nie jestem aż tak oświecony."`
 				goto next
 
 			label confirm
-			`	"Amusement. That was rhetorical." She takes a sip from her own drink.`
+			`	"Rozbawienie. To było pytanie retoryczne." Pociąga łyk z własnego napoju.`
 
 			label next
 			action
 				set "avgi: met claret"
-			`	"The name's Claret." She extends an arm, which you reach out to shake, but she instead taps her forearm to yours. "You're a hot topic among the Guard, you know?" She peers at you with inscrutable compound eyes.`
+			`	"Mam na imię Claret." Wyciąga rękę, którą chcesz uścisnąć, ale ona zamiast tego dotyka przedramieniem twojego. "Jesteś gorącym tematem wśród Strażników, wiesz?" Wpatruje się w ciebie nieprzeniknionymi, złożonymi oczami.`
 			choice
-				`	"The Guard?"`
-				`	"Why is that?"`
+				`	"Strażnik?"`
+				`	"Dlaczego?"`
 					goto why
 
-			`	Claret flares her wings out and raises her arms in an exaggerated pose. "Inflated boast. The Twilight Guard. You know, us brave warriors that are the last line of defense between the murderous Aberrant and the last bastion of Avgi civilization. Well, except for the people stuck back on Aviskir, but we don't talk about that, heh." She waves an arm. "But back to you, Captain <last>."`
+			`	Claret rozkłada skrzydła i unosi ręce w przesadnej pozie. "Przechwala się. Straż Zmierzchu. Wiecie, my, dzielni wojownicy, jesteśmy ostatnią linią obrony między morderczym Aberrantem a ostatnim bastionem cywilizacji Avgi. No, może poza ludźmi utkniętymi na Aviskirze, ale o tym nie rozmawiamy, heh." Macha ręką. "Ale wracając do ciebie, Kapitanie <last>."`
 
 			label why
-			`	She points at you dramatically. "You're an alien, and you fought the Aberrant. Even though we've seen a few of you people around, none of them have flown a starship quite like yours. Of course we've been talking about you. Wouldn't surprise me if half the Consonance was, really."`
+			`	Dramatycznie na ciebie wskazuje. "Jesteś kosmitą i walczyłeś z Aberrantem. Chociaż widzieliśmy tu kilku z was, żaden z nich nie latał statkiem kosmicznym takim jak wasz. Oczywiście, że o was mówiliśmy. Nie zdziwiłbym się, gdyby połowa Consonance była, serio."`
 			choice
-				`	"Well, what do they say about me?`
+				`	"Cóż, co o mnie mówią?`
 					goto gossip
-				`	"All good things, I hope."`
+				`	"Mam nadzieję, że wszystko jest w porządku."`
 
-			`	"Dismissive. Of course, everyone is singing your praises. Except for the ones who claim you aren't one of those 'humans' at all, and are secretly an Aberrant in the shape of one waiting for the perfect moment to strike and eat our children." Claret gives you a serious look. "You aren't, right?"`
+			`	"Dismissive. Oczywiście, wszyscy cię wychwalają. Z wyjątkiem tych, którzy twierdzą, że wcale nie jesteś jednym z tych "ludzi", a potajemnie jesteś Aberrantem w postaci czekającej na idealny moment, by uderzyć i zjeść nasze dzieci. " Claret patrzy na ciebie poważnie. "Nie jesteś, prawda? "`
 			choice
-				`	"Not last I checked."`
+				`	"Nie ostatnio, gdy sprawdzałem."`
 					goto gossip
-				`	"Nope."`
+				`	"Nie."`
 					goto gossip
-				`	"Well, you've caught me."`
+				`	"Cóż, złapałeś mnie."`
 
-			`	"Oh no." she says in a completely flat voice. "I am absolutely terrified." She takes a deep drink before sighing contentedly.`
+			`	"O nie." mówi zupełnie beznamiętnym głosem. "Jestem przerażona." Pociąga głęboki łyk, po czym wzdycha z zadowoleniem.`
 
 			label gossip
-			`	"Some say that the humans will soon arrive to save us with their superior technology. Others say you'll be the next aliens to invade us, and finish the job the Aberrant started."`
+			`	"Niektórzy twierdzą, że ludzie wkrótce przybędą, by nas uratować swoją zaawansowaną technologią. Inni twierdzą, że będziecie kolejnymi kosmitami, którzy nas napadną i dokończą dzieło rozpoczęte przez Aberranta."`
 			choice
-				`	"And which do you believe?"`
+				`	"A w co ty wierzysz?"`
 					goto believe
-				`	"Very contradictory rumors."`
+				`	"Bardzo sprzeczne plotki."`
 
-			`	She gives you an incredulous look. "Scorn. When are they not? I don't know about you humans, but ask three Avgi the same question and you'll get six different answers. We are a fractious lot, us Avgi, and that will be true until the stars burn out and the moons fall from the sky.`
+			`	Patrzy na ciebie z niedowierzaniem. "Scorn. A kiedy nie? Nie wiem jak wy, ludzie, ale zadaj trzem Avgi to samo pytanie, a otrzymasz sześć różnych odpowiedzi. My, Avgi, jesteśmy kłótliwi i tak będzie, dopóki gwiazdy nie zgasną, a księżyce nie spadną z nieba.`
 				goto humans
 
 			label believe
-			`	"Amusement. Neither. Either one would be too easy, and that of course can't be allowed, not in this universe. I expect your Republic would spend years and years debating whether to even acknowledge our existence, let alone take any kind of action."`
+			`	"Rozbawienie. Ani jedno, ani drugie. Żadne z nich nie byłoby zbyt proste, a na to oczywiście nie można pozwolić, nie w tym wszechświecie. Spodziewam się, że wasza Republika spędziłaby lata, debatując, czy w ogóle uznać nasze istnienie, nie mówiąc już o podjęciu jakichkolwiek działań."`
 			choice
-				`	"You don't give the Republic enough credit. Parliament can be decisive when it needs to be."`
-				`	"Parliament might be slow, but the Navy is full of good people who would help if they could."`
-				`	"That's a surprisingly accurate estimation of the Republic."`
+				`	"Nie doceniasz Republiki. Parlament potrafi być zdecydowany, kiedy trzeba."`
+				`	"Parlament może być powolny, ale Marynarka Wojenna jest pełna dobrych ludzi, którzy chętnie by pomogli, gdyby tylko mogli."`
+				`	"To zaskakująco dokładna ocena Republiki."`
 					goto accurate
-				`	"Maybe, but there are others that would try to exploit you. That's just human nature."`
+				`	"Może, ale są inni, którzy próbowaliby cię wykorzystać. Taka jest po prostu ludzka natura."`
 					goto exploit
-				`	"Well, the Republic isn't the only government in human space these days. The Free Worlds might try to help you."`
+				`	"Cóż, Republika nie jest obecnie jedynym rządem w przestrzeni kosmicznej. Wolne Światy mogą spróbować ci pomóc."`
 					to display
 						has "event: war begins"
 
-			`	"Perhaps. I wouldn't hold out hope, though. Like I said, it would be too easy, either if you were out to get us or in to save us. And I don't know how you would fare against the Aberrant either - they might even invade you too, if they could. Your technology may be better than ours, but I've heard quiet rumors it's not that much better, certainly not as good as what the Aberrant use.`
+			`	"Być może. Nie robiłbym sobie jednak nadziei. Jak powiedziałem, byłoby to zbyt proste, zarówno gdybyście chcieli nas dopaść, jak i ratować. I nie wiem, jak poradzilibyście sobie z Aberrantami - mogliby nawet was najechać, gdyby im się udało. Wasza technologia może być lepsza od naszej, ale słyszałem ciche plotki, że nie jest dużo lepsza, a na pewno nie tak dobra, jak ta, której używają Aberranty.`
 				goto humans
 
 			label exploit
-			`	"Perhaps. But I don't think so, not from what I've seen of you. Your stranded fellows, they dedicated themselves to helping us as soon as they realized they couldn't go home. I didn't like that short fellow though, all he did was complain." She smirks. "Reminded me of an ensign back in school.`
+			`	"Być może. Ale nie sądzę, przynajmniej na podstawie tego, co o tobie widziałam. Twoi rozbitkowie, poświęcili się, żeby nam pomóc, gdy tylko zdali sobie sprawę, że nie mogą wrócić do domu. Nie lubiłam jednak tego niskiego gościa, tylko narzekał. " Uśmiecha się ironicznie. "Przypomniał mi chorążego ze szkoły.`
 				goto humans
 
 			label accurate
-			`	"You humans aren't too different from us then." She looks thoughtful. "Maybe that would help us get along, your Republic and our Consonance bonding over shared bureaucratic torment. Might even be able to work together and invent something even worse." Claret shudders.`
+			`	"Wy, ludzie, nie różnicie się od nas aż tak bardzo." Wygląda na zamyśloną. "Może to by nam pomogło się dogadać, wasza Republika i nasza Konsonans łączą się ponad wspólnymi biurokratycznymi udrękami. Może nawet udałoby się nam połączyć siły i wymyślić coś jeszcze gorszego." Claret wzdryga się.`
 				goto humans
 
 			label humans
-			`	"But aside from that, you humans are a true delight. I met your Captain Darius and he regaled me with many stories of your own Navy. Your Carriers sound especially fearsome."`
+			`	"Ale poza tym, wy, ludzie, jesteście prawdziwą rozkoszą. Spotkałem waszego kapitana Dariusa, który raczył mnie wieloma historiami z waszej własnej marynarki wojennej. Wasze lotniskowce brzmią szczególnie groźnie."`
 			choice
-				`	"Yes, they are."`
-				`	"Eh, they're not so strong. I've faced a few."`
+				`	"Tak, są."`
+				`	"Ech, nie są takie silne. Stawiłem im czoła."`
 
-			`	"Modest, aren't we, amusement." she says. "Captain Darius told me much about the weapons technology you use, which I was quite fascinated by. But even more interesting is your Navy's doctrine, in my opinion."`
+			`	"Skromni, prawda? Zabawne." mówi. "Kapitan Darius dużo mi opowiadał o technologii uzbrojenia, której używacie, co mnie bardzo zafascynowało. Ale jeszcze ciekawsza jest, moim zdaniem, doktryna waszej Marynarki Wojennej."`
 			choice
-				`	"What's so interesting about that?"`
+				`	"Co w tym takiego interesującego?"`
 					goto doctrine
-				`	"What do you think of human weapons?"`
+				`	"Co myślisz o ludzkiej broni?"`
 					goto nerd
 
 			label nerd
-			`	"Amusement. Everyone always cares more about how big the guns are, rather than how they're used. Your particle cannons, for example, seem much like the light ion accelerators that are common on orbital fortifications, only in the form of linear accelerators instead of the synchrotrons we use. And your beam weapons are particularly puzzling, with their abrupt range limit, yet constant beam intensity along that range. And well, as for those 'blaster cannons,' I have no idea how those are even supposed to work. Firing a projectile with the same properties as a shield, perhaps."`
+			`	"Rozrywka. Wszyscy zawsze bardziej przejmują się rozmiarem dział niż tym, jak się ich używa. Na przykład wasze działa cząsteczkowe przypominają akceleratory jonów światła, które są powszechne na orbitalnych fortyfikacjach, tyle że w formie akceleratorów liniowych, a nie synchrotronów, których używamy. A wasza broń wiązkowa jest szczególnie zagadkowa, ze względu na jej nagłą granicę zasięgu, a jednocześnie stałą intensywność wiązki w tym zakresie. A co do tych "dział blasterowych", nie mam pojęcia, jak w ogóle mają działać. Może wystrzeliwują pocisk o takich samych właściwościach jak tarcza."`
 			choice
-				`	"What do you mean, 'how they're used?' Isn't that obvious?"`
+				`	"Co masz na myśli mówiąc "jak się ich używa"? Czy to nie jest oczywiste?"`
 
 			label doctrine
-			`	Claret looks incredulous, standing up animately. "Disbelief. Doctrine is everything. Both in how we design our weapons and how we actually employ them. Everything is built for a specific purpose, from the largest nuclear missile to the humblest coilgun. You must know your objective, your reason for being, and then you must look at the enemy and see the tools they have to stop you, and then develop your own to counter them. Everything your fleet carries must have a specific purpose, a way to fit into the engagement you have planned, or it is simply dead weight."`
+			`	Claret patrzy z niedowierzaniem, wstając z ożywieniem. "Niewiara. Doktryna jest wszystkim. Zarówno w tym, jak projektujemy naszą broń, jak i w tym, jak jej faktycznie używamy. Wszystko jest zbudowane w konkretnym celu, od największego pocisku nuklearnego po najskromniejszy karabin elektromagnetyczny. Musisz znać swój cel, swoją rację bytu, a następnie musisz spojrzeć na wroga i zobaczyć narzędzia, którymi dysponuje, aby cię powstrzymać, a następnie opracować własne, aby mu się przeciwstawić. Wszystko, co przewozi twoja flota, musi mieć konkretny cel, sposób, aby wpasować się w zaplanowaną przez ciebie walkę, inaczej stanie się po prostu bezużyteczne. "`
 			choice
-				`	"What if you don't know what the enemy has?"`
+				`	"A co jeśli nie wiesz, co ma wróg?"`
 
-			`	"Impatience. That's why you gather information, assess their capabilities, and train against a wide variety of threats, even ones well beyond what you think an enemy might really have. All of that informs the way you choose to fight."`
+			`	"Niecierpliwość. Dlatego zbierasz informacje, oceniasz ich możliwości i trenujesz przeciwko szerokiej gamie zagrożeń, nawet tym, które znacznie wykraczają poza to, co twoim zdaniem może mieć przeciwnik. Wszystko to wpływa na sposób, w jaki wybierasz walkę."`
 			choice
-				`	"How did the Avgi fight, then?"`
-				`	"So what went wrong against the Aberrant, then? Were they just too powerful?"`
+				`	"Jak walczył Avgi?"`
+				`	"Co więc poszło nie tak z Aberrantami? Czy byli po prostu zbyt potężni?"`
 					goto aberrant
 
-			`	She looks a little happier at your question. "Explanation. Quickly and decisively. High intensity battles, to knock out the enemy as quickly as possible while expending as few resources as possible. You spend days, maybe even weeks, just watching to try and pin down your enemy, and then you launch everything you have. Missiles loosed from extreme range, and then long ranged beams to defend yourself as you close with the enemy fleet. Each ship would have a dedicated role, designed to support each other and the overall fleet with specific capabilities while countering those same capabilities held by the enemy."`
+			`	Wygląda na nieco szczęśliwszą na twoje pytanie. "Explanation. Szybko i zdecydowanie. Bitwy o wysokiej intensywności, aby jak najszybciej wyeliminować wroga, zużywając jak najmniej zasobów. Spędzasz dni, a może nawet tygodnie, obserwując go i próbując unieruchomić wroga, a potem odpalasz wszystkie dostępne środki. Pociski wystrzeliwane z ekstremalnej odległości, a następnie dalekiego zasięgu, aby się bronić, zbliżając się do floty wroga. Każdy okręt miałby przypisaną rolę, zaprojektowaną tak, aby wspierać się nawzajem i całą flotę określonymi zdolnościami, jednocześnie przeciwdziałając tym samym zdolnościom wroga."`
 
 			label aberrant
-			`	Claret seems to deflate. "Embarrassment. Yes. Well. That wasn't the core of the problem we had against the Aberrant, I think. The admirals will tell you it was because we weren't united enough, that there was too much disagreement between the fleets sent to stop them, or that the Aberrant simply had stronger ships, but the truth is that our fleets were designed to fight other Avgi, not an unknown race of aliens that simply didn't fit into our doctrine. We built them to fight ourselves so well they weren't equipped to fight someone who didn't play by our rules."`
+			`	Claret wydaje się tracić siły. "Wstyd. Tak. Cóż. Myślę, że to nie było sedno problemu, jaki mieliśmy z Aberrantami. Admirałowie powiedzą wam, że to dlatego, że nie byliśmy wystarczająco zjednoczeni, że było zbyt wiele nieporozumień między flotami wysłanymi, by ich powstrzymać, albo że Aberrantowie po prostu mieli silniejsze okręty, ale prawda jest taka, że nasze floty zostały zaprojektowane do walki z innymi Avgi, a nie z nieznaną rasą kosmitów, która po prostu nie pasowała do naszej doktryny. Stworzyliśmy je tak dobrze do walki z samymi sobą, że nie były przygotowane do walki z kimś, kto nie grał według naszych zasad."`
 			choice
-				`	"What happened in those first battles?"`
-				`	"So how has your doctrine changed since then?"`
+				`	"Co wydarzyło się w tych pierwszych bitwach?"`
+				`	"Jak więc zmieniła się twoja doktryna od tego czasu?"`
 					goto changes
 
-			`	"We used to have years to look into the capabilities of our likely opponents, and try and figure out what they could do and how well they could do it. We had missiles designed to track enemy torches, and ships filled with enough of them to kill half a dozen peers before needing resupply. And that worked, because it wasn't like a giant fleet of nigh-invincible enemies was going to appear out of nowhere, right?"`
-			`	She clicks her fingers. "Despair. All of that failed against the Aberrant. We weren't well equipped to track them at range, with how dim their engines are compared to us, and letting them get close was a death sentence for ships that mostly carried long range nuclear missiles. The first encounters with them were one-sided slaughters, until engineers slapped bigger radar arrays on our ships to try and spot the Aberrant before they could tear through us."`
+			`	"Dawniej mieliśmy lata na badanie możliwości naszych potencjalnych przeciwników i próbowanie zrozumienia, co potrafią i jak dobrze to robią. Mieliśmy pociski zaprojektowane do śledzenia wrogich pochodni i statki wypełnione ich wystarczającą ilością, by zabić pół tuzina towarzyszy, zanim będą potrzebować uzupełnienia zapasów. I to działało, bo przecież nie było tak, że gigantyczna flota niemal niezwyciężonych wrogów miała się pojawić znikąd, prawda?"`
+			`	Pstryka palcami. "Despair. Wszystko to zawiodło w starciu z Aberrantami. Nie byliśmy dobrze przygotowani do śledzenia ich z dystansu, biorąc pod uwagę, jak słabe są ich silniki w porównaniu z naszymi, a dopuszczenie ich do zbliżenia było wyrokiem śmierci dla statków, które w większości przenosiły pociski nuklearne dalekiego zasięgu. Pierwsze starcia z nimi były jednostronną rzezią, dopóki inżynierowie nie zamontowali na naszych statkach większych anten radarowych, aby spróbować namierzyć Aberranty, zanim zdążą nas przebić."`
 			choice
-				`	"Did that work?"`
+				`	"Czy to zadziałało?"`
 
-			`	"That stopped the bloodletting, for a while. Apprehension. Until the front lines began to run low on missiles. When it takes a ship's entire magazine to kill an Aberrant before it has to retreat and resupply, it simply isn't sustainable. And the particle beams wielded by some of our ships, the ones that could fight at long range, were simply absorbed by the Aberrant's shields, something we're still trying to overcome. But for a while it seemed like nothing was working."`
+			`	"To na chwilę powstrzymało rozlew krwi. Obawa. Dopóki na linii frontu nie zaczęło brakować pocisków. Kiedy zabicie Aberranta wymaga całego magazynka statku, zanim będzie musiał się wycofać i uzupełnić zapasy, to po prostu nie jest to opłacalne. A wiązki cząsteczkowe niektórych naszych statków, tych, które mogły walczyć na dużą odległość, były po prostu pochłaniane przez tarcze Aberranta, z czym wciąż próbujemy sobie poradzić. Ale przez chwilę wydawało się, że nic nie działa."`
 
 			label changes
-			`	"Praise. We had to completely throw out everything we thought we knew and start over. We ended up bringing back coilguns and kinetic kill vehicles - ridiculously short range weapons compared to a serious beam or missile. But it's what we could field at short notice, and build in the numbers needed to at least hold the Aberrant at bay. What we fly these days would probably be slaughtered by a pre-Incursion fleet, but the Aberrant fight at a much shorter range anyway, and our modern fleets have much better endurance when it comes to ammunition."`
-			`	Claret thrums with laughter. "If you had told a planner that we'd be fighting with coilguns and kinetic kill vehicles, before the Incursion you'd have been laughed out of the room. But we're lucky that the Aberrant's weapons are short ranged, such that we can actually hit them at the range of a dumb projectile from a coilgun without being instantly swatted out of the sky."`
+			`	"Praise. Musieliśmy całkowicie porzucić wszystko, co myśleliśmy, że wiemy, i zacząć od nowa. Skończyło się na tym, że przywróciliśmy działa elektromagnetyczne i kinetyczne pojazdy bojowe - broń o absurdalnie krótkim zasięgu w porównaniu z potężną wiązką laserową lub pociskiem rakietowym. Ale to było to, co mogliśmy wystawić w krótkim czasie i zbudować liczbę potrzebną do przynajmniej utrzymania Aberrantów na dystans. To, czym latamy dzisiaj, prawdopodobnie zostałoby zmiecione przez flotę sprzed inwazji, ale Aberranty i tak walczą na znacznie krótszym dystansie, a nasze nowoczesne floty mają znacznie lepszą wytrzymałość, jeśli chodzi o amunicję."`
+			`	Claret trzęsie się ze śmiechu. "Gdybyś powiedział planiście, że będziemy walczyć za pomocą działek elektromagnetycznych i kinetycznych pojazdów bojowych, przed Inwazją zostałbyś wyśmiany. Ale mamy szczęście, że broń Aberrantów ma krótki zasięg, więc możemy ich trafić z odległości głupiego pocisku z działa elektromagnetycznego, nie spadając od razu z nieba. "`
 
 			choice
-				`	"Don't the Aberrant still have superior technology?"`
+				`	"Czy Aberrant nie ma nadal lepszej technologii?"`
 					goto technology
-				`	"And now you're able to hold your own against them?"`
+				`	"I teraz potrafisz im się przeciwstawić?"`
 
-			`	"Discomfort. Maybe at first, when we could count on having a numerical advantage, but the Aberrant continue to reproduce at a faster rate than we can build ships. And these new weapons, well, they were considered obsolete for a reason. We need something that can dish out more damage, and at a longer range, without being as expensive and resource-intensive as a missile."`
+			`	"Discomfort. Może na początku, kiedy mogliśmy liczyć na przewagę liczebną, ale Aberranty wciąż rozmnażają się szybciej, niż jesteśmy w stanie budować statki. A te nowe bronie, cóż, nie bez powodu uznano za przestarzałe. Potrzebujemy czegoś, co zada więcej obrażeń i będzie miało większy zasięg, a jednocześnie nie będzie tak drogie i zasobochłonne jak pocisk."`
 				goto shields
 
 			label technology
-			`	"Oh, yes, appreciation. But they don't use it to its full extent, probably because they aren't intelligent beings in their own right. They just make more of each other, without any changes other than occasional mistakes. And their weapons don't seem like they were meant to be weapons, if that makes sense. More of a cutting beam than a true weaponized laser."`
+			`	"Och, tak, doceniam. Ale nie wykorzystują go w pełni, prawdopodobnie dlatego, że same w sobie nie są inteligentnymi istotami. Po prostu robią z siebie nawzajem coraz więcej, bez żadnych zmian, poza sporadycznymi błędami. A ich broń nie wydaje się być przeznaczona do tego, żeby nią być, jeśli to ma sens. Bardziej przypomina wiązkę tnącą niż prawdziwy uzbrojony laser."`
 
 			label shields
-			`	"That's why things really were desperate, until you humans came around. That changed everything, knowing there was a non-hostile, if not outright friendly, alien power nearby. Even though it sounds like your government isn't able to help directly, given the lack of connecting starways, technological support from a more advanced species could be enough for us to win. Shields, shared by your people, were already a game changer by themselves."`
+			`	"Właśnie dlatego sytuacja była naprawdę rozpaczliwa, dopóki nie pojawiliście się wy, ludzie. To wszystko zmieniło, gdy uświadomiliśmy sobie, że w pobliżu znajduje się niewroga, a wręcz przyjazna, obca siła. Choć brzmi to tak, jakby wasz rząd nie był w stanie pomóc bezpośrednio, biorąc pod uwagę brak połączeń międzygwiezdnych, wsparcie technologiczne ze strony bardziej zaawansowanej rasy mogłoby wystarczyć do zwycięstwa. Tarcze, którymi dzieli się wasz lud, same w sobie były przełomem."`
 
 			choice
-				`	"I'm not sure humanity would be able to help all that much, with our technology."`
+				`	"Nie jestem pewien, czy ludzkość byłaby w stanie pomóc aż tak bardzo, biorąc pod uwagę naszą technologię."`
 					goto help
-				`	"Wait, you got shields from us?"`
-			`	"From the humans that were stranded here, yes, gratitude. They let us dismantle their ship's shield generator and explained the rough concept to us, and we've been able to produce our own imitation, though I hear it isn't nearly as good."`
+				`	"Czekaj, masz od nas osłony?"`
+			`	"Od ludzi, którzy tu utknęli, tak, wdzięczność. Pozwolili nam zdemontować generator osłon ich statku i wyjaśnili nam ogólny zarys koncepcji, dzięki czemu udało nam się stworzyć własną imitację, choć słyszałem, że nie jest wcale tak dobra."`
 			
 			label help
-			`	"Dismissal. I've seen the <ship>, and the ship your friends arrived on. That's the kind of firepower we need to take on the Aberrant and win."`
+			`	"Dismissal. Widziałem <ship> i statek, którym przybyli twoi przyjaciele. Właśnie takiej siły ognia potrzebujemy, żeby stawić czoła Aberrantowi i wygrać."`
 			choice
-				`	"If you say so."`
-				`	"I hope you're right."`
+				`	"Jeśli tak mówisz."`
+				`	"Mam nadzieję, że masz rację."`
 			action
 				set "avgi: twilight guard transport jobs"
-			`	With that, you turn to lighter topics, as Claret finishes her drink. You learn about the new traditions the Twilight Guard is trying to promote to ensure unity and cohesion within its ranks, trying to bind together former members of dozens of independent militaries into a united whole. This apparently involves a lot of travel to promote inter-unit bonding, as well as frequent cycling between the front lines and the Outer Limits.`
-			`	Eventually, Claret is ready to leave. "Anyway, I'll see you around. And, a word of advice. If you're ever on a Twilight Guard station, look out for officers or Guardsmen who are looking for a ride. We often have people trying to make an impromptu trip, and our logistics have been so overstretched lately they're willing to contract with outside captains, if they're trustworthy."`
-			`	"I'll keep that in mind," you say.`
+			`	Wtedy przechodzisz do lżejszych tematów, podczas gdy Claret kończy swój drink. Dowiadujesz się o nowych tradycjach, które Gwardia Zmierzchu stara się promować, aby zapewnić jedność i spójność w swoich szeregach, starając się zjednoczyć byłych członków dziesiątek niezależnych armii w jedną całość. Najwyraźniej wiąże się to z licznymi podróżami, aby promować więzi między jednostkami, a także częstymi podróżami między liniami frontu a Outer Limits.`
+			`	W końcu Claret jest gotowy do odlotu. "W każdym razie, do zobaczenia. I mała rada. Jeśli kiedykolwiek będziecie na stacji Straży Zmierzchu, wypatrujcie oficerów lub gwardzistów szukających transportu. Często zdarzają się nam osoby próbujące spontanicznie wyjechać, a nasza logistyka jest ostatnio tak przeciążona, że są skłonni podpisać umowę z zewnętrznymi kapitanami, jeśli są godni zaufania."`
+			`	"Zapamiętam to," mówisz.`
 				decline
 
 
@@ -891,40 +891,40 @@ mission "Avgi: Atomics Testing 1"
 		conversation
 			action
 				set "avgi: met aliza"
-			`Ergastirio Station is quiet as you disembark from the <ship>. Everyone you see seems purposeful and deliberate, moving as if they all know exactly where they need to be. Wandering about as you are, you can't help but feel that you stand out, a feeling that proves warranted when a female Avgi stops you, a vibrant red tinged with purple.`
-			`	"Curiosity, hello. Who are you?"`
+			`Na stacji Ergastirio panuje cisza, gdy wysiadasz z <ship>. Wszyscy, których widzisz, wydają się celowi i rozważni, poruszając się tak, jakby dokładnie wiedzieli, gdzie mają być. Krążąc tak, jak jesteś, nie możesz oprzeć się wrażeniu, że się wyróżniasz, co okazuje się uzasadnione, gdy zatrzymuje cię żeńska Avgi, o żywej czerwieni z domieszką fioletu.`
+			`	"Curiosity, cześć. Kim jesteś?"`
 			choice
-				`	"Sorry, I was just looking around."`
-				`	"Sorry, am I not supposed to be here?"`
+				`	"Przepraszam, po prostu się rozglądałem."`
+				`	"Przepraszam, czy nie powinienem tu być?"`
 
-			`	"Oh. Amusement," she thrums in laughter for a moment, "it isn't that, I've just never met an alien before."`
-			`"Oh. That makes sense," you say, feeling a bit stupid.`
-			`	"I'm Alizarin, but you can call me Aliza. I'm a senior research fellow here at Ergastirio," she says with a touch of pride.`
+			`	"Och. Rozbawienie," przez chwilę śmieje się, "nie o to chodzi, po prostu nigdy wcześniej nie spotkałam kosmity."`
+			`"Och. To ma sens, " mówisz, czując się trochę głupio.`
+			`	"Jestem Alizarin, ale możesz mi mówić Aliza. Jestem starszą pracownicą naukową w Ergastirio, " mówi z nutą dumy.`
 			choice
-				`	"What kind of stuff do you do here?"`
-				`	"What do you research?"`
+				`	"Co tu robisz?"`
+				`	"Co badasz?"`
 
-			`	"Well, I'm a shockwave dynamics specialist, though I dabble in accelerator testing occasionally. My work with both of those is in nuclear weapons design, mostly in implosion and ablation modeling. We do all sorts of stuff here though, but it's all weapons related. Not much of a choice with the War, you know."`
+			`	"Cóż, jestem specjalistą od dynamiki fal uderzeniowych, choć okazjonalnie zajmuję się testowaniem akceleratorów. Moja praca w obu tych dziedzinach polega na projektowaniu broni jądrowej, głównie w modelowaniu implozji i ablacji. Zajmujemy się tu różnymi rzeczami, ale wszystko jest związane z bronią. Wiesz, w czasie wojny nie ma zbyt dużego wyboru."`
 			choice
-				`	"Nuclear weapons? Fascinating."`
+				`	"Broń jądrowa? Fascynujące."`
 					goto cool
-				`	"Nuclear weapons? That's... interesting, I guess."`
-				`	"Nuclear weapons? I'm not a fan honestly."`
+				`	"Broń jądrowa? To... ciekawe, jak sądzę."`
+				`	"Broń nuklearna? Szczerze mówiąc, nie jestem jej fanem."`
 
-			`	"Ah, well. Not everyone can appreciate art. But you'll see the light, heh heh, when the Aberrant come knocking. Nothing else hits 'em the same way, appreciation."`
+			`	"No cóż. Nie każdy potrafi docenić sztukę. Ale zobaczysz światło, he, he, kiedy Aberrant zapuka do twoich drzwi. Nic innego nie uderza w nich tak samo, doceniam."`
 				goto "wanna see"
 
 			label cool
-			`	"Enthusiasm. They are! I wish there was time to explain the fine art of weapons design, but alas, I have an appointment in less than an hour... Consideration. Actually, I've just had an idea," she says, looking thoughtful.`
+			`	"Entuzjazm. Są! Szkoda, że nie ma czasu, żeby wyjaśnić sztukę projektowania broni, ale niestety mam spotkanie za niecałą godzinę... Rozważanie. Właściwie, właśnie wpadłam na pomysł, " mówi zamyślona.`
 
 			label "wanna see"
-			`	"Hey, you've been vetted by the Assembly itself, right? You wanna see an atomics test? We've got one scheduled for today, and I heard you aliens are scared of nukes, so you've probably never seen one before."`
+			`	"Hej, zostałeś sprawdzony przez samo Zgromadzenie, prawda? Chcesz zobaczyć test atomowy? Mamy go zaplanowany na dziś, a słyszałem, że wy, kosmici, boicie się broni jądrowej, więc pewnie nigdy jej nie widzieliście."`
 			choice
-				`	"Sure, why not?"`
+				`	"Jasne, czemu nie?"`
 					goto connoisseur
-				`	"I'll pass."`
+				`	"Podziękuję."`
 					goto coward
-				`	"Actually, I have. It wasn't pretty."`
+				`	"Właściwie tak. Nie było to przyjemne."`
 					goto actually
 					to display
 						or
@@ -932,42 +932,42 @@ mission "Avgi: Atomics Testing 1"
 							has "FWC Cebalrai 1: offered"
 
 			label actually
-			`	"Surprise. I thought you had some kind of taboo around them, no?"`
+			`	"Niespodzianka. Myślałem, że masz wokół nich jakieś tabu, prawda?"`
 			choice
-				`	"Some people decided to break that taboo."`
-				`	"Things in human space have changed since then."`
-			`	"Ah, that's good to hear. From what I've heard you humans are rather silly about atomics, as though the average hyperdrive wasn't handling energies of the same order. Anyway, do you want to see an atomics test?"`
+				`	"Niektórzy postanowili przełamać to tabu."`
+				`	"Od tego czasu w przestrzeni kosmicznej zaszły pewne zmiany."`
+			`	"Ach, miło to słyszeć. Z tego, co słyszałem, wy, ludzie, jesteście dość nierozsądni w kwestii atomu, jakby przeciętny hipernapęd nie radził sobie z energiami tego samego rzędu. A tak w ogóle, chcesz zobaczyć test atomowy?"`
 			choice
-				`	"Sure, why not?"`
+				`	"Jasne, czemu nie?"`
 					goto connoisseur
-				`	"I'll pass. Nothing I haven't seen before."`
+				`	"Pomijam. Nic, czego bym wcześniej nie widział."`
 					goto coward
 
 			label coward
-			`	"Disappointment. You're missing out, but oh well. Anyway, I gotta go, catch ya later!" Aliza scampers off towards a few Avgi waving at her by a door.`
+			`	"Rozczarowanie. Tracisz, ale cóż. W każdym razie, muszę lecieć, do zobaczenia później! " Aliza biegnie w kierunku kilku Avgi, machających do niej przy drzwiach.`
 				decline
 
 			label connoisseur
-			`	"Joy. Excellent! We do our testing on the dwarf planet below, at the Dokimi Range. A good place for testing the more exciting projects, far from anything valuable of course."`
-			`	You're interrupted by another Avgi, who lands right in front of you. With his wings still fanned out from his faded blue body, he ignores you to point at Aliza accusingly.`
-			`	"Impatience. Ah, Alizarin, just who I was looking for." He waves his arms frantically as he dances around. "I was hoping you would have sent the new beam-target interaction results along my way by now, but your office claimed you were busy with a more important project, which I simply cannot believe is the case."`
-			`	Aliza folds her arms. "Annoyance. I don't know what to tell you, Trypan, we're working our way through the backlog as fast as we can. I can't get you your accelerator time any faster, you know that's just not how it works."`
-			`	"Disgust. You do know what's at stake, do you not? We need that data, it is utterly critical to our work! This new armor will be impenetrable, a shield that could win the War!" Trypan tries to look stern and disappointed, an effect that is not helped by the fact that he keeps prancing around you.`
+			`	"Joy. Świetnie! Nasze testy przeprowadzamy na planecie karłowatej poniżej, w Górach Dokimi. To dobre miejsce do testowania bardziej ekscytujących projektów, oczywiście z dala od wszystkiego, co wartościowe."`
+			`	Przerywa ci kolejny Avgi, który ląduje tuż przed tobą. Z skrzydłami wciąż rozłożonymi na wyblakłym, niebieskim ciele, ignoruje cię i oskarżycielsko wskazuje na Alizę.`
+			`	"Niecierpliwość. Ach, Alizarin, właśnie kogoś takiego szukałem." Macha gorączkowo rękami, tańcząc dookoła. "Miałem nadzieję, że do tej pory wysłałeś mi nowe wyniki interakcji wiązki z celem, ale twoje biuro twierdziło, że jesteś zajęty ważniejszym projektem, w co po prostu nie mogę uwierzyć."`
+			`	Aliza krzyżuje ramiona. "Annoyance. Nie wiem, co ci powiedzieć, Trypan, nadrabiamy zaległości tak szybko, jak się da. Nie mogę przyspieszyć twojego czasu akceleratora, wiesz, że to tak nie działa."`
+			`	"Wstręt. Wiesz, o co toczy się gra, prawda? Potrzebujemy tych danych, są absolutnie kluczowe dla naszej pracy! Ta nowa zbroja będzie nieprzenikniona, tarcza, która może wygrać Wojnę! " Trypan próbuje wyglądać surowo i rozczarowanie, a efektowi temu nie pomaga fakt, że wciąż wokół ciebie krąży.`
 			choice
-				`	"Who was that?"`
-				`	"What did he mean by 'impenetrable armor?'"`
+				`	"Kto to był?"`
+				`	"Co miał na myśli pisząc "nieprzebijalna zbroja"?"`
 					goto wunderwaffe
 
-			`	"Annoyance. That was Trypan. My point of contact with a group of wealthy individuals with far too much influence and not enough sense. For years they've been convinced we just need 'one more prototype, just one more experiment' to produce a breakthrough to win the War. She sighs. "No one really takes them seriously anymore, not after all the failed projects they've sponsored, but they do shell out the equipment we need for free, so we have to at least act like we're listening to their 'new ideas.' That they have a few seats in the Consonance between them doesn't hurt either, when we need more resources or funding."`
+			`	"Annoyance. To był Trypan. Mój punkt kontaktowy z grupą bogatych ludzi o zbyt dużych wpływach i zbyt małym rozsądku. Przez lata byli przekonani, że potrzebujemy tylko "jeszcze jednego prototypu, jeszcze jednego eksperymentu", aby osiągnąć przełom i wygrać wojnę. Wzdycha. "Nikt ich już tak naprawdę nie traktuje poważnie, po wszystkich nieudanych projektach, które sponsorowali, ale dają nam sprzęt za darmo, więc musimy przynajmniej udawać, że słuchamy ich "nowych pomysłów". To, że mają kilka miejsc w Consonance, też nie zaszkodzi, kiedy potrzebujemy więcej zasobów lub finansowania."`
 
 			label wunderwaffe
-			`	"Trypan and his technocrat friends are convinced they're on the verge of a breakthrough to 'win the War,' as they love to claim. For a while they were obsessed with absurd superweapons - had us actually try again to develop a hyperspace weapon, despite everyone trying that for decades. There's basically no theory behind the idea anyway, trust me," she assures you. "Now they're convinced we can cook up a supermaterial of some kind that will be invulnerable to the Aberrant beams, when we still don't even really know how they work."`
-			`	She shakes her head animatedly, looking rather put off. "He and the group backing him have been having us run their 'prototype' samples through our linear accelerator - this big 'ol electron beam in the Third Wing of the station. We use it for all sorts of research, and we do conduct material testing with it, but it's gotten ridiculous lately. They keep acting surprised when we burn through their plates of whatever alloy they've cooked up in a fraction of a second." She gives you an amused look. "At least that makes each beam run short, but cleaning out the accelerator is more annoying than you'd think."`
-			`	She looks past you, towards a door. "Ah, my colleagues. We were going to catch an Akoustiki down to the surface, but you have a ship, right? Want to be our ride?"`
+			`	"Trypan i jego technokratyczni przyjaciele są przekonani, że są o krok od przełomu, który pozwoli im "wygrać wojnę", jak z upodobaniem powtarzają. Przez jakiś czas mieli obsesję na punkcie absurdalnych superbroni - zmusili nas do ponownego podjęcia próby stworzenia broni nadprzestrzennej, mimo że wszyscy próbowali tego przez dekady. I tak nie ma za tym praktycznie żadnej teorii, uwierz mi, " zapewnia. "Teraz są przekonani, że możemy stworzyć jakiś supermateriał, który będzie odporny na promienie Aberrantów, podczas gdy wciąż nie wiemy, jak one działają. "`
+			`	Ożywie kręci głową, wyglądając na nieco zniechęconą. "On i wspierająca go grupa kazali nam przepuszczać ich "prototypowe" próbki przez nasz akcelerator liniowy - tę wielką wiązkę elektronów w Trzecim Skrzydle stacji. Używamy jej do wszelakich badań i przeprowadzamy za jej pomocą testy materiałowe, ale ostatnio zrobiło się to absurdalne. Ciągle się dziwią, gdy w ułamku sekundy przepalamy im płyty z dowolnego stopu, który wytworzyli." Patrzy na ciebie z rozbawieniem. "Przynajmniej dzięki temu każda wiązka się wyczerpuje, ale czyszczenie akceleratora jest bardziej irytujące, niż myślisz."`
+			`	Ona patrzy za tobą w stronę drzwi. "Ach, moi koledzy. Mieliśmy złapać Akoustiki na powierzchnię, ale masz statek, prawda? Chcesz nas podwieźć? "`
 			choice
-				`	"Of course."`
+				`	"Oczywiście."`
 					accept
-				`	"I don't have time, sorry."`
+				`	"Nie mam czasu, przepraszam."`
 					decline
 
 
@@ -983,134 +983,134 @@ mission "Avgi: Atomics Testing 2"
 		has "Avgi: Atomics Testing 1: done"
 	on offer
 		conversation
-			`The descent to Dokimi is uneventful, but you get a good look at the planetoid's icy surface, stained red with organic tholins. The ice is smooth and pristine under most of your flight path, but eventually something new comes into view: austere buildings, crude roads, and overshadowing all else, the flat expanse of a field pockmarked with craters.`
+			`Zejście na Dokimi przebiega bezproblemowo, ale można dobrze przyjrzeć się lodowej powierzchni planetoidy, zabarwionej na czerwono organicznymi tholinami. Lód jest gładki i nieskazitelny przez większość trasy lotu, ale w końcu pojawia się coś nowego: surowe budynki, prymitywne drogi i przyćmiewający wszystko inny płaski obszar pola usianego kraterami.`
 
 			scene "scene/dokimi range"
 
-			`	"A little dreary, isn't it, amusement?" comments Aliza.`
+			`	"Trochę ponure, prawda, rozbawione?" komentuje Aliza.`
 			choice
-				`	"Yeah. Why do testing out here instead of in empty space?"`
-				`	"Do you just test nukes here?"`
+				`	"Tak. Dlaczego testujesz tutaj, a nie w pustej przestrzeni?"`
+				`	"Czy tutaj tylko testujecie broń nuklearną?"`
 					goto fun
 
-			`	"It's nice to have a big mass to brace experiments against and bury sensors in, explanation. Plus we get to see the effects of weapons on bulk mass, like all this ice and the occasional rock outcropping. It makes quite the blast plume," she adds happily.`
-			`	"We used to use some big asteroids for this, but we kept blowing through them, amusement. Relocating our lab after every big test was getting annoying, so we picked this planetoid out and stuck an outpost on it."`
+			`	"Fajnie jest mieć dużą masę, na której można oprzeć eksperymenty i zakopać w niej czujniki, wyjaśnienie. Poza tym możemy zobaczyć wpływ broni na masę, na przykład cały ten lód i sporadyczne wystające skały. To tworzy całkiem niezły pióropusz wybuchu, " dodaje radośnie.`
+			`	"Kiedyś używaliśmy do tego kilku dużych asteroid, ale ciągle przez nie przelatywaliśmy, co za frajda. Przenoszenie laboratorium po każdym dużym teście stawało się irytujące, więc wybraliśmy tę planetoidę i umieściliśmy na niej placówkę."`
 			choice
-				`	"Why this planet in particular?"`
-				`	"Blowing through asteroids? Just how big are these nukes?"`
+				`	"Dlaczego akurat ta planeta?"`
+				`	"Przelatują przez asteroidy? Jak duże są te bomby atomowe?"`
 					goto big
 
-			`	"Consideration." She looks thoughtful. "Well, the lab managers told us to go somewhere far enough from the Navigeo Yards to be out of the way of anything important, so that they don't have to worry about getting flashed with radiation every week. But really I think it's because they wanted their own little planetoid as a personal fief where no one could tell them what to do, and Dokimi is so utterly unremarkable that no one else wanted it for anything else."`
+			`	"Rozważenie." Wygląda na zamyśloną. "Cóż, kierownicy laboratorium kazali nam udać się gdzieś wystarczająco daleko od Navigeo Yards, żeby nie przeszkadzać w niczym ważnym, żeby nie musieli się martwić cotygodniowym promieniowaniem. Ale tak naprawdę myślę, że to dlatego, że chcieli mieć swoją własną małą planetoidę jako osobiste lenno, gdzie nikt nie będzie im dyktował, co mają robić, a Dokimi jest tak zupełnie zwyczajna, że nikt inny nie chciał jej do niczego innego. "`
 				goto next
 
 			label big
-			`	"Heh, we can make them as big as we want to. 'Just add more lithium deuteride,' as they say, amusement. Once you get a proper two-stage device, you can pretty much just add more stages to boost the yield. Two or three hundred megatons is easy, if a bit impractical to fit in the sizes of missile we field. But we sometimes test at that range, to validate other ideas and designs."`
+			`	"Heh, możemy je zrobić tak duże, jak chcemy. "Po prostu dodaj więcej deuterku litu", jak to mówią, zabawa. Kiedy już zdobędziesz porządne urządzenie dwustopniowe, możesz po prostu dodać kolejne stopnie, aby zwiększyć wydajność. Dwieście lub trzysta megaton to łatwo, choć trochę niepraktyczne, aby zmieścić się w rozmiarach pocisku, którym operujemy. Ale czasami testujemy na takim zasięgu, aby zweryfikować inne pomysły i projekty."`
 				goto next
 
 			label fun
-			`	"Nah, we run all sorts of fun stuff that we can't test on Ergastirio, appreciation. The really big particle beams, for example, and reactor pumped lasers that would be annoying to shield on the station."`
-			`	She gestures out the window, towards some stony mountains. "You can find a valley out that way with all sorts of tracks carved in the ice. I wrote my name in a patch of stone, actually."`
+			`	"Nie, uruchamiamy mnóstwo fajnych rzeczy, których nie możemy przetestować na Ergastirio, dziękuję. Na przykład naprawdę duże wiązki cząstek i lasery pompowane przez reaktor, których ekranowanie na stacji byłoby uciążliwe."`
+			`	Wskazuje przez okno, w stronę kamienistych gór. "Można tam znaleźć dolinę z mnóstwem śladów wyrytych w lodzie. Właściwie to ja napisałem swoje imię na kawałku kamienia."`
 				goto next
 
 			label next
-			`	At Aliza's direction, you set the <ship> down on an icy pad by one of the small buildings. A few Avgi come out to greet you, wearing silver-colored spacesuits with comically large bubble helmets.`
+			`	Na polecenie Alizy kładziesz <ship> na lodowej płycie przy jednym z małych budynków. Kilku Avgi wychodzi, żeby cię powitać, ubranych w srebrne skafandry kosmiczne z komicznie dużymi hełmami.`
 			choice
-				`	"What now?"`
-				`	"How long until the test?"`
-			`	Aliza checks a clock. "We've got most of the day. Want to help us set up, question?"`
-			`	"Sure, I've got nothing better to do," you say.`
-			`	What follows is a surprisingly mundane day of helping the crew set up various sensors and instruments at carefully marked distances from ground zero. As you're helping drill a borehole through the ice, through which yet another probe will be dropped, you see a sled in the distance drive by, an innocent-looking teardrop object strapped to its bed. It can't be any bigger than you yourself are, yet this must be the device that will be tested in only a few hours, raised on top of a slim steel tower that has already been erected.`
+				`	"Co teraz?"`
+				`	"Jak długo do testu?"`
+			`	Aliza sprawdza zegar. "Mamy większość dnia. Chcesz nam pomóc w konfiguracji? Masz pytanie?"`
+			`	"Jasne, nie mam nic lepszego do roboty," mówisz.`
+			`	Następnie następuje zaskakująco nudny dzień pomagania załodze w ustawianiu różnych czujników i instrumentów w starannie oznaczonych odległościach od punktu zerowego. Pomagając wiercić otwór w lodzie, przez który zostanie zrzucona kolejna sonda, widzisz w oddali przejeżdżające sanie - niewinnie wyglądający obiekt w kształcie łzy przywiązany do ich łoża. Nie może być większy od ciebie, a jednak to właśnie to urządzenie zostanie przetestowane za kilka godzin, podniesione na szczycie smukłej, stalowej wieży, która już została wzniesiona.`
 
 			choice
-				`	"So that's an Avgi atomic."`
-				`	(Continue working.)`
+				`	"A więc to jest atom Avgi."`
+				`	(Kontynuuj pracę.)`
 					goto boom
 
-			`	"Yep. This is a mid-sized device, only sixty megatons. Weighs a bit under three tons, so it's a bit large for the tiny little missiles we've been stuck with since the Incursion drove us out here, but I've heard there's a team working on spooling up a production line for a more capable missile bus so that we can get these deployed."`
-			`	She looks suddenly embarrassed. "Worry. But you didn't hear that from me, of course. Information security is a lot more relaxed now that we're all mostly on the same side, but still... can't hurt to be safe."`
+			`	"Tak. To urządzenie średniej wielkości, ma moc zaledwie sześćdziesięciu megaton. Waży nieco poniżej trzech ton, więc jest trochę za duże jak na te maleńkie pociski, z którymi utknęliśmy, odkąd Inwazja nas tu wygnała, ale słyszałem, że jakiś zespół pracuje nad uruchomieniem linii produkcyjnej bardziej wydajnej magistrali pocisków, żebyśmy mogli je rozmieścić."`
+			`	Wygląda na nagle zawstydzoną. "Worry. Ale oczywiście nie usłyszałeś tego ode mnie. Bezpieczeństwo informacji jest teraz o wiele bardziej swobodne, skoro wszyscy jesteśmy po tej samej stronie, ale mimo to... bezpieczeństwo nie zaszkodzi."`
 
 			label boom
-			`	A few hours later, and a quick skim over Dokimi's surface in an Akoustiki Excursion Vehicle, you find yourself in a bunker dug into the ice a few dozen kilometers away. Up in the mountains, you have direct line of sight to the range, which sits just on the horizon.`
-			`	You stand in silence, hunched over in a bunker not designed to accommodate one of your stature. A few Avgi shuffle awkwardly and try to make small talk, but it invariably trails away into the silence. Someone near the back coughs, an odd whistling sound, as you all stare at the room's sole window, tinted dark enough so as to be black. Finally, over the hum of electric lights, a nameless technician begins counting down together with the clock. "Twelve, eleven, ten, nine..."`
-			`	You find yourself holding your breath as the countdown inches to zero. "Three, two, one...`
+			`	Kilka godzin później, po szybkim prześlizgnięciu się po powierzchni Dokimi pojazdem wycieczkowym Akoustiki, znajdujesz się w bunkrze wykopanym w lodzie kilkadziesiąt kilometrów dalej. Wysoko w górach masz bezpośredni widok na pasmo górskie, które rozciąga się tuż na horyzoncie.`
+			`	Stoisz w milczeniu, zgarbiony w bunkrze, który nie został zaprojektowany z myślą o twojej posturze. Kilku Avgi niezgrabnie się przebiera i próbuje nawiązać krótką rozmowę, ale ta niezmiennie zanika w ciszy. Ktoś z tyłu kaszle, wydając dziwny gwizd, gdy wszyscy wpatrujecie się w jedyne okno pokoju, przyciemnione na tyle, że było czarne. W końcu, ponad szumem elektrycznych świateł, bezimienny technik zaczyna odliczać razem z zegarem. "Dwanaście, jedenaście, dziesięć, dziewięć..."`
+			`	Wstrzymujesz oddech, gdy odliczanie zbliża się do zera. "Trzy, dwa, jeden...`
 			choice
 				`	"...Zero."`
-			`	For a moment, silence. And then, light. Light. Nothing but light, a light that consumes your whole world even as the tinted glass shields your eyes from all but the barest glimpse of its edges. For a handful of seconds, a time that stretches into a lifetime, your whole world is light. Then it dims by a bare margin, merely blinding instead of consuming, and you can tell there is something outside the window other than infinite light, the border where the bunker ends and the landscape begins. And the landscape is illuminated, lit by a sun crafted by mortal hands. A sphere of brilliance rests in the distance, utterly still as it only just touches the planetoid's surface. As it dims with each passing moment, within the new sun you swear you can see something opaque and hard-edged, almost as if it were solid, a shape that burns with primordial fire.`
+			`	Przez chwilę cisza. A potem światło. Światło. Nic tylko światło, światło, które pochłania cały twój świat, tak jak przyciemniane szkło chroni twoje oczy przed wszystkim, co najwyżej najlżejszym przebłyskiem jego krawędzi. Przez kilka sekund, czas, który rozciąga się na całe życie, cały twój świat jest światłem. Potem przygasa nieznacznie, jedynie oślepiając zamiast pochłaniać, i możesz stwierdzić, że za oknem jest coś innego niż nieskończone światło, granica, gdzie kończy się bunkier, a zaczyna krajobraz. A krajobraz jest oświetlony, rozświetlony słońcem stworzonym rękami śmiertelników. W oddali spoczywa kula blasku, całkowicie nieruchoma, ledwie dotykając powierzchni planetoidy. Gdy przygasa z każdą chwilą, w nowym słońcu przysięgasz, że widzisz coś nieprzezroczystego i o ostrych krawędziach, prawie jakby było ciałem stałym, kształt płonący pierwotnym ogniem.`
 
 			scene "scene/ranger baker"
 
-			`	And then the light intensifies again as the brief moment of clarity is unmade, the ball of atomic fire expanding and burning brighter as the plasma cools and becomes transparent once more. Your glimpse into its heart is broken as the planet's ice, flashed into incandescent vapor, shrouds it in a column of mundane fire.`
-			`	In the space of a breath the chained heart of a star fades to a mere city-sized ball of flame.`
+			`	A potem światło znów się nasila, gdy krótka chwila jasności zostaje przerwana, kula atomowego ognia rozszerza się i płonie jaśniej, gdy plazma stygnie i znów staje się przezroczysta. Twój rzut oka w jej serce zostaje przerwany, gdy lód planety, rozbłyskając w rozżarzoną parę, spowija ją kolumną przyziemnego ognia.`
+			`	W przeciągu jednego oddechu skrępowane serce gwiazdy zmienia się w płomienną kulę wielkości miasta.`
 			choice
-				`	"Incredible."`
-				`	"Terrifying."`
+				`	"Niesamowite."`
+				`	"Przerażające."`
 
-			`	"Contemplation. Indeed it is." You turn and see Aliza watching the fireball with you, along with a few others. The rest are dutifully staring at instrument readouts and sensor logs, collecting whatever esoteric knowledge they sought to gain from this test.`
+			`	"Kontemplacja. Istotnie." Odwracasz się i widzisz Alizę obserwującą kulę ognia razem z tobą i kilkoma innymi osobami. Reszta pilnie wpatruje się w odczyty instrumentów i rejestry czujników, zbierając wszelką ezoteryczną wiedzę, którą chcieli zdobyć podczas tego testu.`
 			choice
-				`	"So, how did it go?"`
-				`	"What were you trying to learn from this?"`
+				`	"No i jak poszło?"`
+				`	"Czego chciałeś się z tego dowiedzieć?"`
 
-			`	"Enthusiasm. The point of this wasn't in the actual bomb - it's an old, reliable design with plenty of heritage, so we know how it works. Rather, we used it essentially as a giant x-ray source to drive a dozen other experiments. That's pretty common in nuclear testing, actually, since experiments that could benefit from a nuke are far more common than new designs that need to be tested. Most of the experiments we ran today were nuclear-driven accelerator tests, using the energy of the explosion to drive a particle beam. Just the laboratory scale for now, but we hope to scale it up into a proper weapon at some point," she says, looking proud.`
+			`	"Enthusiasm. Nie chodziło o samą bombę - to stara, niezawodna konstrukcja z bogatym dziedzictwem, więc wiemy, jak działa. Użyliśmy jej zasadniczo jako gigantycznego źródła promieniowania rentgenowskiego do napędzania kilkunastu innych eksperymentów. To dość powszechne w testach jądrowych, ponieważ eksperymenty, które mogłyby skorzystać z broni jądrowej, są znacznie częstsze niż nowe projekty wymagające testów. Większość eksperymentów, które przeprowadziliśmy dzisiaj, to testy z akceleratorem napędzanym energią jądrową, wykorzystujące energię eksplozji do napędzania wiązki cząstek. Na razie tylko w skali laboratoryjnej, ale mamy nadzieję, że w pewnym momencie uda nam się ją przeskalować do postaci prawdziwej broni - mówi z dumą.`
 			choice
-				`	"That's impressive."`
+				`	"To robi wrażenie."`
 					goto return
-				`	"I didn't know you could use nuclear weapons that way."`
+				`	"Nie wiedziałem, że można w ten sposób używać broni jądrowej."`
 
-			`	"Oh, that's just scratching the surface. Just using them as a simple bomb is a bit of a waste really, you can use them to drive all sorts of lasers and particle beams, and even kinetics if you know what you're doing. You can push their effective range way up there with the right methods."`
+			`	"Och, to dopiero początek. Używanie ich jako zwykłej bomby to trochę marnotrawstwo, można ich używać do napędzania wszelkiego rodzaju laserów i wiązek cząsteczkowych, a nawet kinetyki, jeśli wiesz, co robisz. Można znacznie zwiększyć ich efektywny zasięg, stosując odpowiednie metody."`
 			choice
-				`	"Making nuclear weapons more dangerous is almost scary to think about."`
-				`	"That all sounds very interesting. And useful against the Aberrant, too."`
+				`	"Myśl o tym, że broń jądrowa stanie się jeszcze bardziej niebezpieczna, jest aż przerażająca."`
+				`	"To wszystko brzmi bardzo interesująco. I przydatne również przeciwko Aberrantom."`
 
 			label return
-			`	"Yes, yes it is," she says. "Now, would you mind giving me a ride back up to Ergastirio, question?"`
+			`	"Tak, tak jest, " mówi. "A teraz, czy mógłbyś mnie podwieźć z powrotem do Ergastirio, pytanie?"`
 			choice
-				`	"Sure."`
+				`	"Pewnie."`
 					accept
-				`	"No."`
+				`	"Nr"`
 					decline
 
 	on complete
 		log "Minor People" "Yinmn" `Yinmn to specjalista ds. bezpieczeństwa, który dba o bezpieczeństwo materiałów jądrowych i chroni je przed niepowołanymi rękami. Najwyraźniej odnosi w tym spore sukcesy.`
 		conversation
-			`	You drop off Aliza near the same place you met her, in the main concourse. It's rather more full than last time, with a veritable crowd moving through the room, probably fresh off a transport ship. Aliza seems to spot someone she recognizes. Waving, she drags you over to a dark blue Avgi in dark, steel gray clothing.`
-			`	"This is my colleague, Yinmn," she says. "And this is Captain <first> <last>."`
-			`	"Greetings. Hey there. I work in the accounting section for Ergastirio. And you're of course Captain <last>, the alien everyone's been talking about."`
+			`	Wysadzasz Alizę w tym samym miejscu, w którym ją poznałeś, w holu głównym. Jest tam znacznie ciaśniej niż ostatnio, a przez pomieszczenie przetacza się prawdziwy tłum, prawdopodobnie prosto ze statku transportowego. Aliza zdaje się dostrzegać kogoś, kogo rozpoznaje. Machając, ciągnie cię do ciemnoniebieskiego Avgi w ciemnoszarym, stalowym ubraniu.`
+			`	"To mój kolega, Yinmn," mówi. "A to kapitan <first> <last>."`
+			`	"Witam. Cześć. Pracuję w dziale księgowości w Ergastirio. A ty oczywiście jesteś Kapitanem <last>, tym kosmitą, o którym wszyscy mówią."`
 			choice
-				`	"Huh, what do you do there?"`
+				`	"Huh, co tam robisz?"`
 					goto skip
-				`	"Accounting? That's an odd job for a lab."`
+				`	"Księgowość? To dziwna robota dla laboratorium."`
 
-			`	Yinmn hums with laughter. "Amusement, not that kind of accounting. I account for nuclear materials, not credits. We have to make sure every last drop of fissiles that could be used to make a bomb is kept secure. Not only for security reasons, but because it's extremely valuable out here in the Outer Limits. Not many of the heavier elements out here, sadly, and we've been having issues with shortages lately. It only takes a few kilos to make a bomb, but we do go through a lot of them..."`
+			`	Yinmn śmieje się ze śmiechu. "Amusement, nie takie rozliczenie. Ja liczę materiały jądrowe, a nie kredyty. Musimy dopilnować, żeby każda kropla materiału rozszczepialnego, która mogłaby zostać użyta do budowy bomby, była bezpieczna. Nie tylko ze względów bezpieczeństwa, ale dlatego, że jest niezwykle cenna tutaj, na Outer Limits. Niestety, niewiele tu cięższych pierwiastków, a ostatnio mamy problemy z niedoborami. Do wytworzenia bomby potrzeba tylko kilku kilogramów, ale zużywamy ich sporo... "`
 				goto dissonance
 
 			label skip
-			`	"Explanation. I account for nuclear materials, not credits. We have to make sure every last drop of fissiles that could be used to make a bomb is kept secure. Not only for security reasons, but because it's extremely valuable out here in the Outer Limits. Not many of the heavier elements out here, sadly, and we've been having issues with shortages lately. It only takes a few kilos to make a bomb, but we do go through a lot of them..."`
+			`	"Wyjaśnienie. Biorę pod uwagę materiały jądrowe, a nie kredyty. Musimy dopilnować, aby każda kropla materiału rozszczepialnego, która mogłaby zostać użyta do budowy bomby, była bezpieczna. Nie tylko ze względów bezpieczeństwa, ale dlatego, że jest niezwykle cenna tutaj, w Outer Limits. Niestety, niewiele tu cięższych pierwiastków, a ostatnio mamy problemy z ich niedoborami. Do wytworzenia bomby potrzeba tylko kilku kilogramów, ale zużywamy ich naprawdę dużo..."`
 
 			label dissonance
-			`	Aliza chimes in. "And a lot of people, especially certain elements in the Dissonance, would like to get their hands on some of our stockpile of fissile materials. We do quite a bit of mining, and have an impressive amount of breeder reactors running on fusion neutrons, so the amount of material being circulated at any given moment is quite high. Yinmn could tell you a lot of stories about the piracy that goes on with that supply chain."`
-			`	Yinmn taps his arms together. "Heh, but we'd be here for days, amusement. I'll just leave it at this: our convoys are often trailed by 'merchants' apparently making supply runs to secure facilities. Those are the worst, not the members of the Dissonance themselves, but the ones who hide their sympathies and feign loyalty to the Consonance."`
+			`	Aliza się wtrąca. "Wiele osób, zwłaszcza pewne elementy Dissonance, chciałoby zdobyć część naszych zapasów materiałów rozszczepialnych. Prowadzimy dość intensywne wydobycie i mamy imponującą liczbę reaktorów powielających, wykorzystujących neutrony fuzyjne, więc ilość materiałów w obiegu w dowolnym momencie jest dość duża. Yinmn mógłby opowiedzieć wiele historii o piractwie związanym z tym łańcuchem dostaw."`
+			`	Yinmn stuka rękami. "Heh, ale zostalibyśmy tu na całe dnie, rozbawienie. Zostawię to tak: za naszymi konwojami często ciągną się "kupcy", którzy najwyraźniej robią dostawy do zabezpieczonych obiektów. Oni są najgorsi, nie sami członkowie Dysonansu, ale ci, którzy ukrywają swoje współczucie i udają lojalność wobec Konsonansu."`
 			choice
-				`	"Wait, so do they have nukes too?"`
+				`	"Czekaj, czy oni też mają broń nuklearną?"`
 					goto proliferation
-				`	"Have you ever lost any nuclear material to them?"`
+				`	"Czy kiedykolwiek straciłeś z ich powodu jakiś materiał jądrowy?"`
 
-			`	"Pride. Not under my watch. But, well, I'm not exactly the only Accountant in the Consonance. So yes, material has gone missing before. Rarely through overt piracy, but usually because someone 'forgot' to record the true amount in a shipment, or because it was allocated to a captain that didn't really exist."`
+			`	"Pride. Nie pod moim nadzorem. Ale cóż, nie jestem jedynym księgowym w Consonance. Więc tak, materiały ginęły już wcześniej. Rzadko przez jawne piractwo, ale zazwyczaj dlatego, że ktoś "zapomniał" wpisać prawdziwą ilość w przesyłce albo dlatego, że została przydzielona kapitanowi, który tak naprawdę nie istniał."`
 				goto help
 
 			label proliferation
-			`	"Oh, of course they do. Even if they weren't stealing from us, which is risky but has an enormous potential payout, they have all the tools you'd need to breed or enrich fissile materials on their own, so no doubt do they have a stockpile of weapons themselves."`
+			`	"Oczywiście, że tak. Nawet gdyby nas nie okradali, co jest ryzykowne, ale ma ogromny potencjał zysku, dysponują wszystkimi narzędziami potrzebnymi do samodzielnej hodowli lub wzbogacania materiałów rozszczepialnych, więc bez wątpienia sami mają zapas broni."`
 				goto help
 
 			label help
 			choice
-				`	"Sounds like you could use some help with security."`
-				`	"Is there a way I could help escort those shipments?"`
+				`	"Wygląda na to, że przydałaby Ci się pomoc w kwestiach bezpieczeństwa."`
+				`	"Czy mogę jakoś pomóc w eskortowaniu tych przesyłek?"`
 
-			`	Yinmn thinks for a moment. "Consideration. Well, we usually have the Twilight Guard escort them, but with how thin they've been stretched lately, with those latest Aberrant incursions into the Tangled Shroud, any kind of relief would go a long way. I could look into whether you could be eligible to help with escort duties - as one of only a few aliens we've ever met, you could ironically be more trustworthy than just another random Avgi captain. Be on the lookout for opportunities on the job board, if I can make this work out."`
+			`	Yinmn zastanawia się przez chwilę. "Rozważanie. Cóż, zazwyczaj eskortuje ich Straż Zmierzchu, ale biorąc pod uwagę, jak bardzo są ostatnio przeciążeni, po ostatnich wtargnięciach Aberrantów na Splątany Całun, każda ulga byłaby bardzo pomocna. Mógłbym sprawdzić, czy mógłbyś pomóc w eskortowaniu - jako jeden z niewielu kosmitów, jakich kiedykolwiek spotkaliśmy, ironicznie mógłbyś być bardziej godny zaufania niż kolejny przypadkowy kapitan Avgi. Wypatruj ofert pracy na tablicy ogłoszeń, jeśli uda mi się to załatwić."`
 			action
 				set "avgi: nuclear material transport jobs"
 			choice
-				`	"I will."`
-				`	"Sounds good."`
+				`	"Zrobię to."`
+				`	"Brzmi dobrze."`
 
-			`	"Appreciation. Well, it was a pleasure to meet you, <first>, but I've got to go start analyzing the data from the test," Aliza says. "If you're ever around Ergastirio or Dokimi, feel free to stop by and chat. I'm sure we'll see more of each other in the future."`
+			`	"Dzięki. Miło było Cię poznać, <first>, ale muszę zacząć analizować dane z testu, " mówi Aliza. "Jeśli będziesz kiedyś w pobliżu Ergastirio lub Dokimi, śmiało wpadnij i pogadajmy. Jestem pewna, że będziemy się częściej widywać w przyszłości. "`

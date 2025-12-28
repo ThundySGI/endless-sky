@@ -379,10 +379,10 @@ mission "Remnant: Rescue"
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>.`
+			`<CN-17204>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -444,15 +444,15 @@ mission "Remnant: Rescue 1B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`<CN-17206>`
 	on complete
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`<CN-17207>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -490,10 +490,10 @@ mission "Remnant: Rescue 2"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, along with a brief note of thanks.`
+			`<CN-17208>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -524,15 +524,15 @@ mission "Remnant: Rescue 2B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`<CN-17206>`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`<CN-17207>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -568,10 +568,10 @@ mission "Remnant: Rescue 3"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, and also a thank you from the captain of the <npc>.`
+			`<CN-17209>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -602,15 +602,15 @@ mission "Remnant: Rescue 3B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`<CN-17206>`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`<CN-17207>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`<CN-17205>`
 
 
 
@@ -643,11 +643,11 @@ mission "Remnant: Rescue 4"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Upon landing, the captain of the <npc> meets you at your ship to thank you personally for rescuing them from the Graveyard, leaving you with a heartfelt sentence: "May the Embers burn bright for you."`
-			`	Soon after, your communicator notifies you of a resource allocation of <payment>.`
+			`<CN-17210>`
+			`<CN-17211>`
 	on visit
 		dialog
-			`You have returned, yet the <npc> has not.`
+			`<CN-17212>`
 
 
 
@@ -676,10 +676,10 @@ mission "Remnant: Rescue 5"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Worried that they would never see the Embers again, the captain of the <npc> personally thanks you for bringing them home, even before your communicator notifies you of a resource allocation of <payment>.`
+			`<CN-17213>`
 	on visit
 		dialog
-			`You have returned, but there is still no word from the missing ship.`
+			`<CN-17214>`
 
 
 mission "Remnant: Disable 1"

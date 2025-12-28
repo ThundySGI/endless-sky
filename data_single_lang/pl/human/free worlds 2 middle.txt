@@ -29,19 +29,19 @@ mission "FW Diplomacy 1"
 		event "fw abandoned Greenrock" 60
 		event "Greenrock recovered" 420
 		conversation
-			`As you are landing, you receive a message from JJ, on behalf of the Council. The message reads:`
+			`Podczas lądowania otrzymujesz wiadomość od JJ w imieniu Rady. Treść wiadomości brzmi:`
 			branch suspended
 				or
 					has "FW Pirates 4.1: offered"
 					has "event: fw stripped of service"
-			`	Captain <last>, sorry that we have been out of contact. We need your help once again, to assist in a diplomatic mission. Please meet up with Alondo on <planet> as soon as possible. He will give you more information.`
+			`	Kapitanie <last>, przepraszamy, że straciliśmy kontakt. Ponownie potrzebujemy Twojej pomocy w misji dyplomatycznej. Prosimy o jak najszybsze spotkanie z Alondo na <planet>. Przekaże Ci więcej informacji.`
 				goto end
 			
 			label suspended
-			`	Captain <last>. Your suspension from the Free Worlds has just ended. The Senate is still not happy with what you did, and has therefore not reinstated your pay, but they have allowed you to continue working for us. Don't cause any more issues and you'll regain your pay. Please meet up with Alondo on <planet> as soon as possible. He will give you more information.`
+			`	Kapitanie <last>. Twoje zawieszenie w Wolnych Światach właśnie się zakończyło. Senat nadal nie jest zadowolony z twojego zachowania i dlatego nie przywrócił ci wynagrodzenia, ale pozwolił ci nadal dla nas pracować. Nie sprawiaj więcej problemów, a odzyskasz swoje wynagrodzenie. Proszę spotkać się z Alondo w dniu <planet> jak najszybciej. Przekaże ci więcej informacji.`
 			label end
-			`			Sincerely,`
-			`				Jean-Jacques and Freya`
+			`			Z poważaniem,`
+			`				Jean-Jacques i Freya`
 				accept
 	
 	on complete
@@ -65,34 +65,34 @@ mission "FW Diplomacy 1B"
 	
 	on offer
 		conversation
-			`You meet up with Alondo, who insists on not telling you anything until you are safely back aboard your own ship. Once you have brought him to his room, he says, "Here's the deal. The Senate has been secretly reaching out to other worlds, and four of them have decided to join us: Harmony, New Portland, Dancer, and New India."`
+			`Spotykasz się z Alondo, który upiera się, że nie powie ci nic, dopóki nie wrócisz bezpiecznie na swój statek. Kiedy już zaprowadzisz go do jego pokoju, mówi: "Umowa jest taka. Senat potajemnie kontaktuje się z innymi planetami i cztery z nich postanowiły do nas dołączyć: Harmony, New Portland, Dancer i New India."`
 			choice
-				`	"That's great news!"`
-				`	"Why haven't I heard of this yet?"`
+				`	"To wspaniała wiadomość!"`
+				`	"Dlaczego jeszcze o tym nie słyszałem?"`
 					goto heard
-			`	"Indeed it is," says Alondo. "Any worlds joining us would be reason to celebrate, but these four are particularly important because they are on the trade route to Tarazed. If we control those systems, our supply convoys will be much safer."`
-			`	"Why isn't this public knowledge yet?" you ask.`
+			`	"Rzeczywiście, " mówi Alondo. "Dołączenie do nas każdego świata byłoby powodem do świętowania, ale te cztery są szczególnie ważne, ponieważ leżą na szlaku handlowym do Tarazed. Jeśli będziemy kontrolować te systemy, nasze konwoje z zaopatrzeniem będą znacznie bezpieczniejsze."`
+			`	"Dlaczego to jeszcze nie jest wiedzą powszechną?" pytasz.`
 			label heard
-			`	"Well," says Alondo, "apparently the Senate was not being as secretive as they thought. Somehow word leaked out to the Republic that those worlds were defecting, and a massive Navy fleet moved to occupy those systems. Which means we're on the brink of another bloody battle."`
+			`	"Cóż," mówi Alondo, "najwyraźniej Senat nie był tak skryty, jak mu się wydawało. W jakiś sposób do Republiki przedostała się wieść, że te planety dezerterują i potężna flota marynarki wojennej ruszyła, by zająć te systemy. Co oznacza, że stoimy u progu kolejnej krwawej bitwy."`
 			choice
-				`	"Don't worry, I'm sure we can defeat them."`
+				`	"Nie martw się, jestem pewien, że możemy ich pokonać."`
 					goto defeat
-				`	"Is there any way to avoid a fight?"`
+				`	"Czy istnieje sposób na uniknięcie walki?"`
 					goto avoid
 			label defeat
-			`	"I'm sure we can," says Alondo, "but with heavy loss of life on both sides. We want to avoid that if at all possible. That's where you come in."`
+			`	"Jestem pewien, że możemy, " mówi Alondo, "ale z dużymi stratami w ludziach po obu stronach. Chcemy tego uniknąć, jeśli to w ogóle możliwe. Tu wkraczacie Wy."`
 				goto plan
 			label avoid
-			`	"That's what we're hoping," he says, "and that's where you come in."`
+			`	"Właśnie na to liczymy," mówi, "i tu właśnie pojawiacie się Wy."`
 				goto plan
 			label plan
-			`	"How so?" you ask.`
-			`	He says, "We've arranged for you to be granted safe passage through Republic space for the next three weeks. That's enough time to bring me to Earth and back. If I can meet with Parliament in person, maybe I will be able to work something out."`
+			`	"Jak to?" pytasz.`
+			`	Mówi: "Zapewniliśmy ci bezpieczny przelot przez przestrzeń Republiki przez następne trzy tygodnie. To wystarczająco dużo czasu, żeby sprowadzić mnie na Ziemię i z powrotem. Jeśli uda mi się spotkać z Parlamentem osobiście, może uda mi się coś wykombinować."`
 			choice
-				`	"Okay, let's go to Earth!"`
+				`	"Okej, chodźmy na Ziemię!"`
 					accept
-				`	"How do we know this isn't a trap? You're willing to risk your life for this?"`
-			`	"If we can save thousands of lives from being lost in a needless battle, it's worth the risk," he says. "Now come on, the clock is ticking. We need to be safely back in Free space before your safe passage expires."`
+				`	"Skąd wiemy, że to nie pułapka? Jesteś gotów ryzykować dla tego życie?"`
+			`	"Jeśli możemy uratować tysiące istnień ludzkich przed śmiercią w niepotrzebnej bitwie, warto zaryzykować, " mówi. "No dalej, czas ucieka. Musimy bezpiecznie wrócić do Wolnej Przestrzeni, zanim twoje bezpieczne przejście wygaśnie. "`
 				accept
 	
 	on accept
@@ -119,25 +119,25 @@ mission "FW Diplomacy 1C"
 	on offer
 		log "Zatrzymałem się na Ziemi z Alondo, aby porozmawiać z Parlamentem i spróbować zapobiec kolejnej krwawej bitwie. Niestety, nie byli skłonni do negocjacji."
 		conversation
-			`You drop off Alondo and wish him luck. Hours pass, and you begin to worry that he has been taken prisoner or killed. But finally he returns, looking very discouraged. "It makes no sense," he says. "The tax revenue they get from those four worlds doesn't come close to covering the cost of defending them. They should be glad to let them go."`
+			`Wysadzasz Alondo i życzysz mu powodzenia. Mijają godziny i zaczynasz się martwić, że został wzięty do niewoli lub zabity. W końcu jednak wraca, wyglądając na bardzo zniechęconego. "To nie ma sensu, " mówi. "Przychody z podatków, które pobierają z tych czterech planet, nawet w przybliżeniu nie pokrywają kosztów ich obrony. Powinni się cieszyć, że ich wypuścili. "`
 			choice
-				`	"So, Parliament won't give up those worlds without a fight?"`
+				`	"Czyli Parlament nie odda tych światów bez walki?"`
 					goto fight
-				`	"Maybe they're afraid of the precedent it would set if they give in to us."`
+				`	"Może boją się precedensu, jaki by to stworzyło, gdyby się nam poddali."`
 					goto precedent
 			label fight
-			`	"That's right," he says. "Amazing how heedless they can be, sitting in their comfy Parliament house deciding the fates of others."`
+			`	"Zgadza się," mówi. "Niesamowite, jak nieuważni potrafią być, siedząc w swoim wygodnym parlamencie i decydując o losie innych."`
 				goto next
 			label precedent
-			`	"Yes, that seems to be what's at stake," he says. "But by now they should see the writing on the wall. Amazing how callous they can be about the lives of the Navy crews who are following their orders."`
+			`	"Tak, wygląda na to, że o to właśnie chodzi, " mówi. "Ale powinni już widzieć, co się stanie. Niesamowite, jak bezdusznie potrafią traktować życie załóg marynarki wojennej, które wykonują ich rozkazy. "`
 			label next
-			`	"So, we just head home in defeat?" you ask.`
-			`	"Not quite," he says. "While we have the chance, I want to talk with the Navy leadership directly. Landing near the secret base on New Austria would be way too provocative, so I've arranged to meet with them on their base on <planet> instead."`
+			`	"Więc po prostu wracamy do domu pokonani?" pytasz.`
+			`	"Nie do końca, " mówi. "Skoro mamy okazję, chcę porozmawiać bezpośrednio z dowództwem Marynarki Wojennej. Lądowanie w pobliżu tajnej bazy na Nowej Austrii byłoby zbyt prowokacyjne, więc umówiłem się z nimi na spotkanie w ich bazie na <planet>."`
 			choice
-				`	"Okay, if that's what it takes to avoid another bloody battle, I'll take you there."`
+				`	"Okej, jeśli to jest konieczne, żeby uniknąć kolejnej krwawej bitwy, to zabiorę cię tam."`
 					accept
-				`	"Are you insane? Flying straight into the largest Navy base in the sector?"`
-			`	"Don't worry," he says. "The Navy takes honor very seriously. If they promise our safety, we'll be safe. At least until that grant of safe passage expires, that is." You have serious doubts, but you have no choice but to obey him.`
+				`	"Czy ty oszalałeś? Lecisz prosto na największą bazę marynarki wojennej w sektorze?"`
+			`	"Nie martw się, " mówi. "Marynarka traktuje honor bardzo poważnie. Jeśli obiecają nam bezpieczeństwo, będziemy bezpieczni. Przynajmniej do czasu wygaśnięcia tego pozwolenia na bezpieczny przelot. " Masz poważne wątpliwości, ale nie masz innego wyboru, jak tylko go posłuchać.`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Alondo jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -158,10 +158,10 @@ mission "FW Diplomacy 1D"
 	
 	on offer
 		conversation
-			`When you land on <origin>, Alondo says, "You should join me for this meeting. You may find it eye-opening."`
-			`	Four of the Navy admirals who are stationed here have agreed to meet with you. You discover that one of them is from the Dirt Belt. Another grew up in the Rim, and admits to you that if he were not serving the Navy, he would be fighting for the Free Worlds. All four of them seem sympathetic to your cause, and express genuine regret not just for the Navy lives that have been lost, but for the Free Worlds losses as well.`
-			`	And all four of them state, without any hesitation or equivocation, that if Parliament orders them to continue to fight the Free Worlds, they will fight until all possibility of victory is gone.`
-			`	Alondo thanks them for their time and their honesty, and you return to your ship. "Well, it was worth a try. Now we just have to get home safely," he says.`
+			`Kiedy wylądujesz na <origin>, Alondo mówi: "Powinieneś dołączyć do mnie na tym spotkaniu. Może ci się to okazać odkrywcze."`
+			`	Czterech stacjonujących tu admirałów Marynarki Wojennej zgodziło się z tobą spotkać. Odkrywasz, że jeden z nich pochodzi z Pasa Ziemi. Drugi dorastał w Rubieżach i przyznaje, że gdyby nie służył w Marynarce Wojennej, walczyłby za Wolne Światy. Wszyscy czterej zdają się sympatyzować z twoją sprawą i wyrażają szczery żal nie tylko z powodu straconych istnień w Marynarce Wojennej, ale także z powodu strat poniesionych przez Wolne Światy.`
+			`	I wszyscy czterej bez wahania i dwuznaczności oświadczają, że jeśli Parlament nakaże im kontynuować walkę z Wolnymi Światami, będą walczyć, dopóki nie wygaśnie wszelka możliwość zwycięstwa.`
+			`	Alondo dziękuje im za poświęcony czas i uczciwość, a ty wracasz na swój statek. "Cóż, warto było spróbować. Teraz musimy tylko bezpiecznie wrócić do domu, " mówi.`
 				accept
 	
 	on visit
@@ -189,8 +189,8 @@ mission "FW Southern Recon 1"
 	on offer
 		event "fw safe passage ends"
 		conversation
-			`Alondo and JJ are in a somber mood when you meet up with them in the bar. You can't help remembering that Tomek always used to be a part of these gatherings, before he turned against the Senate. And now it looks like your next major battle will be fought without Tomek's expert guidance.`
-			`	JJ says, "We've done all we can. Sooner or later we will have to fight the Navy for those star systems. So to start with, <first>, we'd like you to scout them out and report back to us on the Navy's presence there. Freya is on Trinket, gathering a fleet. Report to her there when you're done."`
+			`Alondo i JJ są w ponurym nastroju, kiedy spotykasz się z nimi w barze. Nie możesz przestać pamiętać, że Tomek zawsze brał udział w tych spotkaniach, zanim zwrócił się przeciwko Senatowi. A teraz wygląda na to, że twoja kolejna ważna bitwa zostanie stoczona bez fachowego wsparcia Tomka.`
+			`	JJ mówi: "Zrobiliśmy wszystko, co w naszej mocy. Prędzej czy później będziemy musieli walczyć z Marynarką Wojenną o te systemy gwiezdne. Więc na początek, <first>, chcielibyśmy, żebyś je zbadał i poinformował nas o obecności Marynarki Wojennej. Freya jest na Trinket i zbiera flotę. Zgłoś się do niej, kiedy skończysz."`
 				accept
 	on visit
 		dialog phrase "generic waypoint on visit"
@@ -212,27 +212,27 @@ mission "FW Southern Recon 1B"
 	on offer
 		log "Wygląda na to, że Marynarka Wojenna zaczęła używać potężniejszej broni wiązkowej i torped. Zadaniem jest splądrowanie jednej z broni wiązkowej, aby Freya mogła się jej bliżej przyjrzeć."
 		conversation
-			`Freya thanks you for performing the scouting mission, and you give her a copy of your ship's logs to analyze. As she looks through them, almost immediately something catches her eye. "Looks like the Navy is fielding some new weapons," she says. "Some higher-yield torpedoes, and a beam weapon even more powerful than Heavy Lasers. Those beam weapons in particular worry me."`
+			`Freya dziękuje ci za wykonanie misji zwiadowczej, a ty dajesz jej kopię dziennika pokładowego do analizy. Przeglądając go, niemal natychmiast coś przykuwa jej uwagę. "Wygląda na to, że Marynarka Wojenna wprowadza nową broń, "mówi. "Kilka torped o większej mocy i broń wiązkową jeszcze potężniejszą niż ciężkie lasery. Szczególnie martwi mnie ta broń wiązkowa. "`
 			choice
-				`	"Yes, that kind of negates the advantage I was hoping we'd have due to our new plasma turrets."`
-				`	"Does that mean we're not going to attack them after all?"`
+				`	"Tak, to w pewnym sensie niweczy przewagę, którą miałem nadzieję zyskać dzięki naszym nowym wieżyczkom plazmowym."`
+				`	"Czy to oznacza, że jednak ich nie zaatakujemy?"`
 					goto attack
-			`	"Well," she says, "the Plasma Turrets weren't the only ace up our sleeve, but still, it's frustrating that the Navy still has such an advantage over us technologically."`
-			`	"What should we do?" you ask.`
+			`	"Cóż," mówi, "wieżyczki plazmowe nie były naszym jedynym asem w rękawie, ale mimo wszystko frustrujące jest to, że Marynarka Wojenna nadal ma nad nami tak dużą przewagę technologiczną."`
+			`	"Co powinniśmy zrobić?" pytasz.`
 			label attack
-			`	"We're going to have to fight them eventually, but first we need as much information as we can get on their new weapon systems. I'd like you to find one of their Gunboats that has the new electron beams installed, steal one of them, and bring it back here. I imagine one of them can't be much bigger than twenty or thirty tons, so you ought to be able to find space for it. Think you can do that?"`
+			`	"W końcu będziemy musieli z nimi walczyć, ale najpierw potrzebujemy jak najwięcej informacji o ich nowych systemach uzbrojenia. Chciałbym, żebyś znalazł jedną z ich kanonierek z zainstalowanymi nowymi wiązkami elektronów, ukradł jedną i przywiózł ją tutaj. Wyobrażam sobie, że jedna z nich nie może ważyć więcej niż dwadzieścia lub trzydzieści ton, więc powinieneś znaleźć dla niej miejsce. Myślisz, że dasz radę?"`
 			choice
-				`	"How can I find a Gunboat that's all by itself? They're usually a part of a bigger fleet."`
-				`	"I already plundered one of these new guns previously. I can give it to you now."`
+				`	"Jak mogę znaleźć samotną kanonierkę? Zazwyczaj są częścią większej floty."`
+				`	"Już wcześniej zrabowałem jedną z tych nowych broni. Mogę ci ją teraz dać."`
 					goto gun
 					to display
 						has "outfit: Electron Beam"
-				`	"I already plundered one of these new turrets previously. I can give it to you now."`
+				`	"Już wcześniej splądrowałem jedną z tych nowych wieżyczek. Mogę ci ją teraz dać."`
 					goto turret
 					to display
 						has "outfit: Electron Turret"
 			
-			`	She thinks about that for a moment, then says, "The Navy has shifted most of their capital ships to the defecting systems in the south. That means that some of the systems up north will have lighter defenses. You might try Wei or Alnasl. Good luck, Captain."`
+			`	Zastanawia się nad tym przez chwilę, po czym mówi: "Marynarka przeniosła większość swoich okrętów flagowych do systemów defensywnych na południu. To oznacza, że niektóre systemy na północy będą miały słabszą obronę. Możesz spróbować Wei lub Alnasl. Powodzenia, Kapitanie."`
 				accept
 			
 			label gun
@@ -247,8 +247,8 @@ mission "FW Southern Recon 1B"
 				set "FW Southern Recon 1B (Turret): done"
 			
 			label end
-			`	"Oh! That's great to hear. I'll get my team to take it off your hands right away."`
-			`	You hand off the weapon to Freya's science team once they arrive. Freya tells you that she'll be waiting for you in a cafe in the spaceport after she's had a chance to look at it more closely.`
+			`	"Och! To wspaniale słyszeć. Zaraz poproszę mój zespół, żeby ci to przejął."`
+			`	Przekazujesz broń zespołowi naukowemu Frei po ich przybyciu. Freya mówi ci, że będzie na ciebie czekać w kawiarni w porcie kosmicznym, gdy tylko przyjrzy się jej bliżej.`
 				decline
 	on accept
 		event "gunboats in Alnasl"
@@ -306,16 +306,16 @@ mission "FW Southern Recon 1B: Alnasl Hint 1"
 		has "FW Southern Recon 1B: active"
 	on offer
 		conversation
-			`While refueling on <planet>, a Free Worlds captain approaches you. "Captain <last>, I hear you're on the search for one of those new lasers the Navy is using."`
+			`Podczas tankowania na <planet>, podchodzi do ciebie kapitan Wolnych Światów. "Kapitanie <last>, słyszałem, że szukasz jednego z tych nowych laserów, których używa Marynarka Wojenna."`
 			choice
-				`	"Yes, I am."`
-				`	"Do you have any information on them?"`
+				`	"Tak, jestem."`
+				`	"Czy masz jakieś informacje na ich temat?"`
 					goto information
-			`	"Good, because we have some information that could help you.`
+			`	"Dobrze, ponieważ mamy pewne informacje, które mogą ci pomóc.`
 			label information
-			`	"We've had to stop all scouting parties into Republic space because of the strength of these new weapons, so we're flying in the dark on where the Navy is, but luckily we have received word from sympathizers in the Dirt Belt. The Navy has gathered forces with these new weapons in Alioth and Seginus, frequently entering the Wei system.`
-			`	"They haven't been coming into Kornephoros, so they're likely just patrolling the area to dissuade us from making any sudden moves. This means that Wei likely isn't your best bet for stealing a weapon given the traffic, but I hear that things aren't much better beyond Lesath. I wish we had some ships to spare to help you, but we just don't have that kind of freedom right now."`
-			`	You thank the Captain for the information and he wishes you good luck.`
+			`	"Musieliśmy wstrzymać wszystkie wyprawy zwiadowcze w przestrzeń Republiki z powodu siły tej nowej broni, więc nie mamy pojęcia, gdzie jest Marynarka Wojenna, ale na szczęście otrzymaliśmy wieści od sympatyków z Pasa Ziemi. Marynarka zgromadziła siły z tą nową bronią w Alioth i Seginus, często wkraczając do układu Wei.`
+			`	"Nie wkraczają na Korneforos, więc prawdopodobnie patrolują okolicę, żeby nas odwieść od gwałtownych ruchów. To oznacza, że Wei raczej nie jest najlepszym kandydatem do kradzieży broni, biorąc pod uwagę ruch uliczny, ale słyszałem, że sytuacja poza Lesath niewiele się poprawia. Szkoda, że nie mamy wolnych statków, żeby wam pomóc, ale teraz po prostu nie mamy takiej swobody."`
+			`	Dziękujesz Kapitanowi za informację, a on życzy Ci powodzenia.`
 				decline
 
 
@@ -327,7 +327,7 @@ mission "FW Southern Recon 1B: Alnasl Hint 2"
 		has "FW Southern Recon 1B: active"
 	on offer
 		conversation
-			`You decide to scan the Navy ships entering and exiting the system by tapping into the surveillance rigs that you helped Freya set up so long ago. Many of the Navy ships are armed with these new Electron Beams, but they are appearing in fleets too big to take on alone. You notice though that almost all Navy traffic is to and from Alioth and Seginus, while only lone Gunboats are traveling to and from Alnasl. Perhaps you may be able to ambush one of these smaller ships on its own in Alnasl.`
+			`Postanowiłeś przeskanować statki Marynarki Wojennej wlatujące i wylatujące z układu, podłączając się do platform obserwacyjnych, które tak dawno temu pomogłeś Freyi skonfigurować. Wiele okrętów Marynarki Wojennej jest uzbrojonych w te nowe wiązki elektronów, ale pojawiają się one we flotach zbyt dużych, by poradzić sobie z nimi samodzielnie. Zauważasz jednak, że prawie cały ruch Marynarki Wojennej odbywa się do i z Alioth i Seginus, podczas gdy tylko samotne kanonierki pływają do i z Alnasl. Być może uda ci się samodzielnie zaatakować jeden z tych mniejszych statków w Alnasl.`
 				decline
 
 
@@ -348,24 +348,24 @@ mission "FW Southern Battle 1"
 	
 	on offer
 		conversation
-			`Because this world is a tourist destination, there are innumerable fancy cafes in the spaceport. You meet up with Freya in one of the smaller ones. "Thank you for acquiring that weapon sample for us," she says. "It's typical Republic weaponry: far more efficient than anything we're able to make, and very well designed. My engineers were kind of in awe as they disassembled it."`
+			`Ponieważ ten świat jest atrakcją turystyczną, w porcie kosmicznym jest niezliczona ilość eleganckich kawiarni. Spotykasz się z Freyą w jednej z mniejszych. "Dziękuję za zdobycie dla nas tej próbki broni, " mówi. "To typowa broń Republiki: o wiele wydajniejsza niż cokolwiek, co jesteśmy w stanie stworzyć, i bardzo dobrze zaprojektowana. Moi inżynierowie byli pod wrażeniem, gdy ją rozmontowywali. "`
 			choice
-				`	"Do you have any tactical advice on fighting ships with one of those installed?"`
+				`	"Czy masz jakieś taktyczne wskazówki dotyczące walki ze statkami, gdy jest zainstalowany jeden z nich?"`
 					goto advice
-				`	"Is there any chance we can reverse engineer it and build our own?"`
+				`	"Czy istnieje szansa, żebyśmy mogli przeprowadzić inżynierię wsteczną i zbudować własną wersję?"`
 					goto reverse
 			label advice
-			`	"Well," she says, "its range is very slightly shorter than our Plasma Turrets. You might be able to use that to your advantage if you can position your ship just right so that you can hit an enemy target but they can't hit you. You may find that useful in the upcoming battle."`
+			`	"No cóż," mówi, "jego zasięg jest nieznacznie krótszy niż naszych wieżyczek plazmowych. Możesz to wykorzystać na swoją korzyść, ustawiając swój statek tak, aby móc trafić wrogi cel, ale on nie mógł trafić ciebie. Może ci się to przydać w nadchodzącej bitwie."`
 				goto battle
 			label reverse
-			`	"Maybe, although we haven't even mastered the art of building Heavy Lasers yet," she says. "We certainly won't have time before the upcoming battle."`
+			`	"Może, chociaż nie opanowaliśmy jeszcze sztuki budowy ciężkich laserów, " mówi. "Z pewnością nie będziemy mieli czasu przed nadchodzącą bitwą."`
 			label battle
-			`	"So we're definitely going to attack the Navy?" you ask.`
-			`	"We have no choice," she says. "We tried diplomacy. If we don't show a willingness to support new worlds that want to join us, or if we don't seem to have enough strength to defend them, some of those that have joined us already may start to return to the Republic."`
+			`	"Czyli na pewno zaatakujemy Marynarkę Wojenną?" pytasz.`
+			`	"Nie mamy wyboru, " mówi. "Próbowaliśmy dyplomacji. Jeśli nie okażemy chęci wsparcia nowych światów, które chcą do nas dołączyć, albo jeśli okaże się, że nie mamy wystarczająco dużo sił, by ich bronić, część z tych, które już do nas dołączyły, może zacząć wracać do Republiki."`
 			choice
-				`	"Okay, I'm ready to fight."`
-				`	"I wish it hadn't come to this, but if you think it's our only option, I'll join the fight."`
-			`	"Thank you," she says. "But there's one more thing we must do to prepare for battle. I mentioned before that we have an ace up our sleeve. It's a new warship designed by Southbound Shipyards, intended to be a match for a Cruiser. They've only finished building three of them. I'd like you to travel to Zug and escort them back here. Once you return, we'll prepare for battle."`
+				`	"Okej, jestem gotowy do walki."`
+				`	"Wolałbym, żeby do tego nie doszło, ale jeśli uważasz, że to nasza jedyna opcja, przyłączę się do walki."`
+			`	"Dziękuję," mówi. "Ale jest jeszcze jedna rzecz, którą musimy zrobić, żeby przygotować się do bitwy. Wspominałem już, że mamy asa w rękawie. To nowy okręt wojenny zaprojektowany przez Southbound Shipyards, mający dorównywać krążownikowi. Zbudowali dopiero trzy. Chciałbym, żebyś udał się do Zug i eskortował je tutaj. Po powrocie przygotujemy się do bitwy."`
 				accept
 
 
@@ -385,16 +385,16 @@ mission "FW Southern Battle 1B"
 	on offer
 		event "flamethrower available" 10
 		conversation
-			`When you land on <origin>, a Southbound Shipyards executive leads you to a hangar. The hangar is huge, but it clearly was not meant to hold a ship as large as the one it now contains. There is barely enough space for the cranes and catwalks being used by the construction crews.`
-			`	"The Dreadnought is a new design, the largest ship we've ever built. Only three of them have been completed so far." The size of the Dreadnought is impressive: as bulky as a Cruiser, it looks like a cross between a Bastion and an Argosy freighter. After giving you a moment to take in the view, he leads you out to a section of the spaceport where three Dreadnoughts are parked. Next to them, and looking tiny by comparison, are five Furies. You ask, "Are those Furies part of the battle fleet, too?"`
+			`Gdy wylądujesz na <origin>, kierownik Southbound Shipyards zaprowadzi cię do hangaru. Hangar jest ogromny, ale ewidentnie nie był przeznaczony do przechowywania tak dużego statku, jak ten, który się w nim znajduje. Ledwo wystarcza miejsca na dźwigi i pomosty używane przez ekipy budowlane.`
+			`	"Dreadnought to nowy projekt, największy statek, jaki kiedykolwiek zbudowaliśmy. Do tej pory ukończono tylko trzy z nich." Rozmiar Dreadnoughta jest imponujący: masywny jak krążownik, wygląda jak skrzyżowanie Bastionu z frachtowcem Argosy. Po chwili na podziwianie widoku, prowadzi cię do części kosmoportu, gdzie zaparkowane są trzy Dreadnoughty. Obok nich, wyglądające na maleńkie w porównaniu z nimi, stoi pięć Furii. Pytasz: "Czy te Furie też należą do floty bojowej?"`
 			branch untested
 				not "FW Flamethrower 2: done"
-			`	"Yes," he says, "equipped with some fancy new weapons from Barmy Edward up at Kraz Cybernetics that he said you helped test. I haven't seen them in action yet, but he's convinced they'll be useful against the Navy."`
+			`	"Tak," mówi, "wyposażony w nową, wypasioną broń od Barmy'ego Edwarda z Kraz Cybernetics, którą, jak twierdzi, pomagałeś testować. Jeszcze ich nie widziałem w akcji, ale jest przekonany, że będą przydatne przeciwko Marynarce Wojennej."`
 				goto end
 			label untested
-			`	"Yes," he says, "equipped with some fancy new weapons from Barmy Edward up at Kraz Cybernetics that he recently finished working on. He said they should be entering mass production soon. Flamethrowers, the crazy bastard. I haven't seen them in action yet, but he's convinced they'll be useful against the Navy."`
+			`	"Tak," mówi, "wyposażony w nową, wypasioną broń od Barmy'ego Edwarda z Kraz Cybernetics, nad którą niedawno zakończył pracę. Powiedział, że wkrótce powinny wejść do masowej produkcji. Miotacze ognia, ten szalony drań. Jeszcze ich nie widziałem w akcji, ale jest przekonany, że przydadzą się przeciwko Marynarce Wojennej."`
 			label end
-			`	You thank him for his time, and meet up with the captains of the battle fleet, arranging for them to follow you back to Trinket.`
+			`	Dziękujesz mu za poświęcony czas i spotykasz się z kapitanami floty wojennej, umawiając się, że pójdą za tobą z powrotem do Trinket.`
 				accept
 	
 	npc accompany save
@@ -448,13 +448,13 @@ mission "FW Southern Battle 2"
 		log "Przygotowujemy się do kolejnej wielkiej bitwy z Marynarką Wojenną, tym razem w systemie Rastaban, który niedawno wyraził zainteresowanie dołączeniem do Wolnych Światów, ale nie mógł tego zrobić z powodu obecności Marynarki Wojennej. Wolne Światy użyją w tej bitwie nowego modelu okrętu wojennego - Dreadnoughta."
 		event "battle for Rastaban"
 		conversation
-			`When you meet up with Freya in the cafe, she looks like she hasn't slept in several days. "I can't believe we're headed for another major battle," she says. "I keep hoping the Navy will just pull back and not force us to fight them."`
+			`Kiedy spotykasz Freyę w kawiarni, wygląda, jakby nie spała od kilku dni. "Nie mogę uwierzyć, że zmierzamy ku kolejnej wielkiej bitwie, " mówi. "Mam nadzieję, że Marynarka Wojenna po prostu się wycofa i nie zmusi nas do walki. "`
 			choice
-				`	"It doesn't seem likely that Parliament would allow that."`
-				`	"Yes, their sense of honor can be inspiring at times, but right now it's annoying."`
-			`	"Indeed," she says. "Although, based on what Alondo said, the Navy hinted that if we made such a show of force that there was no way they could win the battle, they could honorably choose to retreat. So, if they start trying to retreat, let them go. But I suspect it will be a difficult battle to win."`
-			`	"What's the battle plan?" you ask.`
-			`	"The fleet from Southbound Shipyards will be traveling with you," she says. "Other fleets with other commanders will be converging on Rastaban separately, at approximately the same time. So, you have no time to lose. You must travel directly to Rastaban from here, or else you will arrive too late to join in the fight. Good luck, captain."`
+				`	"Nie wydaje się prawdopodobne, aby Parlament na to zezwolił."`
+				`	"Tak, ich poczucie honoru czasami może być inspirujące, ale teraz jest irytujące."`
+			`	"Rzeczywiście," mówi. "Chociaż, sądząc po tym, co powiedział Alondo, Marynarka Wojenna zasugerowała, że jeśli zrobimy taki pokaz siły, że nie będą w stanie wygrać bitwy, mogą honorowo zdecydować się na odwrót. Więc jeśli zaczną próbować się wycofać, pozwólcie im. Ale podejrzewam, że to będzie trudna bitwa do wygrania."`
+			`	"Jaki jest plan bitwy?" pytasz.`
+			`	"Flota ze Stoczni Południowych będzie podróżować z wami, " mówi. "Inne floty z innymi dowódcami będą zbliżać się do Rastabanu osobno, mniej więcej w tym samym czasie. Nie macie więc czasu do stracenia. Musicie udać się stąd bezpośrednio do Rastabanu, inaczej dotrzecie za późno, by dołączyć do walki. Powodzenia, kapitanie. "`
 				accept
 	
 	npc
@@ -564,21 +564,21 @@ mission "FW Southern Battle 3"
 	on offer
 		log "Marynarka wojenna została wyparta z systemu Rastaban. To umożliwi mieszkańcom Harmony, Dancer, New Portland i New India dołączenie do Wolnych Światów."
 		conversation
-			`As soon as you land on <origin>, you contact Freya and let her know that the system is yours. "That's great news," she says. "Now we need to make sure they've pulled back from the neighboring systems, too. Take a few ships and sweep through Delta Sagittarii and Albaldah and make sure they're clear. Leave the rest of the fleet on Dancer to handle the prisoners and repairs."`
+			`Gdy tylko wylądujesz na <origin>, skontaktuj się z Freyą i daj jej znać, że system należy do ciebie. "To świetna wiadomość, " mówi. "Teraz musimy się upewnić, że wycofali się również z sąsiednich systemów. Weź kilka statków i przeszukaj Delta Sagittarii i Albaldah, upewniając się, że nic im nie grozi. Resztę floty zostaw na Dancer, żeby zajęła się więźniami i naprawami. "`
 			choice
-				`	"What should I do if I encounter Navy ships on my patrol?"`
+				`	"Co powinienem zrobić, jeśli na patrolu spotkam okręty marynarki wojennej?"`
 					goto patrol
-				`	"What are we going to do with the prisoners?"`
+				`	"Co zrobimy z więźniami?"`
 					goto prisoners
 			label patrol
-			`	"If they're fleeing, let them flee," she says, "but if you discover a strong Navy presence remaining in one of those systems, report back to Dancer before engaging them. Meanwhile, I'll ask Alondo to contact the Navy admirals and see if we can get Katya back in exchange for those prisoners."`
+			`	"Jeśli uciekają, pozwól im uciekać, " mówi, "ale jeśli odkryjesz silną obecność Marynarki Wojennej w jednym z tych układów, zgłoś się do Dancer, zanim ich zaatakujesz. Tymczasem poproszę Alondo, żeby skontaktował się z admirałami Marynarki Wojennej i sprawdził, czy możemy odzyskać Katyę w zamian za tych jeńców. "`
 				goto katya
 			label prisoners
-			`	"Well," she says, "my hope is that we can trade them for any of our people who have been captured so far in this war. Including Katya."`
+			`	"No cóż," mówi, "mam nadzieję, że uda nam się wymienić ich na każdego z naszych ludzi, którzy zostali pojmani w tej wojnie. W tym Katię."`
 				goto katya
 			label katya
-			`	"You think she's still alive?" you ask.`
-			`	"Certainly, and having this many Navy prisoners gives us a great bargaining chip for negotiating her freedom. Now, gather your patrol, and by the time you get back, I hope we will have arranged for her release."`
+			`	"Myślisz, że ona jeszcze żyje?" pytasz.`
+			`	"Oczywiście, a tak wielu jeńców marynarki daje nam silną kartę przetargową w negocjacjach o jej uwolnienie. A teraz zbierzcie swój patrol i mam nadzieję, że do czasu waszego powrotu uda nam się załatwić jej uwolnienie."`
 				accept
 	
 	npc
@@ -618,19 +618,19 @@ mission "FW Southern Prisoners - Release"
 	
 	on offer
 		conversation
-			`You find Freya and Alondo watching over a large hangar where several hundred Navy crew and support staff are being kept under guard. Alondo says, "I contacted the Navy admirals. They say Katya is not under their control; she is a prisoner of the Intelligence bureau, and arranging her release could take weeks. But they promised that if we return their prisoners now, they will ensure Katya's release and return her to us soon."`
+			`Freya i Alondo pilnują dużego hangaru, w którym pod strażą przetrzymywanych jest kilkuset członków załogi marynarki wojennej i personelu pomocniczego. Alondo mówi: "Skontaktowałem się z admirałami marynarki. Mówią, że Katya nie jest pod ich kontrolą; jest więźniem Biura Wywiadu, a zorganizowanie jej uwolnienia może zająć tygodnie. Obiecali jednak, że jeśli teraz oddamy ich więźniów, dopilnują uwolnienia Katyi i wkrótce ją nam odeślą."`
 			choice
-				`	"How do we know they won't break that promise?"`
-				`	"Why not just keep the prisoners until we have Katya back safely?"`
-			`	Freya sighs. "Alondo claims that the admirals value their honor so highly that we can trust their promise. I am not so sure. Even if the admirals do their best, what if Intelligence refuses to honor the deal we make?"`
-			`	Alondo says, "On the other hand, if we release these prisoners on parole as a gesture of good faith, it could bring us much closer to a diplomatic end to this war. Which would be far preferable to another battle as bloody as this one."`
-			`	Freya says, "And meanwhile, JJ is off on a top secret mission. And that means he's not available to consult with, and we need to make this decision now."`
-			`	"And since we cannot agree," says Alondo, "we are giving you the deciding vote."`
+				`	"Skąd wiemy, że nie złamią tej obietnicy?"`
+				`	"Dlaczego po prostu nie zatrzymamy więźniów, dopóki Katya nie wróci bezpiecznie?"`
+			`	Freya wzdycha. "Alondo twierdzi, że admirałowie tak bardzo cenią swój honor, że możemy zaufać ich obietnicom. Nie jestem tego taki pewien. Nawet jeśli admirałowie zrobią, co w ich mocy, co jeśli wywiad odmówi dotrzymania umowy, którą zawarliśmy?"`
+			`	Alondo mówi: "Z drugiej strony, jeśli zwolnimy tych więźniów warunkowo w geście dobrej woli, może to nas znacznie przybliżyć do dyplomatycznego zakończenia tej wojny. Co byłoby o wiele lepsze niż kolejna bitwa tak krwawa jak ta."`
+			`	Freya mówi: "A tymczasem JJ jest na ściśle tajnej misji. A to oznacza, że nie ma z nim możliwości konsultacji, a my musimy podjąć tę decyzję teraz."`
+			`	"A ponieważ nie możemy dojść do porozumienia," mówi Alondo, "oddajemy ci decydujący głos."`
 			choice
-				`	"What do you mean?"`
-			`	"We will be putting you in charge of the prisoner convoy," says Alondo, "and arranging a week of safe passage for you. If you think we should return the prisoners as a gesture of goodwill to improve our chances of a diplomatic end to this war, bring the convoy to <planet>."`
-			`	"But if you think we should hold on to the prisoners until we receive Katya safely back," says Freya, "bring the convoy to Clink. Understand?"`
-			`	It's a serious choice facing you, with no clear right decision. You thank them for trusting you, and begin preparations to escort the prisoners.`
+				`	"Co masz na myśli?"`
+			`	"Powierzymy ci dowództwo nad konwojem więźniów, " mówi Alondo, "i zorganizujemy dla ciebie tydzień bezpiecznej podróży. Jeśli uważasz, że powinniśmy zwrócić więźniów w geście dobrej woli, aby zwiększyć nasze szanse na dyplomatyczne zakończenie tej wojny, przyprowadź konwój do <planet>."`
+			`	"Ale jeśli uważasz, że powinniśmy trzymać więźniów, dopóki nie odzyskamy Katii bezpiecznie, " mówi Freya, "przyprowadź konwój do Clinka. Rozumiesz?"`
+			`	Stoisz przed poważnym wyborem, bez jasnej, właściwej decyzji. Dziękuje im za zaufanie i rozpoczyna przygotowania do eskortowania więźniów.`
 				accept
 	
 	on accept
@@ -690,13 +690,13 @@ mission "FW Southern Prisoners - Released"
 	
 	on offer
 		conversation
-			`<origin> has become the home of a major Navy base almost overnight; the number of ships and people here is almost overwhelming. You return the prisoners, who have all taken an oath of parole to take no further part in the war against the Free Worlds. One of the four Navy admirals who you and Alondo met with earlier is here, and as you are unloading the prisoners, he says, "More volunteers for the 'Oathkeepers,' I see."`
+			`<origin> niemal z dnia na dzień stała się siedzibą głównej bazy Marynarki Wojennej; liczba statków i ludzi jest tu wręcz przytłaczająca. Oddajesz więźniów, którzy złożyli przysięgę zwolnienia warunkowego, że nie będą już brać udziału w wojnie z Wolnymi Światami. Jeden z czterech admirałów Marynarki Wojennej, z którymi spotkaliście się wcześniej z Alondo, jest tutaj i kiedy wyładowujecie więźniów, mówi: "Widzę, że jest więcej ochotników do "Strażników Przysięgi".`
 			choice
-				`	"Who are the 'Oathkeepers'?"`
-			`	"The officers you granted parole to months ago. We reassigned them all to duty in the north, patrolling for pirates."`
-			`	"You mean they really do honor their promise not to fight us?" you ask.`
-			`	"Of course. They swore a vow, after all." You suspect it's not quite that simple, but decide that questioning this admiral's word would be pointless. As you are getting ready to leave, he says, "Don't worry, we will be returning Miss Reynolds to you shortly. The ship carrying her should arrive here in a week or two."`
-			`	You hope he is telling the truth. Now, it is time to meet with Freya and Alondo and decide what should be done next.`
+				`	"Kim są "Strażnicy Przysięgi"?"`
+			`	"Oficerowie, którym dałeś zwolnienie warunkowe miesiące temu. Wszystkich ich przenieśliśmy do służby na północy, patrolując w poszukiwaniu piratów."`
+			`	"Czyli naprawdę dotrzymują obietnicy, że nie będą z nami walczyć?" pytasz.`
+			`	"Oczywiście. W końcu złożyli przysięgę." Podejrzewasz, że to nie takie proste, ale uznajesz, że kwestionowanie słów tego admirała nie ma sensu. Gdy szykujesz się do odlotu, mówi: "Nie martw się, wkrótce oddamy ci pannę Reynolds. Statek, którym ją przewozimy, powinien tu dotrzeć za tydzień lub dwa."`
+			`	Masz nadzieję, że mówi prawdę. Czas spotkać się z Freyą i Alondo i zdecydować, co dalej.`
 				launch
 	
 	npc accompany save
@@ -733,7 +733,7 @@ mission "FW Southern Prisoners - Kept"
 	
 	on offer
 		conversation
-			`You drop off the prisoners at the mines of Clink, to be held until the Navy returns Katya to you. Now, it's time to meet with Freya and Alondo and decide what should be done next.`
+			`Wysadzasz więźniów w kopalniach Clink, gdzie będą przetrzymywani do czasu, aż Marynarka Wojenna zwróci ci Katyę. Teraz czas spotkać się z Freyą i Alondo i zdecydować, co dalej.`
 				accept
 	on complete
 		set "fw delivered prisoners"
@@ -753,22 +753,22 @@ mission "FW Southern Break"
 		event "Deep memorial expansion 1"
 		"salary: Free Worlds" >?= 2100
 		conversation
-			`You land on Dancer and report to Alondo and Freya that the prisoner transfer is complete. "What do we do now?" you ask.`
-			`	Freya says, "Well, I hope we're done with fighting for a while, now. We'll stay here to hold this system against any Navy retaliation. And, we'll keep hoping that Parliament might come to their senses and agree to a diplomatic end to this conflict. In the meantime I suggest you spend some time doing whatever it is you do to earn money on the side - carrying passengers or freight or hunting pirates. We'll contact you when things begin to move forward again."`
+			`Lądujesz na Dancer i meldujesz Alondo i Freyi, że transfer więźniów został zakończony. "Co teraz robimy?" pytasz.`
+			`	Freya mówi: "No cóż, mam nadzieję, że na razie skończyliśmy z walkami. Zostaniemy tutaj, żeby bronić tego systemu przed ewentualnym odwetem ze strony Marynarki Wojennej. I będziemy dalej liczyć, że Parlament się opamięta i zgodzi się na dyplomatyczne zakończenie tego konfliktu. W międzyczasie proponuję, żebyście poświęcili trochę czasu na robienie tego, co robicie na boku - przewożenie pasażerów, ładunków albo polowanie na piratów. Skontaktujemy się z wami, gdy sprawy znów zaczną się układać."`
 			choice
-				`	"Sounds good. I'll hope to hear from you soon."`
+				`	"Brzmi dobrze. Mam nadzieję, że wkrótce się odezwiesz."`
 					goto salary
-				`	"You're sure there's nothing else I can do to help the Free Worlds right now?"`
-			`	Alondo says, "You might hear from some other folks who could use your assistance, but as for the Council, I think it's a waiting game for us right now. Please don't think we aren't grateful for your help, Captain. All we're saying is that hopefully, for a few months at least, we'll all be able to take a break from fighting and go back to actually living our lives."`
+				`	"Jesteś pewien, że nie mogę teraz zrobić nic więcej, żeby pomóc Wolnym Światom?"`
+			`	Alondo mówi: "Możesz usłyszeć od innych osób, które mogłyby skorzystać z Twojej pomocy, ale jeśli chodzi o Radę, myślę, że na razie musimy czekać. Proszę, nie myśl, że nie jesteśmy wdzięczni za Twoją pomoc, Kapitanie. Mówimy tylko, że mamy nadzieję, że przynajmniej na kilka miesięcy uda nam się zrobić sobie przerwę od walk i wrócić do normalnego życia."`
 			
 			label salary
 			branch end
 				not "FW Pirates 4.1: offered"
 				not "event: fw stripped of service"
-			`	"Before you leave, Captain," Freya says. "The Senate has decided to reinstate your pay after these recent events. You should now have a salary of 2,100 credits, just like before."`
+			`	"Zanim pan odejdzie, Kapitanie, " mówi Freya. "Senat podjął decyzję o przywróceniu pana pensji po tych ostatnich wydarzeniach. Powinien pan teraz otrzymywać pensję w wysokości 2100 kredytów, tak jak poprzednio."`
 			
 			label end
-			`	Alondo gives you a nod. "We'll contact you as soon as things get interesting again."`
+			`	Alondo kiwa głową. "Skontaktujemy się z tobą, jak tylko znów zrobi się ciekawie."`
 				decline
 
 
@@ -786,7 +786,7 @@ mission "FW Southern Break Ends"
 	
 	on offer
 		conversation
-			`Soon after you land on <origin>, you receive a message from Freya: "Greetings, Captain <last>! I hope you've made good use of your time off, because we're about to be right in the thick of it once again. As soon as you're able, please come rejoin the fleet on Dancer. We have some urgent and sensitive work to do."`
+			`Zaraz po wylądowaniu na <origin> otrzymujesz wiadomość od Freyi: "Witaj, Kapitanie <last>! Mam nadzieję, że dobrze wykorzystałeś swój wolny czas, bo znów będziemy w samym środku akcji. Jak tylko będziesz mógł, proszę, dołącz do floty na Dancer. Mamy pilną i delikatną pracę do wykonania. "`
 				accept
 
 
@@ -811,9 +811,9 @@ mission "FW Northern 1"
 	on offer
 		log "Trzy kolejne planety zdecydowały się na przejście do Wolnych Światów: Clark, New Tibet i New Holland."
 		conversation
-			`When you land on Dancer, the Free Worlds fleet appears to be preparing for another battle: missiles and torpedoes are being loaded onto ships and crew members are running around. You eventually find Freya and Alondo, and ask them what is going on.`
-			`	"Another three worlds have secretly told us they are ready to defect," says Alondo, "and this time around we want to get there before the Navy does."`
-			`	Freya says, "We need you to take Alondo, along with the ships that we've been able to muster, and fly through the <waypoints> systems, then land on <destination>. If all goes well, you will get through to <planet> before the Republic can muster reinforcements. Drive off any Republic ships you encounter along the way."`
+			`Kiedy lądujesz na Dancer, flota Wolnych Światów zdaje się przygotowywać do kolejnej bitwy: pociski i torpedy są ładowane na statki, a załoga biegnie dookoła. W końcu znajdujesz Freyę i Alondo i pytasz ich, co się dzieje.`
+			`	"Trzy kolejne światy potajemnie poinformowały nas, że są gotowe do dezercji, " mówi Alondo, "i tym razem chcemy dotrzeć tam przed Marynarką Wojenną."`
+			`	Freya mówi: "Musisz zabrać Alondo wraz ze statkami, które udało nam się zebrać, i przelecieć przez systemy <waypoints>, a następnie wylądować na <destination>. Jeśli wszystko pójdzie dobrze, dotrzesz do <planet>, zanim Republika zbierze posiłki. Odeprzyj wszystkie statki Republiki, które napotkasz po drodze."`
 				accept
 	
 	npc
@@ -841,7 +841,7 @@ mission "FW Northern 1"
 	on complete
 		event "fw northern expansion"
 		dialog
-			`As soon as you land, Alondo rushes out of your ship to meet with the governor of <planet> and "get these papers signed before they change their minds." He tells you to meet him back in the spaceport in an hour.`
+			`Zaraz po wylądowaniu Alondo wybiega z twojego statku, aby spotkać się z gubernatorem <planet> i "podpisać te dokumenty, zanim zmienią zdanie." Mówi ci, żebyś spotkał się z nim w porcie kosmicznym za godzinę.`
 
 
 
@@ -857,20 +857,20 @@ mission "FW Northern 2"
 	
 	on offer
 		conversation
-			`You wait in the spaceport bar for a while. Your Free Worlds uniform has drawn a good deal of attention from the locals: a few of them waved to you when you came in, or gave other subtle signs of approval, but no one is sitting with you. They probably want to avoid getting into trouble with the Republic if the Free Worlds are not able to hold this planet.`
-			`	Finally Alondo arrives. "Come on," he says. "Let's talk outside." He seems tired, but not frightened.`
+			`Czekasz chwilę w barze kosmoportu. Twój mundur Wolnych Światów przyciągnął uwagę miejscowych: kilku z nich pomachało ci, gdy wszedłeś, lub dało inne subtelne znaki aprobaty, ale nikt z tobą nie siedzi. Prawdopodobnie chcą uniknąć kłopotów z Republiką, jeśli Wolne Światy nie będą w stanie utrzymać tej planety.`
+			`	W końcu przybywa Alondo. "Chodź," mówi. "Porozmawiajmy na zewnątrz." Wydaje się zmęczony, ale nie przestraszony.`
 			choice
-				`	"Is everything okay?"`
-				`	"Did they agree to join us?"`
-			`	"Yes, yes, of course," he says. "But taking on six more worlds all of a sudden - I just hope it's not more than we can handle. When the Navy recovers from the battle at Rastaban and strikes back, now we have much less idea where that strike will fall."`
-			`	"So, what do we do next?" you ask.`
-			`	"We need to move more of our fleet up here to the front," he says, "but I'd be willing to bet that the Navy has installed surveillance equipment on Hope, and maybe a few other planets in this sector too. Which I should have thought of before, because in order to be sure we've tracked every last one down, we need Freya's expertise in signals and sensors. So, I'm sending you to meet up with her on Dancer."`
+				`	"Czy wszystko w porządku?"`
+				`	"Czy zgodzili się do nas dołączyć?"`
+			`	"Tak, tak, oczywiście, " mówi. "Ale nagłe zajęcie się sześcioma kolejnymi światami - mam tylko nadzieję, że to nie będzie więcej, niż jesteśmy w stanie udźwignąć. Kiedy Marynarka Wojenna otrząsnie się po bitwie pod Rastabanem i zaatakuje, będziemy mieli znacznie mniejsze pojęcie, gdzie ten atak spadnie."`
+			`	"No więc, co robimy dalej?" - pytasz.`
+			`	"Musimy przesunąć więcej naszej floty tutaj, na przód, " mówi, "ale jestem gotów się założyć, że Marynarka Wojenna zainstalowała sprzęt obserwacyjny na Hope, a może i na kilku innych planetach w tym sektorze. Powinienem był o tym pomyśleć wcześniej, bo żeby mieć pewność, że namierzyliśmy każdą z nich, potrzebujemy wiedzy Frei w zakresie sygnałów i czujników. Wysyłam cię więc na spotkanie z nią na Dancer."`
 			choice
-				`	"No problem. Don't worry, we'll be able to handle this just fine."`
+				`	"Nie ma problemu. Nie martw się, damy sobie z tym radę."`
 					accept
-				`	"Aren't you afraid the Navy will strike while I'm off fetching her?"`
-			`	"Of course," he says. "But I talked with JJ, and he thinks they're still recovering from the last battle. And if their sensors all go dark, that will be a big deterrent to keep them from attacking - certainly more of a deterrent than you could add by staying here with our fleet."`
-			`	"Understood," you say. "I'll go get Freya."`
+				`	"Czy nie boisz się, że marynarka zaatakuje, gdy będę ją odbierał?"`
+			`	"Oczywiście, " mówi. "Ale rozmawiałem z JJ i on uważa, że wciąż dochodzą do siebie po ostatniej bitwie. A jeśli wszystkie ich czujniki się wyłączą, będzie to poważny czynnik odstraszający, który powstrzyma ich przed atakiem - na pewno większy niż ten, który mógłbyś dodać, pozostając tu z naszą flotą. "`
+			`	"Rozumiem," mówisz. "Pójdę po Freyę."`
 				accept
 
 
@@ -890,7 +890,7 @@ mission "FW Northern 2A"
 	
 	on offer
 		conversation
-			`As soon as you land, Freya shows up at your ship with a small suitcase full of clothes. "No time to waste," she says. "Let's get going. Our first target will be <planet>, since we know for a fact that they were installing something there."`
+			`Gdy tylko wylądujesz, Freya pojawia się na twoim statku z małą walizką pełną ubrań. "Nie ma czasu do stracenia, " mówi. "Ruszajmy. Naszym pierwszym celem będzie <planet>, ponieważ wiemy na pewno, że coś tam instalowali."`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -911,8 +911,8 @@ mission "FW Northern 2B"
 	
 	on offer
 		conversation
-			`As you approach the planet, Freya sits down at your ship's sensor console and begins fiddling with some settings that you didn't even know existed. She seems entirely focused, and clearly knows what she is doing. You recall being told that she is an engineer, not a politician or a military commander, which makes the fact that she has been able to step up as such a strong leader in the Council very impressive.`
-			`	"Yup, eight different stations," she says finally, "including this one that I nearly overlooked, buried ten meters under the ice, that is acting as a relay for them." She points out each station on your map, and you fly by each one and destroy it. "Now," she says, "that was what had me most worried, but for the sake of completeness we should sweep the other new worlds, too. Let's go to <planet> next."`
+			`Gdy zbliżasz się do planety, Freya siada przy konsoli sensorów twojego statku i zaczyna majstrować przy ustawieniach, o których istnieniu nawet nie wiedziałeś. Wydaje się całkowicie skupiona i wyraźnie wie, co robi. Przypominasz sobie, że powiedziano ci, że jest inżynierem, a nie politykiem ani dowódcą wojskowym, co sprawia, że fakt, iż udało jej się stać tak silnym przywódcą w Radzie, jest bardzo imponujący.`
+			`	"Tak, osiem różnych stacji, " mówi w końcu, "w tym ta, którą prawie przeoczyłem, zakopana dziesięć metrów pod lodem, która działa jak przekaźnik dla nich. " Wskazuje każdą stację na twojej mapie, a ty przelatujesz obok każdej i ją niszczysz. "No, " mówi, "to mnie najbardziej martwiło, ale dla kompletności powinniśmy też zbadać inne nowe światy. Przejdźmy do <planet> dalej. "`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -933,19 +933,19 @@ mission "FW Northern 2C"
 	
 	on offer
 		conversation
-			`Once again, Freya works some sort of magic with your ship's sensors and manages to locate another surveillance station. "Right in the middle of the city," she says. "We'll have to go there on foot and disable it."`
+			`Freya po raz kolejny czaruje czujnikami twojego statku i udaje jej się zlokalizować kolejną stację obserwacyjną. "W samym środku miasta, " mówi. "Będziemy musieli pójść tam pieszo i ją wyłączyć. "`
 			choice
-				`	"Are you worried that it might be guarded?"`
+				`	"Czy obawiasz się, że może być strzeżony?"`
 					goto guard
-				`	"Okay, I'll grab my favorite guns and explosives!"`
+				`	"Okej, wezmę moje ulubione pistolety i materiały wybuchowe!"`
 					goto guns
 			label guard
-			`	"A little worried," she says. "We should be armed, just in case. But I'm not picking up any human heat signatures from the building, and it wouldn't be like the Navy to leave some of their own behind for us to capture."`
+			`	"Trochę się martwię, " mówi. "Powinniśmy być uzbrojeni, na wszelki wypadek. Ale nie odbieram żadnych ludzkich sygnałów cieplnych z budynku, a Marynarka Wojenna nie byłaby w stanie zostawić kogoś ze swoich, żebyśmy mogli go złapać."`
 				goto destroy
 			label guns
-			`	"Now, now," she says, "we just convinced this world to join us, let's not go blowing up their whole factory district. I don't see any human heat signatures, but you can bring your weapons anyway just in case."`
+			`	"No, no, " mówi, "właśnie przekonaliśmy ten świat, żeby do nas dołączył, nie wysadzajmy w powietrze całej ich dzielnicy fabrycznej. Nie widzę żadnych ludzkich śladów ciepła, ale i tak możecie zabrać broń na wszelki wypadek."`
 			label destroy
-			`	Warily, you approach the sensor installation, kicking down the door to an old abandoned warehouse. Freya is right - it's not guarded. She shuts down the transmitter, then asks for your help bringing some of the sensors and other equipment back to your ship. "I always love having a chance to look at Navy technology," she says. "Now, let's head to <planet>."`
+			`	Ostrożnie podchodzisz do instalacji czujników, wyważając drzwi do starego, opuszczonego magazynu. Freya ma rację - nie jest strzeżony. Wyłącza nadajnik, a następnie prosi o pomoc w przeniesieniu czujników i innego sprzętu na statek. "Zawsze uwielbiam mieć okazję przyjrzeć się technologii Marynarki Wojennej, " mówi. "A teraz przejdźmy do <planet>."`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -966,7 +966,7 @@ mission "FW Northern 2D"
 	
 	on offer
 		conversation
-			`You spend quite a while flying back and forth above the surface of <origin>, but Freya is unable to locate any Navy signals originating from the surface. Finally she gives up. "It's an out-of-the-way planet," she says. "Any fleet coming here would pass through Alioth or Seginus first. So I guess they didn't bother to put anything here. Time to head to New Tibet and meet up with Alondo!"`
+			`Spędzasz sporo czasu, latając tam i z powrotem nad powierzchnią <origin>, ale Freya nie jest w stanie zlokalizować żadnych sygnałów marynarki wojennej pochodzących z powierzchni. W końcu się poddaje. "To odległa planeta, " mówi. "Każda flota, która tu przyleci, najpierw przeleciałaby przez Alioth lub Seginus. Więc chyba nie zawracali sobie głowy umieszczaniem tu czegokolwiek. Czas udać się do Nowego Tybetu i spotkać się z Alondo! "`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -988,22 +988,22 @@ mission "FW Northern 3"
 	on offer
 		log "Stocznia na Zug wciąż próbuje rozkręcić produkcję pancerników. Do tej pory zbudowano zaledwie kilka jednostek, ale Freya pomoże przyspieszyć ten proces."
 		conversation
-			`As you approach <origin>, Freya quickly locates two Navy surveillance stations and contacts Alondo, asking him to send some Free Worlds personnel to destroy them. Then you land, and Alondo comes aboard your ship to discuss your next steps in person.`
-			`	"There's a good chance we've taken care of all the sensors in this sector," says Freya, "so we can start moving our fleets around here without tipping the Navy off. And I just heard from Southbound Shipyards that they've got two more Dreadnoughts ready for service."`
+			`Gdy zbliżasz się do <origin>, Freya szybko lokalizuje dwie stacje obserwacyjne Marynarki Wojennej i kontaktuje się z Alondo, prosząc go o wysłanie personelu Wolnych Światów do ich zniszczenia. Następnie lądujesz, a Alondo wchodzi na pokład twojego statku, aby osobiście omówić twoje dalsze kroki.`
+			`	"Jest duża szansa, że zadbaliśmy już o wszystkie czujniki w tym sektorze, " mówi Freya, "więc możemy zacząć przemieszczać nasze floty bez informowania Marynarki Wojennej. Właśnie dowiedziałem się ze Stoczni Southbound, że mają dwa kolejne drednoty gotowe do służby. "`
 			choice
-				`	"Only two? I was hoping to get a Dreadnought of my own soon!"`
+				`	"Tylko dwa? Miałem nadzieję, że wkrótce dostanę własnego Dreadnoughta!"`
 					goto two
-				`	"Don't we need to defend Rastaban and the other systems to the east, as well?"`
+				`	"Czy nie musimy bronić również Rastabanu i innych systemów na wschodzie?"`
 					goto east
 			label two
-			`	"Patience, Captain," says Freya. "Building prototypes is very different from doing mass production."`
+			`	"Cierpliwości, Kapitanie," mówi Freya. "Budowanie prototypów bardzo różni się od masowej produkcji."`
 				goto zug
 			label east
-			`	"Yes," says Freya. "Which means our fleets will be stretched thin. We really need them to ramp up Dreadnought production."`
+			`	"Tak," mówi Freya. "Co oznacza, że nasze floty będą bardzo ograniczone. Naprawdę potrzebujemy ich, żeby zwiększyć produkcję drednotów."`
 			label zug
-			`	Alondo asks Freya, "Do you think you could help them in the shipyards? After all, you were a superb fleet supply manager back in the Defense Pact days."`
-			`	"I'll do what I can, if you think you're all set here," says Freya.`
-			`	"I'm fine," says Alondo, "and JJ is on Rastaban now, guarding our other flank. So you can take a break from being on the front." He heads back outside, and you and Freya get ready to visit the shipyards on <planet>.`
+			`	Alondo pyta Freyę: "Myślisz, że mogłabyś im pomóc w stoczni? W końcu byłaś znakomitą menedżerką zaopatrzenia floty w czasach Paktu Obronnego."`
+			`	"Zrobię, co w mojej mocy, jeśli myślisz, że wszystko jest już gotowe," mówi Freya.`
+			`	"Nic mi nie jest, " mówi Alondo, "a JJ jest teraz na Rastabanie, pilnując naszej drugiej flanki. Więc możesz zrobić sobie przerwę od frontu. " Wychodzi z powrotem na zewnątrz, a ty i Freya szykujecie się do wizyty w stoczni na <planet>.`
 				accept
 	
 	on visit
@@ -1012,17 +1012,17 @@ mission "FW Northern 3"
 		log "Zgodził się zostać członkiem Rady Wolnych Światów i zająć miejsce Tomka."
 		"salary: Free Worlds" = 6800
 		conversation
-			`As you are landing on <planet>, Freya says, "I miss Katya. It's hard being the only woman on the Council."`
+			`Kiedy lądujesz na <planet>, Freya mówi: "Tęsknię za Katią. Ciężko jest być jedyną kobietą w Radzie."`
 			choice
-				`	"Don't worry, the Navy said they're trying to find her and return her to us."`
-				`	"Do you think the Navy reneged on their promise to free her?"`
-			`	"I don't know," she says. "I hope the Navy will keep their promise. But in the meantime, three people on Council is too few. We didn't want to say anything to you until the Senate cleared it, but we've nominated you to take Tomek's spot on the Council. What do you say?"`
+				`	"Nie martw się, Marynarka Wojenna twierdzi, że próbuje ją odnaleźć i zwrócić nam."`
+				`	"Czy uważasz, że Marynarka Wojenna nie dotrzymała obietnicy jej uwolnienia?"`
+			`	"Nie wiem," mówi. "Mam nadzieję, że Marynarka Wojenna dotrzyma obietnicy. Ale tymczasem trzy osoby w Radzie to za mało. Nie chcieliśmy ci nic mówić, dopóki Senat tego nie zatwierdzi, ale nominowaliśmy cię na miejsce Tomka w Radzie. Co ty na to?"`
 			choice
-				`	"I'd be honored. Thank you."`
-			`	She grins. "Don't mention it. You've been with us since the beginning, and we've all come to trust what you have to say. I wish we could throw you a big dinner or something to celebrate, but... well, we're all busy with the war right now. But Alondo and JJ both said to tell you they're glad to have you on board. And you'll get a salary increase, of course. Which you ought to celebrate by buying us both a few drinks in the spaceport bar before you leave. Okay?"`
+				`	"Byłbym zaszczycony. Dziękuję."`
+			`	Uśmiecha się szeroko. "Nie wspominaj o tym. Jesteś z nami od początku i wszyscy zaufaliśmy temu, co masz do powiedzenia. Chciałbym, żebyśmy mogli zorganizować ci wielką kolację albo coś w tym stylu, żeby to uczcić, ale... cóż, wszyscy jesteśmy teraz zajęci wojną. Ale Alondo i JJ kazali ci przekazać, że cieszą się, że jesteś na pokładzie. I oczywiście dostaniesz podwyżkę. Powinieneś to uczcić, stawiając nam obojgu kilka drinków w barze kosmoportu, zanim odlecisz. Dobrze?"`
 			choice
-				`	"Okay, I'll meet you back at the spaceport in a few hours."`
-			`	"Great," she says, smiling. "See you then." She picks up her suitcase, and hurries over to the shipyard.`
+				`	"Okej, spotkamy się za kilka godzin w porcie kosmicznym."`
+			`	"Świetnie," mówi z uśmiechem. "Do zobaczenia." Podnosi walizkę i spieszy do stoczni.`
 
 
 
@@ -1039,31 +1039,31 @@ mission "FW Northern 3B"
 	
 	on offer
 		conversation
-			`Freya turns out to be a whiskey drinker. By the time she has finished her first drink, she is chattering quite passionately about starship design: load balancing, stress lines, shield matrices, shipboard computers. Rather than dulling her intelligence, alcohol just seems to reduce her ability to explain things in ways a non-specialist can understand. You try to steer the conversation towards something less technical...`
+			`Freya okazuje się być miłośniczką whisky. Zanim skończy pierwszy drink, rozprawia z pasją o projektowaniu statków kosmicznych: równoważeniu obciążenia, liniach naprężeń, matrycach osłon, komputerach pokładowych. Zamiast przytępiać jej inteligencję, alkohol zdaje się jedynie ograniczać jej zdolność do wyjaśniania rzeczy w sposób zrozumiały dla laika. Próbujesz skierować rozmowę na coś mniej technicznego...`
 			choice
-				`	"So, why did you join the Council, initially?"`
+				`	"Dlaczego więc dołączyłeś do Rady?"`
 					goto council
-				`	"Where's your home planet?"`
+				`	"Gdzie jest twoja planeta rodzinna?"`
 					goto home
-				`	"How long do you think it will be before they're mass-producing Dreadnoughts?"`
+				`	"Jak długo Twoim zdaniem potrwa zanim zaczną masowo produkować drednoty?"`
 					goto dreadnoughts
 			label council
-			`	"Well," she says, "you know the Council. Visionaries, big picture people. They needed someone who could take care of the actual concrete details. Data crunching for our 'thousand eyes' program tracking pirate fleet movements. Supply chain management. This was back in the days of the Pact, of course, before we had officially separated from the Republic. And I had worked with JJ in the past, so he asked me to come with him and help out on a larger scale."`
+			`	"No cóż," mówi, "znasz Radę. Wizjonerzy, ludzie o szerokich horyzontach. Potrzebowali kogoś, kto zajmie się konkretnymi szczegółami. Przetwarzaniem danych dla naszego programu "tysiąca oczu", śledzącego ruchy floty piratów. Zarządzaniem łańcuchem dostaw. To było oczywiście za czasów Paktu, zanim oficjalnie odłączyliśmy się od Republiki. Pracowałem już z JJ w przeszłości, więc poprosił mnie, żebym poszedł z nim i pomógł na większą skalę."`
 				goto leave
 			label home
-			`	"I grew up on Earth," she says, "deep in the bowels of one of the major cities. Even as a kid I hated that dirty old planet and knew my only shot of leaving there was to be smarter than everyone else. It wasn't until years later, when I came back to visit with some money in my pocket and a bit more perspective, that I was able to travel to the few parts of Earth that are still pretty, and realize how precious our home world is."`
+			`	"Dorastałam na Ziemi, " mówi, "w głębi jednego z wielkich miast. Już jako dziecko nienawidziłam tej brudnej, starej planety i wiedziałam, że jedyną szansą na opuszczenie jej jest bycie mądrzejszą od wszystkich. Dopiero po latach, kiedy wróciłam z wizytą, z odrobiną pieniędzy w kieszeni i odrobiną lepszej perspektywy, udało mi się odwiedzić te nieliczne zakątki Ziemi, które wciąż są piękne, i uświadomić sobie, jak cenny jest nasz rodzinny świat."`
 				goto leave
 			label dreadnoughts
-			`	"Ugh," she says, "let's not talk about work while we're busy relaxing." You refrain from commenting that all her talk about starship design sounded a lot more like work than like a fun relaxing topic of conversation.`
+			`	"Ugh," mówi, "nie rozmawiajmy o pracy, skoro jesteśmy zajęci relaksem." Powstrzymujesz się od komentarza, że wszystkie jej opowieści o projektowaniu statków kosmicznych brzmiały bardziej jak praca niż przyjemny i relaksujący temat do rozmowy.`
 				goto leave
 			label leave
-			`	You hang out in the bar for another hour or so, and then she says to the bartender, "Two bottles of champagne to go, please." He gives her an odd look, but the Council is well enough respected that he does not question her.`
-			`	You walk over to the shipyard, where the two newly completed Dreadnoughts are parked side by side. "Time to christen our new ships," she says, handing you one of the bottles. You each fling a bottle at one of the ships, and shout out...`
+			`	Spędzasz w barze jeszcze jakąś godzinę, a potem ona mówi do barmana: "Poproszę dwie butelki szampana na wynos." Spojrzał na nią dziwnie, ale Rada jest na tyle szanowana, że nie zadawał jej żadnych pytań.`
+			`	Podchodzicie do stoczni, gdzie dwa nowo ukończone drednoty stoją obok siebie. "Czas chrzcić nasze nowe okręty, " mówi, wręczając wam jedną z butelek. Rzucacie butelką w jeden ze statków i krzyczycie...`
 			choice
-				`	"For victory!"`
-				`	"For peace!"`
-				`	"For justice!"`
-			`	"May it come soon," echoes Freya. "Now, tomorrow morning the crews for these ships will be ready, and we'll need you to escort them to <planet>. I'll stay here and do my best to help manage the equipment supply chain and construction crews." She says goodnight, and wishes you a safe journey tomorrow.`
+				`	"Za zwycięstwo!"`
+				`	"Za pokój!"`
+				`	"Za sprawiedliwość!"`
+			`	"Oby to nastąpiło wkrótce, " powtarza Freya. "Jutro rano załogi tych statków będą gotowe i będziemy potrzebować twojej eskorty do <planet>. Zostanę tutaj i zrobię, co w mojej mocy, aby pomóc w zarządzaniu łańcuchem dostaw sprzętu i ekipami budowlanymi. " Życzy ci dobrej nocy i bezpiecznej podróży jutro.`
 				accept
 	
 	npc accompany save
@@ -1092,7 +1092,7 @@ mission "FW Northern 4"
 	
 	on offer
 		conversation
-			`Waiting for you on <origin> is a message from Alondo: "Hello Captain! We've got another minor crisis: a merchant fleet was supposed to bring us a shipment of medical supplies from up North, since many of our worlds are running short. But, the Republic is threatening to attack the convoy if they try to cross over into our space, so they're waiting on <planet>, just inside of the Republic's territory. Please go meet up with the fleet and bring it back to New Tibet."`
+			`Czekam na ciebie na <origin> - wiadomość od Alondo: "Witaj Kapitanie! Mamy kolejny drobny kryzys: flota handlowa miała dostarczyć nam dostawę zaopatrzenia medycznego z Północy, ponieważ na wielu naszych planetach brakuje zapasów. Republika grozi jednak atakiem na konwój, jeśli spróbuje przekroczyć granicę z naszą przestrzenią, więc czeka na <planet>, tuż za terytorium Republiki. Proszę, spotkaj się z flotą i sprowadź ją z powrotem do Nowego Tybetu."`
 				accept
 
 
@@ -1114,7 +1114,7 @@ mission "FW Northern 4.1A"
 	
 	on offer
 		conversation
-			`You land on <origin> and meet up with the fleet you will be escorting. A few minutes later, an urgent message comes in from Alondo: "We've got a crazy situation here. Return to New Tibet immediately with the convoy. You will find a Navy Oathkeeper ship in orbit. Do not attack them, just see to it that the convoy lands safely." The Oathkeepers are Navy officers who swore not to fight the Free Worlds, so you can't help wondering what they are doing on <planet>.`
+			`Lądujesz na <origin> i spotykasz się z flotą, którą będziesz eskortować. Kilka minut później nadchodzi pilna wiadomość od Alondo: "Mamy tu szaleńczą sytuację. Natychmiast wracaj do Nowego Tybetu z konwojem. Na orbicie znajdziesz okręt Strażników Przysięgi Marynarki Wojennej. Nie atakuj ich, tylko dopilnuj, aby konwój bezpiecznie wylądował. " Strażnicy Przysięgi to oficerowie Marynarki Wojennej, którzy przysięgli nie walczyć z Wolnymi Światami, więc nie możesz przestać się zastanawiać, co robią na <planet>.`
 				accept
 	
 	npc accompany save
@@ -1155,7 +1155,7 @@ mission "FW Northern 4.2A"
 	
 	on offer
 		conversation
-			`You land on <origin> and meet up with the fleet you will be escorting. A few minutes later, an urgent message comes in from Alondo: "We've got a crazy situation here. Return to New Tibet immediately with the convoy." He provides no further information.`
+			`Lądujesz na <origin> i spotykasz się z flotą, którą będziesz eskortować. Kilka minut później przychodzi pilna wiadomość od Alondo: "Mamy tu szaleńczą sytuację. Natychmiast wracaj do Nowego Tybetu z konwojem." Nie udziela żadnych dalszych informacji.`
 				accept
 	
 	npc accompany save
@@ -1194,31 +1194,31 @@ mission "FW Alphas 1.1"
 		log "Republikański świat Poisonwood na Południu został najwyraźniej przejęty przez watażków Alfy. Stanowi to tak poważne zagrożenie, że pomimo wojny, Strażnicy Przysięgi Marynarki Wojennej zgodzili się walczyć u boku Wolnych Światów, aby wyzwolić planetę."
 		event "alphas capture Poisonwood"
 		conversation
-			`You land the convoy safely on <origin>, but everyone seems to be busy with whatever new crisis it is that Alondo alluded to; no one approaches you to help unload the ships. Eventually you track down Alondo and ask what is going on, and why there is a neutral Navy ship in orbit. "We just received word that Poisonwood has been captured by pirates, while all of our fleets were busy guarding the front," says Alondo. You recall that Poisonwood has remained loyal to the Republic, even though they are deep inside Free Worlds territory.`
+			`Bezpiecznie lądujesz konwój na <origin>, ale wszyscy wydają się być zajęci nowym kryzysem, o którym wspominał Alondo; nikt nie podchodzi do ciebie z prośbą o pomoc w rozładunku statków. W końcu odnajdujesz Alondo i pytasz, co się dzieje i dlaczego na orbicie znajduje się neutralny okręt marynarki wojennej. "Właśnie otrzymaliśmy wiadomość, że Poisonwood został schwytany przez piratów, podczas gdy wszystkie nasze floty były zajęte obroną frontu, " mówi Alondo. Przypominasz sobie, że Poisonwood pozostał lojalny wobec Republiki, mimo że znajduje się głęboko na terytorium Wolnych Światów.`
 			choice
-				`	"If we liberate them, will they switch their loyalty to our side?"`
+				`	"Jeśli ich wyzwolimy, czy zmienią swoją lojalność na naszą stronę?"`
 					goto loyalty
-				`	"If they're not one of our worlds, why should we help them?"`
+				`	"Jeśli nie są jednym z naszych światów, dlaczego mielibyśmy im pomagać?"`
 					goto help
 			label loyalty
-			`	"Possibly," says Alondo. "But that's not what is important. Before they were overrun by pirate troops, one of the colonists managed to take a photo of the pirate leader."`
+			`	"Możliwe," mówi Alondo. "Ale nie to jest ważne. Zanim zostali najechani przez piratów, jednemu z kolonistów udało się zrobić zdjęcie przywódcy piratów."`
 				goto photo
 			label help
-			`	"Because one of the colonists took a picture of the leader of the pirates who attacked them," says Alondo.`
+			`	"Ponieważ jeden z kolonistów zrobił zdjęcie przywódcy piratów, którzy ich zaatakowali," mówi Alondo.`
 				goto photo
 			label photo
-			`	He hands you a small printout of a photograph. It is a somewhat blurry picture of a group of armed pirates running down a street in a desert town. What grabs your attention immediately is that several of the pirates appear to have green skin. You recognize that as the mark of the Alphas, the sociopathic, genetically engineered super-humans who enslaved entire planets during the Alpha Wars, five centuries ago.`
+			`	Wręcza ci mały wydruk zdjęcia. To nieco rozmazane zdjęcie grupy uzbrojonych piratów biegnących ulicą w pustynnym miasteczku. Twoją uwagę od razu przyciąga fakt, że kilku piratów ma zieloną skórę. Rozpoznajesz w tym znak Alfy, socjopatycznych, genetycznie zmodyfikowanych superludzi, którzy zniewolili całe planety podczas Wojen Alfa pięć wieków temu.`
 			choice
-				`	"It must be a trick. There can't still be Alphas around. Maybe the pirates dyed their skin green to make people fear them."`
-				`	"How is it possible that some of the Alphas are still alive?"`
-			`	Alondo says, "This may be a trick, but we can't afford to take that risk. The Alphas were the greatest threat humanity has ever faced. And before they contacted us for help, Poisonwood reached out to the Navy." As he is speaking, a shadow passes overhead. You look up and see the unmistakable silhouette of a Navy Cruiser, coming in for a landing.`
+				`	"To musi być jakiś podstęp. Nie może być już Alph. Może piraci zafarbowali sobie skórę na zielono, żeby ludzie się ich bali."`
+				`	"Jak to możliwe, że niektórzy Alfy wciąż żyją?"`
+			`	Alondo mówi: "To może być podstęp, ale nie możemy sobie pozwolić na takie ryzyko. Alfy były największym zagrożeniem, z jakim kiedykolwiek zetknęła się ludzkość. Zanim zwrócili się do nas o pomoc, Poisonwood zwrócił się do Marynarki Wojennej. " Kiedy mówi, nad głową przelatuje cień. Spoglądasz w górę i widzisz wyraźną sylwetkę krążownika Marynarki Wojennej, podchodzącego do lądowania.`
 			choice
-				`	"Are you insane? You're letting the Navy come here?"`
-				`	"We're going to work side by side with the Navy right after that awful battle?"`
-			`	Alondo explains, "It's only one Cruiser, an 'Oathkeeper' ship, sworn to take no part in our war. The Free Worlds have almost no troops trained for ground combat, so without the Navy's help we would be unlikely to be able to eliminate the Alphas."`
-			`	The Navy ship lands, and a man steps off who you recognize immediately: Admiral William Danforth, who is something of a folk hero throughout human space, and who you have heard is the commander of the entire Oathkeeper regiment. With him is a man who he introduces as Commander Aaron Nguyen of the Navy Humanitarian Corps. As Nguyen shakes your hand, you are struck by the fact that although he is your enemy, you see no trace of hostility in his eyes - in fact, his expression is surprisingly warm and affectionate.`
-			`	"We have no room for error," says Danforth. "These Alphas must be eliminated, and they must not be allowed to escape. On that, at least, we can all agree."`
-			`	Alondo says, "Captain <last> will lead the attack." He beckons to two of the Free Worlds captains. "Marco, Emily, you will join them with your Falcons. Destroy any pirate ships in orbit, then land and secure the facility. Understood?" You nod, and prepare to take off for the <system> system.`
+				`	"Czy ty oszalałeś? Pozwalasz Marynarce Wojennej tu przybyć?"`
+				`	"Będziemy pracować ramię w ramię z Marynarką Wojenną zaraz po tej strasznej bitwie?"`
+			`	Alondo wyjaśnia: "To tylko jeden krążownik, okręt "Wiernych Przysięgi", który poprzysiągł nie brać udziału w naszej wojnie. Wolne Światy nie mają prawie żadnych żołnierzy wyszkolonych do walki lądowej, więc bez pomocy Marynarki Wojennej raczej nie bylibyśmy w stanie wyeliminować Alfy."`
+			`	Okręt Marynarki Wojennej ląduje, a z niego wysiada mężczyzna, którego natychmiast rozpoznajesz: admirał William Danforth, który jest swego rodzaju bohaterem ludowym w ludzkiej przestrzeni kosmicznej i o którym słyszałeś, że jest dowódcą całego pułku Oathkeeper. Towarzyszy mu mężczyzna, którego przedstawia jako dowódcę Aarona Nguyena z Korpusu Humanitarnego Marynarki Wojennej. Kiedy Nguyen ściska ci dłoń, uderza cię fakt, że chociaż jest twoim wrogiem, nie dostrzegasz w jego oczach śladu wrogości - wręcz przeciwnie, jego wyraz twarzy jest zaskakująco ciepły i serdeczny.`
+			`	"Nie mamy miejsca na błąd, " mówi Danforth. "Te Alfy muszą zostać wyeliminowane i nie wolno im pozwolić uciec. Przynajmniej w tej kwestii wszyscy możemy się zgodzić. "`
+			`	Alondo mówi: "Kapitan <last> poprowadzi atak." Skinął na dwóch kapitanów Wolnych Światów. "Marco, Emily, dołączycie do nich ze swoimi Sokołami. Zniszczcie wszystkie statki pirackie na orbicie, a następnie wylądujcie i zabezpieczcie bazę. Zrozumiano?" Kiwasz głową i przygotowujesz się do startu w kierunku układu <system>.`
 				accept
 	
 	npc accompany save
@@ -1246,35 +1246,35 @@ mission "FW Alphas 1.1"
 	on complete
 		event "liberation of Poisonwood"
 		conversation
-			`The ships in orbit are eliminated, but there are still the Alphas and their servants here on the ground to take care of. Danforth's ship unloads a squadron of troops in heavy battle suits. The Navy troops move with far more precision and purpose than you have ever seen among the poorly trained Free Worlds soldiers.`
-			`	They sweep the city and quickly ascertain that the Alphas are holed up in a large factory. The troops encircle the building and burst through the doors, and soon you hear the sounds of explosions and gunfire within. You wait with Commander Nguyen in an alley facing the building. "I'm with the Humanitarian Corps," he explains. "Killing things is not in my job description."`
-			`	Just then, one of the second floor windows shatters and a figure comes tumbling out, rolls, and starts running in your direction. Then it does something you would swear no human being is capable of: while still moving in your direction, it begins leaping from one wall of the alley to the other as easily as you would run up a staircase, gaining altitude with each jump so that soon it will pass two or three meters above your heads. Several Navy troops are running after it, but they hold their fire to avoid hitting you and Nguyen.`
+			`Statki na orbicie zostały zniszczone, ale Alfy i ich słudzy wciąż są na Ziemi, którymi trzeba się zająć. Statek Danfortha wyładowuje eskadrę żołnierzy w ciężkich pancerzach bojowych. Żołnierze Marynarki Wojennej poruszają się z o wiele większą precyzją i determinacją, niż kiedykolwiek widzieliście wśród słabo wyszkolonych żołnierzy Wolnych Światów.`
+			`	Przeczesują miasto i szybko ustalają, że Alfy ukryły się w dużej fabryce. Żołnierze otaczają budynek i wybijają drzwi, a wkrótce w środku słychać odgłosy eksplozji i strzałów. Czekasz z dowódcą Nguyenem w zaułku naprzeciwko budynku. "Jestem z Korpusu Humanitarnego, " wyjaśnia. "Zabijanie nie należy do moich obowiązków. "`
+			`	Właśnie wtedy jedno z okien na drugim piętrze rozbija się i jakaś postać wypada, turla się i zaczyna biec w twoim kierunku. Wtedy robi coś, czego żaden człowiek nie byłby w stanie zrobić: wciąż poruszając się w twoim kierunku, zaczyna przeskakiwać z jednej ściany alejki na drugą z taką łatwością, z jaką wbiegasz po schodach, nabierając wysokości z każdym skokiem, tak że wkrótce przeleci dwa lub trzy metry nad twoimi głowami. Kilku żołnierzy marynarki biegnie za nim, ale wstrzymują ogień, aby uniknąć trafienia ciebie i Nguyena.`
 			choice
-				`	(Try to shoot it.)`
+				`	(Spróbuj strzelić.)`
 					goto shoot
-				`	(Try to grab it.)`
+				`	(Spróbuj to złapać.)`
 					goto grab
 			label shoot
-			`	You open fire, but it is leaping back and forth so fast that it is almost impossible to hit. But then you see Commander Nguyen climb onto a nearby dumpster and leap into the air, managing to grab the creature by the leg as it flies by.`
+			`	Otwierasz ogień, ale stwór skacze tam i z powrotem tak szybko, że trafienie jest prawie niemożliwe. Wtedy widzisz, jak Komandor Nguyen wspina się na pobliski śmietnik i wyskakuje w powietrze, chwytając stwora za nogę, gdy ten przelatuje obok.`
 				goto pin
 			label grab
-			`	Unfortunately, by now the creature is far outside your reach. But then you see Commander Nguyen climb onto a nearby dumpster and leap into the air, managing to grab the creature by the leg as it flies by.`
+			`	Niestety, stworzenie jest już poza twoim zasięgiem. Ale potem widzisz, jak Komandor Nguyen wspina się na pobliski śmietnik i wyskakuje w powietrze, chwytając stworzenie za nogę, gdy przelatuje obok.`
 				goto pin
 			label pin
-			`	The two of them fall to the ground and roll over and over in a jumble of limbs. You and the Navy troops run after them, afraid to shoot for fear of hitting Nguyen. But somehow Nguyen gets the upper hand, pinning the creature in a full nelson hold, with his legs wrapped around its body to keep it from kicking him. "Kill it!" he shouts.`
+			`	Obaj padają na ziemię i turlają się w plątaninie kończyn. Ty i żołnierze Marynarki Wojennej biegniecie za nimi, bojąc się strzelać z obawy przed trafieniem Nguyena. Ale Nguyen w jakiś sposób zyskuje przewagę, unieruchamiając stworzenie w pełnym chwycie nelsona, oplatając nogami jego ciało, by uniemożliwić mu kopnięcie. "Zabij to!" krzyczy.`
 			choice
-				`	(Kill it.)`
+				`	(Zabij to.)`
 					goto kill
-				`	(Let the Navy troops deal with this.)`
+				`	(Niech się tym zajmą żołnierze marynarki wojennej.)`
 					goto navy
 			label kill
-			`	While Nguyen holds the creature still, you put a gun to its head and pull the trigger. Not even an Alpha can survive that; the creature goes limp. Now that you can get a good look at it, you can see that it does indeed have green skin.`
+			`	Podczas gdy Nguyen trzyma stworzenie nieruchomo, przykładasz mu pistolet do głowy i naciskasz spust. Nawet Alfa nie przeżyje; stworzenie wiotczeje. Teraz, kiedy dobrze mu się przyglądasz, widzisz, że rzeczywiście ma zieloną skórę.`
 				goto end
 			label navy
-			`	While Nguyen holds the creature still, one of the Navy troops puts a gun to its head and pulls the trigger. Not even an Alpha can survive that; the creature goes limp. Now that you can get a good look at it, you can see that it does indeed have green skin.`
+			`	Podczas gdy Nguyen trzyma stworzenie nieruchomo, jeden z żołnierzy Marynarki Wojennej przykłada mu pistolet do głowy i naciska spust. Nawet Alfa nie przeżyje; stworzenie wiotczeje. Teraz, kiedy dobrze mu się przyjrzeć, widać, że rzeczywiście ma zieloną skórę.`
 				goto end
 			label end
-			`	Nguyen gets shakily to his feet; he looks stunned and very pale. "Thank you," he says. The sounds of gunfire within the factory eventually die down. "We'll continue to patrol the city," says Nguyen, "in case there are more of them. Then I'll meet you in the spaceport." He heads off back into the city.`
+			`	Nguyen chwiejnie podnosi się na nogi; wygląda na oszołomionego i bardzo bladego. "Dziękuję," mówi. Odgłosy strzelaniny w fabryce w końcu cichną. "Będziemy kontynuować patrolowanie miasta," mówi Nguyen, "na wypadek, gdyby było ich więcej. Potem spotkamy się w porcie kosmicznym." Rusza z powrotem do miasta.`
 
 
 
@@ -1295,24 +1295,24 @@ mission "FW Alphas 1.2"
 		log "Republikański świat Poisonwood na Południu został najwyraźniej przejęty przez wodzów Alfy. Miejmy nadzieję, że Wolnym Światom uda się wyzwolić planetę i pojmać lub zabić przywódców Alfy."
 		event "alphas capture Poisonwood"
 		conversation
-			`You land the convoy safely on <origin>, but everyone seems to be busy with whatever new crisis it is that Alondo alluded to; no one approaches you to help unload the ships. Eventually you track down Alondo and ask what is going on. "We just received word that Poisonwood has been captured by pirates, while all of our fleets were busy elsewhere," says Alondo. You recall that Poisonwood has remained loyal to the Republic, even though they are deep inside Free Worlds territory.`
+			`Bezpiecznie lądujesz konwój na <origin>, ale wszyscy wydają się być zajęci nowym kryzysem, o którym wspominał Alondo; nikt nie zwraca się do ciebie z prośbą o pomoc w rozładunku statków. W końcu odnajdujesz Alondo i pytasz, co się dzieje. "Właśnie otrzymaliśmy wiadomość, że Poisonwood został schwytany przez piratów, podczas gdy wszystkie nasze floty były zajęte gdzie indziej, " mówi Alondo. Przypominasz sobie, że Poisonwood pozostał lojalny wobec Republiki, mimo że znajduje się głęboko na terytorium Wolnych Światów.`
 			choice
-				`	"If we liberate them, will they switch their loyalty to our side?"`
+				`	"Jeśli ich wyzwolimy, czy zmienią swoją lojalność na naszą stronę?"`
 					goto loyalty
-				`	"If they're not one of our worlds, why should we help them?"`
+				`	"Jeśli nie są jednym z naszych światów, dlaczego mielibyśmy im pomagać?"`
 					goto help
 			label loyalty
-			`	"Possibly," says Alondo. "But that's not what is important. Before they were overrun by pirate troops, one of the colonists managed to take a photo of the pirate leader."`
+			`	"Możliwe," mówi Alondo. "Ale nie to jest ważne. Zanim zostali najechani przez piratów, jednemu z kolonistów udało się zrobić zdjęcie przywódcy piratów."`
 				goto photo
 			label help
-			`	"Because one of the colonists took a picture of the leader of the pirates who attacked them," says Alondo.`
+			`	"Ponieważ jeden z kolonistów zrobił zdjęcie przywódcy piratów, którzy ich zaatakowali," mówi Alondo.`
 				goto photo
 			label photo
-			`	He hands you a small printout of a photograph. It is a somewhat blurry picture of a group of armed pirates running down a street in a desert town. What grabs your attention immediately is that several of the pirates appear to have green skin. You recognize that as the mark of the Alphas, the sociopathic, genetically engineered super-humans who enslaved entire planets during the Alpha Wars, five centuries ago.`
+			`	Wręcza ci mały wydruk zdjęcia. To nieco rozmazane zdjęcie grupy uzbrojonych piratów biegnących ulicą w pustynnym miasteczku. Twoją uwagę od razu przyciąga fakt, że kilku piratów ma zieloną skórę. Rozpoznajesz w tym znak Alfy, socjopatycznych, genetycznie zmodyfikowanych superludzi, którzy zniewolili całe planety podczas Wojen Alfa pięć wieków temu.`
 			choice
-				`	"It must be a trick. There can't still be Alphas around. Maybe the pirates dyed their skin green to make people fear them."`
-				`	"How is it possible that some of the Alphas are still alive?"`
-			`	Alondo says, "This may be a trick, but we can't afford to take that risk. The Alphas were the greatest threat humanity has ever faced. We have very few people trained in ground combat, but I've gathered some of our best and loaded them onto a fleet that will be accompanying you. Destroy any pirate ships in orbit, then land and secure the facility. Understood? And don't let any of your escorts die; they're carrying the troops you'll need for the ground battle." You nod, and prepare to take off for the <system> system.`
+				`	"To musi być jakiś podstęp. Nie może być już Alph. Może piraci zafarbowali sobie skórę na zielono, żeby ludzie się ich bali."`
+				`	"Jak to możliwe, że niektórzy Alfy wciąż żyją?"`
+			`	Alondo mówi: "To może być podstęp, ale nie możemy sobie pozwolić na takie ryzyko. Alfy były największym zagrożeniem, z jakim kiedykolwiek zmierzyła się ludzkość. Mamy bardzo niewielu ludzi przeszkolonych w walce naziemnej, ale zebrałem kilku z naszych najlepszych i umieściłem ich na flocie, która będzie wam towarzyszyć. Zniszczcie wszystkie pirackie statki na orbicie, a następnie wylądujcie i zabezpieczcie bazę. Zrozumiano? I nie pozwólcie zginąć żadnemu z waszych eskort; wieziecie żołnierzy potrzebnych do bitwy naziemnej. " Kiwasz głową i przygotowujesz się do startu do układu <system>.`
 				accept
 	
 	npc accompany save
@@ -1359,32 +1359,32 @@ mission "FW Alphas 1.1A"
 		log "Z pomocą Strażników Przysięgi uwolniłem Poisonwood od najeźdźców Alfa."
 		event "death of nguyen" 35
 		conversation
-			`When you meet up with Nguyen, he still looks very worried. "We think we killed them all," he says, "but we can't be sure. Also, we recovered some instruments for genetic manipulation from the factory. The Alphas can't breed normally, because if their offspring inherit some of the Alpha mutations but not others, the result is rarely viable, and even those that live long enough to be born don't have all the Alpha traits. So, they rely on artificial insemination instead."`
+			`Kiedy spotykasz się z Nguyenem, wciąż wygląda na bardzo zmartwionego. "Myślimy, że zabiliśmy ich wszystkich, " mówi, "ale nie mamy pewności. Poza tym odzyskaliśmy z fabryki instrumenty do manipulacji genetycznych. Alfy nie mogą się normalnie rozmnażać, ponieważ jeśli ich potomstwo odziedziczy niektóre mutacje alfa, ale nie inne, wynik rzadko jest żywotny, a nawet te, które żyją wystarczająco długo, by się urodzić, nie mają wszystkich cech alfa. Dlatego zamiast tego polegają na sztucznej inseminacji. "`
 			choice
-				`	"Well, it's good news that you recovered those instruments, then."`
-			`	"It would be," says Nguyen, "except that we also discovered that several dozen of the women who were taken as slaves... are now pregnant. We'll have to ask them to terminate their pregnancies. It's the only safe decision, but I still don't like it." He sighs. "I'm a Buddhist, you know. Committed to doing harm to no living thing. That's why I joined the Humanitarian Corps. They promised me I'd never be asked to take a life."`
+				`	"Cóż, w takim razie dobrze, że odzyskałeś te instrumenty."`
+			`	"Zgadzałoby się, " mówi Nguyen, "z wyjątkiem tego, że odkryliśmy również, że kilkadziesiąt kobiet wziętych jako niewolnice... jest teraz w ciąży. Będziemy musieli poprosić je o przerwanie ciąży. To jedyna bezpieczna decyzja, ale nadal mi się to nie podoba. " Wzdycha. "Jestem buddystą, wiesz. Zobowiązanym do wyrządzenia krzywdy żadnej żywej istocie. Dlatego wstąpiłem do Korpusu Humanitarnego. Obiecali mi, że nigdy nie zostanę poproszony o odebranie życia. "`
 			choice
-				`	"Is that why you didn't kill that Alpha yourself, on the street?"`
+				`	"Czy to dlatego nie zabiłeś tego Alfy osobiście, na ulicy?"`
 					goto street
-				`	"That doesn't seem like a moral dilemma to me. We know those children will grow up to be monsters."`
+				`	"To nie wydaje mi się dylematem moralnym. Wiemy, że te dzieci wyrosną na potwory."`
 					goto kill
-				`	"Couldn't we let the children be born, if that's what the women want, then imprison them or something if they do turn out to be Alphas?"`
+				`	"Czy nie moglibyśmy pozwolić dzieciom się urodzić, skoro tego chcą kobiety, a jeśli okażą się Alfami, to je uwięzić lub coś w tym stylu?"`
 					goto live
 			label street
-			`	"Yes," he says. "Silly, isn't it? Anyway, this is my job to deal with; you need to go find Danforth."`
+			`	"Tak," mówi. "Głupie, prawda? W każdym razie, to moja robota; musisz znaleźć Danfortha."`
 				goto end
 			label kill
-			`	"Well," he says, "I envy you for living in a universe where decisions like this are easy. But to me it's still a painful choice to make. Anyway, that's my problem to deal with, not yours; you need to go find Danforth."`
+			`	"Cóż," mówi, "Zazdroszczę ci, że żyjesz we wszechświecie, w którym takie decyzje są łatwe. Ale dla mnie to wciąż bolesny wybór. W każdym razie, to mój problem, nie twój; musisz znaleźć Danfortha."`
 				goto end
 			label live
-			`	"The Alphas were originally bred to be super-soldiers," he says, "a weapon in the hands of a despotic government. As much as I hate to admit it, there are certain branches of the Republic who would love to get their hands on a small army of impressionable Alpha children. Far better for them to die than for that to happen. Anyway, that's my job to deal with; you need to go find Danforth."`
+			`	"Alfy zostały pierwotnie wyhodowane jako superżołnierze, " mówi, "broń w rękach despotycznego rządu. Choć nie chcę się do tego przyznawać, są pewne odłamy Republiki, które z chęcią dostaną w swoje ręce małą armię podatnych na wpływy dzieci Alfy. O wiele lepiej, żeby zginęły, niż żeby to się stało. W każdym razie, to moje zadanie; musisz znaleźć Danfortha."`
 				goto end
 			label end
-			`	He leaves, and you return to Danforth's ship. Danforth says, "Hello there, temporary ally. It was an honor to fight alongside you, while it lasted."`
+			`	On odchodzi, a ty wracasz na statek Danfortha. Danforth mówi: "Witaj, tymczasowy sojuszniku. To był zaszczyt walczyć u twego boku, póki to trwało."`
 			choice
-				`	"You too. I wish we could bring this war to an end."`
-				`	"If the Republic would just leave us alone, we wouldn't need to be enemies."`
-			`	"I know," he says. "But for now, I need to return to my fleet. Which means I'll be needing an escort out of your territory, just to make sure no one attacks me. Maybe you could take us by way of New Tibet? I'm sure Commander Nguyen would appreciate one last visit to the Buddhist monasteries there before that world becomes closed off to us completely." You agree, and he begins preparing his ship for takeoff.`
+				`	"Ty też. Chciałbym, żebyśmy mogli zakończyć tę wojnę."`
+				`	"Gdyby Republika zostawiła nas w spokoju, nie musielibyśmy być wrogami."`
+			`	"Wiem," mówi. "Ale na razie muszę wrócić do mojej floty. Co oznacza, że będę potrzebował eskorty poza twoim terytorium, żeby upewnić się, że nikt mnie nie zaatakuje. Może mógłbyś nas zabrać przez Nowy Tybet? Jestem pewien, że komandor Nguyen doceniłby ostatnią wizytę w tamtejszych klasztorach buddyjskich, zanim ten świat całkowicie się dla nas zamknie." Zgadzasz się, a on zaczyna przygotowywać swój statek do startu.`
 				accept
 	
 	on complete
@@ -1401,7 +1401,7 @@ mission "FW Death of Nguyen"
 	
 	on offer
 		conversation
-			`Soon after landing on <origin>, you receive an encoded message from Admiral Danforth, the leader of the Oathkeepers. "Captain <last>," he says, "I would like to thank you once again for allowing us to assist you on Poisonwood. Unfortunately, I have bad news that may concern you. Commander Nguyen, who was with you when one of the Alphas was apprehended, has been assassinated, shot in the head at point blank range. His attacker has not been found. We fear that this may be retribution for his part in the action on Poisonwood, and we urge you and your crew to be cautious. With deepest regards - Danforth."`
+			`Wkrótce po wylądowaniu na <origin> otrzymujesz zaszyfrowaną wiadomość od admirała Danfortha, dowódcy Strażników Przysięgi. "Kapitanie <last>," mówi: "Chciałbym ci raz jeszcze podziękować za umożliwienie nam pomocy na Poisonwood. Niestety, mam złe wieści, które mogą cię zaniepokoić. Komandor Nguyen, który był z tobą, gdy jeden z Alph został schwytany, został zamordowany strzałem w głowę z bliskiej odległości. Napastnik nie został odnaleziony. Obawiamy się, że może to być zemsta za jego udział w akcji na Poisonwood i apelujemy do ciebie i twojej załogi o ostrożność. Z najszczerszymi pozdrowieniami - Danforth."`
 				decline
 
 
@@ -1421,10 +1421,10 @@ mission "FW Alphas 1.2A"
 		log "Uwolniono Poisonwood z rąk najeźdźców Alfa. Musieliśmy ich zbombardować z orbity, w wyniku czego zginęło wielu cywilów, ale przynajmniej planeta znów jest wolna."
 		event "Poisonwood reverts to Republic"
 		conversation
-			`The ships in orbit are eliminated, but there are still the Alphas and their servants here on the ground to take care of. Your escorts unload the troops, who spread throughout the city and quickly determine that, as far as the locals know, the Alphas are all holed up in a large factory on the outskirts of town. The locals also inform you that the Alphas have taken dozens of prisoners and are holding them in the factory.`
-			`	As you are trying to prepare the Free Worlds troops to storm the building, suddenly one of your escorts, the Starry Warrior, takes off. You radio the captain, who responds, "Sorry, Captain, but I'm following orders. Alondo suspected you wouldn't like this." Then he opens fire on the factory, destroying everything within several blocks with blaster fire and torpedoes. He does not stop firing until there is nothing left but smoldering rubble in that entire section of the city.`
-			`	The Alphas are presumably dead. So are their prisoners, and any of the locals who were unlucky enough to be close to the factory when it was destroyed. The governor of Poisonwood, unable to conceal her anger, asks you to take your troops and your ships and leave her world immediately.`
-			`	You send a message to the Council asking what you should do, and they tell you to leave the planet and join Alondo on <planet>, to help bolster the defenses there. You leave <origin> with a heavy heart, glad that the Alphas are gone but wishing things here on <origin> had ended differently.`
+			`Statki na orbicie zostały zniszczone, ale Alfy i ich słudzy wciąż są na ziemi, którymi trzeba się zająć. Twoja eskorta rozładowuje żołnierzy, którzy rozchodzą się po mieście i szybko ustala, że - o ile miejscowi wiedzą - Alfy ukrywają się w dużej fabryce na obrzeżach miasta. Miejscowi informują cię również, że Alfy wzięły dziesiątki jeńców i przetrzymują ich w fabryce.`
+			`	Gdy próbujesz przygotować wojska Wolnych Światów do szturmu na budynek, nagle jeden z twoich eskortowców, Starry Warrior, startuje. Kontaktujesz się przez radio z kapitanem, który odpowiada: "Przepraszam, Kapitanie, ale wykonuję rozkazy. Alondo podejrzewał, że ci się to nie spodoba." Następnie otwiera ogień do fabryki, niszcząc wszystko w promieniu kilku przecznic ogniem z blasterów i torped. Nie przestaje strzelać, dopóki w całej tej części miasta nie pozostanie nic poza tlącymi się gruzami.`
+			`	Alfy prawdopodobnie nie żyją. Podobnie jak ich więźniowie i wszyscy mieszkańcy, którzy mieli pecha znajdować się w pobliżu fabryki w momencie jej zniszczenia. Gubernator Poisonwood, nie potrafiąc ukryć gniewu, prosi cię o natychmiastowe zabranie żołnierzy i statków i opuszczenie jej świata.`
+			`	Wysyłasz wiadomość do Rady z pytaniem, co powinieneś zrobić, a oni każą ci opuścić planetę i dołączyć do Alondo na <planet>, aby wzmocnić tamtejszą obronę. Opuszczasz <origin> z ciężkim sercem, ciesząc się, że Alfy odeszły, ale jednocześnie pragnąc, aby sprawy tutaj na <origin> potoczyły się inaczej.`
 				launch
 	
 	on complete
@@ -1448,20 +1448,20 @@ mission "FW Bloodsea 1"
 	
 	on offer
 		conversation
-			`You report in to Alondo, who listens to your description of the battle for Poisonwood with a grim expression on his face. "It's not the end, of course," he says. "It seems like no matter how many times we win a battle against the Alphas, there are more of them out there. But I'm glad that the immediate crisis has been dealt with."`
+			`Zgłaszasz się do Alondo, który słucha twojego opisu bitwy o Poisonwood z ponurym wyrazem twarzy. "To oczywiście nie koniec, " mówi. "Wygląda na to, że bez względu na to, ile razy wygramy bitwę z Alfami, jest ich więcej. Ale cieszę się, że bezpośredni kryzys został zażegnany. "`
 			choice
-				`	"Isn't there any way we can track down the rest of the Alphas?"`
-				`	"What is our next mission now?"`
+				`	"Czy nie ma sposobu, abyśmy mogli namierzyć resztę Alfy?"`
+				`	"Jaka jest teraz nasza następna misja?"`
 					goto next
-			`	"Not really," he says. "There are probably small enclaves throughout human space, and perhaps beyond our space as well. All we can do is make it harder for them to grow powerful."`
-			`	"And how do we do that?" you ask.`
+			`	"Nie do końca, " mówi. "Prawdopodobnie istnieją małe enklawy w przestrzeni kosmicznej, a może i poza nią. Możemy tylko utrudnić im wzrost potęgi."`
+			`	"A jak to robimy?" pytasz.`
 			label next
-			`	"The Senate has authorized a diplomatic mission to Bloodsea," he says. "It's the smallest of the pirate worlds, and we're going to see what we need to offer them to get them to join the Free Worlds. The official settlements there only amount to a few thousand people, so it shouldn't be too hard to convince them that joining us is better than resisting us."`
+			`	"Senat zezwolił na misję dyplomatyczną na Bloodsea, " mówi. "To najmniejszy z pirackich światów i zobaczymy, co możemy im zaoferować, żeby dołączyli do Wolnych Światów. Oficjalne osady liczą tam zaledwie kilka tysięcy mieszkańców, więc przekonanie ich, że dołączenie do nas jest lepsze niż stawianie oporu, nie powinno być zbyt trudne. "`
 			choice
-				`	"Okay, sounds like fun!"`
+				`	"Okej, brzmi jak dobra zabawa!"`
 					accept
-				`	"Wait, didn't things go south rather quickly the last time we attempted this?"`
-			`	Alondo grins. "Yes, but the Free Worlds are in a much stronger position now, and the pirate worlds know it's only a matter of time before they are forced to become civilized. And, the incident on Poisonwood proved that we can't afford to fight a war on two fronts. We need to eliminate the pirate threat, and a diplomatic solution with them is the only sort that will last. So, let's get going!"`
+				`	"Czekaj, czy ostatnim razem, gdy próbowaliśmy, sprawy nie potoczyły się dość szybko źle?"`
+			`	Alondo się uśmiecha. "Tak, ale Wolne Światy są teraz w znacznie silniejszej pozycji, a pirackie światy wiedzą, że to tylko kwestia czasu, zanim zostaną zmuszone do cywilizowania się. A incydent na Poisonwood pokazał, że nie możemy sobie pozwolić na wojnę na dwa fronty. Musimy wyeliminować zagrożenie ze strony piratów, a dyplomatyczne rozwiązanie z nimi to jedyne, które da nam trwałe rezultaty. Więc do dzieła! "`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Alondo jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -1484,30 +1484,30 @@ mission "FW Bloodsea 1.1"
 	on offer
 		log "Lokalni przywódcy na planecie bezprawia Bloodsea zapowiedzieli, że dołączą do Wolnych Światów i przestaną wspierać piractwo w zamian za sprzęt do budowy nowocześniejszego portu kosmicznego. Możliwe jednak, że po prostu próbują ukraść materiały budowlane; prościej byłoby po prostu ich zaatakować i podbić."
 		conversation
-			`The local leaders are unwilling to meet aboard your ship, and Alondo is afraid you will be ambushed if you venture too far away from it, so eventually they agree to set up a tent on the landing pad next to yours and meet there. Outside, a storm is raging, the rain mixing with salt spray from the blood-red ocean nearby.`
+			`Lokalni przywódcy nie chcą się spotkać na pokładzie twojego statku, a Alondo obawia się, że wpadniesz w zasadzkę, jeśli zapuścisz się za daleko. Ostatecznie zgadzają się rozbić namiot na lądowisku obok twojego i tam się spotkać. Na zewnątrz szaleje burza, deszcz miesza się ze słoną mgiełką znad krwistoczerwonego oceanu.`
 			branch peaceful
 				not "FW Pirates: Attack 2: done"
-			`	Most of the leaders grimace at the sight of you. "What is the invader doing here?" one of them asks to Alondo.`
-			`	"Captain <last> was only following orders, but the officer responsible for giving those orders has been justly punished," Alondo says. "We come in peace this time." The leaders don't seem convinced with that answer, but they agree to continue.`
+			`	Większość przywódców krzywi się na twój widok. "Co tu robi najeźdźca?" jeden z nich pyta Alondo.`
+			`	"Kapitan <last> tylko wykonywał rozkazy, ale oficer odpowiedzialny za ich wydanie został słusznie ukarany, " mówi Alondo. "Tym razem przybywamy w pokoju." Przywódcy nie wydają się przekonani tą odpowiedzią, ale zgadzają się kontynuować.`
 			label peaceful
-			`	As you talk, it becomes clear that the inhabitants of Bloodsea are ashamed of how destitute and undeveloped their world is. Several of them have visited the island spaceport on Deep, and after dancing around the issue for a while, they make a request: if the Free Worlds builds them a real, modern island spaceport, they will join the Free Worlds.`
-			`	One of them lays out a detailed list of amenities the port must have: concrete seawalls, raised landing pads, floating docks, sturdy hangars and warehouses, and various defense systems "for when the others learn that we've decided to join you." Also, the deal is off if you show up in orbit with a fleet that "looks like an invasion fleet rather than a construction fleet."`
-			`	You thank them and return to your ship. Alondo asks, "What do you think?"`
+			`	W trakcie rozmowy staje się jasne, że mieszkańcy Krwawego Morza wstydzą się nędzy i zacofania swojego świata. Kilku z nich odwiedziło wyspiarski port kosmiczny na Głębi i po pewnym czasie unikania tematu, proszą: jeśli Wolne Światy zbudują im prawdziwy, nowoczesny port kosmiczny, dołączą do Wolnych Światów.`
+			`	Jeden z nich przedstawia szczegółową listę udogodnień, które musi mieć port: betonowe mury nabrzeżne, podwyższone platformy do lądowania, pływające doki, solidne hangary i magazyny oraz różne systemy obronne "na wypadek, gdyby inni dowiedzieli się, że postanowiliśmy do was dołączyć." Ponadto umowa przepada, jeśli pojawisz się na orbicie z flotą, która "wygląda bardziej jak flota inwazyjna niż budowlana."`
+			`	Dziękujesz im i wracasz na statek. Alondo pyta: "Co o tym myślisz?"`
 			choice
-				`	"Well, building a spaceport is probably cheaper than fighting a major battle."`
+				`	"Cóż, zbudowanie portu kosmicznego jest prawdopodobnie tańsze niż stoczenie większej bitwy."`
 					goto port
-				`	"They're asking a lot. Why don't we just invade them?"`
+				`	"Dużo żądają. Czemu po prostu ich nie zaatakujemy?"`
 					goto invade
 			label port
-			`	"Yes," he says, "except that I can almost guarantee that when we show up on their doorstep with everything they asked for, some local warlord will attack our ships, steal our supplies, enslave our workers, and build himself a nice cozy island fortress."`
-			`	"So, we attack them?" you ask.`
+			`	"Tak," mówi, "z tym wyjątkiem, że mogę niemal zagwarantować, że kiedy pojawimy się u ich drzwi ze wszystkim, o co prosili, jakiś lokalny watażka zaatakuje nasze statki, ukradnie nasze zapasy, zniewoli naszych robotników i zbuduje sobie przyjemną, wyspiarską fortecę."`
+			`	"Więc, atakujemy ich?" pytasz.`
 			label invade
 			branch hostile
 				not "FW Pirates: Attack 2: done"
-			`	"They didn't seem very happy about you doing that the first time. But..." Alondo pauses for a moment.`
+			`	"Nie wydawali się zbyt zadowoleni, że zrobiłeś to za pierwszym razem. Ale..." Alondo na chwilę milknie.`
 			label hostile
-			`	"That's certainly the simpler option," he says. "Tomek may have been punished for disobeying the Senate's orders, but we're in a different situation now. Our numbers have swelled because of our victories and new territory, and we now have the Dreadnoughts at our disposal, so occupying Bloodsea is now a viable option.`
-			`	"You're on the Council now," he says. "I'll leave it up to you. Option one is, we bring them the supplies and workers, in merchant ships, but use very heavily armed merchant ships in case they double cross us. Option two is, we go to Dancer and see if JJ can lend us an invasion fleet while I convince the Senate that attacking Bloodsea is the better decision."`
+			`	"To zdecydowanie prostsza opcja, " mówi. "Tomek mógł zostać ukarany za nieposłuszeństwo rozkazom Senatu, ale teraz jesteśmy w innej sytuacji. Nasze siły wzrosły dzięki zwycięstwom i nowym terytoriom, a do dyspozycji mamy teraz pancerniki, więc okupacja Krwawego Morza jest teraz realną opcją.`
+			`	"Jesteś teraz w Radzie, " mówi. "Zostawiam to tobie. Opcja pierwsza to dostarczenie im zaopatrzenia i pracowników statkami handlowymi, ale użyjemy bardzo dobrze uzbrojonych statków handlowych na wypadek, gdyby nas zdradzili. Opcja druga to udanie się do Dancer i sprawdzenie, czy JJ może nam pożyczyć flotę inwazyjną, podczas gdy ja przekonam Senat, że atak na Bloodsea to lepsza decyzja."`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Alondo jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -1529,9 +1529,9 @@ mission "FW Bloodsea 1.1A"
 	
 	on offer
 		conversation
-			`Waiting for you in the spaceport on <origin> are two Behemoth heavy freighters, which will be carrying the equipment and workers to Bloodsea. You can't help notice that nearly a third of their cargo space has been converted into extra outfit space, and both ships have a pair of Plasma Turrets mounted on them, and what looks like Torpedo Launchers as well.`
-			`	While you are on Zug, you and Alondo meet up with Freya and ask how the Dreadnought production is going. "We're nearly there," she says, "just one or two kinks left to work out. They've produced another two prototypes, but not enough to start selling them yet. I know, you're itching to pilot one of your own. Believe me, we're working as fast as possible."`
-			`	Your next stop is to pick up more workers and construction supplies on <destination>.`
+			`W porcie kosmicznym na <origin> czekają na ciebie dwa ciężkie frachtowce Behemoth, które przetransportują sprzęt i pracowników na Bloodsea. Nie sposób nie zauważyć, że prawie jedna trzecia ich przestrzeni ładunkowej została przekształcona w dodatkową przestrzeń na wyposażenie, a oba statki mają zamontowane dwie wieżyczki plazmowe oraz coś, co wygląda na wyrzutnie torped.`
+			`	Kiedy jesteś na Zug, ty i Alondo spotykacie się z Freyą i pytacie, jak idzie produkcja Dreadnoughta. "Już prawie skończyliśmy, " mówi, "pozostało tylko jedno lub dwa problemy do rozwiązania. Wyprodukowali jeszcze dwa prototypy, ale za mało, żeby zacząć je sprzedawać. Wiem, że nie możesz się doczekać, żeby poprowadzić własny. Uwierz mi, pracujemy tak szybko, jak to możliwe. "`
+			`	Twój następny przystanek to <destination>, gdzie odbierzesz więcej pracowników i materiałów budowlanych.`
 				accept
 	
 	npc accompany save
@@ -1561,7 +1561,7 @@ mission "FW Bloodsea 1.1B"
 	
 	on offer
 		conversation
-			`You stop on <origin>, and wait as more supplies are loaded onto the two Behemoths you are escorting. Your final stop is <planet>. Alondo thought it likely that some pirates would try to intercept your convoy and steal its cargo, but as long as both freighters land on the planet without being captured or destroyed, you will be able to begin the construction project and thus meet the demands of the people on <planet> to convince them to join the Free Worlds.`
+			`Zatrzymujesz się na <origin> i czekasz, aż na dwa eskortowane przez ciebie Behemoty zostaną załadowane kolejne zapasy. Twój ostatni przystanek to <planet>. Alondo spodziewał się, że piraci spróbują przechwycić twój konwój i ukraść jego ładunek, ale jeśli oba frachtowce wylądują na planecie bez schwytania ani zniszczenia, będziesz mógł rozpocząć projekt budowy i w ten sposób spełnić żądania mieszkańców <planet>, aby przekonać ich do przyłączenia się do Wolnych Światów.`
 				accept
 	
 	npc accompany save
@@ -1593,8 +1593,8 @@ mission "FW Bloodsea 1.1B"
 		event "bloodsea spaceport completed" 100
 		log "Przywieziono materiały budowlane, o które prosili mieszkańcy Krwawego Morza, i zgodzono się dołączyć do Wolnych Światów."
 		conversation
-			`A few of the locals on Bloodsea appear surprised that you actually brought the supplies for a new spaceport, and that you arrived with all the supplies intact. But after meeting up with Alondo, they agree to hold their side of the bargain: from now on, Bloodsea will be a part of the Free Worlds, with all the rights and responsibilities that implies. And that means that they will refuse to knowingly harbor any pirate fleets or other known criminals.`
-			`	Alondo tells you that he will catch a ride back with the freighters when they return. "But, you'll probably want to head out sooner," he says, "because I've got some good news for you. Freya just contacted me, to say that they're now ready to start selling Dreadnoughts to certain select members of the Free Worlds, including you. That also means she's done with her work on Zug, so she'll need you to give her a lift from there."`
+			`Kilku mieszkańców Krwawego Morza wydaje się zaskoczonych, że przywiozłeś zapasy dla nowego kosmoportu i że przybyłeś z nimi w nienaruszonym stanie. Ale po spotkaniu z Alondo zgadzają się dotrzymać swojej części umowy: od teraz Krwawe Morze będzie częścią Wolnych Światów, ze wszystkimi prawami i obowiązkami, które się z tym wiążą. A to oznacza, że nie będą świadomie udzielać schronienia żadnym pirackim flotom ani innym znanym przestępcom.`
+			`	Alondo mówi ci, że wróci frachtowcami, kiedy wrócą. "Ale prawdopodobnie będziesz chciał wyruszyć wcześniej, " mówi, "bo mam dla ciebie dobre wieści. Freya właśnie się ze mną skontaktowała, żeby powiedzieć, że są już gotowi sprzedawać pancerniki wybranym członkom Wolnych Światów, w tym tobie. To również oznacza, że skończyła pracę nad Zugiem, więc będzie potrzebowała, żebyś ją stamtąd podwiózł. "`
 				accept
 
 
@@ -1608,8 +1608,8 @@ mission "Ijs catches another ride"
 		payment 10000
 		event "fw conservatory founded" 30
 		conversation
-			`Ijs approaches you with his duffel as you're stepping off the <ship>.`
-			`	"Thanks for getting me this close, but I really need to get to Winter as soon as possible. I hope you don't take offense that I've booked passage on another transport. Here's <payment> for getting me this far, anyway. I hope to see you again soon, Captain <last>."`
+			`Ijs podchodzi do ciebie z torbą podróżną, gdy wysiadasz z <ship>.`
+			`	"Dzięki za doprowadzenie mnie tak blisko, ale naprawdę muszę jak najszybciej dotrzeć do Winter. Mam nadzieję, że nie obrazisz się, że zarezerwowałem przelot innym transportem. I tak <payment> za doprowadzenie mnie tak daleko. Mam nadzieję, że wkrótce się zobaczymy, Kapitanie <last>."`
 				decline
 		fail "FW Conservatory 1"
 
@@ -1644,13 +1644,13 @@ mission "FW Bloodsea 1.2A"
 		event "battle for bloodsea"
 		karma --
 		conversation
-			`When you meet up with JJ, Alondo explains that you're in need of an invasion fleet for Bloodsea. JJ looks confused at the request. "What? Whatever happened to diplomacy? I only heard that the Senate approved a diplomatic mission. Didn't Tomek get punished for this exact stunt?"`
+			`Kiedy spotykasz się z JJ, Alondo wyjaśnia, że potrzebujesz floty inwazyjnej na Krwawe Morze. JJ wygląda na zdezorientowanego tą prośbą. "Co? Co się stało z dyplomacją? Słyszałem tylko, że Senat zatwierdził misję dyplomatyczną. Czy Tomek nie został ukarany za ten właśnie wybryk?"`
 			choice
-				`	"Alondo convinced me that the Bloodsea natives were just planning to betray us."`
-				`	"I don't think the pirates will understand any language except overwhelming force."`
-			`	"You're starting to sound a lot like Tomek," JJ remarks.`
-			`	"I also contacted the Senate on the way here," Alondo says, "and they approved the invasion. We're much more powerful now than before, making invasion a viable option."`
-			`	"Perhaps," says JJ. "I'll provide you with some ships, but I'm not happy about this. I need to keep most of my fleet here, to defend against the Navy, but I'll select a few of the strongest ships to accompany you to Bloodsea. Make sure they make it home safe, though. We'll need every ship we can get for when the Navy attacks. Good luck, Captain."`
+				`	"Alondo przekonał mnie, że mieszkańcy Krwawego Morza po prostu planowali nas zdradzić."`
+				`	"Nie sądzę, żeby piraci zrozumieli jakikolwiek język poza przytłaczającą siłą."`
+			`	"Zaczynasz brzmieć bardzo podobnie do Tomka," zauważa JJ.`
+			`	"Skontaktowałem się też z Senatem w drodze tutaj, " mówi Alondo, "i zatwierdzili inwazję. Jesteśmy teraz o wiele potężniejsi niż wcześniej, co sprawia, że inwazja jest realną opcją. "`
+			`	"Być może, " mówi JJ. "Dostarczę ci kilka statków, ale nie jestem z tego zadowolony. Muszę zatrzymać większość mojej floty tutaj, żeby bronić się przed Marynarką Wojenną, ale wybiorę kilka najsilniejszych okrętów, żeby towarzyszyły ci na Krwawym Morzu. Upewnij się jednak, że bezpiecznie wrócą do domu. Będziemy potrzebować każdego statku, jaki uda nam się zdobyć, gdy Marynarka Wojenna zaatakuje. Powodzenia, Kapitanie."`
 				accept
 	
 	npc
@@ -1685,8 +1685,8 @@ mission "FW Bloodsea 1.2A"
 		event "dreadnought deployment" 40
 		event "bloodsea independent"
 		conversation
-			`You land at the main spaceport on Bloodsea with Free Worlds ships circling overhead, ready to bombard the locals if they show any sign of resistance. It is a tense atmosphere, and the leaders sullenly agree to give the Free Worlds access to their planet and to avoid knowingly supporting piracy or other criminal activity. You have won this world, but you have clearly not won the hearts of the locals.`
-			`	A while later, you receive new orders from Alondo. "I've got some good news for you," he says. "Freya just contacted me, to say that they're now ready to start selling Dreadnoughts to certain select members of the Free Worlds, including you. That also means she's done with her work on Zug, so she'll need you to give her a lift from there."`
+			`Lądujesz w głównym porcie kosmicznym na Krwawym Morzu, a nad tobą krążą statki Wolnych Światów, gotowe zbombardować tubylców, jeśli tylko dadzą o sobie znać. Atmosfera jest napięta, a przywódcy ponuro zgadzają się przyznać Wolnym Światom dostęp do swojej planety i powstrzymać się od świadomego wspierania piractwa i innych działań przestępczych. Zdobyłeś ten świat, ale najwyraźniej nie zdobyłeś serc tubylców.`
+			`	Chwileczkę później otrzymujesz nowe zamówienia od Alondo. "Mam dla ciebie dobre wieści, " mówi. "Freya właśnie się ze mną skontaktowała, żeby powiedzieć, że są już gotowi sprzedawać Dreadnoughty wybranym członkom Wolnych Światów, w tym tobie. To również oznacza, że skończyła pracę nad Zugiem, więc będzie potrzebowała, żebyś ją stamtąd podwiózł. "`
 				accept
 
 
@@ -1745,37 +1745,37 @@ mission "FW Albatross 1"
 	
 	on offer
 		conversation
-			`Freya comes to your ship soon after you land. She is beaming, and looks more relaxed than you have seen her in months. "Southbound Shipyards is churning out Dreadnoughts now!" she says. "Still only at a rate of one a week or so, but for a ship this big that's quite impressive. And it means you can now buy one of your own, if you've got enough savings. Seriously, even if you can't afford one yet, be sure to stop by the shipyard and check them out." She is clearly very proud.`
+			`Freya przypływa do twojego statku wkrótce po wylądowaniu. Promieniuje i wygląda na bardziej zrelaksowaną niż widziałeś ją od miesięcy. "Southbound Shipyards teraz produkuje pancerniki! " mówi. "Wciąż tylko jeden na tydzień, ale jak na tak duży statek, to całkiem imponujące. A to oznacza, że teraz możesz kupić własny, jeśli masz wystarczająco dużo oszczędności. Serio, nawet jeśli jeszcze cię na niego nie stać, koniecznie wpadnij do stoczni i sprawdź. " Jest wyraźnie bardzo dumna.`
 			choice
-				`	"Great job, Freya! I'm really glad to have a talented engineer on the Council to help get things done."`
-				`	"Glad to hear it. Now, what is our next action against the pirates?"`
+				`	"Świetna robota, Freya! Cieszę się, że w Radzie jest tak utalentowany inżynier, który pomoże nam w realizacji zadań."`
+				`	"Cieszę się. A teraz, jakie będą nasze następne działania przeciwko piratom?"`
 					goto pirates
-			`	She smiles. "Thanks. It was actually really refreshing to be able to tackle a concrete, solvable problem for a change, instead of all this nebulous political stuff. Speaking of which, our next step will be to go visit JJ. He's going to be doing the diplomatic outreach to Albatross."`
+			`	Uśmiecha się. "Dzięki. To było naprawdę odświeżające móc zająć się konkretnym, możliwym do rozwiązania problemem, zamiast całej tej mglistej politycznej otoczki. A skoro o tym mowa, naszym następnym krokiem będzie wizyta u JJ. To on będzie kontaktował się z Albatrossem w sprawie dyplomacji."`
 				goto alondo
 			label pirates
-			`	"Right, right, back to work," she says. "Well, it sounds like the next order of business is for you to transport me to <planet> to take JJ's place there while he makes a diplomatic visit to Albatross."`
+			`	"Dobra, dobra, wracamy do pracy, " mówi. "Cóż, wygląda na to, że następnym zadaniem będzie przetransportowanie mnie do <planet>, żebym zajęła miejsce JJ, podczas gdy on będzie składał wizytę dyplomatyczną na Albatrossie."`
 				goto alondo
 			label alondo
-			`	You ask, "Wait, doesn't Alondo usually handle the diplomacy?"`
-			`	"Usually, yes," she says. "But the locals on Albatross specifically asked for JJ. They're a very traditional population, and JJ is well-known as both a family man and a brave soldier. Whereas Alondo is... Alondo."`
+			`	Pytasz, "Czekaj, czy Alondo zwykle nie zajmuje się dyplomacją?"`
+			`	"Zazwyczaj tak," odpowiada. "Ale mieszkańcy Albatrosa specjalnie prosili o JJ. To bardzo tradycyjna populacja, a JJ jest znany zarówno jako człowiek rodzinny, jak i dzielny żołnierz. Natomiast Alondo to... Alondo."`
 			choice
-				`	"Fair enough. Let's head to <planet>!"`
+				`	"W porządku. Przejdźmy do <planet>!"`
 					accept
-				`	"Wait, I don't understand. Why don't they like Alondo?"`
-			`	She looks genuinely surprised that you don't know. "Alondo is gay," she says. "There are few worlds here in the South where that would bother anyone, but Albatross is one of them. So Alondo is taking a break to go visit the Senate, while JJ deals with this particular diplomatic situation."`
+				`	"Czekaj, nie rozumiem. Czemu nie lubią Alondo?"`
+			`	Wygląda na szczerze zaskoczoną, że nie wiesz. "Alondo jest gejem, " mówi. "Jest niewiele światów tutaj na Południu, gdzie to by komukolwiek przeszkadzało, ale Albatross jest jednym z nich. Alondo robi sobie przerwę, żeby odwiedzić Senat, podczas gdy JJ zajmuje się tą konkretną sytuacją dyplomatyczną. "`
 			choice
-				`	"Okay, I feel silly for even asking. Let's go meet up with JJ!"`
+				`	"Dobra, głupio mi, że w ogóle pytam. Chodźmy spotkać się z JJ!"`
 					accept
-				`	"Actually, I'm gay too."`
+				`	"Właściwie to ja też jestem gejem."`
 					goto "me too"
-				`	"Ah. That certainly explains some things."`
-				`	"It seems crazy that anyone would be bothered by that in this day and age."`
-			`	"Yes," she says. "Yes, it does. Now, let's go meet up with JJ."`
+				`	"Ach. To z pewnością wyjaśnia pewne rzeczy."`
+				`	"Wydaje się szalone, że kogokolwiek to obchodzi w dzisiejszych czasach."`
+			`	"Tak," mówi. "Tak, zgadza się. A teraz chodźmy spotkać się z JJ."`
 				accept
 			label "me too"
 			action
 				set "gay"
-			`	Freya raises an eyebrow. "I hadn't heard. We don't have time to find someone else for this mission, so you'll need to be the one to transport JJ. Stay safe."`
+			`	Freya unosi brew. "Nie słyszałem. Nie mamy czasu, żeby znaleźć kogoś innego do tej misji, więc to ty będziesz musiał przetransportować JJ. Uważaj na siebie. "`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -1797,9 +1797,9 @@ mission "FW Albatross 2"
 	
 	on offer
 		conversation
-			`When you meet up with JJ, he looks exhausted. "Our scouts are reporting that the Navy is building a massive base on New Iceland," he says, "just a few jumps away from here. So every day I look up at the sky and wonder if today is the day when they will invade."`
-			`	You talk for a while and agree that despite the threat from the Navy, dealing with the pirates is important. JJ explains that Albatross started out as a sort of farming commune: independent, but not associated with any illegal activity. But they were dominated by pirates, and since then, one pirate overlord after another has held sway over the planet. So in principle at least, the locals ought to welcome the idea of Free Worlds protection.`
-			`	While you are traveling with JJ, Freya agrees to stay here and work on a better surveillance network, to give Dancer advance warning if the Navy decides to invade.`
+			`Kiedy spotykasz JJ, wygląda na wyczerpanego. "Nasi zwiadowcy donoszą, że Marynarka Wojenna buduje ogromną bazę na Nowej Islandii, "mówi, "zaledwie kilka skoków stąd. Więc każdego dnia patrzę w niebo i zastanawiam się, czy dzisiaj nadszedł dzień ich inwazji. "`
+			`	Rozmawiacie chwilę i zgadzacie się, że pomimo zagrożenia ze strony Marynarki Wojennej, rozprawienie się z piratami jest ważne. JJ wyjaśnia, że Albatross zaczynał jako swego rodzaju komuna rolnicza: niezależna, ale niezwiązana z żadną nielegalną działalnością. Jednak byli zdominowani przez piratów i od tamtej pory jeden piracki władca po drugim sprawował władzę nad planetą. Więc przynajmniej w teorii miejscowi powinni z zadowoleniem przyjąć pomysł ochrony Wolnych Światów.`
+			`	Podczas gdy podróżujesz z JJ, Freya zgadza się zostać tutaj i pracować nad lepszą siecią nadzoru, aby dać Dancerowi znać z wyprzedzeniem, gdyby Marynarka Wojenna zdecydowała się na inwazję.`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z JJ jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -1831,31 +1831,31 @@ mission "FW Albatross 2A"
 				not "gay"
 			action
 				clear "gay"
-			`JJ puts a hand on your shoulder before leaving the ship. "Freya let me know. For safety reasons only, of course. You can stay here if you aren't comfortable."`
+			`JJ kładzie ci rękę na ramieniu, zanim opuści statek. "Freya, daj mi znać. Oczywiście tylko ze względów bezpieczeństwa. Możesz tu zostać, jeśli nie czujesz się komfortowo."`
 			choice
-				`	"No, I'll come with you."`
-				`	"Thank you. I'll stay."`
+				`	"Nie, pójdę z tobą."`
+				`	"Dziękuję. Zostanę."`
 					goto alt
 			label meeting
-			`Your meeting with the elders of Albatross happens in secret, by night. They are afraid that if their current pirate overlord, Ryk Bartlett, finds out that they have met with you, they will face retribution. JJ begins by describing the Free Worlds' offer: all the benefits of the mutual defense pact, in exchange for an agreement to uphold human rights and the rule of law, plus offering financial support for the Free Worlds.`
-			`	"Begging your pardon," says one of the elders, "but what makes you different from any pirate organization that comes in here, demanding our money in return for 'protection'?"`
+			`Twoje spotkanie ze starszyzną Albatrosa odbywa się w tajemnicy, nocą. Obawiają się, że jeśli ich obecny piracki władca, Ryk Bartlett, dowie się o twoim spotkaniu, spotka ich zemsta. JJ zaczyna od opisu oferty Wolnych Światów: wszystkie korzyści wynikające z paktu o wzajemnej obronie w zamian za porozumienie w sprawie przestrzegania praw człowieka i praworządności, a także wsparcie finansowe dla Wolnych Światów.`
+			`	"Przepraszam," mówi jeden ze starszych, "ale czym różnicie się od każdej organizacji pirackiej, która przychodzi tutaj i żąda od nas pieniędzy w zamian za "ochronę"?"`
 			choice
-				`	(Let JJ answer that.)`
+				`	(Niech JJ odpowie na to pytanie.)`
 					goto jj
-				`	(Try to give an explanation myself.)`
-			`	"We're a representative government," you say, "with open financial records and clear human rights guidelines that we uphold."`
+				`	(Postaram się sam dać wyjaśnienie.)`
+			`	"Jesteśmy rządem reprezentatywnym, " mówisz, "z jawnymi zapisami finansowymi i jasnymi wytycznymi dotyczącymi praw człowieka, których przestrzegamy."`
 				goto unconvinced
 			label jj
-			`	JJ explains about the Senate, that each world has a say in how the Free Worlds income is spent. "And," he says, "we will not take your children as slaves, or force you to work in factories producing illegal drugs."`
+			`	JJ wyjaśnia, że Senat ma wpływ na to, jak wydawane są dochody Wolnych Światów. "I," mówi, "nie weźmiemy waszych dzieci jako niewolników ani nie zmusimy was do pracy w fabrykach produkujących nielegalne narkotyki."`
 			label unconvinced
-			`	The elder who spoke seems unconvinced. "Seems to me that you 'Council' folks are the real rulers, and your 'Senate' is a figurehead," he says. "So I don't call that true democracy."`
-			`	"Maybe," says another of the elders, "but they're still better than Bartlett. I say, if the Free Worlds can free us from him, we'll at least give their new government a try." A few of the others nod in agreement.`
-			`	They explain that to the best of their knowledge, Bartlett is spending most of his time near the Zeta Aquilae system, plundering merchant convoys of heavy metals coming out of Rand and Oblivion. If you can destroy Bartlett and his flagship, the Dread, his followers will probably disperse.`
+			`	Starszy, który przemawiał, wydawał się nieprzekonany. "Wydaje mi się, że wy, członkowie "Rady", jesteście prawdziwymi władcami, a wasz "Senat" jest jedynie figurantem, "mówi. "Więc nie nazywam tego prawdziwą demokracją."`
+			`	"Może," mówi inny ze starszych, "ale i tak są lepsi od Bartletta. Mówię, że jeśli Wolne Światy nas od niego uwolnią, to przynajmniej damy szansę ich nowemu rządowi." Kilku pozostałych kiwa głowami na znak zgody.`
+			`	Wyjaśniają, że według ich najlepszej wiedzy Bartlett spędza większość czasu w pobliżu układu Zeta Aquilae, rabując konwoje handlowe z ciężkimi metalami wypływające z Rand i Oblivion. Jeśli uda ci się zniszczyć Bartletta i jego okręt flagowy, Dread, jego zwolennicy prawdopodobnie się rozproszą.`
 				accept
 			label alt
-			`	The meeting with the elders of Albatross happens in secret, by night. They are afraid that if their current pirate overlord, Ryk Bartlett, finds out that they have met with you, they will face retribution. You wait in your ship while JJ attempts to convince the elders that they should join the Free Worlds. After some hours, JJ returns.`
-			`	"They're interested," JJ says to you, "but they want the current warlord dead."`
-			`	They explained that to the best of their knowledge, Bartlett is spending most of his time near the Zeta Aquilae system, plundering merchant convoys of heavy metals coming out of Rand and Oblivion. If you can destroy Bartlett and his flagship, the Dread, his followers will probably disperse.`
+			`	Spotkanie ze starszyzną Albatrosa odbywa się w tajemnicy, nocą. Obawiają się, że jeśli ich obecny piracki władca, Ryk Bartlett, dowie się o spotkaniu z tobą, spotka ich kara. Czekasz na swoim statku, podczas gdy JJ próbuje przekonać starszyznę do dołączenia do Wolnych Światów. Po kilku godzinach JJ wraca.`
+			`	"Oni są zainteresowani," mówi ci JJ, "ale chcą śmierci obecnego watażki."`
+			`	Wyjaśnili, że według ich najlepszej wiedzy Bartlett spędza większość czasu w pobliżu układu Zeta Aquilae, rabując konwoje handlowe z ciężkimi metalami wypływające z Rand i Oblivion. Jeśli uda ci się zniszczyć Bartletta i jego okręt flagowy, Dread, jego zwolennicy prawdopodobnie się rozproszą.`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że albo nie zniszczyłeś statku Ryka Bartletta, Dreada, albo twoja eskorta z JJ jeszcze nie wleciała do układu. Lepiej odlecieć i upewnić się, że zrobiłeś wszystko, co konieczne, aby ukończyć tę misję.`
@@ -1909,8 +1909,8 @@ mission "FW Albatross 2B"
 		log "Mieszkańcy Albatross, kolejnego anarchistycznego świata, zgodzili się dołączyć do Wolnych Światów z wdzięczności za uwolnienie od Ryka Bartletta, watażki, który wymuszał od nich haracze."
 		event "albatross joins free worlds"
 		conversation
-			`When the elders on Albatross learn that you have destroyed Ryk Bartlett and freed them from his rule, they grudgingly agree to join the Free Worlds, "at least on a trial basis." You hope that you will be able to live up to the promises you have given them.`
-			`	After you return to your ship, JJ says, "So far Freya says there have been no hints of a Navy attack against Dancer, and she has a new set of surveillance satellites up and running in Alpha Arae to monitor fleet activity. So, let's go meet up with her and decide what our next steps should be."`
+			`Kiedy starsi na Albatrosie dowiadują się, że zniszczyłeś Ryka Bartletta i uwolniłeś ich spod jego władzy, niechętnie zgadzają się dołączyć do Wolnych Światów, "przynajmniej na okres próbny." Masz nadzieję, że będziesz w stanie dotrzymać obietnic, które im dałeś.`
+			`	Po powrocie na statek, JJ mówi: "Jak dotąd Freya twierdzi, że nie ma żadnych sygnałów ataku Marynarki Wojennej na Dancer, a ona ma nowy zestaw satelitów obserwacyjnych działających na Alpha Arae, które monitorują aktywność floty. Spotkajmy się więc z nią i zadecydujmy, jakie powinny być nasze dalsze kroki."`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z JJ jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -1941,20 +1941,20 @@ mission "FW Rand 1"
 		log "Dwie kolejne planety, Rand i Oblivion, wyraziły zainteresowanie dołączeniem do Wolnych Światów. Znajdują się one jednak dość daleko od reszty terytorium Wolnych Światów, więc JJ obawia się, że stworzy to niemożliwą do obrony pozycję taktyczną."
 		event "battle for zeta aquilae"
 		conversation
-			`When you land on Dancer, Freya has just received some exciting news. "It turns out taking out Bartlett had some unexpected side effects," she says. "Bartlett has been hounding the systems on the northeastern fringe of the Dirt Belt for years, and had a lot of enemies. The governments of Rand and Oblivion are so grateful to you for eliminating him that they've reached out to us to begin the process of joining the Free Worlds! And several other worlds in that region are interested now, too."`
-			`	JJ frowns. "That's really awful timing," he says, "and would put us in a really bad tactical position - spread out, and with the Navy right in the middle."`
+			`Kiedy lądujesz na Tancerzu, Freya właśnie otrzymała ekscytujące wieści. "Okazuje się, że pokonanie Bartletta miało nieoczekiwane skutki uboczne, " mówi. "Bartlett od lat nękał systemy na północno-wschodnim krańcu Pasa Ziemi i miał wielu wrogów. Rządy Rand i Otchłani są ci tak wdzięczne za wyeliminowanie go, że skontaktowały się z nami, aby rozpocząć proces dołączenia do Wolnych Światów! Kilka innych światów w tym regionie również jest teraz zainteresowanych. "`
+			`	JJ marszczy brwi. "To naprawdę fatalny moment, " mówi, "i postawiłoby nas w naprawdę złej pozycji taktycznej - rozproszeni, a Marynarka Wojenna w samym środku."`
 			choice
-				`	"Are you saying we shouldn't let them join, even though they want to?"`
-				`	"Well, I say, if they want to join us, we should let them. Who knows if they'll be this enthusiastic about the Free Worlds later if we let them down now."`
-			`	JJ thinks about that for a moment, then says, "Well, I guess we should let them join. It will mean we may need to launch an assault to drive the Navy off New Iceland. But if we do that, our tactical position shifts from one that's worse than what we have now, to something much better. Freya, did they say if there's any sign that the Navy has gotten word of this?"`
-			`	"A few Carriers are in orbit around Rand," she says, "so they must suspect something. But the bulk of the Navy fleet is still to the north and east of here."`
-			`	JJ says, "Okay Captain, here's what I propose. We'll leave the bulk of our fleet here to defend Dancer and New Portland, but take a few of our best ships to Zeta Aquilae and drive out the Navy. Freya and I will travel with you so that if we need to make any decisions, we'll have most of the Council there in person. How does that sound?"`
+				`	"Czy mówisz, że nie powinniśmy pozwolić im dołączyć, nawet jeśli tego chcą?"`
+				`	"No cóż, mówię, jeśli chcą do nas dołączyć, powinniśmy im na to pozwolić. Kto wie, czy później będą tak entuzjastycznie nastawieni do Wolnych Światów, jeśli ich teraz zawiedziemy."`
+			`	JJ zastanawia się przez chwilę, po czym mówi: "No cóż, chyba powinniśmy pozwolić im dołączyć. To może oznaczać, że będziemy musieli rozpocząć atak, aby wyprzeć Marynarkę Wojenną z Nowej Islandii. Ale jeśli to zrobimy, nasza pozycja taktyczna zmieni się z gorszej niż ta, którą mamy teraz, na znacznie lepszą. Freya, czy powiedzieli, czy są jakieś oznaki, że Marynarka Wojenna się o tym dowiedziała? "`
+			`	"Kilka lotniskowców orbituje wokół Rand, "mówi, "więc muszą coś podejrzewać. Ale większość floty Marynarki Wojennej wciąż znajduje się na północ i wschód stąd."`
+			`	JJ mówi: "Dobrze Kapitanie, oto moja propozycja. Zostawimy tu większość naszej floty, by broniła Dancer i Nowego Portlandu, ale zabierzemy kilka naszych najlepszych okrętów na Zeta Aquilae i wypędzimy Marynarkę Wojenną. Freya i ja pojedziemy z tobą, żeby w razie konieczności podjęcia decyzji większość Rady była tam osobiście. Co ty na to?"`
 			choice
-				`	"It sounds like a good plan. Let's do it!"`
+				`	"Brzmi jak dobry plan. Zróbmy to!"`
 					accept
-				`	"I'm still worried we're over-extending ourselves."`
-			`	"You may be right," he says. "Freya, what do you think?"`
-			`	"I think we need to take this opportunity while it's available," she says. "Sorry, Captain, but I'm with JJ on this one." They both board your ship, and you get ready to travel to Zeta Aquilae.`
+				`	"Nadal obawiam się, że przekraczamy swoje możliwości."`
+			`	"Możesz mieć rację," mówi. "Freya, co o tym myślisz?"`
+			`	"Myślę, że musimy skorzystać z okazji, póki jest dostępna, " mówi. "Przepraszam, Kapitanie, ale w tej sprawie zgadzam się z JJ." Oboje wchodzą na pokład twojego statku, a ty przygotowujesz się do podróży do Zeta Aquilae.`
 				accept
 	
 	npc
@@ -2016,20 +2016,20 @@ mission "FW Rand 1B"
 	on offer
 		log "Marynarka wojenna dokonała inwazji na Rastaban i Delta Sagittarii, skutecznie przecinając terytorium Wolnych Światów i dzieląc ich flotę."
 		conversation
-			`You meet up with the governor of Rand, and sign the papers to make her planet a part of the Free Worlds. The nearby systems are reporting no Navy interference: they seem to have been allowed to switch allegiances without any attempt by the Republic to stop them. Of course, that might partly be because these are mining planets, not as necessary to the Republic's survival as the farming worlds on the other end of the Dirt Belt.`
-			`	Freya leaves the meeting to check up on her surveillance network, and rushes back into the room a few minutes later. JJ takes one look at the expression on her face and quickly excuses himself from the table. You join him outside in the hallway, and he asks Freya what's going on.`
-			`	"The Navy just invaded Delta Sagittarii and Rastaban," she says. "We're cut off from the rest of Free space. Our defense fleet was woefully outnumbered. Many ships were destroyed, and the rest fled back toward the Rim, or to Tarazed."`
-			`	"I was afraid of this," says JJ, "but I didn't think it would happen so quickly. I wonder if they knew that these new worlds were joining us, and deliberately used them as a diversion."`
+			`Spotykasz się z gubernator Rand i podpisujesz dokumenty, aby jej planeta została włączona do Wolnych Światów. Pobliskie systemy nie zgłaszają ingerencji Marynarki Wojennej: wygląda na to, że pozwolono im zmienić przynależność bez żadnych prób ze strony Republiki, aby im to uniemożliwić. Oczywiście, może to częściowo wynikać z faktu, że są to planety górnicze, mniej niezbędne do przetrwania Republiki niż planety rolnicze na drugim końcu Pasa Ziemi.`
+			`	Freya opuszcza spotkanie, żeby sprawdzić swoją sieć monitoringu, i po kilku minutach wraca do pokoju. JJ rzuca okiem na jej minę i szybko odchodzi od stołu. Dołączasz do niego na korytarzu, a on pyta Freyę, co się dzieje.`
+			`	"Marynarka właśnie zaatakowała Deltę Sagittarii i Rastaban, " mówi. "Jesteśmy odcięci od reszty Wolnej Przestrzeni. Nasza flota obronna była żałośnie słabsza liczebnie. Wiele statków zostało zniszczonych, a reszta uciekła w kierunku Rubieży lub Tarazedu."`
+			`	"Obawiałem się tego, " mówi JJ, "ale nie sądziłem, że stanie się to tak szybko. Ciekawe, czy wiedzieli, że te nowe światy do nas dołączą i celowo wykorzystali je jako dywersję."`
 			choice
-				`	"What do we do now?"`
-			`	JJ says, "Freya, you said part of our fleet fled to Tarazed?"`
-			`	"Yes," she says. "Probably not a strong enough fleet to drive them off, though."`
-			`	"Well, I guess we should regroup with them," he says. "Hopefully then we can plan a coordinated strike. Or if necessary, we can abandon this sector and get our fleet back to the Rim without losing too many ships. Captain <last>, can you take us to <destination>?"`
+				`	"Co teraz robimy?"`
+			`	JJ mówi, "Freya, powiedziałaś, że część naszej floty uciekła do Tarazed?"`
+			`	"Tak," mówi. "Chociaż prawdopodobnie nie mamy wystarczająco silnej floty, by ich odeprzeć."`
+			`	"Cóż, chyba powinniśmy się z nimi przegrupować, " mówi. "Mam nadzieję, że wtedy uda nam się zaplanować skoordynowany atak. Albo, jeśli to konieczne, możemy opuścić ten sektor i wrócić naszą flotą na Rubież bez utraty zbyt wielu statków. Kapitanie <last>, możesz nas zawieźć do <destination>?"`
 			choice
-				`	"Sure."`
+				`	"Pewnie."`
 					accept
-				`	"What if the Navy follows the fleet to Wayfarer? We're three of the four Council members. Shouldn't we avoid a situation where we could all be killed?"`
-			`	From JJ's expression, it's clear that he doesn't even want to dignify that question with a response. "If we die, the Free Worlds will live on," he says, "and there's no way we're abandoning a whole section of the fleet just to save our own skins. So, let's go to Wayfarer."`
+				`	"Co jeśli Marynarka Wojenna podąży za flotą do Wayfarera? Jesteśmy trzema z czterech członków Rady. Czy nie powinniśmy uniknąć sytuacji, w której wszyscy moglibyśmy zginąć?"`
+			`	Z wyrazu twarzy JJ jasno wynika, że nie chce nawet zaszczycić tego pytania odpowiedzią. "Jeśli zginiemy, Wolne Światy będą żyć dalej, " mówi, "i nie ma mowy, żebyśmy porzucili całą część floty tylko po to, żeby ratować własną skórę. Więc chodźmy do Wayfarera. "`
 				accept
 	on visit
 		dialog `Lądujesz na <planet>, ale zdajesz sobie sprawę, że twoja eskorta z JJ i Freyą jeszcze nie wleciała do systemu. Lepiej odlecieć i poczekać na jej przybycie.`
@@ -2129,53 +2129,53 @@ mission "FW Defend New Tibet"
 	on offer
 		log "Jako członek Rady, muszę podjąć decydujący głos w trudnej decyzji. Dezerter z Syndykatu twierdzi, że ma dowody na to, że Syndykat stał za zamachami bombowymi na Martini i Geminus. Jeśli to prawda, Republika może zgodzić się na pokój z Wolnymi Światami. Jednak odmowa powrotu dezertera do Syndykatu z pewnością ściągnęłaby na niego wrogość."
 		conversation
-			`The fleet in orbit around Wayfarer is pitifully small, surely not enough to take on more than a couple of Navy capital ships. JJ orders one of their communication officers to try to establish a secure link to Bourne or to any Free Worlds post on the other side of the Navy blockade. After about ten minutes, the officer returns and says, "Sir, we've received communications from New Tibet sent earlier today. You need to talk to them."`
-			`	"Our fleet is there?" asks JJ.`
-			`	"No sir, it's the Syndicate. The Syndicate has a war fleet in Alioth."`
-			`	"What?" says JJ. He rushes into the communication room, and you and Freya follow. "Play the communication," JJ says. On the video screen is a Buddhist monk in a maroon robe; behind him, you see other monks rushing about with none of the serenity you would usually expect of them.`
-			`	The monk explains, "I pray that this communication reaches the Council. Yesterday a Syndicate ship landed near our monastery, and the pilot sought refuge with us. He claims to have evidence that the Syndicate, or some faction within the Syndicate, was behind the attacks on Geminus and Martini. Evidence that a certain faction within the Syndicate values economic growth above all else," says the monk, "and incited this war for that reason."`
-			`	"That's insane," says Freya.`
-			`	"But not completely implausible," says JJ.`
+			`Flota orbitująca wokół Wayfarera jest żałośnie mała, z pewnością niewystarczająca, by stawić czoła więcej niż kilku okrętom flagowym Marynarki Wojennej. JJ rozkazuje jednemu z oficerów łączności spróbować nawiązać bezpieczne połączenie z Bourne lub dowolnym posterunkiem Wolnych Światów po drugiej stronie blokady Marynarki Wojennej. Po około dziesięciu minutach oficer wraca i mówi: "Sir, otrzymaliśmy wiadomości z Nowego Tybetu wysłane dziś rano. Musi Pan z nimi porozmawiać."`
+			`	"Czy nasza flota tam jest?" pyta JJ.`
+			`	"Nie, proszę pana, to Syndykat. Syndykat ma flotę wojenną w Alioth."`
+			`	"Co?" mówi JJ. Wpada do pokoju komunikacyjnego, a ty i Freya idziecie za nim. "Odtwórz komunikat, " mówi JJ. Na ekranie wideo widać buddyjskiego mnicha w bordowej szacie; za nim widać innych mnichów, którzy spieszą się bez śladu spokoju, jakiego zazwyczaj się po nich spodziewasz.`
+			`	Mnich wyjaśnia: "Modlę się, aby ta wiadomość dotarła do Rady. Wczoraj statek Syndykatu wylądował w pobliżu naszego klasztoru, a pilot szukał u nas schronienia. Twierdzi, że ma dowody na to, że Syndykat, lub jakaś frakcja w Syndykacie, stała za atakami na Geminusa i Martiniego. Dowody na to, że pewna frakcja w Syndykacie ceni wzrost gospodarczy ponad wszystko, " mówi mnich, "i z tego powodu podżegała do tej wojny. "`
+			`	"To szaleństwo," mówi Freya.`
+			`	"Ale nie jest to całkowicie nieprawdopodobne," mówi JJ.`
 			choice
-				`	(Continue watching the communication.)`
-			`	The video of the monk continues, "He was unable to show us this evidence, but he made claims of having plans for a nuclear device. After arriving he hid his ship in a cave, just before a Syndicate fleet appeared in orbit. They do not know where the defector landed, so they have begun searching settlement to settlement under the assumption that one is harboring him. They are currently here, wrecking the monastery in their hunt."`
-			`	After a moment, JJ says, "If these allegations are true, if we can prove that the Free Worlds were innocent of any involvement in those attacks, the Republic might make peace with us, or at least agree to a ceasefire. I vote that we try to shelter this defector and hear his story."`
-			`	"And if it's a lie," says Freya, "and we refuse the Syndicate's request, we lose our only ally. Many more civilians will be killed if we continue to fight without their backing, and we don't even know what this supposed evidence actually is. I care about justice, but trading a definite ally for a slim possibility of peace: that is an unwise investment. I vote that we hand this man over to the Syndicate."`
+				`	(Kontynuuj oglądanie komunikacji.)`
+			`	Film z mnichem trwa dalej, "Nie był w stanie pokazać nam tych dowodów, ale twierdził, że ma plany dotyczące bomby atomowej. Po przybyciu ukrył swój statek w jaskini, tuż przed pojawieniem się floty Syndykatu na orbicie. Nie wiedzą, gdzie wylądował dezerter, więc rozpoczęli przeszukiwanie osady po osadzie, zakładając, że któraś z nich go ukrywa. Są tu i niszczą klasztor w swoich poszukiwaniach."`
+			`	Po chwili JJ mówi: "Jeśli te zarzuty są prawdziwe, jeśli uda nam się udowodnić, że Wolne Światy nie były w jakikolwiek sposób zaangażowane w te ataki, Republika może zawrzeć z nami pokój, a przynajmniej zgodzić się na zawieszenie broni. Głosuję za tym, żebyśmy spróbowali dać schronienie temu dezerterowi i wysłuchali jego historii."`
+			`	"A jeśli to kłamstwo, " mówi Freya, "i odrzucimy prośbę Syndykatu, stracimy naszego jedynego sojusznika. Zginie wielu cywilów, jeśli będziemy walczyć bez ich wsparcia, a nawet nie wiemy, czym tak naprawdę są te rzekome dowody. Zależy mi na sprawiedliwości, ale wymiana konkretnego sojusznika na nikłą szansę na pokój to nierozsądna inwestycja. Głosuję za wydaniem tego człowieka Syndykatowi. "`
 			choice
-				`	(Continue watching the communication.)`
-			`	You look back at the video screen to see that the monk is gone, replaced by a man in a Syndicated Security uniform. "Greetings, Councilmembers. I'm sorry for the confusion, but please understand. We're hunting a terrorist. This man claiming that we are the ones that caused the bombings is, in fact, the leader of the extremist group that caused them. He developed the nukes with the help of a faction of pirates looking to profit from the instability, and now, when we're finally close to capturing him, he's attempting to frame us for his own crimes against humanity. Allow us to find him, and we'll-"`
-			`	The feed cuts off. "The message ended there," the communications officer says. The room falls silent.`
-			`	JJ breaks the silence. "I still say we rescue this defector. The Syndicate could be lying to us. They don't exactly have a reputation for upstanding morality, after all."`
-			`	"Or this 'defector' could easily be the one lying," Freya says. "I say we let them have him while we focus on defending against the Navy. If the Syndicate gets their hands on the true terrorist, their support will surely clear our name. Parliament won't be able to ignore the Syndicate vindicating us."`
-			`	As the third Council member present, you have the deciding vote, and the entire course of this war may rest on your decision.`
+				`	(Kontynuuj oglądanie komunikacji.)`
+			`	Patrzysz z powrotem na ekran i widzisz, że mnicha już nie ma, a zastąpił go mężczyzna w mundurze Syndicated Security. "Witajcie, Radni. Przepraszam za zamieszanie, ale proszę o zrozumienie. Polujemy na terrorystę. Ten człowiek, który twierdzi, że to my spowodowaliśmy zamachy bombowe, jest w rzeczywistości przywódcą grupy ekstremistów, która je spowodowała. Opracował broń nuklearną z pomocą frakcji piratów, którzy chcą zarobić na niestabilności, a teraz, gdy jesteśmy już bliscy jego schwytania, próbuje wrobić nas w swoje zbrodnie przeciwko ludzkości. Pozwólcie nam go znaleźć, a my-"`
+			`	Transmisja zostaje przerwana. "Wiadomość się kończy, " mówi oficer łączności. W pomieszczeniu zapada cisza.`
+			`	JJ przerywa ciszę. "Nadal twierdzę, że ratujemy tego dezertera. Syndykat może nas okłamywać. W końcu nie mają reputacji osoby o nieskazitelnej moralności."`
+			`	"Albo ten "dezerter" może po prostu kłamać, " mówi Freya. "Ja mówię, że powinniśmy im go oddać, a sami skupić się na obronie przed Marynarką Wojenną. Jeśli Syndykat dorwie prawdziwego terrorystę, ich wsparcie z pewnością oczyści nasze imię. Parlament nie będzie mógł zignorować Syndykatu, który nas usprawiedliwia. "`
+			`	Jako trzeci obecny członek Rady, masz decydujący głos i cały przebieg tej wojny może zależeć od twojej decyzji.`
 			choice
-				`	"I say we rescue the defector, even if it means war with the Syndicate."`
+				`	"Mówię, że powinniśmy uratować dezertera, nawet jeśli oznacza to wojnę z Syndykatem."`
 					goto rescue
-				`	"I say we let the Syndicate have the terrorist, and focus on winning the battle against the Republic."`
+				`	"Powiedziałbym, że powinniśmy pozwolić Syndykatowi dopaść terrorystę, a sami skupić się na wygraniu bitwy z Republiką."`
 					goto surrender
 			label rescue
-			`	"Are you sure?" asks Freya. "The Syndicate has done a lot for us in the past."`
+			`	"Jesteś pewien?" pyta Freya. "Syndykat wiele dla nas zrobił w przeszłości."`
 			choice
-				`	"Yes, I'm sure. We rescue the defector."`
+				`	"Tak, jestem pewien. Ratujemy dezertera."`
 					goto "definitely rescue"
-				`	"Fine, we'll hand him over. But I don't think it's the right thing to do."`
+				`	"Dobrze, oddamy go. Ale nie sądzę, żeby to było właściwe."`
 					goto "definitely surrender"
 			label surrender
-			`	"If Katya were here," says JJ, "she would tell us to choose justice over political expedience."`
+			`	"Gdyby Katya tu była," mówi JJ, "powiedziałaby nam, żebyśmy wybrali sprawiedliwość zamiast politycznej wygody."`
 			choice
-				`	"Well, she's not here, and I say we can't afford to lose the Syndicate as an ally."`
+				`	"Cóż, jej tu nie ma, a ja twierdzę, że nie możemy sobie pozwolić na utratę Syndykatu jako sojusznika."`
 					goto "definitely surrender"
-				`	"I suppose you're right. Let's mount a rescue operation."`
+				`	"Chyba masz rację. Zorganizujmy akcję ratunkową."`
 					goto "definitely rescue"
 			
 			label "definitely surrender"
 			action
 				set "fw did not rescue defector"
-			`	"Very well," says JJ. "In that case, we'll need to meet with the fleet captains and figure out how to take on the Navy. Let's meet in the spaceport bar in an hour."`
+			`	"Dobrze, " mówi JJ. "W takim razie będziemy musieli spotkać się z kapitanami floty i ustalić, jak stawić czoła Marynarce Wojennej. Spotkajmy się w barze w porcie kosmicznym za godzinę. "`
 				decline
 			
 			label "definitely rescue"
-			`	JJ seems very relieved at your choice. "I think that's the right choice, Captain," he says. "We can take the fleet we have here, sweep up north to avoid the thickest part of the Navy's occupying fleet, and cut over to New Tibet to question the Syndicate in person."`
+			`	JJ wydaje się bardzo zadowolony z twojego wyboru. "Myślę, że to właściwy wybór, Kapitanie, "mówi. "Możemy wziąć flotę, którą tu mamy, pomknąć na północ, omijając najgęstszą część floty okupacyjnej Marynarki Wojennej, i popłynąć do Nowego Tybetu, żeby osobiście przesłuchać Syndykat."`
 				accept
 	
 	on accept
@@ -2226,53 +2226,53 @@ mission "FW Defend New Tibet"
 		event "end battle of alioth"
 		log "People" "Sawyer" `Dezerter z Syndykatu, który postanowił zaryzykować życie, aby powstrzymać wojnę między Republiką a Wolnymi Światami.`
 		conversation
-			`It doesn't take long to find the monastery that contacted you earlier; nothing is left of it but the burnt-out shells of buildings. You hurry to land and look around for survivors. You find several corpses dressed in maroon robes, some of them badly burnt, but no sign of the defector or the monk who sent the message.`
+			`Znalezienie klasztoru, który skontaktował się z tobą wcześniej, nie zajmuje dużo czasu; pozostały po nim jedynie wypalone ruiny budynków. Szybko lądujesz i rozglądasz się za ocalałymi. Znajdujesz kilka zwłok w bordowych szatach, niektóre mocno spalone, ale nie ma śladu po dezerterze ani mnichu, który wysłał wiadomość.`
 			choice
-				`	(Wait to see if anyone approaches now that the Syndicate fleet is gone.)`
-				`	(Give up and contact the rest of the Free Worlds fleet to figure out what to do next.)`
+				`	(Poczekaj i zobacz, czy ktoś się pojawi, skoro flota Syndykatu zniknęła.)`
+				`	(Poddaj się i skontaktuj się z resztą floty Wolnych Światów, aby ustalić, co robić dalej.)`
 					goto leave
-			`	You wait around for a while, but this mountain valley seems to be entirely desolate. Then finally, when you are about to give up hope, Freya spots the distant figures of a few dozen people coming down the side of one of the mountains.`
+			`	Czekasz chwilę, ale ta górska dolina wydaje się być całkowicie opustoszała. W końcu, gdy jesteś już bliski utraty nadziei, Freya dostrzega w oddali sylwetki kilkudziesięciu osób schodzących ze zbocza jednej z gór.`
 				goto gunboat
 			label leave
-			`	You are just about to leave when Freya spots something and points. "Look," she says, "someone is coming down the mountain slope toward us." Sure enough, it's a group of several dozen people wearing the distinctive robes of the monks.`
+			`	Właśnie wychodzisz, gdy Freya coś zauważa i wskazuje. "Patrz," mówi, "ktoś schodzi po zboczu góry w naszym kierunku." Rzeczywiście, to grupa kilkudziesięciu osób ubranych w charakterystyczne szaty mnichów.`
 			label gunboat
-			`	As you wait for them to approach, JJ receives a message from one of the militia crews. "Sir, you have incoming! A scout ship, with Republic markings. Apparently unarmed. Shall we intercept them?"`
-			`	"Oathkeepers?" asks JJ. "Or ordinary Navy? Who are they?"`
-			`	The voice on the other end pauses. "Neither. Navy Intelligence."`
-			`	JJ thinks about that for a second, then says, "Let them land. But follow them down, and if you see so much as a hint of them powering up weapons, blow them out of the sky. Understand?" The officer acknowledges his order and signs off.`
-			`	As the group of monks approaches from the mountainside, the scout ship comes in for a landing and skids to a halt in the dirt a few dozen meters away. A woman steps off it. She has dark skin, and is dressed entirely in black. Even the whites of her eyes are black: when she gets closer, you can see that it is actually a scleric tattoo, an intricate Celtic knotwork pattern inked into the whites of her eyes. She sees you staring at her, and winks at you with a friendly grin.`
+			`	Podczas oczekiwania na ich nadejście, JJ otrzymuje wiadomość od jednej z załóg milicji. "Sir, nadlatuje! Statek zwiadowczy z oznaczeniami Republiki. Najwyraźniej nieuzbrojony. Czy mamy ich przechwycić?"`
+			`	"Strażnicy Przysięgi?" pyta JJ. "A może zwykła Marynarka Wojenna? Kim oni są?"`
+			`	Głos po drugiej stronie milknie. "Ani jeden, ani drugi. Wywiad Marynarki Wojennej."`
+			`	JJ zastanawia się przez chwilę, po czym mówi: "Pozwólcie im wylądować. Ale śledźcie ich na dół, a jeśli zobaczycie choćby cień śladu ich uzbrojenia, wysadźcie ich w powietrze. Zrozumiano?" Oficer potwierdza rozkaz i odpisuje.`
+			`	Gdy grupa mnichów zbliża się od strony zbocza góry, statek zwiadowczy podchodzi do lądowania i zatrzymuje się w ziemi kilkadziesiąt metrów dalej. Schodzi z niego kobieta. Ma ciemną skórę i jest ubrana na czarno. Nawet białka jej oczu są czarne: z bliska widać, że to tatuaż kleryka, misterny celtycki wzór w kształcie węzła wytatuowany na białkach jej oczu. Widzi, że się na nią gapisz, i mruga do ciebie z przyjaznym uśmiechem.`
 			choice
-				`	"I'm Captain <last> of the Free Worlds. What is your business here?"`
-				`	"Who are you, and what gives you the right to land on our planet?"`
+				`	"Jestem Kapitanem <last> Wolnych Światów. Co cię tu sprowadza?"`
+				`	"Kim jesteś i co daje ci prawo do lądowania na naszej planecie?"`
 					goto hostile
-			`	"My name is Raven," she says. "I'm here to question this defector. If he is telling the truth, our war with you will end today." She pauses, then adds, grimly, "And, another war will begin."`
+			`	"Mam na imię Raven," mówi. "Jestem tu, żeby przesłuchać tego dezertera. Jeśli mówi prawdę, nasza wojna z tobą skończy się dzisiaj." Robi pauzę, po czym dodaje ponuro: "I rozpocznie się kolejna wojna."`
 				goto questioning
 			label hostile
-			`	She frowns. "My name is Raven," she says. "I am here to question this defector. If you are interested in knowing the truth, you will allow me to do so."`
+			`	Marszczy brwi. "Mam na imię Raven," mówi. "Jestem tu, żeby przesłuchać tego dezertera. Jeśli chcesz poznać prawdę, pozwól mi to zrobić."`
 			label questioning
-			`	The monks approach, and you see that among them is a man in more ordinary attire, who must be the defector. "Now," says Raven, "I will question him alone, on my ship."`
+			`	Mnisi się zbliżają i widzisz, że wśród nich jest mężczyzna w bardziej zwyczajnym stroju, który musi być dezerterem. "Teraz," mówi Raven, "Przesłucham go sam na sam, na moim statku."`
 			choice
-				`	"No, we insist on being present for your interrogation."`
+				`	"Nie, nalegamy na naszą obecność podczas przesłuchania."`
 					goto present
-				`	"Very well, we'll wait outside."`
-			`	"No!" says JJ. "We're staying here."`
+				`	"Dobrze, poczekamy na zewnątrz."`
+			`	"Nie!" mówi JJ. "Zostajemy tutaj."`
 			label present
-			`	She hesitates for a long moment. This is probably going against whatever orders she is following. But finally she says, "Very well." The monks step aside. She approaches the defector, and reaches out her hands to him. Hesitantly, he takes her hands. It's an oddly intimate scene, the two of them quietly holding hands and locking eyes - not like any interrogation you have seen before. "Now," she says, "tell me your story."`
-			`	"My name is Sawyer," says the man. "I'm a physicist, a Syndicate employee. We had a secret project on Mutiny, a planet in a pirate system. We were developing nuclear weapons." He hesitates, and looks away for a second, then says, "They told me it was for fighting the pirates. I didn't realize otherwise until--"`
-			`	"That is a lie," says Raven, calmly.`
-			`	He seems flustered. "Okay, they didn't tell me what the weapons were for, and I didn't ask."`
+			`	Waha się przez dłuższą chwilę. To prawdopodobnie sprzeczne z rozkazami, które wykonuje. W końcu jednak mówi: "Dobrze." Mnisi odsuwają się na bok. Podchodzi do dezertera i wyciąga do niego ręce. Niepewnie bierze ją za ręce. To dziwnie intymna scena, oboje cicho trzymają się za ręce i patrzą sobie w oczy - zupełnie inna niż jakiekolwiek przesłuchanie, jakie widzieliście wcześniej. "Teraz," mówi, "opowiedz mi swoją historię."`
+			`	"Nazywam się Sawyer," mówi mężczyzna. "Jestem fizykiem, pracownikiem Syndykatu. Mieliśmy tajny projekt na Mutiny, planecie w systemie pirackim. Rozwijaliśmy broń jądrową." Waha się, odwraca wzrok na chwilę, po czym mówi: "Mówili mi, że to do walki z piratami. Nie zdawałem sobie z tego sprawy, dopóki… "`
+			`	"To kłamstwo," mówi spokojnie Raven.`
+			`	Wydaje się zdenerwowany. "Okej, nie powiedzieli mi, do czego służy ta broń, a ja nie pytałem."`
 			choice
-				`	"Why would the Syndicate attack the Republic?"`
-				`	"Why did you wait so long to report this?"`
+				`	"Dlaczego Syndykat miałby atakować Republikę?"`
+				`	"Dlaczego tak długo czekałeś ze zgłoszeniem tego?"`
 					goto wait
-			`	They both seem surprised at you asking a question. Sawyer says, "War is good for business, especially if you're in the business of making weapons. The Syndicate's profits have more than doubled since this conflict began."`
-			`	"What led you to report this?" asks Raven.`
+			`	Oboje wydają się zaskoczeni, że zadajesz pytanie. Sawyer mówi: "Wojna jest dobra dla biznesu, zwłaszcza jeśli zajmujesz się produkcją broni. Zyski Syndykatu wzrosły ponad dwukrotnie od początku tego konfliktu."`
+			`	"Co skłoniło Cię do zgłoszenia tego?" pyta Raven.`
 			label wait
-			`	He says, "It was when I heard that there had been another major battle. Up until then I had been telling myself that the worst of the damage was done. But after that battle, I knew that millions more could die because of our crime, and that I had the power to stop it."`
-			`	Raven continues to ask questions: who was involved, how the facility was hidden, where the raw materials came from. At one point, JJ pulls you aside and says, "She must be a Questioner. How they operate is a tightly kept secret. I'd always assumed their methods were... a bit more medieval."`
-			`	Finally, Raven is satisfied, and radios her ship. "He's telling the truth," she tells them. "Send word to the admirals at once. And, release the captive."`
-			`	The door of her ship slides open, and another woman steps out - shakily, hesitantly, shielding her eyes against the sunlight. It takes you a few seconds to realize that it's Katya.`
-			`	As you all rush over to greet Katya, Raven taps your shoulder and says quietly, "Meet me in the main spaceport in a few hours and we'll figure out what's going to happen next." She returns to her ship.`
+			`	Mówi: "Wtedy usłyszałem, że doszło do kolejnej wielkiej bitwy. Do tej pory powtarzałem sobie, że najgorsze już się stało. Ale po tej bitwie wiedziałem, że miliony mogą zginąć z powodu naszej zbrodni i że mam moc, by ją powstrzymać."`
+			`	Raven wciąż zadaje pytania: kto był w to zamieszany, jak ukryto obiekt, skąd pochodziły surowce. W pewnym momencie JJ odciąga cię na bok i mówi: "Ona musi być Wątpiącą. Sposób ich działania jest ściśle strzeżoną tajemnicą. Zawsze zakładałem, że ich metody są... trochę bardziej średniowieczne."`
+			`	W końcu Raven jest usatysfakcjonowana i kontaktuje się przez radio ze swoim statkiem. "Mówi prawdę," mówi im. "Natychmiast przekażcie wiadomość admirałom. I uwolnijcie jeńca."`
+			`	Drzwi jej statku otwierają się i wychodzi kolejna kobieta - drżąca, niepewnie, osłaniająca oczy przed słońcem. Po kilku sekundach uświadamiasz sobie, że to Katya.`
+			`	Kiedy wszyscy spieszycie się, by powitać Katyę, Raven klepie was w ramię i mówi cicho: "Spotkajmy się w głównym porcie kosmicznym za kilka godzin, a wtedy ustalimy, co będzie dalej." Wraca na swój statek.`
 
 
 
@@ -2292,32 +2292,32 @@ mission "FW Liberate Delta Sagittarii"
 		conversation
 			branch surrender
 				has "fw did not rescue defector"
-			`A few of the Free Worlds crew members are still milling around the spaceport in confusion. You help to gather them together and explain that you are headed out on a very important mission to New Tibet.`
+			`Kilku członków załogi Wolnych Światów wciąż kręci się po porcie kosmicznym w zamieszaniu. Pomagasz im się zebrać i wyjaśniasz, że wyruszasz z bardzo ważną misją do Nowego Tybetu.`
 				decline
 			
 			label surrender
-			`When you and Freya enter the spaceport bar, JJ is talking with someone on his communicator. "The code word is 'havoc,'" he says. "Yes, I'm certain. It's the only option we have left. Good luck."`
-			`	"What was that about?" asks Freya.`
-			`	JJ says, "I was calling in some reinforcements," he says. "A group of ex-militia folks and bounty hunters who want to further the cause of the Free Worlds, but want to do it freelance instead of taking orders from us or the Senate. They call themselves the 'Wolf Pack.' Have you heard of them?"`
+			`Kiedy ty i Freya wchodzicie do baru w porcie kosmicznym, JJ rozmawia z kimś przez komunikator. "Hasło to "haos" - mówi. "Tak, jestem pewien. To jedyna opcja, jaka nam pozostała. Powodzenia."`
+			`	"O co chodziło?" pyta Freya.`
+			`	JJ mówi, "Wzywałem posiłki, " mówi. "Grupa byłych członków milicji i łowców nagród, którzy chcą wspierać Wolne Światy, ale wolą robić to na własną rękę, zamiast wykonywać rozkazy od nas lub Senatu. Nazywają siebie "Wilczą Gromadą". Słyszałeś o nich? "`
 			branch know
 				has "FW Wolf Pack 2: offered"
 			choice
-				`	"No, I haven't."`
-			`	"Too bad," says JJ, "they've managed to get their hands on some technology I'd love to have access to. But anyway, they've agreed to make an initial strike and fade attack on the Navy fleet to soften them up, before our own fleet gets there."`
+				`	"Nie, nie mam."`
+			`	"Szkoda," mówi JJ, "udało im się zdobyć technologię, do której sam chętnie bym miał dostęp. Tak czy inaczej, zgodzili się przeprowadzić wstępne uderzenie i atak z użyciem siły osłabiającej na flotę Marynarki Wojennej, aby ją osłabić, zanim dotrze tam nasza flota."`
 				goto plan
 			label know
 			choice
-				`	"Yes, I helped them get access to some better ramscoop technology from the Deep."`
+				`	"Tak, pomogłem im uzyskać dostęp do lepszej technologii ramscoop z Głębin."`
 					goto yes
-				`	"No, I haven't had any dealings with them."`
-			`	"That's odd," says JJ, "I thought they said you helped them to get their hands on the Catalytic Ramscoop. But anyway, they've agreed to make an initial strike and fade attack on the Navy fleet to soften them up, before our own fleet gets there."`
+				`	"Nie, nie miałem z nimi żadnych do czynienia."`
+			`	"To dziwne, " mówi JJ, "Myślałem, że powiedzieli, że pomogłeś im zdobyć Katalizator Ramscoop. Ale tak czy inaczej, zgodzili się przeprowadzić wstępne uderzenie i atak osłabiający na flotę Marynarki Wojennej, aby ją osłabić, zanim dotrze tam nasza flota. "`
 				goto plan
 			label yes
-			`	"Ah yes," says JJ, "an excellent piece of corporate espionage. A little shady and underhanded, of course, which is why we let the Wolf Pack handle things like that rather than doing it through official channels. But anyway, they've agreed to make an initial strike and fade attack on the Navy fleet to soften them up, before our own fleet gets there."`
+			`	"Ach tak, " mówi JJ, "doskonały przykład szpiegostwa korporacyjnego. Trochę podejrzanego i nieuczciwego, oczywiście, dlatego pozwoliliśmy Wilczej Watasze zająć się takimi sprawami, zamiast robić to oficjalnymi kanałami. Tak czy inaczej, zgodzili się na wstępne uderzenie i atak z wycofywania na flotę Marynarki Wojennej, aby ich zmiękczyć, zanim dotrze tam nasza flota. "`
 			
 			label plan
-			`	"That'll need to be one hell of a strike for it to make any difference," says Freya.`
-			`	"Don't worry," says JJ, "it will be. They've been itching to get into the fray for months now. Captain <last>, we'd like you to fly along with the fleet and help to mop up whatever the Wolf Pack leaves behind in the Delta Sagittarii system. Then we'll land on New Portland and figure out what our next steps are. Freya and I will ride on your ship."`
+			`	"Musi to być naprawdę potężny cios, żeby coś zmieniło," mówi Freya.`
+			`	"Nie martw się, " mówi JJ, "będzie. Od miesięcy nie mogą się doczekać, żeby dołączyć do walki. Kapitanie <last>, chcielibyśmy, żebyś poleciał z flotą i pomógł nam uprzątnąć to, co Wilcza Wataha zostawi w układzie Delta Sagittarii. Potem wylądujemy w Nowym Portland i zastanowimy się, co dalej. Freya i ja polecimy na twoim statku."`
 				accept
 	
 	on visit

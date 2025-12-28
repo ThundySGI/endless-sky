@@ -31,97 +31,97 @@ mission "Successors: Predecessor Research 1"
 		conversation
 			branch "has deferred"
 				has "Successors: Predecessor Research 1: deferred"
-			`As you land on the spaceport pad, you see a familiar face approaching; it is Sieasej, the Successor scholar who translated for you during your first contact with the Successors and assisted you during your mission for House Sioeora. They are moving towards you with a small group of similarly-dressed individuals, whom you assume are also scholars of some sort.`
-			`	"Captain! I delight to see thy return; I came here with haste as soon as I saw that thou was to arrive!"`
-			`	You greet Sieasej, and they explain that the scholars with them are researchers of the Predecessors seeking transport on a wormhole-traveling vessel.`
-			`	"The ship modifications necessary are woefully expensive," one of the researchers continues. "Were we to petition Sioeora and the Academy to offer us a properly-equipped vessel, we might be forced to wait for years, a pace that's far too slow for our research. If thou were't to transport us instead, even for a short time, it would advance our study greatly."`
+			`Gdy lądujesz na platformie kosmicznej, dostrzegasz zbliżającą się znajomą twarz; to Sieasej, uczony Sukcesora, który tłumaczył dla ciebie podczas twojego pierwszego kontaktu z Sukcesorami i pomagał ci w misji dla Domu Sioeora. Zbliżają się do ciebie z małą grupą podobnie ubranych osób, które, jak przypuszczasz, również są jacyś uczeni.`
+			`	"Kapitanie! Cieszę się z twojego powrotu; przybyłem tu w pośpiechu, gdy tylko zobaczyłem, że masz przybyć!"`
+			`	Witacie Sieaseja, a oni wyjaśniają, że towarzyszący im uczeni są badaczami Poprzedników, poszukującymi transportu na statku podróżującym przez tunel czasoprzestrzenny.`
+			`	"Niezbędne modyfikacje statku są horrendalnie drogie, " kontynuuje jeden z badaczy. "Gdybyśmy zwrócili się do Sioeory i Akademii o odpowiednio wyposażony statek, moglibyśmy być zmuszeni czekać latami, co byłoby zbyt wolnym tempem dla naszych badań. Gdybyś nas nie przetransportował, nawet na krótko, nasze badania posunęłyby się znacznie naprzód. "`
 			choice
-				`	"Sure, I would be happy to."`
+				`	"Oczywiście, chętnie."`
 					goto accept
-				`	"Can I come back another time?"`
+				`	"Czy mogę przyjść innym razem?"`
 					goto deferred
-				`	"Sorry, but you'll have to find someone else to take you."`
+				`	"Przepraszam, ale będziesz musiał znaleźć kogoś innego, kto cię zawiezie."`
 					decline
 			label deferred
 			action
 				set "Successors: Predecessor Research 1: deferred"
-			`	"Hm, probably. We've been patient enough for this long, though I encourage thee to seek us out again with haste."`
+			`	"Hm, prawdopodobnie. Byliśmy wystarczająco cierpliwi przez tak długi czas, choć zachęcam cię, abyś jak najszybciej nas ponownie odnalazł."`
 				defer
 			label accept
-			`	"Our deepest thanks!" Several of the members of the research team smile conspiratorially, clearly excited to be skipping the queue. Sieasej also offers their thanks and makes clear that they'll "keep an eye out for any more interesting opportunities."`
+			`	"Nasze najszczersze podziękowania!" Kilku członków zespołu badawczego uśmiecha się porozumiewawczo, wyraźnie podekscytowanych możliwością ominięcia kolejki. Sieasej również składa podziękowania i zapewnia, że "będzie wypatrywać kolejnych interesujących możliwości."`
 				accept
 			label "has deferred"
-			`	You realize that the Predecessor research team from House Sioeora is probably still waiting to see if you can transport them to <planet stopovers>. Would you like to contact them?`
+			`	Zdajesz sobie sprawę, że zespół badawczy Poprzedników z Domu Sioeora prawdopodobnie wciąż czeka na możliwość przeniesienia ich do <planet stopovers>. Czy chcesz się z nimi skontaktować?`
 			choice
-				`	(Yes.)`
-				`	(Not now.)`
+				`	(Tak.)`
+				`	(Nie teraz.)`
 					defer
-				`	(Never.)`
+				`	(Nigdy.)`
 					decline
-			`	You manage to get in contact with the head of the research group, who is quite excited to hear that you finally have the opportunity to transport them and their team. After about an hour of waiting in the spaceport, the researchers arrive to meet you, and you eventually manage to get them loaded onto your ship and ready for departure.`
+			`	Udaje Ci się skontaktować z szefem grupy badawczej, który jest podekscytowany, słysząc, że w końcu masz możliwość przetransportowania ich i ich zespołu. Po około godzinie oczekiwania w porcie kosmicznym, badacze przybywają na spotkanie z Tobą, a Tobie w końcu udaje się załadować ich na statek i przygotować do odlotu.`
 				accept
 	on stopover
 		conversation
-			`While relatively calm and subdued during the journey here, the researchers bolt out of the airlock almost the instant your ship's landing gear touch the ground, their arms loaded down with an innumerable array of booklets, catalogs, and strange devices that they waste no time in thrusting into the air or towards the rocks and soil.`
-			`	As night begins to fall on the planet, the researchers reluctantly return to your ship, dusty and tired but abuzz with excitement at their discoveries.`
-			`	As you are making preparations to leave, you realize this would be a good moment to learn about the Predecessors from the experts, especially considering you're liable to be listening to them talk about their new data all the way back.`
+			`Choć podczas podróży zachowywali się stosunkowo spokojnie i przytłumieni, badacze wyskakują ze śluzy powietrznej niemal w chwili, gdy podwozie statku dotknie ziemi, a ich ramiona obładowane są niezliczoną ilością broszur, katalogów i dziwnych urządzeń, które natychmiast wyrzucają w powietrze lub w kierunku skał i gruntu.`
+			`	Kiedy na planecie zaczyna zapadać noc, naukowcy niechętnie wracają na twój statek, zakurzeni i zmęczeni, ale pełni ekscytacji swoimi odkryciami.`
+			`	Kiedy przygotowujesz się do wyjazdu, zdajesz sobie sprawę, że to dobry moment, aby dowiedzieć się czegoś o Poprzednikach od ekspertów, zwłaszcza biorąc pod uwagę fakt, że prawdopodobnie będziesz słyszał, jak opowiadają o swoich nowych danych przez całą drogę wstecz.`
 			choice
-				`	"What can you tell me about the Predecessors?"`
+				`	"Co możesz mi powiedzieć o poprzednikach?"`
 					goto who
-				`	(Don't ask them anything.)`
+				`	(O nic ich nie pytaj.)`
 					launch
 			label questions
 			choice
-				`	"Who were the Predecessors?"`
+				`	"Kim byli poprzednicy?"`
 					to display
 						not "Successors: who"
-				`	"Actually, I didn't have any questions after all."`
+				`	"Właściwie nie miałem żadnych pytań."`
 					to display
 						not "Successors: who"
 					goto end
-				`	"What caused the collapse?"`
+				`	"Co spowodowało zawalenie?"`
 					to display
 						has "Successors: who"
 						not "Successors: collapse"
 					goto collapse
-				`	"How large was their empire?"`
+				`	"Jak duże było ich imperium?"`
 					to display
 						has "Successors: who"
 						not "Successors: empire"
 					goto empire
-				`	"What was their technology like?"`
+				`	"Jaka była ich technologia?"`
 					to display
 						has "Successors: who"
 						not "Successors: tech"
 					goto tech
-				`	"I have no more questions."`
+				`	"Nie mam więcej pytań."`
 					to display
 						has "Successors: who"
 					goto end
 			label who
 			action
 				set "Successors: who"
-			`	"Our Predecessors were our now-gone ancestors. Until the time of fifteen hundred years ago, they ruled this space and much beyond as part of their own empire. Many perished along with their bloodlines as much of the empire fell to ruin, but some made passage through the wormhole to the cluster that we, as their Successors, now call our home."`
+			`	"Nasi poprzednicy byli naszymi nieżyjącymi już przodkami. Do czasu, gdy minęło półtora tysiąca lat, rządzili tą przestrzenią i znacznie dalej, jako część własnego imperium. Wielu zginęło wraz ze swoimi liniami krwi, gdy znaczna część imperium popadła w ruinę, ale niektórzy przedostali się przez tunel czasoprzestrzenny do gromady, którą my, jako ich następcy, nazywamy teraz naszym domem."`
 				goto questions
 			label collapse
 			action
 				set "Successors: collapse"
-			`	The researcher sighs. "We do not know; or better put, the fullness of the truth yet remains obscured. The flesh of space itself was rent, distorted; the effects of this remain today: the holes embedded in the skies, the dying-out of light and even of the hyperlanes. It was a warring time; the Houses turned upon each other or they fled, and space itself was set alight with the blinks of shots and drives..."`
-			`	The researcher stops for a moment, composing themself.`
-			`	"I digress and do apologize. 'Tis challenging to separate the truth from fiction in this regard. Our Predecessors wielded power far beyond our modern imitations, the sort that sows the seeds of peace or chaos deep within the fabric of the world, the sort of things that poke and prod at places that must remain untouched. 'What caused the collapse?' you ask? Hubris, methinks."`
+			`	Badacz wzdycha. "Nie wiemy; a raczej, pełnia prawdy pozostaje niejasna. Sama przestrzeń została rozdarta, zniekształcona; skutki tego są widoczne do dziś: dziury w niebie, wygasanie światła, a nawet hiperpasów. To był czas wojny; Domy zwróciły się przeciwko sobie lub uciekły, a sama przestrzeń rozbłysła błyskami strzałów i napędów... "`
+			`	Badacz na chwilę się zatrzymuje, by zebrać myśli.`
+			`	"Odbiegam od tematu i przepraszam. Trudno w tej kwestii oddzielić prawdę od fikcji. Nasi poprzednicy posiadali władzę znacznie wykraczającą poza nasze współczesne imitacje, taką, która sieje ziarna pokoju lub chaosu głęboko w tkance świata, taką, która szturcha i kłuje miejsca, które powinny pozostać nietknięte. "Co spowodowało ten upadek?" - pytasz? Pycha, jak mi się wydaje. "`
 				goto questions
 			label empire
 			action
 				set "Successors: empire"
-			`	"The translation device thou wears upon thy person speaks volumes to its scale. Sieasej tells me that at the empire's peak, our scholars had even laid eyes upon thine own world, so far to the north! These dead systems that remain where once the core of their empire stood are but a small fraction of what was there. Some, it's sure, now belong to other races, and others, it would seem, have been obscured. We know not how nor why, only that the starcharts of our Predecessors do not mirror those we see today."`
+			`	"Urządzenie tłumaczące, które nosisz przy sobie, mówi samo za siebie o swojej skali. Sieasej mówi mi, że u szczytu potęgi imperium nasi uczeni widzieli nawet twój własny świat, tak daleko na północy! Te martwe systemy, które pozostały tam, gdzie kiedyś znajdowało się jądro ich imperium, to zaledwie ułamek tego, co tam było. Niektóre, z pewnością, należą teraz do innych ras, a inne, jak się wydaje, zostały zatarte. Nie wiemy jak ani dlaczego, wiemy tylko, że mapy gwiezdne naszych Poprzedników nie odzwierciedlają tych, które widzimy dzisiaj."`
 				goto questions
 			label tech
 			action
 				set "Successors: tech"
-			`	"Glorious and beautiful, it was; as much a sort of art as of engineering. Our Predecessors' works were envied even by the Quarg, whose mastery of art and science only few may equal. T'were exotic in their natures and unique in applications; living metal grown in stars, subtle points to pierce space itself. We have descriptions, enough to make rudimentary imitations of their processes, but even if we had a perfect understanding of wha'twas, the space of our new systems seems unsuitable to manifest that mastery. We fail even to replicate the heirlooms kept by the High Houses; the materials and techniques they use are always out of reach."`
+			`	"Wspaniałe i piękne, było to; zarówno sztuka, jak i inżynieria. Dzieł naszych Poprzedników zazdrościli nawet Kwargowie, których mistrzostwo w sztuce i nauce dorównywać może niewielu. Były egzotyczne w swej naturze i wyjątkowe w zastosowaniach; żywy metal hodowany w gwiazdach, subtelne punkty przebijające samą przestrzeń. Mamy opisy, wystarczające, by stworzyć prymitywne imitacje ich procesów, ale nawet gdybyśmy doskonale rozumieli, na czym to polega, przestrzeń naszych nowych systemów wydaje się nieodpowiednia do ukazania tego mistrzostwa. Nie udaje nam się nawet odtworzyć pamiątek przechowywanych przez Wysokie Domy; materiały i techniki, których używają, są zawsze poza naszym zasięgiem."`
 				goto questions
 			label end
-			`	You leave the researchers to study their findings.`
+			`	Pozostawiasz badaczom zbadanie ich odkryć.`
 			action
 				clear "Successors: who"
 				clear "Successors: collapse"
@@ -132,8 +132,8 @@ mission "Successors: Predecessor Research 1"
 		"old houses jobs" += 2
 		payment 250000
 		conversation
-			`As expected, the scholars remained highly conversational on the way back, remarking on unusual radiation measurements and fawning over several small metal fragments collected by one particularly lucky member of the team.`
-			`	They almost forget to give you your payment when you return them to <destination>, but the head researcher places a chip for <payment> into your hands and thanks you before departing into the spaceport.`
+			`Zgodnie z oczekiwaniami, naukowcy kontynuowali ożywioną rozmowę w drodze powrotnej, komentując niezwykłe pomiary promieniowania i zachwycając się kilkoma małymi fragmentami metalu zebranymi przez jednego ze szczególnie szczęśliwych członków zespołu.`
+			`	Prawie zapomną ci zapłacić, kiedy oddajesz je <destination>, ale główny badacz włoży ci do ręki chip dla <payment> i podziękuje ci, zanim odleci do kosmoportu.`
 
 mission "Successors: Biology Research 1"
 	minor
@@ -152,62 +152,62 @@ mission "Successors: Biology Research 1"
 	stopover "Naph-Naap-Kella"
 	on offer
 		conversation
-			`While you are sitting in the spaceport, you are approached by a Successor wearing a curious green outfit and carrying several pieces of seemingly high-tech equipment, enough that it appears close to falling out of their arms. They explain that they are a Successor biologist who had chartered a flight to go and examine the primordial life on <planet stopovers>, a young and still-developing planet, but that their pilot had been detained, leaving them stranded here.`
-			`	"If thou coulds't provide travel to that planet, I may still be able to gather my data before my period of research leave expires."`
+			`Kiedy siedzisz w porcie kosmicznym, podchodzi do ciebie Następca w osobliwym zielonym stroju, niosący kilka pozornie zaawansowanych technologicznie urządzeń, które wydają się bliskie wypadnięcia z rąk. Wyjaśnia, że jest biologiem Następcy, który wyczarterował lot, aby zbadać pierwotne życie na <planet stopovers>, młodej i wciąż rozwijającej się planecie, ale jego pilot został zatrzymany, przez co utknęli tutaj.`
+			`	"Jeśli nie mógłbyś zapewnić podróży na tę planetę, być może uda mi się zebrać dane przed upływem okresu mojego urlopu badawczego."`
 			choice
-				`	"Sure, I would be happy to."`
+				`	"Oczywiście, chętnie."`
 					goto accept
-				`	"Sorry, but you'll have to find someone else to take you."`
+				`	"Przepraszam, ale będziesz musiał znaleźć kogoś innego, kto cię zawiezie."`
 					decline
 			label accept
-			`	"Thou has my deep and certain thanks. Tell none, but the High Houses are beastly to us academics." The biologist, who introduces themselves as "Kaatiora," loads their collection of equipment into your ship - though not without almost dropping one particularly fragile-looking item - and is eventually ready to leave.`
+			`	"Masz moje głębokie i szczere podziękowania. Nie mów nikomu, ale Wysokie Izby są dla nas, akademików, okrutne." Biolog, który przedstawia się jako "Kaatiora," ładuje swój sprzęt na twój statek - choć omal nie upuszczając jednego, szczególnie kruchego przedmiotu - i jest gotowy do odlotu.`
 				accept
 	on stopover
 		conversation
-			`On the way here, Kaatiora has been impressively inquisitive, continually asking you questions about human biology with a level of verve and excitement you had previously thought impossible. Once they exhausted your knowledge of every detail of human biology, they moved on without hesitation to every other Earth-related species they knew of from Predecessor records, from cattle to frogs to far more exotic ones that you've never heard of in your life but apparently are all the rage among the circles of Successor xenobiology.`
-			`	It is somewhat relieving when you finally arrive at the planet and Kaatiora momentarily departs, once again carrying their more-than-armful of equipment and excitedly but carefully scanning the volcanic hot-water pools and small lakes around your landing site, occasionally exclaiming with excitement.`
-			`	Eventually they return to your ship, satisfied with the amount of data they have collected, but still obviously energized by the experience.`
-			`	Before leaving, you realize this would be a good time to learn more about the Successors from an expert. Besides, since you spent the majority of the time on the way here answering Kaatiora's questions, you are probably entitled to ask a few of your own.`
+			`W drodze tutaj, Kaatiora wykazała się imponującą dociekliwością, nieustannie zadając ci pytania o biologię człowieka z zapałem i entuzjazmem, które wcześniej uważałeś za niemożliwe. Gdy wyczerpała twoją wiedzę o każdym szczególe biologii człowieka, bez wahania przeszła do wszystkich innych gatunków spokrewnionych z Ziemią, o których wiedziała z zapisów Poprzedników, od bydła, przez żaby, po znacznie bardziej egzotyczne gatunki, o których nigdy w życiu nie słyszałeś, ale najwyraźniej są ostatnim krzykiem mody w kręgach ksenobiologii Następców.`
+			`	Jesteś nieco uspokojony, gdy w końcu docierasz na planetę, a Kaatiora na chwilę odlatuje, znów niosąc ze sobą więcej niż naręcze sprzętu i podekscytowany, ale ostrożny, rozglądając się po wulkanicznych basenach z gorącą wodą i małych jeziorach wokół twojego miejsca lądowania, od czasu do czasu wykrzykując z podekscytowania.`
+			`	Ostatecznie wracają na twój statek, zadowoleni z ilości zebranych danych, ale wciąż wyraźnie naładowani energią dzięki temu doświadczeniu.`
+			`	Zanim odejdziesz, zdajesz sobie sprawę, że to dobry moment, aby dowiedzieć się więcej o Następcach od eksperta. Poza tym, skoro większość czasu w drodze tutaj spędziłeś odpowiadając na pytania Kaatiory, prawdopodobnie masz prawo zadać kilka własnych.`
 			choice
-				`	(Ask about Successor biology.)`
-				`	(Don't ask anything.)`
+				`	(Zapytaj o biologię następczą.)`
+				`	(O nic nie pytaj.)`
 					goto end
-			`	As expected, Kaatiora is more than happy to share their biological knowledge, and asks if there is anything in particular you'd like to know about.`
+			`	Jak można się było spodziewać, Kaatiora bardzo chętnie dzieli się swoją wiedzą biologiczną i pyta, czy jest coś konkretnego, o czym chciałbyś się dowiedzieć.`
 			label questions
 			choice
-				`	"What can you tell me about the Successors?"`
+				`	"Co możesz mi powiedzieć o Następcach?"`
 					to display
 						not "Successors: successor"
 					goto successor
-				`	"Were the Predecessors any different from the present Successors, biologically speaking?"`
+				`	"Czy poprzednicy różnili się czymś od obecnych następców, biologicznie rzecz biorąc?"`
 					to display
 						not "Successors: predecessor"
 					goto predecessor
-				`	"What is the life in this star cluster like?"`
+				`	"Jak wygląda życie w tej gromadzie gwiazd?"`
 					to display
 						not "Successors: cluster"
 					goto cluster
-				`	"I have no more questions."`
+				`	"Nie mam więcej pytań."`
 					goto end
 			label successor
 			action
 				set "Successors: successor"
-			`	"Much of our evolutionary history, we spent beneath the waves of our home planet, and while now you clearly see we breathe the same air as you, we still retain our cold and water-loving tendencies. Our respiration works just as well submerged as on dry land, though we must retain some degree of moisture on our skin.`
-			`	"Apart from that, we are a hermaphroditic species, like most from our home planet, and as we took to the stars, we learned that this is uncommon but not rare, and so there is some curiosity as to why our planet had such a diversity of such species while most do not. Perhaps, since we grew up under a harsh sun, the redundancy provided by our divorce from biological sex was beneficial to our evolution.`
-			`	"And of course, thou hast surely noticed by now the natural camouflage of our skin. While today its use is for communication, it was long ago a useful tool for evading predators who hunted by sight, until, of course, we gained the wisdom to outsmart our predators rather than hide from them."`
+			`	"Większość naszej historii ewolucyjnej spędziliśmy pod falami naszej ojczystej planety i chociaż teraz wyraźnie widać, że oddychamy tym samym powietrzem co wy, nadal zachowujemy nasze skłonności do zimna i wody. Nasze oddychanie działa równie dobrze pod wodą, jak na lądzie, choć musimy zachować pewną ilość wilgoci na skórze.`
+			`	"Poza tym jesteśmy gatunkiem hermafrodytycznym, jak większość z naszej planety, i kiedy polecieliśmy w kosmos, dowiedzieliśmy się, że jest to rzadkie, ale nie rzadkie. Dlatego też pojawia się pewna ciekawość, dlaczego nasza planeta charakteryzowała się tak dużą różnorodnością gatunków, podczas gdy większość nie. Być może, skoro dorastaliśmy pod surowym słońcem, redundancja wynikająca z oddzielenia się od płci biologicznej była korzystna dla naszej ewolucji.`
+			`	"Oczywiście, z pewnością zauważyłeś już naturalny kamuflaż naszej skóry. Choć dziś służy ona do komunikacji, dawno temu była użytecznym narzędziem do unikania drapieżników polujących wzrokiem, dopóki, oczywiście, nie nabraliśmy mądrości, by przechytrzyć nasze drapieżniki, zamiast się przed nimi ukrywać."`
 				goto questions
 			label predecessor
 			action
 				set "Successors: predecessor"
-			`	"As brevity is the soul of wit, then no, our Predecessors did not differ greatly from us in their core biology. A scion of the High Houses from the time of the collapse would not stand out from the average one of us in the present day. That being said, their understanding of it was much superior: their medical science was much more advanced than our own, and much of their technology was genetically coded to function only for specific families."`
+			`	"Ponieważ zwięzłość jest duszą dowcipu, to nie, nasi poprzednicy nie różnili się od nas zbytnio pod względem biologicznym. Potomek Wysokich Domów z czasów upadku nie wyróżniałby się niczym szczególnym od przeciętnego z nas, żyjącego współcześnie. Mimo to, ich wiedza na ten temat była znacznie lepsza: ich medycyna była znacznie bardziej zaawansowana niż nasza, a znaczna część ich technologii była genetycznie zaprogramowana tak, aby działała tylko dla określonych rodzin."`
 				goto questions
 			label cluster
 			action
 				set "Successors: cluster"
-			`	"Thou asks at a fortuitous time! This planet, and the life that lives upon it, may provide to us a better answer to that question. Many of the stars here are hot and young and therefore harsh to nascent life, and yet thou hast surely seen the verdant worlds that orbit them! While some of this results from early settlement during the old empire, much of it does not and therefore remains a vexing point. How could life develop here? If we can track the path taken by the life of this planet, we may find the answer both you and I seek."`
+			`	"Pytasz w sprzyjającym momencie! Ta planeta i życie na niej żyjące mogą dać nam lepszą odpowiedź na to pytanie. Wiele tutejszych gwiazd jest gorących i młodych, a zatem nieprzyjaznych dla rodzącego się życia, a jednak z pewnością widziałeś zielone światy, które je krążą! Choć część z tego wynika z wczesnego osadnictwa w czasach dawnego imperium, wiele z tego nie ma i dlatego pozostaje kwestią sporną. Jak mogło tu rozwinąć się życie? Jeśli uda nam się prześledzić drogę, jaką przebyło życie na tej planecie, możemy znaleźć odpowiedź, której oboje szukamy."`
 				goto questions
 			label end
-			`	You leave Katiiora to their business and make your preparations to take off when ready.`
+			`	Zostawiasz Katiiorę samą sobie i sam przygotowujesz się do startu, gdy będzie gotowy.`
 			action
 				clear "Successors: successor"
 				clear "Successors: predecessor"
@@ -216,8 +216,8 @@ mission "Successors: Biology Research 1"
 		"successor jobs" += 2
 		payment 200000
 		conversation
-			`	Kaatiora remains excited and talkative on the way back, though marginally less so now that they have exhausted the totality of your knowledge of the biological sciences and have the analysis of their recently-gathered data to occupy them.`
-			`	Upon landing at <destination>, they disembark from your ship, once again carrying their excess of equipment, but not before giving you your payment of <payment> and once again offering their thanks for transporting them.`
+			`	Kaatiora pozostaje podekscytowana i rozmowna w drodze powrotnej, choć nieco mniej teraz, gdy wyczerpała całą twoją wiedzę z zakresu nauk biologicznych i może zająć się analizą niedawno zebranych danych.`
+			`	Po wylądowaniu na <destination> wysiadają z twojego statku, ponownie zabierając ze sobą nadmiar sprzętu, ale nie wcześniej niż zapłacą ci zapłatę w wysokości <payment> i raz jeszcze złożą podziękowania za transport.`
 
 mission "Successors: Stargazing 1"
 	minor
@@ -237,94 +237,94 @@ mission "Successors: Stargazing 1"
 	deadline 20
 	on offer
 		conversation
-			`While in the spaceport on <origin>, you notice a pair of tired-looking Successors lugging around a cart of a curious folded material, taking turns dragging their apparently heavy luggage over the floor. Both perk up substantially when they see you and your ship, however, and pull their equipment towards you with renewed vigor, finally getting close enough to speak.`
-			`	The larger of the two begins, "Oh! Thour't that recent alien, no? 'Tis a gorgeous ship thou commands-"`
-			`	"What we meant to say is-"`
-			`	"Sorry, 'tis just that-" `
-			`	"Do you take passenger missions?"`
+			`W porcie kosmicznym na <origin> zauważasz parę zmęczonych Następców, którzy taszczą wózek z dziwnie złożonym materiałem, na zmianę ciągnąc po podłodze swój pozornie ciężki bagaż. Obaj jednak wyraźnie się ożywiają na widok ciebie i twojego statku i z nową energią ciągną swój ekwipunek w twoją stronę, w końcu zbliżając się na tyle, by móc przemówić.`
+			`	Większy z nich zaczyna: "Och! Czy to nie ten niedawny kosmita, prawda? Dowodzisz wspaniałym statkiem-"`
+			`	"Chcieliśmy powiedzieć-"`
+			`	"Przepraszam, to tylko tyle-" `
+			`	"Czy wykonujecie loty pasażerskie?"`
 			choice
-				`	"I do."`
+				`	"Tak."`
 					goto immediate
-				`	"It depends for what purpose."`
-			`	One of the Successors looks what you might call embarrassed, flushing a dull green. The other replies.`
-			`	"Stargazing. There is a world at the edge of the galaxy, the farthest edge; it has the most beautiful view-"`
-			`	"We've brought our own equipment."`
-			`	"The sky there's divided into star-studded night and utter void. Could thou take us there?"`
-			`	"And back, of course. And our cargo," the other one says, gesturing towards the cart of folded fabric.`
-			`	"And back. And our cargo. We can give thee modest pay."`
+				`	"To zależy, w jakim celu."`
+			`	Jeden z Następców wygląda na zawstydzonego, czerwieniąc się na matowozielono. Drugi odpowiada.`
+			`	"Obserwowanie gwiazd. Na krańcu galaktyki, najdalszym krańcu, znajduje się świat; ma on najpiękniejszy widok-"`
+			`	"Przywieźliśmy własny sprzęt."`
+			`	"Niebo jest tam podzielone na noc usianą gwiazdami i pustkę. Czy mógłbyś nas tam zabrać?"`
+			`	"I z powrotem, oczywiście. I nasz ładunek, " mówi drugi, wskazując na wózek ze złożonym materiałem.`
+			`	"I z powrotem. I nasz ładunek. Możemy ci dać skromne wynagrodzenie."`
 			choice
-				`	"Sure, I can take you."`
+				`	"Jasne, mogę cię zabrać."`
 					goto yes
-				`	"You'll have to find a different pilot."`
+				`	"Będziesz musiał znaleźć innego pilota."`
 					decline
 			label immediate
-			`	"Oh! 'Tis perfect! We were looking for a private transport. We're stargazers-"`
-			`	"There's a planet at the edge of the galaxy with the perfect view-"`
-			`	"The sky there's divided into star-studded night and utter void. Could thou take us there?"`
-			`	"And back, of course. And our cargo too," the other one says, gesturing towards the cart of folded fabric.`
-			`	"And back. And our cargo. We can give thee modest pay."`
+			`	"Och! Idealnie! Szukaliśmy prywatnego transportu. Jesteśmy miłośnikami gwiazd-"`
+			`	"Na skraju galaktyki znajduje się planeta, z której roztacza się idealny widok-"`
+			`	"Niebo jest tam podzielone na noc usianą gwiazdami i pustkę. Czy mógłbyś nas tam zabrać?"`
+			`	"I z powrotem, oczywiście. I nasz ładunek też, " mówi drugi, wskazując na wózek ze złożonym materiałem.`
+			`	"I z powrotem. I nasz ładunek. Możemy ci dać skromne wynagrodzenie."`
 			choice
-				`	"Sure, I can take you."`
+				`	"Jasne, mogę cię zabrać."`
 					goto yes
-				`	"I'm sorry, but you'll have to find a different pilot."`
+				`	"Przykro mi, ale musisz znaleźć innego pilota."`
 					decline
 			label yes
-			`	The two seem thrilled, the larger one turning a dull pink. "Oh! Thour't truly honorable, noble alien. I am Nnesa."`
-			`	"Jaasora. Thank you, Captain. Most pilots here've no appetite to travel to the uninhabited systems."`
-			`	"Yes, you must tell us about all the places you've been-"`
+			`	Oboje wydają się być podekscytowani, większy z nich przybiera matoworóżowy odcień. "Oh! Nie jesteś do końca honorowy, szlachetny kosmita. Jestem Nnesa."`
+			`	"Jaasora. Dziękuję, Kapitanie. Większość pilotów tutaj nie ma ochoty podróżować do niezamieszkanych układów."`
+			`	"Tak, musisz nam opowiedzieć o wszystkich miejscach, w których byłeś-"`
 			choice
-				`	"How about we get you onboard first."`
-			`	Nnesa flashes with embarrassment once again, but Jaasora offers a supportive arm, wrapping it around their body. The two enlist your help in loading their cart of equipment, which is much heavier than it looks, but together the three of you eventually manage to maneuver their luggage into the <ship>'s cargo bay and are ready for departure.`
+				`	"A może najpierw wciągniemy cię na pokład."`
+			`	Nnesa ponownie błyśnie zażenowaniem, ale Jaasora oferuje jej wsparcie, obejmując ją ramieniem. Oboje proszą cię o pomoc w załadowaniu wózka ze sprzętem, który jest o wiele cięższy, niż wygląda, ale w końcu udaje wam się wciągnąć bagaże do luku bagażowego <ship> i jesteście gotowi do odlotu.`
 				accept
 	on stopover
 		conversation
-			`Nnesa and Jaasora have been simply enthralled on the journey here; the inseparable pair has spent seemingly every waking moment peering out the <ship>'s windows to watch the stars stream past. Upon arrival in the Maspa-Mavra system, however, their excitement dwindled to what you would call a subdued awe at the sight of the entire galaxy splayed out in the sky.`
-			`	Khosa-Kella-Oa itself is cold, dark and rocky: for all purposes functionally identical to any of the other innumerable uninhabited airless worlds in the galaxy. Your passengers seem pleased with it, though; Nnesa remarks that the local star "is so dim that there's hardly any glare!" and Jaasora energetically agrees. They activate their cart of folded equipment within the <ship>'s cargo bay, which slowly inflates and unfolds into something halfway between a tent and a repulsor lift. It skids over the floor like melting ice, gently bumping the inside walls a couple times before Jaasora manages to quiet its movement.`
-			`	"Our thanks again, captain, for transporting us," says Jaasora as they load a bundle of telescopes inside.`
-			`	"Oh! The planet's perfect; no air to muddy the view nor other ships to cloud the skies-"`
-			`	"We should be back in a couple hours. Please wait for us."`
-			`	The pair depart in their gliding tent, which manifests several transparent spots on its surface as it exits and as a bevy of telescopes are prodded around inside.`
+			`Nnesa i Jaasora byli po prostu zachwyceni podróżą tutaj; nierozłączna para spędzała niemal każdą chwilę, wyglądając przez okna <ship>, by obserwować przelatujące gwiazdy. Jednak po dotarciu do układu Maspa-Mavra ich ekscytacja osłabła do tego, co można by nazwać przytłumionym zachwytem na widok całej galaktyki rozpostartej na niebie.`
+			`	Sama Khosa-Kella-Oa jest zimna, ciemna i skalista: pod każdym względem funkcjonalnie identyczna z każdym z niezliczonych niezamieszkanych, bezpowietrznych światów w galaktyce. Twoi pasażerowie wydają się jednak zadowoleni; Nnesa zauważa, że lokalna gwiazda "jest tak słaba, że prawie nie widać jej blasku!", a Jaasora energicznie się z nią zgadza. Aktywują wózek ze złożonym sprzętem w ładowni <ship>, który powoli nadmuchuje się i rozkłada, tworząc coś pomiędzy namiotem a windą repulsorową. Ślizga się po podłodze jak topniejący lód, delikatnie uderzając kilka razy o wewnętrzne ściany, zanim Jaasora zdąży go uciszyć.`
+			`	"Jeszcze raz dziękujemy, kapitanie, za transport," mówi Jaasora, gdy ładują do środka wiązkę teleskopów.`
+			`	"Och! Planeta jest idealna; nie ma powietrza, które zasłaniałoby widok, ani innych statków, które zasłaniałyby niebo-"`
+			`	"Powinniśmy wrócić za kilka godzin. Proszę na nas poczekać."`
+			`	Para odlatuje w swoim szybującym namiocie, który po wyjściu na powierzchnię ukazuje kilka przezroczystych plam, a w środku przesuwa się mnóstwo teleskopów.`
 			choice
-				`	(Wait.)`
-			`	Nnesa and Jaasora return after a couple of hours as promised, their strange tent gliding back into the <ship>'s cargo bay as smoothly as it exited. The pair unload several notebooks of photos and drawings and chatter excitedly about the various constellations and stellar phenomena that they observed. Nnesa is particularly excited, hurriedly extracting from the interleaved mess of papers a surprisingly accurate and well-constructed star map, which they press up in your face with pride. You cannot help but notice that several of the drawings in the stack are of Jaasora rather than of any stellar phenomena.`
-			`	"From where on the map dost thou hail, captain?" Nnesa roughly gestures to an area of their map that you recognize as human space.`
+				`	(Czekaj.)`
+			`	Nnesa i Jaasora wracają po kilku godzinach, zgodnie z obietnicą. Ich dziwny namiot wślizguje się z powrotem do ładowni <ship> tak płynnie, jak z niej wyjechał. Para wyładowuje kilka notatników ze zdjęciami i rysunkami, po czym z entuzjazmem opowiada o różnych konstelacjach i zjawiskach gwiezdnych, które zaobserwowali. Nnesa jest szczególnie podekscytowana, pospiesznie wyciągając z przeplatającego się stosu papierów zaskakująco dokładną i starannie sporządzoną mapę nieba, którą z dumą wciskają ci w twarz. Nie sposób nie zauważyć, że kilka rysunków w stosie przedstawia Jaasorę, a nie jakiekolwiek zjawiska gwiezdne.`
+			`	"Skąd na mapie przychodzisz, kapitanie?" Nnesa wskazuje gestem obszar na ich mapie, który rozpoznajesz jako przestrzeń ludzką.`
 			choice
-				`	(Indicate Rutilicus.)`
+				`	(Wskazać Rutilicus.)`
 					to display
 						has "human space start"
 					goto rutilicus
-				`	(Indicate Sol.)`
+				`	(Wskaż Sol.)`
 					to display
 						has "human space start"
 					goto sol
-				`	(Indicate Fah Soom.)`
+				`	(Wskaż Fah Soom.)`
 					to display
 						has "hai space start"
 					goto "fah soom"
-				`	(Gesture broadly to the expanse of space depicted on the map.)`
-			`	"Oh!" says Nnesa, "Thou art a scion of the constellations, first and foremost to the stars? 'Tis fair. Thou hast a galaxy to wander, a nearly endless sky. The things that there must be to see-"`
+				`	(Wykonaj szeroki gest w kierunku przestrzeni przedstawionej na mapie.)`
+			`	"Och!" mówi Nnesa, "Jesteś potomkiem konstelacji, przede wszystkim gwiazd? To piękne. Masz galaktykę do przemierzenia, niemal bezkresne niebo. Rzeczy, które tam muszą być, muszą być do zobaczenia-"`
 				goto interrupt
 			label rutilicus
-			`	"Oh!" says Nnesa, "I am not sure I know the name for that one, captain. What dost thou call thy home?"`
+			`	"Och!" mówi Nnesa, "Nie jestem pewna, czy znam jego imię, kapitanie. Jak nazywasz swój dom?"`
 			choice
 				`	"Rutilicus."`
 					goto "novel name"
 			label sol
-			`	"Oh!" says Nnesa, "Sol." They quietly sound their way through the word a couple times, trying to get it right. "Our name for it is Saaqa-Viirja. 'Twas one of the northernmost extents of our Predecessors' voyages. Ah. But thou know'st this already, for sure."`
+			`	"Och!" mówi Nnesa, "Sol." Cicho powtarzają słowo kilka razy, próbując je poprawnie wymówić. "Nasza nazwa to Saaqa-Viirja. Był to jeden z najdalej na północ wysuniętych krańców podróży naszych poprzedników. Ach. Ale ty już to wiesz, na pewno."`
 				goto interrupt
 			label "fah soom"
-			`	"Oh!" says Nnesa. "That far to the north? Thy kind must have spread far for thee to have such a place as thy home. What dost thou call it?"`
+			`	"Och!" mówi Nnesa. "Aż tak daleko na północy? Twój gatunek musiał się rozprzestrzenić, skoro masz takie miejsce jako dom. Jak je nazywasz?"`
 			choice
 				`	"Fah Soom."`
 			label "novel name"
-			`	Nnesa asks you to repeat the word a second time, slowly working their way through your pronunciation and transcribing a short sequence of flowing letters on their map. "'Tis a pleasant name," they say.`
+			`	Nnesa prosi cię o powtórzenie słowa po raz drugi, powoli analizując twoją wymowę i transkrybując krótką sekwencję liter na swojej mapie. "'To przyjemne imię, " mówią.`
 			label interrupt
-			`	The two of you are interrupted by Jaasora, who needs Nnesa's help to pack the now-deflating tent back in its cart, and once that is done they indicate that they are ready to return home.`
+			`	Was dwójka zostaje przerwana przez Jaasorę, która potrzebuje pomocy Nnesy, aby zapakować spuszczane powietrze z namiotu z powrotem do wózka. Po wykonaniu tej czynności dają znać, że są gotowi wracać do domu.`
 	on complete
 		"successor jobs" += 2
 		payment 78000
 		conversation
-			`Nnesa and Jaasora have continued to marvel at the stars on the way back home, in addition to spending a substantial amount of time poring over their mutual collection of photos, drawings, and maps from Maspa-Mavra. "Our deepest thanks, captain," Jaasora says to you once you have landed in the spaceport as Nnesa wrestles with the tent and cart. "'Twas a true and joyful voyage." Nnesa calls them over; the tent clearly requires at least two to handle. Jaasora presents you with your payment of <payment> and goes to help, and the two of them maneuver their equipment out of your cargo bay before shouting a hasty but good-humored farewell.`
+			`Nnesa i Jaasora nadal podziwiały gwiazdy w drodze powrotnej do domu, a także spędziły sporo czasu, studiując wspólną kolekcję zdjęć, rysunków i map z Maspa-Mavra. "Nasze najszczersze podziękowania, kapitanie, " - mówi Jaasora po wylądowaniu w porcie kosmicznym, podczas gdy Nnesa zmaga się z namiotem i wózkiem. "To była prawdziwa i radosna podróż. " Nnesa woła ich; namiot ewidentnie wymaga co najmniej dwóch osób. Jaasora wręcza ci zapłatę w wysokości <payment> i idzie pomóc, a potem oboje wyprowadzają swój sprzęt z ładowni, po czym krzyczą pospieszne, ale radosne pożegnanie.`
 
 mission "Successors: People's Houses: First Contact"
 	landing
@@ -335,52 +335,52 @@ mission "Successors: People's Houses: First Contact"
 		has "Successors: Unified Defense: offered"
 	on offer
 		conversation
-			`Compared to most of the spaceports you have been to in Successor space, this one is dingy, crowded, and uncomfortable. Most of the Successors you see look equally dirty and unhappy, and the majority of the few ships you've noticed landing are painted in a different, darker shade of red.`
-			`	Would you like to ask someone here about this place?`
+			`W porównaniu z większością portów kosmicznych, które odwiedziłeś w przestrzeni Successorów, ten jest obskurny, zatłoczony i niewygodny. Większość Successorów, które widzisz, wygląda równie brudno i nieszczęśliwie, a większość z kilku statków, które zauważyłeś, lądujących, jest pomalowana na inny, ciemniejszy odcień czerwieni.`
+			`	Czy chciałbyś zapytać kogoś tutaj o to miejsce?`
 			choice
-				`	(Yes.)`
-				`	(Not now.)`
+				`	(Tak.)`
+				`	(Nie teraz.)`
 					defer
-				`	(Never.)`
+				`	(Nigdy.)`
 					decline
-			`	You approach one of the crew members disembarking from one of the red-painted ships, which, as you draw closer, you see bears several large burns and scars.`
-			`	"Excuse me, I was wondering if you could tell me about this place. It seems different to the rest of Successor space I've been through."`
-			`	The Successor looks over at the spaceport for a moment before grunting quietly and deciding to reply. Their voice is lower and darker than that of most Successors you have heard, and their skin changes color and texture rapidly, almost with every word.`
+			`	Podchodzisz do jednego z członków załogi schodzącego na ląd z jednego z pomalowanych na czerwono statków. Gdy podejdziesz bliżej, zobaczysz, że ma on kilka rozległych oparzeń i blizn.`
+			`	"Przepraszam, zastanawiałem się, czy mógłbyś mi opowiedzieć o tym miejscu. Wygląda na inne niż reszta przestrzeni Successora, którą odwiedziłem."`
+			`	Następca spogląda na kosmodrom przez chwilę, po czym cicho mruczy i postanawia odpowiedzieć. Jego głos jest niższy i ciemniejszy niż u większości Następców, których słyszałeś, a jego skóra zmienia kolor i fakturę błyskawicznie, niemal z każdym słowem.`
 			branch kaatrij
 				has "successors kaatrij patron"
-			`	"Thou art the alien vis'tor brought by the Old Houses, art thou not? Their 'noble guest' whom they parade around with such delight?"`
+			`	"Jesteś tym obcym gościem, którego przywiozły Stare Domy, prawda? Ich "szlachetnym gościem", którego paradują z taką rozkoszą?"`
 				goto affirm
 			label kaatrij
-			`	"Thou art the alien vis'tor paraded 'round between the Houses, art thou not? Their 'noble guest' or 'flighty knave' that depends on t'which thee speaks?`
+			`	"Jesteś tym obcym gościem, którego paraduje się między Domami, prawda? Ich "szlachetnym gościem" czy "lotnym łotrem", w zależności od tego, o kim mówisz?`
 			label affirm
 			choice
-				`	"Yes."`
-				`	"You could say so."`
-			`	Despite the accusation of being "paraded around," the Successor grunts again at your response; with approval or disgust you cannot tell. They lean against one of the cargo containers on the spaceport floor and continue.`
-			`	"So then thou art another indolent fool, no doubt deceived by their fine promises, of wealth and power so long as you toe the line? Well, look around and see the value of their noble word! The Houses care but naught for you or I or any of them." The Successor gestures to the crowd in a broad sweeping motion.`
+				`	"Tak."`
+				`	"Można tak powiedzieć."`
+			`	Pomimo oskarżenia o "paradowanie," Następca ponownie mruczy na twoją odpowiedź; nie możesz stwierdzić, czy wyraża aprobatę, czy obrzydzenie. Opierają się o jeden z kontenerów na podłodze kosmoportu i kontynuują.`
+			`	"Więc jesteś kolejnym leniwym głupcem, niewątpliwie oszukanym ich wspaniałymi obietnicami bogactwa i władzy, bylebyś tylko trzymał się linii? Cóż, rozejrzyj się i zobacz, jak cenne jest ich szlachetne słowo! Rody nie dbają o ciebie, o mnie, ani o nikogo z nich. " Następca gestem wskazuje na tłum.`
 			choice
-				`	"Who are they?"`
+				`	"Kim oni są?"`
 					goto who
-				`	"I don't think of myself as a fool."`
-			`	"Then thou art doubly so, because thy time within this space is new and short and so the thoughts contained within thy brain are like those of a child, still blind to the world. But keep thy friends if they appear so kind; and take the time to recollect what I have said when in thy back their dagger nests."`
-			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
+				`	"Nie uważam się za głupca."`
+			`	"W takim razie jesteś podwójnie, ponieważ twój czas w tej przestrzeni jest nowy i krótki, a myśli zawarte w twoim mózgu są jak myśli dziecka, wciąż ślepego na świat. Ale trzymaj się swoich przyjaciół, jeśli wydają się tak mili; i poświęć czas na przypomnienie sobie tego, co powiedziałem, gdy w twoich plecach znajdą się gniazda sztyletów."`
+			`	Po tym Następca odchodzi, wyskakując z kontenerów ładunkowych i kierując się bezszelestnie w stronę kosmoportu.`
 				decline
 			label who
-			`	"They are the outcasts of the Houses New, who, like the rest, were forced here when the old empire crumbled into ash. But while the rest of the New Houses had ample wealth to move and grow into their new domains, not all of us were able to escape this intermediary place they shoved us into while we waited. A thousand years and still they paint us with their scorn and demonize our yearning to be free."`
+			`	"To wyrzutkowie z Nowych Domów, którzy, podobnie jak reszta, zostali tu zmuszeni, gdy stare imperium obróciło się w popiół. Ale podczas gdy reszta Nowych Domów miała wystarczająco dużo bogactwa, by przenieść się i rozwijać w swoich nowych domenach, nie wszyscy z nas byli w stanie uciec z tego miejsca pośredniego, do którego nas wepchnięto, czekając. Tysiąc lat, a wciąż malują nas swoją pogardą i demonizują nasze pragnienie wolności."`
 			choice
-				`	"Free?"`
+				`	"Darmowe?"`
 					goto free
-				`	"Thank you. I have no more questions."`
-			`	"Thou would be wise, if thou possesses that rare art, to keep and guard thy back against thy new and treacherous 'friends.'`
-			`	"Or don't. Another buried fool makes little difference."`
-			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
+				`	"Dziękuję. Nie mam więcej pytań."`
+			`	"Jeśli posiadasz tę rzadką umiejętność, powinieneś zachować ostrożność i strzec się przed nowymi i zdradzieckimi "przyjaciółmi".`
+			`	"Albo nie. Kolejny pogrzebany głupiec niewiele zmienia."`
+			`	Po tym Następca odchodzi, wyskakując z kontenerów ładunkowych i kierując się bezszelestnie w stronę kosmoportu.`
 				decline
 			label free
-			`	"Free, or freer than Old and New permit. The People's Houses stand not for the rich and those of noble blood, but for the true and honest heirs of that which was."`
-			`	The Successor looks over to the spaceport, before returning their attention to you for the last time.`
-			`	"Thou would be wise, if thou possesses that rare art, to keep and guard thy back against thy new and treacherous 'friends.'`
-			`	"Or don't. Another buried fool makes little difference."`
-			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
+			`	"Wolni, czyli bardziej wolni niż pozwalają na to Stare i Nowe. Domy Ludowe reprezentują nie bogaczy i szlachciców, lecz prawdziwych i uczciwych spadkobierców tego, co było."`
+			`	Następca spogląda w stronę portu kosmicznego, po czym po raz ostatni ponownie zwraca na ciebie uwagę.`
+			`	"Jeśli posiadasz tę rzadką umiejętność, powinieneś zachować ostrożność i strzec się przed nowymi i zdradzieckimi "przyjaciółmi".`
+			`	"Albo nie. Kolejny pogrzebany głupiec niewiele zmienia."`
+			`	Po tym Następca odchodzi, wyskakując z kontenerów ładunkowych i kierując się bezszelestnie w stronę kosmoportu.`
 				decline
 
 mission "Successors: Unified Defense"
@@ -414,44 +414,44 @@ mission "Successors: Unified Defense"
 				has "flagship planet attribute: uninhabited"
 			branch "populated language"
 				has "language: Successor"
-			`You notice after landing here that the spaceport crew is making no effort to refuel or repair your ship, and that a large contingent of Successor military officers is gathering around your landing pad, their weapons trained on your vessel. As several interceptors begin to hover over your ship as well with their weapons ready, you are forced to take off.`
+			`Po wylądowaniu zauważasz, że załoga kosmoportu nie podejmuje żadnych działań w celu uzupełnienia paliwa ani naprawy twojego statku, a wokół twojego lądowiska gromadzi się liczna grupa oficerów Sukcesorów, którzy celują w twój statek. Gdy kilka myśliwców przechwytujących zaczyna krążyć nad twoim statkiem z bronią gotową do strzału, jesteś zmuszony do startu.`
 				flee
 			label "populated language"
-			`You notice after landing here that the spaceport crew is making no effort to refuel or repair your ship, and that a large contingent of Successor military officers is gathering around your landing pad.`
-			`	You soon receive a transmission routed through the local spaceport. "Thy recent actions against our people make it very clear that we were unwise to permit thee access to our space. The Houses have decreed in council that thou art an enemy, and thou shalt be treated accordingly hereforth."`
+			`Po wylądowaniu zauważasz, że załoga kosmoportu nie podejmuje żadnych działań w celu uzupełnienia paliwa ani naprawy twojego statku, a wokół twojego lądowiska gromadzi się duża grupa oficerów następczych.`
+			`	Wkrótce otrzymasz transmisję przez lokalny port kosmiczny. "Twoje ostatnie działania przeciwko naszym ludziom jasno pokazują, że nierozsądnie postąpiliśmy, pozwalając ci wejść do naszej przestrzeni. Izby orzekły na radzie, że jesteś wrogiem i odtąd będziesz odpowiednio traktowany. "`
 			choice
-				`	"It was an accident!"`
+				`	"To był wypadek!"`
 					goto accident
-				`	"I apologize for the transgression. I won't do it again."`
+				`	"Przepraszam za przewinienie. Więcej tego nie zrobię."`
 					goto "never again"
-				`	"They deserved it."`
+				`	"Zasłużyli na to."`
 					goto "deserved it"
 			label uninhabited
 			branch "uninhabited language"
 				has "language: Successor"
-			`Shortly after landing here, you receive a long-range transmission from the Successors. Though you can't make sense of any of the words, you get the distinct impression that they are angry at you.`
+			`Krótko po wylądowaniu tutaj odbierasz transmisję dalekiego zasięgu od Następców. Chociaż nie rozumiesz żadnego ze słów, masz wyraźne wrażenie, że są na ciebie źli.`
 				goto end
 			label "uninhabited language"
-			`Shortly after landing here, you receive a long-range transmission from the Successors. "Thy recent actions against our people make it very clear that we were unwise to permit thee access to our space. The Houses have decreed in council that thou art an enemy, and thou shalt be treated accordingly hereforth."`
+			`Krótko po wylądowaniu tutaj, odbierasz transmisję dalekiego zasięgu od Następców. "Twoje ostatnie działania przeciwko naszemu ludowi jasno pokazują, że nierozsądnie postąpiliśmy, pozwalając ci wejść do naszej przestrzeni. Izby orzekły na radzie, że jesteś wrogiem i odtąd będziesz odpowiednio traktowany. "`
 			choice
-				`	"It was an accident!"`
+				`	"To był wypadek!"`
 					goto accident
-				`	"I apologize for the transgression. I won't do it again."`
+				`	"Przepraszam za przewinienie. Więcej tego nie zrobię."`
 					goto "never again"
-				`	"They deserved it."`
+				`	"Zasłużyli na to."`
 					goto "deserved it"
 			label accident
-			`	Spots of flaming orange appear over the Successor's skin. "Any creature prone to such 'accidents' has no place among our worlds." They end the transmission there.`
+			`	Na skórze Następcy pojawiają się ognistopomarańczowe plamy. "Każda istota podatna na takie "wypadki" nie ma miejsca na naszych światach." Tam kończą transmisję.`
 				goto end
 			label "never again"
-			`	The Successor flashes a dark red. "Our fleets will make sure of it." They end the transmission there.`
+			`	Sukcesor miga ciemnoczerwonym światłem. "Nasze floty się tym zajmą." Tam kończą transmisję.`
 				goto end
 			label "deserved it"
-			`	A wave of bristling black runs over the Successor's body before they end the transmission.`
+			`	Fala czarnych, szorstkich włosów spływa po ciele Następcy, zanim zakończy on transmisję.`
 			label end
 			branch decline
 				has "flagship planet attribute: uninhabited"
-			`	Your landing permission is revoked and the contingent of officers train their weapons on your ship. As several interceptors begin to hover over your landing pad, weapons ready, you are forced to take off.`
+			`	Twoje pozwolenie na lądowanie zostało cofnięte, a kontyngent oficerów skierował broń na twój statek. Gdy kilka myśliwców przechwytujących zaczyna krążyć nad twoim lądowiskiem z bronią gotową do startu, jesteś zmuszony do startu.`
 				flee
 		
 	npc

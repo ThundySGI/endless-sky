@@ -54,15 +54,15 @@ phrase "hostile quarg"
 conversation "quarg imprisonment"
 	branch "landed"
 		has "flagship landed"
-	`You are immediately hailed by the Quarg in the system after they complete the scan of your ship.`
-	`	"<first> <last>, you are found to be in illegal possession of Quarg equipment. Our devices are precious and ours alone. Though it is regrettable, we must terminate you."`
-	`	They close communications before you have a chance to respond, and you look to your radar to see their ships are already approaching, weapons readied...`
+	`Zostajesz natychmiast wezwany przez Quargów w systemie po zakończeniu skanowania twojego statku.`
+	`	"<first> <last>, stwierdzono, że posiadasz nielegalny sprzęt Quarg. Nasze urządzenia są cenne i należą tylko do nas. Choć jest to godne ubolewania, musimy cię zwolnić."`
+	`	Przerywają łączność zanim zdążysz odpowiedzieć, a ty spoglądasz na radar i widzisz, że ich statki już się zbliżają, z bronią przygotowaną...`
 		accept
 	label landed
-	`Your ship loses all power immediately upon touching down on the landing pad. As you walk around to try and find the problem, you pass by your hatch. You find that it is already opened with dozens of Quarg coming in, all clad in elegant full-body armor suits.`
-	`	"<first> <last>, you are found to be in illegal possession of Quarg equipment. Our devices are precious and ours alone. Though it is regrettable, we must seize you."`
-	`	They don't allow you to get as much as a word out before one of the guards has locked your arms behind your back, completely halting your attempts to fight back with surprisingly little effort. You are brought to something akin to a Quarg courtroom, where they lecture you for several hours on how dangerous it is for Quarg apparatuses to be stolen and used so blithely by others. At the end of it all, the jury sentences you to life imprisonment.`
-	`	You spend the rest of your days in the same cell, which although large and comfortable, quickly proves plain and dull. You're kept in very good health and are well-fed, but the Quarg do not allow you to leave the cell and seldom entertain your attempts at striking up a conversation. You get few visitors and can only wonder what life would've been like had you had the chance to live out all these years in freedom, the captain of a starship.`
+	`Twój statek traci zasilanie natychmiast po wylądowaniu na lądowisku. Próbując zlokalizować przyczynę problemu, mijasz właz. Okazuje się, że jest już otwarty, bo wchodzą dziesiątki Quargów, wszyscy ubrani w eleganckie pancerze.`
+	`	"<first> <last>, stwierdzono, że posiadasz nielegalny sprzęt Quarg. Nasze urządzenia są cenne i należą tylko do nas. Choć jest to godne ubolewania, musimy cię aresztować."`
+	`	Nie pozwalają ci wypowiedzieć choćby słowa, dopóki jeden ze strażników nie założy ci rąk za plecy, całkowicie uniemożliwiając ci obronę z zaskakująco niewielkim wysiłkiem. Zostajesz zaprowadzony do czegoś w rodzaju sali sądowej Quarg, gdzie przez kilka godzin wygłaszają ci wykład na temat tego, jak niebezpieczne jest kradzenie i bezmyślne używanie sprzętu Quarg przez innych. Na koniec ława przysięgłych skazuje cię na dożywocie.`
+	`	Resztę dni spędzasz w tej samej celi, która, choć duża i wygodna, szybko okazuje się nudna i nudna. Utrzymujesz się w bardzo dobrym zdrowiu i jesteś dobrze odżywiony, ale Quargowie nie pozwalają ci opuszczać celi i rzadko podejmują twoje próby nawiązania rozmowy. Odwiedza cię niewielu gości i możesz się tylko zastanawiać, jak wyglądałoby twoje życie, gdybyś miał szansę przeżyć te wszystkie lata na wolności, jako kapitan statku kosmicznego.`
 
 # Human Quarg
 

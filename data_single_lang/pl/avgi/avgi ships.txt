@@ -1375,7 +1375,7 @@ ship "Prismaios" "Prismaios (Orchid)"
 		"Speckle Turret" 2
 		"Speck Round" 4800
 		"External Launch Tube" 2
-		`"Orchid" Nuclear Missile` 12
+		`"Orchid" Pocisk nuklearny` 12
 
 		"Ultracapacitor Bank"
 		"Diffuse Deflector"
@@ -1511,7 +1511,7 @@ ship "Interferos" "Interferos (Orchid)"
 	outfits
 		"Green Optical Laser"
 		"External Launch Tube" 4
-		`"Orchid" Nuclear Missile` 24
+		`"Orchid" Pocisk nuklearny` 24
 
 		"Ultracapacitor Cell" 3
 		"Diffuse Deflector"
@@ -1658,9 +1658,9 @@ ship "Diaspersi" "Diaspersi (Orchid)"
 		"Speckle Turret"
 		"Speck Round" 2400
 		"External Launch Tube" 2
-		`"Orchid" Nuclear Missile` 12
+		`"Orchid" Pocisk nuklearny` 12
 		"Ophrys Stockpile" 3
-		`"Ophrys" Nuclear Torpedo` 36
+		`"Ophrys" Torpeda nuklearna` 36
 		
 		"Ultracapacitor Bank"
 		"Diffuse Deflector"
@@ -2025,7 +2025,7 @@ ship "Difraktos" "Difraktos (Orchid)"
 		"Speckle Turret" 2
 		"Speck Round" 9600
 		"External Launch Tube" 4
-		`"Orchid" Nuclear Missile` 24
+		`"Orchid" Pocisk nuklearny` 24
 
 		"Ultracapacitor Bank"
 		"Specular Deflector"
@@ -2059,7 +2059,7 @@ ship "Difraktos" "Difraktos (Orchid)"
 
 ship "Difraktos" "Difraktos (UREB + Orchid)"
 	outfits
-		`"Orchid" Nuclear Missile` 24
+		`"Orchid" Pocisk nuklearny` 24
 		"Concealment Lamina"
 		"External Launch Tube" 4
 		"Green Optical Laser" 2
@@ -2306,9 +2306,9 @@ ship "Atenuatia" "Atenuatia (Orchid)"
 		"Blue Optical Laser" 2
 		"Green Optical Laser" 2
 		"External Launch Tube" 2
-		`"Orchid" Nuclear Missile` 12
+		`"Orchid" Pocisk nuklearny` 12
 		"Ophrys Stockpile" 3
-		`"Ophrys" Nuclear Torpedo` 36
+		`"Ophrys" Torpeda nuklearna` 36
 		
 		"Ultracapacitor Bank"
 		"Specular Deflector"
@@ -2498,7 +2498,7 @@ ship "Photikon" "Photikon (KKV)"
 ship "Photikon" "Photikon (Ophrys)"
 	outfits
 		"External Launch Rail" 3
-		`"Ophrys" Nuclear Torpedo` 3
+		`"Ophrys" Torpeda nuklearna` 3
 		
 		"Concentrating Solar Array"
 		"Ultracapacitor Cell" 3
@@ -2601,7 +2601,7 @@ ship "Undulon"
 			"hit force" 90
 	outfits
 		"External Launch Tube"
-		`"Orchid" Nuclear Missile` 6
+		`"Orchid" Pocisk nuklearny` 6
 
 		"Concentrating Solar Cell" 3
 		"Ultracapacitor Cell"

@@ -23,14 +23,14 @@ mission "Theater Chat"
 		random < 1
 	on offer
 		conversation
-			`As you are walking through the spaceport, you come across the uncommon pairing of a Hai and a human, their conversation standing out by virtue of speaking the common tongue of humanity.`
-			`	"Oh, oh, Gemanari, this looks interesting!" The human woman looks to be in her late sixties and, when you turn to look, seems to be clucking over a holographic advertisement for a theater show. "This looks adorable, doesn't it? Oh, and it says they're using ripple ray refractive holographic flight effects!"`
-			`	The advertisement does indeed look very impressive, and you pause to observe for a moment.`
-			`	The Hai, presumably Gemanari, also appears to be a more mature lady who squints at it and wrinkles her nose. "Ugh, that's the Germontian interpretation though."`
-			`	This receives a puzzled look to which Gemanari thinks for a second before clarifying. "You would say the Social Darwinist interpretation."`
-			`	The lady grimaces and makes like she's vomiting. "I can't believe you still have those schools of thought in a society this old."`
-			`	"Oh we don't really, at least not in scientific circles, but a compelling story will outlive such things. I can't stand it personally, but it is a classic." When the lady looks unimpressed, Gemanari titters and takes her gently by the arm to steer her away again. "Don't worry Alinta; I think the Misheep Wah'uden company is running my preferred interpretation on <destination> at the moment. We can see if they have any cheap tickets. Of course my aunt would insist that the hundred and eighty-third version is the only real one, but she always..."`
-			`	You lose the conversation as they trail away from you, leaving you to wonder just what was so special about the hundred and eighty-third version of a play about a prehistoric flying Hai found frozen in the ice.`
+			`Podczas spaceru po porcie kosmicznym natkniesz się na niezwykłą parę Hai i człowieka. Ich rozmowa wyróżnia się tym, że posługują się wspólnym językiem ludzkości.`
+			`	"Ojej, ojej, Gemanari, wygląda ciekawie!" Ta kobieta wygląda na podeszłą sześćdziesiątkę i, gdy się odwrócisz, zdaje się, że gdacze nad holograficzną reklamą spektaklu teatralnego. "Wygląda uroczo, prawda? O, i jest napisane, że używają holograficznych efektów lotu z refrakcją promienia!"`
+			`	Reklama rzeczywiście wygląda bardzo imponująco i na chwilę zatrzymujesz się, by ją przyjrzeć.`
+			`	Hai, prawdopodobnie Gemanari, wydaje się być dojrzalszą kobietą, która mruży oczy i marszczy nos. "Ugh, to jednak interpretacja Germonta."`
+			`	To wywołuje zdziwienie, na które Gemanari zastanawia się przez chwilę, zanim wyjaśnia. "Powiedziałby Pan, że to interpretacja darwinizmu społecznego."`
+			`	Pani krzywi się i udaje, że wymiotuje. "Nie mogę uwierzyć, że w tak starym społeczeństwie wciąż istnieją takie szkoły myślenia."`
+			`	"Och, tak naprawdę nie, przynajmniej nie w kręgach naukowych, ale wciągająca historia przetrwa takie rzeczy. Osobiście nie znoszę tego, ale to klasyka." Kiedy kobieta wygląda na niezadowoloną, Gemanari chichocze i delikatnie bierze ją za ramię, by znów ją odciągnąć. "Nie martw się, Alinta; myślę, że firma Misheep Wah'uden emituje właśnie moją ulubioną wersję na <destination>. Zobaczymy, czy mają jakieś tanie bilety. Oczywiście moja ciotka upierałaby się, że wersja sto osiemdziesiąta trzecia jest jedyną prawdziwą, ale ona zawsze..."`
+			`	Tracisz kontakt z rozmówcą, gdy oddala się on od ciebie, pozostawiając cię z pytaniem, co było takiego wyjątkowego w sto osiemdziesiątej trzeciej wersji sztuki o prehistorycznym latającym Hai znalezionym zamrożonym w lodzie.`
 				decline
 
 
@@ -44,29 +44,29 @@ mission "Musical Entertainment Expo"
 		random < 1
 	on offer
 		conversation
-			`While stopped in the spaceport waiting for refueling, you are surprised by how hard it is to find somewhere to sit and have a meal and a drink. It seems Hai have crammed themselves into every bar or similar venue with a public display screen, arrayed in sashes and mantles and all manner of other paraphernalia which, near as you can tell, look like... team sport merchandise?`
-			`	You're not really an expert on what such things look like in Hai society and so when you finally find somewhere to sit, at a bar for lack of any other options, you ask the tired-looking bartender what exactly is going on.`
-			`	"Oh this? They're all here for the Musical Entertainment Expo streams. Unfortunately, none of them start drinking until at least one of their teams has announced something of worth," he says with an exasperated eye-roll.`
+			`Stojąc w porcie kosmicznym w oczekiwaniu na tankowanie, jesteś zaskoczony, jak trudno znaleźć miejsce, gdzie można usiąść i zjeść posiłek i napić się. Wygląda na to, że Hai stłoczyli się w każdym barze lub podobnym miejscu z ekranem, odziani w szarfy, kominy i wszelkiego rodzaju inne gadżety, które, o ile się nie mylę, wyglądają jak... gadżety związane ze sportem drużynowym?`
+			`	Nie jesteś ekspertem, jeśli chodzi o to, jak takie rzeczy wyglądają w społeczeństwie Hai, więc kiedy w końcu udaje ci się znaleźć miejsce do siedzenia przy barze, z braku innych opcji, pytasz zmęczonego barmana, co właściwie się dzieje.`
+			`	"A to? Wszyscy tu są dla transmisji z Musical Entertainment Expo. Niestety, żaden z nich nie zaczyna pić, dopóki przynajmniej jedna z ich drużyn nie ogłosi czegoś wartościowego, " mówi, przewracając oczami z irytacją.`
 			choice
-				`	"Okay. Can I just get some food here?"`
+				`	"Okej. Czy mogę tu dostać trochę jedzenia?"`
 					goto wrapup
-				`	"What's the Musical Entertainment Expo?"`
-				`	"Why don't they start drinking yet?"`
-			`	"Well you see, the big music labels do a lot of talent scouting all year round. They all have departments solely dedicated to finding and assembling new music groups to be the next big thing. It's tradition to celebrate only after you've committed to the journey with a new band. Every three years the industry holds ME2, which is what you're seeing up there, to debut their next round of bands and to tease any mid-season releases they might have in the works."`
+				`	"Co to jest Musical Entertainment Expo?"`
+				`	"Dlaczego oni jeszcze nie zaczynają pić?"`
+			`	"No cóż, wielkie wytwórnie muzyczne intensywnie poszukują talentów przez cały rok. Wszystkie mają działy poświęcone wyłącznie wyszukiwaniu i tworzeniu nowych zespołów muzycznych, które mają stać się kolejnym hitem. Tradycją jest świętowanie dopiero po tym, jak zdecydujesz się na podróż z nowym zespołem. Co trzy lata branża organizuje ME2, co właśnie tam widzicie, aby zaprezentować kolejną grupę zespołów i zapowiedzieć premiery w połowie sezonu."`
 			choice
-				`	"Your music comes off a production line?"`
+				`	"Twoja muzyka pochodzi z linii produkcyjnej?"`
 					goto production
-				`	"Do you not have musicians trying to make it on their own?"`
-			`	"Oh for sure, but mostly just to get picked up by one of these companies."`
+				`	"Czy nie masz muzyków, którzy próbują odnieść sukces na własną rękę?"`
+			`	"Oczywiście, ale głównie po to, by jedna z tych firm cię przyjęła."`
 			label production
-			`	The bartender chuckles. "We've been doing pop music for longer than your people have had fire. It's about the experience of being a fan of a group as it rises to fame and stardom. A dedicated Hai can go back and find a song for almost any possible life experience in almost any possible genre. It's the journey, and the personalities, that are what it's all about."`
+			`	Barman chichocze. "Robimy muzykę pop dłużej, niż wasi ludzie mieli ogień. Chodzi o doświadczenie bycia fanem zespołu, który zdobywa sławę i gwiazdorstwo. Zaangażowany Hai potrafi cofnąć się w czasie i znaleźć piosenkę na niemal każde możliwe doświadczenie życiowe w niemal każdym gatunku. Chodzi o podróż i osobowości, o to właśnie chodzi. "`
 			choice
-				`	"How strange."`
-				`	"How interesting."`
-			`	"Anyway, I gather you were after some food?"`
+				`	"Jak dziwnie."`
+				`	"Jakież interesujące."`
+			`	"W każdym razie, rozumiem, że chciałeś coś zjeść?"`
 			label wrapup
-			`	The bartender tips his head in your direction and takes your order. "No problem, it'll be right up."`
-			`	It's a noisy meal.`
+			`	Barman skinął głową w twoją stronę i przyjął zamówienie. "Nie ma problemu, zaraz będzie."`
+			`	To hałaśliwy posiłek.`
 				decline
 
 
@@ -80,29 +80,29 @@ mission "The Meme Wars 1"
 		random < 1
 	on offer
 		conversation
-			`Stepping into the spaceport you are beset by a riot of color. Every blank surface that's not usually paid advertising space seems to be festooned with dangling holographic projectors, banners, and ribbons. There's even actual paper fliers and posters, apparently taped to whatever surface will bear them. At first you wonder if there's some sort of festival going on, but as you watch a young Hai wearing a hood slaps up another holo projector, creating a cartoonish root vegetable with a sword, which begins hacking at the adjacent hologram, some kind of impressionist concept of a Hai elder made up of iridescent triangles. The young Hai then proceeds to tear down a banner and slap some goo on a massive poster which begins dissolving before a pair of security guards, wearing some very obviously non-standard additions to their uniforms, chase him back out of the spaceport.`
+			`Wchodząc do kosmoportu, zostajesz zaatakowany feerią barw. Każda pusta powierzchnia, która zazwyczaj nie jest płatną powierzchnią reklamową, wydaje się być ozdobiona zwisającymi holograficznymi projektorami, banerami i wstążkami. Są nawet prawdziwe papierowe ulotki i plakaty, najwyraźniej przyklejone do każdej powierzchni, na której się pojawią. Na początku zastanawiasz się, czy odbywa się jakiś festiwal, ale gdy widzisz młodego Hai w kapturze, uderzającego w kolejny holoprojektor, tworząc kreskówkową roślinę korzeniową z mieczem, która zaczyna ciąć sąsiedni hologram, impresjonistyczną koncepcję starszego Hai złożoną z opalizujących trójkątów. Młody Hai zrywa następnie baner i nanosi trochę mazi na ogromny plakat, który zaczyna się rozpuszczać, zanim dwóch ochroniarzy, ubranych w bardzo oczywiste, niestandardowe dodatki do mundurów, wygania go z kosmoportu.`
 			branch translator
 				has "language: Hai"
-			`	As you watch, the triangular elder being holoprojected seems to flicker and then fizzles out as the battery unit fades, apparently under the assault of the root vegetable which appears to do a victory dance, before proceeding to act out something that makes precisely no sense to you.`
-			`	A little further on you encounter two different groups of protesters, assuming that's what they are, weaving in and out of the spaceport's entrances like some kind of conga line. The triangular elder and opposing root vegetable make several reappearances on their placards, some of them holographically animated.`
-			`	A different security guard, this one in regular attire, appears at your elbow. "You look a little lost. Don't worry, it's just a meme war. Carry on with your business and don't touch the meme items and no one should bother you over it."`
-			`	You thank the security guard for his advice and go about what you were doing as the baffling conflict continues around you.`
+			`	Kiedy patrzysz, trójkątny starzec wyświetlany w holoprojekcie wydaje się migotać, a następnie gaśnie, gdy bateria słabnie, najwyraźniej pod wpływem korzenia warzywa, które wykonuje taniec zwycięstwa, po czym zaczyna odgrywać coś, co nie ma dla ciebie żadnego sensu.`
+			`	Nieco dalej natkniesz się na dwie różne grupy protestujących, zakładając, że to oni, lawirując między wejściami do kosmoportu niczym w konga. Trójkątny bez i przeciwstawne warzywo korzeniowe pojawiają się kilkakrotnie na ich transparentach, niektóre z nich holograficznie animowane.`
+			`	Inny ochroniarz, tym razem w zwykłym stroju, pojawia się tuż obok ciebie. "Wyglądasz na trochę zagubionego. Nie martw się, to tylko wojna memów. Zajmij się swoimi sprawami i nie dotykaj memów, a nikt nie powinien cię z tego powodu zaczepiać. "`
+			`	Dziękujesz ochroniarzowi za radę i kontynuujesz swoje zajęcia, podczas gdy wokół ciebie trwa zagadkowy konflikt.`
 				decline
 			label translator
-			`	As you watch, the triangular elder being holoprojected seems to flicker and then fizzles out as the battery unit fades, apparently under the assault of the root vegetable which appears to do a victory dance. To your surprise, your translator pipes up: "[Victory, Success] for the true and square root that is more [significant, meaningful] than the tripartite [system, tradition] of the elders!"`
-			`	A little further on you encounter two different groups of protesters, assuming that's what they are, weaving in and out of the spaceport's entrances like some kind of conga line. The triangular elder and opposing root vegetable make several reappearances on their placards, some of them holographically animated.`
-			`	A different security guard, this one in regular attire, appears at your elbow. "You look a little lost. Don't worry, it's just a meme war. Carry on with your business and don't touch the meme items, and no one should bother you over it."`
+			`	Gdy patrzysz, trójkątny starszy, holoprojektowany, zdaje się migotać, a potem gaśnie, gdy bateria słabnie, najwyraźniej pod wpływem korzenia, który zdaje się wykonywać taniec zwycięstwa. Ku twojemu zaskoczeniu, twój tłumacz odzywa się: "[Zwycięstwo, Sukces] dla prawdy i pierwiastka kwadratowego, który jest bardziej [znaczący, znaczący] niż trójdzielny [system, tradycja] starszych!"`
+			`	Nieco dalej natkniesz się na dwie różne grupy protestujących, zakładając, że to oni, lawirując między wejściami do kosmoportu niczym w konga. Trójkątny bez i przeciwstawne warzywo korzeniowe pojawiają się kilkakrotnie na ich transparentach, niektóre z nich holograficznie animowane.`
+			`	Inny ochroniarz, tym razem w zwykłym stroju, pojawia się tuż obok ciebie. "Wyglądasz na trochę zagubionego. Nie martw się, to tylko wojna memów. Zajmij się swoimi sprawami i nie dotykaj memów, a nikt nie powinien cię z tego powodu zaczepiać. "`
 			choice
-				`	"Sure, will do."`
+				`	"Jasne, zrobię to."`
 					goto done
-				`	"Your elders have a tripartite system?"`
-			`	The security guard chuckles and says, "Oh you can understand? They don't really, but it's a very old joke from a bygone political campaign that there are only three tenets the elders care about, and they're all the ones that affect us the least."`
-			`	When you ask what has triggered this, he says, "Oh, the latest education priorities came out with a four tenet focus, on the same day that an elder accidentally quoted the old campaign. It has been very entertaining."`
+				`	"Twoi starsi mają system trójdzielny?"`
+			`	Ochroniarz chichocze i mówi: "Och, rozumiesz? Naprawdę nie rozumieją, ale to bardzo stary dowcip z dawnej kampanii politycznej, że są tylko trzy zasady, którymi interesują się starsi, i to one najmniej nas dotyczą."`
+			`	Kiedy pytasz, co to wywołało, odpowiada: "Och, najnowsze priorytety edukacyjne pojawiły się z naciskiem na cztery zasady, tego samego dnia, w którym starszy przypadkowo zacytował starą kampanię. To było bardzo zabawne. "`
 			choice
-				`	"How strange."`
-				`	"Sounds fun."`
+				`	"Jak dziwnie."`
+				`	"Brzmi fajnie."`
 			label done
-			`	You thank the security guard for his advice and go about what you were doing as the baffling conflict continues around you.`
+			`	Dziękujesz ochroniarzowi za radę i kontynuujesz swoje zajęcia, podczas gdy wokół ciebie trwa zagadkowy konflikt.`
 				decline
 
 
@@ -116,16 +116,16 @@ mission "Wrestling Star"
 		random < 1
 	on offer
 		conversation
-			`As you pass through the spaceport you notice a crowd of trilling Hai clustered in one area.`
+			`Przechodząc przez port kosmiczny zauważasz tłum wibrujących Hai skupionych w jednym miejscu.`
 			choice
-				`	(Ignore them and pass by.)`
+				`	(Zignoruj je i pomiń.)`
 					goto skip
-				`	(Take a look.)`
-			`	The crowd appears to be mostly made up of younger Hai, though a few more mature Hai are also there, visibly exhibiting more restraint on their enthusiasm. Reaching the edge of the crowd and peering over the shorter Hai folk, you can see a table set up with two standing banners flanking it and a stack of, at a glance, glossy printed photos.`
-			`	The banners depict a rather buff looking Hai, rendered in great detail, with a holographically enhanced animation that makes it appear to be continuously going through the motion of lifting and dropping a generically blurred opponent. The effect is, though, achieved solely through a trick of artificially shifting perspective. To your surprise you realize that this is a signing event for a wrestling star, of all things.`
-			`	After only a moment the individual in question emerges from a booth behind the setup and greets their fans, who prove very enthusiastic, before sitting down with some kind of pen for the assembled Hai to line up. It would seem that certain human customs have become popularized among the Hai.`
+				`	(Spójrz.)`
+			`	Wydaje się, że tłum składa się głównie z młodszych Hai, choć jest tam również kilku starszych Hai, którzy wyraźnie wykazują powściągliwość w swoim entuzjazmie. Docierając do skraju tłumu i spoglądając ponad niższymi Hai, można dostrzec stół z dwoma stojącymi transparentami po bokach i stosem, na pierwszy rzut oka, błyszczących zdjęć.`
+			`	Banery przedstawiają dość muskularnego Hai, renderowanego z dużą szczegółowością, z holograficznie ulepszoną animacją, która sprawia wrażenie, jakby nieustannie podnosił i upuszczał typowo rozmazanego przeciwnika. Efekt ten uzyskano jednak wyłącznie dzięki sztuczce polegającej na sztucznym przesunięciu perspektywy. Ku swojemu zaskoczeniu uświadamiasz sobie, że to wydarzenie z podpisywaniem autografów gwiazdy wrestlingu.`
+			`	Po chwili osoba, o której mowa, wyłania się z budki za sceną i wita swoich fanów, którzy okazują się bardzo entuzjastyczni, po czym siada z czymś w rodzaju długopisu, aby zgromadzeni Hai ustawili się w kolejce. Wygląda na to, że pewne ludzkie zwyczaje spopularyzowały się wśród Hai.`
 			label skip
-			`	You can hear the Hai crowd trilling for some distance as you go about your business.`
+			`	W pewnej odległości możesz usłyszeć wiwatujący tłum Hai, gdy zajmujesz się swoimi sprawami.`
 				decline
 
 
@@ -139,16 +139,16 @@ mission "Fencing Star"
 		random < 1
 	on offer
 		conversation
-			`As you pass through the spaceport you notice a crowd of trilling Hai clustered in one area.`
+			`Przechodząc przez port kosmiczny zauważasz tłum wibrujących Hai skupionych w jednym miejscu.`
 			choice
-				`	(Ignore them and pass by.)`
+				`	(Zignoruj je i pomiń.)`
 					goto skip
-				`	(Take a look.)`
-			`	The crowd appears to be mostly made up of younger Hai, though a few more mature Hai are also there, visibly exhibiting more restraint on their enthusiasm. Reaching the edge of the crowd and peering over the shorter Hai folk, you can see a table set up with two standing banners flanking it and a stack of, at a glance, glossy printed photos.`
-			`	The banners depict a svelte Hai in the strikingly familiar costume of a fencer, with a holographically enhanced animation that makes it appear to be continuously performing an elegant parry and riposte against an out-of-frame opponent. The effect is, though, achieved solely through a trick of artificially shifting perspective. To your surprise you realize that this is a signing event for a fencing star, of all things.`
-			`	After only a moment the individual in question emerges from a booth behind the setup and greets their fans, who prove very enthusiastic, before sitting down with some kind of pen for the assembled Hai to line up. It would seem that certain human customs have become popularized among the Hai.`
+				`	(Spójrz.)`
+			`	Wydaje się, że tłum składa się głównie z młodszych Hai, choć jest tam również kilku starszych Hai, którzy wyraźnie wykazują powściągliwość w swoim entuzjazmie. Docierając do skraju tłumu i spoglądając ponad niższymi Hai, można dostrzec stół z dwoma stojącymi transparentami po bokach i stosem, na pierwszy rzut oka, błyszczących zdjęć.`
+			`	Banery przedstawiają smukłego Hai w uderzająco znajomym stroju szermierza, z holograficznie ulepszoną animacją, która sprawia wrażenie, jakby nieustannie wykonywał eleganckie parowanie i ripostę na przeciwniku poza kadrem. Efekt ten jest jednak osiągnięty wyłącznie dzięki sztuczce polegającej na sztucznym przesunięciu perspektywy. Ku swojemu zaskoczeniu uświadamiasz sobie, że to wydarzenie z okazji podpisania kontraktu z gwiazdą szermierki.`
+			`	Po chwili osoba, o której mowa, wyłania się z budki za sceną i wita swoich fanów, którzy okazują się bardzo entuzjastyczni, po czym siada z czymś w rodzaju długopisu, aby zgromadzeni Hai ustawili się w kolejce. Wygląda na to, że pewne ludzkie zwyczaje spopularyzowały się wśród Hai.`
 			label skip
-			`	You can hear the Hai crowd trilling for some distance as you go about your business.`
+			`	W pewnej odległości możesz usłyszeć wiwatujący tłum Hai, gdy zajmujesz się swoimi sprawami.`
 				decline
 
 
@@ -162,16 +162,16 @@ mission "Mystery Sport Star"
 		random < 1
 	on offer
 		conversation
-			`As you pass through the spaceport you notice a crowd of trilling Hai clustered in one area.`
+			`Przechodząc przez port kosmiczny zauważasz tłum wibrujących Hai skupionych w jednym miejscu.`
 			choice
-				`	(Ignore them and pass by.)`
+				`	(Zignoruj je i pomiń.)`
 					goto skip
-				`	(Take a look.)`
-			`	The crowd appears to be mostly made up of younger Hai, though a few more mature Hai are also there, visibly exhibiting more restraint on their enthusiasm. Reaching the edge of the crowd and peering over the shorter Hai folk, you can see a table set up with two standing banners flanking it and a stack of, at a glance, glossy printed photos.`
-			`	The banners depict a pair of Hai, one with a net and one with what looks like a bladed frisbee. It's not at all clear what precisely it is that they do, and when the individuals in question emerge from a booth behind the setup and greet their fans it becomes clear that, if you could even make yourself heard over the trilling, no one is particularly keen to explain it to you.`
-			`	The pair remove their helmets and flash dazzling Hai smiles at their fans before sitting down with some kind of pen for the assembled Hai to line up. It would seem that celebrity signings are popular among the Hai.`
+				`	(Spójrz.)`
+			`	Wydaje się, że tłum składa się głównie z młodszych Hai, choć jest tam również kilku starszych Hai, którzy wyraźnie wykazują powściągliwość w swoim entuzjazmie. Docierając do skraju tłumu i spoglądając ponad niższymi Hai, można dostrzec stół z dwoma stojącymi transparentami po bokach i stosem, na pierwszy rzut oka, błyszczących zdjęć.`
+			`	Na banerach widnieje para Hai, jedna z siatką, a druga z czymś, co wygląda jak frisbee z ostrzami. Nie jest do końca jasne, co dokładnie robią, a kiedy osoby te wychodzą z budki za sceną i witają swoich fanów, staje się jasne, że nawet jeśli udałoby się przekrzyczeć te trele, nikt nie jest szczególnie chętny, żeby to wyjaśnić.`
+			`	Para zdejmuje kaski i posyła fanom olśniewające uśmiechy w stylu Hai, po czym siada z jakimś długopisem, aby zgromadzeni Hai ustawili się w kolejce. Wygląda na to, że autografy celebrytów cieszą się popularnością wśród Hai.`
 			label skip
-			`	You can hear the Hai crowd trilling for some distance as you go about your business.`
+			`	W pewnej odległości możesz usłyszeć wiwatujący tłum Hai, gdy zajmujesz się swoimi sprawami.`
 				decline
 
 
@@ -185,30 +185,30 @@ mission "Gambling Judgment"
 		random < 1
 	on offer
 		conversation
-			`You stop at a diner for a meal ground-side at the spaceport, but you have not been seated long before you notice there is a group of other human ship captains sequestered in a corner playing, near as you can tell, a game of poker. You note that the group seems to be getting a variety of dark looks from various Hai also dining at the establishment.`
-			`	After a short while the barkeep, a middling and slightly overweight Hai, comes over to take your order.`
+			`Zatrzymujesz się w barze na posiłek na lądzie w porcie kosmicznym, ale nie zdążyłeś usiąść, gdy zauważyłeś, że grupa innych kapitanów statków kosmicznych siedzi w kącie i gra, o ile dobrze zrozumiałeś, w pokera. Zauważasz, że grupa ta jest obrzucana ponurymi spojrzeniami przez różnych Hai, którzy również jedzą w tym lokalu.`
+			`	Po chwili podchodzi barman, przeciętny i lekko otyły Hai, aby przyjąć zamówienie.`
 			choice
-				`	(Place an order.)`
+				`	(Złóż zamówienie.)`
 					goto end
-				`	"Hey, I noticed there are some dark looks around here. Are human captains not welcome?"`
-			`	The barkeep looks confused for a second before looking over at the table and shaking his head in understanding. "Oh no, you're perfectly welcome. That group is just breaking the maturity tenets, and some Hai get uncomfortable with adults blatantly acting like children in public."`
+				`	"Hej, zauważyłem, że kręcą się tu jakieś mroczne spojrzenia. Czy ludzcy kapitanowie nie są mile widziani?"`
+			`	Karczmarz przez chwilę wygląda na zdezorientowanego, po czym spogląda na stolik i kręci głową ze zrozumieniem. "O nie, proszę bardzo. Ta grupa po prostu łamie zasady dojrzałości, a niektórzy Hai czują się nieswojo, gdy dorośli jawnie zachowują się jak dzieci w miejscach publicznych."`
 			choice
-				`	(Place an order.)`
+				`	(Złóż zamówienie.)`
 					goto end
-				`	"The maturity tenets?"`
-			`	"Oh right, I suppose you wouldn't know. There are a number of tenets that Hai are taught growing up, lessons to be internalized to be a responsible and functioning member of society. The second is 'To be honest in dealings,' and the third is 'To gamble only on skill, not chance,' so their game breaks two of them."`
+				`	"Zasady dojrzałości?"`
+			`	"Och, racja, przypuszczam, że nie wiedziałbyś. Hai dorastają i uczą się wielu zasad, które należy im wpoić, aby byli odpowiedzialnymi i funkcjonującymi członkami społeczeństwa. Druga to "Uczciwość w interesach", a trzecia to "Grać tylko o umiejętności, a nie o przypadek", więc ich gra łamie dwie z nich."`
 			choice
-				`	"Some would say poker is more about skill than chance."`
-				`	"Surely if it's just a game though, there's no harm in it?"`
-			`	"Oh no, I'm afraid the first tenet ensures that it's really not favorable either way. The first is 'To have clear separation of fantasy and reality,' so a game cannot have real consequences or it is reality, not fantasy. So to gamble money on the game is to bring real consequences to a fantasy exercise. This is taboo for an adult.`
-			`	"If you interpret the game as being played for the skill, without the wagering, then you clear the first and third tenet, but you have the issue that the principle skills are bluffing and manipulation, which violates the second tenet. Bluffing isn't a skill seen as having virtue, nor is manipulation."`
+				`	"Niektórzy powiedzieliby, że w pokerze liczy się bardziej umiejętność niż szczęście."`
+				`	"Przecież skoro to tylko gra, to nie ma w tym nic złego?"`
+			`	"O nie, obawiam się, że pierwsza zasada gwarantuje, że w żadnym wypadku nie będzie to korzystne. Pierwsza brzmi: "Wyraźne oddzielenie fantazji od rzeczywistości", więc gra nie może mieć realnych konsekwencji, bo inaczej jest rzeczywistością, a nie fantazją. Zatem obstawianie pieniędzy w grze oznacza realne konsekwencje dla fantazji. To tabu dla osoby dorosłej.`
+			`	"Jeśli interpretujesz grę jako grę dla umiejętności, bez obstawiania, to spełniasz pierwszą i trzecią zasadę, ale pojawia się problem, że głównymi umiejętnościami są blefowanie i manipulacja, co narusza drugą zasadę. Blefowanie nie jest umiejętnością postrzeganą jako cnotliwa, podobnie jak manipulacja."`
 			choice
-				`	"Wait, do the Hai not lie or bluff?"`
-			`	The barkeep chortles with a strange trill and says, "Oh no, the Hai do lie and bluff. We're actually very good at bluffing, evolutionarily advantageous in the wild and all that. It's just seen as very immature and base. An adult should be able to conduct their life without resorting to such primitive instincts. We learned that the hard way long ago, back before we holed up in our current borders."`
-			`	He looks at you intently before continuing, "You won't hear the tenets brought up very much, but if you look closely you'll see that the first three especially are ingrained in our society very deeply."`
-			`	With a shrug he flips open his order pad and pats his belly. "Of course, my gran always said that any of them after the tenth were more guidelines than actual rules, and I certainly have my share of disagreements with thirteen. Now, before I talk your ears off, what'll I get for you?"`
+				`	"Czekaj, czy Hai nie kłamią i nie blefują?"`
+			`	Karczmarz rechocze dziwnym trelem i mówi: "O nie, Hai kłamią i blefują. Jesteśmy w tym naprawdę dobrzy, ewolucyjnie korzystni w naturze i tak dalej. Po prostu uważa się to za bardzo niedojrzałe i prymitywne. Dorosły człowiek powinien umieć żyć bez uciekania się do tak prymitywnych instynktów. Przekonaliśmy się o tym boleśnie dawno temu, zanim zamknęliśmy się w naszych obecnych granicach. "`
+			`	Przygląda ci się uważnie, zanim kontynuuje, "Nie usłyszysz często omawiania tych zasad, ale jeśli przyjrzysz się uważnie, zauważysz, że zwłaszcza pierwsze trzy są głęboko zakorzenione w naszym społeczeństwie."`
+			`	Wzruszając ramionami, otwiera swój notes i klepie się po brzuchu. "Oczywiście, moja babcia zawsze powtarzała, że wszystkie po dziesiątym to raczej wytyczne niż zasady, a ja z trzynastką mam swoje rozbieżności. A teraz, zanim zagadam cię na śmierć, co ci podam?"`
 			label end
-			`	He takes your order diligently and with a smile.`
+			`	Przyjmuje zamówienie starannie i z uśmiechem.`
 				decline
 
 
@@ -224,43 +224,43 @@ mission "Academy Motto"
 		has "language: Hai"
 	on offer
 		conversation
-			`On this particular day, the spaceport is crowded beyond belief by some arcane confluence of chance and logistics. Despite having resolved the bulk of your business the port authorities have informed you that there is no safe departure slot open for at least seven hours (and even that's not a promise). This leaves you alone to fill in your unexpected bit of time in the early morning.`
+			`Tego dnia kosmodrom jest przepełniony ponad wszelkie wyobrażenia, z powodu tajemniczego zbiegu okoliczności i logistyki. Pomimo załatwienia większości spraw, władze portu poinformowały Cię, że przez co najmniej siedem godzin nie ma wolnego, bezpiecznego slotu na odlot (i nawet to nie jest obietnica). Dzięki temu możesz sam wypełnić swój nieoczekiwany czas wczesnym rankiem.`
 			choice
-				`	(Play games on my ship.)`
-				`	(Have a look around further afield.)`
+				`	(Graj w gry na moim statku.)`
+				`	(Rozejrzyj się dalej.)`
 					goto "field trip"
-			`	Not interested in getting lost in an expansive Hai city, you simply load up an entertainment console to keep you occupied for the next few hours.`
+			`	Nie masz ochoty gubić się w rozległym mieście Hai? Po prostu aktywuj konsolę rozrywkową, która zajmie Cię na kilka następnych godzin.`
 				decline
 			label "field trip"
-			`	The tendency of the Hai to efficiently pack people into vibrant but densely populated spaces is on full display as you navigate through throngs of Hai who mostly make polite efforts to avoid bumping into you. Colorful banners, flags, murals, and even windows all provide brilliant highlights to the oft-utilitarian architectural styles underlying them. Holoprojected welcome signs even grace the entry-ways of several apartment buildings that you pass, with caveats for door-to-door salespeople.`
-			`	One apartment complex's exterior fencing bears a very large sign which your translator informs you says, "No Meme Content Here Please."`
-			`	After some time you find what appears to be a cafe, or equivalent, and sit down where you can get a good view of one of the more impressive building complexes around. After a moment a holoprojection built into the table asks you in human standard whether you'd like to order through the table or converse with a member of staff.`
+			`	Tendencja Hai do sprawnego upychania ludzi w tętniących życiem, ale gęsto zaludnionych przestrzeniach jest w pełni widoczna, gdy przedzierasz się przez tłumy Hai, którzy zazwyczaj starają się unikać zderzenia z tobą. Kolorowe banery, flagi, murale, a nawet okna - wszystkie one stanowią olśniewające akcenty dla często utylitarnych stylów architektonicznych, które się za nimi kryją. Holoprojektowane tablice powitalne zdobią nawet wejścia do kilku mijanych budynków mieszkalnych, z ostrzeżeniami dla akwizytorów.`
+			`	Na zewnętrznym ogrodzeniu jednego z kompleksów mieszkalnych znajduje się bardzo duży znak, na którym, jak informuje Twój tłumacz, widnieje napis: "Proszę nie zamieszczać tutaj treści memicznych."`
+			`	Po jakimś czasie znajdujesz coś, co wygląda na kawiarnię lub coś podobnego, i siadasz, skąd możesz podziwiać jeden z bardziej imponujących kompleksów budynków w okolicy. Po chwili holoprojekcja wbudowana w stół pyta cię w ludzkim języku, czy chcesz złożyć zamówienie przez stolik, czy porozmawiać z pracownikiem.`
 			choice
-				`	(Order through the table.)`
+				`	(Porządek w tabeli.)`
 					goto "pleasant lunch"
-				`	(Order through a person.)`
-			`	A friendly Hai emerges to take your order and politely informs you that there's a 10% surcharge for eating on the terrace. Since that's hardly a meaningful sum to a ship's captain you just nod and try and work out what you're eating. Eventually you settle for a sandwich with acorn butter and vegetable slices that appear to be spiced, or pickled, you're not really sure. It was the staff's top recommended item and didn't come with any follow-up questions about Hai food preferences that you couldn't answer.`
+				`	(Zamówienie za pośrednictwem osoby.)`
+			`	Przyjazny Hai wychodzi, aby przyjąć zamówienie i uprzejmie informuje, że za jedzenie na tarasie obowiązuje 10% dopłata. Ponieważ dla kapitana statku to nie jest znacząca kwota, kiwasz tylko głową i próbujesz zrozumieć, co jesz. Ostatecznie decydujesz się na kanapkę z masłem żołędziowym i plasterkami warzyw, które wyglądają na przyprawione lub marynowane - nie jesteś pewien. Była to najczęściej polecana przez obsługę pozycja i nie zadano żadnych dodatkowych pytań o preferencje kulinarne Hai, na które nie potrafiłeś odpowiedzieć.`
 				goto "finishing chat"
 			label "pleasant lunch"
-			`	The interface is rather annoying to work with human-sized hands, but eventually you settle for a sandwich with acorn butter and vegetable slices that appear to be spiced, or pickled, you're not really sure. It was the top recommended item and didn't come with any follow-up questions about Hai food preferences that you couldn't answer.`
+			`	Interfejs jest dość irytujący dla dłoni wielkości człowieka, ale ostatecznie decydujesz się na kanapkę z masłem żołędziowym i plasterkami warzyw, które wyglądają na przyprawione lub marynowane - nie jesteś do końca pewien. Była to najczęściej polecana pozycja i nie zawierała żadnych dodatkowych pytań o preferencje żywieniowe Hai, na które nie potrafiłeś odpowiedzieć.`
 			label "finishing chat"
-			`	As you eat your strange, but actually surprisingly tasty lunch, you take note of the large text written above the gateway into the grounds for the building complex opposite you. After a moment your translator box takes note of where you're looking and reads it aloud for you.`
-			`	"To know is to lead, to study is to know, to serve is to study, to lead is to serve."`
-			`	Naturally, your translator cannot answer questions, so you eat your lunch and leave it be until a staff member emerges to take your plate.`
+			`	Jedząc swój dziwny, ale zaskakująco smaczny lunch, zauważasz duży napis wypisany nad bramą prowadzącą na teren kompleksu budynków naprzeciwko. Po chwili twój translator rozpoznaje, gdzie patrzysz i odczytuje go na głos.`
+			`	"Wiedzieć znaczy przewodzić, studiować znaczy wiedzieć, służyć znaczy studiować, przewodzić znaczy służyć."`
+			`	Oczywiście, Twój tłumacz nie może odpowiedzieć na Twoje pytania, więc jesz swój lunch i czekasz, aż ktoś z personelu przyjdzie, żeby zabrać Twój talerz.`
 			choice
-				`	(Ask them about it.)`
+				`	(Zapytaj ich o to.)`
 					goto question
-				`	(Keep my thoughts to myself.)`
-			`	The staff member takes your plate and wishes you a lovely day.`
+				`	(Zachowaj moje myśli dla siebie.)`
+			`	Pracownik bierze Twój talerz i życzy Ci miłego dnia.`
 				decline
 			label question
-			`	As they clear your plate from the table you ask them about the text on the gateway.`
-			`	"Oh, that's the city Academy. It's a... uh..." she pauses for a moment and relays something in Hai which your translator immediately converts to, "non-technical university."`
-			`	Giving the box a surprised look she smiles and continues in Hai, "If you want to be a manager, a politician, a social worker, or even just a public speaker, you go to the Academy and do courses on leadership and communications. Strictly speaking, it's not necessary to go, but lots of places simply won't accept you into those sorts of roles without some sort of Academy qualification, and they really do provide some great skills. I'm actually going there next year to do a proper human language course.`
-			`	"Technically the Academies are all independent, but they all share the same motto. It's an obligatory thing too though, that's what the motto is about. I'm told most humans think it's backwards, but it's not. The Academies keep tabs on their graduates; if you lead with self-interest, serve without studying, study without learning or waste your knowledge without applying it, they've been known to revoke people's qualifications. Attendance is free, so there's an expectation that you don't waste what they spend time teaching you.`
-			`	"This one is quite prestigious, but the ones near the spaceports always are." She winks. "Experience through natural exposure is worth more than what money can buy, after all."`
-			`	A moment later your comm pad alerts you that you've been assigned a departure window from the spaceport in relatively short order.`
-			`	"Well, I must be attending to other customers. You have a great day!" she says, leaving you to go about your business.`
+			`	Kiedy zabierają Twój talerz ze stołu, pytasz ich o tekst na bramce.`
+			`	"Och, to miejska Akademia. To... eee..." robi pauzę na chwilę i przekazuje coś w języku hawajskim, co twój tłumacz natychmiast tłumaczy na "uniwersytet nietechniczny."`
+			`	Spojrzała na pudełko ze zdziwieniem, uśmiechnęła się i kontynuowała: Hai, "Jeśli chcesz zostać menedżerem, politykiem, pracownikiem socjalnym, a nawet po prostu mówcą, idziesz do Akademii i bierzesz udział w kursach z przywództwa i komunikacji. Ściśle rzecz biorąc, nie jest to konieczne, ale wiele miejsc po prostu nie przyjmuje cię na takie stanowiska bez kwalifikacji z Akademii, a naprawdę dają świetne umiejętności. Jadę tam w przyszłym roku, żeby wziąć udział w porządnym kursie języka ludzkiego.`
+			`	"Technicznie rzecz biorąc, Akademie są niezależne, ale wszystkie mają to samo motto. To również obowiązek, o to właśnie chodzi w tym motcie. Podobno większość ludzi uważa, że to na odwrót, ale tak nie jest. Akademie śledzą losy swoich absolwentów; jeśli kierujesz się własnym interesem, służysz bez nauki, studiujesz bez uczenia się lub marnujesz swoją wiedzę bez jej zastosowania, znane są przypadki cofnięcia kwalifikacji. Uczęszczanie na zajęcia jest bezpłatne, więc oczekuje się, że nie zmarnujesz czasu, który poświęcają na naukę.`
+			`	"Ten jest dość prestiżowy, ale te w pobliżu kosmodromów zawsze takie są." Mruga okiem. "Doświadczenie zdobyte dzięki naturalnym obserwacjom jest przecież warte więcej niż to, co można kupić za pieniądze."`
+			`	Chwilę później twój panel komunikacyjny informuje cię, że w stosunkowo krótkim czasie przydzielono ci okno wylotu z kosmoportu.`
+			`	"No cóż, muszę zająć się innymi klientami. Miłego dnia! " mówi, zostawiając cię, żebyś mógł zająć się swoimi sprawami.`
 				decline
 
 
@@ -275,35 +275,35 @@ mission "Robotic Musical 1"
 		random < 1
 	on offer
 		conversation
-			`Passing down the main thoroughfare of this spaceport you almost ignore a stack of haphazardly piled crates in the median strip. It's not uncommon for recently unloaded crates to temporarily sit in front of different businesses in a port, placed conspicuously out of the way of the flow of foot traffic, but it is the disordered piling that seems out of place.`
-			`	No sooner do you slow your step to give it your attention though, than the pile of crates immediately springs to life.`
+			`Przechodząc główną arterią tego kosmoportu, niemal ignoruje się stertę chaotycznie ułożonych skrzyń na pasie rozdzielającym jezdnie. Nierzadko zdarza się, że niedawno rozładowane skrzynie tymczasowo stoją przed różnymi firmami w porcie, ulokowane w widocznym miejscu, z dala od ruchu pieszych, ale to właśnie ten nieuporządkowany stos wydaje się nie na miejscu.`
+			`	Ledwo jednak zwolnisz kroku, by zwrócić na to uwagę, stos skrzyń natychmiast ożywa.`
 			branch translator
 				has "language: Hai"
-			`	Music plays and some half dozen robotic caricatures of Hai in exaggerated dress spring forth from various crates and begin to caper about in a series of interactions presumably intended to be comedic, at least judging by how they keep turning away from each other to "look" at the audience and wink. Holoprojected banners and glyphs, presumably advertisement information, flicker through a series of displays as it goes through a cycle before the entire cohort appear to finish up; each onlooker the recipient of some kind of entreaty from at least one robot, before they immediately clamber back into the crates.`
-			`	Throughout this a handful of Hai have stopped to watch, and a couple of them let out small chuckles at the conclusion before continuing on their way. Most of them simply roll their eyes and move on though. One child wanders too close as their parents steer around it and a little red holographic warning sign briefly flashes at them. No one seems keen to explain what you just saw, and for the moment the crates remain resolutely closed.`
+			`	Rozbrzmiewa muzyka, a z różnych skrzyń wyskakuje około pół tuzina robotycznych karykatur Hai w przesadnych strojach i zaczyna się wygłupiać w serii interakcji, które prawdopodobnie mają być komediowe, przynajmniej sądząc po tym, jak odwracają się od siebie, by "spojrzeć" na publiczność i mrugnąć okiem. Holoprojekcyjne banery i glify, prawdopodobnie reklamy, migają na ekranie, przechodząc cykl, zanim cała grupa zdaje się kończyć; każdy widz otrzymuje jakąś prośbę od co najmniej jednego robota, zanim natychmiast wdrapie się z powrotem do skrzyń.`
+			`	W trakcie tego wszystkiego garstka Hai zatrzymała się, żeby popatrzeć, a kilka z nich cicho zachichotało na zakończenie, po czym ruszyło dalej. Większość z nich po prostu przewróciła oczami i odeszła. Jedno dziecko podeszło zbyt blisko, gdy rodzice je ominęli, a na chwilę pojawił się przed nimi mały, czerwony, holograficzny znak ostrzegawczy. Nikt nie wydawał się chętny do wyjaśnienia tego, co właśnie widzieliście, i na razie skrzynie pozostały zdecydowanie zamknięte.`
 			action
 				set roboticconfusion
 			# This controls branching if there's a future follow-up where you get to see the performance.
-			`	Now that you think about it, you're not sure they all climbed back into the same boxes they came out of.`
+			`	Teraz, kiedy się nad tym zastanowisz, nie masz pewności, czy wszyscy wrócili do tych samych pudeł, z których wyszli.`
 				decline
 			label translator
-			`	Music plays and some half dozen robotic caricatures of Hai in exaggerated dress spring forth from various crates and begin to caper about in a series of interactions. Your translator struggles to keep up as they run through a rapid-fire string of presumably witty wordplay jokes that don't translate well. The humor appears to be improvisational at first, but the illusion is so good that the realization of the impossibility of robots improvising only catches up with you after the fact. The entire thing is set to a musical score, with beat rests at various points where the animatronic Hai keep turning away from each other to 'look' at the audience and wink. Holoprojected banners and glyphs flicker through a series of displays informing you that this is an advertisement for a fully robotic comedy musical called "The Grandmother's Rules." It claims to be complete with interactive heckling responses and provides a list of dates and venues, all in the far future, where it will be showing.`
-			`	At the end each one of the robots strikes a pose and invites a different demographic to come along and "have the time of a decade," with ticket prices starting from 73 credits, before the entire cohort finish up and immediately clamber back into the crates. You're not sure they all climbed back into the same boxes they came out of.`
-			`	Throughout this a handful of Hai have stopped to watch, and a couple of them let out small chuckles at the conclusion before continuing on their way. Most of them simply roll their eyes and move on though.`
-			`	One middle-aged Hai in the crowd with racoon-like gray around his eyes wears the type of attire typical of their merchant captains. He eyes you curiously and steps over to you. "Well, well, Captain, that's a remarkable box you have there. Didn't know they'd started making live translator devices! Did it keep up alright?"`
+			`	Muzyka gra, a z różnych skrzyń wyskakuje około pół tuzina robotycznych karykatur Hai w przesadnych strojach i zaczyna się kręcić w serii interakcji. Twój tłumacz z trudem nadąża, gdy powtarzają serię pozornie dowcipnych żartów opartych na grach słownych, które nie dają się dobrze przetłumaczyć. Początkowo humor wydaje się improwizowany, ale iluzja jest tak dobra, że uświadomienie sobie niemożności improwizacji robotów dociera do ciebie dopiero po fakcie. Całość jest osnuta na ścieżce dźwiękowej, z pauzami w rytmie w różnych momentach, w których animatroniczne Hai odwracają się od siebie, by "spojrzeć" na publiczność i mrugnąć okiem. Holoprojektowane banery i glify migają na serii wyświetlaczy, informując, że jest to reklama całkowicie robotycznego komediowego musicalu zatytułowanego "The Grandmother's Rules." Reklama ma zawierać interaktywne odpowiedzi na zaczepki oraz listę dat i miejsc, w których będzie pokazywana (wszystkie w odległej przyszłości).`
+			`	Na końcu każdy z robotów przybiera pozę i zaprasza inną grupę demograficzną, aby "przeżyli razem dekadę", a ceny biletów zaczynają się od 73 kredytów, zanim cała grupa skończy i natychmiast wdrapie się z powrotem do skrzyń. Nie masz pewności, czy wszyscy wrócili do tych samych pudeł, z których wyszli.`
+			`	W trakcie tego odcinka garstka Hai zatrzymała się, żeby popatrzeć, a kilku z nich cicho zachichotało na zakończenie, po czym ruszyło dalej. Większość z nich jednak po prostu przewróciła oczami i poszła dalej.`
+			`	Jeden z Hai w średnim wieku w tłumie, z siwizną wokół oczu jak u szopa, nosi strój typowy dla ich kapitanów statków handlowych. Przygląda ci się z ciekawością i podchodzi do ciebie. "No cóż, kapitanie, masz tam niezwykłe pudełko. Nie wiedziałem, że zaczęli produkować żywe urządzenia tłumaczące! Czy nadążało?"`
 			choice
-				`	"Oh, it's the first of its kind."`
+				`	"O, to pierwsze tego typu."`
 					goto first
-				`	"I think I got the gist of it, though it only reads things out if I look directly at them."`
-			`	"Ah yes, I suppose that's a logical feature," he says. "I can only imagine it would be quite unwieldy if it tried to read out every piece of text in its vicinity.`
+				`	"Myślę, że zrozumiałem o co chodzi, choć program odczytuje dane tylko wtedy, gdy patrzę na nie bezpośrednio."`
+			`	"Ach tak, przypuszczam, że to logiczna funkcja, " mówi. "Mogę sobie tylko wyobrazić, że byłoby to dość nieporęczne, gdyby próbowało odczytać każdy fragment tekstu w pobliżu.`
 				goto resolve
 			label first
-			`	"The first?" He studies you for a second. "Oh, you're Captain <last>! What a pleasure to meet you."`
-			`	He looks you up and down with a wry grin. "Somehow you're shorter than I expected.`
+			`	"Pierwszy?" Przygląda ci się przez chwilę. "Och, jesteś Kapitanem <last>! Jak miło cię poznać."`
+			`	Obserwuje cię od stóp do głów z krzywym uśmiechem. "Jakoś jesteś niższy, niż się spodziewałem.`
 			label resolve
-			`	"Well if you do get the chance, I do recommend the performance. I saw it a few months back and it really is quite good. Particularly popular on our worlds with many humans."`
-			`	He flicks you a friendly wave. "I must be off. Don't get too close to the displays, they don't like being touched!"`
-			`	The Hai sounds very pleased as he ambles off, quietly chortling to himself as he departs.`
+			`	"Cóż, jeśli będziecie mieli okazję, polecam ten spektakl. Widziałem go kilka miesięcy temu i jest naprawdę całkiem niezły. Szczególnie popularny na naszych planetach, gdzie jest wielu ludzi."`
+			`	Macha do ciebie przyjaźnie. "Muszę już iść. Nie podchodź za blisko wyświetlaczy, nie lubią, gdy się je dotyka! "`
+			`	Hai wydaje się bardzo zadowolony, gdy odchodzi, cicho chichocząc do siebie.`
 				decline
 
 
@@ -318,17 +318,17 @@ mission "Hai Film Release"
 		random < 1
 	on offer
 		conversation
-			`Upon visiting the spaceport, you notice a poster for a movie in Hai. You recognize it as taking place on Darkrest, and quickly realize that this must be the movie that Likeet had made. The Hai-language title has been translated to "The Final Rest," but the full movie doesn't appear to have been subtitled in your language yet.`
+			`Po wizycie w porcie kosmicznym zauważasz plakat do filmu w języku Hai. Rozpoznajesz, że akcja filmu rozgrywa się na planecie Darkrest i szybko uświadamiasz sobie, że to musi być film, który nakręcił Likeet. Tytuł w języku Hai został przetłumaczony na "The Final Rest,", ale cały film najwyraźniej nie ma jeszcze napisów w Twoim języku.`
 			choice
-				`	(Go see it.)`
+				`	(Idź i zobacz.)`
 				`	(Pass.)`
 					decline
 			branch translator
 				has "language: Hai"
-			`	You find a movie theater showing Likeet's film. You're not quite sure what's happening: something to do with an unseen monster inhabiting the station that slowly drives those it meets insane. It seems to be a hit with the Hai audience, though, and you leave the theater feeling distinctly unnerved.`
+			`	Znajdujesz kino, w którym wyświetlany jest film Likeeta. Nie jesteś do końca pewien, co się dzieje: chodzi o niewidzialnego potwora zamieszkującego stację, który powoli doprowadza napotkanych do szaleństwa. Wydaje się jednak, że film podoba się publiczności Hai i wychodzisz z kina wyraźnie zdenerwowany.`
 				decline
 			label translator
-			`	You find a movie theater showing Likeet's film, but your translator is of little help here. The movie is sparse on dialog, and the few lines spoken in the movie seem to be cryptic references to Hai literature and philosophy. The most you are able to make out is that the movie is about an unseen monster inhabiting the station that slowly drives those it meets insane. It seems to be a hit with the Hai audience, though, and you leave the theater feeling distinctly unnerved.`
+			`	Znajdujesz kino, w którym wyświetlany jest film Likeeta, ale Twój tłumacz niewiele Ci pomoże. Film jest ubogi w dialogi, a kilka kwestii wydaje się być enigmatycznymi odniesieniami do literatury i filozofii Hai. Jedyne, co jesteś w stanie wywnioskować, to to, że film opowiada o niewidzialnym potworze zamieszkującym stację, który powoli doprowadza napotkanych do szaleństwa. Wydaje się jednak, że film cieszy się powodzeniem wśród widzów Hai i wychodzisz z kina z wyraźnym zdenerwowaniem.`
 
 
 
@@ -343,45 +343,45 @@ mission "Sick of Acorn Bread"
 		random < 2
 	on offer
 		conversation
-			`With some time to kill while your ship is being serviced by the Hai dockhands, you enter the spaceport searching for a bite to eat. Restaurants advertise their menus in bright, attention-grabbing colors on their windows; among the selection, you spot one that promises "authentic Hai cuisine," along with some large text printed in the Hai language. Next to it, you see a human street food vendor offering snacks and ready-made meals.`
+			`Mając trochę czasu do stracenia, podczas gdy Twój statek jest obsługiwany przez dokerów z Hai, wchodzisz na kosmodrom w poszukiwaniu czegoś do jedzenia. Restauracje reklamują swoje menu w jaskrawych, przyciągających wzrok kolorach na swoich witrynach; wśród wyboru dostrzegasz jedną, która obiecuje "autentyczną kuchnię Hai," wraz z dużym tekstem wydrukowanym w języku Hai. Obok widzisz ulicznego sprzedawcę oferującego przekąski i gotowe dania.`
 			choice
-				`	(Enter the restaurant.)`
+				`	(Wejdź do restauracji.)`
 					goto restaurant
-				`	(Buy something from the human food vendor instead.)`
-				`	(On second thought, I'm not that hungry.)`
+				`	(Zamiast tego kup coś od sprzedawcy ludzkiego jedzenia.)`
+				`	(Po namyśle, nie jestem aż tak głodny.)`
 					decline
 			action
 				payment -25
-			`	Food made by humans is certainly the safer option. The vendor sells you a dish comprised of steamed vegetables, along with a fillet of some yellow-tinged fish which she assures you is perfectly edible. The meal is somewhat bland, but the fish is buttery and tender. You dispose of the leftovers in a nearby garbage receptacle, and you watch as it beeps melodically, incinerating the refuse.`
+			`	Jedzenie przygotowane przez ludzi jest z pewnością bezpieczniejszą opcją. Sprzedawca oferuje ci danie składające się z gotowanych na parze warzyw oraz fileta z żółtej ryby, która, jak zapewnia, jest całkowicie jadalna. Posiłek jest nieco mdły, ale ryba jest maślana i delikatna. Resztki wyrzucasz do pobliskiego kosza na śmieci i obserwujesz, jak melodyjnie piszczy, spalając odpady.`
 				decline
 			label restaurant
-			`	A Hai restaurant is sure to provide a more unique experience. The door jingles a short melody as you enter the establishment, and a middle-aged female Hai with her back to you shouts something in the Hai language.`
+			`	Restauracja Hai z pewnością zapewni bardziej wyjątkowe doznania. Drzwi rozbrzmiewają krótką melodią, gdy wchodzisz do środka, a kobieta w średnim wieku, odwrócona tyłem do ciebie, krzyczy coś w języku Hai.`
 			branch translator
 				has "language: Hai"
-			`	You freeze for a second, as it is unclear what the Hai wants from you.`
+			`	Zamierasz na sekundę, ponieważ nie jest jasne, czego Hai od ciebie chce.`
 				goto order
 			label translator
-			`	Your translator chirps dutifully, "Have a [seat, rest] anywhere you like! I'll be right with you."`
+			`	Twój tłumacz ćwierka sumiennie: "Usiądź sobie, odpocznij gdziekolwiek chcesz! Zaraz do ciebie przyjdę."`
 			label order
-			`	Only a short moment later, the same Hai hostess peers over at you and chitters in what you assume is embarrassment. "I'm so sorry. I didn't realize I would have the pleasure of serving a human today. Please, have a seat anywhere at the bar. I'll come to take your order shortly."`
-			`	You take a look around and note that the restaurant is actually quite crowded. There are Hai dressed in fancy tuxedos, fashionable clothing, casual dress, and even some wearing peculiar overalls with holes in the backs for their tails; there don't seem to be any other humans. With only a few seats available, you select one on the end, next to a rather large Hai wearing green overalls and an orange straw hat. He grunts noncommittally as you sit down on a stool clearly designed for an organism with a tail. Before long, the hostess approaches and asks for your order.`
+			`	Chwileczkę później ta sama hostessa Hai zerka na ciebie i zaczyna coś mówić z zażenowaniem. "Przepraszam bardzo. Nie wiedziałam, że będę miała przyjemność obsługiwać dziś człowieka. Proszę usiąść gdziekolwiek przy barze. Zaraz przyjdę i przyjmę zamówienie. "`
+			`	Rozglądasz się i zauważasz, że restauracja jest dość zatłoczona. Są tam Hai ubrani w eleganckie smokingi, modne ubrania, luźne stroje, a nawet niektórzy w osobliwych kombinezonach z dziurami z tyłu na ogony; nie ma tu żadnych innych ludzi. Mając tylko kilka wolnych miejsc, wybierasz jedno na końcu, obok dość dużego Hai w zielonym kombinezonie i pomarańczowym słomkowym kapeluszu. Mruczy niezobowiązująco, gdy siadasz na stołku, który ewidentnie jest przeznaczony dla organizmu z ogonem. Wkrótce podchodzi kelnerka i pyta o twoje zamówienie.`
 			choice
-				`	"I'll have today's special."`
-				`	"I'd like some soup, please."`
-			`	"You're in luck," she says. "Today only, each meal is served with a free side of acorn bread." She scampers off to place and retrieve your order.`
-			`	The Hai next to you grunts again - this time with clear frustration - and turns to speak. "Acorn bread! That's all they serve here anymore. Ever since you humans arrived in our space, that's all we get to eat. Traditional Hai breadmaking has become a lost art."`
+				`	"Dzisiejszy specjał będzie specjalny."`
+				`	"Poproszę zupę."`
+			`	"Masz szczęście," mówi. "Tylko dzisiaj do każdego posiłku podawany jest darmowy chleb żołędziowy." Biegnie, żeby złożyć i odebrać twoje zamówienie.`
+			`	Hai obok ciebie znowu mruczy - tym razem z wyraźną frustracją - i odwraca się, żeby przemówić. "Chleb żołędziowy! Tylko to tu serwują. Odkąd wy, ludzie, pojawiliście się w naszej przestrzeni, jemy tylko to. Tradycyjne pieczenie chleba Hai stało się zapomnianą sztuką."`
 			choice
-				`	"Can you tell me about traditional Hai breadmaking?"`
-				`	"I'm sorry. I didn't mean to offend your culture."`
+				`	"Czy możesz mi opowiedzieć o tradycyjnym wypieku chleba Hai?"`
+				`	"Przepraszam. Nie chciałem obrazić twojej kultury."`
 					goto offend
-			`	He seems somewhat calmed by your interest.`
+			`	Wydaje się, że twoje zainteresowanie go nieco uspokoiło.`
 				goto breads
 			label offend
-			`	The look on his face softens. "I should be the one to apologize. It's not your fault that our spaceports' menus have changed in this respect. Humans have also brought new life to many parts of Hai society. It is only a pity that we have to travel far to find the types of bread that we had in years past."`
-			`	"Can you tell me about other types of bread?" you ask.`
+			`	Wyraz jego twarzy łagodnieje. "Powinienem przeprosić. To nie twoja wina, że menu w naszych kosmoportach zmieniło się pod tym względem. Ludzie wnieśli też nowe życie do wielu części społeczeństwa Hai. Szkoda tylko, że musimy podróżować daleko, żeby znaleźć takie rodzaje chleba, jakie jedliśmy w przeszłości. "`
+			`	"Czy możesz mi opowiedzieć o innych rodzajach chleba?" pytasz.`
 			label breads
-			`	"Oh yes." He shifts his weight on the stool. "I'm old enough to remember hayipp bread, yur ki bread - you name it. Hayipp is a grain, similar to your human 'corn,' which creates a wholesome ruddy brown flour when milled. The bread was hearty, yet exquisite." You note the wistful look on his face. "Yur ki is a milk, sourced from livestock we raise. You may have seen some on Newhome; I'm told your kind has a similar animal called 'sheep.' Bread made from yur ki is rich and decadent. It is among my favorite foods to have for breakfast." He pauses for a moment and looks a bit downcast. "Acorn bread was once a rare sight in Hai cuisine. Far too sweet. But, since humans have joined us on our planets, all they want is acorn bread. The high demand has displaced all of the traditional breads that I grew up with from high traffic areas such as this spaceport restaurant. I miss having them easily available."`
+			`	"O tak." Przenosi ciężar ciała na stołku. "Jestem wystarczająco stary, żeby pamiętać chleb hayipp, chleb yur ki - cokolwiek chcesz. Hayipp to ziarno, podobne do ludzkiej "kukurydzy", które po zmieleniu tworzy zdrową, rudobrązową mąkę. Chleb był treściwy, a zarazem wykwintny." Zauważasz melancholijny wyraz jego twarzy. "Yur ki to mleko, pozyskiwane od zwierząt gospodarskich, które hodujemy. Mogłeś je widzieć na Newhome; podobno twój gatunek ma podobne zwierzę zwane "owcami". Chleb zrobiony z yur ki jest treściwy i dekadencki. To jedno z moich ulubionych dań na śniadanie." Na chwilę milknie i wygląda na nieco przygnębionego. "Chleb żołędziowy był kiedyś rzadkością w kuchni Hai. Zdecydowanie za słodki. Ale odkąd ludzie dołączyli do nas na naszych planetach, wszystko, czego chcą, to chleb żołędziowy. Wysoki popyt wyparł wszystkie tradycyjne pieczywo, z którym się wychowałem, z miejsc o dużym natężeniu ruchu, takich jak ta restauracja w porcie kosmicznym. Tęsknię za tym, żeby było łatwo dostępne. "`
 			action
 				payment -50
-			`	As if on cue, the hostess arrives with both of your meals. The Hai next to you, whose name you still do not know, sighs as he sees his free acorn bread, but he eats it nonetheless. You each finish your meals in silence and leave.`
+			`	Jak na zawołanie, gospodyni przybywa z oboma posiłkami. Siedzący obok ciebie Hai, którego imienia wciąż nie znasz, wzdycha na widok swojego darmowego chleba z żołędziami, ale i tak go zjada. Kończycie posiłki w milczeniu i wychodzicie.`
 				decline

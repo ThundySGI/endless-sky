@@ -113,7 +113,7 @@ news "remnant security advisory"
 			"Threats"
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Incoming Korath Fleet in "
 		word
@@ -132,10 +132,10 @@ news "remnant security advisory"
 		word
 			"."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Incoming Korath Ship in "
 		word
@@ -154,10 +154,10 @@ news "remnant security advisory"
 		word
 			"."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Patrol"
 			"Salvage"
@@ -196,10 +196,10 @@ news "remnant security advisory"
 		word
 			"."
 		word
-			`"`
+			`<CN-7796>`
 	message
 		word
-			`"`
+			`<CN-7796>`
 		word
 			"Salvage ships report to orbit for incoming Korath ships."
 			"No change in current threat level."
@@ -209,7 +209,7 @@ news "remnant security advisory"
 			"Reminder to update your IFF settings and verify keys."
 			"Reminder to verify functionality of selective IFF broadcast every startup."
 		word
-			`"`
+			`<CN-7796>`
 
 
 
